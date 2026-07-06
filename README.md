@@ -1,9 +1,8 @@
-## Publishing my birthday present.
 I've screwed around with this since '99.
 It's time you got a chance to read it.
 
-The work is solid and seems more or less complete. 
-Though its state is incomplete, it coheres, converges toward unity. so it would seem.
+The work appears solid and seems more or less complete. 
+Though its state is incomplete, it coheres, converges. That is good.
 
 Still a lot to do. Scroll to the end of this page for keyword and proofs.
 Talking about Proofs below.
