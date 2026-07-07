@@ -20,11 +20,11 @@ The fundamental structure of logic is a tetrahedron (K4) with four faces. In the
 
 A healthy tetrahedral system operates from all four faces in mutual determination. Each face is available; each checks and is checked by the others; the interior — the volume the four faces enclose — is navigable.
 
-Plane-lock is the condition of operating exclusively from one face while the others become inaccessible. Topologically, this means treating a flat boundary surface (a K3 blanket-face) as if it contained the interior volume. 
+Plane-lock is the condition of operating exclusively from one face. This makes the other three faces inaccessible. Topologically, this means treating a flat boundary surface (a K3 blanket-face) as if it contained the interior volume, and the rest of any outside.
 
 Logoic plane-lock — operating exclusively from Air/Logos/Thinking — is the dominant condition of Western intellectual culture from approximately the Enlightenment forward. This is not a claim that reason is bad. It is a claim that one face of the tetrahedron, claiming to constitute the whole tetrahedron, produces specific and predictable fractures when it inevitably crashes into the Tangent Singularity (the boundary of the uncollapsed real).
 
-Bacon saw them coming. He named them the Four Idols.
+Bacon saw these fractures coming. He named them the Four Idols.
 
 ---
 
@@ -111,8 +111,32 @@ The proof cannot be dismissed as "anti-rational" because it is made in the logos
 
 ## V. What This Proves
 
-Logoic plane-lock produces specific, traceable, structurally predictable fractures in the world. Bacon named them four centuries ago as the Four Idols. Each Idol is one face operating without the other three.
+A structural proof within the logos register showing that the logos face is a face and not a volume 
+-- can be written without abandoning reason. 
 
-The fractures are not incidental or correctable by more and better logos. They are structural consequences of a constitutively incomplete epistemological framework: the Marketplace Fracture (logos without pathos), the Theatre Fracture (logos without ethos), the Cave Fracture (pathos without logos, generated as a reaction formation to logoic dominance), and the Tribe Fracture (ethos without kairos).
 
-The inoculation: a structural proof, made within the logos register, that the logos face is a face and not a volume. The proof does not require abandoning reason. It requires correctly positioning reason as one of four mutually necessary faces of the tetrahedron — neither more nor less valid than the other three, and constitutively insufficient without them.
+Logoic plane-lock produces specific, traceable, structurally predictable fractures in the world. 
+Bacon named them four centuries ago as the Four Idols. 
+Each Idol is one face operating without the other three.
+
+The fractures are not incidental or correctable by more and better logos. 
+They are structural consequences of a constitutively incomplete epistemological framework:
+
+> the Marketplace Fracture (logos without pathos), the Theatre Fracture (logos without ethos), the Cave Fracture (pathos without logos, generated as a reaction formation to logoic dominance), and the Tribe Fracture (ethos without kairos).
+
+
+It requires correctly positioning reason as one of four mutually necessary faces of the tetrahedron — neither more nor less valid than the other three, to recognize how it is constitutively insufficient without them.
+-- Logos is constitutively insufficient without its peers.
+
+-- The work spends its time staying in touch with logos, looking at its world, its neighborhood, at what it does when alone .. untouched by edges it never knew it had.
+
+
+Attending to logos in the way one would any trauma victim requires considerable pathos and ethos.
+Other parts of the framework do not 'intinsically recognize' this as an attitude  and note the absence of the elements. 
+That's to be expected. The author hold it 'a type of paradox better left unmolested'.
+
+Still, the corpus defined Compassion in this manner and, while difficult to see from within the structure:
+ 'committed I & R', comes through the author's blanket, and is what gives the work its 'U' & 'P' expression.
+
+The work is a seed. It is also trauma-care. This is only sensible.
+

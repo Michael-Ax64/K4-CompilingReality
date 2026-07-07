@@ -2,7 +2,7 @@ I've screwed around with this since '99.
 It's time you got a chance to read it.
 
 The work appears solid and seems more or less complete. 
-Though its state is incomplete, it coheres, converges. That is good.
+Though incomplete, it coheres, converges. That is good.
 
 Still a lot to do. Scroll to the end of this page for claims and keywords.
 Talking about Proofs below.

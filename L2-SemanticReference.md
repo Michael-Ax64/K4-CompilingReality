@@ -160,7 +160,7 @@ The same four poles appear in multiple independent traditions under different na
 
 ## IX. The Higher-Dimensional Extensions
 
-The WVG framework extends the four-pole DC structure into higher-dimensional registers through the concept of Elemental tiers. These were derived geometrically from the tetrahedron's spatial structure (WVG-Elemental-Worldview-Dimensions, 2025) before they were derived from circuit physics in the AC extension — the same structure shown twice, by geometry and by physics. The full geometric-to-physics derivation is in L3-ACExtension Section II; this section gives the semantic content of each tier.
+The WVG framework extends the four-pole DC structure into higher-dimensional registers through the concept of Elemental tiers. These were derived geometrically from the tetrahedron's spatial structure (WVG-Elemental-Worldview-Dimensions, 2025) before they were derived from circuit physics in the AC extension — the same structure shown twice, by geometry and by physics. The full geometric-to-physics derivation is in L3-K4-to-K5-via-AC-Extension Section II; this section gives the semantic content of each tier.
 
 **5D — Quintessence/Essence** (ω in the AC extension): the temporal quality of the four-fold — not which configuration the system is in but *how fast it is navigating* through configurations. Geometrically, the centroid: dimensionless yet containing the whole volume, the condition of the four poles' coherence rather than a fifth pole beside them. This is the structural home of wisdom — the knowledge of *when* rather than *what*. The centroid's orthogonality to the realm's time-axis — and the threefold image it casts into manifest space — is developed in ProofL_Trinity.
 

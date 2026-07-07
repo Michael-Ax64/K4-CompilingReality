@@ -76,6 +76,7 @@ This flank deals with the boundaries of the framework itself.
 - **Proof O:** Helical Time and the Broken Simplex
 - **Proof K:** The Four Fundamental Forces as P/I/U/R (speculative)
 - **Meta-Decay-as-RefusedTransition:** The pathology of freezing the Braid
+- **L4-Dimensionality:** From 4D relation to 12D transaction.
 - **L4-DimensionalCollapse:** The Tangent Singularity
 - **L4-DynamicDistortionsTechnical:** The 6 edge fusions grouped by bimedian
 - **Proof L (Trinity):** The Centroid imaged into manifest space
@@ -181,6 +182,9 @@ This flank deals with the boundaries of the framework itself.
 ### L4 (Applied Domains)
 **L4-DistributedCoherence.md**
 `#DistributedCoherence` `#Holon` `#MarkovBlanket` `#HiddenLayers` `#DecoupledBuffer` `#PlanningThreshold` `#ThermodynamicOverload` `#InstitutionalPlaneLock` `#Terraforming` `#Belonging` `#AbsentVar`
+
+**L4-Dimensionality.md**
+`#TwelveDimensions` `#ImaginaryK4` `#Impedance` `#TorsionalShear` `#PowerFactorCorrection` `#TransferMatrix` `#Imprint` `#Instance` `#InteriorCrossing` `#TangentSingularity` `#MarkovBlanket` `#Resonance`
 
 **L4-DimensionalCollapse.md**
 `#DimensionalCollapse` `#TangentSingularity` `#HelicalExtrusion` `#LandauerTax` `#ReadOnlyLedger` `#ClientSideIllusion` `#RateBecomesState`

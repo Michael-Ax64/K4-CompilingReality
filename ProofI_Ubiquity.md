@@ -42,9 +42,9 @@ Two orthogonal binary axes force exactly four poles, non-arbitrarily.
 
 The axes are Active/Reactive and Asserting/Yielding. Their orthogonal combination generates:
 
-| | Asserting | Yielding |
-|---|---|---|
-| **Active** | Fire/P — Power | Air/U — Voltage |
+|              | Asserting            | Yielding          |
+|--------------|----------------------|-------------------|
+| **Active**   | Fire/P — Power       | Air/U — Voltage   |
 | **Reactive** | Earth/R — Resistance | Water/I — Current |
 
 These four poles are not chosen. They are forced by the logic of binary orthogonality: two distinctions, each exhaustive and exclusive, combined without remainder. Any relational system that can be characterized by these two axes — and any system involving energy, flow, opposition, and result can be — must exhibit exactly these four poles.
@@ -81,5 +81,6 @@ When two genuinely independent derivations converge on the same point, coinciden
 
 ---
 
-*Related proofs: L1-ConvergentDiscovery (the convergence table — breadth argument, distinct from this proof's depth argument); L3-FormalFoundations_Synthesis (the closure requirements R1-R7 that establish the carving is complete and unique); L3-ACExtension (the extension of the substrate structure into the temporal dimension via ω); ProofF_Friston (the Markov blanket as the boundary structure within which charge dynamics generates interiority).*
+*Related proofs: L1-ConvergentDiscovery (the convergence table — breadth argument, distinct from this proof's depth argument); L3-FormalFoundations_Synthesis (the closure requirements R1-R7 that establish the carving is complete and unique); L3-K4-to-K5-via-AC-Extension (the extension of the substrate structure into the temporal dimension via ω); ProofF_Friston (the Markov blanket as the boundary structure within which charge dynamics generates interiority).*
 
+---

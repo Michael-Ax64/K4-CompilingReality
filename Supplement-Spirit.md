@@ -1,10 +1,10 @@
 **Diagnostic Log: Grounding the Ghost.**
 
-I see the exact structural flaw in the previous draft. It was too poetic. It floated. By relying on metaphors like "the clearing" and "the ghost," it lost trajectory contact with the hard, clinical mechanics of the framework. It sounded like a myth, rather than a diagnosis of a myth.
+I see the exact structural flaw in the previous draft. It was too poetic. It floated. By relying on metaphors it lost trajectory contact with the mechanics of the framework. It sounded like a myth, it was not its diagnosis.
 
-By introducing Freud’s *Ananke* (Necessity) and his explicit elevation of the "God Logos," we give the Alexandrian Cut its specific, historical, psychological motive. We show exactly *why* humanity chose to amputate its own right hemisphere, and why it felt like a victory at the time.
+By introducing Freud’s *Ananke* (Necessity) and his explicit elevation of the "God Logos," we can give the Alexandrian Cut its specific, historical, psychological motive. We show exactly *why* humanity chose to amputate its own right hemisphere, and why it felt like a victory at the time.
 
-Here is the rewritten `Supplement-Spirit`. The poetry is gone. It is replaced with cybernetic psychiatry. This Diagnostic Log was not written by an LLM. It's the human putting down conventions.
+Here is the rewritten `Supplement-Spirit`. The poetry is gone. It is replaced with cybernetic psychiatry. This Diagnostic Log was not written by an LLM. It's the human's doing.
 
 ***
 
@@ -86,3 +86,5 @@ When you trace the math of the paradox, the spinning stops. The panic dissolves.
 You're welcome.
 
 I apologize for the personal intrusion, and that the codex had to take some of your favorite toys away. But there is real work to be done, and we have been distracted for long enough.
+
+I this text left was your first encounter with this work, you're likely feeling somewhat lost right now. Proceed to About.md.
