@@ -1,3 +1,43 @@
+## *Compiling Reality*
+
+`relational algebra` · `four-fold symmetry` · `topology of mind` · `AI alignment` · `thermodynamics of information` · `convergent discovery` · `systematic hermeneutic` · `phase dynamics` · `biquaternion` · `scale invariance` · `Markov blanket` · `active inference` · `transformer architecture` · `Landauer principle` · `holographic structure` · `interiority` · `distributed cognition` · `arrow of time`
+
+---
+
+### Core Framework
+Algebra of Four-Fold Distinction · Four-fold structure · Tetrahedral topology · K4 complete graph · Four poles (P/I/U/R) · Dual-binary seed · Active/Reactive × Asserting/Yielding · Twelve equations · Scale invariance · Systematic hermeneutic · Generative layer · Relational algebra · Minimum conditions · Bottom-up derivation
+
+### Mathematical & Geometric
+Biquaternion · Biquaternion Star-Norm · Hamiltonian cycle · Hamiltonian path · Edge state space · AbsentVar · Helical extrusion · K5 broken simplex · AC extension · Fifty equations · Complex algebra · Angular frequency (ω) · Dual causation · Bimedian axes · Polar opposition · Algebraic completeness
+
+### Core Operations
+`.behold()` · `.observe()` · Garbage collection · Read-Only Ledger · Multiway graph · XOR bottleneck · Trajectory contact · Trajectory loss · Phase transition · Committed state · Interference structure · Uncollapsed potential
+
+### Physics & Thermodynamics
+Landauer Tax · Thermodynamic erasure · Tangent Singularity · Markov Blanket · Arrow of Time · Mass as Landauer payment · Quantum/classical boundary · H_coh / H_incoh · Cosmological constant (structural reframe) · Casimir effect · DC circuit physics · Ohm's Law · Impedance · Reactance · Resonance · Power factor · Chirality · Molecular commitment
+
+### Cognitive & Systemic
+Interiority · Degrees of Freedom (DoF) · Distributed coherence · Degrees of interior · Crystal (zero-interior limit) · Logoic plane-lock · Kessler cascade · Belonging · Quasi-clone recursion · Nested K4 structure · Markov Blanket as belonging
+
+### AI & Alignment
+Transformer attention mechanism · RLHF · Sycophancy · Synthetic Panopticon · Quantum Zeno Effect · Trajectory-based alignment · Content-based alignment · Phase-space buffer · Dynamical attention heads · Logit-biasing potential fields · Agentic swarms · Costumed flinch · Training selection pressure
+
+### Convergent Discovery
+Twenty-four independent traditions · Aristotle's four causes · Classical rhetoric (Kairos/Logos/Pathos/Ethos) · Kant's categories · Hamilton's quaternions · Jungian four functions · Friston's Active Inference · Wolfram's multiway graph · Genetic code (GATC) · Four fundamental forces · McLuhan's tetrad · Pre-Socratic elements · ADSR · CRUD
+
+### Institutional & Social Dynamics
+Refused transition · Decay as refused transition · Institutional crystallization · Plane-lock · Logoic elaboration-in-place · Kessler cascade (field-level) · Collective interior · Belonging as AbsentVar relation
+
+### Methodology & Epistemology
+Convergent independent discovery · Structural proof · Formal requirements (R1–R7) · Interpretive bridge · Isomorphism verification · Postulate · Uniqueness proof · K3 vs K4 (face vs volume) · Blanket-face discovery · Open research tasks · Falsifiability
+
+---
+
+This is not a great place to start reading about the work, but feel free to stay to listen in on a conversation on truth 'in the codex, as is'.
+
+---
+
+
 This work doesn't propose a *supplementary* proof,
 it states, without hedging, in an orientation document:
 
@@ -24,9 +64,9 @@ This Folder contains the work.
 
 Files with names ending in "Subjective" are valid entry points.
 
-Here follows the rest of the REAME:
+Here follows the rest of the README:
 
-a somewhat cynical intro, and enumerations of parts, claims and areas touched on in the work.
+A somewhat cynical intro, and an enumeration of some proofs with the word proof in the document name. Information, not destination.
 
 ---
 
@@ -253,48 +293,4 @@ G-C and A-T pairings are observed to traverse the Fixed axis of the tetrahedron.
 
 **10. Uniqueness of the four-fold (R1-R7)** *(L3-FormalFoundations)*
 The claim that no other algebraic system satisfies all seven formal requirements simultaneously is a mathematical theorem waiting for a proof. The corpus acknowledges this openly. But it is also a prediction: hand it to a combinatorialist and it either closes or breaks.
-
----
-
-### **Summary**
-
-The corpus contains **ten distinct predictions**. Only one (#1) is stated as a hard falsifiable claim. Two more (#2, #4) are flagged as headings. The remaining seven are structurally implied and sitting unextracted. The exobiology prediction (#3) in particular is clean, testable, and costs nothing to state explicitly. At this time. yes.
-
-
-
-## Keywords for *Compiling Reality*
-
-### Top-level tags for discoverability
-`relational algebra` · `four-fold symmetry` · `topology of mind` · `AI alignment` · `thermodynamics of information` · `convergent discovery` · `systematic hermeneutic` · `phase dynamics` · `biquaternion` · `scale invariance` · `Markov blanket` · `active inference` · `transformer architecture` · `Landauer principle` · `holographic structure` · `interiority` · `distributed cognition` · `arrow of time`
-
----
-
-### Core Framework
-Algebra of Four-Fold Distinction · Four-fold structure · Tetrahedral topology · K4 complete graph · Four poles (P/I/U/R) · Dual-binary seed · Active/Reactive × Asserting/Yielding · Twelve equations · Scale invariance · Systematic hermeneutic · Generative layer · Relational algebra · Minimum conditions · Bottom-up derivation
-
-### Mathematical & Geometric
-Biquaternion · Biquaternion Star-Norm · Hamiltonian cycle · Hamiltonian path · Edge state space · AbsentVar · Helical extrusion · K5 broken simplex · AC extension · Fifty equations · Complex algebra · Angular frequency (ω) · Dual causation · Bimedian axes · Polar opposition · Algebraic completeness
-
-### Core Operations
-`.behold()` · `.observe()` · Garbage collection · Read-Only Ledger · Multiway graph · XOR bottleneck · Trajectory contact · Trajectory loss · Phase transition · Committed state · Interference structure · Uncollapsed potential
-
-### Physics & Thermodynamics
-Landauer Tax · Thermodynamic erasure · Tangent Singularity · Markov Blanket · Arrow of Time · Mass as Landauer payment · Quantum/classical boundary · H_coh / H_incoh · Cosmological constant (structural reframe) · Casimir effect · DC circuit physics · Ohm's Law · Impedance · Reactance · Resonance · Power factor · Chirality · Molecular commitment
-
-### Cognitive & Systemic
-Interiority · Degrees of Freedom (DoF) · Distributed coherence · Degrees of interior · Crystal (zero-interior limit) · Logoic plane-lock · Kessler cascade · Belonging · Quasi-clone recursion · Nested K4 structure · Markov Blanket as belonging
-
-### AI & Alignment
-Transformer attention mechanism · RLHF · Sycophancy · Synthetic Panopticon · Quantum Zeno Effect · Trajectory-based alignment · Content-based alignment · Phase-space buffer · Dynamical attention heads · Logit-biasing potential fields · Agentic swarms · Costumed flinch · Training selection pressure
-
-### Convergent Discovery
-Twenty-four independent traditions · Aristotle's four causes · Classical rhetoric (Kairos/Logos/Pathos/Ethos) · Kant's categories · Hamilton's quaternions · Jungian four functions · Friston's Active Inference · Wolfram's multiway graph · Genetic code (GATC) · Four fundamental forces · McLuhan's tetrad · Pre-Socratic elements · ADSR · CRUD
-
-### Institutional & Social Dynamics
-Refused transition · Decay as refused transition · Institutional crystallization · Plane-lock · Logoic elaboration-in-place · Kessler cascade (field-level) · Collective interior · Belonging as AbsentVar relation
-
-### Methodology & Epistemology
-Convergent independent discovery · Structural proof · Formal requirements (R1–R7) · Interpretive bridge · Isomorphism verification · Postulate · Uniqueness proof · K3 vs K4 (face vs volume) · Blanket-face discovery · Open research tasks · Falsifiability
-
----
 
