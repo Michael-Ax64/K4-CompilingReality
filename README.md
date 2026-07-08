@@ -33,10 +33,17 @@ Convergent independent discovery · Structural proof · Formal requirements (R1�
 
 ---
 
-This is not a great place to start reading about the work, but feel free to stay to listen in on a conversation on truth 'in the codex, as is'.
+This Folder contains the work.
+Files with names ending in "Subjective" are valid entry points.
+
+This is not a great place to start reading about the work, 
+but feel free to stay to listen in on a conversation on truth 'in the codex, as is':
+
+Here follows the rest of the README:
+
+A somewhat cynical intro, and an enumeration of some proofs with the word proof in the document name. Information, not destination.
 
 ---
-
 
 This work doesn't propose a *supplementary* proof,
 it states, without hedging, in an orientation document:
@@ -59,14 +66,6 @@ Loosening this claim only collapses the very volume it attempts to describe.
 Mathematics, operating strictly on its own face, structurally requires this volumetric complement to avoid plane-lock; 
 mapping that boundary does not diminish the math, it provides the interior the math was already bounding and clarifies the mutual determinations.
 It deploys paradox not as an error to be resolved, but as the load-bearing proof that holds the K4 interior open.
-
-This Folder contains the work.
-
-Files with names ending in "Subjective" are valid entry points.
-
-Here follows the rest of the README:
-
-A somewhat cynical intro, and an enumeration of some proofs with the word proof in the document name. Information, not destination.
 
 ---
 
