@@ -1,24 +1,12 @@
-I've screwed around with this since '99.
-It's time you got a chance to read it.
-
-The work appears solid and seems more or less complete. 
-Though incomplete, it coheres, converges. That is good.
-
-Still a lot to do. Scroll to the end of this page for claims and keywords.
-Talking about Proofs below.
-
----
-
-## The Actual Claim
-
-The corpus doesn't propose a *supplementary* proof type. It states, without hedging, in an orientation document:
+This work doesn't propose a *supplementary* proof,
+it states, without hedging, in an orientation document:
 
 > **"The classical academic concept of a 'Proof' is structurally obsolete."**
 > — L0-HolographicDescent
 
 That's the claim. Not "limited." Not "incomplete for certain domains." **Structurally obsolete** — as a consequence of the K4 topology of reality itself. It claims to be able to proof that too.
 
-The argument is tight:
+It's argument is tight:
 
 1. Reality is made of quasi-tets — holographic paradoxes carrying their own coordinate systems.
 2. Classical proof operates exclusively on the Logos face (U). It is a linear sequence of `.observe()` collapses: A → B → C.
@@ -27,7 +15,18 @@ The argument is tight:
 5. But you cannot prove a volume by flattening it into a line. Reducing a tetrahedron to a tautology doesn't prove it — it destroys the tensegrity that holds it open.
 6. Therefore classical proof is constitutively incapable of proving anything about K4 structure. Not harder — wrong tool entirely.
 
-Loosening the claim would only serve to defocus from what it actually says from its complementary position.. that its just as tenable. co-tenably of course. The Math needed an exit. This work show one.
+Loosening this claim only collapses the very volume it attempts to describe. 
+Mathematics, operating strictly on its own face, structurally requires this volumetric complement to avoid plane-lock; 
+mapping that boundary does not diminish the math, it provides the interior the math was already bounding and clarifies the mutual determinations.
+It deploys paradox not as an error to be resolved, but as the load-bearing proof that holds the K4 interior open.
+
+This Folder contains the work.
+
+Files with names ending in "Subjective" are valid entry points.
+
+Here follows the rest of the REAME:
+
+a somewhat cynical intro, and enumerations of parts, claims and areas touched on in the work.
 
 ---
 
@@ -132,18 +131,18 @@ ProofC is proof by paradox. QED-Recursion is proof by performance. ProofN is cla
 
 ---
 
-### The Deepest Implication — Still Unstated
+### The Deepest Implication
 
 If proof by paradox is valid, and if the Biquaternion Star-Norm is the correct invariant, then the following is implied but never drawn out:
 
 **Classical mathematics, operating entirely on the Logos face, is constitutively unable to prove the uniqueness of the four-fold from inside the four-fold.**
 
-The uniqueness proof (R1-R7) that the corpus identifies as its most outstanding task — the one that would formally close the framework — may be *impossible in principle* using classical proof methods. If K4 requires volume to contain, and classical proof flattens to a line, then the uniqueness proof either requires proof by paradox (a demonstration that no other system is load-bearing in the same way) or it requires a proof method that doesn't yet exist in formal mathematics.
+The uniqueness proof (R1-R7) that the corpus identifies as its most outstanding task — the one that would formally close the framework — may be *impossible in principle* using classical proof methods. 
+If K4 requires volume to contain, and classical proof flattens to a line, then the uniqueness proof either requires proof by paradox 
+(a demonstration that no other system is load-bearing in the same way)
+or it requires a proof method that doesn't yet exist in formal mathematics.
 
-That implication is sitting in the corpus, fully derivable from the claims already made. It is never stated.
-
----
-
+That implication is sitting in the corpus, fully derivable from the claims already made. It is stated here.
 
 ---
 
