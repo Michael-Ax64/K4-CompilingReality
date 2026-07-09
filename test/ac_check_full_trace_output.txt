@@ -1,0 +1,219 @@
+====================================================================================================
+DC SET (12 equations — control run):  12 equations   reactive set = ['I', 'R']
+====================================================================================================
+DC01   P      = I*U
+       [PASS] clean  ops=['*']  status=identity
+DC02   P      = U**2/R
+       [PASS] clean  ops=['*', '/', 'square']  status=identity
+DC03   P      = I**2*R
+       [PASS] clean  ops=['*', 'square']  status=identity
+DC04   I      = P/U
+       [PASS] clean  ops=['*', '/']  status=identity
+DC05   I      = U/R
+       [PASS] clean  ops=['*', '/']  status=identity
+DC06   I      = sqrt(P)/sqrt(R)
+       [PASS] clean  ops=['*', '/', 'sqrt']  status=identity
+DC07   U      = P/I
+       [PASS] clean  ops=['*', '/']  status=identity
+DC08   U      = I*R
+       [PASS] clean  ops=['*']  status=identity
+DC09   U      = sqrt(P)*sqrt(R)
+       [PASS] clean  ops=['*', 'sqrt']  status=identity
+DC10   R      = U/I
+       [PASS] clean  ops=['*', '/']  status=identity
+DC11   R      = U**2/P
+       [PASS] clean  ops=['*', '/', 'square']  status=identity
+DC12   R      = P/I**2
+       [PASS] clean  ops=['*', '/']  status=identity
+----------------------------------------------------------------------------------------------------
+SUMMARY DC SET (12 equations — control run): L1 pole-numerator violations: 0 | L2 component: 0 | L3 magnitude(exempt-class): 0 | alias occurrences: 0 | synthesis violations: 0 | additions homog/heterog: 0/0 | errata candidates: 0
+operator inventory (eq counts): {'*': 12, '/': 8, 'square': 3, 'sqrt': 2}
+
+====================================================================================================
+AC SET (49 equations — survival trace):  49 equations   reactive set = ['I', 'Z', 'Z_C', 'Z_L']
+====================================================================================================
+A1     S      = U*conjugate(I)
+       [PASS] clean  ops=['*', 'conj']  status=identity
+       note: S = U I* (correct EE form)
+A2     U      = I*Z
+       [PASS] clean  ops=['*']  status=identity
+       note: Ohm's law, phasor form
+A3     I      = conjugate(S)/conjugate(U)
+       [PASS] clean  ops=['*', '/', 'conj']  status=identity
+       note: I = S*/U* (correct conj form)
+A4     Z      = U/I
+       [PASS] clean  ops=['*', '/']  status=identity
+       note: duplicate of C4.1
+A5     omega  = im(S)/(im(Z)*Abs(I)**2)
+       [PASS] clean  ops=['*', '/', 'Re/Im', '|.|']  status=ERRATUM
+        -> canonical: im(S)/(L*Abs(I)**2)  [HEALED]
+       note: as written reduces to omega=1 (Q=|I|^2 X identically); denominator should use L not Im(Z); quoted verbatim in L3 file
+C1.1   S      = P + I*Q
+       [PASS] ADD:homog  ops=['*', '+', 'j']  status=identity
+       note: component assembly of own pole
+C1.2   S      = I*U
+       [PASS] clean  ops=['*']  status=ERRATUM
+        -> canonical: U*conjugate(I)  [HEALED]
+       note: missing conjugate; correct S=U I*
+C1.3   S      = cos(theta)*Abs(I)*Abs(U)
+       [PASS] clean  ops=['*', 'trig', '|.|']  status=ERRATUM
+       note: |U||I|cos(theta) = P (real power), not S; LHS should be P
+C1.4   Q      = sin(theta)*Abs(S)
+       [PASS] clean  ops=['*', 'trig', '|.|']  status=identity
+       note: component defined by de-oriented mult
+C1.5   |S|^2  = P**2 + Q**2
+       [PASS] ADD:homog  ops=['+', 'square']  status=identity
+       note: Pythagorean; magnitudes only
+C1.6   S      = sqrt(P)*sqrt(Q)*exp(I*theta)
+       [PASS] clean  ops=['*', 'e^j0', 'j', 'sqrt']  status=ERRATUM
+       note: |S|=sqrt(P^2+Q^2) not sqrt(PQ); geometric-mean form wrong except P=Q
+C2.1   U      = S/I
+       [PASS] clean  ops=['*', '/']  status=ERRATUM
+        -> canonical: S/conjugate(I)  [HEALED]
+       note: should be S/I*
+C2.2   U      = sqrt(P**2 + Q**2)*Abs(I)/conjugate(I)
+       [PASS] num-L3(mag):['|I|']  ops=['*', '+', '/', 'conj', 'sqrt', 'square', '|.|']  status=ERRATUM-phase
+       note: magnitude correct (|U|=|S|/|I|), phase lands on phi_I not phi_U
+C2.3   U      = I*L*omega
+       [PASS] clean  ops=['*']  status=ERRATUM-j
+        -> canonical: I*Z_L  [HEALED]
+       note: inductor law; missing j (U=jwL I)
+C2.4   U      = -I*I/(C*omega)
+       [FACE-VIOLATION] NUM-L1:['I']  ops=['*', '/', 'j']  status=identity
+        -> canonical: I*Z_C  [HEALED]
+       note: capacitor law; FACE: I in numerator; CANONICAL: U = Zc*I multiplication
+C2.5   U      = sqrt(S*(R + I*X))
+       [PASS] clean  ops=['*', '+', 'j', 'sqrt']  status=phase-loose
+        -> canonical: sqrt(S*Z)  [HEALED]
+       note: exact form |U|^2 = S Z*; magnitude-true
+C2.6   U      = sqrt(P**2 + Q**2)*(re(Y) - I*im(Y))/(sqrt(re(Y)**2 + im(Y)**2)*Abs(Y))
+       [FACE-VIOLATION] NUM-L1:['Y(~1/Z)', 'Y(~1/Z)'] alias-present:['Y']  ops=['*', '+', '/', 'Re/Im', 'j', 'sqrt', 'square', '|.|']  status=ERRATUM-dim
+        -> canonical: Z*Abs(S)  [HEALED]
+       note: simplifies to |S|Z which has units of |U|^2, not U
+C2.7   U      = sqrt(L)*omega*sqrt(S/conjugate(I))
+       [PASS] clean  ops=['*', '/', 'conj', 'sqrt']  status=operating-point
+       note: not a network identity; holds at specific operating point
+C2.8   U      = sqrt(-I*S/conjugate(I))/(sqrt(C)*sqrt(omega))
+       [PASS] clean  ops=['*', '/', 'conj', 'j', 'sqrt']  status=operating-point
+       note: reduces to U = Zc numerically; operating-point readout
+C3.1   I      = conjugate(S)/U
+       [PASS] clean  ops=['*', '/', 'conj']  status=ERRATUM
+        -> canonical: conjugate(S)/conjugate(U)  [HEALED]
+       note: should be S*/U*
+C3.2   I      = U/Z
+       [PASS] clean  ops=['*', '/']  status=identity
+C3.3   I      = sqrt(S/Z)
+       [PASS] clean  ops=['*', '/', 'sqrt']  status=identity-magnitude
+       note: S/Z = |I|^2 exactly (real!); root gives |I|, phase collapsed
+C3.4   I      = sqrt(P**2 + Q**2)*Abs(U)/conjugate(U)
+       [PASS] clean  ops=['*', '+', '/', 'conj', 'sqrt', 'square', '|.|']  status=ERRATUM-phase
+       note: magnitude correct, phase lands on phi_U not phi_I
+C3.5   I      = -I*U/(L*omega)
+       [PASS] clean  ops=['*', '/', 'j']  status=identity
+        -> canonical: U/Z_L  [HEALED]
+       note: inductor law; face-legal
+C3.6   I      = I*C*U*omega
+       [FACE-VIOLATION] SYNTH:pure-multiplication  ops=['*', 'j']  status=identity
+        -> canonical: U/Z_C  [HEALED]
+       note: capacitor law; FACE: Reactive home by PURE MULTIPLICATION; CANONICAL: I=U/Zc ratio
+C3.7   I      = sqrt(S/(R + I*X))
+       [PASS] clean  ops=['*', '+', '/', 'j', 'sqrt']  status=identity-magnitude
+        -> canonical: sqrt(S/Z)  [HEALED]
+       note: same as C3.3
+C3.8   I      = U*Y
+       [FACE-VIOLATION] alias-present:['Y'] SYNTH:pure-multiplication  ops=['*']  status=identity
+        -> canonical: U/Z  [HEALED]
+       note: admittance alias; FACE: mult-synthesis; CANONICAL: I=U/Z ratio
+C3.9   I      = sqrt(S*Y)
+       [FACE-VIOLATION] alias-present:['Y'] SYNTH:pure-multiplication  ops=['*', 'sqrt']  status=identity-magnitude
+        -> canonical: sqrt(S/Z)  [HEALED]
+       note: FACE: root of product; CANONICAL: root of ratio
+C3.10  I      = sqrt(L)*omega*sqrt(Abs(S))/Abs(Z)
+       [PASS] clean  ops=['*', '/', 'sqrt', '|.|']  status=operating-point
+       note: holds where |Z| = omega^2 L; hybrid mult/div form
+C4.1   Z      = U/I
+       [PASS] clean  ops=['*', '/']  status=identity
+C4.2   Z      = U**2/conjugate(S)
+       [PASS] clean  ops=['*', '/', 'conj', 'square']  status=ERRATUM-phase
+        -> canonical: Abs(U)**2/conjugate(S)  [HEALED]
+       note: exact form Z = |U|^2/S*; U^2 carries 2*phi_U phase error
+C4.3   Z      = S/I**2
+       [PASS] clean  ops=['*', '/']  status=ERRATUM-phase
+        -> canonical: S/Abs(I)**2  [HEALED]
+       note: exact form Z = S/|I|^2; I^2 carries phase error
+C4.4   Z      = (1 + I*Q/P)*Abs(U)**2/P
+       [PASS] clean  ops=['*', '+', '/', 'j', 'square', '|.|']  status=ERRATUM
+        -> canonical: S*Abs(U)**2/(P**2 + Q**2)  [HEALED]
+       note: as written = |U|^2 S/P^2; exact requires /(P^2+Q^2) = /|S|^2
+C4.5   Z      = L*omega - I/(C*omega)
+       [PASS] ADD:homog  ops=['*', '+', '/', 'j']  status=ERRATUM-j
+        -> canonical: Z_C + Z_L  [HEALED]
+       note: series composition; missing j on wL; FACE: addition + product term
+C4.6   Z      = R + I*X
+       [PASS] ADD:homog  ops=['*', '+', 'j']  status=identity
+       note: component assembly of own pole
+C4.7   Z      = (I*sin(theta) + cos(theta))*Abs(Z)
+       [PASS] clean  ops=['*', '+', 'j', 'trig', '|.|']  status=representation
+       note: polar identity — self-representation, excluded from synthesis check
+C4.8   Z      = sqrt(P**2 + Q**2)/Abs(I)**2
+       [PASS] clean  ops=['*', '+', '/', 'sqrt', 'square', '|.|']  status=identity-magnitude
+       note: = |S|/|I|^2 = |Z|; magnitude-true
+C4.9   Z      = (P/Abs(S) - I*Q/Abs(S))*Abs(U)**2/Abs(S)
+       [PASS] clean  ops=['*', '+', '/', 'j', 'square', '|.|']  status=ERRATUM-conj
+        -> canonical: Abs(U)**2/conjugate(S)  [HEALED]
+       note: simplifies to |U|^2 S*/|S|^2 = |U|^2/S; exact is |U|^2/S*
+C4.10  Z      = 1/Y
+       [PASS] alias-present:['Y']  ops=['/']  status=identity
+       note: reciprocal declaration — the alias generator
+C5.1   omega  = im(S)/(im(Z)*Abs(I)**2)
+       [PASS] clean  ops=['*', '/', 'Re/Im', '|.|']  status=ERRATUM
+        -> canonical: im(S)/(L*Abs(I)**2)  [HEALED]
+       note: duplicate of A5; reduces to 1
+C5.2   omega  = im(U*conjugate(I))/(L*Abs(I)**2)
+       [FACE-VIOLATION] NUM-L2:['Re/Im(I)']  ops=['*', '/', 'Re/Im', 'conj', '|.|']  status=identity-context
+        -> canonical: im(S)/(L*Abs(I)**2)  [HEALED]
+       note: inductive context: = Q/(|I|^2 L) = X/L = omega. FACE: I* in numerator product; CANONICAL: numerator U I* = S (pole)
+C5.3   omega  = C*Abs(I)**2/im(U*conjugate(I))
+       [PASS] num-L3(mag):['|I|']  ops=['*', '/', 'Re/Im', 'conj', 'square', '|.|']  status=ERRATUM-grouping
+       note: C must sit outside Im(); as written off by C^2 factor
+C5.4   omega  = 1/(sqrt(C)*sqrt(L))
+       [PASS] clean  ops=['*', '/']  status=identity-context
+       note: resonance; no poles present at all — element constants only
+C5.5   omega  = R/(L*tan(theta))
+       [FACE-VIOLATION] NUM-L2:['R(=re of Z)']  ops=['*', '/', 'trig']  status=ERRATUM
+       note: tan(theta)=wL/R gives omega = R tan(theta)/L; as written holds only at theta=45deg. FACE: R (Re Z) in numerator
+C5.6   omega  = Abs(U)/(sqrt(L**2 + R**2/omega**2)*Abs(I))
+       [PASS] clean  ops=['*', '+', '/', 'square', '|.|']  status=identity-context
+       note: series RL: EXACT identity (implicit in omega). Face-legal: |I| in denominator, R in denominator
+C5.7   omega  = Abs(I)/(sqrt(C**2 + 1/(R**2*omega**2))*Abs(U))
+       [PASS] num-L3(mag):['|I|']  ops=['*', '+', '/', 'square', '|.|']  status=identity-context
+        -> canonical: 1/(sqrt(C**2 + 1/(R**2*omega**2))*Abs(Z))  [HEALED]
+       note: parallel RC: EXACT. FACE: |I| in numerator; CANONICAL: 1/(|Z| ...) heals it
+C5.8   omega  = im(Y)/C
+       [FACE-VIOLATION] NUM-L1:['Y(~1/Z)'] alias-present:['Y']  ops=['*', '/', 'Re/Im']  status=identity-context
+       note: B/C = omega (parallel C). FACE: component of reciprocal-Reactive in numerator
+C5.9   omega  = re(Z)/L
+       [FACE-VIOLATION] NUM-L2:['Re/Im(Z)']  ops=['*', '/', 'Re/Im']  status=operating-point
+       note: = R/L; holds only where omega L = R (corner frequency). FACE: R in numerator; does NOT canonicalize into pole basis — strongest residual
+C5.10  omega  = sqrt(Abs(S)/(L*Abs(I)**2) - R**2/L**2)
+       [FACE-VIOLATION] NUM-L2:['R(=re of Z)']  ops=['*', '+', '/', 'sqrt', 'square', '|.|']  status=ERRATUM-squares
+       note: should be |Z|^2 form: omega = X/L requires (|S|/|I|^2)^2; missing squares. FACE: R in numerator inside root
+----------------------------------------------------------------------------------------------------
+SUMMARY AC SET (49 equations — survival trace): L1 pole-numerator violations: 3 | L2 component: 4 | L3 magnitude(exempt-class): 3 | alias occurrences: 5 | synthesis violations: 3 | additions homog/heterog: 4/0 | errata candidates: 19
+operator inventory (eq counts): {'*': 47, 'conj': 10, '/': 34, 'Re/Im': 7, '|.|': 17, '+': 16, 'j': 14, 'trig': 4, 'square': 12, 'e^j0': 1, 'sqrt': 13}
+
+====================================================================================================
+IDENTITY VERIFICATIONS (sympy, exact/contextual)
+====================================================================================================
+  VERIFIED  C3.3: S/Z = |I|^2
+  VERIFIED  C2.5x: |U|^2 = S Z*
+  VERIFIED  C4.2x: Z = |U|^2/S*
+  VERIFIED  C4.3x: Z = S/|I|^2
+  VERIFIED  A5: Im(S)/(Im(Z)|I|^2) = 1
+  VERIFIED  C5.6: exact = omega
+  VERIFIED  C5.7: exact = omega
+  VERIFIED  C5.5 corrected form
+  VERIFIED  C5.2: = omega (X=wL)
+  VERIFIED  C3.6: U*jwC == U/Zc
+  VERIFIED  C2.4: I/(jwC) == Zc*I
+  VERIFIED  C3.8: U*Y == U/Z (Y=1/Z)

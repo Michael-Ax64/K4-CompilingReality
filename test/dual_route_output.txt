@@ -1,0 +1,51 @@
+==========================================================================================
+DC DUAL-ROUTE TRACE (12 equations)
+==========================================================================================
+  DC01  P = I*U   [linear]  OK
+  DC02  P = U**2/R   [square]  OK
+  DC03  P = I**2*R   [square]  OK
+  DC04  I = P/U   [linear]  OK
+  DC05  I = U/R   [linear]  OK
+  DC06  I = sqrt(P)/sqrt(R)   [root]  OK
+  DC07  U = P/I   [linear]  OK
+  DC08  U = I*R   [linear]  OK
+  DC09  U = sqrt(P)*sqrt(R)   [root]  OK
+  DC10  R = U/I   [linear]  OK
+  DC11  R = U**2/P   [square]  OK
+  DC12  R = P/I**2   [square]  OK
+------------------------------------------------------------------------------------------
+  Route census per home:
+    P (Asserting): linear=1 square=2 root=0   MATCHES R4
+    U (Yielding): linear=2 square=0 root=1   MATCHES R4
+    I (Yielding): linear=2 square=0 root=1   MATCHES R4
+    R (Asserting): linear=1 square=2 root=0   MATCHES R4
+  Set-wide: linear=6 nonlinear=6 (square=4, root=2)
+  R1 (3 routes/pole): HOLDS
+  R2/R3 typed-route violations: 0
+  R4 census: HOLDS
+
+==========================================================================================
+AC DUAL-ROUTE SURVIVAL (identity-class pole-home equations)
+==========================================================================================
+  C2.5  U = sqrt(S*Z)   [root]  OK (lands magnitude-true: sqrt repays 1 bit, cannot repay the S^1 phase burned by |.|)
+  C3.3  I = sqrt(S/Z)   [root]  OK (lands magnitude-true: sqrt repays 1 bit, cannot repay the S^1 phase burned by |.|)
+  C3.7  I = sqrt(S/Z)   [root]  OK (lands magnitude-true: sqrt repays 1 bit, cannot repay the S^1 phase burned by |.|)
+  C3.9  I = sqrt(S/Z)   [root]  OK (lands magnitude-true: sqrt repays 1 bit, cannot repay the S^1 phase burned by |.|)
+  C4.2  Z = Abs(U)**2/conjugate(S)   [square]  OK
+  C4.3  Z = S/Abs(I)**2   [square]  OK
+  C4.8  Z = Abs(S)/Abs(I)**2   [square]  OK
+  C4.9  Z = Abs(U)**2/conjugate(S)   [square]  OK
+------------------------------------------------------------------------------------------
+  In-scope identity-class equations: 23; out-of-scope (operating-point/representation/hard-errata): 13
+  Nonlinear routes checked: 8; confirming: 8; violating: 0
+    C2.5 [root] -> DC analog: U=sqrt(P*R)
+    C3.3 [root] -> DC analog: I=sqrt(P/R)
+    C3.7 [root] -> DC analog: I=sqrt(P/R)
+    C3.9 [root] -> DC analog: I=sqrt(P/R)
+    C4.2 [square] -> DC analog: R=U^2/P
+    C4.3 [square] -> DC analog: R=P/I^2
+    C4.8 [square] -> DC analog: R-magnitude
+    C4.9 [square] -> DC analog: (new)
+
+==========================================================================================
+FINAL: ROUTE LAW HOLDS (DC exceptionless; AC identity-class survives)
