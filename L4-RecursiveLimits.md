@@ -109,3 +109,13 @@ The open end of the recursion — the collective institutions whose interior exc
 
 One more thing worth naming: these two documents together constitute the framework's account of why the interior can never be fully described from the outside. Not as an epistemic limitation that might one day be overcome, but as a structural necessity. Every attempt to describe an interior from the exterior coordinate system will encounter the Tangent Singularity at that interior's Markov Blanket. This is not a failure of the attempt. It is proof that the interior is real.
 
+---
+
+**Confirmation lags the crossing — a corollary, checked against one instance:**
+
+L4-ScalingInvariants (§VI.a) traces one dated case: the periodic table's coordinates could not mark the relativistic threshold in heavy elements, logged the symptom as an unrelated exception list for decades, and were repaired only when $v/c$ — a coordinate from outside the table's own algebra — was supplied in 1979. But the repair itself arrived in stages, not at once: the explanatory coordinate in 1979, computational confirmation of one of its specific predictions (mercury's melting point) in 2013, and a direct spectroscopic reading of the same mechanism at the molecular bond level in 2026.
+
+Read against this document's vocabulary, that lag is not incidental. A system on the near side of its own Tangent Singularity is, by definition, the system whose coordinates fail there — that is what a Tangent Singularity is. Such a system cannot use its own failing coordinates to confirm that the failure has a specific far-side structure; confirmation requires a vantage already computed from past the boundary. This is why the 1979 account functions as an *explanation* — asserted from the successor coordinate, $v/c$, without yet being checked against the specific committed quantities (a melting point, a bond spectrum) the original coordinates could not produce — while 2013 and 2026 function as *confirmations*, each requiring a calculation or a measurement performed from the far side and matched back against the near side's specific anomaly.
+
+Stated as a general corollary, and marked at the size one dated instance earns: **the confirmation of a Tangent Singularity's far-side structure is necessarily posterior to the successor coordinate that crosses it, and typically posterior by more than one further step** — first the coordinate is supplied and the shape of the resolution is asserted, only later is any particular committed quantity on the near side actually recovered from it. Whether this holds as a rule beyond the one case checked here is open. It is recorded as a corollary worth testing against a second instance, not as an established feature of every Tangent Singularity.
+
