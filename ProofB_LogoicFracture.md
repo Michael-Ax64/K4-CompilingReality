@@ -26,6 +26,9 @@ Logoic plane-lock — operating exclusively from Air/Logos/Thinking — is the d
 
 Bacon saw these fractures coming. He named them the Four Idols.
 
+*(Note: Topologically, Air/Logos is a 0D vertex/pole opposite the Face named for it's absence. The text uses "face" colloquially here to mean "vantage point." The strict geometric definition of the four K3 faces—as planes defined by their excluded AbsentVar—is established in L2-Terminology / L3-FormalFoundations.)*
+
+
 ---
 
 ## I. What Bacon Actually Saw

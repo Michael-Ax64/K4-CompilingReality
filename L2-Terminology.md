@@ -107,6 +107,25 @@ Causality of the form F=ma: one variable causing another, with remaining variabl
 **Quasi-clone** [NEW]
 A sub-structure of K4 that inherits the full tetrahedral nature of the parent, specialized by its position within the parent. The 10 quasi-clones of any K4 are: 4 vertex-quasi-clones (each carrying the character of the elemental pole it represents, plus a full K4 in its interior) and 6 edge-quasi-clones (each carrying the character of the relationship between its two vertices, with a K4 in its edge state-space). Quasi-clones are distinguished from blanket-faces: blanket-faces are K3 structures (triangles, no interior) and cannot carry a K4 within them. The quasi-clone is the interior structure; the blanket-face is the boundary. Zero-point energy functions as the physical signature of vertex quasi-clone activity: even at maximum macro commitment (the crystal), each atomic vertex is irreducibly active.
 
+
+### The K4 Geometric Primitives: Vertices vs. Faces
+
+*Disambiguation note: The corpus occasionally uses "face" colloquially to refer to a vertex/pole (e.g., "the Logos face" in ProofB, or "The Four Faces" in the Meta-Set). Topologically, this is a conflation. The following definitions establish the strict geometric distinction.*
+
+**Vertex (Pole)**: A 0D point in the K4 complete graph. The four vertices are the mutually determining variables {P, I, U, R}, mapping to the elemental poles (Fire, Water, Air, Earth). A vertex is a position of concentrated elemental character; it is where something *is*.
+
+**Face (Plane)**: A 2D triangular boundary (K3) of the tetrahedron. A face is defined by the three vertices it *contains*, and is uniquely identified by the single vertex it *excludes* (its AbsentVar). A face is where something is *bounded*. 
+
+**The Naming Convention**: A face is named after the vertex it *excludes*. 
+- The **P-Face** (Fire excluded) is the plane formed by the triangle {I, U, R}.
+- The **I-Face** (Water excluded) is the plane formed by {P, U, R}.
+- The **U-Face** (Air excluded) is the plane formed by {P, I, R}.
+- The **R-Face** (Earth excluded) is the plane formed by {P, I, U}.
+
+*Operational consequence*: To "operate from a vertex" (e.g., Logoic plane-lock) is to collapse the volume to a single 0D point and treat it as the whole. To "operate on a face" is to navigate the 2D K3 boundary (the Markov Blanket) without accessing the 3D interior volume. The two are distinct structural positions, and the distinction is load-bearing.
+
+Why so sloppy? Simple. 'Logoic plane-lock' is what it appears to be when you are engaging someone who mistakes the quasi-tet of the the vertex for it's parent, treats you and the worlds as objects is unable to relate on all cylinders. Refering to the plane lets us sidestep speaking to the psychology of the phenomena.
+
 ---
 
 ## Epistemological and Operational Terms
