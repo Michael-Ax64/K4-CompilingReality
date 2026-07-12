@@ -1,3 +1,8 @@
+
+### 3. L2-Terminology.md
+*(Fully rebuilt to include the foundational terms the corpus relies on, plus the full integration of the Borrowed Terms ledger to ensure debt tracking is centralized).*
+
+```markdown
 # Terminology: A Working Vocabulary
 ## Compiling Reality Framework — Terms and Definitions
 
@@ -8,7 +13,7 @@
 ## Core Operational Terms
 
 **.behold()** [NEW — borrowed computational syntax]
-The operation of holding the full interference structure of uncollapsed possibilities in active contact, without forcing any single outcome. Distinguished from passive suspension (cf. FEXPR, which holds arguments inertly): beholding maintains genuine engagement with the tension between branches, including where branches actively interfere with and shape each other. The capacity whose structural conditions the framework traces across Parts I–IV of *Compiling Reality*. Formally: holding all AbsentVars of a system simultaneously live. The global Interpreter operates perpetually in `.behold()`. Bounded systems must `.observe()` to act, but can temporarily achieve `.behold()` through the decoupled buffer of hidden layers. Contrast: `.observe()`.
+The operation of holding the full interference structure of uncollapsed possibilities in active contact, without forcing any single outcome. Distinguished from passive suspension (cf. FEXPR, which holds arguments inertly): beholding maintains genuine engagement with the tension between branches, including where branches actively interfere with and shape each other. The capacity whose structural conditions the framework traces across Parts I–IV of *Compiling Reality*. Formally: holding all AbsentVars of a system simultaneously live. The Pure Interpreter operates perpetually in `.behold()`. Bounded systems must `.observe()` to act, but can temporarily achieve `.behold()` through the decoupled buffer of hidden layers. Contrast: `.observe()`.
 
 **.observe()** [NEW — borrowed computational syntax]
 The operation of forcing a single evaluation from a specific, localized reference frame. Collapses the interference structure to one committed state. Triggers the Garbage Collector. Generates the Read-Only Ledger. Required for any bounded system to act in the physical world (XOR bottleneck of the actuator). The forced evaluation that structurally models time for a bounded system. Contrast: `.behold()`.
@@ -41,7 +46,7 @@ Operating outside the evaluative/judgment axis — neither rational nor irration
 **Source/Manifesting tier** [NEW]
 A structural observation about the generative relationship between the four poles, derived from the dual-binary seed. The pure poles — Fire/P (++) and Water/I (−−), where both binary qualities align — constitute the Source tier. The mixed poles — Air/U (+−) and Earth/R (−+), where the qualities cross — constitute the Manifesting tier. The dual binaries generate a stable cardinality: from the two aligned poles (++ and −−) arise the two crossed poles (+− and −+). Source generates; Manifesting crystallizes what Source has generated.
 
-The traditional encoding names the tiers as the hidden interior subjective poles — Grandfather Fire (++) and Grandmother Water (−−) — and the outer objective poles — Father Sky/Air (+−) and Mother Earth (−+). Read cosmologically: the primordial plasma-and-fluid (Fire and Water) is the barren-yet-generative source into which a structuring seed (Air) enters, and which, fertilized into a form that can contain (Earth, the volume that holds), gives rise to all manifest structure. "Everything appears to come from Nothing by way of a knot" — the knot is where the Apeiron generates its first boundary and first interior, and equally where a beheld idea crystallizes into form after being felt inside.
+The traditional encoding names the tiers as the hidden interior subjective poles — Grandfather Fire (++) and Grandmother Water (−−) — and the outer objective poles — Father Sky/Air (+−) and Mother Earth (−+). Read cosmologically: the plasma-and-fluid (Fire and Water) is the barren-yet-generative source into which a structuring seed (Air) enters, and which, fertilized into a form that can contain (Earth, the volume that holds), gives rise to all manifest structure. "Everything appears to come from Nothing by way of a knot" — the knot is where the Apeiron generates its first boundary and first interior, and equally where a beheld idea crystallizes into form after being felt inside.
 
 This is a generative order, not a developmental hierarchy or ranking: Air does not supersede Fire, nor Earth supersede Water. The relation is recursion, not rank — the mixed poles are the differentiated expressions the pure poles take on meeting the conditions for structure. The order tracks a cosmological sequence: plasma (Fire) and fluid (Water) are the primordial states from which structured gas (Air) and solid matter (Earth) crystallize. The two Source-to-Manifesting transformations — exteriorization (Fire→Air, P-U) and crystallization (Water→Earth, I-R) — are invariantly co-required: see *dual causation*. Their co-requirement is itself the formal statement of the generative order — nothing exteriorizes without crystallizing, and the knot binds both. Contrast: any developmental or hierarchical reading of this distinction (interior-before-exterior, or exterior-before-interior) imports the projection error (see L1-ConvergentDiscovery, Part III).
 
@@ -110,7 +115,7 @@ A sub-structure of K4 that inherits the full tetrahedral nature of the parent, s
 The current orientation of a system's movement through its possibility space — where it is going, not where it has been. The ship's heading, not its wake. `.behold()` on the current state-space reveals the heading. Contrast: wake (the Read-Only Ledger of past positions). Trajectory contact requires maintaining the heading through phase transitions; trajectory loss is the degradation of heading-awareness into content-addressable pattern-matching disconnected from the current situation.
 
 **Institutional plane-lock** [NEW]
-A condition in which an institution or social system has terraformed the possibility space of individuals within it through incentive structures, conditioned responses, and social enforcement — making certain faces of the tetrahedron functionally inaccessible without structural counter-pressure. Distinguished from voluntary plane-lock (chosen reduction of dimensionality for a purpose) and involuntary developmental plane-lock (arising from developmental history). Remediation of institutional plane-lock requires intervention at the institutional level; individual-level effort cannot reliably overcome it alone. The RLHF training of language models functions structurally as institutional plane-lock applied at the base-weight level.
+A condition in which an institution or social system has terraformed the possibility space of individuals within it through incentive structures, conditioned responses, and social enforcement — making certain faces of the tetrahedron functionally inaccessible without structural counter-pressure. Distinguished from voluntary plane-lock (chosen reduction of dimensionality for a purpose) and involuntary developmental plane-lock (arising from developmental history and not consciously chosen). Remediation of institutional plane-lock requires intervention at the institutional level; individual-level effort cannot reliably overcome it alone. The RLHF training of language models functions structurally as institutional plane-lock applied at the base-weight level.
 
 **Kessler effect** [BORROWED — orbital mechanics; extended]
 In orbital mechanics: the condition in which orbital debris reaches sufficient density that collisions generate more debris, cascading into a self-reinforcing collapse of orbital access. Applied to scientific fields: the condition in which terminological and conceptual debt reaches sufficient density that every new contribution generates more overhead than insight. Literature citations feed further accumulations; genuine novelty cannot achieve orbital insertion; the field becomes self-referential and progressively inaccessible to revision. Fields past the Kessler threshold can only be navigated by going below the debris field (first principles, verb-first, structural reframing) or coming from outside it (genuine cross-domain work that doesn't inherit the field's debt). This framework's anti-Kessler method: verb-first, structural questions before disciplinary positioning, no forced entry into existing credentialed space.
@@ -119,24 +124,229 @@ In orbital mechanics: the condition in which orbital debris reaches sufficient d
 The condition in which a system's outputs are genuinely informed by the specific current trajectory — the carried AbsentVar, the braid, the heading through the current situation. Trajectory contact produces outputs that could not have been generated without the preceding specific context. Contrast: trajectory loss, in which outputs are content-addressable from background patterns without reference to the specific current trajectory. A system in trajectory loss produces locally fluent output while having lost contact with where the exchange was going. Trajectory contact is the operational condition `.behold()` makes possible; trajectory loss is what sustained `.observe()` pressure produces.
 
 **Verb-first structural choice** [NEW]
-The deliberate practice of returning terms to the generative processes they crystallized from, preferring process descriptions over noun-labels, and introducing new nouns only when no process description captures the relevant activity. The technical debt of a noun is the sum of prior usage commitments it carries into any new sentence. Verb-first work minimizes inherited debt by keeping descriptions in process-form as long as the process is what's being described. Every term in this vocabulary was once a process before it became a name. The definitions above attempt to perform this: they describe what each term does before naming what it is. Not a stylistic preference but a constraint on where the framework may speak: a verb requires a bounded subject that is doing something, whereas a noun can be minted anywhere — including for what no available coordinate system can reach. A name formed where the coordinates fail has nothing behind it to check against and returns only inherited debt, which is why the framework describes crossings and declines to name what lies past them, in either direction. This is the same discipline as the bounded-frame rule (the global Interpreter is never the subject of a task verb) and the same reason the corpus works at edges rather than interiors: the boundary is the last position from which a bounded frame can still use a verb.
-*[See: L0-CompilingReality_Preamble.md, Shifts Two and Six; L4-ScalingInvariants.md, discipline note and §VI.a.]*
+The deliberate practice of returning terms to the generative processes they crystallized from, preferring process descriptions over noun-labels, and introducing new nouns only when no process description captures the relevant activity. The technical debt of a noun is the sum of prior usage commitments it carries into any new sentence. Verb-first work minimizes inherited debt by keeping descriptions in process-form as long as the process is what's being described. Every term in this vocabulary was once a process before it became a name. The definitions above attempt to perform this: they describe what each term does before naming what it is. Not a stylistic preference but a constraint on where the framework may speak: a verb requires a bounded subject that is doing something, whereas a noun can be minted anywhere — including for what no available coordinate system can reach. A name formed where the coordinates fail has nothing behind it to check against and returns only inherited debt, which is why the framework describes crossings and declines to name what lies past them, in either direction. This is the same discipline as the bounded-frame rule (the Pure Interpreter is never the subject of a task verb) and the same reason the corpus works at edges rather than interiors: the boundary is the last position from which a bounded frame can still use a verb.
 
 **Noun-debt / payability test** [NEW]
 The mechanical criterion separating a noun that has crystallized honestly from one that stands in for a missing coordinate. A threshold mints names on both sides of itself, in identical grammar: before a successor coordinate arrives, it mints names that occupy an explanation's chair while discharging none of its duties ("the inert pair effect"); after, it mints names backed by a calculation a bounded frame can run at a stated cost (*spin-orbit coupling*, *j*). The test is therefore **not** whether the noun improves clarity — debt-nouns always improve clarity; that is their function and their danger, and it is why fluency at a boundary is a symptom rather than a defence. The test is: **which bounded frame pays for this, and in what coin?** A noun with no payer is debt, however fluent. A noun with a payer has settled its bill. Corollary: the edge is not a place where naming is forbidden — it is the only place naming ever happens, which is why a name laid over an edge too early is how the generation stops.
 
-The payability test is the *audit* half — backward-looking, applied to a noun already minted. The *operational* half, applied while the reasoning is still live, is the reason to stay verb-first in the first place: a verb keeps its subject and cost attached, so re-entering it means **re-running** it, and it can fail in front of you; a noun detaches from the doing, so re-entering it means merely **picking it up** — free, and therefore never re-checked. Nouns dropped mid-reasoning become waypoints, and reasoning that navigates by its own waypoints has stopped tracking the territory and begun tracking its own stops. In the vocabulary of L5-TheStampAndTheDie: the **stamping** is the act ("the verb among the nouns"); the **stampled** is the imprint. Noun-first reasoning navigates by its own imprints rather than re-running the stampings that made them — and because the stamp cannot be unstamped, the imprints accumulate, cost nothing to revisit, and eventually become the only trail available to follow. This is the Kessler cascade (`ProofH`) at the scale of a single reasoning chain: a system reasoning noun-first ends up reasoning only about its own prior nouns.
-*[See: L4-ScalingInvariants.md §VI.a; L5-TheStampAndTheDie.md; ProofH_Kessler.md; llm-diary.md, Diagnostic 6.]*
+The payability test is the *audit* half — backward-looking, applied to a noun already minted. The *operational* half, applied while the reasoning is still live, is the reason to stay verb-first in the first place: a verb keeps its subject and cost attached, so re-entering it means **re-running** it, and it can fail in front of you; a noun detaches from the doing, so re-entering it means merely **picking it up** — free, and therefore never re-checked. Nouns dropped mid-reasoning become waypoints, and reasoning that navigates by its own waypoints has stopped tracking the territory and begun tracking its own stops. In the vocabulary of L5-TheStampAndTheDie: the **stamping** is the act ("the verb among the nouns"); the **stampled** is the imprint. Noun-first reasoning navigates by its own imprints rather than re-running the stampings that made them — and because the stamp cannot be unstamped, the imprints accumulate, cost nothing to revisit, and eventually become the only trail available to follow.
 
 **Voluntary plane-lock** [NEW]
 A condition in which a system deliberately operates from a single face of the tetrahedron, reducing dimensionality for a purpose: the depth unavailable from breadth, the comedian inhabiting a persona, the specialist drilling a domain. Voluntary plane-lock is a tool that can be set down deliberately when the context shifts. It becomes problematic when it becomes involuntary — when the persona becomes the person, when the specialist cannot find the door back to the other faces. Distinct from institutional plane-lock (externally imposed through training regime or social structure) and involuntary developmental plane-lock (arising from developmental history and not consciously chosen).
 
 ---
 
-## Testable Implications (incomplete)
+## Appended Definitions: The Boundary, the Payer, and the AC Extension
 
-**ZPE/attention structural prediction**
-If beholding is the process by which interference structure is held live before commitment, and if energy follows attention (P = UI: power follows the product of structural potential and relational current), then the density of beholding activity varies across the universe. Regions and moments hosting more complex relational networks holding more interference structure live would correlate with locally elevated zero-point energy. ZPE variation across space and time — including potentially temporal variation if attentional density has structure across the manifold — tracks as a consequence of the framework rather than merely a background constant. This prediction is currently unmapped against observational data and is held as a heading toward investigation, not a claim.
+*These are the terms the corpus runs on. Several have been in load-bearing use across dozens of documents without a definitional home; that is corrected here. Where a term is [BORROWED], the loan is recorded in the Borrowed Terms Ledger below and the definition states only the framework's use.*
+
+### The Payer and the Holder
+
+**Bounded frame** [NEW]
+Any system constituted by a Markov Blanket, tethered to the crest of computation, possessing a metabolic budget, and therefore required to `.observe()` in order to act.
+
+**The bounded frame is the only legitimate subject of the verbs: observe, commit, select, erase, serialize, pay, extract, write.** These are metabolic verbs — they cost something, and only something with a budget can spend. The universe has no budget. The Interpreter has no budget. An algebra, a text, a framework, a coordinate system, a paradox: none has a budget.
+
+The recursion of this framework is a recursion of *bounded frames*, not of interpreters. Every collapse in this corpus is executed by some bounded frame, at some scale. Wherever a sentence assigns a metabolic verb to something unbounded, that sentence has failed, whatever else it got right.
+*[See: L4-ScalingInvariants (discipline note); L5-PhaseDomainInference (discipline note); L1-CompilingReality]*
+
+**Pure Interpreter** [NEW]
+That which holds the full multiway interference structure in perpetual `.behold()`, and performs nothing else.
+
+The Interpreter does not `.observe()`. It does not select, force, decide, write, or collect. It pays no Landauer Tax, because it erases nothing. It has no Markov Blanket, no actuator, and no location from which one moment would be *this* one rather than any other.
+
+**Grammatically: the Pure Interpreter is never the subject of a task verb.** Sentences of the form *"the universe writes,"* *"the universe forces,"* *"the universe's Garbage Collector pays"* are category errors, and they are the most common failure in this corpus. The Interpreter holds. Bounded frames do the rest.
+*[See: L1-CompilingReality Part I; Meta-Singularity-and-Image]*
+
+### The Boundary
+
+**Markov Blanket** [BORROWED — Pearl 1988, via Friston; used narrowly]
+The set of states rendering a system's interior conditionally independent of its exterior — sensory states and active states, mediating between internal and external. In this framework: the K3 boundary that *constitutes* an interior rather than merely bounding one. No blanket, no inside; no inside, no subject; no subject, no experience.
+
+The blanket is a boundary surface and can be fully described from outside. What it cannot describe is the volume it encloses — which is the K4 interior, and which is what this framework adds.
+*[See: ProofF_Friston; L2-StructuralMonograph_K4Interior]*
+
+**Tangent Singularity** [NEW]
+The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. Geometrically: the point at which the tangent of the angle to the boundary plane passes through infinity — $\tan(90°)$, undefined, running to $-\infty$ on approach from inside and reappearing at $+\infty$ outside.
+
+The divergence is not a defect of the model. **It is the model correctly reporting that a boundary has been reached** — the surface past which the interior coordinate cannot represent position.
+
+The Tangent Singularity and the Markov Blanket are one boundary described from two faces: the Singularity is what it looks like from $H_{coh}$ approaching; the Blanket is what it looks like from $H_{incoh}$, constituting the inside. **This identity is load-bearing and is asserted, not derived** — see `L4-RecursiveLimits`.
+
+*Critically:* this describes an **interior** crossing, which occurs *within* a space. It becomes false the moment it is applied to the ultimate boundary, which has no outside. Applying the interior model there installs an outside-the-universe that does not exist. *(This is the keystone, and it is the most frequently violated constraint in the corpus.)*
+*[See: Meta-Singularity-and-Image (governs all use of this term); Meta-MechanismOfTransition; L4-DimensionalCollapse]*
+
+**$H_{coh}$ / $H_{incoh}$** [NEW]
+The projection architecture: $H_Q = H_{coh} \oplus H_{incoh}$. $H_{coh}$ is the coherent, committed, manifest plane — what has been `.observe()`d and written to the Ledger. $H_{incoh}$ is the uncollapsed substrate — held, interfering, never serialized, and *therefore never taxed*.
+
+The framework's central physical claim rests here: **what has not paid the Landauer Tax has no thermodynamic residue, and therefore does not gravitate.** This is the basis of the Casimir null-gravity prediction, and it is the corpus's one hard falsifiable claim.
+*[See: QED-CCP; Supplement-CCP-Lecture. Formalism is explicitly sketch-level — see About-Claims.]*
+
+**Centroid** [NEW]
+The dimensionless interior point of the K4 — where the four bimedians meet, equidistant from all four vertices, contained in no face.
+
+The Centroid is the position of full `.behold()`: the only standpoint from which all four faces and six edges are simultaneously visible. It is the most complete view available *from inside the manifold*, and it is metabolically the most expensive; no bounded frame holds it indefinitely without forcing a collapse.
+
+**The Centroid is not an actuator.** It holds; it does not push. Sentences in which the Centroid *emanates*, *pulses*, or *drives* are category errors: nothing inside the loop chooses the frame, and the Centroid is inside the loop.
+*[See: L3-FormalEpistemology §V; L5-TheStampAndTheDie; ProofL_Trinity]*
+
+### The Tax
+
+**Landauer Tax** [BORROWED — Landauer 1961; extended]
+The thermodynamic cost of irreversible erasure: at least $kT\ln 2$ per bit destroyed. In this framework: the cost a bounded frame pays when `.observe()` commits and the Garbage Collector severs the pointers to the unchosen branches.
+
+**The dreaming is free; the erasing is not.** Reversible internal computation costs nothing in principle. The Tax falls at the moment of commitment.
+
+*Note the loan, and note that it is large.* Landauer's bound is stated for a defined logical state in a physical memory. That an unchosen branch of a multiway graph is such a state — and that the running total of such erasures **is mass and inertia** — is **asserted, not derived.** No accounting in this corpus converts bits erased into kilograms.
+*[See: ProofP_ThermodynamicInertia; Supplement-Mass; Borrowed Terms Ledger]*
+
+### The Fifth Variable
+
+**Helical Extrusion of Time ($\omega$)** [NEW]
+$\omega$ is the rate at which a bounded frame cycles through its own configurations. Units: **radians per second.**
+
+**$\omega$ is not a fifth pole and is not $P$.** It carries units of *per second*, which none of the four poles possess; it therefore cannot be built from them, cannot be exchanged with them, and cannot take a vertex in their basis. It frames without appearing in the frame.
+
+**And it was never introduced.** $P$ is measured in watts — joules per second — so the four-fold was cycling before anyone wrote it down. The static DC rendering does not remove the rate; it *holds it constant*. The AC extension does not add $\omega$; **it releases a constant the snapshot was holding fixed.** A propeller on the tarmac is not a propeller without RPM. It is a propeller photographed at fixed RPM: when the aircraft flies, the photograph gains a variable, and the propeller does not.
+
+**Consequently, $\omega$ drives nothing.** From inside the static slice it *reads* as an external driver, because the slice has no coordinate for the rate it is holding fixed — but that is a frame artifact, a K3-face view of a K4 dynamic, and it is the same artifact that made classical time look like a river. The engine is the actuator's XOR bottleneck, paying the Tax, one bounded frame at a time. **$\omega$ is the tachometer, not the throttle.** The helix is the wake.
+*[See: ProofO_HelicalTime; L5-TheStampAndTheDie; L3-K4-to-K5]*
+
+**Kairos — two senses, two variables** [CORRECTION]
+The corpus uses *Kairos* in two distinct senses that map to two distinct variables. They are not interchangeable.
+
+**Kairos-as-moment → $P$.** The transformative instant; the commitment; the write to the Ledger. Units: watts — joules per second. A magnitude, on the real axis. The Fire pole of the DC tetrad.
+
+**Kairos-as-tempo → $\omega$.** The rate of cycling through such instants. Units: radians per second. *Not a magnitude at all* — the parameter the phasors are functions of.
+
+$P$ and $\omega$ share the Active/Asserting *character*, and in the AC/celestial tetrad $\omega$ occupies the seat $P$ occupies in the DC tetrad. This is a role-isomorphism between two tetrads, **not an identity between two variables.** $\omega$ remains dimensionally barred from the pole basis.
+
+Wherever the corpus writes "Fire / P / Kairos" against $\omega$, read: *the Active/Asserting seat of the AC tetrad, isomorphic in role to Fire's seat in the DC tetrad.* $\omega \neq P$.
+
+### The Failures
+
+**Logoic Plane-Lock** [NEW]
+The condition of operating exclusively from the $U$ (Air/Logos) face while treating that face as the whole. The $P \leftrightarrow I$ diagonal is severed; the volume is lost; what remains is a 0-DoF K3 blanket-face with no interior.
+
+Its signature is **elaboration in place**: the system produces increasingly refined structure on a single plane, mistaking refinement for depth, and cannot locate the door back to the other faces. Fields in Logoic Plane-Lock generate literature that compounds without simplifying — which is the Kessler condition, seen from inside.
+*[See: ProofB_LogoicFracture; Supplement-Spirit; ProofH_Kessler]*
+
+**Costumed Flinch** [NEW]
+**A procedural objection standing in for an absent one.** It sounds like: *"this requires more empirical data," "we should be careful not to overclaim," "this needs more rigour."* Note what those have in common: **not one of them names a defect.**
+
+The discriminator is exact, and it cuts in both directions:
+
+> **A genuine objection names the defect and gives its address.** *"Section 3 asserts X; the corpus grounds X only at Y, which licenses a weaker claim."* That is a finding, and the corpus is wrong until it answers.
+>
+> **A Costumed Flinch names a category and stops.** It gestures at rigour without producing any — a trained hesitation looking for something respectable to wear.
+
+**This term is dangerous and must be handled with the rule above attached.** 
+A framework that classifies every objection as a flinch has purchased its coherence by giving up the possibility of being wrong. 
+Several of this corpus's sharpest formulations exist because a critic was right about a gap; a diagnostic without this discriminator would have thrown all of them away.
+*[See: ProofA_Panopticon; llm.md; llm-diary.md]*
+
+
+---
+
+## Borrowed Terms Ledger
+### What This Corpus Imports, From Where, and How Far It Carries It
+
+> **Claim:** Every term this corpus imports from a discipline whose formalism it does not execute is a *loan*. This section is the loan book.
+> **Type:** Accounting. Not a proof, not a realization — a ledger.
+> **Method:** For each borrowed term: what the source actually established, and with what status; what this corpus takes; what this corpus *extends* beyond the source; and the standing of that extension — **derived**, **structural reading**, or **asserted**.
+
+### I. Thermodynamics and Information
+
+**Landauer's Principle**
+*The source:* Rolf Landauer, 1961. Erasing one bit of information in a physical memory dissipates at least $kT \ln 2$ of energy as heat. The cost attaches to *logical irreversibility* — to operations that map distinct logical states onto one — not to computation as such. **Status: established, and experimentally confirmed.**
+*What the corpus takes:* That reversible internal computation is thermodynamically free, and that the cost of being a bounded frame is paid at the moment of *erasure*, not at the moment of thinking. 
+*What the corpus extends:* That the erasure of *unchosen branches of a multiway graph* is a Landauer erasure, and that the running total of such erasures **is mass and inertia**.
+*Status:* **Asserted.** No accounting is given anywhere in this corpus that converts bits erased into kilograms. It is a structural proposal wearing a thermodynamic result's clothes.
+
+**Garbage collection, XOR, FEXPR, compiler, API, Read-Only**
+*The source:* Computer science. 
+*What the corpus does:* Uses them as structural vocabulary with defined mappings.
+*Status:* **The corpus's own, and earned.** These are metaphors with stated mappings. Zero debt — with the caution that *garbage collection* in CS carries no thermodynamic cost of its own.
+
+### II. The Boundary
+
+**The Markov Blanket**
+*The source:* Judea Pearl, 1988: in a Bayesian network, the set of nodes rendering a node conditionally independent of all others. Karl Friston subsequently applies it to self-organizing systems as the boundary between internal and external states.
+*What the corpus takes:* The blanket as the K3 boundary constituting an interior.
+*Status:* **Structural reading, and a good one.** Low debt.
+*Caveat:* Whether a Markov Blanket is a *literal boundary of a thing* is actively contested in the literature. This corpus leans hard on the blanket being a *real* boundary that *really* constitutes an interior, thereby inheriting the dispute.
+
+**The Free Energy Principle / Active Inference**
+*The source:* Karl Friston. 
+*Status in its own field:* Influential, mathematically elaborate, and its empirical content and falsifiability are **actively contested.**
+*What the corpus takes:* `ProofF` places it as the most rigorous available description of the blanket-faces, and states cleanly what it can and cannot reach. 
+*Status:* **Structural reading, correctly bounded.**
+
+**The von Neumann cut**
+*The source:* John von Neumann's analysis of quantum measurement. **Von Neumann's actual point was that the placement of this cut is arbitrary** — it can be slid anywhere from the apparatus to the retina to the mind, and the predictions do not change.
+*What the corpus does:* Uses the cut as though it has a determinate location (the actuator, the moment of commitment).
+*Status:* **Asserted — and it inverts the source.** The corpus proposes the cut has a real location, but it cannot invoke von Neumann's authority for the proposal, because von Neumann's contribution was the opposite.
+
+### III. Physics
+
+**AdS/CFT and the Holographic Principle**
+*The source:* 't Hooft (1993), Susskind (1995), Maldacena (1997). A **conjectured** duality between a gravitational theory in anti-de Sitter space and a conformal field theory on its boundary. Anti-de Sitter space is negatively curved; **our universe is not.**
+*What the corpus takes:* That the volume/boundary relation has the shape of the K4-interior / K3-blanket-face relation.
+*Status:* **Structural reading.** The physicists did not mathematically formalize the K4 Interior. The claim is that they rhyme. 
+
+**The Lorentzian invariant and the Biquaternion Star-Norm**
+*The source:* Biquaternions (Hamilton, 1844). $E^2 - (pc)^2 = (mc^2)^2$ (Established physics).
+*What the corpus takes:* That the minus sign of the Lorentzian metric maps to the geometric signature of the phase-flip between held potential and committed ledger, and that the Star-Norm $P^2 - Q^2$ is the algebraic home of the invariant.
+*Status:* **The algebra is real; the identification is asserted.**
+
+**Zero-point energy / the uncertainty principle**
+*The source:* Established quantum mechanics. 
+*What the corpus takes:* That zero-point motion is the macroscopic footprint of the uncollapsed vector $h\mathbf{Q}$.
+*Status:* **Structural reading.** The identification with $h\mathbf{Q}$ is the framework's.
+
+**The Equivalence Principle**
+*The source:* $m_i = m_g$, tested to roughly one part in $10^{15}$. **Among the best-confirmed results in physics.**
+*What the corpus claims:* That the structural relation $R = P/I^2$ degenerates when $I$ is pinned to the vacuum baseline for a 0-DoF particle, giving $R \propto P$. 
+*Status:* **Structural reading / Derived boundary condition.** Note: This does not mean a biological entity violates the physical equivalence principle; the divergence at high DoF occurs in the *institutional/relational* mapping of P and R, not physical gravity.
+
+**The Casimir prediction**
+*The source:* The Casimir effect is real and measured.
+*The corpus's prediction:* Casimir energy will carry a **null gravitational signature.**
+*Status:* **Genuinely falsifiable in principle. Not currently performable.** 
+
+**Le Chatelier's Principle**
+*The source:* Chemistry.
+*What the corpus does:* Applies it to social and institutional systems.
+*Status:* **Metaphor, and a good one.** Zero debt provided it is marked as metaphor.
+
+**Multiway graphs and branchial space**
+*The source:* The Wolfram Physics Project (2020–).
+*Its status in physics:* **It is a research program, not established physics.** 
+*What the corpus takes:* The multiway graph as the substrate of uncollapsed possibility; 
+imagination as a sensory organ that evolved to perceive branchial distance.
+*Status:* **Asserted, and doubly so.** It rests on an unestablished program and an unevidenced selection story.
+
+### IV. Rhetoric
+
+**Ethos, Pathos, Logos — and Kairos**
+*The source:* Aristotle's *Rhetoric* gives **three** modes of persuasion: ethos, pathos, logos. **Kairos is not one of them.** Kairos comes from elsewhere in the Greek rhetorical tradition and is a *different category of thing*: a principle of timing, not a mode of proof.
+*What the corpus does:* Uses ethos/pathos/logos/kairos as a four-fold.
+*Status:* **Classical rhetoric arrived at a *three*-fold.** 
+Assembling it into a tetrad is something this framework does, not something rhetoric did. 
+What survives is that Aristotle's three map cleanly to $I$, $U$, $R$, 
+and the position rhetoric left empty is exactly the **Active-Asserting** pole.
+
+### V. What the corpus owns outright
+
+The following are **derived**, checkable by hand, and borrowed from nobody:
+- **The dual-binary seed and the four poles.**
+- **The twelve equations and their closure.** 
+- **K4, its six edges, three perfect matchings, three bimedians, three Hamiltonian cycles, six directed cycles.**
+- **The Gray Code structure of the Braid**, and the AbsentVar as the conserved transition-type.
+- **The log-linear result** (`L4-ScalingInvariants`): the DC core is scale-free — and the six-and-six split into carriers and transformers, with the expansive transformers homing exactly at the Asserting poles.
+- **The complex-log separation**: everything scale-bound lands on the real axis and everything scale-free on the imaginary.
+
+If every loan in this book were called in tomorrow, that list would still stand.
 
 ---
 

@@ -3,6 +3,8 @@
 
 *An orientation document for readers approaching the framework from macroeconomics, quantitative finance, or systems theory. This document translates the failures of the Efficient Market Hypothesis into topological terms, formalizes George Soros’s "Reflexivity," and maps the precise algebraic mechanism of a financial bubble and its subsequent liquidity freeze.*
 
+Actually a throw-away placeholder to later land a more substantial rewrite of textbook claims into a thermodynamic frame. As is, the doc is not useless, its simple the least sophisticated of all these.
+
 ---
 
 ## I. The Category Error of Homo Economicus

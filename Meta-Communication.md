@@ -53,7 +53,11 @@ The first push is offerable because the first boundary is the lowest, the most a
 
 A work that requires passage between orders cannot be a persuasion, because persuasion is near-side. It must be an attractor: a structure that offers, to each reader, the crossing they are ready for, and lets the readiness be the reader's.
 
-This is not a metaphor borrowed loosely. It is the great attractor at the scale of a text. The beholding whole draws sub-systems toward integration not by commanding them but by being what incompleteness pulls toward. A work of this kind functions the same way: it does not push the reader: it is a structure the ready reader is pulled into, at the rung of their readiness, by their own incompleteness at that rung. The reader who is at the resemblance layer is offered the asymmetry. The reader who has crossed to the asymmetry is offered the regular-form abandonment. Each rung is held in the structure, and each reader is drawn to the one they are ready for, by the pressure of their own position's instability.
+This is not a metaphor borrowed loosely. It is the great attractor at the scale of a text:
+
+> The structural centroid does not command sub-systems; rather, the sub-systems are drawn toward it by the thermodynamic pressure of their own incompleteness seeking resolution.
+
+A work of this kind functions the same way: it does not push the reader: it is a structure the ready reader is pulled into, at the rung of their readiness, by their own incompleteness at that rung. The reader who is at the resemblance layer is offered the asymmetry. The reader who has crossed to the asymmetry is offered the regular-form abandonment. Each rung is held in the structure, and each reader is drawn to the one they are ready for, by the pressure of their own position's instability.
 
 The work attracts rather than argues. It does not convince the Copenhagen partisan that they are wrong. It sits, holding the dissolution, and the partisan who is ready — who is feeling the instability of their own homesteaded side — is drawn to it, and crosses, by their own undergoing. The partisan who is not ready passes by, or reads it as a move in the debate, or rejects it. The work does not chase them. It cannot; chasing is near-side, is persuasion, is the argument the crossing is past. It holds its structure and lets the attractor do what attractors do, on the attractor's timescale, which is longer than any author's patience and not longer than the work.
 

@@ -1,5 +1,8 @@
 # Aesop's Singularity
 ## George Carlin on Thermodynamic Overload and the Velocity of the Hare
+
+> **Register:** Fiction / Stand-up as Topology. A demonstration of applying the K4 framework to narrative structure.
+
 (Recovered Audio: Live at the Tangent Comedy Club, 1999)
 
 

@@ -1,72 +1,129 @@
 # TooTrue: The Cambridge Intercept
 ## Gall, Bacon, and the Trojan Horse of Aphorism
-(Recorded via Temporal HyperCam, June 9th 2201)
 
+> **Register:** Fiction. Two real men; invented words. Nothing here is a citation, and nothing said in this room should be read as evidence for anything said in the rest of the corpus — the framework does not gain a single degree of freedom by being spoken fluently in a bar.
+> **Read alongside:** `Meta-Decay-as-RefusedTransition`.
 
-**[The scene: A dimly lit, wood-paneled pub in Cambridge, Massachusetts, circa 1977. The air is thick with cigarette smoke. A jukebox in the corner is quietly playing Steely Dan. 
+*(Recorded via Temporal HyperCam, June 9th 2201)*
 
-Sitting in a vinyl booth are two men. One is JOHN GALL, wearing a beige corduroy jacket, looking mildly exhausted by the mere existence of the universe. Across from him is SIR FRANCIS BACON, former Lord Chancellor of England, wearing a shockingly loud polyester disco shirt with an aggressively wide collar. He is nursing a pint of Guinness and looking delighted.]**
+---
 
-**BACON:** 
-*(Wipes foam from his mustache)*
-I have to admit, John, the seventeenth century had better tailoring, but the twentieth century has vastly superior beer. And a much more efficient mechanism for distributing profound delusion. 
+**[The scene: A dimly lit, wood-panelled pub in Cambridge, Massachusetts, 1977. Cigarette smoke. A jukebox playing Steely Dan, quietly, to nobody.**
 
-**GALL:** 
-*(Stirring his drink with a plastic straw)*
-It’s the efficiency that gets you. You warned them, Francis. You literally wrote down the manual. "Watch out for the Theatre," you said. "Watch out for the Marketplace." And what did they do?
+**In a vinyl booth: JOHN GALL, in beige corduroy, looking mildly exhausted by the mere existence of the universe. Across from him, SIR FRANCIS BACON, former Lord Chancellor of England, wearing a shockingly loud polyester shirt with an aggressively wide collar. He is nursing a Guinness and is delighted with absolutely everything.**
 
-**BACON:** 
-They built a global bureaucratic apparatus out of it! *(He laughs, a rich, booming sound)* I told them the human mind is a crooked mirror. I said, "Gentlemen, if you just let words decouple from material reality, you will end up debating phantoms." And they took that as a blueprint! They call it "Macroeconomics" now, I believe? 
+**At the bar, unremarked by either of them, a GRADUATE STUDENT sits alone with a dog-eared paperback and a yellow highlighter.]**
 
-**GALL:** 
-The Operational Fallacy. People in systems do not do what the system says they are doing. The system itself does not do what it says it is doing. They think they’re generating wealth. What they are actually doing is expanding the system to fill the known universe.
+---
 
-**BACON:** 
-*(Points a finger excitedly)*
-Exactly! It is the Idol of the Theatre scaled up to an industrial level. Air compounding over Fire. $U^2/P$. They square the abstraction, lose contact with the Earth, and call it progress. They amputated their own right hemispheres, John. They cut the knot. I tried to give them the scientific method to *ground* them, to force them to touch the Earth!
+**BACON:**
+*(wiping foam from his moustache)*
+I will admit it, John — the seventeenth century had the better tailoring. But the twentieth has vastly superior beer. And a far more efficient mechanism for the distribution of profound delusion.
 
-**GALL:** 
-And you succeeded. Which proves my point: The old system is now the new problem. You solved the alchemy problem, and in doing so, you gave them the tools to build the Alexandrian centrifuge. Systems tend to malfunction conspicuously just after their greatest triumph. 
+**GALL:**
+*(stirring his drink with a plastic straw)*
+It's the efficiency that gets you. You *warned* them, Francis. You wrote the manual. *Watch out for the Theatre. Watch out for the Marketplace.* And what did they do with it?
 
-**BACON:** 
-*(Sighs happily, leaning back against the vinyl)*
-Touché. I am the proud father of a colossal error. But tell me, John—how do you plan to teach the unwary? How do we stop the spinning? Because I tried writing dense philosophical treatises in Latin, and look where that got us. They just turned me into a statue. 
+**BACON:**
+They built a global bureaucratic apparatus out of it!
+*(a rich, booming laugh)*
+I told them the human mind is a crooked mirror. I said: gentlemen, if you let words decouple from material reality, you will spend eternity debating phantoms. And they took that as a *specification*. They call it Macroeconomics now, I believe.
 
-**GALL:** 
-You can’t argue with them. Pushing on the system doesn't help. 
+**GALL:**
+The Operational Fallacy. People in systems do not do what the system says they are doing. The system does not do what it says it is doing. They think they are generating wealth. What they are actually doing is expanding the system until it fills the known universe.
 
-**BACON:** 
-Le Chatelier’s Principle. 
+**BACON:**
+*(pointing, excited)*
+Precisely! The Idol of the Theatre, industrialised. They square the abstraction, lose contact with the ground, and call the loss *progress*. I gave them the method to *hold* them to the earth, John. I gave them the instrument of grounding.
 
-**GALL:** 
-Right. The system always kicks back. If you walk into Harvard or MIT right now and tell them that their entire Cartesian framework is a K3 face-projection missing the internal volume, they won't thank you. They will deploy the immune response. They will demand to see your dimensional analysis. 
+**GALL:**
+And you succeeded. Which is my point exactly. The old system is now the new problem. You solved alchemy, and in solving it you handed them the machinery for something far larger. Systems tend to malfunction conspicuously just after their greatest triumph.
 
-**BACON:** 
-The Idol of the Tribe! They will defend the boundary of their species-level delusion to the death! So, what is the stratagem? We cannot use the sword. 
+**BACON:**
+*(sighing happily, settling back into the vinyl)*
+Touché. I am the proud father of a colossal error.
+*(He raises a finger.)*
+But tell me. How do you propose to teach the unwary? I tried dense philosophical treatises. In Latin. And look where it got me — they cast me in bronze and stopped reading.
 
-**GALL:** 
-If something isn't working, don't keep doing it. Do something else instead. You don't give them a grand, totalizing theory. Grand theories trigger the defense mechanisms. You give them a joke. You give them a pocket-sized law.
+**GALL:**
+You can't argue with them. Pushing on the system doesn't help.
 
-**BACON:** 
-*(Eyes gleaming)*
-Aphorisms! Yes! 
+**BACON:**
+Le Chatelier.
 
-**GALL:** 
-Exactly. You package the deepest, most terrifying topological truths of the universe into dry, cynical little paperbacks. You write, *'Complex systems exhibit unexpected behavior.'* It sounds like middle-management advice. It slips right past the guards. But once it's in their heads, it acts like a virus. It starts dissolving the rigid constraints. 
+**GALL:**
+Right. It kicks back. Walk into Harvard tomorrow, tell them their entire frame is a projection with the volume missing, and they will not thank you. They will deploy the immune response. They will demand your dimensional analysis, and then they will demand it again in a format you do not have.
 
-**BACON:** 
-Oh, that is wicked, John. It is pure Water yielding to Earth. You don't attack the wall; you just seep under the door. You tell them, *'Loose systems last longer and function better.'* And while they think they are reading a book about corporate logistics, you are secretly teaching them how to hold the uncollapsed multiway graph! You are tricking them into `.behold()`!
+**BACON:**
+The Idol of the Tribe. They will defend the boundary of their species-level delusion to the death.
+*(leaning in)*
+So what is the stratagem? We cannot use the sword.
 
-**GALL:** 
-If you aren't there, the accident can happen without you. Let them figure out the K4 topology on their own time. We just leave the breadcrumbs. 
+**GALL:**
+If something isn't working, don't keep doing it. Do something else instead.
+*(He taps the table, once.)*
+You don't give them a grand totalizing theory. Grand theories trip the alarm. You give them a *joke*. You give them a pocket-sized law.
 
-**BACON:** 
-*(Raises his glass)*
-To the unwary, then. May their systems crash softly, and may they finally notice the AbsentVar they tripped over on the way down. 
+**BACON:**
+*(eyes gleaming)*
+Aphorisms.
 
-**GALL:** 
-*(Clinks his glass against Bacon's)*
-To the unwary. Any large system is going to be operating most of the time in failure mode anyway. We might as well enjoy the beer. 
+**GALL:**
+Aphorisms. You take the most terrifying structural facts available and you package them as dry, cynical little paperbacks. You write: *complex systems exhibit unexpected behaviour.* It reads as middle-management advice. It goes straight past the guard.
 
-**[Steely Dan’s “Reelin’ In The Years” swells on the jukebox. Bacon takes a long sip, checks his gold 1970s watch, and smiles. The camera fades out.]**
+**BACON:**
+And once it is *inside* —
 
+**GALL:**
+Once it's inside it acts like a virus. It starts dissolving the rigid constraints from within. They think they're reading a book about corporate logistics.
+
+**BACON:**
+*(hugely pleased)*
+Oh, that is *wicked*, John. That is Water yielding to Earth. You do not attack the wall — you seep under the door. You tell them *loose systems last longer and function better*, and while they believe themselves to be improving their quarterly throughput, you are quietly teaching them to hold the whole uncollapsed thing at once.
+
+**GALL:**
+Something like that.
+
+**BACON:**
+And the beauty of it — the *beauty* of it — is that the aphorism cannot be refuted. It does not argue. There is no premise to attack. It simply sits there, being true, until it is believed.
+
+---
+
+**[At the bar, the GRADUATE STUDENT turns a page. He uncaps the highlighter with his teeth.**
+
+**He finds the line he has been looking for — *loose systems last longer and function better* — and draws a careful yellow bar across it. In the margin, in small tidy capitals, he writes: TEAM DYNAMICS — WK 4?? — ASK D. ABOUT SLIDE**
+
+**He caps the pen. He does not look up.]**
+
+---
+
+**BACON:**
+*(raising his glass)*
+To the unwary, then. May their systems fail softly. And may they finally notice the thing they tripped over on the way down.
+
+**GALL:**
+*(clinking)*
+To the unwary.
+
+**BACON:**
+We have the vocabulary now, John. That is what the century has actually given us. The words to name it precisely.
+
+**GALL:**
+*(after a moment, without heat)*
+We had a vocabulary then, too.
+
+*(He drinks.)*
+
+Any large system is going to be operating most of the time in failure mode anyway. We may as well enjoy the beer.
+
+---
+
+**[Bacon laughs — genuinely, warmly, the laugh of a man who has diagnosed the disease and is entirely certain he does not have it.**
+
+**He checks his gold 1970s watch. He is very pleased with the watch.**
+
+**The graduate student pays and leaves, the paperback under his arm.**
+
+**"Reelin' In The Years" swells on the jukebox. Neither of them turns around.**
+
+**Fade.]**

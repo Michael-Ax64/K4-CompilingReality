@@ -1,5 +1,8 @@
 # TooTrue: The Minkowski Rant
 ## Rick Sanchez on the Cosmological Chiral Choice and the Meat-Crystal
+
+> **Register:** Fiction / Mythopoetic Diagnostic. The characters here speak from deep within their own topological distortions. When Rick asserts the universe "executed an `.observe()`," he is committing a formal category error, projecting his own plane-locked actuator onto the cosmos. The framework does not gain a degree of freedom by being shouted by a cartoon; rather, the cartoon demonstrates what topological agony looks like from the inside.
+
 (Unauthorized Multiversal Intercept: Smith Residence, Dimension C-137)
 
 

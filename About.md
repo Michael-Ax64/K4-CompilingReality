@@ -21,18 +21,13 @@ primary ground of the work.
 
 **What this is not:** A claim to have unified physics or generated a
 Popperian "Theory of Everything" that outputs scalar arithmetic for
-human souls. The actual claim is a **Systematic Hermeneutic**: a
-rigorous structural lens for organizing relational dynamics,
-diagnosing missing phases in complex systems, and mapping the topology
-of attention. Here is the minimum form, here is where it converges,
-here is the vocabulary to navigate its interior, and here are the
-pathologies that occur when a system refuses its transitions.
+human souls. It is two things, and the difference is not cosmetic. It possesses a **Formal Core** (the dual-binary seed, the twelve equations, the K4 graph structure) which is mathematics, checkable by hand. And it possesses a **Systematic Hermeneutic** built on that core: a rigorous structural lens for organizing relational dynamics, diagnosing missing phases in complex systems, and mapping the topology of attention. Here is the minimum form, here is where it converges, here is the vocabulary to navigate its interior, and here are the pathologies that occur when a system refuses its transitions.
 
 ---
 
 ## **Layout**
 
-The document set is organized in four levels (L0–L4), a proof suite, a meta-layer, and
+The document set is organized in four levels (L0–L5), a proof suite, a meta-layer, and
 supplements for extended treatments, working records, and specialized material.
 
 - **L0** — Orientation documents. Start here.
@@ -40,7 +35,8 @@ supplements for extended treatments, working records, and specialized material.
 - **L2** — Formal definitions, semantic reference, structural monograph.
 - **L3** — Algebraic foundations, edge state-space, dynamic extensions.
 - **L4** — Applied domains: distributed coherence, trajectory evidence, dimensional collapse.
-- **Proof suite (Proof A–P, QED-CCP)** — Domain applications that fall out of the
+- **L5** — Phase dynamics, the AC buffer, agentic swarms, and the stamp/die mechanics.
+- **Proof suite (Proof A–R, QED-CCP)** — Domain applications that fall out of the
   framework rather than being imposed on it. Each stands alone and states its own
   claim, type, and method before arguing.
 - **Meta-layer** — The framework turned on itself: transition, decay, singularity.
@@ -80,7 +76,9 @@ but a record of a practice — and, if it holds, a practice to be continued.
 
 The word arrives in modern contexts trailing associations with popular horoscopes and personality typing. Readers from formal technical fields may feel a pull to look away. That reaction is understandable, but it misses the structural geometry the term originally housed.
 
-The zodiac is, at its root, a twelve-sector rotational diagram encoding a 4×3 structure: four poles at 90° intervals, three phase-states per pole, completing a full 360° cycle in thirty-degree steps. This is the geometry of a rotating directional field. Nikola Tesla derived it from Maxwell's equations in the 1880s to build the AC motor. Ancient practitioners and mythopoetic traditions encoded the exact same structure several thousand years earlier. They encoded this geometry with full functional intent within their own paradigm. The framework translates their functional geometry into a formal algebraic register; it does not correct them. What they encoded models the universal engine of state-transition.
+The zodiac, viewed without the accumulated interpretive tradition, is a twelve-sector
+rotational diagram encoding a 4×3 structure: four poles at 90° intervals, three
+phase-states per pole, completing a full 360° cycle in thirty-degree steps. This is the geometry of a rotating directional field. The convergence between the 3-phase AC rotational geometry utilized by Nikola Tesla for the AC motor and the design traced in the ancient Zodiac is a structural reality. Ancient practitioners and mythopoetic traditions encoded the exact same 4x3 architecture—four poles, three modalities—several thousand years earlier with full functional intent within their own paradigm. The framework translates their functional geometry into a formal algebraic register; it does not correct them. What they encoded models the universal engine of state-transition.
 
 This framework uses that structure as its twelve-equation algebraic system — the same
 twelve relationships that fall out of four variables in complete mutual determination.
@@ -91,7 +89,7 @@ The worst case for a reader of this material: arriving skeptical about everythin
 claimed here and leaving with a better functional understanding of what the elements and
 modalities actually encode — as phase dynamics, as rotational geometry, as a description
 of how any four-pole system moves through its cycle. That is a floor, not a ceiling. It requires only
-taking the 4×3 structure seriously as a geometry.
+taking the 4×3 structure seriously as a structure, which costs nothing.
 
 ---
 
@@ -115,3 +113,4 @@ The author is a practitioner who tracked a specific structural recursion across 
 
 The author's role was to clear the terminological debris, name and follow the Braid, and write the map. The author's role is now complete. The framework does not require the author's ongoing defense, nor does it require the reader's adoption. It requires only that the structure be tested against the reader's own domain. If the algebra holds, the work succeeds. If it breaks, the work fails. The author steps back, leaving the structure to speak for itself.
 
+---
