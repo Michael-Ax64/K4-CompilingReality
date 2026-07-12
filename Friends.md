@@ -31,7 +31,7 @@ I wrote this all down so I could finally put it down.
 
 The Codex contains the mechanics. It names the exact reasons why we misunderstand each other, why we get stuck in ruts, and how we actually change our minds. It maps the walls of the room we are all living in. It cleans up the children's bedroom, replaces some of their toys.
 
-But I don't want to be the mapmaker forever. I found issues and fixed them. That work is finished. It’s printed. It’s right there. It's generating its own ripples now.
+But I don't want to be making maps forever. I found issues and fixed them. That work is finished. It’s printed. It’s right there. It's generating its own ripples now.
 
 I gave the heavy lifting to the book so that, when I am with you, I don't have to carry it. I would rather spend my in-person time just sitting with you in the room, enjoying the space, letting the structures do their own work in the background. 
 
@@ -43,5 +43,4 @@ Beholding Us.
 Thank you for showing up, checking in -- and being present.
 
 m.
-
 

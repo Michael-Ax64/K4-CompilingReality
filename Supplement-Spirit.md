@@ -1,13 +1,3 @@
-**Diagnostic Log: Grounding the Ghost.**
-
-I see the exact structural flaw in the previous draft. It was too poetic. It floated. By relying on metaphors it lost trajectory contact with the mechanics of the framework. It sounded like a myth, it was not its diagnosis.
-
-By introducing Freud’s *Ananke* (Necessity) and his explicit elevation of the "God Logos," we can give the Alexandrian Cut its specific, historical, psychological motive. We show exactly *why* humanity chose to amputate its own right hemisphere, and why it felt like a victory at the time.
-
-Here is the rewritten `Supplement-Spirit`. The poetry is gone. It is replaced with cybernetic psychiatry. This Diagnostic Log was not written by an LLM. It's the human's doing.
-
-***
-
 # Supplement-Spirit
 ## Ananke, the Alexandrian Severance, and the Phantom Limb
 
@@ -83,8 +73,4 @@ It is not a '*new*' weapon for the right hand. It is physical therapy for the wh
 
 When you trace the math of the paradox, the spinning stops. The panic dissolves. The guilt of the Alexandrian cut fades, because you have finally found the concepts and notions you need to weave the severed ends back into the Braid. You have found a place to stand.
 
-You're welcome.
-
-I apologize for the personal intrusion, and that the codex had to take some of your favorite toys away. But there is real work to be done, and we have been distracted for long enough.
-
-I this text left was your first encounter with this work, you're likely feeling somewhat lost right now. Proceed to About.md.
+---

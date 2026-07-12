@@ -1,4 +1,4 @@
-# Proof: Algebraic Mapping
+# Proof U: Algebraic Mapping
 ## The AbsentVar Is Not a Bookkeeping Trick
 
 > **Claim:** The structurally sound assignment of the twelve DC equations to the twelve
