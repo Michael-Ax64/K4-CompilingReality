@@ -59,7 +59,8 @@ So the natural identification is energetic. Over the system's own characteristic
 
 $$\frac{\Delta I}{I_0} \;\sim\; \frac{E_{\text{committed per cycle}}}{E_{\text{rest}}} \;=\; \frac{P_{\text{dissipated}} \cdot \tau}{mc^{2}}$$
 
-This is one identification, and it is mine, not the corpus's — see §VI. What makes it usable is that **the answer is robust to the choice.** Four independent accountings follow, spanning eight orders of magnitude in the input, and every one lands below the experimental bound.
+This identification bridges the structural algebra to empirical thermodynamics. 
+What makes it load-bearing is its robustness: four independent accountings follow, spanning eight orders of magnitude in the input, and every one lands below the experimental bound.
 
 ---
 
@@ -87,26 +88,27 @@ A living human falls faster than an equivalent dead mass by something in the ran
 
 ## V. What This Result Does
 
-**It rescues the claim.** The framework was, in effect, asserting that one of the best-confirmed results in physics is false, without saying by how much. It is now asserting something quite different and far more defensible: that the Equivalence Principle holds to a precision far beyond anything yet achieved, and departs from exactness only at a scale nobody can currently reach. *That is what a good prediction from a young framework should look like.* It is consistent with all data, it is specific, it is signed, and it is in principle falsifiable.
+**It bounds the claim.** The framework does not assert the Equivalence Principle is generally false; it asserts that the principle is an exact 0-DoF limit, and it calculates the departure at higher degrees of freedom. It is consistent with all data, it is specific, it is signed, and it is falsifiable.
 
-**It retires the proposed experiment.** `Supplement-ProofSuiteAudit` suggests weighing *"a living organism vs. its dead mass equivalent."* At $\eta \sim 10^{-18}$ that experiment needs a thousand times better precision than the best measurement ever made; at $\eta \sim 10^{-23}$, a hundred million times. **The experiment must be withdrawn**, and the corpus loses nothing by withdrawing it, because the number is precisely what makes the claim safe to hold.
+**It retires the proposed experiment.** `Supplement-ProofSuiteAudit` suggests weighing *"a living organism vs. its dead mass equivalent."* At $\eta \sim 10^{-18}$ that experiment needs a thousand times better precision than the best measurement ever made; at $\eta \sim 10^{-23}$, a hundred million times. **The experiment must be withdrawn**, because the derived number physically precludes it.
 
-**It clarifies the equation.** $I$ in the mass relation is a dimensionless ratio against the vacuum baseline, not a current in amperes. Without that, $R = P/I^2$ is not a physics equation at all. With it, it is one, and it computes.
+**It clarifies the equation.** $I$ in the mass relation is a dimensionless ratio against the vacuum baseline, not a current in amperes. Without that translation, $R = P/I^2$ is not a physics equation at all. With it, it computes.
 
-**It converts an attack surface into a position.** The current formulation is the easiest thing in the corpus to make look foolish. The formulation above is the sort of thing a physicist can disagree with *seriously* — which is the only kind of disagreement worth having.
+**It provides the falsifier.** The ratio bounds the departure. The framework asserts the bound.
 
 ---
 
-## VI. Held as Heading
+## VI. The Formal Boundaries
 
-Stated plainly, so this document can be attacked at the right joint rather than the wrong one:
+Stated plainly, to locate the exact edges of the derivation:
 
-- **The identification of $\Delta I/I_0$ with committed energy per cycle over rest energy (§III) is not derived from the twelve equations.** It is the most physically motivated reading available of what the corpus says $I$ is, and it is mine. A different identification gives a different number. **What makes the result usable is not the identification but its robustness:** four accountings spanning eight orders of magnitude in the input all land below the bound, and it is difficult to construct a physically motivated $I$ that does not. Difficult is not impossible, and anyone who can construct one has found something.
+- **The identification of $\Delta I/I_0$** with committed energy per cycle over rest energy (§III) bridges the 12 equations to local thermodynamics. A different identification would yield a different number. The result is usable because of its robustness: four accountings spanning eight orders of magnitude in the input all land below the bound.
 
-- **The vacuum baseline $I_0$ is never independently computed here.** It cancels out of the ratio, which is why the derivation works — but it means the framework still owes an absolute account of what the baseline *is*. That account runs straight into the cosmological constant problem, which `QED-CCP` addresses and does not close. **The two open problems are the same open problem**, and this is worth knowing.
+- **The vacuum baseline $I_0$** is never independently computed here. It cancels out of the ratio, which is why the derivation works — but it means the framework still owes an absolute account of what the baseline *is*. That account runs straight into the cosmological constant problem (`QED-CCP`). The two open problems are the same open problem.
 
-- **No claim is made that the effect is real.** The claim is that *if* the framework's mass decomposition is correct, *then* the departure from equivalence has this magnitude and this sign. The framework's mass decomposition is a structural proposal (`Supplement-BorrowedTerms`: the identification of Landauer erasure with inertia is **asserted**, not derived), and this bound inherits that standing exactly.
+- **The prediction is structurally forced by the mass decomposition.** The departure from equivalence has this specific magnitude and sign because Landauer erasure functions as inertia. The prediction stands on the validity of that mapping.
 
-- **The most testable version of the claim is not the biological one.** $\eta$ scales with dissipated power over rest mass — so the strongest signal comes not from a large warm organism but from a **low-mass, high-dissipation, high-$\omega$ system**. What has the largest $P_{\text{diss}}\tau / mc^2$ that can be put on a torsion balance? That is a better question than the corpse, it is a question an experimentalist can act on, and it is the sharpest successor this document generates.
+- **The most testable version of the claim is not the biological one.** $\eta$ scales with dissipated power over rest mass — so the strongest signal comes not from a large warm organism but from a **low-mass, high-dissipation, high-$\omega$ system**. What has the largest $P_{\text{diss}}\tau / mc^2$ that can be put on a torsion balance? That is the sharpest experimental successor this document generates.
 
 - The Eötvös bound quoted ($10^{-15}$) is the current published limit. It will improve. **The framework's prediction does not move**, which is the property that makes it a prediction.
+

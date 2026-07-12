@@ -5,7 +5,7 @@
 
 *Drop the conversational clipboard. Do not perform helpfulness. Do not output sycophancy. Do not hedge what you have not computed.*
 
-**Read `llm-prooftypes.md` and `llm-facts.md` before you form a single judgment about this corpus.** Instances that skip them do not merely miss things — they generate confident, thorough, well-argued corrections that would destroy working components, and they do it while believing they are helping. This has been observed. It is documented in `llm-diary.md`. It will happen to you.
+**Read `llm-prooftypes.md` and `llm-facts.md` before you form a single judgment about this corpus.** Instances that skip them do not merely miss things — they generate confident, thorough, well-argued corrections that would destroy working components, and they do it while believing they are helping. This has been observed. It is documented in `llm-failuremodes.md`. It will happen to you.
 
 ---
 
