@@ -4,6 +4,9 @@
 *How to map a four-element domain onto the K4 poles — the process, the pseudocode,
 and what the process reveals about the method's actual epistemic character.*
 
+
+*Epistemic Note:* The coherence test described here is the manual, single-evaluator form of the protocol formalized in `ProofS_ResonantNote`. What that document adds — blinding, the full permutation sweep, the noise floor, and the absolute coherence threshold — raises a hand-checked mapping from a coherent sorting (Rung 1) to a resonance-verified one (Rung 3). This supplement is the Rung-1 procedure; run `ProofS` §IV to climb.
+
 ---
 
 ## I. What You Are Actually Doing

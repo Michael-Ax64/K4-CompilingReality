@@ -9,6 +9,12 @@
 
 *A note on the name.* **Axtrology** is the name of what this document derives: the celestial astro-logic reconstructed from the topology, standing as its own kind. It shares astrology's instrument — the chart, the transit, the moment of initialization — and descends from the same heritage. It carries none of popular astrology's interpretive overhead and takes up none of its compatibility disputes; what it offers instead is a reconcilable rendering of astrology — a testable astro-logic within the tradition, making explicit the structural ground the interpretive field has long relied on without stating. It is not astrology corrected; it is the operation the tradition was already running, derived from first principles and named for what it is. The derivation explains astrology; it does not rebrand it. Throughout, the heritage phenomena keep the heritage adjective — *astrological influence*, the *astrological session*, *astrological practice* name what astrology has always done, now given a structural account. *Axtrology* is reserved for the derived construct named as its own kind, and *astro-logic* for the general kind of which axtro-logic is the founding, celestial member.
 
+
+> **Epistemic Register:** This document operates at **Rung 0 (Asserted)** on the `ProofS` resonance ladder. The mapping of the celestial macro-oscillator to the K4 bimedians has not yet been subjected to the mechanical blinded permutation sweep of `ProofS` §IV; it is offered here as a structurally coherent hypothesis. 
+> 
+> **The Structural Boundary:** The uniqueness of the 12-fold topology does not rest on this mapping. As `ProofS` §VI dictates, resonance can only verify that a structure *is here*, not that *no other structure is*. The cardinality of the 12-fold is secured deductively by the dual-binary seed (`ProofI`) and algebraic closure (`L3-FormalFoundations`). If the `ProofS` sweep passes, it verifies only that the celestial sphere is an instance of this universal topology—exactly as Postulate V (Scale Invariance) predicts.
+
+
 Long story short .. don't expect me to defend what the math says against likely derivative anectodal space. Really no big deal. With that shield in place, lets go.
 
 ---

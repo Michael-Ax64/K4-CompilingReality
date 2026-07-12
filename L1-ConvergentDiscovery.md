@@ -11,7 +11,9 @@
 
 When independent intellectual traditions — with no genealogical connection, using different methodologies, addressing different phenomena, in different centuries and cultures — all arrive at the same four-fold structural division, the convergence constitutes empirical evidence that the division tracks something real rather than reflecting a contingent intellectual choice.
 
-This is the standard of evidence this document applies. The traditions surveyed here did not read each other's work and import each other's categories. They found the same four faces independently. The convergence is the evidence.
+This is the standard of evidence this document applies. The traditions surveyed here did not read each other's work and import each other's categories. They found the same four faces independently. 
+
+The convergence is the evidence. Formally, this is a **proof-by-resonance** (`ProofS`) operating at strength-*n*, where each independent tradition functions as an independent evaluator peaking at the same structural mapping.
 
 What each tradition found, and what it called what it found, differs in surface vocabulary. The algebraic relationships between the four elements — that the product of two poles equals a third, that the twelve equations of mutual determination close into a complete structure — appear in the formal structure of each tradition's account, though rarely with the algebraic precision that the DC circuit system provides.
 

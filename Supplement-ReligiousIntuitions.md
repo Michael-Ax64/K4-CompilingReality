@@ -6,6 +6,10 @@ dares further than the corpus otherwise does, on purpose, because the material r
 it and because a draft is where daring is safe. It will be revised. It is set
 down now so the structure can be seen and worked, not so it can be shown.
 
+> **Epistemic Register:** This document operates at **Rung 0 (Asserted)** on the `ProofS` resonance ladder. The alignment of specific cross-cultural triads to the K4 centroid is offered as a testable mapping, not yet verified by the `ProofS` §IV mechanical blind permutation sweep. 
+>
+> **The Structural Boundary:** The claim here is not that these traditions prove the framework's uniqueness (a scope violation of `ProofS`), nor that the framework validates the traditions. The claim is that the independently derived geometry of the K4 centroid (`ProofI`, `ProofL`) perfectly resolves the historical schisms of these traditions when mapped. The topology is derived; the mapping awaits the test.
+
 ---
 
 ## The Governing Ethos: This Document Points, It Does Not Preach

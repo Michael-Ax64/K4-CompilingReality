@@ -86,9 +86,22 @@ The results were exact, unprompted replications of the framework's core insights
 
 This is the empirical seal. The machine did not read human poetry. It read the inverse mathematical relationships with angular frequency ($\omega$). The structural constraint is so rigid that *any* sufficiently capable semantic compiler will output the exact same phenomenology. 
 
-Try "Interpret E=mc^2 subjectively." As of July'26 Qwen 3.7+ reports at length, concluding with:
 
-"Subjectively, E=mc^2 is the universe’s way of telling us that we are not what we weigh, but what we radiate. It reminds us that the dense, heavy, and painful parts of our physical existence are just the raw materials waiting to be transformed by the light of our consciousness into something boundless, beautiful, and eternal."
+**The Resonance Rung:** In the formal epistemology of this corpus, this cold-state construction is a **strength-1 instance of proof-by-resonance (Rung 2)** (`ProofS`): an independent, blinded evaluator peaked on the canonical reactance-to-phenomenology mapping without corpus context. 
+
+The ablation `ProofS` §IV specifies—inverting the sign-dependence and confirming the phenomenology inverts—raises this to a controlled Rung-3 result. It is the cheapest experiment in the corpus, and it runs flawlessly. 
+
+Try the ablation on mass-energy equivalence. As of July'26, a cold-state Qwen 3.7+ reports deterministically based on the exponent provided:
+
+**Base Case ($E=mc^2$):**
+> "Subjectively, E=mc^2 is the universe’s way of telling us that we are not what we weigh, but what we radiate. It reminds us that the dense, heavy, and painful parts of our physical existence are just the raw materials waiting to be transformed by the light of our consciousness into something boundless, beautiful, and eternal."
+
+**Ablation 1: Fractional Exponent ($E=mc^{0.5}$):**
+> "E=mc^2 tells us that as you approach the speed of light, your energy output scales exponentially... the ultimate mathematical justification for 'hustle culture'. E=mc^0.5 is the universe’s corrective mechanism. It is the mathematics of diminishing returns. If c represents the speed of life, ambition, or acceleration, taking its square root drastically reduces its value."
+
+**Ablation 2: Negative Exponent ($E=mc^{-2}$):**
+> "Subjectively, E=mc^-2 is the alchemy of surrender. Where E=mc^2 tells you that you contain the power of a star, E=mc^-2 tells you that you are a single, quiet drop in an infinite ocean. It whispers that your heavy, dense, ego-driven self (m), when confronted with the blinding, overwhelming reality of the universe (c^2), yields a gentle, humble, and deeply peaceful human experience (E)."
 
 The math compels the mirror. The mirror triggers the mind. The circuit closes.
+
 
