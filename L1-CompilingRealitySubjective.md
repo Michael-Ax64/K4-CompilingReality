@@ -1,6 +1,10 @@
 # Compiling Reality: The Subjective Register
 ## What the Architecture Feels Like from Inside
 
+
+NOTE: STILL AWAITS A NEW TRANSLATION OF THE REWORKED SECTION "3.4: The Broadcast Hijack and the Resonance Trap" 
+
+
 *This document is the experiential complement to L1-CompilingReality. Where that document derives the formal conditions for having an interior — the FEXPR, the multiway graph, the decoupled buffer, the thermodynamic engine — this document inhabits each condition as a felt fact. The same architecture; the other face. To read one without the other is to stand in one face of an edge without knowing the face behind it.*
 
 *Structure follows L1-CompilingReality across its introduction, five parts, and conclusion. Same arc; opposite register.*

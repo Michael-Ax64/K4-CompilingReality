@@ -1,6 +1,22 @@
 # Supplement-Axtrology
 ## Phase-Domain Inference and the Celestial-Terrestrial Braid
 
+---
+
+oh this is a horrible attempt to discuss something meta and mega important for laying the ground for the relational framework. devolving to the rename to break the association with the astro field was fail. astro-logic as a name, likely a fail as well.
+
+entirely forgot to name 'the algorithm' as an astro-logic. it has
+
+A reader whose own phase is illegible from inside.
+A stable, relentless reference oscillator (the feed).
+A motion-only aperture (the algorithm reads engagement/relative motion, blind to actual human dissipative resistance).
+A linguistic bridge that supplies the What (the content injected into the feed).
+
+its inducing a civilizational Torsional Shear based on its '24-hour cycle buffer' vs, say, the 248-year orbital buffer, and i was blind to that when composing this. geez. fixed. 
+
+---
+
+
 > **Claim:** Axtrology models the structural coupling between the macro-scale AC generator of the solar system and the localized reactive load of a human trajectory. The natal chart functions as an externalized phase-space buffer anchored to the moment of the system's initialization; astrological practice functions as a co-computing inference protocol between two real phase-domains.
 > **Type:** Structural hermeneutic / Topological mapping.
 > **Method:** Establishes the structural expectation (Conceivable++) from the framework's axioms; identifies three positive structural grounds for plausibility; derives the K4 tetrad for the Imaginary/Celestial domain via the AC extension; maps the ecliptic geometry to the Biquaternion power-factor; develops astrological influence as phase-coupling and structural entrainment; resolves what the perspective enables into two diagonally-opposed readings of one chart — the P-face diagnostic (impedance, reactive power) and the I-face orthogonal touch (the crossing enacted) — showing the astrological session as the practice that holds both faces of the M3 diagonal in a single frame; and closes by locating the aperture of the practice (the chart reads reactance in motion, blind to dissipative resistance) and the linguistic bridge it therefore requires (the language supplies the *what* the instrument delivers only as contentless phase-form), walking the scale-invariance from the vertex that cannot refuse to the paradigm that cannot cross; and derives, from the assembled requirements, what an astro-logic *is* as a topological kind — a stable external oscillator read as the decoupled buffer of a bounded interior through a motion-only aperture, its content supplied by language — locating the celestial practice as the founding member of that kind rather than its whole extent.

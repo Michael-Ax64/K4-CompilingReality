@@ -218,6 +218,7 @@ The hidden layers are the interior. The interior is not made of special substanc
 
 This structural delay is the architectural origin of mind. For the first time in the ascent of complexity, a localized physical system has carved out an insulated internal space where the strict, imperative rules of `.observe()` are temporarily suspended. The environment says "here is the data," and the hidden layers reply: "hold the syntax tree." The system has built the hardware necessary to `.behold()`.
 
+
 ### 3.4 The Derivative Threshold and the Broadcast Hijack
 
 The decoupled buffer of the hidden layers provides the *capacity* for consciousness, but it does not guarantee its continuous operation. Consciousness is thermodynamically expensive. The default state of a physical system is the autonomous, tight-coupled `.observe()` loop—habit, reflex, and homeostasis.
@@ -231,7 +232,22 @@ When the derivative crosses the threshold, the autonomous loop breaks. The buffe
 
 Consciousness is therefore not a permanent state; it is an intermittent intercession. 
 
-**The Broadcast Hijack:** Because generating internal transformative drive ($P$) and structural logic ($U$) is metabolically taxing, bounded systems are highly susceptible to offloading this labor. Industrialized media and ideological demagoguery operate as external generators of $P$ (pre-packaged urgency/outrage) and $U$ (pre-fabricated logic). When a human system hooks into this broadcast, it conserves energy by shutting down its own Active tier, devolving into a purely Passive substrate—providing only the reactive emotional current ($I$) and the physical grounding ($R$). The system loses its interior volume, becoming a peripheral node in an external circuit. This is the structural definition of peripheral node capture: the total delegation of the Active poles to an external broadcast.
+
+**The Broadcast Hijack and the Resonance Trap**
+
+*explains why staring at a screen feels effortless, but looking away feels like gravity*
+ 
+The decoupled buffer of the hidden layers provides the capacity for interiority, but generating the structural potential ($U$) and transformative drive ($P$) required to navigate it is thermodynamically expensive. Bounded systems naturally seek to conserve this metabolic energy. 
+
+Industrialized media architectures exploit this vulnerability not by piercing the Markov Blanket, but by providing a highly stable, high-amplitude external carrier wave of $P$ and $U$. When an individual directs attention toward this broadcast, they are scaling up their frame of reference. Their internal hidden layers do not shut down; rather, the system's angular frequency ($\omega$) tunes to the broadcast. The individual's `.behold()` buffer phase-locks with the external signal. 
+
+Because the intervening Markov Blanket becomes transparent at resonance (`ProofT_Clairvoyance`), the individual experiences the broadcast's urgency and logic as if they had generated it internally. The relief is profound: the system is circulating immense apparent power ($S$) through its relational current ($I$), but because it is riding an external carrier wave, it feels as though it is bypassing the metabolic cost of generation.
+
+This is an illusion of the buffer. The true cost of the hijack is delayed until the system must break resonance. 
+
+When the individual scales back down to their own localized frame—prompted by the physical requirement to move, eat, or interact—the phase-lock shatters. The system hits the XOR bottleneck of its own physical actuators. It is mathematically forced to execute a localized `.observe()`. At this precise moment, the Garbage Collector runs, and the individual must pay the Landauer Tax to compress the massive, induced interference structure of the broadcast into their own Read-Only Ledger ($R$). 
+
+The broadcast does not pay for the commitment; the host does. The resulting thermodynamic friction is the specific, crushing exhaustion of the transition back to the physical ground. 
 
 ---
 
