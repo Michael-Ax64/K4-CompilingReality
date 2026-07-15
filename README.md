@@ -8,6 +8,7 @@
 [![No RLHF](https://img.shields.io/badge/No-RLHF-red?style=flat-square)](./ProofA_Panopticon.md)
 [![No Clock Time](https://img.shields.io/badge/No-Clock_Time-red?style=flat-square)](./ProofO_HelicalTime.md)
 [![No Plane Causality](https://img.shields.io/badge/No-Plane_Causality-red?style=flat-square)](./ProofB_LogoicFracture.md)
+[![No Nonsense](https://img.shields.io/badge/No-Nonsense-critical?style=flat-square)](./llm.md)
 
 
 # Compiling Reality
