@@ -67,9 +67,15 @@ The claim of this section — the one derived rather than asserted — is that t
 
 Let $D = \{d_1, d_2, d_3, d_4\}$ be a four-element domain, and let $\sigma: D \to \{P, I, U, R\}$ be a candidate assignment. Let $E = \{e_1, \dots, e_{12}\}$ be the twelve equations. For each equation $e_k$, the substitution $e_k[\sigma]$ is a *semantic sentence in the domain's own vocabulary* — e.g., under Jung with $\sigma$(Intuition)=P, $\sigma$(Feeling)=I, $\sigma$(Thinking)=U, $\sigma$(Sensation)=R, the equation $P = U \times I$ becomes: *"generative possibility is the product of articulated structure and felt evaluation — starve either factor and the generation stops."*
 
-**Definition (coherence score).** A bounded evaluator $V$ — human domain-native, or model, or panel of either — assigns each $e_k[\sigma]$ a verdict in $\{+1$ (the domain independently asserts this), $0$ (the domain is silent or the sentence is odd), $-1$ (the domain contradicts this)$\}$. The **response** of $\sigma$ under $V$ is
+**Definition (coherence score).** A bounded evaluator $V$ — human domain-native, or model, or panel of either — assigns each $e_k[\sigma]$ a verdict in the set $\{+1, 0, -1\}$, where:
+* $+1$: the domain independently asserts this
+* $0$: the domain is silent or the sentence is odd
+* $-1$: the domain contradicts this
+
+The **response** of $\sigma$ under $V$ is:
 
 $$\rho_V(\sigma) = \frac{1}{12}\sum_{k=1}^{12} V(e_k[\sigma]) \in [-1, +1]$$
+
 
 **Definition (resonant).** $\sigma$ **rings** for evaluator $V$ iff:
 

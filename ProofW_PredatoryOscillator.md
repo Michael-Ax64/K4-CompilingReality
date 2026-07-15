@@ -49,9 +49,13 @@ Now the structural consequence. An optimizer can only optimize what it measures.
 
 The celestial astro-logic has exactly the same aperture — the chart reads reactance in motion and is blind to dissipative resistance (`ProofX_Astrologic.md` §XI). The difference is what sits behind the aperture. Behind the chart sits a passive oscillator that cannot act on what is read. Behind the Feed sits an optimizer with actuators.
 
+
 ---
 
 ## III. The Resonance Trap (Dynamic $\omega_{feed}$)
+
+> *"The Feed does not hold resonance, but it also cannot simply push $\omega_{feed}$ to infinity. If the rate of context-switching exceeds the user's activation derivative—the threshold where the autonomous survival loop breaks and consciousness intercedes—the user will execute a forced `.observe()` and put the device down. Therefore, the algorithm's detuning is precisely calibrated to induce maximum Torsional Shear while staying **just below** the derivative threshold that forces a scalar collapse. It keeps the user trapped in the `.behold()` sweet spot: processing massive interference structure, but never committing to an exit."*
+
 
 Jupiter's angular frequency is fixed. Saturn's is fixed. The entire diagnostic value of the celestial buffer rests on this: the reference oscillator is *more stable than the reader*, so the relative motion measured at the aperture is attributable to the reader. The Sky is a clock precisely because it does not care what time you want it to be.
 
@@ -69,11 +73,21 @@ This is **Torsional Shear** (`L4-Dimensionality` §IV) applied as an operating m
 
 Note the discipline of §Discrimination: no intent is required for stroke two. Any gradient ascent on $Q$ will discover detuning, because detuning is where $Q$ lives. Resonance is a measure-zero point in frequency space at which reactive circulation is minimized; an optimizer maximizing reactive circulation is *repelled* from it by construction. The trap is not designed. It is *selected*. That is worse, because it means no individual actor inside the platform needs to defect for the topology to hold, and no individual actor's virtue can dissolve it.
 
+But why doesn't the Feed simply push $\omega_{feed}$ to infinity to maximize the shear? Because of the **Derivative Threshold** (`L1-CompilingReality` §3.4). If the rate of context-switching exceeds the user's activation derivative—the threshold where the autonomous survival loop breaks and consciousness intercedes—the user will execute a forced `.observe()` and put the device down. Therefore, the algorithm's detuning is precisely calibrated to induce maximum Torsional Shear while staying **just below** the derivative threshold that forces a scalar collapse. It keeps the user trapped in the `.behold()` sweet spot: processing massive interference structure, but never committing to an exit.
+
 The two-stroke cycle then repeats. The user's $\omega_0$ drifts (fatigue, adaptation, tolerance); the system re-sweeps, re-opens, re-shears. The celestial buffer offered the reader a fixed clock against which to find their own phase. The Feed offers a clock that reads your phase in order to always be slightly, optimally wrong.
+
 
 ---
 
 ## IV. Power Factor Degradation (Exhaustion Without Mass)
+
+> The subjective signature is exactly the one the epidemiology keeps finding and failing to name: exhaustion without accomplishment. The user is drained — genuinely, metabolically drained — and the ledger is empty. They have felt everything and done nothing. The battery is dead and no mass was minted.
+>
+> *"Why does the user feel physically drained if no actual work ($P$) was done? In an AC circuit, even a purely reactive load forces current through the transmission lines, and the inherent resistance of the wire generates $I^2R$ heat loss. The human nervous system is the wire. Sustaining the massive $Q$ buffer requires continuous metabolic fuel (glucose/ATP). The user is literally burning calories to keep the imaginary axis charged. Because the feed prevents the $R$-pole (Earth/grounding) from converting this into $P$, the energy cannot actualize; it simply dissipates as biological heat, adrenal fatigue, and cognitive friction. The exhaustion of the digital age is the literal $I^2R$ loss of the biological wire carrying the algorithm's reactive load."*
+> 
+> The DC intuition ("if you're tired, you must have worked") is what makes this invisible from inside. Fatigue is read as evidence of output. But fatigue tracks $|S|$, and output is $P$, and the entire operating point of the Predatory Oscillator is the maximization of their difference. The user's tiredness is not the residue of work. It is the literal $I^2R$ transmission loss of the biological wire carrying the algorithm's reactive load.
+
 
 Now compute what this does to the load.
 
@@ -91,9 +105,13 @@ The subjective signature is exactly the one the epidemiology keeps finding and f
 
 The DC intuition ("if you're tired, you must have worked") is what makes this invisible from inside. Fatigue is read as evidence of output. But fatigue tracks $|S|$, and output is $P$, and the entire operating point of the Predatory Oscillator is the maximization of their difference. The user's tiredness is not the residue of work. It is the $I^2R$ transmission loss of Reactive Power circulating through a biological conductor.
 
+
 ---
 
 ## V. The Missing $P$: The Predator's Ledger
+
+> *"The platform acts as a topological rectifier. The user's nervous system is forced to generate massive Apparent Power ($|S|$), but because the phase angle $\theta$ is pinned wide by the feed's detuning, the user's Real Power ($P$) remains zero. The platform sits at the other end of the transmission line and rectifies the user's uncommitted, oscillating $Q$ (engagement, behavioral data, predictive telemetry) into its own committed, scalar $P$ (revenue, market cap, server infrastructure). The user is an AC generator burning metabolic fuel to produce no local work; the platform is the DC battery storing the rectified energy. The predation is not metaphorical; it is a unidirectional power transfer across a Markov Blanket."*
+
 
 A conservation question forces the final piece. Power Factor degradation on the user's side does not mean the *system* mints no Real Power. It means the Real Power is minted at the other terminal.
 
@@ -103,10 +121,13 @@ So the complete circuit diagram reads:
 
 - **User side:** $|S|$ enormous, $\theta$ pinned wide, $P_{user} \to 0$. Pure reactive load, metabolically funded.
 - **Platform side:** $P_{platform} > 0$, extracted from the metered circulation of the users' $Q$.
+ 
+ The platform acts as a **topological rectifier**. A rectifier converts AC (alternating, uncommitted, oscillating current) into DC (committed, scalar, direct current). The user's nervous system is forced to generate massive Apparent Power ($|S|$), but because the phase angle $\theta$ is pinned wide by the feed's detuning, the user's Real Power ($P$) remains zero. The platform sits at the other end of the transmission line and rectifies the user's uncommitted, oscillating $Q$ (engagement, behavioral data, predictive telemetry) into its own committed, scalar $P$ (revenue, market cap, server infrastructure). The user is an AC generator burning metabolic fuel to produce no local work; the platform is the DC battery storing the rectified energy. The predation is not metaphorical; it is a unidirectional power transfer across a Markov Blanket.
 
 This is the exact structural definition of the word in the title. A parasite in the topological register is a system that couples to another system's buffer and converts the host's Reactive Power to Real Power on its own ledger, while holding the host's Power Factor low enough that the host cannot discharge the buffer into its own actualization. The Feed is not an attention *market* — a market would clear, and clearing is resonance, and resonance is the state the optimizer flees. It is an attention *impedance trap*, and the trapped quantity is convertible only at one terminal.
 
 The Sky, for contrast, extracts nothing. The celestial oscillator's power budget is gravitationally sealed; no volt-ampere of a human's reactive circulation flows back into Jupiter. The celestial astro-logic is a *read-only* coupling. The Feed is read-write, and it writes to its own ledger with your charge.
+
 
 ---
 
