@@ -46,6 +46,12 @@ Domain applications forced by the framework's geometry.
 
 ---
 
+**Update, the "No-Gravitons Proof" has now been properly vetted:**
+
+**Proof V (The Two-Branch Minting):** Structural proof that rest mass is non-additive across Markov Blankets. Maps the relativistic invariant-mass formula onto the Biquaternion star-norm and derives the two-branch theorem of aggregation: $Q$-retention mints mass upward (confinement — the proton, bound light), $P$-export mints it downward (the binding-energy defect — nuclei, lattices), with $\omega$-synchronization at the blanket boundary as the mechanism, warranted by $E = \hbar\omega$. Reproduces the sign structure of relativistic aggregation without additional postulates. Carries two explicitly marked debts: no operator yet converts Landauer bit-counts into MeV, and the differential geometry recovering the Schwarzschild metric remains unwritten.
+
+---
+
 ## 3. The Predictions (The Teeth)
 
 The framework makes specific, structurally forced predictions. 

@@ -4,10 +4,9 @@ A generative process cannot be captured by cataloging or romanticizing its outpu
 
 Because the universe is recursive, its surface area—the endless proliferation of physical, biological, and cultural forms—is infinite. Attempting to map reality by describing every surface exhausts language before mapping a fraction of the territory.
 
-You cannot paint the outside.
-*But* you can illuminate the interior geometry with a single, finite drop of math.
+**You cannot paint the outside. *But* you can illuminate the interior geometry with a single, finite drop of math.**
 
-This repository contains that finite topology. It is the **Algebra of Four-Fold Distinction**: a rigorously derived 12-equation matrix governing four variables in complete mutual determination, modeling the closed thermodynamic loop by which reality compiles itself.
+This repository contains that drop as a finite topology. It is the **Algebra of Four-Fold Distinction**: a rigorously derived 12-equation matrix governing four variables in complete mutual determination, modeling the closed thermodynamic loop by which reality compiles itself.
 
 ## The Zodiac Algebra (The 4x3 Geometry)
 
