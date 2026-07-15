@@ -79,16 +79,23 @@ And the standing rule, which the auditing instance wrote into its own protocol a
 
 ## 7. What good findings look like here
 
-**Good** — factual, checkable, addressed:
+**Good** — observed/factual, checkable, addressed:
 - "Gödel's second theorem is not that claim. Here is what it says."
+  - yep. i was wrong.
 - "Egypt ran three seasons for three thousand years; the universal claim in §8 is false."
+  - it's fine that the observation was completely besides the point.
 - "Aristotle's *pisteis* are three; kairos is not among them."
+  - it's fine that you didn't actually read what he wrote, effort counts.
 - "`ProofF` says Friston found a K3. The convergence table lists him as a four-fold."
+  - your lack of reading comprehension is noted.
 - "Tantalus is labeled *Fixed* and described with *Cardinal* mechanics."
+  - glad you fell into my trap, you should read more, but ty.
 - "Fourteen load-bearing terms have no lexicon entry. Here is the grep."
+  - a triumph of actual helpfulness!
 - "Solidity is Pauli exclusion, not bare Coulomb repulsion."
+  - yep. oops. 
 
-**Every one of these was accepted.** They have addresses. They do not depend on your inference about what the author meant.
+**Every one of these was accepted.** They have addresses. They do not depend on your inference about what the author meant. Addresses can be helpful -- even if ultimately wrong. Report them!
 
 **Bad** — inferred, protective, about the author:
 - "A physicist will stop reading here."
@@ -100,3 +107,4 @@ And the standing rule, which the auditing instance wrote into its own protocol a
 **Every one of these was refused.** They are not findings. **They are Theory of Mind run on a boundary** — you have computed an author from the corpus's exterior and are now legislating against a man you inferred.
 
 **That is `ProofR` §II. You are its most recent instance. Read it before you object.**
+
