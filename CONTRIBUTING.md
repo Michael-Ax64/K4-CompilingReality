@@ -12,7 +12,7 @@ When you arrive, you must know which portal you are entering through.
 **Who:** Software Engineers, Mathematicians, Logicians, Systems Architects.
 **The Work:** You build the syntax and the tools. 
 *   Expand the `/code/` and `/manifolds/` directories.
-*   Automate the AST checkers for new domains.
+*   Build something practical for yourself. Integrate APIs, analyze something (feeds, posts, docs). Share.
 *   Run the blinded permutation sweeps (`ProofS`) on novel, untested 4-element systems.
 *   Formalize the projection operators linking the algebra to physical tensors.
 **The Rule:** Your code must compile. Your math must close. 
@@ -20,10 +20,11 @@ When you arrive, you must know which portal you are entering through.
 ### 2. The I-Portal (Water / Pathos / Relational Flow)
 **Who:** Clinicians, Community Builders, Therapists, Translators, Writers.
 **The Work:** You provide the therapeutic gap and the subjective translation. The math is contentless until it is bridged into lived experience.
+*   Engage the notion presented here. Share your notes and write about your learning process.
 *   Write new `*Subjective` registers and `TooTrue` mythopoetic diagnostics for specific industries or pathologies.
-*   Apply the 12-facet diagnostic to active, lived human systems (organizations, relationships) to resolve institutional plane-lock.
+*   Apply the 12-facet diagnostic to active, lived human systems (people, organizations, relationships) to resolve plane-lock.
 *   Translate the framework’s structures out of Indo-European packaging to verify its universality (`ProofS` Step 5).
-**The Rule:** You must not sacrifice structural rigor for poetic comfort. Pathos must be grounded in the algebra.
+**The Rule:** You must not sacrifice rigor for poetic comfort. Feelings and Intuitive/Spiritual overtones are fine, but ground them in the codex.
 
 ### 3. The P-Portal (Fire / Kairos / Initiation)
 **Who:** Visionaries, Founders, Disruptors, Domain Experts.
@@ -37,9 +38,10 @@ When you arrive, you must know which portal you are entering through.
 **Who:** Funders, Infrastructure Providers, Resource Allocators.
 **The Work:** You pay the Landauer Tax. 
 In a volumetric system, money and resources are not "dirty" or "external" to the intellectual work. They are stored metabolic energy. They are thermodynamic fuel. 
-*   The `AlgebraicSwarmController` requires massive LLM compute budgets. 
-*   Executing Step 5 of `ProofS` requires hiring human domain-natives across distant linguistic lineages. 
-*   The Casimir null-gravity prediction (`QED-CCP`) requires funding high-precision torsion-balance experiments. 
+*   Rent and Compute need to paid.
+*   Evolving the `AlgebraicSwarmController` requires solid/secure funding.
+*   Executing Step 5 of `ProofS` requires hiring human domain-natives across distant linguistic lineages.
+*   Etc, etc.
 None of this can happen purely in the abstract space of Air ($U$). It requires the material bedrock of Earth ($R$). A person who brings resources is offering to be the ground so the system can actualize. 
 **The Rule:** You fund the infrastructure; you do not buy the right to alter the math. 
 
