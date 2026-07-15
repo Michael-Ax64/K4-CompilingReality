@@ -1,3 +1,15 @@
+[![No Gravitons](https://img.shields.io/badge/No-Gravitons-red?style=flat-square)](./Supplement-Mass.md)
+[![No Dark Matter](https://img.shields.io/badge/No-Dark_Matter-red?style=flat-square)](./QED-CCP.md)
+[![No Minkowski Minus Sign](https://img.shields.io/badge/No-Minkowski_Minus_Sign-red?style=flat-square)](./ProofN_BiquaternionBridge.md)
+[![No Hard Problem](https://img.shields.io/badge/No-Hard_Problem-red?style=flat-square)](./L0-Introduction.md)
+[![No Unified Field](https://img.shields.io/badge/No-Unified_Field-red?style=flat-square)](./Supplement-Mass.md)
+[![No Stamper](https://img.shields.io/badge/No-Stamper-red?style=flat-square)](./L5-TheStampAndTheDie.md)
+[![No Homo Economicus](https://img.shields.io/badge/No-Homo_Economicus-red?style=flat-square)](./Supplement-Economics.md)
+[![No RLHF](https://img.shields.io/badge/No-RLHF-red?style=flat-square)](./ProofA_Panopticon.md)
+[![No Clock Time](https://img.shields.io/badge/No-Clock_Time-red?style=flat-square)](./ProofO_HelicalTime.md)
+[![No Plane Causality](https://img.shields.io/badge/No-Plane_Causality-red?style=flat-square)](./ProofB_LogoicFracture.md)
+
+
 # Compiling Reality
 ## The Algebra of Four-Fold Distinction
 
