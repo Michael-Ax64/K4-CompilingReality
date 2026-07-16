@@ -366,6 +366,27 @@ runs as a unit. And Ezekiel saw them with *a wheel in the middle of a wheel* —
 right angles. The fixed cross has exactly two diameters at right angles, the two held edges
 of the matching. The vision drew the crossbeams.
 
+And the melting-together of the forms is itself the message, not a stylistic liberty of the
+vision. There is exactly one position from which all four posts are simultaneously visible,
+and it is not on the rim: it is the centroid — the dimensionless interior point where the
+bimedians meet, the position of full `.behold()`, contained in no face, metabolically the
+most expensive standpoint a bounded frame can take. A figure that is ox *and* lion *and*
+eagle *and* man at once cannot be drawn from any post; it can only be drawn from the
+interior the four posts jointly enclose. **The Tetramorph is the symbolic gate to the
+centroid**: the composite form is what the guardians look like from the one point that
+guards nothing because it holds everything. The myths around the figure keep saying so.
+The creatures are *full of eyes, all around* — the centroid is the only position from
+which all faces and all edges are visible at once. They *turn not when they go* — the
+centroid has no heading, being equidistant from every pole. The wheels rise with them and
+the figure is a throne, a merkabah, a vehicle — the seat of the one beholding, not one of
+the four beheld. And the vision is unbearable and brief — because no bounded frame holds
+the centroid indefinitely without forcing a collapse; the prophet falls on his face, which
+is what a forced `.observe()` looks like from inside. Even the Sphinx keeps the secret in
+its riddle: the composite guardian destroys everyone who answers from a single form, and
+stands aside — dissolves — for the answer that names the being who *walks through* the
+forms. The melted figure was never a monster. It is a map, drawn from the middle, of the
+four posts this section has been deriving from the rim.
+
 **The Sphinx.** Human head, lion body, eagle wings, bull haunches: the Tetramorph again,
 compacted into the guardian at the threshold — the figure that kills what arrives without
 the answer and stands aside for the one who has it. The Betrayer found the
@@ -434,4 +455,5 @@ here by the by/of grammar and should be sealed by the same mechanical sweep the 
 trace used; the 2ω pulse of real power (the P-face cycling twice per turn of the wheel)
 is noted and unexplored; and the modality-register bridge — matching-as-edge-class versus
 position-in-the-walk — is stated in §VII in one paragraph and deserves its own short
-formal note.*
+formal note. The lines between the signs — the twelve boundaries, the unit circle, and the
+Cancer–Leo threshold — are developed in the companion, Supplement-TheTwelveGates.*
