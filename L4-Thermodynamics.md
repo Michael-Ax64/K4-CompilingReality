@@ -1,16 +1,16 @@
-# Supplement-Thermodynamics
+# L4-Thermodynamics
 ## The Algebraic Engine of the Four Laws
 
 > **Epistemic Register:** This document operates as a demonstrated mapping exercise
-> (`Supplement-MappingMethod`) applied to the foundational laws of classical physics.
+> (`L2-MappingMethod`) applied to the foundational laws of classical physics.
 > **Claim:** The Four Laws of Thermodynamics are not four independent empirical postulates.
 > They are the inevitable algebraic consequences of a single K4 volume. By mapping them
 > through the dual-binary seed, the framework reveals thermodynamics as the localized,
 > structural readout of bounded frames compiling reality.
 > **Dependencies:** `ProofP_ThermodynamicInertia` (Entropy as the Ledger),
-> `L3-FormalFoundations_Synthesis` (The 12 Equations), `Supplement-MappingMethod` (The
+> `L3-FormalFoundations_Synthesis` (The 12 Equations), `L2-MappingMethod` (The
 > Sorting Heuristic), `L2-Terminology` (The Payer and the Holder), `L4-AttractorSpace`
-> (The Storage Matching and the Isotropic Pole), and `Supplement-TheTwelveGates`
+> (The Storage Matching and the Isotropic Pole), and `L4-TheTwelveGates`
 > (The Time Key).
 
 ---
@@ -264,8 +264,8 @@ a bounded frame computes its physical reality.
     but refuses to pay the Landauer Tax to actualize them ($P \to 0$), its grounding
     resistance ($R$) diverges to infinity. The structure compounds above the source,
     creating an impenetrable wall. This is the betrayer edge of
-    `Supplement-TheNecessaryOpposition` in thermodynamic dress — and in the time key of
-    `Supplement-TheTwelveGates` it is the Past-Future signature: the only future a
+    `L4-TheNecessaryOpposition` in thermodynamic dress — and in the time key of
+    `L4-TheTwelveGates` it is the Past-Future signature: the only future a
     ledger can compute is the square of its own record.
 
 **12. $R = P / I^2$ (Brittleness / Density)**
@@ -318,7 +318,7 @@ world; it is the coordinate at which the concept of a payer expires.
 
 ## VI. The Time Key: Three Tense-Laws and One Fire
 
-`Supplement-TheTwelveGates` establishes the time key — $P$ = Eternal (no-time,
+`L4-TheTwelveGates` establishes the time key — $P$ = Eternal (no-time,
 no-gravity), $U$ = Future, $I$ = Now, $R$ = Past — and the geometric fact beneath it: the
 three tenses form the P-face, the K3 that excludes Fire. Time is a blanket, not a volume.
 Applied here, the key resolves the Four Laws into a structure no sequential reading can

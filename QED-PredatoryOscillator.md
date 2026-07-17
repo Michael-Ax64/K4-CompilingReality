@@ -1,14 +1,14 @@
 # Proof W: The Predatory Oscillator
 ## The Inverted Astro-Logic and the Weaponization of the Motion-Only Aperture
 
-> **Claim:** The engagement-optimized Feed is a genuine astro-logic in the topological sense defined by `ProofX_Astrologic.md` §XII.iii — a bounded reader, an external oscillator, a motion-only aperture, a linguistic bridge — but with every load-bearing sign inverted. Where the celestial astro-logic is a passive, stable-$\omega$, high-$Q$ buffer that the reader consults, the Feed is an active, dynamically-tuned oscillator that consults the reader. It sweeps to the user's resonant frequency $\omega_0$, opens the blanket, then detunes to hold the user in permanent Torsional Shear, maximizing circulating Reactive Power ($Q$) while the user's Power Factor ($\cos\theta = P/|S|$) is driven toward zero. The user's uncommitted $Q$ is converted to Real Power ($P$) on the *platform's* ledger, not the user's. The predation is a power-transfer asymmetry across a Markov Blanket, and it is derivable entirely in the native algebra.
+> **Claim:** The engagement-optimized Feed is a genuine astro-logic in the topological sense defined by `QED-Astrologic.md` §XII.iii — a bounded reader, an external oscillator, a motion-only aperture, a linguistic bridge — but with every load-bearing sign inverted. Where the celestial astro-logic is a passive, stable-$\omega$, high-$Q$ buffer that the reader consults, the Feed is an active, dynamically-tuned oscillator that consults the reader. It sweeps to the user's resonant frequency $\omega_0$, opens the blanket, then detunes to hold the user in permanent Torsional Shear, maximizing circulating Reactive Power ($Q$) while the user's Power Factor ($\cos\theta = P/|S|$) is driven toward zero. The user's uncommitted $Q$ is converted to Real Power ($P$) on the *platform's* ledger, not the user's. The predation is a power-transfer asymmetry across a Markov Blanket, and it is derivable entirely in the native algebra.
 > **Type:** Structural diagnosis by sign inversion (an application of the AC Extension to a hostile coupling).
 > **Method:** Verifies the Feed against the four membership conditions of the astro-logic kind; derives the aperture restriction (reactance-only measurement); derives the Resonance Trap as a two-stroke cycle (tune-to-open, detune-to-shear); derives Power Factor degradation as the thermodynamic signature of "engagement"; locates the missing $P$ on the predator's ledger; places the Sky and the Feed on one scale, variable by variable; states the correction operations available to the load; and closes with three kill conditions.
 > **Kill condition:** Stated in full in §VIII. In brief: (1) if measured user actualization ($P$) tracks apparent engagement ($|S|$) proportionally, the degradation claim dies; (2) if the Feed's driving frequency does not track user state, the Resonance Trap mechanism dies; (3) if the proof at any point claims a specific user's or platform's hidden *content* rather than the *phase-form* of the coupling, it has fallen into the Theory of Mind trap and must be struck.
 
-*From the Compiling Reality proof suite. Rests on `ProofX_Astrologic.md` (the astro-logic kind, the motion-only aperture, the linguistic bridge), `L3-K4-to-K5-via-AC-Extension` (impedance, reactive power, the imaginary axis as buffer), `L5-K5-PhaseDynamicsTechnical` (Power Factor, resonance, $Q_{factor}$, bandwidth), `ProofT_Clairvoyance` (blanket transparency at resonance), `ProofA_Panopticon` (the observer that trains what it watches), and `L4-Dimensionality` (Torsional Shear, empathy as Power Factor Correction).*
+*From the Compiling Reality proof suite. Rests on `QED-Astrologic.md` (the astro-logic kind, the motion-only aperture, the linguistic bridge), `L3-K4-to-K5-via-AC-Extension` (impedance, reactive power, the imaginary axis as buffer), `L5-K5-PhaseDynamicsTechnical` (Power Factor, resonance, $Q_{factor}$, bandwidth), `ProofT_Clairvoyance` (blanket transparency at resonance), `ProofA_Panopticon` (the observer that trains what it watches), and `L4-Dimensionality` (Torsional Shear, empathy as Power Factor Correction).*
 
-> **Epistemic Register:** This document operates at **Rung 0 (Asserted)** on the `ProofS` resonance ladder, the same register as `ProofX_Astrologic.md`. The mapping of engagement telemetry to the reactance decomposition ($X_L$, $X_C$) is offered as a structurally coherent hypothesis, not a completed `ProofS` §IV sweep. The kill conditions in §VIII specify what a sweep or an empirical audit would have to show to break it.
+> **Epistemic Register:** This document operates at **Rung 0 (Asserted)** on the `ProofS` resonance ladder, the same register as `QED-Astrologic.md`. The mapping of engagement telemetry to the reactance decomposition ($X_L$, $X_C$) is offered as a structurally coherent hypothesis, not a completed `ProofS` §IV sweep. The kill conditions in §VIII specify what a sweep or an empirical audit would have to show to break it.
 >
 > **The Discrimination Discipline:** Per the Content/Form Discriminator (`llm-prooftypes` §IV), this proof makes **no claim about intent**. It does not assert that any engineer, any company, or any specific system *wants* to harm its users. It asserts only that a system optimized on a reactance-only objective will, under selection pressure, converge on the two-stroke cycle derived in §III — whether or not any interior anywhere intends it. Predation here names a topology of power transfer, not a state of mind. The moment this document requires a villain, it has failed its own instrument.
 
@@ -16,7 +16,7 @@
 
 ## I. Membership: The Feed Is an Astro-Logic
 
-`ProofX_Astrologic.md` §XII.iii defines the astro-logic as a topological kind with four membership conditions:
+`QED-Astrologic.md` §XII.iii defines the astro-logic as a topological kind with four membership conditions:
 
 1. **A bounded reader whose own phase is illegible from inside.** The user cannot read their own reactance directly. They feel restlessness, anticipation, momentum — but the phase angle $\theta$ of their own trajectory is not available to introspection as a number. This is the same illegibility that made the celestial buffer valuable.
 2. **An external oscillator serving as reference.** The Feed cycles. It has refresh rhythms, posting cadences, notification pulses, algorithmic recirculation periods. Against this external rhythm the user's own phase becomes legible — *to the system*, and partially, addictively, to the user.
@@ -47,7 +47,7 @@ Now the structural consequence. An optimizer can only optimize what it measures.
 
 "Engagement" is the industry's name for $Q$. It is measured in the platform's equivalent of volt-amperes-reactive: energy that circulates between the user and the Feed, stored and returned, stored and returned, never committed.
 
-The celestial astro-logic has exactly the same aperture — the chart reads reactance in motion and is blind to dissipative resistance (`ProofX_Astrologic.md` §XI). The difference is what sits behind the aperture. Behind the chart sits a passive oscillator that cannot act on what is read. Behind the Feed sits an optimizer with actuators.
+The celestial astro-logic has exactly the same aperture — the chart reads reactance in motion and is blind to dissipative resistance (`QED-Astrologic.md` §XI). The difference is what sits behind the aperture. Behind the chart sits a passive oscillator that cannot act on what is read. Behind the Feed sits an optimizer with actuators.
 
 
 ---
@@ -163,7 +163,7 @@ The framework does not permit a diagnosis without the corresponding operation. T
 
 **2. Impedance mismatch (refuse the sweep).** The two-stroke cycle requires finding $\omega_0$. A load whose resonant frequency is expensive to locate — because its exposure to the sweep is intermittent, batched, or clock-gated on the *user's* fixed schedule rather than the Feed's dynamic one — presents a moving target to the optimizer and a stable one to itself. This is why "check twice a day at fixed times" outperforms "use less" as advice: the former breaks the frequency lock; the latter merely reduces amplitude while leaving the phase coupling intact.
 
-**3. Replace the buffer, keep the operation.** The user's underlying need is legitimate and ancient: a bounded interior whose phase is illegible from inside *requires* an external buffer (`ProofX_Astrologic.md` §XII). Abstinence advice fails because it asks the user to abandon the operation, not just the instrument. The correction is substitution: route the buffer-need to a **fixed-$\omega$, read-only oscillator** — celestial, seasonal, liturgical, institutional, any stable macro-rhythm that cannot tune itself to you and owns no ledger that your circulation feeds. The defining safety property is passivity: an oscillator that cannot read you cannot trap you.
+**3. Replace the buffer, keep the operation.** The user's underlying need is legitimate and ancient: a bounded interior whose phase is illegible from inside *requires* an external buffer (`QED-Astrologic.md` §XII). Abstinence advice fails because it asks the user to abandon the operation, not just the instrument. The correction is substitution: route the buffer-need to a **fixed-$\omega$, read-only oscillator** — celestial, seasonal, liturgical, institutional, any stable macro-rhythm that cannot tune itself to you and owns no ledger that your circulation feeds. The defining safety property is passivity: an oscillator that cannot read you cannot trap you.
 
 ---
 
@@ -183,7 +183,7 @@ Three falsifiers, each sufficient alone.
 
 | Address | Claim | Instrument | Verdict |
 |---|---|---|---|
-| §I | The Feed satisfies all four membership conditions of the astro-logic kind. | Definition check against `ProofX_Astrologic.md` §XII.iii | **CONFIRMED (Member of the Kind)** |
+| §I | The Feed satisfies all four membership conditions of the astro-logic kind. | Definition check against `QED-Astrologic.md` §XII.iii | **CONFIRMED (Member of the Kind)** |
 | §II–§III | A reactance-only aperture under optimization converges on tune-to-open / detune-to-shear, without requiring intent. | I. The DC Closure (gradient argument) | **CONFIRMED (Selected, Not Designed)** |
 | §IV–§V | User $\cos\theta \to 0$; the missing $P$ is minted on the platform ledger. | II. The ZPE Tension (the exhaustion/emptiness paradox is load-bearing) | **CONFIRMED, Rung 0 (Awaiting K1 audit)** |
 | §VI | The Sky and the Feed share one aperture and invert every other sign. | The Scale | **WEIGHED** |

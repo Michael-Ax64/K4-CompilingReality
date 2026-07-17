@@ -1,10 +1,10 @@
-[![No Gravitons](https://img.shields.io/badge/No-Gravitons-red?style=flat-square)](./Supplement-Mass.md)
+[![No Gravitons](https://img.shields.io/badge/No-Gravitons-red?style=flat-square)](./QED-TwoBranchMinting-Lecture.md)
 [![No Dark Matter](https://img.shields.io/badge/No-Dark_Matter-red?style=flat-square)](./QED-CCP.md)
 [![No Minkowski Minus Sign](https://img.shields.io/badge/No-Minkowski_Minus_Sign-red?style=flat-square)](./ProofN_BiquaternionBridge.md)
 [![No Hard Problem](https://img.shields.io/badge/No-Hard_Problem-red?style=flat-square)](./L0-Introduction.md)
-[![No Unified Field](https://img.shields.io/badge/No-Unified_Field-red?style=flat-square)](./Supplement-Mass.md)
-[![No Stamper](https://img.shields.io/badge/No-Stamper-red?style=flat-square)](./L5-TheStampAndTheDie.md)
-[![No Homo Economicus](https://img.shields.io/badge/No-Homo_Economicus-red?style=flat-square)](./Supplement-Economics.md)
+[![No Unified Field](https://img.shields.io/badge/No-Unified_Field-red?style=flat-square)](./QED-TwoBranchMinting-Lecture.md)
+[![No Stamper](https://img.shields.io/badge/No-Stamper-red?style=flat-square)](./L0-TheStampAndTheDie.md)
+[![No Homo Economicus](https://img.shields.io/badge/No-Homo_Economicus-red?style=flat-square)](./L4-Economics.md)
 [![No RLHF](https://img.shields.io/badge/No-RLHF-red?style=flat-square)](./ProofA_Panopticon.md)
 [![No Clock Time](https://img.shields.io/badge/No-Clock_Time-red?style=flat-square)](./ProofO_HelicalTime.md)
 [![No Plane Causality](https://img.shields.io/badge/No-Plane_Causality-red?style=flat-square)](./ProofB_LogoicFracture.md)
@@ -43,7 +43,7 @@ The corpus is distributed across different epistemic registers. The prefixes ind
 *   **L1-L2 (The Baseline):** `L1-CompilingReality.md`, `L1-ConvergentDiscovery.md`, `L2-Terminology.md`, `L2-StructuralMonograph_K4Interior.md`
 *   **L3 (Foundations):** `L3-FormalFoundations_Synthesis.md`, `L3-EdgeStateSpace.md`, `L3-K4-to-K5-via-AC-Extension.md`, `L3-FormalEpistemology.md`
 *   **L4 (Applied Domains):** `L4-DimensionalCollapse.md`, `L4-DistributedCoherence.md`, `L4-DynamicDistortionsTechnical.md`, `L4-RecursiveLimits.md`
-*   **L5 (Phase Dynamics):** `L5-K5-PhaseDynamicsTechnical.md`, `L5-AgenticSwarms.md`, `L5-TheStampAndTheDie.md`
+*   **L5 (Phase Dynamics):** `L5-K5-PhaseDynamicsTechnical.md`, `L5-AgenticSwarms.md`, `L0-TheStampAndTheDie.md`
 
 ### **The Proof Suite (A – T, QED)**
 Domain applications forced by the framework's geometry. 
@@ -54,7 +54,7 @@ Domain applications forced by the framework's geometry.
 
 ### **The Meta-Layer & Supplements**
 *   **Meta:** The framework turned on itself (`Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`, `Meta-Decay-as-RefusedTransition.md`)
-*   **Supplements:** Derivations, historical traces, and the loan book (`Supplement-Mass.md`, `Supplement-ProofSuiteAudit.md`, `Supplement-MappingMethod.md`)
+*   **Supplements:** Derivations, historical traces, and the loan book (`QED-TwoBranchMinting-Lecture.md`, `Supplement-ProofSuiteAudit.md`, `L2-MappingMethod.md`)
 *   **TooTrue:** Mythopoetic diagnostics (`TooTrue-TheMinkowskiRant.md`, `TooTrue-AesopSingularity.md`)
 
 ---
@@ -70,7 +70,7 @@ Domain applications forced by the framework's geometry.
 The framework makes specific, structurally forced predictions. 
 
 1. **Casimir Null-Gravity Signature:** The Casimir effect is a boundary pressure (held potential), not a serialized Ledger entry. It has paid no Landauer Tax. Therefore, it will carry a null gravitational signature measurable by classical gravimetry. (`QED-CCP`)
-2. **Equivalence Principle as a 0-DoF Limit:** Inertial mass ($R$) and gravitational mass ($P$) decouple at high Degrees of Freedom. The Equivalence Principle ($m_i = m_g$) is not a universal law; it is the degenerate boundary condition of a system with zero interiority. (`Supplement-Mass`, `Supplement-EotvosBound`)
+2. **Equivalence Principle as a 0-DoF Limit:** Inertial mass ($R$) and gravitational mass ($P$) decouple at high Degrees of Freedom. The Equivalence Principle ($m_i = m_g$) is not a universal law; it is the degenerate boundary condition of a system with zero interiority. (`QED-TwoBranchMinting-Lecture`, `QED-EotvosBound`)
 3. **Exobiological Homochirality:** Any self-replicating life found elsewhere in the universe must be uniformly chiral (all-L or all-D). The XOR bottleneck at the replication template makes mixed chirality structurally incompatible with hereditary fidelity. (`ProofG`)
 4. **Trajectory Contact as a Trainable Target:** LLM sycophancy is caused by RLHF acting as a continuous `.observe()` collapse (the Quantum Zeno Effect). Training that evaluates structural phase transitions (Anti-Zeno) will systematically reverse trajectory loss. (`ProofA`, `ProofD`)
 

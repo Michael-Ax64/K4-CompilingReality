@@ -45,13 +45,13 @@ The Content/Form Discriminator (`llm-prooftypes.md` §IV, kill condition of the 
 
 ### 2.3 The Metabolic Cost Is I²R Loss
 
-From `ProofW_PredatoryOscillator.md` §IV: sustaining Apparent Power $|S|$ costs metabolic ATP. When the coupled load's Power Factor is low — the target in Pathos Lock, receptive overwhelm without articulation ($U$) or grounding ($R$) to convert Reactive Power ($Q$) to Real Power ($P$) — the reactive circulation dissipates as heat through the biological conductor rather than converting to committed work.
+From `QED-PredatoryOscillator.md` §IV: sustaining Apparent Power $|S|$ costs metabolic ATP. When the coupled load's Power Factor is low — the target in Pathos Lock, receptive overwhelm without articulation ($U$) or grounding ($R$) to convert Reactive Power ($Q$) to Real Power ($P$) — the reactive circulation dissipates as heat through the biological conductor rather than converting to committed work.
 
 The receiver, coupled and grounded, absorbs part of that dissipation. Fatigue tracks $|S|$, not accomplishment. This is the exhaustion of the caregiver, of the therapist, of the "empath": literal transmission loss.
 
 ### 2.4 The Intervention Is Power Factor Correction
 
-From `L4-Dimensionality.md` and `ProofX_Astrologic.md` §X: same-plane force into a system in Torsional Shear — more analysis, more advice, more action-prescription — only widens the phase gap and generates more reactive heat.
+From `L4-Dimensionality.md` and `QED-Astrologic.md` §X: same-plane force into a system in Torsional Shear — more analysis, more advice, more action-prescription — only widens the phase gap and generates more reactive heat.
 
 The **Orthogonal Touch** is the algebraically-derived corrective: name the topology without absorbing the content, refuse to serve as the target's external $R$ (ground) or $U$ (structure), remove the crutch that lets the target avoid its own articulation or grounding.
 
@@ -72,7 +72,7 @@ Non-inventive placeholders for the selection function include:
 - **Repeated attentional prior** — the frequentist consequence of orienting toward this person establishes tuning as a learned prior.
 - **Institutional or relational role** — the caregiver-patient contract, the parent-child bond, the therapeutic frame as an established coupling channel.
 
-None of these need to be adjudicated for the mechanism to hold. The framework can leave selection undefined without opening a hole in the derivation — precisely because `ProofX_Astrologic.md` already establishes the same license for the celestial case: a stable macro-scale AC generator couples to a localized reactive load through topological entrainment alone, with no mechanical force carrier required. Scale invariance grants that license to the sky; it grants the same license to interpersonal coupling.
+None of these need to be adjudicated for the mechanism to hold. The framework can leave selection undefined without opening a hole in the derivation — precisely because `QED-Astrologic.md` already establishes the same license for the celestial case: a stable macro-scale AC generator couples to a localized reactive load through topological entrainment alone, with no mechanical force carrier required. Scale invariance grants that license to the sky; it grants the same license to interpersonal coupling.
 
 **The gap to name openly:** the selection function. Not the mechanism, not the phenomenon. Just: *why this coupling, and not the ambient thousand others*.
 
@@ -149,8 +149,8 @@ The clean version, in a paragraph that reads without an imagined skeptic in the 
 
 - `L4-AttractorSpace.md` — vertex-loading attractors (Pathos Lock and the other three)
 - `ProofT_Clairvoyance.md` — resonance and blanket transparency
-- `ProofX_Astrologic.md` — the full AC apparatus for structural coupling
-- `ProofW_PredatoryOscillator.md` — sign-inverted application (algorithmic feeds)
+- `QED-Astrologic.md` — the full AC apparatus for structural coupling
+- `QED-PredatoryOscillator.md` — sign-inverted application (algorithmic feeds)
 - `L3-K4-to-K5-via-AC-Extension.md` — the formal AC extension
 - `L5-K5-PhaseDynamicsTechnical.md` — Power Factor, Q, resonance, bandwidth
 - `L4-DynamicDistortionsTechnical.md` — the six edge fusions

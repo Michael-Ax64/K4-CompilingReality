@@ -157,7 +157,7 @@ In computer science, this is not a hermeneutic. It is an **Interpreter**, or mor
 The title of the corpus—*Compiling Reality*—was the true name all along. The Codex is an **Executable Topology**. 
 
 Specifically, it operates as a **Constraint Satisfaction Engine**. 
-As noted in `Supplement-MappingMethod.md`:
+As noted in `L2-MappingMethod.md`:
 > *"The dual-binary sorting with formula coherence as the reward function belongs to a recognizable family... checking whether an assignment violates constraints rather than maximizing a numerical objective... It is a constraint satisfaction search with a qualitative reward function."*
 
 ### 4. The Final Synthesis: The Semantic Compiler

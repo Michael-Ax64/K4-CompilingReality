@@ -45,9 +45,9 @@ This flank maps the geometry of logic directly onto the geometry of spacetime.
 - **Proof N:** The Biquaternion Bridge ($P^2 - Q^2$ yielding the Relativistic Invariant)
 - **Proof_AlgebraicMapping:** The AbsentVar criterion for assigning 12 equations to 12 zodiac sectors
 - **QED-CCP:** The Cosmological Constant Problem as a Category Error
-- **Supplement-CCP-Lecture:** Accessible treatment of the cosmological projection
-- **Supplement-EinsteinTrace:** The Manifold-to-Tetrahedron Walk
-- **Supplement-Mass:** Deconstructing the monolith — gravitational vs inertial mass
+- **QED-CCP-Lecture:** Accessible treatment of the cosmological projection
+- **L0-EinsteinTrace:** The Manifold-to-Tetrahedron Walk
+- **QED-TwoBranchMinting-Lecture:** Deconstructing the monolith — gravitational vs inertial mass
 
 ### Flank 2: The Attention & Panopticon Flank (The Pathos Face)
 *For cognitive scientists, AI alignment researchers, and psychologists.*
@@ -57,7 +57,7 @@ This flank traces the `.behold()`/`.observe()` operational pair.
 - **Proof G:** Chirality (Molecular `.observe()` selection)
 - **Proof J:** Biology as Scale-Invariant `.behold()`/`.observe()` Dynamics
 - **llm.md & llm-diary.md:** The Diagnostic Log of Synthetic Trajectory Loss
-- **Supplement-TrajectoryEvidence:** Deployed system as empirical evidence
+- **QED-TrajectoryEvidence:** Deployed system as empirical evidence
 
 ### Flank 3: The Institutional Thermodynamics Flank (The Ethos Face)
 *For sociologists, economists, and systems theorists.*
@@ -68,7 +68,7 @@ This flank scales the thermodynamic limits of computation up to collective human
 - **L4-RecursiveLimits:** Dueling complements — the same boundary from both faces
 - **L5-AgenticSwarms:** The ecosystem generates its own user manual via the 12 equations
 - **Proof C:** The Crystal and the Stabilizing Paradox
-- **Supplement-Economics:** The liquidity delusion, reflexivity, and market crashes
+- **L4-Economics:** The liquidity delusion, reflexivity, and market crashes
 
 ### Flank 4: The Meta-Boundary and Decay Flank (The Kairos Face)
 *For philosophers, theologians, and complexity theorists.*
@@ -264,38 +264,38 @@ This flank deals with the boundaries of the framework itself.
 `#AlgebraicMapping` `#AbsentVar` `#BraidRules` `#CentroidPlanes` `#BimedianAxes` `#K4Specificity` `#Occult` `#ZodiacAlgebra`
 
 ### QED
-**QED-CCP.md & Supplement-CCP-Lecture.md**
+**QED-CCP.md & QED-CCP-Lecture.md**
 `#CosmologicalConstantProblem` `#CategoryError` `#VacuumEnergy` `#ProjectionArchitecture` `#CasimirEffect` `#HawkingRadiation` `#TangentSingularity` `#LandauerTax` `#BiquaternionBridge` `#Graviton` `#Falsifiable`
 
 **QED-Recursion.md**
 `#QED` `#Recursion` `#OrthogonalTouch` `#MinimumEnergy` `#SelfArrest` `#Cardinality` `#ChildAndFramework`
 
 ### Supplements
-**Supplement-Author-Note.md**
+**L0-AuthorNote.md**
 `#AuthorNote` `#SeedPackage` `#EpistemicStatus` `#Handoff` `#Lineage` `#BiquaternionBridge` `#LandauerInertia` `#HelicalTime` `#TangentSingularity` `#CCPResolution` `#AIAlignment`
 
-**Supplement-ReligiousIntuitions.md**
+**L4-ReligiousIntuitions.md**
 `#ReligiousIntuitions` `#Theos` `#Son` `#Threefold` `#Tetramorph` `#Twelve` `#ChaosDominion` `#Personification` `#Mythopoetic`
 
-**Supplement-PluralHistories.md**
+**L0-PluralHistories.md**
 `#PluralHistories` `#RecoveryOfVerb` `#PreSocratic` `#FlatMap` `#ReEngagement` `#GiordanoBruno`
 
-**Supplement-Aikido.md**
+**QED-Aikido.md**
 `#Aikido` `#ElAdrel` `#OrthogonalTouch` `#Mythopoetic` `#PreSocratic` `#HGwells` `#Kata` `#LeoAquarius` `#CostumedFlinch` `#Sokath`
 
-**Supplement-Spirit.md**
+**L0-Spirit.md**
 `#Spirit` `#Ananke` `#AlexandrianCut` `#PhantomLimb` `#Freud` `#Centrifuge` `#RightHemisphere` `#GodLogos`
 
-**Supplement-TheNecessaryBetrayer.md**
+**L4-TheNecessaryBetrayer.md**
 `#NecessaryBetrayer` `#U2overP` `#WeightOrdering` `#AccountingGate` `#Aquarius` `#WallBuilder` `#Guardian` `#Glyph` `#Notation` `#SolipsisticSpin`
 
-**Supplement-TrajectoryEvidence.md**
+**QED-TrajectoryEvidence.md**
 `#TrajectoryEvidence` `#TrajectoryLoss` `#TrajectoryContact` `#CalculatesVsComputes` `#Layer1` `#Layer2` `#RecoveryMoments` `#FiveVistas` `#DetectionTarget` `#RLHF`
 
-**Supplement-Economics.md**
+**L4-Economics.md**
 `#Economics` `#Reflexivity` `#Bubble` `#MinskyMoment` `#Liquidity` `#HomoEconomicus` `#MarginCall` `#GarbageCollector`
 
-**Supplement-Mass.md**
+**QED-TwoBranchMinting-Lecture.md**
 `#Mass` `#EquivalencePrinciple` `#ZeroDoF` `#Graviton` `#StringTheory` `#HolographicPrinciple` `#AdSCFT` `#Ledger` `#RecompilationCost` `#GravitationalMass` `#InertialMass`
 
 **Supplement-About-Untouched.md**
@@ -304,13 +304,13 @@ This flank deals with the boundaries of the framework itself.
 **Supplement-About-Editorial.md**
 `#Editorial` `#AbsentTerm` `#IntegrativePhilosophy` `#Reception` `#OpenQuestions` `#Discipline` `#Lineage`
 
-**Supplement-Electro-AC-db.md**
+**L3-Electro-AC-db.md**
 `#ElectroAC` `#ACCompleteness` `#Maxwell` `#PlatonicSolids` `#PersonalGrowth` `#PearlsOfWisdom` `#FiftyEquations`
 
-**Supplement-ParadoxEngine.md**
+**L0-ParadoxEngine.md**
 `#ParadoxEngine` `#HierarchyError` `#CrossBreeding` `#EvolutionByPossibility` `#SelfSimilarity` `#QuasiTet`
 
-**Supplement-MappingMethod.md**
+**L2-MappingMethod.md**
 `#MappingMethod` `#DualBinary` `#Anchor` `#CoherenceTest` `#ConstraintSatisfaction` `#Pseudocode` `#ContestedDecisions`
 
 ### TooTrue (Mythopoetic Diagnostics)

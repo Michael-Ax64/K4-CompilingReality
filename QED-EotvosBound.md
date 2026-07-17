@@ -5,7 +5,7 @@
 > **Type:** Derivation of a magnitude, from the framework's own equation, with the free parameter bounded four different ways.
 > **Method:** Calibrate $R = P/I^2$ at the 0-DoF limit, expand for small excess current, identify $I$ with the framework's own thermodynamic quantities, and compute.
 
-*From the Compiling Reality set. Rests on `Supplement-Mass` (the $P$/$R$ decomposition and the 0-DoF derivation of the Equivalence Principle), `ProofP` (inertia as Landauer Tax), and `ProofC` (the vacuum baseline as zero-point flux).*
+*From the Compiling Reality set. Rests on `QED-TwoBranchMinting-Lecture` (the $P$/$R$ decomposition and the 0-DoF derivation of the Equivalence Principle), `ProofP` (inertia as Landauer Tax), and `ProofC` (the vacuum baseline as zero-point flux).*
 
 *A discipline note. Every verb here is pinned to a bounded frame. The one number this document produces is a bound, not a measurement, and the section that states what is not claimed is at the end and is not decoration.*
 
@@ -13,7 +13,7 @@
 
 ## I. Why This Document Exists
 
-`Supplement-Mass` derives the Equivalence Principle as a degenerate boundary condition rather than a universal law, and then states — without a magnitude — that at high degrees of freedom, *"the Equivalence Principle shatters."*
+`QED-TwoBranchMinting-Lecture` derives the Equivalence Principle as a degenerate boundary condition rather than a universal law, and then states — without a magnitude — that at high degrees of freedom, *"the Equivalence Principle shatters."*
 
 **A prediction with no predicted magnitude is not a prediction.** It is a hope with a coordinate. And in this particular case it is worse than useless, because the Equivalence Principle is among the best-confirmed results in physics — confirmed to roughly one part in $10^{15}$ by the MICROSCOPE satellite and the Eöt-Wash torsion balances, across test masses of radically different composition and internal structure. A framework that says *"the Equivalence Principle shatters"* and declines to say *by how much* is not making a bold claim. It is making an unfalsifiable one, and it is doing so in the one place where physics is watching most carefully.
 
@@ -23,7 +23,7 @@ So: the number.
 
 ## II. The Equation, Calibrated
 
-From `Supplement-Mass`, the framework's mass relation:
+From `QED-TwoBranchMinting-Lecture`, the framework's mass relation:
 
 $$R = \frac{P}{I^2}$$
 
@@ -35,7 +35,7 @@ The repair is forced and it is the right one: **$I$ in the mass relation is a di
 
 $$\frac{m_i}{m_g} = \left(\frac{I_0}{I}\right)^{2}$$
 
-and the calibration is automatic: at the 0-DoF limit, $I = I_0$ by definition (the particle has no interior with which to modulate its own current), so $m_i / m_g = 1$ exactly. **This is `Supplement-Mass`'s derivation of the Equivalence Principle, now with the constant fixed.**
+and the calibration is automatic: at the 0-DoF limit, $I = I_0$ by definition (the particle has no interior with which to modulate its own current), so $m_i / m_g = 1$ exactly. **This is `QED-TwoBranchMinting-Lecture`'s derivation of the Equivalence Principle, now with the constant fixed.**
 
 For a system whose relational current exceeds the baseline by $\Delta I = I - I_0$, expand for $\Delta I \ll I_0$:
 
@@ -47,7 +47,7 @@ $$\boxed{\;\eta \;\equiv\; \frac{m_i}{m_g} - 1 \;\approx\; -\,2\,\frac{\Delta I}
 
 $\eta < 0$, so $m_i < m_g$: **a system with genuine interiority has less inertial mass than gravitational mass, and therefore falls very slightly faster than a 0-DoF object of the same weight.**
 
-This is not an extra assumption. It is exactly what `Supplement-Mass` already says in the institutional register: *"a human institution can have massive historical gravity ($P$) but exhibit incredibly low resistance to a new heading ($R$) if its internal relational current ($I$) is surging."* High current, low resistance, low inertia. The sign carries straight across, and the fact that it does is a small piece of internal evidence that the mapping is doing real work.
+This is not an extra assumption. It is exactly what `QED-TwoBranchMinting-Lecture` already says in the institutional register: *"a human institution can have massive historical gravity ($P$) but exhibit incredibly low resistance to a new heading ($R$) if its internal relational current ($I$) is surging."* High current, low resistance, low inertia. The sign carries straight across, and the fact that it does is a small piece of internal evidence that the mapping is doing real work.
 
 ---
 

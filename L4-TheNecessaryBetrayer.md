@@ -1,4 +1,4 @@
-# Supplement-TheNecessaryBetrayer
+# L4-TheNecessaryBetrayer
 ## Deriving One Edge From Weight, and Finding It Was Always in the Glyph
 
 > **Status: draft, for joint development.** A derivation from first principles of a single

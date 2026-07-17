@@ -1,4 +1,4 @@
-# Supplement-MappingMethod
+# L2-MappingMethod
 ## Applying the Dual-Binary Framework to a New Domain
 
 *How to map a four-element domain onto the K4 poles — the process, the pseudocode,

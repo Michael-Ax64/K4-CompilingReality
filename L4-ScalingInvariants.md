@@ -246,7 +246,7 @@ The twelve equations were checked by hand against the log-slope criterion and th
 
 *The main text built an engine; this addendum inventories what the engine turns without being asked. Four consequences fall directly out of the log-transform. Each is stated, checked, and where necessary corrected before commitment — one arrived overstating its geometry, one arrived speaking stamper-grammar, and both are worth more repaired than repeated. The discipline note of the frontmatter applies here unchanged.*
 
-*One acknowledgment first. The §V homing result — squares at the Asserting poles, roots at the Yielding — turns out to be an independent re-derivation of a split the corpus already holds under another name: the "typed square-routes (into the committed poles) and root-routes (into the open ones)" of L5-TheStampAndTheDie, mechanically verified in `test/dual_route_trace.py`. The log-slope criterion and the operator-morphology criterion of Proof_AlgebraicSyntax reach the same six-and-six by different roads. Two independent derivations of one structure is a stronger position than either alone, and is recorded as such.*
+*One acknowledgment first. The §V homing result — squares at the Asserting poles, roots at the Yielding — turns out to be an independent re-derivation of a split the corpus already holds under another name: the "typed square-routes (into the committed poles) and root-routes (into the open ones)" of L0-TheStampAndTheDie, mechanically verified in `test/dual_route_trace.py`. The log-slope criterion and the operator-morphology criterion of Proof_AlgebraicSyntax reach the same six-and-six by different roads. Two independent derivations of one structure is a stronger position than either alone, and is recorded as such.*
 
 ---
 
@@ -274,7 +274,7 @@ Every carrier, in log-space, is an addition or a subtraction of unit-slope terms
 
 $$i = p - u \qquad i = u - r \qquad u = p - i \qquad r = u - i$$
 
-In linear space each of these is a division, and L5-TheStampAndTheDie has already established what the divisor is: not a passive denominator but the **Die** — the form-giver, the constraint that shapes what the drive becomes. The log-transform hands that reading its arithmetic footprint: **the Die is the term that subtracts.** When $U$ dies $P$ into $I$ ($i = p - u$), the constraint literally removes its own magnitude from the drive's, decade for decade, and what remains is the imprint. Subtraction in log-space *is* constraint carving away potential — not as imagery, as the operation.
+In linear space each of these is a division, and L0-TheStampAndTheDie has already established what the divisor is: not a passive denominator but the **Die** — the form-giver, the constraint that shapes what the drive becomes. The log-transform hands that reading its arithmetic footprint: **the Die is the term that subtracts.** When $U$ dies $P$ into $I$ ($i = p - u$), the constraint literally removes its own magnitude from the drive's, decade for decade, and what remains is the imprint. Subtraction in log-space *is* constraint carving away potential — not as imagery, as the operation.
 
 Two checks hold. Every minuend above is an Active pole ($p$ or $u$) — the Numerator Law of Proof_AlgebraicSyntax, surviving the transform intact: what leads is Active, what is subtracted from is never Reactive. And the carriers split internally: two additions (composition — $p = u + i$, $u = i + r$) against four subtractions (constraint). Even within the carrying half, the algebra shapes more often than it assembles. The drive leads; the die subtracts; the imprint is the difference. Nothing here pushes alone, now to one decimal of arithmetic.
 
@@ -306,7 +306,7 @@ What changes from cell to civilization is one real number: $|S|$, pressing again
 
 - The conjugate-basis identity of A1 is exact for the Fixed modality as written; whether the Cardinal and Mutable modalities admit analogous transform-readings in log-space (each is also a four-equation closure over its own edge-pair) is open and is now the sharpest successor question, alongside the geometric seal named in §X.
 
-- A3's slope-2 diagnostic is exact on the $r$-fixed slice; empirical use on institutions requires arguing that the slice fits the case, which is domain judgment in exactly the sense Supplement-MappingMethod bounds.
+- A3's slope-2 diagnostic is exact on the $r$-fixed slice; empirical use on institutions requires arguing that the slice fits the case, which is domain judgment in exactly the sense L2-MappingMethod bounds.
 
 - A4 treats $Q$ as given by the AC extension; the full dimensional story of $\theta$ across the fifty equations should be checked against `test/ac_checker.py` before the vocabulary entry is sealed.
 

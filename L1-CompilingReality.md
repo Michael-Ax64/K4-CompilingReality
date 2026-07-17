@@ -350,6 +350,6 @@ Humanity is one of these branches. We are a localized sub-routine of the multiwa
 
 ---
 
-*Trajectory Note: The headings opened in this document — the von Neumann cut as API boundary, the dimensional mismatch of mass and power, the mechanism of the crossing — are no longer open. The formal geometry of the crossing is derived in `Meta-MechanismOfTransition`. The resolution of the dimensional mismatch is in `L4-DimensionalCollapse` and `Supplement-Mass`. The nested recursion of the boundary is mapped in `L4-RecursiveLimits`. The heading has been navigated; the map is now complete.*
+*Trajectory Note: The headings opened in this document — the von Neumann cut as API boundary, the dimensional mismatch of mass and power, the mechanism of the crossing — are no longer open. The formal geometry of the crossing is derived in `Meta-MechanismOfTransition`. The resolution of the dimensional mismatch is in `L4-DimensionalCollapse` and `QED-TwoBranchMinting-Lecture`. The nested recursion of the boundary is mapped in `L4-RecursiveLimits`. The heading has been navigated; the map is now complete.*
 
 ---

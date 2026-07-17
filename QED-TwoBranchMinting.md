@@ -6,7 +6,7 @@
 > **Method:** Extends the Solipsism Warning to physical mass aggregation. Uses the log-linear scale-freedom of the DC algebra and the translation-breaking AC complex sum ($S = P + jQ$) to define the projection operator ($\Psi$) as a bandwidth threshold. Maps the relativistic invariant-mass formula onto the Biquaternion star-norm. Warrants the $\omega$-synchronization mechanism via $E = \hbar\omega$.
 > **Scope & Boundary:** This document proves the structural mechanism of mass aggregation and reproduces the sign structure of relativistic mass defects. It explicitly *does not* provide the mathematical composition operator for deriving the exact macro-invariant from the micro-invariants, nor does it provide the operator converting Landauer bit-counts into MeV. The limits of the claim are stated in Section IV.
 
-*From the Compiling Reality proof suite. Rests on `L3-FormalFoundations_Synthesis` (The Solipsism Warning), `L4-ScalingInvariants` (The Break of the Logarithm), `ProofP_ThermodynamicInertia` (Mass as the Ledger), `ProofN_BiquaternionBridge` (The Star-Norm), and `Supplement-Mass` (The P/R Split).*
+*From the Compiling Reality proof suite. Rests on `L3-FormalFoundations_Synthesis` (The Solipsism Warning), `L4-ScalingInvariants` (The Break of the Logarithm), `ProofP_ThermodynamicInertia` (Mass as the Ledger), `ProofN_BiquaternionBridge` (The Star-Norm), and `QED-TwoBranchMinting-Lecture` (The P/R Split).*
 
 ---
 

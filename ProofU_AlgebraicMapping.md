@@ -23,7 +23,7 @@ The twelve equations of the Algebra of Four-Fold Distinction (instantiated in DC
 - Twelve sectors = 4 elemental poles × 3 modalities
 
 The home-variable to element assignment follows from the dual-binary mapping procedure
-(documented in Supplement-MappingMethod): P=Fire, I=Water, U=Air, R=Earth. That
+(documented in L2-MappingMethod): P=Fire, I=Water, U=Air, R=Earth. That
 assignment is handled separately and is structurally sound.
 
 The remaining question: within each element's three equations, which equation maps to
@@ -128,7 +128,7 @@ variables — would require its own structural analysis.
 
 **Why this boundary matters:** Future instances engaging this material may be tempted
 to generalize the AbsentVar method to other domains as a general mapping procedure.
-This is the wrong move. The procedure in `Supplement-MappingMethod` (assigning domain
+This is the wrong move. The procedure in `L2-MappingMethod` (assigning domain
 categories to the four poles) is the appropriate tool for external domain mapping.
 The AbsentVar method described here is internal to the algebraic network — it assigns
 the network's own equations to their structural positions within the network. These

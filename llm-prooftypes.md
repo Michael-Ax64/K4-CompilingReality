@@ -56,7 +56,7 @@ There are exactly **five instruments** in this repository. Each has a specific f
 ## III. The AC Sweep (Proof by Resonance)
 
 **Form:** A structural claim is verified by driving a candidate mapping against a foreign domain and measuring the involuntary resonant peak. This replaces "Convergence" and "Discrimination" by subsuming them into a single mathematical sweep over the 24 permutations of the $S_4$ symmetric group.
-**Instance:** `ProofS` (Resonance), `Supplement-MappingMethod`.
+**Instance:** `ProofS` (Resonance), `L2-MappingMethod`.
 **Kill condition:** 
 > **The Permutation Swap.** A resonant peak must survive the swap. If permuting the assignment (swapping the poles) yields a score that is statistically flat, or if the peak travels with the evaluator's preference, the mapping is a hallucination. *A free mapping cannot contain a mistake. If you cannot break it, you have not understood it.*
 

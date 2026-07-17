@@ -1,7 +1,7 @@
-# Supplement-TheTwelveGates
+# L4-TheTwelveGates
 ## The Lines Between the Signs, the Unit Circle, and the Cancer–Leo Threshold
 
-> **Status: draft, for joint development.** Companion to Supplement-TheNecessaryOpposition.
+> **Status: draft, for joint development.** Companion to L4-TheNecessaryOpposition.
 > That document read the four fixed posts and the cross they hold. This one reads what lies
 > *between* the signs: the twelve boundary lines. The claim is that the lines are not
 > conventions of the calendar but the lines of the trigonometric unit circle — sharp, not
@@ -11,7 +11,7 @@
 > line at which the Sun enters Leo, the integration boundary of the prototypical
 > individual, the line that generates children.
 
-*Rests on: Supplement-TheNecessaryOpposition (the seasonal Braid and the fixed anchors),
+*Rests on: L4-TheNecessaryOpposition (the seasonal Braid and the fixed anchors),
 ProofQ (Algebraic Syntax: dividends, squares, roots), the Dual-Route addendum (squares land
 on Asserting homes, roots on Yielding homes), Meta-MechanismOfTransition (the tangent
 singularity and the point at infinity), L3-K4-to-K5 (the AC extension, S = P + jQ),

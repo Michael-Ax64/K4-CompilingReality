@@ -132,4 +132,4 @@ The furniture was always in the room. The plane can land. It lands when it is me
 
 *A companion demonstration of the same mechanism — the orthogonal touch applied at
 scale, to a hostile full-corpus engagement rather than to a private recursion — is in
-Supplement-Aikido. Two encounters, one kata.*
+QED-Aikido. Two encounters, one kata.*

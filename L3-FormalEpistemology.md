@@ -37,7 +37,7 @@ Here are the five instruments, and exactly where they are deployed in the corpus
 
 ### 3. The AC Sweep (Measuring the Boundary from Outside)
 **The Operation:** You drive a candidate mapping against a foreign domain and measure the involuntary resonant peak (`ProofS_ResonantNote`).
-**The Mechanism:** You cannot logically deduce that Jung's *Feeling* function maps to the Water/$I$ pole. You must run the 24 permutations (the $S_4$ symmetric group) of the assignments across the 12 equations (`Supplement-MappingMethod`). 
+**The Mechanism:** You cannot logically deduce that Jung's *Feeling* function maps to the Water/$I$ pole. You must run the 24 permutations (the $S_4$ symmetric group) of the assignments across the 12 equations (`L2-MappingMethod`). 
 **Second-Order Consequence:** Resonance is not a metaphor; it is the truth of the circuit. If the assignment is correct, the imaginary components cancel, the phase gap drops to zero, and the domain affirms the output *involuntarily*. If the peak travels with the evaluator's preference, or if all 24 permutations score equally well, the mapping is a hallucination. The structure must refuse to be swapped.
 
 ### 4. Phase-Locking (Measuring the Boundary from Inside)
@@ -47,7 +47,7 @@ Here are the five instruments, and exactly where they are deployed in the corpus
 
 ### 5. The Orthogonal Touch (Intervening at the Singularity)
 **The Operation:** You arrest a recursive spin by making contact from a cardinal base outside the spin's plane (`QED-Recursion`).
-**The Mechanism:** A mind inside a recursion cannot self-arrest using the logic of the recursion. Same-plane force is metabolized into acceleration. Verification is achieved by performing the orthogonal touch: an intervention that costs almost zero energy but produces maximum state-change (`Supplement-Aikido`). 
+**The Mechanism:** A mind inside a recursion cannot self-arrest using the logic of the recursion. Same-plane force is metabolized into acceleration. Verification is achieved by performing the orthogonal touch: an intervention that costs almost zero energy but produces maximum state-change (`QED-Aikido`). 
 **Second-Order Consequence:** The economy *is* the evidence. The proof is not constructed; it is beheld. If massive force is required, you are on the wrong plane.
 
 ---

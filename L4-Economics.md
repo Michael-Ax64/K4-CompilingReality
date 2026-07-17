@@ -1,4 +1,4 @@
-# Supplement-Economics
+# L4-Economics
 ## The Liquidity Delusion, Reflexivity, and the Topology of Market Crashes
 
 *An orientation document for readers approaching the framework from macroeconomics, quantitative finance, or systems theory. This document translates the failures of the Efficient Market Hypothesis into topological terms, formalizes George Soros’s "Reflexivity," and maps the precise algebraic mechanism of a financial bubble and its subsequent liquidity freeze.*

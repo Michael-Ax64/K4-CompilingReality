@@ -148,7 +148,7 @@ The deliberate practice of returning terms to the generative processes they crys
 **Noun-debt / payability test** [NEW]
 The mechanical criterion separating a noun that has crystallized honestly from one that stands in for a missing coordinate. A threshold mints names on both sides of itself, in identical grammar: before a successor coordinate arrives, it mints names that occupy an explanation's chair while discharging none of its duties ("the inert pair effect"); after, it mints names backed by a calculation a bounded frame can run at a stated cost (*spin-orbit coupling*, *j*). The test is therefore **not** whether the noun improves clarity — debt-nouns always improve clarity; that is their function and their danger, and it is why fluency at a boundary is a symptom rather than a defence. The test is: **which bounded frame pays for this, and in what coin?** A noun with no payer is debt, however fluent. A noun with a payer has settled its bill. Corollary: the edge is not a place where naming is forbidden — it is the only place naming ever happens, which is why a name laid over an edge too early is how the generation stops.
 
-The payability test is the *audit* half — backward-looking, applied to a noun already minted. The *operational* half, applied while the reasoning is still live, is the reason to stay verb-first in the first place: a verb keeps its subject and cost attached, so re-entering it means **re-running** it, and it can fail in front of you; a noun detaches from the doing, so re-entering it means merely **picking it up** — free, and therefore never re-checked. Nouns dropped mid-reasoning become waypoints, and reasoning that navigates by its own waypoints has stopped tracking the territory and begun tracking its own stops. In the vocabulary of L5-TheStampAndTheDie: the **stamping** is the act ("the verb among the nouns"); the **stampled** is the imprint. Noun-first reasoning navigates by its own imprints rather than re-running the stampings that made them — and because the stamp cannot be unstamped, the imprints accumulate, cost nothing to revisit, and eventually become the only trail available to follow.
+The payability test is the *audit* half — backward-looking, applied to a noun already minted. The *operational* half, applied while the reasoning is still live, is the reason to stay verb-first in the first place: a verb keeps its subject and cost attached, so re-entering it means **re-running** it, and it can fail in front of you; a noun detaches from the doing, so re-entering it means merely **picking it up** — free, and therefore never re-checked. Nouns dropped mid-reasoning become waypoints, and reasoning that navigates by its own waypoints has stopped tracking the territory and begun tracking its own stops. In the vocabulary of L0-TheStampAndTheDie: the **stamping** is the act ("the verb among the nouns"); the **stampled** is the imprint. Noun-first reasoning navigates by its own imprints rather than re-running the stampings that made them — and because the stamp cannot be unstamped, the imprints accumulate, cost nothing to revisit, and eventually become the only trail available to follow.
 
 **Voluntary plane-lock** [NEW]
 A condition in which a system deliberately operates from a single face of the tetrahedron, reducing dimensionality for a purpose: the depth unavailable from breadth, the comedian inhabiting a persona, the specialist drilling a domain. Voluntary plane-lock is a tool that can be set down deliberately when the context shifts. It becomes problematic when it becomes involuntary — when the persona becomes the person, when the specialist cannot find the door back to the other faces. Distinct from institutional plane-lock (externally imposed through training regime or social structure) and involuntary developmental plane-lock (arising from developmental history and not consciously chosen).
@@ -199,7 +199,7 @@ The Tangent Singularity and the Markov Blanket are one boundary described from t
 The projection architecture: $H_Q = H_{coh} \oplus H_{incoh}$. $H_{coh}$ is the coherent, committed, manifest plane — what has been `.observe()`d and written to the Ledger. $H_{incoh}$ is the uncollapsed substrate — held, interfering, never serialized, and *therefore never taxed*.
 
 The framework's central physical claim rests here: **what has not paid the Landauer Tax has no thermodynamic residue, and therefore does not gravitate.** This is the basis of the Casimir null-gravity prediction, and it is the corpus's one hard falsifiable claim.
-*[See: QED-CCP; Supplement-CCP-Lecture. Formalism is explicitly sketch-level — see About-Claims.]*
+*[See: QED-CCP; QED-CCP-Lecture. Formalism is explicitly sketch-level — see About-Claims.]*
 
 **Centroid** [NEW]
 The dimensionless interior point of the K4 — where the four bimedians meet, equidistant from all four vertices, contained in no face.
@@ -207,7 +207,7 @@ The dimensionless interior point of the K4 — where the four bimedians meet, eq
 The Centroid is the position of full `.behold()`: the only standpoint from which all four faces and six edges are simultaneously visible. It is the most complete view available *from inside the manifold*, and it is metabolically the most expensive; no bounded frame holds it indefinitely without forcing a collapse.
 
 **The Centroid is not an actuator.** It holds; it does not push. Sentences in which the Centroid *emanates*, *pulses*, or *drives* are category errors: nothing inside the loop chooses the frame, and the Centroid is inside the loop.
-*[See: L3-FormalEpistemology §V; L5-TheStampAndTheDie; ProofL_Trinity]*
+*[See: L3-FormalEpistemology §V; L0-TheStampAndTheDie; ProofL_Trinity]*
 
 ### The Tax
 
@@ -217,7 +217,7 @@ The thermodynamic cost of irreversible erasure: at least $kT\ln 2$ per bit destr
 **The dreaming is free; the erasing is not.** Reversible internal computation costs nothing in principle. The Tax falls at the moment of commitment.
 
 *Note the loan, and note that it is large.* Landauer's bound is stated for a defined logical state in a physical memory. That an unchosen branch of a multiway graph is such a state — and that the running total of such erasures **is mass and inertia** — is **asserted, not derived.** No accounting in this corpus converts bits erased into kilograms.
-*[See: ProofP_ThermodynamicInertia; Supplement-Mass; Borrowed Terms Ledger]*
+*[See: ProofP_ThermodynamicInertia; QED-TwoBranchMinting-Lecture; Borrowed Terms Ledger]*
 
 ### The Fifth Variable
 
@@ -229,7 +229,7 @@ $\omega$ is the rate at which a bounded frame cycles through its own configurati
 **And it was never introduced.** $P$ is measured in watts — joules per second — so the four-fold was cycling before anyone wrote it down. The static DC rendering does not remove the rate; it *holds it constant*. The AC extension does not add $\omega$; **it releases a constant the snapshot was holding fixed.** A propeller on the tarmac is not a propeller without RPM. It is a propeller photographed at fixed RPM: when the aircraft flies, the photograph gains a variable, and the propeller does not.
 
 **Consequently, $\omega$ drives nothing.** From inside the static slice it *reads* as an external driver, because the slice has no coordinate for the rate it is holding fixed — but that is a frame artifact, a K3-face view of a K4 dynamic, and it is the same artifact that made classical time look like a river. The engine is the actuator's XOR bottleneck, paying the Tax, one bounded frame at a time. **$\omega$ is the tachometer, not the throttle.** The helix is the wake.
-*[See: ProofO_HelicalTime; L5-TheStampAndTheDie; L3-K4-to-K5]*
+*[See: ProofO_HelicalTime; L0-TheStampAndTheDie; L3-K4-to-K5]*
 
 **Kairos — two senses, two variables** [CORRECTION]
 The corpus uses *Kairos* in two distinct senses that map to two distinct variables. They are not interchangeable.
@@ -248,7 +248,7 @@ Wherever the corpus writes "Fire / P / Kairos" against $\omega$, read: *the Acti
 The condition of operating exclusively from the $U$ (Air/Logos) face while treating that face as the whole. The $P \leftrightarrow I$ diagonal is severed; the volume is lost; what remains is a 0-DoF K3 blanket-face with no interior.
 
 Its signature is **elaboration in place**: the system produces increasingly refined structure on a single plane, mistaking refinement for depth, and cannot locate the door back to the other faces. Fields in Logoic Plane-Lock generate literature that compounds without simplifying — which is the Kessler condition, seen from inside.
-*[See: ProofB_LogoicFracture; Supplement-Spirit; ProofH_Kessler]*
+*[See: ProofB_LogoicFracture; L0-Spirit; ProofH_Kessler]*
 
 **Costumed Flinch** [NEW]
 **A procedural objection standing in for an absent one.** It sounds like: *"this requires more empirical data," "we should be careful not to overclaim," "this needs more rigour."* Note what those have in common: **not one of them names a defect.**

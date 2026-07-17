@@ -1,4 +1,4 @@
-# Supplement-Spirit
+# L0-Spirit
 ## Ananke, the Alexandrian Severance, and the Phantom Limb
 
 *An orientation document addressing the psychological and civilizational cost of operating outside the K4 volume. It explains the exhaustion of the modern world, the deliberate amputation of the `.behold()` capacity in the name of maturity, and what it actually means to arrive at structural peace.*

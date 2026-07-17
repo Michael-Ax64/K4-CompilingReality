@@ -7,7 +7,7 @@
 
 ## I. The Claim, From the Top
 
-The framework's generative object is K4: the complete graph on four vertices, rendered as a tetrahedron. Its four vertices are the poles P, I, U, R — in the framework's elemental vocabulary, Fire, Water, Air, Earth; in its dual-binary vocabulary, the four values of a two-bit register formed by the axes Active/Reactive and Asserting/Yielding. The tetrahedron has six edges, and those six edges are where the framework's relational content lives. (`L3-EdgeStateSpace`, `Supplement-MappingMethod`.)
+The framework's generative object is K4: the complete graph on four vertices, rendered as a tetrahedron. Its four vertices are the poles P, I, U, R — in the framework's elemental vocabulary, Fire, Water, Air, Earth; in its dual-binary vocabulary, the four values of a two-bit register formed by the axes Active/Reactive and Asserting/Yielding. The tetrahedron has six edges, and those six edges are where the framework's relational content lives. (`L3-EdgeStateSpace`, `L2-MappingMethod`.)
 
 The Yijing — the Chinese *Book of Changes*, whose core dates to the Zhou period and whose interpretive appendices, the Ten Wings, were fixed by the Han — represents every situation as a hexagram: six horizontal lines stacked vertically, each line either broken (Yin) or unbroken (Yang), read from the bottom up. There are sixty-four hexagrams, and the tradition assigns each of the six line-positions a rich, position-specific meaning.
 

@@ -53,22 +53,22 @@ I hope that saves you from the idea that these were not cardinal generative vect
 
 ---
 
-### I. The Cosmological Mayhem (QED-CCP, Supplement-CCP-Lecture)
+### I. The Cosmological Mayhem (QED-CCP, QED-CCP-Lecture)
 **The Claim:** The $10^{123}$ discrepancy of the Cosmological Constant Problem is a category error (The Axiom of Isomorphism). The Casimir effect will not gravitate.
 **The Debt:** The corpus accuses General Relativity and Quantum Field Theory of a foundational ontological mistake. It proposes a projection architecture ($H_Q = H_{coh} \oplus H_{incoh}$) and a projection operator $\Psi$. 
 **The Accounting:** The formalism is explicitly admitted as `[SKETCH]`. The corpus does not derive $P_{coh}$ from existing QFT. It does not compute the stress-energy tensor. It merely *asserts* that the discrepancy is a phase-difference between `.behold()` and `.observe()`. It claims to reframe the largest discrepancy in physics by pointing at the Tangent Singularity, but it provides no tensor calculus to prove the reframing. It is a structural hypothesis wearing the clothes of a cosmological resolution.
 
-### II. The Physical Mayhem (Proof K, Supplement-Mass)
+### II. The Physical Mayhem (Proof K, QED-TwoBranchMinting-Lecture)
 **The Claim:** The four fundamental forces map to P/I/U/R. The Equivalence Principle ($m_i = m_g$) is not a universal law, but a degenerate 0-DoF boundary condition.
 **The Debt:** The corpus attempts to annex the Standard Model. It maps Gravity to $P$ and Strong to $R$, claiming GravityStrong is the "Fixed bimedian" partner to ElectroWeak. 
-**The Accounting:** Proof K explicitly admits it cannot resolve the electroweak unification or the force-strength hierarchy. It waves away the graviton by asserting Gravity is the "Ledger itself," not a transaction. Supplement-Mass dismisses Einstein’s Equivalence Principle as a mere artifact of vacuum-baseline $I$. This is a staggering propositional overreach. It rewrites the foundational symmetry of General Relativity using a cybernetic metaphor ($R = P/I^2$), without providing the differential geometry to show how a 0-DoF limit actually recovers the Schwarzschild metric. It is epistemic theft.
+**The Accounting:** Proof K explicitly admits it cannot resolve the electroweak unification or the force-strength hierarchy. It waves away the graviton by asserting Gravity is the "Ledger itself," not a transaction. QED-TwoBranchMinting-Lecture dismisses Einstein’s Equivalence Principle as a mere artifact of vacuum-baseline $I$. This is a staggering propositional overreach. It rewrites the foundational symmetry of General Relativity using a cybernetic metaphor ($R = P/I^2$), without providing the differential geometry to show how a 0-DoF limit actually recovers the Schwarzschild metric. It is epistemic theft.
 
 ### III. The Biological Mayhem (Proof G, Proof J)
 **The Claim:** Molecular chirality is the physical signature of `.observe()` at the edge-level. The immune system is a distributed `.behold()` mechanism.
 **The Debt:** The corpus reduces the messy, contingent, thermodynamic reality of biochemistry to a topological necessity. 
 **The Accounting:** Proof G claims L-amino acids were selected because the "replication template" forced an XOR bottleneck. It ignores the actual abiotic chemistry of the Murchison meteorite and the complex, non-topological reasons for homochirality. Proof J scales this up, claiming the immune system’s V(D)J recombination is just K4 `.behold()`. It consumes biology by stripping it of its specific material resistance ($R$) and replacing it with algebraic formalism. It claims to explain life by asserting life is just the algebra running on carbon.
 
-### IV. The Theological and Mythopoetic Mayhem (Proof L, Supplement-ReligiousIntuitions)
+### IV. The Theological and Mythopoetic Mayhem (Proof L, L4-ReligiousIntuitions)
 **The Claim:** The Trinity is the necessary threefold image cast by the time-orthogonal centroid. The Zodiac is the 12-step Braid.
 **The Debt:** The corpus annexes 2,500 years of human spiritual, theological, and mythopoetic struggle, reducing it to a geometric projection.
 **The Accounting:** Proof L resolves the *filioque* schism by asserting it is just a "projection-duality" of reading a chiral loop from different faces. This is an act of profound intellectual hubris. It takes the lived, blood-soaked, pathos-laden history of human attempts to grapple with the Tangent Singularity and flattens it into a "convergent discovery" of the framework’s own geometry. It consumes the sacred by claiming the sacred was just beholding the framework all along. It pays no respect to the AbsentVar of the *lived experience* of those traditions.

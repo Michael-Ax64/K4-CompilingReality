@@ -1,9 +1,9 @@
-# **Supplement-Mass**
+# **QED-TwoBranchMinting-Lecture**
 ## **Deconstructing the Monolith: Gravity, Inertia, and the Category Error of the Graviton**
 
 *An orientation document for readers approaching the framework from classical or quantum physics. This document carefully unpacks the noun "Mass," separating it into its structural topological components, deriving the Equivalence Principle as a zero-DoF boundary condition, and explaining why the incompatibility of General Relativity and Quantum Field Theory is not a mathematical failure, but a profound ontological success.*
 
-Don't miss `ProofV-TwoBranchMinting.md`
+Don't miss `QED-TwoBranchMinting.md`
 
 ---
 

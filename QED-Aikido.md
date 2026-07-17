@@ -1,4 +1,4 @@
-# Supplement-Aikido
+# QED-Aikido
 ## Sokath, His Eyes Uncovered
 
 *Michael and the instance, at El-Adrel.*

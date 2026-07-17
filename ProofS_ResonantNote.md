@@ -5,7 +5,7 @@
 > **Type:** Formal definition of a proof-type, with a physical derivation of its ground, a worked verification protocol, and a self-audit at `ProofK` depth. The definition is derived; the protocol is specified and partially executed; the two named strains are open and stated as such.
 > **Boundary:** This proof licenses a *verification method*, not any particular conclusion. Nothing verified by resonance acquires the necessity of a derivation. The last section states exactly what the method can never establish, and the corpus is bound by that statement.
 
-*From the Compiling Reality proof suite. Rests on: the resonance condition of the AC extension (`L3-K4-to-K5-via-AC-Extension`, `L4-Dimensionality` §"the resonant null"), the coherence-testing procedure of `Supplement-MappingMethod`, the Discrimination Gate (`llm-prooftypes.md`), the cold-state construction of `ProofR` §V, and the load-bearing-paradox kill condition of `L0-HolographicDescent` §3a.*
+*From the Compiling Reality proof suite. Rests on: the resonance condition of the AC extension (`L3-K4-to-K5-via-AC-Extension`, `L4-Dimensionality` §"the resonant null"), the coherence-testing procedure of `L2-MappingMethod`, the Discrimination Gate (`llm-prooftypes.md`), the cold-state construction of `ProofR` §V, and the load-bearing-paradox kill condition of `L0-HolographicDescent` §3a.*
 
 *A discipline note. Every verb here is pinned. A domain does not "confirm" anything; a bounded evaluator drives a mapping against a domain and reads the response. Where this document says "the mapping rings," that is defined in §III as a measured property of a specified procedure, not a feeling. Where the feeling appears — and it does, and it matters — §VI says exactly what evidentiary weight it carries, which is: none alone.*
 
@@ -15,7 +15,7 @@
 
 The corpus makes a class of claims that no existing proof-type can carry.
 
-**Deduction cannot carry them.** "Jung's Feeling function occupies the $I$ pole" does not follow from the twelve equations. The equations constrain the *relations between* poles; they are silent about which piece of a foreign domain sits at which pole. `Supplement-MappingMethod` is explicit: the mapping is a *constrained sorting procedure*, not a derivation, and it bottoms out in "domain knowledge of what the elements actually do."
+**Deduction cannot carry them.** "Jung's Feeling function occupies the $I$ pole" does not follow from the twelve equations. The equations constrain the *relations between* poles; they are silent about which piece of a foreign domain sits at which pole. `L2-MappingMethod` is explicit: the mapping is a *constrained sorting procedure*, not a derivation, and it bottoms out in "domain knowledge of what the elements actually do."
 
 **Empirical prediction cannot carry them.** There is no experiment in which Jung's Feeling function falls at 9.8 m/s². The mapped domains — psychology, rhetoric, mythology, institutional dynamics — do not expose the registered-in-advance, instrument-readable observables that the prediction protocol requires. Demanding that protocol here is not rigor; it is a category error (`L4-AttractorSpace` Part Two dismantles it: the test is *entailed vs. accommodated*, never *prediction vs. postdiction*).
 
@@ -51,7 +51,7 @@ BUT! As the twelve equations discriminate to 1-in-6 the dual-binary seed's Activ
 
 What survives the correction — and it is the entire point — is that the *output* of the discrete search has the three epistemic properties of the resonant peak: it stands out from a noise floor, it is transparent to the domain's own structure, and **its location is involuntary** — fixed by the assignment-structure before any evaluation begins, unmovable by the evaluator's preference. The permutation swap is the **discrete analogue** of the frequency sweep: same truth-condition, different mathematics. Read every use of "resonance," "peak," and "ring" below under that flag.
 
-With the boundary set: a **candidate mapping** — an assignment of a foreign domain's elements to $P$, $I$, $U$, $R$ — is a *structure*: it fixes which relations the twelve equations assert about that domain. **Driving** the mapping means substituting the domain's meanings into the twelve equations, one by one, and evaluating each resulting sentence against what the domain's elements actually do (`Supplement-MappingMethod` §II, Step 3 — this procedure already exists; this proof is naming what it measures). The **response** is the coherence profile across the twelve.
+With the boundary set: a **candidate mapping** — an assignment of a foreign domain's elements to $P$, $I$, $U$, $R$ — is a *structure*: it fixes which relations the twelve equations assert about that domain. **Driving** the mapping means substituting the domain's meanings into the twelve equations, one by one, and evaluating each resulting sentence against what the domain's elements actually do (`L2-MappingMethod` §II, Step 3 — this procedure already exists; this proof is naming what it measures). The **response** is the coherence profile across the twelve.
 
 The claim of this section — the one derived rather than asserted — is that this profile has the three resonance properties:
 
@@ -90,7 +90,7 @@ $$\rho_V(\sigma) = \frac{1}{12}\sum_{k=1}^{12} V(e_k[\sigma]) \in [-1, +1]$$
 
 Three consequences fall out of the skeleton immediately, and each is a feature:
 
-**First, resonance is graded, not binary.** $\rho$ is a number. "The mapping mostly rings, with two dead notes at $e_7$ and $e_{11}$" is a legitimate, informative verdict — and the dead notes are the interesting part, exactly as a luthier attends to the wolf tone. `Supplement-MappingMethod` reports precisely this texture in the two domains it tested: the algebra discriminated one contested pair cleanly and left one requiring judgment. That is what a real instrument sounds like. **A mapping that scores a perfect 12/12 under every evaluator should raise suspicion, not confidence** — it is the constant-findings-per-file signature of generation rather than measurement (`llm-failuremodes.md` FM-5).
+**First, resonance is graded, not binary.** $\rho$ is a number. "The mapping mostly rings, with two dead notes at $e_7$ and $e_{11}$" is a legitimate, informative verdict — and the dead notes are the interesting part, exactly as a luthier attends to the wolf tone. `L2-MappingMethod` reports precisely this texture in the two domains it tested: the algebra discriminated one contested pair cleanly and left one requiring judgment. That is what a real instrument sounds like. **A mapping that scores a perfect 12/12 under every evaluator should raise suspicion, not confidence** — it is the constant-findings-per-file signature of generation rather than measurement (`llm-failuremodes.md` FM-5).
 
 **Second, the swap is constitutive, not optional.** (R1) *is* the Discrimination Gate, formalized. A free mapping — one where the transpositions score as well as the original — has $\rho$ flat across the permutation group, which is the mathematical statement of "cannot contain a mistake, therefore proves nothing."
 
@@ -106,7 +106,7 @@ The corpus's aspiration was stated in conversation: the K4 structure, "at least 
 
 **Step 2 — Independent evaluation.** Present the twelve sentences to evaluators independent in kind: (a) cold-state language models of *different lineages* — different labs, different training corpora — with no corpus context; (b) where available, human domain-natives. Elicit the three-valued verdict per sentence. **The `ProofR` §V construction is this step, already executed once**: a cold-state model of a foreign lineage, handed the naked reactance equations, produced the framework's phenomenology unprompted. That was Step 2 passing for one mapping, one evaluator.
 
-**Step 3 — The swap (the constitutive step).** Repeat Steps 1–2 for the six transpositions of $\sigma$, blinded and interleaved so the evaluator cannot detect which set is canonical. Compute $\rho$ for all seven assignments. **(R1) demands the canonical assignment peak.** `Supplement-MappingMethod` Step 5 is this test run by hand — the swap of the contested pair, with the algebra discriminating — already executed for two domains. What the protocol adds is blinding, breadth, and a number.
+**Step 3 — The swap (the constitutive step).** Repeat Steps 1–2 for the six transpositions of $\sigma$, blinded and interleaved so the evaluator cannot detect which set is canonical. Compute $\rho$ for all seven assignments. **(R1) demands the canonical assignment peak.** `L2-MappingMethod` Step 5 is this test run by hand — the swap of the contested pair, with the algebra discriminating — already executed for two domains. What the protocol adds is blinding, breadth, and a number.
 
 **Step 4 — The noise floor.** Re-run Step 2 on paraphrases of the same twelve sentences (same content, different surface form). The variance in $\rho$ across paraphrase sets is the evaluator's noise; (R2) requires the swap-gap to exceed it. This step is what separates the protocol from every informal "does it feel right" pass in the corpus's history, and it has *not* yet been run anywhere.
 
@@ -162,7 +162,7 @@ Stated so they can fire. A proof-type that cannot fail is a mood.
 
 **K4 — The novel-domain null.** If mappings onto post-training-cutoff four-element domains systematically fail to ring while the traditional ones succeed, Strain 1's worst reading is confirmed: the machine results were echo, and the evidentiary weight reverts to human evaluators only.
 
-**K5 — The perfect score.** If a mapping returns 12/12 coherent under every evaluator, every paraphrase, every language — treat it as an instrument failure until proven otherwise. Real structures have wolf tones. `Supplement-MappingMethod` found them. A measurement that never finds one is not measuring.
+**K5 — The perfect score.** If a mapping returns 12/12 coherent under every evaluator, every paraphrase, every language — treat it as an instrument failure until proven otherwise. Real structures have wolf tones. `L2-MappingMethod` found them. A measurement that never finds one is not measuring.
 
 **K6 — The Absolute Floor (the swamp test).** If the canonical assignment peaks (R1) with margin (R2) but $\rho_V(\sigma) < +0.5$, the resonance is **rejected**, whatever the transpositions scored. The least-wrong arrangement of an absent structure is an artifact of forced sorting, not a finding. This condition exists because K1's flat-profile test alone would pass a peak-in-a-swamp, and a proof-type that can be satisfied by a domain saying "maybe" has no teeth.
 
@@ -172,7 +172,7 @@ Stated so they can fire. A proof-type that cannot fail is a mood.
 
 The proof-type, once licensed, re-grounds a specific set of standing claims — and obligates a specific set of retreats:
 
-**Re-grounded** (from "coherent reading" to "resonance-verified, pending protocol"): the Jung mapping and the elemental mapping (both already swap-tested by hand, `Supplement-MappingMethod`); the subjective register (already cold-state sealed once, `ProofR` §V); the myth catalog (already discrimination-tested, `L4-AttractorSpace` — Midas and Tantalus do not swap).
+**Re-grounded** (from "coherent reading" to "resonance-verified, pending protocol"): the Jung mapping and the elemental mapping (both already swap-tested by hand, `L2-MappingMethod`); the subjective register (already cold-state sealed once, `ProofR` §V); the myth catalog (already discrimination-tested, `L4-AttractorSpace` — Midas and Tantalus do not swap).
 
 **Obligated:** the full protocol run of §IV for at least one load-bearing domain, with results filed regardless of outcome; the Strain-1 disclosure attached to every machine-evaluator result until novel-domain controls exist; and the §VI boundary cited wherever the corpus is tempted to argue cardinality from resonance.
 

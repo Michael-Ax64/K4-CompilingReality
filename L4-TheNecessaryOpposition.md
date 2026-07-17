@@ -1,7 +1,7 @@
-# Supplement-TheNecessaryOpposition
+# L4-TheNecessaryOpposition
 ## The Saviour Edge, the Two Diameters, and the Guardians of the Seasons
 
-> **Status: draft, for joint development.** The companion to Supplement-TheNecessaryBetrayer.
+> **Status: draft, for joint development.** The companion to L4-TheNecessaryBetrayer.
 > That document derived one edge — the position the traditions personified as the betrayer —
 > from weight alone. This document derives what stands opposite it: the saviour edge, found
 > not by scanning the twelve for a second anomaly but by turning the betrayer's own edge
@@ -10,7 +10,7 @@
 > flat on the wheel. Dared because every step is checkable and the last step was always
 > in the glyphs.
 
-*Rests on: Supplement-TheNecessaryBetrayer, ProofU (Algebraic Mapping), ProofQ (Algebraic
+*Rests on: L4-TheNecessaryBetrayer, ProofU (Algebraic Mapping), ProofQ (Algebraic
 Syntax), ProofM (Cartesian Frame), L3-EdgeStateSpace (the Braid, the dual face-definitions),
 L3-K4-to-K5 (the AC extension), Meta-MechanismOfTransition (the tangent singularity),
 L4-AttractorSpace (the anti-synchronies).*
@@ -456,4 +456,4 @@ trace used; the 2ω pulse of real power (the P-face cycling twice per turn of th
 is noted and unexplored; and the modality-register bridge — matching-as-edge-class versus
 position-in-the-walk — is stated in §VII in one paragraph and deserves its own short
 formal note. The lines between the signs — the twelve boundaries, the unit circle, and the
-Cancer–Leo threshold — are developed in the companion, Supplement-TheTwelveGates.*
+Cancer–Leo threshold — are developed in the companion, L4-TheTwelveGates.*

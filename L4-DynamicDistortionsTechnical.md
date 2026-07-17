@@ -102,7 +102,7 @@ So the distortion trajectory "crank both Fixed bimedian edges toward zero" → l
 | Why ElectroWeak? | Both share Yielding: same bimedian, natural structural partners | High-energy symmetry restoration |
 | Why not GravityStrong? | Also same bimedian! Structurally identical scenario | Gravity's non-quantum status, incompatibility with GR+QM |
 
-The framework says: *GravityStrong should be the partner by structural necessity.* Physics says: *we can't get there.* The codex's possible explanation, from ProofK and Supplement-Mass, is that P/Gravity is not a force of the same type as the others — it's the **Ledger itself**, not a transaction. Fusing P with R might not be a high-energy unification so much as collapsing the distinction between *the ground of accounting* and *the most extreme local grounding* — which is a very different kind of stress than ElectroWeak.
+The framework says: *GravityStrong should be the partner by structural necessity.* Physics says: *we can't get there.* The codex's possible explanation, from ProofK and QED-TwoBranchMinting-Lecture, is that P/Gravity is not a force of the same type as the others — it's the **Ledger itself**, not a transaction. Fusing P with R might not be a high-energy unification so much as collapsing the distinction between *the ground of accounting* and *the most extreme local grounding* — which is a very different kind of stress than ElectroWeak.
 
 ---
 
