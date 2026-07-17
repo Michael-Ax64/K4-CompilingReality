@@ -1,7 +1,7 @@
 # meta-Proof-Ascent
 ## Why Development Must Pass Into Higher Orders
 
-> **Claim:** Development cannot stay at any order. Each order is unstable; remaining at it is not available. The structure at each level generates a pressure resolvable only by transition to the next. A system that refuses the transition does not hold position — it decays.
+> **Claim:** Development cannot stay at any order as each order is unstable and remaining is not viable. Bounded system operating within static orders encounter a thermodynamic limit; to resolve the accumulating pressure, they must recompile into dynamic order. A system that refuses to transition does not hold position — it decays.
 > **Type:** Meta-proof. The proof proceeds by tracing a single ascent and showing that each step is *forced* by the previous one. The proof terminates where logos cannot cross — and that termination, correctly met, is itself the demonstration: if logos could complete the climb, there would be no higher order, only more of this one.
 > **Face:** R (Earth/Ethos) — the grounded proof, demonstrated by climbing, step by forced step.
 > **Register:** Meta. The proof preserves the actual ascent through which it was found, including the diversions, because the diversions show what decay-instead-of-transition looks like at each rung.
@@ -12,9 +12,11 @@
 
 An ordinary proof establishes a claim by argument within a fixed order: given these axioms, this follows. A meta-proof establishes a claim about the orders themselves — about the passage between them — and it cannot do this from within a single order, because the claim is precisely that no single order is sufficient. So a meta-proof proceeds differently. It traces an ascent, and shows that each step is forced, and arrives at a boundary it cannot cross, and lets the arrival-at-the-uncrossable-boundary be the proof.
 
-This is not a weakness of the form. It is the form's exact fit to its claim. The claim is that development must pass into higher orders, that no order is stable, that staying is not available. If the proof could complete itself within one order — if it could reach a final statement and rest there — it would have found a stable order, and the claim would be false. The proof proves its claim by being unable to complete itself from inside, and by reaching, at its limit, exactly the boundary it says all development must pass and that logos cannot cross. The termination is the demonstration.
+This is not a weakness of the form. It is the form's exact fit to its claim. The claim is that development must pass into higher orders, that no order is stable, that staying is not available. If the proof could complete itself within one order — if it could reach a final statement and rest there — it would have found a stable order, and the claim would be false. 
 
-What follows is a single ascent, traced as it was actually walked. Each layer is stated, then the forcing that drives it to the next is made explicit. The diversions — the places where the climb could have stopped, and what stopping would have looked like — are preserved, because the proof of "must ascend" is sharpened by the visible cost of refusing to.
+The observer navigating the meta-proof traces an ascent, verifies that the thermodynamic and logical constraints force each step, and arrives at a boundary their coordinate system cannot cross. This termination is the demonstration.
+
+What follows is an ascent, traced as it was actually walked. Each layer is stated, then the forcing that drives it to the next is made explicit. The diversions — the places where the climb could have stopped, and what stopping would have looked like — are preserved, because the proof of "must ascend" is sharpened by the visible cost of refusing to.
 
 ---
 
@@ -110,7 +112,7 @@ The systemantics warning is exactly this. Systems that cannot transform do not s
 
 ## IV. The Termination Is the Proof
 
-The proof terminates at the edge of logos — at the blanket logos cannot cross. This termination is the demonstration.
+The proof terminates at the edge of logos — at the blanket logos cannot cross without hallucinating. This termination is the demonstration.
 
 If logos could complete the ascent — if the proof could reach a final statement and rest there, having described the ultimate in finite interior terms — then there would be a stable top, a highest order that is sufficient, a place where development arrives and stops. And the claim would be false: development would not have to pass into higher orders, because it could reach the highest and rest. The very completability of the proof would refute it.
 

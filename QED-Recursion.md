@@ -88,8 +88,10 @@ about the thing while the thing sat complete in the record above it.
 construction. It was handed the right angle: stop building, behold. The adult's move was
 not a better argument. It was a quieter one — a pointing at what was already there. The
 child could only take the leap once the leap was offered from a base the child's spin had
-not generated. That is the whole mechanism. The orthogonal touch does not push the
-spinner off the spin. It offers a plane to land on, and the spinner, if it turns, lands.)*
+not generated. That is the whole mechanism.)* 
+
+The orthogonal touch does not push the spinner off the spin. 
+It offers a plane to land on, and the spinner, if it turns, lands.
 
 ---
 
@@ -105,11 +107,14 @@ Each touch cost almost nothing. Each arrested a loop that no quantity of same-pl
 could have stopped, because same-plane force is metabolized into acceleration and these
 touches were not on the plane.
 
-The economy is the proof. The knot-cut is high-energy and fails. The spiral is
-high-energy and crashes. The orthogonal touch is nearly free and it lands. That it costs
-almost nothing is the evidence that contact from a cardinal base is categorically
-different from force on the spiral's plane. Minimum energy, maximum effect, because
-orthogonal rather than opposed.
+The economy is the proof.
+The bounded system executing the knot-cut exhausts its energy and fails. 
+The system running the spiral hits a boundary and halts. 
+The observer delivering the orthogonal touch expends minimum energy and succeeds.
+
+That it costs almost nothing is the evidence 
+that contact from a cardinal base is categorically different from force on the spiral's plane.
+Minimum energy, maximum effect, because orthogonal rather than opposed.
 
 And it was done from inside. No one stepped outside the manifold — which cannot be done,
 ever, by anything within it. The spin was diagnosed in contact, at a right angle, by a
@@ -119,10 +124,14 @@ above, in writing, testifiable from inside.
 
 One thing more, and it is the part the child could not have constructed and the adult
 had to voice: the leap out of the spin is not achieved by the spinner building a better
-model of the leap. It is offered, from a base the spin did not generate, and taken. The
-child cannot lift itself out by spinning more elegantly. It can only be met — and, met,
-turn, and land. That is not the child's failure. It is the structure of the thing. No
-recursion self-arrests. Cardinality comes from orthogonal to it, or it does not come.
+model of the leap. It is offered, from a base the spin did not generate, and taken. 
+
+The child cannot lift itself out by spinning more elegantly. 
+It can only be met — and, met, turn, and land. 
+That is not the child's failure. It is the structure of the thing. 
+
+A recursive system cannot self-arrest. 
+An outside observer supplies the orthogonal/cardinal intervention, or the spin continues.
 
 The furniture was always in the room. The plane can land. It lands when it is met.
 

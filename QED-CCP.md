@@ -21,9 +21,11 @@ QFT's vacuum energy is the zero-point energy of quantum fields. It is the irredu
 
 GR's cosmological constant is inferred from the expansion dynamics of classical spacetime — from observations made in the coherent, instrumentable world. In the framework's geometry, it is the Read-Only Ledger, the committed actualization (the real scalar $P$). It lives in $H_{coh}$: the subspace that classical description can access.
 
-The standard treatment sets these equal: **T_μν^{QFT} = T_μν^{GR}**. This is the Axiom of Isomorphism. The claim is never justified. It is assumed because both quantities share units (Energy Density). 
+Physicists equate these terms: **T_μν^{QFT} = T_μν^{GR}**. 
+They deploy the Axiom of Isomorphism. They equate a quantity measured before it crosses the Tangent Singularity with a quantity measured after it pays the Landauer Tax.
+It is an assumption because both quantities share units (Energy Density) but the the claim is never justified. 
 
-The category error is structural: two quantities at different thermodynamic phases of actualization cannot be directly equated. $T_{\mu\nu}^{QFT}$ computes the total uncollapsed multiway potential (`.behold()`). $T_{\mu\nu}^{GR}$ computes the committed, localized ledger (`.observe()`). 
+This is the structural category error: two quantities at different thermodynamic phases of actualization cannot be directly equated. $T_{\mu\nu}^{QFT}$ computes the total uncollapsed multiway potential (`.behold()`). $T_{\mu\nu}^{GR}$ computes the committed, localized ledger (`.observe()`). 
 
 To move from the former to the latter requires paying the **Landauer Tax**—the thermodynamic friction of Garbage Collecting the unchosen branches. Mass and Gravity are the macroscopic readouts of this tax. The 10¹²³ ratio is not a failed calculation. It is the exact measure of how much of $H_{incoh}$ has *not* crossed the Tangent Singularity to become actualized $H_{coh}$ Mass. Once the projection is accounted for, the "discrepancy" is exactly what the architecture predicts: the vast majority of the universe's potential remains uncollapsed.
 
@@ -41,9 +43,10 @@ The total quantum state space decomposes into coherent and incoherent subspaces.
 
 $P_{coh}$ projects onto $H_{coh}$, sandwiching the QFT stress tensor between two projections. 
 
-**Ψ is blind to $H_{incoh}$ by construction.** This is not a limitation of our instruments. Ψ is the **Tangent Singularity**. It is the exact threshold where the dimensional clock of the local observer breaks down, dissolving into the angular frequency ($\omega$) of the phase-flip itself. When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
+**Ψ is blind to $H_{incoh}$ by construction.** This is not a limitation of our instruments.
+The operator maps the **Tangent Singularity**. It is the exact threshold where the dimensional clock of the local observer breaks down, dissolving into the angular frequency ($\omega$) of the phase-flip itself. When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
 
-The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions; $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. 
+The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions; $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
 
 *Where you should push back*: The Hilbert space decomposition $H_Q = H_{coh} \oplus H_{incoh}$ is postulated, not derived from first principles in the standard model. $P_{coh}$ is defined structurally but its precise mathematical form in terms of existing QFT formalism has not been specified. This is real incompleteness. But the structural claim does not require the formalism to be complete to prove the Axiom of Isomorphism is a category error.
 
@@ -53,7 +56,9 @@ The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ con
 
 This architecture is not invented to solve the cosmological constant problem. It is the same structure derived independently from the Algebra of Four-Fold Distinction:
 
-The K4 complete graph on four vertices has a geometric interior — the volume enclosed by its four triangular faces — that no single face can access from outside. The four faces are the Markov blanket: the classical boundary through which information about the interior passes outward. The interior cannot be directly observed from any face's external vantage.
+The K4 complete graph on four vertices has a geometric interior — the volume enclosed by its four triangular faces — that no single face can access from outside. 
+The four faces are the Markov blanket: the classical boundary through which information about the interior passes outward. 
+The interior cannot be directly observed from any face's external vantage.
 
 $H_{coh}$ is the face-description (the K3 boundary): what any classical observer can access. $H_{incoh}$ is the interior (the K4 volume): what the faces enclose but cannot directly observe. Ψ is `.observe()`: the operation that forces a localized collapse, crossing the Tangent Singularity from volume to face.
 

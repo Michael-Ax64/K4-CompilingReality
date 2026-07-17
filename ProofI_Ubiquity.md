@@ -12,7 +12,8 @@
 
 The convergence table in L1-ConvergentDiscovery makes one kind of argument: the four-fold recurs across many independent domains — circuit physics, Jungian psychology, classical rhetoric, genetic structure, CRUD operations, pre-Socratic philosophy. The argument is one of breadth: the same structure appearing in many places is unlikely to be coincidence.
 
-This proof makes a different argument. Not breadth across domains but depth within the one domain everything else is made of. Not "this structure recurs" but "this structure tracks the substrate."
+This document presents a different claim. It argues depth within the substrate rather than breadth across domains.
+Not "this structure recurs" but "this structure tracks the substrate."
 
 These are genuinely distinct claims and both hold. The convergence table argues inductively across many instances. This proof argues structurally from the ground. A reader who finds the convergence table merely suggestive may find this proof decisive; a reader who finds this proof abstract may find the convergence table viscerally convincing. They are independent legs of the same case.
 
@@ -61,9 +62,12 @@ Two independent paths. One ascends from the substrate of manifest reality — fr
 
 They land on the same four-fold.
 
-The ascending path establishes that the territory is right: charge dynamics is the substrate, so a relational algebra of charge is not analogy but description of what is actually running.
+* An observer ascending from the physical substrate verifies the territory. 
+* An observer descending from the logic of distinction verifies the carving.
 
-The descending path establishes that the carving is right: the dual-binary derivation forces exactly these four variables, with exactly this closure, non-arbitrarily.
+E.g. Charge dynamics is the substrate, so a relational algebra of charge is not analogy but description of what is actually running.
+
+Combining two orthogonal binary axes generates exactly four poles. The logic of binary distinction restricts the outcome, with this closure, non-arbitrarily.
 
 Neither path depends on the other. The ubiquity argument would hold even if the dual-binary derivation had never been made — charge dynamics would still be universal. The dual-binary argument would hold even if no physical substrate had yet been identified for it — the logic of binary orthogonality forces the four-fold regardless. Their independence is what makes their convergence structural rather than coincidental.
 
