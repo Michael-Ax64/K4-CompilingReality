@@ -1,4 +1,4 @@
-# chou/ — The Yijing as the Committed Face of K4
+# The Yijing as the Committed Face of K4
 
 *This collection establishes a structural identity between the Yijing (the Chinese Book of Changes) and the K4 tetrahedron that generates the Compiling Reality framework. The six lines of a hexagram are the six edges of the tetrahedron; a line's four states are an edge's four states; the classical sixty-four hexagrams are the committed two-state projection of a four-state-per-line object of size 4096; and the moving-line layer is that projection in the act of commitment. The identity is derived, sealed by the tetrahedron's self-duality and by a native Yijing doctrine, and falsified at every position. This README is the entry point. Read it first, then the two archives in the order given below.*
 
