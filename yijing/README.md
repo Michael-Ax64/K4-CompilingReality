@@ -60,7 +60,7 @@ The **seal** across both archives is the string-theory identity: the 1D line, th
 
 ## What is genuinely open
 
-The **King Wen sequence** — the received ordering of the sixty-four hexagrams — has not been tested against this structure. 
+The **King Wen sequence** — the received ordering of the sixty-four hexagrams — has not been pushed against this structure. 
 
 Whether that ordering traces a coherent trajectory through commitment-space, or through the ecliptic addressing of the 384 table, is untouched here. It is a question about an ordering, not about what the objects are, so it neither strengthens nor threatens the identity. Pursue it as its own construction!
 
