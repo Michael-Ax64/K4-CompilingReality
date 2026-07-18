@@ -2,6 +2,9 @@
 
 ## Approach, Access
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
+
 *Perspective: Static K4 Topology. Time ($\omega$) = 0. Buffer ($Q$) = 0. All edges are real lines.*
 
 

@@ -6,6 +6,8 @@
 **Method:** Ubiquity from below establishes the territory. Dual-binary from above establishes the carving. The proof rests on their independence.
 **Scope:** Atomic scale and above. The framework operates in the H_coh projection, coherent with Copenhagen quantum mechanics structurally, and does not enter the quantum substrate below atomic scale. The claims here are bounded accordingly.
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
 ---
 
 ## I. The Distinction This Proof Makes

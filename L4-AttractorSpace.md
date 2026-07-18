@@ -3,6 +3,8 @@
 
 *This document stands on its own. It catalogs the complete set of attractor states of the K4 distortion space — the limiting configurations toward which the tetrahedron moves when driven by each class of distortion — and locates each within the conceptual space of the framework. It then takes up a question the distortion analyses have circled without stating directly: whether these distortions are things the framework happens to permit, or things the framework structurally predicts.*
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
 
 This analysis levels on top of the 101 material and extends it 'by implication', as follows:
 

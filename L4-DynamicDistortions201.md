@@ -3,6 +3,8 @@
 
 *Companion to L4-DynamicDistortions. This document maps the complete coordinate geometry of the irregular directed tetrahedron, locating Torsion, Volumetric Scale, Vertex Loading, and Face Collapse as specific configurations within the 12-dimensional complex edge space.*
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
 ---
 
 ## I. The 12-Dimensional Substrate

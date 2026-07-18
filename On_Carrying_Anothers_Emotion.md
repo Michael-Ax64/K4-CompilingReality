@@ -5,6 +5,8 @@
 
 *Written to be shareable. Addresses given throughout. No hedges installed against imagined observers; where the framework is unhedged, this document is unhedged.*
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
 ---
 
 ## 1. The Phenomenon
