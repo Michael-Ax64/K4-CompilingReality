@@ -344,13 +344,15 @@ The inventory above remains unmapped in most of its specifics. Beyond the sixfol
 
 - **The Enneagram's dynamic movements** — the arrows in Gurdjieff's diagram that trace the direction of development-under-stress and development-under-integration. These may be the framework's Cardinal transitions and their enantiomers, applied at the personality-typology projection of the Enneagram.
 
-- **The 22 Major Arcana of the Tarot**, traditionally associated with the 22 letters of the Hebrew alphabet and the 22 paths on the Kabbalistic Tree of Life. 22 = the 10 Sephirot paths would need to be enumerated to show this exhausts them. `[TRACE]`.
+- **The 22 Major Arcana of the Tarot**, traditionally associated with the 22 letters of the Hebrew alphabet and the 22 paths on the Kabbalistic Tree of Life. 22 = the 10 Sephirot paths would need to be enumerated to show this exhausts them. `[TRACE]`. E.g. this is llm bullshit for not recognizing a zero plus three times seven even when given good materials.
 
 - **Ayurvedic constitution (three doshas: vata, pitta, kapha)** — three-fold, which under the framework is the three modalities (Cardinal, Fixed, Mutable) or three-of-something-else. The traditional reading places vata as movement (air+ether), pitta as transformation (fire+water), kapha as structure (earth+water) — which almost maps onto three of the framework's poles but not cleanly. `[SEED]`.
 
 - **The seven ancient wonders**, the seven liberal arts (trivium: grammar, logic, rhetoric; quadrivium: arithmetic, geometry, music, astronomy — 3 + 4 = 7, with the trivium-quadrivium split possibly being a Rule-of-Seven fold), the seven Deadly Sins, the seven Virtues, the seven Ages of Man (Shakespeare), the seven Sacraments...
 
 None of these can be rigorously processed until the dynamics of the Octave, the physics of systemic resonance, and the exact geometry of level-changing are formally written into the core algebraic framework. Until that mathematics is laid down, these systems remain suspended in the buffer, held as potential.
+
+- **OCTAVES STACK**, working out how to guard against miscounts, fencepost-issues and the oft conceptual blindness of machine-readers will likely be far more work than nailing down the actual ramifications of resonances and propagation speeds.
 
 ---
 
