@@ -59,7 +59,7 @@ The framework is famously, stubbornly four-fold. It insists that reality require
 
 Where is the fourth? Where is the **Fire** ($P$, the generative drive)? 
 
-It is absent on purpose. 
+It is implicit, absent on purpose. 
 
 In geometry, if you have a three-dimensional tetrahedron (four points) and you look closely at any three of those points, they form a flat triangular face. The only way those three points make sense as a face is if they are being viewed from the perspective of the fourth, unlisted point. 
 
