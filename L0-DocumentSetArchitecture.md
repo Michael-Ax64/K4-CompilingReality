@@ -128,7 +128,7 @@ Files operating in the QED demonstrative space enforce the operational charter. 
 The framework operates as an auto-classifying arithmetic syntax. The code is the ultimate falsifier.
 
 ### VI.A The Syntactic Falsifier
-`ProofQ_AlgebraicSyntax.md` links explicitly to the `/test/` directory. The mechanized decision procedures (`ac_checker.py`, `dual_route_trace.py`) prove the syntax auto-classifies the state-space and crashes compilers on topological impossibilities. The Route Law, the Composition Law, and the $\omega$-Law execute mechanically here.
+`ProofQ_AlgebraicSyntax.md` links explicitly to the `code/test/` directory. The mechanized decision procedures (`ac_checker.py`, `dual_route_trace.py`) prove the syntax auto-classifies the state-space and crashes compilers on topological impossibilities. The Route Law, the Composition Law, and the $\omega$-Law execute mechanically here.
 
 ### VI.B The Topological Diagnostician
 The Tribunal manifold (`/code/manifolds/`) parses algebraic drift. `tribunal.manifold.pl` applies strict K4 constraints, while `tribunal.inquiry.py` and the semantic bridges compute topological shear to return phenomenological realities based purely on impedance mismatch.

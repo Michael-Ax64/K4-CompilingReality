@@ -1,4 +1,4 @@
-# `/test/` — Mechanized Verification of the Algebraic Syntax & Route Laws
+# `code/test/` — Mechanized Verification of the Algebraic Syntax & Route Laws
 
 This directory contains the mechanized decision procedures and their executed trace reports. It fulfills the decidability claims of **Proof Q (The Algebraic Syntax)** and the **Route Law**, proving that the framework's epistemology is not a subjective mapping heuristic, but an auto-classifying arithmetic syntax that can be mechanically checked and will crash the compiler when fed topological impossibilities.
 
