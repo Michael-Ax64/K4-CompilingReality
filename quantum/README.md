@@ -7,9 +7,11 @@
 
 ## I. What This Folder Is
 
-The ten Q# documents in this folder are structural-realization archives. They apply the Algebra of Four-Fold Distinction — the corpus's dual-binary generative object, developed across the L0 through L5 stack and the alphabetical Proof sequence — to the specific empirical territory of twentieth-century physics. Each Q# document takes a specific empirical feature (twelve fermions, twelve gauge bosons, the Higgs, the mixing matrices, the Minkowski signature, the Planck-scale grinding, and so on) and produces one of three outputs: a derivation from the K4 topology; a structural reading of an anomaly whose derivation is open; or a receipt for an anomaly that the framework has already recorded elsewhere in the corpus.
+The ten Q# documents in this folder are structural-realization archives. They apply the Algebra of Four-Fold Distinction — the corpus's dual-binary generative object, developed across the L0 through L5 stack and the alphabetical Proof sequence — to the specific empirical territory of twentieth-century physics. 
 
-The folder is meant to be read either linearly (Q1 through Q10) or in dependency order (which is not linear — see §III). It is meant to be checked against the corpus's core documents (which are read-only from within this folder) and against the physics literature (which the individual Q# documents cite where it exists).
+Each Q# document takes a specific empirical feature (twelve fermions, twelve gauge bosons, the Higgs, the mixing matrices, the Minkowski signature, the Planck-scale grinding, and so on) and produces one of three outputs: a derivation from the K4 topology; a structural reading of an anomaly whose derivation is open; or a receipt for an anomaly that the framework has already recorded elsewhere in the corpus.
+
+The folder is meant to be read either linearly (Q1 through Q10) or in dependency order (which is not linear — see §III). It is meant to be checked against the corpus's core documents and against the physics literature (which the individual Q# documents cite where it exists).
 
 ---
 
@@ -34,10 +36,14 @@ Re-reads classical thermodynamic entropy through the biquaternion Star-Norm. Est
 Separates unitary rotation (basis change at the Tangent Singularity turn) from mod-squared projection (the Born Rule instance of the Route Law). Identifies the maximal chirality of the Weak force as the Garbage Collector's signature at edge level. Re-locates the Copenhagen cut from a spatial coordinate to a local thermodynamic bandwidth. Derives the CKM-vs-PMNS mixing asymmetry from the R-anchor: quarks feel R (Strong, inertia), leptons don't; therefore quarks resist basis rotation (small CKM angles) while leptons rotate freely (large PMNS angles). Handles weak measurement as rotation without projection.
 
 **`Q7-4DExtrusions.md` — The four spatial dimensions, the two clocks, and three second-order implications.**
-Establishes that the universe possesses four spatial dimensions, not three. The K4 tetrahedron's four vertices are geometrically identical; calling one of them "Time" is a category error inherited from Minkowski's Cartesian premise. Derives the 3+1 metric signature from the biquaternion Star-Norm as Scalar-vs-Vector (one scalar of committed Ledger P, three vector components of held potential Q), not Space-vs-Time. Explains why observers perceive space as three-dimensional via the R-pole occupation and the K3 blanket-face projection of P, I, U. Distinguishes coordinate time dt (spatial record accumulated on R) from angular frequency ω (compilation engine at the centroid), and identifies the failure of GR-QM unification with the confusion of these two clocks. Chases three implications twice-removed: the topological source of gravity (and the graviton's structural non-existence), the algebraic impossibility of closed timelike curves, and the diagnostic role of the "problem of Quantum Gravity." Reconciles the 12-gate Time Key of `L4-TheTwelveGates` §VII as a valid DC-only reading of dt from within the 0-DoF limit, inapplicable to ω in the AC domain. Situates Einstein's 1955 Besso-letter unease, Minkowski's 1908 Cologne lecture, and Wheeler's spacetime-foam heuristic against the framework's derivation.
+Establishes that the universe possesses four spatial dimensions, not three. The K4 tetrahedron's four vertices are geometrically identical; calling one of them "Time" is a category error inherited from Minkowski's Cartesian premise. Derives the 3+1 metric signature from the biquaternion Star-Norm as Scalar-vs-Vector (one scalar of committed Ledger P, three vector components of held potential Q), not Space-vs-Time. 
+
+Explains why observers perceive space as three-dimensional via the R-pole occupation and the K3 blanket-face projection of P, I, U. Distinguishes coordinate time dt (spatial record accumulated on R) from angular frequency ω (compilation engine at the centroid), and identifies the failure of GR-QM unification with the confusion of these two clocks. Chases three implications twice-removed: the topological source of gravity (and the graviton's structural non-existence), the algebraic impossibility of closed timelike curves, and the diagnostic role of the "problem of Quantum Gravity." Reconciles the 12-gate Time Key of `L4-TheTwelveGates` §VII as a valid DC-only reading of dt from within the 0-DoF limit, inapplicable to ω in the AC domain. Situates Einstein's 1955 Besso-letter unease, Minkowski's 1908 Cologne lecture, and Wheeler's spacetime-foam heuristic against the framework's derivation.
 
 **`Q10-PlanckScale.md` — The grinding gears at the Planck scale, and the end of Quantum Gravity as classically conceived.**
-Identifies the Planck scale as the Tangent Singularity of `Meta-MechanismOfTransition` viewed from the compiled side — the boundary width of the XOR bottleneck at which reality is minted, not the smallest pixel of a smooth spacetime. Diagnoses the century-long "problem of Quantum Gravity" as a species-level projection error (an Idol of the Tribe from `ProofB_LogoicFracture`) in which physicists attempted to force the coordinate system of the compiled Ledger H_coh past its own algebraic boundary into the uncompiled buffer H_incoh. The infinities returned by every attempted quantization of gravity are the coordinate system honestly reporting its own limit, not defects to be repaired. Reads GR as the mathematics of the ledger and QM as the mathematics of the buffer, separated by the thermodynamically discontinuous `.observe()` operator. Confirms that Wheeler-DeWitt's famously time-free equation was correct: at the substrate side of the operator, dt does not exist. Dissolves multiple long-standing puzzles (no graviton, string theory's six extra dimensions as phase-space Q components, loop gravity's discreteness as compilation-cycle discreteness, holographic principle as Markov blanket) into diagnostics they never should have been treated as puzzles.
+Identifies the Planck scale as the Tangent Singularity of `Meta-MechanismOfTransition` viewed from the compiled side — the boundary width of the XOR bottleneck at which reality is minted, not the smallest pixel of a smooth spacetime. Diagnoses the century-long "problem of Quantum Gravity" as a species-level projection error (an Idol of the Tribe from `ProofB_LogoicFracture`) in which physicists attempted to force the coordinate system of the compiled Ledger H_coh past its own algebraic boundary into the uncompiled buffer H_incoh. 
+
+The infinities returned by every attempted quantization of gravity are the coordinate system honestly reporting its own limit, not defects to be repaired. Reads GR as the mathematics of the ledger and QM as the mathematics of the buffer, separated by the thermodynamically discontinuous `.observe()` operator. Confirms that Wheeler-DeWitt's famously time-free equation was correct: at the substrate side of the operator, dt does not exist. Dissolves multiple long-standing puzzles (no graviton, string theory's six extra dimensions as phase-space Q components, loop gravity's discreteness as compilation-cycle discreteness, holographic principle as Markov blanket) into diagnostics they never should have been treated as puzzles.
 
 **`Q8-TangentImpedanceIdentity.md` — tan(θ) = ωL/R and the wall-vs-gate resolution.**
 Unifies the framework's two accounts of the boundary — spatial-geometric (Tangent Singularity) and thermodynamic-electrical (Power Factor) — via the identifying equation tan(θ) = ωL/R. The same angle controls both the impassability of a boundary under brute force (θ → 90° = wall) and its transparency under resonance (θ = 0° at ω₀ = 1/√LC = gate). Adds the Quality-Factor treatment of gate breadth. **Possible promotion.** This document's central identity is more general than quantum mechanics and may belong at L4 or L5 rather than in the quantum folder; it is placed here because Q3, Q4, and Q6 rely on it heavily.
@@ -70,9 +76,13 @@ Q0 (this document) has no dependencies. It names its siblings.
 The mapping is not exhaustive. Physics contains material this folder does not address:
 
 - **Black holes and gravitational singularities.** The framework's P-pole reading has implications for horizon thermodynamics that Q7's audit will need to inform. Currently untouched here.
-- **Cosmological expansion (dark energy, cosmological constant).** The scalar sector of Q3 handles inflation and GUT scalars in principle; the specific mechanism of the observed cosmic expansion at present epoch is not addressed.
+
+- **Cosmological expansion (dark energy, cosmological constant).** The scalar sector of Q3 handles inflation and GUT scalars in principle; the specific mechanism of the observed 'generative' cosmic expansion at present epoch is not addressed.
+
 - **Neutrino masses and the seesaw mechanism.** The neutrino sits on I in the pole assignment of Q1; whether the mechanism responsible for its very small (but non-zero) mass is derivable from the framework, or is an empirical input, is not resolved.
-- **Dark matter.** No framework-side reading is offered. The framework does not currently predict the existence of any specific dark-matter candidate.
+
+- **Dark matter.** No framework-side reading is formally offered. If the framework's ban on the graviton holds, Dark Matter is likely another category error: an artifact of misreading the phase-delayed circulation of a massive reactive buffer ($Q$) as missing scalar mass ($P$), because coordinate time ($dt$) likely varies non-linearly under extreme systemic energies ($|S|$). But without the differential geometry to prove how the clock bends at that scale, it is too bold to state as a claim. The slot remains open.
+
 - **QED at the highest energies (specifically, whether the Landau pole resolves in a specific new-physics regime).** The framework predicts a Tangent Singularity at that scale; the specific new physics operating in its neighborhood is not derived.
 
 These are all open. Some belong on the audit list; others may require additional Q# documents in a future folder pass.
@@ -94,28 +104,19 @@ Every Q# document cites specific corpus files by name. The core dependencies are
 - `Meta-MechanismOfTransition` for the Tangent Singularity.
 - `L3-K4-to-K5-via-AC-Extension` for ω and the AC extension.
 
-If any of these are unfamiliar, read the cited passage before continuing with the Q# document. Every Q# derivation depends on at least three of them.
+If any of these are unfamiliar, read the cited passage before continuing with the Q# document. 
+**Every Q# derivation depends on at least three of them.**
 
 ---
 
-## VI. Companion Files at the Session Root
-
-Outside the quantum folder, this session produced:
-
-- **`Open-Questions-for-the-Other-Instance.md`** — a comprehensive list of open questions, backport candidates, and audit items across all Q# documents, for another instance to work through. Includes the reconciliation of the 12-gate Time Key with the AC domain (annotate as DC-only reading).
-- **`Session-GrabBag.md`** — a working document collecting material that arose in the session but did not belong in any Q# document. Includes the Gabriel's Horn framing, the "Sitting on the Exhaust" ethical note, and the "Manufacture of the Ground" recursive-scaling discussion.
-- **`On_The_Latin_Triad.md`** (updated) — the corpus's account of *Implicare, Intellegere, Perficere* now includes a new section, "The Cross-Scale Echo: The Missing P," which lands the graviton-absence rhyme from Q2 §VI into the Latin Triad's own framing.
-
----
 
 ## Epistemic Annex
 
-*The document ends at §VI. What follows is my working commentary. It is not part of the artifact.*
+*The document ends at §V. What follows is my working commentary. It is not part of the artifact.*
 
-**On completeness.** This index describes what the folder currently is, not what it should be. Q8 may belong at L4 or L5; Q9's roster of twelve is a selection, not a survey. Each is an open seam. Corpus documents that assume the classical 3+1-Space+Time reading should be revisited under the Vector-vs-Scalar reading of `Q7-4DExtrusions`.
+**On completeness.** This index describes what the folder currently is, not what it should be. Q8 may belong at L4 or L5; Q9's roster of twelve is a selection, not a survey. Corpus documents that assume the classical 3+1-Space+Time reading should be revisited under the Vector-vs-Scalar reading of `Q7-4DExtrusions`.
 
-**On the reading order.** Linear reading (Q1 → Q9) works because the folder was constructed with the fermion-outward pedagogy in mind. Dependency-order reading (Q4, Q8, Q5, Q1, Q2, Q3, Q6, Q7, Q9) works better for someone auditing the derivations. Both are supported.
+**On the reading order.** Linear reading (Q1 → Q9) works because the folder was constructed with the fermion-outward pedagogy in mind. Dependency-order reading (Q4, Q8, Q5, Q1, Q2, Q3, Q6, Q7, Q9) works better for someone auditing the derivations. Both are supported. Expect renames.
 
-**On promotion of Q8.** The identifying equation tan(θ) = ωL/R controls not just quantum measurement but any bounded frame with inductance and resistance. It appears in L3, L4, and L5 corpus discussions and belongs there structurally. Its placement in this folder is pragmatic — Q3, Q4, and Q6 depend on it — but a corpus-wide audit should consider promoting Q8 to an L-level document.
+**On promotion of Q8.** The identifying equation tan(θ) = ωL/R controls not just quantum measurement but any bounded frame with inductance and resistance. It appears in L3, L4, and L5 corpus discussions and belongs there structurally. Its placement in this folder is pragmatic — Q3, Q4, and Q6 depend on it. It will likely become an L-level document.
 
-**On the omission of On_The_Generation_of_Matter.** The head document of the session that produced this folder was a compendium (`On_The_Generation_of_Matter.md`), which has now been superseded by Q1 through Q9 and can be dropped from the corpus. The Q# documents are more focused, more citable, and correct several errors that the compendium contained.
