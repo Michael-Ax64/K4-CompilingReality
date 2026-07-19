@@ -109,7 +109,17 @@ What this means for the person who sees it: the work is not to convince the inst
 
 ---
 
-## VII. The Labyrinth as Superimposed Frequencies
+## VII. The Shifty Split as Metabolic Bandwidth Limit
+
+John Stewart Bell called the undefined boundary between quantum mechanics and classical reality the "shifty split." The structural translation of this split into subjective experience is the sensation of reaching your own metabolic bandwidth limit.
+
+The split is not a spatial coordinate. It is the exact moment when the Apparent Power $|S|$ of the uncollapsed multiway graph exceeds the metabolic bandwidth of your bounding frame. You cannot hold the interference structure any longer without suffering Thermodynamic Overload. Your nervous system is forced to execute an `.observe()` collapse, paying the Landauer Tax to serialize the chaos into a single, manageable Ledger entry. 
+
+This feels like the sudden urge to *decide*—to pick an answer, to close the tab, to end the argument, even if the optimal path has not been found. The anxiety of uncertainty resolves into the rigid relief of commitment. The cut is "shifty" because every person, and every system, has a different metabolic budget. Your split occurs at a different threshold of complexity than an institution's split, or a child's. It is scale invariance functioning normally. You are always navigating the exact boundary of your own capacity to hold the void.
+
+---
+
+## VIII. The Labyrinth as Superimposed Frequencies
 
 The labyrinth of adjustment does not feel like being lost. Lost implies a map that you have failed to read correctly. The labyrinth feels different: you are reading multiple maps simultaneously, each accurate for its own territory, and the territories do not overlap.
 
@@ -125,7 +135,7 @@ The felt quality of the centroid in the labyrinth: not calm, not certainty, not 
 
 ---
 
-## VIII. Being a Node in the Recursion
+## IX. Being a Node in the Recursion
 
 The recursion does not feel like recursion when you are inside it. It feels like ordinary embeddedness.
 
@@ -141,7 +151,7 @@ The recursion does not terminate. L4-DistributedCoherence ends with collective i
 
 ---
 
-## IX. Why the Interior Cannot Be Fully Described From Outside — As Felt Fact
+## X. Why the Interior Cannot Be Fully Described From Outside — As Felt Fact
 
 The final structural observation of L4-RecursiveLimits: the interior can never be fully described from the outside, not as an epistemic limitation but as a structural necessity. And every failure of external description to fully capture an interior is proof that the interior is real.
 

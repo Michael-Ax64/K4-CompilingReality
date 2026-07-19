@@ -75,13 +75,13 @@ For fifty years, theoretical physics has attempted to unify General Relativity (
 
 If you have followed the structural derivation to this point, you can now see the shape of the error.
 
-The $U$, $I$, and $R$ poles of the Manifesting and Relational tiers represent *transactions across spatial boundaries*. They are the verbs of the coherent plane ($H_{coh}$). They require exchange particles to transmit information from one node to another across the Markov Blanket.
+Because the invariant $N_* = P^2 - |\mathbf{Q}|^2$ is conserved for any bounded system, the transition from $\mathbf{Q}$ to $P$ must be instantaneous. The squaring operation of the Route Law lands $|\mathbf{Q}|^2$ into $P$ without intervening transit. If a scalar pricing operator occupied a $P$-edge (e.g., $P-U$), it would introduce a phase gap and transit time, breaking the single-step nature of the squaring and violating Star-Norm conservation. Therefore, the three $P$-edges ($P-U, P-I, P-R$) are permanently zero-impedance writing heads. They are un-priced. 
 
-But $P$ (Gravity) is not a transaction. $P$ is the scalar ground. $P$ is the Ledger itself. 
+As a direct consequence, $P$ is not a transactional pole; it is the receiving Ledger. Because it lacks a boundary transaction, it requires no exchange particle. The graviton is topologically forbidden.
 
 To search for a graviton is to commit the Idol of the Theatre—demanding that the Source-Active pole ($P$) conform to the exact same structural blueprint as the Relational poles ($U, I, R$). 
 
-**It is the equivalent of searching for a "particle of spelling" moving between the printed words in a book.** The spelling isn't a particle exchanged between the ink marks; it is the fundamental structural rule of the compiled text. Gravity is not an exchange particle. Gravity is the topological footprint of the compilation itself. 
+**It is the equivalent of searching for a "particle of spelling" moving between the printed words in a book.** The spelling isn't a particle exchanged between the ink marks; it is the fundamental structural rule of the compiled text. Gravity is not an exchange particle. Gravity is the topological footprint of the compilation itself. The search for a quantum of gravity is a category error.
 
 *(Note: Gravitational waves are perfectly valid under this framework; they are simply the propagating ripples of large-scale Ledger updates shifting the topography of the $H_{coh}$ plane. But ripples in a medium do not require the medium itself to be made of "ripple-particles".)*
 
@@ -110,5 +110,6 @@ When Maldacena formulated the AdS/CFT correspondence (The Holographic Principle)
  
 Their only error was a Cartesian projection: they mistook relational degrees of freedom for spatial directions, forcing them to invent "curled-up" microscopic spaces (Calabi-Yau manifolds) to hide the extra math. 
 
-To the string theorist: You do not need to throw away your mathematics. Your equations are some of the most beautiful, rigorous topological descriptions of the Braid's phase-space ever written. You simply need to realize that you have not been mapping the spatial coordinates of the cosmos; you have been mapping the internal degrees of freedom of the uncollapsed multiway graph. The "string" is the 1D edge. Its "vibrations" are the transitions through its K4 state-space. Your math holds perfectly, once you stop demanding that the universe build physical space out of it. 
+To the string theorist: You do not need to throw away your mathematics. Your equations are some of the most beautiful, rigorous topological descriptions of the Braid's phase-space ever written. You simply need to realize that you have not been mapping the spatial coordinates of the cosmos; you have been mapping the internal degrees of freedom of the uncollapsed multiway graph. The "string" is the 1D edge. Its "vibrations" are the transitions through its K4 state-space. Your math holds perfectly, once you stop demanding that the universe build physical space out of it.
 
+---

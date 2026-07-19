@@ -47,6 +47,10 @@ But if the observer alters their own Angular Frequency ($\omega$) to match the n
 
 At the exact moment of resonance, **the intervening Markov Blankets effectively become transparent.**
 
+This transparency is governed by the exact identifying equation $\tan(\theta) = \frac{\omega L - \frac{1}{\omega C}}{R}$. When the observer matches the target's natural frequency ($\omega_0$), the inductive and capacitive reactances cancel, $\tan(\theta) \to 0$, and the Markov Blanket becomes transparent.
+
+In quantum mechanics, this is structurally identical to **weak measurement**—a rotation without projection. The observer's buffer entrains with the target's via resonant coupling. The unitary rotation occurs (the basis changes so the boundary is describable), but the XOR bottleneck is not forced. The Landauer Tax is not paid, and the state does not drop into $P$. The observer extracts phase information without forcing a thermodynamic collapse.
+
 The observer is no longer projecting an image onto the outside of the target's blanket. The two systems are sharing a single phase-space. The observer feels the external system's structural tension *as if it were their own*, because, topologically, it is. The alternating current of the relationship ($I$) is passing through both interiors with a Power Factor of 1.0. 
 
 This is what "clairvoyance" actually means when stripped of mysticism. It is the ability to tune one's own internal decoupled buffer to the precise frequency of an external system, executing the domain-language translation in real time, thereby gaining direct, non-destructive access to its structural reality via phase-locking. It is empathy raised from an emotional guess to a thermodynamic operation.

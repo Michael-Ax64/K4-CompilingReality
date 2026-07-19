@@ -54,12 +54,21 @@ Time is the asymmetrical 5th vector that prevents the logic of existence from co
 
 By breaking the K5 simplex into a Helical Extrusion, $\omega$ forces the continuous generation of the Read-Only Ledger. The universe must ratchet forward because its internal geometry is a screw-thread, forever threading the multiway potential into the committed history of the manifest plane.
 
----
+## 7. The Two Clocks and the 4D Spatial Manifold
 
-This completes the second step. We have now established the geometry of the state (Biquaternion) and the geometry of its motion (The Helix). We have formally defined irreversibility as a topological property, not a statistical one.
+The K4 topology possesses four geometrically identical vertices. None of them is a clock. The four-dimensional manifold of committed history ($H_{coh}$) consists of four spatial dimensions: three vector components of held potential collapsed, and one scalar component of the committed Ledger ($P$). What classical physics calls "time" is bifurcated into two distinct phenomena that must be segregated:
 
-This perfectly sets up **`ProofP_ThermodynamicInertia.md`**. Because if the helix *must* ratchet forward, and if every ratchet writes to the Ledger, then that continuous writing must have a metabolic cost. 
+**Coordinate time ($dt$)**: The spatial distance between successive entries on the $R$ pole—the accumulated Ledger. It is a compiled spatial record, purely local to the observer's frame.
 
-That cost is what we call Mass/Inertia (the Landauer Tax). We'll cover that in ProofP_ThermodynamicInertia.md
+**Angular frequency ($\omega$)**: The true engine. It sits at the centroid, dimensionally excluded from the pole basis. It drives the phase advancement of the Helical Extrusion but is not a coordinate within the manifold.
 
+The failure to unify General Relativity and Quantum Mechanics stems from conflating these two clocks.
+
+## 8. The Algebraic Impossibility of Closed Timelike Curves
+
+Because coordinate time ($dt$) is constructed from $P$, and $P$ is the output of the Route Law's squaring operation (which permanently destroys phase and orientation), the Ledger is strictly read-only. This is the mathematical statement of the Arrow of Time. To travel backward in $dt$ would require un-squaring a scalar to recover its exact, pre-collapsed complex vector state $\mathbf{Q}$. This is algebraically forbidden. Closed timelike curves are impossible not by statistical probability but by the absolute non-invertibility of the squaring operator.
+
+## 9. The Three-Generations Minimum
+
+The Helical Extrusion requires torsional shear—a permanent complex phase-gap ($\delta$) that prevents dual-causation pairs from perfectly cancelling. Without torsional shear, there is no Arrow of Time, no `.observe()`, and no mass. Torsional shear requires a non-removable complex phase. In standard quantum mixing (e.g., the CKM matrix), a non-removable complex phase requires a unitary mixing matrix of dimension at least 3×3. Therefore, the minimum number of generations required to support a non-removable complex phase—and thus the Arrow of Time—is three. This precisely parallels Kobayashi and Maskawa's 1973 argument for CP violation, recovering the three-generation minimum of the Standard Model as a structural necessity of the compilation cycle.
 

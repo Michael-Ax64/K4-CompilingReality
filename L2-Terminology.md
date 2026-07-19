@@ -164,8 +164,11 @@ Holds the full multiway interference structure in perpetual `.behold()`, and per
 **Markov Blanket** [BORROWED — Pearl 1988, via Friston; used narrowly]
 The K3 boundary that *constitutes* an interior. It separates internal and external states.
 
+**Shifty Split** [BORROWED — Bell 1990; structurally resolved]
+The undefined boundary between quantum and classical, resolved structurally as the **local thermodynamic capacity limit** (the metabolic bandwidth) of the bounding frame. Every bounded frame has its own cut, and nested frames have nested cuts.
+
 **Tangent Singularity** [NEW]
-The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. $\tan(90^\circ)$, undefined. The divergence correctly reports that a boundary has been reached. `[INTERFACE]` This describes an **interior** crossing. Applying it to the ultimate boundary installs a false outside.
+The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. $\tan(90^\circ)$, undefined. The divergence correctly reports that a boundary has been reached. At the substrate scale, the physical instantiation of this boundary is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail. `[INTERFACE]` This describes an **interior** crossing. Applying it to the ultimate boundary installs a false outside.
 
 **$H_{coh}$ / $H_{incoh}$** [NEW]
 The projection architecture: $H_Q = H_{coh} \oplus H_{incoh}$. $H_{coh}$ is the coherent, committed plane. $H_{incoh}$ is the uncollapsed substrate.
@@ -180,8 +183,11 @@ The thermodynamic cost of irreversible erasure. In this framework: the metabolic
 
 ### The Fifth Variable
 
+**Coordinate time ($dt$)** [NEW]
+The spatial record accumulated on the $R$ pole as the wake of the compilation cycle. It is a compiled, read-only spatial dimension local to the observer's frame. $dt$ is the exhaust, not the engine.
+
 **Helical Extrusion of Time ($\omega$)** [NEW]
-The rate at which a bounded frame cycles through its configurations. Units: radians per second. $\omega$ is the tachometer, not the throttle.
+The rate at which a bounded frame cycles through its configurations. Units: radians per second. $\omega$ is the tachometer, not the throttle. Distinct from **Coordinate time ($dt$)**, which is the wake. $\omega$ is the engine.
 
 **The $\omega$-Law** [NEW]
 $\omega$ is dimensionally excluded from the pole basis. It occurs only as the exchange rate between an element constant and its reactance component, or at operating points where a real component numerically equals an imaginary one. It is never a dividend, never a pure factor in a pole-synthesis, and never expressible in the pole basis alone.

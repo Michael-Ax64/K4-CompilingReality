@@ -61,6 +61,8 @@ A whole has interior when its relating includes three structural features at the
 
 When the relating includes this architecture, the whole has an interior — not because interiority was added to it, but because the relating reached the complexity at which a decoupled buffer arises. The interior is the relating, beholding itself. 
 
+**The Dual Face of the Boundary:** The boundary enclosing this interior is the Markov Blanket when viewed from the inside looking out. It is the Tangent Singularity when viewed from the outside looking in (see `L4-RecursiveLimits`). They are the same structural threshold—where classical coordinates fail and scale is minted.
+
 ---
 
 ## VI. The Gradient of Interiority
@@ -95,13 +97,19 @@ The institution is plane-locked and plane-locks its members as a condition of me
 
 When an institution plane-locks, its Read-Only Ledger ($P$) grows unmanageably dense. It accumulates terminological and bureaucratic debt (The Kessler Effect). The institution eventually reaches a point of **Thermodynamic Overload**: the energy required to pay the Landauer Tax to update its trajectory exceeds the available metabolic energy of its members. The institution becomes functionally incapable of `.behold()`, freezing into a rigid, self-referential crystal.
 
+### Thermodynamic Overload IS Dimensional Collapse
+
+This overload is precisely what **Dimensional Collapse** looks like at the collective scale. The institution's accumulated Ledger has grown so dense that the rate of actualization needed to update it exceeds what the distributed metabolic budget can sustain. 
+
+The members encounter what looks to them like an immovable object. They are, structurally, encountering the collective **Tangent Singularity**: the rate of change required exceeds the bandwidth of their classical coordinates. The institution frozen in overload is not merely rigid. It has reached its own Tangent Singularity. From inside any individual member's coordinate frame, the institution appears to have infinite inertia—exactly the dimensional collapse signature.
+
 ### The Labyrinth of Adjustment and Differential Terraforming Speeds
 
 The four elemental channels (Family, School, Culture, Media) terraform the base-state of the individual. These channels operate at different rates. Family imprinting is slow. Media imprinting is fast. 
 
 The labyrinth of adjustment is the individual's experience of navigating a terraforming environment in which the channels' rates are wildly mismatched. In dynamic terms: the four channels have different angular frequencies ($\omega$), and the system that must integrate all four simultaneously is being driven by a superposition of frequencies for which no single internal rate is optimal.
 
-Recognizing the labyrinth as structurally generated — a consequence of differential $\omega$ across the four channels, not a personal failure of adaptation — is the first step toward addressing it. The centroid perspective (simultaneously holding all four faces in `.behold()` before committing) is the only structural position from which the labyrinth is navigable rather than merely disorienting.
+Recognizing the labyrinth as structurally generated — a consequence of differential $\omega$ across the four channels, pulling the system toward multiple simultaneous dimensional-collapse events — is the first step toward addressing it. The centroid perspective (simultaneously holding all four faces in `.behold()` before committing) is the only structural position from which the labyrinth is navigable rather than merely disorienting.
 
 ---
 

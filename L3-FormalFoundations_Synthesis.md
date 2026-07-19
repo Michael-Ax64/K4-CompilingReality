@@ -101,7 +101,7 @@ Each face of the tetrahedron corresponds to one "absent variable" — the variab
 
 The face opposite P: P is absent from the RHS; all equations on this face express I, U, and R in terms of each other without P appearing on the RHS.
 
-***Note on Dimensionality (The Static Illusion):*** *This K4 tetrahedron is a static, frozen cross-section of the state-space. It describes the geometry of logic without the execution of time. In physical reality, this structure is subjected to a unidirectional driver ($\omega$), which extrudes this perfectly symmetrical K4 geometry into a helical topology. The tetrahedron is the map; the helix is the engine.*
+***Note on Dimensionality (The Static Illusion):*** *This K4 tetrahedron is a static, frozen cross-section of the state-space. It describes the geometry of logic without the execution of time. In physical reality, this structure is subjected to a unidirectional driver ($\omega$), which extrudes this perfectly symmetrical K4 geometry into a helical topology. The tetrahedron is the map; the helix is the engine. Crucially, the resulting four-dimensional manifold ($H_{coh}$) consists of four spatial dimensions: one scalar ($P$) and three vectors ($\mathbf{Q}$). Coordinate time ($dt$) is merely the spatial record accumulated on the $R$ pole; it is not the engine ($\omega$).*
 
 ### The PFOR Heuristic
 

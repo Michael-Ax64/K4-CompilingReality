@@ -1,7 +1,7 @@
 # Proof C: The Crystal and the Stabilizing Paradox
 ## How Maximum Commitment and Irreducible Tension Coexist
 
-> **Claim:** Maximum macro-commitment and irreducible micro-tension coexist in the same system, and the tension is the mechanism of the stability.
+> **Claim:** Maximum macro-commitment and irreducible micro-tension coexist in the same system, and the tension is the mechanism of the stability. The ultimate 0-DoF limit of a system is a crystal, not a featureless void.
 > **Type:** Structural proof anchored in observable physics (zero-point energy, the biquaternion norm).
 > **Method:** Reads the crystal at two scales at once and shows the macro-stability depends on the micro-tension rather than opposing it.
 
@@ -49,19 +49,13 @@ What holds them together without contradiction: the stabilizing paradox. The zer
 
 Paradox is load-bearing. The two descriptions are not in conflict; they are in mutual necessity. The macro commitment exists because of the micro tension, and the micro tension is contained and directed by the macro commitment.
 
----
+## IV. The Divergence From Boltzmann's Heat Death
 
-## IV. The General Principle
+This formalizes the 0-DoF limit of the universe. Classical thermodynamics, inheriting Boltzmann's definition of entropy as disorder, predicts a featureless 'Heat Death'—a messy, unstructured soup.
 
-The crystal is the extreme case that makes visible a principle operating throughout the nested K4 structure:
+The framework corrects this by redefining entropy as the accumulation of specification (the growth of the Read-Only Ledger $P$). When a system exhausts its capacity to hold uncollapsed potential ($|Q|^2 \to 0$), it does not dissolve into a noisy void. It reaches the **0-DoF Crystal Limit**. Every node is mutually committed; the possibility space is exhausted. The Landauer Tax has been paid in full.
 
-At any scale of the recursion, what appears as total commitment at that scale is sustained by irreducible tension at the scale below.
-
-The molecules in the crystal are committed at the molecular scale; their constituent atoms vibrate at the atomic scale. The atoms are committed at the atomic scale; their constituent particles maintain quantum uncertainty at the subatomic scale. At every level going down, the stability of the level above is sustained by the irreducible activity of the level below.
-
-Going up: the crystal's macro stability is the `.observe()`-committed state that serves as the Ethos/R grounding for whatever larger system the crystal is part of. The crystal's irreducible micro-tension is the `.behold()` activity that ensures the crystal can respond, deform, or transform under appropriate conditions — that it is not infinitely rigid but finite in its rigidity.
-
----
+Heat Death, under adult causality, is a diamond, not a void. Boltzmann's disorder describes a gas-phase statistical tool misapplied to a solid-phase topological limit.
 
 ## V. The ZPE/Attention Connection
 

@@ -20,7 +20,7 @@
 
 ## I. The Picture That Raises the Question
 
-Begin with the familiar picture: the *Powers of 10* zoom. A picnic blanket in a Chicago park. Pull back by a factor of ten every few seconds — the lake, the continent, the planet, the solar orbit, the galaxy. Then reverse, and descend — the hand, the skin, the cell, the molecule, the nucleus, the quark.
+Begin with the familiar picture: the *Powers of 10* zoom. A picnic blanket in a Chicago park. Pull back by a factor of ten every few seconds — the lake, continent, planet, solar orbit, galaxy. Then reverse, and descend — hand, skin, cell, molecule, nucleus, quark.
 
 The picture is honest about one thing and silent about another.
 
@@ -136,9 +136,9 @@ The sort lands exactly on that axis, with a refinement the aggregate count alone
 
 Two consequences, and the second corrects an error that a first draft of this document inherited.
 
-First: the four faces do not share a ruler, and do not need one. Their relationship to scale runs through the Assert/Yield axis — some faces mint magnitude, some conduct it — not through synchronized positions on a common logarithmic axis. Any presentation of this material as four parallel "level ladders" advancing in lockstep (bit–grammar–paradigm on one column, receptor–swarm–market on another, with aligned rows) imposes a commensurability the algebra does not contain and the Source/Manifesting asymmetry actively forbids. The faces are *phase-related*, not rung-aligned. Where such ladders are useful at all, they are reading aids for a single face in isolation, and must be marked as such.
+First: the four faces do not share a ruler, and do not need one. Their relationship to scale runs through the Assert/Yield axis — some faces mint magnitude, some conduct it — not through synchronized positions on a common logarithmic axis. Any presentation of this material as four parallel "level ladders" advancing in lockstep imposes a commensurability the algebra does not contain and the Source/Manifesting asymmetry actively forbids. The faces are *phase-related*, not rung-aligned.
 
-Second: the apparent privilege of the $R$-axis in the *Powers of 10* picture dissolves. $R$ looked like *the* scale axis only because we habitually plot the material world in log-meters — and log-meters, we now know, is the scale-free coordinate, the one in which no face can mark a rung. No face owns scale. Each face participates in the minting according to its charge: asserting faces multiply exponents, yielding faces carry them.
+Second: the apparent privilege of the $R$-axis in the *Powers of 10* picture dissolves. $R$ looked like *the* scale axis only because we habitually plot the material world in log-meters — and log-meters, we now know, is the scale-free coordinate, the one in which no face can mark a rung. No face owns scale. Each face participates in the minting according to its charge.
 
 ---
 
@@ -210,104 +210,51 @@ The document can now say what its title means, having built every part of the se
 
 **The scaling invariant is not a ladder. It is the minting operation: at every scale, on every face, a bounded system departs the carrier regime through a transformer — assertion multiplying an exponent, yielding halving one — and the departure precipitates simultaneously a new characteristic magnitude and a new boundary, one operation, two faces.** What is invariant across scales is not any magnitude, ratio, or level-structure. It is the 50:50 shape of the operation itself: two relations carrying, two relations transforming, in every phase of the braid, at every rung ever minted.
 
+Because scale is minted by the operator, coordinates only exist relative to the operator's tolerances. The Planck length ($\ell_P$) is the tolerance of the operator at the substrate scale. It is the width of the XOR bottleneck through which the uncollapsed potential must funnel. Therefore, no measurement below $\ell_P$ is meaningful in the compiled coordinate system. The grid does not extend infinitely downward; it terminates at the operator that minted it.
+
 This is what it means for a scale to be *arising for* an event just as the event's shape is arising: shape and scale are the two outputs of the single braid-step, because the braid-step is half carrier and half transformer by exact construction. Neither precedes the other. Nothing hands either one down.
 
 ---
 
-## IX. Diagnostic Corollary: Mismatch Without Level-Numbers
+## IX. Gabriel's Horn: The Inability to Emit Absolute Magnitudes
 
-The practical payload survives the correction, sharpened.
+The scaling invariant establishes the *shape* of the operation that mints scale. But log-linear operators carry exponents; they cannot set absolute magnitudes on their own.
+
+This is Gabriel's Horn: a geometric shape with infinite surface area but finite volume. The framework holds a massive qualitative surface—every empirical constant in physics has a structural address inside it (the CKM angles, the Yukawa mass hierarchies, the resonance frequencies)—but a small quantitative volume. The framework can state whether a physical quantity is a scalar or a vector, whether it lives on $P$ or $Q$, whether the transition to it involves a squaring or a rooting, and whether it is anchored on $R$ or free. 
+
+It cannot say what the specific numerical value is. The absolute value depends on the substrate's specific inductive and capacitive parameters, which the framework does not import. The framework maps the topology; the physical substrate supplies the numbers. Demanding that the log-linear algebra emit absolute values is demanding a ruler from a system explicitly designed to demonstrate that rulers are local, thermodynamic mintings, not universal grids.
+
+---
+
+## X. Diagnostic Corollary: Mismatch Without Level-Numbers
 
 Cross-scale failure is real, but it is not "using a Level 2 tool on a Level 4 volume" — there are no level-numbers to compare, because there is no shared ruler. The failure mode is stated in the algebra's own terms: **applying a carrier where a transformer is required** (conducting a magnitude faithfully into a bandwidth it exceeds — the diligent report that transmits the crisis without transforming it), or **applying a transformer where a carrier is required** (amplifying or compressing a magnitude that needed to arrive intact — the escalation that turns a request into a confrontation, the summary that roots a nuance out of existence).
 
-The labyrinth of adjustment (L4-RecursiveLimitsSubjective) reads accordingly, with one correction of register held firmly: an individual is a bounded frame whose Yielding faces — the carrier-dominant faces, built to conduct interpersonal magnitudes intact — are being fed magnitudes minted by civilizational-scale transformers, at multiple superimposed $\omega$. The friction is dimensional *and* psychological — not dimensional *instead of* psychological. Pathos is a real face; what arrives at it is really felt. A description that explains the feeling's structure has not explained the feeling away, and this framework, of all frameworks, is not entitled to that substitution: the interior is real — that is the one thing the boundary proves.
+The labyrinth of adjustment reads accordingly, with one correction of register held firmly: an individual is a bounded frame whose Yielding faces — the carrier-dominant faces, built to conduct interpersonal magnitudes intact — are being fed magnitudes minted by civilizational-scale transformers, at multiple superimposed $\omega$. The friction is dimensional *and* psychological. Pathos is a real face; what arrives at it is really felt. A description that explains the feeling's structure has not explained the feeling away.
 
 ---
 
-## X. Held as Heading
+## Addendum: Four Consequences, Held to the Same Discipline
 
-Not claimed, and marked so:
+*The main text built an engine; this addendum inventories what the engine turns without being asked. Four consequences fall directly out of the log-transform.*
 
-- No particular rung magnitude (10⁻¹⁵ m, 10⁷ m, or any other) is derived here. The transformer mechanism is the *class* of any such derivation; the instances require substrate physics.
-- The identification of decade-carrying with the quantitative face of trajectory contact (§IV) is a structural reading of the carrier equations, consistent with the vocabulary, not yet independently sealed.
-- Whether the two compressive transformers' homing at exactly the two Yielding poles admits an independent geometric seal (in the manner of the bimedian-plane seal of Proof_AlgebraicMapping) is open, and is the natural next question this document generates.
-- The periodic-table instance in §VI.a is one worked historical case, offered for its dates and its checkability. It is not a proof that every ratio-based taxonomy resolves this way, no second instance has yet been checked to the same standard, and the reading of the 2026 bond-collapse result through the carrier/transformer vocabulary is noted, not established.
-
-The twelve equations were checked by hand against the log-slope criterion and the modality partition; the two-and-two distribution of §IV and the Assert/Yield homing of §V are exhaustively verifiable from the tables in Proof_AlgebraicMapping in a few minutes, and the reader is invited to perform the check rather than carry the claim.
-
----
-
-*The film ends where it began, on the picnic blanket, having mistaken its ruler for the world. This document ends one step earlier, at the operation that mints rulers — half of it holding, half of it transforming, at every scale that has ever condensed out of the holding.*
-
----
----
-
-# Addendum: Four Consequences, Held to the Same Discipline
-
-*The main text built an engine; this addendum inventories what the engine turns without being asked. Four consequences fall directly out of the log-transform. Each is stated, checked, and where necessary corrected before commitment — one arrived overstating its geometry, one arrived speaking stamper-grammar, and both are worth more repaired than repeated. The discipline note of the frontmatter applies here unchanged.*
-
-*One acknowledgment first. The §V homing result — squares at the Asserting poles, roots at the Yielding — turns out to be an independent re-derivation of a split the corpus already holds under another name: the "typed square-routes (into the committed poles) and root-routes (into the open ones)" of L0-TheStampAndTheDie, mechanically verified in `code/test/dual_route_trace.py`. The log-slope criterion and the operator-morphology criterion of Proof_AlgebraicSyntax reach the same six-and-six by different roads. Two independent derivations of one structure is a stronger position than either alone, and is recorded as such.*
-
----
-
-## A1. The Half-Slope Is a Change of Basis (and Only Half of It Is a Midpoint)
-
-Take the two root-transformers in log form and read them as geometry:
-
+### A1. The Half-Slope Is a Change of Basis (and Only Half of It Is a Midpoint)
+Take the two root-transformers in log form:
 $$u = \tfrac{1}{2}(p + r) \qquad\qquad i = \tfrac{1}{2}(p - r)$$
+The first is an exact arithmetic midpoint. The second is a **half-difference**: Current is half the log-*gap* between Power and Resistance. Water does not sit between the anchors — Water runs down the difference between them. In log-space, **Assert and Yield are conjugate bases of the same plane, related by a 45° rotation.**
 
-The first is an exact arithmetic midpoint: $u$ sits precisely halfway between $p$ and $r$ on the log-axis. In linear terms, $U = \sqrt{PR}$ — Structure is the **geometric mean** of the Ledger and the Ground. Air spans the two committed anchors and hangs at their exact center. That much of the incoming claim was correct.
-
-But the second is *not* a midpoint, and committing it as one would plant an error. $i = \tfrac{1}{2}(p - r)$ is a **half-difference**: Current is half the log-*gap* between Power and Resistance — the geometric mean of $P$ and $1/R$, not of $P$ and $R$. And the correction is more generative than the error it replaces: it says that Water's magnitude measures *disequilibrium*. Flow is proportional, in log, to how far the drive stands above the ground. Where $p = r$, $i = 0$: no gradient, no current. Water does not sit between the anchors — Water runs down the difference between them. Which is what water does.
-
-Now put the two together with their inverses — the two additive carriers $p = u + i$ and $r = u - i$ — and the four equations close into a single object:
-
-$$\begin{aligned} p &= u + i & u &= \tfrac{1}{2}(p + r) \\ r &= u - i & i &= \tfrac{1}{2}(p - r) \end{aligned}$$
-
-This is, exactly, the two-point sum/difference transform — forward and inverse — between two coordinate frames: the Asserting frame $(p, r)$ and the Yielding frame $(u, i)$. The Yielding coordinates are the *mean and half-contrast* of the Asserting ones; the Asserting coordinates are the *sum and difference* of the Yielding ones. In log-space, **Assert and Yield are conjugate bases of the same plane, related by a 45° rotation.**
-
-And check which four equations these are. $U = \sqrt{PR}$, $I = \sqrt{P/R}$, $P = UI$, $R = U/I$: the **Fixed modality**, complete, nothing left over. The modality whose Home–Absent edges are exactly the two inter-tier pairs {P–R, I–U} — the modality in which each tier is expressed *entirely in the other tier's variables* — is revealed in log-space as the basis change between the tiers. The Fixed modality is the dictionary. This is why the Yielding poles "carry rather than assert," stated now without metaphor: the Yielding frame holds no magnitude the Asserting frame hasn't already committed — it holds the *same* two numbers, re-expressed as an average and a gradient. A holographic reading of that fact is available and consistent; the algebraic fact stands beneath it either way, checkable in four lines.
-
-## A2. The Die Is the Subtracted Term
-
+### A2. The Die Is the Subtracted Term
 Every carrier, in log-space, is an addition or a subtraction of unit-slope terms. Look at the subtractions:
 
 $$i = p - u \qquad i = u - r \qquad u = p - i \qquad r = u - i$$
+In linear space each of these is a division. **The Die is the term that subtracts.** Subtraction in log-space *is* constraint carving away potential — not as imagery, as the operation.
 
-In linear space each of these is a division, and L0-TheStampAndTheDie has already established what the divisor is: not a passive denominator but the **Die** — the form-giver, the constraint that shapes what the drive becomes. The log-transform hands that reading its arithmetic footprint: **the Die is the term that subtracts.** When $U$ dies $P$ into $I$ ($i = p - u$), the constraint literally removes its own magnitude from the drive's, decade for decade, and what remains is the imprint. Subtraction in log-space *is* constraint carving away potential — not as imagery, as the operation.
+### A3. Overload Has a Slope, and It Is Two
+Take $p = 2u - r$. Along any trajectory where the ground is held ($r$ fixed), the dissipation and the structure co-vary with slope 2. A decade of structural elaboration *is* two decades of Landauer Tax. The cost tracks the structure's *square*. **The overload is not a wall the system hits; it is the slope-2 transformer, integrated.**
 
-Two checks hold. Every minuend above is an Active pole ($p$ or $u$) — the Numerator Law of Proof_AlgebraicSyntax, surviving the transform intact: what leads is Active, what is subtracted from is never Reactive. And the carriers split internally: two additions (composition — $p = u + i$, $u = i + r$) against four subtractions (constraint). Even within the carrying half, the algebra shapes more often than it assembles. The drive leads; the die subtracts; the imprint is the difference. Nothing here pushes alone, now to one decimal of arithmetic.
-
-## A3. Overload Has a Slope, and It Is Two — Said Without a Stamper
-
-The incoming statement of this consequence was arithmetically right and grammatically wrong, and the grammar matters, because the wrong grammar is the exact one the Stamp-and-Die piece retired.
-
-The arithmetic: take $p = 2u - r$. Along any trajectory of the closed system on which the ground is held ($r$ fixed — a legitimate slice; the system has two degrees of freedom), the dissipation and the structure co-vary with slope 2. A decade of structural elaboration *is* two decades of Landauer Tax. The cost does not track the structure; it tracks the structure's *square*. An institution elaborating its abstract apparatus along this slice will find its metabolic requirement outrunning its metabolic budget geometrically — until the rate of actualization required to keep the Ledger current exceeds what the members' joint metabolism can fund, which is Thermodynamic Overload by its L4 definition, now with its slope derived: **the overload is not a wall the system hits; it is the slope-2 transformer, integrated.** Crystallization is what quadratic cost does to a linear budget.
-
-The grammar: this may not be committed as "the institution decides to double $u$, so $p$ blows up." That sentence has a stamper in it — a unilateral agent pressing a passive variable — and the twelve equations refuse that reading everywhere, as the corpus has already proven at length. There is no institution *doing* $u$ to a passive $p$. There is a closed four-fold system moving along a slice of its own state-space, on which two of its mutually-determining coordinates co-vary at slope 2. The elaboration and the cost are one motion described twice. What the diagnostic licenses is reading the slope, not assigning the push. (It also licenses reading the $-r$: along slices where the ground *rises with* the structure, the Tax is offset decade for decade — which is a derived, checkable statement about what grounding is *for*.)
-
-## A4. The Complex Logarithm Splits Shape From Volume — Exactly
-
-Section VI showed that the complex sum $S = P + jQ$ is where the logarithm breaks and absolute magnitude is minted. The completion is to take the logarithm *anyway* — the complex logarithm, the one operation this document had left unused — and watch what it does to the AC object:
-
+### A4. The Complex Logarithm Splits Shape From Volume
+Take the complex logarithm of the AC sum:
 $$\ln S = \ln|S| + j\theta$$
 
-The log of the complex sum does not fail; it *separates*. Its real part is $\ln|S|$ — the volume, the magnitude, the thing that presses on bandwidth, scale-bound because the addition underneath it will not decompose. Its imaginary part is $\theta = \arctan(Q/P)$ — a pure ratio, dimensionless, and invariant under any rescaling $S \mapsto \lambda S$: multiply the whole system by any positive real factor and $\ln|S|$ shifts while $\theta$ does not move at all.
+The operation separates. Its real part is $\ln|S|$ — the volume, the magnitude, the thing that presses on bandwidth. Its imaginary part is $\theta = \arctan(Q/P)$ — a pure ratio, invariant under any rescaling. **Everything scale-bound lands on the real axis; everything scale-free lands on the imaginary axis.** Shape is conserved; volume is spent. The Landauer Tax is paid in modulus, never in angle.
 
-So the operation that revealed the DC core to be scale-free, applied at the one point where scale is minted, performs the final sort itself: **everything scale-bound lands on the real axis; everything scale-free lands on the imaginary axis.** The phase angle — the shape of the interaction, the standing relation between committed and reactive power, the quantity a cell and a supercluster can share at 45° exactly — survives the transform untouched, at every magnitude, at every rung. The modulus does not.
-
-This closes the document's claim from the other side. The main text argued that the minting operation is invariant across scales; the complex log states *what else* is: the entire angular structure — phase relationships, resonance conditions, the gate architecture of L3-K4-to-K5, everything the imaginary component carries — is identical across the recursion, because it lives on the axis the rescaling group cannot reach. 
-
-What changes from cell to civilization is one real number: $|S|$, pressing against the local bandwidth until, per §VII, the coordinates that cannot fund it become the boundary of what can. Shape is conserved; volume is spent. The Landauer Tax is paid in modulus, never in angle.
-
----
-
-## A5. Held as Heading (Addendum)
-
-- The conjugate-basis identity of A1 is exact for the Fixed modality as written; whether the Cardinal and Mutable modalities admit analogous transform-readings in log-space (each is also a four-equation closure over its own edge-pair) is open and is now the sharpest successor question, alongside the geometric seal named in §X.
-
-- A3's slope-2 diagnostic is exact on the $r$-fixed slice; empirical use on institutions requires arguing that the slice fits the case, which is domain judgment in exactly the sense L2-MappingMethod bounds.
-
-- A4 treats $Q$ as given by the AC extension; the full dimensional story of $\theta$ across the fifty equations should be checked against `test/ac_checker.py` before the vocabulary entry is sealed.
-
-*Verified by hand against the twelve log-forms and the modality tables; the reader is again invited to run the four lines of A1 rather than carry them.*

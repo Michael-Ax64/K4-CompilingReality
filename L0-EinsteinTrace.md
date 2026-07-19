@@ -20,7 +20,7 @@ The first move is the flat one everyone makes: *these resemble each other*. Four
 This cannot hold. The manifold's four dimensions are not symmetric. The metric signature is Lorentzian:
 $$ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2$$
 
-Three spatial terms share a sign; the temporal term is opposed. This is **3+1**, not 4. A symmetric tetrahedron, all four vertices alike, does not match a 3+1 structure. 
+Three terms share a sign; the fourth term is opposed. This is **3+1**, not 4. A symmetric tetrahedron, all four vertices alike, does not match a 3+1 structure. 
 
 **Forensic note 1 — the first temptation, declined.** The reasoning system's first instinct was to reach for the regular tetrahedron because it is clean and symmetric. The recovery was to let the physics dictate the shape: the metric is asymmetric, so the topology must reflect a distinguished variable. 
 
@@ -81,9 +81,9 @@ This divergence is not a defect; it is the Tangent Singularity correctly reporti
 
 Three results trace to functional identity:
 
-**The 3+1 structure is identical.** Manifold (3 space + 1 time), honest coordinate count (3 axes + 1 origin), and the AC extension (4 variables + $\omega$). 
+**The 3+1 structure is identical.** The manifold signature is not Space vs. Time; it is **Scalar vs. Vector**. It models 1 scalar component of the committed Ledger ($P$) and 3 vector components of held potential ($\mathbf{Q}$). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Singularity's boundary crossing), not a temporal marker. Minkowski misidentified the fourth spatial pole as Time because his coordinate system lacked a vocabulary for a scalar spatial pole. 
 
-**The distinguished element's function is identical: it animates.** $\omega$ is the Helical rate of phase advance, time is the dimension along which space acquires dynamics.
+**The distinguished element's function is identical: it animates.** $\omega$ is the Helical rate of phase advance, the non-spatial dimension along which the four-fold spatial volume acquires dynamics. It is structurally distinct from coordinate time ($dt$), which is merely the spatial record accumulated on the $R$ pole.
 
 **The natural origin is the centroid.** "3D space" is the $K3$ face-projection of a four-vertex structure whose integrating center Cartesian coordinates displace to a corner. 
 

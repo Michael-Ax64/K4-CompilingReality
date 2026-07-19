@@ -17,11 +17,13 @@ Every real thing has a limit, a boundary beyond which it cannot be pierced from 
 
 When a classical coordinate system approaches this boundary—the Markov Blanket of an interior, or the quantum/classical threshold—the interior measure diverges. The rate of change approaches infinity. The local clock dissolves.
 
-This is the **Tangent Singularity**. 
+This is the **Tangent Singularity**. At the substrate scale, its physical instantiation is the Planck scale—the boundary width of the XOR bottleneck where classical coordinates fail.
 
-When a scientific discipline hits this singularity, its default response is to refuse it. Rather than accepting the mathematical divergence as the correct, honest readout of a boundary, the discipline tries to smooth the curve. It invents "hidden variables." It mints debt-nouns like *qualia*, *dark matter*, or *the multiverse*. It generates correction terms, which generate literature, which generate more anomalies. 
+When a scientific discipline hits this singularity, its default response is to refuse it. Rather than accepting the mathematical divergence as the correct, honest readout of a boundary, the discipline tries to smooth the curve. It invents "hidden variables." It mints debt-nouns like *qualia*, *dark matter*, or *the graviton*. It generates correction terms, which generate literature, which generate more anomalies. 
 
 This is the **Kessler Syndrome** of modern science. The orbital shells of theoretical physics and cognitive science are currently saturated with this self-referential debris. The disciplines are suffering from Thermodynamic Overload—spending more metabolic energy positioning themselves against the debris field than making actual contact with the territory. 
+
+The century-long failure to unify General Relativity and Quantum Mechanics is the prime example of this cascade. It is not a mathematical defect waiting for a clever patch. It is the algebra's honest report of an inappropriate coordinate system. General Relativity maps the compiled Ledger ($H_{coh}$); Quantum Mechanics maps the uncompiled buffer ($H_{incoh}$). The search for 'Quantum Gravity' fails because it attempts to force the coordinate system of the Ledger past its own algebraic boundary at the Tangent Singularity. The failure is a diagnostic.
 
 They are fighting a straw man, because their language lacks a parenthesis to hold the interior.
 

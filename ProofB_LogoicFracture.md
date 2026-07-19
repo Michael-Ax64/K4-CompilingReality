@@ -79,7 +79,7 @@ The specific fracture: mirror-image ideological formations that each experience 
 
 When the logos face claims exclusive access to valid knowledge, the categories it uses are necessarily human categories — the cognitive and perceptual structures available to the human nervous system. 
 
-The specific fracture appears when phenomena operate outside human categories and the logos-only framework cannot recognize the category mismatch. Ecological systems that operate on timescales outside human intuitive experience (century-scale deforestation) and at spatial scales outside human immediate perception. The Tribe Idol is active: the human-scale, human-category framework is being applied to phenomena that don't fit those categories, and the mismatch generates systematic errors that compound over time.
+The specific fracture appears when phenomena operate outside human categories and the logos-only framework cannot recognize the category mismatch. The century-long "problem of Quantum Gravity" is the apex instance: physicists attempting to force the coordinate system of the compiled macroscopic Ledger past the Tangent Singularity into the uncompiled quantum buffer. The infinities returned are the algebra's honest report of an inappropriate coordinate system, but the Tribe Idol reads them as a defect to be repaired. Ecological systems that operate on timescales outside human intuitive experience face the same error. 
 
 The Kairos face would recognize the transformative Tangent Singularity when the human-category framework needs to be set aside. Without Kairos availability, the logos framework continues to apply its categories past the point where they are useful, generating the appearance of understanding while missing what the phenomenon actually is.
 

@@ -27,7 +27,7 @@ Each undirected cycle has two directed versions — a clockwise and a counterclo
 β+ and β−  
 γ+ and γ−  
 
-Six directed Hamiltonian cycles total. Together they cover every directed relationship between all four vertices, each exactly once: a complete Eulerian decomposition of K4. To hold all six simultaneously, with their tensions and interference intact, models `.behold()` on K4's traversal structure.
+Six directed Hamiltonian cycles total. Note the type distinction: the twelve directed edges are the twelve fundamental fermions (substances), while the six directed Hamiltonian cycles are the fundamental Feynman interaction loops (processes). Together they cover every directed relationship between all four vertices, each exactly once: a complete Eulerian decomposition of K4. To hold all six simultaneously, with their tensions and interference intact, models `.behold()` on K4's traversal structure.
 
 ---
 
@@ -69,7 +69,7 @@ These proposed causes are not wrong as mechanisms. But they answer the wrong que
 
 `.observe()` is not externally caused in the sense of a prior force pushing the system to commit. It is the structural consequence of a bounded physical system with limited computational bandwidth being required to interact with the world: the XOR bottleneck. A replicating molecule cannot copy both its L-configuration and its D-configuration simultaneously from the same template. The actuator — the template — operates on XOR logic. One configuration is copied; the other is not incorporated; the Garbage Collector frees resources; the ledger entry is made.
 
-The "cause" of the initial L-selection (if there was one) is a separate and interesting question. The structural claim is distinct: whatever the mechanism of initial selection, the process that made L universal and permanent operated structurally as `.observe()` at the molecular edge level — the same process that makes any bounded system's commitment permanent.
+The "cause" of the initial L-selection (if there was one) is a separate and interesting question. The structural claim is distinct: whatever the mechanism of initial selection, the process that made L universal and permanent operated structurally as `.observe()` at the molecular edge level — the same process that makes any bounded system's commitments irreversible: you cannot copy both enantiomers from the same template simultaneously.
 
 ---
 

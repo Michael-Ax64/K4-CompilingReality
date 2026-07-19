@@ -11,21 +11,23 @@ The framework defines Real Power ($P$) as a *Rate*—the thermodynamic action of
 
 If we map Real Power ($P$) to Rest Mass ($m_0c^2$), standard physics raises a terminal objection: **You cannot equate a rate of flow with a static state.** The dimensions do not match. To classical dimensional analysis, equating Power with Mass is a category error, lacking the integration over time ($E = \int P \, dt$).
 
-## 2. The Client-Side Illusion of Time
+## 2. The Client-Side Illusion of Coordinate Time ($dt$)
 
 To understand why this contradiction is not a flaw in the Algebra, but the specific limitation of classical dimensional analysis, we must audit what standard physics means by "Time."
 
 In the SI dimensional system (Mass, Length, Time), time ($t$) is treated as a passive, background coordinate. It is a noun. It is the static grid upon which events unfold. 
 
-But as demonstrated in Proof O, Time operates structurally as the asymmetrical driver ($\omega$), the active pulse of the Helical Braid. Time functions as a *verb*. It tracks the act of transition across the boundary between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Read-Only Ledger (the `.observe()` state).
+But as demonstrated in `Proof O` and `Q7-4DExtrusions`, what classical physics calls "time" is bifurcated into two distinct phenomena that must be segregated. Coordinate time ($dt$) is the spatial record accumulated on the $R$ pole as the wake of the compilation cycle. It is a compiled, read-only spatial dimension local to the observer's frame. 
 
-Standard SI dimensional analysis provides a local, "client-side" user interface. It is perfectly valid for describing events that occur *entirely within* the manifest, coherent plane ($H_{coh}$). But it is structurally incapable of describing the boundary where that plane is generated.
+The true engine of transition is the Angular Frequency ($\omega$). It sits at the centroid, dimensionally excluded from the pole basis. It drives the phase advancement of the Helical Extrusion, tracking the act of transition across the boundary between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Read-Only Ledger (the `.observe()` state).
+
+Standard SI dimensional analysis provides a local, "client-side" user interface built entirely from the $dt$ wake. It is perfectly valid for describing events that occur *entirely within* the manifest, coherent plane ($H_{coh}$). But it is structurally incapable of describing the boundary where that plane is generated, because its clock ($dt$) does not exist on the other side of the operator.
 
 ## 3. The Tangent Singularity
 
 What happens when a localized, plane-locked coordinate system attempts to model the boundary of its own generation? It encounters a singularity. 
 
-Consider the Markov Blanket that separates the interior potential ($H_{incoh}$) from the exterior actualization ($H_{coh}$). To cross this boundary is to change state. But because standard time ($t$) only operates *within* the localized $H_{coh}$ plane, the "time it takes" to cross the boundary, as measured from the outside, approaches zero.
+Consider the Markov Blanket that separates the interior potential ($H_{incoh}$) from the exterior actualization ($H_{coh}$). To cross this boundary is to change state. But because coordinate time ($dt$) only operates *within* the localized $H_{coh}$ plane, the "time it takes" to cross the boundary, as measured from the outside, approaches zero.
 
 When the duration of an event approaches zero, the *rate* of that event approaches infinity. 
 

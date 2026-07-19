@@ -37,14 +37,21 @@ The correct relationship [*formalism is sketch-level; this is the structural cla
 
 **H_Q = H_coh ⊕ H_incoh**
 
-The total quantum state space decomposes into coherent and incoherent subspaces. A projection operator Ψ maps $H_Q$ onto $H_{coh}$:
+The total quantum state space $H_Q$ decomposes into a coherent subspace $H_{coh}$ and an incoherent subspace $H_{incoh}$. These are orthogonal complements: $H_{coh}$ contains the states that can be described by classical coordinates; $H_{incoh}$ contains the rest — the quantum substrate that classical description cannot reach.
 
-**T_μν^{GR} := Tr(ρ_Q [P_coh T̂_μν^{QFT} P_coh])**
+A projection operator Ψ maps $H_Q$ onto $H_{coh}$:
 
-$P_{coh}$ projects onto $H_{coh}$, sandwiching the QFT stress tensor between two projections. 
+**Ψ: H_Q → H_coh**
 
-**Ψ is blind to $H_{incoh}$ by construction.** This is not a limitation of our instruments.
-The operator maps the **Tangent Singularity**. It is the exact threshold where the dimensional clock of the local observer breaks down, dissolving into the angular frequency ($\omega$) of the phase-flip itself. When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
+Ψ is defined by its action on the stress-energy tensor that GR observes:
+
+**T_μν^(GR) := Tr(ρ_Q [P_coh T̂_μν^(QFT) P_coh])**
+
+where $P_{coh}$ is the projection onto $H_{coh}$, sandwiching the QFT stress tensor between two projections.
+
+The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Singularity**. At the substrate level, this threshold is the **Planck scale**—the boundary width of the XOR bottleneck. It functions structurally as the boundary where the localized observer's clock collapses, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
+
+When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
 
 The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions; $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
 
@@ -62,7 +69,7 @@ The interior cannot be directly observed from any face's external vantage.
 
 $H_{coh}$ is the face-description (the K3 boundary): what any classical observer can access. $H_{incoh}$ is the interior (the K4 volume): what the faces enclose but cannot directly observe. Ψ is `.observe()`: the operation that forces a localized collapse, crossing the Tangent Singularity from volume to face.
 
-The cosmological constant problem in K4 terms: GR is a face-description of the universe. QFT's vacuum energy is an interior quantity. Equating them is projecting the interior onto the face and expecting the values to match. They cannot, because projection always loses volume.
+The cosmological constant problem, reframed in K4 terms: GR provides a face-description of the universe's interior. QFT's vacuum energy tracks an interior quantity. Equating them is projecting the interior onto the face and expects the values to match. They cannot, because projection always loses volume.
 
 ---
 

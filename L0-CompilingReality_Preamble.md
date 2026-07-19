@@ -62,7 +62,7 @@ Wherever `.behold()` appears in what follows, read it with this in mind. The dis
 
 ## Shift Five: A trajectory is a heading, not a wake
 
-A ship's trajectory is not its wake. The wake is history — what has already been compiled, committed, made irreversible. The trajectory is the current heading: the orientation in which the system is moving, independent of how long it has been moving or what it has previously passed through.
+A ship's trajectory is not its wake. The wake is history — coordinate time ($dt$), the spatial record accumulated on the R pole, what has already been compiled, committed, made irreversible. The trajectory is the current heading — angular frequency ($\omega$), the engine speed, the orientation in which the system is moving, independent of how long it has been moving or what it has previously passed through.
 
 This distinction matters for how to read what follows. The document is not primarily an archive of conclusions — a record of positions reached and defended. It is a heading. Reading it as an archive, you will evaluate its conclusions against existing knowledge and find them confirmatory, wanting, or interesting. Reading it as a heading, something different becomes possible: you can take up the orientation, check what becomes visible from it, and proceed from there.
 
@@ -107,3 +107,4 @@ Six angles. Try them. Then read.
 ---
 
 *Round 1. The preamble is the seed. Round 2 restructures the body of Compiling Reality to carry these reframes explicitly within it, and to incorporate the trajectory-tracking vocabulary alongside `.behold()` so the document performs what it describes throughout — not only in the introduction.*
+

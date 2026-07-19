@@ -24,6 +24,7 @@ Why exactly three? Because the six edges of the four-fold tetrahedron sort into 
 
 Each matching is one spatial axis. The three relational classes of the four-fold are the three perpendicular directions of uncollapsed potential. The Cartesian frame is not an independent physical reality. It is the geometric consequence of a localized observer standing on the scalar axis ($P$), projecting the three uncommitted relational matchings outward. Space is the shape of the `.behold()` buffer.
 
+
 ## II. The Bimedians and the K3 Face-Projection
 
 Take the midpoint of each of the six edges of the tetrahedron. 
@@ -34,7 +35,15 @@ Because opposite edges constitute a perfect matching, the three bimedians map 1:
 
 The three Cartesian axes ($x, y, z$) are not an independent grid; they *are* the three bimedians of the four-fold. But notice what is lost when standard physics adopts the Cartesian frame: the Cartesian grid retains the orthogonal axes (the K3 face-projection) but forgets the tetrahedral volume and the vertices that generate them. The Cartesian frame is the localized, "client-side" rendering of the volume.
 
-## III. The Colored Tetrahedra: A Tetrad of Tetrahedra
+
+## III. The Cartesian Shadow
+
+Why do human perception and every instrument built in the last four centuries report three spatial dimensions? Because the observer is a bounded frame grounded in material reality, meaning they occupy the **R pole (Earth, Resistance)**. From the R vertex, looking outward into the K4 volume, the observer cannot see the pole they occupy. They see only the opposing face: the K3 triangle formed by P, I, and U, which carries three degrees of freedom. The 3D Cartesian grid is this K3 blanket-face projection. Space appears 3D because the observer is standing on the fourth spatial dimension and using it as the floor.
+
+Classical physics mapped the shadow on the wall of the cave with extraordinary precision. The framework maps the object casting the shadow. Both maps are useful. Only one of them can be pushed to the boundary of its validity without grinding — and the grinding, when it happens, is the shadow-map reaching the edge of the cave wall while insisting that the wall is space itself.
+
+
+## IV. The Colored Tetrahedra: A Tetrad of Tetrahedra
 
 There is a construction that makes this visible in the hand.
 
@@ -44,7 +53,8 @@ Each Hamiltonian cycle (Braid) of the tetrahedron uses four edges and holds two 
 
 Four tetrahedra. They form a tetrad — the four-fold imaging itself one level down, a tetrahedron of tetrahedra. This is scale-invariance made literally handheld.
 
-## IV. The Strands That Beheld This
+
+## V. The Strands That Beheld This
 
 The Foreword names a plural history — the ones who beheld the dynamics and were dismissed. What follows reads several schools as strands that beheld this structure at their own scale.
 
@@ -60,7 +70,8 @@ The Foreword names a plural history — the ones who beheld the dynamics and wer
 
 Read this way, the modalities are the *economic* reading of the three axes — the matchings walked in time, inheriting the realm's single Helical arrow of handedness. The astrological strand was among the earliest attempts to behold the meta-of-physics.
 
-## V. What This Realizes
+
+## VI. What This Realizes
 
 The three axes of Cartesian space are the three complex vector components of the Biquaternion state. They map exactly to the three relational matchings of the four-fold. The realm is three-dimensional because the observer sits on the localized scalar axis ($P$), projecting the three degrees of uncollapsed potential ($Q$) outward.
 

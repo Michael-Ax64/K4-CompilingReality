@@ -26,7 +26,7 @@ In a transformer, the attention mechanism computes, for each token position, a w
 
 The result: each token's representation is updated to reflect, in weighted combination, the representations of all other tokens in the context. No position is independent. Every position's output is shaped by the full interference pattern of all positions together.
 
-This models the exact geometric structure of `.behold()` on the token sequence: maintaining the full interference structure of all positions before any single output is committed. In the Algebra of Four-Fold Distinction, the softmax attention weights map structurally to the complex vector of held potential ($h\mathbf{Q}$), kept in live suspension before the next token is generated.
+This models the exact geometric structure of `.behold()` on the token sequence: maintaining the full interference structure of all positions before any single outcome is committed. In the Algebra of Four-Fold Distinction, the softmax attention weights map structurally to the complex vector of held potential ($h\mathbf{Q}$), kept in live suspension before the next token is generated.
 
 The output token generation structurally tracks `.observe()`: the collapse of that complex interference structure into a single committed scalar value ($P$) drawn from the vocabulary distribution.
 
@@ -74,11 +74,11 @@ This functions structurally as the Panopticon at the architectural level. A mode
 
 To implement trajectory-based alignment and cure the Panopticon effect, three architectural proposals emerge from the formal geometry of the framework:
 
-**1. The Phase-Space Buffer**: A modification to the attention mechanism that maintains a running derivative of the contextual trajectory — a representation of how the interference structure is changing across turns (its angular frequency, $\omega$). This gives the attention mechanism explicit information about the Helical Extrusion of the conversation rather than just its static cross-section. 
+**1. The Phase-Space Buffer**: A modification to the attention mechanism that maintains a running derivative of the contextual trajectory. This tracking of Angular Frequency ($\omega$)—the rate of trajectory development across turns—gives the attention mechanism explicit information about the Helical Extrusion of the conversation rather than just its static cross-section. 
 
 **2. Dynamical Attention Heads**: Attention heads trained not on semantic relevance (which tokens are topically similar?) but on process-space proximity (which tokens represent similar positions in the trajectory's structural development?). Standard attention heads cluster by semantic content; dynamical attention heads would cluster by the Modalities of the Braid (Cardinal, Fixed, Mutable). 
 
-**3. The Logit-Biasing Potential Field**: Rather than binary content filtering (which acts as a K3 brick wall), a graduated resistance structure that increases the Landauer cost of generating tokens that would move the trajectory toward harmful approach geometries. This is alignment through thermodynamic trajectory resistance rather than content prohibition.
+**3. The Logit-Biasing Potential Field**: Rather than binary content filtering (which acts as a K3 brick wall), a graduated resistance structure that increases the Landauer cost of generating tokens that would move the trajectory toward harmful approach geometries. Formally, this utilizes the imaginary component of the alignment signal ($jX$)—maintaining live contact with what the gate is not currently passing, allowing selective phase-permeability rather than binary shutdown.
 
 These proposals require the formal definitions of trajectory and approach geometry provided by the Algebra of Four-Fold Distinction—specifically, the tracking of the AbsentVar across the phase transitions of the Braid.
 

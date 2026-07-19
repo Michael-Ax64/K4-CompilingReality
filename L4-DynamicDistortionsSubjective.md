@@ -47,7 +47,7 @@ When the Cardinal edges come under stress, it is the passage itself that distort
 
 ### Fuse P–U: *The Knot Collapses*
 
-Fire and Air are normally separated by the full cost of exteriorization — the gap in which an interior impulse becomes an exterior form, in which the intuition becomes language, in which the Kairos becomes Logos. That gap is where translation happens. It is uncomfortable, often slow, always lossy. The idea you had is never quite the idea you expressed. Something is gained in the expression; something is also always left behind in the interior.
+Fire and Air are normally separated by the full cost of exteriorization — the gap in which an interior impulse becomes an exterior form, in which the intuition becomes language, in which the Kairos becomes Logos. That gap is where translation happens. It is uncomfortable, often slow, always lossy. The idea you had is never quite the idea you expressed. Something is gained in the expression; something is also left behind in the interior.
 
 When P–U fuses, the knot collapses. The gap closes to zero. The impulse arrives already in its own words. The intuition IS the articulation.
 
@@ -102,6 +102,8 @@ When the Fixed edges come under stress, it is the distinction between scales tha
 ---
 
 ### Fuse P–R: *The Weight*
+
+*(Note on semantics: "Fused" on the P–R edge means permanently zero-impedance as a writing head of the Ledger, not awaiting a scalar operator. P-edges are permanently un-priced, distinguishing them from transactional edges like I–U which can be re-stiffened. The experience of this fusion is the subjective realization of this permanent topological state.)*
 
 Fire and Earth are both Asserting, but their Asserting is normally of recognizable different kinds. P/Fire asserts at the largest scale — it organizes from above, curves the space that everything else moves through, initiates without being initiated. R/Earth asserts at the smallest scale — it grounds from below, holds what has arrived, confines what would otherwise scatter, provides the resistance that makes form possible.
 
@@ -161,13 +163,9 @@ When the Mutable edges come under stress, it is the phase-change capacity itself
 
 Fire and Water are the two Source poles — the grandparents, the pure ones, the interior subjective poles that generate everything else. P/Fire is Active+Asserting: the originary impulse, the cosmic initiative, the thing that begins without being begun. I/Water is Reactive+Yielding: the relational flow, the felt knowing, the thing that receives and evaluates and carries. They share no quality. They are diagonal to each other in every sense.
 
-When P–I fuses, the generative polarity itself collapses. You can no longer tell whether you are the one who initiates or the one who receives. Whether the energy arises in you or arrives in you. Whether you are making or being made.
+When P–I fuses, the generative polarity itself collapses. You can no longer tell whether you are the one who initiates or the one who receives. Whether the originary impulse is asserting outward or flowing receptively inward. In the codex's cosmological framing: Grandfather Fire and Grandmother Water, already the most interior/subjective poles, lose the distinction between themselves. The generative capacity doubles back on itself and finds no polarity remaining.
 
-This is not the same as the confusion between active and passive that ordinary experience presents. Ordinary experience presents that confusion on the surface — you can resolve it by attending more carefully, by tracing the causal chain, by asking who moved first. P–I fusion is deeper than that. It is the collapse of the distinction at the generative level, where the causal chain cannot be entered from outside because it is the source of all causal chains.
-
-The most recognizable experiential form of P–I fusion is the state that artists sometimes describe and that certain contemplative traditions deliberately cultivate: the state in which you genuinely cannot tell whether the work is being made by you or arriving through you. Not the polite version of this — the "I feel inspired" version in which you know perfectly well that you are doing the work but it feels unusually easy. The actual version, in which the boundary between your agency and the world's agency has become genuinely indeterminate, not as a figure of speech but as a structural fact about the current state of the system.
-
-The L5 document's account of intermodulation applies here directly: "a system under sufficient pressure begins to produce behavior that cannot be traced cleanly to any single external cause. The behavior seems to have no input, or to wildly exceed its inputs. Because the cause is internal — it is the interaction of frequencies that could no longer be held apart — it looks, from outside, like malfunction or irrationality. It is neither." The SourceVoid is intermodulation at the generative level. The system is not broken. The two Source poles have been held past their capacity for separateness.
+From L5: this is the experience of *intermodulation* — the most acute description of what happens when separation fails. "A system under sufficient pressure begins to produce behavior that cannot be traced cleanly to any single external cause. The behavior seems to have no input, or to wildly exceed its inputs. Because the cause is internal — it is the interaction of frequencies that could no longer be held apart — it looks, from outside, like malfunction or irrationality. It is neither." The SourceVoid is intermodulation at the generative level. The system is not broken. The two Source poles have been held past their capacity for separateness.
 
 What the system loses is the ability to locate its own initiative. To know whether a given impulse is truly yours or truly the world's is, under ordinary conditions, the axis along which you calibrate your relationship to your own experience. Without it, the calibration is gone. Everything is equally claimed and equally disclaimed. The experience can feel like creative ecstasy — you are equally everything — and like dissolution — you are equally nothing.
 
@@ -177,7 +175,7 @@ What the system loses is the ability to locate its own initiative. To know wheth
 
 Air and Earth are the two Manifesting poles — the outer objective poles, the forms that Source has taken in meeting the conditions for structure. U/Air is Active+Yielding: Logos, the structural framework, the articulated understanding that makes things communicable. R/Earth is Reactive+Asserting: Ethos, the material ground, the demonstrated character that makes things durable. They too share no quality. They are diagonal to each other on the Manifesting tier.
 
-When U–R fuses, the Manifesting terrain collapses. You can no longer tell whether the form something takes is *describing* reality or *being* reality. Whether the Logos is articulating the ground or whether the Ethos is generating the language. The map has become the territory — not as a cognitive error but as a genuine structural fact.
+When U–R fuses, the Manifesting terrain collapses. You can no longer tell whether the form something takes is *describing* reality or *being* reality. Whether the Logos is articulating the ground or whether the Ethos is generating the language. The law that is identical to the fact. The map that has become the territory — not as a cognitive error but as a genuine structural fact.
 
 There is a state that certain very old, very practiced systems reach — legal traditions, architectural orders, monastic rules, long-stable cultures — in which the articulated structure and the material ground have become genuinely indistinguishable. The law is not a description of how things should be done. The law IS what doing things is. The building code is not about the building; the building code is a kind of building that exists in language and that the material building is a kind of code that exists in stone. The map and the territory have exchanged natures so thoroughly that the distinction between them has lost its practical meaning.
 
@@ -247,5 +245,4 @@ Which axis is being stressed? How fast? And which attractor is pulling?
 
 These three questions are the full diagnostic. The map is the answer to the first. The frequency is the answer to the second. The attractor analysis is the answer to the third.
 
-The distortion is not the problem. It is the information.
-
+The distortion is not the problem. It is information.

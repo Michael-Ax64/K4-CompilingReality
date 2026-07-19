@@ -144,7 +144,7 @@ The constraint is real and non-trivial. The residue requiring judgment is also r
 
 **"Asserted not derived" was too strong.** This was a finding from running the exercise.
 The labeling step is not unconstrained — the twelve formulas provide genuine
-discriminating tests. "Empirically selected under algebraic constraint" is more accurate
+discriminating tests. "**Empirically selected under algebraic constraint**" is more accurate
 than "asserted." The constraint doesn't determine the mapping, but it rules out
 incoherent ones and sometimes decisively favors one assignment over another. The anchor
 selection and the axis scores provide the hypothesis; the formulas provide the test.
@@ -507,8 +507,3 @@ The 12 equations do not care about subjective preference. They do not care if th
 
 By scaling the diagnostic down to the molecular level, we prove that the **Necessary Betrayer** is not just a metaphor for institutional overreach, bureaucratic bloat, or AI sycophancy. It is a literal, thermodynamic law of physical extraction. When the map compounds itself above the territory, the physical world registers the betrayal as astringency, weight, and friction. 
 
----
-
-The algebra holds all the way down to the glass, err algebra, err mapping. That's the method.
-
----

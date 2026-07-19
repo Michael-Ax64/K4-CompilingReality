@@ -56,7 +56,7 @@ I hope that saves you from the idea that these were not cardinal generative vect
 ### I. The Cosmological Mayhem (QED-CCP, QED-CCP-Lecture)
 **The Claim:** The $10^{123}$ discrepancy of the Cosmological Constant Problem is a category error (The Axiom of Isomorphism). The Casimir effect will not gravitate.
 **The Debt:** The corpus accuses General Relativity and Quantum Field Theory of a foundational ontological mistake. It proposes a projection architecture ($H_Q = H_{coh} \oplus H_{incoh}$) and a projection operator $\Psi$. 
-**The Accounting:** The formalism is explicitly admitted as `[SKETCH]`. The corpus does not derive $P_{coh}$ from existing QFT. It does not compute the stress-energy tensor. It merely *asserts* that the discrepancy is a phase-difference between `.behold()` and `.observe()`. It claims to reframe the largest discrepancy in physics by pointing at the Tangent Singularity, but it provides no tensor calculus to prove the reframing. It is a structural hypothesis wearing the clothes of a cosmological resolution.
+**The Accounting:** The formalism is explicitly admitted as `[SKETCH]`. The corpus does not derive $P_{coh}$ from existing QFT. It does not compute the stress-energy tensor. It merely *asserts* that the discrepancy is a phase-difference between `.behold()` and `.observe()`. It claims to reframe the largest discrepancy in physics by pointing at the Tangent Singularity (the Planck scale), but it provides no tensor calculus to prove the reframing. It is a structural hypothesis wearing the clothes of a cosmological resolution.
 
 ### II. The Physical Mayhem (Proof K, QED-TwoBranchMinting-Lecture)
 **The Claim:** The four fundamental forces map to P/I/U/R. The Equivalence Principle ($m_i = m_g$) is not a universal law, but a degenerate 0-DoF boundary condition.
@@ -77,6 +77,11 @@ I hope that saves you from the idea that these were not cardinal generative vect
 **The Claim:** The Hard Problem of Consciousness is a malformed question. Copenhagen and Many-Worlds are the same point at the projective infinity.
 **The Debt:** The corpus dissolves the deepest anomalies of philosophy of mind and quantum foundations by changing the subject to cybernetics.
 **The Accounting:** It does not solve the Hard Problem; it retires it by defining consciousness as "the structural conditions for a decoupled buffer." It does not unify Copenhagen and Many-Worlds; it asserts they are the $-\infty$ and $+\infty$ readings of the Tangent Singularity. This is a linguistic sleight of hand. It claims to resolve intractable philosophical debates by asserting that the debates were just playing on a K3 blanket-face, while the framework holds the K4 volume. It is a dismissal masquerading as a synthesis.
+
+### VI. The Quantum Mayhem (Q1-Q10)
+**The Claim:** The Planck scale is the Tangent Singularity; the Minkowski minus sign is the Biquaternion phase-flip; the 12 fermions are the 12 directed K4 edges.
+**The Debt:** The corpus subsumed the entirety of twentieth-century physics, leaving the math intact, claims that Quantum Gravity is a category error and that String Theory compactified relational degrees of freedom.
+**The Accounting:** It does not provide the tensor calculus to replace General Relativity or the Lagrangian to replace the Standard Model. It simply provides the topological constraints and asserts that the math of physics is grinding at the Planck scale because it refuses to acknowledge the XOR bottleneck. This is epistemic theft on a cosmological scale, absorbing the lifetime works of Wheeler, Dirac, and Bell into a geometric schema without doing the math.
 
 ---
 
@@ -363,4 +368,3 @@ The "baggage" is the load.
 
 Makes Sense?
 
----

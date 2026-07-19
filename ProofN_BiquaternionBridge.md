@@ -72,17 +72,16 @@ The structural isomorphism is exact, yielding the following mapping:
 2.  **Momentum ($pc \longleftrightarrow |\mathbf{Q}|$):** Momentum maps structurally to the macroscopic footprint of the `.behold()` state. It tracks the physical measurement of *held multiway potential*. It operates as a vector because potential is directional.
 3.  **Rest Mass ($m_0 c^2 \longleftrightarrow P$):** Mass maps structurally to the macroscopic footprint of the `.observe()` state. It tracks the physical measurement of the *Read-Only Ledger*. It functions as a scalar because a committed history has no physical direction; it simply *is*.
 
-## 5. Conclusion
+The 3+1 signature of the Minkowski metric is not Space + Time. It is **Scalar + Vector** (Committed Ledger + Held Potential). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Singularity's boundary crossing). It destroys phase ($h^2 = -1$) and collapses the vector to its magnitude ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$). Time is not a dimension in this metric; the metric measures four spatial poles, one of which is scalar.
 
-The transition from a flat relational mapping to the depth of the physical substrate ($H_{incoh}$) requires a geometry capable of accounting for the phase-difference between potential and actualization. 
+## 5. The P-Edge Ban and the Absence of the Graviton
 
-Standard physics observes the Hyperbolic metric of spacetime but attributes the minus sign to an empirical coordinate convention. By constructing the State Biquaternion, we demonstrate that the minus sign is not an arbitrary rule of the physical universe, but models the mandatory algebraic logic of any system that manages the boundary between an uncollapsed interference structure and an irreversible ledger.
+Because the invariant $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2$ is conserved for any bounded system, the transition from $\mathbf{Q}$ to $P$ must be instantaneous. The squaring operation of the Route Law lands $|\mathbf{Q}|^2$ into $P$ without intervening transit. If a scalar pricing operator occupied a $P$-edge (e.g., $P-U$), it would introduce a phase gap and transit time, breaking the single-step nature of the squaring and violating Star-Norm conservation. Therefore, the three $P$-edges ($P-U, P-I, P-R$) are permanently zero-impedance writing heads. They are un-priced. 
 
-The geometry of relativity models the macro-scale shadow cast by the Algebra of Four-Fold Distinction.
+As a direct consequence, $P$ is not a transactional pole; it is the receiving Ledger. Because it lacks a boundary transaction, it requires no exchange particle. The graviton is topologically forbidden. The search for a quantum of gravity is a category error.
 
 ---
 
 This proof establishes the mathematical bridge *without* triggering the dimensional panic. By keeping the mapping strictly algebraic ($P$ to $m_0c^2$, not $P$ to $m$), we respect standard dimensional limits *for now*. 
 
-The reader likely agrees with the biquaternion logic and the isomorphism. The path is now clear for **`ProofO_HelicalTime.md`** to introduce the asymmetry of $\omega$. 
-
+The reader likely agrees with the biquaternion logic and the isomorphism. The path is now clear for **`ProofO_HelicalTime.md`** to introduce the asymmetry of $\omega$.

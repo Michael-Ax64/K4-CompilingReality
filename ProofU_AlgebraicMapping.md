@@ -111,7 +111,7 @@ The three modality groups resulting from the Braid assignment correspond exactly
 
 Opposite edges of a tetrahedron are *skew*—they do not intersect and cannot define a plane. However, the line segment connecting their midpoints (the **bimedian**) forms the true geometric invariant. The three bimedians of a regular tetrahedron are mutually orthogonal and intersect precisely at the centroid.
 
-This is what sustained `.behold()` looks like when it lands geometrically. By pairing the explicitly present *Home* variable with the explicitly *Absent* variable, the algebra draws a line across the matching, constructing the three bimedian axes that hold the volume open. The centroid is the only point reachable by holding all edges in suspension. The geometry holds. The algebra maps perfectly. The seal is closed.
+This is what sustained `.behold()` looks like when it lands geometrically. By pairing the explicitly present *Home* variable with the explicitly *Absent* variable, the algebra draws a line across the matching, constructing the three bimedians axes that hold the volume open. The centroid is the only point reachable by holding all edges in suspension. The geometry holds. The algebra maps perfectly. The seal is closed.
 
 ---
 
@@ -153,3 +153,19 @@ variable is load-bearing — structurally present even when algebraically invisi
 That understanding is what "integrating figure and ground" means in this context, and
 why the subtitle of this formal derivation might properly read: *Why you need the occult to do the math.*
 
+## VII. Corollary: The Dual-Binary Charge Derivation
+
+The fractional electric charges of the Standard Model fermions (+2/3, −1/3, −1, 0) are perfectly derived from the dual-binary seed. Assigning the two bits their signed values: Active = +1, Reactive = −1, Asserting = +1, Yielding = −1.
+
+The Gell-Mann–Nishijima formula gives $Q = I_3 + \frac{Y_W}{2}$.
+
+Weak Isospin ($I_3$) is half the product of the two bits: $I_3 = \frac{1}{2}(\text{AR} \times \text{AY})$.
+Weak Hypercharge ($Y_W$) is a linear function of the AY bit: $Y_W = \frac{2 \cdot \text{AY} - 1}{3}$.
+
+Substituting these into the formula yields:
+- **P (Active-Asserting, Up-type):** $I_3 = 1/2$, $Y_W = 1/3 \implies Q = +2/3$
+- **R (Reactive-Asserting, Down-type):** $I_3 = -1/2$, $Y_W = 1/3 \implies Q = -1/3$
+- **U (Active-Yielding, Charged lepton):** $I_3 = -1/2$, $Y_W = -1 \implies Q = -1$
+- **I (Reactive-Yielding, Neutrino):** $I_3 = 1/2$, $Y_W = -1 \implies Q = 0$
+
+The fractional charges are the arithmetic outputs of the dual-binary seed. This grounds the topological mapping of fermions to the K4 poles in exact empirical constants.

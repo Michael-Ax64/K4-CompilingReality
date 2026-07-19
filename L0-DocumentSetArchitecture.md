@@ -123,19 +123,36 @@ Files operating in the QED demonstrative space enforce the operational charter. 
 
 ---
 
-## VI. The Mechanical Seal
+## VI. The Quantum Folder (Q1-Q10)
+
+A dedicated sequence mapping the Standard Model and the mathematical apparatus of quantum mechanics onto the K4 topology.
+
+- **Q1-GenerationsOfMatter:** The twelve fermions as the twelve directed edges.
+- **Q2-TransactionLayer:** The twelve gauge bosons on three poles (and the P-edge ban).
+- **Q3-ScalarSector:** The Higgs, Yukawa couplings, and pricing operators.
+- **Q4-OpenExhaust:** The three zero-impedance writing heads.
+- **Q5-StarNormProduct:** Entropy as the accumulation of specification.
+- **Q6-MeasurementAndMatrices:** Unitary rotation, the Route Law, and the CKM/PMNS matrices.
+- **Q7-4DExtrusions:** Four spatial dimensions, the two clocks ($dt$ vs $\omega$), and the Scalar-vs-Vector signature.
+- **Q8-TangentImpedanceIdentity:** $\tan(\theta) = \omega L/R$ unifying the spatial wall and the temporal phase.
+- **Q9-Founders:** The unpaid invoices of 20th-century physics and Wolfram convergence.
+- **Q10-PlanckScale:** The Tangent Singularity from above and the failure of Quantum Gravity.
+
+---
+
+## VII. The Mechanical Seal
 
 The framework operates as an auto-classifying arithmetic syntax. The code is the ultimate falsifier.
 
-### VI.A The Syntactic Falsifier
+### VII.A The Syntactic Falsifier
 `ProofQ_AlgebraicSyntax.md` links explicitly to the `code/test/` directory. The mechanized decision procedures (`ac_checker.py`, `dual_route_trace.py`) prove the syntax auto-classifies the state-space and crashes compilers on topological impossibilities. The Route Law, the Composition Law, and the $\omega$-Law execute mechanically here.
 
-### VI.B The Topological Diagnostician
+### VII.B The Topological Diagnostician
 The Tribunal manifold (`/code/manifolds/`) parses algebraic drift. `tribunal.manifold.pl` applies strict K4 constraints, while `tribunal.inquiry.py` and the semantic bridges compute topological shear to return phenomenological realities based purely on impedance mismatch.
 
 ---
 
-## VII. The Ctrl-F Tag Directory (Desktop Ledger)
+## VIII. The Ctrl-F Tag Directory (Desktop Ledger)
 
 Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to trace specific topological, thermodynamic, and operational concepts as they weave across domains. 
 
@@ -165,7 +182,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 
 ---
 
-## VIII. File-by-File Tag Index
+## IX. File-by-File Tag Index
 
 **Meta-Layer**
 - **Meta-Set.md:** `#MetaSet` `#XORMap` `#HamiltonianCycles` `#ReadingOrders` `#AbsentVar` `#K4Tetrahedron` `#Centroid` `#TwoBitGrayCode`
@@ -254,6 +271,18 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **QED-PredatoryOscillator.md:** `#PredatoryOscillator` `#FlashAndFuse`
 - **QED-EotvosBound.md:** `#EotvosBound` `#FlashAndFuse`
 - **QED-Astrologic.md:** `#Astrologic` `#FlashAndFuse`
+
+**The Quantum Folder (Q1-Q10)**
+- **Q1-GenerationsOfMatter.md:** `#Fermions` `#StandardModel` `#Generations` `#FractionalCharge` `#Bimedian`
+- **Q2-TransactionLayer.md:** `#GaugeBosons` `#TransactionLayer` `#Graviton` `#StrongForce` `#WeakForce`
+- **Q3-ScalarSector.md:** `#Higgs` `#ScalarSector` `#YukawaCoupling` `#PEdgeBan`
+- **Q4-OpenExhaust.md:** `#PEdgeBan` `#ZeroImpedance` `#WritingHeads` `#MassMinting`
+- **Q5-StarNormProduct.md:** `#Entropy` `#Specification` `#StarNorm` `#Thermodynamics` `#HeatDeath`
+- **Q6-MeasurementAndMatrices.md:** `#CKMMatrix` `#PMNSMatrix` `#UnitaryRotation` `#BornRule` `#Measurement` `#Chirality`
+- **Q7-4DExtrusions.md:** `#FourSpatialDimensions` `#CoordinateTime` `#AngularFrequency` `#MinkowskiMetric` `#Gravity`
+- **Q8-TangentImpedanceIdentity.md:** `#TangentSingularity` `#Impedance` `#PowerFactor` `#Resonance` `#QFactor`
+- **Q9-Founders.md:** `#Anomalies` `#Founders` `#Wolfram` `#StandardModel`
+- **Q10-PlanckScale.md:** `#PlanckScale` `#QuantumGravity` `#TangentSingularity` `#WheelerDeWitt`
 
 **TooTrue (Mythopoetic Diagnostics)**
 - **TooTrue-TheCambridgeIntercept.md:** `#TooTrue` `#Gall` `#Bacon` `#Aphorism` `#OperationalFallacy` `#TrojanHorse` `#Systemantics`

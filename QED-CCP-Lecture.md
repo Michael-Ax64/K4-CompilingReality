@@ -39,9 +39,7 @@ The discrepancy arises from this structural equation.
 
 ## III. The Projection Architecture (The Tangent Singularity)
 
-To reframe the discrepancy, we need the proposed structural relationship between $H_{incoh}$ and $H_{coh}$.
-
-The proposal [SKETCH — formal derivation not complete]:
+The correct relationship [*formalism is sketch-level; this is the structural claim*]:
 
 **H_Q = H_coh ⊕ H_incoh**
 
@@ -57,9 +55,13 @@ A projection operator Ψ maps $H_Q$ onto $H_{coh}$:
 
 where $P_{coh}$ is the projection onto $H_{coh}$, sandwiching the QFT stress tensor between two projections.
 
-The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it models the **Tangent Singularity**. It functions structurally as the boundary where the localized observer's clock collapses, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
+The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Singularity**. At the substrate scale, its physical instantiation is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail. It functions structurally as the boundary where the localized observer's clock ($dt$) dissolves, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
 
-The cosmological constant problem reframes immediately: QFT's $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions. GR's $T_{\mu\nu}^{GR}$ excludes them by the projection. The Axiom of Isomorphism equates a quantity before it crosses the Tangent Singularity with the same quantity after it has been localized.
+When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
+
+The discrepancy follows immediately: QFT's $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions. GR's $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
+
+*Where you should push back*: The Hilbert space decomposition $H_Q = H_{coh} \oplus H_{incoh}$ is postulated, not derived from first principles in the standard model. $P_{coh}$ is defined structurally but its precise mathematical form in terms of existing QFT formalism has not been specified. This is real incompleteness. But the structural claim does not require the formalism to be complete to prove the Axiom of Isomorphism is a category error.
 
 ---
 
@@ -81,7 +83,7 @@ Three phenomena that appear unrelated track the same boundary mechanism operatin
 
 **Hawking radiation** models $H_{incoh}$ leaking into $H_{coh}$ at a local boundary. A black hole's interior functions as a region where the coherent $H_{coh}$ description collapses into pure $H_{incoh}$ substrate — the region where Ψ diverges and classical coordinates fail. The event horizon is the boundary. Hawking radiation models the thermal projection of $H_{incoh}$ content through Ψ into $H_{coh}$.
 
-**Λ-driven expansion** models $H_{coh}$ pushing against $H_{incoh}$ at the cosmological boundary. The universe's coherent interior grows, driven by the Helical Extrusion of Time. Λ — the cosmological constant — functions structurally as the Coherence Agent: the pressure maintaining $H_{coh}$ expansion against the Emergence Friction of the $H_{incoh}$ substrate.
+**Λ-driven expansion** models $H_{coh}$ pushing against $H_{incoh}$ at the cosmological boundary. The universe's coherent interior grows, driven by the Helical Extrusion of Time ($\omega$). Λ — the cosmological constant — functions structurally as the Coherence Agent: the pressure maintaining $H_{coh}$ expansion against the Emergence Friction of the $H_{incoh}$ substrate.
 
 **The Casimir effect** tracks the static case: boundary pressure present with zero net flow in either direction. The uncollapsed interference structure pushes against the Markov Blanket of the conducting plates, without paying the Landauer Tax to collapse into $H_{coh}$ mass.
 

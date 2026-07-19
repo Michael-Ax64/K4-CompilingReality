@@ -21,6 +21,8 @@ In circuit terms: angular frequency is the rate at which the alternating quantit
 
 In the framework's terms: ω is trajectory in the non-clock sense. Not how long a process takes (Chronos, measurable clock time) but the rate at which the system moves through its own development — how fast it is cycling through the four-fold configurations, how rapidly it transitions between `.behold()` and `.observe()` states, how frequently it commits and renews.
 
+**The Two Clocks:** $\omega$ is the compilation engine at the centroid. It is distinct from coordinate time $dt$, which is the spatial record accumulated on the $R$ pole as the wake of the compilation cycle. General Relativity maps $dt$; Quantum Mechanics maps $\omega$. Conflating them produces the 'problem of time'.
+
 The Kairos mapping: ω is Kairos in its temporal mode. Where Kairos as a moment is the qualitative rightness of *when* (the transformative moment, the opportune timing), ω as an ongoing temporal dimension is the qualitative rate of cycling through such moments — the system's characteristic tempo of development.
 
 The Wisdom mapping: in the WVG framework, the 5D extension (Quintessence/Essence) maps to what the AC extension calls ω. Wisdom, in this framework, is not the accumulation of knowledge (which would be a property of the internal states, the hidden layers, the generative model) but the characteristic rate at which a system appropriately navigates through the four-fold: knowing not just *what* but *when*, and cycling through situations at the rate that situation requires.
@@ -72,6 +74,12 @@ The complex quantity combining both is **Impedance**:
 **Z** = R + jX = |Z|∠φ
 
 where φ = arctan(X/R) is the phase angle.
+
+The phase angle of the impedance is given by the identifying equation:
+$$ \tan(\theta) = \frac{X}{R} = \frac{\omega L - \frac{1}{\omega C}}{R} $$
+For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Singularity, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
+
+In physics, massive gauge bosons acquire a third longitudinal polarization, known as the 'eaten Goldstone boson' from the Higgs mechanism. In the AC extension, this third polarization is the physical instantiation of the imaginary axis $jX$: the phase-delay component that carriers acquire when navigating an impedance-bearing medium.
 
 **The framework's interpretation**: Impedance **Z** is the complex extension of Resistance R. Where R (DC) is the grounding/opposition variable (Earth/Ethos) described only by its real component, **Z** (AC) includes both the real (dissipative, committed, irreversible) and imaginary (reactive, held-in-suspension, reversible) components of opposition.
 
@@ -177,3 +185,4 @@ The research tasks the AC extension opens:
 ---
 
 *This document develops the AC extension from first principles using the framework's vocabulary. The source document (Electro-AC-db.org) contains the complete formal treatment including the fifty equations in detail, the specific inductive and capacitive reactance relationships, and the full phasor analysis. This document covers the foundational structural insights; the full source is the primary reference for the complete formal treatment. The K5 structure that the AC extension implies — five vertices, the formal graph-theoretic home of the five-variable system — is oriented in L3-EdgeStateSpace.md (Section IX, "Toward K5"), which provides the structural next step for the algebraic development initiated here.*
+

@@ -27,6 +27,8 @@ A Markov Blanket is a set of variables that renders a subset of variables condit
 
 In the Active Inference context: the internal states of a system are conditionally independent of the external states, given the blanket states (sensory and active). The system's internal model of the world — its generative model — needs only information flowing through the blanket to update. Everything relevant about the external world that the system can access is encoded in the blanket states.
 
+The thickness of this blanket is the **local thermodynamic capacity limit** of the system. This perfectly resolves John Stewart Bell's "shifty split"—the undefined boundary between quantum and classical. The split is not a spatial coordinate; it is the exact metabolic bandwidth of the bounding frame. Every bounded frame has its own cut, and nested frames have nested cuts, manifesting Scale Invariance.
+
 This is a precise, formal, probabilistic description of a boundary. It characterizes the dynamics of information exchange across a boundary with mathematical rigour. It says exactly how the inside depends on the outside (through the sensory states) and how the inside affects the outside (through the active states). It is a complete description of the boundary interface.
 
 ---
@@ -112,3 +114,4 @@ The bridge between Active Inference and the DC algebraic framework is one of the
 ---
 
 *Related proofs: Proof D (Transformer as Beholding Architecture), which uses the Active Inference bridge in the alignment context. The Structural Monograph (K4 Interior), which provides the formal account of what lies inside the blanket-faces that Active Inference describes. The Convergent Discovery document, which situates Active Inference within the broader history of traditions finding the same faces.*
+

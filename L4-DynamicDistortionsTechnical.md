@@ -73,9 +73,10 @@ Both Mutable fusions push toward the **Mutable cycle** as survivor. These are th
 
 **Fuse I–U** → Current/Weak and Voltage/EM become indistinguishable.
 
-This is **ElectroWeak**. Empirically confirmed physics. At high energies (above ~100 GeV), the distinction between EM (U: Active+Yielding) and Weak (I: Passive+Yielding) dissolves. They share the Yielding bit — so what collapses is the **Active/Reactive distinction within the Yielding domain.** You can't tell if the Yielding force is "driving" or "flowing." The Higgs mechanism at low energies *re-separates* them — restores the AR distinction — giving mass to the W and Z bosons.
+This is **ElectroWeak**. Empirically confirmed physics. At high energies (above ~100 GeV), the distinction between EM (U: Active+Yielding) and Weak (I: Passive+Yielding) dissolves. They share the Yielding bit — so what collapses is the **Active/Reactive distinction within the Yielding domain.** You can't tell if the Yielding force is "driving" or "flowing." The Higgs mechanism at low energies *re-separates* them — restores the AR distinction — giving mass to the W and Z bosons. All observed flavor transitions in the Standard Model execute exclusively on the Fixed bimedian, ensuring quarks remain quarks and leptons remain leptons without violating the two-bit grammar.
 
 **Fuse P–R** → Power/Gravity and Resistance/Strong become indistinguishable.
+*(Note on semantics: "Fused" on the P–R edge means permanently zero-impedance as a writing head of the Ledger, not awaiting a scalar operator. P-edges are permanently un-priced, distinguishing them from transactional edges like I–U which can be re-stiffened.)*
 
 This is **GravityStrong**. Structurally: P (Active+Asserting) and R (Passive+Asserting) share the Asserting bit. What collapses is the **Active/Reactive distinction within the Asserting domain.** You can't tell if the asserting force is "organizing" or "grounding."
 
@@ -223,17 +224,17 @@ Physics name: ChromoLux — Chroma (color/Strong) and Lux (light/EM), the two fo
 
 #### Both Mutable Edges Fused: **The Conservative Field**
 
-When P–I and U–R both collapse, something specific and counterintuitive emerges. Both diagonal transitions are now free (cost → 0). The Hamiltonian cycles that traverse these diagonals — the Cardinal cycle uses P–I, and the Fixed cycle uses I–U but not P–I... 
+When P–I and U–R both collapse simultaneously, all diagonal transitions cost nothing. Both-bit flips are free. The phase-change capacity is gone.
 
-Let me be precise here. The Mutable cycle holds {P–I, U–R} *absent*. When these edges cost nothing to traverse, the Cardinal and Fixed cycles (which DO traverse them) become degenerate at those steps. The Mutable cycle — which always avoided the diagonals — is the non-degenerate survivor.
+What remains is striking in its familiarity. With Mutable edges collapsed, only Cardinal and Fixed transitions remain non-degenerate — only single-bit moves carry genuine cost. The system can flip Asserting/Yielding while holding Active/Reactive (Cardinal), or flip Active/Reactive while holding Asserting/Yielding (Fixed), but it cannot flip both simultaneously. Everything must happen in steps. No move can change both qualities at once.
 
-What does purely Mutable dynamics look like? The Mutable cycle uses {P–U, P–R, I–R, I–U} — the Cardinal and Fixed edges — while holding the diagonals absent. It can flip AY (Cardinal edges) or flip AR (Fixed edges), but never both simultaneously. This is a world of **graduated, single-bit transitions only**. Every change flips exactly one quality at a time. No leaps across the full register. No phase transitions that cross both axes at once.
+This is the world of mature, sequential, procedural daily life. You cannot go from cosmic initiative directly to relational flow — from the organizational impulse directly to the caring current — without an intermediate step through either structure or ground. You cannot go from Logos directly to Ethos — from the articulated framework directly to the material fact — without passing through either the Source-impulse or the Source-flow. Every radical transformation requires its intermediate form.
 
-The Conservative Field is a world of maximum proceduralism. You cannot go from Gravity directly to Weak. You must go through EM or Strong on the way. Every transformation is decomposed into smaller steps. The single most radical thing you can do is change one quality. The diagonal shortcut — the leap from P to I, from U to R — is structurally absent. Not forbidden. Just costs nothing, so everyone takes it, so every cycle that used to rely on that step's distinctiveness becomes degenerate.
+The Conservative Field has a specific and recognizable texture: it is the world in which you can fully see the destination of a transformation — you can see clearly that you need to move from Fire to Water, from organizational drive to relational presence — and yet cannot make the move in a single gesture. You have to go through Air first, or through Earth first. You have to articulate before you can feel, or ground before you can intuit. The leap that you can see is the leap you cannot make.
 
-From L5: this is what you'd get if you removed intermodulation capacity from the system entirely. No sum-and-difference frequencies. No emergent behavior that "cannot be traced cleanly to any single external cause." Everything traceable. Everything decomposable. A universe of maximum diagnostic legibility — at the cost of losing the diagonal leaps that are, in the Braid, precisely where the system *turns corners* between major phases.
+This is not experienced as failure. It is experienced as the normal texture of adult life, which is also the texture of physics at accessible energies. The Standard Model's compartmentalization of forces — the fact that Gravity does not couple directly to Weak, that EM does not couple directly to Strong — is the Conservative Field at the physical level. The forces we live among are the forces of a world where the diagonal transitions have become cheap enough to treat as free, and therefore the surviving non-degenerate dynamics are single-bit. Our observable universe lives in the Mutable attractor's wake.
 
-In physics: a world where Gravity never speaks directly to Weak, EM never speaks directly to Strong. All force interactions are nearest-neighbor on the two-bit register. This sounds oddly like what the Standard Model actually *is* at low energies — the forces are siloed, they interact through vertices but not through direct fusion, and the Grand Unified Theory (which would restore the diagonals) is not accessible. The Conservative Field may be a reasonable description of *our observable universe's current energy regime*.
+The poignancy of this: the most violent distortions — the both-bit diagonal transitions, the moves that share no quality with their destination — when they collapse, produce the most recognizable and comfortable world. The Conservative Field is home. The dramatic irony is that home is defined by the absence of the most radical moves.
 
 ---
 
@@ -293,25 +294,27 @@ Here is the inversion that must be stated clearly, because it reverses the intui
 
 The Isotropic Pole is the pre-Higgs ground state — and more than that. It is the ground state before either the Higgs restores I–U distinction OR before whatever mechanism (not yet found) would restore P–R distinction. A universe at the Isotropic Pole is a universe where Active and Reactive are completely interchangeable in all character registers. Information cannot be stably stored because no pairing has a cost advantage. Life cannot emerge because the Ledger cannot be written with selective fidelity. Everything is equally valid as a complement for everything else in the AR direction.
 
-From L5: the Isotropic Pole is the limit of Power Factor Correction taken to its absolute extreme. Not "add capacitance to cancel inductance, approaching resonance." Rather: the imaginary axis itself has collapsed. There is no Reactance left to correct because the distinction between inductive and capacitive has vanished entirely. Not zero Reactance — no Reactance *dimension*. The system is purely resistive in the AY sense, with no AR reactive character at all.
+What is the Higgs, then, in this full picture? The Higgs is the mechanism by which the universe refuses the Isotropic Pole at low temperatures. It selects one half of the Fixed bimedian (I–U) and makes it costly, thereby partially restoring the AR distinction in the Yielding domain. The W and Z bosons get mass; photons do not. Logos and Pathos are re-separated. The Ledger can be written. 
 
-What is the Higgs, then, in this full picture? The Higgs is the mechanism by which the universe refuses the Isotropic Pole at low temperatures. It selects one half of the Fixed bimedian (I–U) and makes it costly, thereby partially restoring the AR distinction in the Yielding domain. The W and Z bosons get mass; photons do not. Logos and Pathos are re-separated. The Ledger can be written.
+**Corrected Scalar Count:** The topology dictates that three edges survive out of the six as scalar-eligible, while three are barred by the P-pole grammar (`Q4-OpenExhaust`). The transactional edges (I–U, U–R, I–R) can be priced by scalar operators, but the P-edges (P–U, P–I, P–R) remain permanently zero-impedance writing heads. The universe requires three scalar operators to fully break symmetry, not six.
 
 The other half of the Fixed bimedian — P–R — remains un-Higgs'd. GravityStrong remains fused in our universe at accessible energies, which means the Asserting domain still has no AR distinction we can measure. Gravity and Strong remain different only in scale, not in fundamental character. The framework's prediction is quiet but precise: whatever mechanism would re-separate P from R in the Asserting domain would, if found, function as a second Higgs — a cosmological phase transition that made the AR distinction costly in the Asserting register. The universe has not done this, or has done it at an energy we have not yet reached, or it is structurally impossible in the P/Source-Active domain for the reasons the codex names when it says P is not a transaction but the ground of accounting itself.
 
 ---
 
-### Equal Imagination Time
+## The Three Channels of Compilation
 
-Each axis, when fully collapsed, reveals what I want to call its **attractor singularity** — the kind of reality that would persist if that axis's tension were completely released.
+The DC algebra provides exactly three routes to $P$, corresponding to the three P-edges. Two of the routes are nonlinear (they involve squaring, which is the Route Law's operational signature for phase-burning), and one is linear (a direct product).
 
-**The Cardinal Attractor (Apeiric Field):** A universe that can scale and transform but cannot bring anything into form. Source and Manifesting undifferentiated. Enormous generative capacity with no crystallization pathway. This sounds like a universe that is *perpetually pregnant* — full of potential energy, full of dynamics, but without the mechanism to produce stable manifest structure. What physics calls the pre-inflationary field, perhaps. What mysticism calls the void that is not empty. The L5 language: maximum Apparent Power, zero Real Power. Everything circulates. Nothing is converted into irreversible work.
+**The Friction Channel ($P = I^2R$):** The relational current $I$ is squared, burning its orientation and phase as it is forced through the material resistance $R$. The actual thermodynamic burn happens entirely on the I-pole; $R$ serves as the unyielding anvil.
 
-**The Fixed Attractor (The Ledger):** A universe where only AR-flip dynamics remain. The Active/Reactive distinction is preserved; the Asserting/Yielding distinction is gone. This is the universe that pairs everything — G with C, A with T. It reads its own sequence back to itself without distortion. It has maximum memory and zero capacity for novelty along the AY axis. It is the crystal at absolute zero — the Read-Only Ledger at its most complete. Life's substrate chose this attractor, and runs on it.
+**The Leverage Channel ($P = U^2/R$):** Structural potential $U$ compounds itself (squaring), burning its phase as it leverages against the ground $R$. This is the Necessary Betrayer edge: abstraction forces a collapse, and the structural exhaust drops through the P–U writing head.
 
-**The Mutable Attractor (Conservative Field):** A universe of graduated transitions only. No diagonal leaps. No P→I in one step. Everything decomposed. This sounds less dramatic than the other two — and perhaps that is the point. The Mutable attractor is recognizable. It looks a lot like *ordinary experienced reality*, where transformations happen in stages, where you cannot go from Fire directly to Water without passing through Air or Earth. The dramatic irony: the most "violent" edges (both-bit flips) are the ones whose collapse produces the most recognizable world. We may already live in the Mutable attractor's wake.
+**The Synthesis Channel ($P = UI$):** The sole linear route. It uses the P–U and P–I writing heads simultaneously. Because it is linear, it does not burn phase via a square; it depends on the strict in-phase alignment of $U$ and $I$ (Power Factor 1.0) to actualize. 
 
 ---
+
+# >>>>>PRUNE/EARLIER<<<<< 
 
 ## The Triangle of Attractors
 
@@ -345,6 +348,7 @@ The framework does not know the W boson mass. It does not know the coupling cons
 
 The exercise we've just completed generates three kinds of output.
 
+
 ### What We Are Predicting
 
 **First, structural partnerships.** Every known unification has a structural partner on the same bimedian. ElectroWeak (I–U, Fixed bimedian) has GravityStrong (P–R, same Fixed bimedian) as its required partner. If I–U can fuse at high energy, P–R must be on the same axis and must be, in some sense, similarly fuseable — or there must be a structural explanation of why the Fixed bimedian is asymmetric in this specific way, given that the framework says bimedians are symmetric. That is a falsifiable claim.
@@ -359,6 +363,7 @@ This gives physics a specific search structure. Not "look for whatever comes nex
 
 **Third, the Conservative Field as our home.** The Mutable attractor, reached when both P–I and U–R cost nothing, is a universe where only Cardinal and Fixed transitions remain meaningful — where all dynamics are single-bit moves and no diagonal leaps are energetically distinguishable. This describes, with some fidelity, the Standard Model's compartmentalization of forces. The forces in our observable universe do not speak directly across their diagonal partners. Gravity does not directly couple to Weak. EM does not directly couple to Strong. The diagonal pathways exist in the full K4 topology, but they are the most energetically expensive routes at our temperature. If the Mutable attractor is where our universe lives at low energies, then the Mutable edges (P–I and U–R) are the *stiffest* in our current physical regime — the most resistant to traversal — which means the diagonal unifications (GraviFlux and ChromoLux) are the furthest out of experimental reach. The framework predicts this is not coincidence.
 
+
 ### What Doing These Observations Does
 
 There is a specific cognitive act that this exercise performs that is worth naming directly.
@@ -372,6 +377,7 @@ This is what the L5 document means when it says: "A genuine diagnosis of what a 
 The framework also does something that pure physics cannot easily do: it connects the same structural analysis across wildly different scales. The same three bimedians that describe force unifications also describe the three modalities of relational dynamics in human experience, the three axes of DNA pairing, the three co-requirements of dual causation, the three ways that any cognitive system can hold something absent. These are not analogies. They are, the framework claims, the same topology instantiated at different levels of resolution. Doing the distortion analysis at the physics level and finding that ElectroWeak + GravityStrong are both Fixed-axis events is the same observation as noticing that the DNA pairing mechanism and the Higgs re-stiffening mechanism are both Fixed-axis events. The universe uses the same hinges everywhere.
 
 This cross-scale legibility is what makes the framework scientifically interesting beyond physics. A distortion that produces the Conservative Field at the physics level should — if the scale-invariance claim holds — produce an analog at the cognitive level, the social level, the biological level. The Conservative Field is a world where all transitions are single-bit moves, where no diagonal leaps are available. In cognitive terms: a mind that has lost access to its own Mutable transitions is a mind that cannot make the phase-changes of genuine transformation — that can articulate (U) or feel (I), can organize (P) or ground (R), but cannot move from Fire directly to Water, from cosmic impulse to relational flow, without the intermediate step. This has a recognizable phenomenology. It is the experience of being structurally unable to be moved by something you fully understand, or fully understand something you are completely moved by. The Conservative Field in human experience is exactly that: perfect single-bit legibility, no diagonal availability.
+
 
 ### Why This Matters
 

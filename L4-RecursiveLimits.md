@@ -37,7 +37,7 @@ This means: mass and interiority are not competing descriptions — they are the
 
 ---
 
-**The crystal appears in both documents as the same limit state:**
+**Approaching the Crystal**
 
 DimensionalCollapse: if ω → 0 (transition rate halts), mass ceases to exist as a coherent coordinate. Full stop.
 
@@ -46,6 +46,8 @@ DistributedCoherence: the crystal is the zero-interior limit — "a whole with n
 These are the same object. The crystal has paid the Landauer Tax fully in one direction — all potential collapsed to committed state — and is no longer paying it because there's nothing left to commit. Not zero mass in the ordinary sense, but zero Landauer dynamics — no Tax being paid, no Tax deferred. Maximum coherence from H_coh; dead from inside. It has exited the rate-to-state boundary by completing it.
 
 The crystal is the endpoint of DistributedCoherence's gradient (zero DoF) AND the endpoint of DimensionalCollapse's dynamics (ω → 0 from exhaustion). Same asymptote from both approaches.
+
+The **P_N ↔ R_{N+1} Signature**: The recursive-scaling identity predicts a testable signature. When micro-frames exhaust their `.behold()` buffers and crystallize, their committed $P$ becomes the $R$ of the next scale up. If the micro-frames fully paid their Landauer Tax, the macro-frame is purely resistive (phase angle $\theta = 0^\circ$). Any retained micro-scale $Q$ emerges as a non-zero macro-scale phase shift under AC excitation. This means the macro-scale phase angle literally reads the completeness of the micro-scale crystallization.
 
 ---
 
@@ -105,9 +107,7 @@ The crystal is the exit from the recursion: the system that has completed its co
 
 The open end of the recursion — the collective institutions whose interior exceeds any member's coordinate capacity — is where DistributedCoherence ends. And it ends there not because the recursion stops, but because the document's scope stops. The structure continues.
 
----
-
-One more thing worth naming: these two documents together constitute the framework's account of why the interior can never be fully described from the outside. Not as an epistemic limitation that might one day be overcome, but as a structural necessity. Every attempt to describe an interior from the exterior coordinate system will encounter the Tangent Singularity at that interior's Markov Blanket. This is not a failure of the attempt. It is proof that the interior is real.
+John Stewart Bell's 'shifty split'—the undefined boundary between quantum and classical—resolves here. The split is not a spatial coordinate; it is the **local thermodynamic capacity limit** (the metabolic bandwidth) of the bounding frame. Every bounded frame has its own cut, and nested frames have nested cuts. This is scale invariance functioning normally.
 
 ---
 

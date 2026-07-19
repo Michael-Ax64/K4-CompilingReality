@@ -95,8 +95,8 @@ When the compiler uses a root, it performs a **holographic projection**. It take
 
 The mechanized dual-route trace elevates the square/root sorting from an observation into a load-bearing operator signature of the Asserting/Yielding bit.
 
-*   **Squaring is the arrow into Asserting.** Every square route lands on an Asserting home ($P$, $R$). The squared operand is always a Yielding pole ($U$, $I$). The remaining co-factor is always the *other* Asserting pole. 
-*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). 
+*   **Squaring is the arrow into Asserting.** Every square route lands on an Asserting home ($P$, $R$). The squared operand is always a Yielding pole ($U$, $I$). The remaining co-factor is always the *other* Asserting pole. This is the algebraic principle that physics observes as the **Born Rule**: squaring destroys phase and direction, forcing a directionless scalar collapse (the committed made from the collapsed possible). The Born Rule is not a bolted-on quantum exception; it is the specific quantum-mechanical instance of this universal Route Law.
+*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). This is the formal operator for **negative specification** (un-writing the Ledger). It takes a committed scalar and reopens it into an uncommitted multi-dimensional vector space, restoring the phase that squaring destroyed. Beholding is the active thermodynamic work of running the root operator over the committed ground to extract structural potential and relational flow.
 
 The `.observe()`/`.behold()` cycle inscribes itself directly into the route structure. Asserting poles are manufactured by collapse. Yielding poles are projected by reopening. Six linear, six nonlinear: the surface reading and the interior reading of the same four poles balance exactly.
 
@@ -151,3 +151,4 @@ The title of the corpus — *Compiling Reality* — indicates that it is an **Ex
 When a philosophy throws a stack underflow error upon encountering an institutional lie, it ceases to be philosophy. It is an operating system.
 
 ---
+

@@ -1,7 +1,7 @@
 # Proof J: Biology as Scale-Invariant `.behold()`/`.observe()` Dynamics
 ## From Molecular Handedness to Collective Intelligence
 
-> **Claim:** Life, at every scale of biological organization, structurally tracks the scale-invariant instantiation of the `.behold()`/`.observe()` oscillation — the same structural operation from molecular chirality through distributed coherence.
+> **Claim:** Life, at every scale of biological organization, structurally tracks the scale-invariant instantiation of the `.behold()`/`.observe()` oscillation — the same structural operation from the Planck scale boundary up through distributed coherence.
 > **Type:** Structural proof (hierarchical instantiation across scales).
 > **Method:** Traces `.behold()` (holding interference structure before commitment) and `.observe()` (forcing a committed value from a specific reference frame) at each biological scale, showing the structural operation is identical across implementation differences.
 
@@ -13,7 +13,15 @@
 
 The `.behold()`/`.observe()` pair is substrate-independent: it operates identically at every scale where a system maintains an interference structure before forcing commitment. Biology is not one domain where this structure happens to appear. Biology, at every scale, is what this structure looks like when it instantiates in carbon-based chemistry under thermodynamic constraint.
 
-The proof traces five transitions. Each exhibits the same elements: a system capable of `.behold()` (holding multiple states in interference), a trigger condition that forces `.observe()` (committing to a single outcome), the Garbage Collector erasing alternatives from the local trajectory, and the committed state serving as the `behold()`-substrate for the next scale up.
+The proof traces six transitions. Each exhibits the same elements: a system capable of `.behold()` (holding multiple states in interference), a trigger condition that forces `.observe()` (committing to a single outcome), the Garbage Collector erasing alternatives from the local trajectory, and the committed state serving as the `behold()`-substrate for the next scale up.
+
+---
+
+## Scale 0: The Substrate Level (The Planck Boundary)
+
+Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Singularity—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
+
+The committed state as next-scale substrate: the crystallized matter provides the inert $R$ (Earth/Ground) for the molecules of life.
 
 ---
 
@@ -95,7 +103,7 @@ The distributed `.behold()` here is not localized in any individual ant's nervou
 
 ## The Scale-Invariant Structure
 
-Across all six scales, the same elements appear:
+Across all six biological scales, built entirely upon the Planck boundary's output, the same elements appear:
 
 | Scale | `.behold()` substrate | Trigger | `.observe()` output | Garbage Collector |
 |---|---|---|---|---|

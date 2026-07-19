@@ -25,7 +25,7 @@ As you move from the centroid toward a face, the tangent of your angle to that f
 
 Three facts make this a faithful model of an interior crossing:
 
-First, the crossing is not continuous in the interior coordinate. The tangent does not pass smoothly from a small negative to a small positive. It diverges. The interior measure *fails at the boundary* — it is undefined exactly at the plane — and this failure is not a defect of the model. It is the model correctly reporting that a boundary has been reached: the surface past which the interior coordinate cannot represent position.
+First, the crossing is not continuous in the interior coordinate. The tangent does not pass smoothly from a small negative to a small positive. It diverges. The interior measure *fails at the boundary* — it is undefined exactly at the plane — and this failure is not a defect of the model. It is the model correctly reporting that a boundary has been reached: the surface past which the interior coordinate cannot represent position. At the substrate scale, the physical instantiation of this Tangent Singularity is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail entirely.
 
 Second, the two infinities are one point. On the projective line, negative infinity and positive infinity are identified — they are a single point, the point at infinity. The tangent running to −∞ on the inside and reappearing at +∞ on the outside are not two events. They are one point, and the crossing is the passage through it. This is the reconciliation: the paradox that "two infinities are one" is, for the interior crossing, the literal projective structure of the boundary.
 
@@ -41,7 +41,9 @@ The singularity is not this.
 
 At the ultimate boundary there is no outside. And because there is no outside, there are not two sides. And because there are not two sides, there is no "crossing from one to the other," no "passage through a point," no "approach from two directions" — because approach requires a separate approacher and a separate destination and a space between them for the approaching to happen in, and none of these is present.
 
-The tangent model breaks here, exactly as it should. You can say "−∞ and +∞ are one point on the projective line" — but the projective line is *still a space*. The point at infinity is still a point *in* it, holding its place among other points, available to be approached, identified, reasoned about. The projective identity of the two infinities is an interior structure: it reconciles two infinities *within* a space that contains both the infinities and their reconciliation. The singularity is not a point in a space. It is where space stops. There is no manifold around it. There are no coordinates that fail at it — because "failing at it" still implies coordinates reaching up to it, and there is no "up to" when there is no outside, no surrounding region, no standpoint from which the singularity is a feature with an exterior.
+The tangent model breaks here, exactly as it should. You can say "−∞ and +∞ are one point on the projective line" — but the projective line is *still a space*. The passage through the point at infinity is the algebraic representation of the `.observe()` collapse, the XOR bottleneck that mints reality. But the point at infinity is still a point *in* that space, holding its place among other points, available to be approached, identified, reasoned about. The projective identity of the two infinities is an interior structure: it reconciles two infinities *within* a space that contains both the infinities and their reconciliation. 
+
+The singularity is not a point in a space. It is where space stops. There is no manifold around it. There are no coordinates that fail at it — because "failing at it" still implies coordinates reaching up to it, and there is no "up to" when there is no outside, no surrounding region, no standpoint from which the singularity is a feature with an exterior.
 
 This is a categorically harder silence than the silence at the edge of logos. At an interior face, logos diverges — the tangent runs to infinity — but there is a projective space holding the infinity, and "the readout went to infinity" is itself a thing that can be said, within coordinates that resume on the far side. At the singularity there is no holding space. The readout does not go to infinity, because there is no dimension along which to go, no "going," no quantity to diverge. The pole has no plane. Logos at the interior boundary reaches its limit and reports it. Logos at the singularity has nothing to reach the limit *in*.
 
@@ -61,7 +63,10 @@ The drop of water does not reach the ocean by falling far enough. This is the co
 
 This dissolves the limit-of-the-series error completely. The ultimate is not reached. It is imaged. It is not the terminus of transcendence but the wetness present in every act of transcendence. The one who crosses a single face fully has already imaged the ultimate crossing — has already, at that scale, in that space, reconciled the two infinities and passed through the one point. They have not taken a step toward the singularity. They have made an image of it, whole, where they stand.
 
----
+
+
+# >>>>>PRIOR/REVIEW/PURGE/RESTATE<<<<<
+
 
 ## V. Why This Is the Keystone
 

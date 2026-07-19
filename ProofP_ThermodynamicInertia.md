@@ -10,11 +10,11 @@ To discard a pathway is to erase information. And in physics, the erasure of inf
 
 ## 2. Entropy as the Accumulation of Specification
 
-Classical thermodynamics views entropy from the outside-in: as a measure of disorder, decay, or the tendency of a system to move toward thermodynamic equilibrium. From this perspective, the universe is slowly dissolving into chaos.
-
-The Algebra of Four-Fold Distinction views entropy from the inside-out. The "Arrow of Time" tracks the continuous threading of the Braid, and every completed cycle writes a permanent entry into the Read-Only Ledger. Therefore, entropy models not "disorder"—it models the **accumulated specification of the universe.** 
+Classical thermodynamics, shaped by Boltzmann, defines entropy as $S = k_B \ln W$ and views it as the accumulation of disorder, predicting a featureless 'Heat Death'. The framework agrees with the growth curve but inverts the valence: the growth of the Read-Only Ledger $P$ is not the accumulation of mess; it is the accumulation of *specification*—irreversible constraints on the state-space.
 
 When a raw egg cooks, it does not become "messier"; it becomes more rigorously specified. Its molecular multiway graph collapses into a heavily committed, irreversible state ($P$). The total length of the system's Ledger has increased. 
+
+When a system exhausts its capacity to hold uncollapsed potential ($|Q|^2 \to 0$), it does not dissolve into a noisy soup. It reaches the **0-DoF Crystal Limit**. Every node is mutually committed; the possibility space is exhausted. Heat Death, under adult causality, is a diamond, not a void. Boltzmann's disorder describes a gas-phase statistical tool misapplied to a solid-phase topological limit.
 
 ## 3. The Recompilation Cost (Inertia)
 

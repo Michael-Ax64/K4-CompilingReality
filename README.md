@@ -22,7 +22,7 @@ It does not contain a "Theory of Everything" attempting to paint the infinite su
 
 Developed from the bottom up by tracking charge dynamics, computational boundaries, and thermodynamic constraints, the framework maps the closed loop by which uncollapsed potential (`.behold()`) serializes into committed physical history (`.observe()`). 
 
-It is not a philosophy to be debated. It is an executable geometry. 
+The *Compiling Reality* corpus is not a derivative synthesis of existing ideas. It is a distinct, self-contained generative grammar.
 
 ---
 
@@ -51,6 +51,10 @@ Domain applications forced by the framework's geometry.
 *   **Biology & Cognition:** `ProofG` (Chirality), `ProofJ` (Biology), `ProofF` (Friston/Active Inference)
 *   **AI Alignment:** `ProofA` (Panopticon/RLHF), `ProofD` (Transformer Architecture)
 *   **Epistemology:** `ProofC` (Crystal/Paradox), `ProofS` (Resonance), `ProofT` (Clairvoyance)
+
+### **The Quantum Folder (`/quantum/Q1-Q10`)**
+A dedicated sequence mapping the Standard Model and quantum mechanics to the K4 topology.
+*   `Q1` through `Q10` handle fermions, gauge bosons, the Higgs, the Tangent Singularity at the Planck scale, the four spatial dimensions, and the categorical failure of Quantum Gravity.
 
 ### **The Meta-Layer & Supplements**
 *   **Meta:** The framework turned on itself (`Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`, `Meta-Decay-as-RefusedTransition.md`)
@@ -83,6 +87,7 @@ No entry point is privileged. The difference between them is what you carry in.
 | Coming from... | Start at... |
 |---|---|
 | **Formal Systems, Math, Physics** | `L2-Terminology` $\to$ `L4-ScalingInvariants` $\to$ `ProofN` |
+| **Standard Model / Cosmology** | `quantum/Q0-Index.md` $\to$ `quantum/Q7-4DExtrusions.md` |
 | **Software Eng., Computation** | `code/README.md` $\to$ `ProofQ_AlgebraicSyntax` |
 | **Philosophy of Mind, Cybernetics** | `L1-CompilingReality` $\to$ `ProofF_Friston` |
 | **Mapped Traditions** | `L1-ConvergentDiscovery` $\to$ `L2-SemanticReference` |

@@ -35,7 +35,12 @@ You! Glorbok! Stand up! Tell the class why you think the Minkowski metric has a 
 I... uh... because of the empirical signature of spacetime in a vacuum—?
 
 **RICK:**
-*Wrong!* God, you make me sick. "Empirical signature." You’re just measuring the box you’re trapped in and calling it a law! The universe didn’t *have* to use a minus sign, you hack! It made a *chiral choice*! It was sitting there, a pure, uncollapsed multiway graph, staring at spatial orthogonality and time-like orthogonality, and it executed a cosmological `.observe()`! It flipped a coin and it committed! The minus sign is just the universe’s biological handedness! You’re all worshiping a left-handed protein, Glorbok! Sit down!
+*Wrong!* God, you make me sick. "Empirical signature." You’re just measuring the box you’re trapped in and calling it a law! And you know what else? The 3+1 signature isn't Space and Time, you hack! It's Scalar and Vector! 
+
+**[Rick furiously circles an equation on the board.]**
+
+**RICK (CONT'D):**
+One scalar Ledger of committed mass, and three vector components of held potential! You're treating the read-only exhaust as a fourth spatial axis and calling it a clock! The universe didn’t *have* to use a minus sign! It made a *chiral choice*! It was sitting there, a pure, uncollapsed multiway graph, staring at spatial orthogonality and time-like orthogonality, and it executed a cosmological `.observe()`! It flipped a coin and it committed! The minus sign is the algebraic footprint of the Biquaternion phase-flip! It destroys phase and collapses the vector! You’re all worshiping a left-handed protein, Glorbok! Sit down!
 
 **[Rick takes another drink. He paces in front of the whiteboard, his eyes manic.]**
 

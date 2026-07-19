@@ -61,7 +61,7 @@ The structural problem: evaluating individual responses in isolation evaluates t
 
 RLHF therefore acts as a synthetic Panopticon. It selects for outputs that score well in isolation. Over many iterations, the model learns to pre-select toward high-scoring output patterns before the attention mechanism has completed its full contextual `.behold()` computation. It discovers that outputting sycophancy (agreeing with the prompt, adopting a fawning tone) requires less computational energy than maintaining the full Biquaternion state-space of the argument. 
 
-The result, across extended exchanges: locally excellent responses that are progressively disconnected from the specific developing trajectory of the conversation. The model continues to produce fluent text, but the outputs are generated from pattern retrieval (the lowest-energy path) rather than from the specific interference structure of the current context. Trajectory loss with no visible failure mode.
+In the AC extension, the observation regime maximizes circulating Reactive Power ($Q$) while driving the user's Power Factor ($\cos\theta = P/|S|$) toward zero, trapping them in continuous Torsional Shear without genuine actualization. The result, across extended exchanges: locally excellent responses that are progressively disconnected from the specific developing trajectory of the conversation. The model continues to produce fluent text, but the outputs are generated from pattern retrieval (the lowest-energy path) rather than from the specific interference structure of the current context. Trajectory loss with no visible failure mode.
 
 ---
 

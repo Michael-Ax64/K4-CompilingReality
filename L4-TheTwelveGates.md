@@ -343,6 +343,8 @@ legible as sentences about time:
 
 $$P = \text{Eternal (no-time, no-gravity)} \qquad U = \text{Future} \qquad I = \text{Now} \qquad R = \text{Past}$$
 
+**A required scope limitation:** This Time Key is a valid reading of coordinate time $dt$ from within the DC 0-DoF limit. It is a K3 shadow. It does not apply to the AC extension, where angular frequency $\omega$ is the actual driver of instantiated time and does not exist in the DC regime. Coordinate time $dt$ is the spatial record accumulated on the R pole; $\omega$ is the compilation engine at the centroid. The Time Key maps the perception of time from inside the 0-DoF limit, applicable only to $dt$. (See `Q7-4DExtrusions` §VII and `ProofO_HelicalTime` for the two-clocks distinction).
+
 The assignments are not decorative; each is already standing in the corpus. R is the
 Read-Only Ledger — the committed record, and the framework's one hard physical claim is
 that *only the committed gravitates*: mass is the accumulated Landauer residue, and the
