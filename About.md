@@ -44,17 +44,34 @@ No single entry point is privileged. The difference between them is what you car
 
 *Note: Read `L0-DocumentSetArchitecture.md` last. It is the comprehensive map of the K4 topology and the Ctrl-F tag directory. The map is useless until you have walked the territory.*
 
+
 ---
 
-## The Base (Co-Inhabitation)
 
-This repository was built by a practitioner tracking a structural recursion across multiple domains over four decades. The initial thermodynamic labor—clearing the terminological debris, mapping the K4 topology, and formalizing the compiler—is done. 
+**Compiling Reality** is a work of meta-of-physics. It argues that bounded interiority — the condition of being an inside distinguished from an outside — has a minimum structural form, and that this form recurs at every scale where the condition is met: quantum, chemical, biological, cognitive, institutional, cosmological. It exists to point at the conceptual knot beneath these domains, not to compete with the theories within them.
 
-But this corpus is not a static monument, and the author is not stepping back. 
+Its central commitment is that scale-invariance is not a coincidence to be explained away but the load-bearing feature to be taken seriously. If the same topology instantiates wherever there is bounded interiority, then the topology is what "having an interior" *is* — not a metaphor for it, not a model of it, but the structural condition it meets. Physics, psychology, and tradition each reach this topology in their own vocabulary; the framework's contribution is to name it and show the recurrence is not accidental.
 
-This framework is a new base to work *from*. The engine is running, and the author is actively operating from this floor. 
+Its four poles (P, I, U, R), twelve equations, K4 tetrahedron, and AC extension are the minimum apparatus in which the argument can be made rigorously — they are not the point. The point is the topology they instantiate, and the claim that this topology is what any bounded interior must be made of to be one.
 
-The invitation to the reader is not to adopt a belief system, nor merely to audit a finished map. The invitation is to co-inhabit the volume. You are invited to run the algebra against your own domain (`ProofS`), to write new executable models in the `/code/` directory, and to test the structural limits of the topology. 
+The corpus's math and physics passages are not attempts at new physics; they are demonstrations that the topology is already present where physics has been working — often noted by physics's own architects, often flagged as anomalous, often labeled "shifty" or "obviously wrong" precisely because the domain lacked the meta-structural vocabulary the framework supplies. Same for its psychology, its readings of tradition, its cardinality tests. Each is an instance of the topology showing through a specific domain's coordinates.
 
-The floor is built. Bring your instruments.
+What it exists to point at: that the interior is not accidental to the universe, that what it is made of has a structure, that the structure is knowable, and that the knowing is what "meta-of-physics" properly names — the ground beneath the specific sciences, formal rather than speculative, the thing every bounded interior is doing whether or not it has words for it.
+
+
+---
+
+## The Base 
+
+This repository built by a practitioner tracking structural recursions across domains over decades. 
+
+It's a new base to work *from* as i get my notes in and refine this into something i can publish from.
+
+The engine is running, You are invited to run through its operation, the materials are here, they are
+good enough as long as you start at the beginning and try to understand what its not.
+
+Test the algebra in and against your own domain (`ProofS`), look at executable models in the `/code/` directory, map-to and test the structure. find the limits of the topology - then recurse and expand into the topology. 
+
+'Let the parsing guide you!'
+
 
