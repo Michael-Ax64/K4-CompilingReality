@@ -1,5 +1,49 @@
 # L4-TheTwelveGates
-## The Lines Between the Signs, the Unit Circle, and the Cancer–Leo Threshold
+
+## Need to know
+
+**The geometry writes the dictionary.** The ordering of the signs, the faces they sit on, and the modalities they inhabit are strictly determined by which variable is Home, which is Absent, and whether the step between them is a pivot on a vertex or a transit across an edge. 
+
+
+### 1. Order, Not Rank
+`ProofL_Trinity` §III establishes the fundamental rule: **"the four poles carry order, not rank."**
+
+There is no "highest" pole. Hierarchies (like Ken Wilber’s developmental stages in `L1-ConvergentDiscovery` §III) are dimensional-loss projections: they occur when an observer stands on one K3 face (usually Air/Logos) and squashes the 3D volume into a 1D vertical line, treating the other poles as "immature" precursors. 
+
+The poles do not rank. They *sequence*. The order of the poles (the Braid) is a Hamiltonian cycle. It defines a trajectory, not a hierarchy. 
+
+
+### 2. The Face is Defined by its Absence
+As defined in `L2-Terminology` §4, a Face is a K3 boundary plane. **A face is defined exclusively by the vertex it excludes.** 
+*   The P-Face is {I, U, R}. Fire is absent.
+*   The I-Face is {P, U, R}. Water is absent.
+
+Therefore, an equation does not "live" on the pole it solves for. It lives on the Face of its AbsentVar. To change the AbsentVar is to literally step off one K3 plane and onto another. 
+
+
+### 3. The Ordering is a Specific Geometric Traversal
+Because the 12 equations map to the 12 signs, the "ordering" of the Zodiac is not a seasonal metaphor. It is a precise geometric walk across the surface of the tetrahedron. 
+
+The ordering is a contiguous, unbroken Eulerian path across the K4 structure, not a list. If you swap the equations around because of a "good idea", you demand the universe teleport across the interior volume without paying. Works only in the imagination.
+
+`L4-TheTwelveGates`, §I below, maps exactly how this ordering moves.
+
+
+### 4. The Law of the Held Pole (Time, Not Elements)
+Why does the ordering go Cardinal $\to$ Fixed $\to$ Mutable within a season? Why that specific sequence?
+
+It is dictated by the Arrow of Time, not because of astrological poetry.
+The ordering within a season is driven by 
+the temporal stance of the equation relative to the helical extrusion of the Braid.
+
+- You initiate by holding the destination in suspension (Future).
+- You sustain by holding the opposite pole at bay (Antipode).
+- You dissolve by processing the accumulated record (Past).
+
+`L4-TheTwelveGates`, §II below, explicitly derives the ordering law from the AbsentVar.
+
+---
+##
 
 > **Status: draft, for joint development.** Companion to L4-TheNecessaryOpposition.
 > That document read the four fixed posts and the cross they hold. This one reads what lies
@@ -27,7 +71,8 @@ codex.*
 > recorded materials — testimony with a stated structural correspondence. Section V
 > contains one reading (the U-domain children) marked explicitly as a structural reading.
 
----
+
+## The Lines Between the Signs, the Unit Circle, and the Cancer–Leo Threshold
 
 ## I. The Lines, Not the Signs
 

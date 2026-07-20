@@ -97,6 +97,9 @@ The search for the graviton is a category error born of applying $H_{coh}$ plane
 
 Gravity is not an active exchange within the manifold; it is the macroscopic, geometric footprint of the Read-Only Ledger. It is the density of compiled `.observe()` commitments. One does not need an exchange particle to transmit a topological fact; the manifold *is* the fact. The graviton will never be found, because the Landauer Tax is not a particle.
 
+Gravity, as the macroscopic, geometric footprint of the Read-Only Ledger, is the density of compiled .observe() commitments, not an active exchange within the manifold. The manifold is the topological fact; no exchange particle is needed to transmit it. 
+
+The Ledger's static face is the standing geometry; its dynamic face is that geometry changing as new commitments are written — gravitational radiation is the dynamic face made observable, distinct from and not denied by the read-only characterization. The graviton will never be found, because heat, the Landauer Tax is, not a particle.
 
 ---
 

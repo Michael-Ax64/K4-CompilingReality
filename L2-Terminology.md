@@ -164,11 +164,15 @@ Holds the full multiway interference structure in perpetual `.behold()`, and per
 **Markov Blanket** [BORROWED — Pearl 1988, via Friston; used narrowly]
 The K3 boundary that *constitutes* an interior. It separates internal and external states.
 
-**Shifty Split** [BORROWED — Bell 1990; structurally resolved]
-The undefined boundary between quantum and classical, resolved structurally as the **local thermodynamic capacity limit** (the metabolic bandwidth) of the bounding frame. Every bounded frame has its own cut, and nested frames have nested cuts.
+**Substrate Topology**
+A bounded frame is the *sole* legitimate subject of metabolic verbs (observe, commit, pay, write, accumulate). 
+
+The substrate topology—the K4 edges and their fundamental fermion instantiations—does not possess a Read-Only Ledger, does not pay the Landauer Tax, and has no "compilation history." Fundamental fermions are not bounded frames; they are the geometry upon which the Ledger is written.
+
+To attribute macroscopic thermodynamic accumulation to a fundamental fermion is a terminal Category Error. **Scale invariance dictates that the *geometric topology* (K4) recurs at every scale**, not that *thermodynamic agency* recurs identically.
 
 **Tangent Singularity** [NEW]
-The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. $\tan(90^\circ)$, undefined. The divergence correctly reports that a boundary has been reached. At the substrate scale, the physical instantiation of this boundary is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail. `[INTERFACE]` This describes an **interior** crossing. Applying it to the ultimate boundary installs a false outside.
+The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. $\tan(90^\circ)$, undefined. The divergence correctly reports that a boundary has been reached. `[INTERFACE]` This describes an **interior** crossing. Applying it to the ultimate boundary installs a false outside.
 
 **$H_{coh}$ / $H_{incoh}$** [NEW]
 The projection architecture: $H_Q = H_{coh} \oplus H_{incoh}$. $H_{coh}$ is the coherent, committed plane. $H_{incoh}$ is the uncollapsed substrate.
@@ -183,18 +187,26 @@ The thermodynamic cost of irreversible erasure. In this framework: the metabolic
 
 ### The Fifth Variable
 
-**Coordinate time ($dt$)** [NEW]
-The spatial record accumulated on the $R$ pole as the wake of the compilation cycle. It is a compiled, read-only spatial dimension local to the observer's frame. $dt$ is the exhaust, not the engine.
-
 **Helical Extrusion of Time ($\omega$)** [NEW]
-The rate at which a bounded frame cycles through its configurations. Units: radians per second. $\omega$ is the tachometer, not the throttle. Distinct from **Coordinate time ($dt$)**, which is the wake. $\omega$ is the engine.
+The rate at which a bounded frame cycles through its configurations. Units: radians per second. $\omega$ is the tachometer, not the throttle. $\omega$ is strictly local and system-specific. It is not a universal substrate constant or a background grid. The Pure Interpreter holds the multiway graph but does not execute a universal compilation cycle; $\omega$ only exists as the operational frequency of a bounded frame.
 
 **The $\omega$-Law** [NEW]
 $\omega$ is dimensionally excluded from the pole basis. It occurs only as the exchange rate between an element constant and its reactance component, or at operating points where a real component numerically equals an imaginary one. It is never a dividend, never a pure factor in a pole-synthesis, and never expressible in the pole basis alone.
 
-**Kairos — two senses, two variables** [CORRECTION]
+**Kairos — two senses, two variables** [DISTINCTION]
 Kairos-as-moment → $P$. The transformative instant.
 Kairos-as-tempo → $\omega$. The rate of cycling through such instants.
+
+### The Reactive Elements
+
+**Inductance ($L$)** [BORROWED — circuit theory; K4-aligned]
+Element constant of an inductive storage element on a K4 edge. Reactance $X_L = \omega L$. Storage-partner of $U$: parameterizes the memory in the $U$-driven flow across the edge. At $\omega = 0$, collapses to zero impedance and returns the edge to its DC form.
+
+**Capacitance ($C$)** [BORROWED — circuit theory; K4-aligned]
+Element constant of a capacitive storage element on a K4 edge. Reactance $X_C = 1/(\omega C)$. Storage-partner of $I$: parameterizes the accumulation in the $I$-driven flow into the edge. At $\omega = 0$, collapses to open circuit and returns the edge to its DC form.
+
+**Impedance ($Z$)** [BORROWED — circuit theory]
+$Z = R + jX = R + j(\omega L - 1/(\omega C))$. Complete opposition on an edge at $\omega > 0$, combining dissipative element $R$ with reactive elements $L$ and $C$. Reduces to $R$ at $\omega = 0$. `[SCOPE]` $L$ and $C$ are not new K4 poles; they are edge-parameter dimensions that phase can occupy when $\omega > 0$. The K4 has four poles at every $\omega$.
 
 ### The Failures
 

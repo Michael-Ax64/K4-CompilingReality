@@ -21,8 +21,6 @@ In circuit terms: angular frequency is the rate at which the alternating quantit
 
 In the framework's terms: ω is trajectory in the non-clock sense. Not how long a process takes (Chronos, measurable clock time) but the rate at which the system moves through its own development — how fast it is cycling through the four-fold configurations, how rapidly it transitions between `.behold()` and `.observe()` states, how frequently it commits and renews.
 
-**The Two Clocks:** $\omega$ is the compilation engine at the centroid. It is distinct from coordinate time $dt$, which is the spatial record accumulated on the $R$ pole as the wake of the compilation cycle. General Relativity maps $dt$; Quantum Mechanics maps $\omega$. Conflating them produces the 'problem of time'.
-
 The Kairos mapping: ω is Kairos in its temporal mode. Where Kairos as a moment is the qualitative rightness of *when* (the transformative moment, the opportune timing), ω as an ongoing temporal dimension is the qualitative rate of cycling through such moments — the system's characteristic tempo of development.
 
 The Wisdom mapping: in the WVG framework, the 5D extension (Quintessence/Essence) maps to what the AC extension calls ω. Wisdom, in this framework, is not the accumulation of knowledge (which would be a property of the internal states, the hidden layers, the generative model) but the characteristic rate at which a system appropriately navigates through the four-fold: knowing not just *what* but *when*, and cycling through situations at the rate that situation requires.
@@ -34,6 +32,8 @@ The 6D extension (Ground of Being/Embodiment in WVG vocabulary) corresponds to t
 The 7D extension (Purposeful Action/Manifestation in WVG vocabulary) corresponds to ω operating across a trajectory — not just the rate at which this system cycles through its states, but the arc of that cycling through a context larger than itself. Where 6D is the standing dynamic form (S = P + jQ held in balance), 7D is the form in motion through a larger space. This is ω as trajectory heading, the navigational dimension the AC extension opened.
 
 A system with high ω cycles rapidly through configurations — quick to transform, quick to evaluate, quick to structure, quick to ground. This is not wisdom; this is reactivity at frequency. Wisdom is not high ω or low ω but the right ω for the situation: the appropriate rate of cycling given what the situation requires.
+
+> Do not reify $\omega$ into a universal background parameter. $\omega$ is the angular frequency of a *specific* bounded system's navigation through its configuration space. There is no "substrate-$\omega$ constancy" to specify, because the global Interpreter operates in perpetual `.behold()` without a temporal driver. Time ($\omega$) is a property of the bounded frame's compilation cycle, not a container the frame sits inside.
 
 ---
 
@@ -75,17 +75,25 @@ The complex quantity combining both is **Impedance**:
 
 where φ = arctan(X/R) is the phase angle.
 
-The phase angle of the impedance is given by the identifying equation:
-$$ \tan(\theta) = \frac{X}{R} = \frac{\omega L - \frac{1}{\omega C}}{R} $$
-For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Singularity, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
-
-In physics, massive gauge bosons acquire a third longitudinal polarization, known as the 'eaten Goldstone boson' from the Higgs mechanism. In the AC extension, this third polarization is the physical instantiation of the imaginary axis $jX$: the phase-delay component that carriers acquire when navigating an impedance-bearing medium.
-
 **The framework's interpretation**: Impedance **Z** is the complex extension of Resistance R. Where R (DC) is the grounding/opposition variable (Earth/Ethos) described only by its real component, **Z** (AC) includes both the real (dissipative, committed, irreversible) and imaginary (reactive, held-in-suspension, reversible) components of opposition.
 
 The imaginary component of impedance — the reactance X — is the formal expression of the AbsentVar at the temporal level: the component of opposition that is *held but not consumed*, present in the system but not committed to the Read-Only Ledger. Reactance stores what resistance would dissipate.
 
 This means: the AC extension adds a formal expression for the difference between `.observe()` (dissipative, real component) and `.behold()` (reactive, imaginary component) within the resistance/opposition variable itself. In DC, R has no imaginary component — all opposition is dissipative. In AC, Z has both: some opposition is dissipative (committed, lost) and some is reactive (held, potentially returned).
+
+### The Reactive Elements: Inductance and Capacitance
+
+Impedance Z = R + jX names the aggregate opposition; the reactance X is generated by two distinct element types, each first-class alongside R.
+
+**Inductance (L).** The storage element on an edge that carries voltage-driven flux. Its element constant is L; its reactance is X_L = ωL; voltage across an inductor leads current by 90°. Physically, L accumulates energy in a magnetic field when current builds and returns it when current falls. Structurally, L is the storage-partner of U: where U at ω = 0 only pushes, U across an inductor at ω > 0 pushes-and-remembers, and the memory is what L parameterizes.
+
+**Capacitance (C).** The storage element on an edge that carries current-driven charge. Its element constant is C; its reactance is X_C = 1/(ωC); current into a capacitor leads voltage by 90°. Physically, C accumulates charge on plates when current flows in and returns it when the drive drops. Structurally, C is the storage-partner of I: where I at ω = 0 only flows, I into a capacitor at ω > 0 flows-and-accumulates, and the accumulation is what C parameterizes.
+
+**The three impedance types together.** R, L, and C are three linearly-independent impedance elements, together spanning the complex impedance plane. R produces the real axis (pure dissipation, ω-independent). L produces the positive imaginary axis (magnetic storage, X_L scales linearly with ω). C produces the negative imaginary axis (electric storage, X_C scales inversely with ω). Any physical impedance Z = R + j(ωL − 1/ωC) is a superposition of the three.
+
+**The K4 does not gain new poles.** L and C are not additional structural poles beside P, R, U, I. They are element parameters for storage behaviors on the same edges that carry R's dissipation, activated when ω > 0. At ω = 0, L collapses to a wire (X_L → 0) and C to an open circuit (X_C → ∞); only R remains as an edge parameter, and the DC algebra of the twelve equations is recovered exactly. The AC algebra adds no vertices — only additional edge-parameter dimensions that phase can occupy.
+
+**The P-edges have both faces.** The analysis of the P-edges as zero-impedance write-channels (`Q4-OpenExhaust` §II) holds at the DC-face (ω = 0), where only R is active on any edge. At ω > 0, the P-edges admit the same L and C storage behaviors as any K4 edge: the Ledger can hold energy inductively (self-storage of committed structure against configuration change) and capacitively (accumulated potential from prior `.observe()` events, releasable when the drive drops). The write remains free at all ω — the DC result and its consequences (Star-Norm conservation, graviton absence) are preserved. The written acquires reactive dynamics at ω > 0. Gravitational radiation is the L-C discharge behavior of the P-edges at ω > 0; static curvature is the DC-face of the same edges. Two temporal projections of one algebra.
 
 ---
 
@@ -185,4 +193,3 @@ The research tasks the AC extension opens:
 ---
 
 *This document develops the AC extension from first principles using the framework's vocabulary. The source document (Electro-AC-db.org) contains the complete formal treatment including the fifty equations in detail, the specific inductive and capacitive reactance relationships, and the full phasor analysis. This document covers the foundational structural insights; the full source is the primary reference for the complete formal treatment. The K5 structure that the AC extension implies — five vertices, the formal graph-theoretic home of the five-variable system — is oriented in L3-EdgeStateSpace.md (Section IX, "Toward K5"), which provides the structural next step for the algebraic development initiated here.*
-
