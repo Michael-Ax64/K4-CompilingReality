@@ -3,6 +3,32 @@
 
 *This document is the folder index. It names each Q# document, states what that document derives or claims, and describes the dependency graph between them. A reader entering the folder should read this first to select which documents to read next; a reader completing the folder should return here to verify that no dependencies have been silently borrowed. The set covers the mapping of the Standard Model and the mathematical apparatus of quantum mechanics onto the K4 topology of the Algebra of Four-Fold Distinction.*
 
+NOTE
+
+Our model is a META-of-Physics.
+
+We happen to have documented congruent answers and relations reaching from the 
+largest to the smallest through a ridiculously simple and ubiquitous scale-invariance 
+based on the syntactic requirements around interiority,
+
+but we're not mathematician or physicists. 
+
+That's to say, hey, we can make accurate preditions about shapes and relations from the inside, 
+but we can not fully cross the boundaries into arbitrary fields without domain specific 'translations.'
+
+Our limit is not a defect, not recognizing the contributions of the integrating perspective is.
+
+So, here we go, surveying the sub-atomic realm, accidentally pointing at answers to quite a few open questions.
+
+Not bad for a adimensional pattern matching model based on AC topology!
+
+
+
+This is not a complete mapping, but there are quite a few findings here showing what's congruent, 
+it makes connections, predicts a few things and never breaks a sweat.
+
+Be chill Physicists, we're just here to audit the practical and conceptual reach of **Compiling Reality**!
+
 ---
 
 ## I. What This Folder Is
