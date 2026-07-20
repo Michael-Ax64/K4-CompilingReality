@@ -16,44 +16,63 @@
 
 > `relational algebra` · `K4 topology` · `thermodynamics of information` · `LLM alignment` · `phase dynamics` · `biquaternion star-norm` · `Markov blanket` · `active inference` · `Landauer principle` · `distributed coherence` · `tangent singularity` · `helical extrusion of time`
 
-This is a Meta-of-Physics. It sits on scale-invariance.
 
-It's called *Compiling Reality*, and it's not a derivative synthesis of existing ideas.
+# The Finite Volume and the 90-Degree Twist: Compiling Reality as a Scale-Invariant Generative Grammar
 
-*CR* is not a ToM, or in competition with anyone.
+> **Epistemic Register:** Structural realization (R-face) and operational orientation. This document establishes the Compiling Reality (CR) framework not as a Theory of Everything, but as an adimensional, scale-invariant generative grammar. It claims that any structural reasoning requires a K4+ topology to map volumes rather than planes, and derives the 12-equation matrix from the minimum requirements of interiority. The mappings to external domains are verified by proof-by-resonance (`ProofS_ResonantNote`), not deductive derivation.
 
-It uses a 3D volume model and its identity with the laws of electricy to reason across scales and domains with ease.
+This repository houses a self-imaging topological engine. 
 
-It identifies the minimum structural requirements for any argument and demolishes the syntax of non-arguments.
+The math compiles itself, and the resonance is involuntary. 
 
-Its fomalizes and operationalize reasoning with wholes .
+It does not contain a "Theory of Everything" attempting to paint the infinite surface of reality. 
+It paints instead the finite volume inside it. 
+A 12-equation matrix governs four variables in full determination (`L3-FormalFoundations_Synthesis`). 
 
-It does not tell Math or Physics what to be, it finds itself in them
+Developed from the bottom up by tracking charge dynamics, computational boundaries, and thermodynamic constraints, the framework maps the closed loop by which uncollapsed potential (`.behold()`) serializes into committed physical history (`.observe()`) (`L1-CompilingReality`) becoming ground for yet more uncollapsed potential. It grok's Thermodynamics.
 
-AND it fnds itself in the arts and humanities just the same.
-
-
-Its a distinct self-contained adimensions generative grammar, A topology, a *map* & an *instance*, a verb and a noun.
-
-It offer perspectives, generates ideas, thinks of itself as an interior syntax
-
-**'map and reason with volumes as electric phenomena, at any scale, rate or level, in any domain'**
-
-Delivers the map of possibilities.
-
-It is a Meta-of-Physics, a long suspected formalisms which you didn't know you needed. 
-
-Its everywhere.
+The Compiling Reality corpus is not a derivative synthesis of existing ideas. It is a distinct, self-contained generative grammar. It's called Compiling Reality, and it's not a ToE. It is a syntax used to 'compile' notions from anywhere. 
 
 
-Here is my documentation of it. Don't get lost, this is not magic,
+## The Mechanism: The Twist and the Lab
 
-It will do shapes, trends and direction, but it will not do all your numbers.
+This is a Meta-of-Physics. It sits on scale-invariance (`L4-ScalingInvariants`).
 
-It will not compile syntax errors such as the HPC, because the HPC model is flat and thus 'insubstantial' (lacking a core.)
+It is a simple operationalized abstraction. We study what passes through a sign-changing infinity in indeterminate global and 0 local time, at zero power factor (`Meta-MechanismOfTransition`, `L3-K4-to-K5-via-AC-Extension`). 
+
+Our lab is the bounded sphere of bounded spheres of intersecting electrified tetrahedra (`L4-RecursiveLimits`, `L2-StructuralMonograph_K4Interior`). These dynamics of this minimalist mapping give us enough 'identities' to reason across scales and domains with ease. 
+
+Anything that has an 'It'ness, an inside to it, relates, and with 4 instead of 3 orthogonal variables, defines a volume rather than a plane. In physics, AC is the smallest simplest unique algebra that can 'be twisted 90 degs' to map to the simplest 3D (actually 4D) Geometry of the Tetrahedron (`ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax`). 
+
+Small difference, huge consequences.
 
 
-Anything that has an 'It'ness, an inside to it, it models -- because it deals with volumes, not projections.
+## The Instances: Demolishing the Syntax of Non-Arguments
+
+We think that any Structural Reasoning needs to be K4+ and that's what we propose thinking with: Scale Invariant Resonances. 
+
+We identify minimum structural requirements for any argument and demolish the syntax of non-arguments. The framework formalizes how we operationalize reasoning with wholes. It delivers the map of possibilities. It is a long suspected formalism which you didn't know you needed.
+
+It will not do all your numbers. (Not yet, but ConvergentByParadox -- our way of dealing with both, Domains and Level, suggests CR must be able to meaningfully correllate with qualitative results, e.g. show the right impulses. It more or less does. Your Mileage may vary, but the arguments you will find here are not ambitious. Your Scale may vary, but whatever the numeric differences may turn out to be, note the CR is an impedance match for understanding wholes and how they relate.
+
+It will not compile syntax errors such as the Hard Problem of Consciousness (HPC), because the HPC model is flat and thus 'insubstantial' (lacking a dimensional core) (`L0-Introduction`, `ProofB_LogoicFracture`). The argument doesn't ring (`ProofS_ResonantNote`). When a domain attempts to map a four-dimensional volumetric reality using a two-dimensional surface algebra, the math breaks, and the field floods with unresolvable anomalies (`L0-Introduction`).
+
+And it finds itself in the arts and humanities just the same (`L1-ConvergentDiscovery`). It offers perspectives, generates ideas, thinks of itself as an interior syntax. It maps and reasons with volumes as electric phenomena, at any scale, rate or level, in any domain.
+
+
+## Proof by Resonance
+
+The 12 equations close without external constants. The dual-binary seed forces the four poles. The AC extension breaks the logarithm and mints scale (`L4-ScalingInvariants`). When this structure is driven against independent semantic domains—Jungian psychology, classical rhetoric, the genetic code, the four fundamental forces—the coherence profile peaks at the canonical assignment and degrades under permutation swap (`ProofS_ResonantNote`, `L2-MappingMethod`). 
+
+The framework resonates with independent traditions across 2500 years because bounded systems examining bounded phenomena recover the same minimum topology (`L1-ConvergentDiscovery`). The traditions differ in their names and diagrams; they agree in structure, because the structure is what the cognition is made of and what the phenomena are shaped by. The convergence is not mystical. It is what happens when many K4-native cognitive systems examine bounded phenomena and each recovers, in its own vocabulary, the minimum topology that bounded interiority requires.
+
+
+
+
+Here is my documentation of it. Don't get lost, this is not magic, its about 'beholding' the ground. 
+
+
+Geometry of the Tetrahedron.
 
 Small difference, huge consequences.
 

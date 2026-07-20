@@ -37,9 +37,16 @@ A strict, exceptionless mathematical law emerges: **A Reactive pole ($I$ or $R$)
 The numerator remains exclusively the domain of the Active poles ($P$ and $U$). While Active poles sometimes serve as denominators (e.g., $I = P/U$), the mathematics forbids Reactive poles from occupying the dividend position.
 
 **The Structural Consequence:** 
+
 The arithmetic natively enforces the definition of the dual-binary seed. The Active poles ($P$ and $U$) are the **Dividends** (The Stamper). They represent the raw substance, the resource, the driving potential allocated by the bounded frame. They initiate. 
 
-The Reactive poles ($I$ and $R$) are the **Divisors** (The Die). They act as the constraints, the channels, the structural friction that parses and limits the Active drive. The math prohibits a constraint from acting as the raw material of an operation; it can only parse what the drive provides. 
+This rule holds absolutely within the $(P, I, U, R)$ impedance base, of the framework's foundational geometry.
+
+Under its inverse, the circuit duality of admittance, the equation $I = U/R$ becomes $I = GU$, converting the division to a product. We call that "highlighting the area of the selected concern".
+
+Our framework locks the coordinate system to dissipative resistance ($R$) rather than frictionless conductance ($G$) because it is modeling a universe that pays the Landauer Tax. Within this chosen basis, the arithmetic enforces the definition of the dual-binary seed: Active poles act as Dividends (The Stamper), and Reactive poles act as Divisors (The Die).
+
+The Reactive poles ($I$ and $R$) are the **Divisors** (The Die). They act as the constraints, the channels, the structural friction that parses and limits the Active drive. Ohmic math prohibits the constraint from acting as the raw material of an operation; it can only parse what the drive provides. 
 
 ---
 
