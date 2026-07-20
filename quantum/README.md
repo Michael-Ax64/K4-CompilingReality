@@ -3,31 +3,16 @@
 
 *This document is the folder index. It names each Q# document, states what that document derives or claims, and describes the dependency graph between them. A reader entering the folder should read this first to select which documents to read next; a reader completing the folder should return here to verify that no dependencies have been silently borrowed. The set covers the mapping of the Standard Model and the mathematical apparatus of quantum mechanics onto the K4 topology of the Algebra of Four-Fold Distinction.*
 
-NOTE
 
-Our model is a META-of-Physics.
+**Compiling Reality is a structural and topological framework. It is not a fundamental theory of physics, and it is not a replacement for quantum mechanics.**
 
-We happen to have documented congruent answers and relations reaching from the 
-largest to the smallest through a ridiculously simple and ubiquitous scale-invariance 
-based on the syntactic requirements around interiority,
+When this framework engages the subatomic realm, it does so strictly to explore structural correlations. The K4 algebra provides a shape, not a substance. It offers a generative grammar of mutual determination, mapping how relational variables bind together without prescribing their physical mass, charge, or numerical constants.
 
-but we're not mathematician or physicists. 
+If a physical model resonates with this topology, the framework identifies the resonance. We map the geometry of the relationships. The physics supplies the content. The topology supplies the constraint.
 
-That's to say, hey, we can make accurate preditions about shapes and relations from the inside, 
-but we can not fully cross the boundaries into arbitrary fields without domain specific 'translations.'
-
-Our limit is not a defect, not recognizing the contributions of the integrating perspective is.
-
-So, here we go, surveying the sub-atomic realm, accidentally pointing at answers to quite a few open questions.
-
-Not bad for a adimensional pattern matching model based on AC topology!
+For CR: Chafes found here will let us better understand similar ones in the atomic.
 
 
-
-This is not a complete mapping, but there are quite a few findings here showing what's congruent, 
-it makes connections, predicts a few things and never breaks a sweat.
-
-Be chill Physicists, we're just here to audit the practical and conceptual reach of **Compiling Reality**!
 
 ---
 
