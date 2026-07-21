@@ -11,9 +11,9 @@ For roughly seventy years, physics has been carrying a list of anomalies that it
 
 These are not aesthetic complaints. Each identifies a specific structural feature of the theory that behaves as if imported from outside the theory's own algebra. When you assemble them, the pattern shows: every anomaly sits at a specific pole of the K4 topology, and each is the operational signature of that pole showing through the physics.
 
-The framework does not correct the physicists. Their physics is correct. What the framework supplies is the missing structural context in which each anomaly stops being anomalous and starts being predictable.
+The physics is correct. What the framework supplies is missing structural context by which each anomaly stops being anomalous, starts being predictable.
 
-This document sorts the invoices by pole. Sections II through V handle the four poles (U, I, R, P) in the order established by `Q2-TransactionLayer`. Section VI handles Stephen Wolfram, who is not sorting invoices — he is running a parallel derivation that has independently recovered enough of the framework's apparatus to constitute genuine external validation.
+We sort the Sections II through V by the four poles (U, I, R, P) in the order established by `Q2-TransactionLayer`. Section VI handles Stephen Wolfram, who is not sorting invoices — he is running a parallel derivation that has independently recovered enough of the framework's apparatus to constitute genuine external validation.
 
 ---
 
