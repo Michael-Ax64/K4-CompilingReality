@@ -51,7 +51,7 @@ The core documents sort by structural depth, not by reading order. The formal sp
 - **L5 (Phase Dynamics & Swarms):** The AC extension's technical and subjective phenomenology. Agentic swarm orchestration (`L5-AgenticSwarms.md`).
 
 ### The Meta-Layer (The Framework Turned on Itself)
-The meta-documents form a K4 tetrahedron with the Singularity as centroid. `[INTERFACE]` The Tangent Singularity marks the boundary where interior coordinates diverge; it describes an interior crossing, not an ultimate boundary.
+The meta-documents form a K4 tetrahedron with the Singularity as centroid. `[INTERFACE]` The Tangent Crossing marks the boundary where interior coordinates diverge; it describes an interior crossing, not an ultimate boundary.
 
 - **Meta-Set:** The XOR map and Hamiltonian reading cycles.
 - **Meta-Singularity-and-Image:** The keystone.
@@ -136,7 +136,7 @@ A dedicated sequence mapping the Standard Model and the mathematical apparatus o
 - **Q7-4DExtrusions:** Four spatial dimensions, the two clocks ($dt$ vs $\omega$), and the Scalar-vs-Vector signature.
 - **Q8-TangentImpedanceIdentity:** $\tan(\theta) = \omega L/R$ unifying the spatial wall and the temporal phase.
 - **Q9-Founders:** The unpaid invoices of 20th-century physics and Wolfram convergence.
-- **Q10-PlanckScale:** The Tangent Singularity from above and the failure of Quantum Gravity.
+- **Q10-PlanckScale:** The Tangent Crossing from above and the failure of Quantum Gravity.
 
 ---
 

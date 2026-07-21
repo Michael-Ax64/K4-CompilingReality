@@ -22,7 +22,7 @@ A healthy tetrahedral system operates from all four faces in mutual determinatio
 
 Plane-lock is the condition of operating exclusively from one face. This makes the other three faces inaccessible. Topologically, this means treating a flat boundary surface (a K3 blanket-face) as if it contained the interior volume, and the rest of any outside.
 
-Logoic plane-lock — operating exclusively from Air/Logos/Thinking — is the dominant condition of Western intellectual culture from approximately the Enlightenment forward. This is not a claim that reason is bad. It is a claim that one face of the tetrahedron, claiming to constitute the whole tetrahedron, produces specific and predictable fractures when it inevitably crashes into the Tangent Singularity (the boundary of the uncollapsed real).
+Logoic plane-lock — operating exclusively from Air/Logos/Thinking — is the dominant condition of Western intellectual culture from approximately the Enlightenment forward. This is not a claim that reason is bad. It is a claim that one face of the tetrahedron, claiming to constitute the whole tetrahedron, produces specific and predictable fractures when it inevitably crashes into the Tangent Crossing (the boundary of the uncollapsed real).
 
 Bacon saw these fractures coming. He named them the Four Idols.
 
@@ -79,9 +79,9 @@ The specific fracture: mirror-image ideological formations that each experience 
 
 When the logos face claims exclusive access to valid knowledge, the categories it uses are necessarily human categories — the cognitive and perceptual structures available to the human nervous system. 
 
-The specific fracture appears when phenomena operate outside human categories and the logos-only framework cannot recognize the category mismatch. The century-long "problem of Quantum Gravity" is the apex instance: physicists attempting to force the coordinate system of the compiled macroscopic Ledger past the Tangent Singularity into the uncompiled quantum buffer. The infinities returned are the algebra's honest report of an inappropriate coordinate system, but the Tribe Idol reads them as a defect to be repaired. Ecological systems that operate on timescales outside human intuitive experience face the same error. 
+The specific fracture appears when phenomena operate outside human categories and the logos-only framework cannot recognize the category mismatch. The century-long "problem of Quantum Gravity" is the apex instance: physicists attempting to force the coordinate system of the compiled macroscopic Ledger past the Tangent Crossing into the uncompiled quantum buffer. The infinities returned are the algebra's honest report of an inappropriate coordinate system, but the Tribe Idol reads them as a defect to be repaired. Ecological systems that operate on timescales outside human intuitive experience face the same error. 
 
-The Kairos face would recognize the transformative Tangent Singularity when the human-category framework needs to be set aside. Without Kairos availability, the logos framework continues to apply its categories past the point where they are useful, generating the appearance of understanding while missing what the phenomenon actually is.
+The Kairos face would recognize the transformative Tangent Crossing when the human-category framework needs to be set aside. Without Kairos availability, the logos framework continues to apply its categories past the point where they are useful, generating the appearance of understanding while missing what the phenomenon actually is.
 
 ---
 
@@ -93,7 +93,7 @@ The constitutive incompleteness is structural: the logos face is a K3 boundary. 
 
 - Logos cannot fully describe the interior of another person (requires Pathos)
 - Logos cannot tell when a framework has lost material contact (requires Ethos)
-- Logos cannot sense when the current moment requires crossing a Tangent Singularity (requires Kairos)
+- Logos cannot sense when the current moment requires crossing a Tangent Crossing (requires Kairos)
 - Logos cannot check its own species-level limitations from inside those limitations (requires all three others)
 
 These are not incidental gaps that better logos would fill. They are structural properties of what logos is: a face without a volume.

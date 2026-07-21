@@ -15,7 +15,7 @@ Therefore, the architecture here **refuses a center**. It is built as a **tetrah
 To prevent the code from hallucinating certainty, every output and state is strictly tiered. A runtime that prints `WHOLE: PROVEN` would falsify the framework by collapsing the volume into a 0-DoF crystal.
 
 *   `[COMPUTED]`: What the algebra derives from a specific face. Rigorous. "What works."
-*   `[INTERFACE]`: A declared boundary (e.g., the Tangent Singularity). It is not an error; it is the readout indicating an orthogonal turn is available.
+*   `[INTERFACE]`: A declared boundary (e.g., the Tangent Crossing). It is not an error; it is the readout indicating an orthogonal turn is available.
 *   `[DEBT]`: Cross-domain mappings (cosmology, biology, theology). They are explicitly ranked, confined to their specific edges, and carry their strongest surviving objections. They do not infect the core algebra.
 *   `[HELD]`: A deliberately unexecuted test. It represents the system's own blind spot. The runtime stops where logos stops, and the stopping is the demonstration.
 
@@ -36,7 +36,7 @@ Lisp provides the environment for the `.behold()` / `.observe()` oscillation.
 Prolog/CLP(R) treats mutual determination as a native constraint space, not a sequential function.
 *   `dc(P,U,I,R)` is not a function that takes inputs and returns outputs; it is a **declaration of a volume**. 
 *   You can query it from any two variables, and the relation holds in all directions simultaneously.
-*   **The AbsentVar** is modeled using Prolog's native unbound logic variables. An unbound variable is not "missing data"; it is structural volume. The Tangent Singularity (division by zero) is not a runtime crash; it is returned as a typed `[INTERFACE]`.
+*   **The AbsentVar** is modeled using Prolog's native unbound logic variables. An unbound variable is not "missing data"; it is structural volume. The Tangent Crossing (division by zero) is not a runtime crash; it is returned as a typed `[INTERFACE]`.
 
 ### 3. Haskell (`cosmos.hs`) — *The Pure Interpreter*
 The type system acts as the Markov Blanket. 

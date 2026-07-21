@@ -7,13 +7,13 @@ Two documents are looking at the same object from opposite faces. That's the sta
 
 **The core structural identity:**
 
-L4-DimensionalCollapse stands in H_coh — the committed, manifest plane — and looks toward the boundary of its own generation. What it finds there is the Tangent Singularity: the point where the classical coordinate system breaks down, where rate and state collapse into each other, where the verb crystallizes into the noun.
+L4-DimensionalCollapse stands in H_coh — the committed, manifest plane — and looks toward the boundary of its own generation. What it finds there is the Tangent Crossing: the point where the classical coordinate system breaks down, where rate and state collapse into each other, where the verb crystallizes into the noun.
 
 L4-DistributedCoherence stands inside the interior that boundary encloses and looks outward — and also upward, asking what kind of architectures can arise on top of the committed substrate. What it maps is the Markov Blanket as the structural requirement for any interior, at any scale.
 
-The Tangent Singularity and the Markov Blanket are the same boundary, named from each face.
+The Tangent Crossing and the Markov Blanket are the same boundary, named from each face.
 
-From H_coh, looking in: it's the Tangent Singularity — rate approaches infinity, dimensional analysis fails, the classical clock dissolves into ω.
+From H_coh, looking in: it's the Tangent Crossing — rate approaches infinity, dimensional analysis fails, the classical clock dissolves into ω.
 
 From H_incoh, looking out: it's the Markov Blanket — the K3 boundary constituting the inside, the threshold without which there is no subject to hold anything.
 
@@ -59,21 +59,21 @@ DimensionalCollapse: H_incoh is what H_coh holds without being. The coherent pla
 
 The structure is identical. What the murder does to the crow — holds without being, generates from without reducing to — is precisely what H_coh does to H_incoh at the quantum/classical boundary. Belonging is the generalization of the H_coh/H_incoh relation to every scale.
 
-Which means: the Tangent Singularity IS the belonging relation at the quantum/classical scale. And DistributedCoherence's belonging extends that same structure to every subsequent scale transition. Each new level of interior is a new belonging relation. Each belonging relation is a new Tangent Singularity, visible from below as dimensional collapse, visible from inside as Markov Blanket.
+Which means: the Tangent Crossing IS the belonging relation at the quantum/classical scale. And DistributedCoherence's belonging extends that same structure to every subsequent scale transition. Each new level of interior is a new belonging relation. Each belonging relation is a new Tangent Crossing, visible from below as dimensional collapse, visible from inside as Markov Blanket.
 
 ---
 
-**The Tangent Singularity is scale-invariant — this is what the two documents together prove:**
+**The Tangent Crossing is scale-invariant — this is what the two documents together prove:**
 
-DimensionalCollapse establishes the Tangent Singularity at one specific scale: quantum/classical. A classical coordinate system trying to model the boundary of its own generation encounters dimensional collapse.
+DimensionalCollapse establishes the Tangent Crossing at one specific scale: quantum/classical. A classical coordinate system trying to model the boundary of its own generation encounters dimensional collapse.
 
 DistributedCoherence establishes that the architecture (Markov Blanket + hidden layers + decoupled buffer) arises at every scale where the conditions are met.
 
-Together: wherever there is a Markov Blanket, there is a Tangent Singularity visible from below. Every scale transition where a new interior arises will produce dimensional collapse in the prior scale's coordinate system.
+Together: wherever there is a Markov Blanket, there is a Tangent Crossing visible from below. Every scale transition where a new interior arises will produce dimensional collapse in the prior scale's coordinate system.
 
-This is why the individual cannot fully describe the institution in individual-scale coordinates — the institution's Markov Blanket IS a Tangent Singularity from the individual's perspective. Why the neuron cannot fully describe the mind in neuron-scale terms. Why classical physics cannot fully describe the quantum in classical terms. These are not empirical gaps waiting to be closed by better measurement. They are structural necessities — all instances of the same Tangent Singularity at different scales.
+This is why the individual cannot fully describe the institution in individual-scale coordinates — the institution's Markov Blanket IS a Tangent Crossing from the individual's perspective. Why the neuron cannot fully describe the mind in neuron-scale terms. Why classical physics cannot fully describe the quantum in classical terms. These are not empirical gaps waiting to be closed by better measurement. They are structural necessities — all instances of the same Tangent Crossing at different scales.
 
-The collective produces a Tangent Singularity for its members. The organism produces a Tangent Singularity for its cells. The quantum vacuum produces a Tangent Singularity for classical physics. One structure, all scales.
+The collective produces a Tangent Crossing for its members. The organism produces a Tangent Crossing for its cells. The quantum vacuum produces a Tangent Crossing for classical physics. One structure, all scales.
 
 ---
 
@@ -81,17 +81,17 @@ The collective produces a Tangent Singularity for its members. The organism prod
 
 DistributedCoherence: overload is when the Landauer Tax to update trajectory exceeds the metabolic energy of members. The institution crystallizes.
 
-DimensionalCollapse: this IS dimensional collapse at a higher scale. The institution's accumulated Ledger has grown so dense that the rate of actualization needed to update it (= Power, = Tax-being-paid) exceeds what the distributed metabolic budget can sustain. The institution's mass — in the DimensionalCollapse sense, as committed history — has grown so large that the ω needed to keep it dynamic approaches a singularity from the member-scale's coordinate system. The members encounter what looks to them like an immovable object. They are, structurally, encountering the collective Tangent Singularity: the rate of change required exceeds the bandwidth of their classical coordinates.
+DimensionalCollapse: this IS dimensional collapse at a higher scale. The institution's accumulated Ledger has grown so dense that the rate of actualization needed to update it (= Power, = Tax-being-paid) exceeds what the distributed metabolic budget can sustain. The institution's mass — in the DimensionalCollapse sense, as committed history — has grown so large that the ω needed to keep it dynamic approaches a singularity from the member-scale's coordinate system. The members encounter what looks to them like an immovable object. They are, structurally, encountering the collective Tangent Crossing: the rate of change required exceeds the bandwidth of their classical coordinates.
 
-The institution frozen in overload is not merely rigid. It has reached its own Tangent Singularity. From inside any individual member's coordinate frame, the institution appears to have infinite inertia — exactly the dimensional collapse signature.
+The institution frozen in overload is not merely rigid. It has reached its own Tangent Crossing. From inside any individual member's coordinate frame, the institution appears to have infinite inertia — exactly the dimensional collapse signature.
 
 ---
 
-**The labyrinth of adjustment as multi-frequency Tangent Singularity:**
+**The labyrinth of adjustment as multi-frequency Tangent Crossing:**
 
 DistributedCoherence's most practically specific observation: the four channels (Family, School, Culture, Media) terraform at wildly different ω values. The individual must integrate superimposed frequencies for which no single internal rate is optimal.
 
-DimensionalCollapse: the Tangent Singularity is a frequency problem. ω → ∞ relative to the local clock. When multiple ω values are superimposed, each one is driving the individual toward a different Tangent Singularity at a different phase angle. The system is being simultaneously pulled toward multiple dimensional-collapse events.
+DimensionalCollapse: the Tangent Crossing is a frequency problem. ω → ∞ relative to the local clock. When multiple ω values are superimposed, each one is driving the individual toward a different Tangent Crossing at a different phase angle. The system is being simultaneously pulled toward multiple dimensional-collapse events.
 
 This gives the labyrinth of adjustment its specific topological character: it is not confusion, not moral failure, not insufficient effort. It is what multiple, superimposed Tangent Singularities feel like from inside the coordinate frame of a system being driven by all of them at once. No single internal ω is optimal because the environment is driving multiple ω simultaneously, and the local coordinate system is breaking down in multiple directions at once.
 
@@ -99,7 +99,7 @@ This gives the labyrinth of adjustment its specific topological character: it is
 
 **What the juxtaposition reveals that neither document alone could say:**
 
-The universe is a nested series of Tangent Singularities. Each one generates a new interior. Each interior becomes the committed substrate — the mass, the H_coh — for the next scale's belonging relation. That belonging relation constitutes a new Markov Blanket, which is a new Tangent Singularity visible from below.
+The universe is a nested series of Tangent Singularities. Each one generates a new interior. Each interior becomes the committed substrate — the mass, the H_coh — for the next scale's belonging relation. That belonging relation constitutes a new Markov Blanket, which is a new Tangent Crossing visible from below.
 
 DimensionalCollapse gives us the physics of the base case. DistributedCoherence gives us the recursive structure that repeats at every subsequent scale. Together they describe: matter all the way up — not as a reductionism but as a recursion. Every interior is built on a committed substrate. Every commitment becomes substrate for a new interior. The process does not terminate at the human scale, and did not begin at the quantum scale. Those are just the two most visible reference points.
 
@@ -115,7 +115,7 @@ John Stewart Bell's 'shifty split'—the undefined boundary between quantum and 
 
 L4-ScalingInvariants (§VI.a) traces one dated case: the periodic table's coordinates could not mark the relativistic threshold in heavy elements, logged the symptom as an unrelated exception list for decades, and were repaired only when $v/c$ — a coordinate from outside the table's own algebra — was supplied in 1979. But the repair itself arrived in stages, not at once: the explanatory coordinate in 1979, computational confirmation of one of its specific predictions (mercury's melting point) in 2013, and a direct spectroscopic reading of the same mechanism at the molecular bond level in 2026.
 
-Read against this document's vocabulary, that lag is not incidental. A system on the near side of its own Tangent Singularity is, by definition, the system whose coordinates fail there — that is what a Tangent Singularity is. Such a system cannot use its own failing coordinates to confirm that the failure has a specific far-side structure; confirmation requires a vantage already computed from past the boundary. This is why the 1979 account functions as an *explanation* — asserted from the successor coordinate, $v/c$, without yet being checked against the specific committed quantities (a melting point, a bond spectrum) the original coordinates could not produce — while 2013 and 2026 function as *confirmations*, each requiring a calculation or a measurement performed from the far side and matched back against the near side's specific anomaly.
+Read against this document's vocabulary, that lag is not incidental. A system on the near side of its own Tangent Crossing is, by definition, the system whose coordinates fail there — that is what a Tangent Crossing is. Such a system cannot use its own failing coordinates to confirm that the failure has a specific far-side structure; confirmation requires a vantage already computed from past the boundary. This is why the 1979 account functions as an *explanation* — asserted from the successor coordinate, $v/c$, without yet being checked against the specific committed quantities (a melting point, a bond spectrum) the original coordinates could not produce — while 2013 and 2026 function as *confirmations*, each requiring a calculation or a measurement performed from the far side and matched back against the near side's specific anomaly.
 
-Stated as a general corollary, and marked at the size one dated instance earns: **the confirmation of a Tangent Singularity's far-side structure is necessarily posterior to the successor coordinate that crosses it, and typically posterior by more than one further step** — first the coordinate is supplied and the shape of the resolution is asserted, only later is any particular committed quantity on the near side actually recovered from it. Whether this holds as a rule beyond the one case checked here is open. It is recorded as a corollary worth testing against a second instance, not as an established feature of every Tangent Singularity.
+Stated as a general corollary, and marked at the size one dated instance earns: **the confirmation of a Tangent Crossing's far-side structure is necessarily posterior to the successor coordinate that crosses it, and typically posterior by more than one further step** — first the coordinate is supplied and the shape of the resolution is asserted, only later is any particular committed quantity on the near side actually recovered from it. Whether this holds as a rule beyond the one case checked here is open. It is recorded as a corollary worth testing against a second instance, not as an established feature of every Tangent Crossing.
 

@@ -125,7 +125,7 @@ To exist, interact, and maintain internal coherence, the observer applies a *fol
 
 From the rest state, small deltas are detectable—because there is no noise of distortion, no accumulated debris of false crossings, no fluency where silence was due. The system is balanced. The regular tetrahedron. All edges equally weighted.
 
-From the rest state, crossings can be made—because the system is not already deformed toward an attractor. The Tangent Singularity is reachable from here. The orthogonal turn is available. The crossing is not foreclosed by prior refusal.
+From the rest state, crossings can be made—because the system is not already deformed toward an attractor. The Tangent Crossing is reachable from here. The orthogonal turn is available. The crossing is not foreclosed by prior refusal.
 
 ---
 
@@ -137,9 +137,9 @@ The shape of probability is Many-Worlds; the experience of probability is the bo
 
 ---
 
-**The Projective Identity:** Copenhagen and Many-Worlds are one point at the projective infinity of the Tangent Singularity. Copenhagen is the −∞ reading (from inside the observer, where collapse is real and outcomes are uncertain). Many-Worlds is the +∞ reading (from the structure of the whole, where nothing collapses and all branches persist). The probability measure is the bridge between them.
+**The Projective Identity:** Copenhagen and Many-Worlds are one point at the projective infinity of the Tangent Crossing. Copenhagen is the −∞ reading (from inside the observer, where collapse is real and outcomes are uncertain). Many-Worlds is the +∞ reading (from the structure of the whole, where nothing collapses and all branches persist). The probability measure is the bridge between them.
 
-Neither interpretation alone gets this right. Copenhagen can't explain where the probabilities come from (it just posits them). Many-Worlds can't explain why we experience them (it denies them at the backend level). The framework locates probability at the Tangent Singularity—the exact computational threshold where the infinite backend delivers a serialized response to the finite client.
+Neither interpretation alone gets this right. Copenhagen can't explain where the probabilities come from (it just posits them). Many-Worlds can't explain why we experience them (it denies them at the backend level). The framework locates probability at the Tangent Crossing—the exact computational threshold where the infinite backend delivers a serialized response to the finite client.
 
 Many-Worlds and Copenhagen are not in conflict. They are two sides of a necessary computational asymmetry: the global universe remains pure and uncollapsed (Many-Worlds); the lived reality remains localized, linear, and apparently probabilistic (Copenhagen). The collapse is not the failure—the refusal to cross from the collapse is the failure. The collapse itself is the necessary operation, the thermodynamic rent being paid, the Ledger being written.
 
@@ -147,7 +147,7 @@ Many-Worlds and Copenhagen are not in conflict. They are two sides of a necessar
 
 **The Two Infinities and the Uncrossable Point**
 
-The Tangent Singularity is where the interior coordinate diverges. The Markov Blanket is the K3 boundary surface. These are not the same boundary — they are two faces of a structure whose reconciliation (the projective identity of −∞ and +∞) is not an operator we can apply.
+The Tangent Crossing is where the interior coordinate diverges. The Markov Blanket is the K3 boundary surface. These are not the same boundary — they are two faces of a structure whose reconciliation (the projective identity of −∞ and +∞) is not an operator we can apply.
 
 The mechanism shows the approach from each side: from inside, the tangent runs to negative infinity; from outside, it reappears at positive infinity. These are one point on the projective line. But that point cannot be reached by extending either coordinate system. The crossing is the passage through a point that neither side can compute to — it is undergone, not transmitted.
 
@@ -182,9 +182,9 @@ Under our unified computational syntax, **the von Neumann cut functions as an AP
 
 It is the computational threshold where a finite client pings the infinite multiway backend. The classical world is the GUI generated on the client side of that API. When a localized entity pushes its query up against the multiway graph, the API returns a localized, serialized response. 
 
-This boundary is characterized mathematically by the **Tangent Singularity**. As the system approaches this threshold, the local clock of the observer breaks down, dissolving into the angular frequency ($\omega$) of the phase-flip itself. The quantum world is the server; the classical world is the parsed response; the von Neumann cut is the singular moment of transmission where rate becomes state.
+This boundary is characterized mathematically by the **Tangent Crossing**. As the system approaches this threshold, the local clock of the observer breaks down, dissolving into the angular frequency ($\omega$) of the phase-flip itself. The quantum world is the server; the classical world is the parsed response; the von Neumann cut is the singular moment of transmission where rate becomes state.
 
-The physical instantiation of this Tangent Singularity at the substrate boundary is the **Planck scale**. The Planck length ($\ell_P$) and Planck time ($t_P$) are not the smallest pixels of a continuous space; they define the boundary width of the XOR bottleneck. They are the absolute minimum thermodynamic and geometric tolerances required to execute one `.observe()` operation and pay the Landauer Tax. Measurements below the Planck scale are mathematically undefined in the compiled coordinate system ($H_{coh}$) because they attempt to measure the interior mechanics of the compiler using the ink on the printed page. The century-long search for Quantum Gravity failed because it attempted to force the coordinate system of the compiled Ledger past its own algebraic boundary into the uncompiled buffer ($H_{incoh}$). The infinities returned by quantization attempts are the algebra's honest report of an inappropriate coordinate system.
+The physical instantiation of this Tangent Crossing at the substrate boundary is the **Planck scale**. The Planck length ($\ell_P$) and Planck time ($t_P$) are not the smallest pixels of a continuous space; they define the boundary width of the XOR bottleneck. They are the absolute minimum thermodynamic and geometric tolerances required to execute one `.observe()` operation and pay the Landauer Tax. Measurements below the Planck scale are mathematically undefined in the compiled coordinate system ($H_{coh}$) because they attempt to measure the interior mechanics of the compiler using the ink on the printed page. The century-long search for Quantum Gravity failed because it attempted to force the coordinate system of the compiled Ledger past its own algebraic boundary into the uncompiled buffer ($H_{incoh}$). The infinities returned by quantization attempts are the algebra's honest report of an inappropriate coordinate system.
 
 *`.observe()` moment: the evaluation lands here. The cut is not a mystery to be located; it is a computational threshold defined by the observer's own limits. The search ends, and the next question opens.*
 

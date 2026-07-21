@@ -37,7 +37,7 @@ The discrepancy arises from this structural equation.
 
 ---
 
-## III. The Projection Architecture (The Tangent Singularity)
+## III. The Projection Architecture (The Tangent Crossing)
 
 The correct relationship [*formalism is sketch-level; this is the structural claim*]:
 
@@ -55,11 +55,11 @@ A projection operator Ψ maps $H_Q$ onto $H_{coh}$:
 
 where $P_{coh}$ is the projection onto $H_{coh}$, sandwiching the QFT stress tensor between two projections.
 
-The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Singularity**. At the substrate scale, its physical instantiation is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail. It functions structurally as the boundary where the localized observer's clock ($dt$) dissolves, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
+The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Crossing**. At the substrate scale, its physical instantiation is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail. It functions structurally as the boundary where the localized observer's clock ($dt$) dissolves, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
 
 When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
 
-The discrepancy follows immediately: QFT's $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions. GR's $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
+The discrepancy follows immediately: QFT's $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions. GR's $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Crossing with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
 
 *Where you should push back*: The Hilbert space decomposition $H_Q = H_{coh} \oplus H_{incoh}$ is postulated, not derived from first principles in the standard model. $P_{coh}$ is defined structurally but its precise mathematical form in terms of existing QFT formalism has not been specified. This is real incompleteness. But the structural claim does not require the formalism to be complete to prove the Axiom of Isomorphism is a category error.
 
@@ -99,7 +99,7 @@ Physics uses "singularity" for structures that the framework requires to keep di
 
 **The physical singularity** (r=0 inside a black hole): a genuine divergence where $H_{coh}$ theory fails because the projection is being asked to describe pure $H_{incoh}$ substrate directly. Ψ → ∞. The GR equations return infinite curvature because the interior has collapsed entirely into $H_{incoh}$ and classical coordinates have nothing left to describe. 
 
-**The Tangent Singularity (Meta-Singularity)** (the ultimate boundary): neither Ψ → ∞ nor Ψ degenerate. Ψ is undefined because there is no $H_{coh}$ to project into. Every coordinate system we deploy to describe it is made of the inside. Black holes teach us about the maximum-stress limits of the $H_{coh}/H_{incoh}$ projection. The Tangent Singularity models the boundary of the projection itself.
+**The Tangent Crossing (Meta-Singularity)** (the ultimate boundary): neither Ψ → ∞ nor Ψ degenerate. Ψ is undefined because there is no $H_{coh}$ to project into. Every coordinate system we deploy to describe it is made of the inside. Black holes teach us about the maximum-stress limits of the $H_{coh}/H_{incoh}$ projection. The Tangent Crossing models the boundary of the projection itself.
 
 The information paradox is reframed here: information is preserved in $H_{incoh}$; it *appears* lost in $H_{coh}$ because Ψ is not invertible by construction. The apparent paradox dissolves by recognizing that $H_{incoh}$ unitarity and $H_{coh}$ unitarity are separated by an irreversible thermodynamic tax.
 
@@ -139,7 +139,7 @@ Two independent paths — ubiquity from the physical substrate, and dual-binary 
 
 What is established:
 - The standard treatment operates on a hidden structural isomorphism that equates quantities at different thermodynamic phases of actualization.
-- The projection architecture ($H_Q = H_{coh} \oplus H_{incoh}$, Ψ) reframes the discrepancy structurally via the Tangent Singularity.
+- The projection architecture ($H_Q = H_{coh} \oplus H_{incoh}$, Ψ) reframes the discrepancy structurally via the Tangent Crossing.
 - The Casimir null-gravitational-signature prediction is falsifiable and binary.
 
 What is sketch-level and requires a trained physicist's work:

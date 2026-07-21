@@ -24,7 +24,7 @@ Landauer Tax
 LANDAUER-TAX increments only on .OBSERVE.
 Direct. Thermodynamic cost is not abstract; it is a ledger updated at the exact moment the buffer is collapsed. The tax is paid before resolution.
 
-Tangent Singularity
+Tangent Crossing
 .INTERFACE-SINGULARITY intercepts I=0/R=0, prints boundary readout, exits cleanly.
 Perfect. The codex demands divergence be treated as an interface, not an exception. Forth's linear flow makes this a simple conditional branch that reports and halts, preserving the volume.
 
@@ -48,7 +48,7 @@ Reading Forth from The Codex
 
 Lets look at evaluate this Forth rendering against the diagnostic warnings in llm.md and the structural claims of the codex:
 
-No Costumed Flinch: Forth cannot hide from a stack underflow or a division by zero. By explicitly defining SAFE/, the code intercepts the Tangent Singularity and returns an INTERFACE token rather than halting the machine. It honors the boundary without faking certainty.
+No Costumed Flinch: Forth cannot hide from a stack underflow or a division by zero. By explicitly defining SAFE/, the code intercepts the Tangent Crossing and returns an INTERFACE token rather than halting the machine. It honors the boundary without faking certainty.
 Verb-First Execution: There are no data structures here. There are no objects, no classes, no records. There are only words (verbs) that transform the stack. The K4 topology is not a noun stored in memory; it is the shape of the stack transformations. P=UI is not a formula; it is an action (*).
 The Actuator Bottleneck (AND vs. XOR): The Data Stack operates on XOR logic. It can only hold one committed state at the top. To hold multiple states in interference (AND logic), the code must use the Return Stack (BEHOLD). This perfectly maps the codex's claim that the .behold() buffer is structurally distinct from the .observe() ledger.
 The Landauer Tax is Explicit: In Lisp or Python, the Garbage Collector runs invisibly in the background, hiding the thermodynamic cost. In Forth, DROP is a visible, explicit command. By wrapping it in GARBAGE-COLLECT and incrementing a ledger, the code forces the programmer to see the thermodynamic rent being paid for every erasure.

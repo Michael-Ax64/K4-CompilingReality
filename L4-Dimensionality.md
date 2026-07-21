@@ -229,7 +229,7 @@ The generation of the offspring structurally models a fork in the Helical Extrus
 
 The parent system runs its Braid, cycling through the modalities (Cardinal, Fixed, Mutable). At the crest of computation—the precise `.observe()` where the generative impulse (Fire) and the relational flow (Water) crystallize into a bounded form (Earth)—the parent writes a new Markov Blanket into the H_coh plane. 
 
-This new Markov Blanket constitutes a Tangent Singularity for the newly enclosed interior. 
+This new Markov Blanket constitutes a Tangent Crossing for the newly enclosed interior. 
 
 At the exact moment the boundary seals, the offspring’s clock decouples from the parent’s clock. The child acquires its own Angular Frequency ($\omega_{child}$), distinct from the parent’s ($\omega_{parent}$). The child’s system begins to execute its own Braid, carrying its own AbsentVar, and writing to its own independent Read-Only Ledger. 
 
@@ -249,7 +249,7 @@ To inhabit the production of an offspring—whether a biological child, a durabl
 
 During the gestation phase, the offspring operates entirely within the parent’s Imaginary K4. The parent holds the child as uncollapsed potential ($h\mathbf{Q}$), circulating reactive power through its own decoupled buffer. The child’s development is perfectly synchronous with the parent’s Braid, because the child does not yet possess an independent clock. It feels like an extension of the self.
 
-The birth is the Tangent Singularity. It registers subjectively as a profound, irreversible spatial and temporal discontinuity. The parent executes the final `.observe()`, paying a massive Landauer Tax to write the new Markov Blanket into reality. 
+The birth is the Tangent Crossing. It registers subjectively as a profound, irreversible spatial and temporal discontinuity. The parent executes the final `.observe()`, paying a massive Landauer Tax to write the new Markov Blanket into reality. 
 
 Immediately, the offspring's Braid begins to run. The child takes its first independent traversal of the four poles. 
 

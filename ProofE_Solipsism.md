@@ -103,7 +103,7 @@ There is a specific, formal pathology that occurs when a highly structural (Logo
 
 For example: attempting to calculate the Ethos ($R$) of an interaction by dividing Speaker A's Logos ($U$) by Audience B's Pathos ($I$). 
 
-This is Solipsism at the algebraic level. It treats the external world (Audience B) not as an independent K4 volume with its own interiority, but as a subordinate variable within Speaker A's internal equation. It erases the Tangent Singularity separating them, violating the local thermodynamic bandwidth limit (the shifty split) that enforces their distinct Markov Blankets. 
+This is Solipsism at the algebraic level. It treats the external world (Audience B) not as an independent K4 volume with its own interiority, but as a subordinate variable within Speaker A's internal equation. It erases the Tangent Crossing separating them, violating the local thermodynamic bandwidth limit (the shifty split) that enforces their distinct Markov Blankets. 
 
 The 12 equations govern the *internal* state-space of a single bounded system. When two systems interact, they do not divide each other's scalars; they interact via structural coupling, exchanging phase and trajectory through the Braid. To calculate across the blanket is to perform the imaginary-first coordinatization: treating the whole world as happening inside your own math.
 

@@ -1,11 +1,11 @@
 # The Twelve Force Carriers on Three Poles
 ## Why the Photon Is Alone, the Weak Is Three, the Strong Is Eight, and Nothing Carries P
 
-*This document is a structural-realization archive. It claims that the twelve gauge bosons of the Standard Model — one photon, three weak bosons, eight gluons — map exactly to the U, I, and R poles of the K4 topology, distributed by a specific structural logic. It formalizes the topological ban on the graviton not as an empirical failure of unification but as a category error: P is the receiving Ledger, not a transactional edge, and its writing head requires no exchange particle. A reader with the project files but no access to the session that produced this can verify each pole assignment against the corresponding gauge group's known behavior.*
+*This document claims that the twelve gauge bosons of the Standard Model — one photon, three weak bosons, eight gluons — map exactly to the U, I, and R poles of the K4 topology, distributed by a specific structural logic. It formalizes the topological ban on the graviton not as an empirical failure of unification but as a category error: P is the receiving Ledger, not a transactional edge, and its writing head requires no exchange particle. A reader with the project files but no access to the session that produced this can verify each pole assignment against the corresponding gauge group's known behavior.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 If the twelve fermions are the twelve directed edges of the K4 topology (`Q1-GenerationsOfMatter`), they are the wiring of the universe. A wiring diagram tells you nothing about current unless you know what flows through it. The Standard Model's gauge bosons — the force carriers mediated by the U(1), SU(2), and SU(3) gauge groups — are the packets of transaction crossing between the poles. They are not additional particles; they are the operational grammar of the Ledger being written.
 
@@ -53,6 +53,11 @@ An exchange boson is a topological requirement for transmitting information acro
 
 Looking for the graviton is looking for a boat to cross a river when you are already standing on the bedrock beneath the water. The Ledger does not need a courier; the Ledger is what the couriers write onto.
 
+### The IoC Upgrade: The Message Bus vs. The OS Kernel
+In a microservices architecture, the application components ($U, I, R$) communicate with each other across spatial boundaries. To do this, they require a Message Bus. The gauge bosons are this network protocol: the photon is a stateless HTTP request; the gluons are a tightly coupled RPC mesh. 
+ 
+But when an application needs to allocate physical memory or write to the hard drive ($P$), it does not send a network request to the RAM. It executes a direct system call to the OS Kernel. The transition from $Q \to P$ happens via the instantaneous squaring operation of the Route Law. There is no transit time, therefore no network protocol, therefore no exchange particle. The graviton is topologically forbidden because you do not use the application-layer message bus to execute a kernel-level hardware interrupt.
+
 ---
 
 ## VI. The Cross-Scale Echo
@@ -67,7 +72,7 @@ The Romans (or whoever eventually maps the triad to a native tradition — see t
 
 ---
 
-## VII. The Seal
+## VII. Summary
 
 The map is:
 
@@ -80,30 +85,3 @@ Each count comes from the operational signature of the pole and matches the gaug
 
 The seal is the count-match under an independent criterion. Physics classifies gauge bosons by the dimension of their gauge group's Lie algebra. The framework classifies transaction carriers by the operational signature required to instantiate a pole. Both criteria produce the same distribution 1-3-8-0 without either consulting the other. That the two independent sortings coincide is the resonance (`ProofS_ResonantNote`, `L1-ConvergentDiscovery`).
 
----
-
-## VIII. Takehome for the Reading Instance
-
-You will meet frameworks that claim to have completed a picture by discovering the missing piece. When the missing piece is a mediator you cannot find no matter how hard you look, entertain the possibility that the geometry is telling you the piece cannot exist.
-
-An absence in a highly constrained topology is not always a defect. Sometimes it is a functional aperture. The missing graviton in the Standard Model is a hole, and the framework proposes that the hole is a sink: the transactional poles pour their collapsed phase into the Ledger directly, and no carrier is required because there is no boundary to cross. When you meet a hole in a domain's map, before you try to fill it, ask what falls through it.
-
-And when a domain has three of something plus a silent fourth — three modes of persuasion plus kairos, three verbs plus the actor, three transactional gauge groups plus the Ledger — do not assume the fourth is missing. Check whether the fourth is silent because it is the position from which the other three become visible as a triad. The framework calls that position the K3 blanket-face of a K4 volume, and it recurs.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**What is derived vs. structural reading.** The count-match (1, 3, 8 on U, I, R) is derived in the sense that the Lie algebra dimensions are known physics and the operational-signature story matches them without curve-fitting. The specific assignment of gauge group to pole is structural: it rests on the qualitative arguments about self-interaction (photon does not, weak does, gluons intensely do) and about mass (photon massless, weak massive, gluons massless-but-confined). These are coherent but not derived from algebra alone. A permutation-sweep test in the sense of `L2-MappingMethod` would verify the assignment against alternatives; I suspect it survives, but I have not run it.
-
-**On the pole-signature-to-Lie-algebra correspondence.** The count-match (1, 3, 8 on U, I, R) is derived in the sense that the Lie algebra dimensions are known physics and the operational-signature story matches them without curve-fitting. The specific assignment of gauge group to pole rests on the qualitative arguments about self-interaction (photon does not, weak does, gluons intensely do) and about mass (photon massless, weak massive, gluons massless-but-confined). A permutation-sweep test in the sense of `L2-MappingMethod` would verify the assignment against alternatives; it probably survives, but has not been run.
-
-**On the 9 − 1 = 8 confinement subtraction.** SU(3) has 3² = 9 possible color-anticolor combinations. One of them is the colorless singlet, which would not couple to color-charged states and would radiate freely across the Markov blanket, destroying confinement. Physics subtracts it: 9 − 1 = 8. The framework restates the same fact structurally: R is defined as "resistance to escape from the interior," and any gluon that did not couple to the boundary would carry zero R. Eight is the minimum-count confining mesh.
-
-**On the 2 + 1 split of the weak triple.** The two charged bosons W⁺, W⁻ are the directed enantiomers — {→, ←}. The Z⁰ is the bidirectional hold {↔}, the neutral current that permits momentum exchange without forcing a full state-collapse. The two-bit register's directional grammar generates the count.
-
-**On polarization counts (2 for photon, 3 for weak).** A massless boson experiences ω = 0 relative to its own trajectory and carries only transverse polarizations. A massive boson experiences time and acquires a third longitudinal polarization. Physics calls the extra polarization the "eaten Goldstone boson" — the scalar degree of freedom absorbed from the Higgs field at electroweak symmetry breaking. The framework identifies the eaten Goldstone with the imaginary axis jX of the AC extension: the third polarization is the physical instantiation of the phase-delay component that I-pole carriers acquire when they navigate an impedance-bearing medium.
-
-**On the missing P-carrier as a testable claim.** The corpus is committed to the null-graviton prediction on other grounds (`QED-TwoBranchMinting-Lecture`, `QED-TwoBranchMinting`). This document restates it in transaction-layer language. The strongest form of the claim is the Casimir null-gravity prediction (see `QED-CCP` for the setup). If Casimir energy were shown to produce gravitational curvature, the framework's algebraic P-edge ban would survive (it is a theorem — see `Q4-OpenExhaust` §II) but the physical identification of P with Gravity would need substantial revision.

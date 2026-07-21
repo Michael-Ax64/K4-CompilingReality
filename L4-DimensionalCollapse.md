@@ -1,4 +1,4 @@
-# L4: Dimensional Collapse and the Tangent Singularity
+# L4: Dimensional Collapse and the Tangent Crossing
 
 ## 1. The Dimensional Contradiction
 
@@ -23,7 +23,7 @@ The true engine of transition is the Angular Frequency ($\omega$). It sits at th
 
 Standard SI dimensional analysis provides a local, "client-side" user interface built entirely from the $dt$ wake. It is perfectly valid for describing events that occur *entirely within* the manifest, coherent plane ($H_{coh}$). But it is structurally incapable of describing the boundary where that plane is generated, because its clock ($dt$) does not exist on the other side of the operator.
 
-## 3. The Tangent Singularity
+## 3. The Tangent Crossing
 
 What happens when a localized, plane-locked coordinate system attempts to model the boundary of its own generation? It encounters a singularity. 
 
@@ -31,11 +31,11 @@ Consider the Markov Blanket that separates the interior potential ($H_{incoh}$) 
 
 When the duration of an event approaches zero, the *rate* of that event approaches infinity. 
 
-This maps to the **Tangent Singularity**. As the system approaches the transition threshold (approaching an orthogonal $90^\circ$ phase shift relative to the local plane), the trigonometric tangent approaches verticality. The slope becomes infinite. The local coordinate system of standard dimensional physics breaks down completely because it cannot process an instantaneous, orthogonal flip.
+This maps to the **Tangent Crossing**. As the system approaches the transition threshold (approaching an orthogonal $90^\circ$ phase shift relative to the local plane), the trigonometric tangent approaches verticality. The slope becomes infinite. The local coordinate system of standard dimensional physics breaks down completely because it cannot process an instantaneous, orthogonal flip.
 
 ## 4. When Rate Models State
 
-At the exact boundary of the Tangent Singularity, the standard dimensions of physics dissolve.
+At the exact boundary of the Tangent Crossing, the standard dimensions of physics dissolve.
 
 At the exact moment of `.observe()`, there is no "background time" over which to integrate Power into Energy. There is only the phase-flip itself. At this boundary, the **Rate of Actualization ($P$) structurally maps to the State of the System ($M$).** 
 

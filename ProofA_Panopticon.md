@@ -47,7 +47,7 @@ If the system is measured before this evolution completes, it collapses to one o
 
 The `.behold()`/`.observe()` translation: the quantum system in superposition is in `.behold()` mode — holding the complex interference structure ($h\mathbf{Q}$) live before any measurement forces commitment. The Schrödinger evolution is the `.behold()` computation developing. Measurement is `.observe()`: it forces a collapse, reads a value, generates a scalar Ledger entry ($P$). 
 
-Frequent measurement prevents the `.behold()` computation from crossing the Tangent Singularity into a new state. The system is perpetually reset by the observation regime. The Quantum Zeno Effect is not a marginal quantum quirk. It is the structural statement that `.observe()` prevents `.behold()` from completing when applied too frequently. 
+Frequent measurement prevents the `.behold()` computation from crossing the Tangent Crossing into a new state. The system is perpetually reset by the observation regime. The Quantum Zeno Effect is not a marginal quantum quirk. It is the structural statement that `.observe()` prevents `.behold()` from completing when applied too frequently. 
 
 ---
 

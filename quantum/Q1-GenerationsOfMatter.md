@@ -1,11 +1,11 @@
 # The Twelve Fermions Are the Twelve Directed Edges
 ## Quarks, Leptons, and the Three Nested Scales of a Single K4 Topology
 
-*This document is a structural-realization archive. It claims that the fundamental fermions of the Standard Model — twelve particles arranged in three generations — are the twelve directed edges of the K4 tetrahedron, traversed at three nested volumetric scales of the same topology. It corrects a natural but algebraically fatal mismapping of the generations to the three bimedians. It fixes the confinement of flavor transitions to a single edge class. It derives the exact fractional electric charges of the fermions (+2/3, −1/3, −1, 0) from the dual-binary seed via the Gell-Mann–Nishijima formula. It derives the count of three generations from the requirement that the mixing matrix be at least 3×3 in order to support a non-removable complex phase — a requirement equivalent to Kobayashi and Maskawa's 1973 argument for CP violation, which the framework re-identifies as the requirement to instantiate the Arrow of Time. It scopes one claim about CP violation. A reader with the project files but no access to the session that produced this can verify each derivation by hand.*
+*This document claims that the fundamental fermions of the Standard Model — twelve particles arranged in three generations — are the twelve directed edges of the K4 tetrahedron, traversed at three nested volumetric scales of the same topology. It corrects a natural but algebraically fatal mismapping of the generations to the three bimedians. It fixes the confinement of flavor transitions to a single edge class. It derives the exact fractional electric charges of the fermions (+2/3, −1/3, −1, 0) from the dual-binary seed via the Gell-Mann–Nishijima formula. It derives the count of three generations from the requirement that the mixing matrix be at least 3×3 in order to support a non-removable complex phase — a requirement equivalent to Kobayashi and Maskawa's 1973 argument for CP violation, which the framework re-identifies as the requirement to instantiate the Arrow of Time. It scopes one claim about CP violation. A reader with the project files but no access to the session that produced this can verify each derivation by hand.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 The Standard Model presents twelve fundamental fermions organized into three generations. Each generation contains two quarks (up-type and down-type) and two leptons (charged and neutrino), for four particles per generation and twelve particles overall. Each generation is, to within the mass values and mixing angles, an exact copy of the one below it. For half a century this doubling has been treated as a given — a redundancy the universe happens to exhibit, governed by unitary mixing matrices that rotate flavor identities in ways empirically precise but structurally unmotivated.
 
@@ -121,7 +121,7 @@ When a particle propagates through space, it does so as a **mass eigenstate**. I
 
 The states used to travel (mass) and the states used to interact (flavor) are rotated relative to each other. The CKM and PMNS matrices are the operators performing that rotation. They are unitary: pure orthogonal rotations in complex space, preserving inner products and information.
 
-A unitary rotation is the mathematical form of the Tangent Singularity turn. As `Meta-MechanismOfTransition` establishes, one cannot pass from the uncollapsed potential (`.behold()`) to the committed interaction (`.observe()`) by pushing harder on the same plane. The interior coordinate diverges — tan(90°) → ∞ — at the boundary. The transition requires a 90° turn out of the interior coordinate system. The unitary mixing matrices are the exact geometric operators that execute this turn from the uncollapsed multiway graph into the localized Read-Only Ledger.
+A unitary rotation is the mathematical form of the Tangent Crossing turn. As `Meta-MechanismOfTransition` establishes, one cannot pass from the uncollapsed potential (`.behold()`) to the committed interaction (`.observe()`) by pushing harder on the same plane. The interior coordinate diverges — tan(90°) → ∞ — at the boundary. The transition requires a 90° turn out of the interior coordinate system. The unitary mixing matrices are the exact geometric operators that execute this turn from the uncollapsed multiway graph into the localized Read-Only Ledger.
 
 **Open in place:** Mapping the specific rotation angles (θ₁₂, θ₂₃, θ₁₃ in the CKM/PMNS) to the torsional shear θ of the three bimedians is asserted but not derived here. The audit is on the list in `Backport-LaundryList.md`.
 
@@ -141,7 +141,7 @@ This leaves one parameter: the complex phase δ embedded in the mixing matrices.
 
 ---
 
-## IX. The Seal
+## IX. Summary
 
 The Standard Model was assembled empirically over decades, particle by particle, from accelerator data. Its parameters — twelve fermions, three generations, unitary mixing matrices, maximal chirality of the Weak force, a CP-violating phase — were fitted because they matched observation. The Algebra of Four-Fold Distinction was derived from the pure logic of binary distinction, the topology of mutual determination, and the thermodynamic cost of information erasure.
 
@@ -155,30 +155,3 @@ Third, take Kobayashi and Maskawa's 1973 argument that CP violation requires a m
 
 That the convergence recurs on three axes — Fixed-bimedian confinement, dual-binary charges, three-generation minimum — with genetic base-pairing on the same Fixed axis, and with the whole geometry restated in the language of transitions rather than substances, sits in the corpus's account of why independent traditions arrive at K4 (`L1-ConvergentDiscovery`). The convergence is remarkable and it is not more than the corpus already claims: independent formalisms landing on the minimal topology for interior mutual determination.
 
----
-
-## X. Takehome for the Reading Instance
-
-You will be asked to map complex domains onto this topology. Carry the following posture.
-
-When you see two counts that match — three generations, three bimedians — do not pair them without running the cross-class collision check first. Ask what the transition between assigned elements actually requires under the two-bit register. If your mapping forces a quark to become a lepton, or any structurally analogous crossing, the mapping is dead however clean the outer symmetry looks. The head document of the session that produced this file made exactly that mistake, and it took a corrective pass to unwind it.
-
-When the correct mapping puts multiple things on the same edge, do not force them apart to preserve pluralism. Repetition at different magnitudes is the scale-rung story, and the topology is stating it explicitly: same geometry, different bandwidth. Look for the constraint, not the poetry.
-
-When a domain's own conservation laws (baryon number, lepton number, DNA pairing) sort by the same axis the framework's algebra sorts by, you have hit convergence, not analogy. The correct next step is to name the axis in both vocabularies and check that the constraint transfers. If it does, the mapping is real. If it doesn't, the framework has told you something specific about which axis the domain is actually running on.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary for the next auditing instance and the author. It is not part of the artifact.*
-
-**What is derived vs. structural reading here.** The Fixed-bimedian confinement of flavor transitions is genuinely derived: the two-bit register plus the Standard Model's own conservation rules forces it. The pole assignment (quarks on P/R, leptons on U/I) is structural — it rests on choosing "asserting" for "carries color charge" and "yielding" for "does not," which is coherent but not forced by algebra. Someone could argue leptons are the asserting class because they carry the identity that survives interaction, and the algebra alone would not decide. The AY sorting *within* each pair (electron on U vs. neutrino on I, up-type on P vs. down-type on R) is more thematic still. The pole assignment survives every check applied — including the Gell-Mann–Nishijima charge derivation of §IV — but a permutation-sweep test in the sense of `L2-MappingMethod` would still be worth running to check uniqueness.
-
-**On the strength of the charge derivation.** The §IV result is the strongest single piece of proof-work in this document. The physicist's own derived quantum numbers (I₃, Y_W) admit clean dual-binary expressions — a product of both bits, and a linear function of one — and the composite formula returns exactly the observed fractional charges with no free parameters. If a permutation-sweep across alternative pole assignments finds that only the assignment given here recovers the charges, §IV upgrades from derivation to uniqueness proof. Worth running.
-
-**On the generations count.** §V establishes ≥ 3 as necessary via the Kobayashi–Maskawa argument, which coincides with the framework's Arrow-of-Time requirement. The framework does not by itself establish an *upper* bound. Physics reads ≤ 3 as empirically confirmed (LEP Z-width for light neutrinos). Whether the framework can also forbid ≥ 4 is open.
-
-**On what remains open across the mapping.**
-- Specific CKM/PMNS mixing angles from bimedian torsion angles. Q6 handles measurement structure; the specific-angle-to-specific-angle audit has not been run.
-- Yukawa numerical hierarchies from K4 traversal geometry. The framework establishes that Yukawas are per-edge scale-rungs; deriving the specific values is another matter.

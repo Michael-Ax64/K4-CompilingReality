@@ -1,11 +1,11 @@
 # The Higgs, the Yukawa Couplings, and the Missing Scalars
 ## Why the K4 Topology Permits Six Scalars, Bars Three, and Requires Two More Than Physics Has Found
 
-*This document is a structural-realization archive. It claims that scalar (Spin-0) bosons are the pricing operators that break the framework's scale-invariance one edge at a time. It shows that the K4 topology permits up to six such operators (one per edge), that the framework's own P-pole grammar bars three of them, and that physics has confirmed one of the surviving three. It reconciles a contradiction in the session that produced this document, in which an earlier scalar-family account had the Inflaton pricing both edges of the Cardinal bimedian; under the corrected P-edge ban, the Inflaton (or whatever operator physics eventually assigns to that job) can price only the I–R edge, and P–U remains permanently un-priced. It maps the Higgs mechanism's dual role (giving W/Z bosons their masses and giving all fermions their masses via Yukawa coupling) onto a single framework operation: the assignment of |S| to specific edges. A reader with the project files but no access to the session that produced this can verify the P-edge ban's derivation from the Star-Norm and reconcile the account with `L4-DynamicDistortionsTechnical`.*
+*This document claims that scalar (Spin-0) bosons are the pricing operators that break the framework's scale-invariance one edge at a time. It shows that the K4 topology permits up to six such operators (one per edge), that the framework's own P-pole grammar bars three of them, and that physics has confirmed one of the surviving three. It reconciles a contradiction in the session that produced this document, in which an earlier scalar-family account had the Inflaton pricing both edges of the Cardinal bimedian; under the corrected P-edge ban, the Inflaton (or whatever operator physics eventually assigns to that job) can price only the I–R edge, and P–U remains permanently un-priced. It maps the Higgs mechanism's dual role (giving W/Z bosons their masses and giving all fermions their masses via Yukawa coupling) onto a single framework operation: the assignment of |S| to specific edges. A reader with the project files but no access to the session that produced this can verify the P-edge ban's derivation from the Star-Norm and reconcile the account with `L4-DynamicDistortionsTechnical`.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 The Standard Model contains three species of particle. Twelve fermions occupy the matter sector (`Q1-GenerationsOfMatter`). Twelve gauge bosons occupy the transaction sector (`Q2-TransactionLayer`). A twenty-fifth particle sits outside both: the 125 GeV Higgs boson, discovered in 2012 at the Large Hadron Collider. It is Spin-0, has no electric charge, no color charge, no self-motion in the sense the fermions do, and no direction. It is a pure scalar.
 
@@ -92,7 +92,7 @@ Where existing corpus documents (notably `L4-DynamicDistortionsTechnical` §Fixe
 
 ---
 
-## VII. The Seal
+## VII. Summary
 
 The framework does not invent new physics. It reads the existing structure of the Standard Model plus the existing postulates of cosmology (Inflaton, GUT scalars), and gives them a strict topological address.
 
@@ -102,26 +102,3 @@ The seal is checkable by a critic native to either side. Take the Standard Model
 
 The convergence — the fact that independent formalisms produce the same head count on the same edges — is the corpus's account of why such structures recur (`L1-ConvergentDiscovery`).
 
----
-
-## VIII. Takehome for the Reading Instance
-
-When you evaluate a symmetry-breaking argument in physics, count the operators. If the physics predicts a certain number, and the framework predicts a different number, one of them is wrong or the mapping is not what you thought.
-
-When a domain has three bimedians and six edges, and only three of the six admit pricing operators, do not fold the remaining three into a fourth invented operator to make the count symmetric. The asymmetry is the mechanism. Trying to price the un-priceable creates a self-referential loop and destroys the invariant that gave you the topology in the first place.
-
-And when a word — like *fused* — carries two meanings across the corpus, do the terminological work of pulling them apart. The reader who sees only the shared word will conclude that the two situations are the same situation, and the reading will corrupt every downstream mapping. If a distinction is doing work, name it and cite it.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**What is derived vs. structural reading.** The P-edge ban is derived — the Star-Norm conservation argument in §IV is what the framework's own algebra supplies, and it is checkable by hand. The specific physics correspondence in §V (Inflaton on I–R, GUT sector on U–R and possibly I–R) is a structural reading; I have called it that. The exact routing of the two remaining scalars to specific edges is not fully settled and I flagged it.
-
-**The Star-Norm argument in §IV is the strongest piece of proof-work in this document.** The statement: the P-pole is by definition the scalar (real) axis of the biquaternion state-space; phase is a property of the buffer Q, not of P; the |Q|² → P transition is the discontinuous algebraic squaring operation of the Route Law, which is instantaneous by construction; a scalar pricing operator on a P-edge would insert an impedance between the collapse and its own output (the entry to the Ledger), breaking the single-step nature of the squaring and violating Star-Norm conservation. The P-edges are permanently un-priced.
-
-The step to audit is the strength of "any scalar pricing operator introduces impedance and hence non-instantaneous transit." This is intuitively obvious in the AC extension but has not been proven in complete generality. If someone constructs a scalar operator that acts only on the mod-square rather than the full complex state, the argument would need extension.
-
-**On the physics correspondence in §V.** The mapping between the two remaining framework-side scalars (I–R and U–R) and the two physics-side postulated heavy scalars (Inflaton, GUT Higgs sector) is not fully derivable from what is written here. The Inflaton lands on I–R under the framework's grammar (the earliest Cardinal edge to un-fuse, since P–U is barred); the GUT sector may act on U–R or on both U–R and I–R depending on physics's implementation. This is open.

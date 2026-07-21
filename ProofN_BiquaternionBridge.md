@@ -72,7 +72,7 @@ The structural isomorphism is exact, yielding the following mapping:
 2.  **Momentum ($pc \longleftrightarrow |\mathbf{Q}|$):** Momentum maps structurally to the macroscopic footprint of the `.behold()` state. It tracks the physical measurement of *held multiway potential*. It operates as a vector because potential is directional.
 3.  **Rest Mass ($m_0 c^2 \longleftrightarrow P$):** Mass maps structurally to the macroscopic footprint of the `.observe()` state. It tracks the physical measurement of the *Read-Only Ledger*. It functions as a scalar because a committed history has no physical direction; it simply *is*.
 
-The 3+1 signature of the Minkowski metric is not Space + Time. It is **Scalar + Vector** (Committed Ledger + Held Potential). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Singularity's boundary crossing). It destroys phase ($h^2 = -1$) and collapses the vector to its magnitude ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$). Time is not a dimension in this metric; the metric measures four spatial poles, one of which is scalar.
+The 3+1 signature of the Minkowski metric is not Space + Time. It is **Scalar + Vector** (Committed Ledger + Held Potential). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Crossing's boundary crossing). It destroys phase ($h^2 = -1$) and collapses the vector to its magnitude ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$). Time is not a dimension in this metric; the metric measures four spatial poles, one of which is scalar.
 
 ## 5. The P-Edge Ban and the Absence of the Graviton
 

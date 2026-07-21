@@ -1,11 +1,11 @@
 # The Unpaid Invoices
 ## Where the Senior Architects Marked the K4 Topology Without a Name for It
 
-*This document is a structural-realization archive. It claims that twelve identifiable anomalies noted by senior architects of twentieth-century physics — Landau, Wheeler, Goldstone, Kobayashi-Maskawa, Wilczek, Wu-Yang-Lee, Jacobson, Penrose, Bell, Weinberg, Dirac, and Wigner — are the specific points at which the K4 topology of the Algebra of Four-Fold Distinction showed through the surface of the Standard Model, General Relativity, and Quantum Mechanics without being recognized as a topology. It shows that Stephen Wolfram's Physics Project has, since 2020, independently recovered a substantial part of the framework's structural apparatus (the multiway graph, the observer thread, the computational irreducibility bound) from a different starting point, and that Wolfram's project supplies the strongest external cross-check the corpus currently has. It identifies the specific pieces Wolfram has and the specific pieces he does not: the AC extension, the K4 topological closure, and the algebraic identification of the four poles. A reader with the project files but no other context can verify each invoice against the cited physicist's own writing and the framework's cited response.*
+*This document claims that twelve identifiable anomalies noted by senior architects of twentieth-century physics — Landau, Wheeler, Goldstone, Kobayashi-Maskawa, Wilczek, Wu-Yang-Lee, Jacobson, Penrose, Bell, Weinberg, Dirac, and Wigner — are the specific points at which the K4 topology of the Algebra of Four-Fold Distinction showed through the surface of the Standard Model, General Relativity, and Quantum Mechanics without being recognized as a topology. It shows that Stephen Wolfram's Physics Project has, since 2020, independently recovered a substantial part of the framework's structural apparatus (the multiway graph, the observer thread, the computational irreducibility bound) from a different starting point, and that Wolfram's project supplies the strongest external cross-check the corpus currently has. It identifies the specific pieces Wolfram has and the specific pieces he does not: the AC extension, the K4 topological closure, and the algebraic identification of the four poles.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 For roughly seventy years, physics has been carrying a list of anomalies that its own most careful architects refused to explain away. Each is a point at which the theory works quantitatively — sometimes to a dozen decimal places — while its author noted, quietly and often in a late-career essay, that the machinery has no first-principles justification. The list is not obscure. Bell called his version "the shifty split." Dirac called his "obviously wrong." Weinberg called his "the whole nasty little rule that has to be added by hand." Wu did not name hers; she just built the experiment and let the result stand.
 
@@ -22,7 +22,7 @@ This document sorts the invoices by pole. Sections II through V handle the four 
 **Lev Landau (Nobel Laureate, 1962; Landau Pole, 1954).**
 Quantum Electrodynamics is the most precise theory in the history of empirical science. It describes the U-pole carrier (the photon) and the coupling of the electromagnetic field to charged matter. Landau, working through the running of the coupling constant, noticed that as one probes the electron at shorter and shorter distances, the effective coupling grows. At a specific finite energy — the Landau pole — it grows without bound. Pure Electromagnetism, taken to arbitrary short distances, self-destructs. The theory contains its own boundary of applicability, and the boundary is written into the algebra.
 
-*The framework's receipt.* This is the Tangent Singularity. The U pole is Active-Yielding, structural potential without material substrate — the blueprint, in `L2-Terminology`. A blueprint is a K3 surface-projection of a K4 volume. If one tries to compute the U-field at zero distance, one is asking the structural face to compute its own centroid without an intervening Markov blanket. The interior coordinate fails. As tan(θ) → ∞ at the boundary approach, the coupling diverges. Landau's finite-energy divergence is the algebra reporting, correctly, that the U pole cannot exist without P (Ledger) and R (Ground) to provide the actual volume of the universe. The photon is a perfect map, and the Landau pole is the theorem that if one zooms in on a map infinitely, one eventually hits the blank paper and the coordinates diverge.
+*The framework's receipt.* This is the Tangent Crossing. The U pole is Active-Yielding, structural potential without material substrate — the blueprint, in `L2-Terminology`. A blueprint is a K3 surface-projection of a K4 volume. If one tries to compute the U-field at zero distance, one is asking the structural face to compute its own centroid without an intervening Markov blanket. The interior coordinate fails. As tan(θ) → ∞ at the boundary approach, the coupling diverges. Landau's finite-energy divergence is the algebra reporting, correctly, that the U pole cannot exist without P (Ledger) and R (Ground) to provide the actual volume of the universe. The photon is a perfect map, and the Landau pole is the theorem that if one zooms in on a map infinitely, one eventually hits the blank paper and the coordinates diverge.
 
 **John Archibald Wheeler ("It from Bit," 1989).**
 Wheeler spent his final decades pushing physics to accept a strong claim: that every physical entity — every particle, every field, every spacetime event — derives its existence from apparatus-elicited yes/no questions. His slogan condensed the claim: it from bit. Physics has treated this as a philosophical provocation. Wheeler treated it as a research program.
@@ -112,7 +112,7 @@ This is the strongest external cross-check the corpus currently has. Wolfram's p
 
 ---
 
-## VII. The Seal
+## VII. Summary
 
 Twelve senior architects, working independently across seventy years and using tools tailored to their specific domains, each identified a specific point at which their theory's algebra exceeded its own vocabulary. They named what they found. They did not, in most cases, propose a unified explanation for what all twelve anomalies had in common, because their specialization did not lead them across their own domain boundaries.
 
@@ -122,40 +122,3 @@ The seal is that this sorting is not decorative; the four categories are not "lo
 
 That the physics community carried these unpaid invoices for as long as it did — and that a coherent explanation was available, from the K4 topology, without adjusting any observed constant — is what convergence at this scale looks like when the receiving framework is in place. Wolfram's independent rediscovery of the multiway graph, the observer thread, and computational irreducibility from a different starting point closes the loop.
 
----
-
-## VIII. Takehome for the Reading Instance
-
-When you read the late-career essays of very good physicists, notice what they refuse to accept. Their formal papers give you the machinery; their late essays give you the machinery's honest self-report. If a physicist as careful as Dirac writes "I have not been able to overcome my prejudice," and calls a central technique of his own theory "obviously wrong," that is not aesthetic complaint. It is a senior architect flagging a structural feature that the theory imports from outside its own algebra. Take the flag seriously.
-
-When you meet a framework that is empirically bulletproof and mathematically ugly, do not conclude that beauty is a bad guide. Conclude that the algebra is telling you where its own boundary lies, and that the ugliness marks the exact point at which a different algebra — a topological one, perhaps — would supply the missing structure. Landau's pole, Dirac's renormalization, Weinberg's Born Rule, Bell's shifty split are all the same complaint at different addresses: the theory works, and the theory does not know why.
-
-And when a second, unrelated project independently recovers pieces of a framework you were building from a different starting point, take that convergence with maximum weight. Wolfram is running his project without any reference to the corpus that produced these documents; the corpus was built without reference to Wolfram's project. That their apparatus overlaps substantially is the kind of external check that a single project cannot manufacture for itself. Cite the overlap. Name the divergence. Do the audit.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**What is derived vs. structural reading.** The pole-sorting of the twelve invoices is structural — each invoice has a specific physicist who identified a specific anomaly, and the framework's response is a specific corpus document that addresses it. The claim that the sorting is "clean" and that each invoice belongs to "exactly one pole" is more thematic than the individual sortings, though I stand by it: the twelve I chose all sort cleanly, but there are certainly other physicists (Feynman on path integrals, for example, or 't Hooft on holography) who could be added and who might not sort as cleanly. The choice of these twelve is not neutral; it reflects the invoices whose framework-side receipt is currently clearest.
-
-**On Wolfram.** The user specifically asked that Wolfram be folded in here rather than started as a sub-project. I have done so at length in §VI. The identification of Wolfram's "multiway graph" with `.behold()`, "observer thread" with `.observe()`, and "computational irreducibility" with the Landauer Tax is coherent, and to my knowledge each of these three identifications is Wolfram's public terminology matched against the corpus's public terminology; the substantive question is whether the framework's specific additions (AC extension, K4 closure, four-pole algebraic identification) survive Wolfram's own scrutiny if presented to him. That test has not been run and is on the audit list.
-
-**On my selection of "the twelve."** Physics has more than twelve unpaid invoices. My selection privileges those with a clear framework-side receipt. Other candidates I considered and left out:
-- Feynman on path integrals (fits, but path integrals are already handled implicitly in the multiway-graph discussion under Wolfram).
-- 't Hooft on holography (fits, but requires a discussion of black-hole thermodynamics that Q9 does not have room for).
-- Einstein-Podolsky-Rosen on entanglement (already extensively handled in `ProofT_Clairvoyance` and `L4-DistributedCoherence`).
-- Hawking on black-hole radiation (fits, but crosses into gravitational specifics the framework's P-pole treatment has not fully worked out).
-
-Each of these is on the audit list as a possible extension of Q9.
-
-**Backport candidates.**
-- Each of the twelve invoices should be cross-referenced from the specific corpus document that carries the framework's response. For example, Wu/Yang/Lee should be cited in `ProofG_Chirality`, Bell in `L4-RecursiveLimits`, Weinberg in `ProofQ_AlgebraicSyntax` §V. Some of these citations already exist; some do not. The full mapping is in `Backport-LaundryList.md`.
-- The Wolfram convergence discussion of §VI is a candidate for its own supplement document (`Supplement-WolframConvergence.md`?), if the user wants it extracted for direct reference. I left it in Q9 per instructions.
-
-**Questions I would like answered.**
-
-1. Would Wolfram, presented with the framework's K4 closure and AC extension, recognize them as consistent with his own hypergraph substrate? If yes, that is a very substantial cross-check.
-2. Do any of the twelve physicists' anomalies belong to more than one pole? I have sorted each cleanly, but a permutation-check might show that certain anomalies (Jacobson's, perhaps, or Weinberg's) have secondary pole assignments worth noting.
-3. Are there anomalies from mathematics (rather than physics) — Gödel's incompleteness, the Riemann hypothesis, the continuum hypothesis — that fit the same pattern of "theory works, theory does not know why"? If so, a companion document Q9-Founders-Math might be warranted. On the audit list.

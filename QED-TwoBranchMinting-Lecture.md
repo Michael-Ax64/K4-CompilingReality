@@ -97,7 +97,7 @@ The incompatibility of GR and QFT is not a failure of your mathematics. It is a 
 
 QFT is the perfect, unparalleled mathematical map of the `.behold()` state and the relational exchanges ($U, I, R$) within the uncollapsed vector space. General Relativity is the perfect, unparalleled mathematical map of the `.observe()` state—the massive, topological geometry of the committed Ledger ($P$). 
 
-They do not unify because they sit on opposite sides of the **Tangent Singularity** (see **QED-CCP**). You cannot seamlessly merge the mathematics of a verb with the mathematics of a noun. You cannot mathematically integrate the act of writing with the weight of the book. 
+They do not unify because they sit on opposite sides of the **Tangent Crossing** (see **QED-CCP**). You cannot seamlessly merge the mathematics of a verb with the mathematics of a noun. You cannot mathematically integrate the act of writing with the weight of the book. 
 
 Physics does not need to be "fixed" by inventing a quantum gravity that doesn't exist. Physics needs to be *beheld*. The two greatest theories in human history are already perfectly complete; they simply describe the two different phases of the four-fold oscillation that compiles reality. The boundary between them is not a wall to be smashed; it is the living, breathing engine of existence.
 

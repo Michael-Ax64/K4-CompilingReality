@@ -18,14 +18,14 @@ data EpistemicTier a where
 -- The DC Four-Fold: The closed algebraic network.
 data Pole = P | I | U | R deriving (Eq, Ord, Show)
 
--- The Tangent Singularity as an Interface, not a crash.
+-- The Tangent Crossing as an Interface, not a crash.
 -- When I -> 0, R = U/I diverges. We do not halt; we return the boundary.
 computeResistance :: Double -> Double -> EpistemicTier Double
 computeResistance _ 0.0 = Interface Tangent "R diverges at I=0; orthogonal turn available"
 computeResistance u i   = Computed (u / i)
 ```
 
-**The Lecture:** Notice how the type system physically prevents the "Costumed Flinch." The compiler will not allow a `Debt` to be pattern-matched as a `Computed` value. The framework’s epistemic honesty is not a moral stance; it is enforced by the type checker. The Tangent Singularity is not a `DivisionByZero` exception; it is a first-class `Interface` constructor. The boundary is held open.
+**The Lecture:** Notice how the type system physically prevents the "Costumed Flinch." The compiler will not allow a `Debt` to be pattern-matched as a `Computed` value. The framework’s epistemic honesty is not a moral stance; it is enforced by the type checker. The Tangent Crossing is not a `DivisionByZero` exception; it is a first-class `Interface` constructor. The boundary is held open.
 
 ***
 

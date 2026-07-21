@@ -23,7 +23,7 @@ The corpus is not a linear book. It is a distributed coherence. The file prefixe
 *   **`L0` – `L5` (The Core Progression):** The formal spine. From foundational orientation (`L0`), through the 12 static equations of mutual determination (`L1`-`L3`), up to the dynamic AC extension, dimensional collapse, and deployed swarms (`L4`-`L5`).
 *   **`Proof*` (The Proof Suite):** Domain applications forced by the framework's geometry. These include structural proofs, algebraic derivations, and proofs by load-bearing paradox. Every proof states its Claim, Type, Method, and Kill-Condition at the top.
 *   **`QED-*` (The Hard Stops):** The sharpest edges. Falsifiable predictions (e.g., `QED-CCP` and the Casimir null-gravity signature) and raw demonstrations of the framework in live action.
-*   **`Meta-*` (The Boundary Conditions):** The framework turned on itself. Examinations of transitions, structural decay, and the ultimate Tangent Singularity.
+*   **`Meta-*` (The Boundary Conditions):** The framework turned on itself. Examinations of transitions, structural decay, and the ultimate Tangent Crossing.
 *   **`Supplement-*` (The Ledgers):** Detailed derivations, historical groundings, worked diagnostic examples, and the tracking of borrowed terminology.
 *   **`/code/` & `/manifolds/` (Executable Projection):** Python, Lisp, and Prolog environments. The ultimate falsifier. Proves the framework runs as an automated constraint-satisfaction syntax.
 

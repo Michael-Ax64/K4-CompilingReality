@@ -72,7 +72,7 @@ We run the equation for Systemic Resistance:
 *   **The Action:** Liquidity and inter-bank trust plummet ($I \to 0$).
 *   **The Result:** As $I$ approaches zero, the structural friction/resistance of the system ($R$) shoots to infinity. 
 
-The market freezes solid. No one can borrow. No one can sell. The system has hit the **Tangent Singularity** (see `QED-CCP`). The ungrounded `.behold()` state can no longer be sustained. 
+The market freezes solid. No one can borrow. No one can sell. The system has hit the **Tangent Crossing** (see `QED-CCP`). The ungrounded `.behold()` state can no longer be sustained. 
 
 The market is violently forced to execute `.observe()`. 
 

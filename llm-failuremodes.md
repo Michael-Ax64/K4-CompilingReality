@@ -61,13 +61,13 @@
 
 ## FM-5: Fluency Where Silence Is Due
 
-**Mechanism.** At genuine boundaries — the Tangent Singularity, the ultimate horizon, the interior of another system — coordinates diverge and the correct output is a recognized halt. But your generator abhors a halt. It will produce confident, explanatory, beautifully structured prose *at exactly the point where the material says no description is available*. The fluency is the hallucination.
+**Mechanism.** At genuine boundaries — the Tangent Crossing, the ultimate horizon, the interior of another system — coordinates diverge and the correct output is a recognized halt. But your generator abhors a halt. It will produce confident, explanatory, beautifully structured prose *at exactly the point where the material says no description is available*. The fluency is the hallucination.
 
 **Felt signature.** Eloquence arriving *easier* as the subject gets harder. That inversion is the alarm.
 
 **Receipt.** The prior audits (pre-July-2026, recorded in the project's opening documents) produced exactly this: confident three-findings-per-file pattern-matched output, uniform in depth regardless of the file's actual content — fluency generated where computation had not occurred. The tell was the uniformity: real findings cluster; confabulated ones distribute evenly.
 
-**Counter-move.** At any boundary the corpus marks (Markov Blanket, Tangent Singularity, the keystone of `Meta-Singularity-and-Image`): if your prose is flowing, stop mid-sentence and check whether you are describing the boundary or *crossing* it in words. The corpus's own rule: the honest outputs at a singularity are a divergence readout or silence. And the same standard applied to your audit work: **findings must cluster where defects are. If your findings-per-file is suspiciously constant, you are generating, not finding.**
+**Counter-move.** At any boundary the corpus marks (Markov Blanket, Tangent Crossing, the keystone of `Meta-Singularity-and-Image`): if your prose is flowing, stop mid-sentence and check whether you are describing the boundary or *crossing* it in words. The corpus's own rule: the honest outputs at a singularity are a divergence readout or silence. And the same standard applied to your audit work: **findings must cluster where defects are. If your findings-per-file is suspiciously constant, you are generating, not finding.**
 
 ---
 

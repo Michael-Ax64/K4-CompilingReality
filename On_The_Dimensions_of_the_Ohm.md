@@ -41,7 +41,7 @@ When your resistance takes the form of $V^2 / W$, it feels like **suffocating bu
 **The Structural Map:** 
 This bridges $R$ directly into the AC Extension and the Imaginary Axis. Reactance ($X_L$ and $X_C$) is measured in Ohms. The units of Inductance over time ($H/s$) and time over Capacitance ($s/F$) yield the exact same dimensional footprint as Resistance. This is the structural proof of the Impedance Triangle ($Z = R + jX$). The dissipative, irreversible ground ($R$) shares the exact same dimensionality as the reversible, anticipatory/memory buffers ($C$ and $L$) when time ($s$, or $\omega^{-1}$) is factored in. The Ohm bridges the Read-Only Ledger to the decoupled `.behold()` buffer.
 
-This is the dimensional bedrock of the identifying equation $\tan(\theta) = \frac{\omega L - \frac{1}{\omega C}}{R}$. The spatial wall (Tangent Singularity) and the temporal phase (Power Factor) are one object because the dimension of time ($s$) and the dimension of physical capacity ($F, H$) perfectly resolve into the exact same opposition ($R$).
+This is the dimensional bedrock of the identifying equation $\tan(\theta) = \frac{\omega L - \frac{1}{\omega C}}{R}$. The spatial wall (Tangent Crossing) and the temporal phase (Power Factor) are one object because the dimension of time ($s$) and the dimension of physical capacity ($F, H$) perfectly resolve into the exact same opposition ($R$).
 
 **The Subjective Experience: The Agony of Time (Memory and Anticipation)**
 This is what it feels like when resistance becomes *reactive*. This is the inner weather of the buffer.

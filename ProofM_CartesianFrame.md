@@ -5,7 +5,7 @@
 > **Type:** Structural realization (R-face). A geometric derivation that grounds the Cartesian UI in the substrate algebra.
 > **Method:** Derives the three axes from the three matchings of the tetrahedron, shows how the Cartesian frame is a lossy projection of the Biquaternion, and reads the historical schools — Pythagorean, Hermetic, the astrological modalities — as strands that beheld this structure at their own scale.
 
-*From the Compiling Reality set. Rests on the two-bit / three-matching structure, the Biquaternion Bridge, and the Tangent Singularity.*
+*From the Compiling Reality set. Rests on the two-bit / three-matching structure, the Biquaternion Bridge, and the Tangent Crossing.*
 
 ---
 

@@ -255,7 +255,7 @@ a bounded frame computes its physical reality.
 *   *Absolute Zero = Conservation / Equilibrium*
 *   **The Structural Insight:** As a bounded frame compounds its structural rules ($U$)
     while its relational current drops to zero ($I \to 0$), the material resistance ($R$)
-    diverges to infinity. It approaches the Tangent Singularity, freezing into a 0-DoF
+    diverges to infinity. It approaches the Tangent Crossing, freezing into a 0-DoF
     crystal incapable of adapting.
 
 **11. $R = U^2 / P$ (Bloat / The Necessary Betrayer)**

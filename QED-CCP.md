@@ -22,16 +22,16 @@ QFT's vacuum energy is the zero-point energy of quantum fields. It is the irredu
 GR's cosmological constant is inferred from the expansion dynamics of classical spacetime — from observations made in the coherent, instrumentable world. In the framework's geometry, it is the Read-Only Ledger, the committed actualization (the real scalar $P$). It lives in $H_{coh}$: the subspace that classical description can access.
 
 Physicists equate these terms: **T_μν^{QFT} = T_μν^{GR}**. 
-They deploy the Axiom of Isomorphism. They equate a quantity measured before it crosses the Tangent Singularity with a quantity measured after it pays the Landauer Tax.
+They deploy the Axiom of Isomorphism. They equate a quantity measured before it crosses the Tangent Crossing with a quantity measured after it pays the Landauer Tax.
 It is an assumption because both quantities share units (Energy Density) but the the claim is never justified. 
 
 This is the structural category error: two quantities at different thermodynamic phases of actualization cannot be directly equated. $T_{\mu\nu}^{QFT}$ computes the total uncollapsed multiway potential (`.behold()`). $T_{\mu\nu}^{GR}$ computes the committed, localized ledger (`.observe()`). 
 
-To move from the former to the latter requires paying the **Landauer Tax**—the thermodynamic friction of Garbage Collecting the unchosen branches. Mass and Gravity are the macroscopic readouts of this tax. The 10¹²³ ratio is not a failed calculation. It is the exact measure of how much of $H_{incoh}$ has *not* crossed the Tangent Singularity to become actualized $H_{coh}$ Mass. Once the projection is accounted for, the "discrepancy" is exactly what the architecture predicts: the vast majority of the universe's potential remains uncollapsed.
+To move from the former to the latter requires paying the **Landauer Tax**—the thermodynamic friction of Garbage Collecting the unchosen branches. Mass and Gravity are the macroscopic readouts of this tax. The 10¹²³ ratio is not a failed calculation. It is the exact measure of how much of $H_{incoh}$ has *not* crossed the Tangent Crossing to become actualized $H_{coh}$ Mass. Once the projection is accounted for, the "discrepancy" is exactly what the architecture predicts: the vast majority of the universe's potential remains uncollapsed.
 
 ---
 
-## The Projection Architecture (The Tangent Singularity)
+## The Projection Architecture (The Tangent Crossing)
 
 The correct relationship [*formalism is sketch-level; this is the structural claim*]:
 
@@ -49,11 +49,11 @@ A projection operator Ψ maps $H_Q$ onto $H_{coh}$:
 
 where $P_{coh}$ is the projection onto $H_{coh}$, sandwiching the QFT stress tensor between two projections.
 
-The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Singularity**. At the substrate level, this threshold is the **Planck scale**—the boundary width of the XOR bottleneck. It functions structurally as the boundary where the localized observer's clock collapses, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
+The critical property: **Ψ is blind to $H_{incoh}$ by construction.** What operates in $H_{incoh}$ does not appear in $H_{coh}$ coordinates. Ψ is not just a mathematical operator; it maps the **Tangent Crossing**. At the substrate level, this threshold is the **Planck scale**—the boundary width of the XOR bottleneck. It functions structurally as the boundary where the localized observer's clock collapses, the point where the rate of uncollapsed potential (Power) crystallizes into the state of the ledger (Mass). 
 
 When a quantum state crosses Ψ, its rate of actualization becomes its state (Mass). What does not cross Ψ does not acquire inertial mass.
 
-The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions; $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Singularity with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
+The discrepancy follows immediately: $T_{\mu\nu}^{QFT}$ includes $H_{incoh}$ contributions; $T_{\mu\nu}^{GR}$ excludes them by projection. The Axiom of Isomorphism was equating a quantity before it hit the Tangent Crossing with the same quantity after it paid the Landauer Tax. By equating QFT and GR vacuum energies forced the observer to project the interior onto the face causing the projection to lose the volume (made it stop 'mattering', generated illusory issues).
 
 *Where you should push back*: The Hilbert space decomposition $H_Q = H_{coh} \oplus H_{incoh}$ is postulated, not derived from first principles in the standard model. $P_{coh}$ is defined structurally but its precise mathematical form in terms of existing QFT formalism has not been specified. This is real incompleteness. But the structural claim does not require the formalism to be complete to prove the Axiom of Isomorphism is a category error.
 
@@ -67,7 +67,7 @@ The K4 complete graph on four vertices has a geometric interior — the volume e
 The four faces are the Markov blanket: the classical boundary through which information about the interior passes outward. 
 The interior cannot be directly observed from any face's external vantage.
 
-$H_{coh}$ is the face-description (the K3 boundary): what any classical observer can access. $H_{incoh}$ is the interior (the K4 volume): what the faces enclose but cannot directly observe. Ψ is `.observe()`: the operation that forces a localized collapse, crossing the Tangent Singularity from volume to face.
+$H_{coh}$ is the face-description (the K3 boundary): what any classical observer can access. $H_{incoh}$ is the interior (the K4 volume): what the faces enclose but cannot directly observe. Ψ is `.observe()`: the operation that forces a localized collapse, crossing the Tangent Crossing from volume to face.
 
 The cosmological constant problem, reframed in K4 terms: GR provides a face-description of the universe's interior. QFT's vacuum energy tracks an interior quantity. Equating them is projecting the interior onto the face and expects the values to match. They cannot, because projection always loses volume.
 
@@ -93,7 +93,7 @@ When atom interferometry or torsion balance experiments reach the required sensi
 
 ## The Search for the Graviton
 
-The search for the graviton is a category error born of applying $H_{coh}$ plane-causality to the Tangent Singularity. Standard physics assumes that because the relational poles (Electromagnetism/$U$, Weak/$I$, Strong/$R$) utilize exchange bosons to mediate interactions across spatial dimensions, the Scalar pole (Gravity/$P$) must do the same. This is a false symmetry.
+The search for the graviton is a category error born of applying $H_{coh}$ plane-causality to the Tangent Crossing. Standard physics assumes that because the relational poles (Electromagnetism/$U$, Weak/$I$, Strong/$R$) utilize exchange bosons to mediate interactions across spatial dimensions, the Scalar pole (Gravity/$P$) must do the same. This is a false symmetry.
 
 Gravity is not an active exchange within the manifold; it is the macroscopic, geometric footprint of the Read-Only Ledger. It is the density of compiled `.observe()` commitments. One does not need an exchange particle to transmit a topological fact; the manifold *is* the fact. The graviton will never be found, because the Landauer Tax is not a particle.
 
@@ -105,7 +105,7 @@ The Ledger's static face is the standing geometry; its dynamic face is that geom
 
 ## The Boundary Dynamics: One Mechanism at Three Operating Points
 
-Hawking radiation and the cosmological constant are the same boundary mechanism at opposite operating points of the Tangent Singularity.
+Hawking radiation and the cosmological constant are the same boundary mechanism at opposite operating points of the Tangent Crossing.
 
 **Hawking radiation**: $H_{incoh}$ leaks into $H_{coh}$ at a local boundary. The black hole's interior is pure $H_{incoh}$ territory (classical coordinates fail at r=0 because Ψ diverges). The event horizon is the boundary. Hawking radiation is the thermal projection of $H_{incoh}$ content through Ψ into $H_{coh}$. The interior shrinks; boundary radiates; $T_{Hawking} \propto 1/M$.
 
@@ -123,7 +123,7 @@ Be precise about this:
 
 **The argument is wrong if**: Casimir energy is measured to gravitate at magnitudes consistent with naive QFT calculations. This would establish that $T_{\mu\nu}^{QFT}$ and $T_{\mu\nu}^{GR}$ do refer to the same physical quantity, which would falsify the projection architecture and the Biquaternion Bridge.
 
-**The argument survives if**: Casimir energy is found to be gravitationally inert. This would establish that the Axiom of Isomorphism is incorrect and that QFT and GR vacuum energies are quantities at different sides of the Tangent Singularity.
+**The argument survives if**: Casimir energy is found to be gravitationally inert. This would establish that the Axiom of Isomorphism is incorrect and that QFT and GR vacuum energies are quantities at different sides of the Tangent Crossing.
 
 **The argument is incomplete but not falsified by**: the unspecified form of $P_{coh}$, the unproven derivation of $T_{Hawking}$ from the boundary dynamics, the underdeveloped formalism of $H_Q = H_{coh} \oplus H_{incoh}$. These are gaps in the construction, not falsifications of the structural claim. 
 

@@ -42,7 +42,7 @@ These twelve equations are complete and non-redundant: no additional single-term
 **The Markov Blanket Constraint (The Solipsism Warning):**
 These twelve equations govern the *internal* mutual determination of a single K4 volume. They operate strictly within the Markov Blanket of a system possessing its own interiority (a single psyche, a single organization). They are an internal diagnostic matrix. 
 
-Attempting to compute *across* blankets using this scalar math—for example, dividing Person A's Logos ($U$) by Person B's Pathos ($I$) to calculate Ethos ($R$)— functions as a structural category error. It treats an interpersonal relation across a Tangent Singularity as an internal variable, committing the structural error of Solipsism. Connection between distinct K4 entities requires structural coupling (the Braid), not algebraic division.
+Attempting to compute *across* blankets using this scalar math—for example, dividing Person A's Logos ($U$) by Person B's Pathos ($I$) to calculate Ethos ($R$)— functions as a structural category error. It treats an interpersonal relation across a Tangent Crossing as an internal variable, committing the structural error of Solipsism. Connection between distinct K4 entities requires structural coupling (the Braid), not algebraic division.
 
 I repeat: These twelve equations govern *internal* mutual determination, not relations between interiors!
 
@@ -225,7 +225,7 @@ The selectivity of 1/256 is the formal expression of the framework's specificity
 
 ## IX. Open Research Tasks
 
-With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent Singularity (see Proofs N, O, P, and L4), the perimeter of the framework has expanded. The outstanding formal research tasks are now precisely bounded:
+With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent Crossing (see Proofs N, O, P, and L4), the perimeter of the framework has expanded. The outstanding formal research tasks are now precisely bounded:
 
 1. **Uniqueness proof (Static):** The formal mathematical proof that no other system satisfies R1-R7 simultaneously in the static K4 state. The comparative analysis provides strong informal support, but the definitive topological proof remains an outstanding task.
 
@@ -233,7 +233,7 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
 
 3. **Isomorphism verification (The Dual-Binary Mapping):** Postulate IV asserts an isomorphism between the algebra and qualitative reality. With the algebra now defined by dual-binary bit-conservation and the biquaternion star-norm, the task is no longer defining isomorphism, but verifying it. We must mathematically map qualitative datasets onto the Real ($P$) and Imaginary ($Q$) axes to confirm they obey the invariant ($P^2 - Q^2$).
 
-4. **Mapping the Tangent Singularity (Scale Bounds):** The scale-invariance postulate holds across the entire manifest plane ($H_{coh}$). The framework dictates that this invariance breaks down exactly at the $\tan(90^\circ)$ boundary (the Markov Blanket), where dimensional coordinates collapse. The open task is mathematically formalizing this collapse threshold for specific phase transitions (e.g., the Planck scale at the bottom, or the cosmological horizon at the top).
+4. **Mapping the Tangent Crossing (Scale Bounds):** The scale-invariance postulate holds across the entire manifest plane ($H_{coh}$). The framework dictates that this invariance breaks down exactly at the $\tan(90^\circ)$ boundary (the Markov Blanket), where dimensional coordinates collapse. The open task is mathematically formalizing this collapse threshold for specific phase transitions (e.g., the Planck scale at the bottom, or the cosmological horizon at the top).
 
 5. **Formalizing the Topological Helix:** The transition to the dynamic system (adding $\omega$) does not create a symmetrical K5 simplex, because Time is a unidirectional driver. It creates a Helical Extrusion. The open task is formalizing the exact topological rules of this asymmetrical driver, rather than searching for alternative 5-variable systems.
 

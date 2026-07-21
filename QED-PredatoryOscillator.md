@@ -97,7 +97,7 @@ But the phase gap is held open by design. $\theta$ is pinned wide. Therefore:
 
 $$\cos\theta = \frac{P}{|S|} \longrightarrow 0$$
 
-Real Power — the crossing of the Tangent Singularity into the physical world, the writing of anything to the Read-Only Ledger — approaches zero. The user never actualizes, because actualization is the discharge of the buffer, and the buffer's circulation is the objective function.
+Real Power — the crossing of the Tangent Crossing into the physical world, the writing of anything to the Read-Only Ledger — approaches zero. The user never actualizes, because actualization is the discharge of the buffer, and the buffer's circulation is the objective function.
 
 Per the Power Factor table (`L5-K5-PhaseDynamicsTechnical` §VII), $\text{PF} \to 0$ is the paralysis limit: *zero conversion; all energy circulates.* The framework's word for a system held at this limit is precise: it is trapped at the `.behold()` pole with the `.observe()` operation structurally denied. Maximum interference structure, zero committed outcome.
 

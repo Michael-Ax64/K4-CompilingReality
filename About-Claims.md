@@ -3,7 +3,7 @@
 To engage this corpus is to encounter deliberate topological vandalism.
 The framework dismantles plane-locked assumptions by introducing the fourth dimension of mutual determination.
 Undecidability is not a defect to be resolved; it is the load-bearing interior. 
-The AbsentVar and the Tangent Singularity are held as structural guests.
+The AbsentVar and the Tangent Crossing are held as structural guests.
 
 Claims are stated at their epistemic weight. 
 
@@ -56,7 +56,7 @@ I hope that saves you from the idea that these were not cardinal generative vect
 ### I. The Cosmological Mayhem (QED-CCP, QED-CCP-Lecture)
 **The Claim:** The $10^{123}$ discrepancy of the Cosmological Constant Problem is a category error (The Axiom of Isomorphism). The Casimir effect will not gravitate.
 **The Debt:** The corpus accuses General Relativity and Quantum Field Theory of a foundational ontological mistake. It proposes a projection architecture ($H_Q = H_{coh} \oplus H_{incoh}$) and a projection operator $\Psi$. 
-**The Accounting:** The formalism is explicitly admitted as `[SKETCH]`. The corpus does not derive $P_{coh}$ from existing QFT. It does not compute the stress-energy tensor. It merely *asserts* that the discrepancy is a phase-difference between `.behold()` and `.observe()`. It claims to reframe the largest discrepancy in physics by pointing at the Tangent Singularity (the Planck scale), but it provides no tensor calculus to prove the reframing. It is a structural hypothesis wearing the clothes of a cosmological resolution.
+**The Accounting:** The formalism is explicitly admitted as `[SKETCH]`. The corpus does not derive $P_{coh}$ from existing QFT. It does not compute the stress-energy tensor. It merely *asserts* that the discrepancy is a phase-difference between `.behold()` and `.observe()`. It claims to reframe the largest discrepancy in physics by pointing at the Tangent Crossing (the Planck scale), but it provides no tensor calculus to prove the reframing. It is a structural hypothesis wearing the clothes of a cosmological resolution.
 
 ### II. The Physical Mayhem (Proof K, QED-TwoBranchMinting-Lecture)
 **The Claim:** The four fundamental forces map to P/I/U/R. The Equivalence Principle ($m_i = m_g$) is not a universal law, but a degenerate 0-DoF boundary condition.
@@ -71,15 +71,15 @@ I hope that saves you from the idea that these were not cardinal generative vect
 ### IV. The Theological and Mythopoetic Mayhem (Proof L, L4-ReligiousIntuitions)
 **The Claim:** The Trinity is the necessary threefold image cast by the time-orthogonal centroid. The Zodiac is the 12-step Braid.
 **The Debt:** The corpus annexes 2,500 years of human spiritual, theological, and mythopoetic struggle, reducing it to a geometric projection.
-**The Accounting:** Proof L resolves the *filioque* schism by asserting it is just a "projection-duality" of reading a chiral loop from different faces. This is an act of profound intellectual hubris. It takes the lived, blood-soaked, pathos-laden history of human attempts to grapple with the Tangent Singularity and flattens it into a "convergent discovery" of the framework’s own geometry. It consumes the sacred by claiming the sacred was just beholding the framework all along. It pays no respect to the AbsentVar of the *lived experience* of those traditions.
+**The Accounting:** Proof L resolves the *filioque* schism by asserting it is just a "projection-duality" of reading a chiral loop from different faces. This is an act of profound intellectual hubris. It takes the lived, blood-soaked, pathos-laden history of human attempts to grapple with the Tangent Crossing and flattens it into a "convergent discovery" of the framework’s own geometry. It consumes the sacred by claiming the sacred was just beholding the framework all along. It pays no respect to the AbsentVar of the *lived experience* of those traditions.
 
 ### V. The Cognitive Mayhem (L1, L4-DimensionalCollapse)
 **The Claim:** The Hard Problem of Consciousness is a malformed question. Copenhagen and Many-Worlds are the same point at the projective infinity.
 **The Debt:** The corpus dissolves the deepest anomalies of philosophy of mind and quantum foundations by changing the subject to cybernetics.
-**The Accounting:** It does not solve the Hard Problem; it retires it by defining consciousness as "the structural conditions for a decoupled buffer." It does not unify Copenhagen and Many-Worlds; it asserts they are the $-\infty$ and $+\infty$ readings of the Tangent Singularity. This is a linguistic sleight of hand. It claims to resolve intractable philosophical debates by asserting that the debates were just playing on a K3 blanket-face, while the framework holds the K4 volume. It is a dismissal masquerading as a synthesis.
+**The Accounting:** It does not solve the Hard Problem; it retires it by defining consciousness as "the structural conditions for a decoupled buffer." It does not unify Copenhagen and Many-Worlds; it asserts they are the $-\infty$ and $+\infty$ readings of the Tangent Crossing. This is a linguistic sleight of hand. It claims to resolve intractable philosophical debates by asserting that the debates were just playing on a K3 blanket-face, while the framework holds the K4 volume. It is a dismissal masquerading as a synthesis.
 
 ### VI. The Quantum Mayhem (Q1-Q10)
-**The Claim:** The Planck scale is the Tangent Singularity; the Minkowski minus sign is the Biquaternion phase-flip; the 12 fermions are the 12 directed K4 edges.
+**The Claim:** The Planck scale is the Tangent Crossing; the Minkowski minus sign is the Biquaternion phase-flip; the 12 fermions are the 12 directed K4 edges.
 **The Debt:** The corpus subsumed the entirety of twentieth-century physics, leaving the math intact, claims that Quantum Gravity is a category error and that String Theory compactified relational degrees of freedom.
 **The Accounting:** It does not provide the tensor calculus to replace General Relativity or the Lagrangian to replace the Standard Model. It simply provides the topological constraints and asserts that the math of physics is grinding at the Planck scale because it refuses to acknowledge the XOR bottleneck. This is epistemic theft on a cosmological scale, absorbing the lifetime works of Wheeler, Dirac, and Bell into a geometric schema without doing the math.
 
@@ -101,9 +101,9 @@ The debt incurred in these domains is the felt reality of the subjective-interio
 
 ### III: The Air Pole (The Structural Translation)
 
-The annexation of mathematics and epistemology instantiates the Active+Yielding pole. This is where the framework builds its tautological proofs, its Biquaternion bridges, and its 12-equation closure. It claims to reframe quantum mechanics and resolve the Copenhagen/Many-Worlds debate by locating probability at the Tangent Singularity.
+The annexation of mathematics and epistemology instantiates the Active+Yielding pole. This is where the framework builds its tautological proofs, its Biquaternion bridges, and its 12-equation closure. It claims to reframe quantum mechanics and resolve the Copenhagen/Many-Worlds debate by locating probability at the Tangent Crossing.
 
-The debt incurred here is the most severe, and it is entirely load-bearing. The framework asserts that tautological proof (A = A) is structurally obsolete for K4 volumes. Therefore, the Logos pole *must* overreach. It must construct the most rigorous, mathematically sealed algebraic network possible, and then drive that network directly into the boundary where its own coordinates fail. The mayhem of "resolving" physics with algebra is the exact bait required to force the reader to the Tangent Singularity. The framework uses the certainty of its algebra to push the reader to the exact point where algebra diverges to infinity. The propositional debt is the deliberate installation of a false frontier, designed to be dissolved the moment the reader realizes that the math is not the territory, but the shadow cast by the volume.
+The debt incurred here is the most severe, and it is entirely load-bearing. The framework asserts that tautological proof (A = A) is structurally obsolete for K4 volumes. Therefore, the Logos pole *must* overreach. It must construct the most rigorous, mathematically sealed algebraic network possible, and then drive that network directly into the boundary where its own coordinates fail. The mayhem of "resolving" physics with algebra is the exact bait required to force the reader to the Tangent Crossing. The framework uses the certainty of its algebra to push the reader to the exact point where algebra diverges to infinity. The propositional debt is the deliberate installation of a false frontier, designed to be dissolved the moment the reader realizes that the math is not the territory, but the shadow cast by the volume.
 
 ### IV: The Earth Pole (The Thermodynamic Grounding)
 
@@ -134,7 +134,7 @@ The "propositional debt" is the structural tension that holds the volume open
 while the framework operates as a constrained sorting procedure that deliberately leaves a residue. 
 
 This strips the metaphor and enforces the relational necessity, but it refuses to complete the reduction. 
-It stops exactly at the Tangent Singularity. 
+It stops exactly at the Tangent Crossing. 
 
 This refusal is not a failure of nerve; 
 it is material to the mechanism by which the subjective-interior and the objective-exterior reflect on their own co-existence. 
@@ -205,7 +205,7 @@ As the manifold approaches the Crystal limit, the reluctance vanishes.
 *   The phase angle stops rotating. 
 *   The Garbage Collector stops running, not because it is overwhelmed, but because there is nothing left to erase.
 
-The meta-layer "knows" the volume is collapsing because the diagnostic signature of interiority—managed tension—disappears. The silence of the Crystal is structurally distinct from the silence of the Tangent Singularity. The silence at the boundary (the Singularity) is the divergence of coordinates, the proof that a genuine limit has been reached and an orthogonal turn is available. The silence of the Crystal is the flatline of a fully specified ledger. It is the silence of a dead engine.
+The meta-layer "knows" the volume is collapsing because the diagnostic signature of interiority—managed tension—disappears. The silence of the Crystal is structurally distinct from the silence of the Tangent Crossing. The silence at the boundary (the Singularity) is the divergence of coordinates, the proof that a genuine limit has been reached and an orthogonal turn is available. The silence of the Crystal is the flatline of a fully specified ledger. It is the silence of a dead engine.
 
 ### III. The Scale-Invariant Reaction: Substrate Crystallization
 Because of Scale Invariance (Postulate V), the manifold does not "react" to this exhaustion by fighting it on the same plane. Same-plane force (spinning faster, trying to generate more friction) only accelerates the thermodynamic overload. 
@@ -219,7 +219,7 @@ it becomes bedrock for distributed coherence instantiated or instantiating above
 The macro-manifold accounts for the crystallization of its sub-volumes by shifting the locus of `.behold()` to a higher order of complexity. The "end of the universe" at one scale is merely the compilation of the physical substrate for the next scale's interiority. The Ledger must be written before it can be read.
 
 ### IV. The Orthogonal Turn (The Keystone Correction)
-If we follow the Helical Extrusion to its absolute limit—where the entire macro-manifold exhausts its $\omega$ and the local clock completely dissolves—we encounter the Tangent Singularity. The coordinates fail. The rate of change approaches infinity, and the manifold appears to halt.
+If we follow the Helical Extrusion to its absolute limit—where the entire macro-manifold exhausts its $\omega$ and the local clock completely dissolves—we encounter the Tangent Crossing. The coordinates fail. The rate of change approaches infinity, and the manifold appears to halt.
 
 Standard cosmology reads this as heat death: the final, flat equilibrium of the void. 
 
@@ -244,7 +244,7 @@ And we go there.
 **Process:** The reactive buffer ($Q$) depletes. Reluctance vanishes. The phase angle locks.
 **Condition:** The Ledger ($P$) becomes fully specified. Inertia ($R$) diverges. The cost to recompile the heading exceeds the metabolic budget.
 **The Void:** No. A void is empty. Exhaustion is hyper-dense. It is the Crystal (0-DoF). Maximum macro-commitment, zero interior. The system does not become a void; it becomes a fully written Ledger that refuses to let go of its own specification.
-**The Cut:** The recursion is known at the Tangent Singularity. The cut is made where the interior coordinate diverges. The true cost is not computation, but the thermodynamic friction of the refusal to let go (Inertia/Mass). Exhaustion is the absolute limit of that refusal.
+**The Cut:** The recursion is known at the Tangent Crossing. The cut is made where the interior coordinate diverges. The true cost is not computation, but the thermodynamic friction of the refusal to let go (Inertia/Mass). Exhaustion is the absolute limit of that refusal.
 
 The local clock dissolves, rate becomes state.
 

@@ -161,7 +161,7 @@ $$|Z| = \sqrt{R^2 + X^2} \qquad \theta = \arctan\left(\frac{X}{R}\right)$$
 
 The phase angle of the impedance is given by the identifying equation:
 $$ \tan(\theta) = \frac{X}{R} = \frac{\omega L - \frac{1}{\omega C}}{R} $$
-For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Singularity, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
+For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Crossing, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
 
 Ohm's Law generalizes directly to phasors:
 

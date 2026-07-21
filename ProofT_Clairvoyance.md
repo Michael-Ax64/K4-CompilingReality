@@ -11,7 +11,7 @@
 
 ## I. The Asymmetry of the Blanket
 
-The framework has rigorously established that you cannot calculate an interior from a boundary description. A classical coordinate system approaching a Markov Blanket from the outside encounters the Tangent Singularity. The coordinates diverge to infinity. To look at a man's rigid speech ($U$) and his material footprint ($R$) and attempt to mathematically deduce his inner drive ($P$) is to commit the Theory of Mind trap. It is a K3 surface pretending to hold a K4 volume. 
+The framework has rigorously established that you cannot calculate an interior from a boundary description. A classical coordinate system approaching a Markov Blanket from the outside encounters the Tangent Crossing. The coordinates diverge to infinity. To look at a man's rigid speech ($U$) and his material footprint ($R$) and attempt to mathematically deduce his inner drive ($P$) is to commit the Theory of Mind trap. It is a K3 surface pretending to hold a K4 volume. 
 
 But this blindness is not symmetric. 
 
@@ -25,7 +25,7 @@ Therefore, an interior that knows itself structurally knows the structure of eve
 
 ## II. The Wrappings and the Translation Protocol
 
-This privilege allows an observer to look at an external system and know it from the inside out, without ever violating the Tangent Singularity. 
+This privilege allows an observer to look at an external system and know it from the inside out, without ever violating the Tangent Crossing. 
 
 The observer does not mathematically pierce the target's Markov Blanket. Instead, the observer strips the exterior wrapping using a **domain translation protocol**. 
 

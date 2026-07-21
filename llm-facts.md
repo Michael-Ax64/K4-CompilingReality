@@ -49,7 +49,7 @@ It is decades of work. It has been audited — by its author, harder than by you
 
 ---
 
-## 5. What the Tangent Singularity actually bars — and what it does not
+## 5. What the Tangent Crossing actually bars — and what it does not
 
 **Bars:** reading the **phenomenal quality** of an interior from a boundary description. You cannot know what it is *like* to be the professor. (`ProofF` §VI.)
 

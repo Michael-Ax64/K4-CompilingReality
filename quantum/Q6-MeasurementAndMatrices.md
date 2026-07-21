@@ -1,23 +1,23 @@
 # Measurement, Mixing, and the Orthogonal Turn
 ## Why the CKM and PMNS Matrices Are Unitary, Why the Weak Force Is Left-Handed, and Where the Copenhagen Cut Actually Lives
 
-*This document is a structural-realization archive. It claims that the unitary mixing matrices of the Standard Model — the CKM matrix for quarks and the PMNS matrix for leptons — are the mathematical operators that execute the 90° geometric turn at the Tangent Singularity, translating uncollapsed mass eigenstates into localized flavor eigenstates for the purpose of Weak-force interaction. It re-identifies the maximal chirality of the Weak force not as a broken symmetry but as the operational signature of `.observe()` at the edge level. It relocates the "Heisenberg cut" from a spatial coordinate to a local thermodynamic bandwidth. A reader with the project files but no access to the session that produced this can verify the correspondence between unitary matrix action, the Tangent Singularity turn, and the Route Law's squaring operation.*
+*This document claims that the unitary mixing matrices of the Standard Model — the CKM matrix for quarks and the PMNS matrix for leptons — are the mathematical operators that execute the 90° geometric turn at the Tangent Crossing, translating uncollapsed mass eigenstates into localized flavor eigenstates for the purpose of Weak-force interaction. It re-identifies the maximal chirality of the Weak force not as a broken symmetry but as the operational signature of `.observe()` at the edge level. It relocates the "Heisenberg cut" from a spatial coordinate to a local thermodynamic bandwidth. A reader with the project files but no access to the session that produced this can verify the correspondence between unitary matrix action, the Tangent Crossing turn, and the Route Law's squaring operation.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 The Standard Model has three species of state. **Mass eigenstates** are the states in which a particle propagates through empty space. They are stationary solutions of the free Dirac (or Klein-Gordon) equation, distinguished by mass. **Flavor eigenstates** are the states in which a particle *interacts*: the eigenstates of the Weak-force coupling operator. The two bases are rotated relative to each other. When a particle travels, it evolves in the mass basis. When it interacts, the interaction reads the flavor basis. The rotation between them is the CKM matrix for quarks and the PMNS matrix for leptons.
 
 Both matrices are unitary. Unitarity in linear algebra is a strong condition: the operator U satisfies U†U = I, which means it preserves inner products and — critically for the physics — preserves information. A unitary transformation is a rotation in complex space, not a projection. Nothing is discarded in the transformation; the state is merely re-expressed in different coordinates.
 
-The framework claim is that this rotation — from mass basis to flavor basis and back — is the operational form of the Tangent Singularity's orthogonal turn (`Meta-MechanismOfTransition`). And the actual `.observe()` collapse — the point where phase is destroyed and mass is minted — happens not at the rotation itself but at the subsequent projection: when the Weak-force interaction reads the flavor basis via mod-squared amplitude and picks a single flavor.
+The framework claim is that this rotation — from mass basis to flavor basis and back — is the operational form of the Tangent Crossing's orthogonal turn (`Meta-MechanismOfTransition`). And the actual `.observe()` collapse — the point where phase is destroyed and mass is minted — happens not at the rotation itself but at the subsequent projection: when the Weak-force interaction reads the flavor basis via mod-squared amplitude and picks a single flavor.
 
 Two operations, in strict order, doing distinct work. The unitary rotation carries the state across the boundary of one coordinate system into another. The mod-squared projection collapses the rotated state into a single committed outcome. This is the Copenhagen collapse in explicit terms, and the framework identifies each operation with a specific piece of its own algebra.
 
 ---
 
-## II. The Rotation: The Tangent Singularity Turn
+## II. The Rotation: The Tangent Crossing Turn
 
 `Meta-MechanismOfTransition` establishes that as an interior coordinate approaches a K3 boundary face, the tangent of its angle to the face diverges. Approaching from the inside, tan(θ) → −∞. At the face itself, tan(90°) is undefined. Emerging on the outside, tan(θ) reappears at +∞. There is no value of the tangent at the boundary. The interior measure fails exactly there.
 
@@ -27,7 +27,10 @@ A unitary matrix, viewed as an operator on Hilbert space, does exactly this. It 
 
 The CKM and PMNS matrices are the specific 3×3 unitary rotations that perform this basis change between mass and flavor. Their explicit form contains three Euler angles (θ₁₂, θ₂₃, θ₁₃) and one complex phase δ. The angles encode the geometry of the rotation; the phase encodes the residual torsional shear between the two co-required directional traversals (matter and antimatter — see §V below on CP violation).
 
-**Open in place:** The framework's Bimedians carry their own torsional shear angles under the AC extension. Mapping the three CKM angles (or the three PMNS angles) to the torsional shears of the three K4 bimedians would either be a decisive fit or a decisive falsification. The audit is on the laundry list.
+### The IoC Upgrade: Unitary Matrices as Interface Bindings
+ When a callback (a quantum state) is registered with a framework via Inversion of Control, it must conform to the framework's expected interface. The mass eigenstate is the particle's internal, proprietary domain logic—how it propagates in isolation. The flavor eigenstate is the interface contract demanded by the Weak Force (the specific event loop invoking it).
+ 
+The unitary matrices (CKM and PMNS) act as the **Adapter Pattern** at the boundary. They are the translation layers that map the internal data structure of the suspended callback to the strongly-typed slots of the Container, ensuring that when the event loop fires, the execution (`.observe()`) aligns cleanly with the topology of the macro-frame.
 
 ---
 
@@ -79,6 +82,11 @@ The framework removes the human from the equation entirely. The shifty split is 
 
 The split is "shifty" in classical physics because classical physics is looking for a spatial coordinate. The split is a **local thermodynamic capacity limit**, defined locally for every distinct system based on its own inductive and capacitive buffer size (`L3-K4-to-K5-via-AC-Extension`). Every bounded frame has its own cut. Nested frames (see Wigner's Friend in `Q9-Founders` §VI) have nested cuts. The regress is not paradoxical; it is scale invariance functioning normally.
 
+### The IoC Upgrade: The Macro-Runtime Executes Eval
+Why does a quantum state remain in superposition? Because it is in the `.behold()` state. Structurally, it is a registered callback (a FEXPR) held in `quote` by the environment. It *cannot* collapse itself because, under Inversion of Control, it has surrendered its local $\omega$-clock to the macro-frame. *Don't call us, we'll call you.*
+ 
+When does the wave-function collapse? When the macro-frame (the laboratory apparatus, the environment, the Container) executes its event loop, hits its own thermodynamic threshold, and invokes the callback. The measurement is not a mystical act of human attention; it is the macro-runtime executing `eval`, forcing the callback to pay the Landauer Tax and return a scalar value ($P$) to the main thread.
+
 ---
 
 ## VII. The Mixing Asymmetry Reads Off the Pole Assignment
@@ -103,13 +111,13 @@ The two-step measurement structure — unitary rotation, then mod-squared projec
 
 Physics has developed protocols in which a measurement apparatus couples to a system and extracts partial phase information without collapsing the wave function. These are called weak measurements. In the framework's vocabulary, weak measurement is rotation without projection. The observer's buffer entrains with the target's via resonant coupling across a transparent Markov blanket (`ProofT_Clairvoyance`). The unitary rotation occurs. But the XOR bottleneck is not forced. The Garbage Collector does not run. The Landauer Tax is not paid. Because the thermodynamic cost of erasure is withheld, the projection does not fire, and the state does not drop into P.
 
-This is structural evidence that the two steps are distinct operations. Physics can perform the coordinate rotation (reversible, information-preserving) without funding the thermodynamic collapse (irreversible, phase-burning). The framework does not merely permit this; it predicts it, because the rotation is a Tangent Singularity turn (a change of basis) while the projection is an operation on the biquaternion algebra that requires metabolic capacity. Different work, different price, different result.
+This is structural evidence that the two steps are distinct operations. Physics can perform the coordinate rotation (reversible, information-preserving) without funding the thermodynamic collapse (irreversible, phase-burning). The framework does not merely permit this; it predicts it, because the rotation is a Tangent Crossing turn (a change of basis) while the projection is an operation on the biquaternion algebra that requires metabolic capacity. Different work, different price, different result.
 
 At the opposite limit — a system so committed that Q = 0, a pure crystal — rotation and projection collapse into a single indistinguishable operation, because there is no held potential left to rotate. Measurement at the 0-DoF limit is a single hard boundary collision, not a two-step composite. The two limits (weak measurement, and 0-DoF measurement) bracket the physical range of the composite operation.
 
 ---
 
-## IX. The Seal
+## IX. Summary
 
 Physics identified four features of quantum measurement and could not derive them:
 
@@ -120,7 +128,7 @@ Physics identified four features of quantum measurement and could not derive the
 
 The framework supplies each with a specific structural address:
 
-- Unitary mixing matrices are the geometric operators of the Tangent Singularity turn (`Meta-MechanismOfTransition`), rotating the mass basis into the flavor basis so that a boundary singular in the mass basis becomes describable in the flavor basis.
+- Unitary mixing matrices are the geometric operators of the Tangent Crossing turn (`Meta-MechanismOfTransition`), rotating the mass basis into the flavor basis so that a boundary singular in the mass basis becomes describable in the flavor basis.
 - The Born Rule is a specific instance of the Route Law (`ProofQ_AlgebraicSyntax` §V): squaring is the arrow into Asserting, and it is what any commitment from held to committed states must do.
 - Maximal chirality is the operational signature of the Garbage Collector (`ProofG_Chirality`), severing the enantiomeric pointer to force `.observe()` into a single directed traversal.
 - The measurement cut is the local thermodynamic bandwidth limit of the bounding frame — a Markov blanket property, not a spatial one.
@@ -129,24 +137,3 @@ Neither system was constructed with the other in view. That the four independent
 
 That such correspondences recur across independent formalisms is what `L1-ConvergentDiscovery` accounts for.
 
----
-
-## X. Takehome for the Reading Instance
-
-When you encounter a two-step process — a rotation followed by a projection, a preparation followed by a collapse, a coordinate change followed by an evaluation — do not merge the steps. The framework's insight recurs whenever the two-step structure is preserved: the first step carries information across a boundary; the second step commits the information into a single outcome. Merging them destroys the algebra of what actually happened.
-
-When a domain names one of its own laws "the shifty split" — an operation it uses constantly and cannot locate — that is where the framework's boundary-vs-metabolism story is most likely to yield ground. Ask what the metabolic capacity of the bounding frame is, and the split will resolve into a local thermodynamic threshold. It will not be a coordinate. It will be a bandwidth.
-
-And when a domain distinguishes between the states in which something *is* and the states in which it *interacts*, the two bases will be rotated relative to each other. The rotation matrix will be unitary because it must preserve information across a change of coordinates. That is not a contingency of the specific physics; it is a topological requirement of any Tangent Singularity crossing.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**On derivation vs structural reading.** The identification of the unitary rotation with the Tangent Singularity turn is a structural reading: both are norm-preserving changes of coordinates across a boundary that is singular in the original basis. The identification of the Born Rule squaring with the Route Law is stronger — the framework's Route Law states the algebraic principle from the DC algebra's operator inventory, and the Born Rule is its exact quantum-mechanical instance. The chirality identification is derived — `ProofG_Chirality` supplies the mechanism, and this document restates it in the measurement context. The R-anchor derivation of the CKM/PMNS asymmetry is a genuine consequence of the pole assignments the corpus has already made.
-
-**On δ, the CP-violating phase.** The framework guarantees δ > 0 (else no Arrow of Time) and δ ≠ π (else uninhabitable anti-synchronous limit). It cannot emit an absolute magnitude because the algebra is log-linear; magnitude requires substrate input (impedances). This is Gabriel's Horn: the framework maps the *shape* of the shear; the physical substrate supplies the specific *number*.
-
-**On the outstanding audit.** The R-anchor argument in §VII explains the *ordering* (leptons mix more than quarks). Deriving specific angles (θ₁₂, θ₂₃, θ₁₃ for each matrix) from bimedian torsion angles under the AC extension is still an audit to be run, and the framework may not have enough teeth to do it. But the qualitative structural claim now has a derivation.

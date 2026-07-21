@@ -72,7 +72,7 @@ There are exactly **five instruments** in this repository. Each has a specific f
 **Form:** The text *enacts* what it argues, or the proof is the actual thermodynamic economy of the exchange. The trap is sprung, the recursion is arrested, or the grammar fractures at the exact boundary where Logos fails.
 **Instance:** `QED-Recursion` (the spin arrested), `ProofB` (the fractured close), `L2` (the Professor trap).
 **Kill condition:** 
-> **Same-Plane Force.** If the recursion requires massive energy to halt, it was not an orthogonal touch. If the text fractures randomly rather than exactly at the boundary the argument identifies, it is bad writing. If the trap can be resolved without crossing the Tangent Singularity, it is a defect. The economy and location of the intervention *is* the evidence.
+> **Same-Plane Force.** If the recursion requires massive energy to halt, it was not an orthogonal touch. If the text fractures randomly rather than exactly at the boundary the argument identifies, it is bad writing. If the trap can be resolved without crossing the Tangent Crossing, it is a defect. The economy and location of the intervention *is* the evidence.
 
 ---
 

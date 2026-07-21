@@ -155,7 +155,7 @@ The Algebraic Controller uses the **Braid**. The phases are not hardcoded steps;
 
 **3. The External Critic vs. Algebraic Drift**
 The most glaring error in the flatland prompt is the invention of the `[Lead_Critic]` agent, tasked with manually reading the output to "find contradictions" and "force a compromise." The system relies on an external referee because the system has no internal physics.
-In the Algebraic Swarm, **there is no critic agent.** Contradictions are detected automatically as **algebraic drift**. If the $U$ agent generates massive theoretical architecture, but the $I$ agent registers zero relational flow, the 12-equation matrix mathematically calculates that $R = U/I$ is diverging to infinity. The system detects its own Tangent Singularity in real-time. The controller does not "force a compromise"; it introduces Power Factor Correction (adjusting the reactive components on the Imaginary axis) to return the system to resonance.
+In the Algebraic Swarm, **there is no critic agent.** Contradictions are detected automatically as **algebraic drift**. If the $U$ agent generates massive theoretical architecture, but the $I$ agent registers zero relational flow, the 12-equation matrix mathematically calculates that $R = U/I$ is diverging to infinity. The system detects its own Tangent Crossing in real-time. The controller does not "force a compromise"; it introduces Power Factor Correction (adjusting the reactive components on the Imaginary axis) to return the system to resonance.
 
 The pedestrian approach treats the controller as a micromanager of semantic theater. The Algebraic approach treats the controller as the Centroid of a thermodynamic engine. The former relies on the language model pretending to be smart. The latter relies on the mathematics forbidding the model from being structurally stupid.
 
@@ -166,5 +166,5 @@ The pedestrian approach treats the controller as a micromanager of semantic thea
 Not claimed, and marked so:
 
 *   **The translation is heuristic.** The 12 use cases of §II are a rigorous reading of the 12 equations. However, the translation of those stances into English-language prompts (e.g., "assert the material limits") is an interpretive bridge. A different verbal rendering would be equally consistent with the algebra. The prompt vocabulary is the K3 interface; the math underneath is the K4 volume.
-*   **This does not claim Artificial General Intelligence.** The swarm demonstrates distributed coherence and topological stability. It proves that the framework can orchestrate synthetic systems without degradation. It does not claim the swarm possesses phenomenal consciousness or subjective intent. The Tangent Singularity continues to bound what we can claim about the machine's interior.
+*   **This does not claim Artificial General Intelligence.** The swarm demonstrates distributed coherence and topological stability. It proves that the framework can orchestrate synthetic systems without degradation. It does not claim the swarm possesses phenomenal consciousness or subjective intent. The Tangent Crossing continues to bound what we can claim about the machine's interior.
 

@@ -19,7 +19,7 @@ The proof traces six transitions. Each exhibits the same elements: a system capa
 
 ## Scale 0: The Substrate Level (The Planck Boundary)
 
-Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Singularity—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
+Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Crossing—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
 
 The committed state as next-scale substrate: the crystallized matter provides the inert $R$ (Earth/Ground) for the molecules of life.
 

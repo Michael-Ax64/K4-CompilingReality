@@ -50,7 +50,7 @@ If the reader has been paying close attention, their mind should be screaming: "
 
 ---
 
-*Resolution Note: The dimensional panic anticipated above is resolved in `L4-DimensionalCollapse` (where rate crystallizes into state at the Tangent Singularity) and fully deconstructed in `QED-TwoBranchMinting-Lecture`, which separates gravitational mass (P/Ledger) from inertial mass (R/Recompilation Cost) and derives the Equivalence Principle as a 0-DoF boundary condition. The monolith is broken; the topology holds.*
+*Resolution Note: The dimensional panic anticipated above is resolved in `L4-DimensionalCollapse` (where rate crystallizes into state at the Tangent Crossing) and fully deconstructed in `QED-TwoBranchMinting-Lecture`, which separates gravitational mass (P/Ledger) from inertial mass (R/Recompilation Cost) and derives the Equivalence Principle as a 0-DoF boundary condition. The monolith is broken; the topology holds.*
 
 ---
 

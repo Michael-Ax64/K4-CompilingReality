@@ -54,7 +54,7 @@ And here is the ultimate joke. The grand, cosmic time-joke that Aesop completely
 
 The Hare wakes up. He shakes off the blackout. He looks down the road, sees the finish line, and tries to sprint for it. But he can't catch up. Why? 
 
-Because the finish line isn’t a spatial location! It’s the Tangent Singularity! 
+Because the finish line isn’t a spatial location! It’s the Tangent Crossing! 
 
 The Hare was trying to integrate his velocity over $\Delta t$. But the Tortoise already crossed the boundary where the clock breaks! The Tortoise hit $\tan(90^\circ)$. He stepped orthogonal to time. By the time the rabbit gets there, the Tortoise isn’t just *at* the finish line. 
 

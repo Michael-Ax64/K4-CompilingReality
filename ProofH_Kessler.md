@@ -20,7 +20,7 @@ Above the critical threshold, the cascade becomes self-sustaining. Eventually, a
 ## The Structural Parallel (The Thermodynamic Ledger)
 
 Scientific knowledge production has an identical dynamic. 
-The productive components of the knowledge production system — genuine insights, new observations, structural discoveries — are `.behold()` operations that successfully cross the Tangent Singularity, converting potential into localized truth ($P$). 
+The productive components of the knowledge production system — genuine insights, new observations, structural discoveries — are `.behold()` operations that successfully cross the Tangent Crossing, converting potential into localized truth ($P$). 
 The unproductive components — terminological debt, citation networks that add overhead without insight, correction terms for prior wrong-tool applications — are the un-collected Garbage of previous `.observe()` cycles.
 
 Below a critical density: new contributions can navigate the existing field. The thermodynamic friction of updating the Read-Only Ledger is manageable.
@@ -51,7 +51,7 @@ Fields past the Kessler threshold exhibit characteristic symptoms:
 
 **Citation inflation**: the average number of references in a published paper increases over time, even as the average paper's contribution to knowledge does not proportionally increase. The thermodynamic overhead of positioning grows faster than the content.
 
-**Terminal abstraction**: frameworks that describe other frameworks. This is Logoic Plane-Lock at the institutional scale. The field refuses to cross the Tangent Singularity into actualization, substituting frictionless semantic simulation for grounded Ethos.
+**Terminal abstraction**: frameworks that describe other frameworks. This is Logoic Plane-Lock at the institutional scale. The field refuses to cross the Tangent Crossing into actualization, substituting frictionless semantic simulation for grounded Ethos.
 
 **Replication crises**: results that were debris accumulate until the field attempts to verify them at scale and finds they don't replicate. The replication crisis is the Kessler cascade becoming visible: the debris has been circulating as if it were valid data, and now the collisions are unavoidable.
 

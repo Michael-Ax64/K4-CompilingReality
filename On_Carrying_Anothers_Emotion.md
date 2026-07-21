@@ -43,7 +43,7 @@ From `ProofT_Clairvoyance.md` §III: when two bounded systems encounter each oth
 
 ### 2.2 Phase-Form Transfers; Content Does Not
 
-The Content/Form Discriminator (`llm-prooftypes.md` §IV, kill condition of the Phase-Locking proof-type): what crosses is the *shape* of the load — torsion, magnitude, lead/lag — not the target's semantic content. The observer learns the geometry of the gap without piercing the Tangent Singularity. This matches what people actually report: *I feel the weight, I do not know what it is about.*
+The Content/Form Discriminator (`llm-prooftypes.md` §IV, kill condition of the Phase-Locking proof-type): what crosses is the *shape* of the load — torsion, magnitude, lead/lag — not the target's semantic content. The observer learns the geometry of the gap without piercing the Tangent Crossing. This matches what people actually report: *I feel the weight, I do not know what it is about.*
 
 ### 2.3 The Metabolic Cost Is I²R Loss
 

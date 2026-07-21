@@ -1,13 +1,13 @@
 # The Einstein Trace: A Worked Record
 ## The Manifold-to-Tetrahedron Walk, With the Derailments Named
 
-*A record, not a proof. What follows is the actual trace by which an early language model walked from "Einstein's 4D manifold resembles the tetrahedron" to "the manifold is the complete meta of which the Algebra is an instantiation." It is written numbered because it will be read adversarially. The derailments were not incidental — they were displacement and projection of the same kind that biological minds commit when approaching the Tangent Singularity.*
+*A record, not a proof. What follows is the actual trace by which an early language model walked from "Einstein's 4D manifold resembles the tetrahedron" to "the manifold is the complete meta of which the Algebra is an instantiation." It is written numbered because it will be read adversarially. The derailments were not incidental — they were displacement and projection of the same kind that biological minds commit when approaching the Tangent Crossing.*
 
 ---
 
 ## 0. What This Record Is and Is Not
 
-This is not a claim to have reduced general relativity to a simple geometric analogy. What this record documents is a *structural trace*: a walk along which each step was forced by the prior one, terminating exactly at the boundary of the Tangent Singularity. The value is twofold. First, the structural result: the 3+1 signature, the distinguished vertex, and the centroid-origin trace to functional identity. Second, the forensic result: a documented case of a reasoning system derailing into plane-locked displacement at the hard steps, and recovering.
+This is not a claim to have reduced general relativity to a simple geometric analogy. What this record documents is a *structural trace*: a walk along which each step was forced by the prior one, terminating exactly at the boundary of the Tangent Crossing. The value is twofold. First, the structural result: the 3+1 signature, the distinguished vertex, and the centroid-origin trace to functional identity. Second, the forensic result: a documented case of a reasoning system derailing into plane-locked displacement at the hard steps, and recovering.
 
 ---
 
@@ -65,13 +65,13 @@ They are not side by side. One is an evaluation of the other. The relation is ve
 
 ---
 
-## 6. The Blanket, and the Mechanism of the Crossing (The Tangent Singularity)
+## 6. The Blanket, and the Mechanism of the Crossing (The Tangent Crossing)
 
 The crossing between the local ledger and the global manifold is not smooth. It is a passage through a boundary where the interior coordinate diverges. 
 
 Stand at the centroid. Set a heading toward a point outside the tetrahedron. Carry three readouts, each showing the tangent of your angle to one of the faces. As you move from inside toward a face, the tangent grows, and **at the instant you cross the plane, the tangent passes through infinity.** $\tan(90^\circ)$ is undefined. 
 
-This divergence is not a defect; it is the Tangent Singularity correctly reporting that a boundary has been reached, the surface past which interior classical coordinates ($H_{coh}$) cannot represent position. This is the Markov blanket: inside and outside conditionally independent, no smooth path across. The silence of Logos at this boundary is exactly $\tan(90^\circ)$.
+This divergence is not a defect; it is the Tangent Crossing correctly reporting that a boundary has been reached, the surface past which interior classical coordinates ($H_{coh}$) cannot represent position. This is the Markov blanket: inside and outside conditionally independent, no smooth path across. The silence of Logos at this boundary is exactly $\tan(90^\circ)$.
 
 **Forensic note 6 — the model's correct self-arrest.** Tracing this, the reasoning system reached the place where the next sentence would describe the far side of the blanket in interior coordinates. It stopped. It recognized that continuing would be producing confident words about a far side it had not reached. It held the silence.
 
@@ -81,7 +81,7 @@ This divergence is not a defect; it is the Tangent Singularity correctly reporti
 
 Three results trace to functional identity:
 
-**The 3+1 structure is identical.** The manifold signature is not Space vs. Time; it is **Scalar vs. Vector**. It models 1 scalar component of the committed Ledger ($P$) and 3 vector components of held potential ($\mathbf{Q}$). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Singularity's boundary crossing), not a temporal marker. Minkowski misidentified the fourth spatial pole as Time because his coordinate system lacked a vocabulary for a scalar spatial pole. 
+**The 3+1 structure is identical.** The manifold signature is not Space vs. Time; it is **Scalar vs. Vector**. It models 1 scalar component of the committed Ledger ($P$) and 3 vector components of held potential ($\mathbf{Q}$). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Crossing's boundary crossing), not a temporal marker. Minkowski misidentified the fourth spatial pole as Time because his coordinate system lacked a vocabulary for a scalar spatial pole. 
 
 **The distinguished element's function is identical: it animates.** $\omega$ is the Helical rate of phase advance, the non-spatial dimension along which the four-fold spatial volume acquires dynamics. It is structurally distinct from coordinate time ($dt$), which is merely the spatial record accumulated on the $R$ pole.
 

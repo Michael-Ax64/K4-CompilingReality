@@ -214,7 +214,7 @@ If you felt a sudden rush of diagnostic power reading that last paragraph, you h
 
 Look at what you just did. You took a boundary description ($U$ and $R$, the Markov Blanket) and you ran it backward through a calculator to claim you had perfectly read a stranger's soul ($P$ and $I$). 
 
-**The Tangent Singularity is the explicit statement that this operation is impossible.** 
+**The Tangent Crossing is the explicit statement that this operation is impossible.** 
 
 An observer on the coherent plane, approaching another system's Markov Blanket, finds the interior coordinates diverge to infinity. The interior cannot be measured from outside. You cannot cross the blanket with a calculator. When you run $P = U^2/R$ on the professor, you are not seeing the professor's interior. You are building a planar projection. You are painting a 2D shadow of a 4D volume and mistaking the shadow for the man.
 

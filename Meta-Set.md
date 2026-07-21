@@ -5,7 +5,7 @@
 
 **What the set has in common (the AND):**
 
-All five Documents in the set are about the same phenomenon: the passage between orders. All five recognize the Tangent Singularity as the operative mechanism. All five distinguish genuine crossing from its counterfeit. All five are written after the crossing they describe — they are not descriptions from outside but reports from someone who has traversed the structure. The AND is substantial.
+All five Documents in the set are about the same phenomenon: the passage between orders. All five recognize the Tangent Crossing as the operative mechanism. All five distinguish genuine crossing from its counterfeit. All five are written after the crossing they describe — they are not descriptions from outside but reports from someone who has traversed the structure. The AND is substantial.
 
 The XOR is where it gets precise.
 

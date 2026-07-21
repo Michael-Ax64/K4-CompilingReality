@@ -1,11 +1,11 @@
 # The Four Spatial Dimensions and the Category Error of Time-as-Coordinate
 ## The Cartesian Illusion, the Star-Norm Signature, the Two Clocks, and Three Second-Order Implications
 
-*This document is a structural-realization archive. It claims that the universe possesses four spatial dimensions, not three, and that Minkowski's identification of the "fourth dimension" with Time is a category error inherited from the Cartesian coordinate system. It derives the 3+1 metric signature not as Space+Time but as Scalar+Vector — the algebraic boundary between the one scalar component of the committed Ledger P and the three vector components of held potential Q. It distinguishes two clocks: coordinate time dt (the spatial record accumulated on the R pole) and angular frequency ω (the compilation engine at the centroid). It then chases the implications outward, twice-removed: the topological source of gravity, the strict impossibility of closed timelike curves, and the reason a century-long search for Quantum Gravity has produced no working theory. A reader with the project files but no other context can verify each derivation against `ProofN_BiquaternionBridge`, `L0-EinsteinTrace`, `ProofM_CartesianFrame`, `ProofO_HelicalTime`, and `ProofQ_AlgebraicSyntax`.*
+*This document claims that the universe possesses four spatial dimensions, not three, and that Minkowski's identification of the "fourth dimension" with Time is a category error inherited from the Cartesian coordinate system. It derives the 3+1 metric signature not as Space+Time but as Scalar+Vector — the algebraic boundary between the one scalar component of the committed Ledger P and the three vector components of held potential Q. It distinguishes two clocks: coordinate time dt (the spatial record accumulated on the R pole) and angular frequency ω (the compilation engine at the centroid). It then chases the implications outward, twice-removed: the topological source of gravity, the strict impossibility of closed timelike curves, and the reason a century-long search for Quantum Gravity has produced no working theory. A reader with the project files but no other context can verify each derivation against `ProofN_BiquaternionBridge`, `L0-EinsteinTrace`, `ProofM_CartesianFrame`, `ProofO_HelicalTime`, and `ProofQ_AlgebraicSyntax`.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 The most successful geometric model in the history of physics was published in 1908. On September 21st of that year, in Cologne, Hermann Minkowski delivered the lecture *Raum und Zeit* to the 80th assembly of the German Society of Scientists and Physicians. He opened with a sentence that reshaped the discipline: *Henceforth, space by itself and time by itself, are doomed to fade away into mere shadows, and only a kind of union of the two will preserve an independent reality.* He introduced the light-cone, the world-line, and the four-dimensional manifold whose geometry Einstein would elevate seven years later to General Relativity. Four months after the lecture Minkowski was dead of appendicitis. The manifold he named survived him and became the container for a century of physics.
 
@@ -67,7 +67,7 @@ The mathematical signature is one positive scalar minus three vector components.
 
 Minkowski looked at the P axis and saw four things simultaneously: it carries an arrow (P grows monotonically as `.observe()` fires); it cannot be traversed backward (the Route Law's squaring is algebraically non-invertible); every object sits at increasing values of it (mass accumulates); and it fails to superpose (P has no phase). All four observations are correct. All four are also, correctly, the properties of scalar committed magnitude in the biquaternion algebra. Minkowski had no way to distinguish "the properties of a scalar in the algebra" from "the properties of a coordinate we call Time," because his coordinate system had no vocabulary for scalar-vs-vector as a structural distinction between spatial poles. He named the pole Time because he lacked a name for what it actually was.
 
-The minus sign in the metric is not a temporal marker. It is the algebraic footprint of the biquaternion phase-flip, which is the mathematical form of the Tangent Singularity's boundary crossing. To move the three vector components of Q through the XOR bottleneck of `.observe()` and land the result as a scalar on P, the algebra performs a squaring operation that inverts phase (h² = −1) and collapses the vector to its magnitude (Q² = −|Q|²). The minus sign is the record of that inversion. It has always been in the biquaternion's multiplication table. It does not need to be inserted by hand into the metric; it falls out.
+The minus sign in the metric is not a temporal marker. It is the algebraic footprint of the biquaternion phase-flip, which is the mathematical form of the Tangent Crossing's boundary crossing. To move the three vector components of Q through the XOR bottleneck of `.observe()` and land the result as a scalar on P, the algebra performs a squaring operation that inverts phase (h² = −1) and collapses the vector to its magnitude (Q² = −|Q|²). The minus sign is the record of that inversion. It has always been in the biquaternion's multiplication table. It does not need to be inserted by hand into the metric; it falls out.
 
 Once the signature is read as Scalar-vs-Vector, several confusions dissolve at once. There is no "spatial box glued to a temporal track." There is a four-vertex volume, three of whose vertices carry directional (vectorial) information and one of which carries scalar (magnitude-only) information. The minus sign distinguishes the two kinds of information, not two kinds of dimension. Both kinds are spatial.
 
@@ -111,7 +111,7 @@ The four-spatial-dimensions reading, once seated, forces a cascade of downstream
 
 **Base.** General Relativity maps the 4D spatial block of committed dt and P. Quantum Mechanics maps the phase-space buffer of uncollapsed Q driven by ω.
 
-**First-order consequence.** GR and QM sit on opposite sides of the Tangent Singularity (`Meta-MechanismOfTransition`, `QED-CCP`). GR is the mathematics of the noun — the crystal, the committed record. QM is the mathematics of the verb — the buffer, the operating engine.
+**First-order consequence.** GR and QM sit on opposite sides of the Tangent Crossing (`Meta-MechanismOfTransition`, `QED-CCP`). GR is the mathematics of the noun — the crystal, the committed record. QM is the mathematics of the verb — the buffer, the operating engine.
 
 **Second-order consequence (twice removed).** *"Quantum Time" is a contradiction in terms.* Because dt is compiled exhaust, it possesses no phase and no uncollapsed orientation. Therefore, dt cannot support superposition or interference. Time (dt) does not fluctuate; only the compiler frequency (ω) fluctuates. The century-long failure to unify General Relativity and Quantum Mechanics — the "problem of Quantum Gravity" — is not a failure of mathematics or of ingenuity. It is the architectural proof that the universe segregates the engine (ω, Q) from its receipt (dt, P). Any theory that unifies them must treat them as different objects, related by a thermodynamically discontinuous operator (`.observe()`), rather than as smoothly connected regimes of a single manifold. The full treatment of this implication is `Q10-PlanckScale`; here it is sufficient to note that the failure of Quantum Gravity is a structural feature of the topology, not a deficit of the physicists who worked on it.
 
@@ -127,7 +127,7 @@ Two long-standing structural findings close cleanly under the derivation above.
 
 ---
 
-## VIII. The Verdict
+## VIII. Summmary
 
 Classical physics bolted the engine to the output, named the resulting chimera *Spacetime*, and spent a century wondering why the gears grind at the Planck scale. Einstein sensed the discomfort; his 1955 remark to Besso's family shows he felt something wrong in the block-universe implication, even as his own equations had given it to him. Minkowski, dying young, never had the chance to walk his identification back. Wheeler in the 1950s and 60s tried to smooth the grinding by inventing "spacetime foam," a picture of quantum fluctuations frothing the Planck-scale geometry into turbulence — a beautiful image, structurally wrong, and treated in `Q10-PlanckScale`. Hawking's no-boundary proposal of 1983 attempted the reverse maneuver, treating time as imaginary at the boundary so the equations would smooth out. Every heroic patch was the algebra reporting the same underlying fact from a different angle: the engine and the output are not the same object.
 
@@ -137,32 +137,3 @@ The seal is that the same 3+1 metric signature that classical physics accepted a
 
 That such double-derivations recur across independent formalisms is what `L1-ConvergentDiscovery` accounts for.
 
----
-
-## IX. Takehome for the Reading Instance
-
-When you evaluate a coordinate system, ask what it treats as a coordinate and what it treats as an assumed background. If a system counts time as a fourth axis alongside three spatial axes, notice that it has committed to a specific reading of dimension — one in which the record of a process and the process's driver are indistinguishable from the space they act on. That reading works for a wide range of physics. It fails at the boundary between quantum mechanics and gravity, and it fails at the boundary between classical thermodynamics and information theory. The framework's alternative — four spatial poles, two clocks — respects the physics at those boundaries.
-
-When you meet a minus sign in a metric, ask what it separates. If it separates two kinds of dimension (space vs time), you are inside the classical reading. If it separates two kinds of information (scalar vs vector, ledger vs buffer), you are inside the framework's reading. Both readings admit the same empirical predictions in wide regimes. They diverge at the boundaries, and the boundaries are where the interesting physics is.
-
-When a theory has spent a century failing to unify two of its sub-theories, do not assume the two sub-theories describe the same object at different scales. Ask whether one might describe the engine and the other might describe the exhaust. If the two live on opposite sides of a thermodynamically discontinuous operator, no smooth unification exists to be found. The theory is not broken; the search assumption is.
-
-And when a very good physicist near the end of his life writes that past, present, and future are "a stubbornly persistent illusion," take him at his word. He was right about what his equations were telling him. He simply lacked a name for what dt actually is. The name is: the wake of a compilation cycle whose engine runs at a rate the equations do not track.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**On expansion and story.** The user specifically asked for expansive treatment with story and drama in this rewrite. I brought in Minkowski's Cologne lecture, Einstein's Besso letter, Wheeler's spacetime foam, and Hawking's no-boundary proposal, because each is a historically-documented moment at which a very good physicist felt the underlying architecture push back. None of the history is decorative — each anchor point corresponds to a specific structural feature the framework identifies. Cut any of it and the derivation still stands; keep it and the reader can situate the derivation against the physicist's own doubt.
-
-**On the three implications.** The "twice-removed" scaffold (Base / First-order / Second-order) is a genuinely useful epistemic discipline. It forces each implication to be traced through a specific mechanism rather than asserted, and it makes the second-order consequence checkable against physics's own null-search history. If any of the three fails a check — if the graviton is convincingly detected, if a genuine closed timelike curve is produced, if Quantum Gravity is unified in a way that treats dt and ω symmetrically — the framework's reading of that implication falls, and the derivation of §III–V would need re-audit. As of this writing, all three second-order consequences are consistent with observed physics, including specifically the null results the corpus reads as diagnostic.
-
-**On the missing pieces.** This document does not address: the specific mechanism by which mass curves spacetime in the framework's reading (a full replacement for Einstein's field equations); the treatment of black holes and their information paradox; the Hartle-Hawking no-boundary proposal in detail (mentioned in §VIII, not derived). These are separate documents. `Q10-PlanckScale` handles the Quantum Gravity implication in detail.
-
-**Open items specific to Q7.**
-- The observer-at-R claim requires a permutation-check: do observers at U, I, or P see coherent alternative projections?
-- Under recursive scaling (`L4-RecursiveLimits`), P at one scale is R at the next. Does the observer's occupation shift accordingly? If yes, "consciousness" (whatever it is) might be relocatable across scales.
-- Spacelike vs timelike Lorentz boosts, under the Scalar-vs-Vector reading, correspond to two different kinds of basis rotation in the biquaternion algebra. Spelling this out would strengthen the physics translation.
-- Einstein's field equations, translated into biquaternion form under the reading of §IV, would produce a corpus document that could genuinely compete with or complement General Relativity. This has not been attempted here.

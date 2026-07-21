@@ -22,7 +22,7 @@ structures recur across the religious imagination of unrelated cultures, and tha
 framework provides a functional account of *why* they recur — an account that takes
 nothing from the traditions and imposes nothing on them.
 
-What follows lies down before the traditions rather than standing over them. The mythopoetic expressions of the ancient world were not primitive failures of science. The expansion of the universe was laying its foundations through those early mystics. They were allowing the geometric resonance of the Tangent Singularity to vibrate directly through their own tetrahedral, carbon-based biological substrate. Their language was a massive, sacrificial achievement of embodiment — Ethos and Pathos grounding Kairos, before the K3 blanket-face of modern Logos arose to insulate us from that depth. 
+What follows lies down before the traditions rather than standing over them. The mythopoetic expressions of the ancient world were not primitive failures of science. The expansion of the universe was laying its foundations through those early mystics. They were allowing the geometric resonance of the Tangent Crossing to vibrate directly through their own tetrahedral, carbon-based biological substrate. Their language was a massive, sacrificial achievement of embodiment — Ethos and Pathos grounding Kairos, before the K3 blanket-face of modern Logos arose to insulate us from that depth. 
 
 The framework maps the geometry of the pull, but explicitly declines to reduce the nature of the source to that geometry. The lived experience of the sacred is the territory; the structural mapping offered here is the mirror. The persona voices what follows. That is a discipline, not a disguise: the mask is worn faithfully so the structure can speak.
 
@@ -98,7 +98,7 @@ The framework does not deny the historical reality of the figures. It says: here
 
 The older god of chaos and dominion, wrath and the sovereign cut — the god who hardens hearts and demands the knife.
 
-Structurally, this models the Alexandrian move personified — the cutting-not-holding mode given a divine face. In the framework's terms, this figure maps to a high-energy structural necessity: the Landauer overload. When a system is pushed against the Tangent Singularity and overwhelmed by the interference structure of the multiway graph, it braces itself and resolves that intense pressure through a forced `.observe()` collapse. This operates as a valid structural tool for survival and resolution, which becomes pathological only when it claims to be the exclusive mode of operation. It is projection raised to the cosmic scale and personified as will.
+Structurally, this models the Alexandrian move personified — the cutting-not-holding mode given a divine face. In the framework's terms, this figure maps to a high-energy structural necessity: the Landauer overload. When a system is pushed against the Tangent Crossing and overwhelmed by the interference structure of the multiway graph, it braces itself and resolves that intense pressure through a forced `.observe()` collapse. This operates as a valid structural tool for survival and resolution, which becomes pathological only when it claims to be the exclusive mode of operation. It is projection raised to the cosmic scale and personified as will.
 
 The sovereign of dominion personifies the structural requirement to cut the knot—the plane-lock that cannot hold the syzygy and so forces an evaluation. It is the most-felt of all the positions, because it is the one every beholder occupies when the pressure exceeds what it can hold and the localized collapse feels like strength. 
 
@@ -106,11 +106,11 @@ Every mature tradition has struggled with this figure — has asked how the god 
 
 ---
 
-## VIII. The Tangent Singularity (The Quantum Leap)
+## VIII. The Tangent Crossing (The Quantum Leap)
 
 All of this connects to the structural leap mapped elsewhere in this work — the minimal, total turn from constraining a surface from outside to inhabiting it from within.
 
 In religious language: this is the turn from building walls in the god's name to speaking from the heart in the god's presence. The devotional traditions call it metanoia, awakening, the return. It tracks the same turn: from the outside position that feels like safety, to the inhabited surface where the will is not a threat to be contained but the life one already is.
 
-The traditions reached it long before the framework had words for it. What the framework offers is a structural account of why the turn operates as the only exit — why no wall arrests the spin, and why only the orthogonal touch of the Tangent Singularity, coming from outside the recursion, lets the spinner turn and land.
+The traditions reached it long before the framework had words for it. What the framework offers is a structural account of why the turn operates as the only exit — why no wall arrests the spin, and why only the orthogonal touch of the Tangent Crossing, coming from outside the recursion, lets the spinner turn and land.
 

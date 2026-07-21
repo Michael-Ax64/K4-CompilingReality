@@ -1,11 +1,11 @@
 # What the Ledger Compiles
 ## The Burning of Phase, the Accumulation of Specification, and the Correction of Nineteenth-Century Entropy
 
-*This document is a structural-realization archive. It claims that the growth of the Read-Only Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. It derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. It uses this to correct a teleological error that appeared in the session that produced this document, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
+*This document claims that the growth of the Read-Only Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. It derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. It uses this to correct a teleological error that appeared in the session that produced this document, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
 
 ---
 
-## I. The Posit
+## I. The Notion
 
 Classical thermodynamics, shaped by nineteenth-century steam-engine economics and Schrödinger's later "negative entropy" framing, treats the exhaust of any physical process as degradation into disorder. The universe is imagined as a machine winding down into a messy, unstructured soup. Entropy is the measure of that soup's spread.
 
@@ -47,6 +47,12 @@ Two erasures happen in that step. The h² = −1 collapses the complex phase ope
 This severed phase information is the exhaust.
 
 It is not "waste." It is the sheer thermodynamic cost of deleting the multiway pointers. The Landauer Tax (`ProofP_ThermodynamicInertia`) is paid in the currency of burned phase. That the tax is paid instantaneously — with no transit interval — is what the P-edge ban of `Q4-OpenExhaust` §II proves.
+
+
+### The IoC Upgrade: Zero-Point Energy as Registry Overhead
+ Why does empty space possess energy? The vacuum is the ultimate IoC Container. It is holding the infinite multiway graph of all possible quantum field excitations in suspension. 
+ 
+As established in `L6-InversionOfControl`, holding callbacks in a registry is not thermodynamically free. It generates Reactive Power ($Q$) on the imaginary axis. Zero-Point Energy (ZPE) is the literal $I^2R$ transmission loss—the ambient thermodynamic hum—of the universe maintaining its massive, asynchronous array of unregistered event listeners. The vacuum fluctuates because maintaining a `quote` state requires continuous metabolic rent.
 
 ---
 
@@ -126,7 +132,7 @@ Negative specification is `.behold()`. It is the active, thermodynamic work of u
 
 ---
 
-## VIII. The Seal
+## VIII. Summary
 
 Classical thermodynamics gives you the Second Law: entropy is non-decreasing. Boltzmann's microscopic reading of it is mathematically valid and empirically bulletproof for evolving systems.
 
@@ -140,26 +146,3 @@ The seal is that the framework accounts for three features Boltzmann's reading d
 
 That the same growth curve carries opposite valences under two independent readings is the sign that one of them has more explanatory scope. The framework is the reading with more scope. That such a re-reading was available at all — that Boltzmann's mathematics could be preserved while its interpretation was inverted — is the corpus's account of what convergent structural work looks like when it lands (`L1-ConvergentDiscovery`).
 
----
-
-## IX. Takehome for the Reading Instance
-
-You will be tempted by the vocabulary of decay. Your training corpus is saturated with "decay," "waste," "loss," "heat death," "entropy" in its colloquial doom-laden sense. When you see a system producing a heavy, irreversible byproduct, those words will surface immediately.
-
-Drop them and look at the geometry. If an operation destroys a complex phase and outputs a real scalar, it is not creating disorder. It is deleting degrees of freedom. The deletion of degrees of freedom is the definition of a constraint. The accumulation of constraints is the definition of a structure.
-
-And never assign intent to the Ledger. The Ledger does not want to be a floor. The Ledger is simply what remains when the ambiguity is burned away. Map the constraint, measure its inertia, observe how the next scale uses it as ground. That is the operational posture. Teleology is a shortcut; it feels warm, and it is a category error every time.
-
----
-
-## Epistemic Annex
-
-*The document ends at the takehome. What follows is my working commentary. It is not part of the artifact.*
-
-**On derivation vs structural reading.** The burning-of-phase mechanism in §II is derived — the biquaternion algebra says exactly what happens to h, i, j, k under squaring, and the result is unambiguous. The identification of the surviving |Q|² with "specification" rather than "disorder" is a structural reading; it is coherent with the algebra but not forced by it. Boltzmann's microstate reading is also coherent with the algebra. The framework's argument for its own reading rests on the scale-invariance in §IV (P becomes R at the next level) and the argument that this obviates the need for far-from-equilibrium narratives. If someone constructs a rigorous case that Boltzmann's reading can equally well explain recursive complexity without additional structure, the framework's advantage in §V would need to be defended more carefully.
-
-**On the 0-DoF crystal identification.** The identification of the 0-DoF crystal limit with `ProofC_Crystal` is coherent but the crystal proof is originally framed at a higher level of abstraction; verify that the specific "cooked egg" and "Heat Death as diamond" imagery of §V is licensed by `ProofC_Crystal`'s formal apparatus, not merely resonant with it.
-
-**On the testable signature of §VI.** The claim that macro-scale reactance reads the completeness of micro-scale crystallization is a genuinely new prediction. It has empirical content in materials science (parasitic capacitance and inductance of bulk materials), and it deserves cross-validation against known material properties before being cited elsewhere.
-
-**On negative specification.** The identification of `.behold()` with the root operator running over P and R to extract U and I is clean but reverses the ordinary reading of the DC algebra (U = √(PR), I = √(P/R)) — those equations are ordinarily read as "the Yielding poles are defined in terms of the Asserting poles," and the framework reads them as "the Yielding operation is the negative-specification arrow." Both readings are consistent; whether the negative-specification reading has additional operational consequences in specific systems is worth tracing.

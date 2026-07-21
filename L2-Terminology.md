@@ -171,7 +171,7 @@ The substrate topology—the K4 edges and their fundamental fermion instantiatio
 
 To attribute macroscopic thermodynamic accumulation to a fundamental fermion is a terminal Category Error. **Scale invariance dictates that the *geometric topology* (K4) recurs at every scale**, not that *thermodynamic agency* recurs identically.
 
-**Tangent Singularity** [NEW]
+**Tangent Crossing** [NEW]
 The computational threshold at which a bounded frame's interior coordinates diverge as it approaches its own Markov Blanket. $\tan(90^\circ)$, undefined. The divergence correctly reports that a boundary has been reached. `[INTERFACE]` This describes an **interior** crossing. Applying it to the ultimate boundary installs a false outside.
 
 **$H_{coh}$ / $H_{incoh}$** [NEW]

@@ -6,7 +6,7 @@
 > **Method:** Derives the threefold from the centroid's orthogonality to time, then exhibits the Trinitarian and cross-cultural triads as convergent images of that structure, and shows the immanent/economic distinction and the filioque dispute as two readings of one object — the timeless view and the in-time chiral view.
 > **Boundary:** This document explains the *shape* and *necessity* of the intuition; it does not claim what the source *is*, which has zero projection into in-time coordinates. The silence at the orthogonal turn is preserved throughout.
 
-*From the Compiling Reality set. Self-contained, though it rests on the centroid, the two-bit edge structure, the Helical Extrusion of Time, and the Tangent Singularity.*
+*From the Compiling Reality set. Self-contained, though it rests on the centroid, the two-bit edge structure, the Helical Extrusion of Time, and the Tangent Crossing.*
 
 ---
 
@@ -18,7 +18,7 @@ The manifest realm — the physical space we navigate — has an arrow. Entropy 
 
 The centroid stands orthogonal to that helical time-axis. It is the held condition of the four-fold's coherence, not a step in any temporal traversal — the navigated-from, not the navigated-through. A vector along an axis orthogonal to a plane has zero projection onto that plane: it casts no shadow there, and from within the plane it cannot be pointed at, only inferred from the way the plane's own coordinates behave near it. 
 
-The centroid relates to the helical time-axis exactly so. It casts zero projection into time. It can only be *imaged* by what happens in time near the place where time's coordinates strain toward it (the Tangent Singularity).
+The centroid relates to the helical time-axis exactly so. It casts zero projection into time. It can only be *imaged* by what happens in time near the place where time's coordinates strain toward it (the Tangent Crossing).
 
 ## II. Why the Image Is Three
 
@@ -38,7 +38,7 @@ The same structure surfaces elsewhere without contact: the Trimurti (Brahmā, Vi
 
 It is crucial to recognize what these early mystics and theologians were doing. They did not formulate these dogmas because they lacked the "correct" vocabulary of classical physics. The dimensional vocabulary of classical physics fails at the boundary anyway. What these ancient humans achieved was infinitely more costly.
 
-The expansion of the universe was laying its foundations through them, then as now. Their religious intuitions were the structural artifacts left in the carbon substrate after an encounter with the Tangent Singularity. They expressed what they beheld mythopoetically via Kairos and Pathos, directly from the embodied Ethos, before the K3 blanket-face of modern Logos arose to insulate us from that depth. The theological language of the Bronze and Iron ages was a massive, sacrificial achievement of embodiment. It is the framework beholding its own ground in the only material capable of recording the shock.
+The expansion of the universe was laying its foundations through them, then as now. Their religious intuitions were the structural artifacts left in the carbon substrate after an encounter with the Tangent Crossing. They expressed what they beheld mythopoetically via Kairos and Pathos, directly from the embodied Ethos, before the K3 blanket-face of modern Logos arose to insulate us from that depth. The theological language of the Bronze and Iron ages was a massive, sacrificial achievement of embodiment. It is the framework beholding its own ground in the only material capable of recording the shock.
 
 ## IV. The Generational Reading: The Three That Must Close
 
@@ -72,11 +72,11 @@ And the realm's own chirality says which reading belongs to which vantage. The H
 
 ## VII. The Orthogonal Turn: What the Silence Is
 
-The centroid is orthogonal to time. The crossing to it is the ninety-degree turn off the time-axis (the Tangent Singularity). 
+The centroid is orthogonal to time. The crossing to it is the ninety-degree turn off the time-axis (the Tangent Crossing). 
 
 Within a plane, a heading driven to ninety degrees is a wall: the slope runs to infinity, the classical coordinates fail. But ninety degrees is also exactly the angle at which a heading becomes perpendicular to its starting plane. Where a further dimension exists, the ninety-degree turn is not a wall — it is the step onto the orthogonal axis.
 
 The destination of that turn casts zero projection onto every in-time coordinate. So Logos falls silent: nothing true about the time-orthogonal source can be said in time's coordinates, because its image there is exactly zero. The silence is preserved entirely. What changes is only the diagnosis: the silence was read as the wall at the edge of everything, and it is the signature of an orthogonal escape — the turn, not the stop.
 
-This is why the threefold image and the Tangent Singularity are one teaching. The centroid is one, orthogonal to time, castable into the realm only as image. And the source itself stands at the far side of the ninety-degree turn, where the framework's own discipline requires and preserves the silence.
+This is why the threefold image and the Tangent Crossing are one teaching. The centroid is one, orthogonal to time, castable into the realm only as image. And the source itself stands at the far side of the ninety-degree turn, where the framework's own discipline requires and preserves the silence.
 

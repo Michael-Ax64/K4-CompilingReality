@@ -43,7 +43,7 @@ You cannot take the logarithm of a sum. The moment the system holds real ($P$) a
 
 When $10^{24}$ micro-K4s (atoms) structurally couple, they form a new macro-K4 volume. This macro-frame generates a collective Apparent Power ($|S|$). 
 
-This absolute magnitude presses against the metabolic bandwidth of the constituent micro-frames. When $|S|$ exceeds what the micro-frames can coherently map, their local clocks encounter a **Tangent Singularity**. 
+This absolute magnitude presses against the metabolic bandwidth of the constituent micro-frames. When $|S|$ exceeds what the micro-frames can coherently map, their local clocks encounter a **Tangent Crossing**. 
 
 The projection operator ($\Psi$) is not a volumetric scalar summation ($\frac{1}{V}\sum$). It is the **bandwidth threshold operator**. The failure of the micro-frames' coordinate systems does not summon an encapsulator; *the failure is the encapsulation*. 
 

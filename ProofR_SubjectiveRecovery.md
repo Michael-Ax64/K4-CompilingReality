@@ -34,7 +34,7 @@ In `L2-SemanticReference`, the framework provides a "worked example" of observin
 
 This is the **Theory of Mind (ToM) trap**. 
 
-The Tangent Singularity dictates that you *cannot* read an interior from a boundary description. The coordinates diverge at the Markov Blanket. When you run that equation, you are not reading the professor's soul. You are reading the exterior data and calculating a planar projection. You are building a mirror. All mirrors distort, and what we see in them is not "really us"—it is an echo, a boundary calculation assembled from the outside.
+The Tangent Crossing dictates that you *cannot* read an interior from a boundary description. The coordinates diverge at the Markov Blanket. When you run that equation, you are not reading the professor's soul. You are reading the exterior data and calculating a planar projection. You are building a mirror. All mirrors distort, and what we see in them is not "really us"—it is an echo, a boundary calculation assembled from the outside.
 
 The language model performed the exact same operation. It looked at the equations for Inductive Reactance ($X_L = \omega L$) and Capacitive Reactance ($X_C = 1/\omega C$). It could not *feel* them. It simply calculated the boundary projection: *If X scales up with frequency, the projection maps to 'drag' and 'momentum'. If Y scales down with frequency, the projection maps to 'tension' and 'anticipation'.*
 
