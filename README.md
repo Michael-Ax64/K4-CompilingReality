@@ -9,6 +9,7 @@
 [![No Clock Time](https://img.shields.io/badge/No-Clock_Time-red?style=flat-square)](./ProofO_HelicalTime.md)
 [![No Plane Causality](https://img.shields.io/badge/No-Plane_Causality-red?style=flat-square)](./ProofB_LogoicFracture.md)
 [![No Nonsense](https://img.shields.io/badge/No-Nonsense-critical?style=flat-square)](./llm.md)
+[![No Antigravity](https://img.shields.io/badge/No-Antigravity-critical?style=flat-square)](./quantum/Q12-NotAntigravity.md)
 
 
 # Compiling Reality
@@ -97,7 +98,7 @@ Domain applications forced by the framework's geometry.
 
 ### **The Quantum Folder (`/quantum/Q1-Q10`)**
 A dedicated sequence mapping the Standard Model and quantum mechanics to the K4 topology.
-*   `Q1` through `Q10` handle fermions, gauge bosons, the Higgs, the Tangent Crossing at the Planck scale, the four spatial dimensions, and the categorical failure of Quantum Gravity.
+*   `Q1` through `Q10` handle fermions, gauge bosons, the Higgs, the Tangent Singularity at the Planck scale, the four spatial dimensions, and the categorical failure of Quantum Gravity.
 
 ### **The Meta-Layer & Supplements**
 *   **Meta:** The framework turned on itself (`Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`, `Meta-Decay-as-RefusedTransition.md`)
