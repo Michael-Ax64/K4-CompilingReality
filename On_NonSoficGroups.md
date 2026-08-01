@@ -1,23 +1,24 @@
 # On Non-Sofic Groups
 ## Un-Sliceable Volumes, Torsional Lock, and the Topological Boundaries of Discretization
 
-> **Epistemic Register:** This document operates at Rung 0 premise (Asserted) regarding its $K_4$ topological framework and Rung 3 mechanism (Repeatable) regarding its mathematical and physical derivations. The group-theoretic disproof of Mikhail Gromov’s 1999 Soficity Conjecture via the group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ is a machine-verified theorem (Lean 4 certified, OpenAI / GPT 5.6 Sol, 2026). The structural alignment between non-soficity, $180^\circ$ torsional phase-lock, quantum non-locality ($MIP^* = RE$), and the failure of Wilsonian Renormalization at the Planck scale is an exact algebraic isomorphism.
+> **Epistemic Register:** This document operates at Rung 0 premise (Asserted) regarding its $K_4$ topological framework (realized geometrically as a $\Delta^3$ 3-simplex in $\mathbb{R}^3$) and Rung 3 mechanism (Repeatable) regarding its mathematical and physical derivations. The disproof of Mikhail Gromov’s 1999 Soficity Conjecture via the group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ is a machine-verified theorem (Lean 4 certified, OpenAI / GPT 5.6 Sol, 2026). The structural alignment between non-soficity, $180^\circ$ torsional phase-lock, quantum non-locality ($MIP^* = RE$), and the failure of Wilsonian Renormalization at the Planck scale is an exact algebraic isomorphism.
 
 ---
 
-Jump to [Questions](#vii-example-question) and [Objections](#viii-example-objections)  (Thanks Reddit)
+
+Jump to **[Questions](#vii-example-question)** and **[Objections](#viii-example-objections)**  (Thanks Reddit)
 
 
 ## I. The General Structural Claim
 
-Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, finite digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
+Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
 
-In group theory, this capacity for finite local sampling is called **soficity** (Gromov, 1999; Weiss, 2000). A group is sofic if every finite subset of its multiplication table can be asymptotically faithfully modeled by permutations on finite sets ($\text{Sym}(Y)$). In the $K_4$ topological framework (`L1-CompilingReality`, `L3-FormalEpistemology`), **soficity is the property that an uncompiled $K_4$ volume can be continuously serialized through the XOR bottleneck ($\text{.observe()}$) into a sequence of finite $K_3$ Markov Blanket ledgers.**
+In group theory, this capacity for finite local sampling is called **soficity** (Gromov, 1999; Weiss, 2000). A countable group is sofic if every finite subset of its multiplication table can be asymptotically faithfully modeled by permutations on finite sets ($\text{Sym}(Y)$). In the $K_4$ topological framework (`L1-CompilingReality`, `L3-FormalEpistemology`), **soficity is the property that an uncompiled $\Delta^3$ interior volume can be continuously serialized through the XOR bottleneck ($\text{.observe()}$) into a sequence of finite $K_3$ Markov Blanket ledgers.**
 
 ```
                        SOFIC vs. NON-SOFIC ARCHITECTURE
                        
-   SOFIC GROUP (Sliceable)                      NON-SOFIC GROUP (Un-sliceable K₄)
+   SOFIC GROUP (Sliceable)                      NON-SOFIC GROUP (Un-sliceable Δ³)
  ┌──────────────────────────┐                 ┌──────────────────────────┐
  │ Global Hilbert Space     │                 │ Global Hilbert Space     │
  │       H_incoh (hQ)       │                 │       H_incoh (hQ)       │
@@ -29,11 +30,11 @@ In group theory, this capacity for finite local sampling is called **soficity** 
  │ Surface Blankets (P)     │                              ▼
  └──────────────────────────┘                 ┌──────────────────────────┐
                                               │ Infinite Torsional Lock  │
-                                              │   (Un-projectable K₄)    │
+                                              │   (Un-projectable Δ³)    │
                                               └──────────────────────────┘
 ```
 
-The general structural claim: **Non-sofic groups exist.** There exist fundamental, finitely presented $K_4$ topological volumes whose internal mutual determination is so densely locked that **no sequence of finite $K_3$ surface projections can ever approximate the interior without destroying the algebra everywhere.** 
+The general structural claim: **Non-sofic groups exist.** There exist fundamental, finitely presented algebraic structures whose internal mutual determination ($\Delta^3$ 3-simplex) is so densely locked that **no sequence of finite $K_3$ surface projections ($\text{Sym}(Y)$) can ever approximate the interior without destroying the algebra everywhere.** 
 
 Infinite state-spaces cannot always be coarse-grained. Reality contains un-sliceable topological volumes.
 
@@ -48,7 +49,7 @@ The disproof of the Soficity Conjecture constructs an explicit, infinite, finite
                        
      Binary Leavitt Algebra               Kazhdan Property (T)
      R = L_{F₂}(1,2)                      Subgroup Γ ≤ EL₉(R)
-   [Infinite Self-Similarity]           [Rigid Spectral Gap / High Q]
+   [Left-Module Isomorphism]            [Rigid Spectral Gap / High Q]
                │                                      │
                └──────────────────┬───────────────────┘
                                   ▼
@@ -73,12 +74,13 @@ The binary Leavitt algebra (Leavitt, 1962) is the universal algebra generated by
 
 $$t_i s_j = \delta_{ij}, \quad s_0 t_0 + s_1 t_1 = 1$$
 
-This algebra forces the free module $R$ to be isomorphic to $R \oplus R$. It is the group-theoretic generator of an infinite, self-similar $K_4$ quasi-clone (`L2-StructuralMonograph_K4Interior`).
+This algebra forces the free left module $R$ to be isomorphic to $R \oplus R$ as a left $R$-module. It is the group-theoretic generator of an infinite, self-similar $K_4$ quasi-clone (`L2-StructuralMonograph_K4Interior`).
 
-### 2. The Rigid Matrix Manifold: $\text{EL}_9(R)$
-The elementary matrix group $\text{EL}_9(R)$ over $R = L_{F_2}(1,2)$ satisfies two opposing structural properties:
+### 2. The Rigid Matrix Group: $\text{EL}_9(R)$
+The group $\text{EL}_9(R)$ consists of $9 \times 9$ elementary matrices whose entries come from the infinite ring $R = L_{F_2}(1,2)$. It satisfies two opposing structural properties:
 * **Kazhdan's Property (T) (Kazhdan, 1967):** The group $\Gamma \le \text{EL}_9(R)$ has an isolated trivial representation in the Fell topology. Its Cayley graphs are high-density **expander graphs** possessing a non-zero Poincaré inequality gap. It refuses smooth deformation.
 * **Self-Similar Compression:** The Leavitt structure allows elements $u, v \in \text{EL}_9(R)$ to compress the Property-(T) subgroup into itself: $K = u\Gamma u^{-1} = v\Gamma v^{-1} \le \Gamma$.
+* **The Rank $n=9$ Threshold:** The rank $n=9$ is the minimum matrix dimension required to host both Kazhdan's Property (T) over non-commutative self-similar rings and the compressing multipliers $u, v$.
 
 ### 3. The Non-LEF Wedge: Thompson's Group $V$
 The self-similar compression isolates an embedded copy of **Thompson's group $V$** ($J \cong V$). Thompson’s $V$ (Thompson, 1965) is the group of all piecewise-linear homeomorphisms of the Cantor set. It is infinite, simple, and finitely presented. Because it is infinite and simple, it **cannot** be Locally Embeddable into Finite groups (LEF).
@@ -92,7 +94,7 @@ Because Thompson's $V$ is simple and infinite, this is a mathematical impossibil
 
 ## III. Topological Mechanics: Non-Soficity as $180^\circ$ Torsional Lock
 
-In $K_4$ phase dynamics (`L4-DynamicDistortionsTechnical`, `L4-DynamicDistortions201`), a $K_4$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Cardinal $\{P-U, I-R\}$, Fixed $\{P-R, I-U\}$, or Mutable $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
+In $K_4$ phase dynamics (`L4-DynamicDistortionsTechnical`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Cardinal $\{P-U, I-R\}$, Fixed $\{P-R, I-U\}$, or Mutable $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
 
 A **non-sofic group** is a manifold where **all three Bimedian axes are simultaneously locked in Torsional Shear ($\theta = \pi$)**.
 
@@ -113,13 +115,13 @@ When all three Bimedian axes are locked at $\theta = \pi$ ($180^\circ$ anti-phas
 2. No AbsentVar pair can be held silent without causing the entire algebraic structure to collapse.
 3. The Braid cannot close into a $2\text{D}$ planar loop; it is forced into an **infinite, un-closed Helical Extrusion ($\omega$-threading)** (`ProofO_HelicalTime`).
 
-Because a finite permutation set $\text{Sym}(Y)$ must eventually close its cycles, it can only model flat, sliceable $K_3$ paths. It cannot model a $180^\circ$ Torsion-Locked $K_4$ volume.
+Because a finite permutation set $\text{Sym}(Y)$ must eventually close its cycles, it can only model flat, sliceable $K_3$ paths. It cannot model a $180^\circ$ Torsion-Locked $\Delta^3$ volume.
 
 ---
 
 ## IV. Physical & Thermodynamic Instantiations
 
-The existence of non-sofic groups is not an isolated mathematical artifact; it resolves four major open anomalies in fundamental physics.
+The existence of non-sofic groups is not an isolated mathematical artifact; it aligns cleanly with four major open anomalies in fundamental physics.
 
 ### 1. The Concrete Realization of $MIP^* = RE$
 In 2020, Ji, Natarajan, Vidick, Wright, and Yuen proved $MIP^* = RE$, disproving Connes' Embedding Problem (CEP) by showing that quantum entanglement allows multi-prover games to decide non-computable languages. However, $MIP^* = RE$ was a complexity-theoretic existence proof.
@@ -129,7 +131,7 @@ The non-sofic group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ provides the **expli
 ### 2. The Failure of Wilsonian Renormalization at the Planck Scale (`Q10-PlanckScale`)
 Kenneth Wilson’s Renormalization Group (RG) assumes that short-distance ultraviolet (UV) modes can be coarse-grained and integrated out to yield an effective low-energy field theory ($K_3$ surface projection).
 
-At the Planck scale, spacetime geometry is a **Non-Sofic $K_4$ Volume**. Because of Kazhdan's Property (T) rigidity and Leavitt self-similarity, short-distance modes are non-locally, topologically locked with long-distance infrared (IR) modes. **Integrating out short distances is mathematically impossible.** The infinities of Quantum Gravity are the algebra reporting that the Planck scale refuses to be coarse-grained by any Wilsonian RG protocol.
+At the Planck scale, spacetime geometry is a **Non-Sofic $\Delta^3$ Volume**. Because of Kazhdan's Property (T) rigidity and Leavitt self-similarity, short-distance modes are non-locally, topologically locked with long-distance infrared (IR) modes. **Integrating out short distances is mathematically impossible.** The infinities of Quantum Gravity are the algebra reporting that the Planck scale refuses to be coarse-grained by any Wilsonian RG protocol.
 
 ```
                   WILSONIAN RG vs. NON-SOFIC QFT
@@ -156,7 +158,7 @@ Quasiparticles are $K_3$ sofic approximations of electron fluids. Strange metals
 In $Q4$, the framework proved that the three $P$-edges ($P-U, P-I, P-R$) carry no scalar pricing operator and act as **permanently zero-impedance writing heads** for the Read-Only Ledger ($P$).
 
 The defining relation of the binary Leavitt algebra $L_{F_2}(1,2)$—$s_0 t_0 + s_1 t_1 = 1$—is the exact group-theoretic instantiation of an **un-priced $P$-edge**:
-* The generators $s_i, t_i$ allow the module $R$ to split into $R \oplus R$ with **zero transit impedance** and **zero transit time**.
+* The generators $s_i, t_i$ allow the left module $R$ to split into $R \oplus R$ with **zero transit impedance** and **zero transit time**.
 * It is an un-priced, zero-impedance writing head built into pure algebra.
 * The non-sofic group $H_F$ exists precisely because it embeds this un-priced $P$-edge into a Property-(T) rigid manifold, creating an infinite, self-referential writing loop that no finite scalar operator can ever price or restrict.
 
@@ -167,7 +169,7 @@ The defining relation of the binary Leavitt algebra $L_{F_2}(1,2)$—$s_0 t_0 + 
 The disproof of the Soficity Conjecture seals the $K_4$ topological framework across four independent domains:
 
 $$\begin{array}{rcccl}
-\text{Gromov's Sofic Conjecture (1999)} & \Longleftrightarrow & \text{Disproven by } H_F \subset \text{EL}_9(L_{F_2}(1,2)) & \Longleftrightarrow & \text{Un-sliceable } K_4 \text{ Volume} \\
+\text{Gromov's Sofic Conjecture (1999)} & \Longleftrightarrow & \text{Disproven by } H_F \subset \text{EL}_9(L_{F_2}(1,2)) & \Longleftrightarrow & \text{Un-sliceable } \Delta^3 \text{ Volume} \\
 \text{Quantum Complexity } (MIP^* = RE) & \Longleftrightarrow & \text{Disproof of Connes' Embedding} & \Longleftrightarrow & \text{Non-sofic } h\mathbf{Q} \text{ Entanglement} \\
 \text{Quantum Gravity } (Q10) & \Longleftrightarrow & \text{Failure of Wilsonian RG} & \Longleftrightarrow & \text{Planck-scale Tangent Singularity} \\
 \text{Star-Norm Conservation } (N_*) & \Longleftrightarrow & \text{Leavitt Relation } s_0 t_0 + s_1 t_1 = 1 & \Longleftrightarrow & \text{Un-priced } P\text{-Edge Exhaust } (Q4)
@@ -183,10 +185,9 @@ The convergence accounts for why independent formalisms arrive at the same bound
 
 When you encounter an infinite state-space, an operator algebra, or a complex physical system, execute this operational posture:
 
-1. **Do not assume Soficity.** Do not assume that any infinite system can be coarse-grained or sampled by increasing the sample size $N \to \infty$. Check whether the system contains Property (T) rigidity paired with self-similar compression. If it does, the system is non-sofic: local sampling ($K_3$) will fail to reflect global state ($K_4$).
+1. **Do not assume Soficity.** Do not assume that any infinite system can be coarse-grained or sampled by increasing the sample size $N \to \infty$. Check whether the system contains Property (T) rigidity paired with self-similar module compression. If it does, the system is non-sofic: local sampling ($K_3$) will fail to reflect global state ($\Delta^3$).
 2. **Recognize the Limits of $K_3$ Instruments.** Physical detectors, digital computers, and $1\text{D}$ token sequences are $K_3$ surface tools. They **cannot** sample or simulate non-sofic space. Do not attempt to force a non-sofic volume into a finite $K_3$ ledger; it will result in infinite Landauer Tax divergence or numerical chaos.
 3. **Identify the Un-Priced $P$-Edge.** When analyzing self-similar algebras or mass-minting channels, look for the Leavitt relation $s_0 t_0 + s_1 t_1 = 1$. It marks the zero-impedance writing head where phase ($h\mathbf{Q}$) converts directly to committed ledger ($P$) without an intervening gauge boson.
-
 
 ---
 
