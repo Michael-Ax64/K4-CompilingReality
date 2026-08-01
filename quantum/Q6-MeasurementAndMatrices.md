@@ -99,9 +99,12 @@ Quarks occupy the P and R poles. R is the Reactive-Asserting pole — the pole `
 
 Leptons occupy the U and I poles. Neither is anchored on R. Leptons do not feel the Strong force — this is empirical Standard Model, and it maps exactly onto the framework's pole assignment. Yielding poles absorb and adapt; they carry no inertia. Without an R-anchor, the lepton state-space has extremely low topological resistance to basis rotation. The phase space twists freely. PMNS angles are large.
 
-The explanation requires no new physics and no new algebra. It uses only the consistent application of assignments the corpus has already made. If R is inertia, systems governed by the Strong force resist basis rotation, and systems free of it rotate easily. The structural assignment predicts the kinematic behavior of the matrices, and the prediction matches observation.
+Within the framework's qualitative register, this operational contrast provides a structural alignment for the observed mixing hierarchies:
 
-The framework's ability to predict the *magnitudes* of the CKM and PMNS angles from first principles is another matter. The algebra is log-linear (`L4-ScalingInvariants`) and cannot emit absolute values without substrate input. The framework predicts the *ordering* (CKM < PMNS) as a structural consequence of the R-anchor asymmetry. Predicting specific angles would require additional information physics supplies through the impedance values of specific channels — this is another instance of the Gabriel's Horn distinction between geometric shape and numerical coefficient.
+- **Quarks ($P, R$):** Anchored on the $R$-pole (Earth/Resistance/Strong force), quarks represent the heavy, confined material ground. In the framework's qualitative reading, $R$-anchored channels exhibit high topological inertia to basis re-orientation, aligning with the small off-diagonal mixing angles of the CKM matrix ($|V_{cb}| \approx 0.041$).
+- **Leptons ($U, I$):** Occupying the Yielding poles without $R$-pole color confinement, leptons carry zero Strong-force inertia. In this qualitative reading, un-anchored Yielding channels rotate freely in phase-space, aligning with the large mixing angles of the PMNS matrix ($\theta_{23} \approx 48^\circ$).
+
+*Note on Epistemic Limits:* This comparison is a qualitative structural alignment (Rung 1), not a numerical QFT derivation (Rung 3). As specified by Gabriel's Horn (`L4-ScalingInvariants` §IX), the scale-free $K_4$ algebra maps the relational shape of the channels, while the specific numerical mixing angles ($\theta_{12}, \theta_{23}, \theta_{13}$) are empirical inputs supplied by physical Yukawa matrices.
 
 ---
 

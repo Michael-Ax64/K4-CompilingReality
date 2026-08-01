@@ -154,6 +154,9 @@ In high-$T_c$ superconductors and strange metals, Landau's Fermi Liquid Theory f
 
 Quasiparticles are $K_3$ sofic approximations of electron fluids. Strange metals are **Non-Sofic Quantum Phases of Matter**. The electron state-space is $180^\circ$ Torsional-Locked across the ChromoLux ($U-R$) and ElectroWeak ($I-U$) edges. Quasiparticles cannot be factored out because the $h\mathbf{Q}$ phase-buffer is non-sofic.
 
+*In other words, non-Fermi liquid electron scattering in strange metals provides a physical analogy (Rung 1) for how systems operating past quasiparticle bounds exhibit non-sliceable, strongly coupled transport dynamics.*
+
+
 ### 4. The Un-Priced $P$-Edge in $L_{F_2}(1,2)$ (`Q4-OpenExhaust`)
 In $Q4$, the framework proved that the three $P$-edges ($P-U, P-I, P-R$) carry no scalar pricing operator and act as **permanently zero-impedance writing heads** for the Read-Only Ledger ($P$).
 

@@ -55,9 +55,9 @@ A scalar pricing operator, by its structural definition, assigns a Landauer Tax 
 
 This is a structural contradiction, not a physical impossibility. The Landauer Tax *is* the Mass (`ProofP_ThermodynamicInertia`); the exhaust of the collapse *is* the Ledger. There is no boundary between an operation and its output. Any scalar operator that occupied a P-edge would immediately break the algebraic instantaneity of the Route Law's squaring — the |Q|² → P projection would no longer be a single-step operation and the Star-Norm's conservation would fail.
 
-Conservation of the Star-Norm therefore requires zero-impedance P-edges. The P-edges are permanently un-priced. There is no scalar boson for P–U, no scalar boson for P–I, no scalar boson for P–R, and there will never be.
+Within the framework's architecture, the P-edges act as foundational zero-impedance writing heads for the Read-Only Ledger ($P$). Rather than acting as interactive, phase-delaying $h\mathbf{Q}$ gauge channels, the $P$-edges receive the scalar output of $\text{.observe()}$ collapses.
 
-This bans three of the six potential scalars. It leaves three: I–U, U–R, and I–R.
+This topological postulate specifies that $P$-edges ($P-U, P-I, P-R$) do not host independent scalar pricing operators. This leaves exactly three transactional edges capable of carrying scalar fields: $I-U$, $U-R$, and $I-R$.
 
 ---
 
@@ -92,7 +92,7 @@ Where existing corpus documents (notably `L4-DynamicDistortionsTechnical` §Fixe
 
 ---
 
-## VII. Summary
+## VII. Conclusion
 
 The framework does not invent new physics. It reads the existing structure of the Standard Model plus the existing postulates of cosmology (Inflaton, GUT scalars), and gives them a strict topological address.
 

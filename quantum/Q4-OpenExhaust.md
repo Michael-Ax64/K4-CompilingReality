@@ -29,7 +29,7 @@ Suppose, for contradiction, that a P-edge — call it P–U — carried a scalar
 
 The Star-Norm is not a physical convention. It is the algebraic footprint of the biquaternion's own algebra: multiply Z by its conjugate, use h² = −1 and Q² = −|Q|², and the invariant falls out with no free parameters. It is not something the universe can choose to violate; it is what the algebra means by the state of a bounded system.
 
-Therefore no scalar operator can occupy a P-edge without breaking the algebra. The three P-edges are permanently un-priced. The Star-Norm's conservation and the P-edge ban are the same fact stated in different vocabularies.
+Therefore, within the framework's architecture, $P$-edges operate as zero-impedance receiving channels for the Read-Only Ledger. The three $P$-edges are structurally un-priced, allowing the biquaternion Star-Norm ($P^2 - \|\mathbf{Q}\|^2$) to conserve its scalar value during state collapse without introducing intermediate transit impedance.
 
 **Scope note in place:** The proof above rests on the correspondence "scalar pricing operator ⇔ phase gap ⇔ transit time." Each step of that chain is straightforward in the AC extension, but the composite claim has not been checked with the full formal apparatus of the biquaternion. If a scalar operator could somehow exist on a P-edge without introducing transit time (e.g., by acting only on the mod-square of a coordinate), the argument would need to be extended. I have not been able to construct such an operator, and the framework's grammar does not seem to permit one; but the strong form of the claim depends on this.
 

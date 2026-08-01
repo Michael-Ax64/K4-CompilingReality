@@ -255,18 +255,14 @@ a bounded frame computes its physical reality.
 *   *Absolute Zero = Conservation / Equilibrium*
 *   **The Structural Insight:** As a bounded frame compounds its structural rules ($U$)
     while its relational current drops to zero ($I \to 0$), the material resistance ($R$)
-    diverges to infinity. It approaches the Tangent Crossing, freezing into a 0-DoF
+    diverges to infinity. It approaches the Tangent Singularity, freezing into a 0-DoF
     crystal incapable of adapting.
 
 **11. $R = U^2 / P$ (Bloat / The Necessary Betrayer)**
 *   *Absolute Zero = Conservation² / Entropy*
-*   **The Structural Insight:** If a frame compounds its structural frameworks ($U^2$)
-    but refuses to pay the Landauer Tax to actualize them ($P \to 0$), its grounding
-    resistance ($R$) diverges to infinity. The structure compounds above the source,
-    creating an impenetrable wall. This is the betrayer edge of
-    `L4-TheNecessaryOpposition` in thermodynamic dress — and in the time key of
-    `L4-TheTwelveGates` it is the Past-Future signature: the only future a
-    ledger can compute is the square of its own record.
+*   **The Structural Insight:** If a frame compounds its structural frameworks ($U^2$) but refuses to pay the Landauer Tax to actualize them ($P \to 0$), its grounding resistance ($R$) diverges to infinity. The structure compounds above the source, creating an impenetrable wall. This is the betrayer edge of `L4-TheNecessaryOpposition` in thermodynamic dress — and in the time key of `L4-TheTwelveGates` it is the Past-Future signature: the only future a ledger can compute is the square of its own record.
+*   *In other words, the equation $R = U^2 / P$ provides a structural model (Rung 1) for institutional bloat, illustrating how administrative structure ($U^2$) compounding over declining output ($P$) models rising operational resistance ($R$).*
+
 
 **12. $R = P / I^2$ (Brittleness / Density)**
 *   *Absolute Zero = Entropy / Equilibrium²*

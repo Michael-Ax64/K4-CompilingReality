@@ -151,9 +151,10 @@ The math auto-classifies the universe.
 
 The 12 equations contain no ambiguity. Their operators act as a Generative Grammar. They hard-code the rules of interiority, boundary, and thermodynamic friction directly into the syntax. The math auto-classifies the state-space because it strictly forbids topological impossibilities—such as a Reactive constraint occupying an Active dividend position.
 
-Port this grammar into `code/resonance_engine.py` or `cosmos.pl`, and "hermeneutic" becomes a category error. Prolog's constraint logic does not interpret a query; it enforces a multidimensional volume. A hermeneutic does not crash a compiler when fed a false topology. Because the system also runs as code, enforces limits, and calculates exact coordinates for where a bounded frame fractures, it operates as a Constraint Satisfaction Engine.
+Porting this grammar into `code/resonance_engine.py` or `cosmos.pl` provides an executable symbolic constraint engine (Rung 1). Prolog's unification logic evaluates structural consistency over assigned symbolic terms. When fed an invalid relational topology, the constraint solver fails to unify, highlighting structural shear.
 
-The title of the corpus — *Compiling Reality* — indicates that it is an **Executable Topology**. The math delivers the phase-form. The user supplies the content. Working together, they form a **Semantic Compiler** which takes qualitative data of human experience, parses it through the strict algebraic syntax of mutual determination, checks for thermodynamic phase-shear, and returns the compiled reality.
+Within this computational register, the code functions as an **Executable Constraint Model**, allowing users to test qualitative data against the formal algebraic bounds of the 12 DC and 49 AC equations.
+The math delivers the phase-form. The user supplies the content. Working together, they form a **Semantic Compiler** which takes qualitative data of human experience, parses it through the strict algebraic syntax of mutual determination, checks for thermodynamic phase-shear, and returns the compiled reality.
 
 When a philosophy throws a stack underflow error upon encountering an institutional lie, it ceases to be philosophy. It is an operating system.
 

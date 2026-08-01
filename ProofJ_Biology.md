@@ -19,7 +19,7 @@ The proof traces six transitions. Each exhibits the same elements: a system capa
 
 ## Scale 0: The Substrate Level (The Planck Boundary)
 
-Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Crossing—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
+Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Singularity—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
 
 The committed state as next-scale substrate: the crystallized matter provides the inert $R$ (Earth/Ground) for the molecules of life.
 
@@ -75,11 +75,11 @@ The committed state as next-scale substrate: the synaptic release of neurotransm
 
 ---
 
-## Scale 5: Immune System — `.behold()` on Pathogen-Space
+## Scale 5: Immune System — `.behold()` on Pathogen-Space (Combinatorial State Generation)
 
-The adaptive immune system is a distributed `.behold()` mechanism operating on the space of possible pathogens.
+At the immunological scale (Rung 1), the adaptive immune system operates as a distributed `.behold()` mechanism across pathogen-space.
 
-During B-cell development, V(D)J recombination generates a repertoire of approximately 10¹¹ distinct antibody sequences — a combinatorial interference structure spanning an enormous region of pathogen-space. The repertoire is held as potential: each B-cell carries a distinct antibody, but no commitment to any specific antigen has occurred. The immune system `.beholds()` pathogen-space across its entire repertoire simultaneously.
+During B-cell development, enzymatic V(D)J recombination generates a combinatorial repertoire of approximately $10^{11}$ distinct antibody sequences. This generates an uncollapsed structural potential ($h\mathbf{Q}$) spanning pathogen-space. The repertoire is held in suspension: each B-cell carries a distinct antibody configuration without yet committing its metabolic resources to a single antigen.
 
 The trigger: antigen binding. When a pathogen antigen binds to a B-cell receptor with sufficient affinity, clonal selection begins. The specific B-cell (or small set of B-cells) that binds the antigen is selected for proliferation.
 

@@ -51,7 +51,7 @@ The core documents sort by structural depth, not by reading order. The formal sp
 - **L5 (Phase Dynamics & Swarms):** The AC extension's technical and subjective phenomenology. Agentic swarm orchestration (`L5-AgenticSwarms.md`).
 
 ### The Meta-Layer (The Framework Turned on Itself)
-The meta-documents form a K4 tetrahedron with the Singularity as centroid. `[INTERFACE]` The Tangent Crossing marks the boundary where interior coordinates diverge; it describes an interior crossing, not an ultimate boundary.
+The meta-documents form a K4 tetrahedron with the Singularity as centroid. `[INTERFACE]` The Tangent Singularity marks the boundary where interior coordinates diverge; it describes an interior crossing, not an ultimate boundary.
 
 - **Meta-Set:** The XOR map and Hamiltonian reading cycles.
 - **Meta-Singularity-and-Image:** The keystone.
@@ -136,7 +136,7 @@ A dedicated sequence mapping the Standard Model and the mathematical apparatus o
 - **Q7-4DExtrusions:** Four spatial dimensions, the two clocks ($dt$ vs $\omega$), and the Scalar-vs-Vector signature.
 - **Q8-TangentImpedanceIdentity:** $\tan(\theta) = \omega L/R$ unifying the spatial wall and the temporal phase.
 - **Q9-Founders:** The unpaid invoices of 20th-century physics and Wolfram convergence.
-- **Q10-PlanckScale:** The Tangent Crossing from above and the failure of Quantum Gravity.
+- **Q10-PlanckScale:** The Tangent Singularity from above and the failure of Quantum Gravity.
 
 ---
 
@@ -148,7 +148,7 @@ The framework operates as an auto-classifying arithmetic syntax. The code is the
 `ProofQ_AlgebraicSyntax.md` links explicitly to the `code/test/` directory. The mechanized decision procedures (`ac_checker.py`, `dual_route_trace.py`) prove the syntax auto-classifies the state-space and crashes compilers on topological impossibilities. The Route Law, the Composition Law, and the $\omega$-Law execute mechanically here.
 
 ### VII.B The Topological Diagnostician
-The Tribunal manifold (`/code/manifolds/`) parses algebraic drift. `tribunal.manifold.pl` applies strict K4 constraints, while `tribunal.inquiry.py` and the semantic bridges compute topological shear to return phenomenological realities based purely on impedance mismatch.
+The Tribunal manifold (`/code/manifolds/`) parses algebraic drift. `tribunal.manifold.pl` applies strict K4 constraint logic, while `tribunal.inquiry.py` computes numerical residuals to model topological shear and identify structural impedance mismatches within candidate mappings.
 
 ---
 

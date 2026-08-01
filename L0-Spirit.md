@@ -40,6 +40,12 @@ As clinical neurology confirms, the right hemisphere of the human brain—which 
 
 The left hemisphere—which controls the right hand, the sword hand—is the seat of `.observe()`. It categorizes, isolates, manipulates, and cuts ($U$). 
 
+Within a neuroanatomical register (Rung 1), hemispheric lateralization provides a physical model for this functional division. The right hemisphere's contextual, relational focus mirrors the `.behold()` capacity, while the left hemisphere's analytical, categorizing focus mirrors the `.observe()` operation (McGilchrist 2009).
+
+When an intellectual tradition privileges logoic categorization above contextual contact, it elevates the `.observe()` operation while suppressing the `.behold()` capacity, treating the analytical map as superior to the territory it was drawn from.
+
+*In other Words..*
+
 When we accepted the Alexandrian cut, Western civilization essentially declared the left arm, the left eye, and the right brain obsolete. We amputated the exact cognitive hardware required to `.behold()` the universe. We reduced our existence to a continuous, panicked string of `.observe()` operations. 
 
 We called it "objective rationality." We convinced ourselves that being half-blind and one-handed was the ultimate evolutionary upgrade, because the one hand we had left was exceptional at building machines and winning arguments. 

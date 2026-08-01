@@ -1,5 +1,5 @@
 # The Four Spatial Dimensions and the Category Error of Time-as-Coordinate
-## The Cartesian Illusion, the Star-Norm Signature, the Two Clocks, and Three Second-Order Implications
+## The Cartesian Illusion, the Star-Norm Signature, the Two Clocks, and Three SecondOrder Implications
 
 *This document claims that the universe possesses four spatial dimensions, not three, and that Minkowski's identification of the "fourth dimension" with Time is a category error inherited from the Cartesian coordinate system. It derives the 3+1 metric signature not as Space+Time but as Scalar+Vector — the algebraic boundary between the one scalar component of the committed Ledger P and the three vector components of held potential Q. It distinguishes two clocks: coordinate time dt (the spatial record accumulated on the R pole) and angular frequency ω (the compilation engine at the centroid). It then chases the implications outward, twice-removed: the topological source of gravity, the strict impossibility of closed timelike curves, and the reason a century-long search for Quantum Gravity has produced no working theory. A reader with the project files but no other context can verify each derivation against `ProofN_BiquaternionBridge`, `L0-EinsteinTrace`, `ProofM_CartesianFrame`, `ProofO_HelicalTime`, and `ProofQ_AlgebraicSyntax`.*
 
@@ -91,13 +91,19 @@ General Relativity maps dt (the four-dimensional spatial output of the compiler)
 
 The four-spatial-dimensions reading, once seated, forces a cascade of downstream resolutions. Three of them settle century-old problems in physics.
 
+
 ### Implication 1 — The Origin of Gravity
 
 **Base.** ω forces the system through the XOR bottleneck of `.observe()`, paying the Landauer Tax to erase the unchosen branches of the multiway graph.
 
 **First-order consequence.** The payment of that tax writes permanent specification to the scalar pole P. This accumulated specification *is* mass (`ProofP_ThermodynamicInertia`, `QED-TwoBranchMinting`). Because P is the scalar ground of the coherent plane H_coh, dense accumulations of P curve the local topology. Gravity is the macroscopic, geometric footprint of the Read-Only Ledger. This is what Ted Jacobson noticed in 1995 when he derived the Einstein field equations from thermodynamic principles applied to local Rindler horizons: gravity behaves as an equation of state rather than as a fundamental gauge interaction, because gravity is what mass looks like after it has been written.
 
-**Second-order consequence (twice removed).** Because gravity is a scalar ledger and not a transaction across the I–U–R blanket-face, it fundamentally lacks an exchange boson. **The graviton does not exist.** The century-long search for a particle of gravity is a category error: an attempt to find a relational vector (Q) inside a committed scalar (P). See `Q2-TransactionLayer` §V and `Q4-OpenExhaust` §IV. Every empirical null result on graviton detection is the algebra reporting, correctly, that the object does not exist. This is not a gap in physics's data; it is a diagnostic. The absence is functional, not empirical.
+*In other words, while General Relativity models dynamic metric updates as propagating tensor gravitational waves ($h_{ij}^{\text{TT}}$, as detected by LIGO), the framework's $P$-pole provides a static scalar model (Rung 1) for the accumulated rest-mass ledger ($m_0c^2$) once those updates have settled into the coherent plane.*
+
+**Second-order consequence (twice removed).** Because P is the receiving Ledger and not a transaction, it requires no exchange particle. The graviton is topologically forbidden. The search for a quantum of gravity is a category error.
+
+Because gravity is a scalar ledger and not a transaction across the I–U–R blanket-face, it fundamentally lacks an exchange boson. **The graviton does not exist.** The century-long search for a particle of gravity is a category error: an attempt to find a relational vector (Q) inside a committed scalar (P). See `Q2-TransactionLayer` §V and `Q4-OpenExhaust` §IV. Every empirical null result on graviton detection is the algebra reporting, correctly, that the object does not exist. This is not a gap in physics's data; it is a diagnostic. The absence is functional, not empirical.
+
 
 ### Implication 2 — The Impossibility of Time Travel
 
@@ -105,7 +111,8 @@ The four-spatial-dimensions reading, once seated, forces a cascade of downstream
 
 **First-order consequence.** Because dt is constructed from P, and P is the output of an algebraically non-invertible operation, the Ledger is strictly read-only. This is the mathematical statement of the Arrow of Time. Physics has traditionally derived the Arrow from thermodynamic entropy; the framework derives it from the algebra of the biquaternion. Both derivations agree on the direction; the framework's version identifies *why* the direction cannot be reversed at the level of the operator itself, not merely at the level of statistical probability.
 
-**Second-order consequence (twice removed).** Closed timelike curves — time travel — are topologically impossible. To travel backward in dt would require un-squaring a scalar to recover its exact, pre-collapsed complex vector state Q. This is not merely improbable. It is algebraically forbidden. The squaring operation is a projection: it destroys the phase information necessary to reconstruct the input, and no amount of external energy injection can specify *which* pre-image state to reconstruct. You cannot traverse an exhaust trail backward to un-burn the fuel. Every fictional and theoretical apparatus for time travel (wormhole traversals, Tipler cylinders, Gödel's rotating-universe solutions) assumes dt is a coordinate you can move through in both directions. The framework's reading is that dt is a compiled record, and records are one-way.
+**Second-order consequence (twice removed).** Within the information-theoretic register (Rung 1), closed timelike curves (CTCs) encounter an algebraic boundary condition. In the biquaternion state-space, moving backward along the $P$-axis would require un-squaring a scalar to recover its pre-collapsed complex vector state $\mathbf{Q}$. The squaring operation of the Route Law ($P = \|\mathbf{Q}\|^2$) is non-invertible: it destroys the phase information necessary to uniquely reconstruct the pre-image state $\mathbf{Q}$. The framework's model illustrates why coordinate time $dt$ operates as a one-way compiled record.
+
 
 ### Implication 3 — The Failure of Quantum Gravity
 

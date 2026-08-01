@@ -22,9 +22,9 @@ The physical bridge between information and energy is governed by the necessity 
 
 When a system executes the `.observe()` function, the "Garbage Collector" must prune and erase the unchosen branches of the interference structure. However, the true metric of mass is not the temporary heat exhaust of erasure (which scales with environmental temperature, $k_B T$). The metric of mass tracks the **structural resistance** to altering the Braid's heading.
 
-When we attempt to accelerate a mass—when we apply a force to change its momentum vector—we are demanding that the system update its trajectory. For a heavily specified system (high $P$), changing the trajectory requires a massive recompilation of its state-space. The system must process an immense amount of informational realignment to map its internal interference structure to the new external vector. 
+Within an information-theoretic register (Rung 1), physical inertia ($F = ma$) provides a structural analogy for the computational friction encountered when updating a committed system.
 
-**Inertia ($F = ma$)** maps structurally to the macroscopic readout of this recompilation cost. It models the structural friction of updating a dense, highly committed ledger.
+When a heavily specified system (high $P$) is subjected to an external driver, changing its operational trajectory requires updating its internal state-space. This structural delay operates as **informational inertia**—a cybernetic model of **Inertia ($F = ma$)** for the friction encountered when re-orienting a highly committed system.
 
 ## 4. The Conservation of the State Vector
 
@@ -50,7 +50,7 @@ If the reader has been paying close attention, their mind should be screaming: "
 
 ---
 
-*Resolution Note: The dimensional panic anticipated above is resolved in `L4-DimensionalCollapse` (where rate crystallizes into state at the Tangent Crossing) and fully deconstructed in `QED-TwoBranchMinting-Lecture`, which separates gravitational mass (P/Ledger) from inertial mass (R/Recompilation Cost) and derives the Equivalence Principle as a 0-DoF boundary condition. The monolith is broken; the topology holds.*
+*Resolution Note: The dimensional panic anticipated above is resolved in `L4-DimensionalCollapse` (where rate crystallizes into state at the Tangent Singularity) and fully deconstructed in `QED-TwoBranchMinting-Lecture`, which separates gravitational mass (P/Ledger) from inertial mass (R/Recompilation Cost) and derives the Equivalence Principle as a 0-DoF boundary condition. The monolith is broken; the topology holds.*
 
 ---
 

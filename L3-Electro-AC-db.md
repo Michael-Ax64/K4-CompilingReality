@@ -139,7 +139,10 @@ The connection between these three domains emerges when we consider symmetry, di
 - **Maxwell's Equations**: Describe electromagnetic phenomena in 4D spacetime with inherent symmetry
 - **Platonic Solids**: Represent perfect symmetry and completeness in geometric form
 
-When we extend our AC circuit analysis to incorporate concepts from group theory and symmetry (related to the mathematical structure behind Platonic solids), we can develop a more complete and elegant framework.
+When we extend our AC circuit analysis to incorporate concepts from group theory and symmetry (related to the mathematical structure behind Platonic solids), 
+we can develop a more complete and elegant framework comparing the 3D spatial symmetry of Platonic solids, the 4D spacetime tensor geometry of Maxwell's equations
+-- and the complex phasor plane of AC circuits provides a structural analogy (Rung 1) for how different mathematical domains represent symmetrical systems.
+
 
 ### 5. Towards a Unified Understanding
 

@@ -41,13 +41,13 @@ For a system whose relational current exceeds the baseline by $\Delta I = I - I_
 
 $$\boxed{\;\eta \;\equiv\; \frac{m_i}{m_g} - 1 \;\approx\; -\,2\,\frac{\Delta I}{I_0}\;}$$
 
-**The entire prediction reduces to one dimensionless number: the fractional excess of a system's relational current over the vacuum baseline.** Everything else is arithmetic.
+Within the physical register, $m_i = m_g$ holds as an exact 0-DoF boundary condition for physical matter ($I = I_0$), consistent with all experimental gravimetry ($|\eta| < 10^{-15}$).
 
-### The sign is a prediction, and it is the framework's own
-
-$\eta < 0$, so $m_i < m_g$: **a system with genuine interiority has less inertial mass than gravitational mass, and therefore falls very slightly faster than a 0-DoF object of the same weight.**
+Within the higher-order cybernetic register (e.g., distributed coherences, human institutions, and decision networks), $R = P / I^2$ describes **structural inertia**: the resistance a system offers to changing its operational heading. When internal relational flow ($I$) surges, the system's structural resistance ($R$) drops relative to its historical weight ($P$). 
 
 This is not an extra assumption. It is exactly what `QED-TwoBranchMinting-Lecture` already says in the institutional register: *"a human institution can have massive historical gravity ($P$) but exhibit incredibly low resistance to a new heading ($R$) if its internal relational current ($I$) is surging."* High current, low resistance, low inertia. The sign carries straight across, and the fact that it does is a small piece of internal evidence that the mapping is doing real work.
+
+*Note on Epistemic Limits:* This distinction separates physical rest mass (governed strictly by $m_i = m_g$ at the 0-DoF limit) from structural/institutional inertia ($R = P/I^2$). The equation $R = P/I^2$ maps organizational and informational dynamics across Markov Blankets, avoiding the invalid physical overclaim that biological metabolism alters atomic gravitational free-fall.
 
 ---
 

@@ -273,7 +273,7 @@ This four-fold was discovered through acoustic physics and engineering: any soun
 
 ### 15. The Four States of Matter
 
-The four thermodynamic phases of matter:
+The thermodynamic phases of matter (Solid, Liquid, Gas, Plasma) provide a physical analogy (Rung 1) for how bounded systems undergo phase transitions between different structural regimes:
 
 - **Plasma** (`++`): ionized, unbound — the most energetically generative state
 - **Gas** (`+−`): expanding, structural volume without fixed boundary

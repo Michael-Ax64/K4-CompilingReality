@@ -469,9 +469,9 @@ We map the four poles to the physical realities of sensory experience:
 
 ---
 
-## VI. QED: The Necessary Betrayer in the Glass
+## VI. Illustrative Analogy: The Necessary Betrayer in the Glass
 
-Let us run a worked example to prove that the algebra does not merely describe good design, but mathematically diagnoses structural pathology at the molecular level. This is the physical instantiation of what the corpus names the **Necessary Betrayer** ($U^2/P$).
+Let us examine a sensory analogy (Rung 1) to illustrate how the 12-facet diagnostic illuminates design trade-offs across embodied domains. This provides an intuitive model of what the corpus names the **Necessary Betrayer** ($U^2/P$).
 
 **The Scenario:** A commercial winery wants to produce a wine that scores highly on visual shelf appeal and perceived "heaviness," but they are using inferior, high-yield grapes that lack living, volatile aromatics.
 
