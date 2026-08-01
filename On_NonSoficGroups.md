@@ -5,6 +5,9 @@
 
 ---
 
+Jump to [Questions](#vii-example-question) and [Objections](#viii-example-objections)  (Thanks Reddit)
+
+
 ## I. The General Structural Claim
 
 Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, finite digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
