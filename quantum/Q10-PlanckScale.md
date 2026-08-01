@@ -75,12 +75,14 @@ If the Planck scale is the boundary of the interior coordinate system, what is a
 
 It is the physical instantiation of the `.observe()` collapse. It is the XOR bottleneck of `L1-CompilingReality` §5.2 given a specific tolerance width.
 
-To generate physical reality, the multiway graph of potential Q must be funneled through an exclusive-OR physical actuator that produces a single committed scalar state P. The XOR operation requires discarding the unchosen branches. Discarding information triggers the Garbage Collector, which requires the payment of the Landauer Tax (`ProofP_ThermodynamicInertia`) — the minimum thermodynamic cost of erasing one bit of information at temperature T is k_B T ln 2. The universe cannot execute an `.observe()` operation with less thermodynamic and geometric precision than this tolerance allows.
+To generate physical reality, the multiway graph of potential Q must be funneled through an exclusive-OR physical actuator that produces a single committed scalar state P. The XOR operation requires discarding the unchosen branches. Discarding information triggers the Garbage Collector, which requires the payment of the Landauer Tax (`ProofP_ThermodynamicInertia`). When a bounded frame operating at ambient temperature $T > 0$ executes this bit-flip, Landauer's principle ($E \ge k_B T \ln 2$) sets the minimum thermodynamic heat dissipated into the local environment.
 
-The Planck length and Planck time define the absolute minimum thermodynamic and geometric tolerances required to execute one `.observe()` operation:
+The Planck scale ($\ell_P, t_P$), by contrast, defines the universal, temperature-independent quantum-gravitational tolerance ($\hbar, G, c$) of a single $\text{.observe()}$ operation at the substrate boundary:
 
-- ℓ_P is the smallest spatial region across which the algebra can distinguish a "here" from a "there" while still respecting Star-Norm conservation. Below it, the distinction has not yet been minted.
-- t_P is the shortest interval between successive Ledger entries on R that the compilation cycle can produce. Below it, the entries have not yet been compiled.
+- $\ell_P$ is the smallest spatial region across which the algebra can distinguish a 'here' from a 'there' while still respecting Star-Norm conservation, independent of $T$. Below it, the distinction has not yet been minted.
+
+- $t_P$ is the shortest interval between successive Ledger entries on R that the compilation cycle can produce, independent of $T$. Below it, the entries have not yet been compiled.
+
 - m_P is the mass at which a single quantum of the uncollapsed buffer's phase carries enough energy to force its own `.observe()` — the collapse threshold Penrose was reaching for with Objective Reduction (`Q9-Founders` §V).
 
 These are not sizes of spatial pixels. They are widths of an operator. You cannot measure a spatial distance shorter than ℓ_P because *distance* (x, y, z) is a property of the compiled Ledger, and the Ledger is compiled in ℓ_P-sized chunks. You cannot measure a time shorter than t_P because dt is the spatial distance between Ledger entries, and the compiler ω cannot print a receipt faster than the Landauer limit of erasure permits.

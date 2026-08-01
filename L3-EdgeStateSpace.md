@@ -17,11 +17,11 @@ Every edge in a directed graph has exactly four possible states with respect to 
 
 **↔ (bidirectional)**: the edge exists in both directions simultaneously — the relationship is mutual, neither direction privileged over the other.
 
-These four states are in general position: no three of them are equivalent, reducible to each other, or collinear in any useful geometric sense. They cannot be arranged as a triangle; each requires its own independent coordinate.
+These four states are in general position: no three of them are equivalent, reducible to each other, or collinear. While $K_4$ as an abstract graph defines the 1D combinatorial connectivity between four states, representing their non-degenerate mutual determination without flattening requires embedding in a three-dimensional polyhedral geometry.
 
-Four points in general position define a tetrahedron.
+Four points in general position in $\mathbb{R}^3$ define a 3-simplex ($\Delta^3$).
 
-**The edge's state space is itself a K4.**
+The edge's state-space skeleton is a $K_4$ graph, whose polyhedral realization is a 3-simplex ($\Delta^3$).
 
 *Degrees of Freedom (DoF) in this framework does not refer to Newtonian spatial translation or mechanical setpoints. It refers strictly to the dimension of the decoupled buffer: the capacity of a system to hold competing variables in live interference without forcing a thermodynamic collapse. A thermostat has mechanical variance; it has zero cybernetic DoF.*
 
@@ -35,9 +35,9 @@ The three presence states form a triangle: K3, a closed triangular relationship 
 
 The fourth state (∅) cannot be placed in this triangle without collapsing the structure. Absent is not a weak form of one of the three presence states — it is genuinely distinct from all three. Placing it in the two-dimensional plane of the triangle requires it to be at the same distance from all three presence states, which requires a third dimension.
 
-In three dimensions, ∅ forms the apex of a tetrahedron whose base is the triangle of presence states. The four states together form the K4: the edge state-space tetrahedron.
+In three dimensions, ∅ forms the apex of a 3-simplex ($\Delta^3$) whose base is the 2D $K_3$ triangle of presence states. The four states together form the $\Delta^3$ polyhedral state space.
 
-This is the "ungraphable triangle": not ungraphable in the sense that it cannot be drawn as a triangle, but ungraphable in the sense that drawing the triangle leaves out the fourth state — and the fourth state is what gives the triangle its volume. The triangle you can draw is the blanket-face of the edge's interior K4. The fourth vertex (∅) is the interior-facing vertex, accessible only by stepping into the 3D structure.
+This is the "ungraphable triangle": not ungraphable in the sense that $K_4$ cannot be drawn as a planar graph (as an abstract graph, $K_4$ is planar in $\mathbb{R}^2$), but ungraphable in the sense that a 2D planar drawing collapses the 3D volume needed to hold all four states in general position. The 2D triangle you draw is the $K_3$ blanket-face of the interior $\Delta^3$ volume. The fourth vertex (∅) is the interior-facing apex, accessible only when embedded as a 3D polyhedral volume in $\mathbb{R}^3$.
 
 ---
 
