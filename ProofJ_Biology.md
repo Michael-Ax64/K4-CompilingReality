@@ -132,3 +132,4 @@ This proof bridges ProofG_Chirality (the molecular-edge level) and L4-Distribute
 
 *Related proofs: ProofG_Chirality (the molecular-edge `.observe()` that begins the biological trajectory); ProofC_Crystal (the zero-point tension that prevents total commitment at any scale, ensuring `.behold()` capacity is never entirely exhausted); ProofF_Friston (the Active Inference formalization of the blanket-face dynamics, applicable at any of the six scales here); L4-DistributedCoherence (the fully developed account of distributed coherence at colony and institutional scales).*
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

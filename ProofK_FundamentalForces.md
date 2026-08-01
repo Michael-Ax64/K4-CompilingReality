@@ -86,3 +86,4 @@ That is speculative. But it is the kind of speculation that is falsifiable in pr
 
 *This document is exploratory and noted as such. Related proofs: ProofI_Ubiquity (the substrate argument that motivates this mapping); L3-FormalFoundations_Synthesis (the algebraic closure requirements the four-fold must satisfy — the formal test for whether the force assignments satisfy them); L3-EdgeStateSpace (the Hamiltonian cycle structure that the forces would need to instantiate if the mapping is correct). The electroweak unification problem should be engaged before treating this as a settled correspondence.*
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -85,3 +85,4 @@ As a direct consequence, $P$ is not a transactional pole; it is the receiving Le
 This proof establishes the mathematical bridge *without* triggering the dimensional panic. By keeping the mapping strictly algebraic ($P$ to $m_0c^2$, not $P$ to $m$), we respect standard dimensional limits *for now*. 
 
 The reader likely agrees with the biquaternion logic and the isomorphism. The path is now clear for **`ProofO_HelicalTime.md`** to introduce the asymmetry of $\omega$.
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -302,3 +302,4 @@ Operating exclusively from the $U$ (Air/Logos) face while treating that face as 
 Kairos appears in the Rhetoric, but scattered and never systematized. The standard scholarly treatment is James Kinneavy and Catherine Eskin's "Kairos in Aristotle's Rhetoric" (Written Communication, 1994/2000). They examine 16 references to kairos in the Rhetoric and argue the term is an integral element in Aristotle's own act of writing, in his concept of the pathetic argument, and in his handling of maxims. Their argument is that scholarship neglected this because older concordances missed it — not because Aristotle made it a headline concept.
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

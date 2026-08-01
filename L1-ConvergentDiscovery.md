@@ -535,3 +535,4 @@ If the mind's cognitive convergence is the K4, its developmental convergence is 
 
 *This document is necessarily incomplete. It is a record of plural discoveries currently available, not a claim to cover all instances. The structure keeps appearing. Each new domain where it appears is another vote for the structure being real, not invented. Other traditions will be found to belong here. Convergences continue to manifest effortlessly.*
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

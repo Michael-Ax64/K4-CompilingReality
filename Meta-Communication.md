@@ -115,3 +115,4 @@ The honest answer to "how do you tell them" is: you mostly do not tell them. You
 ---
 
 *This paper is bounded by meta-Singularity-and-Image: it does not claim to transmit the untransmittable, and it marks where offering ends and undergoing begins. It rests on meta-MechanismOfTransition (the crossing the reader must undergo), meta-proof-Ascent (the rungs the structure holds), and meta-Decay-as-RefusedTransition (the homesteading the work meets each reader within). It states how a work that crosses boundaries reaches the ones who can cross them: by being an attractor, offering the first push, holding the structure, and letting go at the boundary of its own reach.*
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

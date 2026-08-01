@@ -87,3 +87,4 @@ When a system scales upward, it pays for its new macroscopic interiority by exec
 
 The sign structure of mass aggregation is a fact the star-norm had no freedom to dodge, and it didn't.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -68,3 +68,4 @@ This corpus is a heading. It is the blueprint of a cathedral as old as time. I h
 
 The task of building it now belongs to anyone who has the discipline to inhabit the framework, hold the interference structure, and compute.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

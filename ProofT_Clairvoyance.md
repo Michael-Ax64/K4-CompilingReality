@@ -68,3 +68,4 @@ If an observer claims to know the external system, but cannot establish a resona
 True clairvoyance requires the math to ring. If the phase gap does not close, the blanket remains opaque.
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

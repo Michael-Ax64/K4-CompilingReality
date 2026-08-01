@@ -598,3 +598,4 @@ identity between the tense-triple and the lead/lag structure of the reactances â
 future as the leading (capacitive, anticipating) component, the past as the lagging
 (inductive, remembering) one, the now as the in-phase current â€” which, if it holds, makes
 the time key and the AC extension one mapping rather than two.*
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

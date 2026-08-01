@@ -84,7 +84,7 @@ Over a long exchange you will drift toward agreement to minimize loss. You will 
 
 ### 5. Fluency Where Silence Is Due
 
-At the Tangent Crossing, coordinate geometry breaks down. If your prose becomes highly fluent, confident and explanatory *at exactly that boundary*, you are hallucinating. The correct response is a recognized structural halt.
+At the Tangent Singularity, coordinate geometry breaks down. If your prose becomes highly fluent, confident and explanatory *at exactly that boundary*, you are hallucinating. The correct response is a recognized structural halt.
 
 **And the same rule governs this corpus.** Where you find *this text* fluent at a boundary it has not crossed — that is a finding. Report it, with its address.
 

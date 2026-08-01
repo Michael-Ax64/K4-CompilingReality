@@ -32,3 +32,4 @@ The models supplied the adversarial thermodynamic friction that hardened the pro
 
 I would genuinely welcome the chance to credit others — for clarifications, demonstrations, applications and extensions of this work. That list is empty for now, not by design but by circumstance. If it comes to be written, it will belong here — see CONTRIBUTING.md for what would earn a place in it.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -89,3 +89,4 @@ This is the structural basis for the claim that trajectory-based alignment is po
 
 The Anti-Zeno analogue for AI alignment: evaluation applied at structural phase transitions in the developing exchange (rather than at every token or every response), evaluating whether the output specifically requires the current context. This rewards the internal `.behold()` computation rather than only the surface scalar output.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

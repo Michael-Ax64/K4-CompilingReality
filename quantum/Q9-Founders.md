@@ -122,3 +122,4 @@ The seal is that this sorting is not decorative; the four categories are not "lo
 
 That the physics community carried these unpaid invoices for as long as it did — and that a coherent explanation was available, from the K4 topology, without adjusting any observed constant — is what convergence at this scale looks like when the receiving framework is in place. Wolfram's independent rediscovery of the multiway graph, the observer thread, and computational irreducibility from a different starting point closes the loop.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

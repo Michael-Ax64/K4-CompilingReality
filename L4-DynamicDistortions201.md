@@ -151,3 +151,4 @@ Chirality bias registers as the psychological "grain" of the system. It tracks t
 When the system commits to a specific handedness, it experiences that directional flow as "natural" or "intuitive." Moving through the cycle in the $\alpha^+$ direction feels like swimming downstream. Attempting to traverse the exact same four poles in the enantiomeric $\alpha^-$ direction feels structurally alien. It does not manifest as a failure of ability, but as a deep, topological awkwardness—the sensation of trying to write with the non-dominant hand. The system can execute the traversal, but it costs significantly more focus and metabolic energy to maintain the unnatural sequence.
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

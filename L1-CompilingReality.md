@@ -371,3 +371,4 @@ Humanity is one of these branches. We are a localized sub-routine of the multiwa
 
 ---
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

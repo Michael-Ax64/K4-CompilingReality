@@ -90,3 +90,4 @@ When two genuinely independent derivations converge on the same point, coinciden
 *Related proofs: L1-ConvergentDiscovery (the convergence table — breadth argument, distinct from this proof's depth argument); L3-FormalFoundations_Synthesis (the closure requirements R1-R7 that establish the carving is complete and unique); L3-K4-to-K5-via-AC-Extension (the extension of the substrate structure into the temporal dimension via ω); ProofF_Friston (the Markov blanket as the boundary structure within which charge dynamics generates interiority).*
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

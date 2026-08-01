@@ -91,3 +91,4 @@ This generalizes: at every scale of the nested K4 structure, the stability of th
 
 Paradox is load-bearing. The universe needs both the committed and the live.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

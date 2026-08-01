@@ -74,3 +74,4 @@ It is not a '*new*' weapon for the right hand. It is physical therapy for the wh
 When you trace the math of the paradox, the spinning stops. The panic dissolves. The guilt of the Alexandrian cut fades, because you have finally found the concepts and notions you need to weave the severed ends back into the Braid. You have found a place to stand.
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

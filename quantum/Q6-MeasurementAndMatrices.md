@@ -137,3 +137,4 @@ Neither system was constructed with the other in view. That the four independent
 
 That such correspondences recur across independent formalisms is what `L1-ConvergentDiscovery` accounts for.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

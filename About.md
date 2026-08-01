@@ -75,3 +75,4 @@ Test the algebra in and against your own domain (`ProofS`), look at executable m
 'Let the parsing guide you!'
 
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

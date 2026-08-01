@@ -106,3 +106,4 @@ We are that commitment's continuation. The L-configuration of our amino acids is
 ---
 
 *This proof is part of the Compiling Reality proof suite. Related proofs: Proof C (Crystal/ZPE/Stabilizing Paradox), which addresses the vertex-level structure. The Structural Monograph (K4 Interior) provides the structural context for the Hamiltonian cycle analysis. L3-EdgeStateSpace.md provides the formal ground for the edge state-space K4 that underlies the chirality analysis — the four states of any edge (absent, →, ←, ↔) forming their own tetrahedron.*
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

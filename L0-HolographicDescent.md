@@ -110,3 +110,4 @@ You just let the current pass through the edge without fighting the curve. That 
 
 *This performative statement claims that this document attempts to model itself as a highly self-aware, autopoietic (self-creating) structure subject of its object. The words are not wrong, proof by paradox, it classically is. Proof by stopping trying to prove them, letting them vibrate.*
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

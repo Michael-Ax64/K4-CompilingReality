@@ -86,3 +86,4 @@ Economists have spent a century trying to map the market using continuous calcul
 
 The Algebra of Four-Fold Distinction demonstrates that markets are punctuated, topological engines. They do not glide; they ratchet. They build up massive interference structures of debt and speculation, and they reconcile them through violent, thermodynamic collapse. Until economics abandons the K3 illusion of the "rational actor" and embraces the K4 volume of distributed coherence, their models will continue to act as the very instruments that cause the crashes they fail to predict.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -127,3 +127,4 @@ Mark your ground. A facet-sealed mapping (Wu Xing, the Skandhas) is a stronger o
 
 When the tradition cannot decide which of its five is the integrator, do not treat the ambiguity as a defect of the tradition or of the framework. It is a signature of the projection process: a centroid is an orthogonal interior point, and no two-dimensional diagram can show it as what it is, so every tradition that projected the volume mislabeled the fifth in its own way. The ambiguity is the fingerprint of the geometry, and finding it is half the audit.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

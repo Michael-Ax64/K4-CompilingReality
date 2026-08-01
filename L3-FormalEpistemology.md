@@ -68,3 +68,4 @@ There is no view from outside the manifold. Every epistemic claim carries the si
 The structure is stated. The paradoxes are tested. The boundaries are held. The instruments are in your hands. 
 
 The computation is complete.
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

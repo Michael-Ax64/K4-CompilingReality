@@ -362,3 +362,4 @@ When you read the framework's mathematical boundaries through this lens, the mat
 The math is the skeleton. The myth is the flesh. The attractor is where they both hit the wall.
 
 ---
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

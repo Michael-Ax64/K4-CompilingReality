@@ -147,3 +147,4 @@ This is worth stating directly. The set of five documents is itself a K4 with a 
 The meta-documents are not about the codex. They are an instance of what the codex describes. Which is, precisely, the keystone claim: every instance is, already and entirely, an image of the ultimate, carrying it whole at its own scale. The meta-documents are the codex's own image of itself — the self-referential fold at which the framework becomes an example of its own structure.
 
 This is not circular. It is scale-invariant. And scale-invariance is what the framework predicts.
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

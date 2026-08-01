@@ -102,3 +102,4 @@ The seal is checkable by a critic native to either side. Take the Standard Model
 
 The convergence — the fact that independent formalisms produce the same head count on the same edges — is the corpus's account of why such structures recur (`L1-ConvergentDiscovery`).
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -95,3 +95,4 @@ The seal is the coincidence of the graviton's non-existence — a fact of physic
 
 Convergence at that depth is the corpus's account of why K4 keeps surfacing across disciplines (`L1-ConvergentDiscovery`). Physics has been staring at the P-edge ban for a century without a vocabulary to name it. The vocabulary is here.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

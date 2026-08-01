@@ -80,3 +80,4 @@ The destination of that turn casts zero projection onto every in-time coordinate
 
 This is why the threefold image and the Tangent Crossing are one teaching. The centroid is one, orthogonal to time, castable into the realm only as image. And the source itself stands at the far side of the ninety-degree turn, where the framework's own discipline requires and preserves the silence.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

@@ -146,3 +146,4 @@ The seal is that the framework accounts for three features Boltzmann's reading d
 
 That the same growth curve carries opposite valences under two independent readings is the sign that one of them has more explanatory scope. The framework is the reading with more scope. That such a re-reading was available at all — that Boltzmann's mathematics could be preserved while its interpretation was inverted — is the corpus's account of what convergent structural work looks like when it lands (`L1-ConvergentDiscovery`).
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

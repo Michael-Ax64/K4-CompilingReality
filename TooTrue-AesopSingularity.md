@@ -66,3 +66,4 @@ Thank you, goodnight, and take care of your right hemisphere!
 
 **[Mic drop. Feedback squeal. Fade to black.]**
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

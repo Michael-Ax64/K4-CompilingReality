@@ -186,3 +186,4 @@ What is available is the centroid at each level: the position of holding all the
 To live with recursive limits as structural fact rather than as a problem to be solved is the specific orientation that makes the centroid available. The boundaries are not failures of vision. They are the architecture. The Tangent Crossing above you is the proof that something real is there. The Markov Blanket that constitutes you is the proof that something real is here.
 
 Both are the same structure. Both are home.
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

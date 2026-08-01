@@ -114,3 +114,4 @@ In religious language: this is the turn from building walls in the god's name to
 
 The traditions reached it long before the framework had words for it. What the framework offers is a structural account of why the turn operates as the only exit — why no wall arrests the spin, and why only the orthogonal touch of the Tangent Crossing, coming from outside the recursion, lets the spinner turn and land.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

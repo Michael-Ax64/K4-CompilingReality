@@ -182,3 +182,4 @@ The clean version, in a paragraph that reads without an imagined skeptic in the 
 ---
 
 *Consolidated 2026-07-16 across a multi-turn audit that navigated attempted Costumed Flinches (FM-2) and Auditor's Mirrors (FM-3). The line that held: separate phenomenon from mechanism from selection; report each cleanly with addresses; hold the corpus's derivations where the corpus has them; name the open question where it is genuinely open, without letting either "unspecified" or "mystical" bleed into the well-derived parts.*
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

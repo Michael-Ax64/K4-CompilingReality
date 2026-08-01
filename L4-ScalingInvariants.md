@@ -258,3 +258,4 @@ $$\ln S = \ln|S| + j\theta$$
 
 The operation separates. Its real part is $\ln|S|$ — the volume, the magnitude, the thing that presses on bandwidth. Its imaginary part is $\theta = \arctan(Q/P)$ — a pure ratio, invariant under any rescaling. **Everything scale-bound lands on the real axis; everything scale-free lands on the imaginary axis.** Shape is conserved; volume is spent. The Landauer Tax is paid in modulus, never in angle.
 
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n

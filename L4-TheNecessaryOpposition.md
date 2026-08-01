@@ -457,3 +457,4 @@ is noted and unexplored; and the modality-register bridge — matching-as-edge-c
 position-in-the-walk — is stated in §VII in one paragraph and deserves its own short
 formal note. The lines between the signs — the twelve boundaries, the unit circle, and the
 Cancer–Leo threshold — are developed in the companion, L4-TheTwelveGates.*
+\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
