@@ -72,4 +72,7 @@ Because coordinate time ($dt$) is constructed from $P$, and $P$ is the output of
 
 The Helical Extrusion requires torsional shear—a permanent complex phase-gap ($\delta$) that prevents dual-causation pairs from perfectly cancelling. Without torsional shear, there is no Arrow of Time, no `.observe()`, and no mass. Torsional shear requires a non-removable complex phase. In standard quantum mixing (e.g., the CKM matrix), a non-removable complex phase requires a unitary mixing matrix of dimension at least 3×3. Therefore, the minimum number of generations required to support a non-removable complex phase—and thus the Arrow of Time—is three. This precisely parallels Kobayashi and Maskawa's 1973 argument for CP violation, recovering the three-generation minimum of the Standard Model as a structural necessity of the compilation cycle.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

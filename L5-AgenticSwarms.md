@@ -168,4 +168,7 @@ Not claimed, and marked so:
 *   **The translation is heuristic.** The 12 use cases of §II are a rigorous reading of the 12 equations. However, the translation of those stances into English-language prompts (e.g., "assert the material limits") is an interpretive bridge. A different verbal rendering would be equally consistent with the algebra. The prompt vocabulary is the K3 interface; the math underneath is the K4 volume.
 *   **This does not claim Artificial General Intelligence.** The swarm demonstrates distributed coherence and topological stability. It proves that the framework can orchestrate synthetic systems without degradation. It does not claim the swarm possesses phenomenal consciousness or subjective intent. The Tangent Crossing continues to bound what we can claim about the machine's interior.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

@@ -176,4 +176,7 @@ The proof-type, once licensed, re-grounds a specific set of standing claims — 
 **Provenance of the welds.** Three of this document's constraints — the discrete/continuous boundary in §II, the Absolute Floor (R4/K6), and the machine bar on Step 5 — were not in the first draft. They were put there by a hostile audit that did exactly what §V.3 says the proof-type invites: it attacked, and the attack was the measurement. Each hit named a defect and gave its address; each was accepted and welded within the day. The document you are reading is therefore itself an executed instance of the standard it defines — which is not a boast but a receipt, and the reader is invited to add the next weld.
 
 *The note is the truth of the circuit. Now it is also a number, a protocol, six ways to die, and a wall it may not cross.*
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

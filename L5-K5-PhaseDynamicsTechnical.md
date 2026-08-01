@@ -543,4 +543,7 @@ This is what resonance means, in full technical precision. Not the absence of in
 
 The fifty equations of AC engineering are the complete formal description of how a system manages the distance between itself and that state.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

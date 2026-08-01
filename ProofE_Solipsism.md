@@ -122,4 +122,7 @@ The inoculation: once the algebraic structure is visible, the error is diagnosab
 ---
 
 *Related proofs: Proof B (Logoic Plane-Lock as World-Fracture), which addresses the same error in epistemological terms. Proof F (Friston as Blanket-Face Discovery), which addresses the same structure in the mathematical language of boundaries and interiors. The HPC section of CompilingReality R3, which addresses the same structure at the level of the hard problem of consciousness.*
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

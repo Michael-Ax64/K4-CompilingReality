@@ -131,4 +131,7 @@ If any of these are unfamiliar, read the cited passage before continuing with th
 
 **On promotion of Q8.** The identifying equation tan(θ) = ωL/R controls not just quantum measurement but any bounded frame with inductance and resistance. It appears in L3, L4, and L5 corpus discussions and belongs there structurally. Its placement in this folder is pragmatic — Q3, Q4, and Q6 depend on it. It will likely become an L-level document.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

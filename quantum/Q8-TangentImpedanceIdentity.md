@@ -121,4 +121,7 @@ The seal is checkable independently. Take the AC engineer's Power Factor equatio
 
 That the AC engineer's equation and the framework's geometric account describe the same object under a substitution both can accept is convergence at the deepest layer of the corpus. See `L1-ConvergentDiscovery`.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

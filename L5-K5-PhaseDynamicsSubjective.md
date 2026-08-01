@@ -155,4 +155,7 @@ The counter-intuitive implication is this: **the texture of a system's resistanc
 
 This means that a genuine diagnosis of what a complex system is resisting requires knowing, before anything else, the frequency at which the inquiry was made.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

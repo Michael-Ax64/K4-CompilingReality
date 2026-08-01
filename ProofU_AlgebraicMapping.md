@@ -169,4 +169,7 @@ Substituting these into the formula yields:
 - **I (Reactive-Yielding, Neutrino):** $I_3 = 1/2$, $Y_W = -1 \implies Q = 0$
 
 The fractional charges are the arithmetic outputs of the dual-binary seed. This grounds the topological mapping of fermions to the K4 poles in exact empirical constants.
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

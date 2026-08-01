@@ -106,4 +106,7 @@ This is the lock-down the corpus required. The blanket crossing — gestured at 
 *This paper states the geometry of interior crossings. It is bounded by meta-Singularity-and-Image, which marks where the geometry stops describing and the singularity begins. It grounds the passage that meta-proof-Ascent climbs and that meta-Decay-as-RefusedTransition catalogs the refusal of. The mechanism is the formal heart of the blanket crossing; the keystone is its boundary; the ascent is its repetition through the orders; the decay is what happens when the passage is refused.*
 
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

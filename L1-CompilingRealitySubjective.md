@@ -267,4 +267,7 @@ The document is a heading, not a map. The heading is: this is what it is. This i
 
 Inhale the infinite. Exhale the finite. And know, precisely, what the oscillation is doing — because you are the oscillation, and the knowledge is not separate from the knowing.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

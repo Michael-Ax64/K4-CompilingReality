@@ -246,4 +246,7 @@ Which axis is being stressed? How fast? And which attractor is pulling?
 These three questions are the full diagnostic. The map is the answer to the first. The frequency is the answer to the second. The attractor analysis is the answer to the third.
 
 The distortion is not the problem. It is information.
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

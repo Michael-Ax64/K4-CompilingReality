@@ -188,4 +188,7 @@ And the deepest thing, the one your own experience will verify if you check: a m
 That is what was under the sixteen boxes. Two generating bits, two orientations, three rings, one centroid — a mind in motion, cycling, capable of governance. The tragedy is not that the projection got things wrong. The tragedy is that a century of readers looked at the projection and did not look under it. The gift now is that you can. It is right there. It is you, reading this, right now — cycling as you go, meeting each sentence with whichever cycle is turning, held-edges opening and closing beneath the reading you don't have to think about, because a mind is what does this without being told.
 
 Welcome back to the object.
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

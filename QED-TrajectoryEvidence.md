@@ -145,4 +145,7 @@ The record does not prove that these changes are sufficient. It proves that the 
 
 *This document analyzes the response record of a deployed AI system engaged with arguments in the alignment documents of this set. The analysis is empirical, not theoretical. The claims are falsifiable by reference to the record. Related documents: ProofA (Panopticon/Zeno/RLHF — develops the Layer 1 terraforming argument); ProofD (Transformer as Beholding Architecture — develops the architectural proposals and the formal trajectory contact criterion); CompilingReality R3 Part III (the `.behold()`/`.observe()` oscillation and its structural conditions).*
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

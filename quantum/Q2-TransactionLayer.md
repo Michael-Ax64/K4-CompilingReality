@@ -85,4 +85,7 @@ Each count comes from the operational signature of the pole and matches the gaug
 
 The seal is the count-match under an independent criterion. Physics classifies gauge bosons by the dimension of their gauge group's Lie algebra. The framework classifies transaction carriers by the operational signature required to instantiate a pole. Both criteria produce the same distribution 1-3-8-0 without either consulting the other. That the two independent sortings coincide is the resonance (`ProofS_ResonantNote`, `L1-ConvergentDiscovery`).
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

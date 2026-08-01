@@ -104,4 +104,7 @@ The water that will not fall does not remain a still pool. It stagnates. And sta
 
 *This paper is the inverse of meta-proof-Ascent and the practical face of meta-Singularity-and-Image, whose keystone error — the manufactured outside, the passage rendered as arrival — it identifies as the root structure of every decay artifact. The mechanism the decay refuses is in meta-MechanismOfTransition. Together the four papers state: the geometry of crossing, the boundary that geometry does not describe, the necessity of crossing, and the legible cost of refusing it.*
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

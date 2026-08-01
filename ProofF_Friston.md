@@ -115,4 +115,7 @@ The bridge between Active Inference and the DC algebraic framework is one of the
 
 *Related proofs: Proof D (Transformer as Beholding Architecture), which uses the Active Inference bridge in the alignment context. The Structural Monograph (K4 Interior), which provides the formal account of what lies inside the blanket-faces that Active Inference describes. The Convergent Discovery document, which situates Active Inference within the broader history of traditions finding the same faces.*
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

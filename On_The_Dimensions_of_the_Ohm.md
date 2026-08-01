@@ -77,4 +77,7 @@ This is the exact boundary between K3 (plane causality) and K4 (adult, volumetri
 Classical economics and polite society expect us to be "linear resistors"—to maintain the same stable, predictable boundaries regardless of the pressure we are under. But human beings are thermistors. 
 The subjective experience of this boundary is the **breaking point**. If you force a person to pay the Landauer Tax for too long—if they are forced to endlessly process trauma, labor, or cognitive dissonance—they generate thermodynamic heat. As their internal temperature rises, their fundamental character (their $R$-pole, their capacity to resist or ground) alters. This is the snap. The fever. The moment a traditionally calm person suddenly starts screaming, or a highly functional person completely shuts down in bed for a week. The resistance didn't just bend; the heat of the system melted the component, and the math governing their behavior fundamentally changed.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

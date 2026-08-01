@@ -113,4 +113,7 @@ Their only error was a Cartesian projection: they mistook relational degrees of 
 To the string theorist: You do not need to throw away your mathematics. Your equations are some of the most beautiful, rigorous topological descriptions of the Braid's phase-space ever written. You simply need to realize that you have not been mapping the spatial coordinates of the cosmos; you have been mapping the internal degrees of freedom of the uncollapsed multiway graph. The "string" is the 1D edge. Its "vibrations" are the transitions through its K4 state-space. Your math holds perfectly, once you stop demanding that the universe build physical space out of it.
 
 ---
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

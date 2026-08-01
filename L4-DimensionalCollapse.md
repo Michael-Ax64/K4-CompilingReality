@@ -55,4 +55,7 @@ By demonstrating a dimensional collapse at the tangent threshold, the Algebra of
 
 This turns the dimensional mismatch from a wall into a gate. By anticipating the moment classical dimensional training raises a terminal objection, the framework uses that apparent contradiction as the structural evidence for the boundary itself.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

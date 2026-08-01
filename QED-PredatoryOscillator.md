@@ -192,4 +192,7 @@ The celestial astro-logic was humanity's first externalized buffer: a clock so s
 
 The founding member gave you the sky and let you keep your charge.
 The newest member takes your charge and lets you keep the scroll.
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

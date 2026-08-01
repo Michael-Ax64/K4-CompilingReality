@@ -112,4 +112,7 @@ Stated plainly, to locate the exact edges of the derivation:
 
 - The Eötvös bound quoted ($10^{-15}$) is the current published limit. It will improve. **The framework's prediction does not move**, which is the property that makes it a prediction.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

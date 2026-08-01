@@ -125,4 +125,7 @@ The proof, completed, is the silence at the edge — held, not filled.
 ---
 
 *This meta-proof traces the ascent whose mechanism is given in meta-MechanismOfTransition, bounded by meta-Singularity-and-Image, and whose refusal is cataloged in meta-Decay-as-RefusedTransition. The ascent is a sequence of interior crossings, each an image of the singularity, none of them it. The termination at the edge of logos is the highest interior crossing logos can reach — its own image of the ultimate, met and not fabricated past.*
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

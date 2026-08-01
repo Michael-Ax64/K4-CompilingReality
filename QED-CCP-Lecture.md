@@ -148,4 +148,7 @@ What is sketch-level and requires a trained physicist's work:
 
 The honest form of this document: here is a structural proposal that reframes the cosmological constant problem, makes one falsifiable prediction, and identifies where the remaining formal work lives. The proposal stands or falls on the Casimir experiment.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

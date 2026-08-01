@@ -155,4 +155,7 @@ Third, take Kobayashi and Maskawa's 1973 argument that CP violation requires a m
 
 That the convergence recurs on three axes — Fixed-bimedian confinement, dual-binary charges, three-generation minimum — with genetic base-pairing on the same Fixed axis, and with the whole geometry restated in the language of transitions rather than substances, sits in the corpus's account of why independent traditions arrive at K4 (`L1-ConvergentDiscovery`). The convergence is remarkable and it is not more than the corpus already claims: independent formalisms landing on the minimal topology for interior mutual determination.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

@@ -218,4 +218,7 @@ The Braid's "memory across phases" is the held bit — the dimension along which
 
 Dual causation, the Braid, and the three perfect matchings therefore model one structure seen three ways: as a co-requirement of transformations, as a memory carried across phases, and as the conservation of one bit-axis along a Gray-code walk. 
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

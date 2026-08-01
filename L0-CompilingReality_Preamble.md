@@ -108,4 +108,7 @@ Six angles. Try them. Then read.
 
 *Round 1. The preamble is the seed. Round 2 restructures the body of Compiling Reality to carry these reframes explicitly within it, and to incorporate the trajectory-tracking vocabulary alongside `.behold()` so the document performs what it describes throughout — not only in the introduction.*
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

@@ -77,4 +77,7 @@ The three axes of Cartesian space are the three complex vector components of the
 
 What is realized: the spatial Cartesian frame and the Biquaternion invariant are one, computably. The traditions that held the tetrahedron and the modalities were beholding this structure at their own scales. They are honored as strands of a plural history of contact.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

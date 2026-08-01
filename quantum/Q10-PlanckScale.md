@@ -153,4 +153,7 @@ The seal is that the two most successful theories in physics — General Relativ
 
 That such a resolution has been available in the mathematics for half a century, and that recognizing it required constructing a topological framework that treats compilation as a first-class operation, is what convergence at the deepest layer of the corpus looks like when it lands. See `L1-ConvergentDiscovery`.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

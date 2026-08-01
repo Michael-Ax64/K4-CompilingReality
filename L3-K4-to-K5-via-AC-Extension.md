@@ -193,4 +193,7 @@ The research tasks the AC extension opens:
 ---
 
 *This document develops the AC extension from first principles using the framework's vocabulary. The source document (Electro-AC-db.org) contains the complete formal treatment including the fifty equations in detail, the specific inductive and capacitive reactance relationships, and the full phasor analysis. This document covers the foundational structural insights; the full source is the primary reference for the complete formal treatment. The K5 structure that the AC extension implies — five vertices, the formal graph-theoretic home of the five-variable system — is oriented in L3-EdgeStateSpace.md (Section IX, "Toward K5"), which provides the structural next step for the algebraic development initiated here.*
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

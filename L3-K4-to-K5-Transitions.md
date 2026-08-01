@@ -126,4 +126,7 @@ The framework predicts that a three-phase change model must fail on the missed f
 
 The convergence between electrical engineering, change management, and the framework's transition tetrahedron is what `L1-ConvergentDiscovery` names as expected: bounded, K4-native cognitive systems examining transitions in bounded interiors will recover the same minimum topology in their own vocabulary. The four transients of circuit theory are transitions in electrical systems; Lewin's phases are transitions in organizational systems; the tetrahedron is transitions in bounded interiority per se. All three are K4-native cognition finding K4-native structure in K4-instantiated phenomena. The convergence is not accidental and it is not mysterious: the substrate is the same.
 
-\n---\n**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.\n
+
+---
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+
