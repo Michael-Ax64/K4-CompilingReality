@@ -123,7 +123,7 @@ The states used to travel (mass) and the states used to interact (flavor) are ro
 
 A unitary rotation is the mathematical form of the Tangent Crossing turn. As `Meta-MechanismOfTransition` establishes, one cannot pass from the uncollapsed potential (`.behold()`) to the committed interaction (`.observe()`) by pushing harder on the same plane. The interior coordinate diverges — tan(90°) → ∞ — at the boundary. The transition requires a 90° turn out of the interior coordinate system. The unitary mixing matrices are the exact geometric operators that execute this turn from the uncollapsed multiway graph into the localized Read-Only Ledger.
 
-**Open in place:** Mapping the specific rotation angles (θ₁₂, θ₂₃, θ₁₃ in the CKM/PMNS) to the torsional shear θ of the three bimedians is asserted but not derived here. The audit is on the list in `Backport-LaundryList.md`.
+**Open in place:** Mapping the specific rotation angles (θ₁₂, θ₂₃, θ₁₃ in the CKM/PMNS) to the torsional shear θ of the three bimedians is asserted but not derived here. 
 
 ---
 

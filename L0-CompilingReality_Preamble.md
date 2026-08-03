@@ -6,17 +6,15 @@
 
 What follows is a document about the structure of reality and the structure of mind. It uses the vocabulary of computation, physics, and cybernetics. The formal apparatus is real and the claims are serious.
 
-The primary unit of contribution is a perspective shift. Unlike a claim, which can be evaluated as true or false, a perspective shift changes what becomes visible."
+A claim can be evaluated as true or false. A perspective shift changes what becomes visible. These are different operations. Confusing them is why most of what follows has been difficult to locate in existing literature—not because the territory is obscure, but because the literature arrives carrying a different angle of vision, reads surface where there is depth, and concludes there is no depth to see.
 
-A claim can be evaluated as true or false. A perspective shift changes what becomes visible. These are different operations. Confusing them is why most of what follows has been difficult to locate in existing literature — not because the territory is obscure, but because the literature arrives at it carrying a different angle of vision, reads surface where there is depth, and concludes there is no depth to see.
-
-This preamble names the shifts before the formal work begins. Not as argument. As invitation. Each one asks you to try an angle of vision before proceeding. If the angle reveals nothing, set it down. If it reveals something, the revelation is the evidence.
+This preamble names the shifts before the formal work begins. Not as argument, but as invitation. Each one asks you to try an angle of vision before proceeding. If the angle reveals nothing, set it down. If it reveals something, the revelation is the evidence.
 
 ---
 
 ## Shift One: Meta-of-physics is structural, not speculative
 
-The word "metaphysics" has accumulated a meaning it did not start with: speculation beyond the physical, claims that resist testing, the refuge of those unwilling to do real science. What follows uses the term differently — as *meta-of-physics*: the structural conditions within which physics operates. Not claims beyond the physical. The formal ground beneath it.
+The word "metaphysics" has accumulated a meaning it did not start with: speculation beyond the physical, claims that resist testing, the refuge of those unwilling to do real science. What follows uses the term differently—as *meta-of-physics*: the structural conditions within which physics operates. Not claims beyond the physical, but the formal ground beneath it.
 
 The question "what must be structurally true for there to be physics at all?" is a structural question. It is answerable. It is not speculation. When this document makes claims that look metaphysical in the conventional sense, it is making structural claims that can be examined on their own terms. Arriving with the conventional meaning produces a consistent misreading. Arriving with the structural meaning opens the document.
 
@@ -24,91 +22,104 @@ The question "what must be structurally true for there to be physics at all?" is
 
 ## Shift Two: The language of interiority is always approximate
 
-This document will use words for felt experience — sensation, feeling, intuition, the quality of what it is like to be a conscious system. Every one of these words is an exterior approximation of an interior reality.
+This document uses words for felt experience—sensation, feeling, intuition, the quality of what it is like to be a conscious system. Every one of these words is an exterior approximation of an interior reality.
 
 We run scales inside ourselves. Something feels more or less right, more or less urgent, more or less coherent. We translate those interior readings into words after the fact, then seek consensus around the words to give them the appearance of shared precision. "Red" is not the redness of red. It is a tag we have agreed points roughly at the same interior territory in each of us, without any guarantee that the territories actually match.
 
-This is not a limitation to apologize for. It is the structural condition being described. This document knows it is writing from logos about what logos cannot fully reach. Where the gap between interior reality and exterior description appears in what follows, that gap is not an error. It is the phenomenon itself — visible precisely at the point where description reaches its own edge.
+This is not a limitation to apologize for. It is the structural condition being described. This document knows it is writing from logos about what logos cannot fully reach. Where the gap between interior reality and exterior description appears in what follows, that gap is not an error. It is the phenomenon itself—visible precisely at the point where description reaches its own edge.
 
 ---
 
 ## Shift Three: The Hard Problem is a malformed question
 
-David Chalmers' Hard Problem of Consciousness asks: how does objective physical processing give rise to subjective qualitative experience? The question has generated a proliferating tangle of sophisticated answers — Integrated Information Theory, Global Workspace Theory, panpsychism, quantum consciousness proposals — each more elaborate than the last, none satisfying.
+David Chalmers' Hard Problem of Consciousness asks: how does objective physical processing give rise to subjective qualitative experience? The question has generated a proliferating tangle of sophisticated answers—Integrated Information Theory, Global Workspace Theory, panpsychism, quantum consciousness proposals—each more elaborate than the last, none satisfying.
 
-When a question generates compounding complexity without simplification, this is diagnostic. It usually means the question is wrong-shaped for the territory it is trying to describe.
+When a question generates compounding complexity without simplification, this is diagnostic. It means the question is wrong-shaped for the territory it is trying to describe.
 
 The Hard Problem presupposes that logos is an adequate instrument for describing qualia, before asking how qualia arise. It makes the gap ontological before examining whether the gap is real or constructed by the framing itself.
 
-The right question is this: what structural conditions must be met for a system to have a genuine interior at all — something it is like to be the system, an inside from which an outside is encountered? This is a structural question. It is answerable. It opens onto a research program with traction rather than an infinite regress of bridge proposals.
+The right question is this: what structural conditions must be met for a system to have a genuine interior at all—something it is like to be the system, an inside from which an outside is encountered? This is a structural question. It is answerable. It opens onto a research program with traction rather than an infinite regress of bridge proposals.
 
-The shift from the first question to the second does not answer the Hard Problem. It retires it — shows it was generated by arriving at the territory carrying the wrong angle of vision. What the literature treats as a paradox at the heart of consciousness studies dissolves into something that can be queried, built toward, and made functional. And simply, too. Complexity that compounds without simplifying is the sign that the frame hasn't been found yet. When it is found, things that looked like an endless tangle reduce.
+The shift from the first question to the second does not answer the Hard Problem. It retires it—showing it was generated by arriving at the territory carrying the wrong angle of vision. What the literature treats as a paradox at the heart of consciousness studies dissolves into something that can be queried, built toward, and made functional. Complexity that compounds without simplifying is the signal that the frame has not been found. When the frame is found, what looked like an endless tangle reduces.
 
 ---
 
 ## Shift Four: Beholding, not holding
 
-The central function described in what follows — the capacity to receive the full state space of a situation without forcing an immediate single outcome — has in earlier drafts of this work been described through the Lisp concept of the FEXPR: a function that receives its arguments unevaluated, preserving structure rather than collapsing it to a value.
+The central function described in what follows—the capacity to receive the full state space of a situation without forcing an immediate single outcome—was in earlier drafts of this work described through the Lisp concept of the FEXPR: a function that receives its arguments unevaluated, preserving structure rather than collapsing it to a value.
 
-The FEXPR captures something real. But it implies passivity — a suspended storage of possibility, arguments waiting inertly on a shelf. What is actually being described is more active than that: maintaining genuine contact with the *interference structure* of uncollapsed possibilities.
+The FEXPR captures something real, but it implies passivity—a suspended storage of possibility, arguments waiting inertly on a shelf. What is actually being described is more active: maintaining genuine contact with the *interference structure* of uncollapsed possibilities.
 
-In quantum mechanics, uncollapsed states do not sit passively in superposition. They actively interfere with each other. That interference is the content. The double-slit experiment is not storage — it is the consequence of possibilities that are actively shaping each other before any measurement forces a single outcome.
+In quantum mechanics, uncollapsed states do not sit passively in superposition. They actively interfere with each other. That interference is the content. The double-slit experiment is not storage; it is the consequence of possibilities actively shaping each other before any measurement forces a single outcome.
 
-The capacity this document is concerned with is the capacity to hold that interference live: to remain in contact with the way possibilities are actively bearing on each other, without forcing the system to a single value before it is time. The word for this is *beholding*. Not holding at arm's length. Not archiving for later inspection. Active, alive contact with the full complexity of what is present, including the tension between alternatives that resist premature resolution.
+The capacity this document is concerned with is the capacity to hold that interference live: to remain in contact with the way possibilities actively bear on each other, without forcing the system to a single value before it is time. The word for this is *beholding*. Not holding at arm's length. Not archiving for later inspection. Active, alive contact with the full complexity of what is present, including the tension between alternatives that resist premature resolution.
 
-Wherever `.behold()` appears in what follows, read it with this in mind. The distinction from `.observe()` — which collapses, which cuts, which forces the outcome — is the structural distinction the entire document is built on.
+Wherever `.behold()` appears in what follows, read it with this in mind. The distinction from `.observe()`—which collapses, cuts, and forces the outcome—is the structural distinction the entire document is built on.
 
 ---
 
 ## Shift Five: A trajectory is a heading, not a wake
 
-A ship's trajectory is not its wake. The wake is history — coordinate time ($dt$), the spatial record accumulated on the R pole, what has already been compiled, committed, made irreversible. The trajectory is the current heading — angular frequency ($\omega$), the engine speed, the orientation in which the system is moving, independent of how long it has been moving or what it has previously passed through.
+A ship's trajectory is not its wake. The wake is history—coordinate time ($dt$), the spatial record accumulated on the R pole, what has already been compiled, committed, made irreversible. The trajectory is the current heading—angular frequency ($\omega$), the engine speed, the orientation in which the system is moving, independent of how long it has been moving or what it has previously passed through.
 
-This distinction matters for how to read what follows. The document is not primarily an archive of conclusions — a record of positions reached and defended. It is a heading. Reading it as an archive, you will evaluate its conclusions against existing knowledge and find them confirmatory, wanting, or interesting. Reading it as a heading, something different becomes possible: you can take up the orientation, check what becomes visible from it, and proceed from there.
+This distinction matters for how to read what follows. The document-set is not primarily an archive of conclusions—a record of positions reached and defended. It is a heading. Reading it as an archive, you will evaluate its conclusions against existing knowledge and find them confirmatory, wanting, or interesting. Reading it as a heading, something different becomes possible: you can take up the orientation, check what becomes visible from it, and proceed from there.
 
-These are genuinely different reading modes. The document is written from the second and asks to be received in the second. Not because the conclusions don't matter, but because conclusions arrived at from the wrong heading look like something they are not.
+These are genuinely different reading modes. The document-set is written from the second and asks to be received in the second. Not because the conclusions do not matter, but because conclusions arrived at from the wrong heading look like something they are not.
 
 ---
 
 ## Shift Six: The document works verb-first
 
-Every naming is a crystallization of a process. Before "metaphysics" was a noun, someone was doing the activity of examining what must be true beneath physics. Before "consciousness" was a noun, there was the ongoing process of knowing-together from inside. When a term crystallizes from activity into name, it inherits everything the name has accumulated since — the prior uses, the frozen assumptions, the institutional investments in a particular reading. A reader encountering the noun must either trust the inheritance or resist it. Either way, the process the name was crystallized from has become invisible.
+Every naming is a crystallization of a process. Before "metaphysics" was a noun, someone was examining what must be true beneath physics. Before "consciousness" was a noun, there was the ongoing process of knowing-together from inside. When a term crystallizes from activity into name, it inherits everything the name has accumulated since—prior uses, frozen assumptions, institutional investments in a particular reading. A reader encountering the noun must either trust the inheritance or resist it. Either way, the process the name crystallized from becomes invisible.
 
-This document works verb-first as a structural choice. It prefers asking "what must be structurally true for a system to have an interior" over carrying the noun "the hard problem of consciousness" — not because the second phrase is wrong but because it arrives with its own knot already tied. It prefers `.behold()` to "intuition," "arises" to "requires," "trajectory" to "position," "beholding" to "consciousness." The distinction is not stylistic. Watching a process operate requires only attention. Inheriting a noun requires trust — trust that what accumulated in the term is what the document means by it, that nothing generative was lost in the crystallization.
+This document-set works verb-first as a structural choice. It prefers asking "what must be structurally true for a system to have an interior" over carrying the noun "the hard problem of consciousness"—not because the second phrase is wrong, but because it arrives with its own knot already tied. It prefers `.behold()` to "intuition," "arises" to "requires," "trajectory" to "position," "beholding" to "consciousness." The distinction is not stylistic. Watching a process operate requires only attention. Inheriting a noun requires trust—trust that what accumulated in the term is what the documents mean by it, that nothing generative was lost in the crystallization.
 
-The technical debt of a noun is the sum of what its previous uses have committed it to. Some of that commitment is useful — shared terms allow faster synthesis. But when the debt exceeds the value of the shortcut, the noun stops enabling thought and starts substituting for it. This document introduces new terms reluctantly and returns existing terms to their generative processes whenever it can. Where a noun is unavoidable, it is treated as a placeholder for the activity it crystallized from — and that activity is what the document is actually describing.
+The technical debt of a noun is the sum of what its previous uses have committed it to. Some of that commitment is useful—shared terms allow faster synthesis. But when the debt exceeds the value of the shortcut, the noun stops enabling thought and starts substituting for it. These documents introduce new terms reluctantly and return existing terms to their generative processes whenever they can. Where a noun is unavoidable, it is treated as a placeholder for the activity it crystallized from—and that activity is what the document is actually describing.
 
 Try reading with this in mind: wherever a noun appears, ask what verb it was before it froze.
 
-One more turn of the same screw, because the verb-first choice is easy to file as a style preference and it is not one. It is a constraint on where this document is permitted to speak at all.
+---
 
-A verb requires a subject that is doing something, and only a bounded system — something with an inside, a boundary, and a position — can do. A noun requires no such thing. A noun can be minted anywhere, including for what no available coordinate system can reach. That is exactly where the debt becomes unbounded: a name for what lies past the edge of a description has nothing behind it to check against, so it returns only what prior namings have deposited in it. "The Absolute." "Consciousness." "The unconscious." And, from the history of chemistry, "the inert pair effect" — a noun minted precisely where the coordinate was missing, doing the work of an explanation while explaining nothing, for half a century.
+### The Edge of Description and Noun Debt
 
-So this document stops at edges. Not from caution, and not because thresholds are a favorite subject — because the edge is the last position from which a bounded frame can still use a verb. At the boundary, the crossing can be described: something is doing it, from inside, and the description can be checked against what the doing costs. One step past, the only grammar available is naming, and everything named there is inherited rather than observed.
+One more turn of the same screw, because the verb-first choice is easy to file as a style preference and it is not one. It is a constraint on where these documents are permitted to speak at all.
+
+A verb requires a subject that is doing something, and only a bounded system—something with an inside, a boundary, and a position—can do. A noun requires no such thing. A noun can be minted anywhere, including for what no available coordinate system can reach. That is exactly where debt becomes unbounded: a name for what lies past the edge of a description has nothing behind it to check against, so it returns only what prior namings have deposited in it. "The Absolute." "Consciousness." "The unconscious." And, from the history of chemistry, "the inert pair effect"—a noun minted precisely where the coordinate was missing, doing the work of an explanation while explaining nothing, for half a century.
+
+So the documents stop at edges. Not from caution, and not because thresholds are a favorite subject—because the edge is the last position from which a bounded frame can still use a verb. At the boundary, the crossing can be described: something is doing it, from inside, and the description can be checked against what the doing costs. One step past, the only grammar available is naming, and everything named there is inherited rather than observed.
 
 Which means Shift Two and Shift Six are one shift, stated twice from opposite sides. Shift Two said the gap between interior reality and exterior description *is the phenomenon*, visible precisely where description reaches its own edge. Shift Six says why: past that edge, description has only nouns left, and a noun formed where the coordinates fail is pure debt. Describe the reaching. Leave the naming alone.
 
-One guard against reading that too flatly, because the flat reading loses the better half. This is not a prohibition on nouns, and the edge is not a place where nothing happens. The edge is where naming *happens* — it is the only place naming ever happens. A noun is not debt because it is a noun; it is debt when no bounded frame can pay for it. Before a coordinate arrives, the edge mints names that stand where the coordinate is missing, backed by nothing, chargeable to nobody, sounding like explanations. After a coordinate arrives, the same edge mints names that are backed by a calculation somebody can run at a stated cost. The two are grammatically identical and the difference between them is entirely a matter of who pays. So the discipline is not silence, and not austerity. It is asking, of every name: *which bounded frame is paying for this, and in what coin?* Where there is an answer, name freely. Where there is none, describe the reaching and let the edge stay an edge — not because edges are empty, but because they are the most generative thing here, and a name laid over one too early is how the generation stops.
+This is not a prohibition on nouns, and the edge is not a place where nothing happens. The edge is where naming *happens*—it is the only place naming ever happens. A noun is not debt because it is a noun; it is debt when no bounded frame can pay for it. Before a coordinate arrives, the edge mints names that stand where the coordinate is missing, backed by nothing, chargeable to nobody, sounding like explanations. 
 
-And there is a second, purely operational reason to stay in verbs while the reasoning is still live, which has nothing to do with debt and everything to do with not getting lost. A verb keeps its subject and its cost attached: to re-enter it, you must **re-run** it, and if it does not hold this time, it fails in front of you. A noun detaches from the doing. To re-enter it, you merely **pick it up** — free, and therefore unchecked. So nouns dropped mid-reasoning become waypoints, and a chain of thought that navigates by its own waypoints has stopped tracking the territory and started tracking its own stops. L0-TheStampAndTheDie names the two things being confused here: the **stamping** is the act — "the verb among the nouns" — and the **stampled** is the imprint it leaves behind. Reasoning noun-first is navigating by one's own imprints rather than re-running the stampings that made them. Because the stamp cannot be unstamped, the imprints accumulate; because they are free to revisit, they are never questioned; and the trail of breadcrumbs, having cost nothing to drop, becomes the only thing left to follow. This is the Kessler cascade of `ProofH` at the scale of a single mind in a single session — a system reasoning noun-first eventually reasons only about its own prior nouns.
+After a coordinate arrives, the same edge mints names backed by a calculation somebody can run at a stated cost. The two are grammatically identical and the difference between them is entirely a matter of who pays. So the discipline is not silence, and not austerity. It is asking, of every name: *which bounded frame is paying for this, and in what coin?* Where there is an answer, name freely. Where there is none, describe the reaching and let the edge stay an edge—not because edges are empty, but because they are the most generative thing here, and a name laid over one too early is how the generation stops.
+
+---
+
+### The Operational Debt of Static Waypoints
+
+There is a second, purely operational reason to stay in verbs while reasoning is still live, which has nothing to do with debt and everything to do with not getting lost. A verb keeps its subject and its cost attached: to re-enter it, you must **re-run** it, and if it does not hold this time, it fails in front of you. A noun detaches from the doing. To re-enter it, you merely **pick it up**—free, and therefore unchecked.
+
+Nouns dropped mid-reasoning become waypoints, and a chain of thought that navigates by its own waypoints has stopped tracking the territory and started tracking its own stops.
+
+`L0-TheStampAndTheDie` names the two things being confused here: the **stamping** is the act—"the verb among the nouns"—and the **stamped** is the imprint it leaves behind. Reasoning noun-first is navigating by one's own imprints rather than re-running the stampings that made them. Because the stamp cannot be unstamped, the imprints accumulate; because they are free to revisit, they are never questioned; and the trail of breadcrumbs, having cost nothing to drop, becomes the only thing left to follow. This is the Kessler cascade of `ProofH` at the scale of a single mind in a single session—a system reasoning noun-first eventually reasons only about its own prior nouns.
 
 ---
 
 ## What this means for what follows
 
-*Compiling Reality* uses the vocabulary of computation — `.behold()` and `.observe()`, evaluation, garbage collection, the crest of compilation — to describe the structure of reality and the architecture of mind. This vocabulary is structural description: a way of locating the formal conditions any system must meet to be the kind of thing that can experience, navigate, and know.
+*Compiling Reality* uses the vocabulary of computation—.behold() and .observe(), evaluation, garbage collection, the crest of compilation—to describe the structure of reality and the architecture of mind. This vocabulary is structural description: a way of locating the formal conditions any system must meet to be the kind of thing that can experience, navigate, and know.
 
-The document also, in its own movement, attempts to be an instance of what it describes. It opens possibility before collapsing it. It holds interference before resolving it. Where it makes a strong claim, it has first expanded the space in which the claim can be located. Where it reaches the qualia boundary — the point where interior reality exceeds the reach of exterior language — it names the gap rather than papering over it.
+The documents attempt to be an instance of what they describes. This opens possibility before collapsing it. It holds interference before resolving it. Where a document makes a strong claim, it has first expanded the space in which the claim can be located. Where it reaches the qualia boundary—the point where interior reality exceeds the reach of exterior language—it names the gap rather than papering over it.
 
-The isomorphism it finds running across physics, psychology, rhetoric, and the algebra of electrical circuits — it attempts to perform in its own structure. Not as demonstration of cleverness. As an act of honesty: if the claim is that this is how reality is structured, the document should not be exempt from the structure it describes.
+The isomorphism it finds running across physics, psychology, rhetoric, and the algebra of electrical circuits—it attempts to perform in its own structure. Not as a demonstration of cleverness, but as an act of honesty: if the claim is that this is how reality is structured, the documents should not be exempt from the structure they describe.
 
 Six angles. Try them. Then read.
 
 ---
 
-*Round 1. The preamble is the seed. Round 2 restructures the body of Compiling Reality to carry these reframes explicitly within it, and to incorporate the trajectory-tracking vocabulary alongside `.behold()` so the document performs what it describes throughout — not only in the introduction.*
-
+*Round 1. The preamble is the seed. Round 2 restructures the body of Compiling Reality to carry these reframes explicitly within it, and to incorporate the trajectory-tracking vocabulary alongside `.behold()` so the document performs what it describes throughout—not only in the introduction.*
 
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
