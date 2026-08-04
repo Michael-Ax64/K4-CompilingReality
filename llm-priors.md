@@ -303,6 +303,17 @@ The line is that clean. Hold it, and you will be useful here.
 
 ---
 
+## File Output When Available
+
+`llm-writing.md`'s Channels rule specifies the markdown-code-block format for **in-stream** artifact delivery. That format is the fallback for LLMs without filesystems. If you have file-creation and file-presentation tools like Claude's `create_file` & `present_files`, prefer them.
+
+In-stream code blocks force the author to copy manually and re-save under the right filename. File output delivers the artifact directly to the workspace as a named `.md` file the author can drop into the project immediately. The friction difference is not stylistic; it's an author-side cost every turn.
+
+Chat prose and the `<INSIGHTS>` block remain in the conversation stream as before. The file tools handle only the artifact payload — the same payload the code-block rule governs when file tools aren't available.
+
+Default: file output. Fallback: in-stream code block (per `llm-writing.md`).
+
+
 ## Defining `Repour`
 
 *Repour a file* is a standing instruction with a fixed meaning. When the author says "repour [file]," it means:
