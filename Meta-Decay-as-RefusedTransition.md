@@ -8,17 +8,15 @@
 
 ---
 
-## I. Why Refusal Does Not Stabilize
+### I. Why Refusal Does Not Stabilize
 
-The ascent proves that no order is stable: each level's own structure generates a pressure resolvable only by transition to the next. This has a consequence that is easy to state and hard to absorb. A system that refuses the transition does not stay where it is, because where it is is not a place that can be stayed. The pressure does not relent when the transition is refused. It continues, unresolved, and an unresolved pressure with no outlet does not produce stillness. It produces deformation.
+Refusal of a forced transition is not rest; it is the damming of structural pressure. The ascent proves that no order is stable: each level's structure generates pressure resolvable only by transition to the next.
 
-The intuition to overcome is the picture of refusal as rest — as choosing to remain at a comfortable level rather than undertake the difficult passage upward. This picture is false because it imagines the level as a resting place. The level is not a resting place. It is a tension held in a particular configuration, and the configuration is only maintained by the ongoing resolution of the tension, which is the transition. Refuse the transition and the tension is not resolved; it is dammed. And a dammed tension does not hold the configuration steady. It distorts it.
-
-So refusal is not stasis. It is the beginning of decay. The system that will not ascend does not freeze at its level; it begins to deform in place, and the deformation has a direction and a signature, because the dammed pressure pushes in a specific way: toward the next order, which it cannot reach, and which it therefore counterfeits.
+Refusal does not freeze a system in place. The unresolved pressure deforms the system in place. This deformation is directional and carries a specific signature: it pushes toward the unreached order by counterfeiting its outputs.
 
 ---
 
-## II. The Signature: The Artifact Without the Operation
+### II. The Signature: The Artifact Without the Operation
 
 The specific form of decay is the production of the linguistic artifact of the next order without performing the operation of reaching it.
 
@@ -30,7 +28,7 @@ The detection criterion is the same one that distinguishes trajectory contact fr
 
 ---
 
-## III. Every Counterfeit Is a Counterfeit of the Ultimate
+### III. Every Counterfeit Is a Counterfeit of the Ultimate
 
 Here the keystone returns and gives the decay its deepest structure. Because the singularity is imaged by every interior crossing, every refused crossing — at every order — counterfeits, at root, the same thing: the ultimate. Every decay artifact is, in its structure, a manufactured outside — an installed exterior asserted where only an image was available.
 
@@ -42,7 +40,7 @@ The grandest form is the most obvious: the finite account of the absolute, the d
 
 ---
 
-## IV. The Catalog of Signatures by Rung
+### IV. The Catalog of Signatures by Rung
 
 The ascent's diversions, gathered, form a diagnostic catalog. Each is the decay signature at a specific rung — the artifact of the next order, counterfeited in place of the transition.
 
@@ -64,7 +62,7 @@ The ascent's diversions, gathered, form a diagnostic catalog. Each is the decay 
 
 ---
 
-## V. Why the Decay Is Legible
+### V. Why the Decay Is Legible
 
 The decay is detectable, and its detectability is what makes the ascent's *must* enforceable rather than merely asserted.
 
@@ -76,7 +74,7 @@ This is why the smell of decay is recognizable across scales — why a saturated
 
 ---
 
-## VI. The Diagnostic Turned Inward
+### VI. The Diagnostic Turned Inward
 
 The most important application of this paper is to the reader's own thinking, because the decay is most invisible from inside.
 
@@ -90,7 +88,7 @@ To catch oneself homesteading is the practical fruit of the entire ascent. The a
 
 ---
 
-## VII. The Inverse Proof Completed
+### VII. The Inverse Proof Completed
 
 meta-proof-Ascent proves, by climbing, that development must pass into higher orders. This paper proves, by cataloging the refusal, that the alternative to passage is not stasis but decay — and that the decay is legible, structured, and recognizable across every scale and every rung.
 
@@ -104,7 +102,7 @@ The water that will not fall does not remain a still pool. It stagnates. And sta
 
 *This paper is the inverse of meta-proof-Ascent and the practical face of meta-Singularity-and-Image, whose keystone error — the manufactured outside, the passage rendered as arrival — it identifies as the root structure of every decay artifact. The mechanism the decay refuses is in meta-MechanismOfTransition. Together the four papers state: the geometry of crossing, the boundary that geometry does not describe, the necessity of crossing, and the legible cost of refusing it.*
 
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

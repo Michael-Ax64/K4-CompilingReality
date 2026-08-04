@@ -7,7 +7,7 @@
 
 ---
 
-## I. The Error This Paper Corrects
+### I. The Error This Paper Corrects
 
 There is a natural and almost irresistible error in thinking about transitions between orders. The error is to treat the ultimate boundary — the final reconciliation, the one-ness, the place where being and becoming are revealed as identical — as the *last crossing in a series of crossings.* As though you could cross enough faces, pass through enough blankets, overcome yourself enough times, and arrive, by accumulation, at the end of the sequence, where the final crossing delivers you to the ultimate.
 
@@ -17,7 +17,7 @@ There is no such place. The correction is the subject of this paper, and it is t
 
 ---
 
-## II. The Interior Crossing, Stated Exactly
+### II. The Interior Crossing, Stated Exactly
 
 Take the geometric model that makes the interior crossing precise. You are at the centroid of a tetrahedron. You set a heading toward a destination outside the tetrahedron and begin to move. You carry three readouts, one for each face you are moving relative to; each shows the tangent of the angle of your position relative to that face's plane.
 
@@ -25,7 +25,7 @@ As you move from the centroid toward a face, the tangent of your angle to that f
 
 Three facts make this a faithful model of an interior crossing:
 
-First, the crossing is not continuous in the interior coordinate. The tangent does not pass smoothly from a small negative to a small positive. It diverges. The interior measure *fails at the boundary* — it is undefined exactly at the plane — and this failure is not a defect of the model. It is the model correctly reporting that a boundary has been reached: the surface past which the interior coordinate cannot represent position. At the substrate scale, the physical instantiation of this Tangent Crossing is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail entirely.
+First, the crossing is not continuous in the interior coordinate. The tangent does not pass smoothly from a small negative to a small positive. It diverges. The interior measure *fails at the boundary* — it is undefined exactly at the plane — and this failure is not a defect of the model. It is the model correctly reporting that a boundary has been reached: the surface past which the interior coordinate cannot represent position. At the substrate scale, the physical instantiation of this Tangent Singularity is the **Planck scale**—the boundary width of the XOR bottleneck where classical coordinates fail.
 
 Second, the two infinities are one point. On the projective line, negative infinity and positive infinity are identified — they are a single point, the point at infinity. The tangent running to −∞ on the inside and reappearing at +∞ on the outside are not two events. They are one point, and the crossing is the passage through it. This is the reconciliation: the paradox that "two infinities are one" is, for the interior crossing, the literal projective structure of the boundary.
 
@@ -35,7 +35,7 @@ This is the ordinary structure of transcendence. Leaving the house. Overcoming y
 
 ---
 
-## III. The Singularity, Stated as Exactly as It Can Be
+### III. The Singularity, Stated as Exactly as It Can Be
 
 The singularity is not this.
 
@@ -51,7 +51,7 @@ Every sentence in this section is wrong in the same way, and the wrongness is un
 
 ---
 
-## IV. The Relation Between Them: Image, Not Step
+### IV. The Relation Between Them: Image, Not Step
 
 Here is the heart of the correction. The interior crossings and the singularity are not arranged in a series with the singularity at the end. The singularity is not the last crossing. It is not in the series at all.
 
@@ -61,14 +61,9 @@ You do not reach the singularity by crossing enough faces. Crossing always lands
 
 The drop of water does not reach the ocean by falling far enough. This is the correction stated in the image you have been holding. The naive picture is: the drop falls, and falls, and at the end of the falling it reaches the ocean and becomes one with it. But the drop never reaches the ocean by accumulating distance, because there is always more falling, another inside, another exterior. The truth is the reverse: **each drop already is the ocean, imaged at the scale of a drop, now.** The wetness is fully present in every drop. The ocean is not at the bottom of the fall. It is the wetness that every drop already and entirely is. "Identical eventually" does not mean "identical at the end of enough crossings." It means each crossing is *already, fully, now* an image of the one — not a step toward it. The eventually is not temporal accumulation. It is the always-already that each image carries complete.
 
-This dissolves the limit-of-the-series error completely. The ultimate is not reached. It is imaged. It is not the terminus of transcendence but the wetness present in every act of transcendence. The one who crosses a single face fully has already imaged the ultimate crossing — has already, at that scale, in that space, reconciled the two infinities and passed through the one point. They have not taken a step toward the singularity. They have made an image of it, whole, where they stand.
+---
 
-
-
-# >>>>>PRIOR/REVIEW/PURGE/RESTATE<<<<<
-
-
-## V. Why This Is the Keystone
+### V. Why This Is the Keystone
 
 Every other description of transition is true of interior crossings and false of the singularity. The tangent singularity, the projective identity of the two infinities, the Markov blanket as a boundary of conditional independence, the passage through the point at infinity — each of these is the correct mechanism of an *interior* crossing, occurring within a space. Each becomes false the moment it is applied to the ultimate boundary, because each presupposes the surrounding space the singularity lacks.
 
@@ -78,7 +73,7 @@ The keystone closes it. The singularity is not reached, has no outside, is not i
 
 This is what "identical eventually" required all along, and why the word "identity" was too quick. The instance and the meta are not identical now in the sense of being the same object. They are identical in the sense that the instance is, already and entirely, an image of the meta — carries it whole, at its own scale, in its own space — and the "eventually" is not a future convergence but the always-already that the image carries. The fallen current is not waiting to return to the manifold at the end of time. It is, right now, fully, an image of the manifold, imaged at the scale of a current. The return is not pending. It is present, as the wetness is present in the drop, and the only thing that obscures it is the picture of a series with an end.
 
-### What the Silence Is: The Turn Orthogonal to Time
+#### What the Silence Is: The Turn Orthogonal to Time
 
 The keystone says logos falls silent at the singularity. It is worth stating, as exactly as the rest, what that silence is — because the silence has been read as a wall, and it is not a wall.
 
@@ -90,7 +85,7 @@ The silence is preserved entirely. What changes is only its diagnosis. The silen
 
 ---
 
-## VI. What Follows From the Keystone
+### VI. What Follows From the Keystone
 
 Three consequences govern the rest of the account.
 
@@ -108,11 +103,4 @@ The keystone, then, is not only the correction to the geometry of the ultimate. 
 
 ---
 
-*Resolution Note: The threefold image cast by the orthogonal source, and the resolution of the historical schisms among those who beheld it, is now fully developed in `ProofL_Trinity`. Furthermore, the four meta-documents of this set form a K4 tetrahedron with the Singularity as centroid; their structural relationships and the three Hamiltonian cycles that govern their reading orders are mapped in `Meta-Set`.*
-
----
-
-
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

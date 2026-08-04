@@ -7,7 +7,7 @@
 
 ---
 
-## I. The Exercise
+### I. The Exercise
 
 Place yourself at the centroid of a tetrahedron — the natural origin, the interior point equidistant from all four vertices, the integrating center from which all four faces are held. Not a vertex promoted to reference; the intrinsic center that requires no arbitrary choice. (Cartesian coordinates exile the origin to a corner and lose a dimension in the process. The tetrahedron has its origin already, at the centroid, holding the volume.)
 
@@ -29,7 +29,7 @@ That is the mechanism. Every word that follows unpacks what just happened.
 
 ---
 
-## II. The Divergence Is the Boundary
+### II. The Divergence Is the Boundary
 
 The first thing the exercise establishes is that the crossing is not continuous in the interior coordinate.
 
@@ -37,7 +37,7 @@ The tangent readout does not pass smoothly from −0.9 to +0.9 as you cross the 
 
 This failure is not a defect of the readout. It is the readout working correctly. The divergence of the tangent at the face is the signature that a genuine boundary has been reached — the surface past which the interior coordinate system cannot represent your position. If the readout passed smoothly through the face, the face would not be a boundary; it would be more interior, another region the same coordinates describe without interruption. The divergence is precisely what distinguishes a boundary from an interior gradient.
 
-The spatial geometric divergence is unified with the thermodynamic-electrical boundary by the identifying equation $\tan(\theta) = \frac{\omega L}{R}$. The same angle controls both the impassability of a boundary under brute force (where driving $\omega$ pushes $\tan(\theta) \to \infty$) and its transparency under resonance (where tuning $\omega$ drops $\tan(\theta) \to 0$). At the substrate scale, the physical instantiation of this Tangent Crossing is the Planck scale—the boundary width of the XOR bottleneck where classical coordinates fail.
+The spatial geometric divergence is unified with the thermodynamic-electrical boundary by the identifying equation $\tan(\theta) = \frac{\omega L}{R}$. The same angle controls both the impassability of a boundary under brute force (where driving $\omega$ pushes $\tan(\theta) \to \infty$) and its transparency under resonance (where tuning $\omega$ drops $\tan(\theta) \to 0$). At the substrate scale, the physical instantiation of this Tangent Singularity is the Planck scale—the boundary width of the XOR bottleneck where classical coordinates fail.
 
 This is the formal content of the Markov blanket. Inside and outside are conditionally independent given the blanket: the interior states do not connect to the exterior states except through the boundary, and the boundary is exactly where the interior's description stops being able to reach across. You cannot pass from inside to outside by extending the interior's coordinates, because the interior's coordinates diverge at the boundary. There is no smooth path across. The blanket is the surface at which the interior measure goes to infinity — which is to say, the surface at which the interior measure correctly reports that it has reached its own limit.
 
@@ -45,7 +45,7 @@ And this is the formal content of the silence at the edge of logos. Logos is an 
 
 ---
 
-## III. The Two Infinities Are One Point
+### III. The Two Infinities Are One Point
 
 The second thing the exercise establishes is the reconciliation.
 
@@ -61,7 +61,7 @@ This is the reconciliation of the paradox. "Two infinities are one" is not a mys
 
 ---
 
-## IV. The Crossing Occurs Within a Space
+### IV. The Crossing Occurs Within a Space
 
 The third thing the exercise establishes is the one that the keystone paper bounds, and it must be stated explicitly here, because it is the feature that makes this mechanism an account of *interior* crossings and not of the ultimate boundary.
 
@@ -77,11 +77,11 @@ The mechanism describes interior crossings. It is true of them, exactly and form
 
 ---
 
-## V. The Connections
+### V. The Connections
 
 The mechanism locks down several structures that the corpus had pointed at without giving their formal passage.
 
-**The Unitary Mixing Rotation (Q6).** In quantum measurement, the Tangent Crossing turn is physically executed by unitary mixing matrices (like CKM and PMNS). The unitary rotation preserves the state across the boundary, rotating the basis by 90° so a boundary singular in the mass basis becomes describable in the flavor basis. It is the geometric preparation step prior to the mod-squared projection of `.observe()`.
+**The Unitary Mixing Rotation (Q6).** In quantum measurement, the Tangent Singularity turn is physically executed by unitary mixing matrices (like CKM and PMNS). The unitary rotation preserves the state across the boundary, rotating the basis by 90° so a boundary singular in the mass basis becomes describable in the flavor basis. It is the geometric preparation step prior to the mod-squared projection of `.observe()`.
 
 **The edge as boundary (EdgeStateSpace).** A face of the tetrahedron is a K3 — a triangular boundary surface, no interior volume. The mechanism shows what passing through a face *is*: the divergence of the interior measure at the plane, the passage through the point at infinity. The face is the blanket; crossing it is the tangent singularity. The dual face-definitions — the same edge read differently from the two faces that share it — are the two sides of the crossing, the −∞ reading and the +∞ reading, one structure seen from inside and from outside.
 
@@ -95,7 +95,7 @@ The mechanism locks down several structures that the corpus had pointed at witho
 
 ---
 
-## VI. What the Mechanism Provides
+### VI. What the Mechanism Provides
 
 The mechanism gives the transition between orders its formal passage. It states what a crossing *is*: the divergence of the interior coordinate at the boundary, the passage through the projective point at infinity, the reconciliation of the two infinities into the one point they always were. It states why logos must fall silent at the boundary: logos is an interior coordinate, and at the boundary it diverges — correctly, reporting its own limit. It states why the crossing cannot be smooth: a smooth crossing would mean no boundary. And it states, with the keystone holding it bounded, that this is the geometry of every interior crossing and not of the singularity, which has no outside for the mechanism's surrounding space to be.
 
@@ -105,8 +105,7 @@ This is the lock-down the corpus required. The blanket crossing — gestured at 
 
 *This paper states the geometry of interior crossings. It is bounded by meta-Singularity-and-Image, which marks where the geometry stops describing and the singularity begins. It grounds the passage that meta-proof-Ascent climbs and that meta-Decay-as-RefusedTransition catalogs the refusal of. The mechanism is the formal heart of the blanket crossing; the keystone is its boundary; the ascent is its repetition through the orders; the decay is what happens when the passage is refused.*
 
-
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

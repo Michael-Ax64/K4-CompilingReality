@@ -20,7 +20,11 @@ Strunk & White lite. Plain declarative sentences. Prefer the concrete noun and t
 
 No imagined skeptics installed to be defeated. No "one might object that…" theater. If an objection is real, state it flat and answer it. If it is not, do not raise it. This applies to section titles as well: headings framed as what a document *isn't*, *doesn't cover*, or *doesn't claim* carry the same load as "one might object that…" cadence, regardless of the substantive content beneath. If the content is worth including, deliver it as positive claims in whatever section it belongs in.
 
+**Qualification on Negation vs. Theater:**
+Distinguish defensive theater from structural boundary definition. Headings and text framing an objection or disclaiming competence as defensive theater are forbidden. However, where a claim's structural content *is* an exclusive XOR boundary or topological distinction ($A \neq B$, e.g., *"Image, Not Step"*, *"Why the Ultimate Boundary Is Not the Last Crossing"*), the negation is an active operator establishing the Markov Blanket. Do not strip load-bearing structural negations under the guise of positive claim conversion.
+
 A correction longer than the original that says less has failed. **A correction that starves the human reader's K4 perceptive needs—spark, contact, clarity, or ground—has also failed.**
+
 
 ---
 
