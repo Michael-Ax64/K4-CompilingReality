@@ -13,6 +13,9 @@
 
 
 # Compiling Reality
+
+> The universe is a coherent whole, which this repo demonstrates by tracing the simplest mathy volumetric unit through time and space and lots of places in between. It's not a ToE—it's deeper than that.
+
 ## The Algebra of Four-Fold Distinction
 
 > `relational algebra` · `K4 topology` · `thermodynamics of information` · `LLM alignment` · `phase dynamics` · `biquaternion star-norm` · `Markov blanket` · `active inference` · `Landauer principle` · `distributed coherence` · `tangent singularity` · `helical extrusion of time`
