@@ -1,50 +1,50 @@
 # Formal Foundations: The Algebra of Four-Fold Distinction
 ## A Synthesis of the Formal Structure (The DC Instantiation)
 
-*U-face primary document. This synthesizes the formal algebraic results of the framework for readers who need the mathematical spine before engaging the qualitative claims. The results here are not asserted — they are derived from the structure of the Algebra of Distinction, using its primary physical instantiation (DC circuit physics) as the reference map. The research tasks that remain open are explicitly named.*
+*U-face primary document. Synthesizes the formal algebraic results of the framework for readers who need the mathematical spine before engaging the qualitative claims. The results here are not asserted — they are derived from the structure of the Algebra of Distinction, using its primary physical instantiation (DC circuit physics) as the reference map. The research tasks that remain open are explicitly named.*
 
 ---
 
 ## I. The Twelve Equations
 
-The pure logic of relational transition requires four structural poles. In its most legible physical instantiation—the continuous flow of charge—these poles are mapped to four variables:
+The pure logic of relational transition requires four structural poles. In its most legible physical instantiation — the continuous flow of charge — these poles map to four variables:
 
 - **P** — The Scalar / Committed State (mapped as Power: rate of energy transfer)
-- **I** — The Vector / Flow State (mapped as Current: rate of charge flow)  
+- **I** — The Vector / Flow State (mapped as Current: rate of charge flow)
 - **U** — The Structural Potential (mapped as Voltage: potential difference)
 - **R** — The Orthogonal Opposition (mapped as Resistance: structural impedance)
 
 From two fundamental relational laws (the structural limit: U = IR; the power transfer: P = UI), twelve algebraically distinct equations can be derived, each expressing one variable as a single-term function of two others:
 
 **The Scalar (P) expressed through two variables:**
-P = U × I  
-P = I² × R  
-P = U² / R  
+P = U × I
+P = I² × R
+P = U² / R
 
 **The Flow (I) expressed through two variables:**
-I = P / U  
-I = U / R  
-I = √(P / R)  
+I = P / U
+I = U / R
+I = √(P / R)
 
 **The Potential (U) expressed through two variables:**
-U = P / I  
-U = I × R  
-U = √(P × R)  
+U = P / I
+U = I × R
+U = √(P × R)
 
 **The Opposition (R) expressed through two variables:**
-R = U / I  
-R = U² / P  
-R = P / I²  
+R = U / I
+R = U² / P
+R = P / I²
 
 These twelve equations are complete and non-redundant: no additional single-term relationship between two variables exists within this algebraic system that is not derivable from these twelve, and no two of the twelve are algebraically equivalent.
 
-
 **The Markov Blanket Constraint (The Solipsism Warning):**
-These twelve equations govern the *internal* mutual determination of a single K4 volume. They operate strictly within the Markov Blanket of a system possessing its own interiority (a single psyche, a single organization). They are an internal diagnostic matrix. 
 
-Attempting to compute *across* blankets using this scalar math—for example, dividing Person A's Logos ($U$) by Person B's Pathos ($I$) to calculate Ethos ($R$)— functions as a structural category error. It treats an interpersonal relation across a Tangent Singularity as an internal variable, committing the structural error of Solipsism. Connection between distinct K4 entities requires structural coupling (the Braid), not algebraic division.
+These twelve equations govern the *internal* mutual determination of a single K4 volume. They operate strictly within the Markov Blanket of a system possessing its own interiority (a single psyche, a single organization). They are an internal diagnostic matrix.
 
-I repeat: These twelve equations govern *internal* mutual determination, not relations between interiors!
+Attempting to compute *across* blankets using this scalar math — for example, dividing Person A's Logos ($U$) by Person B's Pathos ($I$) to calculate Ethos ($R$) — functions as a structural category error. It treats an interpersonal relation across a Tangent Singularity as an internal variable, committing the structural error of Solipsism. Connection between distinct K4 entities requires structural coupling (the Braid), not algebraic division.
+
+To repeat: these twelve equations govern *internal* mutual determination, not relations between interiors.
 
 ---
 
@@ -80,7 +80,7 @@ The comparative analysis yields specific failure points for each candidate:
 
 The key exclusion criteria: (a) the presence of additive or subtractive terms violates R2; (b) external constants violate R1; (c) fewer than four base variables violates R3; (d) more than four base variables violates the minimum cardinality condition.
 
-**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The formal mathematical proof that *no* system satisfies all seven requirements simultaneously remains an outstanding task. However, two independent derivations (the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction) converge on the same four-fold without depending on this proof; see ProofI_Ubiquity. 
+**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The formal mathematical proof that *no* system satisfies all seven requirements simultaneously remains an outstanding task. However, two independent derivations (the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction) converge on the same four-fold without depending on this proof; see ProofI_Ubiquity.
 
 ---
 
@@ -121,19 +121,27 @@ The PFOR heuristic is a navigational aid, not a formal definition. The algebraic
 Four propositions have been formally verified against the algebraic structure of the system and its mapping to the framework's qualitative cycle:
 
 ### Proposition 1: LHS-Apex Correspondence
+
 **Statement**: The variable on the Left-Hand Side (LHS) of each equation corresponds to the variable at the apex of the current quadrant's viewpoint in the cycle.
+
 **Verification**: The twelve equations divide into four groups of three, one group per pole. Within each group, every equation has that pole as its LHS variable. The algebraic structure corresponds to the structural position of the apex pole within the tetrahedron. ✓
 
 ### Proposition 2: AbsentVar Sequence
+
 **Statement**: The variable on the LHS of each equation is always the Absent Variable (AbsentVar) in the sequential arrangement for that equation's position, and the AbsentVar follows a cyclic pattern.
+
 **Verification**: In each equation, exactly one of the four variables is absent from the RHS. Across the twelve equations, the AbsentVar cycles through all four poles tied to the tetrahedron's face structure. ✓
 
 ### Proposition 3: RHS Groupings and Trine/Sextile Correspondence
+
 **Statement**: The variables present on the RHS of equations, grouped within each quadrant, correspond to the specific sign groupings associated with trine (120°) and sextile (60°) aspects in the classical cycle.
+
 **Verification**: The algebraic affinity between variables appearing together on the RHS mirrors the qualitative affinity between phases in these specific relational aspects. ✓
 
 ### Proposition 4: RHS Pairs and Opposition/Inconjunct Correspondence
+
 **Statement**: The pairs of variables that appear together on the RHS of equations correspond precisely to the phases associated with Opposition (180°) and Inconjunct (150°) aspects.
+
 **Verification**: The algebraic relationship between variables whose product or quotient defines a third variable mirrors the challenging-but-necessary structural relationship between poles in these aspects. ✓
 
 ---
@@ -176,7 +184,7 @@ Each pole carries a two-bit dual-binary charge: P = (Active, Asserting), I = (Re
 - **{P-R, I-U}** — flip Active/Reactive only
 - **{P-I, U-R}** — flip both bits (the Source axis and the Manifesting axis)
 
-Dual causation is the consequence: P-U and I-R are the same transition (flip Asserting/Yielding) appearing at its two instances (held-Active and held-Reactive), so no traversal can separate them without treating one instance of an identical transition differently from the other. 
+Dual causation is the consequence: P-U and I-R are the same transition (flip Asserting/Yielding) appearing at its two instances (held-Active and held-Reactive), so no traversal can separate them without treating one instance of an identical transition differently from the other.
 
 ### The Framework Connection: Dual Causation
 
@@ -204,7 +212,7 @@ The framework rests on five postulates, which are foundational commitments that 
 
 ## VII. The Edge Structure and Dual Definitions
 
-Each of the six edges of the tetrahedron connects two vertices and is shared by exactly two faces. This means every edge has two face-definitions: it looks different from the face on one side than it does from the face on the other.
+Each of the six edges of the tetrahedron connects two vertices and is shared by exactly two faces. Every edge therefore has two face-definitions: it looks different from the face on one side than from the face on the other.
 
 To hold both simultaneously requires the three-dimensional volume, not the two-dimensional face. This is the structural basis of what the framework calls "the ungraphable triangle": each edge's dual face-definitions form a triangle in the edge's own state-space.
 
@@ -216,7 +224,7 @@ To hold both simultaneously requires the three-dimensional volume, not the two-d
 
 The four-variable algebraic system uses $4^4 = 256$ discrete functional assignments as a combinatorial heuristic to measure the structural selectivity of its possibility space. While the physical variables ($P, I, U, R$) occupy a continuous real manifold ($\mathbb{R}^4$), the 256 discrete mappings quantify the finite combinatorial constraints governing their relational orientations.
 
-This selectivity of 1/256 is the formal expression of the framework's specificity: it is not an unconstrained language that can fit any arbitrary data, but a tightly bounded discrete combinatorial structure.
+This selectivity of 1/256 is the formal expression of the framework's specificity: not an unconstrained language that can fit any arbitrary data, but a tightly bounded discrete combinatorial structure.
 
 Extending the combinatorial heuristic to five variables (the AC extension with $\omega$) yields $5^5 = 3125$ discrete functional states. The transition from the static $K_4$ to the dynamic AC extension represents a steep increase in discrete combinatorial complexity, reflecting the new operational degrees of freedom opened by the temporal driver ($\omega$).
 
@@ -228,7 +236,7 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
 
 1. **Uniqueness proof (Static):** The formal mathematical proof that no other system satisfies R1-R7 simultaneously in the static K4 state. The comparative analysis provides strong informal support, but the definitive topological proof remains an outstanding task.
 
-2. **Projection function specification:** The precise characterization of the function that takes a specific moment in a qualitative process (e.g., a conversation or an institutional phase) and returns its exact coordinate in the four-fold Biquaternion state-space. 
+2. **Projection function specification:** The precise characterization of the function that takes a specific moment in a qualitative process (e.g., a conversation or an institutional phase) and returns its exact coordinate in the four-fold Biquaternion state-space.
 
 3. **Isomorphism verification (The Dual-Binary Mapping):** Postulate IV asserts an isomorphism between the algebra and qualitative reality. With the algebra now defined by dual-binary bit-conservation and the biquaternion star-norm, the task is no longer defining isomorphism, but verifying it. We must mathematically map qualitative datasets onto the Real ($P$) and Imaginary ($Q$) axes to confirm they obey the invariant ($P^2 - Q^2$).
 
@@ -243,8 +251,4 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
 *Resolution Note: The "Open Research Tasks" listed above have been substantially addressed. The AC extension and the 50 equations are fully derived in `L3-K4-to-K5-via-AC-Extension`. The complete technical and subjective phenomenology of the phase dynamics (impedance, resonance, power factor, the imaginary axis as the buffer's address) is developed in `L5-K5-PhaseDynamicsTechnical` and `L5-K5-PhaseDynamicsSubjective`. The phase-modulated dual causation is sealed by the geometric proof of the bimedian axes in `Proof_AlgebraicMapping`.*
 
 ---
-
-
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

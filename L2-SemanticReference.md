@@ -1,13 +1,13 @@
 # Semantic Reference
 ## The Elemental Vocabulary: Complete Character Descriptions
 
-*U-face appendix document. This synthesizes the Elemental Worldview Guide (WVG) into a compact semantic reference for the four poles of the DC algebraic framework. This document is the vocabulary for what the algebra describes: the qualitative character of each pole, its shadow pathology, its relationships to the mapped traditions, and the distinctions within the four-fold that are easily collapsed but structurally important.*
+*U-face reference. Synthesizes the Elemental Worldview Guide (WVG) into a compact semantic vocabulary for the four poles of the DC algebraic framework: the qualitative character of each pole, its shadow pathology, its relationships to the mapped traditions, and the distinctions within the four-fold that are easily collapsed but structurally important.*
 
 ---
 
 ## I. How to Read This Reference
 
-The four poles — Fire/P, Water/I, Air/U, Earth/R — are not personality types, not fixed categories, and not labels for static properties. They are dynamic positions in a mutual-determination network. Their character descriptions below describe the quality of each position when it is operative in a healthy four-fold system.
+The four poles — Fire/P, Water/I, Air/U, Earth/R — are not personality types, not fixed categories, and not labels for static properties. They are dynamic positions in a mutual-determination network. Their character descriptions describe the quality of each position when it is operative in a healthy four-fold system.
 
 The shadow descriptions — what each pole looks like when it operates without the other three — are the Bacon Idols: the pathological form of each face operating alone. These are included because recognizing the shadow is often easier than recognizing the healthy form, and the shadow is what most people encounter when a system is plane-locked.
 
@@ -17,7 +17,7 @@ A crucial preliminary distinction is developed in section II below: E-motion and
 
 ## II. The E-Motion / Feeling Distinction
 
-This distinction is possibly the most important and most commonly collapsed distinction in the entire vocabulary.
+Possibly the most important and most commonly collapsed distinction in the entire vocabulary.
 
 **E-motion** (Fire/P/Power/Kairos): the raw energy of inner drive — the charge that initiates movement. The "e" in e-motion is deliberate: emotional energy as the force that moves the system. E-motion is not yet evaluated; it is the generative charge that says "something matters here" without yet knowing what or why. The surge of urgency before the thought arrives. The sense that this moment is charged with potential before any direction has been chosen. The Kairos quality: the feeling that now is when something is possible.
 
@@ -25,9 +25,9 @@ This distinction is possibly the most important and most commonly collapsed dist
 
 The collapse: in ordinary English, "feeling" refers to both. "I feel excited" might mean "I am charged with energy" (E-motion, Fire) or "I discern this to be good" (Feeling, Water) or both. The collapse generates specific confusions:
 
-- Treating emotional charge as evaluative judgment: "I feel strongly about this, therefore it must be right." This is treating E-motion (the strength of the charge) as if it were Feeling (evaluative discernment). A strong charge indicates that something important is at stake; it does not indicate what is good.
+- Treating emotional charge as evaluative judgment: "I feel strongly about this, therefore it must be right." This treats E-motion (the strength of the charge) as if it were Feeling (evaluative discernment). A strong charge indicates that something important is at stake; it does not indicate what is good.
 
-- Treating evaluative discernment as mere emotion to be discounted: "That's just a feeling, not a reason." This is treating Feeling (a real evaluative signal) as if it were mere E-motion (raw charge). Feeling is the system's actual assessment of value; dismissing it because it is "subjective" is discarding real information.
+- Treating evaluative discernment as mere emotion to be discounted: "That's just a feeling, not a reason." This treats Feeling (a real evaluative signal) as if it were mere E-motion (raw charge). Feeling is the system's actual assessment of value; dismissing it because it is "subjective" is discarding real information.
 
 The framework's formal expression: P (Power, E-motion) and I (Current, Feeling) are distinct variables in the DC algebra. P = UI — the power (E-motional charge) in a situation arises from the product of the potential (Logos, the structural framework giving shape to what's possible) and the current (Pathos, the relational evaluative flow). E-motion without Feeling is charge without direction. Feeling without E-motion is discernment without energy to act on it.
 
@@ -190,17 +190,16 @@ The shadow question: *which Idol is operating here?* Theatre, Cave, Marketplace,
 
 These questions are not a method to be applied mechanically. They are a way of orienting attention — bringing the four-fold into active contact with the situation, holding all four simultaneously (`.behold()`), before committing to a diagnosis or response (`.observe()`).
 
-
 ### Worked Example: The Holographic Extrusion (Reading the Interior)
 
-Because the 12 equations of the DC algebra govern the internal matrix of a *single* system in complete mutual determination, the external poles and internal poles are mathematically bound. 
+Because the 12 equations of the DC algebra govern the internal matrix of a *single* system in complete mutual determination, the external poles and internal poles are mathematically bound.
 
-The **Source tier**—Fire/$P$ (internal drive/urgency) and Water/$I$ (relational current/feeling)—is subjective and invisible to the outside observer. 
-The **Manifesting tier**—Air/$U$ (external structure/words/framework) and Earth/$R$ (material facts/physical choices)—is objective and highly visible. 
+The **Source tier** — Fire/$P$ (internal drive/urgency) and Water/$I$ (relational current/feeling) — is subjective and invisible to the outside observer.
+The **Manifesting tier** — Air/$U$ (external structure/words/framework) and Earth/$R$ (material facts/physical choices) — is objective and highly visible.
 
-Because the system demands topological closure, the invisible interior ($P$ and $I$) is continuously extruded into the visible exterior ($U$ and $R$). They do not just correlate statistically across large populations; they are structurally bound at the level of the individual instance. 
+Because the system demands topological closure, the invisible interior ($P$ and $I$) is continuously extruded into the visible exterior ($U$ and $R$). They do not just correlate statistically across large populations; they are structurally bound at the level of the individual instance.
 
-If you observe a consulting professor, you cannot directly see their internal drive ($P$) or their relational empathy ($I$). But you can observe their structural framework ($U$—the rigidity of their logic, the organization of their speech) and their material grounding ($R$—their choice of transport, their physical posture, their material footprint). 
+If you observe a consulting professor, you cannot directly see their internal drive ($P$) or their relational empathy ($I$). But you can observe their structural framework ($U$ — the rigidity of their logic, the organization of their speech) and their material grounding ($R$ — their choice of transport, their physical posture, their material footprint).
 
 To a trained observer, these are not random traits. If you accurately map the professor's $U$ and $R$, the structural logic dictates the configuration of their $P$ and $I$. For example: an individual exhibiting massive, rapid-fire, inflexible theoretical frameworks (massive $U$) combined with a frictionless, highly-abstracted physical lifestyle (low $R$) structurally betrays a very specific internal configuration. By $P = U^2/R$, the internal drive is a compounding, unchecked engine of ambition masking a flight from the ground.
 
@@ -208,21 +207,21 @@ To a trained observer, these are not random traits. If you accurately map the pr
 
 ### Intermezzo: The Mind-Reading Trap
 
-Stop for a moment. 
+Stop for a moment.
 
 If you felt a sudden rush of diagnostic power reading that last paragraph, you have just stepped into a deliberate structural trap.
 
-Look at what you just did. You took a boundary description ($U$ and $R$, the Markov Blanket) and you ran it backward through a calculator to claim you had perfectly read a stranger's soul ($P$ and $I$). 
+Look at what you just did. You took a boundary description ($U$ and $R$, the Markov Blanket) and you ran it backward through a calculator to claim you had perfectly read a stranger's soul ($P$ and $I$).
 
-**The Tangent Crossing is the explicit statement that this operation is impossible.** 
+**The Tangent Singularity is the explicit statement that this operation is impossible.**
 
 An observer on the coherent plane, approaching another system's Markov Blanket, finds the interior coordinates diverge to infinity. The interior cannot be measured from outside. You cannot cross the blanket with a calculator. When you run $P = U^2/R$ on the professor, you are not seeing the professor's interior. You are building a planar projection. You are painting a 2D shadow of a 4D volume and mistaking the shadow for the man.
 
 So why did the framework hand you the equation? Why teach you to build the mirror?
 
-Because of what the mirror *does*. Theory of Mind (ToM) is precisely this operation: bounded frames building external reflections of each other to navigate the void between them. All mirrors distort; all mirrors are merely echoes of the outside. The projection you calculated is not "really him." 
+Because of what the mirror *does*. Theory of Mind (ToM) is precisely this operation: bounded frames building external reflections of each other to navigate the void between them. All mirrors distort; all mirrors are merely echoes of the outside. The projection you calculated is not "really him."
 
-But the mirror is structurally necessary. You cannot read an interior from a boundary description, but **an interior cannot understand itself without encountering an external reflection.** A system cannot self-transcend by staring at its own navel. It requires exterior assistance—an orthogonal touch, an echo, a boundary calculation handed back to it—to trigger internal learning. 
+But the mirror is structurally necessary. You cannot read an interior from a boundary description, but **an interior cannot understand itself without encountering an external reflection.** A system cannot self-transcend by staring at its own navel. It requires exterior assistance — an orthogonal touch, an echo, a boundary calculation handed back to it — to trigger internal learning.
 
 The equation does not allow you to conquer the professor's soul. It allows you to generate the echo that the professor (or you, looking in the mirror) might use to finally see the trap they are in. The math is not a weapon of reduction; it is the reflective surface required for transcendence.
 
@@ -248,8 +247,7 @@ The dual causation observation: steps 2 and 3 co-occur — Intuition exteriorize
 
 ---
 
-*This document synthesizes the semantic vocabulary from the Elemental Worldview Guide (WVG). The full WVG contains significantly more detail on each element's expression across specific domains, the introversion/extraversion structural derivation, the detailed sign-by-sign character descriptions, and numerous worked examples of four-fold analysis in specific domains. This synthesis covers the foundational semantic vocabulary; the full WVG is the primary reference for complete character descriptions and detailed domain applications.*
+*The semantic vocabulary above draws from the Elemental Worldview Guide (WVG), which contains significantly more detail on each element's expression across specific domains, the introversion/extraversion structural derivation, the detailed sign-by-sign character descriptions, and numerous worked examples of four-fold analysis. What appears here is the foundational vocabulary; the full WVG is the primary reference for complete character descriptions and detailed domain applications.*
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

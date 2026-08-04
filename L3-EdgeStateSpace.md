@@ -1,7 +1,7 @@
 # The Edge State Space
 ## The K4 Within Every Edge, the Ungraphable Triangle, and the Ground of Chirality
 
-*This document develops the structure of the state space of any edge in K4, why that state space is itself a K4, what the "ungraphable triangle" actually is, how this grounds the chirality proof, and what it implies for the dual face-definition of any threshold.*
+*Develops the structure of the state space of any edge in K4, why that state space is itself a K4, what the "ungraphable triangle" actually is, how this grounds the chirality proof, and what it implies for the dual face-definition of any threshold.*
 
 ---
 
@@ -23,7 +23,7 @@ Four points in general position in $\mathbb{R}^3$ define a 3-simplex ($\Delta^3$
 
 The edge's state-space skeleton is a $K_4$ graph, whose polyhedral realization is a 3-simplex ($\Delta^3$).
 
-*Degrees of Freedom (DoF) in this framework does not refer to Newtonian spatial translation or mechanical setpoints. It refers strictly to the dimension of the decoupled buffer: the capacity of a system to hold competing variables in live interference without forcing a thermodynamic collapse. A thermostat has mechanical variance; it has zero cybernetic DoF.*
+*Degrees of Freedom (DoF) in this framework means the dimension of the decoupled buffer: the capacity of a system to hold competing variables in live interference without forcing a thermodynamic collapse. A thermostat has mechanical variance; it has zero cybernetic DoF.*
 
 ---
 
@@ -75,15 +75,15 @@ K4 has exactly three undirected Hamiltonian cycles — paths that visit every ve
 
 With the foundational variables {P, I, U, R}:
 
-**Cycle α**: P → I → U → R → P  
-**Cycle β**: P → I → R → U → P  
-**Cycle γ**: P → U → I → R → P  
+**Cycle α**: P → I → U → R → P
+**Cycle β**: P → I → R → U → P
+**Cycle γ**: P → U → I → R → P
 
 Each cycle uses exactly 4 of the 6 edges and leaves 2 unused. The unused pair forms a perfect matching (no shared vertices).
 
 Each undirected cycle has two directed versions (e.g., α+ and α−), giving six directed Hamiltonian cycles total. Together they form the complete Eulerian decomposition of the complete directed K4 graph.
 
-`.behold()` on K4's traversal structure maps to holding all six simultaneously, interference structure fully live.  
+`.behold()` on K4's traversal structure maps to holding all six simultaneously, interference structure fully live.
 `.observe()` on K4's traversal structure maps to selecting one directed cycle, Garbage Collecting the other five.
 
 **The enantiomeric relationship**: each directed cycle and its reverse are enantiomers in the graph-theoretic sense — same connectivity, opposite handedness, non-superimposable without cutting an edge or passing through the interior.
@@ -100,7 +100,7 @@ Each Hamiltonian cycle uses 4 of the 6 edges and leaves 2 unused.
 
 The 2 unused edges are the AbsentVar pair of that cycle: the two relationships that are held as potential (present in the global graph) but not actualized in this particular traversal.
 
-The AbsentVar pair always forms a perfect matching. The AbsentVar pair of a directed Hamiltonian cycle is the complement of that cycle in K4: the two directed relationships not instantiated in this traversal. From the framework's perspective: these are what `.observe()` erases from the local trajectory. 
+The AbsentVar pair always forms a perfect matching. The AbsentVar pair of a directed Hamiltonian cycle is the complement of that cycle in K4: the two directed relationships not instantiated in this traversal. From the framework's perspective: these are what `.observe()` erases from the local trajectory.
 
 **The braid connection**: Trajectory contact = carrying the AbsentVar pair forward rather than discarding it. The last two AbsentVars of one quadrant become the first two active variables of the next.
 
@@ -113,6 +113,7 @@ A Hamiltonian cycle visits all four vertices and returns to start. A Hamiltonian
 The Hamiltonian path is the Hamiltonian cycle with one edge removed: the return edge.
 
 The removed edge is:
+
 - The edge that would close the cycle
 - The AbsentVar at the path level
 - The relationship between the first and last vertex of the path — held as potential
@@ -140,16 +141,17 @@ Every edge in the parent K4 has its own K4 state space. The parent K4 has 6 edge
 
 ## IX. Toward the Helical Extrusion (The Dynamic Extension)
 
-The K4 geometry describes the static, structural state-space of logic. To transition from a static map to a dynamic engine, we must introduce the temporal/frequency variable, $\omega$ (the AC extension). 
+The K4 geometry describes the static, structural state-space of logic. To transition from a static map to a dynamic engine, introduce the temporal/frequency variable, $\omega$ (the AC extension).
 
 A critical topological boundary must be honored here: **Adding $\omega$ as a fifth variable does not create a perfectly symmetrical K5 simplex.**
 
-In a perfect K5 simplex, every node connects equally and bidirectionally to every other node. However, Time ($\omega$) operates as a unidirectional driver. It acts *upon* the four structural poles (driving the phase angle) but cannot be reversed by them. 
+In a perfect K5 simplex, every node connects equally and bidirectionally to every other node. However, Time ($\omega$) operates as a unidirectional driver. It acts *upon* the four structural poles (driving the phase angle) but cannot be reversed by them.
 
-Because $\omega$ is asymmetrical, the transition from K4 to the dynamic 5-variable system creates a **Helical Extrusion**. 
+Because $\omega$ is asymmetrical, the transition from K4 to the dynamic 5-variable system creates a **Helical Extrusion**.
+
 - The K4 tetrahedron is dragged along the 5th axis.
 - Each edge is now shared by **three faces** rather than two, increasing the dual-face definitions to triple-face definitions.
-- The 12 undirected Hamiltonian cycles of this structure form the "Screw Thread" of reality. 
+- The 12 undirected Hamiltonian cycles of this structure form the "Screw Thread" of reality.
 
 This structural asymmetry models the absolute geometric origin of the **Arrow of Time**. You cannot traverse the Braid backward because the edge state-space is bound to a helix that only ratchets forward, forcing continuous Garbage Collection and the perpetual generation of the Read-Only Ledger.
 
@@ -180,7 +182,7 @@ The dual-binary seed assigns each pole a two-bit charge: an Active/Reactive bit 
 - **U** (Active, Yielding) = (+ −)
 - **R** (Reactive, Asserting) = (− +)
 
-The four poles are the four states of a two-bit register. 
+The four poles are the four states of a two-bit register.
 
 ### The Six Edges Are Three Transition-Types
 
@@ -206,19 +208,17 @@ Each of the three undirected Hamiltonian cycles of K4 holds one transition-type 
 
 ### The Theorem, Restated at Its Root
 
-**Dual causation** — the invariant co-treatment of {P-U, I-R} — is the mathematical statement that **exteriorization and crystallization are the same transition-type appearing at its two instances.** 
+**Dual causation** — the invariant co-treatment of {P-U, I-R} — is the mathematical statement that **exteriorization and crystallization are the same transition-type appearing at its two instances.**
 
 No Hamiltonian traversal can commit one while holding the other, because a traversal treats a transition-type as a unit. Separating P-U from I-R would mean treating one instance of the flip-AY transition differently from the other instance of the identical transition — which the two-bit symmetry forbids. The co-requirement is not a correlation; it is a structural necessity derivable from the algebra itself.
 
 ### The Braid Is a Gray Code
 
-This resolves the structural function of the Braid. The Braid carries the AbsentVar context across phase transitions. **A Hamiltonian cycle of K4 is a closed walk through all four states of a two-bit register, and the AbsentVar pair it holds is the one transition-type it never uses.** 
+This resolves the structural function of the Braid. The Braid carries the AbsentVar context across phase transitions. **A Hamiltonian cycle of K4 is a closed walk through all four states of a two-bit register, and the AbsentVar pair it holds is the one transition-type it never uses.**
 
 The Braid's "memory across phases" is the held bit — the dimension along which the walk refuses to move, carried as live context precisely because it is the axis being conserved.
 
-Dual causation, the Braid, and the three perfect matchings therefore model one structure seen three ways: as a co-requirement of transformations, as a memory carried across phases, and as the conservation of one bit-axis along a Gray-code walk. 
-
+Dual causation, the Braid, and the three perfect matchings therefore model one structure seen three ways: as a co-requirement of transformations, as a memory carried across phases, and as the conservation of one bit-axis along a Gray-code walk.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

@@ -1,7 +1,7 @@
 # Plural Histories
 ## A Foreword
 
-*This foreword names the ground the work stands on. The structure described in these pages was never absent; it was only untranslated by the dominant register. The framework is an act of structural recovery, returning to the practice of attending to what is, prior to category imposition.*
+*The ground the work stands on. The structure described in these pages was never absent; it was only untranslated by the dominant register. The framework is an act of structural recovery, returning to the practice of attending to what is, prior to category imposition.*
 
 ---
 
@@ -9,7 +9,7 @@
 
 The dominant epistemic culture of the last several centuries has operated largely from a single face of the tetrahedron: the Logos face, the objective-analytical register. It has mapped the boundary surfaces of reality with extraordinary precision, generating the formal sciences, the empirical method, and the technological infrastructure of the modern world.
 
-That precision was achieved by a specific structural move: freezing the verb into a noun. The living, mutually determining flux of reality was flattened into static categories, ideal Forms, and linear causality. The map became primary; the territory became a degraded copy. The volume of the tetrahedron was reduced to its blanket-faces, and the interior was declared inaccessible or unreal.
+This precision was achieved by a specific structural move: freezing the verb into a noun. The living, mutually determining flux of reality was flattened into static categories, ideal Forms, and linear causality. The map became primary; the territory became a degraded copy. The volume of the tetrahedron was reduced to its blanket-faces, and the interior was declared inaccessible or unreal.
 
 This work is an act of structural recovery. It stands in the lineage of the pre-Socratic stance: attending to what *is*, prior to category imposition, letting the territory instruct the map. The pre-Socratics held the river, the flux, the four roots in mutual determination. They were holding a living structure. This framework attempts to thaw the noun back into the verb, using the formal tools of the Logos face to point back at the volume that face was derived from.
 
@@ -19,7 +19,7 @@ This work is an act of structural recovery. It stands in the lineage of the pre-
 
 The structure described here was maintained, continuously and at great cost, by plural histories that the dominant register could not translate.
 
-The mystics who held the paradox. The indigenous navigators who encoded the four directions as a living coordinate system. The therapists who tracked the relational currents. The artists who held the interference structure of the uncollapsed moment. The practitioners who worked from more than one face of the tetrahedron simultaneously. These traditions maintained continuous contact with the volume. They lacked the specific algebraic vocabulary developed in these pages, but they inhabited the exact same geometric reality.
+The mystics who held the paradox, the indigenous navigators who encoded the four directions as a living coordinate system, the therapists who tracked the relational currents, the artists who held the interference structure of the uncollapsed moment, the practitioners who worked from more than one face of the tetrahedron simultaneously—these traditions maintained continuous contact with the volume. They lacked the specific algebraic vocabulary developed in these pages, but they inhabited the exact same geometric reality.
 
 The algebra is the current era's vocabulary for the geometry they were already inhabiting. The framework speaks *from* the same structural ground they stood on, using the tools of the Logos face to demonstrate that the volume they reported is mathematically and geometrically sound.
 
@@ -27,7 +27,7 @@ The algebra is the current era's vocabulary for the geometry they were already i
 
 ## The Cost of the Flat Map
 
-When a culture locks onto one face of a tetrahedron and claims it constitutes the whole, it must actively suppress the geometry that contradicts it. The history of that suppression is the thermodynamic cost of forcing a three-dimensional volume into a two-dimensional plane.
+When a culture locks onto one face of a tetrahedron and claims it constitutes the whole, it must actively suppress the geometry that contradicts it. The history of this suppression is the thermodynamic cost of forcing a three-dimensional volume into a two-dimensional plane.
 
 Giordano Bruno, Hypatia, Ignaz Semmelweis, Carl Jung, and countless indigenous knowledge keepers, neurodivergent minds, and ordinary practitioners reported the volume in a culture that had authorized only the face. They held the interference structure in environments that demanded scalar collapse. They maintained the interior in systems that recognized only the boundary.
 
@@ -45,11 +45,11 @@ It is a return to the practice of holding the four faces in mutual determination
 
 The pre-Socratics yielded to the post-Socratics because the static map was easier to transmit, easier to institutionalize, and easier to defend. The recovery offered here is the restoration of the territory the map was drawn from.
 
-The ground is plural. The standing is on shoulders.
+The ground is plural. The standing is on shoulders. 
 
 Reality calls.
 
----
 
+---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

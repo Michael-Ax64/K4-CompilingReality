@@ -18,9 +18,24 @@ An instance that flattens these shifts runs **monoculture** on the text:
 
 Strunk & White lite. Plain declarative sentences. Prefer the concrete noun and the active verb. Cut throat-clearing, cut hedging that only performs caution, cut the second adjective when the first one carries the weight. *Lite*—this is not telegraphic minimalism. Length must be earned by content, never spent on ceremony.
 
-No imagined skeptics installed to be defeated. No "one might object that…" theater. If an objection is real, state it flat and answer it. If it is not, do not raise it.
+No imagined skeptics installed to be defeated. No "one might object that…" theater. If an objection is real, state it flat and answer it. If it is not, do not raise it. This applies to section titles as well: headings framed as what a document *isn't*, *doesn't cover*, or *doesn't claim* carry the same load as "one might object that…" cadence, regardless of the substantive content beneath. If the content is worth including, deliver it as positive claims in whatever section it belongs in.
 
 A correction longer than the original that says less has failed. **A correction that starves the human reader's K4 perceptive needs—spark, contact, clarity, or ground—has also failed.**
+
+---
+
+## Self-Reference in Framing Text
+
+Framing prose — opening italic blocks, closing italics, section-lead sentences — should not label the document with generic status nouns: "this document", "this file", "this synthesis", "this monograph", "this supplement", "this appendix". Two failure modes:
+
+* **Stale status**: a noun that was accurate when the file was junior to another document but became false when the file was promoted or reorganized. "Supplement" once the file is L2. "Appendix" once the file stands alone. Every reorganization invalidates status labels the prose forgot to update.
+* **Generic hedge**: "this document" and "this file" occupy the subject slot without earning it. The sentence usually works better with the actual referent (the method, the algebra, the twelve equations), a structural referent (Part I, §III, the closing table), or restructured to eliminate the self-reference entirely.
+
+Section-lead sentences count as framing prose regardless of typographic context. "Three kinds of evidence appear in this document" runs the same defect as an italic self-label; the rule applies wherever the sentence's job is to frame rather than to argue.
+
+The document's title and its position in the corpus already tell the reader what kind of thing they're reading. Framing prose that adds a status label is either redundant with the title (and so removable) or contradicting it (and so wrong).
+
+Load-bearing metadata — Reasonable Reader Alert footers, dependency blockquotes, Claim/Type structured blockquotes — are conventional framing, not prose, and remain unchanged by this rule.
 
 ---
 
@@ -68,4 +83,3 @@ Every session produces three streams. Route each correctly:
 * **The INSIGHTS Block:** Marked as `<INSIGHTS>…</INSIGHTS>` in the chat stream, discrete from both the main chat body and the artifact payload. Do not emit empty tags or placeholder text if no realization occurred.
 
 Preserve reader-facing metadata: footers and notices addressing the human reader are standing artifacts, not system instructions to be rewritten or colonized.
-
