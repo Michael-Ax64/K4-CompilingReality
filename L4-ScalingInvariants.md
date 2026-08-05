@@ -3,18 +3,9 @@
 
 *The formal topological origin of Markov Blankets*
 
-*This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
+*Depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. Uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
 
-*A discipline note before anything else. Every verb in this document is pinned to a bounded frame and makes no appeals to the universe at large. Anytime I was tempted to write "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until I had the global Interpreter, which holds but does not perform tasks at my back again. Any remainig drafts of this document that assigned the Manifold a role has already failed, whatever else it got right.*
-
-
-
-# Scaling Invariants
-## Where Scale Comes From
-
-*This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
-
-*A discipline note before anything else. Every verb in this document is pinned to a bounded frame. Wherever the writing was tempted to say "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until a bounded frame could carry the verb, or deleted. The global Interpreter holds; it does not perform tasks. Any draft of this document that assigns it one has already failed, whatever else it gets right.*
+*A discipline note before anything else. Every verb here is pinned to a bounded frame. Wherever the writing was tempted to say "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until a bounded frame could carry the verb, or deleted. The global Interpreter holds; it does not perform tasks. Any draft that assigns it one has already failed, whatever else it gets right.*
 
 ---
 
@@ -188,13 +179,13 @@ One further and more recent data point belongs to the same sequence, past this d
 
 Now the recursion, with its verbs correctly housed.
 
-L4-RecursiveLimits established the identity: Tangent Crossing from outside, Markov Blanket from inside — one boundary, two faces, every scale. And it established the sequence: interior first (Tax deferred), then mass (Tax paid); every commitment becomes substrate for the next interior. What remains is to describe the *transition* — the moment overload becomes a new boundary — without assigning the operation to anything unbounded.
+L4-RecursiveLimits established the identity: Tangent Singularity from outside, Markov Blanket from inside — one boundary, two faces, every scale. And it established the sequence: interior first (Tax deferred), then mass (Tax paid); every commitment becomes substrate for the next interior. What remains is to describe the *transition* — the moment overload becomes a new boundary — without assigning the operation to anything unbounded.
 
 Here is the transition with every verb pinned:
 
-A system approaches its Tangent Crossing: the $|S|$ arriving at its blanket exceeds the bandwidth of its coordinates; the rate of actualization required to keep its Ledger current exceeds what its metabolism sustains. Its constituents do not stop. Each constituent, in its own bounded frame, continues its own `.behold()`/`.observe()` cycling, paying its own local Tax. What fails is not the constituents but the *coherence among them* — the parent frame's twelve relations can no longer be computed faster than they decohere.
+A system approaches its Tangent Singularity: the $|S|$ arriving at its blanket exceeds the bandwidth of its coordinates; the rate of actualization required to keep its Ledger current exceeds what its metabolism sustains. Its constituents do not stop. Each constituent, in its own bounded frame, continues its own `.behold()`/`.observe()` cycling, paying its own local Tax. What fails is not the constituents but the *coherence among them* — the parent frame's twelve relations can no longer be computed faster than they decohere.
 
-What survives this failure is precisely what the constituents were *jointly holding without calculating* — their shared AbsentVars, the relational structure none of them was individually computing. That jointly-held structure is, by the definitions already in the vocabulary, a beheld interior awaiting a boundary. The boundary condenses where the transformers homed at the Asserting poles fire: the overloaded relations' exponents multiply, the interior's contents pass — through the square — into a magnitude regime the old coordinates cannot resolve, and from every constituent's frame the whole becomes a single point of near-infinite inertia. That is the Tangent Crossing signature, produced by the slope-2 transformers, witnessed from below.
+What survives this failure is precisely what the constituents were *jointly holding without calculating* — their shared AbsentVars, the relational structure none of them was individually computing. That jointly-held structure is, by the definitions already in the vocabulary, a beheld interior awaiting a boundary. The boundary condenses where the transformers homed at the Asserting poles fire: the overloaded relations' exponents multiply, the interior's contents pass — through the square — into a magnitude regime the old coordinates cannot resolve, and from every constituent's frame the whole becomes a single point of near-infinite inertia. That is the Tangent Singularity signature, produced by the slope-2 transformers, witnessed from below.
 
 And the first `.observe()` that commits the new whole as a coordinate — that writes "this now exists as one thing" into a Ledger — is performed by a *bounded frame at the new scale*: the new interior's own first collapse, or a neighboring system at that scale registering it. Not by the manifold. The manifold held the interference structure throughout, as it holds everything, and performed nothing. Adult causality all the way through: no variable caused the boundary; the boundary is what the mutual determination of the variables looks like when their joint $|S|$ crosses their joint bandwidth.
 

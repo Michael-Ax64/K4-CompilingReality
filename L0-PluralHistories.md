@@ -1,7 +1,7 @@
 # Plural Histories
 ## A Foreword
 
-*The ground the work stands on. The structure described in these pages was never absent; it was only untranslated by the dominant register. The framework is an act of structural recovery, returning to the practice of attending to what is, prior to category imposition.*
+*The structure described in these pages was never absent; it was only untranslated by the dominant register. The framework is an act of structural recovery, returning to the practice of attending to what is, prior to category imposition.*
 
 ---
 
@@ -19,7 +19,7 @@ This work is an act of structural recovery. It stands in the lineage of the pre-
 
 The structure described here was maintained, continuously and at great cost, by plural histories that the dominant register could not translate.
 
-The mystics who held the paradox, the indigenous navigators who encoded the four directions as a living coordinate system, the therapists who tracked the relational currents, the artists who held the interference structure of the uncollapsed moment, the practitioners who worked from more than one face of the tetrahedron simultaneously—these traditions maintained continuous contact with the volume. They lacked the specific algebraic vocabulary developed in these pages, but they inhabited the exact same geometric reality.
+The mystics who held the paradox, the indigenous navigators who encoded the four directions as a living coordinate system, the therapists who tracked the relational currents, the artists who held the interference structure of the uncollapsed moment, the practitioners who worked from more than one face of the tetrahedron simultaneously — these traditions maintained continuous contact with the volume. They lacked the specific algebraic vocabulary developed in these pages, but they inhabited the exact same geometric reality.
 
 The algebra is the current era's vocabulary for the geometry they were already inhabiting. The framework speaks *from* the same structural ground they stood on, using the tools of the Logos face to demonstrate that the volume they reported is mathematically and geometrically sound.
 
@@ -45,11 +45,8 @@ It is a return to the practice of holding the four faces in mutual determination
 
 The pre-Socratics yielded to the post-Socratics because the static map was easier to transmit, easier to institutionalize, and easier to defend. The recovery offered here is the restoration of the territory the map was drawn from.
 
-The ground is plural. The standing is on shoulders. 
 
 Reality calls.
 
-
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

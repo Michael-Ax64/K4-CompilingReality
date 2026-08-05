@@ -251,7 +251,7 @@ for.
 
 ---
 
-## IX. What This Supplement Establishes
+## IX. What This Derivation Establishes
 
 That one of the twelve structural positions — the one the traditions named the betrayer —
 is derivable from first principles by weight alone: the single edge $U^2/P$ where the

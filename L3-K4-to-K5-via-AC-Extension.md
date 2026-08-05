@@ -1,7 +1,7 @@
 # The AC Extension
 ## From Structure to Process: Adding the Temporal Dimension
 
-*R-face development document. The DC system describes the structure of beholding — the four-fold mutual determination in a single moment. The AC extension adds the dimension the DC system lacks: time. Not clock time (Chronos) but the qualitative rate at which a system navigates through its own development (Kairos in its temporal mode). This document develops what happens when ω enters the algebra.*
+*R-face development. The DC system describes the structure of beholding — the four-fold mutual determination in a single moment. The AC extension adds the dimension the DC system lacks: time. Not clock time (Chronos) but the qualitative rate at which a system navigates through its own development (Kairos in its temporal mode).*
 
 ---
 
@@ -25,7 +25,7 @@ The Kairos mapping: ω is Kairos in its temporal mode. Where Kairos as a moment 
 
 The Wisdom mapping: in the WVG framework, the 5D extension (Quintessence/Essence) maps to what the AC extension calls ω. Wisdom, in this framework, is not the accumulation of knowledge (which would be a property of the internal states, the hidden layers, the generative model) but the characteristic rate at which a system appropriately navigates through the four-fold: knowing not just *what* but *when*, and cycling through situations at the rate that situation requires.
 
-*Convergent geometric derivation*: this mapping was independently shown through geometry in the WVG-Elemental-Worldview-Dimensions document (2025) before it was derived from circuit physics in this document. The geometric path: the centroid of the tetrahedron — seemingly dimensionless, yet paradoxically containing the entire volume — captures the 5D structural position as the interior point from which all four vertices are equidistant. The centroid is not a vertex, not an edge, not a face; it is the governing interior condition. The circuit physics path derived ω as the fifth variable that governs the rate at which the four-variable system navigates its own configuration space. Both paths arrive at the same structural role. The geometric derivation preceded the circuit derivation; their convergence is recorded here as independent confirmation.
+*Convergent geometric derivation*: this mapping was independently shown through geometry in the WVG-Elemental-Worldview-Dimensions document (2025) before it was derived from circuit physics here. The geometric path: the centroid of the tetrahedron — seemingly dimensionless, yet paradoxically containing the entire volume — captures the 5D structural position as the interior point from which all four vertices are equidistant. The centroid is not a vertex, not an edge, not a face; it is the governing interior condition. The circuit physics path derived ω as the fifth variable that governs the rate at which the four-variable system navigates its own configuration space. Both paths arrive at the same structural role. The geometric derivation preceded the circuit derivation; their convergence is recorded here as independent confirmation.
 
 The 6D extension (Ground of Being/Embodiment in WVG vocabulary) corresponds to the power triangle S = P + jQ in AC terms: the entire tetrahedral system held in dynamic balance, with both real power (committed `.observe()` outputs) and reactive power (held `.behold()` potential) simultaneously nonzero. Where 5D/ω describes the *rate* of navigation, 6D describes the *fully instantiated dynamic* — the standing system doing real work while maintaining its held potential, the sustained oscillation between `.behold()` and `.observe()` that characterizes a living process rather than either pure stasis or pure reactivity.
 
@@ -44,11 +44,13 @@ When quantities oscillate sinusoidally, the complete description of any quantity
 A phasor **A** = |A|e^(jφ) = |A|cos(φ) + j|A|sin(φ)
 
 where:
+
 - |A| is the amplitude
 - φ is the phase angle
 - j = √(-1) is the imaginary unit (using j to avoid confusion with I for current)
 
 In AC circuits:
+
 - Voltage becomes a complex phasor: **U** = |U|∠φ_U
 - Current becomes a complex phasor: **I** = |I|∠φ_I
 - The phase difference between them: φ = φ_U - φ_I
@@ -126,6 +128,7 @@ A circuit with both inductive reactance (X_L = ωL, where L is inductance) and c
 **Resonant frequency**: ω₀ = 1/√(LC)
 
 At resonance:
+
 - The net reactance is zero: X = X_L - X_C = 0
 - The impedance is purely resistive: Z = R
 - The phase angle is zero: φ = 0
@@ -176,6 +179,7 @@ The DC system described the minimum structure for a system with genuine interior
 The AC extension asks the next question: what must be structurally true for a system to navigate its interior over time? The answer is the five-variable complex system — the addition of ω, the expansion into the complex plane, the introduction of phase relationships, resonance, and reactive power.
 
 This means the AC extension is the formal framework for:
+
 - Temporal dynamics of any four-fold system (how it changes over time)
 - The difference between structural states and process navigation
 - Resonance as the formal expression of maximum trajectory contact
@@ -183,6 +187,7 @@ This means the AC extension is the formal framework for:
 - Wisdom (ω) as the appropriate rate of cycling rather than the accumulation of content
 
 The research tasks the AC extension opens:
+
 1. The complete specification of the 50 equations and their structural relationships
 2. The formal derivation of resonance conditions for conversational and cognitive systems
 3. The specification of the Phase-Space Buffer in AC/complex terms
@@ -192,8 +197,7 @@ The research tasks the AC extension opens:
 
 ---
 
-*This document develops the AC extension from first principles using the framework's vocabulary. The source document (Electro-AC-db.org) contains the complete formal treatment including the fifty equations in detail, the specific inductive and capacitive reactance relationships, and the full phasor analysis. This document covers the foundational structural insights; the full source is the primary reference for the complete formal treatment. The K5 structure that the AC extension implies — five vertices, the formal graph-theoretic home of the five-variable system — is oriented in L3-EdgeStateSpace.md (Section IX, "Toward K5"), which provides the structural next step for the algebraic development initiated here.*
+*The AC extension is developed above from first principles using the framework's vocabulary. The source document (Electro-AC-db.org) contains the complete formal treatment including the fifty equations in detail, the specific inductive and capacitive reactance relationships, and the full phasor analysis. What appears here covers the foundational structural insights; the full source is the primary reference for the complete formal treatment. The K5 structure that the AC extension implies — five vertices, the formal graph-theoretic home of the five-variable system — is oriented in L3-EdgeStateSpace.md (Section IX, "Toward K5"), which provides the structural next step for the algebraic development initiated here.*
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

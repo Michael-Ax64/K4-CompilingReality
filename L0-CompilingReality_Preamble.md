@@ -4,13 +4,15 @@
 
 ---
 
-What follows is a document about the structure of reality and the structure of mind. It uses the vocabulary of computation, physics, and cybernetics. The formal apparatus is real and the claims are serious.
+This work employs the vocabulary of computation, physics, and cybernetics to speak about the structure of mind and the structure of reality and structures found within that.
 
-The primary unit of contribution is a perspective shift. Unlike a claim, which can be evaluated as true or false, a perspective shift changes what becomes visible."
+*Its formal apparatus is real and the claims are serious.*
 
-A claim can be evaluated as true or false. A perspective shift changes what becomes visible. These are different operations. Confusing them is why most of what follows has been difficult to locate in existing literature — not because the territory is obscure, but because the literature arrives at it carrying a different angle of vision, reads surface where there is depth, and concludes there is no depth to see.
+In this text we use perspective shifts to show where it sits -- rather than making promises or claims.
 
-The shifts are named before the formal work begins. Not as argument. As invitation. Each one asks you to try an angle of vision before proceeding. If the angle reveals nothing, set it down. If it reveals something, the revelation is the evidence.
+A claim can be evaluated as true or false; a perspective shift changes what becomes visible. **These are different operations. Confusing them is why most of what follows has been difficult to locate in existing literature** — not because the territory is obscure, but because the literature arrives at it carrying a different angle of vision, reads surface where there is depth, and concludes there is no depth to see.
+
+This preamble names the shifts before the formal work begins. Not as argument but as invitations to try several angles of vision before proceeding. If an angle reveals nothing, set it down. If it reveals something, then that glimpse is evidence promising that there's more for you to be had in this work.
 
 ---
 
@@ -24,7 +26,7 @@ The question "what must be structurally true for there to be physics at all?" is
 
 ## Shift Two: The language of interiority is always approximate
 
-What follows uses words for felt experience — sensation, feeling, intuition, the quality of what it is like to be a conscious system. Every one of these words is an exterior approximation of an interior reality.
+This document will use words for felt experience — sensation, feeling, intuition, the quality of what it is like to be a conscious system. Every one of these words is an exterior approximation of an interior reality.
 
 We run scales inside ourselves. Something feels more or less right, more or less urgent, more or less coherent. We translate those interior readings into words after the fact, then seek consensus around the words to give them the appearance of shared precision. "Red" is not the redness of red. It is a tag we have agreed points roughly at the same interior territory in each of us, without any guarantee that the territories actually match.
 
@@ -104,11 +106,6 @@ The isomorphism it finds running across physics, psychology, rhetoric, and the a
 
 Six angles. Try them. Then read.
 
----
-
-*Round 1. The preamble is the seed. Round 2 restructures the body of Compiling Reality to carry these reframes explicitly within it, and to incorporate the trajectory-tracking vocabulary alongside `.behold()` so the document performs what it describes throughout — not only in the introduction.*
-
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

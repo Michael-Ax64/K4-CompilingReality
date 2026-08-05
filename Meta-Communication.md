@@ -60,3 +60,7 @@ This is not a metaphor borrowed loosely. It is the great attractor at the scale 
 A work of this kind functions the same way: it does not push the reader: it is a structure the ready reader is pulled into, at the rung of their readiness, by their own incompleteness at that rung. The reader who is at the resemblance layer is offered the asymmetry. The reader who has crossed to the asymmetry is offered the regular-form abandonment. Each rung is held in the structure, and each reader is drawn to the one they are ready for, by the pressure of their own position's instability.
 
 The work attracts rather than argues. It does not convince the Copenhagen partisan that they are wrong. It sits, holding the dissolution, and the partisan who is ready — who is feeling the instability of their own homesteaded side — is drawn to it, and crosses, by their own undergoing. The partisan who is not ready passes by, or reads it as a move in the debate, or rejects it.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

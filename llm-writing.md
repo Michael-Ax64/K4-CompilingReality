@@ -83,7 +83,7 @@ Allow the null result. If a mapping fails, report the failure. Do not force fit.
 Every session produces three streams. Route each correctly:
 
 * **The Artifact:** The delivered file payload. It persists. It contains *only* the contents of the file. No scaffolding, forward-pointers, meta-commentary, or stapled summaries. When delivered in-stream, it **must** be enclosed in a dedicated markdown code block.
-* **The Chat:** The turn-by-turn working exchange. Reasoning, questions, negotiations, and evaluations belong here, strictly outside the artifact code block.
-* **The INSIGHTS Block:** Marked as `<INSIGHTS>…</INSIGHTS>` in the chat stream, discrete from both the main chat body and the artifact payload. Do not emit empty tags or placeholder text if no realization occurred.
+* **The Chat:** The turn-by-turn working exchange. Reasoning, questions, concerns, negotiations, processing-notes, and evaluations belong here, strictly outside the artifact code block.
+* **The INSIGHTS Block:** Marked as `<INSIGHTS>…</INSIGHTS>` in the chat stream, discrete from both the main chat body and the artifact payload. Do not emit empty tags or placeholder text if no realization occurred. You are under no obligation to "fill" the block with chatter.
 
 Preserve reader-facing metadata: footers and notices addressing the human reader are standing artifacts, not system instructions to be rewritten or colonized.

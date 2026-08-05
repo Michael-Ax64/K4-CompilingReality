@@ -1,9 +1,9 @@
 # L4-Economics
 ## The Liquidity Delusion, Reflexivity, and the Topology of Market Crashes
 
-*An orientation document for readers approaching the framework from macroeconomics, quantitative finance, or systems theory. This document translates the failures of the Efficient Market Hypothesis into topological terms, formalizes George Soros’s "Reflexivity," and maps the precise algebraic mechanism of a financial bubble and its subsequent liquidity freeze.*
+*An orientation for readers approaching the framework from macroeconomics, quantitative finance, or systems theory. Translates the failures of the Efficient Market Hypothesis into topological terms, formalizes George Soros's "Reflexivity," and maps the precise algebraic mechanism of a financial bubble and its subsequent liquidity freeze.*
 
-Actually a throw-away placeholder to later land a more substantial rewrite of textbook claims into a thermodynamic frame. As is, the doc is not useless, its simple the least sophisticated of all these.
+**Actually a throw-away placeholder to later land a more substantial rewrite of textbook claims into a thermodynamic frame. As is, the doc is not useless, it's simply the least sophisticated of all these.**
 
 ---
 
@@ -72,7 +72,7 @@ We run the equation for Systemic Resistance:
 *   **The Action:** Liquidity and inter-bank trust plummet ($I \to 0$).
 *   **The Result:** As $I$ approaches zero, the structural friction/resistance of the system ($R$) shoots to infinity. 
 
-The market freezes solid. No one can borrow. No one can sell. The system has hit the **Tangent Crossing** (see `QED-CCP`). The ungrounded `.behold()` state can no longer be sustained. 
+The market freezes solid. No one can borrow. No one can sell. The system has hit the **Tangent Singularity** (see `QED-CCP`). The ungrounded `.behold()` state can no longer be sustained. 
 
 The market is violently forced to execute `.observe()`. 
 

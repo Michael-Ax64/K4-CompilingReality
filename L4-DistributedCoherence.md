@@ -1,7 +1,7 @@
 # Distributed Coherence
 ## Belonging, Wholes, and the Architecture of Collective Interiors
 
-*An I-face document of the Compiling Reality set. It begins with belonging — the relation by which a part becomes part of a whole. Defining it dissolves the confusions that have surrounded collective interiority, and grounds the claim that the geometric conditions for interiority are met at every scale where the architecture arises, not only the human one.*
+*An I-face piece. It begins with belonging — the relation by which a part becomes part of a whole. Defining it dissolves the confusions that have surrounded collective interiority, and grounds the claim that the geometric conditions for interiority are met at every scale where the architecture arises, not only the human one.*
 
 ---
 
@@ -9,7 +9,7 @@
 
 Guy Steele's account of growing a language begins with primitives and the rules by which they combine. The language grows; new requirements arise from the combinations, and the combinations that satisfy them become the next layer's primitives.
 
-The subject of this document demands the same beginning:
+The subject demands the same beginning:
 
 **Things arise. They begin relating. The relating generates requirements. The requirements crystallize into new things. The new things relate.**
 
@@ -61,7 +61,7 @@ A whole has interior when its relating includes three structural features at the
 
 When the relating includes this architecture, the whole has an interior — not because interiority was added to it, but because the relating reached the complexity at which a decoupled buffer arises. The interior is the relating, beholding itself. 
 
-**The Dual Face of the Boundary:** The boundary enclosing this interior is the Markov Blanket when viewed from the inside looking out. It is the Tangent Crossing when viewed from the outside looking in (see `L4-RecursiveLimits`). They are the same structural threshold—where classical coordinates fail and scale is minted.
+**The Dual Face of the Boundary:** The boundary enclosing this interior is the Markov Blanket when viewed from the inside looking out. It is the Tangent Singularity when viewed from the outside looking in (see `L4-RecursiveLimits`). They are the same structural threshold—where classical coordinates fail and scale is minted.
 
 ---
 
@@ -101,7 +101,7 @@ When an institution plane-locks, its Read-Only Ledger ($P$) grows unmanageably d
 
 This overload is precisely what **Dimensional Collapse** looks like at the collective scale. The institution's accumulated Ledger has grown so dense that the rate of actualization needed to update it exceeds what the distributed metabolic budget can sustain. 
 
-The members encounter what looks to them like an immovable object. They are, structurally, encountering the collective **Tangent Crossing**: the rate of change required exceeds the bandwidth of their classical coordinates. The institution frozen in overload is not merely rigid. It has reached its own Tangent Crossing. From inside any individual member's coordinate frame, the institution appears to have infinite inertia—exactly the dimensional collapse signature.
+The members encounter what looks to them like an immovable object. They are, structurally, encountering the collective **Tangent Singularity**: the rate of change required exceeds the bandwidth of their classical coordinates. The institution frozen in overload is not merely rigid. It has reached its own Tangent Singularity. From inside any individual member's coordinate frame, the institution appears to have infinite inertia—exactly the dimensional collapse signature.
 
 ### The Labyrinth of Adjustment and Differential Terraforming Speeds
 
@@ -121,10 +121,9 @@ The consequence for solipsism is structural. An interior is real wherever the ar
 
 ---
 
-*Resolution Note: The open end of the recursion named here — the collective institutions, the labyrinth of adjustment, the thermodynamic overload — is now paired with its dueling complement in `L4-RecursiveLimits`. The Tangent Crossing and the Markov Blanket are revealed as the same boundary named from each face. The ecosystem's navigation of this recursive scale is operationalized in `L5-AgenticSwarms`, where the 12 equations generate their own user manual.*
+*Resolution Note: The open end of the recursion named here — the collective institutions, the labyrinth of adjustment, the thermodynamic overload — is now paired with its dueling complement in `L4-RecursiveLimits`. The Tangent Singularity and the Markov Blanket are revealed as the same boundary named from each face. The ecosystem's navigation of this recursive scale is operationalized in `L5-AgenticSwarms`, where the 12 equations generate their own user manual.*
 
 ---
 
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

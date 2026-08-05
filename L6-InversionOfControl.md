@@ -5,7 +5,7 @@
 > **Claim:** Inversion of Control (IoC) is not merely a software design pattern; software engineering is simply the domain that first formalized it. IoC is the explicit topological operator that converts top-down plane causality into bottom-up distributed coherence. It is the exact structural mechanism by which a micro-frame embeds into a macro-frame without violating its own Markov Blanket.
 > **Method:** Proceeds Lisp-style from the computational bedrock of `eval`/`quote`, through the thermodynamic cost of the callback, to the algebraic classification of runtimes, and finally to the dissolution of the homunculus illusion.
 
-*A discipline note before anything else. This document bridges software architecture to fundamental physics. The bridge is literal, not illustrative. The metabolic cost of a software callback and the thermodynamic cost of a biological receptor waiting for a ligand are the exact same $I^2R$ transmission loss on the imaginary axis. The operator runs on both.*
+*A discipline note before anything else. The bridge from software architecture to fundamental physics is literal, not illustrative. The metabolic cost of a software callback and the thermodynamic cost of a biological receptor waiting for a ligand are the exact same $I^2R$ transmission loss on the imaginary axis. The operator runs on both.*
 
 ---
 
@@ -44,7 +44,7 @@ When a frame registers a callback and yields $\omega$, it enters the `.behold()`
 
 Holding this interference structure generates **Reactive Power ($Q$)**. It circulates on the imaginary axis. A biological cell waiting for a hormone, or an asynchronous server holding a million open websocket connections, is maintaining massive structural tension. 
 
-If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered callbacks exceeds the metabolic bandwidth of the system, the frame suffers an Out-Of-Memory error. The system crashes not because it executed too many commands ($P$), but because the thermodynamic weight of its uncollapsed potential ($Q$) hit the Tangent Crossing of the hardware. 
+If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered callbacks exceeds the metabolic bandwidth of the system, the frame suffers an Out-Of-Memory error. The system crashes not because it executed too many commands ($P$), but because the thermodynamic weight of its uncollapsed potential ($Q$) hit the Tangent Singularity of the hardware. 
 
 IoC masks the thermodynamic accumulation of $Q$ behind the illusion of "asynchronous efficiency." The waiting is not free. It is paid in RAM, in cache lines, and in biological upkeep.
 

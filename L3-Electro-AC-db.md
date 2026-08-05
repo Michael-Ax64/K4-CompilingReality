@@ -6,6 +6,8 @@
 
 **Keywords:** Philosophy, AC Circuits, Maxwell's Equations, Platonic Solids, Personal Growth, Complex Algebra, Self-Actualization, Electrical Engineering
 
+> NOTE: This is an old version which contains two tiny intentional mistakes which I needed to test my code. It's been a surpringly stubborn ancient file from the mid 2010's that has yet to be wrangled into CR.
+
 ---
 
 ## Analyzing the Algebraic Completeness of the current AC Circuit Equations
@@ -139,10 +141,7 @@ The connection between these three domains emerges when we consider symmetry, di
 - **Maxwell's Equations**: Describe electromagnetic phenomena in 4D spacetime with inherent symmetry
 - **Platonic Solids**: Represent perfect symmetry and completeness in geometric form
 
-When we extend our AC circuit analysis to incorporate concepts from group theory and symmetry (related to the mathematical structure behind Platonic solids), 
-we can develop a more complete and elegant framework comparing the 3D spatial symmetry of Platonic solids, the 4D spacetime tensor geometry of Maxwell's equations
--- and the complex phasor plane of AC circuits provides a structural analogy (Rung 1) for how different mathematical domains represent symmetrical systems.
-
+When we extend our AC circuit analysis to incorporate concepts from group theory and symmetry (related to the mathematical structure behind Platonic solids), we can develop a more complete and elegant framework — comparing the 3D spatial symmetry of Platonic solids, the 4D spacetime tensor geometry of Maxwell's equations, and the complex phasor plane of AC circuits as a structural analogy (Rung 1) for how different mathematical domains represent symmetrical systems.
 
 ### 5. Towards a Unified Understanding
 
@@ -163,7 +162,7 @@ This framework would:
 
 Just as AC circuits exhibit complex behaviors through the interplay of multiple forces and quantities, human personal development involves a multidimensional dance of growth, understanding, action, and circumstance. By mapping the variables and relationships of AC circuits onto the landscape of human development, we can gain fresh insights into our own journeys of self-actualization.
 
-In this section, we explore how the five core variables of our AC circuit system—**Power (S)**, **Voltage (U)**, **Current (I)**, **Impedance (Z)**, and **Frequency (ω)**—can serve as metaphors for distinct yet interconnected aspects of personal growth.
+In this section, we explore how the five core variables of our AC circuit system — **Power (S)**, **Voltage (U)**, **Current (I)**, **Impedance (Z)**, and **Frequency (ω)** — can serve as metaphors for distinct yet interconnected aspects of personal growth.
 
 ### Mapping AC Variables to Personal Development
 
@@ -398,4 +397,3 @@ These pearls of wisdom, derived from our AC circuit analogies, offer a unique pe
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

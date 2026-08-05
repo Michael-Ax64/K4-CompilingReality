@@ -1,7 +1,7 @@
 # The Attractor States and the Predictability of Distortion
 ## A Freestanding Account of Where the Tetrahedron Goes When Stressed, and Why the Framework Foresees It
 
-*This document stands on its own. It catalogs the complete set of attractor states of the K4 distortion space — the limiting configurations toward which the tetrahedron moves when driven by each class of distortion — and locates each within the conceptual space of the framework. It then takes up a question the distortion analyses have circled without stating directly: whether these distortions are things the framework happens to permit, or things the framework structurally predicts.*
+*Catalogs the complete set of attractor states of the K4 distortion space — the limiting configurations toward which the tetrahedron moves when driven by each class of distortion — and locates each within the conceptual space of the framework. Then takes up a question the distortion analyses have circled without stating directly: whether these distortions are things the framework happens to permit, or things the framework structurally predicts.*
 
 > The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
 
@@ -359,10 +359,10 @@ The mythopoetic record is the Read-Only Ledger of human topological navigation. 
 
 When you read the framework's mathematical boundaries through this lens, the math ceases to be an abstraction. The $\theta \to \pi$ phase-delay is no longer just a sine wave on a graph; it is the haunting recognition of an argument with a spouse where you are both apologizing at the exact moment the other person is escalating, forever missing the zero-crossing where forgiveness actually lands.
 
-The math is the skeleton. The myth is the flesh. The attractor is where they both hit the wall.
+
+The attractor is where 'The math' and 'The myth' both hit the wall.
 
 ---
 
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

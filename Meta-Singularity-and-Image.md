@@ -13,7 +13,7 @@ There is a natural and almost irresistible error in thinking about transitions b
 
 The error is structural, not careless. It is built into the way logos handles boundaries. Logos models a crossing as a passage from one side to another, and a passage implies a space the passage occurs in, and a series of passages implies a sequence with a possible end. So logos, asked to think the ultimate boundary, reaches for "the last one" — the crossing at the end of all crossings. And it installs, without noticing, an outside: the place you arrive when the last crossing is complete.
 
-There is no such place. The correction is the subject of this paper, and it is the keystone of the entire account of transition, because every other description of crossing — the tangent singularity, the blanket passage, the projective identity of two infinities — is true *only of interior crossings*, and becomes false the moment it is applied to the ultimate one. To apply the interior model to the ultimate boundary is to smuggle in an outside, and the whole structure quietly inverts into a falsehood that looks like a completion.
+There is no such place. The correction is the keystone of the entire account of transition, because every other description of crossing — the tangent singularity, the blanket passage, the projective identity of two infinities — is true *only of interior crossings*, and becomes false the moment it is applied to the ultimate one. To apply the interior model to the ultimate boundary is to smuggle in an outside, and the whole structure quietly inverts into a falsehood that looks like a completion.
 
 ---
 

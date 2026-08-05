@@ -247,7 +247,7 @@ The dual causation observation: steps 2 and 3 co-occur — Intuition exteriorize
 
 ---
 
-*The semantic vocabulary above draws from the Elemental Worldview Guide (WVG), which contains significantly more detail on each element's expression across specific domains, the introversion/extraversion structural derivation, the detailed sign-by-sign character descriptions, and numerous worked examples of four-fold analysis. What appears here is the foundational vocabulary; the full WVG is the primary reference for complete character descriptions and detailed domain applications.*
+*The semantic vocabulary above draws from the Author's Elemental Worldview Guide (WVG), which contains significantly more detail on each element's expression across specific domains, the introversion/extraversion structural derivation, the detailed sign-by-sign character descriptions, and numerous worked examples of four-fold analysis. What appears here is the foundational vocabulary; the full WVG is the primary reference for complete character descriptions and detailed domain applications.*
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

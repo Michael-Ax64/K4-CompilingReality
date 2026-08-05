@@ -1,7 +1,7 @@
 # K4 Dynamic Distortions: The Complete 12-Dimensional State-Space
 ## Torsion, Attractor Geometries, and the Helical Extrusion
 
-*Companion to L4-DynamicDistortions. This document maps the complete coordinate geometry of the irregular directed tetrahedron, locating Torsion, Volumetric Scale, Vertex Loading, and Face Collapse as specific configurations within the 12-dimensional complex edge space.*
+*Companion to L4-DynamicDistortions. Maps the complete coordinate geometry of the irregular directed tetrahedron, locating Torsion, Volumetric Scale, Vertex Loading, and Face Collapse as specific configurations within the 12-dimensional complex edge space.*
 
 > The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
 
@@ -77,7 +77,7 @@ When the six outbound directed edges aligned with the $\alpha^+$ family carry lo
 ## V. The Subjective Register: The Inner Weather of the State-Space
 ### The Phenomenology of Torsion, Scale, and Directed Asymmetry
 
-*This section translates the 12-dimensional coordinate geometries of the irregular K4 into the subjective register. It maps the mathematical properties of complex edge space—phase delay, magnitude, and directed flow asymmetry—onto the felt textures of lived experience.*
+*Translates the 12-dimensional coordinate geometries of the irregular K4 into the subjective register. Maps the mathematical properties of complex edge space—phase delay, magnitude, and directed flow asymmetry—onto the felt textures of lived experience.*
 
 ---
 
@@ -152,6 +152,5 @@ When the system commits to a specific handedness, it experiences that directiona
 
 ---
 
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
