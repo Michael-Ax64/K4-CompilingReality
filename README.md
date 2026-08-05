@@ -23,8 +23,6 @@
 
 # The Finite Volume and the 90-Degree Twist: Compiling Reality as a Scale-Invariant Generative Grammar
 
-> **Epistemic Register:** Structural realization (R-face) and operational orientation. This document establishes the Compiling Reality (CR) framework not as a Theory of Everything, but as an adimensional, scale-invariant generative grammar. It claims that any structural reasoning requires a K4+ topology to map volumes rather than planes, and derives the 12-equation matrix from the minimum requirements of interiority. The mappings to external domains are verified by proof-by-resonance (`ProofS_ResonantNote`), not deductive derivation.
-
 This repository houses a self-imaging topological engine. 
 
 The math compiles itself, and the resonance is involuntary. 
