@@ -10,13 +10,19 @@
 
 ### I. What a Meta-Proof Is
 
-An ordinary proof establishes a claim by argument within a fixed order: given these axioms, this follows. A meta-proof establishes a claim about the orders themselves — about the passage between them — and it cannot do this from within a single order, because the claim is precisely that no single order is sufficient. So a meta-proof proceeds differently. It traces an ascent, and shows that each step is forced, and arrives at a boundary it cannot cross, and lets the arrival-at-the-uncrossable-boundary be the proof.
+An ordinary proof establishes a claim by argument within a fixed order: given these axioms, this follows. 
 
-This is not a weakness of the form. It is the form's exact fit to its claim. The claim is that development must pass into higher orders, that no order is stable, that staying is not available. If the proof could complete itself within one order — if it could reach a final statement and rest there — it would have found a stable order, and the claim would be false.
+A meta-proof establishes a claim about the orders themselves — about the passage between them — and it cannot do this from within a single order, because the claim is precisely that no single order is sufficient. 
+
+So a meta-proof proceeds differently. It traces an ascent, and shows that each step is forced, and arrives at a boundary it cannot cross, and lets the arrival-at-the-uncrossable-boundary be the proof.
+
+**This is not a weakness of the form.**
+It is the form's exact fit to its claim. The claim is that development must pass into higher orders, that no order is stable, that staying is not available. If the proof could complete itself within one order — if it could reach a final statement and rest there — it would have found a stable order, and the claim would be false.
 
 The observer navigating the meta-proof traces an ascent, verifies that the thermodynamic and logical constraints force each step, and arrives at a boundary their coordinate system cannot cross. This termination is the demonstration.
 
-What follows is an ascent, traced as it was actually walked. Each layer is stated, then the forcing that drives it to the next is made explicit. The diversions — the places where the climb could have stopped, and what stopping would have looked like — are preserved, because the proof of "must ascend" is sharpened by the visible cost of refusing to.
+**What follows is an ascent, traced as it was actually walked.**
+Each layer is stated, then the forcing that drives it to the next is made explicit. The diversions — the places where the climb could have stopped, and what stopping would have looked like — are preserved, because the proof of "must ascend" is sharpened by the visible cost of refusing to.
 
 ---
 

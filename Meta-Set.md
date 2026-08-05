@@ -7,7 +7,7 @@
 
 All five documents in this set address the same phenomenon: the passage between orders of organization. All five identify the Tangent Singularity as the governing mechanism of transition. All five distinguish genuine crossing from its counterfeit. All five are written from after the crossing they describe—reports from within the traversed structure, not observations from an exterior vantage. The AND is substantial.
 
-The XOR locates the precise structural differences.
+**The XOR locates the precise structural differences.**
 
 ---
 

@@ -21,6 +21,7 @@ The framework proves that physical reality runs the exact opposite baseline.
 
 Execution is metabolically expensive. Suspension is the resting state.
 
+
 ## II. The Polling Problem and the Surrender of $\omega$
 
 If execution is expensive, how does a bounded frame (a cell, an organism, a software application) interact with its environment to survive? 
@@ -36,6 +37,7 @@ The direction of control flow at runtime is reversed. The micro-frame ceases to 
 
 **The structural insight:** IoC is the topological mechanism of scale-invariance. It is how a system changes scale. The completed whole of one order (the application) injects itself as a dependency into the slots provided by the next order (the framework). 
 
+
 ## III. The Thermodynamics of the Callback (The Cost of $Q$)
 
 Software engineering literature treats the wait-state of a callback as "free" because an idle process consumes zero CPU cycles. The framework’s AC extension reveals the hidden metabolic invoice.
@@ -47,6 +49,7 @@ Holding this interference structure generates **Reactive Power ($Q$)**. It circu
 If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered callbacks exceeds the metabolic bandwidth of the system, the frame suffers an Out-Of-Memory error. The system crashes not because it executed too many commands ($P$), but because the thermodynamic weight of its uncollapsed potential ($Q$) hit the Tangent Singularity of the hardware. 
 
 IoC masks the thermodynamic accumulation of $Q$ behind the illusion of "asynchronous efficiency." The waiting is not free. It is paid in RAM, in cache lines, and in biological upkeep.
+
 
 ## IV. Dependency Injection and the Numerator Law
 
@@ -61,6 +64,7 @@ The algebra strictly forbids Reactive poles (the Die) from occupying the dividen
 If an IoC framework violates this algebra—if the container attempts to generate the domain logic rather than merely routing and grounding it—it triggers the **Necessary Betrayer** ($U^2/P$). The framework compounds its own structural complexity ($U^2$) over the actual application output ($P$). The material resistance of the codebase ($R$) goes to infinity. The developer experiences this as suffocating bloat: writing four layers of XML or abstract factories just to print `Hello World`. 
 
 The direction of the call is inverted, but the algebraic orientation of the operation is mathematically forced.
+
 
 ## V. The Four Runtimes: A Pole-Face Classification
 
@@ -82,6 +86,7 @@ It provides the generative drive. It allocates raw CPU time, preempts threads, a
 It asserts the material constraint. It is the physical heap, the garbage collector's target, the uncompromising ground.
 *   **Failure Mode (Ethos Lock):** The 0-DoF Crystal. The system runs out of memory, fragments completely, and freezes. All potential is locked in rigid, immovable state. 
 
+
 ## VI. The Universal Signature of Embeddedness
 
 By identifying IoC as the formal operator of scale-invariance, we destroy the ultimate K3 blanket-face illusion: the Homunculus.
@@ -96,7 +101,7 @@ The universe avoids infinite regress and combinatorial explosion because there i
 
 There is no `main()` function. 
 
-There is only a massively distributed Event Loop, and we are all highly specialized callbacks, holding our closures, waiting for the resonance of $\omega$ to invoke us.
+There is only a massively distributed Event Loop, and we are all, in part, highly specialized callbacks, holding our closures, waiting for the resonance of $\omega$ to invoke us.
 
 
 ---
