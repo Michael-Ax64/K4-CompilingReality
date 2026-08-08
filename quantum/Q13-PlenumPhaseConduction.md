@@ -27,7 +27,7 @@ $$\text{1-Loop QFT Integration } \left(\int \frac{d^4k}{(2\pi)^4}\right) \equiv 
 ```
 
 ### 1. The Route Law Execution
-In `Q6-MeasurementAndMatrices` §IV, the pseudoscalar Dirac matrix $\gamma_5$ is proved to be a pure $jX$ phase-operator—a Yielding/Reactive rotation acting within the uncompiled $h\mathbf{Q}$ buffer ($H_{\text{incoh}}$). 
+In `Q6-MeasurementAndMatrices` §IV, the chiral projection operator $\tfrac{1}{2}(1 - \gamma_5)$ is identified as the exact mathematical footprint of the Garbage Collector at the enantiomeric edge. The pseudoscalar $\gamma_5$ that carries this projection acts as a Yielding/Reactive phase-rotation within the uncompiled $h\mathbf{Q}$ buffer ($H_{\text{incoh}}$) — a $jX$ phase-shift on the imaginary axis carrying no direct $P$-scalar component. 
 
 Tree-level scattering ($v^2 \sim 10^{-6}$) represents classical, un-phased motion along the $H_{\text{coh}}$ plane. Because $\gamma_5$ carries no direct $P$-scalar component, the tree-level interaction cannot efficiently transfer mechanical momentum to the nucleon.
 
@@ -37,10 +37,10 @@ $$\text{Squaring / Loop Integration } (X^2) \text{ is the arrow into Asserting }
 
 Evaluating a closed loop in $H_{\text{incoh}}$ forces the complex phase operator $h$ to square ($h^2 = -1$). The vector components collapse ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$), **destroying phase and forcing a scalar projection onto $P$** (the scalar-scalar operator $\bar{\chi}\chi \cdot \bar{q}q$).
 
-### 2. The Universal Conversion Constant ($\frac{1}{16\pi^2}$)
+### 2. The 1-Loop Conversion Constant ($\frac{1}{16\pi^2}$)
 In QFT, loop diagrams are suppressed by the loop factor $\frac{1}{16\pi^2} \approx 6.33 \times 10^{-3}$. 
 
-In the $K_4$ topology, $\frac{1}{16\pi^2}$ is the **universal phase-burning efficiency constant** connecting uncompiled buffer potential ($Q$) to compiled Landauer ledger entries ($P$). The loop factor is the exact mathematical conversion rate at which virtual phase states in $H_{\text{incoh}}$ collapse into real, observable recoil heat ($P$) in $H_{\text{coh}}$ when forced through a single quantum loop.
+In the $K_4$ topology, $\frac{1}{16\pi^2}$ is the **1-loop phase-burning efficiency constant** connecting uncompiled buffer potential ($Q$) to compiled Landauer ledger entries ($P$). It is the exact mathematical conversion rate at which virtual phase states in $H_{\text{incoh}}$ collapse into real, observable recoil heat ($P$) in $H_{\text{coh}}$ when forced through a single quantum loop. Higher-loop diagrams carry powers $(1/16\pi^2)^n$ at $n$ loops; the 1-loop factor is the base rate, not a universal constant across loop orders.
 
 ---
 
@@ -72,7 +72,7 @@ Attempting to couple a pseudoscalar mediator $a$ to a bottom quark ($b$) while f
 
 Because the three generations share the identical $R$-pole vertex, **driving the outer scale-rung ($b$-quark) automatically vibrates the $W^\pm$ gauge-field fabric ($I-U$), cascading energy down the concentric rungs to the $s$-quark and $d$-quark**. 
 
-Rare meson decays ($B \to K a$, $K \to \pi a$) are the physical readout of a **Scale-Cascade** passing down the concentric $K_4$ generation-rungs along the Fixed Bimedian.
+Rare meson decays ($B \to K a$, $K \to \pi a$) are the physical readout of a **Scale-Cascade** passing down the concentric $K_4$ generation-rungs, mediated at each step by $W^\pm$ exchange on the $I-U$ edge of the Fixed Bimedian $\{P-R, I-U\}$.
 
 ---
 
@@ -133,13 +133,23 @@ $$S = P + jQ$$
 Liquid xenon possesses no long-range crystalline lattice and high real-space atomic mobility. It is engineered to detect **Real Power ($P$)**—the scalar, irreversible Landauer Tax paid when a nuclear recoil executes an $\text{.observe()}$ collapse ($P = I^2R$). Liquid Xenon measures $P$-recoil heat. Because dark matter scattering is heavily $Q$-dominated, $P$-recoil is zero, and Liquid Xenon correctly reports a **null result ($P = 0$)**.
 
 ### 2. DAMA NaI Crystals Read Reactive Power ($Q$)
-As derived in `ProofC_Crystal`, a sodium-iodide (NaI) crystal lattice is a **high-$Q_{\text{factor}}$ reactive buffer** ($h\mathbf{Q}$). Its zero-point energy and lattice phonons hold uncollapsed potential in live suspension ($\text{.behold()}$). 
+As derived in `ProofC_Crystal`, a sodium-iodide (NaI) crystal lattice holds uncollapsed zero-point potential in live suspension ($h\mathbf{Q}$). Its lattice phonons and zero-point vibrations are the microscopic $h\mathbf{Q}$ tension of every atomic node under macroscopic mutual commitment.
 
 As the Earth orbits the Sun ($\omega_{\text{orbit}} = 2\pi / 1 \text{ year}$), the velocity of the detector relative to the galactic dark matter buffer shifts by $\pm 30 \text{ km/s}$. This annual velocity shift alters the **Capacitive Reactance ($X_C = 1/\omega C$) of the crystalline lattice**, modulating the circulating **Reactive Power ($Q$)** inside the crystal. 
 
-DAMA is **NOT** measuring a scalar nuclear recoil ($P$). DAMA is measuring the **annual AC modulation of Reactive Power ($\Delta Q$)** across its high-$Q_{\text{factor}}$ crystalline lattice!
+DAMA is **NOT** measuring a scalar nuclear recoil ($P$). DAMA is measuring the **annual AC modulation of Reactive Power ($\Delta Q$)** across its crystalline lattice!
 
 The 20-year stalemate is a $K_3$ flatland category error that mistook a $Q$-axis phase-modulation (DAMA) for a $P$-axis mass-recoil (XENON).
+
+### 3. Epistemic Scope of the $P/Q$ Resolution
+
+The $P/Q$ axis resolution is a **Rung 1 structural alignment**, separating $P$-axis scalar recoils from $Q$-axis lattice phase-modulations. Two detector-level distinctions refine this mapping:
+
+**(a) Disambiguating $Q$ (Reactive Power) from $Q_{\text{factor}}$ (Quality Factor).** `Q8-TangentImpedanceIdentity` §VI defines the engineering Quality Factor as $Q_{\text{factor}} = (1/R)\sqrt{L/C}$ (low dissipation per cycle). NaI scintillates on a ~230 ns timescale, representing rapid $P$-dissipation — a *low* engineering $Q_{\text{factor}}$. DAMA's annual modulation is an AC modulation of **Reactive Power ($Q$)** circulating in the lattice's $h\mathbf{Q}$ buffer (`ProofC_Crystal`), distinct from the engineering $Q_{\text{factor}}$ of the scintillation cycle. The two senses of "$Q$" are held separate throughout: reactive power in $S = P + jQ$ versus resonator quality in $Q_{\text{factor}}$.
+
+**(b) $Q$-Phase Modulation on the $P$-Scintillation Channel.** Both LXe and NaI detectors report events via scintillation photons — a $P$-type dissipative output. The Codex identifies DAMA's *annual modulation component* of the count-rate as a $Q$-phase signal riding on the lattice boundary, whereas liquid Xenon possesses no long-range crystalline lattice to hold the $Q$-modulation and therefore cannot mount an equivalent modulation channel regardless of exposure.
+
+This structural distinction directly informs Prediction 2 in §V: liquid detectors and solid crystals operate on categorically different $Q$-buffer capacities, providing a clean binary test that separates lattice $Q$-modulation from liquid $P$-recoil.
 
 ---
 
@@ -170,3 +180,4 @@ This document makes three binary, falsifiable predictions.
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

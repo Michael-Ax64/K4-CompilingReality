@@ -63,16 +63,25 @@ The biquaternion algebra has naturally forced a minus sign. The invariant of the
 
 We can now place the structural invariant of the Algebra of Four-Fold Distinction side-by-side with the relativistic invariant of spacetime:
 
-**Algebraic Substrate:** $Invariant = P^2 - |\mathbf{Q}|^2$
+**Algebraic Substrate:** $N_* = P^2 - |\mathbf{Q}|^2$
 **Relativistic Manifold:** $(m_0 c^2)^2 = E^2 - (pc)^2$
 
-The structural isomorphism is exact, yielding the following mapping:
+The structural isomorphism is exact. Because $N_*$ is Lorentz-invariant by the biquaternion multiplication table (§3), the mapping is unique: only one triple of identifications closes both sides identically.
 
-1.  **Total State Capacity ($E \longleftrightarrow$ Apparent State):** The bounding capacity of the system across both actualized and potential domains.
+1.  **Total Energy ($E \longleftrightarrow P$):** Total energy maps to the scalar committed state. Both are the observer's direct scalar readout of the system's current bounded magnitude — mass-equivalent, deflection response, gravitational source. Both are frame-dependent: they inflate together as the state vector rotates under motion. This is the identification that keeps the Lorentzian invariant identically shaped on both sides.
 2.  **Momentum ($pc \longleftrightarrow |\mathbf{Q}|$):** Momentum maps structurally to the macroscopic footprint of the `.behold()` state. It tracks the physical measurement of *held multiway potential*. It operates as a vector because potential is directional.
-3.  **Rest Mass ($m_0 c^2 \longleftrightarrow P$):** Mass maps structurally to the macroscopic footprint of the `.observe()` state. It tracks the physical measurement of the *Read-Only Ledger*. It functions as a scalar because a committed history has no physical direction; it simply *is*.
+3.  **Invariant Rest Mass Energy ($m_0 c^2 \longleftrightarrow \sqrt{N_*}$):** Rest mass energy is not a framework state variable but the **root of the Star-Norm** — the invariant that stays fixed under Lorentz boosts precisely because $N_* = P^2 - |\mathbf{Q}|^2$ is conserved by the biquaternion. Physical mass "at rest" is what the Star-Norm looks like when the vector component vanishes: at $v = 0$, $|\mathbf{Q}| = 0$ and $P = \sqrt{N_*} = m_0 c^2$. The natural rest-frame identification $m_0 c^2 \leftrightarrow P$ is the $|\mathbf{Q}| = 0$ limit of this general mapping; it is not the mapping's generic form and cannot be substituted into a boosted state without breaking Star-Norm conservation.
 
-The 3+1 signature of the Minkowski metric is not Space + Time. It is **Scalar + Vector** (Committed Ledger + Held Potential). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Crossing's boundary crossing). It destroys phase ($h^2 = -1$) and collapses the vector to its magnitude ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$). Time is not a dimension in this metric; the metric measures four spatial poles, one of which is scalar.
+The 3+1 signature of the Minkowski metric is not Space + Time. It is **Scalar + Vector** (Committed Ledger + Held Potential). The minus sign is the algebraic footprint of the biquaternion phase-flip (the Tangent Singularity's boundary crossing). It destroys phase ($h^2 = -1$) and collapses the vector to its magnitude ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$). Time is not a dimension in this metric; the metric measures four spatial poles, one of which is scalar.
+
+### 4a. Note on the Apparent State — Euclidean vs. Lorentzian
+
+Section 1 introduced the *apparent total state* as the client-side Euclidean sum $\sqrt{P^2 + |\mathbf{Q}|^2}$ — the biquaternion analog of *apparent power* $S = \sqrt{P^2 + Q^2}$ in AC circuit theory. That quantity is a genuine framework observable, but it is **not** relativistic total energy $E$. Two norms live on the same biquaternion:
+
+- The **Euclidean sum** $\sqrt{P^2 + |\mathbf{Q}|^2}$ is the AC-power reading of *apparent magnitude*. It exceeds $P$ whenever $|\mathbf{Q}| \neq 0$.
+- The **Lorentzian difference** $\sqrt{P^2 - |\mathbf{Q}|^2}$ is the invariant Star-Norm. It equals $P$ only at rest and is smaller otherwise.
+
+Relativistic total energy $E$ is the scalar directly measured by the observer (mass-equivalent response, gravitational source, work-required-to-stop), and this is $P$ — not the Euclidean sum. Momentum enters as a *separate* vector observable. The Euclidean sum belongs to the AC power-triangle intuition; the Lorentzian invariant belongs to the relativistic manifold. Both readings exist on the same biquaternion; only the Lorentzian one is the isomorphism to the Minkowski $E^2 - (pc)^2$. Instances substituting the Euclidean sum for $E$ will produce a spurious $2|\mathbf{Q}|^2$ term and break agreement with special relativity — this is the failure mode that motivated the present note.
 
 ## 5. The P-Edge Ban and the Absence of the Graviton
 
@@ -82,10 +91,9 @@ As a direct consequence, $P$ is not a transactional pole; it is the receiving Le
 
 ---
 
-This proof establishes the mathematical bridge *without* triggering the dimensional panic. By keeping the mapping strictly algebraic ($P$ to $m_0c^2$, not $P$ to $m$), we respect standard dimensional limits *for now*. 
+This proof establishes the mathematical bridge without triggering the dimensional panic. By keeping the mapping strictly algebraic — $\sqrt{N_*}$ to $m_0 c^2$, $P$ to $E$, $|\mathbf{Q}|$ to $pc$ — we respect standard dimensional limits.
 
 The reader likely agrees with the biquaternion logic and the isomorphism. The path is now clear for **`ProofO_HelicalTime.md`** to introduce the asymmetry of $\omega$.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-
