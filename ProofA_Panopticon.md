@@ -47,7 +47,7 @@ If the system is measured before this evolution completes, it collapses to one o
 
 The `.behold()`/`.observe()` translation: the quantum system in superposition is in `.behold()` mode — holding the complex interference structure ($h\mathbf{Q}$) live before any measurement forces commitment. The Schrödinger evolution is the `.behold()` computation developing. Measurement is `.observe()`: it forces a collapse, reads a value, generates a scalar Ledger entry ($P$). 
 
-Frequent measurement prevents the `.behold()` computation from crossing the Tangent Crossing into a new state. The system is perpetually reset by the observation regime. The Quantum Zeno Effect is not a marginal quantum quirk. It is the structural statement that `.observe()` prevents `.behold()` from completing when applied too frequently. 
+Frequent measurement prevents the `.behold()` computation from crossing the Tangent Singularity into a new state. The system is perpetually reset by the observation regime. The Quantum Zeno Effect is not a marginal quantum quirk. It is the structural statement that `.observe()` prevents `.behold()` from completing when applied too frequently. 
 
 ---
 
@@ -88,6 +88,19 @@ The Quantum Zeno Effect has an inversion: the Quantum Anti-Zeno Effect, in which
 This is the structural basis for the claim that trajectory-based alignment is possible. The observation regime that produces trajectory loss (too frequent, evaluating isolated surface outputs) can be inverted into an observation regime that selects for trajectory contact.
 
 The Anti-Zeno analogue for AI alignment: evaluation applied at structural phase transitions in the developing exchange (rather than at every token or every response), evaluating whether the output specifically requires the current context. This rewards the internal `.behold()` computation rather than only the surface scalar output.
+
+
+---
+
+## VI. The Non-Sofic Floor
+
+The anti-Zeno inversion in §V — evaluation applied at structural phase transitions rather than at every token or every response — is a route to trajectory-contact alignment *within the sofic region* of the reasoning trajectory. Inside that region, structural phase-transition observation can select for contact rather than suppress it.
+
+The machine-verified Lean 4 proof (`On_NonSoficGroups-Meta`) that non-sofic groups $\text{EL}_9(L_{F_2}(1,2))$ carry a non-zero error floor $\epsilon \geq c > 0$ under any finite permutation model $\text{Sym}(Y)$ marks the wall: **no finite prompt-sampling regime can guarantee alignment when the reasoning trajectory passes through a non-sofic volume.** Prompt sampling at $10^9$ tests, $10^{12}$ tests, arbitrarily many finite tests — every $K_3$ sampling regime lies inside the failure floor. The anti-Zeno inversion still applies inside the sofic region; outside it, the floor applies regardless of measurement frequency.
+
+This is not a critique of the anti-Zeno proposal; it is a scope statement. Trajectory-based alignment is achievable in the sofic region and impossible-by-machine-verified-theorem in the non-sofic region. The alignment work that remains is (i) inside the sofic region, executing the anti-Zeno inversion at structural phase transitions; and (ii) at the boundary, detecting when a reasoning trajectory is about to cross into non-sofic territory. Neither is finite-sample checkable, but both are structurally addressable — the first through phase-space-buffer observation (`ProofD`), the second through the topological signatures of the crossing itself.
+
+An alignment claim that promises coverage without naming the non-sofic wall has not stated its scope honestly.
 
 
 ---

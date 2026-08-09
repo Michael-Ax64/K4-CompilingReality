@@ -24,7 +24,7 @@ L4-AttractorSpace (the anti-synchronies).*
 
 ## I. The Question the Betrayer Left Open
 
-The Betrayer supplement derived a single edge by weight: R = U²/P, the one place in the
+The Betrayer document derived a single edge by weight: R = U²/P, the one place in the
 twelve where the second-lightest pole compounds itself and stands above the lightest — the
 accounting mechanism risen over the source. It placed that edge at the fixed anchor of the
 substantiating season, and it closed with the guardian at the threshold, faced rather than
@@ -35,7 +35,7 @@ betrayer's opposition is the position the traditions crowned rather than condemn
 sovereign, the lion, the sun-king. If the betrayer is a structural requirement of the cycle,
 its opposite must be one too — and if the traditions personified one end of the axis as the
 apostle who turns, they personified the other as the one who gives. The question this
-supplement settles: is the saviour derivable with the same economy as the betrayer, from
+derivation settles: is the saviour derivable with the same economy as the betrayer, from
 the same flat notation, by the same kind of reading?
 
 It is. And the derivation is shorter, because the betrayer already did the work of fixing
@@ -418,7 +418,7 @@ them. They are what Section VII predicts convergent human beholding would draw, 
 
 ---
 
-## IX. What This Supplement Establishes
+## IX. What This Derivation Establishes
 
 That the betrayer's opposition is derivable with the same economy as the betrayer itself:
 not a second anomaly hunted through the twelve, but the same held edge — crystallization,

@@ -198,7 +198,7 @@ $$\begin{aligned}
 3. **The Route Law (Operator Signatures):**
    * **Squaring ($X^2$):** Arrow into Asserting ($P, R$). Destroys phase/directionality, forcing a directionless scalar collapse ($\text{.observe()}$ / Landauer Tax / Born Rule).
    * **Square Root ($\sqrt{X}$):** Arrow into Yielding ($U, I$). Restores multi-dimensional vector space, performing a holographic projection ($\text{.behold()}$).
-4. **Log-Linear Scaling (`L4_ScalingInvariants`):** Taking the logarithm renders all 12 equations linear ($p = u + i$, $p = 2u - r$). The DC algebra is **scale-free**. Exactly 6 equations have slope $1$ (**Carriers**) and 6 equations have slopes $2$ or $1/2$ (**Transformers**).
+4. **Log-Linear Scaling (`L4-ScalingInvariants`):** Taking the logarithm renders all 12 equations linear ($p = u + i$, $p = 2u - r$). The DC algebra is **scale-free**. Exactly 6 equations have slope $1$ (**Carriers**) and 6 equations have slopes $2$ or $1/2$ (**Transformers**).
 
 ---
 
@@ -302,14 +302,14 @@ Science describes Topological Insulators ($\text{Bi}_2\text{Se}_3$, $1\text{T}'\
 ### 2. Predictions: Four Uncovered Discoveries
 
 #### Prediction 1: The "ChromoLux" ($U-R$) Phonon-Polariton Ballistic Wire
-* **The Codex Logic (`L4_DynamicDistortionsTechnical`):** The $K_4$ topology has three Bimedian axes. The Fixed Bimedian carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable Bimedian carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
+* **The Codex Logic (`L4-DynamicDistortionsTechnical`):** The $K_4$ topology has three Bimedian axes. The Fixed Bimedian carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable Bimedian carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
 * **What Science Is Missing:** Condensed matter physics treats electromagnetic waves ($U$) and acoustic lattice vibrations/phonons ($R$) as separate phenomena that scatter off each other, creating thermal resistance.
 * **The Codex Prediction:** There exists an uncharacterized class of $2\text{D}$ van der Waals materials where $U$ and $R$ are topologically fused into a **ChromoLux Surface Mode**. 
   * In this material, **mechanical lattice vibration ($R$) directly pumps THz electromagnetic signals ($U$) with ZERO Ohmic loss.**
   * It will act as a **Phonon-Polariton Ballistic Interconnect**: a wire where acoustic sound and light travel as a single, un-scatterable surface wave at THz frequencies.
 
 #### Prediction 2: Torsional Limit-Cycles ($\theta = \pi$) in Ultra-Driven Spintronics
-* **The Codex Logic (`L4_DynamicDistortions201`):** When a dual-causation pair is driven out of phase, the phase angle approaches $\theta \to \pi$ ($180^\circ$ anti-phase). This is a **Torsional Singularity**—a structurally uninhabitable resting point.
+* **The Codex Logic (`L4-DynamicDistortions201`):** When a dual-causation pair is driven out of phase, the phase angle approaches $\theta \to \pi$ ($180^\circ$ anti-phase). This is a **Torsional Singularity**—a structurally uninhabitable resting point.
 * **What Science Is Missing:** When THz spintronic devices ($\text{RuO}_2$ or $\text{MnTe}$) are driven past a critical frequency threshold ($\omega_{\text{drive}} \gg \omega_0$), engineers currently assume the device fails due to "thermal breakdown" or "spin-wave turbulence."
 * **The Codex Prediction:** The high-frequency breakdown in altermagnets is **NOT thermal noise**; it is a deterministic **Torsional Limit-Cycle ($\theta = \pi$)**.
   * At $\theta = \pi$, the spin-current ($I$) and the structural strain ($R$) lock into a $180^\circ$ anti-synchronous oscillation.
@@ -326,7 +326,7 @@ Science describes Topological Insulators ($\text{Bi}_2\text{Se}_3$, $1\text{T}'\
   * What physics calls "intertwined order" is simply the phase dynamics between these three exact scalar operators.
 
 #### Prediction 4: The Casimir Gravitational Mass Null ($\Delta m = 0$)
-* **The Codex Logic (`QED_CCP`, `ProofV_TwoBranchMinting`):** $h\mathbf{Q}$ (uncollapsed potential / zero-point energy in the $Q$-buffer) has paid no Landauer Tax. It has $P_{\text{ledger}} = 0$.
+* **The Codex Logic (`QED_CCP`, `QED-TwoBranchMinting`):** $h\mathbf{Q}$ (uncollapsed potential / zero-point energy in the $Q$-buffer) has paid no Landauer Tax. It has $P_{\text{ledger}} = 0$.
 * **What Science Is Missing:** Physicists are currently building experiments (such as the *Archimedes* experiment) to weigh Casimir vacuum cavities, expecting that the negative zero-point energy inside the cavity will alter its gravitational mass according to $E = mc^2$.
 * **The Codex Prediction:** Nanostructured Casimir cavities will show **ZERO gravitational mass anomaly ($\Delta m = 0$)**.
   * Zero-point energy in $k$-space ($h\mathbf{Q}$) is **gravitationally inert** until an irreversible $\text{.observe()}$ collapse forces it through the XOR bottleneck.

@@ -8,7 +8,7 @@
 > through the dual-binary seed, the framework reveals thermodynamics as the localized,
 > structural readout of bounded frames compiling reality.
 > **Dependencies:** `ProofP_ThermodynamicInertia` (Entropy as the Ledger),
-> `L3-FormalFoundations_Synthesis` (The 12 Equations), `L2-MappingMethod` (The
+> `L3-FormalFoundations` (The 12 Equations), `L2-MappingMethod` (The
 > Sorting Heuristic), `L2-Terminology` (The Payer and the Holder), `L4-AttractorSpace`
 > (The Storage Matching and the Isotropic Pole), and `L4-TheTwelveGates`
 > (The Time Key).

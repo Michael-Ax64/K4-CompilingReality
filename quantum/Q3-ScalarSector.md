@@ -176,10 +176,6 @@ On a **transactional edge** (I–U, U–R, I–R), "fused" means that the AR-dis
 
 On a **P-edge** (P–U, P–I, P–R), "fused" means permanently zero-impedance. Not indistinguishable — structurally distinct, but connected by no boundary, no operator, and no transit time. Nothing to break, because there is no scalar operator that can occupy the position. This is the sense used in `Q4-OpenExhaust` when it names these edges as the writing heads of the Ledger.
 
-The two senses are not interchangeable. Calling both "fused" invites the reading that P-edges might, at high enough energies, un-fuse — that the universe simply has not reached the temperature at which their scalar operator would turn on. That reading is wrong. The P-edge fusion is a permanent topological property, secured by the Star-Norm conservation argument of §IV, and no energy scale changes it.
-
-Where existing corpus documents (notably `L4-DynamicDistortionsTechnical` §Fixed) use "fused" for P–R without this distinction, the language is legacy from before the P-edge ban was formalized. The correction candidate is on `Backport-LaundryList.md`.
-
 ---
 
 ## VII. Conclusion

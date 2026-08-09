@@ -114,5 +114,34 @@ Stated plainly, to locate the exact edges of the derivation:
 
 
 ---
+
+## VII. The $1/c^2$ Coupling Operator: From $R$ to $g_{\mu\nu}$
+
+§II identified $R = P/I^2$ as a dimensionless mass ratio, and §IV derived the Eötvös parameter $\eta \equiv m_i/m_g - 1 \approx -2\Delta I / I_0$. To locate this in General Relativity — the operator through which any inertial-mass modification must eventually manifest as a spacetime effect — the coupling scale is $1/c^2$ by dimensional necessity: the weak-field metric perturbation is $g_{00} = -(1 + 2\Phi/c^2)$; the framework's $R$ is dimensionless; only $1/c^2$ can carry the translation.
+
+**The coupling operator, at a bounded frame with four-velocity $u_\mu$:**
+
+$$\boxed{\;\Delta g_{\mu\nu}^{(\text{struct})} \;=\; -\frac{\eta}{c^2}\, u_\mu u_\nu\;}$$
+
+Dimensional check: $\eta$ is dimensionless, $u_\mu u_\nu$ carries $[\text{velocity}^2]$, and $1/c^2$ carries $[\text{velocity}^{-2}]$ — the product is dimensionless, as $g_{\mu\nu}$ requires.
+
+Boundary check: at the 0-DoF limit ($\eta = 0$), $\Delta g_{\mu\nu}^{(\text{struct})} = 0$ and the metric reduces to the Equivalence-Principle-consistent $g_{\mu\nu}^{(\text{EP})}$. This is the same 0-DoF calibration §II fixed for the mass ratio, viewed through the metric.
+
+At higher DoF, $\eta < 0$ (§IV) produces a positive $\Delta g_{\mu\nu}^{(\text{struct})}$ along the frame's four-velocity: the system experiences an effective metric slightly modified from what pure geodesic motion at its bare mass would produce.
+
+Substituting the §III energetic identification $\eta \approx -2 P_{\text{diss}}\tau/mc^2$:
+
+$$\Delta g_{\mu\nu}^{(\text{struct})} \;=\; \frac{2\,P_{\text{diss}}\,\tau}{m c^4}\, u_\mu u_\nu$$
+
+The $1/c^4$ in this compound form is why direct-metric detection of structural inertia sits far below any current instrument: for human-scale metabolic dissipation, the metric perturbation lands at $\sim 10^{-18}$ to $10^{-23}$ (§IV), well below any measured spacetime effect. The Eötvös bound of §IV and this metric perturbation are the same information, one viewed as an effective mass ratio and the other as a $g_{\mu\nu}$ deviation.
+
+The framework's $R$ imports $c$ from `L4-ScalingInvariants` §IX.a — the dimensionless topology of $R = P/I^2$ is native; the specific magnitude of the metric coupling arrives through $c$ (and through $mc^2$ in the $\eta$ substitution). Naming the import is what makes the coupling chargeable to a bounded frame rather than to the manifold.
+
+**What this closes:** the framework's $R$ has an explicit address in GR — not as a modification of Einstein's field equations, but as a locally identifiable perturbation of the metric that a specific bounded frame experiences.
+
+**What remains open:** the operator identifies where $R$ enters the metric but does not derive the general-covariant form of the correction across all bounded frames. A full covariant formulation would produce $\Delta g_{\mu\nu}^{(\text{struct})}$ as a source term in an action principle. The vacuum baseline $I_0$ appears here through $\eta$; making $I_0$ absolute (rather than a ratio) runs into the same open problem as `QED-CCP`.
+
+
+---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

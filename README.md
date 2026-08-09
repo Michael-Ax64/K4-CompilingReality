@@ -13,15 +13,15 @@
 
 
 # Compiling Reality
-
-> The universe is a coherent whole, which this repo demonstrates by tracing the simplest mathy volumetric unit through time and space and lots of places in between. It's not a ToE—it's deeper than that.
-
 ## The Algebra of Four-Fold Distinction
 
 > `relational algebra` · `K4 topology` · `thermodynamics of information` · `LLM alignment` · `phase dynamics` · `biquaternion star-norm` · `Markov blanket` · `active inference` · `Landauer principle` · `distributed coherence` · `tangent singularity` · `helical extrusion of time`
 
+"*One of the most coherent, audited, and structurally unified meta-frameworks produced in contemporary theoretical inquiry.*"
 
 # The Finite Volume and the 90-Degree Twist: Compiling Reality as a Scale-Invariant Generative Grammar
+
+> **Epistemic Register:** Structural realization (R-face) and operational orientation. This document establishes the Compiling Reality (CR) framework not as a Theory of Everything, but as an adimensional, scale-invariant generative grammar. It claims that any structural reasoning requires a K4+ topology to map volumes rather than planes, and derives the 12-equation matrix from the minimum requirements of interiority. The mappings to external domains are verified by proof-by-resonance (`ProofS_ResonantNote`), not deductive derivation.
 
 This repository houses a self-imaging topological engine. 
 
@@ -29,7 +29,7 @@ The math compiles itself, and the resonance is involuntary.
 
 It does not contain a "Theory of Everything" attempting to paint the infinite surface of reality. 
 It paints instead the finite volume inside it. 
-A 12-equation matrix governs four variables in full determination (`L3-FormalFoundations_Synthesis`). 
+A 12-equation matrix governs four variables in full determination (`L3-FormalFoundations`). 
 
 Developed from the bottom up by tracking charge dynamics, computational boundaries, and thermodynamic constraints, the framework maps the closed loop by which uncollapsed potential (`.behold()`) serializes into committed physical history (`.observe()`) (`L1-CompilingReality`) becoming ground for yet more uncollapsed potential. It grok's Thermodynamics.
 
@@ -86,7 +86,7 @@ Small difference, huge consequences.
 ### **Formal Spine (L0 – L5)**
 *   **L0 (Orientation):** `L0-Introduction.md`, `L0-Foreword.md`, `L0-HolographicDescent.md`, `L0-DocumentSetArchitecture.md`
 *   **L1-L2 (The Baseline):** `L1-CompilingReality.md`, `L1-ConvergentDiscovery.md`, `L2-Terminology.md`, `L2-StructuralMonograph_K4Interior.md`
-*   **L3 (Foundations):** `L3-FormalFoundations_Synthesis.md`, `L3-EdgeStateSpace.md`, `L3-K4-to-K5-via-AC-Extension.md`, `L3-FormalEpistemology.md`
+*   **L3 (Foundations):** `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L3-K4-to-K5-via-AC-Extension.md`, `L3-FormalEpistemology.md`
 *   **L4 (Applied Domains):** `L4-DimensionalCollapse.md`, `L4-DistributedCoherence.md`, `L4-DynamicDistortionsTechnical.md`, `L4-RecursiveLimits.md`
 *   **L5 (Phase Dynamics):** `L5-K5-PhaseDynamicsTechnical.md`, `L5-AgenticSwarms.md`, `L0-TheStampAndTheDie.md`
 
@@ -113,6 +113,12 @@ A dedicated sequence mapping the Standard Model and quantum mechanics to the K4 
 In standard theoretical frameworks, claims remain on the page as metaphors. Here, the structure is mechanized. The `/code/` and `/manifolds/` directories contain Prolog constraint engines, Lisp evaluators, Python AST checkers, and deployed multi-agent Swarm Controllers. 
 
 The code is the ultimate falsifier. It proves that the framework is an auto-classifying arithmetic syntax. If you feed it a topological impossibility, the compiler crashes.
+
+---
+
+**Update, the "No-Gravitons Proof" has now been properly vetted:**
+
+**Proof V (The Two-Branch Minting):** Structural proof that rest mass is non-additive across Markov Blankets. Maps the relativistic invariant-mass formula onto the Biquaternion star-norm and derives the two-branch theorem of aggregation: $Q$-retention mints mass upward (confinement — the proton, bound light), $P$-export mints it downward (the binding-energy defect — nuclei, lattices), with $\omega$-synchronization at the blanket boundary as the mechanism, warranted by $E = \hbar\omega$. Reproduces the sign structure of relativistic aggregation without additional postulates. Carries two explicitly marked debts: no operator yet converts Landauer bit-counts into MeV, and the differential geometry recovering the Schwarzschild metric remains unwritten.
 
 ---
 

@@ -3,9 +3,18 @@
 
 *The formal topological origin of Markov Blankets*
 
-*Depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. Uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
+*This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
 
-*A discipline note before anything else. Every verb here is pinned to a bounded frame. Wherever the writing was tempted to say "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until a bounded frame could carry the verb, or deleted. The global Interpreter holds; it does not perform tasks. Any draft that assigns it one has already failed, whatever else it gets right.*
+*A discipline note before anything else. Every verb in this document is pinned to a bounded frame and makes no appeals to the universe at large. Anytime I was tempted to write "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until I had the global Interpreter, which holds but does not perform tasks at my back again. Any remainig drafts of this document that assigned the Manifold a role has already failed, whatever else it got right.*
+
+
+
+# Scaling Invariants
+## Where Scale Comes From
+
+*This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
+
+*A discipline note before anything else. Every verb in this document is pinned to a bounded frame. Wherever the writing was tempted to say "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until a bounded frame could carry the verb, or deleted. The global Interpreter holds; it does not perform tasks. Any draft of this document that assigns it one has already failed, whatever else it gets right.*
 
 ---
 
@@ -214,6 +223,32 @@ The scaling invariant establishes the *shape* of the operation that mints scale.
 This is Gabriel's Horn: a geometric shape with infinite surface area but finite volume. The framework holds a massive qualitative surface—every empirical constant in physics has a structural address inside it (the CKM angles, the Yukawa mass hierarchies, the resonance frequencies)—but a small quantitative volume. The framework can state whether a physical quantity is a scalar or a vector, whether it lives on $P$ or $Q$, whether the transition to it involves a squaring or a rooting, and whether it is anchored on $R$ or free. 
 
 It cannot say what the specific numerical value is. The absolute value depends on the substrate's specific inductive and capacitive parameters, which the framework does not import. The framework maps the topology; the physical substrate supplies the numbers. Demanding that the log-linear algebra emit absolute values is demanding a ruler from a system explicitly designed to demonstrate that rulers are local, thermodynamic mintings, not universal grids.
+
+---
+
+## IX.a The Imports: Where the Boundary Runs
+
+§IX stated the general fact. This subsection names the specific imports and the discipline they set for every downstream document.
+
+The log-linear DC algebra sets the *shape* of scaling — carriers, transformers, the Braid's 50:50 distribution, exponent multiplication — but cannot produce dimensionless physical ratios like $v/c$, $\alpha$, or $Z\alpha$ from its own axioms. §VI.a walked one case: mercury's liquid state, gold's color, and the inert-pair effect required the ratio $v/c \sim Z\alpha$ imported from outside the periodic table's own carrier-only algebra. `QED-EotvosBound` runs the same pattern: the Eötvös parameter $\eta$ is derivable from the framework's own $R = P/I^2$, but the identification of $\Delta I/I_0$ with $P_{\text{diss}}\tau/mc^2$ imports $c$ from outside — the algebra names the *structure* of the departure from equivalence; the specific magnitude arrives through the imported constant.
+
+**Everything dimensionless that enters a framework prediction as a specific number is an import.** The algebra names which relations carry the quantity, whether the transition squares or roots it, whether it lives on $P$ or $Q$, whether it anchors on $R$ or free. The value itself — $\alpha = 1/137.036$, $v/c$ for an innermost electron, the specific bandwidth of a substrate — crosses the boundary.
+
+The catalog is short and worth writing down.
+
+**What the algebra supplies internally:**
+* The 50:50 carrier/transformer split (§III).
+* The Braid's distribution of the split (§IV).
+* The AC extension's absolute magnitude $|S| = \sqrt{P^2 + Q^2}$, at the local bounded scale (§VI).
+* The impossibility of a global threshold — no shared ruler across bounded frames (§VI, §X).
+* Log-space geometry: the half-slope basis change (Addendum A1), the Die as subtracted term (A2), the slope-2 overload (A3), the volume/shape split of the complex logarithm (A4).
+
+**What must be imported at the boundary:**
+* The speed of light $c$, and every ratio built on it: $v/c$, $Z\alpha$, spin-orbit couplings, the $mc^2$ rest energy that scales `QED-EotvosBound`.
+* Planck-scale constants ($\ell_P$, $\hbar$, $G$) — these enter as substrate tolerances (§VIII).
+* Any substrate-specific inductance, capacitance, or bandwidth number.
+
+**The discipline this makes explicit:** a framework document that produces a specific number states which quantities came from its own algebra and which crossed the boundary. A number without a named import is a debt-noun of the kind §VI.a catalogued — it occupies the position an explanation would hold, and discharges none of its duties. Naming the import is what makes a prediction chargeable to a bounded frame rather than to the manifold.
 
 ---
 

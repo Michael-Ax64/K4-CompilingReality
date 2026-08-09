@@ -404,7 +404,7 @@ The repository is a workbench, not an altar.
 
 | Skeptic's Objection | Structural & Mathematical Reality | Framework Address |
 |---|---|---|
-| **"Loops & matrices bypass mathematical limits."** | **False.** Finite matrix groups over self-similar rings ($\text{EL}_9(L_{F_2}(1,2))$) carry hard non-sofic obstructions. However, non-soficity specifically limits *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms $Y^Y$. | `On_NonSophicGroups.md` §II, $Q4$-OpenExhaust |
+| **"Loops & matrices bypass mathematical limits."** | **False.** Finite matrix groups over self-similar rings ($\text{EL}_9(L_{F_2}(1,2))$) carry hard non-sofic obstructions. However, non-soficity specifically limits *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms $Y^Y$. | `On_NonSoficGroups-Meta.md` §II, $Q4$-OpenExhaust |
 | **"Substrate switching bypasses infinities."** | **Reframed.** Substrate switching alters the $K_3$ boundary material (silicon vs. biology). Non-soficity limits finite-permutation group actions, not physical material transfer. | `ProofI_Ubiquity`, `L6-InversionOfControl` |
 | **"You are forcing everything into one mold."** | **False.** The framework is not a ToE. It is an adimensional grammar mapping the minimum constraints of $\Delta^3$ mutual determination. | `About-Claims.md`, `README.md` |
 | **"Don't treat GitHub as scripture."** | **Agreed.** Authority arguments carry zero weight. Claims stand or fall on mathematical closure and falsifiable kill-conditions, not links. | `llm.md`, `llm-prooftypes.md` |

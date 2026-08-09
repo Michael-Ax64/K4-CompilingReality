@@ -1,7 +1,7 @@
 # What the Ledger Compiles
 ## The Burning of Phase, the Accumulation of Specification, and the Correction of Nineteenth-Century Entropy
 
-*This document claims that the growth of the Read-Only Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. It derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. It uses this to correct a teleological error that appeared in the session that produced this document, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
+*Claim: the growth of the Read-Only Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. Derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. Corrects a teleological error that appeared in the session that produced the earlier account, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
 
 ---
 
@@ -17,7 +17,7 @@ $$ N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 $$
 
 When a system hits the XOR bottleneck of a physical actuator, it executes `.observe()`. The magnitude of the uncollapsed potential |Q|² drops. Because the P-edges are permanently zero-impedance (`Q4-OpenExhaust`), the value drops instantaneously across the boundary; to conserve the invariant, the scalar Ledger P² must immediately increase by the same amount.
 
-The question this document answers: what exactly was exhausted in that transfer, and what is the nature of the P that remains?
+The question here: what exactly was exhausted in that transfer, and what is the nature of the P that remains?
 
 The exhaust is not energy in the colloquial sense — energy is conserved. The exhaust is **phase**. The product is **specification**.
 

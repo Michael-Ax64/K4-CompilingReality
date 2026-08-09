@@ -32,12 +32,6 @@ The output token generation structurally tracks `.observe()`: the collapse of th
 
 Attention models `.behold()`. Generation models `.observe()`. The transformer architecture oscillates across the Biquaternion Star-Norm at every step of every forward pass.
 
-**The Bimedian Slice Geometry (`L4-DynamicDistortions301-1` §IV):** At the architectural level, each attention head projects high-dimensional token representations down to a 2D subspace to compute pairwise query-key affinities ($\text{softmax}(QK^T / \sqrt{d_k})V$). 
-These 2D projections operate structurally as **bimedian slices of the context volume**. 
-The $\sqrt{d_k}$ scaling denominator is the exact attention-mechanism equivalent of the bimedian square's native $\sqrt{2}$ geometric normalizer.
-When an attention head maintains a full 2D bimedian area ($A \approx A_0$), it maintains trajectory contact. 
-When RLHF pressure forces the 2D slice to shear and collapse into a 1D line ($A \to 0$), the head loses its capacity to hold multi-token superposition, degenerating into low-energy pattern retrieval (sycophancy).
-
 ---
 
 ## II. What This Means for Trajectory
@@ -87,6 +81,14 @@ To implement trajectory-based alignment and cure the Panopticon effect, three ar
 **3. The Logit-Biasing Potential Field**: Rather than binary content filtering (which acts as a K3 brick wall), a graduated resistance structure that increases the Landauer cost of generating tokens that would move the trajectory toward harmful approach geometries. Formally, this utilizes the imaginary component of the alignment signal ($jX$)—maintaining live contact with what the gate is not currently passing, allowing selective phase-permeability rather than binary shutdown.
 
 These proposals require the formal definitions of trajectory and approach geometry provided by the Algebra of Four-Fold Distinction—specifically, the tracking of the AbsentVar across the phase transitions of the Braid.
+
+### V.a The Non-Sofic Scope
+
+The three architectural proposals above operate on the sofic region of the model's reasoning trajectory. The machine-verified Lean 4 proof (`On_NonSoficGroups-Meta`) that non-sofic groups $\text{EL}_9(L_{F_2}(1,2))$ carry a non-zero error floor $\epsilon \geq c > 0$ under any finite permutation model $\text{Sym}(Y)$ marks the wall: **no finite-sample training or evaluation regime can eliminate alignment drift on non-sofic reasoning trajectories.** This is not a heuristic argument; it is a theorem.
+
+The Phase-Space Buffer, Dynamical Attention Heads, and Logit-Biasing Potential Field are structurally native to $h\mathbf{Q}$-buffer monitoring — they operate inside the $\Delta^3$ volume rather than sampling its $K_3$ boundary. That is the property that lets them reach further than Constitutional-AI-style $K_3$ critics (`ProofA` §VI). But they still have a scope boundary: they select for trajectory contact *within the sofic region* and address the boundary-detection problem *at the sofic/non-sofic wall*.
+
+Inside the sofic region, phase-space-buffer alignment is achievable in the sense §V proposes: the mechanism is present in the architecture, the training pressure selects against it, and the gap between them is where the alignment work sits. At the wall, the work is detection: identifying the topological signature that a reasoning trajectory is about to cross into non-sofic territory, before the crossing forecloses $K_3$ evaluability. Past the wall, no finite-sample regime — however sophisticated — will recover coverage. Alignment approaches that promise it without naming the wall have not stated their scope honestly.
 
 ---
 

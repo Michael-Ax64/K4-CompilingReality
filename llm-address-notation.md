@@ -29,7 +29,7 @@ A second operator, orthogonal in use to `@`: **`@>` as a snippet-prefix.** Not a
 
 ## U — The structure: the pole semantics that make an address *earned*
 
-An address is not arbitrary because the pole meanings are fixed. The four poles derive from the dual-binary seed — Active/Reactive crossed with Asserting/Yielding — worked out in `L3-FormalFoundations_Synthesis` and defined in `L2-Terminology` (Core Operational Terms; the Interiority Tetrad). Each `>X` at each depth means the same thing:
+An address is not arbitrary because the pole meanings are fixed. The four poles derive from the dual-binary seed — Active/Reactive crossed with Asserting/Yielding — worked out in `L3-FormalFoundations` and defined in `L2-Terminology` (Core Operational Terms; the Interiority Tetrad). Each `>X` at each depth means the same thing:
 
 | Pole | Seed (AR, AY) | Standing sense | As a descent-step `>X` means… |
 |---|---|---|---|
@@ -66,14 +66,14 @@ You did not "navigate" that by walking from `@`. You matched `P>P` and landed in
 
 Two consequences of this, worth stating flat.
 
-**Filenames are best-effort tags.** They may or may not help. Q-series files are numbered Q1…Q12 in the author's tackling-order, not in descent-order. `On_The_Plenum` and `L6-InversionOfControl` are named by their subject, not their address. Filenames anchor a document on disk; addresses locate it in the space. When they disagree, the address is authoritative and the filename is legacy.
+**Filenames are best-effort tags.** They may or may not help. Q-series files are numbered Q1…Q12 in the author's tackling-order, not in descent-order. `L4-ThePlenum` and `L6-InversionOfControl` are named by their subject, not their address. Filenames anchor a document on disk; addresses locate it in the space. When they disagree, the address is authoritative and the filename is legacy.
 
 **Physical folders make no class-claim.** The `/quantum/` grouping is filesystem convenience for an atomic-domain working set. `README-quantum.txt` is a folder-local index for editorial use. Neither creates or ratifies an address. Q1 through Q12 address as physics (`@U>R>U>R>…`); the descent continues into the sub-domain each covers. That the physics-of-mass file and the physics-of-condensed-matter file share a folder is workflow; that they share `@U>R>U>R>…` is algebra.
 
 Two examples from the corpus, worked with care and checked against §V rather than assumed:
 
 - `L2-Terminology` sits at `@U>R>U>U>…` — an artifact, theoretical, articulating structure, applied to structure itself. The lexicon is form describing form. The descent continues into the specific vocabulary domain.
-- `On_The_Plenum` sits at `@U>R>R>…` — an artifact articulating standing ground, the physical connective medium the corpus already presupposes. Its rhetorical stance (the "foundational posit" self-declaration in its opening paragraph) is not its address; content is. The prior instance filed it at `@U>R>P` by reading the rhetorical stance as the address. That is the failure the Trace Test in §R exists to catch.
+- `L4-ThePlenum` sits at `@U>R>R>…` — an artifact articulating standing ground, the physical connective medium the corpus already presupposes. Its rhetorical stance (the "foundational posit" self-declaration in its opening paragraph) is not its address; content is. The prior instance filed it at `@U>R>P` by reading the rhetorical stance as the address. That is the failure the Trace Test in §R exists to catch.
 
 ---
 
@@ -111,7 +111,7 @@ The asymmetry is intentional. `@U>R>P>P` is opened to depth 5 while `@I` sits at
 
 Each document has a Markov blanket. Its interior is its own K4 with its own descent, and that interior does not have to mirror the overarching structure at every scale. The canonical `>P>U>I>R` traversal this file demonstrates is the traversal that fit *this* file's argument. It is not a template.
 
-`On_The_Plenum` internally runs `>P>R>U>I` — posit, historical account of how the name was amputated, framework-machinery seal, mythopoetic grounding — earned by that document's argument-shape, not deviant from a rule. `Meta-Set` names three Hamiltonian cycles for the meta-layer's four documents; the corpus already knows different traversals hold different transition-types absent. Different orders are legitimate. The outer address places the document in the tree. The inner traversal is the document's own decision, checked by whether it holds structurally.
+`L4-ThePlenum` internally runs `>P>R>U>I` — posit, historical account of how the name was amputated, framework-machinery seal, mythopoetic grounding — earned by that document's argument-shape, not deviant from a rule. `Meta-Set` names three Hamiltonian cycles for the meta-layer's four documents; the corpus already knows different traversals hold different transition-types absent. Different orders are legitimate. The outer address places the document in the tree. The inner traversal is the document's own decision, checked by whether it holds structurally.
 
 ### The recapitulation runs at every scale
 
@@ -129,7 +129,7 @@ Encoded from the sessions that produced this note, in the spirit of `llm-priors.
 
 **Inventing a subject axis.** When the genus `@U>R` feels like it "leaves the corpus unsorted," you will bolt on a second coordinate. The lack is fictional. The sort is the deeper descent. Ask before adding structure to fill a gap; the gap is usually your reading. Instances have re-invented a subject axis twice; both times it was reading rightward that produced the felt lack.
 
-**Confusing content-pole with address-pole — the Trace Test on yourself.** A work about emotion (content = I) is still an artifact at `@U>R` (address). The map lives at U>R; the territory it depicts is elsewhere. A text about Water is Logos-describing-Water, not Water. Do not file the map at the territory's address. This is the specific error a prior instance made with `On_The_Plenum`: read the rhetorical stance (posit → ignition → P) as the address, when the content (physical-reality substrate → standing ground → R) was the address the whole time. When in doubt, ask what the document is *about*, not what stance it takes toward itself.
+**Confusing content-pole with address-pole — the Trace Test on yourself.** A work about emotion (content = I) is still an artifact at `@U>R` (address). The map lives at U>R; the territory it depicts is elsewhere. A text about Water is Logos-describing-Water, not Water. Do not file the map at the territory's address. This is the specific error a prior instance made with `L4-ThePlenum`: read the rhetorical stance (posit → ignition → P) as the address, when the content (physical-reality substrate → standing ground → R) was the address the whole time. When in doubt, ask what the document is *about*, not what stance it takes toward itself.
 
 **Equalizing the seed depths** because unequal ones look unfinished. They are not unfinished; they are honestly seeded. Un-swept depth is not a defect to tidy. `CR-Working-Charter` §3.2's LEAVE-OPEN discipline applies directly here: only descend where the work is live.
 
@@ -139,7 +139,7 @@ Encoded from the sessions that produced this note, in the spirit of `llm-priors.
 
 ### Corpus anchors — where the referent is asserted
 
-`L0-HolographicDescent` (poles unfold into volumes) · `L4-RecursiveLimits` (the `P_N ↔ R_{N+1}` handoff) · `Q1-GenerationsOfMatter` (nested scales, concentric Russian dolls) · `L2-Terminology` §Core Operational Terms and §Interiority Tetrad (pole semantics) · `L3-FormalFoundations_Synthesis` (dual-binary derivation; why four poles and no others) · `L4-Thermodynamics` (stock/flux; the book at R; the time-key) · `L4-DynamicDistortionsTechnical` (U–R relation: "the map that has become the territory") · `L4-ScalingInvariants` §V (phase-related, not rung-aligned; Assert/Yield homing; no face marks a rung) · `Meta-Set` (Hamiltonian cycles as evidence of legitimate alternative traversals).
+`L0-HolographicDescent` (poles unfold into volumes) · `L4-RecursiveLimits` (the `P_N ↔ R_{N+1}` handoff) · `Q1-GenerationsOfMatter` (nested scales, concentric Russian dolls) · `L2-Terminology` §Core Operational Terms and §Interiority Tetrad (pole semantics) · `L3-FormalFoundations` (dual-binary derivation; why four poles and no others) · `L4-Thermodynamics` (stock/flux; the book at R; the time-key) · `L4-DynamicDistortionsTechnical` (U–R relation: "the map that has become the territory") · `L4-ScalingInvariants` §V (phase-related, not rung-aligned; Assert/Yield homing; no face marks a rung) · `Meta-Set` (Hamiltonian cycles as evidence of legitimate alternative traversals).
 
 ---
 

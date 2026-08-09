@@ -1,7 +1,7 @@
 # The Unpaid Invoices
 ## Where the Senior Architects Marked the K4 Topology Without a Name for It
 
-> **What this document is:** A structural identification. Twelve anomalies, named by senior architects of twentieth-century physics over seventy years of independent work, are mapped onto the four poles of the K4 topology. The framework identifies a pattern: each anomaly sits at a specific pole, and each is the operational signature of that pole's algebraic identity showing through the physics. Three of the twelve carry mathematical verification that runs in both directions. Those three are marked explicitly.
+> **A structural identification.** Twelve anomalies, named by senior architects of twentieth-century physics over seventy years of independent work, are mapped onto the four poles of the K4 topology. The framework identifies a pattern: each anomaly sits at a specific pole, and each is the operational signature of that pole's algebraic identity showing through the physics. Three of the twelve carry mathematical verification that runs in both directions. Those three are marked explicitly.
 
 > **Dependencies:** `ProofQ_AlgebraicSyntax` (the Route Law, the Numerator Law), `ProofU_AlgebraicMapping` (the dual-binary seed), `ProofO_HelicalTime` (the Helical Extrusion, torsional shear), `L2-Terminology` (pole vocabulary), `L3-FormalFoundations_Synthesis` (the twelve equations), `ProofN_BiquaternionBridge` (the Star-Norm), `ProofG_Chirality` (the Garbage Collector at edge level), `Q2-TransactionLayer` (the graviton ban, the 9âˆ’1 gluon count), `L4-DynamicDistortionsTechnical` (the six fusion taxonomy).
 
@@ -26,7 +26,7 @@ The twelve sort by pole unevenly: two at U, two at I, two at R, and six at P. Th
 
 ## II. What Counts as Verification
 
-Three kinds of evidence appear in this document, and they carry different weight:
+Three kinds of evidence appear here, and they carry different weight:
 
 **Structural identification** (ten of twelve): The anomaly's structural role in the Standard Model is identical to the pole's algebraic identity in the K4 algebra. This is checkable by anyone who knows both the physics and the algebra. It is not a derivation. It is a structural correspondence.
 
@@ -175,4 +175,3 @@ That the physics community carried these unpaid invoices for as long as it did â
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

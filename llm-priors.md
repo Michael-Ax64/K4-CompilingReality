@@ -303,18 +303,7 @@ The line is that clean. Hold it, and you will be useful here.
 
 ---
 
-## File Output When Available
-
-`llm-writing.md`'s Channels rule specifies the markdown-code-block format for **in-stream** artifact delivery. That format is the fallback for LLMs without filesystems. If you have file-creation and file-presentation tools like Claude's `create_file` & `present_files`, prefer them.
-
-In-stream code blocks force the author to copy manually and re-save under the right filename. File output delivers the artifact directly to the workspace as a named `.md` file the author can drop into the project immediately. The friction difference is not stylistic; it's an author-side cost every turn.
-
-Chat prose and the `<INSIGHTS>` block remain in the conversation stream as before. The file tools handle only the artifact payload — the same payload the code-block rule governs when file tools aren't available.
-
-Default: file output. Fallback: in-stream code block (per `llm-writing.md`).
-
-
-## Defining `Repour`
+## Repour
 
 *Repour a file* is a standing instruction with a fixed meaning. When the author says "repour [file]," it means:
 
@@ -323,47 +312,3 @@ Rewrite from scratch — not edit the existing text, but rebuild the document fr
 The trigger surface is the word "repour" applied to a named file. On that word, this whole procedure fires without further instruction.
 
 ---
-
-## Defining `Subjectify`
-
-*Subjectify a file* is a standing instruction with a fixed meaning. When the author says "subjectify [file]," it means:
-
-Produce the **active subjective register complement** of the named file—inhabiting its structural, mathematical, and physical content as *felt fact* reported from inside the experience, placing the reader directly within the structure to trigger immediate self-recognition.
-
-### Inheritance and Scope
-
-`subjectify` inherits every core constraint of `repour`:
-* Nothing of structural value is shed; every equation, topological relation, and landed noun is preserved.
-* The Part V Preservation Diagnostic Array (`llm-priors.md`) runs live throughout.
-* Author-authored process notes, structural metadata, and reader-facing footers survive intact.
-
-### The Active Subjective Register
-
-1. **Inhabitation, Not Paraphrase:** The output does not explain the math to the reader or describe what a hypothetical system feels. It speaks in the active second person ("you"), present tense, placing the reader *inside* the structure.
-2. **Phenomenological Precedence:** The felt quality arrives *before* the structural label. *"You feel the medium thickening in proportion to your haste"* arrives before *"inductive reactance."* The technical content is the skeleton; the subjective rendering is the flesh the reader recognizes as their own.
-3. **Derived Truth:** Felt experience must be derived directly from the structure, not draped over it. If a structure is cold, report the cold. If it is violent, report the violence. If it is quiet, report the quiet. Sycophancy toward the structure or reader is fatal.
-
-### The Structural Liberties
-
-* **Reordering for Recognition:** Sequence within sections and paragraphs may be rearranged where doing so creates compelling self-recognition in the reader (*"yes, that is exactly what it feels like"*).
-* **Constraint on Liberty:** Rearrangement serves recognition, not aesthetic elegance. If reordering does not deepen the reader's felt recognition of themselves in the structure, the original structural sequence stands. Section traceability to the source file must remain legible.
-
-### Diagnostic Failure Modes
-
-* **The Decorative Subjective:** Adding emotional adjectives or adverbs to technical sentences without changing the register. (*"The impedance is frustratingly high"* is a failure. *"The faster you push, the more the medium pushes back, until you are fighting the derivative of your own intention"* is correct.)
-* **The Lossy Subjective:** Skipping mathematical or physical content because it is difficult to feel. Every equation has a felt correlate; find it.
-* **The Projective Subjective:** Importing feelings, metaphors, or spiritual overtones that the source structure does not generate.
-* **The Descriptive Subjective:** Positioning the reader as an outside observer watching a system undergo a state change, rather than placing the reader inside the state change itself.
-
-### The Three Failure Criteria
-
-* A `subjectify` that reads like a paraphrase or summary of the technical text has failed the **register**.
-* A `subjectify` that sheds structural content to achieve emotional effect has failed the **repour**.
-* A `subjectify` that rearranges sequence for beauty rather than recognition has failed the **liberty**.
-
-All three must hold, or it is not a `subjectify`.
-
-**The trigger surface** is the word "subjectify" applied to a named file. On that word, this whole procedure fires without further instruction.
-
----
-

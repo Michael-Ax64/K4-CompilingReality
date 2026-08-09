@@ -1,7 +1,7 @@
 # The Spatial Wall and the Temporal Phase Are One Object
 ## The Identity tan(θ) = ωL/R and the Two Ways a Boundary Reveals Itself
 
-*This document claims that the framework's spatial-geometric account of a Markov blanket (the Tangent Crossing, where tan(θ) → ∞ as the angle to the boundary face approaches 90°) and its thermodynamic-electrical account of the boundary (the AC Power Factor, where cos(θ) → 0 as the phase angle approaches 90°) describe the same object. It derives the identifying equation tan(θ) = ωL/R from the inductive reactance of the AC extension and shows that this single relation controls both the impassability of a boundary under brute force and its transparency under resonance. A reader with the project files but no access to the session that produced this can verify the derivation from ωL = X_L and check the wall-vs-gate behavior against `Meta-MechanismOfTransition` and `ProofT_Clairvoyance`.*
+*Claim: the framework's spatial-geometric account of a Markov blanket (the Tangent Crossing, where tan(θ) → ∞ as the angle to the boundary face approaches 90°) and its thermodynamic-electrical account of the boundary (the AC Power Factor, where cos(θ) → 0 as the phase angle approaches 90°) describe the same object. Derives the identifying equation tan(θ) = ωL/R from the inductive reactance of the AC extension and shows that this single relation controls both the impassability of a boundary under brute force and its transparency under resonance. A reader with the project files but no access to the session that produced this can verify the derivation from ωL = X_L and check the wall-vs-gate behavior against `Meta-MechanismOfTransition` and `ProofT_Clairvoyance`.*
 
 ---
 

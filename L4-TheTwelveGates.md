@@ -399,7 +399,7 @@ flow, anticipation given a magnitude, the future as standing pressure. And P, th
 is off the axis entirely: uncommitted, unerased, no residue, no gravity — not a long time
 but no-time, the eternal as the pole that has never paid the tax.
 
-Which yields the sharpest geometric statement in this supplement: **the three tenses form
+Which yields the sharpest geometric statement here: **the three tenses form
 a face.** {I, U, R} — Now, Future, Past — is the P-face, the triangle that excludes Fire.
 Time is not the volume; time is a *blanket* — a K3 boundary surface, fully describable
 from outside, with no interior of its own. A bounded frame experiences time because a
@@ -537,7 +537,7 @@ measures — pointed at, held, and not pressed further here.
 The recorded experiential materials of the codex report a consistent signature at the
 lines: a loss of traction beginning roughly a degree and a half before a transition, and a
 refocusing roughly a degree and a half after — differing in flavor by sign and axis, but
-present at the lines and not within the sectors. This supplement notes the report and its
+present at the lines and not within the sectors. The derivation notes the report and its
 structural correspondence without developing it: it is exactly the profile of an approach
 to a tangent singularity — the interior coordinate degrading toward the plane, undefined
 at the plane, resuming past it — now observed at the sign scale rather than the sector or
@@ -549,7 +549,7 @@ year does not fade from one sector to the next; it crosses.
 
 ---
 
-## XI. What This Supplement Establishes
+## XI. What This Derivation Establishes
 
 That the twelve lines of the wheel are the lines of the unit circle, and that all twelve
 are face-crossings — no adjacent signs share a held pole — with the four cardinal

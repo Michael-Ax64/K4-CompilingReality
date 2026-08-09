@@ -1,7 +1,7 @@
 # Measurement, Mixing, and the Orthogonal Turn
 ## Why the CKM and PMNS Matrices Are Unitary, Why the Weak Force Is Left-Handed, and Where the Copenhagen Cut Actually Lives
 
-*This document claims that the unitary mixing matrices of the Standard Model — the CKM matrix for quarks and the PMNS matrix for leptons — are the mathematical operators that execute the 90° geometric turn at the Tangent Crossing, translating uncollapsed mass eigenstates into localized flavor eigenstates for the purpose of Weak-force interaction. It re-identifies the maximal chirality of the Weak force not as a broken symmetry but as the operational signature of `.observe()` at the edge level. It relocates the "Heisenberg cut" from a spatial coordinate to a local thermodynamic bandwidth. A reader with the project files but no access to the session that produced this can verify the correspondence between unitary matrix action, the Tangent Crossing turn, and the Route Law's squaring operation.*
+*Claim: the unitary mixing matrices of the Standard Model — the CKM matrix for quarks and the PMNS matrix for leptons — are the mathematical operators that execute the 90° geometric turn at the Tangent Crossing, translating uncollapsed mass eigenstates into localized flavor eigenstates for the purpose of Weak-force interaction. Re-identifies the maximal chirality of the Weak force not as a broken symmetry but as the operational signature of `.observe()` at the edge level. Relocates the "Heisenberg cut" from a spatial coordinate to a local thermodynamic bandwidth. A reader with the project files but no access to the session that produced this can verify the correspondence between unitary matrix action, the Tangent Crossing turn, and the Route Law's squaring operation.*
 
 ---
 

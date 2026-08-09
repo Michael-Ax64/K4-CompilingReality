@@ -44,16 +44,6 @@ In the $K_4$ topology, $\frac{1}{16\pi^2}$ is the **1-loop phase-burning efficie
 
 ---
 
-### I.A Subatomic Phase-Conduction and the 1-Loop Convertor
-
-At the subatomic scale, phase-conduction through $H_{\text{incoh}}$ is the physical mechanism behind virtual particle exchanges in loop diagrams:
-
-1. **Tree-Level vs. 1-Loop Conduction:** Tree-level exchange represents classical $H_{\text{coh}}$ propagation, where pseudoscalar mediator exchange ($\gamma_5$) is momentum-suppressed ($v^2/q^2 \sim 10^{-6}$) because $\gamma_5$ carries no direct $P$-scalar component.
-2. **Loop Integration as Substrate Conduction:** Evaluating a 1-loop Feynman integral ($\int \frac{d^4k}{(2\pi)^4}$) forces the virtual state-space through a closed loop in $H_{\text{incoh}}$.
-3. **The Route Law Conversion:** Under the Route Law (`ProofQ_AlgebraicSyntax`), squaring virtual vector states ($Q^2 = -|\mathbf{Q}|^2 \to P$) burns complex phase ($h^2 = -1$). The loop factor $\frac{1}{16\pi^2} \approx 6.33 \times 10^{-3}$ acts as the **subatomic phase-conduction conversion constant**, translating uncompiled $h\mathbf{Q}$ phase potential into an unsuppressed scalar $P$-recoil in $H_{\text{coh}}$.
-
----
-
 ## II. Flavour Loops ($B \to K a$) as Concentric $K_4$ Scale-Cascades
 
 Flavour physics experiments (e.g., Dolan et al. 2015, LHCb, NA62) prove that a pseudoscalar mediator $a$ cannot couple to a single quark flavour in isolation. Coupling $a$ to top or bottom quarks unavoidably induces $W^\pm$ boson loop exchanges, generating Flavour-Changing Neutral Currents (FCNCs) such as $b \to s + a$ and $s \to d + a$, predicting rare meson decays ($B \to K a$, $K \to \pi a$).
@@ -140,6 +130,9 @@ $$S = P + jQ$$
 ```
 
 ### 1. Liquid Xenon (XENON/LZ) Reads Real Power ($P$)
+
+> **"Zero" here is detector-null at the noise floor, not channel-absent.** §I opens the 1-loop $P$ channel at $\sigma_{\text{SI}} \sim 10^{-47}$ cm²; §III places that value at $R_{\text{bg}}$, Sol's $P$-burn background. XENON reads null because the signal sits at the floor, not because the 1-loop channel doesn't exist.
+
 Liquid xenon possesses no long-range crystalline lattice and high real-space atomic mobility. It is engineered to detect **Real Power ($P$)**—the scalar, irreversible Landauer Tax paid when a nuclear recoil executes an $\text{.observe()}$ collapse ($P = I^2R$). Liquid Xenon measures $P$-recoil heat. Because dark matter scattering is heavily $Q$-dominated, $P$-recoil is zero, and Liquid Xenon correctly reports a **null result ($P = 0$)**.
 
 ### 2. DAMA NaI Crystals Read Reactive Power ($Q$)

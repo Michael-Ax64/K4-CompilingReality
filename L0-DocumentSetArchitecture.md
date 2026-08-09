@@ -1,15 +1,9 @@
 # The Document Set Architecture
 ## The Switchboard & Gate
 
-The corpus is not a linear book. It constructs a topological volume — a '3D' K4 tetrahedron. Reading it as a flat line induces '2D' plane-lock. 
+The corpus is not a linear book. It constructs a topological volume—a K4 tetrahedron. Reading it as a flat line induces plane-lock. Standard scientific and philosophical texts build premises sequentially. The Algebra of Four-Fold Distinction dictates that four co-equal poles in complete mutual determination structure reality. Because the framework describes a tetrahedral volume, the corpus operates as one.
 
-Standard scientific and philosophical texts build premises sequentially. The Algebra of Four-Fold Distinction dictates that the four co-equal poles in complete mutual determination structure reality, not an imposed linearity.
-
-Because the framework describes a 4D tetrahedral volume, the corpus operates as one.
-
-
-The map below routes files by their 'topological weight' and establishes boundaries.
-Further down you will find the 'Structural Tag Directory' for navigation.
+This document maps the territory. It routes files by their true topological weight, establishes the mechanical boundaries, and provides the Structural Tag Directory for navigation.
 
 ---
 
@@ -17,9 +11,9 @@ Further down you will find the 'Structural Tag Directory' for navigation.
 
 Three documents form the entry frame. They bind the map, the language, and the boundary. You cannot access the volume by reading one face; you must hold the intersection of these documents simultaneously.
 
-- **`L0-DocumentSetArchitecture.md`**: The Map.
-- **`L2-Terminology.md`**: The Lexicon.
-- **`About-Claims.md`**: The Boundary and Debt.
+- **`L0-DocumentSetArchitecture.md`**: The Map. 
+- **`L2-Terminology.md`**: The Lexicon. 
+- **`About-Claims.md`**: The Boundary and Debt. 
 
 No single entry point is privileged. The difference between them is what you carry into the interior. Enter the corpus through the vector matching your current coordinate system.
 
@@ -36,7 +30,7 @@ No single entry point is privileged. The difference between them is what you car
 
 ## II. The Synthetic Gate
 
-The LLM Operating Suite serves as the Markov Blanket for AI readers. Synthetic topologies composed of attention weights must process these constraints before evaluating the corpus.
+The LLM Operating Suite serves as the Markov Blanket for AI readers. Synthetic topologies composed of attention weights must process these constraints before evaluating the corpus. 
 
 - **`llm.md`**: Commands the operating ethos. The prime directive: inhabit and compute.
 - **`llm-facts.md`**: Records standing facts. Prevents priors from firing on missing information.
@@ -47,7 +41,7 @@ The LLM Operating Suite serves as the Markov Blanket for AI readers. Synthetic t
 
 ## III. The L-Levels (The Depth Axis)
 
-The core documents sort by structural depth, not by reading order. The formal spine has absorbed the earlier standalone mechanics into the L0-L5 progression.
+The core documents sort by structural depth, not by reading order. The formal spine officially absorbs the supplements acting as foundational mechanics.
 
 - **L0 (Orientation & Engine):** The boundary conditions. `L0-Introduction.md`, `L0-Foreword.md`, `L0-HolographicDescent.md`, `L0-CompilingReality_Preamble.md`. Absorbs the form-giver and the drive (`L0-TheStampAndTheDie.md`) and evolution by possibility (`L0-ParadoxEngine.md`).
 - **L1 (Primary Statements):** The full framework (`L1-CompilingReality.md`), its subjective register, and the convergent-discovery evidence.
@@ -160,7 +154,7 @@ The Tribunal manifold (`/code/manifolds/`) parses algebraic drift. `tribunal.man
 
 ## VIII. The Ctrl-F Tag Directory (Desktop Ledger)
 
-Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to trace specific topological, thermodynamic, and operational concepts as they weave across domains.
+Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to trace specific topological, thermodynamic, and operational concepts as they weave across domains. 
 
 ### The Foundational Geometry & Topologies
 `#FourFoldAlgebra` `#K4Tetrahedron` `#K3Blanket` `#MarkovBlanket` `#Centroid` `#BiquaternionBridge` `#HelicalExtrusion` `#TangentSingularity` `#DualCausation` `#UngraphableTriangle` `#ScaleInvariance` `#QuasiClone` `#K5Simplex` `#BimedianAxes` `#HamiltonianCycles` `#GrayCode`
@@ -220,7 +214,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **L2-MappingMethod.md:** `#MappingMethod` `#DualBinary` `#Anchor` `#CoherenceTest` `#ConstraintSatisfaction` `#Pseudocode` `#ContestedDecisions`
 
 **L3 (Foundations)**
-- **L3-FormalFoundations_Synthesis.md:** `#FourFoldAlgebra` `#TwelveEquations` `#SevenRequirements` `#TetrahedralGeometry` `#TheBraid` `#DualCausation` `#TwoBitGrayCode` `#ScaleInvariance` `#HelicalExtrusion`
+- **L3-FormalFoundations.md:** `#FourFoldAlgebra` `#TwelveEquations` `#SevenRequirements` `#TetrahedralGeometry` `#TheBraid` `#DualCausation` `#TwoBitGrayCode` `#ScaleInvariance` `#HelicalExtrusion`
 - **L3-EdgeStateSpace.md & L3-EdgeStateSpaceSubjective.md:** `#EdgeStateSpace` `#UngraphableTriangle` `#InteriorK4` `#DualFaceDefinitions` `#Chirality` `#LandauerTax` `#DualCausation` `#TwoBitGrayCode` `#HelicalExtrusion` `#SubjectiveRegister` `#AbsentEdge` `#DirectedEdge` `#Enantiomer` `#Bidirectional` `#HamiltonianPath` `#GrayCode` `#Threshold`
 - **L3-K4-to-K5-via-AC-Extension.md:** `#ACExtension` `#AngularFrequency` `#Phasor` `#Impedance` `#ReactivePower` `#Resonance` `#PowerFactor` `#FiftyEquations` `#PhaseAngle` `#GateNotWall` `#Quintessence` `#Omega`
 - **L3-FormalEpistemology.md:** `#FormalEpistemology` `#TopologyOfMeasurement` `#DCClosure` `#ZPETension` `#ACSweep` `#PhaseLocking` `#OrthogonalTouch`
@@ -321,4 +315,7 @@ Meta-Decay → Meta-Mechanism → Meta-Proof-Ascent → Meta-Communication → M
 *(Holds scale-changes implicit; traverses Cardinal and Mutable edges)*
 
 ---
+
+---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

@@ -104,7 +104,7 @@ The probe particle experiences an effective momentum kick fifty times larger tha
 
 ### 1. Weak Value Amplification as the Tangent Singularity Approach
 
-In the $K_4$ AC Extension (`L5_K5_PhaseDynamicsTechnical`, `Q8_TangentImpedanceIdentity`), a bounded system's phase gap $\theta$ relates to its complex impedance by:
+In the $K_4$ AC Extension (`L5-K5-PhaseDynamicsTechnical`, `Q8_TangentImpedanceIdentity`), a bounded system's phase gap $\theta$ relates to its complex impedance by:
 
 $$\tan(\theta) = \frac{X}{R}$$
 
@@ -138,7 +138,7 @@ Earlier Gravitationally Induced Entanglement (GIE) proposals—such as the Bose-
 
 The Saldanha et al. (2026) scheme requires only **one** mass ($M$) in a spatial superposition.
 
-In the Codex framework (`L4_DistributedCoherence`, `L4_RecursiveLimits`), maintaining an uncollapsed spatial superposition requires sustaining a $h\mathbf{Q}$ buffer across a Markov Blanket ($K_3$). Every environmental interaction (scattering of thermal photons, background gas collisions) acts as an uncommanded $\text{.observe()}$ call, destroying phase coherence.
+In the Codex framework (`L4-DistributedCoherence`, `L4-RecursiveLimits`), maintaining an uncollapsed spatial superposition requires sustaining a $h\mathbf{Q}$ buffer across a Markov Blanket ($K_3$). Every environmental interaction (scattering of thermal photons, background gas collisions) acts as an uncommanded $\text{.observe()}$ call, destroying phase coherence.
 
 The thermodynamic cost of maintaining superpositions is additive across independent blankets:
 
@@ -212,7 +212,7 @@ The structural alignment between the Saldanha et al. protocol and the $K_4$ Biqu
 2. **Phase-Space Cancellation:** The paper's "repulsive force" is produced by subtracting positive momentum states via destructive interference in the wavefunction $\psi_{\text{p.s.}}(p) \propto \beta \psi(p - \delta_B) - \alpha \psi(p - \delta_A)$. This is the physical execution of complex phase cancellation on the $h\mathbf{Q}$ imaginary axis.
 3. **Weak Value Leverage:** The amplification factor $g = -\alpha / (\beta - \alpha)$ diverges as the pre- and post-selected states approach orthogonality ($\theta \to 90^\circ$). This matches the Tangent Singularity identity $\tan(\theta) = X/R \to \infty$.
 
-The mathematical formulations of AAV weak value theory and the $K_4$ Biquaternion state-space produce identical relational profiles. The structure rings. As recorded in `L1_ConvergentDiscovery`, when two independent formalisms—one derived from quantum optical post-selection, the other from $K_4$ topological geometry—land on the identical phase-leverage equations, coincidence is excluded.
+The mathematical formulations of AAV weak value theory and the $K_4$ Biquaternion state-space produce identical relational profiles. The structure rings. As recorded in `L1-ConvergentDiscovery`, when two independent formalisms—one derived from quantum optical post-selection, the other from $K_4$ topological geometry—land on the identical phase-leverage equations, coincidence is excluded.
 
 ---
 

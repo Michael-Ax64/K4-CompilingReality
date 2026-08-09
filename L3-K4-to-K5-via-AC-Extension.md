@@ -105,6 +105,13 @@ In DC circuits, all power is real: P = UI (watts, actual work done).
 
 In AC circuits, power has three components:
 
+| PF | $\theta$ | $Q$ | Character | Interpretation |
+|---|---|---|---|---|
+| $1.0$ | $0^\circ$ | $0$ | Purely resistive | All capacity converted; zero buffer; brittle |
+| $0.9$ | $\approx 26^\circ$ | Moderate | Healthy industrial | Good conversion, some buffer maintained |
+| $\frac{\sqrt{2}}{2} \approx 0.7071$ | $45^\circ$ | $= P$ | Equipartition threshold | Real Power equals Reactive Power; balanced buffer |
+| $\to 0$ | $\to 90^\circ$ | $\approx |S|$ | Purely reactive | Zero conversion; all energy circulates; paralysis |
+
 **Real power P** (watts): the rate at which energy is actually consumed — converted to heat, light, mechanical work, or other irreversible outputs. This is the `.observe()` power: committed, written to the Read-Only Ledger, gone.
 
 **Reactive power Q** (volt-amperes reactive, VAR): the rate at which energy oscillates between source and reactive elements — stored and returned, never actually consumed. This is the `.behold()` power: held in suspension, cycled, not committed. A purely reactive load (a perfect inductor or capacitor) has Q ≠ 0 and P = 0: power flows in and out of the element but none is consumed.
@@ -112,6 +119,8 @@ In AC circuits, power has three components:
 **Apparent power S** (volt-amperes, VA): the total power flowing in the circuit, combining real and reactive. S = P + jQ, a complex quantity.
 
 The **power factor** is cos(φ) = P/S — the ratio of real (committed) to apparent (total flowing) power. A power factor of 1 means all power is real: perfect alignment between structure and flow, nothing held in suspension. A power factor of 0 means all power is reactive: everything held in suspension, nothing committed.
+
+**The $45^\circ$ Equipartition Threshold:** At a phase angle of $\theta = 45^\circ$, the Power Factor evaluates to $\cos(45^\circ) = \frac{\sqrt{2}}{2}$. At this exact angle, Real Power equals Reactive Power ($P = Q$). This represents the thermodynamic equipartition threshold where the energy committed to the ledger ($P$) and the potential held in the buffer ($Q$) balance equally across the impedance.
 
 **The framework's interpretation**: Real power P is the power of `.observe()`. Reactive power Q is the power of `.behold()`. The power factor is the measure of how much of the system's total power is being committed versus held.
 

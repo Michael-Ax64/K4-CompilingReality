@@ -1,7 +1,7 @@
 # On the Cycling Mind
 ## What Was Under the Sixteen Boxes
 
-*This is an application. It walks from four letters a reader may already know — the Myers-Briggs indicator — into the geometry those letters were made from: four poles, six edges, three cycles, one centroid, and a field of preferences a mind runs across all of it. The corpus grounds the geometry (`L3-EdgeStateSpace`, `ProofU_AlgebraicMapping`, `ProofM_CartesianFrame`, `L4-Dimensionality`, `L4-AttractorSpace`); the plenum carries the impedances (`On_The_Plenum`); the diagnostic of what MBTI freezes and why sits at its own address (`On_The_Sixteen_Types`). The finding is that a mind is a live traversal and the sixteen types are the fossil.*
+*This is an application. It walks from four letters a reader may already know — the Myers-Briggs indicator — into the geometry those letters were made from: four poles, six edges, three cycles, one centroid, and a field of preferences a mind runs across all of it. The corpus grounds the geometry (`L3-EdgeStateSpace`, `ProofU_AlgebraicMapping`, `ProofM_CartesianFrame`, `L4-Dimensionality`, `L4-AttractorSpace`); the plenum carries the impedances (`L4-ThePlenum`); the diagnostic of what MBTI freezes and why sits at its own address (`On_The_Sixteen_Types`). The finding is that a mind is a live traversal and the sixteen types are the fossil.*
 
 ---
 

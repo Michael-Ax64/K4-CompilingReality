@@ -184,6 +184,8 @@ The dual-binary seed assigns each pole a two-bit charge: an Active/Reactive bit 
 
 The four poles are the four states of a two-bit register.
 
+### The Polyhedral Seed: The Bimedian Square ($\sqrt{2}$)
+
 ### The Six Edges Are Three Transition-Types
 
 Every edge connects two poles, and the transition along it flips some subset of the two bits. There are exactly three non-empty subsets of two bits:
@@ -194,7 +196,10 @@ Every edge connects two poles, and the transition along it flips some subset of 
 | **Flip Active/Reactive only** | {P-R, I-U} | the Asserting/Yielding bit holds |
 | **Flip both bits** | {P-I, U-R} | nothing holds — the diagonals |
 
-Each transition-type is a **perfect matching** (its two edges share no vertex).
+Each transition-type is a **perfect matching** (its two edges share no vertex). The four edge midpoints form a regular square cross-section passing through the centroid of the tetrahedron (the bimedian slice). 
+
+In the regular geometry, this bimedian square possesses an intrinsic diagonal-to-side ratio of $\sqrt{2}$ (diagonal length $2$, side length $\sqrt{2}$). This ratio is a pure geometric property of the $K_4$ volume, establishing the fundamental metric seed for any 2D cross-sectional projection of the 3D state-space.
+
 
 ### The Three Matchings Are the Three Hamiltonian Cycles' Held Pairs
 
