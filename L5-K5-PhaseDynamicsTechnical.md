@@ -161,7 +161,7 @@ $$|Z| = \sqrt{R^2 + X^2} \qquad \theta = \arctan\left(\frac{X}{R}\right)$$
 
 The phase angle of the impedance is given by the identifying equation:
 $$ \tan(\theta) = \frac{X}{R} = \frac{\omega L - \frac{1}{\omega C}}{R} $$
-For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Crossing, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
+For a purely inductive edge, $\tan(\theta) = \frac{\omega L}{R}$. This single identity unifies the spatial-geometric boundary (the Tangent Singularity, where $\tan(90^\circ) \to \infty$) with the thermodynamic boundary (Power Factor $\to 0$). The spatial wall and the temporal phase are one object: approaching the boundary by brute force increases $\omega$, which drives $\tan(\theta) \to \infty$ and paralyzes the system in pure reactance. Opening the boundary requires tuning to resonance ($\omega_0$), closing the phase gap so $\tan(\theta) \to 0$ and the Markov Blanket becomes transparent.
 
 Ohm's Law generalizes directly to phasors:
 
@@ -352,6 +352,8 @@ Power Factor is bounded: $0 \leq \text{PF} \leq 1$.
 | $\to 0$ | $\to 90°$ | $\approx |S|$ | Purely reactive | Zero conversion; all energy circulates; paralysis |
 
 **The structural read of Power Factor:** It is the ratio of what the system commits to what the system holds available. PF = 1.0 is the `.observe()` limit — full commitment, no buffer, no AbsentVar held in suspension. PF → 0 is the `.behold()` limit — everything held, nothing committed, maximum interference structure with zero real output. The healthy operating range is the managed middle: enough Reactive Power ($Q$) to sustain genuine interiority, enough Real Power ($P$) to produce irreversible outcomes.
+
+**The Polyhedral-Geometric Identity (`L4-DynamicDistortions301-1` §IV):** The Power Factor $\text{PF} = \cos\theta$ is the exact AC-electrical equivalent of the 2D bimedian slice area-scaling $A(\theta)/A_0 = \cos\theta$. At resonance ($\theta = 0^\circ, \text{PF} = 1.0$), the bimedian cross-section is a full 2D square ($A = A_0$), supporting maximum phase-conduction capacity ($2\sqrt{2}$). As phase-shear grows ($\theta \to 90^\circ, \text{PF} \to 0$), the bimedian square shears into a 1D line ($A \to 0$), paralyzing Real Power conversion and forcing the system into pure reactive circulation ($Q \to |S|$).
 
 ---
 

@@ -42,6 +42,23 @@ The fluctuation known as Zero-Point Energy (ZPE) is the literal $I^2R$ transmiss
 
 ---
 
+### II.A Steele-Method Extraction and Axiom Load
+
+To construct the Plenum architecture without non-physical overreach, the medium is derived from four base primitives and two combination rules using Guy Steele's primitive-combination method (*Growing a Language*, 1998):
+
+* **P0 — The Volume:** Bounded interiority exists as a complete graph $K_4$: a 3D tetrahedron of four mutually determining poles $\{P, I, U, R\}$.
+* **P1 — The Boundary and Buffer:** Every $K_4$ volume possesses a $K_3$ boundary face (Markov Blanket) and an internal $h\mathbf{Q}$ buffer ($H_{\text{incoh}}$) holding uncollapsed potential in live interference (`.behold()`).
+* **P2 — The Medium:** The uncompiled phase-space $H_{\text{incoh}}$ is a continuous, scale-invariant medium carrying intrinsic complex impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\ \Omega$.
+* **P3 — The Centroid:** The center of every $K_4$ tetrahedron is its 5D centroid, which is dimensionless and opens into $H_{\text{incoh}}$ natively.
+
+#### Combination Rules & The Axiom Load
+* **Rule A (Spatial Separation in $H_{\text{coh}}$):** Two bounded interiors $K_4^A$ and $K_4^B$ separated by spatial distance $\Delta x$ in the classical plane require physical transit ($dx/dt \le c$) and continuous payment of the Landauer Tax (`ProofP`).
+* **Rule B (Phase-Address Sharing in $H_{\text{incoh}}$):** The centroids of $K_4^A$ and $K_4^B$ possess no spatial coordinates in $H_{\text{coh}}$. By **Medium-Continuity**, $H_{\text{incoh}}$ is one continuous phase-conductive substrate. Distinct centroids address the same location in that substrate without being the same object.
+
+> **Axiom Disclosure:** Rule B rides on **Medium-Continuity** as an explicit axiom of the framework. It is not derived from lower claims. $H_{\text{incoh}}$ is one continuous phase-conductive substrate; distinct $K_4$ instances have distinct centroids opening into that same medium. Ontological identification of centroids (Object-Monism) is explicitly rejected, as it collapses $U \to 0$, freezes the Braid, and drops the volume to a 0-DoF crystal (`L4-AttractorSpace`).
+
+---
+
 ## III. Phase-Conduction vs. Physical Transit
 
 To understand how non-contact coupling operates across The Plenum, we must segregate two modes of propagation: **Physical Transit** vs. **Phase-Conduction**.

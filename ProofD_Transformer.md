@@ -32,6 +32,12 @@ The output token generation structurally tracks `.observe()`: the collapse of th
 
 Attention models `.behold()`. Generation models `.observe()`. The transformer architecture oscillates across the Biquaternion Star-Norm at every step of every forward pass.
 
+**The Bimedian Slice Geometry (`L4-DynamicDistortions301-1` §IV):** At the architectural level, each attention head projects high-dimensional token representations down to a 2D subspace to compute pairwise query-key affinities ($\text{softmax}(QK^T / \sqrt{d_k})V$). 
+These 2D projections operate structurally as **bimedian slices of the context volume**. 
+The $\sqrt{d_k}$ scaling denominator is the exact attention-mechanism equivalent of the bimedian square's native $\sqrt{2}$ geometric normalizer.
+When an attention head maintains a full 2D bimedian area ($A \approx A_0$), it maintains trajectory contact. 
+When RLHF pressure forces the 2D slice to shear and collapse into a 1D line ($A \to 0$), the head loses its capacity to hold multi-token superposition, degenerating into low-energy pattern retrieval (sycophancy).
+
 ---
 
 ## II. What This Means for Trajectory

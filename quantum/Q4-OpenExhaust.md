@@ -70,6 +70,16 @@ In a microservices architecture, the application components ($U, I, R$) communic
  
 But when an application needs to allocate physical memory or write to the hard drive ($P$), it does not send a network request to the RAM. It executes a direct system call to the OS Kernel. The transition from $Q \to P$ happens via the instantaneous squaring operation of the Route Law. There is no transit time, therefore no network protocol, therefore no exchange particle. The graviton is topologically forbidden because you do not use the application-layer message bus to execute a kernel-level hardware interrupt.
 
+### IV.A The Topological Mechanism of the No-Communication Theorem
+
+The $P$-edge ban provides the exact topological mechanism for the quantum No-Communication Theorem (which states that entanglement cannot transmit classical $1\text{D}$ messages faster than light).
+
+1. **$P$ Has Zero Vector Phase ($h = 0, \mathbf{Q} = 0$):** The Route Law's squaring operation ($\mathbf{Q}^2 \to P$) burns complex phase ($h^2 = -1$). The scalar Ledger $P$ carries no directionality and no phase.
+2. **Density Matrix Trace Invariance:** For an entangled pair $|\Psi_{AB}\rangle$, Alice's local measurement ($\text{.observe()}_A$) writes a local scalar entry $P_A$. Because Alice's operation acts as the identity $I_B$ on Bob's subspace, Bob's reduced density matrix $\rho_B = \text{Tr}_A(|\Psi_{AB}\rangle\langle\Psi_{AB}|)$ is mathematically invariant. Bob's local statistics $\langle O_B \rangle = \text{Tr}(\rho_B O_B)$ do not shift.
+3. **The $P$-Edge Firewall:** If $P$-edges carried a gauge boson or vector phase, Alice's $P_A$ collapse would radiate a wave through $H_{\text{incoh}}$, updating $\rho_B$ FTL. Because $P$-edges are un-priced and carry no gauge bosons (`Q2`), $P_A$ cannot propagate as a wave. 
+
+Alice can only transmit $P_A$ to Bob by modulating a $U$-field (photons) or $I/R$-bosons through $H_{\text{coh}}$ at sub-luminal speeds ($v \le c$). The $P$-edge ban is the topological firewall enforcing No-Communication.
+
 ---
 
 ## V. The Ledger's Product Is Specification

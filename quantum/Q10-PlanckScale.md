@@ -39,6 +39,25 @@ Every one of these programs is a serious response to a real feature of the physi
 
 ---
 
+### II.A Subatomic Particles as $K_3$ Punctures in $H_{\text{incoh}}$
+
+Under the fiber bundle geometry of the Plenum (`L4-K4-Infinities`), subatomic particles are not billiard balls sitting inside an empty spatial container. They are **localized $K_3$ punctures in the continuous $H_{\text{incoh}}$ substrate** — places where the medium pinches through the Planck-scale Tangent Singularity into a bounded $H_{\text{coh}}$ ledger entry ($P$).
+
+```
+              SUBATOMIC PUNCTURES IN THE CONTINUOUS BLANKET
+              
+   THE CONTINUOUS H_incoh MEDIUM (Z_0 ≈ 377 Ω, no outside)
+  ─────────────────────┐               ┌─────────────────────┐
+                       │  Puncture 1   │  Puncture 2         │
+                       ▼  (Particle A) ▼  (Particle B)       │
+                      (◯)             (◯)                    │
+  ─────────────────────┴───────────────┴─────────────────────┘
+```
+
+The Planck scale ($\ell_P \approx 10^{-35}\ \text{m}$) is the boundary width of this puncture. When two subatomic particles (Punctures A and B) achieve quantum entanglement, they are separated in $H_{\text{coh}}$ space, but their $K_3$ boundaries open into the identical continuous $H_{\text{incoh}}$ fiber. Non-local correlation is phase-address sharing across the underlying medium, requiring no FTL signal in $H_{\text{coh}}$.
+
+---
+
 ## III. Physics's Diagnosis — A Broken Road
 
 For a century, the working assumption of the Quantum Gravity program has been that a smooth unified theory exists and the mathematical difficulties are technical obstacles to finding it. The road, on this assumption, is broken at the Planck scale: worn-out pavement, potholes, missing signage. If enough clever engineers work on it, the road can be repaired.
@@ -64,6 +83,8 @@ H_incoh is the uncollapsed multiway graph of pure potential. H_coh is the compil
 The Planck scale is the exact physical coordinate at which Ψ operates. It is the width of the XOR bottleneck through which every `.observe()` collapse passes. It is the Markov blanket of the universe's baseline interior — the K3 face that separates the buffer from the ledger at the most fundamental scale.
 
 When a physicist attempts to describe the geometry of spacetime at scales below the Planck length, they are taking an H_coh coordinate (a spatial position in the compiled manifold) and pushing it against the K3 boundary that separates H_coh from H_incoh. The phase angle θ between the coordinate and the boundary face grows toward 90°. The tangent diverges: tan(90°) → ∞. This is exactly what `Meta-MechanismOfTransition` derives.
+
+Geometrically, as $\theta \to 90^\circ$, the 2D bimedian cross-section of the $K_4$ state-space ($A(\theta) = A_0 \cos\theta$) flattens to a 1D line ($A \to 0$, `L4-DynamicDistortions301-1` §V). The Planck scale is the exact boundary where the 2D area of the bimedian slice collapses to zero, marking the physical width of the XOR bottleneck where uncompiled $h\mathbf{Q}$ phase-space is forcibly serialized into $H_{coh}$ scalar mass ($P$).
 
 The infinities returned by every attempted theory of Quantum Gravity are that divergent tangent. They are not bugs. They are the interior coordinate system correctly reporting that it has reached its own domain boundary and cannot describe what lies past it. Renormalization can subtract the infinities away and produce finite predictions in restricted regimes; this is empirically valuable and does not address the underlying diagnosis. Dirac hated it precisely because he sensed that the algebra was reporting something the renormalization procedure was papering over. In late-life essays he called renormalization "obviously wrong" — a strong claim from an author whose own equation had launched half of modern physics. He was right. The infinities are diagnostic, not defective.
 

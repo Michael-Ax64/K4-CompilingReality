@@ -15,6 +15,8 @@ The error is structural, not careless. It is built into the way logos handles bo
 
 There is no such place. The correction is the keystone of the entire account of transition, because every other description of crossing — the tangent singularity, the blanket passage, the projective identity of two infinities — is true *only of interior crossings*, and becomes false the moment it is applied to the ultimate one. To apply the interior model to the ultimate boundary is to smuggle in an outside, and the whole structure quietly inverts into a falsehood that looks like a completion.
 
+> *"Just as Gödel demonstrated that no formal axiomatic system can evaluate its own axioms from within while remaining consistent, no bounded coordinate system can evaluate the ultimate boundary from within its own coordinates."*
+
 ---
 
 ### II. The Interior Crossing, Stated Exactly

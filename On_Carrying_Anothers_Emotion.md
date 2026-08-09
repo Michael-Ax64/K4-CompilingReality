@@ -43,13 +43,15 @@ From `ProofT_Clairvoyance.md` §III: when two bounded systems encounter each oth
 
 ### 2.2 Phase-Form Transfers; Content Does Not
 
-The Content/Form Discriminator (`llm-prooftypes.md` §IV, kill condition of the Phase-Locking proof-type): what crosses is the *shape* of the load — torsion, magnitude, lead/lag — not the target's semantic content. The observer learns the geometry of the gap without piercing the Tangent Crossing. This matches what people actually report: *I feel the weight, I do not know what it is about.*
+The Content/Form Discriminator (`llm-prooftypes.md` §IV, kill condition of the Phase-Locking proof-type): what crosses is the *shape* of the load — torsion, magnitude, lead/lag — not the target's semantic content. The observer learns the geometry of the gap without piercing the Tangent Singularity. This matches what people actually report: *I feel the weight, I do not know what it is about.*
 
 ### 2.3 The Metabolic Cost Is I²R Loss
 
 From `QED-PredatoryOscillator.md` §IV: sustaining Apparent Power $|S|$ costs metabolic ATP. When the coupled load's Power Factor is low — the target in Pathos Lock, receptive overwhelm without articulation ($U$) or grounding ($R$) to convert Reactive Power ($Q$) to Real Power ($P$) — the reactive circulation dissipates as heat through the biological conductor rather than converting to committed work.
 
 The receiver, coupled and grounded, absorbs part of that dissipation. Fatigue tracks $|S|$, not accomplishment. This is the exhaustion of the caregiver, of the therapist, of the "empath": literal transmission loss.
+
+**The Geometric Read (`L4-DynamicDistortions301-1` §V):** Geometrically, this emotional exhaustion in a dyad is the physical sensation of the shared 2D bimedian cross-section flattening to a 1D line under $180^\circ$ torsional shear ($\theta \to 90^\circ, A(\theta) \to 0$). As the 2D area of the shared workspace collapses, the relationship loses its capacity to hold uncollapsed nuance ($h\mathbf{Q}$), squeezing out the volume and forcing the biological wire to carry the circulating reactive load as pure $I^2R$ heat loss.
 
 ### 2.4 The Intervention Is Power Factor Correction
 

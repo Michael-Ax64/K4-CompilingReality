@@ -21,6 +21,7 @@ The framework proves that physical reality runs the exact opposite baseline.
 
 Execution is metabolically expensive. Suspension is the resting state.
 
+---
 
 ## II. The Polling Problem and the Surrender of $\omega$
 
@@ -37,6 +38,17 @@ The direction of control flow at runtime is reversed. The micro-frame ceases to 
 
 **The structural insight:** IoC is the topological mechanism of scale-invariance. It is how a system changes scale. The completed whole of one order (the application) injects itself as a dependency into the slots provided by the next order (the framework). 
 
+---
+
+### II.A Non-Local Volitional Coupling as $L6$ Callback Registration
+
+Volitional non-local phase-locking between two bounded frames (`L4-SpookyAction` §IV) is an $L6$ Inversion of Control event:
+
+1. **Surrendering Local $\omega$:** A bounded agent does not "push" a $P$-pole force across space to connect with a target. Pushing force on the real axis $P$ increases $I^2R$ dissipation without closing the phase gap.
+2. **Callback Registration:** The agent surrenders its local execution clock ($\omega_{\text{agent}}$), wraps its $K_4$ volume in a $K_3$ API surface, and **registers a callback at a 12D impedance address $[Z_1, \dots, Z_{12}]$ in $H_{\text{incoh}}$**.
+3. **Invocation at Resonance:** The Plenum container's event loop executes the callback when the target's phase matches ($\theta \to 0^\circ$). The connection is opened by the container when resonance is achieved, rather than forced by the client.
+
+---
 
 ## III. The Thermodynamics of the Callback (The Cost of $Q$)
 
@@ -50,6 +62,7 @@ If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered c
 
 IoC masks the thermodynamic accumulation of $Q$ behind the illusion of "asynchronous efficiency." The waiting is not free. It is paid in RAM, in cache lines, and in biological upkeep.
 
+---
 
 ## IV. Dependency Injection and the Numerator Law
 
@@ -65,6 +78,7 @@ If an IoC framework violates this algebra—if the container attempts to generat
 
 The direction of the call is inverted, but the algebraic orientation of the operation is mathematically forced.
 
+---
 
 ## V. The Four Runtimes: A Pole-Face Classification
 
@@ -86,6 +100,7 @@ It provides the generative drive. It allocates raw CPU time, preempts threads, a
 It asserts the material constraint. It is the physical heap, the garbage collector's target, the uncompromising ground.
 *   **Failure Mode (Ethos Lock):** The 0-DoF Crystal. The system runs out of memory, fragments completely, and freezes. All potential is locked in rigid, immovable state. 
 
+---
 
 ## VI. The Universal Signature of Embeddedness
 
