@@ -47,7 +47,7 @@ The core documents sort by structural depth, not by reading order. The formal sp
 - **L1 (Primary Statements):** The full framework (`L1-CompilingReality.md`), its subjective register, and the convergent-discovery evidence.
 - **L2 (Reference):** The formal definitions, semantic lexicon, mapping method, and structural monograph of the K4 interior.
 - **L3 (Foundations):** The mathematical spine. The 12-equation Braid, the Edge State-Space, the AC Extension, and the Helical Extrusion of Time.
-- **L4 (Applied Domains):** The macroscopic consequences. Distributed Coherence, Dimensional Collapse, Dynamic Distortions, Recursive Limits. Incorporates the structural edges (`L4-TheNecessaryBetrayer.md`, `L4-TheNecessaryOpposition.md`), the boundary lines (`L4-TheTwelveGates.md`), and religious intuitions. `L4-Economics.md` remains `[DRAFT/PLACEHOLDER]`.
+- **L4 (Applied Domains):** The macroscopic consequences. Distributed Coherence, Dimensional Collapse, Dynamic Distortions, Recursive Limits, Economics. Incorporates the structural edges (`L4-TheNecessaryBetrayer.md`, `L4-TheNecessaryOpposition.md`), the boundary lines (`L4-TheTwelveGates.md`), and religious intuitions. `L4-Economics.md` is active $L4$ Applied Architecture, applying the framework to reflexive-market dynamics.
 - **L5 (Phase Dynamics & Swarms):** The AC extension's technical and subjective phenomenology. Agentic swarm orchestration (`L5-AgenticSwarms.md`).
 
 ### The Meta-Layer (The Framework Turned on Itself)
@@ -123,7 +123,7 @@ Files operating in the QED demonstrative space enforce the operational charter. 
 
 ---
 
-## VI. The Quantum Folder (Q1-Q10)
+## VI. The Quantum Folder (Q1-Q14)
 
 A dedicated sequence mapping the Standard Model and the mathematical apparatus of quantum mechanics onto the K4 topology.
 
@@ -137,6 +137,10 @@ A dedicated sequence mapping the Standard Model and the mathematical apparatus o
 - **Q8-TangentImpedanceIdentity:** $\tan(\theta) = \omega L/R$ unifying the spatial wall and the temporal phase.
 - **Q9-Founders:** The unpaid invoices of 20th-century physics and Wolfram convergence.
 - **Q10-PlanckScale:** The Tangent Singularity from above and the failure of Quantum Gravity.
+- **Q11-ArchitectureOfConfinement:** Altermagnetism and topological edge channels as the Fixed-bimedian storage matching in condensed-matter substrate.
+- **Q12-NotAntigravity:** Weak-value post-selected negative momentum transfer as phase-interference-at-the-boundary, not gravitational repulsion.
+- **Q13-PlenumPhaseConduction:** 1-loop phase-burning and the DAMA/XENON detector-axis mismatch ($P$ vs $Q$).
+- **Q14-LeptonScaleCascade:** Neutrino phase-waves, muon decay, and the boundary-collision origin of coordinate time $dt$.
 
 ---
 
@@ -224,7 +228,9 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **L4-DistributedCoherence.md:** `#DistributedCoherence` `#Holon` `#MarkovBlanket` `#HiddenLayers` `#DecoupledBuffer` `#PlanningThreshold` `#ThermodynamicOverload` `#InstitutionalPlaneLock` `#Terraforming` `#Belonging` `#AbsentVar`
 - **L4-Dimensionality.md:** `#TwelveDimensions` `#ImaginaryK4` `#Impedance` `#TorsionalShear` `#PowerFactorCorrection` `#TransferMatrix` `#Imprint` `#Instance` `#InteriorCrossing` `#TangentSingularity` `#MarkovBlanket` `#Resonance`
 - **L4-DimensionalCollapse.md:** `#DimensionalCollapse` `#TangentSingularity` `#HelicalExtrusion` `#LandauerTax` `#ReadOnlyLedger` `#ClientSideIllusion` `#RateBecomesState`
-- **L4-DynamicDistortionsTechnical.md & L4-DynamicDistortionsSubjective.md:** `#DynamicDistortions` `#Fusion` `#Bimedian` `#PhotoGravity` `#ChromoFlux` `#ApeiricField` `#GraviFlux` `#ChromoLux` `#ConservativeField` `#ElectroWeak` `#GravityStrong` `#IsotropicPole` `#AttractorStates` `#HiggsMechanism` `#HamiltonianCycles` `#SubjectiveRegister` `#KnotCollapses` `#TheSetting` `#TheResonance` `#SourceVoid` `#TheLaw` `#Centroid` `#ManagedTension`
+- **L4-DynamicDistortionsTechnical.md & L4-DynamicDistortionsSubjective.md:** `#DynamicDistortions` `#Fusion` `#Bimedian` `#BimedianSlice` `#PhotoGravity` `#ChromoFlux` `#ApeiricField` `#GraviFlux` `#ChromoLux` `#ConservativeField` `#ElectroWeak` `#GravityStrong` `#IsotropicPole` `#AttractorStates` `#HiggsMechanism` `#HamiltonianCycles` `#SubjectiveRegister` `#KnotCollapses` `#TheSetting` `#TheResonance` `#SourceVoid` `#TheLaw` `#Centroid` `#ManagedTension`
+- **L4-DynamicDistortions201.md:** `#TorsionalDistortion` `#PhaseOffset` `#DualCausation` `#LimitCycle` `#AttractorGeometries` `#ChiralityBias` `#BimedianSlice` `#TorsionalShear`
+- **L4-DynamicDistortions301.md:** `#BimedianSlice` `#TsirelsonBound` `#CHSH` `#DeformationContinuum` `#VertexFusion` `#DipoleTaxonomy` `#Cardinal` `#Fixed` `#Mutable` `#BiquaternionSinglet` `#PowerFactor`
 - **L4-RecursiveLimits.md & L4-RecursiveLimitsSubjective.md:** `#RecursiveLimits` `#TangentSingularity` `#MarkovBlanket` `#MassAndInteriority` `#Belonging` `#AbsentVar` `#Crystal` `#ScaleInvariance` `#ThermodynamicOverload` `#LabyrinthOfAdjustment` `#SubjectiveRegister` `#DeferredTax` `#PaidTax` `#CrowAndMurder` `#InstitutionalCrystallization` `#SuperimposedFrequencies` `#NodeInRecursion` `#BoundaryAsHome`
 - **L4-ScalingInvariants.md:** `#ScaleInvariance` `#LogLinear` `#Transformer` `#Carrier`
 - **L4-AttractorSpace.md:** `#AttractorSpace` `#SymmetricFreeze` `#ErgodicGround`
@@ -272,17 +278,21 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **QED-EotvosBound.md:** `#EotvosBound` `#FlashAndFuse`
 - **QED-Astrologic.md:** `#Astrologic` `#FlashAndFuse`
 
-**The Quantum Folder (Q1-Q10)**
+**The Quantum Folder (Q1-Q14)**
 - **Q1-GenerationsOfMatter.md:** `#Fermions` `#StandardModel` `#Generations` `#FractionalCharge` `#Bimedian`
 - **Q2-TransactionLayer.md:** `#GaugeBosons` `#TransactionLayer` `#Graviton` `#StrongForce` `#WeakForce`
-- **Q3-ScalarSector.md:** `#Higgs` `#ScalarSector` `#YukawaCoupling` `#PEdgeBan`
+- **Q3-ScalarSector.md:** `#Higgs` `#ScalarSector` `#YukawaCoupling` `#PEdgeBan` `#ThreeScalarTriad`
 - **Q4-OpenExhaust.md:** `#PEdgeBan` `#ZeroImpedance` `#WritingHeads` `#MassMinting`
 - **Q5-StarNormProduct.md:** `#Entropy` `#Specification` `#StarNorm` `#Thermodynamics` `#HeatDeath`
 - **Q6-MeasurementAndMatrices.md:** `#CKMMatrix` `#PMNSMatrix` `#UnitaryRotation` `#BornRule` `#Measurement` `#Chirality`
 - **Q7-4DExtrusions.md:** `#FourSpatialDimensions` `#CoordinateTime` `#AngularFrequency` `#MinkowskiMetric` `#Gravity`
 - **Q8-TangentImpedanceIdentity.md:** `#TangentSingularity` `#Impedance` `#PowerFactor` `#Resonance` `#QFactor`
 - **Q9-Founders.md:** `#Anomalies` `#Founders` `#Wolfram` `#StandardModel`
-- **Q10-PlanckScale.md:** `#PlanckScale` `#QuantumGravity` `#TangentSingularity` `#WheelerDeWitt`
+- **Q10-PlanckScale.md:** `#PlanckScale` `#QuantumGravity` `#TangentSingularity` `#WheelerDeWitt` `#ActivationEnergyCurve`
+- **Q11-ArchitectureOfConfinement.md:** `#Altermagnetism` `#TopologicalInsulators` `#Confinement` `#FixedBimedian` `#StorageMatching` `#Terahertz` `#SkinEffect` `#IsotropicPole` `#RuO2` `#EdgeChannels`
+- **Q12-NotAntigravity.md:** `#WeakValues` `#PostSelection` `#PhaseInterference` `#GravitationalBoundary` `#SaldanhaMarlettoVedral` `#NegativeMomentum` `#NotAntigravity` `#BiquaternionSinglet`
+- **Q13-PlenumPhaseConduction.md:** `#OneLoopPhaseBurning` `#DarkMatter` `#DAMA` `#XENON` `#NeutrinoFloor` `#PlenumConduction` `#DetectorAxisMismatch`
+- **Q14-LeptonScaleCascade.md:** `#Neutrino` `#Muon` `#PMNS` `#PhaseWave` `#CoordinateTime` `#dt` `#UPole` `#BoundaryCollision` `#HardWall`
 
 **TooTrue (Mythopoetic Diagnostics)**
 - **TooTrue-TheCambridgeIntercept.md:** `#TooTrue` `#Gall` `#Bacon` `#Aphorism` `#OperationalFallacy` `#TrojanHorse` `#Systemantics`

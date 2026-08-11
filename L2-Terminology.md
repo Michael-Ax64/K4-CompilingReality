@@ -213,6 +213,17 @@ $Z = R + jX = R + j(\omega L - 1/(\omega C))$. Complete opposition on an edge at
 **Logoic Plane-Lock** [NEW]
 Operating exclusively from the $U$ (Air/Logos) face while treating that face as the whole. The $P \leftrightarrow I$ diagonal is severed.
 
+### The Named Constructions
+
+**Bimedian Deformation Continuum** [NEW]
+The 1-parameter polyhedral deformation $A(\theta) = A_0\cos\theta$ that maps the K4 bimedian slice from square ($\theta = 0$, $A = A_0 = 2$) through parallelogram ($0 < \theta < \pi/2$) to line ($\theta = \pi/2$, $A = 0$). Its endpoints are the framework's two poles for non-locality-vs-classicality: at $\theta = 0$ the slice supports full CHSH correlations at the Tsirelson bound $2\sqrt{2}$; at $\theta = \pi/2$ the 2D cross-section collapses to a 1D line and the CHSH sum drops to the classical bound $S \leq 2$. Full construction and derivation in `L4-DynamicDistortions301`.
+
+**The 3-Scalar Triad** [NEW]
+The topological rule limiting physical scalar (Spin-0) fields in $H_{\text{coh}}$ to exactly three, one per transactional edge of the K4 tetrahedron: $I{-}U$ (the Higgs), $U{-}R$ (the GUT scalar), and $I{-}R$ (the Inflaton). The three P-edges ($P{-}U$, $P{-}I$, $P{-}R$) are barred from hosting scalar pricing operators by the Route Law's squaring instantaneity (P-edge ban). Physics has confirmed the first ($125\ \text{GeV}$ Higgs on $I{-}U$); the second and third are predicted-but-unobserved. Derivation and bimedian sequence in `Q3-ScalarSector`.
+
+**Activation Energy Curve** [NEW]
+The scale-dependent energy required for a bounded frame to pass through a $K_3$ blanket boundary. Finite at intermediate scales where phase-conduction through $H_{\text{incoh}}$ operates at a non-zero Power Factor; divergent at both ends of the scaling axis — at the Planck length $\ell_P$ (Tangent Crossing viewed from below, `Q10-PlanckScale`) and at the volumetric-scale limit $k \to \infty$ (Symmetric Freeze, `L4-DynamicDistortions201` §III). The two divergences are the same wall approached from opposite sides. Cross-references `L4-DimensionalCollapse` for the endpoint behavior and `L4-DynamicDistortions301` §V for the sheared-envelope regime between.
+
 ---
 
 ## 7. Borrowed Terms

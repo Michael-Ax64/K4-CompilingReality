@@ -12,6 +12,24 @@ An instance that flattens these shifts runs **monoculture** on the text:
 
 **Write across all four poles.** Rigor ($U$) and ground ($R$) do not require the murder of the spark ($P$) or the slamming of the door on the human reader ($I$). Where a thought is intricate, let the sentence hold it. Where an invitation is extended, state it directly.
 
+--
+
+## Register-Congruent Verbs (Matching Verb to Pole)
+
+Avoid monoculture by matching the verb's voice and direction to the structural pole of the subject:
+
+* **U-Register (Operators, Machinery, Constraints):** Use Active Transitive Verbs (`converts`, `projects`, `forces`, `strips`, `calculates`). The operator is an engine acting on a payload.
+  * *Example:* "The projection operator $\Psi$ **slices** through the Hilbert space..."
+
+* **I-Register (Flows, Currents, State-Transitions):** Use Active Intransitive / Process Verbs (`cascades`, `condenses`, `pours`, `oscillates`, `streams`). The current is a process unfolding through a landscape.
+  * *Example:* "Circulating $Q_{\text{ac}}$ phase-energy **cascades** into $P$-ledger fluid momentum..."
+
+* **P-Register (Source, Ignition, Kairos):** Use Sharp, Imperative Action (`ignites`, `shatters`, `erupts`, `cuts`).
+  * *Example:* "The $3+4$ Heart Junction **ignites** the internal $P$-core..."
+
+* **R-Register (Ground, Ledger, Mass):** Use Unyielding, Standing Verbs (`anchors`, `weighs`, `resists`, `persists`).
+  * *Example:* "The committed ledger **anchors** the frame to the physical manifold..."
+  
 ---
 
 ## Voice

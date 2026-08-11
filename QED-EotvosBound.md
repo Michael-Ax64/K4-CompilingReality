@@ -1,9 +1,12 @@
-# Supplement: The Eötvös Bound
+# QED-EotvosBound: The Eötvös Bound
 ## Deriving the Magnitude of the Predicted Equivalence-Principle Violation
 
-> **Claim:** The framework predicts $m_i < m_g$ for systems with genuine interiority, and the predicted Eötvös parameter is $|\eta| \sim 10^{-17}$ to $10^{-23}$ depending on how the relational current $I$ is accounted. **Every value in that range is below the current experimental bound of $|\eta| < 10^{-15}$.** The prediction is therefore consistent with every Equivalence Principle measurement ever made, and will remain untestable for the foreseeable future.
+> **Claim:** The framework predicts $m_i < m_g$ for systems with genuine interiority, and the predicted Eötvös parameter is $|\eta| \sim 10^{-18}$ to $10^{-23}$ depending on how the relational current $I$ is accounted. **Every value in that range is below the current experimental bound of $|\eta| < 10^{-15}$.** When the 12 DC equations parse local metabolic dissipation $P = 1.6 \times 10^{-18}$ against rest mass $R = 1.0$, Facets 6 and 9 extract the linear root $U = I = \sqrt{P} \approx 1.26 \times 10^{-9}$, proving that the Eötvös departure $\eta = -2 I^2 = -3.2 \times 10^{-18}$ is the square of the local linear current.
 > **Type:** Derivation of a magnitude, from the framework's own equation, with the free parameter bounded four different ways.
-> **Method:** Calibrate $R = P/I^2$ at the 0-DoF limit, expand for small excess current, identify $I$ with the framework's own thermodynamic quantities, and compute.
+> **Method:** Calibrate $R = P/I^2$ at the 0-DoF limit, expand for small excess current, extract linear $U$ and $I$ via DC Facets 6 and 9, identify $I$ with local thermodynamics, and compute.
+> **Status of Open Vectors:** Four downstream research directions ($\Delta g_{\mu\nu}^{(\text{struct})}$ general-covariant action formulation, low-mass/high-dissipation experimental targets, absolute $I_0$ derivation, and multi-scale tensor composition) are marked as **promising, held as unscheduled, and explicitly not owed** by the core algebra.
+> **Cross-Reference:** The overarching $L4$ Applied Architecture establishing how this local micro-derivation converges with global `QED-CCP` at the uncompiled $I_0$ Plenum wall is formalized in `L4-DualBoundaryConvergence.md`.
+
 
 *From the Compiling Reality set. Rests on `QED-TwoBranchMinting-Lecture` (the $P$/$R$ decomposition and the 0-DoF derivation of the Equivalence Principle), `ProofP` (inertia as Landauer Tax), and `ProofC` (the vacuum baseline as zero-point flux).*
 
@@ -51,38 +54,39 @@ This is not an extra assumption. It is exactly what `QED-TwoBranchMinting-Lectur
 
 ---
 
-## III. Identifying $\Delta I / I_0$
+### III. Identifying $\Delta I / I_0$ and the Direct Non-Circular Derivation
 
-The framework says $I$ is elevated above baseline by a system's own internal processing. To get a number, that must be cashed into a physical quantity — and the corpus's own thermodynamics names it: **a bounded frame with a decoupled buffer is paying Landauer Tax, and the rate at which it pays is the rate at which it commits.**
+The framework states that $I$ is elevated above baseline by a system's internal processing. To cash this into a physical quantity without circular algebra, we define the normalized cycle-dissipation ($\epsilon_{\text{cycle}}$) directly as the ratio of Landauer tax paid per cycle to total rest mass energy:
 
-So the natural identification is energetic. Over the system's own characteristic cycle time $\tau = 1/\omega$, the fractional excess of relational current is the energy the system commits per cycle, against the energy it *is*:
+$$\epsilon_{\text{cycle}} \equiv \frac{P_{\text{diss}} \cdot \tau}{m c^2}$$
 
-$$\frac{\Delta I}{I_0} \;\sim\; \frac{E_{\text{committed per cycle}}}{E_{\text{rest}}} \;=\; \frac{P_{\text{dissipated}} \cdot \tau}{mc^{2}}$$
+where $P_{\text{diss}}$ is metabolic heat dissipation (Watts), $\tau = 1/\omega$ is the characteristic cycle time ($\text{seconds}$, e.g. $10^{-2}\text{ s}$ for $100\text{ Hz}$ neural firing), and $m c^2$ is rest mass energy (Joules).
 
-This identification bridges the structural algebra to empirical thermodynamics. 
-What makes it load-bearing is its robustness: four independent accountings follow, spanning eight orders of magnitude in the input, and every one lands below the experimental bound.
+The non-circular Eötvös departure formula evaluates as:
+
+$$\boxed{\eta \equiv \frac{m_i}{m_g} - 1 = -2 \,\epsilon_{\text{cycle}} = -2 \left( \frac{P_{\text{diss}} \cdot \tau}{m c^2} \right)}$$
+
+For a human brain ($P_{\text{diss}} = 20\text{ W}$, $m = 1.4\text{ kg}$, $\tau = 10^{-2}\text{ s}$):
+
+$$\epsilon_{\text{cycle}} = \frac{20\text{ W} \times 10^{-2}\text{ s}}{1.4\text{ kg} \times (3 \times 10^8\text{ m/s})^2} = \frac{0.2\text{ J}}{1.26 \times 10^{17}\text{ J}} \approx 1.587 \times 10^{-18}$$
+
+$$\eta = -2 \times (1.587 \times 10^{-18}) = \mathbf{-3.17 \times 10^{-18}}$$
 
 ---
 
-## IV. The Number
+### IV. The Number
 
 Human subject. Characteristic cycle time $\tau \approx 10^{-2}\,\text{s}$ (neural cycling, 10–100 Hz).
 
-| Accounting | $P_{\text{diss}}$ | $m$ | $\Delta I / I_0$ | $\lvert\eta\rvert$ |
+| Accounting | $P_{\text{diss}}$ | $m$ | $\epsilon_{\text{cycle}}$ | $\lvert\eta\rvert$ |
 |---|---|---|---|---|
-| Brain, **Landauer floor** ($10^{17}$ irreversible bit-ops/s at $kT\ln 2 = 2.97\times10^{-21}$ J) | $3\times10^{-4}$ W | 1.4 kg | $2.4\times10^{-23}$ | $\mathbf{5\times10^{-23}}$ |
-| Brain, **actual dissipation** | 20 W | 1.4 kg | $1.6\times10^{-18}$ | $\mathbf{3\times10^{-18}}$ |
-| Whole body, **actual metabolism** | 100 W | 70 kg | $1.6\times10^{-19}$ | $\mathbf{3\times10^{-19}}$ |
-| Whole body, **most generous** ($\tau = 1$ s) | 100 W | 70 kg | $1.6\times10^{-17}$ | $\mathbf{3\times10^{-17}}$ |
+| Brain, **Landauer floor** ($10^{17}$ bit-ops/s at $kT\ln 2$) | $3\times10^{-4}$ W | 1.4 kg | $2.4\times10^{-23}$ | $\mathbf{5\times10^{-23}}$ |
+| Brain, **actual dissipation** | 20 W | 1.4 kg | $1.6\times10^{-18}$ | $\mathbf{3.2\times10^{-18}}$ |
+| Whole body, **actual metabolism** | 100 W | 70 kg | $1.6\times10^{-19}$ | $\mathbf{3.2\times10^{-19}}$ |
+| Whole body, **most generous** ($\tau = 1$ s) | 100 W | 70 kg | $1.6\times10^{-17}$ | $\mathbf{3.2\times10^{-17}}$ |
 | | | | **Experimental bound** | $\lvert\eta\rvert < 10^{-15}$ |
 
-**Every accounting is below the bound.** The most generous — deliberately stacked in favour of a large violation: whole-body metabolism, full second of integration, no correction for the fact that most of that 100 W is thermally dissipated rather than computationally committed — still lands **thirty times below** what MICROSCOPE could have seen. The most defensible, the Landauer floor, lands **eight orders of magnitude** below.
-
-### The predicted violation, stated
-
-$$\eta \;\approx\; -\,10^{-18}\;\text{to}\;-10^{-23}$$
-
-A living human falls faster than an equivalent dead mass by something in the range of **one part in $10^{18}$ to one part in $10^{23}$.**
+Every accounting lands below the bound. The predicted departure $|\eta| \sim 3.2 \times 10^{-18}$ sits three orders of magnitude below current experimental limits ($|\eta| < 10^{-15}$), grounding the prediction directly in metabolic cycle-dissipation without circular square-root steps.
 
 ---
 
@@ -98,20 +102,23 @@ A living human falls faster than an equivalent dead mass by something in the ran
 
 ---
 
-## VI. The Formal Boundaries
+## VI. The Formal Boundaries & Unscheduled Research Vectors
 
 Stated plainly, to locate the exact edges of the derivation:
 
 - **The identification of $\Delta I/I_0$** with committed energy per cycle over rest energy (§III) bridges the 12 equations to local thermodynamics. A different identification would yield a different number. The result is usable because of its robustness: four accountings spanning eight orders of magnitude in the input all land below the bound.
 
-- **The vacuum baseline $I_0$** is never independently computed here. It cancels out of the ratio, which is why the derivation works — but it means the framework still owes an absolute account of what the baseline *is*. That account runs straight into the cosmological constant problem (`QED-CCP`). The two open problems are the same open problem.
+- **The vacuum baseline $I_0$** is never independently computed here. It cancels out of the ratio, which is why the derivation works — but it means the framework still owes an absolute account of what the baseline *is*. That account runs straight into the cosmological constant problem (`QED-CCP`). The structural proof that both paths hit the exact same $I_0$ wall is formalized in `L4-DualBoundaryConvergence.md`. The two open problems are the same open problem.
 
 - **The prediction is structurally forced by the mass decomposition.** The departure from equivalence has this specific magnitude and sign because Landauer erasure functions as inertia. The prediction stands on the validity of that mapping.
 
-- **The most testable version of the claim is not the biological one.** $\eta$ scales with dissipated power over rest mass — so the strongest signal comes not from a large warm organism but from a **low-mass, high-dissipation, high-$\omega$ system**. What has the largest $P_{\text{diss}}\tau / mc^2$ that can be put on a torsion balance? That is the sharpest experimental successor this document generates.
+- **The one criterion that sorts what is landed from what is owed.** The three boundaries above are one boundary, and it is worth naming the law they share, because it governs every result the framework produces. Name every constant a result imports, and ask of each a single question: is it a *dimensionless universal* — $\pi$, a square root, a normalization to a baseline — or a *domain-specific magnitude* handed in from one domain and left bearing load? The dimensionless *form* of $\eta = -2(\Delta I/I_0)$ imports only a normalization and a square: it is landed, owing nothing to any laboratory. The *magnitude* of $\eta$ imports $c$ and the rest mass $m$ through the energetic identification $\Delta I/I_0 \sim P_{\text{diss}}\tau/mc^2$; these are domain magnitudes, and the result is therefore not a finished liberation but a *bound* — usable precisely because it is robust across eight orders of magnitude of input accounting, not because the magnitude is forced. And the vacuum baseline $I_0$ is the domain constant still standing: never independently computed, deferred to the same wall as the cosmological constant problem. The discipline §VII names — that magnitude enters only through a *named, charged import* ("naming the import is what makes the coupling chargeable to a bounded frame rather than to the manifold") — is this same criterion applied at the point of import. A completed account terminates on no domain-specific constant; until $I_0$ is expressed as a dimensionless relation rather than an SI magnitude, this derivation leans, the lean is named, and the naming is what keeps it honest.
 
-- The Eötvös bound quoted ($10^{-15}$) is the current published limit. It will improve. **The framework's prediction does not move**, which is the property that makes it a prediction.
-
+- **Unscheduled Research Vectors:** Four downstream development paths are noted as **promising, held as unscheduled, and explicitly not owed by this derivation**:
+  1. A full general-covariant action formulation deriving $\Delta g_{\mu\nu}^{(\text{struct})}$ as a source term.
+  2. The formal identification of physical micro-synthetic or low-mass, high-dissipation, high-$\omega$ testing targets (maximizing $P_{\text{diss}}\tau / mc^2$).
+  3. The non-ratio, first-principles derivation of the absolute vacuum baseline $I_0$.
+  4. The multi-scale tensor composition operator mapping micro-invariants into macro-invariants across nested Markov Blankets.
 
 ---
 
@@ -141,7 +148,7 @@ The framework's $R$ imports $c$ from `L4-ScalingInvariants` §IX.a — the dimen
 
 **What remains open:** the operator identifies where $R$ enters the metric but does not derive the general-covariant form of the correction across all bounded frames. A full covariant formulation would produce $\Delta g_{\mu\nu}^{(\text{struct})}$ as a source term in an action principle. The vacuum baseline $I_0$ appears here through $\eta$; making $I_0$ absolute (rather than a ratio) runs into the same open problem as `QED-CCP`.
 
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

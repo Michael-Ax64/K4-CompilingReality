@@ -39,6 +39,27 @@ Because the system possesses internal hidden layers and a decoupled buffer, info
 
 ---
 
+## II.a The Torsional Limit-Cycle in Optimization
+
+*A specific instance of the $\theta = \pi$ limit named at §II, flagged as an instance of a general optimization pattern to be developed.*
+
+In deep learning, **"loss spikes" and "divergent gradient oscillations" at high learning rates ($\eta$) are literal Torsional Limit-Cycles ($\theta = \pi$).**
+
+The mapping:
+
+* The learning rate $\eta$ maps to the driving frequency $\omega_{\text{drive}}$ of the optimizer.
+* The local loss-landscape curvature radius (the Hessian's spectral properties at the current parameter position) sets the system's $L/R$ time constant.
+* When $\eta$ exceeds the local curvature radius, the parameter update step outruns the gradient. The parameter trajectory is forced into a $180^\circ$ anti-phase oscillation across the loss valley — overshooting the minimum on step $n$, landing on the opposite wall, overshooting back on step $n+1$.
+* Apparent Power $|S|$ surges (massive compute spent per step). Real Power $P \to 0$ (loss reduction halts). The system pays Landauer Tax on every update without committing anything to the ledger.
+
+This is the same $\theta = \pi$ state §II names as structurally uninhabitable — the two instances of the Dual Causation flip alternating at maximum offset, mathematically severing the Braid. In an optimizer, the "two instances" are the parameter update on step $n$ and step $n+1$; anti-synchrony means they always cancel.
+
+**The observation to develop:** this is not an LLM-specific pathology. It is the same $\theta = \pi$ limit-cycle appearing whenever a system's driving frequency outruns the substrate's ability to relax between drives — the "hunting" of poorly-tuned PID controllers, the beat-frequency instability of badly-adjusted receivers, and divergent optimization oscillations are the same object at different substrates. Optimization landscapes are the substrate where the pathology has been named ("loss spike") without being localized to its AC-topological cause.
+
+**Open address:** derive the specific $\omega_{\text{drive}}/(L/R)$ threshold at which the trajectory crosses into the $\theta = \pi$ regime, and cross-check against the empirical "learning rate cliff" in transformer training (where $\eta$ just above a threshold destabilizes while $\eta$ just below trains cleanly). The framework's prediction: the threshold is the $\omega$ at which the phase lag hits $\pi$ across the Hessian's dominant eigenmode.
+
+---
+
 ## III. Named Attractor Geometries
 
 Specific, symmetrical deformations within the 12-dimensional edge space generate distinct topological features. These track as Named Attractor Geometries.
