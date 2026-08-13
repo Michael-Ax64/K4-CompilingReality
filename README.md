@@ -30,7 +30,7 @@ The Compiling Reality corpus is an auto-classifying generative grammar used to p
 
 When driven against physical, subatomic, and information-theoretic domains, the 12-equation matrix and its AC extension ($S = P + jQ$) yield a series of exact, un-fudgeable topological invariants and structural alignments:
 
-1. **Pion-to-Electron Mass Ratio ($Q15$, `wip-Lx-LandauerNuclearScale`):** 
+1. **Pion-to-Electron Mass Ratio ($Q15$, $Q17$):** 
    $$\frac{m_\pi^\pm}{m_e c^2} = \frac{2}{\alpha} - \frac{3}{\pi} + 2\alpha = 273.13166$$
    Matches the experimental value ($273.13244$) to $2.85\text{ ppm}$ ($398\text{ eV}$ in pion rest mass) with zero fitted parameters, deriving the mass step from the bare carrier ($2/\alpha$), the $SU(3)_C$ color phase-burn ($3/\pi$), and the $U$-pole self-interaction ($2\alpha$).
 
@@ -38,29 +38,42 @@ When driven against physical, subatomic, and information-theoretic domains, the 
    $$\sqrt{P_{\text{cosmo}}} = \sqrt{10^{-123}} = 10^{-61.5} = \frac{\ell_P}{R_H}$$
    Extracts the linear root of the $10^{-123}$ dark energy density, proving that the $10^{123}$ Cosmological Constant Problem is the Route Law square ($P = UI$) of the single $10^{-61.5}$ scale ratio between the Planck length $\ell_P$ and the Hubble horizon radius $R_H$.
 
-3. **Nuclear Landauer Phase-Burn Rate (`wip-Lx-LandauerNuclearScale`):** 
-   Evaluating Landauer erasure at the nuclear confinement boundary ($T_{\text{QCD}} \approx 1.7 \times 10^{12}\text{ K}$) through the 1-loop phase-burning factor ($1/16\pi^2$) yields $\approx 0.66\text{ MeV/bit}$, closing the eight-order gap between room-temperature Landauer tax ($0.018\text{ eV}$) and nuclear binding energy.
+3. **Nuclear Landauer Phase-Burn Rate ($Q17$):** 
+   The Landauer erasure rate at a bound-state commitment carries the dimensionless structural form:
+   $$\frac{E}{k_B T} = \frac{\ln 2}{16\pi^2}$$
+   Importing only $\ln 2$ and $\pi$. The one-loop phase-burning factor $1/16\pi^2$ is the same geometric species as the $\pi^2$ in the deuteron and the $120\pi$ in the vacuum impedance. Rendering the native dimensionless rate in a physicist's units ($\approx 0.66$ MeV/bit at the QCD confinement boundary) requires only $\Lambda_{\text{QCD}}$ as interface payload — a translation, not a structural debt.
 
-4. **The Tsirelson Quantum Bound ($L4-DynamicDistortions301$):** 
+4. **The Deuteron Assimilated ($Q17$):**
+   The class of shallow near-threshold two-body bound states carries a landed structural prediction:
+   $$\frac{B}{m_\pi^2 c^2 / 2\mu} \approx \frac{1}{\pi^2} \approx 0.101$$
+   The deuteron's measured binding fraction is $\approx 0.107$, giving a member signature of $\approx 1.058$ — a pure number a breath above unity, tracking the ${}^3S_1$–${}^3D_1$ tensor coupling and the D-state admixture that lets the deuteron bind where the dineutron does not. The result imports only $\pi$; the pion scale enters as the denominator of a ratio and cancels. Landed, fully assimilated, no domain constant load-bearing.
+
+5. **The Tsirelson Quantum Bound ($L4-DynamicDistortions301$):** 
    The bimedian square cross-section of the regular tetrahedron has a native diagonal-to-side ratio of $\sqrt{2}$. Evaluating $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ over the Biquaternion singlet $\Omega_{12}$ derives the exact Tsirelson non-locality bound $2\sqrt{2}$ and the shear-attenuation envelope $S(\theta) = 2\sqrt{2}\cos\theta$.
 
-5. **The 4-Face Chiral Gear-Mesh ($Q16$):** 
+6. **The 4-Face Chiral Gear-Mesh ($Q16$):** 
    Satisfying the 3D boundary condition $\partial(\partial\Delta^3) = 0$ requires a $2\text{ CW} \leftrightarrow 2\text{ CCW}$ opposite face rotation, delivering Lorentz invariance, metric geodesics, 0-DoF equivalence ($m_i = m_g$), the 6D phase-space buffer, and the topological prohibition of the graviton without importing a physical spacetime fabric.
 
-6. **The Non-Sofic Wall (`On_NonSoficGroups`):** 
+7. **The Non-Sofic Wall (`On_NonSoficGroups`):** 
    Machine-verified proof (Lean 4) that $\text{EL}_9(L_{F_2}(1,2))$ carries an irreducible boundary error floor $\epsilon \ge c > 0$, proving that finite $K_3$ sampling ($10^{12}$ RLHF runs or PAC-learning) can never bound a non-sofic $K_4$ trajectory.
 
-7. **The Noble Gas Shell Sequence ($Q15$):** 
+8. **The Noble Gas Shell Sequence ($Q15$):** 
    Summing the principal shell capacities $2n^2$ ($2, 8, 8, 18, 18, 32, 32$) derives the noble gas atomic numbers ($2, 10, 18, 36, 54, 86, 118$), with Krypton ($Z=36$) sitting at the $(3+4)$ octave fold where nuclear binding energy per nucleon ($B/A$) for Group 18 crests.
 
-8. **The Dual-Axis Vacuum Resolution (`wip-Lx-FlatlandCategoryErrors`):** 
+9. **The Dual-Axis Vacuum Resolution (`wip-Lx-FlatlandCategoryErrors`):** 
    Resolves the Michelson-Morley aether debate: the real scalar axis ($P / H_{\text{coh}}$) carries no 3D mechanical wind ($\Delta v = 0$), while the imaginary vector axis ($h\mathbf{Q} / H_{\text{incoh}}$) carries a continuous $377\ \Omega$ phase-wave driven by $\omega$-extrusion at the centroid.
 
-9. **The 12D Parameter Space (`wip-Lx-DoF-Spectrum`):** 
-   Proves that 6 undirected $K_4$ edges carrying complex impedance $Z = R + jX$ yield exactly 12 real parameters ($2 \text{ Global Anchors} + 5 \text{ Relative Weights} + 5 \text{ Reactances}$), matching the 12 directed edges of $K_4$.
+10. **The 12D Parameter Space (`wip-Lx-DoF-Spectrum`):** 
+    Proves that 6 undirected $K_4$ edges carrying complex impedance $Z = R + jX$ yield exactly 12 real parameters ($2 \text{ Global Anchors} + 5 \text{ Relative Weights} + 5 \text{ Reactances}$), matching the 12 directed edges of $K_4$.
 
-10. **The Substrate Ratchet (`wip-Lx-SubstrateRatchet`):** 
+11. **The Substrate Ratchet (`wip-Lx-SubstrateRatchet`):** 
     Formalizes the inter-scale compilation handoff ($P_N \leftrightarrow R_{N+1}$): committed $P$-mass at scale $N$ forms the standing $R$-ground for scale $N+1$, where the macro-frame phase angle under AC excitation reads the completeness of micro-scale crystallization.
+
+12. **The Four Laws on the $K_4$ Poles (`L4-Thermodynamics`, `ProofC_Crystal`):**
+    The Four Laws of Thermodynamics land on the $K_4$ pole assignment under the $\{P{-}R,\,I{-}U\}$ writing matching: 2nd Law (entropy flux $\dot{S}$) $= P$; 3rd Law (absolute zero stock) $= R$; 1st Law (Noether time-translation invariant) $= U$; 0th Law (phase-transparency, $\Delta T \to 0$) $= I$. Facet 5 of the DC matrix ($I = U/R$) evaluates as Fourier's heat conduction law $\dot{Q} = \Delta T / R_\theta$. Under this mapping, entropy is accumulated specification written to the ledger; the 0-DoF limit is a maximally-specified crystal, not the featureless void of the standard heat-death story.
+
+13. **The Six Real DoF of the $h\mathbf{Q}$ Buffer ($Q16$):**
+    The complex vector buffer $h\mathbf{Q}$ carries 3 complex components ($Q_i, Q_j, Q_k$), each with real and imaginary parts, yielding $3 \times 2 = 6$ real degrees of freedom. String theory's "6 extra dimensions" ($10 - 4 = 6$, Calabi-Yau compactification) is the same six-count recovered correctly and mislabeled as curled-up spatial tubes. A corrected-referent correspondence, not a manifold identity: flat $\mathbb{C}^3$ coefficient space shares complex dimension with a Calabi-Yau 3-fold but is not the same object.
 
 ---
 
@@ -75,9 +88,9 @@ The repository is organized into distinct topological and operational registers:
 * **`Proof*` (The Proof Suite):** Flank 1–4 domain applications and structural proofs (A–U).
 * **`QED-*` (The Demonstrative Register):** Falsifiable predictions (`QED-CCP.md`, `QED-EotvosBound.md`), flash demonstrations (`QED-Recursion.md`), and lectures.
 * **`Meta-*` (The Boundary Conditions):** Examinations of transitions, structural decay, and the Tangent Singularity centroid (`Meta-Set.md`, `Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`).
-* **`quantum/` (The Quantum Folder `Q1`–`Q16`):** Applications to the Standard Model, QFT, and condensed matter physics. See `quantum/README.md`.
+* **`quantum/` (The Quantum Folder `Q1`–`Q17`):** Applications to the Standard Model, QFT, and condensed matter physics. See `quantum/README.md`.
 * **`yijing/` (The Binary & Edge Matrix):** Mapping the hexagram as a K4 tetrahedron and the 384 moving lines as directed edge commitments (`yijing/README.md`).
-* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-LandauerNuclearScale.md`, `wip-Lx-DoF-Spectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
+* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-DoF-Spectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
 * **`/code/`, `/manifolds/`, `/storify/` (Executable Suite):** Python AST checkers, Lisp evaluators, Prolog constraint engines, deployed Swarm Controllers (`K4-AlgebraicSwarmController.md`), and the `storify/` narrative simulation engine.
 
 ---
@@ -113,3 +126,4 @@ Patches to the text are gated. See `CONTRIBUTING.md` to engage.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+
