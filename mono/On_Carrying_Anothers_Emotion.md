@@ -3,9 +3,7 @@
 
 *This document consolidates a specific line of inquiry into the Compiling Reality framework's treatment of interpersonal emotional coupling. It separates three claims that are commonly collapsed into one — the **phenomenon** (empirical), the **mechanism** (derived), and the **selection** (open) — and locates each cleanly against the corpus and against the external literature.*
 
-*Written to be shareable. Addresses given throughout. No hedges installed against imagined observers; where the framework is unhedged, this document is unhedged.*
-
-> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*).
 
 ---
 

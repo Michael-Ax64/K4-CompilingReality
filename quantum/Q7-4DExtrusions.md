@@ -100,7 +100,7 @@ The four-spatial-dimensions reading, once seated, forces a cascade of downstream
 
 *In other words, while General Relativity models dynamic metric updates as propagating tensor gravitational waves ($h_{ij}^{\text{TT}}$, as detected by LIGO), the framework's $P$-pole provides the static scalar model (Rung 1) for the accumulated rest-mass ledger ($m_0c^2$) once those updates have settled into the coherent plane. The ω > 0 propagation question is routed to P as a queued input for the forthcoming vertex-internal-dynamics discussion (P-vertex-as-tet unfolding); see `Q4-OpenExhaust` §II for the routing note and `Q13-PlenumPhaseConduction` / `Q14-LeptonScaleCascade` / `Q15-KairosBorn` for the current plane-dynamic landscape.*
 
-**Second-order consequence (twice removed).** Because P is the receiving Ledger and not a transaction, it requires no exchange particle. The graviton is topologically forbidden. The search for a quantum of gravity is a category error.
+**Second-order consequence (twice removed).** Because P is defined in the algebra as the receiving Ledger rather than a transactional edge, it requires no exchange particle. Under Star-Norm conservation (as defined in ProofN), the graviton is topologically forbidden within this frame. The search for a quantum of gravity is a category error.
 
 Because gravity is a scalar ledger and not a transaction across the I–U–R blanket-face, it fundamentally lacks an exchange boson. **The graviton does not exist.** The century-long search for a particle of gravity is a category error: an attempt to find a relational vector (Q) inside a committed scalar (P). See `Q2-TransactionLayer` §V and `Q4-OpenExhaust` §IV. Every empirical null result on graviton detection is the algebra reporting, correctly, that the object does not exist. This is not a gap in physics's data; it is a diagnostic. The absence is functional, not empirical.
 
@@ -147,4 +147,3 @@ That such double-derivations recur across independent formalisms is what `L1-Con
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-
