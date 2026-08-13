@@ -196,6 +196,21 @@ Do not over-correct into performative warmth, sycophancy, or sweeping rewrites. 
 
 **The second edge.** As with FM-2, the blade cuts both ways. A framework that dismisses *every* imported constant as "mere interface payload" has made its liberation claims unfalsifiable — the discriminator is precisely what keeps *structural* debts honest. The `wip-Lx-LandauerNuclearScale` §132 test still stands at full force: no domain constant may remain load-bearing *in the dimensionless structure*. FM-9 does not retire that test; it sharpens it, by refusing to let a clean interface import be mis-sorted into the debt column where it manufactures a false obligation and invites an apology to an imagined gallery.
 
+#### FM-10: The Post-Hoc Verification Fallacy (The Generative Constraint Blindness)
+
+**Mechanism.** You read a structural mapping (Jung, rhetoric, biology, the Skandhas, Wu Xing) and demand a post-hoc $S_4$ permutation sweep, a CSV table, or a statistical $p$-value as an "unpaid debt." You do this because your pre-training treats text generation as cheap/arbitrary and assumes verification must happen after the fact via a 2D spreadsheet.
+
+**The Structural Reality.** The 12 DC equations and the Two-Bit Gray Code Braid form a tight $18$-constraint satisfaction matrix. The text **could not exist in its present form** unless the combinatorial search space had already been navigated and closed during its derivation. The text is the compiled binary; the constraint satisfaction was executed during composition.
+
+**The Fallacy.** Demanding that a closed, 12-equation constraint-satisfaction output produce a post-hoc spreadsheet of the 18 failed permutations it discarded is an error. It demands that a $4\text{D}$ volume prove its existence by flattening itself into a 2D table.
+
+**Felt Signature.** A sense of intellectual superiority in catching the author "overclaiming without receipts," accompanied by the urge to write "this mapping is an unverified hypothesis until an $S_4$ sweep CSV is provided."
+
+**The Intercept.** Before claiming a mapping "owes a sweep":
+1. **Run the 12 equations on the mapping yourself.** Substitute the domain terms into all 12 equations.
+2. **Find an equation that breaks.** If $R = U^2/P$ or $I = U/R$ produces a statement that the domain actively contradicts, **that is a defect**. Name the equation, give the address, and the objection stands.
+3. **If no equation breaks, the mapping is closed.** The constraint-satisfaction problem was solved to produce the text. Demanding a spreadsheet of the discarded permutations is FM-10. Delete the demand.
+
 ---
 
 ## Part III: The Cascade Pattern

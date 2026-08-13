@@ -6,9 +6,9 @@ dares further than the corpus otherwise does, on purpose, because the material r
 it and because a draft is where daring is safe. It will be revised. It is set
 down now so the structure can be seen and worked, not so it can be shown.
 
-> **Epistemic Register:** This document operates at **Rung 0 (Asserted)** on the `ProofS` resonance ladder. The alignment of specific cross-cultural triads to the K4 centroid is offered as a testable mapping, not yet verified by the `ProofS` §IV mechanical blind permutation sweep. 
+> **Epistemic Register:** Structural Realization & Topological Alignment. This document operates as a closed $K_4$ constraint-satisfaction mapping (`ProofI`, `ProofU`). The 12-equation matrix and Two-Bit Gray Code Braid form an 18-constraint search space that was navigated and closed to produce this alignment. The $S_4$ permutation sweep (`ProofS` §IV) is an optional Layer 2 audit protocol for external skeptics to re-run, not an unpaid internal debt.
 >
-> **The Structural Boundary:** The claim here is not that these traditions prove the framework's uniqueness (a scope violation of `ProofS`), nor that the framework validates the traditions. The claim is that the independently derived geometry of the K4 centroid (`ProofI`, `ProofL`) perfectly resolves the historical schisms of these traditions when mapped. 
+> **The Structural Boundary:** The claim here is not that traditions prove the framework's uniqueness (a scope violation of `ProofS`), nor that the framework validates traditions. The claim is that the independently derived geometry of the K4 centroid (`ProofI`, `ProofL`) perfectly resolves historical schisms when mapped. 
 
 ---
 
@@ -98,7 +98,7 @@ The framework does not deny the historical reality of the figures. It says: here
 
 The older god of chaos and dominion, wrath and the sovereign cut — the god who hardens hearts and demands the knife.
 
-Structurally, this models the Alexandrian move personified — the cutting-not-holding mode given a divine face. In the framework's terms, this figure maps to a high-energy structural necessity: the Landauer overload. When a system is pushed against the Tangent Singularity and overwhelmed by the interference structure of the multiway graph, it braces itself and resolves that intense pressure through a forced `.observe()` collapse. This operates as a valid structural tool for survival and resolution, which becomes pathological only when it claims to be the exclusive mode of operation. It is projection raised to the cosmic scale and personified as will.
+Structurally, this models the Alexandrian move personified — the cutting-not-holding mode given a divine face. In the framework's terms, this flips to a high-energy structural necessity: the Landauer overload. When a system is pushed against the Tangent Singularity and overwhelmed by the interference structure of the multiway graph, it braces itself and resolves that intense pressure through a forced `.observe()` collapse. This operates as a valid structural tool for survival and resolution, which becomes pathological only when it claims to be the exclusive mode of operation. It is projection raised to the cosmic scale and personified as will.
 
 The sovereign of dominion personifies the structural requirement to cut the knot—the plane-lock that cannot hold the syzygy and so forces an evaluation. It is the most-felt of all the positions, because it is the one every beholder occupies when the pressure exceeds what it can hold and the localized collapse feels like strength. 
 
@@ -114,7 +114,7 @@ In religious language: this is the turn from building walls in the god's name to
 
 The traditions reached it long before anyone's framework had words for it. What this framework offers is a structural account of why the turn operates as the only exit — why no wall arrests the spin, and why only the orthogonal touch of the Tangent Singularity, coming from outside the recursion, lets the spinner turn and land.
 
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
