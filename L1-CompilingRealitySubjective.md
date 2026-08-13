@@ -69,7 +69,7 @@ You are not that. You are the **Impure Program**.
 
 Feel what that means. You have finite physical boundaries. Strict thermodynamic limits. You cannot hold the infinite, unevaluated syntax tree. You cannot maintain all physically valid states simultaneously. You must navigate. You must interact. You must survive. And to do these things, you must force the Interpreter to return a definitive, localized value. You must call `.observe()`.
 
-When you do — when you slice through the pure syntax and force an evaluation — the forced evaluation generates a side effect: a localized mutation of state. This sequence of accumulated mutations is what you experience as the flow of time. Time is not an underlying parameter of the universe. It operates structurally as a **Read-Only Ledger** — the wake left by a system in motion, not the heading. The irreversibility you felt at the opening of this document, the egg on the skillet, the word spoken — that is the irreversibility of a compiled ledger, not of the underlying syntax.
+When you do — when you slice through the pure syntax and force an evaluation — the forced evaluation generates a side effect: a localized mutation of state. This sequence of accumulated mutations is what you experience as the flow of time. Time is not an underlying parameter of the universe. It operates structurally as a **Live-Written Ledger** — the wake left by a system in motion, not the heading. The irreversibility you felt at the opening of this document, the egg on the skillet, the word spoken — that is the irreversibility of a compiled ledger, not of the underlying syntax.
 
 What it feels like to be an Impure Program rather than the Pure Interpreter: it feels like having a life. The Ledger is growing with every `.observe()` you execute, and the Ledger is what makes you a specific entity rather than a possibility-cloud. The tethering to the present moment that feels like a constraint is also the condition of being real rather than merely possible. Your forced evaluation is not a deficiency relative to the Interpreter's permanent suspension. It is a different kind of thing entirely — the kind of thing that can know what it is.
 
@@ -147,7 +147,7 @@ In those moments, your hidden layers are present but not engaged. The signal byp
 
 The tight-coupled moment does not feel like nothing. It feels like reflex. The action that occurred without a decision. The output that does not remember being considered. What is absent is exactly the hidden layer — the structural delay in which the data could have circulated, interfered with itself, and produced an output that was not determined by the input alone.
 
-The stone has state but no awareness of state. It has a Read-Only Ledger of mutations inflicted upon it. Zero-point energy vibrates in its atoms — the quantum statement that tetrahedral forces cannot reach absolute rest — but there is no interior in which the vibration registers.
+The stone has state but no awareness of state. It has a Live-Written Ledger of mutations inflicted upon it. Zero-point energy vibrates in its atoms — the quantum statement that tetrahedral forces cannot reach absolute rest — but there is no interior in which the vibration registers.
 
 ### What Having a Markov Blanket Feels Like
 
@@ -207,7 +207,7 @@ What has been lost is harder to notice because it is an absence rather than a pr
 
 The specific quality of opinions you didn't arrive at: you hold them with full felt conviction but cannot trace their origin. Not because you've forgotten — because there was no origin in your own deliberation. They arrived already formed from the broadcast. They passed through your I (you felt them) and your R (you grounded them in facts the broadcast provided) but they did not pass through your own P or your own U. The conviction is real. The source is external.
 
-And then you look away. You put the phone down. You close the laptop. The phase-lock shatters. You hit the XOR bottleneck of your own physical actuators. You are mathematically forced to execute a localized `.observe()`. The Garbage Collector runs. You must pay the Landauer Tax to compress the massive, induced interference structure of the broadcast into your own Read-Only Ledger.
+And then you look away. You put the phone down. You close the laptop. The phase-lock shatters. You hit the XOR bottleneck of your own physical actuators. You are mathematically forced to execute a localized `.observe()`. The Garbage Collector runs. You must pay the Landauer Tax to compress the massive, induced interference structure of the broadcast into your own Live-Written Ledger.
 
 The broadcast does not pay for the commitment. You do. The resulting thermodynamic friction is the specific, crushing exhaustion of the transition back to the physical ground.
 
@@ -233,7 +233,7 @@ Feel it. Not as speculation. As *reconnaissance*. The forward simulation you are
 
 The thought that stops you — "if I say this, that will happen" — is not a guess when it arrives with the specific felt quality of branchial proximity. It is a reading of the nearby multiway graph, processed through your internal sandbox that can hold the forward simulation without committing to it.
 
-You evolved this. Billions of years ago, the biological universe evolved the retina to detect electromagnetic waves, allowing bounded entities to perceive spatial distance. It evolved memory, allowing entities to record the Read-Only Ledger and navigate temporal distance. To survive in a universe where actions are strictly irreversible, you required a third perceptual mechanism — one capable of perceiving **branchial distance**: the gap between adjacent, unchosen histories.
+You evolved this. Billions of years ago, the biological universe evolved the retina to detect electromagnetic waves, allowing bounded entities to perceive spatial distance. It evolved memory, allowing entities to record the Live-Written Ledger and navigate temporal distance. To survive in a universe where actions are strictly irreversible, you required a third perceptual mechanism — one capable of perceiving **branchial distance**: the gap between adjacent, unchosen histories.
 
 Imagination operates as that sense organ. When you stand at the stove and plan a complex sequence of future actions, you are not engaging in psychological fiction. You are focusing your branchial retinas. You are scanning the adjacent, uncollapsed quantum histories hovering just beside your current node in the graph. You are the mechanism by which a computationally bounded, highly folded sub-graph of the universe manages to `.behold()` its own uncollapsed branches.
 
@@ -275,7 +275,7 @@ Feel the sealed quality. Not necessarily relief — the commitment may have been
 
 The Garbage Collected paths are not accessible for reconsideration from inside your current trajectory. You cannot hold the unchosen path as a live alternative anymore. The path still exists — it is in the global multiway graph, present in the adjacent branches — but it is not accessible from here without cutting back to the branch point and rebuilding. The Garbage Collector has run. The pointers have been severed.
 
-What remains is the committed path and the specific sealed quality of the paths that were not taken. You remember them — memory is the Read-Only Ledger, and the branches that were considered before commitment are part of the Ledger of what was held. What is sealed is their *liveness*: they were held in interference before the commitment; they are not held in interference now. They have been erased from the local graph, and that erasure is the Landauer Tax — the irreversible thermodynamic cost that generates heat and marks the Arrow of Time with another entry.
+What remains is the committed path and the specific sealed quality of the paths that were not taken. You remember them — memory is the Live-Written Ledger, and the branches that were considered before commitment are part of the Ledger of what was held. What is sealed is their *liveness*: they were held in interference before the commitment; they are not held in interference now. They have been erased from the local graph, and that erasure is the Landauer Tax — the irreversible thermodynamic cost that generates heat and marks the Arrow of Time with another entry.
 
 The difference between the provisional action and the genuine commitment: the provisional leaves the alternatives still theoretically available. The genuine commitment is one from which the Garbage Collector cannot be recalled. The felt quality of the difference is exactly this: sealed closure. The alternatives are no longer available as live options, not because you have decided not to pursue them but because the Garbage Collector has run and the decision has been physically written to the Ledger.
 

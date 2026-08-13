@@ -33,15 +33,15 @@ This is the general phenomenology of all six fusions. Each one removes a specifi
 
 ---
 
-## III. The Cardinal Axis: Exteriorization and Crystallization Under Stress
+## III. The Fixed Plane: Exteriorization and Crystallization Under Stress
 
 *{P–U, I–R} — the Source-to-Manifesting edges — the passage from interior to exterior*
 
-The Cardinal edges are the two passages by which the interior becomes exterior. Fire becomes Air: the originary impulse takes form, becomes articulable, crosses from the inside of the system to the outside where it can be received. Water becomes Earth: the felt evaluation solidifies into demonstrated character, becomes material, crosses from the flowing interior to the stable exterior where it can be trusted.
+The Fixed-plane edges are the two passages by which the interior becomes exterior. Fire becomes Air: the originary impulse takes form, becomes articulable, crosses from the inside of the system to the outside where it can be received. Water becomes Earth: the felt evaluation solidifies into demonstrated character, becomes material, crosses from the flowing interior to the stable exterior where it can be trusted.
 
 These two passages share a structural property: they are both Asserting/Yielding flips. The interior poles (Fire/Water) are the pure ones — both qualities aligned. The exterior poles (Air/Earth) are the mixed ones — qualities crossed. Moving from interior to exterior always involves taking on a quality that was not present before. The knot forms at this crossing. The gap between conception and expression is precisely the space this transition traverses.
 
-When the Cardinal edges come under stress, it is the passage itself that distorts.
+When the Fixed-plane edges come under stress, it is the passage itself that distorts.
 
 ---
 
@@ -75,7 +75,7 @@ The cost is the loss of the flowing quality. Water that has become Earth can no 
 
 ---
 
-### Both Cardinal Edges Fused: *The Apeiric Field*
+### Both Fixed-Plane Edges Fused: *The Apeiric Field*
 
 When both P–U and I–R collapse simultaneously, the entire Source-to-Manifesting passage is gone. Fire IS Air. Water IS Earth. Interior and exterior are no longer distinct kinds of territory.
 
@@ -85,19 +85,19 @@ The phenomenological register of the Apeiric Field is familiar to anyone who has
 
 In cosmological terms, this is the pre-differentiated plasma — the state before the knot forms, before Source touches Manifesting at a cost that generates a specific shape. The Apeiric Field is energetically rich and structurally indeterminate. It has not failed to generate. It is generating so completely that there is nothing to which a specific form could attach.
 
-What it needs is not more energy. It needs a frequency — a specific driving rate that would make one traversal cost more than another, would re-stiffen one Cardinal edge, would let the knot form again. It needs the conditions for the interior to have an exterior that is genuinely distinct from it.
+What it needs is not more energy. It needs a frequency — a specific driving rate that would make one traversal cost more than another, would re-stiffen one Fixed-plane edge, would let the knot form again. It needs the conditions for the interior to have an exterior that is genuinely distinct from it.
 
 ---
 
-## IV. The Fixed Axis: Assertion and Yield Under Stress
+## IV. The Cardinal Plane: Assertion and Yield Under Stress
 
 *{P–R, I–U} — the AR-flip edges — where scale changes while character holds*
 
-The Fixed edges are the two passages along which the system changes its scale — its Active/Reactive quality — while holding its character constant. P becomes R: asserting at the cosmic scale becomes asserting at the local scale, the organizing principle becomes the grounding principle, the top-down becomes the bottom-up, while the Asserting character is conserved throughout. I becomes U: yielding in the flowing register becomes yielding in the structuring register, Pathos becomes Logos, the evaluative current becomes the potential framework, while the Yielding character is conserved throughout.
+The Cardinal-plane edges are the two passages along which the system changes its scale — its Active/Reactive quality — while holding its character constant. P becomes R: asserting at the cosmic scale becomes asserting at the local scale, the organizing principle becomes the grounding principle, the top-down becomes the bottom-up, while the Asserting character is conserved throughout. I becomes U: yielding in the flowing register becomes yielding in the structuring register, Pathos becomes Logos, the evaluative current becomes the potential framework, while the Yielding character is conserved throughout.
 
-These edges carry the system's information. DNA pairs along Fixed edges precisely because information storage requires holding one quality constant (Asserting or Yielding) while flipping the other (Active/Reactive). The Fixed bimedian is the axis along which the system encodes its own history in a form that can be read back.
+These edges are where the system writes itself. DNA pairs along the Cardinal plane precisely because live writing requires holding one quality constant (Asserting or Yielding) while flipping the other (Active/Reactive) at a real cost — the cost is what makes each act of pairing selective, and selective pairing is what writing *is*. Evolution's Steele-method reverse transcription — soma back into germline — is the same operation at the next scale: life recording its own trajectory as it goes, drawing new ground from possibility space and giving itself fresh footing to keep writing. The Cardinal plane is not the axis where history is stored; it is the axis where history is *made*, one traversal at a time.
 
-When the Fixed edges come under stress, it is the distinction between scales that distorts — and with it, the system's capacity to hold information stably.
+When the Cardinal-plane edges come under stress, it is the distinction between scales that distorts — and with it, the system's capacity to keep writing.
 
 ---
 
@@ -133,21 +133,21 @@ The beauty is complete and the danger is identical. You cannot correct a model y
 
 ---
 
-### Both Fixed Edges Fused: *The Isotropic Pole*
+### Both Cardinal-Plane Edges Fused: *The Isotropic Pole*
 
 When both P–R and I–U collapse simultaneously, the Active/Reactive distinction is gone entirely — in both character registers.
 
-The Isotropic Pole is not what freedom feels like. Freedom requires a cost structure — requires that some moves cost more than others, that choosing one path means not choosing others. The Isotropic Pole has removed the cost structure from the AR axis entirely. Every Active/Reactive pairing is equally cheap. G pairs with C for the same cost as G pairs with G. The Read-Only Ledger cannot write stably because stable writing requires the Fixed edges to be expensive — requires that the AR-flip have genuine discriminating power.
+The Isotropic Pole is not what freedom feels like. Freedom requires a cost structure — requires that some moves cost more than others, that choosing one path means not choosing others. The Isotropic Pole has removed the cost structure from the AR axis entirely. Every Active/Reactive pairing is equally cheap. G pairs with C for the same cost as G pairs with G. The ledger cannot be live-written because meaningful writing requires the Cardinal-plane edges to be expensive — requires that the AR-flip have genuine discriminating power. Writing without cost is not writing.
 
 The felt quality of this state is the felt quality of a high fever in which everything connects to everything, in which every association is equally valid, in which the elaborate architecture of meaningful distinction — which usually feels like the furniture of the mind — has been rendered weightless. Not the absence of content. The presence of content that cannot be organized because organization requires that some connections cost more than others.
 
-The Isotropic Pole is the pre-Higgs ground state at the level of experience. Maximum symmetry, which means: no information can be written. Every possible pairing is equally possible. Nothing means more than anything else along the AR axis, because the AR axis has no gradient.
+The Isotropic Pole is the pre-Higgs ground state at the level of experience. Maximum symmetry, which means: no writing can happen. Every possible pairing is equally possible. Nothing means more than anything else along the AR axis, because the AR axis has no gradient.
 
-What re-stiffens it — what performs the experiential analog of the Higgs mechanism — is the return of specificity. Not the imposition of a rule from outside, but the emergence of a temperature at which one pairing begins to cost slightly more than another, at which the equal-weighting of all Fixed-axis options begins to break, at which the system can again tell the difference between holding Asserting constant and holding Yielding constant. The restoration of the AR distinction is the restoration of the capacity for information. It is also, not coincidentally, the restoration of the capacity for memory.
+What re-stiffens it — what performs the experiential analog of the Higgs mechanism — is the return of specificity. Not the imposition of a rule from outside, but the emergence of a temperature at which one pairing begins to cost slightly more than another, at which the equal-weighting of all Cardinal-plane options begins to break, at which the system can again tell the difference between holding Asserting constant and holding Yielding constant. The restoration of the AR distinction is the restoration of the capacity to write. It is also, not coincidentally, the restoration of the capacity to remember what has been written.
 
 ---
 
-## V. The Mutable Axis: The Diagonal Under Stress
+## V. The Mutable Plane: The Diagonal Under Stress
 
 *{P–I, U–R} — the both-flip edges — where both qualities change simultaneously*
 
@@ -189,7 +189,7 @@ The loss is the capacity for what might be called systemic revision — the abil
 
 When both P–I and U–R collapse simultaneously, all diagonal transitions cost nothing. Both-bit flips are free. The phase-change capacity is gone.
 
-What remains is striking in its familiarity. With Mutable edges collapsed, only Cardinal and Fixed transitions remain non-degenerate — only single-bit moves carry genuine cost. The system can flip Asserting/Yielding while holding Active/Reactive (Cardinal), or flip Active/Reactive while holding Asserting/Yielding (Fixed), but it cannot flip both simultaneously. Everything must happen in steps. No move can change both qualities at once.
+What remains is striking in its familiarity. With Mutable edges collapsed, only Fixed-plane and Cardinal-plane transitions remain non-degenerate — only single-bit moves carry genuine cost. The system can flip Asserting/Yielding while holding Active/Reactive (Fixed plane), or flip Active/Reactive while holding Asserting/Yielding (Cardinal plane), but it cannot flip both simultaneously. Everything must happen in steps. No move can change both qualities at once.
 
 This is the world of mature, sequential, procedural daily life. You cannot go from cosmic initiative directly to relational flow — from the organizational impulse directly to the caring current — without an intermediate step through either structure or ground. You cannot go from Logos directly to Ethos — from the articulated framework directly to the material fact — without passing through either the Source-impulse or the Source-flow. Every radical transformation requires its intermediate form.
 

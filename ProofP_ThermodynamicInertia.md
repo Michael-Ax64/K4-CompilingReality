@@ -10,7 +10,7 @@ To discard a pathway is to erase information. And in physics, the erasure of inf
 
 ## 2. Entropy as the Accumulation of Specification
 
-Classical thermodynamics, shaped by Boltzmann, defines entropy as $S = k_B \ln W$ and views it as the accumulation of disorder, predicting a featureless 'Heat Death'. The framework agrees with the growth curve but inverts the valence: the growth of the Read-Only Ledger $P$ is not the accumulation of mess; it is the accumulation of *specification*—irreversible constraints on the state-space.
+Classical thermodynamics, shaped by Boltzmann, defines entropy as $S = k_B \ln W$ and views it as the accumulation of disorder, predicting a featureless 'Heat Death'. The framework agrees with the growth curve but inverts the valence: the growth of the Live-Written Ledger $P$ is not the accumulation of mess; it is the accumulation of *specification*—irreversible constraints on the state-space.
 
 When a raw egg cooks, it does not become "messier"; it becomes more rigorously specified. Its molecular multiway graph collapses into a heavily committed, irreversible state ($P$). The total length of the system's Ledger has increased. 
 
@@ -32,7 +32,7 @@ We can now resolve the physical nature of Mass through the Biquaternion norm.
 
 The Biquaternion metric ($P^2 - |\mathbf{Q}|^2 = const$) establishes that the State Vector is conserved. Amplitude rotates from the held potential of the multiway graph ($Q$) into the committed scalar reality of the Ledger ($P$). 
 
-Mass ($P$) grows only as potential ($Q$) collapses. There is no thermodynamic free lunch. The Minkowski metric of Special Relativity ($E^2 - (pc)^2 = (m_0c^2)^2$) is not a random physical parameter; it instantiates the geometric formula of uncollapsed potential crystallizing into the Read-Only Ledger without violating the conservation of the total state.
+Mass ($P$) grows only as potential ($Q$) collapses. There is no thermodynamic free lunch. The Minkowski metric of Special Relativity ($E^2 - (pc)^2 = (m_0c^2)^2$) is not a random physical parameter; it instantiates the geometric formula of uncollapsed potential crystallizing into the Live-Written Ledger without violating the conservation of the total state.
 
 
 ## 5. Conclusion

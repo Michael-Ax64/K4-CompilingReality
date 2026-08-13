@@ -25,7 +25,7 @@ The photon on U is what the U pole *looks like* when it is doing the work of tra
 
 ## III. The I Pole: The Weak Bosons
 
-The Weak nuclear force is mediated by three bosons: W⁺, W⁻, and Z⁰. Unlike the photon, these are self-interacting — they couple to each other — and they carry mass, given to them by the Higgs mechanism (`Q3-ScalarSector`). The Weak force mediates flavor changes between the intra-class fermion pairs, and executes exclusively on the Fixed bimedian, as derived in `Q1-GenerationsOfMatter` §III. This is the operational signature of the I pole: Reactive + Yielding, relational current pushing through a medium.
+The Weak nuclear force is mediated by three bosons: W⁺, W⁻, and Z⁰. Unlike the photon, these are self-interacting — they couple to each other — and they carry mass, given to them by the Higgs mechanism (`Q3-ScalarSector`). The Weak force mediates flavor changes between the intra-class fermion pairs, and executes exclusively on the Cardinal plane, as derived in `Q1-GenerationsOfMatter` §III. This is the operational signature of the I pole: Reactive + Yielding, relational current pushing through a medium.
 
 Three carriers, not one, because relational flow requires the geometry of exchange. Current has to go somewhere, come from somewhere, or cancel out somewhere. Giving (W⁺), taking (W⁻), and neutralizing (Z⁰) exhaust the operations required to move charge along a relational channel. The three generators of SU(2) enforce this closure algebraically; the framework recovers the same closure from the requirement that a relational current be conservable.
 

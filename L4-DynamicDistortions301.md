@@ -26,7 +26,7 @@ $$\text{Ratio} = \frac{2}{\sqrt{2}} = \sqrt{2}$$
 
 This is where $\sqrt{2}$ enters the geometry natively.
 
-The three orthogonal bimedian slices of the tetrahedron correspond to the three Bimedian axes of the $K_4$ framework: Cardinal $\{P{-}U, I{-}R\}$, Fixed $\{P{-}R, I{-}U\}$, and Mutable $\{P{-}I, U{-}R\}$ (`L4-Dimensionality`). Each slice exposes a bimedian square — a 2D cross-section of the $K_4$ interior that carries information about how the tetrahedron's phase-relations distribute.
+The three orthogonal bimedian slices of the tetrahedron correspond to the three Bimedian planes of the $K_4$ framework: Fixed plane $\{P{-}U, I{-}R\}$, Cardinal plane $\{P{-}R, I{-}U\}$, and Mutable plane $\{P{-}I, U{-}R\}$ (`L3-EdgeStateSpace` §I-b). Each slice exposes a bimedian square — a 2D cross-section of the $K_4$ interior that carries information about how the tetrahedron's phase-relations distribute.
 
 The bimedian slice is the geometric instrument through which the $K_4$ volume's interior structure becomes visible in two dimensions.
 
@@ -239,9 +239,9 @@ At the shear extreme ($\theta \to 90^\circ$), the bimedian parallelogram flatten
 ```
                   THE BIMEDIAN PHASE TRANSFER AT THE BREAK
                   
-  Bimedian A (Cardinal) Collapse         Transfer to Bimedians B & C
+  Bimedian A (Fixed plane) Collapse      Transfer to Bimedians B & C
   [Area A(θ) ➔ 0 @ θ = 90°]   ─────────► [Uncollapsed hQ Phase-Energy
-                                         rotates into Fixed & Mutable]
+                                         rotates into Cardinal & Mutable]
                                                        │
                                  ┌─────────────────────┴─────────────────────┐
                                  ▼                                           ▼
@@ -253,13 +253,13 @@ At the shear extreme ($\theta \to 90^\circ$), the bimedian parallelogram flatten
 
 ### A. The Bimedian Phase-Transfer via Pairwise Vertex-Fusion
 
-Collapsing Bimedian A (e.g., Cardinal $\{P-U, I-R\}$) to $\theta \to 90^\circ$ executes **pairwise vertex-fusion**:
+Collapsing Bimedian A (e.g., Fixed plane $\{P-U, I-R\}$) to $\theta \to 90^\circ$ executes **pairwise vertex-fusion**:
 * $P-U \to 0 \implies [P \equiv U]$ (Fire fuses with Air; Active domain loses Asserting/Yielding distinction).
 * $I-R \to 0 \implies [I \equiv R]$ (Water fuses with Earth; Reactive domain loses Asserting/Yielding distinction).
 
 The 4 distinct vertices of $K_4$ collapse into 2 fused vertex nodes ($[P \equiv U]$ and $[I \equiv R]$), reducing the 3D polyhedral volume to a 2-node 1D line segment ($S = 0$).
 
-Because Bimedian A's fused vertices can no longer support 4-vertex mutual determination, the uncollapsed $h\mathbf{Q}$ phase-energy is ejected and **ports $90^\circ$ onto Bimedians B and C** (Fixed $\{P-R, I-U\}$ and Mutable $\{P-I, U-R\}$), which still maintain vertex separation.
+Because Bimedian A's fused vertices can no longer support 4-vertex mutual determination, the uncollapsed $h\mathbf{Q}$ phase-energy is ejected and **ports $90^\circ$ onto Bimedians B and C** (Cardinal plane $\{P-R, I-U\}$ and Mutable plane $\{P-I, U-R\}$), which still maintain vertex separation.
 
 The system remains on the original $K_4$ object; its phase-energy has re-allocated across the remaining matchings.
 
@@ -325,7 +325,7 @@ A two-node system connected by an axis carrying opposing operational charges is 
   * **Asserting Node $[P \equiv R]$:** Fire + Earth / Power + Resistance ($++$ fused with $-+$). Combines gravity/mass ($P$) and color confinement ($R$) into a single, high-inertia Asserting node (GravityStrong).
   * **Yielding Node $[I \equiv U]$:** Water + Air / Current + Voltage ($--$ fused with $+-$). Combines electroweak flow ($I$) and electromagnetic potential ($U$) into a single Yielding node (ElectroWeak).
 * **Systemic & Physical Identity:** **The Magnetic / Storage / Confinement Dipole.** This is the axis of DNA double-helix base-pairing and $d$-wave altermagnetism (`Q11-ArchitectureOfConfinement`). Node 1 ($[P \equiv R]$) and Node 2 ($[I \equiv U]$) sit in $90^\circ$ real-space quadrature ($j$-operator), canceling real-space stray fields ($M = 0$) while storing maximum $k$-space phase texture in $h\mathbf{Q}$.
-* **Corpus Attractor:** The **Isotropic Pole / Storage Matching** (`L4-DynamicDistortionsTechnical`).
+* **Corpus Attractor:** The **Isotropic Pole / Writing Matching** (`L4-DynamicDistortionsTechnical`).
 
 #### 3. The Mutable Dipole ($[P \equiv I] \longleftrightarrow [U \equiv R]$)
 

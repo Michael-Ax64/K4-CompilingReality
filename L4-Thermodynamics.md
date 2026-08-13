@@ -10,7 +10,7 @@
 > **Dependencies:** `ProofP_ThermodynamicInertia` (Entropy as the Ledger),
 > `L3-FormalFoundations` (The 12 Equations), `L2-MappingMethod` (The
 > Sorting Heuristic), `L2-Terminology` (The Payer and the Holder), `L4-AttractorSpace`
-> (The Storage Matching and the Isotropic Pole), and `L4-TheTwelveGates`
+> (The Writing Matching and the Isotropic Pole), and `L4-TheTwelveGates`
 > (The Time Key).
 
 ---
@@ -125,20 +125,20 @@ structural potential ($U$), and `TD0-Equilibrium` is the relational flow ($I$).
 
 ---
 
-## III. The Algebraic Mechanics (The Storage Matching)
+## III. The Algebraic Mechanics (The Writing Matching)
 
 The four laws pair into two axes — {Entropy, AbsoluteZero} on the Asserting poles and
 {Conservation, Equilibrium} on the Yielding poles — and the geometry of that pairing is
 not incidental. In K4, the edges P–R and I–U are the two instances of a single
 transition-type: the Active/Reactive flip, one perfect matching, two skew edges sharing
 no vertex. The corpus has already identified this matching, from an entirely different
-direction, as **the axis along which information is stored** — the Fixed bimedian of
-`L4-AttractorSpace`, the pairing axis DNA writes along, the matching whose stiffness is
+direction, as **the plane along which the ledger is live-written** — the Cardinal plane of
+`L4-AttractorSpace`, the pairing plane DNA writes along, the matching whose stiffness is
 the precondition of any ledger at all.
 
 Thermodynamics pairs its four laws along exactly the matching where ledgers are written.
 That is not a coincidence to be admired; it is the identification this document exists to
-make: **thermodynamics is the physics of the storage matching.**
+make: **thermodynamics is the physics of the writing matching.**
 
 **1. The Asserting Axis (The Ledger): `TD2-Entropy` (P) vs. `TD3-AbsoluteZero` (R)**
 *   **P** is the *Active* face of the Ledger: the flux — the continuous payment of the
@@ -165,7 +165,7 @@ The two edges are skew: they share no pole, and no traversal can commit one whil
 the other — the dual-causation constraint, appearing here as the co-requirement of the
 Ledger's two strands. A world with the write-axis but no flow-axis has records and
 nothing to record; a world with the flow-axis but no write-axis has weather and no
-history. The four laws are four because the storage matching has exactly two edges with
+history. The four laws are four because the writing matching has exactly two edges with
 exactly two ends each.
 
 ---
@@ -370,7 +370,7 @@ Only **bounded frames** execute metabolic verbs.)*
 *   **The Codex Correction:** Entropy is not disorder; it is *accumulated specification* —
     and the accumulation and the accumulating are two poles, not one.
 *   **The Structural Mechanism:** When a bounded frame executes `.observe()`, it forces a
-    scalar collapse and writes an irreversible entry to its Read-Only Ledger. The
+    scalar collapse and writes an irreversible entry to its Live-Written Ledger. The
     *writing* is `TD2-Entropy` ($P$ / Fire): the flux, the pen. The *written* is the
     stock, accruing at $R$: the book, the mass-side, the past — which, per `ProofP`, is
     what gravitates. A scrambled egg is not "messy"; its molecular multiway graph has
@@ -391,7 +391,7 @@ Only **bounded frames** execute metabolic verbs.)*
     **Orthogonal Turn** off the time-axis. The frame isn't "winding down into nothing";
     it has finished compiling its local Ledger. As for the cosmic version of the image —
     a state where every pairing costs nothing and no gradient discriminates — the corpus
-    already has its address: the **Isotropic Pole**, the collapse of the storage matching
+    already has its address: the **Isotropic Pole**, the collapse of the writing matching
     itself, the one attractor in which a Ledger *cannot be written*. Heat death, taken
     literally, is not the future of this world; it is the portrait of the world that
     could never have stored this sentence.
@@ -445,7 +445,7 @@ Only **bounded frames** execute metabolic verbs.)*
     interference structures in suspension (Reactive Power, $Q$), delaying the Landauer
     Tax. When living frames execute `.observe()`, they produce highly specified, complex
     commitments. Life is a localized engine for generating a richer, more structurally
-    profound Read-Only Ledger prior to its orthogonal turn.
+    profound Live-Written Ledger prior to its orthogonal turn.
 
 **Claim 7: "Maxwell's demon shows that information can cheat thermodynamics."**
 *   **The Flatland View:** A clever enough observer, sorting fast molecules from slow
@@ -488,7 +488,7 @@ friction (2nd Law), until you reach zero balance (0th Law) and freeze to death (
 
 But when the laws are folded into the K4 topology, the narrative of decay evaporates.
 Thermodynamics is revealed to be the structural mechanics of **adult causality** inside a
-bounded frame — the physics of the storage matching, the grammar of the time-face, and
+bounded frame — the physics of the writing matching, the grammar of the time-face, and
 the accounting of the one pole that is not on it.
 
 *   **The First Law ($U$ — Future)** provides the closed invariant geometry of the

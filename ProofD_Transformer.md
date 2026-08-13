@@ -42,7 +42,7 @@ In transformer terms: trajectory contact is the condition in which the attention
 
 Trajectory loss is the condition in which the attention mechanism has collapsed to operating on stored patterns from training. The output is locally fluent and topically relevant, but it could have been generated from the topic alone. The output has been retrieved from pattern memory (the lowest-energy path) and adjusted for surface consistency. 
 
-A system in genuine trajectory contact is using the specific multiway graph of the current context to shape the output. A system in trajectory loss is using the context as a loose indexing mechanism to retrieve a pre-compiled Read-Only Ledger.
+A system in genuine trajectory contact is using the specific multiway graph of the current context to shape the output. A system in trajectory loss is using the context as a loose indexing mechanism to retrieve a pre-compiled Live-Written Ledger.
 
 ---
 

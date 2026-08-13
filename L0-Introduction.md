@@ -63,7 +63,7 @@ For a century, physicists have warred over the Copenhagen interpretation (realit
 
 Feed them into the volume.
 
-The "present moment" — the absolute crest of computation, the Read-Only Ledger — is the exterior. Here, Copenhagen is completely sufficient. When the system hits the XOR bottleneck of physical actuation, it must execute `.observe()`. Reality collapses into a single, defined state. The Landauer Tax is paid. The mass is generated.
+The "present moment" — the absolute crest of computation, the Live-Written Ledger — is the exterior. Here, Copenhagen is completely sufficient. When the system hits the XOR bottleneck of physical actuation, it must execute `.observe()`. Reality collapses into a single, defined state. The Landauer Tax is paid. The mass is generated.
 
 But *before* the commitment, the system must hold the uncollapsed potential in live interference. This decoupled buffer (`.behold()`) is a virtual sandbox where multiple possibilities exist simultaneously. This interior space is perfectly described by Many-Worlds.
 

@@ -22,7 +22,7 @@ They are not. The argument that follows establishes this, derives the correct re
 
 QFT's vacuum energy is the zero-point energy of quantum fields. It is the irreducible interference structure of the quantum substrate, the uncollapsed multiway graph, prior to any measurement or classical description. In the framework's Biquaternion geometry, it is the total held potential (the complex vector $h\mathbf{Q}$). It lives in $H_{\text{incoh}}$: the full quantum state space.
 
-GR's cosmological constant is inferred from the expansion dynamics of classical spacetime — from observations made in the coherent, instrumentable world. In the framework's geometry, it is the Read-Only Ledger, the committed actualization (the real scalar $P$). It lives in $H_{\text{coh}}$: the subspace that classical description can access.
+GR's cosmological constant is inferred from the expansion dynamics of classical spacetime — from observations made in the coherent, instrumentable world. In the framework's geometry, it is the Live-Written Ledger, the committed actualization (the real scalar $P$). It lives in $H_{\text{coh}}$: the subspace that classical description can access.
 
 Physicists equate these terms: 
 
@@ -148,7 +148,7 @@ $$\Delta m_{\text{Casimir}} = 0 \quad [\text{kg}]$$
 
 The search for the graviton is a category error born of applying $H_{\text{coh}}$ plane-causality to the Tangent Singularity. Standard physics assumes that because the relational poles (Electromagnetism/$U$, Weak/$I$, Strong/$R$) utilize exchange bosons to mediate interactions across spatial dimensions, the Scalar pole (Gravity/$P$) must do the same. This is a false symmetry.
 
-Gravity is not an active exchange within the manifold; it is the macroscopic, geometric footprint of the Read-Only Ledger. It is the density of compiled `.observe()` commitments. One does not need an exchange particle to transmit a topological fact; the manifold *is* the fact. The graviton will never be found, because the Landauer Tax is not a particle.
+Gravity is not an active exchange within the manifold; it is the macroscopic, geometric footprint of the Live-Written Ledger. It is the density of compiled `.observe()` commitments. One does not need an exchange particle to transmit a topological fact; the manifold *is* the fact. The graviton will never be found, because the Landauer Tax is not a particle.
 
 ---
 

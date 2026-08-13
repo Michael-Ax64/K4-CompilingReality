@@ -10,7 +10,7 @@ $$ (m_0 c^2)^2 = E^2 - (pc)^2 $$
 
 Historically, this minus sign is introduced as a metric convention (the Minkowski signature). It is treated as an empirical feature of the coordinate system rather than a derivable consequence of underlying logic. 
 
-This Proof demonstrates that the minus sign of the relativistic invariant models the natural, forced algebraic footprint of a system that must rigorously distinguish between what has been actualized into the Read-Only Ledger and what is being held in the multiway buffer. 
+This Proof demonstrates that the minus sign of the relativistic invariant models the natural, forced algebraic footprint of a system that must rigorously distinguish between what has been actualized into the Live-Written Ledger and what is being held in the multiway buffer. 
 
 To prove this, we must map the Algebra of Four-Fold Distinction onto its native geometric structure: the Biquaternion.
 
@@ -22,7 +22,7 @@ Let us define the total logical state of a system as the state biquaternion, $\m
 
 We map the operational states of the framework to the biquaternion structure as follows:
 
-1.  **The Scalar Part ($P$):** Represents the *Committed State*. This is the output of the `.observe()` function. It is the irreversible actualization written to the Read-Only Ledger. It has no spatial directionality because it is a completed historical fact.
+1.  **The Scalar Part ($P$):** Represents the *Committed State*. This is the output of the `.observe()` function. It is the irreversible actualization written to the Live-Written Ledger. It has no spatial directionality because it is a completed historical fact.
 2.  **The Vector Part ($\mathbf{Q}$):** Represents the *Held State*. This is the interference structure maintained by the `.behold()` function. It is directional, multi-dimensional, and represents the uncollapsed potential of the system.
 3.  **The Phase Operator ($h$):** Represents the orthogonal relationship between the actualized and the potential. It is the complex unit ($h^2 = -1$).
 

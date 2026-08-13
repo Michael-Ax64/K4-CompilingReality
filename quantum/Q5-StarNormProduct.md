@@ -1,7 +1,7 @@
 # What the Ledger Compiles
 ## The Burning of Phase, the Accumulation of Specification, and the Correction of Nineteenth-Century Entropy
 
-*Claim: the growth of the Read-Only Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. Derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. Corrects a teleological error that appeared in the session that produced the earlier account, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
+*Claim: the growth of the Live-Written Ledger P during `.observe()` collapses is not the accumulation of disorder, as classical thermodynamics reads it, but the accumulation of specification — irreversible constraints on the state-space of the universe. Derives the mechanism from the mathematical properties of the biquaternion squaring operation, using the Star-Norm conservation law. Corrects a teleological error that appeared in the session that produced the earlier account, in which the universe was said to "want" to behold. A reader with the project files but no access to that session can verify the derivation from the squaring operation's action on the h operator and the i, j, k vector components.*
 
 ---
 
@@ -58,7 +58,7 @@ As established in `L6-InversionOfControl`, holding callbacks in a registry is no
 
 ## III. The Product Is Specification
 
-What lands on the other side of the P-fusions is a pure, strictly positive, directionless real scalar contribution to P. Because it has no phase and no direction, it cannot interfere. It cannot be reversed. It is a historical fact. The accumulation of these facts is the Read-Only Ledger.
+What lands on the other side of the P-fusions is a pure, strictly positive, directionless real scalar contribution to P. Because it has no phase and no direction, it cannot interfere. It cannot be reversed. It is a historical fact. The accumulation of these facts is the Live-Written Ledger.
 
 The increase in P — the macroscopic growth of what physics calls entropy — is not the accumulation of disorder. It is the accumulation of specification.
 

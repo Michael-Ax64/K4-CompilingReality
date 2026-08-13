@@ -28,7 +28,7 @@ And this minting never stopped, which is the whole point. Creation is not a past
 
 The **inhale**, `.behold()` — holding the uncollapsed multiway graph open in live interference, scanning adjacent histories in the $Q$-buffer, nothing yet committed.
 
-The **exhale**, `.observe()` — forcing the XOR bottleneck, paying the Landauer tax, writing one new irreversible entry to the read-only ledger.
+The **exhale**, `.observe()` — forcing the XOR bottleneck, paying the Landauer tax, writing one new irreversible entry to the live-written ledger.
 
 The engine driving the stroke is $\omega$, the angular frequency at the centroid, dragging the tetrahedron along its fifth axis to cut the Helical Extrusion of time — the screw-thread the whole structure advances along. (Note the two clocks, held apart: $\omega$ is the engine that turns; $dt$ is the thread it has already cut. The centroid drives; the ledger records; they are not the same clock, and confusing them is a named error carried in `ProofO`.) Every time an atom absorbs a photon, every time a cell commits to a decision, the universe is compiling itself forward one more entry. Creation is a verb, and it is conjugating in the present tense everywhere at once.
 

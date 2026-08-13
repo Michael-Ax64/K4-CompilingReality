@@ -1,7 +1,7 @@
 # QED-Landmarks-Traversals
 ## Walking the Ledger from the Deuteron's Whisker to the Gravitational Unlock
 
-*The body to `QED-Landmarks`' head. The keystone sets the method — assimilate, name every import, divide the units out, check which question the landmark answers, run the permutation swap. This file takes that method for a walk up the whole Read-Only Ledger, one neighborhood at a time, in ascending order of mass and atomic number, because the landmarks are not independent facts but a single story: how matter assembles by fourfold closure, saturates at a wall, closes its shells, buckles where relativity and Coulomb overrun it, discharges as radioactivity past the edge, and finally yields to gravity what fusion never could. Read it as a climb. Each stop stands on the one before. The method is assumed throughout and cited rather than re-derived; what follows is the ledger read aloud.*
+*The body to `QED-Landmarks`' head. The keystone sets the method — assimilate, name every import, divide the units out, check which question the landmark answers, run the permutation swap. This file takes that method for a walk up the whole Live-Written Ledger, one neighborhood at a time, in ascending order of mass and atomic number, because the landmarks are not independent facts but a single story: how matter assembles by fourfold closure, saturates at a wall, closes its shells, buckles where relativity and Coulomb overrun it, discharges as radioactivity past the edge, and finally yields to gravity what fusion never could. Read it as a climb. Each stop stands on the one before. The method is assumed throughout and cited rather than re-derived; what follows is the ledger read aloud.*
 
 ---
 

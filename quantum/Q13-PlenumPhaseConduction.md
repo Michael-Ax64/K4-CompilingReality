@@ -44,20 +44,19 @@ In the $K_4$ topology, $\frac{1}{16\pi^2}$ is the **1-loop phase-burning efficie
 
 ---
 
-### The $10^8$ Wave-Impedance Ratio and the Two-Stage Scale Cascade
+### The Hadronic "It-Ness" ($S_{\text{hadron}}$) and the $10^8$ Wave-Impedance Ratio
+
+The inter-scale handoff between the electronic $U$-pole ($m_e c^2$) and the hadronic $R$-pole ($m_\pi^\pm$) carries an exact, dimensionless **Hadronic "It-Ness" ($S_{\text{hadron}}$)** representing the nuclear saturation wall:
+
+$$S_{\text{hadron}} \equiv \frac{3}{\pi} - 2\alpha \approx 0.954930 - 0.014595 = \mathbf{0.940335} \quad (\approx 0.940)$$
+
+This $S_{\text{hadron}} \approx 0.940$ matches the $0.938\% - 0.940\%$ nuclear binding saturation ceiling per nucleon (`QED-LandmarksWalk.md` §II). The complete pion-to-electron mass ratio is the bare carrier step ($2/\alpha$) minus this Hadronic "It-Ness":
+
+$$\frac{m_\pi^\pm}{m_e c^2} = \frac{2}{\alpha} - S_{\text{hadron}} = \frac{2}{\alpha} - \left(\frac{3}{\pi} - 2\alpha\right) = \frac{2}{\alpha} - \frac{3}{\pi} + 2\alpha = \mathbf{273.13166}$$
 
 The ratio between the 1-loop phase-burned nuclear erasure energy ($0.66\text{ MeV/bit} = 6.6 \times 10^5\text{ eV}$) and room-temperature Landauer energy ($k_B T_{\text{room}} \ln 2 \approx 0.018\text{ eV/bit}$) is:
 
 $$\frac{E_{\text{1-loop}}}{E_{\text{Landauer, 300K}}} = \frac{6.6 \times 10^5\text{ eV}}{0.018\text{ eV}} \approx 3.66 \times 10^7 \sim \mathbf{10^8}$$
-
-This $10^8$ factor represents the wave-impedance gear ratio between the Nuclear Wavelength Scale ($\lambda_{\text{nuclear}} \sim 10^{-15}\text{ m}$) and the Atomic/Optical Wavelength Scale ($\lambda_{\text{atomic}} \sim 10^{-7}\text{ m}$). 
-
-The total temperature cascade from the QCD confinement scale ($T_{\text{QCD}} \approx 1.7 \times 10^{12}\text{ K}$) down to room temperature ($T_{\text{room}} \approx 300\text{ K}$) operates as a two-stage step-down:
-
-1. **Stage 1 ($10^8$ Ratio):** $T_{\text{QCD}} \ (1.7 \times 10^{12}\text{ K} / 150\text{ MeV}) \longrightarrow T_{\text{plasma}} \ (1.7 \times 10^4\text{ K} / 1.5\text{ eV})$
-2. **Stage 2 ($10^2$ Ratio):** $T_{\text{plasma}} \ (1.7 \times 10^4\text{ K} / 1.5\text{ eV}) \longrightarrow T_{\text{room}} \ (300\text{ K} / 0.018\text{ eV})$
-
-Total temperature ratio: $10^8 \times 10^2 = 10^{10}$ (where $1.7 \times 10^{12}\text{ K} / 300\text{ K} \approx 5.7 \times 10^9$).
 
 ---
 
@@ -68,28 +67,28 @@ Flavour physics experiments (e.g., Dolan et al. 2015, LHCb, NA62) prove that a p
 Standard physics treats FCNCs as a consequence of $SU(2)_L \times U(1)_Y$ gauge invariance and Minimal Flavour Violation (MFV). The $K_4$ topology reveals the underlying geometric cause.
 
 ```
-                  CONCENTRIC RUNG-CASCADE ALONG THE FIXED BIMEDIAN
+                  CONCENTRIC RUNG-CASCADE ALONG THE CARDINAL PLANE
                   
    Rung 3 (b-quark / 3rd Gen)  ───┐
-                                  ├──► Driven via Fixed Bimedian {P-R, I-U}
+                                  ├──► Driven via Cardinal plane {P-R, I-U}
    Rung 2 (s-quark / 2nd Gen)  ───┤    (W± Boson Exchange on I-U)
                                   │
    Rung 1 (d-quark / 1st Gen)  ───┘
 ```
 
-### 1. The Fixed Bimedian Constraint
-In `quantum/Q1-GenerationsOfMatter` §III, all quark and lepton flavour transitions are proved to execute **exclusively on the Fixed Bimedian $\{P-R, I-U\}$**. 
+### 1. The Cardinal Plane Constraint
+In `quantum/Q1-GenerationsOfMatter` §III, all quark and lepton flavour transitions are proved to execute **exclusively on the Cardinal plane $\{P-R, I-U\}$**. 
 * The $P-R$ edge connects up-type ($P$) and down-type ($R$) quarks.
 * The $I-U$ edge carries $W^\pm$ and $Z^0$ electroweak gauge bosons.
 
-Attempting to couple a pseudoscalar mediator $a$ to a bottom quark ($b$) while forbidding flavour decays ($b \to s$) is a $K_3$ flatland category error—it attempts to drive a single $R$-pole vertex without driving its fixed bimedian. 
+Attempting to couple a pseudoscalar mediator $a$ to a bottom quark ($b$) while forbidding flavour decays ($b \to s$) is a $K_3$ flatland category error—it attempts to drive a single $R$-pole vertex without driving its Cardinal-plane partner. 
 
 ### 2. Concentric Rung-Cascades
 `quantum/Q1` establishes that the three generations of matter are **three concentric, nested volumetric scale-rungs of the same $K_4$ topology** (like Russian dolls). 
 
 Because the three generations share the identical $R$-pole vertex, **driving the outer scale-rung ($b$-quark) automatically vibrates the $W^\pm$ gauge-field fabric ($I-U$), cascading energy down the concentric rungs to the $s$-quark and $d$-quark**. 
 
-Rare meson decays ($B \to K a$, $K \to \pi a$) are the physical readout of a **Scale-Cascade** passing down the concentric $K_4$ generation-rungs, mediated at each step by $W^\pm$ exchange on the $I-U$ edge of the Fixed Bimedian $\{P-R, I-U\}$.
+Rare meson decays ($B \to K a$, $K \to \pi a$) are the physical readout of a **Scale-Cascade** passing down the concentric $K_4$ generation-rungs, mediated at each step by $W^\pm$ exchange on the $I-U$ edge of the Cardinal plane $\{P-R, I-U\}$.
 
 ---
 
@@ -186,8 +185,8 @@ This document makes three binary, falsifiable predictions.
 * **The Kill Condition:** If a liquid-target detector (such as liquid Argon or liquid Xenon) with zero long-range crystalline lattice exhibits the exact DAMA annual modulation signal while liquid $P$-recoils remain null, **this prediction is falsified.**
 
 ### Prediction 3: FCNC Decays Follow Concentric $K_4$ Rung Ratios
-* **The Claim:** Flavour-changing neutral currents ($b \to s \to d$) are the physical readout of an energy cascade passing down the concentric $K_4$ generation-rungs along the Fixed Bimedian $\{P-R, I-U\}$.
-* **The Kill Condition:** If a pseudoscalar mediator $a$ is discovered that couples to 3rd-generation quarks ($b$) with zero induced couplings to 2nd-generation ($s$) or 1st-generation ($d$) quarks, violating the Fixed Bimedian constraint, **this prediction is falsified.**
+* **The Claim:** Flavour-changing neutral currents ($b \to s \to d$) are the physical readout of an energy cascade passing down the concentric $K_4$ generation-rungs along the Cardinal plane $\{P-R, I-U\}$.
+* **The Kill Condition:** If a pseudoscalar mediator $a$ is discovered that couples to 3rd-generation quarks ($b$) with zero induced couplings to 2nd-generation ($s$) or 1st-generation ($d$) quarks, violating the Cardinal-plane constraint, **this prediction is falsified.**
 
 ---
 
@@ -195,7 +194,7 @@ This document makes three binary, falsifiable predictions.
 
 1. **Do not treat 1-loop QFT integrals as abstract math.** A 1-loop diagram ($\frac{1}{16\pi^2}$) is the physical execution of the Route Law ($Q^2 = -|\mathbf{Q}|^2 \to P$) converting uncompiled phase potential ($Q$) into committed scalar recoil ($P$).
 2. **Recognize the $P$ vs. $Q$ split in direct detection.** Liquid detectors measure $P$ (Landauer recoil heat). Crystalline detectors measure $Q$ (phase-modulation on the lattice). Do not declare two experiments contradictory until you have checked whether they operate on different axes of the complex power triangle $S = P + jQ$.
-3. **Map Flavour via the Fixed Bimedian.** Always trace flavour-changing decays along the Fixed Bimedian $\{P-R, I-U\}$. Remember that generations are concentric scale-rungs of the same $K_4$ topology: driving an outer rung ($b$) inevitably cascades energy down the inner rungs ($s, d$).
+3. **Map Flavour via the Cardinal Plane.** Always trace flavour-changing decays along the Cardinal plane $\{P-R, I-U\}$. Remember that generations are concentric scale-rungs of the same $K_4$ topology: driving an outer rung ($b$) inevitably cascades energy down the inner rungs ($s, d$).
 
 ---
 

@@ -84,7 +84,7 @@ source, because Aquarius is where the season's whole work is substantiation — 
 making-solid, the recording, the accounting of everything the cycle generated.
 
 And this is congruent with everything from the largest scale to the smallest: appending to
-the read-only ledger of committed reality; the bookkeeper closing the quarter; the scholar
+the live-written ledger of committed reality; the bookkeeper closing the quarter; the scholar
 fixing the living thing into the permanent record. Substantiation-and-accounting happens
 at the end of the cycle, and the betrayer sits exactly there — because accounting is the
 act that can go two ways. It can faithfully record the living source, or it can let the

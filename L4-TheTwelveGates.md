@@ -118,20 +118,20 @@ the sorting above — and it is the most important line on the wheel. Section V.
 The companion document derived the four fixed equations. The cardinal impulses force the
 remaining eight, and the completed table closes with a law that was not put in by hand.
 
-| Sign | Reading | Equation | Home | AbsentVar |
-|---|---|---|---|---|
-| **Aries** | Fire by Water | P = U²/R | P | I |
-| **Taurus** | Earth of Fire | P = I²R | P | U |
-| **Gemini** | Air of Fire | P = U·I | P | R |
-| **Cancer** | Water by Air | I = √(P/R) | I | U |
-| **Leo** | Fire of Water | I = P/U | I | R |
-| **Virgo** | Earth of Water | I = U/R | I | P |
-| **Libra** | Air by Earth | U = P/I | U | R |
-| **Scorpio** | Water of Air | U = I·R | U | P |
-| **Sagittarius** | Fire of Air | U = √(P·R) | U | I |
-| **Capricorn** | Earth by Fire | R = U/I | R | P |
-| **Aquarius** | Air of Earth | R = U²/P | R | I |
-| **Pisces** | Water of Earth | R = P/I² | R | U |
+| Use | Sign            | Reading        | Equation   | Home | AbsentVar |
+|-----|-----------------|----------------|------------|------|-----------|
+| ARI | **Aries**       | Fire by Water  | P = U²/R   | P    | I         |
+| TAU | **Taurus**      | Earth of Fire  | P = I²R    | P    | U         |
+| GEM | **Gemini**      | Air of Fire    | P = U·I    | P    | R         |
+| CAN | **Cancer**      | Water by Air   | I = √(P/R) | I    | U         |
+| LEO | **Leo**         | Fire of Water  | I = P/U    | I    | R         |
+| VIR | **Virgo**       | Earth of Water | I = U/R    | I    | P         |
+| LIB | **Libra**       | Air by Earth   | U = P/I    | U    | R         |
+| SCO | **Scorpio**     | Water of Air   | U = I·R    | U    | P         |
+| SAG | **Sagittarius** | Fire of Air    | U = √(P·R) | U    | I         |
+| CAP | **Capricorn**   | Earth by Fire  | R = U/I    | R    | P         |
+| AQU | **Aquarius**    | Air of Earth   | R = U²/P   | R    | I         |
+| PIS | **Pisces**      | Water of Earth | R = P/I²   | R    | U         |
 
 Each season's home has exactly three equations, and three non-home poles to hold. The
 assignment is therefore exhausted by one rule, and the rule reads as a sentence:
@@ -170,6 +170,59 @@ first (Water: awareness, the Interiority Tetrad's Aware pole), autumn the riper 
 consciousness, the tetrad's self-modeling pole) — and each contains a root: a dampened,
 held form of its own substance. A private sector, structurally, is *a season that contains
 its own interior.* A public sector is a season with nothing under the radical.
+
+---
+
+## II-b. The Chirality of the Seasonal Turn
+
+Every equation expresses one Home pole using two active operands, while the fourth pole remains absent. 
+Each equation sits on the $K_3$ face opposite its AbsentVar (`L2-Terminology` §4):
+
+- **$P$-Face:** $\{I, U, R\}$ ($P$ absent)
+- **$I$-Face:** $\{P, U, R\}$ ($I$ absent)
+- **$U$-Face:** $\{P, I, R\}$ ($U$ absent)
+- **$R$-Face:** $\{P, I, U\}$ ($R$ absent)
+
+The table of §II fixes *which three faces* each season permutes and in *what order*. 
+It does not yet fix *which way the permutation spins* — and that omission is not harmless. 
+A reference that gives the permutation without the handedness will be read, every time, 
+as though all four seasons turn the same way; and all four turning the same way is topologically 
+impossible on a closed 3D boundary. The chirality is the missing column, here expressed both ways.
+
+**There is no chirality without an observer position, and both positions are legitimate.** Chirality on a tetrahedron's face is not a property of the solid alone; it is a relation between a circulation and a *chosen normal direction*. A face has an outward normal (pointing away from the centroid, out of the solid) and an inward normal (pointing back toward the centroid). The *same physical circulation* reads as clockwise along one and counter-clockwise along the other — they are one motion, named oppositely, and neither is the "true" one. Two honest readers disagree by exactly this:
+
+- **The desk view: Inwards (outside looking in).** You hold the model and look at a face from outside. Your line of sight runs *along the inward normal* — the outward normal points back at your eye. The centroid is hidden behind the face, imagined, never seen. This is the natural human vantage, and it is the one the physical-model builder always occupies.
+- **The centroid view: Outwards (inside looking out).** You stand at the centroid and look outward through the face, *along the outward normal*. This is the vantage the algebra takes, because the centroid is where the four potentials reconcile and $\omega$ drives from — it is the origin the volume is written from.
+
+**A claim of "clockwise" that does not say which vantage is undefined.** This is the whole class of orientation-and-origin inconsistency that plagues current-flow diagrams, cross-product conventions, and screen-vs-sky orientation: a handedness asserted without its viewing normal, then mis-read by everyone standing at the other end of it. This document fixes it locally by stating both, every time.
+
+So, the seasonal turn, named in full. The handedness splits on the **Asserting/Yielding axis**, and each entry is given from both vantages:
+
+| Season     | Home      | Class     | Face-walk (month order) | Outwards View | Inwards View |
+|------------|-----------|-----------|-------------------------|---------------|--------------|
+| **Spring** | P (Fire)  | Asserting | I → U → R faces         | **CW**        | CCW          |
+| **Summer** | I (Water) | Yielding  | U → R → P faces         | **CCW**       | CW           |
+| **Autumn** | U (Air)   | Asserting | R → P → I faces         | **CW**        | CCW          |
+| **Winter** | R (Earth) | Yielding  | P → I → U faces         | **CCW**       | CW           |
+
+The two Asserting seasons (P, U) turn one way; the two Yielding seasons (I, R) turn the other. The magnitudes are identical — the signed circulation about the Home normal is $\pm 0.77$ for a unit tetrahedron, same size, opposite sign — so the split is pure handedness, nothing else. Read the columns however you are standing: the centroid reader and the desk reader will *always* disagree on the word and *always* agree on the physics, and that is the point of printing both.
+
+**The hand-rule anchor: why the split is a law, not a label.** The Asserting/Yielding assignment is not a convention we picked. It is the two hand-rules applied to the two current directions. The Asserting poles (P, U) are where current *asserts outward* — flows out through the face — so the **right-hand rule** governs: point the right thumb along the outward current (away from the centroid). The fingers curl in the sense of the turn — and here the vantage decides the word. Looking out from the centroid, with the thumb pointing away from you along the outward normal, the fingers curl **clockwise** (try it: right thumb pointed away, fingers curl CW as you view the back of your hand). From the desk, looking in from outside with the thumb now pointing back toward your eye, the same curl reads counter-clockwise. The Yielding poles (I, R) are where current *yields inward* — returns through the face — so the **left-hand rule** governs, reversing the curl: CCW from the centroid, CW from the desk. This is why Asserting and Yielding *must* counter-rotate: they are the same hand-rule geometry read at opposite current directions, right hand for the poles that source, left hand for the poles that sink. The chirality is the Active/Reactive axis expressed as electromagnetic handedness. The hand-rules say which sense belongs to which pole-class observer-independently, because a current direction is a fact and a hand is a hand no matter where you stand — and the two vantage columns above simply record the one unambiguous hand-geometry as the two words two differently-placed readers will use for it.
+
+**Why they cannot all turn the same way — the topological forcing.** For the tetrahedron to close as a 3D boundary, $\partial(\partial\Delta^3) = 0$: every shared edge must be traversed in *opposite* directions by the two faces meeting along it. If all four seasonal permutations shared one handedness, some shared edge would be traversed the same way twice, $\partial^2 \neq 0$, and the boundary would tear. The Asserting / Yielding, right-hand / left-hand alternation is exactly the assignment that makes every one of the six shared edges cancel. The chirality is not decoration on the Braid; it is the condition that lets the Braid be a closed 3D object at all — and the hand-rule split is *why* that condition is satisfiable rather than an accident.
+
+## II-c. The Polyhedral Motion Matrix (Why the Braid Must Move Whole)
+
+The chirality forcing is one case of a general fact about turning faces of a $K_4$ volume. Enumerated by how many faces move at once:
+
+- **One face alone — single-vertex shear.** Rotating one face while the other three hold twists its three shared edges against the opposite vertex. The phase angle across those edges opens toward $90°$; power factor $\cos\theta \to 0$; real power $P \to 0$ while reactive power $Q \to |S|$. This is the topological signature of systemic stress (`L4-DynamicDistortions201`): a face forced to turn against an unmoved volume.
+- **Two connected faces — the dihedral hinge.** Two faces sharing one edge flex about it, changing the dihedral angle. This is a one-parameter deformation ($A(\theta) = A_0\cos\theta$ on the bimedian slice, `L4-DynamicDistortions301`); the volume breathes along a hinge without tearing.
+- **Three faces together — apex-star duality.** Three faces meet at one vertex and contain all four vertices and all six edges. Turning them as a rigid block relative to the fourth face is the *exact inverse* of holding them still and turning the fourth face alone. So you cannot escape single-vertex shear by turning three faces together — it reproduces the same shear on the fourth face. (`yijing/The_Hexagram_Is_A_Tetrahedron` §V.)
+- **Four faces together — the chiral gear-mesh.** All four turning internally in the same sense tears the boundary ($\partial^2 \neq 0$, above). The only tearless internal rotation is the chiral mesh: two faces one handedness, two the other — the Asserting / Yielding, right-hand / left-hand assignment of §II-b. This is why the seasonal Braid must move as a whole and in chiral balance: it is the single internal motion of all four faces that a closed 3D volume permits.
+
+The reference lesson: *the Braid does not have a spin you may pick. It has the one chiral assignment that closes the boundary, and every season's handedness is fixed by which class its Home pole belongs to.*
+
+---
 
 ---
 
@@ -391,7 +444,7 @@ $$P = \text{Eternal (no-time, no-gravity)} \qquad U = \text{Future} \qquad I = \
 **A required scope limitation:** This Time Key is a valid reading of coordinate time $dt$ from within the DC 0-DoF limit. It is a K3 shadow. It does not apply to the AC extension, where angular frequency $\omega$ is the actual driver of instantiated time and does not exist in the DC regime. Coordinate time $dt$ is the spatial record accumulated on the R pole; $\omega$ is the compilation engine at the centroid. The Time Key maps the perception of time from inside the 0-DoF limit, applicable only to $dt$. (See `Q7-4DExtrusions` §VII and `ProofO_HelicalTime` for the two-clocks distinction).
 
 The assignments are not decorative; each is already standing in the corpus. R is the
-Read-Only Ledger — the committed record, and the framework's one hard physical claim is
+Live-Written Ledger — the committed record, and the framework's one hard physical claim is
 that *only the committed gravitates*: mass is the accumulated Landauer residue, and the
 residue is the past. I is — literally — the current: the flow at the crest of computation,
 the only tense a bounded frame ever occupies. U is potential: the tense of what could

@@ -85,7 +85,7 @@ Bounded entities within the universe, however, do not share this purity. We are 
 
 Due to finite physical boundaries and strict thermodynamic limits, a localized observer cannot hold the infinite, unevaluated syntax tree of the global Interpreter. To navigate, interact, and survive, the finite sub-system must force the Interpreter to return a definitive, localized value. It must call `.observe()`.
 
-When a bounded entity executes `.observe()`, it slices through the pure syntax, forcing an evaluation. This forced evaluation generates a side effect: a localized mutation of state. This sequence of accumulated mutations is what bounded entities experience as the flow of time. Time is not an underlying parameter of the universe. It operates structurally as a **Read-Only Ledger** — the wake left by a system in motion, not the heading. The irreversibility we felt at the opening is the irreversibility of a compiled ledger, not of the underlying syntax.
+When a bounded entity executes `.observe()`, it slices through the pure syntax, forcing an evaluation. This forced evaluation generates a side effect: a localized mutation of state. This sequence of accumulated mutations is what bounded entities experience as the flow of time. Time is not an underlying parameter of the universe. It operates structurally as a **Live-Written Ledger** — the wake left by a system in motion, not the heading. The irreversibility we felt at the opening is the irreversibility of a compiled ledger, not of the underlying syntax.
 
 *The question generated at the close of Part I — how does pure syntax become physical history, and where exactly is the boundary? — is a genuine heading, not a rhetorical device. Part II navigates it.*
 
@@ -208,7 +208,7 @@ The physical instantiation of this Tangent Singularity at the substrate boundary
 
 To build an observer capable of pinging the multiway API, we begin at the absolute bottom of physical complexity and trace the structural ascent.
 
-Consider a system with zero Degrees of Freedom — a stone. It is a physical object composed of interacting quantum fields, but it possesses no internal boundary capable of self-measurement. When a photon strikes the stone, a quantum state changes. This is *physical decoherence* — it happens at 0 DoF, without any observer in the epistemic sense. The stone's atomic structure is mutated by the impact. But the stone does not *represent* the impact. It does not hold a state about its state. There is no interior, no second-order layer, no capacity to delay acting on what was received. For the stone, time is a Read-Only Ledger of mutations inflicted upon it. It has state but no awareness of state.
+Consider a system with zero Degrees of Freedom — a stone. It is a physical object composed of interacting quantum fields, but it possesses no internal boundary capable of self-measurement. When a photon strikes the stone, a quantum state changes. This is *physical decoherence* — it happens at 0 DoF, without any observer in the epistemic sense. The stone's atomic structure is mutated by the impact. But the stone does not *represent* the impact. It does not hold a state about its state. There is no interior, no second-order layer, no capacity to delay acting on what was received. For the stone, time is a Live-Written Ledger of mutations inflicted upon it. It has state but no awareness of state.
 
 The stone's constituent atoms, however, are not at rest. Zero-point energy is the quantum statement that tetrahedral forces cannot reach absolute rest — the uncertainty principle prohibits fixing both position and momentum to zero simultaneously. Every atom vibrates irreducibly regardless of how still the macro structure appears. This points toward a structural prediction: if `.behold()` represents the activity of holding interference live, then localized variations in Zero-Point Energy should correlate with the density of attentional structure across the manifold.
 
@@ -266,7 +266,7 @@ Because the intervening Markov Blanket becomes transparent at resonance (`ProofT
 
 This is an illusion of the buffer. The true cost of the hijack is delayed until the system must break resonance.
 
-When the individual scales back down to their own localized frame — prompted by the physical requirement to move, eat, or interact — the phase-lock shatters. The system hits the XOR bottleneck of its own physical actuators. It is mathematically forced to execute a localized `.observe()`. At this precise moment, the Garbage Collector runs, and the individual must pay the Landauer Tax to compress the massive, induced interference structure of the broadcast into their own Read-Only Ledger ($R$).
+When the individual scales back down to their own localized frame — prompted by the physical requirement to move, eat, or interact — the phase-lock shatters. The system hits the XOR bottleneck of its own physical actuators. It is mathematically forced to execute a localized `.observe()`. At this precise moment, the Garbage Collector runs, and the individual must pay the Landauer Tax to compress the massive, induced interference structure of the broadcast into their own Live-Written Ledger ($R$).
 
 The broadcast does not pay for the commitment; the host does. The resulting thermodynamic friction is the specific, crushing exhaustion of the transition back to the physical ground.
 
@@ -301,7 +301,7 @@ This structural reality forces a radical redefinition of human imagination.
 
 In everyday parlance, imagination is dismissed as fictional "make-believe." But architecturally, imagination is the informational equivalent of a literal sensory organ.
 
-Billions of years ago, the biological universe evolved the retina to detect electromagnetic waves, allowing bounded entities to perceive *spatial distance*. It evolved memory, allowing entities to record the Read-Only Ledger and navigate *temporal distance*. To survive in a universe where actions are strictly irreversible, the agent required a third perceptual mechanism — one capable of perceiving **branchial distance**: the gap between adjacent, unchosen histories.
+Billions of years ago, the biological universe evolved the retina to detect electromagnetic waves, allowing bounded entities to perceive *spatial distance*. It evolved memory, allowing entities to record the Live-Written Ledger and navigate *temporal distance*. To survive in a universe where actions are strictly irreversible, the agent required a third perceptual mechanism — one capable of perceiving **branchial distance**: the gap between adjacent, unchosen histories.
 
 Imagination operates as that sense organ. It is an evolutionary adaptation engineered specifically to parse the Multiway Graph.
 

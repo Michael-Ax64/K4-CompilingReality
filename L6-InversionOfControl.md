@@ -17,7 +17,7 @@ Standard computer science treats `eval` as the default and `quote` as the except
 
 The framework proves that physical reality runs the exact opposite baseline.
 *   **The Baseline (`quote`):** The universe's default state is `.behold()`. The Pure Interpreter holds the uncollapsed multiway graph in a massive, suspended FEXPR. It requires no irreversible thermodynamic work to maintain this superposition because it never executes.
-*   **The Exception (`eval`):** To force a value, a bounded frame must execute `.observe()`. This is `eval`. It triggers the XOR bottleneck of the actuator, runs the Garbage Collector, pays the Landauer Tax, and writes a scalar entry to the Read-Only Ledger ($P$).
+*   **The Exception (`eval`):** To force a value, a bounded frame must execute `.observe()`. This is `eval`. It triggers the XOR bottleneck of the actuator, runs the Garbage Collector, pays the Landauer Tax, and writes a scalar entry to the Live-Written Ledger ($P$).
 
 Execution is metabolically expensive. Suspension is the resting state.
 

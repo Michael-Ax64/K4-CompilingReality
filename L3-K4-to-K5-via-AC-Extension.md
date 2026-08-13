@@ -79,7 +79,7 @@ where φ = arctan(X/R) is the phase angle.
 
 **The framework's interpretation**: Impedance **Z** is the complex extension of Resistance R. Where R (DC) is the grounding/opposition variable (Earth/Ethos) described only by its real component, **Z** (AC) includes both the real (dissipative, committed, irreversible) and imaginary (reactive, held-in-suspension, reversible) components of opposition.
 
-The imaginary component of impedance — the reactance X — is the formal expression of the AbsentVar at the temporal level: the component of opposition that is *held but not consumed*, present in the system but not committed to the Read-Only Ledger. Reactance stores what resistance would dissipate.
+The imaginary component of impedance — the reactance X — is the formal expression of the AbsentVar at the temporal level: the component of opposition that is *held but not consumed*, present in the system but not committed to the Live-Written Ledger. Reactance stores what resistance would dissipate.
 
 This means: the AC extension adds a formal expression for the difference between `.observe()` (dissipative, real component) and `.behold()` (reactive, imaginary component) within the resistance/opposition variable itself. In DC, R has no imaginary component — all opposition is dissipative. In AC, Z has both: some opposition is dissipative (committed, lost) and some is reactive (held, potentially returned).
 
@@ -112,7 +112,7 @@ In AC circuits, power has three components:
 | $\frac{\sqrt{2}}{2} \approx 0.7071$ | $45^\circ$ | $= P$ | Equipartition threshold | Real Power equals Reactive Power; balanced buffer |
 | $\to 0$ | $\to 90^\circ$ | $\approx |S|$ | Purely reactive | Zero conversion; all energy circulates; paralysis |
 
-**Real power P** (watts): the rate at which energy is actually consumed — converted to heat, light, mechanical work, or other irreversible outputs. This is the `.observe()` power: committed, written to the Read-Only Ledger, gone.
+**Real power P** (watts): the rate at which energy is actually consumed — converted to heat, light, mechanical work, or other irreversible outputs. This is the `.observe()` power: committed, written to the Live-Written Ledger, gone.
 
 **Reactive power Q** (volt-amperes reactive, VAR): the rate at which energy oscillates between source and reactive elements — stored and returned, never actually consumed. This is the `.behold()` power: held in suspension, cycled, not committed. A purely reactive load (a perfect inductor or capacitor) has Q ≠ 0 and P = 0: power flows in and out of the element but none is consumed.
 

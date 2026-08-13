@@ -49,19 +49,6 @@ Anything that has an 'It'ness, an inside to it, relates, and with 4 instead of 3
 Small difference, huge consequences.
 
 
-## The Instances: Demolishing the Syntax of Non-Arguments
-
-We think that any Structural Reasoning needs to be K4+ and that's what we propose thinking with: Scale Invariant Resonances. 
-
-We identify minimum structural requirements for any argument and demolish the syntax of non-arguments. The framework formalizes how we operationalize reasoning with wholes. It delivers the map of possibilities. It is a long suspected formalism which you didn't know you needed.
-
-It will not do all your numbers. (Not yet, but ConvergentByParadox -- our way of dealing with both, Domains and Level, suggests CR must be able to meaningfully correllate with qualitative results, e.g. show the right impulses. It more or less does. Your Mileage may vary, but the arguments you will find here are not ambitious. Your Scale may vary, but whatever the numeric differences may turn out to be, note the CR is an impedance match for understanding wholes and how they relate.
-
-It will not compile syntax errors such as the Hard Problem of Consciousness (HPC), because the HPC model is flat and thus 'insubstantial' (lacking a dimensional core) (`L0-Introduction`, `ProofB_LogoicFracture`). The argument doesn't ring (`ProofS_ResonantNote`). When a domain attempts to map a four-dimensional volumetric reality using a two-dimensional surface algebra, the math breaks, and the field floods with unresolvable anomalies (`L0-Introduction`).
-
-And it finds itself in the arts and humanities just the same (`L1-ConvergentDiscovery`). It offers perspectives, generates ideas, thinks of itself as an interior syntax. It maps and reasons with volumes as electric phenomena, at any scale, rate or level, in any domain.
-
-
 ## Proof by Resonance
 
 The 12 equations close without external constants. The dual-binary seed forces the four poles. The AC extension breaks the logarithm and mints scale (`L4-ScalingInvariants`). When this structure is driven against independent semantic domains—Jungian psychology, classical rhetoric, the genetic code, the four fundamental forces—the coherence profile peaks at the canonical assignment and degrades under permutation swap (`ProofS_ResonantNote`, `L2-MappingMethod`). 
@@ -112,19 +99,13 @@ A dedicated sequence mapping the Standard Model and quantum mechanics to the K4 
 
 In standard theoretical frameworks, claims remain on the page as metaphors. Here, the structure is mechanized. The `/code/` and `/manifolds/` directories contain Prolog constraint engines, Lisp evaluators, Python AST checkers, and deployed multi-agent Swarm Controllers. 
 
-The code is the ultimate falsifier. It proves that the framework is an auto-classifying arithmetic syntax. If you feed it a topological impossibility, the compiler crashes.
+The code is the ultimate falsifier. It proves that the framework is an auto-classifying arithmetic syntax. If you feed it a topological impossibility, the compiler crashes. Just a few toys, but still.
 
 ---
 
-**Update, the "No-Gravitons Proof" has now been properly vetted:**
+## 3. Predictions
 
-**Proof V (The Two-Branch Minting):** Structural proof that rest mass is non-additive across Markov Blankets. Maps the relativistic invariant-mass formula onto the Biquaternion star-norm and derives the two-branch theorem of aggregation: $Q$-retention mints mass upward (confinement — the proton, bound light), $P$-export mints it downward (the binding-energy defect — nuclei, lattices), with $\omega$-synchronization at the blanket boundary as the mechanism, warranted by $E = \hbar\omega$. Reproduces the sign structure of relativistic aggregation without additional postulates. Carries two explicitly marked debts: no operator yet converts Landauer bit-counts into MeV, and the differential geometry recovering the Schwarzschild metric remains unwritten.
-
----
-
-## 3. The Predictions (The Teeth)
-
-The framework makes specific, structurally forced predictions. 
+The framework makes quite a few specific, structurally forced predictions. These are just some. Better to read the proofs.
 
 1. **Casimir Null-Gravity Signature:** The Casimir effect is a boundary pressure (held potential), not a serialized Ledger entry. It has paid no Landauer Tax. Therefore, it will carry a null gravitational signature measurable by classical gravimetry. (`QED-CCP`)
 2. **Equivalence Principle as a 0-DoF Limit:** Inertial mass ($R$) and gravitational mass ($P$) decouple at high Degrees of Freedom. The Equivalence Principle ($m_i = m_g$) is not a universal law; it is the degenerate boundary condition of a system with zero interiority. (`QED-TwoBranchMinting-Lecture`, `QED-EotvosBound`)

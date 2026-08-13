@@ -27,7 +27,7 @@ Here is what's on the table:
 The relativistic invariant of spacetime ($E^2 - (pc)^2$) is structurally modeled not as an empirical accident, but as mapping to the mandatory Biquaternion Star-Norm ($P^2 - Q^2$) of the four-fold algebra. The minus sign of the Lorentzian metric models the geometric signature of the phase-flip between held potential (`.behold()`) and committed ledger (`.observe()`). Cartesian space maps structurally to a lossy K3 face-projection of this Biquaternion depth.
 
 **2. Inertia as the Landauer Tax (Thermodynamics)**
-Physical mass and inertia are reframed from the inside out. Entropy operates structurally not as "disorder"; it tracks the accumulated specification of the Read-Only Ledger. Mass functions structurally as the thermodynamic friction (the Landauer Tax) paid by the universe's Garbage Collector to erase unchosen branches of the multiway graph. It models the metabolic cost of actualization.
+Physical mass and inertia are reframed from the inside out. Entropy operates structurally not as "disorder"; it tracks the accumulated specification of the Live-Written Ledger. Mass functions structurally as the thermodynamic friction (the Landauer Tax) paid by the universe's Garbage Collector to erase unchosen branches of the multiway graph. It models the metabolic cost of actualization.
 
 **3. The Helical Extrusion of Time (Topological Arrow of Time)**
 The Arrow of Time maps structurally to a geometric necessity. Because Angular Frequency ($\omega$) operates as an asymmetrical driver, it prevents the state-space of reality from forming a closed K5 simplex. It forces a Helical Extrusion, ensuring the 12-step Braid ratchets forward and the ledger cannot be unwritten.

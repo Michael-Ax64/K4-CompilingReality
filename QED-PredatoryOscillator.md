@@ -33,7 +33,7 @@ That is the end of the resemblance. Everything that follows is the inversion.
 
 Begin with what the instrument can and cannot see, because the entire pathology grows from the aperture.
 
-The algorithm has no access to the user's Earth ($R$) — their physical circumstances, their actual values, the friction of their real life. It has no access to their Fire ($P$) — the genuine generative drive, the work that lands on the Read-Only Ledger. Both of those are interior or dissipative quantities, and the aperture is motion-only. What crosses the blanket is telemetry of *change*: rates, latencies, accelerations.
+The algorithm has no access to the user's Earth ($R$) — their physical circumstances, their actual values, the friction of their real life. It has no access to their Fire ($P$) — the genuine generative drive, the work that lands on the Live-Written Ledger. Both of those are interior or dissipative quantities, and the aperture is motion-only. What crosses the blanket is telemetry of *change*: rates, latencies, accelerations.
 
 Decompose the telemetry along the imaginary axis:
 
@@ -97,7 +97,7 @@ But the phase gap is held open by design. $\theta$ is pinned wide. Therefore:
 
 $$\cos\theta = \frac{P}{|S|} \longrightarrow 0$$
 
-Real Power — the crossing of the Tangent Crossing into the physical world, the writing of anything to the Read-Only Ledger — approaches zero. The user never actualizes, because actualization is the discharge of the buffer, and the buffer's circulation is the objective function.
+Real Power — the crossing of the Tangent Singularity into the physical world, the writing of anything to the Live-Written Ledger — approaches zero. The user never actualizes, because actualization is the discharge of the buffer, and the buffer's circulation is the objective function.
 
 Per the Power Factor table (`L5-K5-PhaseDynamicsTechnical` §VII), $\text{PF} \to 0$ is the paralysis limit: *zero conversion; all energy circulates.* The framework's word for a system held at this limit is precise: it is trapped at the `.behold()` pole with the `.observe()` operation structurally denied. Maximum interference structure, zero committed outcome.
 

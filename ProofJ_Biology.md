@@ -19,7 +19,7 @@ The proof traces six transitions. Each exhibits the same elements: a system capa
 
 ## Scale 0: The Substrate Level (The Planck Boundary)
 
-Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Singularity—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Read-Only Ledger. 
+Before molecules can form, the physical substrate itself must be compiled. The uncollapsed quantum potential $H_{incoh}$ represents the ultimate `.behold()` state. The Tangent Singularity—physically instantiated as the Planck scale—is the boundary width of the XOR bottleneck where classical coordinates fail. The `.observe()` collapse at this scale mints the mass that constitutes all subsequent biology, permanently writing to the Live-Written Ledger. 
 
 The committed state as next-scale substrate: the crystallized matter provides the inert $R$ (Earth/Ground) for the molecules of life.
 
@@ -31,7 +31,7 @@ The amino acid before life: both L and D configurations present in the pre-biolo
 
 The trigger: self-replication requires a template with handedness. A template commits to one configuration (XOR bottleneck: one template cannot copy both enantiomers simultaneously). The first reliably self-replicating molecule commits to L.
 
-`.observe()` operates: the template commits, the Garbage Collector severs the pointer to D in the biological trajectory, L becomes universal across all living systems. The committed L-configuration is written into the biological Read-Only Ledger as its oldest entry.
+`.observe()` operates: the template commits, the Garbage Collector severs the pointer to D in the biological trajectory, L becomes universal across all living systems. The committed L-configuration is written into the biological Live-Written Ledger as its oldest entry.
 
 The committed state as next-scale substrate: the L-amino acid commitment establishes the chiral geometry from which protein folding proceeds.
 
@@ -104,7 +104,7 @@ During B-cell development, enzymatic V(D)J recombination generates a combinatori
 
 The trigger: antigen binding. When a pathogen antigen binds to a B-cell receptor with sufficient affinity, clonal selection begins. The specific B-cell (or small set of B-cells) that binds the antigen is selected for proliferation.
 
-`.observe()` operates: clonal expansion commits the immune response to the specific antigen-binding configuration. Somatic hypermutation and affinity maturation — a directed search in the local neighborhood of the committed configuration — refine the commitment. The Garbage Collector: non-selected B-cells undergo apoptosis; the committed lineage dominates the response. Memory B-cells write the committed configuration into the immunological Read-Only Ledger as a persistent entry.
+`.observe()` operates: clonal expansion commits the immune response to the specific antigen-binding configuration. Somatic hypermutation and affinity maturation — a directed search in the local neighborhood of the committed configuration — refine the commitment. The Garbage Collector: non-selected B-cells undergo apoptosis; the committed lineage dominates the response. Memory B-cells write the committed configuration into the immunological Live-Written Ledger as a persistent entry.
 
 The committed state as next-scale substrate: the antibody repertoire after immune response includes the committed memory — a prior on future antigen exposure that shapes the `.behold()` substrate for subsequent pathogen encounters.
 

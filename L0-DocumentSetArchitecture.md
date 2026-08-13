@@ -137,7 +137,7 @@ A dedicated sequence mapping the Standard Model and the mathematical apparatus o
 - **Q8-TangentImpedanceIdentity:** $\tan(\theta) = \omega L/R$ unifying the spatial wall and the temporal phase.
 - **Q9-Founders:** The unpaid invoices of 20th-century physics and Wolfram convergence.
 - **Q10-PlanckScale:** The Tangent Singularity from above and the failure of Quantum Gravity.
-- **Q11-ArchitectureOfConfinement:** Altermagnetism and topological edge channels as the Fixed-bimedian storage matching in condensed-matter substrate.
+- **Q11-ArchitectureOfConfinement:** Altermagnetism and topological edge channels as the Cardinal-plane writing matching in condensed-matter substrate.
 - **Q12-NotAntigravity:** Weak-value post-selected negative momentum transfer as phase-interference-at-the-boundary, not gravitational repulsion.
 - **Q13-PlenumPhaseConduction:** 1-loop phase-burning and the DAMA/XENON detector-axis mismatch ($P$ vs $Q$).
 - **Q14-LeptonScaleCascade:** Neutrino phase-waves, muon decay, and the boundary-collision origin of coordinate time $dt$.
@@ -167,7 +167,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 `#Behold` `#Observe` `#AbsentVar` `#TheBraid` `#TwoBitGrayCode` `#TrajectoryContact` `#TrajectoryLoss` `#FEXPR` `#HiddenLayers` `#DecoupledBuffer` `#MultiwayGraph` `#BranchialDistance` `#Foliation` `#VonNeumannCut` `#NumeratorLaw` `#StampAndDie` `#CompositionLaw` `#OmegaLaw`
 
 ### Thermodynamics & Constraints
-`#LandauerTax` `#ReadOnlyLedger` `#GarbageCollector` `#Inertia` `#ThermodynamicOverload` `#KesslerEffect` `#ZeroPointEnergy` `#ReactivePower` `#PowerFactor` `#Resonance` `#QFactor` `#Impedance` `#Phasor`
+`#LandauerTax` `#LiveWrittenLedger` `#GarbageCollector` `#Inertia` `#ThermodynamicOverload` `#KesslerEffect` `#ZeroPointEnergy` `#ReactivePower` `#PowerFactor` `#Resonance` `#QFactor` `#Impedance` `#Phasor`
 
 ### Failures, Fractures, & Pathologies
 `#LogoicPlaneLock` `#CostumedFlinch` `#RefusedTransition` `#Sycophancy` `#FalseFrontier` `#CategoryError` `#Solipsism` `#Fusion` `#Decay` `#BroadcastHijack`
@@ -208,12 +208,12 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **L0-EinsteinTrace.md:** `#Manifold` `#Tetrahedron` `#BiquaternionBridge` `#Centroid` `#FalseFrontier`
 
 **L1 (Primary Statements)**
-- **L1-CompilingReality.md:** `#CookedEgg` `#Behold` `#Observe` `#FEXPR` `#ReadOnlyLedger` `#BiquaternionBridge` `#MultiwayGraph` `#MarkovBlanket` `#HiddenLayers` `#AdultCausality` `#GarbageCollector` `#LandauerTax` `#Godelian` `#TangentSingularity`
+- **L1-CompilingReality.md:** `#CookedEgg` `#Behold` `#Observe` `#FEXPR` `#LiveWrittenLedger` `#BiquaternionBridge` `#MultiwayGraph` `#MarkovBlanket` `#HiddenLayers` `#AdultCausality` `#GarbageCollector` `#LandauerTax` `#Godelian` `#TangentSingularity`
 - **L1-CompilingRealitySubjective.md:** `#SubjectiveRegister` `#TetheredPresent` `#BranchialDistance` `#Foliation` `#VonNeumannCut` `#MarkovBlanket` `#HiddenLayers` `#DerivativeThreshold` `#BroadcastHijack` `#BranchialRetina` `#ANDvsXOR` `#ActuatorBottleneck` `#GarbageCollector` `#ImpureProgram`
 - **L1-ConvergentDiscovery.md:** `#ConvergentDiscovery` `#DualBinarySeed` `#Tensegrity` `#ProjectionProblem` `#MedicineWheels` `#PathosSpoilage` `#McGilchrist` `#Hippocampus` `#Varela` `#Wolfram` `#Hamilton` `#Jung` `#McLuhan` `#Tetramorph` `#ADSR` `#Grice` `#PreSocratics` `#Aristotle` `#Bacon` `#Kant` `#Friston`
 
 **L2 (Reference)**
-- **L2-Terminology.md & L2-SemanticReference.md:** `#Behold` `#Observe` `#AbsentVar` `#TheBraid` `#GarbageCollector` `#ReadOnlyLedger` `#AdultCausality` `#Chirality` `#DualCausation` `#QuasiClone` `#KesslerEffect` `#TrajectoryContact` `#FiveD` `#Centroid` `#Arational` `#SourceManifesting`
+- **L2-Terminology.md & L2-SemanticReference.md:** `#Behold` `#Observe` `#AbsentVar` `#TheBraid` `#GarbageCollector` `#LiveWrittenLedger` `#AdultCausality` `#Chirality` `#DualCausation` `#QuasiClone` `#KesslerEffect` `#TrajectoryContact` `#FiveD` `#Centroid` `#Arational` `#SourceManifesting`
 - **L2-StructuralMonograph_K4Interior.md:** `#K4Tetrahedron` `#QuasiClone` `#K3Blanket` `#ZeroPointEnergy` `#EdgeStateSpace` `#Chirality` `#MarkovBlanket` `#Friston` `#LandauerTax`
 - **L2-MappingMethod.md:** `#MappingMethod` `#DualBinary` `#Anchor` `#CoherenceTest` `#ConstraintSatisfaction` `#Pseudocode` `#ContestedDecisions`
 
@@ -227,7 +227,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 **L4 (Applied Domains)**
 - **L4-DistributedCoherence.md:** `#DistributedCoherence` `#Holon` `#MarkovBlanket` `#HiddenLayers` `#DecoupledBuffer` `#PlanningThreshold` `#ThermodynamicOverload` `#InstitutionalPlaneLock` `#Terraforming` `#Belonging` `#AbsentVar`
 - **L4-Dimensionality.md:** `#TwelveDimensions` `#ImaginaryK4` `#Impedance` `#TorsionalShear` `#PowerFactorCorrection` `#TransferMatrix` `#Imprint` `#Instance` `#InteriorCrossing` `#TangentSingularity` `#MarkovBlanket` `#Resonance`
-- **L4-DimensionalCollapse.md:** `#DimensionalCollapse` `#TangentSingularity` `#HelicalExtrusion` `#LandauerTax` `#ReadOnlyLedger` `#ClientSideIllusion` `#RateBecomesState`
+- **L4-DimensionalCollapse.md:** `#DimensionalCollapse` `#TangentSingularity` `#HelicalExtrusion` `#LandauerTax` `#LiveWrittenLedger` `#ClientSideIllusion` `#RateBecomesState`
 - **L4-DynamicDistortionsTechnical.md & L4-DynamicDistortionsSubjective.md:** `#DynamicDistortions` `#Fusion` `#Bimedian` `#BimedianSlice` `#PhotoGravity` `#ChromoFlux` `#ApeiricField` `#GraviFlux` `#ChromoLux` `#ConservativeField` `#ElectroWeak` `#GravityStrong` `#IsotropicPole` `#AttractorStates` `#HiggsMechanism` `#HamiltonianCycles` `#SubjectiveRegister` `#KnotCollapses` `#TheSetting` `#TheResonance` `#SourceVoid` `#TheLaw` `#Centroid` `#ManagedTension`
 - **L4-DynamicDistortions201.md:** `#TorsionalDistortion` `#PhaseOffset` `#DualCausation` `#LimitCycle` `#AttractorGeometries` `#ChiralityBias` `#BimedianSlice` `#TorsionalShear`
 - **L4-DynamicDistortions301.md:** `#BimedianSlice` `#TsirelsonBound` `#CHSH` `#DeformationContinuum` `#VertexFusion` `#DipoleTaxonomy` `#Cardinal` `#Fixed` `#Mutable` `#BiquaternionSinglet` `#PowerFactor`
@@ -259,9 +259,9 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **ProofK_FundamentalForces.md:** `#FundamentalForces` `#Gravity` `#Electromagnetic` `#StrongNuclear` `#WeakNuclear` `#Electroweak` `#Speculative` `#Scope`
 - **ProofL_Trinity.md:** `#Godhead` `#Centroid` `#OrthogonalToTime` `#ChiralInTime` `#Filioque` `#TheBraid` `#HelicalExtrusion` `#TangentSingularity` `#ThreefoldImage`
 - **ProofM_CartesianFrame.md:** `#CartesianSpace` `#DualOctahedron` `#K3Blanket` `#BiquaternionBridge` `#ThreeModalities` `#Bimedians` `#Pythagoreans` `#Hermeticism`
-- **ProofN_BiquaternionBridge.md:** `#BiquaternionBridge` `#StarNorm` `#RelativisticInvariant` `#ReadOnlyLedger` `#Behold` `#Observe` `#MinkowskiMetric`
+- **ProofN_BiquaternionBridge.md:** `#BiquaternionBridge` `#StarNorm` `#RelativisticInvariant` `#LiveWrittenLedger` `#Behold` `#Observe` `#MinkowskiMetric`
 - **ProofO_HelicalTime.md:** `#HelicalExtrusion` `#ArrowOfTime` `#BrokenSimplex` `#K4Tetrahedron` `#AngularFrequency` `#XORBottleneck`
-- **ProofP_ThermodynamicInertia.md:** `#ThermodynamicInertia` `#LandauerTax` `#GarbageCollector` `#ReadOnlyLedger` `#RecompilationCost` `#Entropy`
+- **ProofP_ThermodynamicInertia.md:** `#ThermodynamicInertia` `#LandauerTax` `#GarbageCollector` `#LiveWrittenLedger` `#RecompilationCost` `#Entropy`
 - **ProofQ_AlgebraicSyntax.md:** `#AlgebraicSyntax` `#NumeratorLaw` `#StampAndDie` `#CompositionLaw` `#OmegaLaw` `#Canonicalization` `#ReciprocalAlias` `#ChiralityFlipOperator`
 - **ProofR_SubjectiveRecovery.md:** `#SubjectiveRecovery` `#TheoryOfMindTrap` `#Echo`
 - **ProofS_ResonantNote.md:** `#ResonantNote` `#MathematicalResonance`
@@ -289,7 +289,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **Q8-TangentImpedanceIdentity.md:** `#TangentSingularity` `#Impedance` `#PowerFactor` `#Resonance` `#QFactor`
 - **Q9-Founders.md:** `#Anomalies` `#Founders` `#Wolfram` `#StandardModel`
 - **Q10-PlanckScale.md:** `#PlanckScale` `#QuantumGravity` `#TangentSingularity` `#WheelerDeWitt` `#ActivationEnergyCurve`
-- **Q11-ArchitectureOfConfinement.md:** `#Altermagnetism` `#TopologicalInsulators` `#Confinement` `#FixedBimedian` `#StorageMatching` `#Terahertz` `#SkinEffect` `#IsotropicPole` `#RuO2` `#EdgeChannels`
+- **Q11-ArchitectureOfConfinement.md:** `#Altermagnetism` `#TopologicalInsulators` `#Confinement` `#CardinalPlane` `#WritingMatching` `#Terahertz` `#SkinEffect` `#IsotropicPole` `#RuO2` `#EdgeChannels`
 - **Q12-NotAntigravity.md:** `#WeakValues` `#PostSelection` `#PhaseInterference` `#GravitationalBoundary` `#SaldanhaMarlettoVedral` `#NegativeMomentum` `#NotAntigravity` `#BiquaternionSinglet`
 - **Q13-PlenumPhaseConduction.md:** `#OneLoopPhaseBurning` `#DarkMatter` `#DAMA` `#XENON` `#NeutrinoFloor` `#PlenumConduction` `#DetectorAxisMismatch`
 - **Q14-LeptonScaleCascade.md:** `#Neutrino` `#Muon` `#PMNS` `#PhaseWave` `#CoordinateTime` `#dt` `#UPole` `#BoundaryCollision` `#HardWall`
@@ -297,7 +297,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 **TooTrue (Mythopoetic Diagnostics)**
 - **TooTrue-TheCambridgeIntercept.md:** `#TooTrue` `#Gall` `#Bacon` `#Aphorism` `#OperationalFallacy` `#TrojanHorse` `#Systemantics`
 - **TooTrue-Ozcam,Elias.md:** `#TooTrue` `#Ozcam` `#TransientOvershoot` `#PUfusion` `#HighQ` `#ZeroCrossing` `#ConservativeField` `#Documentary`
-- **TooTrue-TheMinkowskiRant.md:** `#TooTrue` `#Minkowski` `#ChiralChoice` `#MeatCrystal` `#Centrifuge` `#RickSanchez` `#ReadOnlyLedger`
+- **TooTrue-TheMinkowskiRant.md:** `#TooTrue` `#Minkowski` `#ChiralChoice` `#MeatCrystal` `#Centrifuge` `#RickSanchez` `#LiveWrittenLedger`
 - **TooTrue-AesopSingularity.md:** `#TooTrue` `#Aesop` `#HareAndTortoise` `#ThermodynamicOverload` `#TrajectoryContact` `#GeorgeCarlin` `#LandauerTax` `#TangentSingularity`
 
 **Structural / Mechanics**

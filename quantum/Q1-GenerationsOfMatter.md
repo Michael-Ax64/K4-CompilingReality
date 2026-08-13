@@ -30,15 +30,15 @@ A tetrahedron on four vertices has six undirected edges. Time imposes a helical 
 
 ## III. The Fatal Collision
 
-A natural mistake occurs when trying to map the three generations onto this geometry. The K4 tetrahedron has three bimedian axes — the Cardinal, Fixed, and Mutable modalities of `L4-DynamicDistortionsTechnical` — and the aesthetic urge is to assign each generation to one bimedian. Generation 1 gets the Cardinal, Generation 2 the Fixed, Generation 3 the Mutable.
+A natural mistake occurs when trying to map the three generations onto this geometry. The K4 tetrahedron has three bimedian planes — the Fixed, Cardinal, and Mutable modalities of `L4-DynamicDistortionsTechnical` — and the aesthetic urge is to assign each generation to one plane. Generation 1 gets the Fixed plane, Generation 2 the Cardinal plane, Generation 3 the Mutable plane.
 
 This mapping shatters on the two-bit register.
 
-The Cardinal bimedian consists of the edges P–U and I–R. These flip only the AY bit while holding AR constant. If Generation 3 were mapped to the Cardinal bimedian, its constituent particles would traverse P–U (a Quark-to-Lepton transition) and I–R (a Lepton-to-Quark transition). The Standard Model strictly forbids these: baryon number and lepton number are conserved separately, and no Weak-force decay turns a Top quark into a Tau lepton. It turns a Top quark into a Bottom quark.
+The Fixed plane consists of the edges P–U and I–R. These flip only the AY bit while holding AR constant. If Generation 3 were mapped to the Fixed plane, its constituent particles would traverse P–U (a Quark-to-Lepton transition) and I–R (a Lepton-to-Quark transition). The Standard Model strictly forbids these: baryon number and lepton number are conserved separately, and no Weak-force decay turns a Top quark into a Tau lepton. It turns a Top quark into a Bottom quark.
 
-Flavor transitions must be intra-class. They must go quark to quark (P ↔ R) or lepton to lepton (I ↔ U). Both of those edges flip only the AR bit while holding the AY bit constant. In the framework's grammar, an AR-flip with AY held is the **Fixed modality**. All observed flavor transitions in the Standard Model execute exclusively on the Fixed bimedian, whose edges are P–R and I–U (see `L4-DynamicDistortionsTechnical` §Fixed for the taxonomy).
+Flavor transitions must be intra-class. They must go quark to quark (P ↔ R) or lepton to lepton (I ↔ U). Both of those edges flip only the AR bit while holding the AY bit constant. In the framework's grammar, an AR-flip with AY held is the **Cardinal modality**. All observed flavor transitions in the Standard Model execute exclusively on the Cardinal plane, whose edges are P–R and I–U (see `L4-DynamicDistortionsTechnical` §Cardinal for the taxonomy).
 
-The Fixed bimedian is also the axis of DNA base-pairing (`On_The_Sixteen_Types`): purines pair with pyrimidines strictly along the AR flip. The universe uses the same hinge for both stable genetic information storage and stable flavor identity storage. This is not analogy; it is the same edge-class doing the same job at different scales.
+The Cardinal plane is also the substrate of DNA base-pairing (`On_The_Sixteen_Types`): purines pair with pyrimidines strictly along the AR flip. That pairing lives on the Cardinal plane precisely because the plane is where the AR flip is free while AY is locked — where the ledger is *live-written*, not merely held. Evolution's Steele-method reverse transcription from soma back into germline is life recording its own trajectory as it goes; it is what a Cardinal-plane operation looks like at the biological scale. The universe uses the same hinge for both writing genetic information and executing flavor identity: not analogy, the same edge-class doing the same job at different scales.
 
 ---
 
@@ -170,7 +170,7 @@ The $K_4$ tetrahedron and its 3 bimedian axes exist in the uncompiled, static $H
 #### 2. The Compilation Step ($\omega > 0$)
 The temporal compilation engine ($\omega > 0$) turns on when a localized observer executes an $\text{.observe()}$ collapse. The $XOR$ actuator fires, the Route Law executes ($\mathbf{Q}^2 \to P$), complex phase burns ($h^2 = -1$), and the Landauer Tax is paid.
 
-The timeless $K_4$ bimedian structure is serialized into the Read-Only Ledger ($P \in H_{\text{coh}}$), minting physical rest masses ($m_e, m_\mu, m_\tau$) and generating coordinate time $dt$ as the thermodynamic exhaust of the impact (`Q14`).
+The timeless $K_4$ bimedian structure is serialized into the Live-Written Ledger ($P \in H_{\text{coh}}$), minting physical rest masses ($m_e, m_\mu, m_\tau$) and generating coordinate time $dt$ as the thermodynamic exhaust of the impact (`Q14`).
 
 #### 3. Why High Energy Cannot Open a 4th Generation
 Because $N_{\text{gen}} = 3$ is locked in the timeless, uncompiled geometry ($\omega = 0$), pumping massive energy or driving high frequency ($\omega \to \infty$) into $H_{\text{coh}}$ **cannot create a 4th generation**. 
@@ -199,7 +199,7 @@ When a particle propagates through space, it does so as a **mass eigenstate**. I
 
 The states used to travel (mass) and the states used to interact (flavor) are rotated relative to each other. The CKM and PMNS matrices are the operators performing that rotation. They are unitary: pure orthogonal rotations in complex space, preserving inner products and information.
 
-A unitary rotation is the mathematical form of the Tangent Crossing turn. As `Meta-MechanismOfTransition` establishes, one cannot pass from the uncollapsed potential (`.behold()`) to the committed interaction (`.observe()`) by pushing harder on the same plane. The interior coordinate diverges — tan(90°) → ∞ — at the boundary. The transition requires a 90° turn out of the interior coordinate system. The unitary mixing matrices are the exact geometric operators that execute this turn from the uncollapsed multiway graph into the localized Read-Only Ledger.
+A unitary rotation is the mathematical form of the Tangent Crossing turn. As `Meta-MechanismOfTransition` establishes, one cannot pass from the uncollapsed potential (`.behold()`) to the committed interaction (`.observe()`) by pushing harder on the same plane. The interior coordinate diverges — tan(90°) → ∞ — at the boundary. The transition requires a 90° turn out of the interior coordinate system. The unitary mixing matrices are the exact geometric operators that execute this turn from the uncollapsed multiway graph into the localized Live-Written Ledger.
 
 **Open in place:** Mapping the specific rotation angles (θ₁₂, θ₂₃, θ₁₃ in the CKM/PMNS) to the torsional shear θ of the three bimedians is asserted but not derived here. 
 
@@ -225,13 +225,13 @@ The Standard Model was assembled empirically over decades, particle by particle,
 
 These two paths converge at the same geometry.
 
-The seal is checkable, and cuts in three directions that a critic native to either side can run. First, take the framework's dual-binary grammar and demand a mapping in which quarks and leptons occupy the same AY class. It fails: quark-lepton transitions cross the AY bit, which no known flavor decay executes, and the two-bit register forces the intra-class confinement without any input from experimental physics. Take the Standard Model's own flavor rule (quark stays quark, lepton stays lepton) and ask what edge-class permits it: only the Fixed bimedian's AR-only flip. The two constraints match.
+The seal is checkable, and cuts in three directions that a critic native to either side can run. First, take the framework's dual-binary grammar and demand a mapping in which quarks and leptons occupy the same AY class. It fails: quark-lepton transitions cross the AY bit, which no known flavor decay executes, and the two-bit register forces the intra-class confinement without any input from experimental physics. Take the Standard Model's own flavor rule (quark stays quark, lepton stays lepton) and ask what edge-class permits it: only the Cardinal plane's AR-only flip. The two constraints match.
 
 Second, take the Standard Model's fitted quantum numbers (I₃, Y_W) and apply Gell-Mann–Nishijima to produce fractional charges. Take the framework's dual-binary bits (AR, AY) and apply the same formula. The bits recover I₃ = ½(AR × AY), Y_W = (2·AY − 1)/3, and Q = I₃ + Y_W/2 gives back +2/3, −1/3, −1, 0 with no free parameters. Neither derivation borrows from the other; they meet at the same numbers.
 
 Third, take Kobayashi and Maskawa's 1973 argument that CP violation requires a mixing matrix of dimension at least 3×3. Take the framework's requirement that the Arrow of Time requires torsional shear, which requires a non-removable complex phase, which requires a mixing matrix of dimension at least 3×3. Both roads land at the same minimum count. That the physics constraint (empirical asymmetry of matter and antimatter) and the framework constraint (existence of the compilation cycle) demand the same matrix dimension is convergence on a single structural fact.
 
-That the convergence recurs on three axes — Fixed-bimedian confinement, dual-binary charges, three-generation minimum — with genetic base-pairing on the same Fixed axis, and with the whole geometry restated in the language of transitions rather than substances, sits in the corpus's account of why independent traditions arrive at K4 (`L1-ConvergentDiscovery`). The convergence is remarkable and it is not more than the corpus already claims: independent formalisms landing on the minimal topology for interior mutual determination.
+That the convergence recurs on three axes of check — Cardinal-plane confinement, dual-binary charges, three-generation minimum — with genetic base-pairing on the same Cardinal plane, and with the whole geometry restated in the language of transitions rather than substances, sits in the corpus's account of why independent traditions arrive at K4 (`L1-ConvergentDiscovery`). The convergence is remarkable and it is not more than the corpus already claims: independent formalisms landing on the minimal topology for interior mutual determination.
 
 
 ---

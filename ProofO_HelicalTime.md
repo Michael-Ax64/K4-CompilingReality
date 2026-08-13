@@ -6,7 +6,7 @@ In the foundational mapping of the Algebra of Four-Fold Distinction, the relatio
 
 Within this K4 structure, the 12 edges represent the full state-space of logical transitions. In a purely abstract, static rendering, this geometry is perfectly symmetrical. Every vertex connects to every other vertex. The Hamiltonian cycle through this structure—the 12-step Braid—appears as a closed loop. 
 
-However, a static K4 structure has no capacity for actualization. It is a timeless, frozen geometry. For the system to process the difference between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Read-Only Ledger (the `.observe()` state), it requires a rate of execution. 
+However, a static K4 structure has no capacity for actualization. It is a timeless, frozen geometry. For the system to process the difference between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Live-Written Ledger (the `.observe()` state), it requires a rate of execution. 
 
 It requires a clock. It requires **Angular Frequency ($\omega$)**.
 
@@ -52,7 +52,7 @@ Once the AbsentVar is erased to free up computational bandwidth for the next cyc
 
 Time is the asymmetrical 5th vector that prevents the logic of existence from collapsing into a static loop, rather than a passive background grid.
 
-By breaking the K5 simplex into a Helical Extrusion, $\omega$ forces the continuous generation of the Read-Only Ledger. The universe must ratchet forward because its internal geometry is a screw-thread, forever threading the multiway potential into the committed history of the manifest plane.
+By breaking the K5 simplex into a Helical Extrusion, $\omega$ forces the continuous generation of the Live-Written Ledger. The universe must ratchet forward because its internal geometry is a screw-thread, forever threading the multiway potential into the committed history of the manifest plane.
 
 ## 7. The Two Clocks and the 4D Spatial Manifold
 

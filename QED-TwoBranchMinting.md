@@ -64,14 +64,14 @@ When independent frames couple and *retain* uncollapsed potential as confined in
 When independent frames couple and the binding forces the unbound potential through the XOR bottleneck, exporting the thermodynamic exhaust as radiant $P$, the internal $|\mathbf{Q}_{sys}|$ drops. The macro-$P$ (rest mass) must *decrease*. The whole weighs **less**.
 *   **The Example:** The Mass Defect. Nucleons forming a nucleus, or atoms forming a lattice. The system executes a collective `.observe()`, Garbage Collects the unchosen branches, and exports the binding energy as radiant $P$ (photons/heat). 
 
-### The Landauer Debt (Identity vs. Bound)
-The framework asserts **identity**: the Landauer Tax is the *structural mechanism* of the XOR bottleneck, not merely the thermodynamic floor. The eight-orders-of-magnitude gap between Landauer's bound ($kT \ln 2 \approx 10^{-2}$ eV) and nuclear binding energy (MeV) is carried as an explicitly marked debt: **the operator converting bit-erasures into MeV remains unwritten.** The mass defect is the thermodynamic receipt; the Landauer Tax is the informational mechanism. 
+### The Landauer Tax as Structural Mechanism
+The Landauer Tax is the *structural mechanism* of the XOR bottleneck, not merely the thermodynamic floor. The eight-orders-of-magnitude gap between Landauer's room-temperature bound ($kT \ln 2 \approx 10^{-2}$ eV) and nuclear binding energy (MeV) is closed at the nuclear scale by the QCD-scale phase-burning rate, worked in full in `wip-Lx-LandauerNuclearScale` (the rate lands at $\sim 0.66$ MeV/bit via $k_B T_{\text{QCD}} \ln 2 / 16\pi^2$; the import-test status of that computation is carried there). The mass defect is the thermodynamic receipt; the Landauer Tax is the informational mechanism. 
 
 ## V. Gravity as Geometry, Not Transaction
 
 This architecture demands a strict segregation of roles.
 
-When a dust cloud collapses to form a star, Gravity ($P$), as the Read-Only Ledger, conditions the geometry the atoms follow — it does not "pull" them together. The Ledger has a static face (existing curvature) and a dynamic face (new commitments being written and their geometric consequences propagating); "read-only" refers to the first, not the second.
+When a dust cloud collapses to form a star, Gravity ($P$), as the Live-Written Ledger, conditions the geometry the atoms follow — it does not "pull" them together. The Ledger has a static face (existing curvature) and a dynamic face (new commitments being written and their geometric consequences propagating); "read-only" refers to the first, not the second.
 
 Gravitational radiation is the dynamic face made observable. There is no exchange boson because there is no boson-mediated transaction within the K4.
 

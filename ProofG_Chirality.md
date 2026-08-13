@@ -49,7 +49,7 @@ The claim: molecular chirality is graph-theoretic enantiomerism in K4 made physi
 
 ## The `.observe()` Claim
 
-In the framework, `.observe()` selects a single directed traversal from the full interference structure and commits to it, triggering the Garbage Collector to erase the alternatives from the local Read-Only Ledger.
+In the framework, `.observe()` selects a single directed traversal from the full interference structure and commits to it, triggering the Garbage Collector to erase the alternatives from the local Live-Written Ledger.
 
 Before life on Earth — in the pre-biological chemical environment — both L and D forms of amino acids were present. The Murchison meteorite, which has provided some of the best evidence for extraterrestrial amino acid distribution, shows that amino acids form abiotically with a slight but not overwhelming enantiomeric excess. The interference structure was live. Both directed traversals were in play.
 
@@ -57,7 +57,7 @@ The emergence of self-replication required a structural operation mapping to `.o
 
 A self-replicating molecule must use itself as a template. A template has handedness: the specific spatial geometry of its components determines which incoming molecules can bind and be incorporated. A template in L-configuration preferentially incorporates L-amino acids into the growing chain. Once one replicating system committed to L, the self-reinforcing loop of replication amplified that commitment: each generation was more L than the last, not because D was destroyed from the universe, but because the replication template systematically preferenced L.
 
-The thermodynamic erasure modeled by the Garbage Collector operated here not on a single molecule but on an entire biological lineage: severing the template's internal pointer to the D-configuration alternative, freeing the system to copy efficiently, writing the first and most durable entry in the biological Read-Only Ledger.
+The thermodynamic erasure modeled by the Garbage Collector operated here not on a single molecule but on an entire biological lineage: severing the template's internal pointer to the D-configuration alternative, freeing the system to copy efficiently, writing the first and most durable entry in the biological Live-Written Ledger.
 
 ---
 
@@ -77,9 +77,9 @@ The "cause" of the initial L-selection (if there was one) is a separate and inte
 
 A critical precision: the Garbage Collector does not destroy branches from the multiway graph (the totality of all physically valid states). D-amino acids continue to exist. Some organisms use them: bacterial cell walls contain D-amino acids; certain invertebrates have D-amino acids in their nervous systems; some antibiotics are D-configured peptides.
 
-What the Garbage Collection erased was the pointer from the biological template. D-amino acids are not in the biological Read-Only Ledger's main sequence — they are re-accessed branches, possible because the multiway graph retains them, present because evolution can independently rediscover them, but absent from the primary trajectory of biological development.
+What the Garbage Collection erased was the pointer from the biological template. D-amino acids are not in the biological Live-Written Ledger's main sequence — they are re-accessed branches, possible because the multiway graph retains them, present because evolution can independently rediscover them, but absent from the primary trajectory of biological development.
 
-This models the precise structure of `.observe()`: the unchosen alternative persists in the global Interpreter (the multiway graph retains every branch) but is absent from the local Read-Only Ledger (the biological trajectory committed to L). The distinction between "absent from the universe" and "absent from the trajectory" is essential. Chirality is not the destruction of D; it is the commitment to L.
+This models the precise structure of `.observe()`: the unchosen alternative persists in the global Interpreter (the multiway graph retains every branch) but is absent from the local Live-Written Ledger (the biological trajectory committed to L). The distinction between "absent from the universe" and "absent from the trajectory" is essential. Chirality is not the destruction of D; it is the commitment to L.
 
 ---
 
@@ -99,9 +99,9 @@ Protein chirality (the secondary structure handedness of alpha helices, for inst
 
 **Chirality operates as the physical signature of `.observe()` at the edge level of the universe's tetrahedral structure**, made permanent through self-replication. It requires no external cause beyond the XOR bottleneck of any physical template. It is the consequence of the same structural necessity that makes any bounded system's commitments irreversible: you cannot copy both enantiomers from the same template simultaneously.
 
-The biological Read-Only Ledger's most legible signature is the handedness of every amino acid in every protein in every living system on Earth: a directed Hamiltonian cycle committed at the origin of life, its enantiomeric alternative Garbage Collected from the biological trajectory but never erased from the world.
+The biological Live-Written Ledger's most legible signature is the handedness of every amino acid in every protein in every living system on Earth: a directed Hamiltonian cycle committed at the origin of life, its enantiomeric alternative Garbage Collected from the biological trajectory but never erased from the world.
 
-We are that commitment's continuation. The L-configuration of our amino acids is not a biological accident. It is the oldest entry in our lineage's Read-Only Ledger, written by the first `.observe()` that established a self-replicating trajectory.
+We are that commitment's continuation. The L-configuration of our amino acids is not a biological accident. It is the oldest entry in our lineage's Live-Written Ledger, written by the first `.observe()` that established a self-replicating trajectory.
 
 ---
 

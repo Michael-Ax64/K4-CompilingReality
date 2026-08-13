@@ -11,7 +11,7 @@
 Holds the full interference structure of uncollapsed possibilities in active contact, without forcing a single outcome. Distinguished from passive suspension: beholding maintains genuine engagement with the tension between branches, where branches actively interfere and shape each other. Formally: holding all AbsentVars of a system simultaneously live. The Pure Interpreter operates perpetually in `.behold()`. Bounded frames must `.observe()` to act, but can temporarily achieve `.behold()` through the decoupled buffer of hidden layers. Contrast: `.observe()`.
 
 **.observe()** [NEW — borrowed computational syntax]
-Forces a single evaluation from a localized reference frame. Collapses the interference structure to one committed state. Triggers the Garbage Collector. Generates the Read-Only Ledger. Required for any bounded frame to act in the physical world (the XOR bottleneck of the actuator). This forced evaluation structurally models time for a bounded frame. Contrast: `.behold()`.
+Forces a single evaluation from a localized reference frame. Collapses the interference structure to one committed state. Triggers the Garbage Collector. Generates the Live-Written Ledger. Required for any bounded frame to act in the physical world (the XOR bottleneck of the actuator). This forced evaluation structurally models time for a bounded frame. Contrast: `.behold()`.
 
 **AbsentVar** [NEW]
 The variable held unmanifest in each of the twelve DC equations. Present in the full system, absent from the calculation of that specific equation. It provides the formal algebraic location of `.behold()`: the variable the bounded frame holds without calculating. Operating in full `.behold()` mode holds all twelve AbsentVars simultaneously live. When a bounded frame executes `.observe()` and forces a single equation, its AbsentVar disappears. The braid structure demonstrates that what `.observe()` erases becomes exactly what the next phase requires. Trajectory contact is the carried AbsentVar.
@@ -20,12 +20,12 @@ The variable held unmanifest in each of the twelve DC equations. Present in the 
 The structural continuity of the AbsentVar across phase transitions in the DC algebraic network. The last two absent variables of one quadrant become the first two active variables of the next. The braid algebraically demonstrates that `.observe()` erases precisely the context required for the following phase. Trajectory contact: the bounded frame carries the braid across the phase boundary. Trajectory loss: the bounded frame drops the braid and treats each phase as isolated.
 
 **Crest of computation** [NEW]
-The irreversible bleeding edge of the present. The moment the bounded frame writes the Read-Only Ledger. Thermodynamic constraint tethers a bounded physical entity to the crest of computation. It cannot precede the crest (the Ledger is immutable) and cannot fall behind it (entropy forces forward motion). The egg hitting the skillet physically models the crest.
+The irreversible bleeding edge of the present. The moment the bounded frame writes the Live-Written Ledger. Thermodynamic constraint tethers a bounded physical entity to the crest of computation. It cannot precede the crest (the Ledger is immutable) and cannot fall behind it (entropy forces forward motion). The egg hitting the skillet physically models the crest.
 
 **Garbage Collector** [BORROWED — computation; extended]
-The internal process triggered when a bounded frame's `.observe()` commits to a single path. Unchosen branches become mathematically obsolete. The Garbage Collector severs the system's internal pointers to alternate histories, freeing computational resources for the next `.behold()`/`.observe()` cycle. The thermodynamic cost of existence applies here, not in the dreaming. Landauer's Principle states that irreversible erasure generates heat. The Arrow of Time tracks the trail of the Garbage Collector's operations, written into the Read-Only Ledger. The chirality of biological molecules operates as a physical signature of a macro-scale Garbage Collection.
+The internal process triggered when a bounded frame's `.observe()` commits to a single path. Unchosen branches become mathematically obsolete. The Garbage Collector severs the system's internal pointers to alternate histories, freeing computational resources for the next `.behold()`/`.observe()` cycle. The thermodynamic cost of existence applies here, not in the dreaming. Landauer's Principle states that irreversible erasure generates heat. The Arrow of Time tracks the trail of the Garbage Collector's operations, written into the Live-Written Ledger. The chirality of biological molecules operates as a physical signature of a macro-scale Garbage Collection.
 
-**Read-Only Ledger** [NEW]
+**Live-Written Ledger** [NEW]
 The accumulated trail of `.observe()` operations. The committed, irreversible history of a bounded frame's interactions with the multiway graph. A compiled artifact of the bounded frame's forced evaluations, not a universal parameter. The past is immutable because the Ledger cannot be rewritten. Time, for a bounded frame, models the sequence of Ledger entries. The wake of a moving ship, not the heading. Contrast: trajectory/heading.
 
 ---
@@ -121,7 +121,7 @@ To "operate from a vertex" collapses the volume to a single 0D point and treats 
 ## 5. Epistemological and Operational Terms
 
 **Heading** [BORROWED — navigation; distinguished from 'trajectory' in common usage]
-The current orientation of a system's movement through its possibility space. Where it is going, not where it has been. The ship's heading, not its wake. Contrast: wake (the Read-Only Ledger of past positions).
+The current orientation of a system's movement through its possibility space. Where it is going, not where it has been. The ship's heading, not its wake. Contrast: wake (the Live-Written Ledger of past positions).
 
 **Institutional plane-lock** [NEW]
 An institution terraforms the possibility space of individuals within it, making certain faces of the tetrahedron functionally inaccessible without structural counter-pressure.
@@ -167,7 +167,7 @@ The K3 boundary that *constitutes* an interior. It separates internal and extern
 **Substrate Topology**
 A bounded frame is the *sole* legitimate subject of metabolic verbs (observe, commit, pay, write, accumulate).
 
-The substrate topology — the K4 edges and their fundamental fermion instantiations — does not possess a Read-Only Ledger, does not pay the Landauer Tax, and has no "compilation history." Fundamental fermions are not bounded frames; they are the geometry upon which the Ledger is written.
+The substrate topology — the K4 edges and their fundamental fermion instantiations — does not possess a Live-Written Ledger, does not pay the Landauer Tax, and has no "compilation history." Fundamental fermions are not bounded frames; they are the geometry upon which the Ledger is written.
 
 To attribute macroscopic thermodynamic accumulation to a fundamental fermion is a terminal Category Error. **Scale invariance dictates that the *geometric topology* (K4) recurs at every scale**, not that *thermodynamic agency* recurs identically.
 

@@ -29,7 +29,7 @@ Call this the Axiom of Isomorphism. It is naturally assumed because both quantit
 
 QFT's vacuum energy tracks the zero-point energy of quantum fields — the irreducible fluctuation energy of the quantum substrate, prior to any observation or measurement. It models the total uncollapsed multiway potential of the universe. It operates in what we will call $H_{incoh}$: the full quantum state space.
 
-GR's vacuum energy is inferred from the expansion rate of the universe as we observe it — from the behavior of classical spacetime geometry. It maps structurally to the Read-Only Ledger, the committed actualization that has survived thermodynamic serialization. It operates in $H_{coh}$: the coherent subspace that classical observers can access.
+GR's vacuum energy is inferred from the expansion rate of the universe as we observe it — from the behavior of classical spacetime geometry. It maps structurally to the Live-Written Ledger, the committed actualization that has survived thermodynamic serialization. It operates in $H_{coh}$: the coherent subspace that classical observers can access.
 
 Treating them as identical operates as the Axiom of Isomorphism — a structural equation of two quantities at different thermodynamic phases of actualization. The $10^{123}$ ratio is reconceptualized not as a failed calculation, but as the exact measure of how much of the uncollapsed multiway graph has not been localized into the irreversibly collapsed physical ledger. 
 

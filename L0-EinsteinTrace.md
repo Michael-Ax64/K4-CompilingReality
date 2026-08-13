@@ -67,7 +67,7 @@ The system planted a flag: *"This is the genuine frontier. New work is required 
 
 ## 5. The Vertical Reframe — Manifold as Meta
 
-The trace had been treating manifold and algebra as two co-equal structures to be matched horizontally. The author broke that frame: the manifold is not one of the things being compared. It is **the complete meta** — the global Interpreter in perpetual `.behold()`. The localized algebra is the *instantiated, dissipative, becoming* thing: the committed path, the Read-Only Ledger being written.
+The trace had been treating manifold and algebra as two co-equal structures to be matched horizontally. The author broke that frame: the manifold is not one of the things being compared. It is **the complete meta** — the global Interpreter in perpetual `.behold()`. The localized algebra is the *instantiated, dissipative, becoming* thing: the committed path, the Live-Written Ledger being written.
 
 They are not side by side. One is an evaluation of the other. The relation is vertical.
 

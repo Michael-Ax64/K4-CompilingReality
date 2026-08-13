@@ -82,7 +82,7 @@ $$R = \frac{U}{I}$$
 
 The credit market freezes solid. No bank will lend; no asset can be liquidated. The market hits the **Tangent Singularity ($\tan\theta \to \infty$)**. The ungrounded $\text{.behold()}$ buffer can no longer be sustained.
 
-A **Margin Call** is the market's **Garbage Collector (`ProofP`)** executing an un-avoidable $\text{.observe()}$ collapse. The financial system is forced to pay the Landauer Tax—writing off bad debt, liquidating insolvent firms, and erasing trillions of dollars of phantom $Q$-buffer potential from the Read-Only Ledger ($P$) to restore alignment with the Real Economy ($R$).
+A **Margin Call** is the market's **Garbage Collector (`ProofP`)** executing an un-avoidable $\text{.observe()}$ collapse. The financial system is forced to pay the Landauer Tax—writing off bad debt, liquidating insolvent firms, and erasing trillions of dollars of phantom $Q$-buffer potential from the Live-Written Ledger ($P$) to restore alignment with the Real Economy ($R$).
 
 ---
 

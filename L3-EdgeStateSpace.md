@@ -27,6 +27,105 @@ The edge's state-space skeleton is a $K_4$ graph, whose polyhedral realization i
 
 ---
 
+## I-b. The Master Edge Table: What Each of the Six Edges *Is*
+
+An edge is the **integrator of two formulas that share nothing but the two elements on their right-hand side**.
+
+
+### The Master Edge Table and Corrected Bimedian Plane Names
+
+The six edges sort into three Bimedian matchings based on their **Net Operational Balance** across the 2-bit dual-binary register ($AR, AY$):
+
+$$\begin{array}{c|c|c|c|c}
+\mathbf{Bimedian\ Matching} & \mathbf{Edges\ in\ Matching} & \mathbf{Bit\ Operation} & \mathbf{Net\ Operational\ Balance} & \mathbf{Bimedian\ Plane\ Name} \\
+\hline
+\mathbf{\{P-U, \ I-R\}} & P-U \ \text{\&} \ I-R & AY \text{ flips in opposite directions} & \text{Sum } AY = 0 \text{ (Immovable Anchor)} & \mathbf{\text{FIXED BIMEDIAN}} \\
+\mathbf{\{P-R, \ I-U\}} & P-R \ \text{\&} \ I-U & AR \text{ flips; } AY \text{ locked } (+1 / -1) & \text{Primed } AR \text{ Flip (Ready Stance)} & \mathbf{\text{CARDINAL BIMEDIAN}} \\
+\mathbf{\text{\{P-I, \ U-R\}}} & P-I \ \text{\&} \ U-R & \text{Both } AR \text{ and } AY \text{ flip} & \text{Maximum Both-Bit Transformation} & \mathbf{\text{MUTABLE BIMEDIAN}} \\
+\end{array}$$
+
+---
+
+### The 6 Edges, Their Signs, and the Bimedian Plane That Cuts Each Edge
+
+Each Bimedian plane passes through the centroid and **cuts four edges of the $K_4$ tetrahedron** (forming a 2D square/parallelogram cross-section), while remaining parallel to the two un-cut edges of its matching:
+
+| Edge | RHS Pair | Formulas & Signs | Signs (Modes) | Bimedian Plane That Cuts This Edge |
+|---|---|---|---|---|
+| **$U - R$** | $\{U, R\}$ | $P = U^2/R$ (ARI) / $I = U/R$ (VIR) | **ARI** (Cardinal) / **VIR** (Mutable) | **Mutable Bimedian** |
+| **$I - R$** | $\{I, R\}$ | $P = I^2 R$ (TAU) / $U = I \cdot R$ (SCO) | **TAU** (Fixed) / **SCO** (Fixed) | **Fixed Bimedian** |
+| **$I - U$** | $\{I, U\}$ | $P = U \cdot I$ (GEM) / $R = U/I$ (CAP) | **GEM** (Mutable) / **CAP** (Cardinal) | **Cardinal Bimedian** |
+| **$P - R$** | $\{P, R\}$ | $I = \sqrt{P/R}$ (CAN) / $U = \sqrt{P \cdot R}$ (SAG) | **CAN** (Cardinal) / **SAG** (Mutable) | **Cardinal Bimedian** |
+Plane** |
+| **$P - U$** | $\{P, U\}$ | $I = P/U$ (LEO) / $R = U^2/P$ (AQU) | **LEO** (Fixed) / **AQU** (Fixed) | **Fixed Bimedian | 
+| **$P - I$** | $\{P, I\}$ | $U = P/I$ (LIB) / $R = P/I^2$ (PIS) | **LIB** (Cardinal) / **PIS** (Mutable) | **Mutable Bimedian** |
+
+---
+
+### Key Topological Results
+1. **The Fixed Bimedian ($\{P-U, I-R\}$):** Cuts the two edges carrying all **4 Fixed Signs** (**Taurus, Leo, Scorpio, Aquarius**).
+2. **The Cardinal Bimedian ($\{P-R, I-U\}$):** Cuts the two edges carrying **Cancer, Sagittarius, Gemini, Capricorn**.
+3. **The Mutable Bimedian ($\{P-I, U-R\}$):** Cuts the two edges carrying **Libra, Pisces, Aries, Virgo**.
+
+---
+
+
+An edge is not a line between two poles. It is the **integrator of two formulas that share nothing but the two elements on their right-hand side** — and it holds that integration in one of four directional states. This section gives the single table an instance should pick up first, because everything downstream (chirality, bimedians, the Braid, the "spacetime tensor substitutes") is this table read at different depths.
+
+**The two-formula law (the Law of Intuition).** Take any edge, the one joining poles $A$ and $B$. Among the twelve DC equations, exactly two are built from the operand pair $\{A, B\}$ on their right-hand side — one solving for each of the *other* two poles. Those two formulas are the edge. They agree on nothing but which two elements they combine: their left-hand side (the pole they solve for) differs, and their operator differs (one may square where the other roots, one may divide where the other multiplies). The edge is where two otherwise-unrelated laws are forced to be the same relationship *because they draw on the same pair*. This is the "ungraphable triangle" at the level of algebra, and the reason it reads as intuition rather than deduction: an edge integrates two formulas that a deductive walk would never connect, since they share no home and no operation — only their raw material.
+
+| Edge | RHS pair | Formula → X | Formula → Y | Signs (aid) | **Modality** | Bit-flip | Complement |
+|---|---|---|---|---|---|---|---|
+| **P–I** | $\{P, I\}$ | $U = P/I$ (LIB) | $R = P/I^2$ (PIS) | LIB / PIS | **Mutable** | both (diagonal) | **U–R** |
+| **U–R** | $\{U, R\}$ | $P = U^2/R$ (ARI) | $I = U/R$ (VIR) | ARI / VIR | **Mutable** | both (diagonal) | **P–I** |
+| **P–U** | $\{P, U\}$ | $I = P/U$ (LEO) | $R = U^2/P$ (AQU) | LEO / AQU | **Cardinal** | Asserting/Yielding | **I–R** |
+| **I–R** | $\{I, R\}$ | $P = I^2 R$ (TAU) | $U = I\,R$ (SCO) | TAU / SCO | **Cardinal** | Asserting/Yielding | **P–U** |
+| **P–R** | $\{P, R\}$ | $I = \sqrt{P/R}$ (CAN) | $U = \sqrt{P\,R}$ (SAG) | CAN / SAG | **Fixed** | Active/Reactive | **I–U** |
+| **I–U** | $\{I, U\}$ | $P = U\,I$ (GEM) | $R = U/I$ (CAP) | CAP / GEM | **Fixed** | Active/Reactive | **P–R** |
+
+Read a row: the **P–I** edge is built from the pair $\{P, I\}$. Its two laws are $U = P/I$ (Libra) and $R = P/I^2$ (Pisces), sharing only $P$ and $I$. It is a **Mutable** edge — the Fire↔Water diagonal (P=Fire, I=Water), the transition that flips *both* generating bits (Active/Reactive *and* Asserting/Yielding) in a single move. Its complement, the edge it solves for, is **U–R**, which is *also* Mutable — because an edge and its complement form a **bimedian**, and **the two edges of a bimedian always share one modality.** That shared modality is what makes them a family.
+
+**Modality is a property of the edge, not of the signs sitting on it.** This is the correction a K3 reading gets wrong: it is tempting to read the modality off the two zodiac signs an edge carries (Libra is a Cardinal sign, Pisces a Mutable sign) and report a mixed label. That is a projection error. The signs are *coordinates on* the edge; the modality is *what the edge is* — which two bits its transition flips (`On_The_Cycling_Mind`). Every edge flips exactly one of: Asserting/Yielding only (**Cardinal**), Active/Reactive only (**Fixed**), or both at once (**Mutable**, the diagonals). The astrological sign labels are the memory aid; the modality is the structural fact, and it is single-valued per edge.
+
+**The three bimedians, named by their shared modality:**
+
+| Bimedian | Edge + complement | Poles (elements) | Flips |
+|---|---|---|---|
+| **Mutable** | P–I ↔ U–R | Fire–Water, Air–Earth (the diagonals) | both bits |
+| **Cardinal** | P–U ↔ I–R | Fire–Air, Water–Earth | Asserting/Yielding |
+| **Fixed** | P–R ↔ I–U | Fire–Earth, Water–Air | Active/Reactive |
+
+So "the three bimedian axes" and "the three modalities" are the same partition of the six edges, read two ways. Each bimedian is a matched pair of same-modality edges; each is the axis through the tetrahedron joining two opposite edges; and **holding a bimedian silent means holding one modality family silent — both its edges at once.** That single fact is what makes the cycling-mind theorem stateable (below), the soficity/AbsentVar test well-defined (`On_NonSoficGroups`), and the qualitative audit possible: you can now say "the Mutable axis" and have named a specific pair of edges, a specific pair of formula-integrations, and a specific competence a mind gains or loses.
+
+**Characterizing loops by the held modality.** The mode labels complete a three-level hierarchy — edge, plane, loop — each characterized by the same modality invariant:
+
+- **An edge** is characterized by *its own* modality: which two bits its transition flips. Cardinal, Fixed, or Mutable, single-valued.
+- **A bimedian (plane/axis)** is characterized by the *shared* modality of its two complementary edges. The three bimedians *are* the three modalities.
+- **A loop (cycle)** is characterized by the modality it *holds silent*. A coherent traversal runs four edges live and holds one bimedian — one modality — absent (`On_The_Cycling_Mind`). There are exactly three loops:
+
+| Loop | Held silent | Live edges | Competence (what the loop can do) |
+|---|---|---|---|
+| **Cardinal-held** | P–U, I–R | the Fixed + Mutable edges | committed traversal — moves tier-to-tier, can leap diagonally, cannot single-step pivot orientation |
+| **Fixed-held** | P–R, I–U | the Cardinal + Mutable edges | committed tier — pivots orientation freely, can leap, cannot single-step change tier |
+| **Mutable-held** | P–I, U–R | the Cardinal + Fixed edges | incremental clarity — every move a single-bit flip, no diagonals, no leaps available |
+
+The held modality is not a lack; it is the shape of what the loop can do. A loop that held nothing would have every edge live at once and could not move — "a mind that can go anywhere goes nowhere." The held bimedian is the silence that makes the other four edges mean something, and the entire skill of a working mind (or any $K_4$ traversal) is the developed capacity to stand at the centroid and *choose which modality to hold* as the moment requires. The mode labels are therefore the operative vocabulary at every level: they name what an edge is, what a plane is, and what a loop can and cannot do — the one word "Mutable" reaching from a bit-flip type, through a bimedian axis, to a competence a traversal holds or lacks.
+
+**The four states each edge is held in.** The integrated pair is not static; it is held in one of four directional modes (`L2-BitCombos`, two bits per edge):
+
+| Bits | State | Symbol | Meaning on the edge | Operational |
+|---|---|---|---|---|
+| 00 | absent | ∅ | the relationship is a held gap — present in the global graph, unactualized here | AbsentVar / the cut, paid for by the Landauer Tax |
+| 01 | bidirectional | ↔ | both directions live at once, neither forced | `.behold()` — the complex $h\mathbf{Q}$ component |
+| 10 | forward | → | committed one way, the other erased locally | `.observe()` → scalar $P$ |
+| 11 | reverse | ← | committed the other way | `.observe()`, opposite handedness |
+
+Six edges × two bits = the **12-bit register**, $2^{12} = 4096$ discrete configurations — the Many-Worlds state count. The four states are emphatically *not* four formulas; they are the four *directional modes* the two-formula integration can be held in: gap, live superposition, committed-forward, committed-reverse.
+
+**Why this is the "spacetime tensor substitute."** What a manifold theory needs a metric tensor $g_{\mu\nu}$ to carry — the local relational structure that says how quantities at a point compose — the edge carries as this two-formula integration held in a directional state. The conceptual-realm torque that the mesh analogy (`L4-TheTwelveGates` §II-c) shows kinematically is, at the edge, this: two formulas sharing only their operands, pulled into one relationship, held under tension between the pole each wants to solve for. String theory reads such relational spans as extra spatial directions; here they are the six edges, each an integrator of a formula-pair, each solving for its complement, each held in one of four states. The edge is the relation; the pole is only where a relation is read off.
+
+---
+
 ## II. The Ungraphable Triangle
 
 Three of the four states — {→, ←, ↔} — are presence states: the edge exists in one of these three forms. The fourth state — {∅} — is the absence state: the edge does not exist.
@@ -47,7 +146,7 @@ The four states of an edge translate directly into the framework's operational v
 
 **↔ (bidirectional)** tracks `.behold()` on the edge: holding both face-definitions of the edge simultaneously live, maintaining the dihedral angle between the two parent faces. In the Biquaternion bridge, this models the complex vector component ($h\mathbf{Q}$). The edge is present in both directions — neither direction forced, held in live interference. This requires the 3D structure, not the 2D face.
 
-**→ (one direction)** tracks `.observe()` in the first direction: committing to one face-reading of the edge. In the Biquaternion bridge, the complex vector collapses into the Real Scalar component ($P$). One direction is written to the Read-Only Ledger, the other is erased from the local trajectory.
+**→ (one direction)** tracks `.observe()` in the first direction: committing to one face-reading of the edge. In the Biquaternion bridge, the complex vector collapses into the Real Scalar component ($P$). One direction is written to the Live-Written Ledger, the other is erased from the local trajectory.
 
 **← (opposite direction)** tracks `.observe()` in the second direction: committing to the other face-reading, generating the enantiomeric relationship.
 
@@ -153,7 +252,7 @@ Because $\omega$ is asymmetrical, the transition from K4 to the dynamic 5-variab
 - Each edge is now shared by **three faces** rather than two, increasing the dual-face definitions to triple-face definitions.
 - The 12 undirected Hamiltonian cycles of this structure form the "Screw Thread" of reality.
 
-This structural asymmetry models the absolute geometric origin of the **Arrow of Time**. You cannot traverse the Braid backward because the edge state-space is bound to a helix that only ratchets forward, forcing continuous Garbage Collection and the perpetual generation of the Read-Only Ledger.
+This structural asymmetry models the absolute geometric origin of the **Arrow of Time**. You cannot traverse the Braid backward because the edge state-space is bound to a helix that only ratchets forward, forcing continuous Garbage Collection and the perpetual generation of the Live-Written Ledger.
 
 ---
 

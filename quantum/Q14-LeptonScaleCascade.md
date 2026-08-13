@@ -76,7 +76,7 @@ When the $U$-field phase wave hits the $R$-wall, the boundary impedance diverges
 #### II.2 The Muon Cascade
 
 ```
-                 MUON DECAY AS A FIXED BIMEDIAN CASCADE
+                 MUON DECAY AS A CARDINAL PLANE CASCADE
                  
   2nd-Gen U-Rung (Muon μ⁻) ──► W⁻ Boson (I-U Edge) ──► 1st-Gen U-Rung (Electron e⁻)
                                       │
@@ -91,7 +91,7 @@ The muon is not a "different particle type" than the electron; it is the **2nd c
 
 **2. Muon Decay ($\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$)**
 
-When a muon decays, it executes a transition along the **Fixed Bimedian $\{P-R, I-U\}$**:
+When a muon decays, it executes a transition along the **Cardinal plane $\{P-R, I-U\}$**:
 1. The 2nd-generation $U$-rung ($\mu^-$) sheds its excess scale-energy through the $W^-$ boson ($I-U$ edge).
 2. The scale-energy cascades down the concentric $K_4$ rungs to the stable 1st-generation $U$-rung (the electron $e^-$).
 3. The remaining uncompiled phase potential is radiated as $I$-pole phase-waves ($\nu_\mu, \bar{\nu}_e$) into $H_{\text{incoh}}$.
@@ -158,7 +158,7 @@ When the timeless photon encounters the hard wall, the system hits the **Tangent
 4. **The Birth of Coordinate Time ($dt$):** 
    **This is the moment time is born.** 
 
-   The timeless photon ($\tau = 0$) had no clock. But the moment it hits the wall and pays the Landauer Tax, **a new entry is written to the Read-Only Ledger $P$**. 
+   The timeless photon ($\tau = 0$) had no clock. But the moment it hits the wall and pays the Landauer Tax, **a new entry is written to the Live-Written Ledger $P$**. 
    
    As derived in `Q7-4DExtrusions`, coordinate time $dt$ is not a background grid; **$dt$ is the spatial distance between successive $P$-ledger entries on the $R$-pole**. 
 
@@ -169,7 +169,7 @@ When the timeless photon encounters the hard wall, the system hits the **Tangent
 ### Summary of the Mechanics
 
 1. **The Neutrino:** A pure, unanchored $I$-pole phase-wave ($Q=0, R=0$). Its lack of $R$-pole color inertia allows its mass basis to rotate freely into flavour space (large PMNS angles).
-2. **The Muon:** A 2nd-generation $U$-pole scale-rung that decays via $W^-$ ($I-U$ edge along the Fixed Bimedian) down to the 1st-generation electron rung ($e^-$), radiating $I$-pole neutrino phase-waves into $H_{\text{incoh}}$.
+2. **The Muon:** A 2nd-generation $U$-pole scale-rung that decays via $W^-$ ($I-U$ edge along the Cardinal plane) down to the 1st-generation electron rung ($e^-$), radiating $I$-pole neutrino phase-waves into $H_{\text{incoh}}$.
 3. **The Hard-Wall Collision:** The exact physical mechanism where **a timeless null-vector ($\tau = 0$) is forced through the $XOR$ bottleneck of an $R$-wall**, burning phase via the Route Law ($Q^2 \to P$), converting rate into state ($E = \hbar\omega \to P$), and **minting coordinate time $dt$ as the thermodynamic exhaust of the impact**.
 
 

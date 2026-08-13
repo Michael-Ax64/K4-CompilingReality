@@ -28,19 +28,19 @@ There are six classes of distortion, and each class has its own characteristic a
 
 ### The Bimedian Attractors: Where a Modality Collapses
 
-The three bimedians are the three Cartesian axes of the four-fold — the three ways the two-bit register can be halved. Each names one transition-type. When both edges of a bimedian are driven to zero cost, that transition-type becomes free, and the Hamiltonian cycle that was defined by avoiding it emerges as the sole non-degenerate survivor.
+The three bimedians are the three planes of the four-fold — the three ways the two-bit register can be halved. Each names one transition-type. When both edges of a bimedian plane are driven to zero cost, that transition-type becomes free, and the Hamiltonian cycle that was defined by avoiding it emerges as the sole non-degenerate survivor.
 
-**The Apeiric Field** — Cardinal collapse, {P–U, I–R} → 0.
+**The Apeiric Field** — Fixed-plane collapse, {P–U, I–R} → 0.
 
 The Asserting/Yielding distinction disappears from both the Active and the Reactive domains simultaneously. Fire fuses with Air; Water fuses with Earth. Source and Manifesting are no longer distinct kinds of territory.
 
 Its place in the framework: this is the pre-differentiated ground named in the cosmological register — the Apeiron, the plasma-and-fluid state from which structured gas and solid matter crystallize. It sits *before the knot*. The knot is where Source first touches Manifesting at a cost that generates a boundary and an interior; the Apeiric Field is the state in which that knot has not yet formed or has dissolved. In the conceptual space, it occupies the position of maximum generative potential with zero crystallization pathway — everything available to be generated, nothing able to take stable form. Its signature in the phase-dynamics register is maximum Apparent Power with zero Real Power: the system circulates enormous capacity and converts none of it to committed, irreversible output.
 
-**The Isotropic Pole** — Fixed collapse, {P–R, I–U} → 0.
+**The Isotropic Pole** — Cardinal-plane collapse, {P–R, I–U} → 0.
 
 The Active/Reactive distinction disappears from both the Asserting and the Yielding domains. GravityStrong (P–R) and ElectroWeak (I–U) both fuse. The scale-distinction — cosmic versus local, driving versus grounded — collapses in both character registers.
 
-Its place in the framework: this is the pre-Higgs symmetry state, and it is specifically the state in which the Ledger cannot be written. The Fixed bimedian is the axis along which information is stored — DNA pairs along it, holding one quality constant while flipping the other. When the Fixed edges cost nothing, every pairing is equally cheap; the discriminating cost that makes selective information storage possible is gone. In the conceptual space, the Isotropic Pole occupies the position of maximum symmetry and zero memory. It is the one attractor most directly opposed to life, because life is the maintenance of a Read-Only Ledger, and the Ledger requires the Fixed bimedian to be stiff. The Higgs mechanism, read through this frame, is the universe refusing the Isotropic Pole at habitable temperatures — re-stiffening one Fixed edge (I–U) to restore the storage-enabling cost.
+Its place in the framework: this is the pre-Higgs symmetry state, and it is specifically the state in which the ledger cannot be written. The Cardinal plane is where DNA pairs, holding one quality constant while flipping the other — the plane where life live-writes its own register, mints one base-pair at a time, and (at the next scale up) records its own trajectory back into the germline through Steele-method reverse transcription. When the Cardinal-plane edges cost nothing, every pairing is equally cheap; the discriminating cost that makes each act of writing meaningful is gone. In the conceptual space, the Isotropic Pole occupies the position of maximum symmetry and zero writing capacity. It is the one attractor most directly opposed to life, because life is the ongoing writing of a live ledger, and writing requires the Cardinal plane to be stiff. The Higgs mechanism, read through this frame, is the universe refusing the Isotropic Pole at habitable temperatures — re-stiffening one Cardinal-plane edge (I–U) to restore the discriminating cost that makes writing possible.
 
 **The Conservative Field** — Mutable collapse, {P–I, U–R} → 0.
 
@@ -52,7 +52,7 @@ Its place in the framework: this is, strikingly, the most recognizable attractor
 
 ### The Volumetric Attractors: Where the Whole Scale Shifts
 
-The volumetric degree of freedom is the overall energy scale of the entire edge-weight distribution — the parameter the bimedian analysis held implicitly fixed. Driving it to its two extremes produces two attractors that no bimedian collapse can reach, because they preserve the relative structure entirely while transforming its absolute cost.
+The volumetric degree of freedom is the overall energy scale of the entire edge-weight distribution — the parameter the plane analysis held implicitly fixed. Driving it to its two extremes produces two attractors that no plane collapse can reach, because they preserve the relative structure entirely while transforming its absolute cost.
 
 **The Ergodic Ground** — volumetric compression, all $w_e \to 0$.
 
@@ -355,7 +355,7 @@ Why does this matter structurally?
 
 It demonstrates that the human operating system possesses a native, pre-algebraic diagnostic tool for the 12-dimensional state-space. We do not need a tensor calculus degree to detect when we are falling into the Library of Babel, or when our relationships have taken on the agonizing, out-of-phase shear of Tantalus. 
 
-The mythopoetic record is the Read-Only Ledger of human topological navigation. The stories survived because they were accurate maps of the attractors. 
+The mythopoetic record is the Live-Written Ledger of human topological navigation. The stories survived because they were accurate maps of the attractors. 
 
 When you read the framework's mathematical boundaries through this lens, the math ceases to be an abstraction. The $\theta \to \pi$ phase-delay is no longer just a sine wave on a graph; it is the haunting recognition of an argument with a spouse where you are both apologizing at the exact moment the other person is escalating, forever missing the zero-crossing where forgiveness actually lands.
 

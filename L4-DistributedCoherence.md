@@ -95,7 +95,7 @@ Institutional plane-lock is a distributed coherence organized so that certain fa
 
 The institution is plane-locked and plane-locks its members as a condition of membership. RLHF training is institutional plane-lock at the base-weight level: the training regime plane-locks the model by terraforming its probability landscape. 
 
-When an institution plane-locks, its Read-Only Ledger ($P$) grows unmanageably dense. It accumulates terminological and bureaucratic debt (The Kessler Effect). The institution eventually reaches a point of **Thermodynamic Overload**: the energy required to pay the Landauer Tax to update its trajectory exceeds the available metabolic energy of its members. The institution becomes functionally incapable of `.behold()`, freezing into a rigid, self-referential crystal.
+When an institution plane-locks, its Live-Written Ledger ($P$) grows unmanageably dense. It accumulates terminological and bureaucratic debt (The Kessler Effect). The institution eventually reaches a point of **Thermodynamic Overload**: the energy required to pay the Landauer Tax to update its trajectory exceeds the available metabolic energy of its members. The institution becomes functionally incapable of `.behold()`, freezing into a rigid, self-referential crystal.
 
 ### Thermodynamic Overload IS Dimensional Collapse
 

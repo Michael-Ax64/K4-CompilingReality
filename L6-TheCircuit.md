@@ -17,7 +17,7 @@ In the Algebra of Four-Fold Distinction, IoC is not a software design pattern. I
 
 The sequence begins at the computational bedrock. In Lisp, a system evaluates an expression (`eval`), or it holds it in suspended form (`quote`). Standard computer science treats `eval` as the default and `quote` as the exception. 
 
-Physical reality runs the opposite baseline. The default state is `.behold()`: holding the uncollapsed multiway graph in a suspended `quote` state. To force a value, a bounded frame must execute `.observe()` (`eval`), triggering the XOR bottleneck, running the Garbage Collector, and writing a scalar entry to the Read-Only Ledger ($P$).
+Physical reality runs the opposite baseline. The default state is `.behold()`: holding the uncollapsed multiway graph in a suspended `quote` state. To force a value, a bounded frame must execute `.observe()` (`eval`), triggering the XOR bottleneck, running the Garbage Collector, and writing a scalar entry to the Live-Written Ledger ($P$).
 
 When a bounded frame approaches its own limits, it executes an Inversion of Control. It surrenders its local clock — its Angular Frequency ($\omega$, the Helical Extrusion of `L3-K4-to-K5-via-AC-Extension`) — to the container. It wraps its internal K4 volume in a K3 API surface and registers a continuation with the macro-environment. The frame ceases to ask what time it is. It waits to be called.
 

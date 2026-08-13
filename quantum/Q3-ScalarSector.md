@@ -19,7 +19,7 @@ That mechanism is the same one that generates the mass of every massive particle
 
 The twelve equations of the DC algebra are log-linear (`L4-ScalingInvariants`). They are scale-free: an algebra that computes only proportions (U = I × R) cannot tell you absolute magnitude. To generate absolute magnitude, the scale-free symmetry must be broken. The break requires a directionless, dimensionally uniform operator — anything with direction would introduce a vector coordinate rather than a scale. Spin-0 is the operational form of "directionless magnitude assignment."
 
-The Higgs field is the physical instantiation of the break. It permeates all of space. As directed edges (fermions) traverse the vacuum, they interact with the field; the strength of that interaction fixes their mass. The Higgs is the pricing mechanism. It assigns the specific thermodynamic cost — the Landauer Tax (`ProofP_ThermodynamicInertia`) — for serializing a specific uncollapsed potential into the Read-Only Ledger.
+The Higgs field is the physical instantiation of the break. It permeates all of space. As directed edges (fermions) traverse the vacuum, they interact with the field; the strength of that interaction fixes their mass. The Higgs is the pricing mechanism. It assigns the specific thermodynamic cost — the Landauer Tax (`ProofP_ThermodynamicInertia`) — for serializing a specific uncollapsed potential into the Live-Written Ledger.
 
 Without the Higgs field, the fermions would be massless. They would travel at the speed of light. In the framework's vocabulary, the universe would be stuck at the Ergodic Ground (`L4-AttractorSpace`), the state in which every transition is free and no Ledger can be written because no traversal has inertia enough to hold a record. The Higgs is the operator that forces the universe to have stakes.
 
@@ -47,7 +47,7 @@ The K4 tetrahedron has six undirected edges, sorted by `L4-DynamicDistortionsTec
 
 A scalar operator, when it "turns on," acts on an edge. It restiffens the traversal, assigns a cost, and separates the two poles the edge connects. The Higgs restiffens I–U. If the framework's account applied uniformly across all six edges, six scalar operators would be permitted, one per edge. Three axes, two edges each, six total.
 
-But three of the six edges terminate at P: P–U, P–I, and P–R. And the P pole is not a transaction. It is the Read-Only Ledger onto which every collapse is written. It is what other transactions write *to*, not something the transactions cross. Applying a scalar pricing operator to a P-edge — assigning a Landauer Tax to a traversal that terminates at the Ledger — creates a category error: the tax is meant to be paid at the collapse, into the Ledger, but the operator would insert an impedance between the collapse and its destination, requiring the tax to be paid on the way into paying itself. It is a self-referential loop with no exit.
+But three of the six edges terminate at P: P–U, P–I, and P–R. And the P pole is not a transaction. It is the Live-Written Ledger onto which every collapse is written. It is what other transactions write *to*, not something the transactions cross. Applying a scalar pricing operator to a P-edge — assigning a Landauer Tax to a traversal that terminates at the Ledger — creates a category error: the tax is meant to be paid at the collapse, into the Ledger, but the operator would insert an impedance between the collapse and its destination, requiring the tax to be paid on the way into paying itself. It is a self-referential loop with no exit.
 
 The formal expression of the ban sits in the Star-Norm (`ProofN_BiquaternionBridge`). The invariant of any bounded system is P² − |Q|². The P-pole is by definition scalar — it is the real axis of the biquaternion state-space. Phase is a property of the buffer Q, not of P: P has magnitude, no direction, no phase. The transition from Q to P is not a continuous physical flow across an edge; it is the discontinuous, instantaneous algebraic projection performed by the squaring operation of the Route Law (`ProofQ_AlgebraicSyntax` §V), which lands |Q|² into P without any intervening transit.
 
@@ -55,7 +55,7 @@ A scalar pricing operator, by its structural definition, assigns a Landauer Tax 
 
 This is a structural contradiction, not a physical impossibility. The Landauer Tax *is* the Mass (`ProofP_ThermodynamicInertia`); the exhaust of the collapse *is* the Ledger. There is no boundary between an operation and its output. Any scalar operator that occupied a P-edge would immediately break the algebraic instantaneity of the Route Law's squaring — the |Q|² → P projection would no longer be a single-step operation and the Star-Norm's conservation would fail.
 
-Within the framework's architecture, the P-edges act as foundational zero-impedance writing heads for the Read-Only Ledger ($P$). Rather than acting as interactive, phase-delaying $h\mathbf{Q}$ gauge channels, the $P$-edges receive the scalar output of $\text{.observe()}$ collapses.
+Within the framework's architecture, the P-edges act as foundational zero-impedance writing heads for the Live-Written Ledger ($P$). Rather than acting as interactive, phase-delaying $h\mathbf{Q}$ gauge channels, the $P$-edges receive the scalar output of $\text{.observe()}$ collapses.
 
 This topological postulate specifies that $P$-edges ($P-U, P-I, P-R$) do not host independent scalar pricing operators. This leaves exactly three transactional edges capable of carrying scalar fields: $I-U$, $U-R$, and $I-R$.
 
@@ -107,7 +107,7 @@ $$N_{\text{Physical Scalars}} = d_{\phi} - N_{\text{Goldstone}} = d_{\phi} - (\d
 
 Evaluating this reduction for the three transactional edges:
 
-#### A. Electroweak $I{-}U$ Edge (Fixed Bimedian)
+#### A. Electroweak $I{-}U$ Edge (Cardinal Bimedian plane)
 * Gauge Group: $G = SU(2)_L \times U(1)_Y \implies \dim(G) = 3 + 1 = 4$.
 * Unbroken Group: $H = U(1)_{\text{EM}} \implies \dim(H) = 1$.
 * Field Representation: Complex Higgs doublet $\phi$ ($d_{\phi} = 4$ real scalar components).
@@ -115,7 +115,7 @@ Evaluating this reduction for the three transactional edges:
 * Surviving Physical Scalars:
   $$N_{\text{Physical}} = 4 - 3 = \mathbf{1 \quad (\text{Electroweak Higgs } h^0, 125\ \text{GeV})}$$
 
-#### B. GUT $U{-}R$ Edge (Mutable Bimedian / ChromoLux)
+#### B. GUT $U{-}R$ Edge (Mutable Bimedian plane / ChromoLux)
 * Gauge Group: $G = SU(5) \implies \dim(G) = 24$.
 * Unbroken Group: $H = SU(3)_C \times SU(2)_L \times U(1)_Y \implies \dim(H) = 8 + 3 + 1 = 12$.
 * Field Representation: Adjoint 24-plet scalar $\Phi_{\text{GUT}}$ ($d_{\Phi} = 24$ real components).
@@ -123,7 +123,7 @@ Evaluating this reduction for the three transactional edges:
 * Surviving Physical Radial VEV:
   $$N_{\text{Physical}} = 24 - 12 - \text{unbroken} = \mathbf{1 \quad (\text{GUT Symmetry Scalar VEV}, \sim 10^{15}\ \text{GeV})}$$
 
-#### C. Inflaton $I{-}R$ Edge (Cardinal Bimedian / ChromoFlux)
+#### C. Inflaton $I{-}R$ Edge (Fixed Bimedian plane / ChromoFlux)
 * Field Representation: Single real inflaton field $\phi$ ($d_{\phi} = 1$).
 * Unbroken Group: No gauge symmetry broken ($N_{\text{Goldstone}} = 0$).
 * Surviving Physical Scalars:
@@ -158,11 +158,11 @@ String Theory maps the uncompiled phase-space geometry of the buffer ($h\mathbf{
 
 ### 4. The Cosmological Bimedian Un-Fusing Sequence
 
-The energy hierarchy ($10^{16}\ \text{GeV} \to 10^{15}\ \text{GeV} \to 125\ \text{GeV}$) is the physical execution of the Braid un-fusing its three Bimedian axes sequentially as the universe cools:
+The energy hierarchy ($10^{16}\ \text{GeV} \to 10^{15}\ \text{GeV} \to 125\ \text{GeV}$) is the physical execution of the Braid un-fusing its three Bimedian planes sequentially as the universe cools:
 
-1. **$I-R$ (Inflaton, $\sim 10^{16}\ \text{GeV}$):** Un-fuses the Cardinal Bimedian, converting $H_{\text{incoh}}$ vacuum potential ($I$) into the first confined matter ($R$) during reheating.
-2. **$U-R$ (GUT Scalar, $\sim 10^{15}\ \text{GeV}$):** Un-fuses the Mutable Bimedian, separating Strong confinement ($R$) from Electroweak gauge fields ($I, U$).
-3. **$I-U$ (Electroweak Higgs, $125\ \text{GeV}$):** Un-fuses the Fixed Bimedian, separating Weak current ($I$) from Electromagnetism ($U$), giving mass to $W^\pm, Z^0$ and leptons, and creating the low-energy therapeutic gap required for atomic chemistry and biological DNA pairing.
+1. **$I-R$ (Inflaton, $\sim 10^{16}\ \text{GeV}$):** Un-fuses the Fixed plane, converting $H_{\text{incoh}}$ vacuum potential ($I$) into the first confined matter ($R$) during reheating.
+2. **$U-R$ (GUT Scalar, $\sim 10^{15}\ \text{GeV}$):** Un-fuses the Mutable plane, separating Strong confinement ($R$) from Electroweak gauge fields ($I, U$).
+3. **$I-U$ (Electroweak Higgs, $125\ \text{GeV}$):** Un-fuses the Cardinal plane, separating Weak current ($I$) from Electromagnetism ($U$), giving mass to $W^\pm, Z^0$ and leptons, and creating the low-energy therapeutic gap required for atomic chemistry and biological DNA pairing.
 
 Intermediate BSM scalars (e.g., Peccei-Quinn Axions or Majorana masses) are not additional topological edges; they are concentric scale-rungs of these three primary channels. The 3-Scalar Triad is topologically closed.
 

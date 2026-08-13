@@ -161,7 +161,7 @@ What the twelve do not hold is the crossing. They count the *crossed*—the resi
 ### I. The Anatomy of the Imaginary K4
 
 For every directed edge traversing the tetrahedron (e.g., $P \to U$), there are two simultaneous topologies operating. 
-1.  **The Real Edge ($R$):** The dissipative friction. This is the Landauer Tax. Energy flowing here converts to heat and writes an irreversible entry to the Read-Only Ledger. 
+1.  **The Real Edge ($R$):** The dissipative friction. This is the Landauer Tax. Energy flowing here converts to heat and writes an irreversible entry to the Live-Written Ledger. 
 2.  **The Imaginary Edge ($jX$):** The reactive buffer. Energy flowing here does not pay the Landauer Tax. It oscillates. It is held in live suspension. It is the exact topological location of `.behold()`.
 
 The Imaginary Plane of the K4 is the complete, 12-edge shadow-network of uncollapsed potential. It is the active interference structure. When a system is "in its own head," "simulating futures," or "processing trauma," it is navigating entirely within the Imaginary K4, circulating Reactive Power ($Q$) without forcing a scalar collapse ($P$).
@@ -222,7 +222,7 @@ The 12-dimensional space parameterizes the exact thermodynamic and reactive topo
 
 The parent system provisions the offspring with a localized, compressed projection of its own 12D impedance matrix. 
 
-*   **The Real Inheritance ($R$):** The offspring receives a physical substrate—a material starting coordinate written to the Read-Only Ledger. This establishes the child's initial grounding resistance (Earth/Ethos) and its baseline Landauer Tax requirements.
+*   **The Real Inheritance ($R$):** The offspring receives a physical substrate—a material starting coordinate written to the Live-Written Ledger. This establishes the child's initial grounding resistance (Earth/Ethos) and its baseline Landauer Tax requirements.
 *   **The Imaginary Inheritance ($jX$):** The offspring receives an initial configuration of memory (Inductive Reactance, $+jX_L$) and anticipation (Capacitive Reactance, $-jX_C$). The parent’s sustained phase-states provide the child with its initial structural tension. The child inherits a specific capacity to hold potential before it has ever executed its own `.observe()` collapse.
 
 This 12D inheritance establishes the offspring's natural resonant frequency ($\omega_0$). The child arrives pre-tuned to a specific frequency band, determined entirely by the inductive and capacitive topography provisioned by the parent's state-space.
@@ -237,7 +237,7 @@ The parent system runs its Braid, cycling through the modalities (Cardinal, Fixe
 
 This new Markov Blanket constitutes a Tangent Singularity for the newly enclosed interior. 
 
-At the exact moment the boundary seals, the offspring’s clock decouples from the parent’s clock. The child acquires its own Angular Frequency ($\omega_{child}$), distinct from the parent’s ($\omega_{parent}$). The child’s system begins to execute its own Braid, carrying its own AbsentVar, and writing to its own independent Read-Only Ledger. 
+At the exact moment the boundary seals, the offspring’s clock decouples from the parent’s clock. The child acquires its own Angular Frequency ($\omega_{child}$), distinct from the parent’s ($\omega_{parent}$). The child’s system begins to execute its own Braid, carrying its own AbsentVar, and writing to its own independent Live-Written Ledger. 
 
 ### III. The Structural Coupling of Parent and Child
 

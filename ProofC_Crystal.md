@@ -15,7 +15,7 @@ A crystal is the result of an extended process of mutual commitment. As atoms or
 
 In the vocabulary of the Algebra of Four-Fold Distinction: a crystal has exhausted its AbsentVar space at the macro scale. All its relationships are simultaneously actualized. There is no variable held unmanifest — no position "still being decided." The commitment is total. The possibility space is exhausted.
 
-This is maximum `.observe()` at the macro scale: the system has forced evaluations of all its variables simultaneously, committed to a single configuration, and written that configuration into the Read-Only Ledger (the Scalar Mass, $P$) as the crystal's physical structure. 
+This is maximum `.observe()` at the macro scale: the system has forced evaluations of all its variables simultaneously, committed to a single configuration, and written that configuration into the Live-Written Ledger (the Scalar Mass, $P$) as the crystal's physical structure. 
 
 Read from outside, a crystal appears static. Nothing seems to be happening. It is the antithesis of the `.behold()` state — no uncollapsed possibilities, no internal simulation running.
 
@@ -53,7 +53,7 @@ Paradox is load-bearing. The two descriptions are not in conflict; they are in m
 
 This formalizes the 0-DoF limit of the universe. Classical thermodynamics, inheriting Boltzmann's definition of entropy as disorder, predicts a featureless 'Heat Death'—a messy, unstructured soup.
 
-The framework corrects this by redefining entropy as the accumulation of specification (the growth of the Read-Only Ledger $P$). When a system exhausts its capacity to hold uncollapsed potential ($|Q|^2 \to 0$), it does not dissolve into a noisy void. It reaches the **0-DoF Crystal Limit**. Every node is mutually committed; the possibility space is exhausted. The Landauer Tax has been paid in full.
+The framework corrects this by redefining entropy as the accumulation of specification (the growth of the Live-Written Ledger $P$). When a system exhausts its capacity to hold uncollapsed potential ($|Q|^2 \to 0$), it does not dissolve into a noisy void. It reaches the **0-DoF Crystal Limit**. Every node is mutually committed; the possibility space is exhausted. The Landauer Tax has been paid in full.
 
 Heat Death, under adult causality, is a diamond, not a void. Boltzmann's disorder describes a gas-phase statistical tool misapplied to a solid-phase topological limit.
 

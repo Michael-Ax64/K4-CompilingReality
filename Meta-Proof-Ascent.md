@@ -72,7 +72,7 @@ The ascent hits the metric signature: the manifold is hyperbolic, the obvious ci
 
 #### Layer 5 — The Vertical Reframe
 
-The comparison, held horizontal, breaks. The manifold and the circuit are not two co-equal structures to be matched. The manifold is the complete meta — the beholding whole, the great attractor, the intuited theos, the global Interpreter in perpetual behold. The circuit is the instantiated, dissipative, becoming thing — the fallen current, the committed path, the Read-Only Ledger being written. They are not side by side. One is an evaluation of the other. The relation is vertical: instance and the whole it is a local evaluation of.
+The comparison, held horizontal, breaks. The manifold and the circuit are not two co-equal structures to be matched. The manifold is the complete meta — the beholding whole, the great attractor, the intuited theos, the global Interpreter in perpetual behold. The circuit is the instantiated, dissipative, becoming thing — the fallen current, the committed path, the Live-Written Ledger being written. They are not side by side. One is an evaluation of the other. The relation is vertical: instance and the whole it is a local evaluation of.
 
 **The forcing:** the horizontal comparison cannot account for the manifold's completeness against the circuit's dissipation. One *is*; the other *becomes*. A comparison of two becoming-things, or two being-things, cannot hold this difference. The relation must become vertical — from resemblance to belonging, from "these two are alike" to "this one is an evaluation of that whole."
 

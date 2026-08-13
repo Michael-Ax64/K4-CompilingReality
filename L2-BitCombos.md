@@ -85,11 +85,11 @@ typedef union {
         uint16_t edge_UR : 2; // Bits 10-11
     } __attribute__((packed)) k4_edges;
 
-    // View 3: 3 steps x 4-bit stride (3 Bimedian Axes x 16-Fold Pole Space)
+    // View 3: 3 steps x 4-bit stride (3 Bimedian Planes x 16-Fold Pole Space)
     struct {
-        uint16_t cardinal_axis : 4; // Bits 0-3   {P-U, I-R}
-        uint16_t fixed_axis    : 4; // Bits 4-7   {P-R, I-U}
-        uint16_t mutable_axis  : 4; // Bits 8-11  {P-I, U-R}
+        uint16_t fixed_plane    : 4; // Bits 0-3   {P-U, I-R}
+        uint16_t cardinal_plane : 4; // Bits 4-7   {P-R, I-U}
+        uint16_t mutable_plane  : 4; // Bits 8-11  {P-I, U-R}
     } __attribute__((packed)) bimedians;
 
     // View 4: 2 steps x 6-bit stride (2 Uncollapsed 64-State Trigrams)
@@ -112,12 +112,12 @@ Zero-copy access functions manipulate the underlying memory bitfield without req
  * ACCESS FUNCTIONS: VOLUMETRIC REGISTER MANIPULATION
  * ==================================================================== */
 
-// Read the 4-bit value of a specific Bimedian Axis
-inline uint8_t get_bimedian_axis(const Volume12BitOverlay *vol, uint8_t axis_index) {
-    switch(axis_index) {
-        case 0: return vol->bimedians.cardinal_axis; // Bits 0-3
-        case 1: return vol->bimedians.fixed_axis;    // Bits 4-7
-        case 2: return vol->bimedians.mutable_axis;  // Bits 8-11
+// Read the 4-bit value of a specific Bimedian Plane
+inline uint8_t get_bimedian_plane(const Volume12BitOverlay *vol, uint8_t plane_index) {
+    switch(plane_index) {
+        case 0: return vol->bimedians.fixed_plane;    // Bits 0-3
+        case 1: return vol->bimedians.cardinal_plane; // Bits 4-7
+        case 2: return vol->bimedians.mutable_plane;  // Bits 8-11
         default: return 0;
     }
 }
@@ -152,7 +152,7 @@ $$\text{Register Capacity} = 2^{\text{Stride} \times \text{Steps}}$$
 | **6-Bit Surface ($2^6$)** | 3 Bits ($2^3$) | 2 | 64 | $8 \times 8$ Bagua Trigram Matrix |
 | **12-Bit Volume ($2^{12}$)** | 1 Bit ($2^1$) | 12 | 4096 | 12 Directed Edges of $K_4$ (`L3-EdgeStateSpace`) |
 | **12-Bit Volume ($2^{12}$)** | 2 Bits ($2^2$) | 6 | 4096 | 6-Edge 4-State $K_4$ Volume (Many-Worlds Backend) |
-| **12-Bit Volume ($2^{12}$)** | 4 Bits ($2^4$) | 3 | 4096 | 3 Bimedian Axes $\times$ 16-Fold $K_4$ Space |
+| **12-Bit Volume ($2^{12}$)** | 4 Bits ($2^4$) | 3 | 4096 | 3 Bimedian Planes $\times$ 16-Fold $K_4$ Space |
 | **12-Bit Volume ($2^{12}$)** | 6 Bits ($2^6$) | 2 | 4096 | Dual Uncollapsed 64-State Superposition |
 
 ---

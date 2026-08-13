@@ -216,7 +216,7 @@ $$Z = R + jX = R + j\left(\omega L - \frac{1}{\omega C}\right)$$
 
 #### B. Complex Power ($S$)
 Power splits into a complex vector space ($S = P + jQ$):
-* **Real Power ($P = |S|\cos\theta = I^2 R$):** Dissipative, irreversible work, written to the Read-Only Ledger ($\text{.observe()}$).
+* **Real Power ($P = |S|\cos\theta = I^2 R$):** Dissipative, irreversible work, written to the Live-Written Ledger ($\text{.observe()}$).
 * **Reactive Power ($Q = |S|\sin\theta = I^2 X$):** Non-dissipative, oscillating potential held in suspension in the decoupled buffer ($\text{.behold()}$).
 * **Power Factor ($\text{PF} = \cos\theta = \frac{P}{|S|}$):** The ratio of committed output to total capacity.
 
@@ -257,7 +257,7 @@ To build an operational bridge between condensed matter physics and the $K_4$ To
 
 | Physical / Condensed Matter Concept | $K_4$ Topological Address | Operational Meaning in the Codex |
 |---|---|---|
-| **Real Space ($\mathbf{r}$ Coordinates)** | **$H_{\text{coh}}$ (The Coherent Plane)** | The compiled, classical Read-Only Ledger ($P$). |
+| **Real Space ($\mathbf{r}$ Coordinates)** | **$H_{\text{coh}}$ (The Coherent Plane)** | The compiled, classical Live-Written Ledger ($P$). |
 | **Momentum Space ($\mathbf{k}$ Coordinates)** | **$H_{\text{incoh}}$ (The Uncompiled Buffer)** | The uncollapsed multiway vector space ($h\mathbf{Q}$). |
 | **Net Real-Space Magnetization ($M$)** | **Macro $P$-Export / Stray Vector Field** | Dipole field leaking across the $K_3$ Markov Blanket into adjacent frames. |
 | **$d$-Wave Spin Splitting ($k$-Space)** | **Momentum-Space $h\mathbf{Q}$ Phase Texture** | Pure held potential ($Q$) with zero real-space dipole residue ($P=0$). |
@@ -302,7 +302,7 @@ Science describes Topological Insulators ($\text{Bi}_2\text{Se}_3$, $1\text{T}'\
 ### 2. Predictions: Four Uncovered Discoveries
 
 #### Prediction 1: The "ChromoLux" ($U-R$) Phonon-Polariton Ballistic Wire
-* **The Codex Logic (`L4-DynamicDistortionsTechnical`):** The $K_4$ topology has three Bimedian axes. The Fixed Bimedian carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable Bimedian carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
+* **The Codex Logic (`L4-DynamicDistortionsTechnical`):** The $K_4$ topology has three Bimedian planes. The Cardinal plane carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable plane carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
 * **What Science Is Missing:** Condensed matter physics treats electromagnetic waves ($U$) and acoustic lattice vibrations/phonons ($R$) as separate phenomena that scatter off each other, creating thermal resistance.
 * **The Codex Prediction:** There exists an uncharacterized class of $2\text{D}$ van der Waals materials where $U$ and $R$ are topologically fused into a **ChromoLux Surface Mode**. 
   * In this material, **mechanical lattice vibration ($R$) directly pumps THz electromagnetic signals ($U$) with ZERO Ohmic loss.**

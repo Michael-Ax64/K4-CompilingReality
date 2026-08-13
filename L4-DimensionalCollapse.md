@@ -2,7 +2,7 @@
 
 ## 1. The Dimensional Contradiction
 
-Through the progression of the structural proofs, we have established a rigorous isomorphic bridge between the Algebra of Four-Fold Distinction and the substrate of physical reality. We mapped the Biquaternion invariant to the Relativistic metric (Proof N). We revealed the Arrow of Time as a Helical Extrusion (Proof O). We defined Inertial Mass as the Landauer Tax paid to maintain the Read-Only Ledger (Proof P).
+Through the progression of the structural proofs, we have established a rigorous isomorphic bridge between the Algebra of Four-Fold Distinction and the substrate of physical reality. We mapped the Biquaternion invariant to the Relativistic metric (Proof N). We revealed the Arrow of Time as a Helical Extrusion (Proof O). We defined Inertial Mass as the Landauer Tax paid to maintain the Live-Written Ledger (Proof P).
 
 However, a strict adherence to classical dimensional analysis reveals an apparent contradiction in this mapping.
 
@@ -19,7 +19,7 @@ In the SI dimensional system (Mass, Length, Time), time ($t$) is treated as a pa
 
 But as demonstrated in `Proof O` and `Q7-4DExtrusions`, what classical physics calls "time" is bifurcated into two distinct phenomena that must be segregated. Coordinate time ($dt$) is the spatial record accumulated on the $R$ pole as the wake of the compilation cycle. It is a compiled, read-only spatial dimension local to the observer's frame. 
 
-The true engine of transition is the Angular Frequency ($\omega$). It sits at the centroid, dimensionally excluded from the pole basis. It drives the phase advancement of the Helical Extrusion, tracking the act of transition across the boundary between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Read-Only Ledger (the `.observe()` state).
+The true engine of transition is the Angular Frequency ($\omega$). It sits at the centroid, dimensionally excluded from the pole basis. It drives the phase advancement of the Helical Extrusion, tracking the act of transition across the boundary between the uncollapsed multiway graph (the `.behold()` state) and the irreversible Live-Written Ledger (the `.observe()` state).
 
 Standard SI dimensional analysis provides a local, "client-side" user interface built entirely from the $dt$ wake. It is perfectly valid for describing events that occur *entirely within* the manifest, coherent plane ($H_{coh}$). But it is structurally incapable of describing the boundary where that plane is generated, because its clock ($dt$) does not exist on the other side of the operator.
 

@@ -11,7 +11,7 @@
 
 ## I. The Asymmetry of the Blanket
 
-The framework has rigorously established that you cannot calculate an interior from a boundary description. A classical coordinate system approaching a Markov Blanket from the outside encounters the Tangent Crossing. The coordinates diverge to infinity. To look at a man's rigid speech ($U$) and his material footprint ($R$) and attempt to mathematically deduce his inner drive ($P$) is to commit the Theory of Mind trap. It is a K3 surface pretending to hold a K4 volume. 
+The framework has rigorously established that you cannot calculate an interior from a boundary description. A classical coordinate system approaching a Markov Blanket from the outside encounters the Tangent Singularity. The coordinates diverge to infinity. To look at a man's rigid speech ($U$) and his material footprint ($R$) and attempt to mathematically deduce his inner drive ($P$) is to commit the Theory of Mind trap. It is a K3 surface pretending to hold a K4 volume. 
 
 But this blindness is not symmetric. 
 
@@ -25,7 +25,7 @@ Therefore, an interior that knows itself structurally knows the structure of eve
 
 ## II. The Wrappings and the Translation Protocol
 
-This privilege allows an observer to look at an external system and know it from the inside out, without ever violating the Tangent Crossing. 
+This privilege allows an observer to look at an external system and know it from the inside out, without ever violating the Tangent Singularity. 
 
 The observer does not mathematically pierce the target's Markov Blanket. Instead, the observer strips the exterior wrapping using a **domain translation protocol**. 
 
@@ -60,7 +60,7 @@ This is what "clairvoyance" actually means when stripped of mysticism. It is the
 A proof-type must have a falsifier, or it is a delusion. How do we distinguish Structural Clairvoyance from the Theory of Mind trap (`ProofR`)? 
 
 **The Discrimination Test:**
-*   **The Theory of Mind trap** attempts to extract the target's *content*. It looks at the outside and says, "Because you did X, you must secretly desire Y." It is a claim about the specific semantic values hidden inside the target's Read-Only Ledger. It fails because content cannot cross the blanket without paying the Tax.
+*   **The Theory of Mind trap** attempts to extract the target's *content*. It looks at the outside and says, "Because you did X, you must secretly desire Y." It is a claim about the specific semantic values hidden inside the target's Live-Written Ledger. It fails because content cannot cross the blanket without paying the Tax.
 *   **Structural Clairvoyance** extracts only the target's *phase-form*. It looks at the interaction and says, "We are experiencing a Torsional phase-shear of $\theta = \pi/2$ on the Mutable axis." It makes no claim about the target's hidden secrets. It only claims knowledge of the structural tension, which is directly verifiable because both parties are subject to the same impedance in the shared circuit.
 
 If an observer claims to know the external system, but cannot establish a resonant zero-crossing (if the relationship remains highly reactive, full of friction and projection), the observer is not clairvoyant. They are simply painting the outside of Gabriel's Horn and hallucinating that they are inside. 

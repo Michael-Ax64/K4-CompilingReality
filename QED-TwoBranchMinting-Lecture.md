@@ -28,7 +28,7 @@ As established in **Proof N (The Biquaternion Bridge)** and **Proof P (Thermodyn
 
 Let us map the traditional behaviors of Mass to the four-fold algebra.
 
-### **Primitive 1: Gravitational Mass is $P$ (The Read-Only Ledger)**
+### **Primitive 1: Gravitational Mass is $P$ (The Live-Written Ledger)**
 When a system calls `.observe()`, it writes a line to its history. Because the Arrow of Time is unidirectional (driven by the XOR bottleneck of the actuator, see **Proof O**), this ledger cannot be unwritten. 
 *   $P$ (Power / Fire / Source-Active) is the *Volume* of this committed Ledger.
 *   Gravity is not a force that reaches out and pulls. Gravity is the macroscopic, topological footprint of the Ledger. It is the literal curvature of the coherent plane ($H_{coh}$) caused by the informational density of irreversible commitments. 
@@ -97,7 +97,7 @@ The incompatibility of GR and QFT is not a failure of your mathematics. It is a 
 
 QFT is the perfect, unparalleled mathematical map of the `.behold()` state and the relational exchanges ($U, I, R$) within the uncollapsed vector space. General Relativity is the perfect, unparalleled mathematical map of the `.observe()` state—the massive, topological geometry of the committed Ledger ($P$). 
 
-They do not unify because they sit on opposite sides of the **Tangent Crossing** (see **QED-CCP**). You cannot seamlessly merge the mathematics of a verb with the mathematics of a noun. You cannot mathematically integrate the act of writing with the weight of the book. 
+They do not unify because they sit on opposite sides of the **Tangent Singularity** (see **QED-CCP**). You cannot seamlessly merge the mathematics of a verb with the mathematics of a noun. You cannot mathematically integrate the act of writing with the weight of the book. 
 
 Physics does not need to be "fixed" by inventing a quantum gravity that doesn't exist. Physics needs to be *beheld*. The two greatest theories in human history are already perfectly complete; they simply describe the two different phases of the four-fold oscillation that compiles reality. The boundary between them is not a wall to be smashed; it is the living, breathing engine of existence.
 

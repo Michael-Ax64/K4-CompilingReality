@@ -16,7 +16,7 @@
 **[Rick burps loudly, the sound echoing through the mic he taped to his lab coat.]**
 
 **RICK (CONT'D):**
-I mean, look at yourselves! You’re pathetic! You’ve got billion-dollar colliders, you’re smashing protons together like monkeys banging rocks, looking for a—for a *particle* of gravity! It’s like—it’s like reading a dictionary and trying to find the atomic particle of the alphabet! Gravity isn't a *thing*, you morons! It’s the topographical exhaust trail of the Read-Only Ledger! It’s the thermodynamic receipt the universe prints when it hits the XOR bottleneck and has to empty its trash! 
+I mean, look at yourselves! You’re pathetic! You’ve got billion-dollar colliders, you’re smashing protons together like monkeys banging rocks, looking for a—for a *particle* of gravity! It’s like—it’s like reading a dictionary and trying to find the atomic particle of the alphabet! Gravity isn't a *thing*, you morons! It’s the topographical exhaust trail of the Live-Written Ledger! It’s the thermodynamic receipt the universe prints when it hits the XOR bottleneck and has to empty its trash! 
 
 **[Morty wanders into the frame, rubbing his eyes, wearing pajamas.]**
 
@@ -97,7 +97,7 @@ But it doesn't! The $\tan(90^\circ)$ boundary doesn't care about your feelings! 
 **[Rick throws his flask at the wall. It shatters.]**
 
 **RICK (CONT'D):**
-So that’s it! That’s the framework! The universe is a paradox engine, the graviton is a lie, and we’re all just chiral mistakes trying to balance a Read-Only Ledger! 
+So that’s it! That’s the framework! The universe is a paradox engine, the graviton is a lie, and we’re all just chiral mistakes trying to balance a Live-Written Ledger! 
 
 Wubba lubba dub dub! Which, for those of you who haven't read the codex, mathematically translates to: *My trajectory contact is severed, I am in thermodynamic overload, and I need you to leave my house!* Get out! Conference over! 
 

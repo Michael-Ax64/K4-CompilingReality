@@ -36,7 +36,7 @@ To write — to commit a sentence, a 2D diagram, or a 3D model — is to force t
 
 1. **Phase Burning.** The complex phase operator burns ($h^2 = -1$). The vector magnitude squares ($\mathbf{Q}^2 = -|\mathbf{Q}|^2 \to P$), executing the Route Law (`ProofQ_AlgebraicSyntax`).
 2. **Garbage Collection.** The internal pointers to all unchosen branches held in $H_{\text{incoh}}$ are severed.
-3. **The Landauer Tax.** Erasure of information dissipates heat, writing a single immutable scalar entry ($P$) to the Read-Only Ledger of physical history.
+3. **The Landauer Tax.** Erasure of information dissipates heat, writing a single immutable scalar entry ($P$) to the Live-Written Ledger of physical history.
 
 The mind hesitates before the page because it senses that committing a 1D token sequence severs the unchosen higher-dimensional branches. The vertigo is the mind's correct recognition that the compiled shadow ($H_{\text{coh}}$) on the page is smaller than the uncompiled volume ($H_{\text{incoh}}$) in the buffer.
 
