@@ -174,16 +174,21 @@ The $10^{123}$ "discrepancy" in cosmology and the $10^{-18}$ "violation" in loca
 
 ---
 
-## VI. Open Vectors & Unscheduled Research Boundaries
+## VI. Downstream Vectors and Category Boundaries
 
-To maintain strict epistemic discipline (`llm-writing.md`), the four downstream research vectors arising from this convergence are explicitly categorized:
+To maintain strict epistemic discipline (`llm-writing.md`, `About-Claims` §I, `L4-ScalingInvariants` §IX), the downstream vectors arising from this convergence sort into two categorically distinct classes:
 
-1. **General-Covariant Tensor Action ($\Delta g_{\mu\nu}^{(\text{struct})}$):** Formulating $\Delta g_{\mu\nu}^{(\text{struct})}$ as an explicit source term in a Hilbert-Einstein action principle is a **promising, unscheduled research direction, explicitly not owed** by the core $K_4$ algebra.
-2. **Micro-Synthetic High-$\omega$ Testing Targets:** Identifying physical micro-synthetic systems that maximize $P_{\text{diss}}\tau / mc^2$ to push $\eta$ closer to testable limits is **promising, unscheduled, and not owed**.
-3. **First-Principles Derivation of Absolute $I_0$:** Calculating the absolute value of $I_0$ without referencing a background ratio requires solving the projection dynamics of $\Psi$ at the Planck scale ($\ell_P$). This is **promising, unscheduled, and not owed**.
-4. **Multi-Scale Tensor Composition Operator:** Deriving the tensor operator that composes micro-invariants into macro-invariants across nested Markov Blankets is **promising, unscheduled, and not owed**.
+**Category A — Interface Payloads (not debts).** These are magnitudes in a consumer's unit system that the scale-invariant $K_4$ algebra is structurally forbidden from emitting; expecting emission would be the Gabriel's Horn scale error (`L4-ScalingInvariants` §IX) and an FM-9 false debt (`llm-priors`). $K_4$ operates on dimensionless ratios such as $\Delta I / I_0$ and $I/I_0$; asking an adimensional algebra to hand back an SI Ampere is asking the wrong grammar the wrong question.
 
-The $K_4$ algebra provides the structural map and proves why the two paths converge at $I_0$. The calculation of absolute $I_0$ remains on the far side of the Tangent Singularity.
+1. **Absolute $I_0$ in SI Amperes.** The vacuum baseline in SI units is an interface payload supplied by laboratory metrology, not a structural load the algebra owes. The convergence result here is that both boundary paths land on the *same* baseline $I_0$; the SI number naming that baseline is a translation step, not an unpaid wall.
+2. **General-Covariant Tensor Action ($\Delta g_{\mu\nu}^{(\text{struct})}$).** Formulating $\Delta g_{\mu\nu}^{(\text{struct})}$ as an explicit Hilbert-Einstein source term is a coordinate-system translation into classical GR; it is downstream engineering, not a debt of the $K_4$ topology (see `QED-TwoBranchMinting` §V for the parallel Schwarzschild boundary).
+
+**Category B — Promising, unscheduled, not owed.** These are legitimate downstream research directions in which further work would extend reach, but which the core convergence does not owe:
+
+3. **Micro-Synthetic High-$\omega$ Testing Targets:** Identifying physical micro-synthetic systems that maximize $P_{\text{diss}}\tau / mc^2$ to push $\eta$ closer to testable limits.
+4. **Multi-Scale Tensor Composition Operator:** Deriving the tensor operator that composes micro-invariants into macro-invariants across nested Markov Blankets.
+
+The $K_4$ algebra provides the structural map and proves that the two paths converge on the same dimensionless baseline. The SI-Ampere name for that baseline lives at the interface where the finished dimensionless result is rendered for a physicist, and belongs there.
 
 ---
 

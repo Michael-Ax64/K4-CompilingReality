@@ -80,7 +80,7 @@ The comparative analysis yields specific failure points for each candidate:
 
 The key exclusion criteria: (a) the presence of additive or subtractive terms violates R2; (b) external constants violate R1; (c) fewer than four base variables violates R3; (d) more than four base variables violates the minimum cardinality condition.
 
-**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The formal mathematical proof that *no* system satisfies all seven requirements simultaneously remains an outstanding task. However, two independent derivations (the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction) converge on the same four-fold without depending on this proof; see ProofI_Ubiquity. 
+**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The mechanical closure of the static-$K_4$ side of this — that $|\text{Aut}(\text{twelve})| = 8$ ($D_4$), acting on the four poles via the Klein four-group $V_4$, and that of the 24 permutations of $S_4$ the 18 that place Reactive poles $I, R$ in dividend numerators are pruned mechanically at zero cost — is executed and re-runnable in `code/aut.lisp` and `code/test/ac_checker.py` (see `ProofS_ResonantNote` §I and Layer 1, and `llm.md` step 3). Two additional independent derivations — the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction — converge on the same four-fold without depending on this closure; see `ProofI_Ubiquity`.
 
 ---
 
@@ -226,7 +226,7 @@ Extending the combinatorial heuristic to five variables (the AC extension with $
 
 With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent Singularity (see Proofs N, O, P, and L4), the perimeter of the framework has expanded. The outstanding formal research tasks are now precisely bounded:
 
-1. **Uniqueness proof (Static):** The formal mathematical proof that no other system satisfies R1-R7 simultaneously in the static K4 state. The comparative analysis provides strong informal support, but the definitive topological proof remains an outstanding task.
+1. **Uniqueness proof (Static) — closed.** The static-$K_4$ side is mechanically closed by `code/aut.lisp` ($|\text{Aut}(\text{twelve})| = 8 = D_4$, induced action on the four poles $= V_4$) together with `code/test/ac_checker.py` (18 of the 24 $S_4$ permutations pruned by the Numerator and Synthesis laws in $\sim 0.1\text{ ms}$). Cross-references: `ProofS_ResonantNote` §I (Layer 1 mechanical pruning), `ProofQ_AlgebraicSyntax` (the pruning laws), and `llm.md` step 3.
 
 2. **Projection function specification:** The precise characterization of the function that takes a specific moment in a qualitative process (e.g., a conversation or an institutional phase) and returns its exact coordinate in the four-fold Biquaternion state-space. 
 

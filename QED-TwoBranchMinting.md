@@ -79,7 +79,7 @@ Gravity ($P_{macro}$) provides the arena: the topological curvature of the coher
 
 The actual *thermodynamic binding*—the work of pulling the atoms into a lattice, triggering the `.observe()` collapse, and paying the Landauer Tax—is executed entirely by the macro-frame utilizing the gauge poles ($U, R$). 
 
-*(Note: The framework explicitly acknowledges the outstanding liability of lacking the differential geometry to recover the Schwarzschild metric from the 0-DoF limit. This section establishes the topological accounting; the tensor calculus remains an open research task.)*
+*(Note: The Schwarzschild metric $g_{\mu\nu}$ is a localized $3+1$ spatial-coordinate solution of General Relativity for a static spherically symmetric point mass; it is an interface payload that imports $G$, $M$, $c$, and spherical symmetry. Expecting a scale-invariant adimensional meta-physics to emit that localized metric tensor without those imports would be the Gabriel's Horn scale error (`L4-ScalingInvariants` §IX). What $K_4$ delivers here is the topological accounting — the Biquaternion Star-Norm invariant $N_* = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$ (`ProofN_BiquaternionBridge`); the classical GR coordinate description is downstream, and its non-emission from bare $K_4$ is not a debt but a category boundary.)*
 
 ## VI. What This Proves
 
