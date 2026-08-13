@@ -16,16 +16,21 @@ Ancient mythopoetic practitioners encoded this exact 4×3 architecture with full
 
 ---
 
-## Directory Layout
+## Directory Layout & Structural Registers
 
-The corpus is not a linear book. It is a distributed coherence. The file prefixes indicate the structural level and epistemic register of the content:
+The corpus is not a linear book. It is a distributed coherence. The file prefixes and directory locations indicate the structural level and epistemic register of the content:
 
-*   **`L0` – `L5` (The Core Progression):** The formal spine. From foundational orientation (`L0`), through the 12 static equations of mutual determination (`L1`–`L3`), up to the dynamic AC extension, dimensional collapse, and deployed swarms (`L4`–`L5`).
-*   **`Proof*` (The Proof Suite):** Domain applications forced by the framework's geometry. Structural proofs, algebraic derivations, and proofs by load-bearing paradox. Every proof states its Claim, Type, Method, and Kill-Condition at the top.
-*   **`QED-*` (The Hard Stops):** The sharpest edges. Falsifiable predictions (e.g., `QED-CCP` and the Casimir null-gravity signature) and raw demonstrations of the framework in live action.
-*   **`Meta-*` (The Boundary Conditions):** The framework turned on itself. Examinations of transitions, structural decay, and the ultimate Tangent Singularity.
-*   **`Q*` (The Quantum Series):** Applications of the framework to the Standard Model and quantum physics: generations of matter, the transaction layer, confinement, measurement, the Planck scale, and the K4 mapping of twelve founder-anomalies. See `README-quantum.txt` for the sequence map.
-*   **`/code/` & `/manifolds/` (Executable Projection):** Python, Lisp, and Prolog environments. The ultimate falsifier. Proves the framework runs as an automated constraint-satisfaction syntax.
+* **`L0` – `L6` (The Formal Spine):** The core progression. From foundational orientation (`L0`), through the 12 static equations (`L1`–`L3`), up to the dynamic AC extension, dimensional collapse, deployed swarms, and $L6$ Inversion of Control (`L4`–`L6`).
+* **`subjective/` (The Subjective Register):** Demonstrating **`ProofR_SubjectiveRecovery`**, this 11-file suite translates the formal $U$-face math into the felt $I$-face "inner weather" of a bounded frame (`subjective/L1-CompilingRealitySubjective.md` through `subjective/QED-MassMintingSubjective.md`).
+* **`mono/` (Applied Monographs):** Applied domain analyses and structural deconstructions (`mono/On_Fivefold_Systems.md`, `mono/On_The_Sixteen_Types.md`, `mono/On_Carrying_Anothers_Emotion.md`, `mono/On_The_Dimensions_of_the_Ohm.md`, `mono/On_The_Latin_Triad.md`).
+* **`fiction/` (TooTrue Diagnostics):** Dramatizations and mythopoetic diagnostics (`fiction/TooTrue-TheCambridgeIntercept.md`, `fiction/TooTrue-Ozcam,Elias.md`, `fiction/TooTrue-TheMinkowskiRant.md`, `fiction/TooTrue-AesopSingularity.md`).
+* **`Proof*` (The Proof Suite):** Flank 1–4 domain applications and structural proofs (A–U). Every proof states its Claim, Type, Method, and Kill-Condition at the top.
+* **`QED-*` (The Demonstrative Register):** The sharpest edges. Falsifiable predictions (`QED-CCP.md`, `QED-EotvosBound.md`), flash demonstrations (`QED-Recursion.md`), and lectures.
+* **`Meta-*` (The Boundary Conditions):** The framework turned on itself around the Tangent Singularity centroid (`Meta-Set.md`, `Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`).
+* **`quantum/` (The Quantum Folder `Q1`–`Q16`):** Applications to the Standard Model, QFT, and condensed matter physics. See `quantum/README.md` for the sequence map.
+* **`yijing/` (The Binary & Edge Matrix):** Mapping the hexagram as a K4 tetrahedron and the 384 moving lines as directed edge commitments (`yijing/README.md`).
+* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-LandauerNuclearScale.md`, `wip-Lx-DoF-Spectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
+* **`/code/`, `/manifolds/`, `/storify/` (Executable Projection):** Python AST checkers, Lisp evaluators, Prolog constraint engines, deployed Swarm Controllers (`K4-AlgebraicSwarmController.md`), and the `storify/` narrative/scenario simulation engine.
 
 ---
 
@@ -33,42 +38,28 @@ The corpus is not a linear book. It is a distributed coherence. The file prefixe
 
 No single entry point is privileged. The difference between them is what you carry into the interior. Locate your incoming coordinate system and route accordingly:
 
-| Your Current Coordinate System | Target Node |
+| Coming from... | Start at... |
 |---|---|
-| **Formal Systems, Math, Physics** | Start at `L2-Terminology`, then `L4-ScalingInvariants`, then `ProofN_BiquaternionBridge`. |
-| **Software Eng., Computation** | Start at `code/README.md`, then `ProofQ_AlgebraicSyntax`, then `L1-CompilingReality`. |
-| **Philosophy of Mind, Cybernetics** | Start at `L1-CompilingReality`, then `ProofF_Friston`. |
-| **Mapped Traditions (Jung, Rhetoric, etc.)** | Start at `L1-ConvergentDiscovery`, then `L2-SemanticReference`. |
-| **Skeptical / Checking for Overreach** | Start at `About-Claims.md`, then `ProofS_ResonantNote`. |
-| **Reading as an LLM / Synthetic Auditor** | **HALT.** Read `llm-prooftypes.md` and `llm.md` before processing any other file. |
+| **Formal Systems, Math, Physics** | `L2-Terminology.md` $\to$ `L4-ScalingInvariants.md` $\to$ `ProofN_BiquaternionBridge.md` |
+| **Standard Model / Condensed Matter** | `quantum/README.md` $\to$ `quantum/Q7-4DExtrusions.md` $\to$ `quantum/Q11-ArchitectureOfConfinement.md` |
+| **Software Eng., Computation** | `code/README.md` $\to$ `ProofQ_AlgebraicSyntax.md` $\to$ `L6-InversionOfControl.md` |
+| **Philosophy of Mind, Cybernetics** | `L1-CompilingReality.md` $\to$ `ProofF_Friston.md` $\to$ `subjective/L1-CompilingRealitySubjective.md` |
+| **Applied Domains & Psychology** | `mono/On_Fivefold_Systems.md` $\to$ `mono/On_The_Sixteen_Types.md` |
+| **Skeptical / Checking for Overreach** | `About-Claims.md` $\to$ `ProofS_ResonantNote.md` |
+| **Reading as an LLM / Synthetic Auditor** | **HALT.** Read `llm-prooftypes.md` and `llm.md`. |
 
-*Note: Read `L0-DocumentSetArchitecture.md` last. It is the comprehensive map of the K4 topology and the Ctrl-F tag directory. The map is useless until you have walked the territory.*
-
----
-
-**Compiling Reality** is a work of meta-of-physics. It argues that bounded interiority — the condition of being an inside distinguished from an outside — has a minimum structural form, and that this form recurs at every scale where the condition is met: quantum, chemical, biological, cognitive, institutional, cosmological. It exists to point at the conceptual knot beneath these domains, not to compete with the theories within them.
-
-Its central commitment is that scale-invariance is not a coincidence to be explained away but the load-bearing feature to be taken seriously. If the same topology instantiates wherever there is bounded interiority, then the topology is what "having an interior" *is* — not a metaphor for it, not a model of it, but the structural condition it meets. Physics, psychology, and tradition each reach this topology in their own vocabulary; the framework's contribution is to name it and show the recurrence is not accidental.
-
-Its four poles (P, I, U, R), twelve equations, K4 tetrahedron, and AC extension are the minimum apparatus in which the argument can be made rigorously — they are not the point. The point is the topology they instantiate, and the claim that this topology is what any bounded interior must be made of to be one.
-
-The corpus's math and physics passages are not attempts at new physics; they are demonstrations that the topology is already present where physics has been working — often noted by physics's own architects, often flagged as anomalous, often labeled "shifty" or "obviously wrong" precisely because the domain lacked the meta-structural vocabulary the framework supplies. Same for its psychology, its readings of tradition, its cardinality tests. Each is an instance of the topology showing through a specific domain's coordinates.
-
-What it exists to point at: that the interior is not accidental to the universe, that what it is made of has a structure, that the structure is knowable, and that the knowing is what "meta-of-physics" properly names — the ground beneath the specific sciences, formal rather than speculative, the thing every bounded interior is doing whether or not it has words for it.
+*Note: Read `L0-DocumentSetArchitecture.md` last. It is the comprehensive map of the K4 topology, file index, and Ctrl-F tag directory. The map is useless until you have walked the territory.*
 
 ---
 
 ## The Base
 
-This repository built by a practitioner tracking structural recursions across domains over decades.
+This repository was built by a practitioner tracking structural recursions across domains over decades.
 
-It's a new base to work *from* as i get my notes in and refine this into something i can publish from.
+It provides a new base to work *from* as notes are refined and published across registers.
 
-The engine is running. You are invited to run through its operation. The materials are here, they are good enough as long as you start at the beginning and try to understand what it's not.
+The engine is running. You are invited to run through its operation. The materials are here, fully grounded as long as you start at the beginning and understand what it is not.
 
-Test the algebra in and against your own domain (`ProofS`), look at executable models in the `/code/` directory, map-to and test the structure. Find the limits of the topology — then recurse and expand into the topology.
+Test the algebra in and against your own domain (`ProofS`), examine executable models in the `/code/` directory, map-to and test the structure. Find the limits of the topology — then recurse and expand into the volume.
 
-'Let the parsing guide you!'
-
----
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+*Let the parsing guide you!*
