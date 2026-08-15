@@ -5,9 +5,6 @@
 
 *Dependencies: `L4-ThePlenum` (the plenum posit; the $I^2R$ ZPE commitment at §I.4), `L3-K4-to-K5-via-AC-Extension` ($\epsilon_0 \leftrightarrow C$, $\mu_0 \leftrightarrow L$, $S = P + jQ$), `On_TheAcousticOhm` (the substrate-general $RLC$ pattern already carried in the acoustic realization), `Q14-LeptonScaleCascade` (the $377\,\Omega$ impedance-blindness diagnosis), `Q15-KairosBorn` §I (the pion-to-electron Laurent expansion), `L4-ScalingInvariants` §V, §VIII, §IX (Assert/Yield, the invariant, Gabriel's Horn), `About-Claims` §I (what the framework is and is not).*
 
-
-HOUSEKEEPING TASKS, EDITS AND MORE ARE PENDING - but worth sharing nonetheless because by overcoming a mental block against seeing space as full rlc, not as handicapped by authority as before, this has settled something rather disturbing .. which was, why in the world i was importing, though legal under my own rules, a fundamental ratio (pi,e, etc are fine) into this meta-of physics. now that i've given it a proper home, i have landed a real key for understanding my own projection and mapping operators in whatever settings and domains i want to forge/refine them! plus .. once finalized/retested etc, i can truly treat the physics frontier's i've pushed into as 'optional' for me and this work -- generic charge dynamics really are more my thing anyhow. small yeah!
-
 ---
 
 ## I. The Question the $LC$ Framing Cannot Ask

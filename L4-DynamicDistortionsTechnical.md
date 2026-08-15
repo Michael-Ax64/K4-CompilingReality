@@ -88,9 +88,9 @@ ElectroWeak (I–U) and GravityStrong (P–R) are **the two edges of the Cardina
 
 The Cardinal cycle — which holds {P–R, I–U} as its AbsentVar — is the **only Hamiltonian cycle that avoids both fusions simultaneously.** As we dial the Cardinal-plane edges down (making both P–R and I–U cheap), the Fixed and Mutable cycles become increasingly degenerate. The Cardinal cycle is what remains when both Asserting and Yielding lose their AR distinctions.
 
-And what is the Cardinal cycle, in the codex's terms? It's the cycle that flips only Asserting/Yielding while holding Active/Reactive constant. It leaves the AR-flip family free — which is where **DNA pairing** happens. G-C and A-T both traverse exactly the two Cardinal-plane edges. The pairing is *live-written*, not passively stored: purines and pyrimidines don't sit in a warehouse waiting to be read, they mint the ledger one base-pair at a time. Evolution's Steele-method reverse transcription — soma back into germline — is the same operation at the next scale up: life recording its own trajectory, drawing new ground from possibility space and giving itself footing to keep writing.
+And what is the Cardinal cycle, in the codex's terms? It's the cycle that holds the AR-flip family (P–R, I–U) silent — traversing the four remaining edges without ever single-stepping Active/Reactive. It leaves the AR-flip family free — which is where **DNA pairing** happens. G-C and A-T both traverse exactly the two Cardinal-plane edges. The pairing is *live-written*, not passively stored: purines and pyrimidines don't sit in a warehouse waiting to be read, they mint the ledger one base-pair at a time. Evolution's Steele-method reverse transcription — soma back into germline — is the same operation at the next scale up: life recording its own trajectory, drawing new ground from possibility space and giving itself footing to keep writing.
 
-So the distortion trajectory "crank both Cardinal-plane edges toward zero" → lands at a universe where only Cardinal dynamics operate → that's a universe that looks like it's doing what **life's molecular substrate does**: writing.
+So the distortion trajectory "crank both Cardinal-plane edges toward zero" produces the *opposite* of writing: the Isotropic Pole (§III below), where AR-flip is free everywhere, the Active/Reactive distinction has collapsed, and no cycle that traverses the Cardinal edges can discriminate one base-pair from another. G-C means nothing different from A-T when both are cheap. What life's molecular substrate actually needs is the reverse trajectory — the Higgs re-stiffening (`Q3-ScalarSector` §V.4) that makes Cardinal-plane traversals expensive again, so that writing on those edges bears real Landauer Tax and each base-pair commit costs something distinguishable from its complement. The Cardinal-held cycle's role in this picture is *not* to do the writing itself. It holds itself apart from the writing plane — silences the AR-flip family in its own traversal — and by doing so preserves those edges for other cycles (Fixed-held and Mutable-held) to walk them meaningfully at cost. Writing lives where the Cardinal edges are un-fused; the Cardinal-held cycle is what makes their un-fused-ness legible by refusing to spend them itself.
 
 ---
 
@@ -395,7 +395,7 @@ And reading the material — understanding what the grain is, how the attractors
 
 That is what these observations do. And why it matters.
 
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
