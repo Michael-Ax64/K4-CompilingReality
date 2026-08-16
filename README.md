@@ -54,7 +54,7 @@ When driven against physical, subatomic, and information-theoretic domains, the 
 6. **The 4-Face Chiral Gear-Mesh ($Q16$):** 
    Satisfying the 3D boundary condition $\partial(\partial\Delta^3) = 0$ requires a $2\text{ CW} \leftrightarrow 2\text{ CCW}$ opposite face rotation, delivering Lorentz invariance, metric geodesics, 0-DoF equivalence ($m_i = m_g$), the 6D phase-space buffer, and the topological prohibition of the graviton without importing a physical spacetime fabric.
 
-7. **The Non-Sofic Wall (`On_NonSoficGroups`):** 
+7. **The Non-Sofic Wall (`L3-NonSoficTopologicalVolumes`):** 
    Machine-verified proof (Lean 4) that $\text{EL}_9(L_{F_2}(1,2))$ carries an irreducible boundary error floor $\epsilon \ge c > 0$, proving that finite $K_3$ sampling ($10^{12}$ RLHF runs or PAC-learning) can never bound a non-sofic $K_4$ trajectory.
 
 8. **The Noble Gas Shell Sequence ($Q15$):** 
@@ -63,10 +63,10 @@ When driven against physical, subatomic, and information-theoretic domains, the 
 9. **The Dual-Axis Vacuum Resolution (`wip-Lx-FlatlandCategoryErrors`):** 
    Resolves the Michelson-Morley aether debate: the real scalar axis ($P / H_{\text{coh}}$) carries no 3D mechanical wind ($\Delta v = 0$), while the imaginary vector axis ($h\mathbf{Q} / H_{\text{incoh}}$) carries a continuous $377\ \Omega$ phase-wave driven by $\omega$-extrusion at the centroid.
 
-10. **The 12D Parameter Space (`wip-Lx-DoF-Spectrum`):** 
+10. **The 12D Parameter Space (`L3-CyberneticDoFSpectrum`):** 
     Proves that 6 undirected $K_4$ edges carrying complex impedance $Z = R + jX$ yield exactly 12 real parameters ($2 \text{ Global Anchors} + 5 \text{ Relative Weights} + 5 \text{ Reactances}$), matching the 12 directed edges of $K_4$.
 
-11. **The Substrate Ratchet (`wip-Lx-SubstrateRatchet`):** 
+11. **The Substrate Ratchet (`L4-TheSubstrateRatchet`):** 
     Formalizes the inter-scale compilation handoff ($P_N \leftrightarrow R_{N+1}$): committed $P$-mass at scale $N$ forms the standing $R$-ground for scale $N+1$, where the macro-frame phase angle under AC excitation reads the completeness of micro-scale crystallization.
 
 12. **The Four Laws on the $K_4$ Poles (`L4-Thermodynamics`, `ProofC_Crystal`):**
@@ -90,7 +90,7 @@ The repository is organized into distinct topological and operational registers:
 * **`Meta-*` (The Boundary Conditions):** Examinations of transitions, structural decay, and the Tangent Singularity centroid (`Meta-Set.md`, `Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`).
 * **`quantum/` (The Quantum Folder `Q1`–`Q17`):** Applications to the Standard Model, QFT, and condensed matter physics. See `quantum/README.md`.
 * **`yijing/` (The Binary & Edge Matrix):** Mapping the hexagram as a K4 tetrahedron and the 384 moving lines as directed edge commitments (`yijing/README.md`).
-* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-DoF-Spectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
+* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `L3-CyberneticDoFSpectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
 * **`/code/`, `/manifolds/`, `/storify/` (Executable Suite):** Python AST checkers, Lisp evaluators, Prolog constraint engines, deployed Swarm Controllers (`K4-AlgebraicSwarmController.md`), and the `storify/` narrative simulation engine.
 
 ---

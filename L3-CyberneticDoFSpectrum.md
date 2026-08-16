@@ -1,4 +1,4 @@
-# wip-Lx-DoF-Spectrum
+# L3-CyberneticDoFSpectrum
 ## Cybernetic Degrees of Freedom Across the K₄ Layers
 
 *Repour of `wip-Lx-DimsAndDoFs.md`. The 24D "max expressibility" claim is removed as refuted against `L4-Dimensionality` §I lines 146–157 ("the imaginary was never added, and the count never grew"). The 2 + 5 + 5 = 12 parameter decomposition is preserved and re-anchored to the DC network's 2 DoF. The DoF ladder (0, 2, 3, 6, 12, ∞) is preserved through 12. The log-space u + i = p check is downgraded from "self-closing topological loop" to what it actually is: a consistency check on the log form of P = UI. Ex-Incoherente material moves to `wip-Lx-FlatlandCategoryErrors.md`.*

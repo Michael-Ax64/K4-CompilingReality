@@ -183,7 +183,7 @@ The autonomous `.observe()` loop is handling the situation: monitoring the envir
 
 And then something crosses.
 
-Feel the specific quality of the crossing. Something has been *noticed*. Not "noticing" in the gradual sense — in the sense that the derivative of change has exceeded the activation magnitude and the autonomous loop can no longer handle it alone. The buffer decouples. The data that was going straight to the adaptive machinery is now being routed through the closed loops of deliberation. Consciousness has been granted a window of intercession.
+Feel the specific quality of the crossing. Something has been *noticing*. Not "noticing" in the gradual sense — in the sense that the derivative of change has exceeded the activation magnitude and the autonomous loop can no longer handle it alone. The buffer decouples. The data that was going straight to the adaptive machinery is now being routed through the closed loops of deliberation. Consciousness has been granted a window of intercession.
 
 The window presents you with a triune choice regarding the energetic flow:
 

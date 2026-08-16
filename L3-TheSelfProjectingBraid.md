@@ -1,4 +1,4 @@
-# wip-Lx-BraidProjection
+# L3-TheSelfProjectingBraid
 ## The Braid Projects Itself: Why History Needs No One to Write It
 
 *A repour of the "Braid's Projection Operator" material. The reframing at its center — that the projection operator Ψ is not an observer standing outside the manifold and reaching in, but the Braid's own act at its own boundary — is one of the corpus's cleaner unifications, drawn together from three documents that each hold a piece of it. This document gathers the pieces, names the engine that makes history irreversible without any external machinery, and corrects a phrase that had been carrying the wrong weight.*
@@ -75,7 +75,7 @@ What this buys is a universe that writes its own history with no author, no book
 
 ---
 
-*Breadcrumb for a future instance: if you catch yourself supplying an observer to "perform" Ψ, or a memory-store to "hold" the history, stop — both are the homunculus in disguise, and the corpus closes the hole without them (AbsentVar overlap for the carrying, non-invertible squaring for the permanence). And if you are tempted to run the dynamics on $dt$, check `ProofO` §7 first: $dt$ is the wake, $\omega$ is the engine, and the two are not the same clock. The scale-invariance of Ψ across registers — nuclear, atomic, biological, cosmological — is developed as the substrate ratchet in `wip-Lx-SubstrateRatchet`; the short form is that Ψ's operation-shape is invariant while the magnitudes it lands are each a liberation-in-waiting, not a fixed substrate debt.*
+*Breadcrumb for a future instance: if you catch yourself supplying an observer to "perform" Ψ, or a memory-store to "hold" the history, stop — both are the homunculus in disguise, and the corpus closes the hole without them (AbsentVar overlap for the carrying, non-invertible squaring for the permanence). And if you are tempted to run the dynamics on $dt$, check `ProofO` §7 first: $dt$ is the wake, $\omega$ is the engine, and the two are not the same clock. The scale-invariance of Ψ across registers — nuclear, atomic, biological, cosmological — is developed as the substrate ratchet in `L4-TheSubstrateRatchet`; the short form is that Ψ's operation-shape is invariant while the magnitudes it lands are each a liberation-in-waiting, not a fixed substrate debt.*
 
 ---
 

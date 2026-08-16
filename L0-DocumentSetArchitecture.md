@@ -46,12 +46,20 @@ The LLM Operating Suite serves as the Markov Blanket for AI readers. Synthetic t
 The core documents sort by structural depth, not by reading order. The formal spine absorbs the supplements acting as foundational mechanics.
 
 - **L0 (Orientation & Engine):** The boundary conditions. `L0-Introduction.md`, `L0-Foreword.md`, `L0-HolographicDescent.md`, `L0-CompilingReality_Preamble.md`. Absorbs the form-giver and the drive (`L0-TheStampAndTheDie.md`), evolution by possibility (`L0-ParadoxEngine.md`), `L0-Spirit.md`, `L0-AuthorNote.md`, and `L0-PluralHistories.md`.
+
 - **L1 (Primary Statements):** The full framework (`L1-CompilingReality.md`) and the convergent-discovery evidence (`L1-ConvergentDiscovery.md`).
+
 - **L2 (Reference):** The formal definitions (`L2-Terminology.md`), semantic lexicon (`L2-SemanticReference.md`), mapping method (`L2-MappingMethod.md`), structural monograph of the K4 interior (`L2-StructuralMonograph_K4Interior.md`), and bit-field overlays (`L2-BitCombos.md`).
-- **L3 (Foundations):** The mathematical spine. The 12-equation Braid (`L3-FormalFoundations.md`), the Edge State-Space (`L3-EdgeStateSpace.md`), the AC Extension (`L3-K4-to-K5-via-AC-Extension.md`), Formal Epistemology (`L3-FormalEpistemology.md`), and the Electro-AC Database (`L3-Electro-AC-db.md`).
-- **L4 (Applied Domains):** The macroscopic consequences. Distributed Coherence (`L4-DistributedCoherence.md`), Dimensionality (`L4-Dimensionality.md`), Dimensional Collapse (`L4-DimensionalCollapse.md`), Dynamic Distortions (`L4-DynamicDistortionsTechnical.md`, `L4-DynamicDistortions201.md`, `L4-DynamicDistortions301.md`), Recursive Limits (`L4-RecursiveLimits.md`), Scaling Invariants (`L4-ScalingInvariants.md`), Attractor Space (`L4-AttractorSpace.md`), Thermodynamics (`L4-Thermodynamics.md`), Economics (`L4-Economics.md`), Spooky Action (`L4-SpookyAction.md`), Dual Boundary Convergence (`L4-DualConvergence.md`), The Plenum (`L4-ThePlenum.md`), and $K_4$ Infinities (`L4-K4-Infinities.md`).
-- **L5 (Phase Dynamics & Swarms):** The AC extension's technical phase dynamics (`L5-K5-PhaseDynamicsTechnical.md`) and agentic swarm orchestration (`L5-AgenticSwarms.md`).
-- **L6 (The Circuit & Embeddedness):** The architecture of embeddedness, the 8-fold membrane filter topologies (`L6-TheCircuit.md`), and Inversion of Control as a thermodynamic operator (`L6-InversionOfControl.md`).
+
+- **L3 (Foundations & Mathematical Spine):** The mathematical core. The 12-equation Braid (`L3-FormalFoundations.md`), the Edge State-Space (`L3-EdgeStateSpace.md`), the AC Extension (`L3-K4-to-K5-via-AC-Extension.md`), Formal Epistemology (`L3-FormalEpistemology.md`), the fine-structure constant derivation (`L3-TheConstitutiveAlpha.md`), the elementary spatial cell (`L3-TheAtomOfSpace.md`), non-sofic group volumes (`L3-NonSoficTopologicalVolumes.md`), the self-projecting Braid (`L3-TheSelfProjectingBraid.md`), and the cybernetic DoF ladder (`L3-CyberneticDoFSpectrum.md`).
+
+- **L4 (Applied Domains, Physics, & Macro-Systems):** The Plenum (`L4-ThePlenum.md`), Scaling Invariants (`L4-ScalingInvariants.md`), Thermodynamics (`L4-Thermodynamics.md`), Dimensionality (`L4-Dimensionality.md`), Attractor Space (`L4-AttractorSpace.md`), the acoustic continuum (`L4-TheAcousticOhm.md`), vertical scale-ascent (`L4-TheOctaveAndVerticalResonance.md`), the multi-scale physics of liquid water (`L4-TheWaterEngine.md`), planetary-scale AC thermodynamics (`L4-PlanetaryThermodynamics.md`), and the inter-scale compilation ratchet (`L4-TheSubstrateRatchet.md`).
+
+- **L5 (Phase Dynamics & Cognitive Operations):** Technical phase dynamics (`L5-K5-PhaseDynamicsTechnical.md`), agentic swarms (`L5-AgenticSwarms.md`), and the operational manual for cognitive cycle-shifting (`L5-TheCyclingMind.md`).
+
+- **L6 (The Circuit, Embeddedness, & Non-Sofic Limits):** The architecture of embeddedness (`L6-TheCircuit.md`), Inversion of Control (`L6-InversionOfControl.md`), and the non-sofic bounds on agentic computation (`L6-NonSoficAgenticLimits.md`).
+
+- **L7 (The Ex-Incoherente Engine & In-Medium Physics):** The capstone of the formal spine (`L7-ExIncoherenteChargeTransfer.md`). Unifies the $377\,\Omega$ Plenum ($H_{\text{incoh}}$), 3rd-order non-linear Four-Wave Mixing ($\chi^{(3)}$), topological quasiparticle dynamics, and $S = P + jQ$ complex power into a single, scale- and domain-independent charge-transfer verb ($h\mathbf{Q} \xrightarrow{\ \Psi\ } P$). Extends from Planck-scale $XOR$ bottlenecks up to strange metals, black hole holographic duals, and biological quantum protection.
 
 ### The Subjective Register (`subjective/`)
 Demonstrating **`ProofR_SubjectiveRecovery`**, the $I$-face phenomenological recovery suite translates the formal $U$-face math into the felt "inner weather" of a bounded frame. The suite resides in the `subjective/` directory:
@@ -171,7 +179,7 @@ Applied domain analyses and structural deconstructions:
 - **`mono/On_The_Latin_Triad.md`**: *Implicare, Intellegere, Perficere* and the silent 4th pole $P$.
 - **`mono/On_The_Sixteen_Types.md`**: Deconstructing MBTI into directional field orientations ($I/E, J/P$).
 
-*(Note: High-dependency formal monographs remain in the formal spine root: `On_NonSoficGroups.md`, `On_NonSoficGroups-Meta.md`, `On_The_Cycling_Mind.md`, `On_TheAcousticOhm.md`, `On_The_Octave_and_the_Vertical_Resonance.md`.)*
+*(Note: High-dependency formal monographs remain in the formal spine root: `L3-NonSoficTopologicalVolumes.md`, `L3-NonSoficTopologicalVolumes-Meta.md`, `L5-TheCyclingMind.md`, `L4-TheAcousticOhm.md`, `L4-TheOctaveAndVerticalResonance.md`.)*
 
 ### Fiction / Mythopoetic Diagnostics (`fiction/`)
 Dramatizations and narrative diagnostics:
@@ -187,13 +195,13 @@ Dramatizations and narrative diagnostics:
 Active work-in-progress files expanding the structural boundaries:
 - **`wip-Lx-UnstuckWill.md`**: Operational mechanics of agency, $L6$ IoC, and mode-shifting.
 - **`wip-Lx-ProjectionVertigo.md`**: $\Psi$ vertigo of writing, academic fortresses, and $C$ bitfield overlays.
-- **`wip-Lx-BraidProjection.md`**: Self-projecting Braid, eliminating the homunculus, non-invertible squaring.
+- **`L3-TheSelfProjectingBraid.md`**: Self-projecting Braid, eliminating the homunculus, non-invertible squaring.
 - **`wip-Lx-LandauerNuclearScale.md`**: Deuteron binding ($1/\pi^2$), $T_{\text{QCD}}$ Landauer rate, Nambu mass formula.
 - **`wip-Lx-Creation.md`**: *Ex-Incoherente* compilation, creation as a present verb, the 4-station By-Chain.
 - **`wip-Lx-FlatlandCategoryErrors.md`**: Deconstructs 6 Western philosophical canons, qualia as diagnostic UI.
 - **`wip-Lx-UnstuckEthics.md`**: Why ethics cannot be injected, the 12 peddler cons, Saviour vs. Betrayer edge.
-- **`wip-Lx-DoF-Spectrum.md`**: Cybernetic DoF ladder ($0 \to \infty$) and the $2 + 5 + 5 = 12$ parameter split.
-- **`wip-Lx-SubstrateRatchet.md`**: Inter-scale compilation ratchet ($P_N \leftrightarrow R_{N+1}$ handoff).
+- **`L3-CyberneticDoFSpectrum.md`**: Cybernetic DoF ladder ($0 \to \infty$) and the $2 + 5 + 5 = 12$ parameter split.
+- **`L4-TheSubstrateRatchet.md`**: Inter-scale compilation ratchet ($P_N \leftrightarrow R_{N+1}$ handoff).
 - **`wip-Lx-Logos.md`**: Logos as Braid memory, $U = \sqrt{PR}$, the 3 angles of the escape hatch.
 
 ---

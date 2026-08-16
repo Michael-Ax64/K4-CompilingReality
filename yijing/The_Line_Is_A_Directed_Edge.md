@@ -3,6 +3,8 @@
 
 *This document is a structural-realization archive. It establishes that a Yijing hexagram line is a directed edge of the K4 tetrahedron that generates the Compiling Reality framework, that the classical sixty-four hexagrams are the committed two-state projection of a four-state-per-line object of size 4096, and that the three-hundred-eighty-four moving-line statements are that projection in the act of commitment. The line-state to edge-state identity is derived on two axes and sealed by an enantiomer match. The stratification into 4096 held, 64 committed, and 384 committing is a counting fact that follows from it. The direction layer — which recovers reverse current on a directed edge — is established by a coverage theorem: only the four faces together give every edge both of its directions. Nothing structural in the chain is left open. A reader with the project files but not the conversation that produced this can verify every step, including re-deriving each count.*
 
+> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
+
 ---
 
 ## I. The Claim, From the Top

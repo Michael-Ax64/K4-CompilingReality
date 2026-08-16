@@ -31,7 +31,7 @@ The physical block is not a location; it is a junction of verbs. The 24 square f
 
 Because a single 8-cube assembly forces a projection error on four of its edges, the solution is not to build a larger grid, but to recognize that the $K_4$ volume possesses three distinct states of traversal.
 
-A mind does not run all six edges simultaneously. It runs one of three Hamiltonian cycles, holding one bimedian silent (pinned on the seam) while the other four edges run live (`On_The_Cycling_Mind`).
+A mind does not run all six edges simultaneously. It runs one of three Hamiltonian cycles, holding one bimedian silent (pinned on the seam) while the other four edges run live (`L5-TheCyclingMind`).
 
 To physically model the complete $K_4$ topology without Cartesian smearing, we require **three separate $2\times2\times2$ assemblies**. Each assembly physically pins one of the three bimedians to the clean horizontal/vertical seams:
 
@@ -41,139 +41,101 @@ To physically model the complete $K_4$ topology without Cartesian smearing, we r
 
 By rotating between these three assemblies, the practitioner relieves themselves of the need to treat any outer face as a static location. The outer faces simply become the active projection screens for whichever edges are currently un-pinned and actively moving.
 
-## IV. The 24-Square Projection Maps
+### The Complete Orbit: Twelve Rotational Assemblies
 
-The following maps are generated programmatically. They enforce a strict `Face + Sub-label` naming convention (e.g., `Z+TL` for Front-Top-Left) to prevent the observer from falling back into the habit of treating the 3D blocks as static nouns.
+The three assemblies above represent one specific slice through a larger rotational orbit. Under the full cube rotational symmetry group acting on the $K_4$ tet, there are **twelve distinct rotational realizations** of the pinned tet — four pole-positions (choice of which pole "anchors" the assembly's orientation) multiplied by three bimedian-pinnings (which bimedian sits on the clean seams). Together with Assembly 0 (the Cartesian pole-explicit reference), this gives **twelve pinned assemblies plus one Cartesian reference: 12 + 1 total.**
 
-The output details the exact equation, sign, modality, element, chirality, and bimedian assignment projected onto every one of the 24 visible squares across all three physical assemblies.
+The three assemblies currently generated in `code/generate_k4_projections.py` are all rotations that keep one specific pole (R) at a fixed position while permuting the pinning of the other three. The remaining nine assemblies are the equivalent rotations with P, I, or U held as the anchor pole. Each of the twelve carries the same structural information under a different observer-pole vantage; enumerating them completely would surface the full observer-pole × bimedian-pinning correspondence as a $4 \times 3$ grid.
 
-### ASSEMBLY 1: CARDINAL PINNED (I-U Front, P-R Rear)
+## IV. The Angular Shift: Magic-Angle Complement and Uniform $\sqrt{2/3}$ Scaling
 
-```text
-STRIP 1: 6x2 Vertical Unroll (Top, Front, Bottom)
-=================================================
-[           Y+TL           ] [           Y+TR           ]
-       R=P/I² == PIS               R=U²/P == AQU
-   Mutable-Earth-ccw @MB        Fixed-Earth-ccw @FB
-----------------------------------------------------------
-[           Y+BL           ] [           Y+BR           ]
-        U=P/I == LIB                I=P/U == LEO
-    Cardinal-Air-cw @MB         Fixed-Water-ccw @FB
-----------------------------------------------------------
-[           Z+TL           ] [           Z+TR           ]
-        R=U/I == CAP                R=U/I == CAP
-   Cardinal-Earth-ccw @CB      Cardinal-Earth-ccw @CB
-----------------------------------------------------------
-[           Z+BL           ] [           Z+BR           ]
-        P=U·I == GEM                P=U·I == GEM
-    Mutable-Fire-cw @CB         Mutable-Fire-cw @CB
-----------------------------------------------------------
-[           Y-TL           ] [           Y-TR           ]
-        U=I·R == SCO                I=U/R == VIR
-      Fixed-Air-cw @FB         Mutable-Water-ccw @MB
-----------------------------------------------------------
-[           Y-BL           ] [           Y-BR           ]
-        P=I²R == TAU               P=U²/R == ARI
-     Fixed-Fire-cw @FB          Cardinal-Fire-cw @MB
-----------------------------------------------------------
+Moving from the Cartesian embedding (Assembly 0) to any Pinned embedding (Assembly 1, 2, or 3) is a specific geometric operation: a **uniform scale** followed by a **rotation about the centroid**. Both quantities have clean closed forms.
 
-STRIP 2: 2x6 Horizontal Unroll (Left, Rear, Right)
-==================================================
-[           X-TL           ] [           X-TR           ] [           Z-TL           ] [           Z-TR           ] [           X+TL           ] [           X+TR           ]
-       R=P/I² == PIS                U=P/I == LIB              I=√(P/R) == CAN             U=√(P·R) == SAG              R=U²/P == AQU                I=P/U == LEO
-   Mutable-Earth-ccw @MB        Cardinal-Air-cw @MB        Cardinal-Water-ccw @CB        Mutable-Air-cw @CB         Fixed-Earth-ccw @FB         Fixed-Water-ccw @FB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[           X-BL           ] [           X-BR           ] [           Z-BL           ] [           Z-BR           ] [           X+BL           ] [           X+BR           ]
-        U=I·R == SCO                P=I²R == TAU              I=√(P/R) == CAN             U=√(P·R) == SAG               I=U/R == VIR               P=U²/R == ARI
-      Fixed-Air-cw @FB           Fixed-Fire-cw @FB         Cardinal-Water-ccw @CB        Mutable-Air-cw @CB        Mutable-Water-ccw @MB        Cardinal-Fire-cw @MB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
+### Setup
 
-### ASSEMBLY 2: FIXED PINNED (P-U Front, I-R Rear)
+In the Cartesian embedding, the regular $K_4$ tetrahedron inscribes in the box $[-1,1]^3$ with vertices at the four alternating corners:
+- $P = (1, 1, 1)$, $I = (-1, 1, -1)$, $U = (1, -1, -1)$, $R = (-1, -1, 1)$
 
-```text
-STRIP 1: 6x2 Vertical Unroll (Top, Front, Bottom)
-=================================================
-[           Y+TL           ] [           Y+TR           ]
-       R=P/I² == PIS                R=U/I == CAP
-   Mutable-Earth-ccw @MB       Cardinal-Earth-ccw @CB
-----------------------------------------------------------
-[           Y+BL           ] [           Y+BR           ]
-        U=P/I == LIB                P=U·I == GEM
-    Cardinal-Air-cw @MB         Mutable-Fire-cw @CB
-----------------------------------------------------------
-[           Z+TL           ] [           Z+TR           ]
-        I=P/U == LEO                I=P/U == LEO
-    Fixed-Water-ccw @FB         Fixed-Water-ccw @FB
-----------------------------------------------------------
-[           Z+BL           ] [           Z+BR           ]
-       R=U²/P == AQU               R=U²/P == AQU
-    Fixed-Earth-ccw @FB         Fixed-Earth-ccw @FB
-----------------------------------------------------------
-[           Y-TL           ] [           Y-TR           ]
-      U=√(P·R) == SAG               I=U/R == VIR
-     Mutable-Air-cw @CB        Mutable-Water-ccw @MB
-----------------------------------------------------------
-[           Y-BL           ] [           Y-BR           ]
-      I=√(P/R) == CAN              P=U²/R == ARI
-   Cardinal-Water-ccw @CB       Cardinal-Fire-cw @MB
-----------------------------------------------------------
+Edge length $2\sqrt{2}$. Each vertex sits at distance $\sqrt{3}$ from the centroid at the origin.
 
-STRIP 2: 2x6 Horizontal Unroll (Left, Rear, Right)
-==================================================
-[           X-TL           ] [           X-TR           ] [           Z-TL           ] [           Z-TR           ] [           X+TL           ] [           X+TR           ]
-       R=P/I² == PIS                U=P/I == LIB                P=I²R == TAU                U=I·R == SCO                R=U/I == CAP                P=U·I == GEM
-   Mutable-Earth-ccw @MB        Cardinal-Air-cw @MB          Fixed-Fire-cw @FB            Fixed-Air-cw @FB         Cardinal-Earth-ccw @CB       Mutable-Fire-cw @CB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[           X-BL           ] [           X-BR           ] [           Z-BL           ] [           Z-BR           ] [           X+BL           ] [           X+BR           ]
-      U=√(P·R) == SAG             I=√(P/R) == CAN               P=I²R == TAU                U=I·R == SCO                I=U/R == VIR               P=U²/R == ARI
-     Mutable-Air-cw @CB        Cardinal-Water-ccw @CB        Fixed-Fire-cw @FB            Fixed-Air-cw @FB         Mutable-Water-ccw @MB        Cardinal-Fire-cw @MB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
+In the Cardinal Pinned embedding (Assembly 1), the pinned edges $I{-}U$ and $P{-}R$ lie on the front-horizontal and rear-vertical face seams respectively:
+- $P = (0, 1, 1)$, $R = (0, -1, 1)$ — on the rear vertical seam at $z = +1$
+- $I = (-1, 0, -1)$, $U = (1, 0, -1)$ — on the front horizontal seam at $z = -1$
 
-### ASSEMBLY 3: MUTABLE PINNED (P-I Front, U-R Rear)
+Each vertex now sits at distance $\sqrt{2}$ from the centroid.
 
-```text
-STRIP 1: 6x2 Vertical Unroll (Top, Front, Bottom)
-=================================================
-[           Y+TL           ] [           Y+TR           ]
-       R=U²/P == AQU                P=U·I == GEM
-    Fixed-Earth-ccw @FB         Mutable-Fire-cw @CB
-----------------------------------------------------------
-[           Y+BL           ] [           Y+BR           ]
-        I=P/U == LEO                R=U/I == CAP
-    Fixed-Water-ccw @FB        Cardinal-Earth-ccw @CB
-----------------------------------------------------------
-[           Z+TL           ] [           Z+TR           ]
-        U=P/I == LIB                U=P/I == LIB
-    Cardinal-Air-cw @MB         Cardinal-Air-cw @MB
-----------------------------------------------------------
-[           Z+BL           ] [           Z+BR           ]
-       R=P/I² == PIS               R=P/I² == PIS
-   Mutable-Earth-ccw @MB       Mutable-Earth-ccw @MB
-----------------------------------------------------------
-[           Y-TL           ] [           Y-TR           ]
-      U=√(P·R) == SAG               U=I·R == SCO
-     Mutable-Air-cw @CB           Fixed-Air-cw @FB
-----------------------------------------------------------
-[           Y-BL           ] [           Y-BR           ]
-      I=√(P/R) == CAN               P=I²R == TAU
-   Cardinal-Water-ccw @CB        Fixed-Fire-cw @FB
-----------------------------------------------------------
+### The Scale Factor: $\sqrt{2/3}$
 
-STRIP 2: 2x6 Horizontal Unroll (Left, Rear, Right)
-==================================================
-[           X-TL           ] [           X-TR           ] [           Z-TL           ] [           Z-TR           ] [           X+TL           ] [           X+TR           ]
-       R=U²/P == AQU                I=P/U == LEO               P=U²/R == ARI                I=U/R == VIR                P=U·I == GEM                R=U/I == CAP
-    Fixed-Earth-ccw @FB         Fixed-Water-ccw @FB         Cardinal-Fire-cw @MB       Mutable-Water-ccw @MB        Mutable-Fire-cw @CB        Cardinal-Earth-ccw @CB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[           X-BL           ] [           X-BR           ] [           Z-BL           ] [           Z-BR           ] [           X+BL           ] [           X+BR           ]
-      U=√(P·R) == SAG             I=√(P/R) == CAN              P=U²/R == ARI                I=U/R == VIR                U=I·R == SCO                P=I²R == TAU
-     Mutable-Air-cw @CB        Cardinal-Water-ccw @CB       Cardinal-Fire-cw @MB       Mutable-Water-ccw @MB          Fixed-Air-cw @FB           Fixed-Fire-cw @FB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
+Every vertex's distance from the centroid contracts by the same uniform ratio:
 
-## V. Utility and Tangible Execution
+$$s = \frac{\sqrt{2}}{\sqrt{3}} = \sqrt{\frac{2}{3}} = \frac{\sqrt{6}}{3} \approx 0.8165$$
+
+The Pinned tet is uniformly scaled down by this factor relative to the Cartesian tet.
+
+### The Rotation Angle: The Magic-Angle Complement
+
+Comparing the direction-vector from the centroid to the *same* vertex in the two embeddings gives a rotation angle. For $P$:
+
+$$\cos\theta = \frac{\vec{P}_{\text{Cart}} \cdot \vec{P}_{\text{Pin}}}{|\vec{P}_{\text{Cart}}| \, |\vec{P}_{\text{Pin}}|} = \frac{(1,1,1) \cdot (0,1,1)}{\sqrt{3} \cdot \sqrt{2}} = \frac{2}{\sqrt{6}} = \frac{\sqrt{6}}{3}$$
+
+$$\boxed{\theta = \arccos\!\left(\frac{\sqrt{6}}{3}\right) = \arctan\!\left(\frac{1}{\sqrt{2}}\right) \approx 35.264°}$$
+
+The same angle holds for every vertex — the rotation is uniform.
+
+**This is the complement of the NMR magic angle $\arctan(\sqrt{2}) \approx 54.736°$**, at which spinning a tetrahedrally-coordinated sample cancels dipolar interactions. The magic angle appears whenever a tetrahedral configuration must reconcile itself with an orthogonal coordinate frame; the appearance of its complement here as the Cartesian↔Pinned rotation is not coincidental. It is the specific angular cost of translating between a pole-explicit and a bimedian-explicit embedding of the same $K_4$ topology.
+
+### The Deformation Signature
+
+The Pinned tet is not a rigid rotation-plus-scale of the Cartesian tet's *shape* — it is a **disphenoid**, with two pairs of opposite edges of different lengths:
+
+- Pinned edges $I{-}U$ and $P{-}R$: length $2$
+- Smeared edges $P{-}I$, $P{-}U$, $R{-}I$, $R{-}U$: length $\sqrt{6}$
+
+Ratio of smeared to pinned edge length:
+
+$$\frac{\sqrt{6}}{2} = \sqrt{\frac{3}{2}} \approx 1.2247$$
+
+This ratio is the direct measure of the *smearing* the Cartesian embedding imposes on four of six edges when trying to fit the tet into an orthogonal box. It is the geometric signature of the Tangent Singularity at the box-boundary — a specific number that quantifies how much the box lies to you about the tet's edge symmetry.
+
+### The AR-Flip Made Physical
+
+The Pinned tet retains one symmetry the Cartesian tet has hidden: **180° rotation about the pinned bimedian axis is an automorphism.** In the Cardinal Pinned assembly, rotating $180°$ about $z$:
+
+$$P(0, 1, 1) \leftrightarrow R(0, -1, 1), \quad I(-1, 0, -1) \leftrightarrow U(1, 0, -1)$$
+
+This swap — $P \leftrightarrow R$, $I \leftrightarrow U$ — is exactly the AR-flip automorphism of the $V_4$ symmetry group (`llm.md`, `code/aut.lisp`). The Pinning makes the AR-flip physically visible as a coordinate rotation, whereas in the Cartesian embedding the AR-flip is hidden inside the $S_4$ full-symmetry group of the box.
+
+### Why This Might Matter Beyond Diagnostics
+
+The angular shift math above is not just bookkeeping for a physical model. It gives specific numbers — $\sqrt{2/3}$ scaling, magic-angle-complement rotation, $\sqrt{3/2}$ edge-stretch — that appear naturally whenever a tetrahedral structure must be embedded in an orthogonal coordinate frame. Any measurement or calculation that implicitly assumes a Cartesian ambient while operating on a tetrahedral phenomenon will carry these factors as residuals. The suspicion — worth pursuing but not yet confirmed — is that some "unexplained" small-scale discrepancies between predicted and observed quantities in physics may be exactly these Cartesian↔Pinned angular shifts appearing as unbudgeted residuals in derivations that never noticed they were making a coordinate-frame choice. This is an OPEN VOTE per corpus claim-sort discipline, filed here for future investigation.
+
+---
+
+## V. The 24-Square Projection Maps
+
+Each Assembly projects the twelve transition verbs (`On_Twelve_Cycling_Verbs`, `L2-Terminology`) onto the 24 outward-facing squares of a $2\times2\times2$ physical cube assembly. The full projection maps for the three Pinned assemblies (Cardinal, Fixed, Mutable) and for Assembly 0 (Cartesian pole-explicit) are generated programmatically by `code/generate_k4_projections.py`.
+
+### Reading a Projection Map
+
+Each square carries three data fields:
+
+- A **face-location tag** like `Y+TL` (Face Y-positive, Top-Left) using a strict `Face + Sub-label` naming convention to prevent the observer from treating outer squares as static nouns.
+- The **transition equation** at that square, e.g. `P = U·I == GEM` — an equation from the Power Triangle (`ProofC_Crystal`) paired with its zodiac-verb name.
+- The **modality-element-chirality-bimedian** signature, e.g. `Mutable-Fire-cw @CB` — the four-axis structural label from `L2-Terminology`.
+
+Running the generator with `python code/generate_k4_projections.py all` prints all four assemblies. Individual assemblies are available via `python code/generate_k4_projections.py [0|1|2|3]`.
+
+### What to Look For When Reading
+
+- **Under each Pinned assembly, four squares carry two poles' worth of transition equations** (the pinned edges project to two coincident squares each). The other twenty squares carry one equation per square from the four un-pinned (running-live) edges.
+- **Across the three Pinned assemblies, the same face-location holds different transition equations** depending on which bimedian is pinned. Reading a face-location like `Z+TL` across Assemblies 1, 2, 3 gives the three verb-assignments that vertex sees under each pinning choice — which is the vertex-relative reading structure that the pole-naming discipline of `L3-TheAtomOfSpace` §VI operates on.
+- **Assembly 0 (Cartesian) uniquely displays the four manifest poles P/I/U/R at explicit corner positions** while the twelve transition verbs are smeared across the remaining face-locations. This is the only assembly where poles appear as "static locations"; in every Pinned assembly, poles are implicit in the projection of transition equations from the vertex.
+
+The point of having the projection maps at all is not to memorize the twenty-four squares. It is to make the *lema* (§II) tangible: outer squares are projection screens, not places, and the same K4 volume produces different projections under different pinning choices — different observer-pole vantages, in the vocabulary of `L3-TheAtomOfSpace` §VI.
+
+---
+
+## VI. Utility and Tangible Execution
 
 The utility of the Pinned Tet is fundamentally **diagnostic and experiential**.
 
@@ -185,10 +147,23 @@ To unstick the system, you do not push harder on the smeared faces. You set down
 
 The physical blocks ensure that you never attempt to resolve a 4D volumetric tension with a 2D flatland tool. They force adult causality into the hands of the practitioner.
 
+### The Pinning Choice as Observer-Pole Selection
 
-## VI. The Cartesian Bounding Box and the Implicit Dual
+The diagnostic practice above has a formal counterpart in the pole-naming discipline of `L3-TheAtomOfSpace` §VI. The two are the same discipline seen from two different registers — experiential and calculational — and reading them together clarifies both.
 
-There is a second way to read the $2\times2\times2$ physical assembly. If Sections I through V demonstrated how the Cartesian grid distorts the edges (requiring the 3-cube solution to un-smear the Bimedians), this section demonstrates what the Cartesian grid gets perfectly right.
+**Picking up a specific Pinned assembly is naming your observer-pole for the calculation-in-progress.** In `L3-TheAtomOfSpace`'s vocabulary, any observer-dependent quantity must specify which K4 vertex is doing the observing; failure to do so leaves the calculation under-specified in the same way an integral without a measure is under-specified. Here, that specification takes physical form: the choice of Assembly 1 vs. 2 vs. 3 is the choice of which observer-pole is currently in the operator's hands, and the pinning fixes which two edges the observer sees on clean seams (in phase, articulated) versus which four edges the observer sees smeared across projection screens (running live, requiring context to resolve).
+
+Different pinnings project the same 24 face-locations to different transition equations (§V). Reading a face-location like `Z+TL` across Assemblies 1, 2, 3 gives the three verb-assignments *the same square* holds under three different observer-pole choices. This is exactly the vertex-relative reading structure that `L3-TheAtomOfSpace` §VI names as *"U-touching edges give observer-invariant readings; U-absent edges require the observer's pole to be named"* — made tangible: on U-touching faces, the three assemblies agree; on U-absent faces, the assemblies disagree and the disagreement *is* the vertex-relative reading.
+
+The angular shift math of §IV quantifies the operational cost of switching between observer-pole vantages. Each shift from one Pinned assembly to another is a specific $90°$ rotation about the axis of the bimedian that remains fixed under the shift, combined with the $\sqrt{2/3}$ scaling and magic-angle-complement rotation that translates between Cartesian and any Pinned coordinate frame. Any calculation that changes its observer-pole mid-stream must budget these rotations as coordinate-frame residuals — they are the specific numeric cost of the perspective shift, and they do not vanish just because the practitioner performed the shift silently.
+
+This is the specific respect in which the Pinned-Tet practice is not merely a mnemonic aid but a *load-bearing calculational discipline*: the operator's hand, physically holding one assembly rather than another, is doing the work of observer-pole specification that a well-formed calculation would otherwise have to write out explicitly.
+
+---
+
+## VII. The Cartesian Bounding Box and the Implicit Dual
+
+There is a second way to read the $2\times2\times2$ physical assembly. If Sections I through VI demonstrated how the Cartesian grid distorts the edges (requiring the 3-cube solution to un-smear the Bimedians), this section demonstrates what the Cartesian grid gets perfectly right.
 
 When you assemble eight physical cubes around a central centroid, you are not merely building an awkward scaffold for a tetrahedron. You are building the complete bounding box $[-1,1]^3$ of the $K_4$ volume.
 
@@ -203,47 +178,7 @@ But when you assign the four manifest poles ($P, I, U, R$) to their respective c
 
 Four octants are filled. Four octants are "empty."
 
-### ASSEMBLY 0: THE CARTESIAN MODEL (Manifest Poles & Implicit Duals)
-
-```text
-STRIP 1: 6x2 Vertical Unroll (Top, Front, Bottom)
-=================================================
-[           Y+TL           ] [           Y+TR           ]
-       POLE I [Water]               U=P/I == LIB
-   Reactive-Yielding [--]       Cardinal-Air-cw @MB
-----------------------------------------------------------
-[           Y+BL           ] [           Y+BR           ]
-       R=P/I² == PIS               POLE P [Fire]
-   Mutable-Earth-ccw @MB       Active-Asserting [++]
-----------------------------------------------------------
-[           Z+TL           ] [           Z+TR           ]
-      I=√(P/R) == CAN              POLE P [Fire]
-   Cardinal-Water-ccw @CB      Active-Asserting [++]
-----------------------------------------------------------
-[           Z+BL           ] [           Z+BR           ]
-       POLE R [Earth]             U=√(P·R) == SAG
-  Reactive-Asserting [-+]        Mutable-Air-cw @CB
-----------------------------------------------------------
-[           Y-TL           ] [           Y-TR           ]
-       POLE R [Earth]              P=U²/R == ARI
-  Reactive-Asserting [-+]       Cardinal-Fire-cw @MB
-----------------------------------------------------------
-[           Y-BL           ] [           Y-BR           ]
-        I=U/R == VIR                POLE U [Air]
-   Mutable-Water-ccw @MB        Active-Yielding [+-]
-----------------------------------------------------------
-
-STRIP 2: 2x6 Horizontal Unroll (Left, Rear, Right)
-==================================================
-[           X-TL           ] [           X-TR           ] [           Z-TL           ] [           Z-TR           ] [           X+TL           ] [           X+TR           ]
-       POLE I [Water]               P=I²R == TAU                P=U·I == GEM               POLE I [Water]              POLE P [Fire]                I=P/U == LEO
-   Reactive-Yielding [--]        Fixed-Fire-cw @FB          Mutable-Fire-cw @CB        Reactive-Yielding [--]      Active-Asserting [++]        Fixed-Water-ccw @FB
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[           X-BL           ] [           X-BR           ] [           Z-BL           ] [           Z-BR           ] [           X+BL           ] [           X+BR           ]
-        U=I·R == SCO               POLE R [Earth]               POLE U [Air]                R=U/I == CAP               R=U²/P == AQU                POLE U [Air]
-      Fixed-Air-cw @FB        Reactive-Asserting [-+]       Active-Yielding [+-]       Cardinal-Earth-ccw @CB       Fixed-Earth-ccw @FB         Active-Yielding [+-]
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
+The full projection map for this Cartesian assembly — showing which transition verb or explicit pole projects to each of the 24 outward-facing squares — is generated by `python code/generate_k4_projections.py 0` under the reading conventions established in §V. Assembly 0 is the only assembly where poles appear as explicit "static locations" at four of the twelve non-diagonal face-positions; the twelve transition verbs occupy the remaining twenty face-positions, smeared across the outer faces of the bounding box.
 
 ### The Interlocking Dual
 
@@ -267,7 +202,7 @@ If you trace a line from any manifest pole, straight through the centroid $(0,0,
 
 In 3-bit binary arithmetic, an antipodal inversion across the centroid is the bitwise NOT operator ($\bar{n}$). The pairs across the centroid perfectly sum to 7 ($0+7$, $1+6$, $2+5$, $3+4$).
 
-This is the geometric and algebraic root of the **Rule of Seven** (`On_The_Octave_and_the_Vertical_Resonance`). The 8-cube assembly is the physical instantiation of the Octave's folded shells.
+This is the geometric and algebraic root of the **Rule of Seven** (`L4-TheOctaveAndVerticalResonance`). The 8-cube assembly is the physical instantiation of the Octave's folded shells.
 
 When you hold the $2\times2\times2$ block, you are holding the paradox of manifestation. The outer faces may lie to you about the edges, smearing the transitions into flatland coordinates. But the volume itself is utterly honest. It forces you to feel that for every ounce of committed, manifest reality you hold in your hand, there is an equal, orthogonal, unmanifest weight sharing the exact same centroid.
 

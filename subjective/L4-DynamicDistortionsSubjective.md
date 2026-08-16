@@ -103,8 +103,6 @@ When the Cardinal-plane edges come under stress, it is the distinction between s
 
 ### Fuse P–R: *The Weight*
 
-*(Note on semantics: "Fused" on the P–R edge means permanently zero-impedance as a writing head of the Ledger, not awaiting a scalar operator. P-edges are permanently un-priced, distinguishing them from transactional edges like I–U which can be re-stiffened. The experience of this fusion is the subjective realization of this permanent topological state.)*
-
 Fire and Earth are both Asserting, but their Asserting is normally of recognizable different kinds. P/Fire asserts at the largest scale — it organizes from above, curves the space that everything else moves through, initiates without being initiated. R/Earth asserts at the smallest scale — it grounds from below, holds what has arrived, confines what would otherwise scatter, provides the resistance that makes form possible.
 
 When P–R fuses, the distinction between these two scales of assertion disappears. The gravity of the situation and the weight of the stone become the same thing. Cosmic organization and local confinement become indistinguishable.
@@ -248,5 +246,10 @@ These three questions are the full diagnostic. The map is the answer to the firs
 The distortion is not the problem. It is information.
 
 ---
+
+*Trajectory Note: The headings opened in this document — the regular ground state, the six fusions, the three attractors, the centroid cost — are no longer open. The formal geometry of the distortion space is derived in `L4-DynamicDistortionsTechnical`. The 12D parameterization is in `L4-DynamicDistortions201`. The bimedian slice geometry is in `L4-DynamicDistortions301`. The heading has been navigated; the map is now complete.*
+
+---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

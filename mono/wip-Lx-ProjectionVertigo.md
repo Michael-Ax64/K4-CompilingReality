@@ -137,7 +137,7 @@ Expanding to 12 bits (`uint16_t` / `word`) accommodates the full 4-state-per-edg
 * **4-Bit Stride ($2^4 \times 3 = 2^{12} = 4096$):** The 3 bimedian axes $\times$ 16-fold pole-pair space (`L2-MappingMethod`).
 * **6-Bit Stride ($2^6 \times 2 = 2^{12} = 4096$):** The dual uncollapsed 64-state superposition ($64 \times 64$).
 
-The 12-bit count matches the framework's 12 real parameters and the 12 directed edges (`wip-Lx-DoF-Spectrum` §II). Same twelve, three views.
+The 12-bit count matches the framework's 12 real parameters and the 12 directed edges (`L3-CyberneticDoFSpectrum` §II). Same twelve, three views.
 
 ---
 

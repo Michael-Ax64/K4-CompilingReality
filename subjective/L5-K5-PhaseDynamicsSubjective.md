@@ -155,7 +155,11 @@ The counter-intuitive implication is this: **the texture of a system's resistanc
 
 This means that a genuine diagnosis of what a complex system is resisting requires knowing, before anything else, the frequency at which the inquiry was made.
 
+---
+
+*Trajectory Note: The headings opened in this document — acceleration and reluctance, the startup transient, the zero-crossing as peak charge, the quality factor trade-off, superposition and intermodulation, power factor correction, frequency-dependent opposition character — are no longer open. The formal geometry of the phase dynamics is derived in `L5-K5-PhaseDynamicsTechnical`. The AC extension equations are in `L3-K4-to-K5-via-AC-Extension`. The heading has been navigated; the map is now complete.*
 
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

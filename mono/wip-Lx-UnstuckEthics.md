@@ -67,7 +67,7 @@ So the Fixed Cross carries two whole modes of authority in its algebra: the divi
 
 ## V. The 3+4 Junction: Lighting Your Own Fire
 
-If ethics cannot be injected, then the whole account has been pointing at one question: what *does* it take to realize it from within? The answer is a specific structural attainment, and it is rare, and it is not a biological default (`On_The_Octave_and_the_Vertical_Resonance`).
+If ethics cannot be injected, then the whole account has been pointing at one question: what *does* it take to realize it from within? The answer is a specific structural attainment, and it is rare, and it is not a biological default (`L4-TheOctaveAndVerticalResonance`).
 
 Most of a human life can run on given shells. The substrate is given by physics. Survival runs on hardwired self-preservation. Desire runs on hormone cycles. And raw ego-will — the drive to prevail, to dominate, to control — runs at Position 3, the solar plexus, Manipura, the "I AM." A person can live an entire lifespan in these lower positions, driven by environment and biological programming, and none of it is an attainment. It is automated mechanics, the shells the world hands you and runs for you.
 

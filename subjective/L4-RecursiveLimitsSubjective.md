@@ -188,5 +188,10 @@ To live with recursive limits as structural fact rather than as a problem to be 
 Both are the same structure. Both are home.
 
 ---
+
+*Trajectory Note: The headings opened in this document — the same boundary from both sides, mass and interiority as deferred vs paid tax, approaching the crystal, being the crow and the murder, the shifty split as metabolic bandwidth limit, the labyrinth as superimposed frequencies, being a node in the recursion — are no longer open. The formal geometry of the nested boundary is derived in `L4-RecursiveLimits`. The scale-invariant mechanics are in `L4-ScalingInvariants`. The heading has been navigated; the map is now complete.*
+
+---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

@@ -1,7 +1,7 @@
-# wip-Lx-SubstrateRatchet
+# L4-TheSubstrateRatchet
 ## What the Operation Lands Into: The Seam as Engine, Not Boundary
 
-* Where `wip-Lx-LandauerNuclearScale` and `wip-Lx-BraidProjection` draw the line between what the algebra owns (operation-shape) and what the substrate owns (magnitude), this one reads the line the other way: the magnitudes are not ancillary leftovers but the mechanism by which one scale compiles the next. Anchored on `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff (line 51) and `Meta-Singularity-and-Image`.*
+* Where `wip-Lx-LandauerNuclearScale` and `L3-TheSelfProjectingBraid` draw the line between what the algebra owns (operation-shape) and what the substrate owns (magnitude), this one reads the line the other way: the magnitudes are not ancillary leftovers but the mechanism by which one scale compiles the next. Anchored on `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff (line 51) and `Meta-Singularity-and-Image`.*
 
 ---
 

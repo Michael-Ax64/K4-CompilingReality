@@ -29,7 +29,7 @@ The corpus is not a linear book. It is a distributed coherence. The file prefixe
 * **`Meta-*` (The Boundary Conditions):** The framework turned on itself around the Tangent Singularity centroid (`Meta-Set.md`, `Meta-Singularity-and-Image.md`, `Meta-MechanismOfTransition.md`).
 * **`quantum/` (The Quantum Folder `Q1`–`Q16`):** Applications to the Standard Model, QFT, and condensed matter physics. See `quantum/README.md` for the sequence map.
 * **`yijing/` (The Binary & Edge Matrix):** Mapping the hexagram as a K4 tetrahedron and the 384 moving lines as directed edge commitments (`yijing/README.md`).
-* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-LandauerNuclearScale.md`, `wip-Lx-DoF-Spectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
+* **`wip-Lx-*` (The Unfolded Frontier):** Active work-in-progress files expanding the state-space (`wip-Lx-UnstuckWill.md`, `wip-Lx-LandauerNuclearScale.md`, `L3-CyberneticDoFSpectrum.md`, `wip-Lx-FlatlandCategoryErrors.md`, etc.).
 * **`/code/`, `/manifolds/`, `/storify/` (Executable Projection):** Python AST checkers, Lisp evaluators, Prolog constraint engines, deployed Swarm Controllers (`K4-AlgebraicSwarmController.md`), and the `storify/` narrative/scenario simulation engine.
 
 ---

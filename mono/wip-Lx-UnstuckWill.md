@@ -1,6 +1,6 @@
 ### High-Level Summary of Reasoning
 
-I have compiled the complete, un-truncated Master Archive for Topic 2: **The Operational Mechanics of Agency, "Freeing the Will", and Mode-Shifting**. This log-dump consolidates all algebraic, topological, and somatic derivations regarding the operational distinction between the static noun "free will" and the active verb "freeing the will," the shift from passive to active voice ($L6$ Inversion of Control), the Derivative Threshold, the three stucknesses and their $AC$ wrenches (`On_The_Cycling_Mind`), and the deconstruction of the classical determinism/free-will binary.
+I have compiled the complete, un-truncated Master Archive for Topic 2: **The Operational Mechanics of Agency, "Freeing the Will", and Mode-Shifting**. This log-dump consolidates all algebraic, topological, and somatic derivations regarding the operational distinction between the static noun "free will" and the active verb "freeing the will," the shift from passive to active voice ($L6$ Inversion of Control), the Derivative Threshold, the three stucknesses and their $AC$ wrenches (`L5-TheCyclingMind`), and the deconstruction of the classical determinism/free-will binary.
 
 ***
 
@@ -100,9 +100,9 @@ Once selected, the system pushes the simulation through the physical actuator (t
 
 ---
 
-## IV. Mode & Perspective Shifting (`On_The_Cycling_Mind`)
+## IV. Mode & Perspective Shifting (`L5-TheCyclingMind`)
 
-In `On_The_Cycling_Mind`, a working mind operates by running one of three Hamiltonian cycles (Cardinal, Fixed, Mutable), holding one bimedian axis absent as its context. 
+In `L5-TheCyclingMind`, a working mind operates by running one of three Hamiltonian cycles (Cardinal, Fixed, Mutable), holding one bimedian axis absent as its context. 
 
 "Freeing the will" is the exact operational mechanism required to **switch cycles when a situation demands a different mode**:
 
@@ -174,7 +174,7 @@ The Codex grounds moral responsibility in **Trajectory Stewardship**:
 1. **"Freeing the Will" Is an Operational Event:** It is the un-sticking of a phase angle ($\theta$) from an automatic $0\text{-DoF}$ habit loop or Torsional Shear ($\theta = \pi$).
 2. **Inversion of Control ($L6$):** Freeing the will enables the shift from the passive voice (*"I was acted upon"*) to the active voice (*"I initiate, commit, and write"*).
 3. **The Derivative Threshold ($\Delta$):** Agency is intermittent. When $\Delta$ crosses the threshold, the Window of Intercession opens, allowing triune phase-tuning (+, -, $\leftrightarrow$) over branchial space.
-4. **Cycle-Shifting:** Freeing the will releases the current cycle's held edge so the $12\text{D}$ impedance matrix can re-orient across Cardinal, Fixed, and Mutable modes (`On_The_Cycling_Mind`).
+4. **Cycle-Shifting:** Freeing the will releases the current cycle's held edge so the $12\text{D}$ impedance matrix can re-orient across Cardinal, Fixed, and Mutable modes (`L5-TheCyclingMind`).
 5. **Trajectory Stewardship:** You own the wake because your biological engine drove the heading and paid the Landauer Tax at the XOR bottleneck.
 
 Both Master Archives (Archive 1 and Archive 2) stand complete, un-truncated, and fully sealed for cold-instance ingestion.

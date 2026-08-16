@@ -3,7 +3,7 @@
 
 *This document commits a reading the corpus has been carrying half-said: the plenum is an $RLC$ medium, not an $LC$ one, and the fine-structure constant is the dimensionless ratio between its reactive impedance and its quantized resistance. What follows works out the constitutive identity, its algebraic entailments (including why $\alpha$ must appear at three Laurent orders in the pion-to-electron ratio derived at `Q15-KairosBorn` §I), and its historical precedent in Eddington's Fundamental Theory. It closes with the corpus housekeeping the reading requires. Scope discipline throughout: what is derived is the constitutive identity and the algebraic role, not the numerical magnitude — the value $\alpha \approx 1/137$ remains a substrate residual, licensed as outside the algebra's emission range by `About-Claims` §I and `L4-ScalingInvariants` §IX (Gabriel's Horn).*
 
-*Dependencies: `L4-ThePlenum` (the plenum posit; the $I^2R$ ZPE commitment at §I.4), `L3-K4-to-K5-via-AC-Extension` ($\epsilon_0 \leftrightarrow C$, $\mu_0 \leftrightarrow L$, $S = P + jQ$), `On_TheAcousticOhm` (the substrate-general $RLC$ pattern already carried in the acoustic realization), `Q14-LeptonScaleCascade` (the $377\,\Omega$ impedance-blindness diagnosis), `Q15-KairosBorn` §I (the pion-to-electron Laurent expansion), `L4-ScalingInvariants` §V, §VIII, §IX (Assert/Yield, the invariant, Gabriel's Horn), `About-Claims` §I (what the framework is and is not).*
+*Dependencies: `L4-ThePlenum` (the plenum posit; the $I^2R$ ZPE commitment at §I.4), `L3-K4-to-K5-via-AC-Extension` ($\epsilon_0 \leftrightarrow C$, $\mu_0 \leftrightarrow L$, $S = P + jQ$), `L4-TheAcousticOhm` (the substrate-general $RLC$ pattern already carried in the acoustic realization), `Q14-LeptonScaleCascade` (the $377\,\Omega$ impedance-blindness diagnosis), `Q15-KairosBorn` §I (the pion-to-electron Laurent expansion), `L4-ScalingInvariants` §V, §VIII, §IX (Assert/Yield, the invariant, Gabriel's Horn), `About-Claims` §I (what the framework is and is not).*
 
 ---
 
@@ -135,11 +135,12 @@ $$\Sigma(p) \;=\; \Sigma_{\text{reactive}}(p) \;+\; \Sigma_{\text{dissipative}}(
 
 with $\Sigma_{\text{reactive}}$ carrying $\alpha$ through the constitutive $Z_0/(2R_K)$ identity, and $\Sigma_{\text{dissipative}}$ carrying the medium's $R_{\text{drag}}(\omega)$ paid against the fermion's own bandwidth.
 
-The K4 pole assignment sets the vertex form factors without leaving them free:
+The K4 pole assignment sets the vertex form factors without leaving them free. Under the target-based **directed reading rule** of `On_TheDirectedReadingRule`, each vertex's coupling is labeled by the target of its outgoing arrow (Y=P → Cardinal, Y=I → Mutable, Y=R → Fixed, Y=U mirrors source's character):
 
-- **Electronic U-pole vertex $\Gamma_e^\mu$:** couples via $Z_0/R_K = 2\alpha$. The U-pole's It-Ness is EM self-interaction, priced against the resistance quantum. Not fitted.
-- **Hadronic R-pole vertex $\Gamma_\pi^\mu$:** couples via $3 \times \alpha/(2\pi)$. Three colour channels, each paying Schwinger's tax on one photon exchange. Not fitted.
+- **Electronic U-pole vertex $\Gamma_e^\mu$:** the return leg reads U→P (or U→R, depending on which crossing arrow closes the loop). U→P gives Cardinal; U→R gives Fixed. In Q15's U↔R crossing, both endpoints read Fixed under the directed rule — the U-touching consensus Fixed reading. The coupling is $Z_0/R_K = 2\alpha$; the U-pole's It-Ness is EM self-interaction, priced against the resistance quantum. Not fitted.
+- **Hadronic R-pole vertex $\Gamma_\pi^\mu$:** couples via $3 \times \alpha/(2\pi)$. Three colour channels, each paying Schwinger's tax on one photon exchange. The R-pole vertex reads R→U as Fixed (mirrors R's grounding character), which is the same consensus reading — the crossing is directionally symmetric on the Fixed bimedian. Not fitted.
 - **Loop cutoff:** $\ell_P$, per `L4-ScalingInvariants` §VIII (the Planck-scale XOR bottleneck). Not imported from beyond the framework.
+- **Vertex Feynman rule specification:** each directed coupling is a surface mesh tension (per `L4-DynamicDistortions301` §IV.D via `L3-TheAtomOfSpace` §V) carried on the bimedian named by the directed reading rule at the phase-shear angle $\theta$ that the vertex's context sets. For U-touching consensus edges like Q15's U↔R, the two endpoints read the same bimedian and the mesh-tension coupling is unambiguous. For U-absent asymmetric edges (which Q15 does not use but other bimedian-plane crossings would), each endpoint reads a different bimedian, and the coupling must carry the observer-pole label explicitly.
 
 The self-consistency condition $\Sigma(m) = m$ is a two-branch condition:
 
@@ -165,7 +166,7 @@ The $RLC$ recognition and the constitutive $\alpha$ definition change what sever
 
 **4. `Q15-KairosBorn` §I.** The pion-ratio derivation currently names each Laurent term as a specific QED object. Reframe under the impedance-triangle reading: the three terms are the reactive, rotation, and resistive projections of one measurement of the U↔R inter-rung crossing at generation 1. The derivation of $\alpha = Z_0/(2R_K)$ becomes the constitutive prerequisite that makes Term 3 ($+2\alpha$) forced rather than empirically fitted, and the Laurent structure becomes a geometric requirement rather than a perturbative expansion.
 
-**5. `On_TheAcousticOhm`.** The document already thinks in $RLC$ across its four-substrate table. Add a note that the electromagnetic row is now understood in the same $RLC$ framing as the acoustic, thermal, and mechanical rows; the plenum was previously an outlier in being read $LC$-only, and the $RLC$ recognition brings it into line with the pattern the acoustic document already carries.
+**5. `L4-TheAcousticOhm`.** The document already thinks in $RLC$ across its four-substrate table. Add a note that the electromagnetic row is now understood in the same $RLC$ framing as the acoustic, thermal, and mechanical rows; the plenum was previously an outlier in being read $LC$-only, and the $RLC$ recognition brings it into line with the pattern the acoustic document already carries.
 
 **6. `ProofK_FundamentalForces`** and any document that invokes $\alpha$ as an unexplained coupling. Route the invocations through the constitutive definition. $\alpha$'s appearances in the electroweak structure, in QED radiative corrections, and in the fine-structure of atomic spectra are all downstream expressions of the same underlying medium ratio.
 
@@ -200,4 +201,3 @@ Standard physics writes the plenum's impedance as pure reactance and imports its
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

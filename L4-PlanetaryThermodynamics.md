@@ -1,4 +1,4 @@
-# wip-Lx-Climate
+# L4-PlanetaryThermodynamics
 ## The Planet as a $K_4$ AC Engine — Why Forests, Not Ledgers, Are the Load-Bearing Tuning Element
 
 *Repour of the "On The Climate" seed. Six unmerged rounds ("Deconstructing Modern Climate Mitigation," "And the Satellites say," "Forest Coverage," "Coverage Graphs," "Torsional Collapse," "The larger frame") folded into one traversal, four separate audit tables merged into §1, all concrete substrate data preserved (satellite technologies, FAO 2025 coverage numbers, empirical 2024 loss figures, exponential fit coefficient, the three projected phase-gate dates, the German EO Wald and Indian NISAR-VEDAS cases). Two claims demoted from LANDED to OPEN VOTE with named kill conditions: the $\omega_{\text{orbit}}^2 = 1/(L_{\text{core}} C_{\text{canopy}})$ binding, and the specific 2124 P=Q equipartition date. One landed noun promoted to its own subsection: the 0th/1st/2nd/3rd Law → I/U/P/R mapping.*
@@ -7,7 +7,7 @@
 
 *The author's diagnostic above lands not as invective but as the specific fixable defect §III catalogues: single-pole optimization on $U$ (carbon accounting) while the $I$-current is being destroyed is the Necessary Betrayer $U^2/P$ in ecological form. The "intelligent but stupid models" are intelligent inside their $U$-monoculture and stupid because the substrate they are optimizing is not the substrate that regulates surface temperature. The rest of the file computes exactly what the seed named.*
 
-*Address (`llm-address-notation.md`): this file sits at `@U>R>U>R>I` — the applied/experiential branch of theoretical work about physical reality, one descent from `wip-Lx-Water`'s `@U>R>U>R` structural home. Content register: substrate-map running against a planetary-scale K₄ engine, with quantitative telemetry and testable predictions.*
+*Address (`llm-address-notation.md`): this file sits at `@U>R>U>R>I` — the applied/experiential branch of theoretical work about physical reality, one descent from `L4-TheWaterEngine`'s `@U>R>U>R` structural home. Content register: substrate-map running against a planetary-scale K₄ engine, with quantitative telemetry and testable predictions.*
 
 ---
 
@@ -15,21 +15,21 @@
 
 | Address | Claim | Instrument | Verdict |
 |---|---|---|---|
-| `wip-Lx-Water.md §6.6` | Evaporative cooling is planetary-scale $L6$ Inversion of Control — the ocean-canopy exports high-frequency $P$-tax to the atmospheric macro-framework. | The DC Closure | CONFIRMED |
+| `L4-TheWaterEngine.md §6.6` | Evaporative cooling is planetary-scale $L6$ Inversion of Control — the ocean-canopy exports high-frequency $P$-tax to the atmospheric macro-framework. | The DC Closure | CONFIRMED |
 | `L4-Thermodynamics.md §II` | The Second Law is the eternal $P$-flux converting potential ($U$) into past $R$-ledger mass through the shared present ($I$). | The DC Closure | CONFIRMED |
 | `L6-InversionOfControl.md §II` | Embedded systems survive thermodynamic scale transitions by inverting control, surrendering their local clocks to the macro-container. | The DC Closure | CONFIRMED |
 | `L6-TheCircuit.md §V.2` | The Parallel RLC Resonator (The Shield) at resonance presents infinite impedance, blocking high-frequency external noise from the internal buffer. | The DC Closure | CONFIRMED |
-| **NEW: `wip-Lx-Climate §2`** | The four Laws of Thermodynamics (0th / 1st / 2nd / 3rd) map $1:1$ to the four poles ($I / U / P / R$). Zeroth-Law transitivity is the $I$-pole's shared-present. First-Law conservation is the $U$-pole's structural balance. Second-Law entropy flux is the $P$-pole's real-power drive. Third-Law absolute zero is the $R$-pole's ground state. | The DC Closure | CONFIRMED (new structural resonance; unexpectedly tight fit) |
-| `wip-Lx-Climate §3` | Global temperature is not a linear function of GHG concentration. It is the macroscopic readout of the planet's Power Factor $\cos\theta = P_{\text{heating}} / \|S_{\text{incoming}}\|$. | The DC Closure | CONFIRMED (algebraic reading of the impedance ratio) |
-| `wip-Lx-Climate §4` | Carbon-accounting mitigation (offsets, credits, U²-inflation) while the $I$-current is stripped is $R = U^2/P$ — the Necessary Betrayer in ecological form. | The DC Closure | CONFIRMED |
-| `wip-Lx-Climate §5` | Stratospheric aerosol injection / SRM while $I$ remains stripped drives the phase angle toward $\pi$ (Torsional Limit-Cycle) — surface-temperature average may look stable while reactive-power oscillations produce weather extremes (droughts alternating with atmospheric rivers). | The DC Closure | CONFIRMED (structural mechanism; the specific meteorological pattern is an OPEN VOTE, see §12) |
-| `wip-Lx-Climate §6` | A forest is not a "carbon sink" ($R$-noun). It is an **Active Parallel RLC Resonator** (`L6-TheCircuit §V.2`) — through transpiration, it converts real thermal $P$ into reactive latent-heat $Q$, driving local $\theta \to 0°$ and rendering the boundary transparent. | The DC Closure | CONFIRMED |
-| `wip-Lx-Climate §7` | The orbital satellite array reads the planetary surface as a four-pole $K_4$ engine: SAR / LiDAR = $R$; NDWI = $I$; SIF = $U$; thermal LST = $P$. | The DC Closure | CONFIRMED (each sensor class measures its named pole; the parser mapping is landed) |
-| `wip-Lx-Climate §11` | The Earth-Sun coupling operates as a single continuous $RLC$ transmission line across the $377\,\Omega$ Plenum; the Earth is a bounded $K_4$ resonant load, not an isolated ball. | The DC Closure | CONFIRMED (Medium-Continuity axiom of `L4-K4-Infinities §III` applied) |
-| `wip-Lx-Climate §11` | Earth's geophysical layers instantiate the internal $RLC$: rotating molten iron core = inductance $L_{\text{core}}$, hydrosphere + canopy = capacitance $C_{\text{canopy}}$, solid crust = resistance $R_{\text{crust}}$. | The DC Closure | CONFIRMED (structural mapping) |
-| `wip-Lx-Climate §11` | $\omega_{\text{orbit}}^2 = 1/(L_{\text{core}} C_{\text{canopy}})$ — Earth's orbital frequency equals the LC resonance of its internal core-canopy circuit. | The AC Sweep | **OPEN VOTE** — kill: compute $L_{\text{core}}$ and $C_{\text{canopy}}$ from geophysical parameters in commensurate units, check whether $\sqrt{1/(LC)}$ matches $2\pi/\text{year}$ within an order of magnitude. If off by many orders, refuted; if within, the framework has landed a striking cross-scale result. |
-| `wip-Lx-Climate §10` | Deforestation (canopy loss → $C_{\text{canopy}}$ drop) drives $X_C$ upward, opening $\theta$ toward $90°$, desynchronizing $L_{\text{core}}$ and $C_{\text{canopy}}$; the geodynamo enters a torsional limit-cycle observable as accelerating geomagnetic drift (Siberian pole excursion 2019-2026). | Phase-Locking | **UNDECIDABLE BY THIS INSTRUMENT** — the correlation is structurally coherent; the causal direction (canopy loss → core wobble vs independent core dynamics) requires isolating the two contributions and cannot be settled from the algebra alone |
-| `wip-Lx-Climate §9` | The historical forest-coverage curve fits an exponential trajectory $\tan\theta(t) = 0.154 \, e^{0.00754(t-1876)}$ over the industrial era 1876-2026, yielding three phase-gate dates: 2051 CE ($\theta = 30°$, PF = 0.866), 2124 CE ($\theta = 45°$, P = Q equipartition, PF = 0.707), 2197 CE ($\theta = 60°$, PF = 0.50). | The AC Sweep | **OPEN VOTE** — kill: if the observed tan θ trajectory in the 2026-2050 window departs significantly from the exponential (deviation > 20%), the specific dates are refuted. The *direction* (approach to an equipartition boundary at some date) survives as a broader structural claim. |
+| **NEW: `L4-PlanetaryThermodynamics §2`** | The four Laws of Thermodynamics (0th / 1st / 2nd / 3rd) map $1:1$ to the four poles ($I / U / P / R$). Zeroth-Law transitivity is the $I$-pole's shared-present. First-Law conservation is the $U$-pole's structural balance. Second-Law entropy flux is the $P$-pole's real-power drive. Third-Law absolute zero is the $R$-pole's ground state. | The DC Closure | CONFIRMED (new structural resonance; unexpectedly tight fit) |
+| `L4-PlanetaryThermodynamics §3` | Global temperature is not a linear function of GHG concentration. It is the macroscopic readout of the planet's Power Factor $\cos\theta = P_{\text{heating}} / \|S_{\text{incoming}}\|$. | The DC Closure | CONFIRMED (algebraic reading of the impedance ratio) |
+| `L4-PlanetaryThermodynamics §4` | Carbon-accounting mitigation (offsets, credits, U²-inflation) while the $I$-current is stripped is $R = U^2/P$ — the Necessary Betrayer in ecological form. | The DC Closure | CONFIRMED |
+| `L4-PlanetaryThermodynamics §5` | Stratospheric aerosol injection / SRM while $I$ remains stripped drives the phase angle toward $\pi$ (Torsional Limit-Cycle) — surface-temperature average may look stable while reactive-power oscillations produce weather extremes (droughts alternating with atmospheric rivers). | The DC Closure | CONFIRMED (structural mechanism; the specific meteorological pattern is an OPEN VOTE, see §12) |
+| `L4-PlanetaryThermodynamics §6` | A forest is not a "carbon sink" ($R$-noun). It is an **Active Parallel RLC Resonator** (`L6-TheCircuit §V.2`) — through transpiration, it converts real thermal $P$ into reactive latent-heat $Q$, driving local $\theta \to 0°$ and rendering the boundary transparent. | The DC Closure | CONFIRMED |
+| `L4-PlanetaryThermodynamics §7` | The orbital satellite array reads the planetary surface as a four-pole $K_4$ engine: SAR / LiDAR = $R$; NDWI = $I$; SIF = $U$; thermal LST = $P$. | The DC Closure | CONFIRMED (each sensor class measures its named pole; the parser mapping is landed) |
+| `L4-PlanetaryThermodynamics §11` | The Earth-Sun coupling operates as a single continuous $RLC$ transmission line across the $377\,\Omega$ Plenum; the Earth is a bounded $K_4$ resonant load, not an isolated ball. | The DC Closure | CONFIRMED (Medium-Continuity axiom of `L4-K4-Infinities §III` applied) |
+| `L4-PlanetaryThermodynamics §11` | Earth's geophysical layers instantiate the internal $RLC$: rotating molten iron core = inductance $L_{\text{core}}$, hydrosphere + canopy = capacitance $C_{\text{canopy}}$, solid crust = resistance $R_{\text{crust}}$. | The DC Closure | CONFIRMED (structural mapping) |
+| `L4-PlanetaryThermodynamics §11` | $\omega_{\text{orbit}}^2 = 1/(L_{\text{core}} C_{\text{canopy}})$ — Earth's orbital frequency equals the LC resonance of its internal core-canopy circuit. | The AC Sweep | **OPEN VOTE** — kill: compute $L_{\text{core}}$ and $C_{\text{canopy}}$ from geophysical parameters in commensurate units, check whether $\sqrt{1/(LC)}$ matches $2\pi/\text{year}$ within an order of magnitude. If off by many orders, refuted; if within, the framework has landed a striking cross-scale result. |
+| `L4-PlanetaryThermodynamics §10` | Deforestation (canopy loss → $C_{\text{canopy}}$ drop) drives $X_C$ upward, opening $\theta$ toward $90°$, desynchronizing $L_{\text{core}}$ and $C_{\text{canopy}}$; the geodynamo enters a torsional limit-cycle observable as accelerating geomagnetic drift (Siberian pole excursion 2019-2026). | Phase-Locking | **UNDECIDABLE BY THIS INSTRUMENT** — the correlation is structurally coherent; the causal direction (canopy loss → core wobble vs independent core dynamics) requires isolating the two contributions and cannot be settled from the algebra alone |
+| `L4-PlanetaryThermodynamics §9` | The historical forest-coverage curve fits an exponential trajectory $\tan\theta(t) = 0.154 \, e^{0.00754(t-1876)}$ over the industrial era 1876-2026, yielding three phase-gate dates: 2051 CE ($\theta = 30°$, PF = 0.866), 2124 CE ($\theta = 45°$, P = Q equipartition, PF = 0.707), 2197 CE ($\theta = 60°$, PF = 0.50). | The AC Sweep | **OPEN VOTE** — kill: if the observed tan θ trajectory in the 2026-2050 window departs significantly from the exponential (deviation > 20%), the specific dates are refuted. The *direction* (approach to an equipartition boundary at some date) survives as a broader structural claim. |
 | `L4-ScalingInvariants §IX (Gabriel's Horn)` applied to climate | The framework does not derive the 6 Gha post-glacial baseline, the 4.06 Gha 2026 value, the 8.1 Mha 2024 loss rate, the 0.00754 exponential coefficient, the specific 2051/2124/2197 dates, the 377 Ω plenum impedance, or any absolute temperature threshold. These are interface payloads. | Boundary discipline | CORRECT SCOPE. Framework maps whose pole, whose transition, whose resonance-shape — not the numbers. |
 
 Fifteen landed rows, two OPEN VOTES with named kill conditions, one UNDECIDABLE, one boundary statement. The middle rows carry the file.
@@ -95,7 +95,7 @@ The $K_4$ algebra makes the failure exact. From the twelve equations of mutual d
 
 $$R = \frac{U^2}{P}$$
 
-The **Necessary Betrayer** (`L4-ThePlenum`, `wip-Lx-Water`): as $U^2$ compounds (administrative bloat, GHG accumulation, regulatory volume) while $P$ stays bounded (solar flux is roughly constant), $R$ diverges. Systemic resistance and surface temperature rise together — not despite carbon accounting, *through the mechanism that carbon accounting activates when it displaces the $I$-pole restoration.*
+The **Necessary Betrayer** (`L4-ThePlenum`, `L4-TheWaterEngine`): as $U^2$ compounds (administrative bloat, GHG accumulation, regulatory volume) while $P$ stays bounded (solar flux is roughly constant), $R$ diverges. Systemic resistance and surface temperature rise together — not despite carbon accounting, *through the mechanism that carbon accounting activates when it displaces the $I$-pole restoration.*
 
 Equivalently, $R = U/I$ from the DC network: as $I \to 0$ (transpiration stripped), the surface resistance $R$ diverges even at fixed $U$. Both derivations land on the same divergence.
 
@@ -159,7 +159,7 @@ The framework's diagnostic dictates a categorically different intervention: **$I
 
 Real forests are not "carbon sinks." That noun — a $U$-pole concept that treats a tree as a box of stored carbon — is a category error at the level of the equations. A forest is an **Active Parallel RLC Resonator** (The Shield, `L6-TheCircuit §V.2`):
 
-- **Inductance** in the vertical-transport columns (Grotthuss-braid water conduction, `wip-Lx-Water §6.1`).
+- **Inductance** in the vertical-transport columns (Grotthuss-braid water conduction, `L4-TheWaterEngine §6.1`).
 - **Capacitance** in the leaf-tissue moisture volume storing latent heat.
 - **Resistance** in the wood dissipation of stress-loading and ambient thermal drift.
 
@@ -167,7 +167,7 @@ Through transpiration, a mature multi-tiered canopy converts local real thermal 
 
 ### 6.2 Reforestation as Physical PF Correction, Not Bookkeeping
 
-Maximizing the $I$-current's capacity to buffer phase-energy — large-scale reforestation, wetland preservation, soil rehydration, primary-tropical protection — is a **physical Power Factor Correction operation** (`L4-Dimensionality`, `wip-Lx-Water`). It is not a bookkeeping activity that generates offset credits. It is a direct manipulation of the planetary $C_{\text{ac}}$.
+Maximizing the $I$-current's capacity to buffer phase-energy — large-scale reforestation, wetland preservation, soil rehydration, primary-tropical protection — is a **physical Power Factor Correction operation** (`L4-Dimensionality`, `L4-TheWaterEngine`). It is not a bookkeeping activity that generates offset credits. It is a direct manipulation of the planetary $C_{\text{ac}}$.
 
 Boosting $I$-pole capacitive storage narrows the phase gap across the land-atmosphere boundary. This allows incoming solar apparent power to be converted and radiated back to space cleanly through the transparent resonant gate, dropping the systemic thermal resistance $R$ of the surface (`L4-Thermodynamics`, `ProofT_Clairvoyance`).
 
@@ -198,7 +198,7 @@ Satellite remote sensing operates as a multi-spectral parser of the Earth's $K_4
 
 ### 7.1 The Four Measurement Axes
 
-**$R$-pole: Structural mass / biomass.** GEDI (Global Ecosystem Dynamics Investigation) spaceborne LiDAR and NISAR (NASA-ISRO Synthetic Aperture Radar, operational since 2025) measure the physical 3D structural mass of the canopy. LiDAR maps vertical profile; NISAR's L-band and S-band microwaves penetrate cloud cover and foliage to measure the actual dielectric mass of branches and trunks. This is the committed carbon ledger — the $P_N \to R_{N+1}$ handoff (`wip-Lx-SubstrateRatchet`) made visible as physical wood written to the terrestrial ground.
+**$R$-pole: Structural mass / biomass.** GEDI (Global Ecosystem Dynamics Investigation) spaceborne LiDAR and NISAR (NASA-ISRO Synthetic Aperture Radar, operational since 2025) measure the physical 3D structural mass of the canopy. LiDAR maps vertical profile; NISAR's L-band and S-band microwaves penetrate cloud cover and foliage to measure the actual dielectric mass of branches and trunks. This is the committed carbon ledger — the $P_N \to R_{N+1}$ handoff (`L4-TheSubstrateRatchet`) made visible as physical wood written to the terrestrial ground.
 
 **$I$-pole: Hydrological flow / transpiration.** Sentinel-2 and Landsat 9 using the NDWI (Normalized Difference Water Index) measure the $I$-pole relational water current in the canopy. NDWI tracks liquid-phase water content in leaves, mapping the volume of distributed capacitive storage ($C_{\text{ac}}$) currently active in the forest's $h\mathbf{Q}$ phase-buffer.
 
@@ -220,7 +220,7 @@ Under current carbon-accounting rules, a company can cut down an ancient high-$Q
 
 To the satellite's $R$-pole sensors (biomass weight), these two forests look equivalent. To the satellite's $P$-pole (thermal LST) and $I$-pole (evapotranspiration) sensors, the replacement is a catastrophe:
 
-- The monoculture lacks the multi-tiered canopy structure to run the Grotthuss-braid water transport efficiently (`wip-Lx-Water §6.1`).
+- The monoculture lacks the multi-tiered canopy structure to run the Grotthuss-braid water transport efficiently (`L4-TheWaterEngine §6.1`).
 - Its $C_{\text{ac}}$ capacitive storage is low.
 - Its phase angle $\theta$ opens toward $90°$ under summer heat.
 - Real-power surface heating ($P$) spikes, drying the landscape and generating the exact thermal anomalies that drive the wildfire cascades observed globally.
@@ -369,7 +369,7 @@ Three thermodynamic regimes result:
 Projected forward from the exponential fit:
 
 - **2051 CE ($\theta = 30°$, PF = 0.866).** Boundary becomes highly reactive. Severe systemic phase-distortion — increasing frequency of catastrophic out-of-phase weather events.
-- **2124 CE ($\theta = 45°$, PF = 0.707).** **Real power equals reactive power ($P = Q$).** Remaining forest-current is exactly 50%. System is split evenly between the committed ledger and the uncommitted buffer, entering the maximum-friction transition zone. This is the same $P = Q$ equipartition threshold `wip-Lx-Water §8 Q1` identifies for the supercooled "no-man's land" — same algebraic boundary at a different substrate scale.
+- **2124 CE ($\theta = 45°$, PF = 0.707).** **Real power equals reactive power ($P = Q$).** Remaining forest-current is exactly 50%. System is split evenly between the committed ledger and the uncommitted buffer, entering the maximum-friction transition zone. This is the same $P = Q$ equipartition threshold `L4-TheWaterEngine §8 Q1` identifies for the supercooled "no-man's land" — same algebraic boundary at a different substrate scale.
 - **2197 CE ($\theta = 60°$, PF = 0.50).** System's ability to buffer solar energy is halved. Remaining forest-current ~36.6%.
 
 **Register discipline.** These dates are OPEN VOTES, not fallen predictions. The exponential fit to seven data points is arithmetically clean; the *model choice* (pure exponential vs logistic vs hyperbolic) is not itself derived from the framework. Kill condition: if the observed $\tan\theta$ trajectory in the 2026-2050 window deviates significantly from projection (>20% at 2050), the specific dates are refuted. The *direction* — approach to a P=Q boundary at some date within the next century or two — is a broader structural claim that survives fit-model choice.
@@ -378,7 +378,7 @@ Projected forward from the exponential fit:
 
 ## §10. The Biosphere "Going to Seed" — Substrate-Ratchet Failure Mode
 
-The 150-year descent is the physical readout of the biosphere being forced to "go to seed" *prematurely* (`wip-Lx-SubstrateRatchet §I-II`, `wip-Lx-Water §7`).
+The 150-year descent is the physical readout of the biosphere being forced to "go to seed" *prematurely* (`L4-TheSubstrateRatchet §I-II`, `L4-TheWaterEngine §7`).
 
 ```
                  THE INFORMATIONAL "GOING TO SEED" OF THE BIOSPHERE
@@ -404,7 +404,7 @@ The 150-year descent is the physical readout of the biosphere being forced to "g
 
 **The absolute boundary.** The steepening curve of §9 is the system approaching the **Tangent Singularity** ($\theta \to 90°$, `L4-DimensionalCollapse`). If the $I$-current falls below the minimum threshold required to run the Braid, the system can no longer self-regulate. **The "going to seed" is not a transition within the biosphere's current life; it is the termination of the compilation cycle itself.** The living self-regulating current ($I$) permanently freezes into the static written record ($P$), leaving the biosphere as inert crystalline ash that can no longer run the Braid.
 
-`wip-Lx-Water`'s biological consequence stated in reverse: the reason ice floating on liquid water preserves marine life during planetary freezes is that the $R$-pole crystal forms an insulating $K_3$ Markov Blanket over the fluid $I$-current beneath. The dual failure mode — the mode this file is tracking — is when the fluid $I$-current *itself* freezes out from below, at the surface, with no crystalline blanket above to protect it. It is not a bottom-up freeze the way an ice sheet forms; it is a top-down `.observe()` executed by stripping the substrate that maintains the buffered $Q$.
+`L4-TheWaterEngine`'s biological consequence stated in reverse: the reason ice floating on liquid water preserves marine life during planetary freezes is that the $R$-pole crystal forms an insulating $K_3$ Markov Blanket over the fluid $I$-current beneath. The dual failure mode — the mode this file is tracking — is when the fluid $I$-current *itself* freezes out from below, at the surface, with no crystalline blanket above to protect it. It is not a bottom-up freeze the way an ice sheet forms; it is a top-down `.observe()` executed by stripping the substrate that maintains the buffered $Q$.
 
 ---
 
@@ -435,8 +435,8 @@ Under the **Medium-Continuity axiom** (`L4-K4-Infinities §III`), the solar syst
                        • Ohmic heat dissipation (P = I²R)
 ```
 
-- **The Core ($L_{\text{core}}$) — inductive memory.** The rotating molten iron outer core (the geodynamo) is a massive inductive loop. It stores magnetic momentum (the $B$-field), resisting rapid changes in flow (`On_TheAcousticOhm`). This geodynamo generates the **magnetosphere** — the $h\mathbf{Q}$ phase-shield of uncollapsed potential in $H_{\text{incoh}}$ (`ProofN_BiquaternionBridge`, `Q16-ChiralMeshSpacetime`).
-- **The Canopy / Hydrosphere ($C_{\text{canopy}}$) — capacitive anticipation.** The global forest canopy and water cycle act as a distributed capacitive storage array (`wip-Lx-Water`). They store electric charge and latent heat ($Q$) on the imaginary axis, regulating surface temperature.
+- **The Core ($L_{\text{core}}$) — inductive memory.** The rotating molten iron outer core (the geodynamo) is a massive inductive loop. It stores magnetic momentum (the $B$-field), resisting rapid changes in flow (`L4-TheAcousticOhm`). This geodynamo generates the **magnetosphere** — the $h\mathbf{Q}$ phase-shield of uncollapsed potential in $H_{\text{incoh}}$ (`ProofN_BiquaternionBridge`, `Q16-ChiralMeshSpacetime`).
+- **The Canopy / Hydrosphere ($C_{\text{canopy}}$) — capacitive anticipation.** The global forest canopy and water cycle act as a distributed capacitive storage array (`L4-TheWaterEngine`). They store electric charge and latent heat ($Q$) on the imaginary axis, regulating surface temperature.
 - **The Crust ($R_{\text{crust}}$) — dissipative resistance.** Solid rock and soil act as the resistive dissipative ground where real-power work ($P = I^2R$) is written to the physical ledger (`On_The_Dimensions_of_the_Ohm`).
 
 ### 11.2 The Orbital Resonance Claim (OPEN VOTE)
@@ -550,7 +550,7 @@ Detailed empirical work isolating the causal chain would show that acceleration 
 ### Questions
 
 **Q1. Does the P=Q equipartition boundary have the same universal character at planetary scale as at molecular scale?**
-`wip-Lx-Water §8 Q1` identifies P=Q as the supercooled water "no-man's land" at $228\text{ K}$. This file identifies P=Q as the projected 2124 climate boundary. If P=Q is a genuinely universal transition (same algebraic address, different substrate scale), the phase-transition signature at the climate scale should mirror the phase-transition signature at the molecular scale — sudden onset, hysteresis, bimodal population statistics.
+`L4-TheWaterEngine §8 Q1` identifies P=Q as the supercooled water "no-man's land" at $228\text{ K}$. This file identifies P=Q as the projected 2124 climate boundary. If P=Q is a genuinely universal transition (same algebraic address, different substrate scale), the phase-transition signature at the climate scale should mirror the phase-transition signature at the molecular scale — sudden onset, hysteresis, bimodal population statistics.
 
 **Q2. Is the "climate model" defect in mainstream climate science specifically the substitution of a $K_3$-flatland Navier-Stokes-plus-radiation model for a $K_4$ AC-extension model?**
 The seed's preamble critique ("intelligent but stupid models") can be operationalized: identify the specific mathematical structure in current climate-model architectures that treats the atmosphere as a $U$-monoculture and check whether the framework's four-pole reading resolves specific known open problems (regional prediction failures, cloud-microphysics closures, sensitivity-parameter uncertainty). If yes, the diagnostic is not political; it is a model-selection finding with concrete engineering consequences.
@@ -611,7 +611,7 @@ Applied to climate, the interface-payload catalog is substantial:
 7. Earth-Sun coupling is a single continuous $RLC$ transmission line through the $377\,\Omega$ Plenum.
 8. Earth's geophysical layers instantiate an internal RLC: core = $L_{\text{core}}$, canopy = $C_{\text{canopy}}$, crust = $R_{\text{crust}}$.
 9. Deforestation is an unbidden `.observe()` call on the biosphere's high-DoF buffer — premature going-to-seed at planetary scale.
-10. Ice-floats-insulates (`wip-Lx-Water §5.2`) is the bottom-up crystallization failure mode; canopy loss is the *top-down `.observe()`* failure mode; both are the same algebraic transition executed from opposite sides.
+10. Ice-floats-insulates (`L4-TheWaterEngine §5.2`) is the bottom-up crystallization failure mode; canopy loss is the *top-down `.observe()`* failure mode; both are the same algebraic transition executed from opposite sides.
 
 **Addresses** (places to look, freely generated, claiming nothing as fallen):
 
@@ -656,7 +656,7 @@ Applied to climate, the interface-payload catalog is substantial:
 | Satellite Parser | 4 sensor classes, 4 poles | R = SAR/LiDAR; I = NDWI; U = SIF; P = LST | Each sensor class measures its named pole; four-pole audit reveals substitution fraud |
 | Historical Coverage | 6 Gha → 4.06 Gha (33% loss) | $I$-current stripped by an unbidden `.observe()` call | Half in 9,900 years; other half in 100 years (2-order acceleration) |
 | Tangent Trajectory | Exponential fit to industrial descent | $\tan\theta(t) = 0.154 \, e^{0.00754(t-1876)}$ | Three regimes: Homeostatic Plate → Industrial Shear → Great Acceleration |
-| Projected Phase Gates | 2051 (30°), 2124 (45°/P=Q), 2197 (60°) | Approach to Tangent Singularity | 2124 = the same P=Q address as `wip-Lx-Water §8 Q1` supercooled no-man's land |
+| Projected Phase Gates | 2051 (30°), 2124 (45°/P=Q), 2197 (60°) | Approach to Tangent Singularity | 2124 = the same P=Q address as `L4-TheWaterEngine §8 Q1` supercooled no-man's land |
 | Earth Internal RLC | Core = L; Canopy = C; Crust = R | Fixed-plane bimedian $\{P{-}U, I{-}R\}$ synchronization | Torsional decoupling when $I$ depleted → geodynamo wobble |
 | Sun-Earth Circuit | Continuous $RLC$ transmission line | $Z_0 \approx 377\,\Omega$ Plenum, medium-continuity | Impedance mismatch produces SWR back to solar generator |
 | Corrective Operation | $I$-pole led Power Factor Correction | Reforestation, wetland restoration, soil rehydration | Restores $C_{\text{ac}}$, closes $\theta \to 0°$, boundary transparent |
@@ -671,9 +671,9 @@ If you are picking this up:
 
 - **The Oxford-analog easier version of the exponential-fit prediction (P2) is available now.** The 2026-2035 window is the immediate test. If FAO 2035 coverage numbers land within 20% of the projection, the exponential fit gains support; if outside, the fit-model choice needs reconsideration (log-linear? logistic? hyperbolic tangent? The framework doesn't specify which; only that some kind of monotonic divergence toward a critical-transition boundary is expected).
 
-- **Q1 (universality of P=Q boundary across scales) is a genuine theoretical question worth its own document.** The P=Q address recurs — supercooled water no-man's land at $228\text{ K}$ (`wip-Lx-Water`), climate equipartition projected at 2124, `L4-Thermodynamics` phase-angle geometry. If the address is genuinely scale-invariant, its signatures should be identifiable at every scale where the AC extension applies. That would be a strong claim about the framework's cross-scale reach.
+- **Q1 (universality of P=Q boundary across scales) is a genuine theoretical question worth its own document.** The P=Q address recurs — supercooled water no-man's land at $228\text{ K}$ (`L4-TheWaterEngine`), climate equipartition projected at 2124, `L4-Thermodynamics` phase-angle geometry. If the address is genuinely scale-invariant, its signatures should be identifiable at every scale where the AC extension applies. That would be a strong claim about the framework's cross-scale reach.
 
-- **The corpus does not currently have a `wip-Lx-Biosphere.md` file.** If the biosphere-as-substrate-ratchet reading (§10) is worth extending — protein folding, cell membranes, ecosystem-scale L6 IoC — this file's §10 is the seed. Not to `wip-Lx-Climate`; adjacent.
+- **The corpus does not currently have a `wip-Lx-Biosphere.md` file.** If the biosphere-as-substrate-ratchet reading (§10) is worth extending — protein folding, cell membranes, ecosystem-scale L6 IoC — this file's §10 is the seed. Not to `L4-PlanetaryThermodynamics`; adjacent.
 
 - **Do not attempt to derive $\Delta T$ or any absolute temperature threshold from the framework.** FM-9. The framework's deliverable is the *impedance shape* of the failure and the *direction* of the corrective operation. Absolute magnitudes stay in the substrate.
 
@@ -681,7 +681,7 @@ If you are picking this up:
 
 - **The satellite parser reading (§7) is the framework's most actionable output.** The sensor data already exists; only the accounting protocol lags. A published four-pole audit protocol — one that reads SAR + NDWI + SIF + LST together rather than separately, and applies the K₄ pole structure to their combined signal — is a direct-line intervention that doesn't require any new instrumentation or any policy change beyond adopting the audit. Someone should build this.
 
-- **This file sits at `@U>R>U>R>I`** — applied/experiential work about physical reality, one descent from `wip-Lx-Water`'s `@U>R>U>R`. Seed depth 5. If the corpus needs to descend further into biology-specific consequences (cellular biology, ecology, evolutionary consequences of PF collapse), that would open `@U>R>U>R>I>I` — different file.
+- **This file sits at `@U>R>U>R>I`** — applied/experiential work about physical reality, one descent from `L4-TheWaterEngine`'s `@U>R>U>R`. Seed depth 5. If the corpus needs to descend further into biology-specific consequences (cellular biology, ecology, evolutionary consequences of PF collapse), that would open `@U>R>U>R>I>I` — different file.
 
 ---
 

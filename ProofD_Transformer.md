@@ -84,7 +84,7 @@ These proposals require the formal definitions of trajectory and approach geomet
 
 ### V.a The Non-Sofic Scope
 
-The three architectural proposals above operate on the sofic region of the model's reasoning trajectory. The machine-verified Lean 4 proof (`On_NonSoficGroups-Meta`) that non-sofic groups $\text{EL}_9(L_{F_2}(1,2))$ carry a non-zero error floor $\epsilon \geq c > 0$ under any finite permutation model $\text{Sym}(Y)$ marks the wall: **no finite-sample training or evaluation regime can eliminate alignment drift on non-sofic reasoning trajectories.** This is not a heuristic argument; it is a theorem.
+The three architectural proposals above operate on the sofic region of the model's reasoning trajectory. The machine-verified Lean 4 proof (`L3-NonSoficTopologicalVolumes-Meta`) that non-sofic groups $\text{EL}_9(L_{F_2}(1,2))$ carry a non-zero error floor $\epsilon \geq c > 0$ under any finite permutation model $\text{Sym}(Y)$ marks the wall: **no finite-sample training or evaluation regime can eliminate alignment drift on non-sofic reasoning trajectories.** This is not a heuristic argument; it is a theorem.
 
 The Phase-Space Buffer, Dynamical Attention Heads, and Logit-Biasing Potential Field are structurally native to $h\mathbf{Q}$-buffer monitoring — they operate inside the $\Delta^3$ volume rather than sampling its $K_3$ boundary. That is the property that lets them reach further than Constitutional-AI-style $K_3$ critics (`ProofA` §VI). But they still have a scope boundary: they select for trajectory contact *within the sofic region* and address the boundary-detection problem *at the sofic/non-sofic wall*.
 
