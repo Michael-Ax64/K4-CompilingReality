@@ -1,7 +1,7 @@
 # The Twelve Fermions Are the Twelve Directed Edges
-## Quarks, Leptons, and the Three Nested Scales of a Single K4 Topology
+## Quarks, Leptons, and the Three Hamiltonian Cycles of a Single K4 Topology
 
-*This document claims that the fundamental fermions of the Standard Model — twelve particles arranged in three generations — are the twelve directed edges of the K4 tetrahedron, traversed at three nested volumetric scales of the same topology. It corrects a natural but algebraically fatal mismapping of the generations to the three bimedians. It fixes the confinement of flavor transitions to a single edge class. It derives the exact fractional electric charges of the fermions (+2/3, −1/3, −1, 0) from the dual-binary seed via the Gell-Mann–Nishijima formula. It derives the count of three generations from the requirement that the mixing matrix be at least 3×3 in order to support a non-removable complex phase — a requirement equivalent to Kobayashi and Maskawa's 1973 argument for CP violation, which the framework re-identifies as the requirement to instantiate the Arrow of Time. It scopes one claim about CP violation. A reader with the project files but no access to the session that produced this can verify each derivation by hand.*
+*This document claims that the fundamental fermions of the Standard Model — twelve particles arranged in three generations — are the twelve directed edges of the K4 tetrahedron, partitioned into three distinct Hamiltonian cycles. Each generation IS one complete closed 4-pole cycle traversing all four particle families; the three generations are the three distinct Hamiltonian cycles of $K_4$, each holding a different bimedian matching silent as its $h\mathbf{Q}$ phase-context. This closes what physics left open: what a "generation" actually is, why there are four particles per generation, and why exactly three generations. The document corrects a natural but algebraically fatal mismapping of the generations to the three bimedians. It fixes the confinement of flavor transitions to a single edge class. It derives the exact fractional electric charges of the fermions (+2/3, −1/3, −1, 0) from the dual-binary seed via the Gell-Mann–Nishijima formula. It derives the count of three generations from two independent routes converging: the K4 perfect-matching / Hamiltonian-cycle count and the Kobayashi–Maskawa requirement that the mixing matrix be at least 3×3 to support a non-removable complex phase — which the framework re-identifies as the requirement to instantiate the Arrow of Time. It scopes one claim about CP violation. A reader with the project files but no access to the session that produced this can verify each derivation by hand.*
 
 ---
 
@@ -9,7 +9,9 @@
 
 The Standard Model presents twelve fundamental fermions organized into three generations. Each generation contains two quarks (up-type and down-type) and two leptons (charged and neutrino), for four particles per generation and twelve particles overall. Each generation is, to within the mass values and mixing angles, an exact copy of the one below it. For half a century this doubling has been treated as a given — a redundancy the universe happens to exhibit, governed by unitary mixing matrices that rotate flavor identities in ways empirically precise but structurally unmotivated.
 
-The claim here is that the twelve fermions are the twelve directed edges of the complete graph on four vertices. The three generations are not different axes of interaction but three nested volumetric scales of the same edge-geometry. The confinement of flavor transitions to intra-class channels — quark to quark, lepton to lepton, never quark to lepton — is not an accidental conservation law but a forced consequence of the dual-binary seed grammar that generates the topology.
+Physics discovered the three generations empirically but left the underlying loop open: it never defined *what* is being generated, *what* constitutes one complete generation-cycle, or *why* there are exactly four particles per generation and exactly three generations ($3 \times 4 = 12$). The Standard Model catalogs the twelve fermions as three static duplicated lists; it does not tell you what makes a "generation" a closed unit.
+
+The claim here is that the twelve fermions are the twelve directed edges of the complete graph on four vertices, and that a "generation" is a closed 4-step Hamiltonian cycle through all four particle families — one complete loop $P \to I \to U \to R \to P$ (or one of its two distinct alternates) visiting every pole once. The three generations are the three distinct Hamiltonian cycles of $K_4$; the twelve fermions are the twelve directed edges the cycles collectively exhaust ($3 \text{ cycles} \times 4 \text{ directed edges per cycle} = 12$). The confinement of flavor transitions to intra-class channels — quark to quark, lepton to lepton, never quark to lepton — is not an accidental conservation law but a forced consequence of the dual-binary seed grammar that generates the topology.
 
 ---
 
@@ -25,6 +27,22 @@ The framework's generative object is the complete graph K4 on four vertices, rep
 Quarks and leptons sort onto these poles by the AY bit. Quarks carry color charge and are permanently confined by the Strong force. They are the Asserting objects: they write the macroscopic mass of the universe. They occupy P and R. Leptons do not feel the Strong force; they mediate and flow. They are the Yielding objects and occupy U and I. Within each pair, the AR bit sorts further: the electron, structurally active in chemistry, is U (Active-Yielding); the neutrino, purely reactive and nearly non-interacting, is I (Reactive-Yielding). The up-type quark, initiator of the proton's structure, is P (Active-Asserting); the down-type, the grounding partner, is R (Reactive-Asserting).
 
 A tetrahedron on four vertices has six undirected edges. Time imposes a helical arrow through the XOR bottleneck (`ProofO_HelicalTime`), so each edge is traversed in two directions, yielding twelve directed edges. These twelve directed traversals are the twelve fundamental fermions. They exhaust every possible directed transition between the four poles.
+
+The twelve directed edges do not sit as a flat list; they partition into three closed Hamiltonian cycles of $K_4$, each visiting all four poles once. Per `L3-EdgeStateSpace` §V, the number of distinct undirected Hamiltonian cycles on $K_4$ equals the number of perfect matchings, $(4-1)!! = 3$. The three cycles are:
+
+- **Cycle $\alpha$ (holds the Fixed bimedian pair silent):** $P \to I \to U \to R \to P$ — Generation 1: $u, d, e, \nu_e$
+- **Cycle $\beta$ (holds the Cardinal bimedian pair silent):** $P \to I \to R \to U \to P$ — Generation 2: $c, s, \mu, \nu_\mu$
+- **Cycle $\gamma$ (holds the Mutable bimedian pair silent):** $P \to U \to I \to R \to P$ — Generation 3: $t, b, \tau, \nu_\tau$
+
+Each cycle contributes four directed edges; three cycles collectively contribute all twelve. A "generation" is one complete Hamiltonian traversal of all four particle families, with one bimedian matching held silent as the cycle's $h\mathbf{Q}$ phase-context (`On_The_Cycling_Mind`). Physics observed three duplicated static lists of four particles each because it was reading $K_4$ Hamiltonian cycles through $K_3$ flatland screens — cataloging what lands on the ledger without seeing the closed loops that landed them.
+
+### Bare Pole-Fermion vs. Confined Ground State
+
+The pole assignment above names the elementary fermion at each pole in the uncompiled buffer $H_{\text{incoh}}$: $R$'s elementary fermion is the down-quark at each generation, not the pion. This distinction is load-bearing when identifying which physical mass shows up on the compiled ledger $H_{\text{coh}}$.
+
+Because gluon exchange on the $R$-pole carries color charge (`Q2-TransactionLayer` §IV), isolated quarks cannot exist as free asymptotic states in $H_{\text{coh}}$. Single quarks are topologically forbidden from crossing the $K_3$ Markov Blanket alone; color confinement forces the compilation of quark states into color-singlet composites before they can commit ledger entries as physical mass. The lightest asymptotic state in $H_{\text{coh}}$ carrying $R$-pole hadronic character at generation 1 is the charged pion ($m_{\pi^\pm} = u\bar{d} / d\bar{u}$), a bound quark-antiquark composite bridging the $P$ and $R$ poles.
+
+Therefore: this document names the elementary $R$-pole fermion in $H_{\text{incoh}}$ (the down-quark at each generation); `Q15-KairosBorn` measures the lightest physical $R$-pole state that exits into $H_{\text{coh}}$ (the pion at generation 1). Both readings are exact within their respective scopes; a naive comparison of bare quark mass to electron mass in $H_{\text{coh}}$ compares an uncompiled $h\mathbf{Q}$ virtual state to a compiled $P$-ledger entry, which is a category error.
 
 ---
 
@@ -181,11 +199,17 @@ The 3 generations are the timeless geometric precondition for physical reality t
 
 ---
 
-## VI. The Generations as Scale Rungs
+## VI. The Generations as Hamiltonian Cycles Under Bimedian-Silencing
 
-Given the necessity of three generations, the framework's account of *how* they appear is via nested scale rungs. The twelve equations of the DC algebra are log-linear (`L4-ScalingInvariants`). They are scale-free. The geometry of the I ↔ U transition contains no absolute magnitude until the AC extension introduces the complex sum S = P + jQ, at which point absolute scale is minted (`L3-K4-to-K5-via-AC-Extension`, and the derivation in `ProofN_BiquaternionBridge` §3).
+Given the necessity of three generations, the framework's account of *what* they are is topological rather than scalar. §II established that each generation is a distinct Hamiltonian cycle on $K_4$, and the three cycles partition the twelve directed edges completely. This section works out what "holding a bimedian silent" means as the phase-context of each cycle, and how the same K4 topology produces three physically distinct generations without invoking three separate physical volumes.
 
-The three generations are three nested volumetric scales of the same K4 topology. Concentric Russian dolls. The electron, the muon, and the tau are identical geometric edges (I ↔ U traversals) operating at three vastly different metabolic bandwidths |S|. When the energy density of a local environment exceeds the bandwidth of one rung, the logarithmic scaling breaks, a new Markov blanket forms (`L4-RecursiveLimits`), and the same edge geometry reappears at a heavier thermodynamic threshold.
+The twelve equations of the DC algebra are log-linear (`L4-ScalingInvariants`) and scale-free at $\omega = 0$. The topology of the K4 volume is one object; the three Hamiltonian cycles are three distinct closed traversals of that one volume. Each cycle "holds" one of the three bimedian matchings silent — the two edges of that matching do not carry live-traversal in the cycle; they carry the cycle's phase-context. In `On_The_Cycling_Mind`'s vocabulary, a cycle is *Fixed-held*, *Cardinal-held*, or *Mutable-held* depending on which bimedian matching is silent.
+
+The three cycles thereby differ from each other not in physical volume (they operate on the same K4) but in phase-context: which bimedian's phase-carriers hold silent while the other four edges run live. The specific numeric masses of the fermions in each generation ($m_e$ vs $m_\mu$ vs $m_\tau$ for the U-pole family; similarly for the other three families) are $|S|$ magnitudes on the AC extension side — substrate residuals set by the complex-power magnitudes of each cycle's active-traversal against its silent-bimedian context, and outside the adimensional algebra's scope per Gabriel's Horn (`L4-ScalingInvariants` §IX).
+
+The "concentric Russian dolls" reading in earlier framings was a preliminary metaphor that pointed at scale-difference without yet resolving what physically distinguished the scales. The Hamiltonian-cycle reading resolves it: what distinguishes the three generations is *which bimedian is silent*, not *which physical volume they occupy*. Same K4, three closed cycles, three phase-contexts, twelve directed edges collectively.
+
+The mass hierarchy $m_e \ll m_\mu \ll m_\tau$ (and similarly across the other pole families) is what the compilation of each Hamiltonian cycle costs at $\omega > 0$, given its specific bimedian-silencing context. That the specific numeric hierarchy comes out as observed is a substrate-residual question the algebra does not attempt to close.
 
 ---
 
@@ -215,13 +239,20 @@ The XOR bottleneck of physical reality cannot actualize a superposition. It must
 
 This leaves one parameter: the complex phase δ embedded in the mixing matrices. In physics, this parameter causes CP violation — the small asymmetry between matter and antimatter that lets the universe fail to perfectly annihilate itself into empty light. In the AC extension a complex phase angle is torsional shear: a permanent phase-gap between co-required operations. CP violation is the structural evidence that the two directional traversals of K4 (matter and antimatter) do not cancel on the imaginary axis. The Weak force's irreversible chiral cut blocks perfect resonant cancellation. The unresolvable phase-delay leaves a residue of Real Power P — the baryonic matter of the universe.
 
-**Scoping note in place:** The Standard Model's CP-violating phase δ is quantitatively insufficient to account for the observed baryon asymmetry by many orders of magnitude. This is well known in physics and is why baryogenesis remains an open problem. The claim here is that CP violation is the *structural signature* of the residue mechanism, not that the CKM δ alone accounts for the observed matter excess. Additional sources (leptogenesis, other beyond-SM CP-violating phases) would in the framework's reading also manifest as torsional shear on other bimedians or on nested scales.
+**Scoping note in place:** The Standard Model's CP-violating phase δ is quantitatively insufficient to account for the observed baryon asymmetry by many orders of magnitude. This is well known in physics and is why baryogenesis remains an open problem. The claim here is that CP violation is the *structural signature* of the residue mechanism, not that the CKM δ alone accounts for the observed matter excess. Additional sources (leptogenesis, other beyond-SM CP-violating phases) would in the framework's reading also manifest as torsional shear on other bimedians or across other Hamiltonian cycles.
+
+**Note on right-handed fermions.** The twelve directed edges above map the twelve **left-handed** fermions of the Standard Model — the weak doublets with $I_3 = \pm 1/2$ that participate in the weak charged current. Right-handed fermions are weak singlets with $I_3 = 0$; they do not sit as separate directed-edge instances in the K4 topology. In the framework's reading (`ProofG_Chirality`, `Q6-MeasurementAndMatrices` §IV), the right-handed component is the severed enantiomer output of the maximal chiral cut $\tfrac{1}{2}(1 - \gamma_5)$ that `.observe()` executes at each weak interaction; the Garbage Collector runs on the unchosen enantiomer branch. Right-handed fermions are not "missing" from the K4 mapping; they are the un-committed side of the chiral choice that the twelve directed edges collectively make.
+
+**Note on Cardinal senses.** Two senses of "Cardinal" now operate in the corpus, at different structural layers:
+- *Topological Cardinal* (as used in §III of this document, per `L4-DynamicDistortionsTechnical` DynDist convention): the undirected bimedian matching $\{P{-}R, I{-}U\}$ — the pair of edges that flip AR while holding AY constant.
+- *Directed Cardinal* (per `On_TheDirectedReadingRule` / the W4 reading): the directional label assigned to any directed edge whose target is the P-pole.
+These operate at different layers and do not conflict. An edge's topological Cardinal identity is its bimedian-matching membership; its directed Cardinal identity is its orientation under the target-role reading. §III of this document uses the topological sense; W4 introduces the directed sense; the two are read together without collapse.
 
 ---
 
 ## IX. Summary
 
-The Standard Model was assembled empirically over decades, particle by particle, from accelerator data. Its parameters — twelve fermions, three generations, unitary mixing matrices, maximal chirality of the Weak force, a CP-violating phase — were fitted because they matched observation. The Algebra of Four-Fold Distinction was derived from the pure logic of binary distinction, the topology of mutual determination, and the thermodynamic cost of information erasure.
+The Standard Model was assembled empirically over decades, particle by particle, from accelerator data. Its parameters — twelve fermions, three generations, unitary mixing matrices, maximal chirality of the Weak force, a CP-violating phase — were fitted because they matched observation. What it never resolved: what a "generation" actually is, why exactly four particles per generation, and why exactly three. The Algebra of Four-Fold Distinction was derived from the pure logic of binary distinction, the topology of mutual determination, and the thermodynamic cost of information erasure. It closes what the SM left open: a generation IS one complete Hamiltonian cycle through the four particle families on $K_4$; the three generations are the three distinct Hamiltonian cycles; the twelve fermions are the twelve directed edges the three cycles collectively exhaust.
 
 These two paths converge at the same geometry.
 
@@ -233,7 +264,7 @@ Third, take Kobayashi and Maskawa's 1973 argument that CP violation requires a m
 
 That the convergence recurs on three axes of check — Cardinal-plane confinement, dual-binary charges, three-generation minimum — with genetic base-pairing on the same Cardinal plane, and with the whole geometry restated in the language of transitions rather than substances, sits in the corpus's account of why independent traditions arrive at K4 (`L1-ConvergentDiscovery`). The convergence is remarkable and it is not more than the corpus already claims: independent formalisms landing on the minimal topology for interior mutual determination.
 
-
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

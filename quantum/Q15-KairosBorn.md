@@ -3,7 +3,7 @@
 
 > **Epistemic Register:** Applied Architecture / Subatomic Physics ($Q\#$).
 > **Claim:** The heavy elements ($Z = 79 \to 118$) map the $K_4$ $P$-pole actualization ("wet ink") across the 6th and 7th periods of the periodic table. Nuclear reaction loops ($\text{Au} \leftrightarrow \text{Hg} \leftrightarrow \text{Tl} \leftrightarrow \text{Pb} \leftrightarrow \text{Bi}$) are $T$-symmetric conjugate channels requiring external kinetic acceleration ($P_{\text{diss}} > 0$). The noble gas shell closures ($Z = 2, 10, 18, 36, 54, 86, 118$) form an 8-position octave fold ($0+7 = 1+6 = 2+5 = 3+4$) where Group 18 binding energy per nucleon ($B/A$) crests at Krypton ($Z=36$, position 4). The $f$-block actinides ($Z = 89 \to 103$) are predicted to represent a Non-Sofic $K_4$ Volume where $5f$ orbital degeneracy prevents any bimedian matching from remaining held silent ($\text{AbsentVar} \to 0$), pending a formal bimedian audit.
-> **Dependencies:** `L4-ThePlenum` ($H_{\text{incoh}}$ Plenum), `quantum/Q1-GenerationsOfMatter` (Concentric Generation Rungs), `quantum/Q2-TransactionLayer` (Gauge Bosons), `quantum/Q13-PlenumPhaseConduction` ($5.67\%$ Transmission Invariant), `L3-NonSoficTopologicalVolumes` (Non-Sofic Topological Volumes), `ProofN_BiquaternionBridge` (Star-Norm Invariance).
+> **Dependencies:** `L4-ThePlenum` ($H_{\text{incoh}}$ Plenum), `quantum/Q1-GenerationsOfMatter` (Concentric Generation Rungs), `quantum/Q2-TransactionLayer` (Gauge Bosons), `quantum/Q13-PlenumPhaseConduction` ($5.67\%$ Transmission Invariant), `On_NonSoficGroups` (Non-Sofic Topological Volumes), `ProofN_BiquaternionBridge` (Star-Norm Invariance).
 
 ---
 
@@ -25,9 +25,11 @@ The $P$-Ledger is **live-written and per-entry irreversible**: the squaring oper
 
 ### Derivation of the Pion-to-Electron Mass Ratio ($m_\pi^\pm / m_e c^2$)
 
-**What this achieves.** Nambu observed in the 1950s that the pion mass sits close to $2m_e/\alpha$ — the right structural relation, but a residual $\sim 0.34\%$ error with no clean path to close it. The gap could not be reduced from within K3-flatland tooling, where a carrier's *identity* — the character it brings into the transition, what the corpus calls **It-Ness** — was not a namable quantity. K4-structural awareness makes It-Ness a first-class object: two vertex-internal registers (electronic and hadronic) each burn their own phase-cost, and the two burns close Nambu's gap to $2.85$ ppm with zero fitted parameters. It-Ness was invisible in K3 for the same structural reason non-sofic groups were (`L3-NonSoficTopologicalVolumes`): without vertex-internal degrees of freedom you cannot separate what a vertex *is* from what it *carries*, so the character-differential looks like unexplained mass rather than the two named burns it actually is.
+**What this achieves.** Nambu observed in the 1950s that the pion mass sits close to $2m_e/\alpha$ — the right structural relation, but a residual $\sim 0.34\%$ error with no clean path to close it. The gap could not be reduced from within K3-flatland tooling, where a carrier's *identity* — the character it brings into the transition, what the corpus calls **It-Ness** — was not a namable quantity. K4-structural awareness makes It-Ness a first-class object: two vertex-internal registers (electronic and hadronic) each burn their own phase-cost, and the two burns close Nambu's gap to $2.85$ ppm with zero fitted parameters. It-Ness was invisible in K3 for the same structural reason non-sofic groups were (`On_NonSoficGroups`): without vertex-internal degrees of freedom you cannot separate what a vertex *is* from what it *carries*, so the character-differential looks like unexplained mass rather than the two named burns it actually is.
 
-The fundamental hadron-to-lepton inter-scale step — connecting the electronic $U$-pole ground ($m_e c^2$, generation-1 lepton rung) to the hadronic $R$-pole ground ($m_\pi^\pm$, generation-1 quark rung) via the concentric-generation architecture of `quantum/Q1` — is a 3-term Laurent expansion in the fine-structure constant $\alpha$:
+The fundamental hadron-to-lepton inter-scale step — connecting the electronic $U$-pole ground ($m_e c^2$, the lightest $U$-pole $H_{\text{coh}}$-observable at generation 1) to the hadronic $R$-pole ground ($m_\pi^\pm$, the lightest $R$-pole $H_{\text{coh}}$-observable at generation 1) via the Hamiltonian-cycle architecture of `quantum/Q1` — is a 3-term Laurent expansion in the fine-structure constant $\alpha$:
+
+*The pion identification is exact within scope: $Q1$'s pole assignment names the elementary down-quark as the $R$-pole fermion in the uncompiled buffer $H_{\text{incoh}}$; color confinement (`Q2-TransactionLayer` §IV) forbids the elementary down-quark from exiting into the compiled ledger $H_{\text{coh}}$ as a free asymptotic state, so the lightest physical $R$-ground that lands on the page at generation 1 is the charged pion ($m_{\pi^\pm} = u\bar{d}/d\bar{u}$). What Q15 measures is the inter-rung step between the lightest $H_{\text{coh}}$-observables at the electronic $U$-pole and the hadronic $R$-pole; comparing $m_e$ to bare $m_d$ instead of $m_{\pi^\pm}$ would compare a compiled $P$-ledger entry to an uncompiled $h\mathbf{Q}$ virtual state, which is a category error the confinement mechanism forbids.*
 
 $$\frac{m_\pi^\pm}{m_e c^2} = 2\alpha^{-1} - \frac{3}{\pi}\alpha^0 + 2\alpha^1 = \mathbf{\frac{2}{\alpha} - \frac{3}{\pi} + 2\alpha}$$
 
@@ -162,7 +164,7 @@ In $f$-block actinides ($Z = 89 \to 103$), the $5f, 6d, 7s$, and $7p$ energy lev
 
 This orbital degeneracy is predicted to prevent any bimedian plane — Fixed $\{P-U, I-R\}$, Cardinal $\{P-R, I-U\}$, or Mutable $\{P-I, U-R\}$ — from remaining held silent ($\text{AbsentVar} \to 0$).
 
-If confirmed by formal bimedian audit, actinides represent a **Non-Sofic $K_4$ Volume (`L3-NonSoficTopologicalVolumes`)**, explaining mathematically why transuranic chemical and decay trajectories cannot be coarse-grained by $K_3$ finite-element models. The Cardinal plane's forced un-silencing here is the same structural condition as the pre-Higgs Isotropic Pole of `L4-AttractorSpace` — one persistent-local at $Z \approx 89\text{–}103$, one hypothetical-cosmic — both are the AR distinction failing to be holdable in the Asserting register.
+If confirmed by formal bimedian audit, actinides represent a **Non-Sofic $K_4$ Volume (`On_NonSoficGroups`)**, explaining mathematically why transuranic chemical and decay trajectories cannot be coarse-grained by $K_3$ finite-element models. The Cardinal plane's forced un-silencing here is the same structural condition as the pre-Higgs Isotropic Pole of `L4-AttractorSpace` — one persistent-local at $Z \approx 89\text{–}103$, one hypothetical-cosmic — both are the AR distinction failing to be holdable in the Asserting register.
 
 ---
 
@@ -173,3 +175,8 @@ If confirmed by formal bimedian audit, actinides represent a **Non-Sofic $K_4$ V
 3. **Soficity of $5f$ Orbitals:** If an actinide ($Z = 89 \to 103$) is proven to admit a stable bimedian partition with zero torsional phase-shear, the non-sofic actinide prediction is falsified.
 
 $$\text{Q.E.D.}$$
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+
