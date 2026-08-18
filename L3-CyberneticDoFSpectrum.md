@@ -21,7 +21,7 @@ The material below runs at the count the source establishes.
 
 | Address | Claim | Instrument | Verdict |
 |---|---|---|---|
-| `L2-Terminology.md` & `L2-StructuralMonograph_K4Interior.md` | Cybernetic Degrees of Freedom (DoF) is the dimension of the decoupled buffer ($h\mathbf{Q}$) — the capacity of a bounded frame to hold competing variables in live, uncollapsed interference before an actuator forces state-mutation. | The DC Closure | CONFIRMED (Cybernetic DoF as Buffer Dimension) |
+| `L2-Terminology.md` & `L2-K4-InteriorStructure.md` | Cybernetic Degrees of Freedom (DoF) is the dimension of the decoupled buffer ($h\mathbf{Q}$) — the capacity of a bounded frame to hold competing variables in live, uncollapsed interference before an actuator forces state-mutation. | The DC Closure | CONFIRMED (Cybernetic DoF as Buffer Dimension) |
 
 $$\mathbf{\text{DoF}} \equiv \mathbf{\text{The dimension of the decoupled buffer } (h\mathbf{Q})}$$
 

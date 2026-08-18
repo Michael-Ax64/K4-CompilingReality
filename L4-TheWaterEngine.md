@@ -107,7 +107,7 @@ The lone pairs (I-pole) carry higher electron-density volume than the O–H bond
 
 ## §4. Scale 2 — Inter-Molecular Network and $RLC$ Impedance
 
-When water molecules aggregate, the I-pole lone pairs of one molecule form **hydrogen bonds** ($\text{O–H} \cdots :\text{O}$) with the U-pole H-nuclei of neighboring molecules. Each molecule participates in up to 4 hydrogen bonds. The single $K_4$ unit extends into a 3D network of $K_4$ quasi-clones (`L2-StructuralMonograph_K4Interior`).
+When water molecules aggregate, the I-pole lone pairs of one molecule form **hydrogen bonds** ($\text{O–H} \cdots :\text{O}$) with the U-pole H-nuclei of neighboring molecules. Each molecule participates in up to 4 hydrogen bonds. The single $K_4$ unit extends into a 3D network of $K_4$ quasi-clones (`L2-K4-InteriorStructure`).
 
 In the AC extension ($S = P + jQ$, `L3-K4-to-K5-via-AC-Extension`), the H-bond network acts as a **distributed capacitive storage array** ($C_{\text{ac}}$) in $H_{\text{incoh}}$: energy is held reversibly as phase potential without executing a scalar phase-burn.
 

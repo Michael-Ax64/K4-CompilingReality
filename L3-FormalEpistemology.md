@@ -61,7 +61,7 @@ K4 epistemology recognizes this as a thermodynamic impossibility. To measure a s
 Truth and legibility are functions of your topological position:
 1.  **From the Face (K3):** You see the boundary dynamics (the Markov Blanket). Your description is mathematically precise for the surface, but constitutively blind to the interior volume (`ProofF_Friston`). 
 2.  **From the Vertex (K4):** You are located at a specific pole, looking out. Your view is highly colored by the character of that pole. The other three poles appear as derivatives or distortions of your home pole.
-3.  **From the Centroid (5D):** You hold the full interference structure. All four faces and six edges are simultaneously visible (`L2-StructuralMonograph_K4Interior`, `Meta-Singularity-and-Image`). This is the position of `.behold()`. It is the most complete view available from inside the manifold, but it is metabolically expensive and cannot be maintained indefinitely without forcing a collapse.
+3.  **From the Centroid (5D):** You hold the full interference structure. All four faces and six edges are simultaneously visible (`L2-K4-InteriorStructure`, `Meta-Singularity-and-Image`). This is the position of `.behold()`. It is the most complete view available from inside the manifold, but it is metabolically expensive and cannot be maintained indefinitely without forcing a collapse.
 
 There is no view from outside the manifold. Every epistemic claim carries the signature of the position from which it was beheld. 
 

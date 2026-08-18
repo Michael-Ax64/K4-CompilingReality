@@ -30,7 +30,7 @@ In the framework, an edge of K4 is not a one-dimensional line with a strength di
 - **→ (one direction)** — an `.observe()` commitment: the relationship resolved to one of its two directional readings, written to the record.
 - **← (the other direction)** — the enantiomeric `.observe()`: the relationship resolved to the *mirror* reading, opposite handedness.
 
-The framework insists these four are in *general position* — no three collapse into a plane, and the absent state in particular is orthogonal to the three presence states. Four points in general position define a tetrahedron. So the state-space of a single edge is itself a K4: this is what the framework calls a *quasi-clone* (`L2-StructuralMonograph_K4Interior`, `L2-Terminology`).
+The framework insists these four are in *general position* — no three collapse into a plane, and the absent state in particular is orthogonal to the three presence states. Four points in general position define a tetrahedron. So the state-space of a single edge is itself a K4: this is what the framework calls a *quasi-clone* (`L2-K4-InteriorStructure`, `L2-Terminology`).
 
 ### The line has four states
 

@@ -32,7 +32,7 @@ An edge of K4 is not a line with a strength dial. It is a relationship, and ever
 - **← (the other direction)** — the relationship is committed the opposite way; the enantiomeric face-reading.
 - **↔ (bidirectional)** — the relationship is held live in both directions at once, neither privileged, in interference. This is `.behold()` on the edge: the uncollapsed state, which requires the three-dimensional volume to maintain because it holds both face-readings simultaneously.
 
-These four are in general position — no three collapse into a plane. Four points in general position define a tetrahedron, so the state-space of a single edge is itself a K4. The framework calls this a quasi-clone (`L2-StructuralMonograph_K4Interior`). The structure is self-similar: every edge contains a tetrahedron of its own states.
+These four are in general position — no three collapse into a plane. Four points in general position define a tetrahedron, so the state-space of a single edge is itself a K4. The framework calls this a quasi-clone (`L2-K4-InteriorStructure`). The structure is self-similar: every edge contains a tetrahedron of its own states.
 
 ### The line has four states
 

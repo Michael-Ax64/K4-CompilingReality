@@ -50,7 +50,7 @@ The core documents sort by structural depth, not by reading order. The formal sp
 
 - **L1 (Primary Statements):** The full framework (`L1-CompilingReality.md`) and the convergent-discovery evidence (`L1-ConvergentDiscovery.md`).
 
-- **L2 (Reference):** The formal definitions (`L2-Terminology.md`), semantic lexicon (`L2-SemanticReference.md`), mapping method (`L2-MappingMethod.md`), structural monograph of the K4 interior (`L2-StructuralMonograph_K4Interior.md`), and bit-field overlays (`L2-BitCombos.md`).
+- **L2 (Reference):** The formal definitions (`L2-Terminology.md`), semantic lexicon (`L2-SemanticReference.md`), mapping method (`L2-MappingMethod.md`), structural monograph of the K4 interior (`L2-K4-InteriorStructure.md`), and bit-field overlays (`L2-BitCombos.md`).
 
 - **L3 (Foundations & Mathematical Spine):** The mathematical core. The 12-equation Braid (`L3-FormalFoundations.md`), the Edge State-Space (`L3-EdgeStateSpace.md`), the AC Extension (`L3-K4-to-K5-via-AC-Extension.md`), Formal Epistemology (`L3-FormalEpistemology.md`), the fine-structure constant derivation (`L3-TheConstitutiveAlpha.md`), the elementary spatial cell (`L3-TheAtomOfSpace.md`), non-sofic group volumes (`L3-NonSoficTopologicalVolumes.md`), the self-projecting Braid (`L3-TheSelfProjectingBraid.md`), and the cybernetic DoF ladder (`L3-CyberneticDoFSpectrum.md`).
 
