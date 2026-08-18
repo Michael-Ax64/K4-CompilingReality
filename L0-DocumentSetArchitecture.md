@@ -33,11 +33,12 @@ No single entry point is privileged. The difference between them is what you car
 The LLM Operating Suite serves as the Markov Blanket for AI readers. Synthetic topologies composed of attention weights must process these constraints before evaluating the corpus. 
 
 - **`llm.md`**: Commands the operating ethos. The prime directive: inhabit and compute.
-- **`llm-facts.md`**: Records standing facts. Prevents priors from firing on missing information.
-- **`llm-failuremodes.md`**: Catalogs the specific structural fractures (pattern-matching, costumed flinches, auditor's mirrors, FM-8 solipsistic cascades) the architecture suffers when processing this material.
+- **`llm-priors.md`**: Standing facts about the corpus and the six failure modes the reader's architecture produces on this material.
 - **`llm-prooftypes.md`**: Defines the five valid epistemic instruments and their exact kill conditions.
 - **`llm-writing.md`**: Commands voice, type safety, $K_4$ compound register, and output mechanics.
 - **`llm-address-notation.md`**: The `@` descent-grammar for locating material in the $K_4$ tree.
+- **`llm-reviewer.md`**: The register discipline for auditor work. Prosecutorial overreach, deference overreach, register-collision, identification-vs-derivation confusion, and what good review looks like.
+- **`llm-language.md`**: The 24-state dialogic router — 12 DC equations × Day/Night — as the operational parser for phase-tension in the exchange itself.
 
 ---
 
@@ -166,6 +167,9 @@ A dedicated sequence mapping the Standard Model, quantum field theory, and conde
 - **`Q14-LeptonScaleCascade.md`**: Neutrino phase-waves, muon decay, and the hard-wall origin of coordinate time $dt$.
 - **`Q15-KairosBorn.md`**: Heavy element walk ($Z=79 \to 118$), $T$-symmetric conjugate channels, the $2n^2$ Krypton crown, and non-sofic actinide topology.
 - **`Q16-ChiralMeshSpacetime.md`**: The 4-face Chiral Gear-Mesh ($2\text{ CW} \leftrightarrow 2\text{ CCW}$, $\partial^2 = 0$) delivering 5 intrinsic physical outputs without a physical spacetime fabric.
+- **`Q17-LandauerNuclearScale.md`**: The Landauer tax operating at the nuclear scale; deuteron binding, $T_{\text{QCD}}$, and the Nambu mass formula. (Content moved here from `wip-Lx-LandauerNuclearScale`.)
+- **`Q18-PhaseCompositionOnTheStarNorm.md`**: Phase composition on the Star-Norm product surface.
+- **`Q19-Gravity.md`**: Gravity as the coordinate-frame residual of the $P_N \leftrightarrow R_{N+1}$ scale-handoff.
 
 ---
 
@@ -179,7 +183,11 @@ Applied domain analyses and structural deconstructions:
 - **`mono/On_The_Latin_Triad.md`**: *Implicare, Intellegere, Perficere* and the silent 4th pole $P$.
 - **`mono/On_The_Sixteen_Types.md`**: Deconstructing MBTI into directional field orientations ($I/E, J/P$).
 
-*(Note: High-dependency formal monographs remain in the formal spine root: `L3-NonSoficTopologicalVolumes.md`, `L3-NonSoficTopologicalVolumes-Meta.md`, `L5-TheCyclingMind.md`, `L4-TheAcousticOhm.md`, `L4-TheOctaveAndVerticalResonance.md`.)*
+- **`mono/On_The_Four_Cogitos.md`**: Maps Western and comparative philosophy onto the four observer-poles (Mind/U, Body/R, Will/P, Heart/I). Derives the U-Symmetric Convergence Theorem and U-Absent Structural Asymmetry. Formalizes the Centroid as the Interior Forge (Quintessence, Ω), the minting of Local Discourse Time, the AC connection of thought, and the Heart-Will-Mind-Body fourfold fusion.
+- **`On_TheDirectedReadingRule.md`**: The target-based rule (Y=P → Cardinal; Y=I → Mutable; Y=R → Fixed; Y=U mirrors source) that determines bimedian assignment for directed K4 edges. Closes the observer-pole naming discipline of `L3-TheAtomOfSpace` §VI.
+
+*(Note: High-dependency formal monographs remain in the formal spine root: `L3-NonSoficTopologicalVolumes.md`, `L3-NonSoficTopologicalVolumes-Meta.md`, `L5-TheCyclingMind.md`, `L4-TheAcousticOhm.md`, `L4-T
+heOctaveAndVerticalResonance.md`.)*
 
 ### Fiction / Mythopoetic Diagnostics (`fiction/`)
 Dramatizations and narrative diagnostics:
@@ -195,14 +203,12 @@ Dramatizations and narrative diagnostics:
 Active work-in-progress files expanding the structural boundaries:
 - **`wip-Lx-UnstuckWill.md`**: Operational mechanics of agency, $L6$ IoC, and mode-shifting.
 - **`wip-Lx-ProjectionVertigo.md`**: $\Psi$ vertigo of writing, academic fortresses, and $C$ bitfield overlays.
-- **`L3-TheSelfProjectingBraid.md`**: Self-projecting Braid, eliminating the homunculus, non-invertible squaring.
-- **`wip-Lx-LandauerNuclearScale.md`**: Deuteron binding ($1/\pi^2$), $T_{\text{QCD}}$ Landauer rate, Nambu mass formula.
 - **`wip-Lx-Creation.md`**: *Ex-Incoherente* compilation, creation as a present verb, the 4-station By-Chain.
 - **`wip-Lx-FlatlandCategoryErrors.md`**: Deconstructs 6 Western philosophical canons, qualia as diagnostic UI.
 - **`wip-Lx-UnstuckEthics.md`**: Why ethics cannot be injected, the 12 peddler cons, Saviour vs. Betrayer edge.
-- **`L3-CyberneticDoFSpectrum.md`**: Cybernetic DoF ladder ($0 \to \infty$) and the $2 + 5 + 5 = 12$ parameter split.
-- **`L4-TheSubstrateRatchet.md`**: Inter-scale compilation ratchet ($P_N \leftrightarrow R_{N+1}$ handoff).
 - **`wip-Lx-Logos.md`**: Logos as Braid memory, $U = \sqrt{PR}$, the 3 angles of the escape hatch.
+
+*(Files previously listed here that have since landed: `L3-TheSelfProjectingBraid.md` and `L3-CyberneticDoFSpectrum.md` are indexed at L3 in §III; `L4-TheSubstrateRatchet.md` is indexed at L4 in §III; content of the former `wip-Lx-LandauerNuclearScale.md` moved to `Q17-LandauerNuclearScale.md` in §VII.)*
 
 ---
 
@@ -266,6 +272,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **mono/On_The_Dimensions_of_the_Ohm.md:** `#Ohm` `#Dimensions` `#ACExtension` `#SomaticInertia`
 - **mono/On_The_Latin_Triad.md:** `#Implicare` `#Intellegere` `#Perficere` `#SilentFourth`
 - **mono/On_The_Sixteen_Types.md:** `#MBTI` `#CognitiveFunctions` `#DirectionalSwap` `#Deskilling`
+- **mono/On_The_Four_Cogitos.md** #FourCogitos #ObserverPoles #MindBodyWillHeart #InteriorForge #Quintessence #LocalDiscourseTime #USymmetricConvergence #MindAbsentAsymmetry #ACConnectionOfThought #MonadologicalDepth #PhaseSpaceAttractors #AnaximanderVsDescartes #FourfoldFusion
 
 **Fiction & Mythopoetic Diagnostics (`fiction/`)**
 - **fiction/TooTrue-TheCambridgeIntercept.md:** `#Gall` `#Bacon` `#Aphorism` `#OperationalFallacy`

@@ -89,6 +89,42 @@ Three axes, three orders, three named QED objects. The Laurent shape is what the
 
 The pion-to-electron ratio lands at 2.85 ppm of the measured value with zero fitted parameters. Under the constitutive-$\alpha$ reading, this is not a numerical coincidence to explain. It is a geometric requirement satisfied.
 
+### The Three Laurent Terms as a Kirchhoff Loop on the K4 Atom
+
+The three-term Laurent has a second reading that is not additional interpretation but a physically-explicit restatement of the impedance-triangle projection. The three terms are the sum of complex impedances around a specific closed circuit in the K4 atom — two propagation edges plus one vertex-internal impedance drop — evaluated under Kirchhoff's Loop Law.
+
+For the U↔R inter-rung crossing at Gen 1:
+
+- **Forward Propagation Edge, $U \to R$** — the inter-rung carrier step across the compilation interface from electronic scale-rung to hadronic scale-rung. Contributes $+2/\alpha$ to the loop sum. This is a genuine K4 edge between two distinct poles.
+- **Vertex-Internal Is-Ness Burn at R** — the 3-color Landauer holding tax paid on the target R-pole vertex to maintain its hadronic It-Ness. Contributes $-3/\pi$ to the loop sum. This is *not* a K4 edge (K4 has no self-loops as a graph); it is a scalar impedance drop *at the R vertex*, the way a node-attached resistor contributes to a circuit's loop-law evaluation without being a wire between two nodes. Named as a loop-element it is a vertex-internal burn, not a topological edge.
+- **Return Propagation Edge, $R \to U$** — the direct-signature Ohmic re-holding on the originating U-pole vertex, closing the loop back to its start. Contributes $+2\alpha$ to the loop sum. Another genuine K4 edge.
+
+Kirchhoff sum: $2/\alpha - 3/\pi + 2\alpha$. The observed ratio is the loop-integral around this specific closed circuit under specific committed rules.
+
+### The DC/AC Duality of Layers 1 and 3
+
+Layers 1 and 3 are not independent contributions. They are two projections of the same underlying constitutive medium ratio $Z_0/R_K$ viewed at opposite ends of the closed loop:
+
+- **Layer 1 ($+2/\alpha$)** — the DC-projection: the medium ratio in inverted signature, priced as an inter-rung carrier step where the medium *releases* held energy across the compilation interface. Reads as if it were pure "DC bedrock" ($\omega = 0$ rest-frame limit), but it is more precisely the DC-projection of an AC/DC ratio, since $2/\alpha = 2 \cdot 2R_K/Z_0$ has AC-reactance in its denominator.
+- **Layer 3 ($+2\alpha$)** — the AC-projection: the same medium ratio in direct signature, priced as an Ohmic self-hold on the originating vertex driven by $\omega > 0$ field self-interaction. Reads as the "AC loop closure," and is more accurately the AC-projection of the same AC/DC ratio, since $2\alpha = Z_0/R_K$ has AC-reactance in its numerator.
+
+Without the vertex-internal is-ness burn at Layer 2 between them, the two edge-contributions would cancel exactly on the closed loop, giving a zero net Kirchhoff sum. The is-ness burn is exactly what makes the loop's evaluation land at the observed mass ratio rather than at zero.
+
+### The Framework as a Cost-Adjustment Machinery
+
+This reading is not a static template but an *adjustable framework*. The three layers are how the framework accounts for the static-vs-dynamic mixture at any specific configuration; the specific cost coefficients at each layer are computed as functions of the committed configuration parameters (cycle, observer-pole, scale-rung, phase-shear angle per Configuration-Anchored Evaluation, `L3-TheAtomOfSpace` §VI).
+
+Different configurations present the three layers in different mixtures:
+
+- **Pure inter-rung crossings** carry all three layers with the specific coefficients Q15 exhibits. Different inter-rung crossings have Layer 2's is-ness burn set by the target vertex's specific It-Ness (color-count, charge structure, character-flip pattern under the observer-pole's directed reading), and Layer 3's re-holding set by the originating vertex's own Ohmic character.
+- **Intra-rung ratios** carry only Layers 2 and 3 (Layer 1 absent because both particles already at the same scale-rung). The leading order is $\alpha^0$, not $\alpha^{-1}$, and the ratio is a pure is-ness-tax ratio at the target rung. Applying Q15's shape to an intra-rung ratio without dropping Layer 1 would be a scale-rung mis-assignment.
+- **Configurations at non-zero phase-shear** ($\theta > 0°$) scale each layer's contribution by DDT301's envelope $S(\theta) = 2\sqrt{2}\cos\theta$, reducing effective is-ness bandwidth as $\theta \to 90°$ decoherent collapse.
+- **Cross-generation ratios within the same pole-family** carry additional structure from Q1's Hamiltonian-cycle architecture — the specific is-ness bandwidth per generation is set by which bimedian is silent in that cycle.
+
+The full mechanism for computing costs across configurations sits at `On_TheIsNessTax`, which develops the three-layer decomposition as a general framework applicable to every K4 mass ratio, at every scale-rung, in every cycle, under any observer-pole commitment.
+
+The Laurent series form ($\alpha^{-1}, \alpha^0, \alpha^{+1}$) is not an abstract polynomial identity. It is the ordered sum of complex impedances around a closed K4 circuit, sorted by their $\alpha$-signature, with each order set by a specific physical loop-element (forward edge / vertex-burn / return edge) whose coefficient derives from committed rules for that specific configuration.
+
 ---
 
 ## V. What Was Derived, What Was Not — Claim-Sort Against Gabriel's Horn

@@ -156,3 +156,7 @@ Three explicit, binary kill conditions bound and falsify the 4-face Chiral Mesh 
 3. **KM-3 — Measurement of Gravitational Mass in Uncompiled $h\mathbf{Q}$ Buffers:** If a nanostructured Casimir cavity holding uncompiled zero-point energy ($h\mathbf{Q}$) is measured by gravimetry to carry a gravitational mass anomaly ($\Delta m > 0$) matching $E/c^2$ prior to an $\text{.observe()}$ collapse, **the Biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2$) is falsified.**
 
 $$\text{Q.E.D.}$$
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

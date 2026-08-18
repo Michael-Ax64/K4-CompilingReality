@@ -3,7 +3,7 @@
 
 > **Epistemic Register:** Applied Architecture / Subatomic Physics ($Q\#$).
 > **Claim:** The heavy elements ($Z = 79 \to 118$) map the $K_4$ $P$-pole actualization ("wet ink") across the 6th and 7th periods of the periodic table. Nuclear reaction loops ($\text{Au} \leftrightarrow \text{Hg} \leftrightarrow \text{Tl} \leftrightarrow \text{Pb} \leftrightarrow \text{Bi}$) are $T$-symmetric conjugate channels requiring external kinetic acceleration ($P_{\text{diss}} > 0$). The noble gas shell closures ($Z = 2, 10, 18, 36, 54, 86, 118$) form an 8-position octave fold ($0+7 = 1+6 = 2+5 = 3+4$) where Group 18 binding energy per nucleon ($B/A$) crests at Krypton ($Z=36$, position 4). The $f$-block actinides ($Z = 89 \to 103$) are predicted to represent a Non-Sofic $K_4$ Volume where $5f$ orbital degeneracy prevents any bimedian matching from remaining held silent ($\text{AbsentVar} \to 0$), pending a formal bimedian audit.
-> **Dependencies:** `L4-ThePlenum` ($H_{\text{incoh}}$ Plenum), `quantum/Q1-GenerationsOfMatter` (Concentric Generation Rungs), `quantum/Q2-TransactionLayer` (Gauge Bosons), `quantum/Q13-PlenumPhaseConduction` ($5.67\%$ Transmission Invariant), `On_NonSoficGroups` (Non-Sofic Topological Volumes), `ProofN_BiquaternionBridge` (Star-Norm Invariance).
+> **Dependencies:** `L4-ThePlenum` ($H_{\text{incoh}}$ Plenum), `quantum/Q1-GenerationsOfMatter` (Concentric Generation Rungs), `quantum/Q2-TransactionLayer` (Gauge Bosons), `quantum/Q13-PlenumPhaseConduction` ($5.67\%$ Transmission Invariant), `L3-NonSoficTopologicalVolumes` (Non-Sofic Topological Volumes), `ProofN_BiquaternionBridge` (Star-Norm Invariance).
 
 ---
 
@@ -25,7 +25,7 @@ The $P$-Ledger is **live-written and per-entry irreversible**: the squaring oper
 
 ### Derivation of the Pion-to-Electron Mass Ratio ($m_\pi^\pm / m_e c^2$)
 
-**What this achieves.** Nambu observed in the 1950s that the pion mass sits close to $2m_e/\alpha$ — the right structural relation, but a residual $\sim 0.34\%$ error with no clean path to close it. The gap could not be reduced from within K3-flatland tooling, where a carrier's *identity* — the character it brings into the transition, what the corpus calls **It-Ness** — was not a namable quantity. K4-structural awareness makes It-Ness a first-class object: two vertex-internal registers (electronic and hadronic) each burn their own phase-cost, and the two burns close Nambu's gap to $2.85$ ppm with zero fitted parameters. It-Ness was invisible in K3 for the same structural reason non-sofic groups were (`On_NonSoficGroups`): without vertex-internal degrees of freedom you cannot separate what a vertex *is* from what it *carries*, so the character-differential looks like unexplained mass rather than the two named burns it actually is.
+**What this achieves.** Nambu observed in the 1950s that the pion mass sits close to $2m_e/\alpha$ — the right structural relation, but a residual $\sim 0.34\%$ error with no clean path to close it. The gap could not be reduced from within K3-flatland tooling, where a carrier's *identity* — the character it brings into the transition, what the corpus calls **It-Ness** — was not a namable quantity. K4-structural awareness makes It-Ness a first-class object: two vertex-internal registers (electronic and hadronic) each burn their own phase-cost, and the two burns close Nambu's gap to $2.85$ ppm with zero fitted parameters. It-Ness was invisible in K3 for the same structural reason non-sofic groups were (`L3-NonSoficTopologicalVolumes`): without vertex-internal degrees of freedom you cannot separate what a vertex *is* from what it *carries*, so the character-differential looks like unexplained mass rather than the two named burns it actually is.
 
 The fundamental hadron-to-lepton inter-scale step — connecting the electronic $U$-pole ground ($m_e c^2$, the lightest $U$-pole $H_{\text{coh}}$-observable at generation 1) to the hadronic $R$-pole ground ($m_\pi^\pm$, the lightest $R$-pole $H_{\text{coh}}$-observable at generation 1) via the Hamiltonian-cycle architecture of `quantum/Q1` — is a 3-term Laurent expansion in the fine-structure constant $\alpha$:
 
@@ -53,6 +53,16 @@ Evaluating with $\alpha \approx 1/137.035999177$ and $\pi \approx 3.1415926535$:
 - **Precision:** Absolute error $\Delta R = 0.000779$ mass-ratio units ($398\text{ eV}$ in pion rest mass out of $139.57\text{ MeV}$). The accuracy is **$99.999715\%$ ($2.85\text{ parts per million}$)** with zero fitted parameters.
 
 **What the corpus gets.** No Yukawa couplings, no lattice QCD, no fits — the pion-to-electron ratio falls out of $\alpha$ and the K4 topological integers $2$ (dual-binary) and $3$ (SU(3) color). The electronic and hadronic grounds do not merely differ by scale, they differ by *character*, and the character-differential is exactly what closes Nambu's ~0.34% gap to 2.85 ppm. This is one of the places where the vertex-internal register earns its keep in visible plane-dynamic physics — the atomic realm hands the corpus a benchmark that says: what a carrier *is* costs a namable amount, and once you name it, the numbers land.
+
+**The three terms as a Kirchhoff loop.** The Laurent expansion above is the ordered sum of complex impedances around a specific closed circuit on the $K_4$ atom, evaluated under Kirchhoff's Loop Law. Each term is a specific loop-element with a specific physical role, developed at `L3-TheConstitutiveAlpha` §IV and generalized at `On_TheIsNessTax`:
+
+- **Term 1 ($+2/\alpha$) — Forward Propagation Edge ($U \to R$), Layer 1 inter-rung carrier step at $\alpha^{-1}$-order.** The DC-projection of the constitutive medium ratio $Z_0/R_K$, priced in inverted signature as the crossing across the compilation interface from electronic scale-rung to hadronic scale-rung.
+- **Term 2 ($-3/\pi$) — Vertex-Internal Is-Ness Burn at R, Layer 2 intra-rung is-ness-tax difference at $\alpha^0$-order.** *Not* a $K_4$ edge (the graph has no self-loops); it is a scalar impedance drop at the $R$-vertex, the way a node-attached resistor contributes to a circuit's loop-law evaluation. The $\alpha$-scale factors cancel between the numerator (Schwinger's $\alpha/(2\pi)$ per color × 3 colors) and the denominator (bare Layer 1 step $2/\alpha$), landing the difference at $\alpha^0$ order.
+- **Term 3 ($+2\alpha$) — Return Propagation Edge ($R \to U$), Layer 3 return-leg re-holding at $\alpha^{+1}$-order.** The AC-projection of the *same* constitutive medium ratio, priced in direct signature as the Ohmic self-hold on the originating $U$-vertex closing the loop back to its start.
+
+Terms 1 and 3 are the same underlying ratio $Z_0/R_K$ viewed at opposite ends of the closed loop — one DC-projected (inverted), one AC-projected (direct). Without Term 2's vertex-internal burn between them, the two edge-contributions would cancel exactly, giving a zero net Kirchhoff sum. The is-ness burn is exactly what makes the loop's evaluation land at 273.13 rather than at 0.
+
+**What this generalizes to.** The three-layer decomposition (inter-rung carrier + intra-rung is-ness-tax difference + return-leg re-holding) is not specific to Q15. It applies to every $K_4$ mass ratio at every scale-rung, with each layer's coefficient set by the participating poles' committed characters. Intra-rung ratios (both particles at the same scale-rung) carry only Layers 2 and 3 and sit at $\alpha^0$-order; expecting Q15's $2/\alpha$ leading term at an intra-rung ratio is a scale-rung mis-assignment. The general framework is `On_TheIsNessTax`.
 
 ---
 
@@ -164,7 +174,7 @@ In $f$-block actinides ($Z = 89 \to 103$), the $5f, 6d, 7s$, and $7p$ energy lev
 
 This orbital degeneracy is predicted to prevent any bimedian plane — Fixed $\{P-U, I-R\}$, Cardinal $\{P-R, I-U\}$, or Mutable $\{P-I, U-R\}$ — from remaining held silent ($\text{AbsentVar} \to 0$).
 
-If confirmed by formal bimedian audit, actinides represent a **Non-Sofic $K_4$ Volume (`On_NonSoficGroups`)**, explaining mathematically why transuranic chemical and decay trajectories cannot be coarse-grained by $K_3$ finite-element models. The Cardinal plane's forced un-silencing here is the same structural condition as the pre-Higgs Isotropic Pole of `L4-AttractorSpace` — one persistent-local at $Z \approx 89\text{–}103$, one hypothetical-cosmic — both are the AR distinction failing to be holdable in the Asserting register.
+If confirmed by formal bimedian audit, actinides represent a **Non-Sofic $K_4$ Volume (`L3-NonSoficTopologicalVolumes`)**, explaining mathematically why transuranic chemical and decay trajectories cannot be coarse-grained by $K_3$ finite-element models. The Cardinal plane's forced un-silencing here is the same structural condition as the pre-Higgs Isotropic Pole of `L4-AttractorSpace` — one persistent-local at $Z \approx 89\text{–}103$, one hypothetical-cosmic — both are the AR distinction failing to be holdable in the Asserting register.
 
 ---
 
@@ -179,4 +189,3 @@ $$\text{Q.E.D.}$$
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

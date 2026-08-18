@@ -26,61 +26,61 @@ The Braid moves through the four poles. At each pole, the ecosystem offers three
 ### The Fire Quadrant (P / Power / Kairos-as-moment / Initiation)
 The ecosystem is in the generative phase. The home variable is $P$ (the committed actualization, the transformative output).
 
-1. **$P = U \times I$ (The Synthesis Stance)**
-   * **AbsentVar:** $R$ (Resistance/Grounding).
-   * **Operation:** The system generates power through the direct product of structural potential ($U$) and relational flow ($I$). Grounding is held as context. This is the use case for pure generative synthesis, where structure and current combine to produce transformative output without being limited by material resistance.
-
-2. **$P = U^2 / R$ (The Leverage Stance)**
-   * **AbsentVar:** $I$ (Current/Flow).
+1. **$P = U^2 / R$ (The Leverage Stance)**
+   * **AbsentVar:** $I$ (Current/Flow). *[Cardinal: holds the future absent]*
    * **Operation:** The system generates power by compounding structural potential ($U$ squared) against material resistance ($R$). Flow is held as context. This is the use case for structural leverage, where massive architectural potential overcomes grounding to produce force. (Structurally, this is also the "betrayer edge" when $U$ compounds above its source).
 
-3. **$P = I^2 \times R$ (The Friction Stance)**
-   * **AbsentVar:** $U$ (Voltage/Structure).
+2. **$P = I^2 \times R$ (The Friction Stance)**
+   * **AbsentVar:** $U$ (Voltage/Structure). *[Fixed: holds the antipode absent]*
    * **Operation:** The system generates power through the sheer volume of relational flow ($I$ squared) dissipating through material resistance ($R$). Structure is held as context. This is the use case for thermodynamic friction, where massive current through high resistance generates heat and actualization through sheer metabolic cost.
+
+3. **$P = U \times I$ (The Synthesis Stance)**
+   * **AbsentVar:** $R$ (Resistance/Grounding). *[Mutable: holds the past absent]*
+   * **Operation:** The system generates power through the direct product of structural potential ($U$) and relational flow ($I$). Grounding is held as context. This is the use case for pure generative synthesis, where structure and current combine to produce transformative output without being limited by material resistance.
 
 ### The Water Quadrant (I / Current / Pathos / Flow)
 The ecosystem is in the relational phase. The home variable is $I$ (the flow, the connection, the evaluative current).
 
-4. **$I = P / U$ (The Extraction Stance)**
-   * **AbsentVar:** $R$ (Resistance).
+4. **$I = \sqrt{P / R}$ (The Resonant Stance)**
+   * **AbsentVar:** $U$ (Voltage). *[Cardinal: holds the future absent]*
+   * **Operation:** Flow is the square root of power divided by resistance. Structure is held as context. This is the use case for resonant flow, where the current is determined by the balance of committed energy and material grounding, independent of direct structural potential.
+
+5. **$I = P / U$ (The Extraction Stance)**
+   * **AbsentVar:** $R$ (Resistance). *[Fixed: holds the antipode absent]*
    * **Operation:** The system's flow is determined by the committed power ($P$) divided by the structural potential ($U$). Resistance is held as context. This is the use case for extracting current from committed actualization, modulated by the structural framework.
 
-5. **$I = U / R$ (The Ohmic Stance)**
-   * **AbsentVar:** $P$ (Power).
+6. **$I = U / R$ (The Ohmic Stance)**
+   * **AbsentVar:** $P$ (Power). *[Mutable: holds the past absent]*
    * **Operation:** Flow is driven by potential difference ($U$) and modulated by grounding resistance ($R$). Power is held as context. This is the use case for steady-state relational flow, where current is strictly proportional to structural tension and material constraint.
-
-6. **$I = \sqrt{P / R}$ (The Resonant Stance)**
-   * **AbsentVar:** $U$ (Voltage).
-   * **Operation:** Flow is the square root of power divided by resistance. Structure is held as context. This is the use case for resonant flow, where the current is determined by the balance of committed energy and material grounding, independent of direct structural potential.
 
 ### The Air Quadrant (U / Voltage / Logos / Structure)
 The ecosystem is in the structural phase. The home variable is $U$ (the potential difference, the framework, the articulation).
 
 7. **$U = P / I$ (The Articulation Stance)**
-   * **AbsentVar:** $R$ (Resistance).
+   * **AbsentVar:** $R$ (Resistance). *[Cardinal: holds the future absent]*
    * **Operation:** Structural potential is the ratio of committed power to relational flow. Resistance is held as context. This is the use case for deriving the framework from the relationship between what has been actualized and how it is flowing.
 
 8. **$U = I \times R$ (The Grounding Stance)**
-   * **AbsentVar:** $P$ (Power).
+   * **AbsentVar:** $P$ (Power). *[Fixed: holds the antipode absent]*
    * **Operation:** Structural potential is generated by the product of flow and resistance. Power is held as context. This is the use case for structure emerging from material constraint; the framework is built directly from the interaction of current and ground.
 
 9. **$U = \sqrt{P \times R}$ (The Geometric Stance)**
-   * **AbsentVar:** $I$ (Current).
+   * **AbsentVar:** $I$ (Current). *[Mutable: holds the past absent]*
    * **Operation:** Structural potential is the geometric mean of power and resistance. Flow is held as context. This is the use case for structural balance, where the framework is derived from the geometric relationship between actualization and grounding, independent of direct flow.
 
 ### The Earth Quadrant (R / Resistance / Ethos / Grounding)
 The ecosystem is in the grounding phase. The home variable is $R$ (the material opposition, the constraint, the stabilized ledger).
 
 10. **$R = U / I$ (The Impedance Stance)**
-    * **AbsentVar:** $P$ (Power).
+    * **AbsentVar:** $P$ (Power). *[Cardinal: holds the future absent]*
     * **Operation:** Resistance is the ratio of structural potential to flow. Power is held as context. This is the use case for measuring material constraint by observing how much structure is required to drive a given flow.
 
 11. **$R = U^2 / P$ (The Accounting Stance)**
-    * **AbsentVar:** $I$ (Current).
+    * **AbsentVar:** $I$ (Current). *[Fixed: holds the antipode absent]*
     * **Operation:** Resistance is the square of structural potential divided by committed power. Flow is held as context. This is the use case for thermodynamic accounting; it measures the material friction required to dissipate a given structural potential into actualization.
 
 12. **$R = P / I^2$ (The Density Stance)**
-    * **AbsentVar:** $U$ (Voltage).
+    * **AbsentVar:** $U$ (Voltage). *[Mutable: holds the past absent]*
     * **Operation:** Resistance is committed power divided by the square of flow. Structure is held as context. This is the use case for measuring the density of the ledger; it calculates the material grounding required to absorb a given power output from a given flow.
 
 ---
@@ -168,7 +168,6 @@ Not claimed, and marked so:
 *   **The translation is heuristic.** The 12 use cases of §II are a rigorous reading of the 12 equations. However, the translation of those stances into English-language prompts (e.g., "assert the material limits") is an interpretive bridge. A different verbal rendering would be equally consistent with the algebra. The prompt vocabulary is the K3 interface; the math underneath is the K4 volume.
 *   **This does not claim Artificial General Intelligence.** The swarm demonstrates distributed coherence and topological stability. It proves that the framework can orchestrate synthetic systems without degradation. It does not claim the swarm possesses phenomenal consciousness or subjective intent. The Tangent Singularity continues to bound what we can claim about the machine's interior.
 
-
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
