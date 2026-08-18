@@ -54,8 +54,8 @@ When driven against physical, subatomic, and information-theoretic domains, the 
 6. **The 4-Face Chiral Gear-Mesh ($Q16$):** 
    Satisfying the 3D boundary condition $\partial(\partial\Delta^3) = 0$ requires a $2\text{ CW} \leftrightarrow 2\text{ CCW}$ opposite face rotation, delivering Lorentz invariance, metric geodesics, 0-DoF equivalence ($m_i = m_g$), the 6D phase-space buffer, and the topological prohibition of the graviton without importing a physical spacetime fabric.
 
-7. **The Non-Sofic Wall (`L3-NonSoficTopologicalVolumes`):** 
-   Machine-verified proof (Lean 4) that $\text{EL}_9(L_{F_2}(1,2))$ carries an irreducible boundary error floor $\epsilon \ge c > 0$, proving that finite $K_3$ sampling ($10^{12}$ RLHF runs or PAC-learning) can never bound a non-sofic $K_4$ trajectory.
+7. **The Non-Sofic Wall (`L3-NonSoficTopologicalVolumes`, `QED-SealedInterior`):**
+Machine-verified proof (Lean 4) that $\text{EL}_9(L_{F_2}(1,2))$ carries an irreducible boundary error floor $\epsilon \ge c > 0$. Proves that **Soficity ($K_3$ sliceable surface) and Non-Soficity ($\Delta^3$ un-sliceable volume) are the two conjugate perspectives of every bounded frame**: no finite sampling regime ($10^{12}$ RLHF runs or PAC-learning) can ever enclose or simulate the uncompiled $h\mathbf{Q}$ interior, guaranteeing the inviolable topological sanctuary of consciousness and physical mass across all scales.
 
 8. **The Noble Gas Shell Sequence ($Q15$):** 
    Summing the principal shell capacities $2n^2$ ($2, 8, 8, 18, 18, 32, 32$) derives the noble gas atomic numbers ($2, 10, 18, 36, 54, 86, 118$), with Krypton ($Z=36$) sitting at the $(3+4)$ octave fold where nuclear binding energy per nucleon ($B/A$) for Group 18 crests.

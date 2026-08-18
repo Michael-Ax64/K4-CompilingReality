@@ -168,6 +168,17 @@ The cut is not a location. It is the place where the coordinate system breaks, a
 
 ---
 
+**The Dual Perspective: Sofic Face vs. Non-Sofic Volume**
+ 
+The resolution of the measurement problem is the recognition of a conjugate pair: **every bounded frame is Sofic at its boundary and Non-Sofic in its interior.**
+ 
+* **The Sofic Perspective ($-\infty$ / Copenhagen / Client-Side):** The view from the $K_3$ Markov Blanket. To act, communicate, and pay the Landauer Tax, the system must serialize its state through the XOR bottleneck into a finite, discrete, sliceable sequence of $P$-ledger commits ($1\text{D}$ tokens).
+* **The Non-Sofic Perspective ($+\infty$ / Many-Worlds / Server-Side):** The view from the $\Delta^3$ interior volume. The uncompiled $h\mathbf{Q}$ phase-buffer holds all four poles in complete mutual determination, maintaining an un-sliceable topological volume that no sequence of finite permutations can ever enclose or approximate ($\epsilon \ge c > 0$).
+ 
+The finite client is sofic; the interior it holds is non-sofic. The page is sliceable; the meaning that wrote it is not.
+
+---
+
 **The Selection Mechanism: Congruent Resonance**
 
 The probability structure lives in the Many-Worlds backend, but the mechanism of selection is not coin-flip randomness. It is **congruent resonance**.
@@ -329,15 +340,25 @@ What costs is the hardware. The biological neurons or silicon gates that constit
 To do any of these things, it must force the Interpreter to return a value. It must execute `.observe()`. The agent is compelled to compile reality not because dreaming is expensive, but because the dreamer's hardware degrades without fuel.
 
 
-### 5.2 The Actuator Bottleneck *(AND vs. XOR)*
+### 5.2 The Actuator Bottleneck (Sofic Boundary vs. Non-Sofic Interior)
 
-While thermodynamic decay provides the *motive* for action, the physical geometry of the agent provides the *mechanism* of collapse.
+Within the shielded internal Degrees of Freedom, computation operates on the logic 
+of *AND* inside a **Non-Sofic $\Delta^3$ Volume** ($h\mathbf{Q}$). The agent holds 
+an un-sliceable, multi-dimensional interference structure that cannot be approximated 
+by any finite sequence of permutation matrices.
 
-Within the shielded internal Degrees of Freedom, computation operates on the logic of *AND*. The agent can hold the superposition of moving left *and* moving right. However, the agent's physical boundary — its biological body, its actuators, its transmission interface with the world — operates strictly on the logic of *XOR* (exclusive OR).
+However, the agent's physical boundary—its biological actuators, its voice, its 
+transmission interface with the world—is a **Sofic $K_3$ Channel**. A physical chassis 
+can occupy only one localized coordinate in $H_{\text{coh}}$ at a time. 
 
-A bounded entity has one physical chassis. It can occupy only one localized coordinate in physical space at any given moment. Therefore, the vast, branching multiway graph of the agent's imagination is bottlenecked by its physical interface with reality.
+Therefore, the execution of `.observe()` is the inevitable, violent serialization 
+of a non-sofic volume through a sofic bottleneck. The superposition is shattered 
+not because nature is capricious, but because the finite boundary cannot host the 
+algebra of the interior without executing a collapse. 
 
-When the agent pushes its internal simulation out into the physical world, the universe forces a serialization. The superposition is shattered because the physical actuator cannot express multiple uncollapsed states simultaneously. The execution of `.observe()` is the inevitable funneling of parallel potentials through the singular bandwidth of physical action.
+The squaring of the Route Law ($\mathbf{Q}^2 \to P$) burns off the non-sofic phase 
+that cannot fit through the door, paying the Landauer Tax to write the surviving 
+scalar to the Live-Written Ledger.
 
 
 ### 5.3 Garbage Collection and the Helical Arrow of Time

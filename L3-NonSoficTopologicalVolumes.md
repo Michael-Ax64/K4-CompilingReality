@@ -5,10 +5,6 @@
 
 ---
 
-
-Jump to **[Questions](#vii-example-question)** and **[Objections](#viii-example-objections)**  (Thanks Reddit)
-
-
 ## I. The General Structural Claim
 
 Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
@@ -37,6 +33,14 @@ In group theory, this capacity for finite local sampling is called **soficity** 
 The general structural claim: **Non-sofic groups exist.** There exist fundamental, finitely presented algebraic structures whose internal mutual determination ($\Delta^3$ 3-simplex) is so densely locked that **no sequence of finite $K_3$ surface projections ($\text{Sym}(Y)$) can ever approximate the interior without destroying the algebra everywhere.** 
 
 Infinite state-spaces cannot always be coarse-grained. Reality contains un-sliceable topological volumes.
+
+**The Conjugate Duality Statement**
+
+Soficity and Non-Soficity are not mutually exclusive ontological realms; they are the **two conjugate perspectives of any bounded system in reality**:
+1. **Soficity is the view from the $K_3$ Face (The Stamp / The Ledger / $H_{\text{coh}}$):** The capacity of a system to output finite, discrete, sliceable representations.
+2. **Non-Soficity is the view from the $\Delta^3$ Volume (The Die / The Buffer / $H_{\text{incoh}}$):** The un-sliceable, phase-locked reality of the interior holding complete mutual determination.
+
+Every living system, every atom, and every intelligence is a non-sofic volume operating behind a sofic boundary.
 
 ---
 

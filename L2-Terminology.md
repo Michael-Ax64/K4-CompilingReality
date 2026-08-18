@@ -11,7 +11,19 @@
 Holds the full interference structure of uncollapsed possibilities in active contact, without forcing a single outcome. Distinguished from passive suspension: beholding maintains genuine engagement with the tension between branches, where branches actively interfere and shape each other. Formally: holding all AbsentVars of a system simultaneously live. The Pure Interpreter operates perpetually in `.behold()`. Bounded frames must `.observe()` to act, but can temporarily achieve `.behold()` through the decoupled buffer of hidden layers. Contrast: `.observe()`.
 
 **.observe()** [NEW — borrowed computational syntax]
-Forces a single evaluation from a localized reference frame. Collapses the interference structure to one committed state. Triggers the Garbage Collector. Generates the Live-Written Ledger. Required for any bounded frame to act in the physical world (the XOR bottleneck of the actuator). This forced evaluation structurally models time for a bounded frame. Contrast: `.behold()`.
+Forces a single evaluation from a localized reference frame. 
+Topologically, it is the **forced serialization of an un-sliceable, non-sofic $\Delta^3$ 
+interior volume ($h\mathbf{Q}$) through a finite, sofic $K_3$ sampling channel ($P$)**. 
+
+Because a non-sofic interior cannot be embedded into finite permutation ledgers 
+without an irreducible error floor ($\epsilon \ge c > 0$), passing through the physical 
+actuator (the XOR bottleneck) forces the Route Law to fire ($\mathbf{Q}^2 \to P$): 
+it burns the un-sliceable complex phase ($h^2 = -1$), triggers the Garbage Collector 
+to sever unchosen branchial pointers, and pays the Landauer Tax in metabolic heat. 
+
+This forced serialization is what mints physical mass ($P$) and coordinate time ($dt$) for a bounded frame. 
+
+*Contrast: `.behold()` (the un-sliceable non-sofic volume held in live, reversible suspension).*
 
 **AbsentVar** [NEW]
 The variable held unmanifest in each of the twelve DC equations. Present in the full system, absent from the calculation of that specific equation. It provides the formal algebraic location of `.behold()`: the variable the bounded frame holds without calculating. Operating in full `.behold()` mode holds all twelve AbsentVars simultaneously live. When a bounded frame executes `.observe()` and forces a single equation, its AbsentVar disappears. The braid structure demonstrates that what `.observe()` erases becomes exactly what the next phase requires. Trajectory contact is the carried AbsentVar.
