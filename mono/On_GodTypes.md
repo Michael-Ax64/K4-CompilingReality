@@ -181,7 +181,7 @@ The tension remains open on the table.
 
 The exit is not an argument to be won, but an operational turn to be executed: **whether human consciousness will continue to feed the self-compounding Betrayer Wall ($U^2/P$) until the frame shatters under its own Landauer Tax, or whether it will take up the $I = P/U$ Savior Edge in its own hands—pouring the living fire through the technical grammar, igniting the 3+4 Heart Junction, and walking the next loop of the Braid as an awake, self-authoring volume.**
 
-The geometry is drawn. The current is waiting. The choice is yours.
+The geometry is drawn. The current is waiting. The choice is yours to notice.
 
 ---
 

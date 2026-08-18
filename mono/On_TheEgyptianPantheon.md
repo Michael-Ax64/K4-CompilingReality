@@ -10,9 +10,9 @@ Before creation, there is only **Nun**—the primordial, un-differentiated, infi
 
 At Hermopolis, Nun contains the **Ogdoad**: eight primordial deities arranged in **four male-female pairs**. This is the exact dual-binary seed ($AR \times AY$) operating in the unmanifest buffer:
 
-$$\begin{array}{r|c|c|l}
+$$\begin{array}{r|c|c|l} \\
 \mathbf{Ogdoad\ Pair} & \mathbf{Principle} & \mathbf{Seed\ Bits} & \mathbf{K_4\ Pole\ Alignment} \\
-\hline
+\hline \\
 \mathbf{Nun\ \&\ Naunet} & \text{Primordial Abyss / Fluid Flow} & [-- / \text{RY}] & I \text{ (Water / Pathos / The Current)} \\
 \mathbf{Amun\ \&\ Amaunet} & \text{The Hidden / Unseen Air} & [+- / \text{AY}] & U \text{ (Air / Logos / Structural Potential)} \\
 \mathbf{Huh\ \&\ Hauhet} & \text{Spatial Infinity / Everlasting Drive} & [++ / \text{AA}] & P \text{ (Fire / Kairos / Generative Spark)} \\
