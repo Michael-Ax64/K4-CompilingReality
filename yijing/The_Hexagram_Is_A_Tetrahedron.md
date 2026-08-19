@@ -136,7 +136,7 @@ The mapping in section IV would be a suggestive overlay if it stopped there. Wha
 
 The Yijing's most basic reading of a hexagram splits it into two trigrams: the lower (positions 1-2-3) and the upper (4-5-6). These are disjoint — they share no position — and the tradition reads them as two related but distinct three-line movements.
 
-On the tetrahedron, the three edges assigned to the lower trigram are P–I, I–R, P–R, and the three assigned to the upper trigram are I–U, P–U, U–R. Each triple is a genuine three-edge path, and the two paths sit on *complementary* halves of the K4. This is the framework's own picture of two independent traversals: the tetrahedron is self-dual, which licenses running two disjoint three-step paths on opposite edges (`ProofM_CartesianFrame`, `L4-DynamicDistortionsTechnical`). The manifest trigram pair *is* that structure, sitting in plain sight. The Yijing has been reading its hexagrams as two-independent-paths since before the tetrahedron was drawn.
+On the tetrahedron, the three edges assigned to the lower trigram are P–I, I–R, P–R, and the three assigned to the upper trigram are I–U, P–U, U–R. Each triple is a genuine three-edge path, and the two paths sit on *complementary* halves of the K4. This is the framework's own picture of two independent traversals: the tetrahedron is self-dual, which licenses running two disjoint three-step paths on opposite edges (`ProofM_CartesianFrame`, `L4-DynamicDistortions101`). The manifest trigram pair *is* that structure, sitting in plain sight. The Yijing has been reading its hexagrams as two-independent-paths since before the tetrahedron was drawn.
 
 ### Second cut: the nuclear trigrams — two paths hinged on the Fixed core
 

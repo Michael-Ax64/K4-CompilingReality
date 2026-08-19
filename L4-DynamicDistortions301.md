@@ -2,7 +2,7 @@
 ## The Bimedian Slice as Instrument: Regular, Sheared, Broken
 
 > **Epistemic Register:** Applied Architecture. Establishes the bimedian cross-section of a $K_4$ tetrahedron as the geometric instrument through which non-local correlation strength is derived from polyhedral structure. Derives the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ and Tsirelson's bound $2\sqrt{2}$ from Biquaternion tensor state-space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning. Traces the regular case (square cross-section, native $\sqrt{2}$), the sheared case (parallelogram, phase-drag), and the collapsed case (1D line, classical decoherence) as a single continuous deformation.
-> **Dependencies:** `L4-DynamicDistortionsTechnical` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
+> **Dependencies:** `L4-DynamicDistortions101` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
 
 ---
 
@@ -142,7 +142,7 @@ Variational optimization $\partial S / \partial \theta = 0$ over the settings $(
 *Merging geometric area-scaling and Biquaternion Star-Norm phase-burning to demonstrate that the polyhedral geometry and complex AC circuit algebra are two faces of one object!*
 
 
-When the $K_4$ tetrahedron departs from regularity — through edge-weight asymmetry, torsional shear, or the phase-shift dynamics catalogued in `L4-DynamicDistortionsTechnical` — the bimedian slice deforms. The square cross-section stretches into a parallelogram whose interior angles shift to $90^\circ \pm \theta$, where $\theta$ is the torsional phase-shear angle across the bimedian pair.
+When the $K_4$ tetrahedron departs from regularity — through edge-weight asymmetry, torsional shear, or the phase-shift dynamics catalogued in `L4-DynamicDistortions101` — the bimedian slice deforms. The square cross-section stretches into a parallelogram whose interior angles shift to $90^\circ \pm \theta$, where $\theta$ is the torsional phase-shear angle across the bimedian pair.
 
 ```
                        THE SHEAR CONTINUUM
@@ -325,7 +325,7 @@ A two-node system connected by an axis carrying opposing operational charges is 
   * **Asserting Node $[P \equiv R]$:** Fire + Earth / Power + Resistance ($++$ fused with $-+$). Combines gravity/mass ($P$) and color confinement ($R$) into a single, high-inertia Asserting node (GravityStrong).
   * **Yielding Node $[I \equiv U]$:** Water + Air / Current + Voltage ($--$ fused with $+-$). Combines electroweak flow ($I$) and electromagnetic potential ($U$) into a single Yielding node (ElectroWeak).
 * **Systemic & Physical Identity:** **The Magnetic / Storage / Confinement Dipole.** This is the axis of DNA double-helix base-pairing and $d$-wave altermagnetism (`Q11-ArchitectureOfConfinement`). Node 1 ($[P \equiv R]$) and Node 2 ($[I \equiv U]$) sit in $90^\circ$ real-space quadrature ($j$-operator), canceling real-space stray fields ($M = 0$) while storing maximum $k$-space phase texture in $h\mathbf{Q}$.
-* **Corpus Attractor:** The **Isotropic Pole / Writing Matching** (`L4-DynamicDistortionsTechnical`).
+* **Corpus Attractor:** The **Isotropic Pole / Writing Matching** (`L4-DynamicDistortions101`).
 
 #### 3. The Mutable Dipole ($[P \equiv I] \longleftrightarrow [U \equiv R]$)
 

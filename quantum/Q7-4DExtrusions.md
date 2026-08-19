@@ -43,7 +43,7 @@ Because the observer is a bounded frame, and a bounded frame must reside at one 
 
 - The K3 face has three degrees of freedom.
 - These three degrees of freedom map exactly to the three complex vector components of held potential Q_i, Q_j, Q_k in the biquaternion (`ProofN_BiquaternionBridge`).
-- The three Q components map in turn to the three bimedians of `L4-DynamicDistortionsTechnical`: Cardinal, Fixed, Mutable.
+- The three Q components map in turn to the three bimedians of `L4-DynamicDistortions101`: Cardinal, Fixed, Mutable.
 
 The 3D Cartesian grid (x, y, z) is a K3 blanket-face projection of a K4 volume. Space *appears* three-dimensional because the observer is standing on the fourth spatial dimension and cannot see the pole they are using as the floor. The eye cannot see itself. The observer cannot measure the axis they are using to do the measuring.
 

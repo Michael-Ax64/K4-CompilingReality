@@ -302,7 +302,7 @@ Science describes Topological Insulators ($\text{Bi}_2\text{Se}_3$, $1\text{T}'\
 ### 2. Predictions: Four Uncovered Discoveries
 
 #### Prediction 1: The "ChromoLux" ($U-R$) Phonon-Polariton Ballistic Wire
-* **The Codex Logic (`L4-DynamicDistortionsTechnical`):** The $K_4$ topology has three Bimedian planes. The Cardinal plane carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable plane carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
+* **The Codex Logic (`L4-DynamicDistortions101`):** The $K_4$ topology has three Bimedian planes. The Cardinal plane carries ElectroWeak ($I-U$, priced by the Higgs). The Mutable plane carries **ChromoLux** ($U-R$: the fusion of the $U$-pole gauge field/voltage with the $R$-pole lattice resistance/strong confinement).
 * **What Science Is Missing:** Condensed matter physics treats electromagnetic waves ($U$) and acoustic lattice vibrations/phonons ($R$) as separate phenomena that scatter off each other, creating thermal resistance.
 * **The Codex Prediction:** There exists an uncharacterized class of $2\text{D}$ van der Waals materials where $U$ and $R$ are topologically fused into a **ChromoLux Surface Mode**. 
   * In this material, **mechanical lattice vibration ($R$) directly pumps THz electromagnetic signals ($U$) with ZERO Ohmic loss.**

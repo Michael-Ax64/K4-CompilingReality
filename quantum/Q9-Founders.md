@@ -3,7 +3,7 @@
 
 > **A structural identification.** Twelve anomalies, named by senior architects of twentieth-century physics over seventy years of independent work, are mapped onto the four poles of the K4 topology. The framework identifies a pattern: each anomaly sits at a specific pole, and each is the operational signature of that pole's algebraic identity showing through the physics. Three of the twelve carry mathematical verification that runs in both directions. Those three are marked explicitly.
 
-> **Dependencies:** `ProofQ_AlgebraicSyntax` (the Route Law, the Numerator Law), `ProofU_AlgebraicMapping` (the dual-binary seed), `ProofO_HelicalTime` (the Helical Extrusion, torsional shear), `L2-Terminology` (pole vocabulary), `L3-FormalFoundations_Synthesis` (the twelve equations), `ProofN_BiquaternionBridge` (the Star-Norm), `ProofG_Chirality` (the Garbage Collector at edge level), `Q2-TransactionLayer` (the graviton ban, the 9−1 gluon count), `L4-DynamicDistortionsTechnical` (the six fusion taxonomy).
+> **Dependencies:** `ProofQ_AlgebraicSyntax` (the Route Law, the Numerator Law), `ProofU_AlgebraicMapping` (the dual-binary seed), `ProofO_HelicalTime` (the Helical Extrusion, torsional shear), `L2-Terminology` (pole vocabulary), `L3-FormalFoundations_Synthesis` (the twelve equations), `ProofN_BiquaternionBridge` (the Star-Norm), `ProofG_Chirality` (the Garbage Collector at edge level), `Q2-TransactionLayer` (the graviton ban, the 9−1 gluon count), `L4-DynamicDistortions101` (the six fusion taxonomy).
 
 ---
 

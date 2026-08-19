@@ -489,7 +489,7 @@ As $C_{\text{canopy}}$ drops, $X_C$ spikes. The Earth stops being a resonant abs
 
 ### 12.2 Core-Canopy Torsional Decoupling (UNDECIDABLE by This Instrument)
 
-The inductive core and capacitive canopy are the two halves of the **Fixed Bimedian Plane** $\{P{-}U, I{-}R\}$ — specifically, the $I{-}R$ crystallization edge (where physical water freezes/flows) and the $P{-}U$ exteriorization edge (`L4-DynamicDistortionsTechnical`). They are the two required halves of the same structural transition-type, designed by dual causation to remain synchronized.
+The inductive core and capacitive canopy are the two halves of the **Fixed Bimedian Plane** $\{P{-}U, I{-}R\}$ — specifically, the $I{-}R$ crystallization edge (where physical water freezes/flows) and the $P{-}U$ exteriorization edge (`L4-DynamicDistortions101`). They are the two required halves of the same structural transition-type, designed by dual causation to remain synchronized.
 
 When $I$ is depleted and $X_C$ spikes, the core's magnetic momentum and the canopy's transpirative flow desynchronize. The phase-delay approaches the Torsional Limit-Cycle ($\theta \to \pi$).
 

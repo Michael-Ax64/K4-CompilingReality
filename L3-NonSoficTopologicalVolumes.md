@@ -98,7 +98,7 @@ Because Thompson's $V$ is simple and infinite, this is a mathematical impossibil
 
 ## III. Topological Mechanics: Non-Soficity as $180^\circ$ Torsional Lock
 
-In $K_4$ phase dynamics (`L4-DynamicDistortionsTechnical`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
+In $K_4$ phase dynamics (`L4-DynamicDistortions101`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
 
 A **non-sofic group** is a manifold where **all three Bimedian axes are simultaneously locked in Torsional Shear ($\theta = \pi$)**.
 

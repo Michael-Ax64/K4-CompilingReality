@@ -109,7 +109,7 @@ Every Q# document cites specific corpus files by name. The core dependencies are
 - `ProofQ_AlgebraicSyntax` for the Route Law.
 - `ProofG_Chirality` for chirality and directed traversals.
 - `ProofO_HelicalTime` for the helical extrusion of time.
-- `L4-DynamicDistortionsTechnical` for the six-fusion taxonomy.
+- `L4-DynamicDistortions101` for the six-fusion taxonomy.
 - `L4-RecursiveLimits` for scale invariance and nested blankets.
 - `L1-ConvergentDiscovery` for the account of why independent formalisms converge on K4.
 - `Meta-MechanismOfTransition` for the Tangent Crossing.

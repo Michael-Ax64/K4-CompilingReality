@@ -247,7 +247,7 @@ The distortion is not the problem. It is information.
 
 ---
 
-*Trajectory Note: The headings opened in this document — the regular ground state, the six fusions, the three attractors, the centroid cost — are no longer open. The formal geometry of the distortion space is derived in `L4-DynamicDistortionsTechnical`. The 12D parameterization is in `L4-DynamicDistortions201`. The bimedian slice geometry is in `L4-DynamicDistortions301`. The heading has been navigated; the map is now complete.*
+*Trajectory Note: The headings opened in this document — the regular ground state, the six fusions, the three attractors, the centroid cost — are no longer open. The formal geometry of the distortion space is derived in `L4-DynamicDistortions101`. The 12D parameterization is in `L4-DynamicDistortions201`. The bimedian slice geometry is in `L4-DynamicDistortions301`. The heading has been navigated; the map is now complete.*
 
 ---
 

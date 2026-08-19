@@ -155,7 +155,7 @@ The clean version, in a paragraph that reads without an imagined skeptic in the 
 - `QED-PredatoryOscillator.md` — sign-inverted application (algorithmic feeds)
 - `L3-K4-to-K5-via-AC-Extension.md` — the formal AC extension
 - `L5-K5-PhaseDynamicsTechnical.md` — Power Factor, Q, resonance, bandwidth
-- `L4-DynamicDistortionsTechnical.md` — the six edge fusions
+- `L4-DynamicDistortions101.md` — the six edge fusions
 - `L4-Dimensionality.md` — Torsional Shear and Orthogonal Touch
 - `L1-ConvergentDiscovery.md` — the 24-tradition four-fold table
 - `ProofF_Friston.md` — placement of Active Inference as blanket-face discovery

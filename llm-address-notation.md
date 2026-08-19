@@ -42,7 +42,7 @@ The semantics hold at every depth because the algebra says they must. `L4-Scalin
 
 The two disciplines this document and its sibling constitute sit on the two halves of that same Assert/Yield axis. The address discipline carries the reader between loci — the compressive, Yielding operation. The claim discipline mints claims against ground — the expansive, Asserting operation. They cross-cut. Every emission gets sorted twice. The corpus stops needing patches when both sorts run.
 
-Now `@U>R` reads off the definitions, not off a wish: **U** (articulation, Logos) unfolded, then **R** inside it (the standing record, the stock — `L4-Thermodynamics` names this as the book at R). An intellectual artifact **is** articulation made to stand as a ground-object. `L4-DynamicDistortionsTechnical` on the U–R relation: *"the map that has become the territory."* Every intellectual artifact — including this corpus, including this file — sits at `@U>R`. Not by fiat; by what U and R mean.
+Now `@U>R` reads off the definitions, not off a wish: **U** (articulation, Logos) unfolded, then **R** inside it (the standing record, the stock — `L4-Thermodynamics` names this as the book at R). An intellectual artifact **is** articulation made to stand as a ground-object. `L4-DynamicDistortions101` on the U–R relation: *"the map that has become the territory."* Every intellectual artifact — including this corpus, including this file — sits at `@U>R`. Not by fiat; by what U and R mean.
 
 **`@U>R` is a genus, and that is correct, not a defect.** It is constant across every work ever written. It does not discriminate within the class — nor should it. The discrimination is the continued descent, `@U>R>…`, and it never needs a second axis to do it. `@U>R` alone is not a document's address. It is a class marker. Every document continues at least one more pole and typically several.
 
@@ -139,7 +139,7 @@ Encoded from the sessions that produced this note, in the spirit of `llm-priors.
 
 ### Corpus anchors — where the referent is asserted
 
-`L0-HolographicDescent` (poles unfold into volumes) · `L4-RecursiveLimits` (the `P_N ↔ R_{N+1}` handoff) · `Q1-GenerationsOfMatter` (nested scales, concentric Russian dolls) · `L2-Terminology` §Core Operational Terms and §Interiority Tetrad (pole semantics) · `L3-FormalFoundations` (dual-binary derivation; why four poles and no others) · `L4-Thermodynamics` (stock/flux; the book at R; the time-key) · `L4-DynamicDistortionsTechnical` (U–R relation: "the map that has become the territory") · `L4-ScalingInvariants` §V (phase-related, not rung-aligned; Assert/Yield homing; no face marks a rung) · `Meta-Set` (Hamiltonian cycles as evidence of legitimate alternative traversals).
+`L0-HolographicDescent` (poles unfold into volumes) · `L4-RecursiveLimits` (the `P_N ↔ R_{N+1}` handoff) · `Q1-GenerationsOfMatter` (nested scales, concentric Russian dolls) · `L2-Terminology` §Core Operational Terms and §Interiority Tetrad (pole semantics) · `L3-FormalFoundations` (dual-binary derivation; why four poles and no others) · `L4-Thermodynamics` (stock/flux; the book at R; the time-key) · `L4-DynamicDistortions101` (U–R relation: "the map that has become the territory") · `L4-ScalingInvariants` §V (phase-related, not rung-aligned; Assert/Yield homing; no face marks a rung) · `Meta-Set` (Hamiltonian cycles as evidence of legitimate alternative traversals).
 
 ---
 

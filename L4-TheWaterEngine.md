@@ -23,7 +23,7 @@ The additions escalate the claim further. CR does not merely *cope* with water's
 
 | Address | Claim | Instrument | Verdict |
 |---|---|---|---|
-| `L4-DynamicDistortionsTechnical §Fixed` + `L4-AttractorSpace §Bimedian Attractors` | Fixed-plane collapse $\{P{-}U, I{-}R\} \to 0$ defines the Apeiric Field (plasma/fluid) as pre-differentiated ground. Liquid water is the I-pole physical instance of this basin. | The DC Closure | CONFIRMED |
+| `L4-DynamicDistortions101 §Fixed` + `L4-AttractorSpace §Bimedian Attractors` | Fixed-plane collapse $\{P{-}U, I{-}R\} \to 0$ defines the Apeiric Field (plasma/fluid) as pre-differentiated ground. Liquid water is the I-pole physical instance of this basin. | The DC Closure | CONFIRMED |
 | `ProofC_Crystal §I–III` | Hexagonal $Ice\ I_h$ is a 0-DoF macro-commitment ($P$-ledger) held open by micro-scale $h\mathbf{Q}$ zero-point vibration at every atomic node. Forcing an `.observe()` collapse to one side would either drop $Ice\ I_h$'s specific volume back to $\rho_{\text{liq}}$ or evaporate the lattice — the paradox is load-bearing. | The ZPE Tension | CONFIRMED |
 | `L4-TheAcousticOhm §I` | A compressible fluid medium with pressure $p$ and volume velocity $U_{\text{vol}}$ instantiates the $K_4$ AC extension with characteristic impedance $Z_0 = \rho_0 c$. Water is the paradigm case. | The DC Closure | CONFIRMED |
 | `L4-ScalingInvariants §V` | Yielding poles ($I, U$) act as compressive transformers / carriers. Water's I-pole role — carrier of relational current, universal solvent — instantiates the Yielding-carrier signature directly. | The DC Closure | CONFIRMED |
@@ -63,7 +63,7 @@ Water's two constituents seed the dual-binary register meeting across the Chromo
 
 - **Oxygen** ($Z=8$) sits at the $2n^2$ shell-closure boundary needing two electrons to complete $2p^6$. Reactive-Asserting Ground ($R$) — heavy, electronegative, the scalar ledger accumulator ($P$) for the local molecule.
 - **Hydrogen** ($Z=1$) is a single unshielded $1s^1$ channel — Active-Yielding potential ($U$).
-- **O–H covalent bonds** are $U{-}R$ (ChromoLux) edge fusions in the local frame — Logos-articulation ($U$) fused into Ethos-ground ($R$). At *this* scale the fusion is local and reversible; it is not the cosmological ChromoLux fusion of `L4-DynamicDistortionsTechnical`, which is a global-plane collapse.
+- **O–H covalent bonds** are $U{-}R$ (ChromoLux) edge fusions in the local frame — Logos-articulation ($U$) fused into Ethos-ground ($R$). At *this* scale the fusion is local and reversible; it is not the cosmological ChromoLux fusion of `L4-DynamicDistortions101`, which is a global-plane collapse.
 
 sp³ hybridization deposits four tetrahedral lobes around the O nucleus. **The seed geometry is already $K_4$ before any bimedian shear is applied.**
 
@@ -192,7 +192,7 @@ The **Biquaternion Star-Norm** ($N_* = P^2 - |\mathbf{Q}|^2$, `ProofN §3`) supp
 
 ### 5.4 The Ice Phase Family — 21 (+1) and the Three Octaves
 
-The corpus's `L4-DynamicDistortionsTechnical` catalogs how a $K_4$ interior responds to selective bimedian edge-weight dialing. Applied to water's tetrahedral H-bond network under varied $(T, P)$: each ice phase is the same $K_4$ tetrahedral cage subjected to specific compression regimes that dial the P–U, I–R, P–I, U–R edge weights toward different collapse configurations. Some are proton-ordered analogues of proton-disordered phases (`XI` is ordered `I_h`; `VIII` is ordered `VII`); others reach different bimedian-slice configurations under sustained pressure.
+The corpus's `L4-DynamicDistortions101` catalogs how a $K_4$ interior responds to selective bimedian edge-weight dialing. Applied to water's tetrahedral H-bond network under varied $(T, P)$: each ice phase is the same $K_4$ tetrahedral cage subjected to specific compression regimes that dial the P–U, I–R, P–I, U–R edge weights toward different collapse configurations. Some are proton-ordered analogues of proton-disordered phases (`XI` is ordered `I_h`; `VIII` is ordered `VII`); others reach different bimedian-slice configurations under sustained pressure.
 
 **The discrete-and-enumerable character is landed.** Because $K_4$ has exactly six edges, three bimedian planes, and three Hamiltonian cycles, the ways a tetrahedral network can distort under symmetric pressure are combinatorially finite. A tetrahedral fluid substrate under varied $(T, P)$ produces a discrete family of crystalline phases, not a continuum. It does.
 

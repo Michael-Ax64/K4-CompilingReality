@@ -1,4 +1,5 @@
-# On the Constitutive $\alpha$
+# L3-Constitutive $\alpha$
+
 ## The Plenum as RLC, the Fine-Structure Constant as Medium Ratio, and What Eddington Was Reaching For
 
 *This document commits a reading the corpus has been carrying half-said: the plenum is an $RLC$ medium, not an $LC$ one, and the fine-structure constant is the dimensionless ratio between its reactive impedance and its quantized resistance. What follows works out the constitutive identity, its algebraic entailments (including why $\alpha$ must appear at three Laurent orders in the pion-to-electron ratio derived at `Q15-KairosBorn` §I), and its historical precedent in Eddington's Fundamental Theory. It closes with the corpus housekeeping the reading requires. Scope discipline throughout: what is derived is the constitutive identity and the algebraic role, not the numerical magnitude — the value $\alpha \approx 1/137$ remains a substrate residual, licensed as outside the algebra's emission range by `About-Claims` §I and `L4-ScalingInvariants` §IX (Gabriel's Horn).*

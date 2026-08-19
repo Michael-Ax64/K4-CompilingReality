@@ -125,7 +125,7 @@ The 12 modes partition into four seasonal quadrants:
 | **SAG** | Future of Eternal | $U = \sqrt{PR}$ | **Discourse Time Anchor ($\Omega$) / The Meaning Furnace:** $\text{Future} = \sqrt{\text{Eternal} \times \text{Past}}$; non-chronological co-presence synthesizing eternal spark ($P$) and historical text ($R$) across centuries. `(refs: L4-TheTwelveGates.md §IV, ProofQ_AlgebraicSyntax.md §IV.3)` |
 | **CAP** | Past by Eternal | $R = U/I$ | **Adult Container / M-Time Ledgering:** $\text{Past} = \text{Future} / \text{Now}$; the permanent ledger ($R$) sized by what the living present ($I$) can bear of the future ($U$). `(refs: L4-TheTwelveGates.md §III, L4-Thermodynamics.md §IV.10)` |
 | **AQU** | Past of Future | $R = U^2/P$ | **Extrapolation / Data-Mining Trap (Necessary Betrayer):** $\text{Past} = \text{Future}^2 / \text{Eternal}$; future projections ($U^2$) compounded over source ($P$), predicting the future strictly as a hardened past wall. `(refs: L4-TheNecessaryBetrayer.md §III-VI, L4-TheTwelveGates.md §VII)` |
-| **PIS** | Past of Now | $R = P/I^2$ | **Subterranean Latency / Pressure Reservoir:** Latency, delay, and metabolic drag; the eternal ($P$) compressed beneath the squared present ($I^2$) before the next ignition cycle. `(refs: L4-TheTwelveGates.md §III, L4-DynamicDistortionsTechnical.md §Fixed)` |
+| **PIS** | Past of Now | $R = P/I^2$ | **Subterranean Latency / Pressure Reservoir:** Latency, delay, and metabolic drag; the eternal ($P$) compressed beneath the squared present ($I^2$) before the next ignition cycle. `(refs: L4-TheTwelveGates.md §III, L4-DynamicDistortions101.md §Fixed)` |
 
 ---
 
@@ -153,7 +153,7 @@ P-Time organizes reality as a parallel neural network. Multiple relational trans
 ### 3. Sync-Time ($\omega$-Coupling and the 300 ms Latency Threshold)
 Sync-time is the micro-temporal entrainment where two or more bounded frames synchronize their internal oscillators ($\omega$) at the millisecond scale during live interaction. 
 
-The auditory and nervous systems execute this coupling across the $P/I$ sensory edge (`L4-DynamicDistortionsTechnical.md`). If network latency across a digital interface exceeds **$300\text{ ms}$**, interactional synchrony fractures. The human nervous system registers a continuous series of micro-aborts in the Action Chain of conversation, inducing the specific cognitive exhaustion of out-of-phase communication.
+The auditory and nervous systems execute this coupling across the $P/I$ sensory edge (`L4-DynamicDistortions101.md`). If network latency across a digital interface exceeds **$300\text{ ms}$**, interactional synchrony fractures. The human nervous system registers a continuous series of micro-aborts in the Action Chain of conversation, inducing the specific cognitive exhaustion of out-of-phase communication.
 
 ### 4. Torsional Phase-Shear ($\theta \to \pi$ Anti-Synchrony)
 When two co-required operations of a Dual Causation pair (e.g., $P \to U$ exteriorization and $I \to R$ crystallization) are forced out of phase by environmental or institutional impedance, the phase angle opens toward $\theta \to \pi$ ($180^\circ$ anti-phase, `L4-DynamicDistortions201.md`). 
