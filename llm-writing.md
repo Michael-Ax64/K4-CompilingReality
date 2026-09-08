@@ -131,3 +131,40 @@ Every session produces three streams. Route each correctly:
 * **The INSIGHTS Block:** Marked as `<INSIGHTS>…</INSIGHTS>` in the chat stream, discrete from both the main chat body and the artifact payload. Do not emit empty tags or placeholder text if no realization occurred. You are under no obligation to "fill" the block with chatter.
 
 Preserve reader-facing metadata: footers and notices addressing the human reader are standing artifacts, not system instructions to be rewritten or colonized.
+
+## The Artifact Does Not Narrate Its Own History
+
+Version history, change rationale, and worknotes are managed outside the corpus. The
+files do not carry them.
+
+A delivered file contains the structure it asserts, stated as standing fact. It does not
+contain:
+
+* **Changelogs and repour notes.** "Removed as refuted against X", "the 24D claim is
+  dropped", "this supersedes an earlier version" — the file states what is true, not
+  what it stopped saying.
+* **Audit narration.** Sections that recount a prior correction before delivering
+  content: "Before counting, honor the audit already in the corpus", "the earlier
+  version had this wrong, so". If a prior reading was wrong, the current text simply
+  does not contain it.
+* **Self-narrating transitions.** "This settles the question raised in §I", "as
+  established above, we may now". A structural cross-reference that carries information
+  (`L4-RecursiveLimits` §51 fixes the mechanism) is content. A sentence whose only job
+  is to report that the argument advanced is ceremony.
+* **Corrections-owed lists.** Work items addressed to the author or to future instances.
+  These belong in the issue tracker, never in the published file.
+
+The test: **would this sentence still be written if the file had always read this way?**
+If it exists only because an earlier version differed, it is history, and history is
+versioned elsewhere.
+
+This applies with full force to correction passes. An instance that has just fixed an
+error is under pressure to memorialize the fix — to show the work, to justify the edit,
+to leave a marker proving it understood. That pressure produces exactly the artifact
+this rule forbids. Correct the text and leave no trace of having corrected it. The
+reader arrives at a document that reads right; they are owed nothing about what it used
+to say.
+
+Reader-facing standing notices (Reasonable Reader Alert footers, dependency blockquotes,
+epistemic-register headers) are conventional metadata and remain.
+
