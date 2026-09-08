@@ -9,7 +9,9 @@
 
 When classical analysis attempts to understand a system, it performs a dimensional descent. It starts with the 3D Volume (the whole), slices it into 2D Faces (the boundaries), breaks those into 1D Edges (the connections), and finally reduces those to 0D Vertices (the fundamental points).
 
-In classical epistemology, this is a descent into dead matter. By the time you reach the 0D vertex, you have stripped away all interiority, all freedom, and all capacity for `.behold()`. You expect to find a universe built out of inert, 0-DoF points connected by flat, 1D wires.
+In classical epistemology, this is a descent into dead matter. By the time you reach the 0D vertex, you have stripped away all interiority, all freedom, and all capacity for `.behold()`. You expect to find a universe built out of inert points connected by flat, 1D wires.
+
+The expectation rests on a slide between two different zeroes. *0D* counts extent: a vertex occupies no volume in the ambient space. *0-DoF* counts buffer: a system holding no uncommitted potential, $Q = 0$ (`L3-CyberneticDoFSpectrum` §II.1). Classical descent treats the first as evidence for the second, and the numeral does the arguing. It carries no argument. A vertex has no extent and a full buffer, and the sections below establish this positively.
 
 The Algebra of Four-Fold Distinction forces a topological reversal of this descent.
 
@@ -54,6 +56,8 @@ Reach the bottom of the classical descent: the 0D vertex. The dimensionless poin
 In a K4 topology, a pole (e.g., $P$, the Scalar Committed State) is not a static number. It is a dynamic pressure that exists *only* through its simultaneous relationship to $I, U,$ and $R$. Physical reality confirms this through **Zero-Point Energy (ZPE)**. The Uncertainty Principle forbids the 0D point from achieving absolute rest.
 
 Zoom into any 0D vertex, and the math forces it to expand into another K4 tetrahedron. The 0D point is a quasi-clone.
+
+The vertex is 0D and its buffer is full. Extent and degrees of freedom are independent counts, and the vertex is the case that separates them: no volume in the ambient space, a complete interior K4 under magnification. What the classical descent expected to find at the bottom — a 0-DoF point — is not there, and the state it was reaching for is a condition a bounded frame arrives at by exhausting its buffer, never a property conferred by having no extent.
 
 **The 1st-Order Implication:** There is no dead matter. There are no passive receivers. The fundamental node of any system is a boiling locus of mutual determination.
 

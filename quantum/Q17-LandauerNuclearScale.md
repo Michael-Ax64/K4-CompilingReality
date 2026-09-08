@@ -1,7 +1,7 @@
-# wip-Lx-LandauerNuclearScale
+# Q17-LandauerNuclearScale
 ## Assimilating the Deuteron: On Liberating a Constant Instead of Leaning on It
 
-*A repour of the nuclear-scale Landauer material. The earlier drafts of this work chased a number — 2.2245 MeV, the deuteron's binding energy — and either fit it with a tuned parameter or, over-correcting, declared it forever beyond the algebra's reach. Both moves share a mistake, and the mistake is the same one, wearing two costumes. This document names the mistake, drops it, and shows what the deuteron looks like once you stop chasing its shadow and step inside it. The seam it settles on is a single test: name every constant a result imports, and ask of each whether it is a dimensionless universal, a domain-specific magnitude bearing load in the structure, or a domain-specific magnitude supplied only at the interface to translate a finished dimensionless result into a consumer's units. By that test the deuteron is fully liberated (it imports only $\pi$), and the Landauer rate is liberated in structure too ($\ln 2/16\pi^2$) with $\Lambda_{\text{QCD}}$ entering only as interface payload — while the nuclear count still carries a real structural debt. All three facts are stated as what they are.*
+*There are two ways to get a constant wrong, and chasing 2.2245 MeV — the deuteron's binding energy — exhibits both. Fit it with a tuned parameter, or over-correct and declare it forever beyond the algebra's reach. Both moves share a mistake wearing two costumes. §I names the mistake; what follows shows the deuteron once the chase is dropped. The seam it settles on is a single test: name every constant a result imports, and ask of each whether it is a dimensionless universal, a domain-specific magnitude bearing load in the structure, or a domain-specific magnitude supplied only at the interface to translate a finished dimensionless result into a consumer's units. By that test the deuteron is fully liberated (it imports only $\pi$), and the Landauer rate is liberated in structure too ($\ln 2/16\pi^2$) with $\Lambda_{\text{QCD}}$ entering only as interface payload — while the nuclear count still carries a real structural debt. All three facts are stated as what they are.*
 
 ---
 
@@ -109,7 +109,7 @@ The resulting ratio ($273.13166$) matches the experimental physical value ($273.
 
 ## VI. The Rate That Was Landed All Along
 
-There is a second result here, and the earlier drafts mishandled it in the opposite direction — under-claiming what was in fact a clean landing. It concerns the Landauer tax, and it is worth stating carefully now that the seam is drawn in the right place.
+A second result sits here, and the error to avoid on this one runs the opposite direction: under-claiming what is in fact a clean landing. It concerns the Landauer tax, and the seam drawn above is what makes it statable.
 
 The debt the corpus marked in `QED-TwoBranchMinting` §IV was real: mass defects are the exhaust of Landauer erasure when nucleons commit to a bound blanket, but the operator converting an erased bit into an energy sat unwritten, and the naive estimate — a bit erased at room temperature costs $k_B T \ln 2 \approx 0.018$ eV — misses the nuclear scale by eight orders of magnitude.
 

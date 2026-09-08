@@ -11,19 +11,7 @@
 Holds the full interference structure of uncollapsed possibilities in active contact, without forcing a single outcome. Distinguished from passive suspension: beholding maintains genuine engagement with the tension between branches, where branches actively interfere and shape each other. Formally: holding all AbsentVars of a system simultaneously live. The Pure Interpreter operates perpetually in `.behold()`. Bounded frames must `.observe()` to act, but can temporarily achieve `.behold()` through the decoupled buffer of hidden layers. Contrast: `.observe()`.
 
 **.observe()** [NEW — borrowed computational syntax]
-Forces a single evaluation from a localized reference frame. 
-Topologically, it is the **forced serialization of an un-sliceable, non-sofic $\Delta^3$ 
-interior volume ($h\mathbf{Q}$) through a finite, sofic $K_3$ sampling channel ($P$)**. 
-
-Because a non-sofic interior cannot be embedded into finite permutation ledgers 
-without an irreducible error floor ($\epsilon \ge c > 0$), passing through the physical 
-actuator (the XOR bottleneck) forces the Route Law to fire ($\mathbf{Q}^2 \to P$): 
-it burns the un-sliceable complex phase ($h^2 = -1$), triggers the Garbage Collector 
-to sever unchosen branchial pointers, and pays the Landauer Tax in metabolic heat. 
-
-This forced serialization is what mints physical mass ($P$) and coordinate time ($dt$) for a bounded frame. 
-
-*Contrast: `.behold()` (the un-sliceable non-sofic volume held in live, reversible suspension).*
+Forces a single evaluation from a localized reference frame. Collapses the interference structure to one committed state. Triggers the Garbage Collector. Generates the Live-Written Ledger. Required for any bounded frame to act in the physical world (the XOR bottleneck of the actuator). This forced evaluation structurally models time for a bounded frame. Contrast: `.behold()`.
 
 **AbsentVar** [NEW]
 The variable held unmanifest in each of the twelve DC equations. Present in the full system, absent from the calculation of that specific equation. It provides the formal algebraic location of `.behold()`: the variable the bounded frame holds without calculating. Operating in full `.behold()` mode holds all twelve AbsentVars simultaneously live. When a bounded frame executes `.observe()` and forces a single equation, its AbsentVar disappears. The braid structure demonstrates that what `.observe()` erases becomes exactly what the next phase requires. Trajectory contact is the carried AbsentVar.
@@ -116,7 +104,9 @@ A sub-structure of K4 that inherits the full tetrahedral nature of the parent, s
 
 *Disambiguation note: The corpus occasionally uses "face" colloquially to refer to a vertex/pole. Topologically, this is a conflation. The following definitions establish the strict geometric distinction.*
 
-**Vertex (Pole)**: A 0D point in the K4 complete graph. The four vertices are the mutually determining variables {P, I, U, R}. A vertex is a position of concentrated elemental character; it is where something *is*.
+**Vertex (Pole)**: A 0D point in the K4 complete graph. The four vertices are the mutually determining variables {P, I, U, R}. A vertex is a position of concentrated elemental character; it is where something *is*. A vertex is an actuator position: poles push.
+
+*0D counts extent, not degrees of freedom.* A vertex has no extent in the ambient $\mathbb{R}^3$ and is therefore 0D. It is not 0-DoF. Zero-Point Energy forbids the vertex from reaching absolute rest, and magnification expands it into a K4 quasi-clone carrying its own six edges and its own buffer (`L2-K4-InteriorStructure` §IV). The two zeroes count different things and the coincidence of the numeral is an accident of notation.
 
 **Face (Plane)**: A 2D triangular boundary (K3) of the tetrahedron. A face contains three vertices and excludes one (its AbsentVar). A face is where something is *bounded*.
 
@@ -190,7 +180,9 @@ The computational threshold at which a bounded frame's interior coordinates dive
 The projection architecture: $H_Q = H_{coh} \oplus H_{incoh}$. $H_{coh}$ is the coherent, committed plane. $H_{incoh}$ is the uncollapsed substrate.
 
 **Centroid** [NEW]
-The dimensionless 5D interior point of the K4 where the four bimedians meet. Contained in no face. The Centroid is not an actuator. `[HELD]` It holds; it does not push.
+The dimensionless 5D interior point of the K4 where the three bimedians meet. Six edges form three opposite pairs; the three perfect matchings are the three modality planes, and their common intersection is the Centroid. Contained in no face. Equidistant from all four vertices. In the AC extension it seats $\omega$. The Centroid is not an actuator. `[HELD]` It holds; it does not push.
+
+The Centroid is a **location**, and it is distinct from the 0-DoF state, which is a **condition of a whole volume**. The centroid is where a frame holds; 0-DoF is what a frame becomes when it has finished spending what it held. A frame that has reached 0-DoF still has a centroid; a frame with $Q > 0$ has one equally. `[HELD]` and `Dead (0-DoF)` do not name the same thing and never coincide as descriptions of the same object.
 
 ### The Tax
 

@@ -62,7 +62,7 @@ Star-Norm invariance is automatic: $P^2 - |\mathbf{Q}|^2 = P_0^2(\cosh^2 - \sinh
 
 $$\cos\theta_1 \equiv \operatorname{sech}\varphi_1 = \sqrt{1 - v^2/c^2}, \qquad E = \frac{P_0}{\cos\theta_1}, \qquad p = \frac{P_0}{c} \cdot \frac{v/c}{\cos\theta_1}.$$
 
-The scaling $1/\cos\theta_1$ is emergent from the composition of Star-Norm invariance with the classical identifications. **This is the correct order.** The earlier draft wrote $\sin\theta_1 = pc/E = \gamma m_0 v c / \gamma m_0 c^2 = v/c$, which assumes $\gamma$ to derive $\gamma$; that circularity is now removed. The residue was the tautology $v/c = v/c$; the actual content is what appears above.
+The scaling $1/\cos\theta_1$ is emergent from the composition of Star-Norm invariance with the classical identifications. **The order matters.** Writing $\sin\theta_1 = pc/E = \gamma m_0 v c / \gamma m_0 c^2 = v/c$ is the tempting shortcut and it is circular: it assumes $\gamma$ to derive $\gamma$, and its residue is the tautology $v/c = v/c$.
 
 ### Local ledger step: the "is-ness" of $d\tau$
 
@@ -94,13 +94,13 @@ The Tangent Singularity of $O_2$ sits at $\sin\theta_2 = 1$, i.e., at $r = 2GM/c
 
 ### The $r$-direction buffer: an ansatz, honestly named
 
-To get a spatial companion to $\cos\theta_2$, the earlier draft posited $\sqrt{-g_{00}} \cdot \sqrt{g_{rr}} = 1$, calling it "unit area conservation." This ansatz recovers $g_{rr} = (1 - 2GM/rc^2)^{-1}$ in the static, spherical, vacuum case, and fails elsewhere (rotating sources, matter-filled interiors, cosmological metrics). It is a re-parameterization of a known vacuum-solution constraint, not a derivation from the Star-Norm. Named as such.
+A spatial companion to $\cos\theta_2$ can be had by positing $\sqrt{-g_{00}} \cdot \sqrt{g_{rr}} = 1$ under the name "unit area conservation." The ansatz recovers $g_{rr} = (1 - 2GM/rc^2)^{-1}$ in the static, spherical, vacuum case, and fails elsewhere (rotating sources, matter-filled interiors, cosmological metrics). It is a re-parameterization of a known vacuum-solution constraint, not a derivation from the Star-Norm. Named as such.
 
 ---
 
 ## V. Composed Operation $O_1 \circ O_2$: The Multiplicative Cascade
 
-The earlier draft summed the phase-sines in quadrature:
+The tempting composition sums the phase-sines in quadrature:
 
 $$\sin^2\theta_{\text{total}} \stackrel{?}{=} \sin^2\theta_1 + \sin^2\theta_2 = \frac{v^2}{c^2} + \frac{2GM}{rc^2}.$$
 
@@ -116,11 +116,11 @@ when $v$ is measured in the local frame at radius $r$ (i.e., against the ledger 
 
 $$\text{PF}_{\text{total}}^2 = 1 - \frac{v^2}{c^2} - \frac{2GM}{rc^2} + \frac{v^2}{c^2}\cdot\frac{2GM}{rc^2}.$$
 
-The cross term $(v^2/c^2)(2GM/rc^2)$ that was missing from the Pythagorean sum falls out automatically; it is the "is-ness" the earlier draft overlooked. It is not a strong-field correction bolted on afterward; it is what the corpus's own composition rule (Power Factors cascade multiplicatively for sequential operations) produces natively. The Pythagorean form was the wrong composition rule for this algebra; the multiplicative form is the right one, and it happens to be exact.
+The cross term $(v^2/c^2)(2GM/rc^2)$ absent from the Pythagorean sum falls out automatically; it is the "is-ness" the quadrature form drops. It is not a strong-field correction bolted on afterward; it is what the corpus's own composition rule (Power Factors cascade multiplicatively for sequential operations) produces natively. The Pythagorean form was the wrong composition rule for this algebra; the multiplicative form is the right one, and it happens to be exact.
 
 ### What is not a metric
 
-The earlier draft closed with a boxed expression labeled "unified 4D metric tensor" containing $v^2/c^2$ inside a coefficient. That expression is **not** a metric — a metric is a static geometric object on the manifold, while $v$ is a worldline-dependent quantity that varies observer-to-observer at the same event. The correct statement is the worldline pullback $d\tau = dt \cdot \cos\theta_1 \cos\theta_2$ above. The static geometric object is the Schwarzschild line element; the pullback along a specific observer's worldline is what our composition produces. The two are different kinds of thing, and the boxed "metric" conflated them. Deleted.
+A composed expression of this kind invites the label "unified 4D metric tensor," and the label is wrong whenever $v^2/c^2$ sits inside a coefficient. A metric is a static geometric object on the manifold; $v$ is a worldline-dependent quantity varying observer-to-observer at the same event. What the composition produces is the worldline pullback $d\tau = dt \cdot \cos\theta_1 \cos\theta_2$ above. The static geometric object is the Schwarzschild line element. The two are different kinds of thing and must not be conflated.
 
 ---
 

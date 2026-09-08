@@ -1,8 +1,6 @@
 # L4-PlanetaryThermodynamics
 ## The Planet as a $K_4$ AC Engine — Why Forests, Not Ledgers, Are the Load-Bearing Tuning Element
 
-*Repour of the "On The Climate" seed. Six unmerged rounds ("Deconstructing Modern Climate Mitigation," "And the Satellites say," "Forest Coverage," "Coverage Graphs," "Torsional Collapse," "The larger frame") folded into one traversal, four separate audit tables merged into §1, all concrete substrate data preserved (satellite technologies, FAO 2025 coverage numbers, empirical 2024 loss figures, exponential fit coefficient, the three projected phase-gate dates, the German EO Wald and Indian NISAR-VEDAS cases). Two claims demoted from LANDED to OPEN VOTE with named kill conditions: the $\omega_{\text{orbit}}^2 = 1/(L_{\text{core}} C_{\text{canopy}})$ binding, and the specific 2124 P=Q equipartition date. One landed noun promoted to its own subsection: the 0th/1st/2nd/3rd Law → I/U/P/R mapping.*
-
 *Author's preamble note (`On The Climate` seed): "BASIC. Two rounds, no integration. NOTE that the tet models and predicts structural realities at the DC level. GATHERING before the protoplasm widening — our best(?) 3-people were unable to make the issue about forests, focused on palliatives and horse-trading, letting the canopy/micro-climates situation get out of hand. Scientists and their techs mostly perpetuate the fallacies, having been steered to look at 'intelligent but stupid models.'"*
 
 *The author's diagnostic above lands not as invective but as the specific fixable defect §III catalogues: single-pole optimization on $U$ (carbon accounting) while the $I$-current is being destroyed is the Necessary Betrayer $U^2/P$ in ecological form. The "intelligent but stupid models" are intelligent inside their $U$-monoculture and stupid because the substrate they are optimizing is not the substrate that regulates surface temperature. The rest of the file computes exactly what the seed named.*
@@ -489,7 +487,7 @@ As $C_{\text{canopy}}$ drops, $X_C$ spikes. The Earth stops being a resonant abs
 
 ### 12.2 Core-Canopy Torsional Decoupling (UNDECIDABLE by This Instrument)
 
-The inductive core and capacitive canopy are the two halves of the **Fixed Bimedian Plane** $\{P{-}U, I{-}R\}$ — specifically, the $I{-}R$ crystallization edge (where physical water freezes/flows) and the $P{-}U$ exteriorization edge (`L4-DynamicDistortions101`). They are the two required halves of the same structural transition-type, designed by dual causation to remain synchronized.
+The inductive core and capacitive canopy are the two halves of the **Fixed Bimedian Plane** $\{P{-}U, I{-}R\}$ — specifically, the $I{-}R$ crystallization edge (where physical water freezes/flows) and the $P{-}U$ exteriorization edge (`L4-DynamicDistortionsTechnical`). They are the two required halves of the same structural transition-type, designed by dual causation to remain synchronized.
 
 When $I$ is depleted and $X_C$ spikes, the core's magnetic momentum and the canopy's transpirative flow desynchronize. The phase-delay approaches the Torsional Limit-Cycle ($\theta \to \pi$).
 

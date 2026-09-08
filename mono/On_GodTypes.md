@@ -166,7 +166,7 @@ Two readings of the skip stand simultaneously:
 
 **Reading A (historical fact of non-arising):** the vocabulary that could name I-face content did not exist before Stage 3, and Stage 3 itself is the Aniconic Word — an alphabet-based, 1D-serial medium whose founding move ("no graven images") categorically excludes the I-face. The I-pole material could not *arise* within the record because the record's medium is precisely the medium that forbids its arising. This is not suppression of prior existence. It is categorical unavailability of the vocabulary that could name it.
 
-**Reading B (unwalked destination):** the same edges await inhabitation on the current turn of the helix. The "3+4 Heart Core / Living Orthogonal Resume" that On_GodTypes §V (prior version) gestured at is precisely this: the I-pole coming into its own as embodied relational current — the walk lands on the I vertex, the P-I edge is inhabited as source-through-current-directly, the I-R edge is inhabited as current-landing-as-ground.
+**Reading B (unwalked destination):** the same edges await inhabitation on the current turn of the helix. The "3+4 Heart Core / Living Orthogonal Resume" names precisely this: the I-pole coming into its own as embodied relational current — the walk lands on the I vertex, the P-I edge is inhabited as source-through-current-directly, the I-R edge is inhabited as current-landing-as-ground.
 
 Both readings are true. They point at the same coordinates from different sides of the helix. A explains the historical shape of the record. B explains what completion of the walk would look like.
 

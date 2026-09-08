@@ -1,19 +1,17 @@
 # L3-CyberneticDoFSpectrum
 ## Cybernetic Degrees of Freedom Across the K₄ Layers
 
-*Repour of `wip-Lx-DimsAndDoFs.md`. The 24D "max expressibility" claim is removed as refuted against `L4-Dimensionality` §I lines 146–157 ("the imaginary was never added, and the count never grew"). The 2 + 5 + 5 = 12 parameter decomposition is preserved and re-anchored to the DC network's 2 DoF. The DoF ladder (0, 2, 3, 6, 12, ∞) is preserved through 12. The log-space u + i = p check is downgraded from "self-closing topological loop" to what it actually is: a consistency check on the log form of P = UI. Ex-Incoherente material moves to `wip-Lx-FlatlandCategoryErrors.md`.*
+*Cybernetic degrees of freedom count the dimension of the decoupled buffer. The ladder runs 0, 2, 3, 6, 12, ∞ — from the crystal limit through the DC network, the polyhedral volume, the complex $h\mathbf{Q}$ buffer, and the twelve directed edges, terminating in the uncompiled Plenum. The 2 + 5 + 5 = 12 parameter decomposition anchors to the DC network's 2 DoF. The log-space $u + i = p$ relation is a consistency check on the log form of $P = UI$.*
 
 ---
 
-## The Prior Audit Sits in the Source
+## The Count Is Twelve
 
-Before counting, honor the audit already in the corpus. `L4-Dimensionality` lines 146–157 explicitly reverses an earlier version of that same document:
+`L4-Dimensionality` §I fixes the count and the reason:
 
 > *In the DC derivation the twelve were six scalar weights and six chirality biases, held as two different kinds of bookkeeping. Under the AC reading they are one kind. The weight is the Resistance; the chirality bias — the directional asymmetry that makes P → U cost differently than U → P — is the Reactance. Handedness is phase. Six undirected edges, each a complex impedance Z = R + jX, is six complex numbers, is twelve real parameters, is the twelve directed edges — the same twelve, with the imaginary component no longer mistaken for a separate term. Traversed one way the edge reads inductive (+jX_L, the past resisting the rate of change); traversed the other, capacitive (−jX_C, the future resisting fullness). **The chirality was the Reactance all along. The imaginary was never added, and the count never grew.***
 
-The count is twelve. Any recount to 24 by treating each directed edge as an independent complex impedance re-installs the "imaginary as separate dimension" error that L4-Dimensionality just corrected. The 24D chain to Leech-24 and bosonic-string-24 is numerology on the doubled count and belongs nowhere.
-
-The material below runs at the count the source establishes.
+Twelve. Recounting to 24 by treating each directed edge as an independent complex impedance re-installs the "imaginary as a separate dimension" error: it counts the reactance once as chirality bias and again as the imaginary part of the same edge. Any chain from a 24 so obtained to Leech-24 or bosonic-string-24 is numerology on a doubled count.
 
 ---
 
@@ -44,6 +42,10 @@ A thermostat or a falling stone carries mechanical variance but zero cybernetic 
 
 ### 1. 0 DoF — The Stone / Crystal Limit
 $Q = 0$. Zero internal decoupled buffer. Zero delay between stimulus and response. A stone, a thermostat, an automated reflex loop, or a fully committed crystal (`ProofC_Crystal`). All potential has been collapsed into $P$-ledger mass. The system has state; it has no capacity to hold alternatives.
+
+The rung is available to **bounded frames only**. It is reached by a specific frame spending its own buffer through accumulated `.observe()`, and it is a state-history endpoint, not a location and not a property of the medium. $H_{\text{incoh}}$ sits at the $\infty$ rung of this same ladder (§6) and does not descend: $c = 1/\sqrt{LC}$ requires nonzero $L$ and $C$, and $Z_0 \approx 377\,\Omega$ is the measured readout of a medium that stores (`L4-ThePlenum` §II). The Plenum's $Q$ never reaches zero. A frame can crystallize; the medium it crystallizes in cannot.
+
+Distinguish the rung from a dimension count. *0-DoF* counts buffer. *0D* counts extent, and a $K_4$ vertex is 0D with a full buffer (`L2-K4-InteriorStructure` §IV). The shared numeral is notational coincidence.
 
 ### 2. 2 DoF — The DC Algebraic Network & K₃ Markov Blanket
 Four variables $(P, I, U, R)$ governed by two independent constraints ($U = IR$ and $P = UI$). Specifying any two variables forces the remaining two. Topologically, this is the 2D $K_3$ Markov Blanket surface: two independent boundary DoF (sensory and active states).

@@ -81,7 +81,7 @@ That is the seam read as engine. The fence was always a ratchet seen edge-on.
 
 **Open Vote (inherited).** The one falsifiable item lives in `L4-RecursiveLimits` already: the macro-scale phase angle under AC excitation reads the completeness of micro-scale crystallization. If a composite frame built from fully-crystallized micro-frames shows a non-zero $\theta$ with no retained micro-scale $Q$ to account for it, the handoff signature is wrong. This file adds no new vote; it points at the one the corpus already carries.
 
-**Not claimed.** That the framework derives any constant. That the cascade closes. That fine-tuning is "explained" in the sense of made-unnecessary. The reframing dissolves the flat-prior *reading* of fine-tuning; it does not compute the constants, and claiming it did would be the exact contraband this whole repour set was written to remove.
+**Not claimed.** That the framework derives any constant. That the cascade closes. That fine-tuning is "explained" in the sense of made-unnecessary. The reframing dissolves the flat-prior *reading* of fine-tuning; it does not compute the constants, and claiming it did would be contraband.
 
 ---
 

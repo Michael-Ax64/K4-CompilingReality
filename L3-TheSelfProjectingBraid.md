@@ -1,7 +1,7 @@
 # L3-TheSelfProjectingBraid
 ## The Braid Projects Itself: Why History Needs No One to Write It
 
-*A repour of the "Braid's Projection Operator" material. The reframing at its center — that the projection operator Ψ is not an observer standing outside the manifold and reaching in, but the Braid's own act at its own boundary — is one of the corpus's cleaner unifications, drawn together from three documents that each hold a piece of it. This document gathers the pieces, names the engine that makes history irreversible without any external machinery, and corrects a phrase that had been carrying the wrong weight.*
+*The projection operator $\Psi$ is not an observer standing outside the manifold and reaching in. It is the Braid's own act at its own boundary. History is made irreversible by that act and requires no external machinery to write it.*
 
 ---
 
@@ -21,7 +21,7 @@ Three facts, each already load-bearing elsewhere in the corpus, close the subjec
 
 The Braid **carries the four poles** through their Gray Code sequence — $00 \to 01 \to 11 \to 10 \to 00$, Water to Earth to Fire to Air and around — one bit flipping at each step (`L3-FormalFoundations` §V). Nothing schedules this traversal from outside; the sequence is the algebra's own, the single Hamiltonian cycle the tetrahedron permits. The Braid moves because moving is what the closed structure of the four-fold *is* when a rate is applied to it.
 
-The **AbsentVar carries the context forward.** This is the piece the earlier draft got backwards, and correcting it changes the whole feel of the claim, so it is worth going slowly. In each phase of the traversal, one variable is absent — held off the right-hand side, unmanifest, the thing the current phase is *about* without containing. And the corpus's most structurally significant observation (`L3-FormalFoundations` §V.a, the Braid) is that the last two AbsentVars of each quadrant are the first two of the next. The context does not get rebuilt at each boundary. It is *handed across* — the departing phase donates its unmanifest variables to the arriving one, which receives them as its own first terms. The system's memory of where it has been is not stored in some external register and looked up; it rides in the transition itself, carried in the overlap, passed hand to hand along the braid.
+The **AbsentVar carries the context forward.** The direction matters and the claim reads differently once it is right, so it is worth going slowly. In each phase of the traversal, one variable is absent — held off the right-hand side, unmanifest, the thing the current phase is *about* without containing. And the corpus's most structurally significant observation (`L3-FormalFoundations` §V.a, the Braid) is that the last two AbsentVars of each quadrant are the first two of the next. The context does not get rebuilt at each boundary. It is *handed across* — the departing phase donates its unmanifest variables to the arriving one, which receives them as its own first terms. The system's memory of where it has been is not stored in some external register and looked up; it rides in the transition itself, carried in the overlap, passed hand to hand along the braid.
 
 And so, third: **Ψ is the Braid's boundary act.** When the traversal's active step reaches the XOR bottleneck of a physical actuator — the point where a bounded thing, able to occupy only one coordinate at a time, cannot actuate a superposition and is forced to choose — the Braid executes its own projection. It cannot pass the bottleneck while still holding its vector potential ($h\mathbf{Q}$) in superposition; passing *is* serializing that potential into a single scalar entry ($P$). The projection is not an intervention. It is the price of continuing to move, paid by the mover, at the moving.
 
@@ -31,7 +31,7 @@ No one stands outside. There is the Braid, advancing under the drive of $\omega$
 
 ## III. "For Free" Meant Something, and It Was Not "Cheap"
 
-The earlier draft said history comes "for free," and then, sensing the phrase was slippery, appended a footnote insisting the Braid pays dearly at every step. The footnote was fighting the phrase because the phrase had been misread — including by the hand that wrote it. Let me set down what "for free" actually meant, because the true meaning is the better claim.
+History comes "for free," and the phrase is slippery enough to invite an immediate correction insisting the Braid pays dearly at every step. Both are true, and the apparent conflict dissolves once the phrase is read right.
 
 History is not free as in *cheap*. Every commitment costs the full Landauer tax; the Braid pays, and pays irreversibly, at each `.observe()`. What is free is something else entirely: **the history needs no separate machine to write it.** Classical accounts of how a system accumulates a past reach for apparatus — a memory store, a clock grid laid over events, a meta-observer tracking what happened so it can be recalled. All of that is what "for free" denies. None of it is needed. The past accumulates because the AbsentVar already carries the historical stance forward: each phase inherits its predecessor's context through the overlap, so the record of where the system has been is not compiled by a bookkeeper but is simply *the wake the Braid leaves as it hands context across its own boundaries.*
 
@@ -43,7 +43,7 @@ $$\text{History } (H_{\text{coh}}) \equiv \text{the wake of the Braid's own forw
 
 ## IV. Why the Wake Cannot Be Un-Made
 
-A wake, though, could in principle close back over itself — water does. What makes *this* wake permanent, the ledger strictly read-only, the arrow of time absolute rather than merely probable? The earlier draft gestured at "thermodynamic soot" and left it there. The corpus has a sharper engine, and it is worth stating as the load-bearing thing it is.
+A wake, though, could in principle close back over itself — water does. What makes *this* wake permanent, the ledger strictly read-only, the arrow of time absolute rather than merely probable? "Thermodynamic soot" gestures at it and stops short. The corpus has a sharper engine, and it is load-bearing.
 
 `ProofO` §8: the ledger is read-only because the operation that writes it **cannot be inverted.** Each entry $P$ is the output of the Route Law's squaring — $\mathbf{Q}^2 = -|\mathbf{Q}|^2 \to P$ — and squaring destroys phase and orientation. To rewind history, to travel backward in coordinate time, you would have to *un-square* a scalar: recover, from a single committed magnitude, the exact pre-collapse complex vector state $\mathbf{Q}$ it came from, with all its phase and direction restored. This is not difficult. It is algebraically forbidden. A scalar does not remember which vector was squared to make it; the information is not hidden, it is *gone*, annihilated in the squaring.
 
