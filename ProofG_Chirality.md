@@ -29,6 +29,8 @@ Each undirected cycle has two directed versions — a clockwise and a counterclo
 
 Six directed Hamiltonian cycles total. Note the type distinction: the twelve directed edges are the twelve fundamental fermions (substances), while the six directed Hamiltonian cycles are the fundamental Feynman interaction loops (processes). Together they cover every directed relationship between all four vertices, each exactly once: a complete Eulerian decomposition of K4. To hold all six simultaneously, with their tensions and interference intact, models `.behold()` on K4's traversal structure.
 
+The handedness at issue is a property of the directed cycle — the sequence in which the vertices are visited — not a property of any continuous field or its behaviour under coordinate reflection.
+
 ---
 
 ## The Enantiomeric Pair

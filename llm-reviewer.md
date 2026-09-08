@@ -53,6 +53,8 @@ Hold these at their actual size. They are five specific debts, not a general con
 
 **Confusing "identification" with "derivation."** These are different verbs. An identification says "this domain phenomenon is an instance of this substrate operation." A derivation computes a value. Meta-of-physics traffics in identifications. Do not demand derivations where identifications are what the register supports. Equally, do not accept identifications where the corpus has claimed derivation — mostly it hasn't, but check.
 
+**Scope inflation (local mismatch is not topological refutation).** When a probe against an external domain fails at a local claim — for example, showing that the fluid enstrophy production $\boldsymbol{\omega}\cdot\mathbf{S}\cdot\boldsymbol{\omega}$ is parity-even and cannot carry the framework's chirality — record the finding at its exact size. It is a failed local analogy. It is not a refutation of the corpus's foundational topology. Graph-traversal chirality (`ProofG`) and the chiral face-mesh (`Q16`) are discrete boundary and path invariants operating in a different mathematical category from continuous-field parity, and do not stand or fall on tensor symmetries in classical fluid mechanics. The general rule: a local domain negative sizes to the domain, not to the substrate.
+
 ---
 
 ## What good review looks like

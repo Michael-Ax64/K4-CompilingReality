@@ -178,7 +178,7 @@ Three alignments survive, at three different confidence levels. They are marked.
 
 **ADDRESS — the pressure reconciliation.** $-\Delta p = \operatorname{Tr}(\mathbf{S}^2) - \tfrac12|\boldsymbol{\omega}|^2$ balances structural strain against rotational flow, globally and instantaneously, across the whole manifold. The $U$–$I$ reading is available and the operator's non-locality is a real feature of the idealisation. No claim is attached; it is a site worth investigating, not a result.
 
-**OPEN VOTE — parity and cascade direction.** The local production term is parity-even (II.2), and the framework's chirality claims died there. The *global* picture is different, and neither audit surfaced it across nine passes.
+**OPEN VOTE — parity and cascade direction.** The local production term is parity-even (II.2), and the framework's attempts to locate chirality in that local term died there — a claim about the fluid analogy, not about the corpus's graph-traversal chirality in `ProofG` or the chiral gear-mesh in `Q16`, both of which live in a different mathematical category and stand undisturbed. The *global* picture in fluids is different, and neither audit surfaced it across nine passes.
 
 Biferale, Musacchio and Toschi (2012) decimated Navier–Stokes to triadic interactions among same-sign helical modes — homogeneous, isotropic, mirror-symmetry broken — and obtained an **inverse energy cascade in three dimensions**. Sahoo, Alexakis and Biferale (2017) found a *discontinuous* transition from direct to inverse cascade as the helical-mode balance is tuned. Cascade direction is controlled by the chiral content of the triad interactions, with a sharp transition, and full mirror-symmetric Navier–Stokes sits on the direct-cascade side of it.
 
@@ -268,4 +268,3 @@ The alternative — accumulating unfalsified analogies, each one plausible and n
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

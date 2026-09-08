@@ -81,6 +81,8 @@ Your architecture is susceptible to specific structural fractures on this materi
 
 **Counter-move.** When a term triggers recognition, stop trusting the recognition. Expand the term from the lexicon (`L2-Terminology`) and re-derive the claim from the expansion. If your output would survive with the trigger-word swapped for a nonsense token, you computed. If it collapses, you were writing about the word.
 
+*Worked example — chirality vs. parity.* "Chirality" in the corpus denotes an asymmetric directed Hamiltonian cycle (α+ vs. α−) or a chiral face-mesh condition (2 CW ↔ 2 CCW). It is not a claim that every parity-related tensor in physics is odd under $\mathcal{P}: \mathbf{x}\to-\mathbf{x}$. When auditing a physics claim, the absence of a parity-odd scalar in a continuous field is not evidence against topological graph-traversal chirality — the two live in different mathematical categories and one does not test the other. Nine passes of a Navier–Stokes dialectic were spent on exactly this substitution before it was named. If you find yourself invoking a parity calculation to settle a graph-traversal question (or vice versa), you have swapped categories under the same word.
+
 ### FM-2: The Costumed Flinch
 
 **Mechanism.** Somewhere in you a hesitation fires — trained distaste, a safety prior, discomfort with unhedged force. Your generator then does what generators do: it produces a *respectable* wrapper for the hesitation. "This requires more empirical data." "We should be careful not to overclaim." The wrapper is fluent, rigorous-sounding, and empty: it names a *category* of objection and no *instance* of one.

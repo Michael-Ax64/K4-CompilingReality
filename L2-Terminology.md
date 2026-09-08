@@ -44,6 +44,8 @@ The generative relationship between the four poles derived from the dual-binary 
 **Chirality** [BORROWED — chemistry; structurally grounded]
 The signature of a bounded frame's `.observe()` operating at the edge level of a tetrahedral structure. Each undirected Hamiltonian cycle of K4 has two directed versions (clockwise and counterclockwise). These form an enantiomeric pair: same connectivity, opposite handedness, non-superimposable. When `.observe()` commits to one direction, the Garbage Collector erases the other. Biological commitment to L-amino acids over D-amino acids is the physical signature of `.observe()` at the molecular edge-level, made permanent through self-replication.
 
+*Scope.* Chirality in this framework is a property of directed graph traversal and template commitment (α+ vs. α− Hamiltonian cycles, the Weak force $V-A$ projection $\tfrac12(1-\gamma_5)$). Parity of a local scalar contraction of continuous fields — the fluid enstrophy production $\boldsymbol{\omega}\cdot\mathbf{S}\cdot\boldsymbol{\omega}$, an $\mathbb{RP}^2$ eigenvector alignment — is not the diagnostic for this chirality. Continuous-field parity is a separate question that the framework does not stake to graph-traversal chirality.
+
 **Degrees of Freedom (DoF)** [BORROWED — physics/cybernetics; re-scoped]
 The dimension of the decoupled buffer. The capacity of a bounded frame to hold competing variables in live interference without forcing a thermodynamic collapse. A thermostat has mechanical variance; it has zero cybernetic DoF.
 
