@@ -67,6 +67,9 @@ The formal roles of the division operation. The dividend is the Stamper: the act
 **Threefold image (the realm's image of the orthogonal source)** [NEW]
 The structural account of why the threefold-godhead intuition recurs across cultures. The centroid (the dimensionless 5D interior) stands orthogonal to the manifest realm's time-axis and casts zero projection into it. A consciousness embedded in the realm images this one source as three, because the four-fold presents exactly three co-equal relational classes (the transition-types). The three are mutually distinct, none ranked above another, organized by the centroid that is none of them.
 
+**Zeno Inversion** [COINED — this framework]
+The reading of Zeno's paradox in which the accumulation point of the convergent series is named as a physical event. Zeno held that infinite subdivision made motion impossible; the classical resolution (geometric series $\sum \lambda^{-n} = 1/(1-\lambda^{-1}) < \infty$ for $\lambda > 1$) restores completion but treats the infinity as a technicality. The inversion re-reads the same series as the mathematical shape of a finite-time singularity: infinitely many scale-refined events complete in finite total time, and the accumulation point *is* the singularity. Developed as the mechanism of `L4-TheSpiralingCascade`; the axis orthogonal to it (substrate discretization — a floor at $\ell_P$, $\lambda_{\text{mfp}}$, or the atomic scale — truncates the series and regularizes real physical systems, so that continuum equations report singularities precisely because they have deleted the floor) and its sibling accumulation on control-parameter space (Feigenbaum's period-doubling cascade, universal ratio $\delta \approx 4.669$, limiting dynamical structure rather than coordinate time) are discussed there.
+
 ---
 
 ## 3. The Interiority Tetrad
