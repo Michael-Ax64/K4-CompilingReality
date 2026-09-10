@@ -2,7 +2,7 @@
 ## The Bimedian Slice as Instrument: Regular, Sheared, Broken
 
 > **Epistemic Register:** Applied Architecture. Establishes the bimedian cross-section of a $K_4$ tetrahedron as the geometric instrument through which non-local correlation strength is derived from polyhedral structure. Derives the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ and Tsirelson's bound $2\sqrt{2}$ from Biquaternion tensor state-space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning. Traces the regular case (square cross-section, native $\sqrt{2}$), the sheared case (parallelogram, phase-drag), and the collapsed case (1D line, classical decoherence) as a single continuous deformation.
-> **Dependencies:** `L4-DynamicDistortions101` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
+> **Dependencies:** `L4-DynamicDistortionsTechnical` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
 
 ---
 
@@ -142,7 +142,7 @@ Variational optimization $\partial S / \partial \theta = 0$ over the settings $(
 *Merging geometric area-scaling and Biquaternion Star-Norm phase-burning to demonstrate that the polyhedral geometry and complex AC circuit algebra are two faces of one object!*
 
 
-When the $K_4$ tetrahedron departs from regularity — through edge-weight asymmetry, torsional shear, or the phase-shift dynamics catalogued in `L4-DynamicDistortions101` — the bimedian slice deforms. The square cross-section stretches into a parallelogram whose interior angles shift to $90^\circ \pm \theta$, where $\theta$ is the torsional phase-shear angle across the bimedian pair.
+When the $K_4$ tetrahedron departs from regularity — through edge-weight asymmetry, torsional shear, or the phase-shift dynamics catalogued in `L4-DynamicDistortionsTechnical` — the bimedian slice deforms. The square cross-section stretches into a parallelogram whose interior angles shift to $90^\circ \pm \theta$, where $\theta$ is the torsional phase-shear angle across the bimedian pair.
 
 ```
                        THE SHEAR CONTINUUM
@@ -292,6 +292,12 @@ This 1-parameter deformation maps the phase-conduction capacity of the $K_4$ vol
 
 **The Geometric Mechanism of Decoherence.** The deformation of the bimedian slice *is* the geometric mechanism of decoherence. What standard quantum mechanics treats as a statistical limit or an environmental trace is here instantiated as a 2D-to-1D dimensional collapse of the bimedian cross-section. The $K_4$ volume does not lose information; it converts 2D interior area into 1D scalar mass ($P$), paying the Landauer Tax as the phase angle reaches orthogonality.
 
+**Two angles, one letter.** The $\theta$ of this continuum runs $[0, \pi/2]$ and is geometric: it parameterizes the shear of a single cross-section, and its endpoint is area collapse. It is not the $\theta$ of `L4-DynamicDistortions201` §II, which is a *temporal phase offset* between the two Dual-Causation instances of a bimedian pair, runs toward $\pi$, and is governed by the interiority time-constant $\tau = L/R$. Both are called torsion and both are real; they measure different things and reach their limits in different registers. Geometric $\pi/2$ collapses an area within a stage. Temporal $\pi$ is anti-synchrony between two edges that were supposed to co-commit, and it is what makes a stage uninhabitable rather than merely flat.
+
+**The envelope does not depend on the ground.** The continuum above is stated without reference to whether the medium carries resistance, and that silence is load-bearing rather than accidental. Fluid mechanics supplies the controlled experiment: Euler ($\nu = 0$, no dissipative ground) and Navier–Stokes ($\nu > 0$, ground active) share a convective geometry and differ only in whether a tax is levied on traversing it. The 2026 extension of Euler blowup constructions into the viscous case is built on exactly that separation — the inviscid profile carries the leading-order geometry, the viscous terms enter as corrections, and external forcing pays them off. The shear envelope $A(\theta) = A_0\cos\theta$ is a pattern-plane ($P/U$) object; $R$ determines whether the shear can be *sustained*, not what shape it takes. See `On_TheCarrierTax` for the general form of that split and `On_TheStrainEigenplaneReading` for this instance of it.
+
+The continuum described here is one stage. When the substrate ratchet (`L4-TheSubstrateRatchet`) composes many such stages across descending scales, the shears accelerate and the local timesteps form a geometric series that sums to a finite total — see `L4-TheSpiralingCascade` for the composed picture and its worked fluid instance.
+
 ### B. Vertex-Fusion at the Endpoint: The Three Topological Dipoles
 
 When a bimedian matching undergoes complete $90^\circ$ collapse (§V), both of its constituent edges collapse to zero impedance simultaneously ($e_1 \to 0$ and $e_2 \to 0$). Collapsing two opposite edges of a 4-vertex complete graph ($K_4$) executes **pairwise vertex-fusion**: the four distinct vertices collapse into **two compound nodes connected by a single axis**.
@@ -325,7 +331,7 @@ A two-node system connected by an axis carrying opposing operational charges is 
   * **Asserting Node $[P \equiv R]$:** Fire + Earth / Power + Resistance ($++$ fused with $-+$). Combines gravity/mass ($P$) and color confinement ($R$) into a single, high-inertia Asserting node (GravityStrong).
   * **Yielding Node $[I \equiv U]$:** Water + Air / Current + Voltage ($--$ fused with $+-$). Combines electroweak flow ($I$) and electromagnetic potential ($U$) into a single Yielding node (ElectroWeak).
 * **Systemic & Physical Identity:** **The Magnetic / Storage / Confinement Dipole.** This is the axis of DNA double-helix base-pairing and $d$-wave altermagnetism (`Q11-ArchitectureOfConfinement`). Node 1 ($[P \equiv R]$) and Node 2 ($[I \equiv U]$) sit in $90^\circ$ real-space quadrature ($j$-operator), canceling real-space stray fields ($M = 0$) while storing maximum $k$-space phase texture in $h\mathbf{Q}$.
-* **Corpus Attractor:** The **Isotropic Pole / Writing Matching** (`L4-DynamicDistortions101`).
+* **Corpus Attractor:** The **Isotropic Pole / Writing Matching** (`L4-DynamicDistortionsTechnical`).
 
 #### 3. The Mutable Dipole ($[P \equiv I] \longleftrightarrow [U \equiv R]$)
 

@@ -33,6 +33,8 @@ When the duration of an event approaches zero, the *rate* of that event approach
 
 This maps to the **Tangent Singularity**. As the system approaches the transition threshold (approaching an orthogonal $90^\circ$ phase shift relative to the local plane), the trigonometric tangent approaches verticality. The slope becomes infinite. The local coordinate system of standard dimensional physics breaks down completely because it cannot process an instantaneous, orthogonal flip.
 
+The singularity has two readings, and they resolve to the same geometry. Read as a single Blanket crossing — the one this section develops — it is the coordinate system reporting its own boundary as a divergence. Read as the accumulation point of an iterated cascade of finer $K_4$ shears composed by the substrate ratchet, it is the limit of a convergent geometric series of ever-shorter local timesteps. Both readings identify the same event; the second reading is what `L4-TheSpiralingCascade` develops, and it is the reading a self-similar physical process (vortex refinement, implosion, avalanche) makes visible.
+
 ## 4. When Rate Models State
 
 At the exact boundary of the Tangent Singularity, the standard dimensions of physics dissolve.

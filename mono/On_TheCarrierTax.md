@@ -112,6 +112,8 @@ The bound is exact. The gap is a count. Neither is mysterious, and the only reas
 
 `L4-ThePlenum` §I.4 commits to the medium paying a Landauer tax on its $R$-channel, and `L3-TheConstitutiveAlpha` reads $\alpha = Z_0/2R_K$ as the ratio of the medium's reactance to its own resistance quantum. The relation above is the same accounting at a different scale: a bound stated on the energy-and-pattern side ($P/U$), a payment made on the flux-and-level side ($I/R$), and the ratio between them a native count rather than an imported constant.
 
+`L4-TheSpiralingCascade` §VII is the same split read at a singularity. A continuum PDE prices the pattern side only and therefore reaches its accumulation point; the physical system truncates where its carriers run out — for a fluid, at the Knudsen threshold $Kn = \lambda_{\text{mfp}}/r \gtrsim 0.1$ — and pays out as heat instead. The mathematical singularity and the carrier floor are not in competition there either. One is a $P/U$ statement about pattern; the other is where the $I/R$ payment is actually made.
+
 The companion project *InnerSenses* uses the relation at one point only, in `SensoryReference-Foundations` §V, to price the cost of holding a perceptual frame. What it accounts for there is the metabolic cost of neural signalling — ions pumped back across a membrane — and not anything larger. The derivation reaches signalling and stops.
 
 The recurring failure — a $P/U$-plane bound proposed as mechanism, displaced by an $I/R$ mechanism at a gap of eight to ten orders — is predictable from the structure rather than a series of unrelated mistakes. It will happen again in any domain where the pattern side has a clean law and the carrier side does not.

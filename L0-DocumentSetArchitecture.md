@@ -183,8 +183,20 @@ Applied domain analyses and structural deconstructions:
 - **`mono/On_The_Latin_Triad.md`**: *Implicare, Intellegere, Perficere* and the silent 4th pole $P$.
 - **`mono/On_The_Sixteen_Types.md`**: Deconstructing MBTI into directional field orientations ($I/E, J/P$).
 
-- **`mono/On_The_Four_Cogitos.md`**: Maps Western and comparative philosophy onto the four observer-poles (Mind/U, Body/R, Will/P, Heart/I). Derives the U-Symmetric Convergence Theorem and U-Absent Structural Asymmetry. Formalizes the Centroid as the Interior Forge (Quintessence, Ω), the minting of Local Discourse Time, the AC connection of thought, and the Heart-Will-Mind-Body fourfold fusion.
+- **`mono/On_TheFourCogitos.md`**: Maps Western and comparative philosophy onto the four observer-poles (Mind/U, Body/R, Will/P, Heart/I). Derives the U-Symmetric Convergence Theorem and U-Absent Structural Asymmetry. Formalizes the Centroid as the Interior Forge (Quintessence, Ω), the minting of Local Discourse Time, the AC connection of thought, and the Heart-Will-Mind-Body fourfold fusion.
 - **`On_TheDirectedReadingRule.md`**: The target-based rule (Y=P → Cardinal; Y=I → Mutable; Y=R → Fixed; Y=U mirrors source) that determines bimedian assignment for directed K4 edges. Closes the observer-pole naming discipline of `L3-TheAtomOfSpace` §VI.
+- **`On_GodTypes.md`**: The morphological god-types pattern, Cycle β's walked and unwalked edges, and the Correction Loop 2 requires.
+- **`On_HallsInformal.md`**: Edward T. Hall's cultural anthropology (proxemics, chronemics, high/low context, silent language) mapped onto the K4 Markov Blanket as its four instrument-faces (Space/R, Time/P, Context/U, Communication/I).
+- **`On_TheCarrierTax.md`**: Why the Landauer bound is exact but never binding for macroscopic systems; the pattern-plane ($P/U$) vs. carrier-plane ($I/R$) split, with the count of quanta per bit resolved as the mediating ratio between them.
+- **`On_TheIsNessTax.md`**: The ongoing Landauer holding cost each K4 pole pays to maintain its character-distinction from neighboring poles at a given scale-rung. Decomposes mass ratios into three layered taxes (inter-rung carrier step + intra-rung is-ness-tax difference + return-leg re-holding cost) and posits testable structural predictions across the twelve K4 fermion configurations.
+- **`On_TheCompassOfElea.md`**: Six stories on paradoxes of motion, infinity, and substrate. Compass architecture with three orthogonal axes carrying the Zeno-family taxonomy (Zeno Inversion, Anti-Zeno, Feigenbaum, substrate floor).
+- **`On_NavierStokesCrowbar.md`**: Forensic synthesis of a nine-pass adversarial dialectical exercise against the Clay Navier–Stokes problem. Failure modes (Panopticon Effect, Category Slippage, Symbolic Kidnapping, Structural Mimicry). Sign proposition for the $P$-pole. Master Ledger of what died and what survived. Companion to `On_NavierStokes.md`.
+- **`On_TheFourSeasons.md`**: The four seasons as K4 home quadrants, with elemental triplicities anchored across the six edges. Every season tethers its three gates to the triplicity of its sustaining element.
+- **`On_TheEgyptianPantheon.md`**: Egyptian pantheon on K4 poles; Nun and the Ogdoad read as the $H_{\text{incoh}}$ seed of the primordial ground.
+- **`On_TheHinduPantheon.md`**: Hindu pantheon on K4 poles; functional identity across pantheon systems. (Includes the Krishna–Christ identity as one facet.)
+- **`On_TheTreeAndWorlds.md`**: Jewish mysticism — the Tetragrammaton, the Tree of Life, the Four Worlds — on the K4 centroid, the octave cascade, and the geometry of the Divine Name.
+- **`On_NavierStokes.md`**: Structural reading of the Clay Navier–Stokes problem across its forced (C/D) and unforced (A/B) formulations. Four-floor decomposition on the K4 poles ($U$/Mach, $R$/Knudsen, $I$/Circulation, $P$/Energy). Reads $\rho\equiv1$ as deletion of the causal floor, silencing both shock formation and Lighthill acoustic radiation. Radius-independent stage tax $\Delta E_n \sim \nu\Gamma_n L_n$. BKM read as turnover counter — the winding-angle $\int\omega\,dt$ of the helical Braid — with $n_*\sim Re_{\Gamma,0}<\infty$ for unforced coherent cascades. Companion to `On_NavierStokesCrowbar` (nine-pass dialectic) and `On_TheStrainEigenplaneReading` (fluid-instance detail).
+- **`On_TheStrainEigenplaneReading.md`**: Strain-eigenframe reading of the vortex singularity. Symmetry reduction $T_d \to D_2 \cong V_4$ under anisotropic strain preserves precisely the three bimedian half-turns and nothing else. Four destinations of the compressed interior. AC-impedance translation of the tangent singularity ($X_L\to\infty$, PF$\to 0$). Projection-debt reading of the analytic modulation apparatus. Companion instance-detail for `On_NavierStokes.md`.
 
 *(Note: High-dependency formal monographs remain in the formal spine root: `L3-NonSoficTopologicalVolumes.md`, `L3-NonSoficTopologicalVolumes-Meta.md`, `L5-TheCyclingMind.md`, `L4-TheAcousticOhm.md`, `L4-T
 heOctaveAndVerticalResonance.md`.)*
@@ -272,7 +284,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **mono/On_The_Dimensions_of_the_Ohm.md:** `#Ohm` `#Dimensions` `#ACExtension` `#SomaticInertia`
 - **mono/On_The_Latin_Triad.md:** `#Implicare` `#Intellegere` `#Perficere` `#SilentFourth`
 - **mono/On_The_Sixteen_Types.md:** `#MBTI` `#CognitiveFunctions` `#DirectionalSwap` `#Deskilling`
-- **mono/On_The_Four_Cogitos.md** #FourCogitos #ObserverPoles #MindBodyWillHeart #InteriorForge #Quintessence #LocalDiscourseTime #USymmetricConvergence #MindAbsentAsymmetry #ACConnectionOfThought #MonadologicalDepth #PhaseSpaceAttractors #AnaximanderVsDescartes #FourfoldFusion
+- **mono/On_TheFourCogitos.md** #FourCogitos #ObserverPoles #MindBodyWillHeart #InteriorForge #Quintessence #LocalDiscourseTime #USymmetricConvergence #MindAbsentAsymmetry #ACConnectionOfThought #MonadologicalDepth #PhaseSpaceAttractors #AnaximanderVsDescartes #FourfoldFusion
 
 **Fiction & Mythopoetic Diagnostics (`fiction/`)**
 - **fiction/TooTrue-TheCambridgeIntercept.md:** `#Gall` `#Bacon` `#Aphorism` `#OperationalFallacy`

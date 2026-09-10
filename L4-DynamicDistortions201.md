@@ -37,6 +37,10 @@ Because the system possesses internal hidden layers and a decoupled buffer, info
 
 **The $\theta = \pi$ limit (Anti-Synchronous):** The two instances alternate at maximum offset. This state is structurally uninhabitable as a resting position. It models an infinite temporal lag, which mathematically severs the Braid. Systems approaching this limit operate in a transient limit-cycle, unable to co-commit.
 
+Note that this $\theta$ is a temporal phase offset and reaches its limit at $\pi$. The $\theta$ of `L4-DynamicDistortions301` §VI.A is a geometric shear parameter on a single cross-section and reaches its limit at $\pi/2$. Both are torsion; they measure different things.
+
+A system driven hard enough to reach $\theta \to \pi$ has one route left. Being unable to co-commit at its present scale, it ejects the uncommitted potential inward, and the committed state becomes the standing ground of a smaller, faster frame — the $P_N \leftrightarrow R_{N+1}$ handoff of `L4-TheSubstrateRatchet`. Anti-synchrony is therefore not only a pathology to be diagnosed; where a driver sustains it across successive scales, it is the mechanism that propels a cascade from one rung to the next. `L4-TheSpiralingCascade` develops that case, where $\omega_n \tau_n \gg 1$ holds at every stage and the handoffs accumulate to a finite-time limit.
+
 ---
 
 ## II.a The Torsional Limit-Cycle in Optimization
