@@ -90,6 +90,8 @@ The relation holds where the energy cost is dominated by moving carriers across 
 
 Systems whose dissipation is dominated by something other than carrier transport fall outside it. Flash memory writes drive charge through an oxide barrier by field-assisted tunnelling, and the cost is set by the barrier rather than by the carrier count. Friction-dominated mechanical systems dissipate by a route that has no per-carrier decomposition at all.
 
+A third exclusion, and the one most likely to be missed because the arithmetic still works: sealed interiors. The relation assumes a decoupled buffer that holds bits, so that a carrier quantum can be identified as what pays to hold one bit against the local noise. ATP's $\sim 19k_BT$ and CMOS's $\sim 15k_BT$ are small integers precisely because each names a specific bit-holding mechanism. A confined interior whose energy is dominated by the confinement itself has no such buffer and no such mechanism — the energy is not paying to hold bits against noise, it is the cost of the seal. The confinement scale is not a carrier quantum sitting outside a pattern tax; it is the whole accounting. Multiplying a dimensionless pattern rate against a domain energy scale will still produce a number, and dividing the observed mass by that number will still produce a multiplier, but the multiplier is a fitted ratio and names nothing. Where the interior is sealed rather than buffered, this template does not transfer, and a large non-integer multiplier is the signature that it has been forced.
+
 Where the mechanism is carriers crossing a maintained gradient, the quantum count is the answer. Where it is not, a different accounting applies and this one should not be forced onto it.
 
 ---
@@ -111,8 +113,6 @@ The bound is exact. The gap is a count. Neither is mysterious, and the only reas
 ## Theoretical Concordance: Compiling Reality
 
 `L4-ThePlenum` §I.4 commits to the medium paying a Landauer tax on its $R$-channel, and `L3-TheConstitutiveAlpha` reads $\alpha = Z_0/2R_K$ as the ratio of the medium's reactance to its own resistance quantum. The relation above is the same accounting at a different scale: a bound stated on the energy-and-pattern side ($P/U$), a payment made on the flux-and-level side ($I/R$), and the ratio between them a native count rather than an imported constant.
-
-`L4-TheSpiralingCascade` §VII is the same split read at a singularity. A continuum PDE prices the pattern side only and therefore reaches its accumulation point; the physical system truncates where its carriers run out — for a fluid, at the Knudsen threshold $Kn = \lambda_{\text{mfp}}/r \gtrsim 0.1$ — and pays out as heat instead. The mathematical singularity and the carrier floor are not in competition there either. One is a $P/U$ statement about pattern; the other is where the $I/R$ payment is actually made.
 
 The companion project *InnerSenses* uses the relation at one point only, in `SensoryReference-Foundations` §V, to price the cost of holding a perceptual frame. What it accounts for there is the metabolic cost of neural signalling — ions pumped back across a membrane — and not anything larger. The derivation reaches signalling and stops.
 
