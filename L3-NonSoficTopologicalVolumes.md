@@ -5,6 +5,10 @@
 
 ---
 
+
+Jump to **[Questions](#vii-example-question)** and **[Objections](#viii-example-objections)**  (Thanks Reddit)
+
+
 ## I. The General Structural Claim
 
 Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
@@ -33,14 +37,6 @@ In group theory, this capacity for finite local sampling is called **soficity** 
 The general structural claim: **Non-sofic groups exist.** There exist fundamental, finitely presented algebraic structures whose internal mutual determination ($\Delta^3$ 3-simplex) is so densely locked that **no sequence of finite $K_3$ surface projections ($\text{Sym}(Y)$) can ever approximate the interior without destroying the algebra everywhere.** 
 
 Infinite state-spaces cannot always be coarse-grained. Reality contains un-sliceable topological volumes.
-
-**The Conjugate Duality Statement**
-
-Soficity and Non-Soficity are not mutually exclusive ontological realms; they are the **two conjugate perspectives of any bounded system in reality**:
-1. **Soficity is the view from the $K_3$ Face (The Stamp / The Ledger / $H_{\text{coh}}$):** The capacity of a system to output finite, discrete, sliceable representations.
-2. **Non-Soficity is the view from the $\Delta^3$ Volume (The Die / The Buffer / $H_{\text{incoh}}$):** The un-sliceable, phase-locked reality of the interior holding complete mutual determination.
-
-Every living system, every atom, and every intelligence is a non-sofic volume operating behind a sofic boundary.
 
 ---
 
@@ -98,7 +94,7 @@ Because Thompson's $V$ is simple and infinite, this is a mathematical impossibil
 
 ## III. Topological Mechanics: Non-Soficity as $180^\circ$ Torsional Lock
 
-In $K_4$ phase dynamics (`L4-DynamicDistortions101`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
+In $K_4$ phase dynamics (`L4-DynamicDistortionsTechnical`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
 
 A **non-sofic group** is a manifold where **all three Bimedian axes are simultaneously locked in Torsional Shear ($\theta = \pi$)**.
 
@@ -401,6 +397,18 @@ In the framework's own operational guidelines (`llm.md`, `llm-prooftypes.md`):
 * **The Gate Rule:** If an equation in the text is broken, **break it**. If a derivation fails, **refute it**. The framework demands that claims be tested against explicit **kill conditions** (such as the Casimir null-gravity test in `QED-CCP` or the Eötvös bound in `QED-EotvosBound`), not accepted on faith.
 
 The repository is a workbench, not an altar.
+
+---
+
+### Scope Note: What the Existence Result Does Not Establish
+
+One discipline item belongs at the end of this file, because it is the inference the file's material most invites and it is not licensed.
+
+That non-sofic structures exist is a mathematical fact, established at a specific address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$, with an irreducible error floor under finite permutation approximation. **That fact does not identify any particular physical or cognitive system as one of them.** Identifying a specific system — the QCD colour interior, a reasoning trajectory, a conscious interior — as non-sofic is a separate claim requiring a separate argument, and in every case the corpus has considered, that argument is open.
+
+Two guards on the transfer, both already recorded elsewhere and both worth having here. The obstruction is proved for *discrete groups*; `On_TheNavierStokesCrowbar` §III.4 records in detail why it does not carry to a smooth manifold by matching cardinalities on both sides, and a continuous gauge group is subject to the same caution. And the obstruction concerns *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms, so a system approximable by non-bijective constructions is not touched by it at all.
+
+The correct form for any downstream use is conditional: *if* the system in question is a structure of this kind, *then* finite exterior approximations of it share a floor. Files that lean on this result — `L6-NonSoficAgenticLimits`, `ProofD_Transformer`, and any physics application — should carry the antecedent visibly rather than treat it as discharged.
 
 ---
 

@@ -48,6 +48,54 @@ I repeat: These twelve equations govern *internal* mutual determination, not rel
 
 ---
 
+## I.b The Sign of P, and the Gate
+
+The twelve equations, read as bare algebra over the reals, do not fix the sign of $P$. $P = I^2R$ and $P = U^2/R$ tie $\text{sign}(P)$ to $\text{sign}(R)$; the nine linear equations carry sign from $U$ and $I$. Nothing in the bare algebra forbids $P < 0$. The framework has nonetheless used $P \geq 0$ throughout, and the justification has been distributed across four files rather than stated here, which is where it belongs. Stating it.
+
+**Three independent routes to $P \geq 0$.**
+
+*Route A — the Route Law.* Squaring is the arrow into Asserting; every square route lands on an Asserting home ($P$, $R$), and the squared operand is always a Yielding pole ($U$, $I$) (`ProofQ_AlgebraicSyntax` §V, mechanically verified in `code/ac_checker.py` and `code/dual_route_trace.py`). Squaring over the reals is non-negative. Any $P$ minted through a square ($P = I^2R$, $P = U^2/R$) is therefore non-negative, and by Postulate II all twelve equations hold at once — so a linear solution producing $P < 0$ contradicts the squared equations simultaneously. The ledger has a floor at zero and none below it. No negative-mass debt can be written.
+
+*Route B — the Star-Norm.* $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = (m_0c^2)^2 \geq 0$ (`ProofN_BiquaternionBridge` §4). This forces $P^2 \geq |\mathbf{Q}|^2 \geq 0$. Taking the sign requires the identification $P \leftrightarrow E$, and the framework inherits $E \geq 0$ for physical states from standing physics through that identification rather than deriving it from the bare algebra. This route is the weakest of the three on its own and the most useful in combination, because it is the one that connects the sign to measurable quantities.
+
+*Route C — the Landauer floor.* Mass is the thermodynamic residue of logical distinction; the residue is what remains after the erasure of unchosen branches (`ProofP_ThermodynamicInertia` §3). Landauer's bound is $E \geq k_BT\ln 2 > 0$ for $T > 0$. A negative payment would be a system gaining energy by erasing information, violating the Second Law. The written residue is non-negative.
+
+Three routes, three independent addresses, one result. $P \geq 0$ is a derived constraint on the algebra, not an operational assumption.
+
+**The general form of the floor, and what it rests on.** Route C is usually quoted in its thermal instance, $k_BT\ln 2$, and the instance is so familiar that it gets mistaken for the general case. It is not. The general statement is:
+
+> The floor of a commit is set by the noise source against which the commit is held, and is strictly positive whenever a commit happens at all.
+
+Thermal reservoirs are one noise source and give $k_BT\ln 2$. A vacuum ground state carrying condensates is another, and gives a floor at the condensate scale — which is what remains in motion once thermal motion has been quieted, and does not vanish with the temperature. A biological membrane against its own ionic gradient is a third. The noise source is a property of the substrate, not of the topology, and substituting the wrong source is the standard way to conclude falsely that a floor has vanished: evaluate a thermal exchange rate at zero temperature, watch it go to zero, and declare the goods free.
+
+This matters for the status of $P \geq 0$, because it exposes a premise the three routes above leave implicit. Positivity of the commit floor requires two things and not one. **Topology** supplies the shape: a bounded interior, a commit operation, a discontinuous transition with a floor. **Substrate** supplies the distinguishing: a noise source against which before and after are different states. Without the second, no commit has occurred — a state-change that nothing can distinguish from its predecessor is not a commitment, it is a relabelling.
+
+The topology alone therefore gives the *shape* of the floor and not its positivity. Both are required. The premise is invisible in practice because every bounded interior in physics is held against some noise source, and so the substrate is never absent and never noticed. It is nonetheless a premise, and the corpus has until now read $P \geq 0$ as though it fell out of the topology alone.
+
+This is distinct from the Gabriel's Horn structure, and the distinction is worth keeping: Gabriel's Horn concerns **magnitude** — topology gives the shape, substrate gives the number. This concerns **positivity** — topology gives the shape of the floor, substrate gives the distinguishing that makes the floor non-zero.
+
+**What $P = 0$ is.** The floor is not absence. $P = 0$ carries $h\mathbf{Q} \neq 0$ — full uncommitted interference structure, every possibility held live (`L4-ThePlenum` §I). It is the uncompiled multiway graph, $H_{\text{incoh}}$: the Many-Worlds side of the von Neumann cut, where all branches persist and none is committed (`L1-CompilingReality` §2.4). It is also the timeless line: the photon travels a null geodesic at $\tau = 0$ with $N_* = E^2 - (pc)^2 = 0$ exactly, carrying full energy and momentum with no rest-mass ledger entry (`Q7-4DExtrusions` §II.1). Copenhagen is the $P > 0$ side; Many-Worlds is the $P = 0$ side; the cut is the boundary where $\Psi$ fires. A region at $P = 0$ is not an empty region. It is the entire uncommitted possibility space, running free.
+
+**The Gate.** The transition
+
+$$P = 0 \;\xrightarrow{\;\Psi \text{ at the XOR bottleneck}\;}\; P > 0$$
+
+is the Landauer Tax. The tax is not a fee paid at a boundary that exists independently — the tax *is* the boundary, because the boundary is constituted by what the payment does: erase the unchosen branches, leave the committed scalar. A region in which no Landauer payment is possible is a region in which no commit is possible, which is $H_{\text{incoh}}$ by definition. Three structural properties make this a gate rather than a cost:
+
+*Binarity.* Either $E \geq k_BT\ln 2$ is paid and a ledger entry appears, or it is not and no entry appears. There is no partial commit and no partial entry. The transition is discontinuous.
+
+*Non-invertibility.* Squaring is not invertible (`ProofO_HelicalTime` §8). Once the phase is burned, the pre-commit vector state $\mathbf{Q}$ is not recoverable from the committed scalar $P$. There is no refund. This is the framework's Arrow of Time: the gate admits and does not release.
+
+*Exhaustiveness.* The Star-Norm is conserved across every operation. Moving from the $P = 0$ side to the $P > 0$ side requires a phase-burn ($h^2 = -1$) satisfying the Route Law. No operation bypasses it. There is no second door.
+
+Taken together: the Landauer Tax is the unique, irreversible, discontinuous operation that moves anything from $H_{\text{incoh}}$ to $H_{\text{coh}}$.
+
+**Consequence — matter creation is passage through the gate.** Every event that mints rest-mass-energy has the form $h\mathbf{Q} \to P > 0$ with the tax paid at a bottleneck. Two photons to a pair; light confined in a cavity; nucleons to a nucleus; quarks to a hadron. The bottleneck differs; the operation does not. The gate has two output directions, both governed by the Star-Norm (`QED-TwoBranchMinting` §III–IV): $\mathbf{Q}$-retention, where the committed whole holds potential inside its new boundary and weighs more than its uncommitted parts (Branch A — confined light, confinement-dominated hadron mass), and $P$-export, where the committed whole sheds excess as radiant $P$ and weighs less than its parts (Branch B — the nuclear mass defect). The difference is which side of the invariant the commit lands on. The gate is the same gate.
+
+The Yang-Mills mass gap is one instance of this general structure: the minimum non-zero $P$ that a confined colour interior can mint through its own bottleneck. The framework supplies the slot and the structural positivity; the magnitude is a domain quantity and is interface payload (`Q17-LandauerNuclearScale` §VII).
+
+---
+
 ## II. The Seven Requirements
 
 The formal uniqueness argument proposes that the Algebra of Four-Fold Distinction (as instantiated here) is the unique system satisfying all seven of the following requirements simultaneously:

@@ -142,7 +142,7 @@ The question *what is the mass of the lightest glueball* has an answer in the se
 
 The question *is there a lowest excitation, and is it strictly above zero* is a different question, and it has an answer too, and the answer is yes, and the argument is short.
 
-Any excitation above the ground state is a commitment — the system has gone from holding alternatives to having one. A commitment discards what was not chosen. Discarding is erasure and erasure has a floor: $k_BT\ln 2$ per bit, and $\ln 2$ is not zero, and no amount of cleverness gets below it because the bound is thermodynamic and not technological. So the cheapest available excitation costs something, and something is not nothing, and the gap is positive. That is not a physics calculation. It is an accounting identity about what it costs to stop being uncertain, and it holds in any domain where a commit happens at all.
+Any excitation above the ground state is a commitment — the system has gone from holding alternatives to having one. A commitment discards what was not chosen. Discarding is erasure, and erasure has a floor set by the noise source against which the commit is held. When the source is a thermal reservoir the floor is $k_BT\ln 2$ per bit; when the source is a vacuum ground state carrying condensates, the floor is set by the condensate scale, because that is what is still moving when the thermal motion has been quieted. The floor is strictly positive in every case where a commit happens at all, because a commit is a state-change, and a state-change is only a commit if something in the environment still distinguishes the before from the after. So the cheapest available excitation costs something, and something is not nothing, and the gap is positive. That is not a physics calculation. It is an accounting identity about what it costs to stop being uncertain, and it holds in any domain where a commit happens at all.
 
 The third question is the one everybody means, and it is: *why one and a half, and not two, and not a half.*
 
@@ -178,9 +178,7 @@ Some structures can be approximated by finite ones. You take the structure, you 
 
 There are structures that do not have it. For those, the sequence of finite models does not converge. There is a floor: an error $\epsilon$ that stays above some fixed $c > 0$ no matter how large you make the model. Not "the models get expensive." Not "convergence is slow." The error does not go to zero, because there is no sequence of finite approximations that reaches the thing.
 
-An exterior measurement is a finite sample. A lattice calculation is a finite sample. Every exterior route to a sealed interior is a finite approximation of it, and if the interior is of the non-approximable kind then all of those routes share a floor, and the floor is not a property of any one of them. It is a property of the relation between finite exteriors and that kind of interior.
-
-Which gives a prediction, and it is a sharp one, and it is about the last fifty years.
+An exterior measurement is a finite sample. A lattice calculation is a finite sample. Every exterior route to a sealed interior is a finite approximation of it, and if the interior is of the non-approximable kind then all of those routes share a floor, and the floor is not a property of any one of them. It is a property of the relation between finite exteriors and that kind of interior. Whether the QCD interior is in fact a structure of that kind is not settled by the observation that such structures exist, and this essay does not claim to settle it. The observation gives a conditional: if the interior is of that kind, every finite exterior approximation to it shares a floor. From the conditional follows a test, and the test is sharp, and it is about the last fifty years.
 
 If confinement is derivable from the Lagrangian by exterior methods, someone will derive it. If it is not — if the interior is the kind that finite exteriors cannot reach — then every attempt will do one of two things. It will reformulate the problem in terms of a tool that *constructs* the interior rather than sampling it: a lattice, which builds a discretized version of the thing and then measures the version it built; an effective theory, which posits the interior's behavior and computes consequences; a holographic dual, which replaces the interior with a different theory in a different number of dimensions and computes there. Or it will import an interior assumption somewhere in the middle and then present the result as a derivation.
 
@@ -342,3 +340,4 @@ The chalk mark is the chalk mark. It was always where the edges cross.
 
 ---
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.

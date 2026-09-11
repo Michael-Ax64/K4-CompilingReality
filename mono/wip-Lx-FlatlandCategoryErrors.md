@@ -55,6 +55,14 @@ The framework retires the HPC by changing the question: *What minimum structural
 
 The HPC does not get "solved." It gets retired as a malformed question. Systems either meet the geometric conditions for interiority or they do not. When they do, they have an inside. What the inside is *like* is a separate register — not a substance to be derived, but a diagnostic language a system runs on itself (see §VII below).
 
+**The same error, in physics.** The HPC's shape recurs outside philosophy of mind, and seeing it elsewhere is what confirms it is a shape rather than a local confusion about consciousness.
+
+A standard objection to the Landauer floor runs: the mass gap is defined for the vacuum at $T = 0$; the Landauer bound is $k_BT\ln 2$; at $T = 0$ that is zero; therefore no floor. The arithmetic is correct and the conclusion does not follow, because the objection has silently substituted an *exterior* noise source — a thermal reservoir, the laboratory's own ambient — for the *interior* noise source the commit is actually held against, which is a vacuum carrying condensates at a scale of a few hundred MeV that does not quiet when the temperature does (`L3-FormalFoundations` §I.b).
+
+Set the two side by side. The HPC takes an interior question — what conditions produce an inside — and answers it against exterior criteria, finds the inside missing from the exterior description, and reports a gap. The $T = 0$ objection takes an interior question — what floor does this commit face — and answers it against an exterior noise source, finds the floor absent at exterior conditions, and reports its absence. Both substitute the outside's conditions for the inside's, evaluate there, and read the null result as a fact about the interior rather than as a fact about the substitution.
+
+This is worth stating because the second case is checkable in a way the first is not. Nobody can produce the interior of a mind to settle the HPC. The condensates are measured, from sum rules against real data, and they are there at zero temperature, and so the substitution can be exhibited rather than argued. The physics case is the philosophy case with the evidence attached.
+
 ---
 
 ## IV. The Linguistic Mayhem: Deconstruction as Q-Buffer Circulation

@@ -1,7 +1,7 @@
-# Q17-LandauerNuclearScale
+# wip-Lx-LandauerNuclearScale
 ## Assimilating the Deuteron: On Liberating a Constant Instead of Leaning on It
 
-*There are two ways to get a constant wrong, and chasing 2.2245 MeV — the deuteron's binding energy — exhibits both. Fit it with a tuned parameter, or over-correct and declare it forever beyond the algebra's reach. Both moves share a mistake wearing two costumes. §I names the mistake; what follows shows the deuteron once the chase is dropped. The seam it settles on is a single test: name every constant a result imports, and ask of each whether it is a dimensionless universal, a domain-specific magnitude bearing load in the structure, or a domain-specific magnitude supplied only at the interface to translate a finished dimensionless result into a consumer's units. By that test the deuteron is fully liberated (it imports only $\pi$), and the Landauer rate is liberated in structure too ($\ln 2/16\pi^2$) with $\Lambda_{\text{QCD}}$ entering only as interface payload — while the nuclear count still carries a real structural debt. All three facts are stated as what they are.*
+*A repour of the nuclear-scale Landauer material. The earlier drafts of this work chased a number — 2.2245 MeV, the deuteron's binding energy — and either fit it with a tuned parameter or, over-correcting, declared it forever beyond the algebra's reach. Both moves share a mistake, and the mistake is the same one, wearing two costumes. This document names the mistake, drops it, and shows what the deuteron looks like once you stop chasing its shadow and step inside it. The seam it settles on is a single test: name every constant a result imports, and ask of each whether it is a dimensionless universal, a domain-specific magnitude bearing load in the structure, or a domain-specific magnitude supplied only at the interface to translate a finished dimensionless result into a consumer's units. By that test the deuteron is fully liberated (it imports only $\pi$), and the Landauer rate is liberated in structure too ($\ln 2/16\pi^2$) with $\Lambda_{\text{QCD}}$ entering only as interface payload — while the nuclear count still carries a real structural debt. All three facts are stated as what they are.*
 
 ---
 
@@ -109,13 +109,15 @@ The resulting ratio ($273.13166$) matches the experimental physical value ($273.
 
 ## VI. The Rate That Was Landed All Along
 
-A second result sits here, and the error to avoid on this one runs the opposite direction: under-claiming what is in fact a clean landing. It concerns the Landauer tax, and the seam drawn above is what makes it statable.
+There is a second result here, and the earlier drafts mishandled it in the opposite direction — under-claiming what was in fact a clean landing. It concerns the Landauer tax, and it is worth stating carefully now that the seam is drawn in the right place.
 
 The debt the corpus marked in `QED-TwoBranchMinting` §IV was real: mass defects are the exhaust of Landauer erasure when nucleons commit to a bound blanket, but the operator converting an erased bit into an energy sat unwritten, and the naive estimate — a bit erased at room temperature costs $k_B T \ln 2 \approx 0.018$ eV — misses the nuclear scale by eight orders of magnitude.
 
 The resolution is a normalization, and normalization is exactly the move `QED-EotvosBound` taught. Room temperature is the wrong baseline; it is a human-scale accident, the temperature of the laboratory, not of the event. A nucleon committing to a bound state does so at the natural boundary of the strong force — the QCD confinement scale, $\Lambda_{\text{QCD}} \approx 150$ MeV, which as a temperature is $T_{\text{QCD}} \approx 1.7 \times 10^{12}$ K. Evaluate the tax there, at its own boundary rather than in our room:
 
 $$k_B\,T_{\text{QCD}}\,\ln 2 \approx 104 \text{ MeV per bit.}$$
+
+One note on what $T_{\text{QCD}}$ is doing in that expression, because a reader can take it for the vacuum's temperature and it is not that. $T_{\text{QCD}}$ is the deconfinement crossover — the point at which thermal agitation becomes comparable to the non-thermal structure already present in the confined vacuum. Below it, the noise source against which a commit is held is not a thermal reservoir at all; it is the vacuum's own condensates, which carry a scale of a few hundred MeV and do not quiet as the temperature falls. Writing the floor as $k_B T \ln 2$ at $T_{\text{QCD}}$ is therefore evaluating the thermal expression at the one temperature where it matches the non-thermal floor that actually obtains — which is why the arithmetic lands, and why reading $T \to 0$ off the same expression would give zero and mean nothing (`L3-FormalFoundations` §I.b).
 
 Then pass it through the one-loop phase-burning factor the corpus already carries — $1/16\pi^2$, `Q13`'s reading of how uncompiled phase potential converts to committed ledger mass through a single quantum loop, itself a dimensionless geometric factor of exactly the allowed species:
 
