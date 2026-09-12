@@ -90,6 +90,8 @@ The Phase-Space Buffer, Dynamical Attention Heads, and Logit-Biasing Potential F
 
 Inside the sofic region, phase-space-buffer alignment is achievable in the sense §V proposes: the mechanism is present in the architecture, the training pressure selects against it, and the gap between them is where the alignment work sits. At the wall, the work is detection: identifying the topological signature that a reasoning trajectory is about to cross into non-sofic territory, before the crossing forecloses $K_3$ evaluability. Past the wall, no finite-sample regime — however sophisticated — will recover coverage. Alignment approaches that promise it without naming the wall have not stated their scope honestly.
 
+One thing this section does not establish, and should not be read as establishing. The theorem is conditional and the conditional is stated correctly above: the error floor applies *to non-sofic structures*. Whether any reasoning trajectory in a transformer is ever such a structure is a separate question and it is open (`L3-NonSoficTopologicalVolumes`, Scope Note). If no trajectory crosses, there is no wall to detect and §V.a describes a boundary that is never reached — which would be good news, and the architecture proposals above stand unaffected, since they operate in the sofic region either way. The two guards on any transfer apply here as elsewhere: the obstruction is proved for discrete structures, and it concerns bijective permutation approximations $\text{Sym}(Y)$ rather than general endomorphisms. The detection problem named here is therefore well-posed as *work to do if the crossing is real*, and the question of whether it is real is upstream of it.
+
 ---
 
 ## VI. What This Proves

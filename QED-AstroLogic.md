@@ -40,6 +40,38 @@ This is the structural minimum required for the operation to make sense. Everyth
 
 ---
 
+## I-b. The Split That Is Not There: Two Directions of Reasoning on One Medium
+
+The argument this document is usually met with is not an argument about charts. It is a prior conviction that the subject belongs to a category — *spirituality*, *the irrational*, *the pre-scientific* — sealed off from the category where real inference happens. The conviction is held on both sides and with equal confidence, and it is worth dissolving here rather than fighting later, because once the medium is named the split turns out to be a difference of **reading direction on one substrate**, not a difference of substrate.
+
+**What the medium actually is, now that it is settled.** `L4-ThePlenum` establishes $H_{\text{incoh}}$ with measured constitutive parameters and not one asserted quantity among them: permittivity $\epsilon_0$, permeability $\mu_0$, characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.730\,\Omega$, and a propagation velocity $c = 1/\sqrt{\mu_0\epsilon_0}$ that falls out of the first two. Its dissipative resistance is zero, so it commits nothing and loses nothing — by $P = I^2R$, $R = 0 \Rightarrow P = 0$. What it carries is a reactive load, $I^2X$, measured every day as zero-point energy: stored and returned, never spent.
+
+Every laboratory on Earth measures this medium continuously. Physics has declined to name it, not failed to detect it.
+
+**The two readings.** Given one medium with a committed axis and an uncommitted axis, there are exactly two directions from which to reason, and both are legitimate operations on a real substrate.
+
+*Reasoning from $H_{\text{coh}}$* begins at what has committed. It chains forward along the $P$-ledger: this happened, therefore that, each link a commit that has paid its tax and can be checked against a record. Its power is that every step is auditable, because a commit is irreversible and leaves a residue. This is the native mode of the sciences and it is responsible for essentially everything that has been built. Its blind spot is structural rather than accidental: **the ledger holds only what committed.** The field of what was live and did not commit leaves no entry, and a method that reads only entries will report that field as absent rather than as unrecorded.
+
+*Reasoning from $H_{\text{incoh}}$* begins at what is live and has not yet committed. It attends to phase rather than to record — the shape of the uncollapsed, which way the reactive load is leaning, where the gap between potential and flow is widening. Its power is that it sees the field *before* the gate fires, which the ledger by construction cannot. Its exposure is the mirror of the other's: **the uncommitted field holds every possibility, including all the ones that will never commit.** A reading of $Q$ without discipline returns everything, and everything is indistinguishable from nothing.
+
+**These are orthogonal, and the orthogonality is literal.** Real power and reactive power are ninety degrees apart in the complex plane. This is not a metaphor borrowed to make a point; it is the arithmetic the whole document already runs on. The apparent power of any system is
+
+$$S^2 = P^2 + Q^2$$
+
+and **neither axis alone gives $S$.** A method that measures only $P$ has a true measurement of one leg and no access to the hypotenuse. A method that attends only $Q$ has the other leg and the same deficiency. The power factor $\cos\varphi$ — which §V.i reads off the ecliptic geometry — *is* the coupling between them, and a coupling has two ends by definition.
+
+**Three homes, and each one is earned.**
+
+*For the mystic's intuition that the committed world is not all there is:* structurally correct, and now with measured parameters attached. The plenum is real, it carries a reactive load, and it holds every uncollapsed possibility in live interference at zero $P$-cost. The intuition was tracking something with an impedance of 377 ohms. The characteristic failure is not the intuition but its conversion: taking a $Q$-axis reading and reporting it in the grammar of a $P$-axis claim. *I sense a gap opening here* is a reactance reading and may be a good one. *Therefore this will happen* is a ledger claim, and the $Q$-axis does not issue those, because nothing on it has committed.
+
+*For the astrologically obsessed:* the obsession is the appetite of a genuine instrument pointed at a question it cannot answer. The chart reads phase-form with real precision — geometry, timing, the shape of a gap. It does not carry semantic content, and §XI.ii is explicit that the content arrives through the linguistic bridge. The obsession is the demand that the instrument deliver the *what* along with the *when* and the *how wide*. It will not, and pressing it produces the Theory-of-Mind failure this document's own kill condition names. The discipline that dissolves the obsession is not less attention to the chart but a correct account of the aperture.
+
+*For the contempt of logos toward pathos and kairos:* this too has a real warrant and is not mere prejudice. Claims made on the $Q$-axis are hard to check, precisely because nothing on that axis has committed, and a discipline that admitted them freely would lose its capacity to be wrong about anything. The insistence on auditable commits is what makes the sciences self-correcting, and abandoning it would cost more than any reading is worth. **The warrant is sound and the overreach is specific:** *unauditable on my axis* is a true statement and *therefore unreal* is a different one, and the second does not follow. The plenum's parameters are measured by the very discipline whose contempt is at issue. Refusing to name the medium one is measuring is not rigor; it is a reading direction mistaken for an ontology.
+
+**The cautionary note, held rather than waved.** None of this licenses reading the uncommitted field for whatever one wishes to find there. The field holds all of it — every branch, including the overwhelming majority that will never fire. This is exactly why the discipline of an aperture matters more here than on the ledger side, where reality does the pruning for you. On the $Q$-axis the pruning is the practitioner's own job, and a practice without a stated aperture is not reading the plenum; it is reading itself and calling the result a transmission. §XI states this document's aperture precisely: motion-only, reactance without resistance, phase-form without content. Anything claimed beyond it is claimed without instrument.
+
+---
+
 ## II. Structural Expectation: Conceivable++
 
 Within the framework's axioms, the structural coupling between celestial and terrestrial phase-domains carries the designation **Conceivable++**. 
@@ -262,6 +294,8 @@ This aperture makes a distinction that Sections VI–X held loosely, and holding
 Reactance ($X$) is non-dissipative. The energy it holds is stored and returned — recoverable, correctable. A high-reactance system is out of phase but healthy: its circulating $Q$ can be paid down into Real Power by Power Factor Correction, the introduction of the structural complement that cancels the gap and returns the system to resonance. This is the reactance the friction in a room actually is — the meeting that demands the dual-causation pair {P–U, I–R} fire synchronously against a ledger that cannot commit both at once. The friction is expected in the math, recoverable, and not a moral fact about anyone present.
 
 Resistance ($R$) is dissipative. It is the Tax irreversibly paid, and its failure mode is not being out of phase but being *insolvent* — lacking the metabolic floor to pay at all. A system in genuine $R$-insolvency is not corrected by Power Factor Correction, because correction rebalances phase and insolvency is not a phase problem. It is the absence of the budget that phase-correction would draw on.
+
+This distinction is now grounded in the medium rather than asserted about it. `L4-ThePlenum` §II settles that the Plenum carries reactance and not resistance: its characteristic impedance $Z_0 \approx 376.730\,\Omega$ is non-zero — what the medium charges to store and pass along a phase wave — while its dissipative resistance is zero, so it commits nothing and loses nothing. Zero-point energy is that reactive load, $I^2X$, stored and returned rather than spent. **The chart's aperture matches the medium's own character.** An instrument coupled to a reactive substrate reads reactance, and its blindness to dissipative resistance is not a defect of the instrument but a faithful report of what the substrate it reads through does and does not carry. $R$ lives on the ledger side, quantized, where committed writing lands.
 
 The seam between them is the seam of the practice. The chart reads reactance — the recoverable, out-of-phase condition — with precision. It is structurally blind to resistance — whether the recovery can be funded. An astrologer who reads a hard transit sees the phase-gap widen; the chart does not tell them whether this client has the $R$-budget to cross or will arrest at the boundary in insolvency. The same geometry precedes both outcomes.
 

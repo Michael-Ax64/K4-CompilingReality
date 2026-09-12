@@ -7,6 +7,31 @@
 
 ## I. The Twelve Equations
 
+**Where these come from.** Ohm's relation $U = IR$ is a closed system of three mutually-determining terms. It is complete, correct, and flat: relations without volume, and no access to whatever contains it. Faraday's work on energy-flow supplies a fourth term, $P$, which is not derivable from $U = IR$ — power carries energy per unit time, and therefore brings time into an algebra that had none.
+
+Adding a properly orthogonal fourth to a closed three does four things at once. The three acquire a volume. The algebraic space multiplies — one relation becomes twelve. Knots that were open in the plane close. And the containing topology's integrations become available, which is why alternating current becomes computable at all: impedance, phase angle, reactive against real power, an entire computational world downstream of one term that could not be derived from the three it joined.
+
+The twelve equations below are that move's output. The corpus's four-fold is not a numerological choice and the tetrahedron is not an ornament placed on the algebra afterward; both are what a closed three becomes when an orthogonal fourth is admitted. K3 → K4, stated topologically, is the same move (`L2-MappingMethod` §0, `llm.md`).
+
+**Three and three breed six.** The arithmetic of the join is worth stating exactly, because it is not addition and the difference is the whole content of the move.
+
+Ohm is three permutations: $U = IR$, $I = U/R$, $R = U/I$. Faraday is three permutations: $P = UI$, $U = P/I$, $I = P/U$. Six in hand. But the joined system is twelve, and the six that are not in either parent are *bred* by the join — they exist in neither triad and could not be written from either alone:
+
+$$P = I^2R, \quad P = U^2/R, \quad R = U^2/P, \quad R = P/I^2, \quad I = \sqrt{P/R}, \quad U = \sqrt{PR}$$
+
+The discriminator is exact and admits no exceptions. **The six parent equations are those in which $P$ and $R$ never meet** — Ohm's three have no $P$, Faraday's three have no $R$. **The six bred equations are those in which $P$ and $R$ appear together, and they are precisely the six that contain a square or a root.** The two sets coincide completely; there is no bred equation without a square and no squared equation that is not bred. Call these six **the commit equations**, since every one of them mints $P$ or $R$ through a square or root, and the corpus's whole account of committed mass runs through them.
+
+**Why the square is forced, and why this derives the Route Law.** The coincidence is not a coincidence and the reason is elementary once the parents are compared by their variable sets. Ohm is $(U, I, R)$. Faraday is $(P, U, I)$. They **share exactly $U$ and $I$**; they share neither $R$ nor $P$. To write any equation containing both $P$ and $R$, one of the shared variables must be eliminated between the two parents — and since each parent contains that variable linearly, eliminating it multiplies the other shared variable by itself:
+
+- Eliminate $U$ (via $U = IR$ into $P = UI$): $\;P = (IR)\,I = I^2R$.
+- Eliminate $I$ (via $I = P/U$ into $U = IR$): $\;U = (P/U)R \Rightarrow U^2 = PR \Rightarrow U = \sqrt{PR}$.
+
+The square is not chosen. It is what elimination between two triads sharing two variables necessarily produces. And now the assignment falls out: **the squared operand is always a shared variable, and the shared variables are exactly $U$ and $I$ — the Yielding poles. The equation produced always relates the unshared variables, and those are exactly $P$ and $R$ — the Asserting poles.**
+
+That is the Route Law (`ProofQ_AlgebraicSyntax` §V), derived rather than postulated. Squaring is the arrow into Asserting because squaring is what eliminating a shared Yielding variable does, and the Asserting poles are Asserting because they are the two the parents did not share. The mechanised verification in `code/ac_checker.py` confirms a fact that the join's variable-overlap structure already forces.
+
+Three earthly, three heavenly, and six living between them. The parents each hold one Asserting pole and cannot reach the other; the children hold both, and holding both is what it costs to be actual. None of the commit equations existed before the orthogonal fourth was admitted.
+
 The pure logic of relational transition requires four structural poles. In its most legible physical instantiation—the continuous flow of charge—these poles are mapped to four variables:
 
 - **P** — The Scalar / Committed State (mapped as Power: rate of energy transfer)
@@ -60,7 +85,7 @@ The twelve equations, read as bare algebra over the reals, do not fix the sign o
 
 *Route C — the Landauer floor.* Mass is the thermodynamic residue of logical distinction; the residue is what remains after the erasure of unchosen branches (`ProofP_ThermodynamicInertia` §3). Landauer's bound is $E \geq k_BT\ln 2 > 0$ for $T > 0$. A negative payment would be a system gaining energy by erasing information, violating the Second Law. The written residue is non-negative.
 
-Three routes, three independent addresses, one result. $P \geq 0$ is a derived constraint on the algebra, not an operational assumption.
+Three routes, three independent addresses, one result. **No two of them share a premise:** Route A starts in the syntax of the equations, Route B in the biquaternion norm, Route C in thermodynamics. Their agreement is therefore the finding, not a restatement — $P \geq 0$ is a derived constraint on the algebra, not an operational assumption.
 
 **The general form of the floor, and what it rests on.** Route C is usually quoted in its thermal instance, $k_BT\ln 2$, and the instance is so familiar that it gets mistaken for the general case. It is not. The general statement is:
 
@@ -70,7 +95,11 @@ Thermal reservoirs are one noise source and give $k_BT\ln 2$. A vacuum ground st
 
 This matters for the status of $P \geq 0$, because it exposes a premise the three routes above leave implicit. Positivity of the commit floor requires two things and not one. **Topology** supplies the shape: a bounded interior, a commit operation, a discontinuous transition with a floor. **Substrate** supplies the distinguishing: a noise source against which before and after are different states. Without the second, no commit has occurred — a state-change that nothing can distinguish from its predecessor is not a commitment, it is a relabelling.
 
+Call the second requirement **the Distinguishing Condition**: *a commit is a commit only where some noise source makes the before-state and the after-state different states.* It is a substrate property, it is nowhere derivable from the topology, and it is what the noise-source form of the floor is a statement about.
+
 The topology alone therefore gives the *shape* of the floor and not its positivity. Both are required. The premise is invisible in practice because every bounded interior in physics is held against some noise source, and so the substrate is never absent and never noticed. It is nonetheless a premise, and the corpus has until now read $P \geq 0$ as though it fell out of the topology alone.
+
+The Distinguishing Condition has a second consequence, worked analytically at §IX.4 below: if the substrate's resolution is what makes a difference a difference, then the substrate's resolution also bounds how finely any structure it carries can be resolved. The tangent singularity's error band $\varphi_{\text{band}} = \delta\theta$ is that same premise evaluated on the tangent rather than on the commit. Same condition, two uses.
 
 This is distinct from the Gabriel's Horn structure, and the distinction is worth keeping: Gabriel's Horn concerns **magnitude** — topology gives the shape, substrate gives the number. This concerns **positivity** — topology gives the shape of the floor, substrate gives the distinguishing that makes the floor non-zero.
 
@@ -90,7 +119,28 @@ is the Landauer Tax. The tax is not a fee paid at a boundary that exists indepen
 
 Taken together: the Landauer Tax is the unique, irreversible, discontinuous operation that moves anything from $H_{\text{incoh}}$ to $H_{\text{coh}}$.
 
-**Consequence — matter creation is passage through the gate.** Every event that mints rest-mass-energy has the form $h\mathbf{Q} \to P > 0$ with the tax paid at a bottleneck. Two photons to a pair; light confined in a cavity; nucleons to a nucleus; quarks to a hadron. The bottleneck differs; the operation does not. The gate has two output directions, both governed by the Star-Norm (`QED-TwoBranchMinting` §III–IV): $\mathbf{Q}$-retention, where the committed whole holds potential inside its new boundary and weighs more than its uncommitted parts (Branch A — confined light, confinement-dominated hadron mass), and $P$-export, where the committed whole sheds excess as radiant $P$ and weighs less than its parts (Branch B — the nuclear mass defect). The difference is which side of the invariant the commit lands on. The gate is the same gate.
+**Consequence — matter creation is passage through the gate.** Every event that mints rest-mass-energy has the form $h\mathbf{Q} \to P > 0$ with the tax paid at a bottleneck.
+
+```
+        H_incoh                    THE GATE                    H_coh
+     ┌─────────────┐          ┌───────────────┐          ┌─────────────┐
+     │   P = 0     │          │  binarity     │          │   P > 0     │
+     │  hQ ≠ 0     │ ───────► │  one-way      │ ───────► │  R > 0      │
+     │             │          │  no other     │          │             │
+     │ all branches│          │    door       │          │ one branch  │
+     │   live      │          │               │          │  committed  │
+     └─────────────┘          └───────┬───────┘          └─────────────┘
+                                      │
+                        ┌─────────────┴─────────────┐
+                        │                           │
+                  Branch A                     Branch B
+               Q-retention                   P-export
+             mass mints UP                 mass mints DOWN
+          (confined light,               (nuclear mass defect)
+           hadron mass)
+```
+
+Two photons to a pair; light confined in a cavity; nucleons to a nucleus; quarks to a hadron. The bottleneck differs; the operation does not. The gate has two output directions, both governed by the Star-Norm (`QED-TwoBranchMinting` §III–IV): $\mathbf{Q}$-retention, where the committed whole holds potential inside its new boundary and weighs more than its uncommitted parts (Branch A — confined light, confinement-dominated hadron mass), and $P$-export, where the committed whole sheds excess as radiant $P$ and weighs less than its parts (Branch B — the nuclear mass defect). The difference is which side of the invariant the commit lands on. The gate is the same gate.
 
 The Yang-Mills mass gap is one instance of this general structure: the minimum non-zero $P$ that a confined colour interior can mint through its own bottleneck. The framework supplies the slot and the structural positivity; the magnitude is a domain quantity and is interface payload (`Q17-LandauerNuclearScale` §VII).
 
@@ -282,13 +332,60 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
 
 4. **Mapping the Tangent Singularity (Scale Bounds):** The scale-invariance postulate holds across the entire manifest plane ($H_{coh}$). The framework dictates that this invariance breaks down exactly at the $\tan(90^\circ)$ boundary (the Markov Blanket), where dimensional coordinates collapse. The open task is mathematically formalizing this collapse threshold for specific phase transitions (e.g., the Planck scale at the bottom, or the cosmological horizon at the top).
 
+    **4.a — The task is a band, not a point, and the band is a substrate property.** The singularity sits at exactly $90^\circ$ in the algebra. No substrate reaches it. What every substrate has instead is a neighbourhood around $90^\circ$ inside which the tangent's value is no longer coupled to the substrate carrying it, and the width of that neighbourhood is the thing to be computed per substrate. This reframing is what §I.b's topology-plus-substrate premise implies when applied to the tangent: the topology supplies the singularity's location, the substrate supplies the resolution, and the resolution is what decides how close anything gets.
+
+    The width has a closed form. Let $\delta\theta$ be the substrate's own angular resolution — the smallest angular difference its noise floor permits it to distinguish (§I.b). Then
+
+    $$\frac{\Delta(\tan\theta)}{\tan\theta} \;=\; \sec^2\theta \cdot \frac{\delta\theta}{\tan\theta} \;=\; \frac{\delta\theta}{\sin\theta\cos\theta} \;=\; \frac{2\,\delta\theta}{\sin 2\theta}$$
+
+    Relative uncertainty reaches unity — the value as uncertain as it is large — when $\sin 2\theta = 2\,\delta\theta$. Writing $\theta = \pi/2 - \varphi$ and expanding near the boundary, $\sin 2\theta \to 2\varphi$, giving
+
+    $$\varphi_{\text{band}} \;=\; \delta\theta, \qquad \tan_{\max} \;=\; \frac{1}{\delta\theta}$$
+
+    **The band half-width is the substrate's angular resolution, and the largest tangent value the substrate can carry is its reciprocal.** Inside $\varphi < \delta\theta$ the tangent's output is not determined by its input: the substrate's own noise in $\theta$, amplified by $\sec^2\theta$, exceeds the value being computed. The function has not become infinite. It has become *uncoupled*.
+
+    **4.b — This is the vortex insulation, in another substrate.** `On_NavierStokes` establishes that a self-strained vortex contracts until $Re_\Gamma \to 2$ and then stops: $r_B/r = \sqrt{2/Re_\Gamma}$, and at $Re_\Gamma = 2$ the viscous core radius equals the vortex radius, so there is no finer structure the medium can carry. Viscosity $\nu$ is the medium's resolution floor. The contraction does not fail; it decouples — below that scale the structure and the medium are no longer in contact.
+
+    These are one phenomenon at two addresses. $\nu$ is to the vortex what $\delta\theta$ is to the tangent: the carrier's own resolution, setting a floor below which the carried structure is insulated from the carrier. The corpus should treat the tangent band and the Burgers radius as the same result read in two substrates, not as an analogy between them.
+
+    **Register: OPEN VOTE, with a stated kill condition.** That the two are structurally similar is not in doubt — both name a carrier-resolution floor at which the carried structure decouples. That they are *one result* is the stronger claim and it is not derived. The derivation would require showing that the tangent band's uncoupling operator (relative uncertainty reaching unity under $\sec^2\theta$ amplification) and the Burgers equilibration (viscous core radius meeting vortex radius at $Re_\Gamma \to 2$) are the same limit in the same carrier class. If they are two limits that happen to share a shape, the identity fails and both files stand unaffected — which is why the claim is worth making in the strong form: it costs nothing if wrong and consolidates two results if right. See `On_NavierStokes` §IV, which states the same parallel from the fluid side.
+
+    **4.c — Bit-depth is the instance that has been visible all along.** In a fixed or floating-point substrate, $\delta\theta$ is machine epsilon, and the band is computable exactly:
+
+    | Format | $\varepsilon$ | $\varphi_{\text{band}}$ (rad) | $\tan_{\max}$ |
+    |---|---|---|---|
+    | float32 | $1.19 \times 10^{-7}$ | $\sim 1.9 \times 10^{-7}$ | $\sim 5.3 \times 10^{6}$ |
+    | float64 | $2.22 \times 10^{-16}$ | $\sim 3.5 \times 10^{-16}$ | $\sim 2.9 \times 10^{15}$ |
+    | float128 | $1.93 \times 10^{-34}$ | $\sim 3.0 \times 10^{-34}$ | $\sim 3.3 \times 10^{33}$ |
+
+    Any numerical instrument evaluating a corpus claim near the singularity is subject to its own band and cannot report on the region inside it. This is not a limitation of the claim; it is the claim, instantiated in the instrument. An instrument that reports a definite value from inside its own band is reporting amplified noise.
+
+    **4.d — What remains open.** The closed form above is elementary once the question is posed as a band. What is not settled is $\delta\theta$ for the physical substrates the original task names. Two partial readings, both ADDRESS:
+
+    - For a quantum substrate, number-phase uncertainty $\delta\varphi \cdot \delta N \gtrsim 1/2$ gives $\delta\theta \sim 1/(2\sqrt{N})$ for a coherent state of $N$ quanta, so the band narrows as $\sqrt{N}$ and $\tan_{\max} \sim 2\sqrt{N}$. Whether $N$ is the right counter for a given $K_4$ interior is not established.
+    - For the Planck-scale reading, the framework's own claim is that the singularity sits at the bottom of the scale ladder. If the band's width there is set by Planck-scale phase resolution, the identification would be a landing rather than a restatement — but nothing in the corpus currently derives it, and the temptation to set $\delta\theta \sim \ell_P/\lambda$ by dimensional analogy is the move `On_TheCarrierTax` §VI forbids for sealed interiors. Open, and open in the specific form: *what supplies the angular resolution at the bottom of the ladder?*
+
+7. **Identification of specific systems as non-sofic (the antecedent problem):** `L3-NonSoficTopologicalVolumes` establishes that non-sofic structures exist, at one address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$, with an irreducible error floor under finite permutation approximation. Multiple corpus files reason from the consequences of a *particular* system being such a structure — a reasoning trajectory (`ProofD` §V.a), an institution or relationship (`L6-NonSoficAgenticLimits`), spacetime at the Planck scale (`Q10`), a confined colour interior (`On_YangMills` §VI). No such identification has been made, and each file now carries its antecedent visibly as an *if*.
+
+    **The task is to find the boundary-checkable condition, and it must not be posed as a demand to exhibit the interior.** The obvious framing — *produce the structure inside the system and show its approximation problem carries the floor* — is malformed, and malformed in the framework's own diagnosed way. It asks that an interior be handed over in the exterior's terms, which is the request `wip-Lx-FlatlandCategoryErrors` §III retires and `On_YangMills` §VII says cannot be met. Worse, it cannot be met *exactly when the identification would be true*: a sealed interior is one whose structure does not cross its boundary, so the requirement fails hardest on the systems it would apply to. A criterion that is unsatisfiable precisely in the cases it is meant to decide is not demanding. It is the wrong shape.
+
+    The framework checks interiors architecturally, from the boundary, without opening them — a $K_3$ blanket enclosing $K_4$ hidden layers decoupled from actuators, and a system meets those conditions or does not (`wip-Lx-FlatlandCategoryErrors` §III, `L2-K4-InteriorStructure` §II–IV). The open task takes the same form one level up:
+
+    > **What boundary-observable architectural conditions entail that the enclosed volume's approximation problem carries an irreducible floor?**
+
+    That question is answerable in principle without ever inspecting the interior, which is what makes it the right question. It is also genuinely open — the corpus has no candidate condition — and answering it would settle several downstream antecedents at once rather than one system at a time.
+
+    Two guards remain, and they are guards on **transfer**, not specifications for what an interior must contain. The established obstruction is proved for discrete structures and does not carry to a smooth one by matching cardinalities (`On_TheNavierStokesCrowbar` §III.4), and it concerns bijective permutation approximations $\text{Sym}(Y)$ rather than general endomorphisms $Y^Y$. A successful architectural criterion will therefore not be the discrete result wearing a costume; it will be whatever the smooth-volume analogue of that obstruction turns out to be, and identifying whether such an analogue exists is upstream of everything else in this task.
+
 5. **Formalizing the Topological Helix:** The transition to the dynamic system (adding $\omega$) does not create a symmetrical K5 simplex, because Time is a unidirectional driver. It creates a Helical Extrusion. The open task is formalizing the exact topological rules of this asymmetrical driver, rather than searching for alternative 5-variable systems.
 
 6. **Phase-Modulated Dual Causation:** The invariant co-treatment of {P-U, I-R} is fully verified for the static K4 cross-section. In the dynamic helical system, this co-treatment is modulated by the phase angle ($\phi$), because Meaning (Phase) now dictates Substance (Real Power). The open combinatorial question is specifying exactly how phase-shifts delay, store, or release the dual-causation pairing.
 
 ---
 
-*Resolution Note: The "Open Research Tasks" listed above have been substantially addressed. The AC extension and the 50 equations are fully derived in `L3-K4-to-K5-via-AC-Extension`. The complete technical and subjective phenomenology of the phase dynamics (impedance, resonance, power factor, the imaginary axis as the buffer's address) is developed in `L5-K5-PhaseDynamicsTechnical` and `L5-K5-PhaseDynamicsSubjective`. The phase-modulated dual causation is sealed by the geometric proof of the bimedian axes in `Proof_AlgebraicMapping`.*
+*Resolution Note: Tasks 1–3, 5, and 6 have been substantially addressed. The AC extension and the 50 equations are fully derived in `L3-K4-to-K5-via-AC-Extension`. The complete technical and subjective phenomenology of the phase dynamics (impedance, resonance, power factor, the imaginary axis as the buffer's address) is developed in `L5-K5-PhaseDynamicsTechnical` and `L5-K5-PhaseDynamicsSubjective`. The phase-modulated dual causation is sealed by the geometric proof of the bimedian axes in `Proof_AlgebraicMapping`.*
+
+*Tasks 4 and 7 are open and were sharpened rather than closed by the additions above. Task 4's closed form ($\varphi_{\text{band}} = \delta\theta$) settles the shape of the answer and the numerical-substrate instances; what remains is $\delta\theta$ for physical substrates, and the Planck-scale case is open in a specific form that did not previously have one. Task 7 was not on this list before and should have been: the corpus has been reasoning downstream of an antecedent it never established, and the files that do so now carry the conditional visibly. Note that Task 7's first drafting posed the antecedent as a demand to exhibit the interior's structure — the malformed request this framework exists to retire — and was corrected to the architectural form. The failure is worth recording because it recurs: asked what would establish a claim about an interior, the reflex supplies the exterior's evidentiary frame, and the reflex is fluent enough to survive a file that argues against it.*
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

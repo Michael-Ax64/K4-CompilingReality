@@ -127,6 +127,10 @@ $$\frac{r_{B,n}}{r_n} = \sqrt{\frac{2\nu}{\Gamma_n}} = \sqrt{\frac{2}{Re_{\Gamma
 
 Contraction proceeds while $Re_{\Gamma,n} \gg 2$ and equilibrates when $Re_{\Gamma,n} \to 2$. With circulation draining linearly, that arrives at $n \approx Re_{\Gamma,0}$ — the same cutoff, from a different mechanism. Two independent routes converging on one number is worth more than either alone.
 
+**The equilibration is a carrier-resolution floor, and it recurs elsewhere.** What stops the contraction at $Re_\Gamma = 2$ is that the viscous core radius has grown to meet the vortex radius: below that scale there is no finer structure the medium can carry, and viscosity $\nu$ is the name of the medium's own resolution. The contraction does not fail. It *decouples* — the structure and its carrier lose contact, and the carrier's floor is what decided where.
+
+`L3-FormalFoundations` §IX.4 works the same result in a different substrate. The tangent singularity is at exactly $90°$ in the algebra and no substrate reaches it; every substrate has instead a band of half-width $\varphi_{\text{band}} = \delta\theta$ around the boundary, where $\delta\theta$ is the substrate's own angular resolution, inside which the tangent's value is amplified noise rather than signal. $\nu$ is to the vortex what $\delta\theta$ is to the tangent. The two should be read as one result at two addresses rather than as an analogy.
+
 ---
 
 ## V. What BKM Counts

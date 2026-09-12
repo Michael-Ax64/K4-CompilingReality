@@ -3,6 +3,8 @@
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics. This document evaluates the second-order systemic cascades, cybernetic failure modes, and philosophical horizons opened by the discovery of non-sofic groups ($H_F \subset \text{EL}_9(L_{F_2}(1,2))$). It formalizes the $L6$ Inversion of Control in synthetic mathematics, demonstrates the failure of $K_3$ Constitutional AI alignment, refutes the Simulation Hypothesis, and establishes the Arational Sanctuary of human interiority.
 
+> **Scope of the Antecedent.** What is established is that non-sofic structures exist, at one address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$. That a *particular* system — a reasoning trajectory, an institution, a relationship, spacetime at the Planck scale — is such a structure is a separate claim requiring a separate argument, and every one of them is open (`L3-NonSoficTopologicalVolumes`, Scope Note). §VI below already carries its antecedent visibly ("*If* physical spacetime at the Planck scale is non-sofic"); read every other identification in this file under the same *if*. Two guards apply throughout: the obstruction is proved for **discrete** structures and does not transfer to a smooth one by matching cardinalities (`On_TheNavierStokesCrowbar` §III.4), and it concerns **bijective permutation approximations** $\text{Sym}(Y)$ rather than general endomorphisms $Y^Y$, so a system approximable by non-bijective construction is untouched by it. The architectural consequences below are what *follows from* the antecedent, and they are worth working out in advance of its settlement — which is what this file does. They are not evidence for it.
+
 ---
 
 ## I. The General Structural Claim

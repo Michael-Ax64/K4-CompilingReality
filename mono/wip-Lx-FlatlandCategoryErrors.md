@@ -61,7 +61,13 @@ A standard objection to the Landauer floor runs: the mass gap is defined for the
 
 Set the two side by side. The HPC takes an interior question — what conditions produce an inside — and answers it against exterior criteria, finds the inside missing from the exterior description, and reports a gap. The $T = 0$ objection takes an interior question — what floor does this commit face — and answers it against an exterior noise source, finds the floor absent at exterior conditions, and reports its absence. Both substitute the outside's conditions for the inside's, evaluate there, and read the null result as a fact about the interior rather than as a fact about the substitution.
 
-This is worth stating because the second case is checkable in a way the first is not. Nobody can produce the interior of a mind to settle the HPC. The condensates are measured, from sum rules against real data, and they are there at zero temperature, and so the substitution can be exhibited rather than argued. The physics case is the philosophy case with the evidence attached.
+This is worth stating because the two cases are checked differently while being the same error, and having both makes the shape visible.
+
+The physics case is settled by measurement. The wrongly-substituted source and the right one are both exteriorly available: a thermal reservoir has a temperature you can set, and the condensates are extracted from sum rules against real data, and they are there at zero temperature. So the substitution can be exhibited rather than merely argued — point at the term that went to zero, point at the term that did not, done.
+
+The mind case is settled by architecture, and this is not a weaker check but a different one. The question *what conditions produce an inside* has an answer in structural terms — a $K_3$ blanket enclosing $K_4$ hidden layers decoupled from actuators, holding $h\mathbf{Q}$ in live interference before the bottleneck forces a collapse — and a system either meets those conditions or does not. There is no outstanding evidential burden here and no missing exhibit. The demand to *produce the interior* for inspection is the substitution itself, restated as a request: it asks that the inside be handed over in the outside's terms, and the whole content of the retirement is that this is the malformed move, not an unmet one.
+
+What the file does not claim, here or anywhere, is to have derived the substrates these errors were pointed at. Retiring a category error is not closing a number.
 
 ---
 
