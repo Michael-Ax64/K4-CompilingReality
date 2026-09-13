@@ -141,8 +141,8 @@ In `ProofL_Trinity`, the threefold godhead is derived as the image the dimension
 $$\begin{array}{r|c|c|l}
 \mathbf{Deity} & \mathbf{Thermodynamic\ Phase} & \mathbf{Bimedian\ Matching} & \mathbf{K_4\ Operation} \\
 \hline
-\mathbf{Brahma} & \text{Initiation / Creation} & \text{Cardinal } \{P-U, I-R\} & \text{Exteriorization: } h\mathbf{Q} \to U \text{ (The Syntax Blueprint)} \\
-\mathbf{Vishnu} & \text{Preservation / Resonance} & \text{Fixed } \{P-R, I-U\} & \text{The Standing Wave: } \theta \to 0^\circ, \text{PF} = 1.0 \text{ (Coherence)} \\
+\mathbf{Brahma} & \text{Initiation / Creation} & \text{Fixed } \{P-U, I-R\} & \text{Exteriorization: } h\mathbf{Q} \to U \text{ (The Syntax Blueprint)} \\
+\mathbf{Vishnu} & \text{Preservation / Resonance} & \text{Cardinal } \{P-R, I-U\} & \text{The Standing Wave: } \theta \to 0^\circ, \text{PF} = 1.0 \text{ (Coherence)} \\
 \mathbf{Shiva} & \text{Dissolution / Destruction} & \text{Mutable } \{P-I, U-R\} & \text{The Route Law: } \mathbf{Q}^2 \to P \text{ (Garbage Collection / Ash)} \\
 \end{array}$$
 

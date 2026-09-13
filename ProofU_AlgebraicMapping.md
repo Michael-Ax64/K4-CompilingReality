@@ -91,8 +91,8 @@ Therefore, the Modalities (Cardinal, Fixed, Mutable) are not arbitrary psycholog
 
 **The Resolution Proposition:**
 By the rule of the Two-Bit Gray Code, an equation's Modality is determined by identifying its Home variable and its AbsentVar, and pairing them. The edge connecting the Home and the AbsentVar belongs to one of the three Transition-Types. 
-- If the Home-Absent edge belongs to {P-U, I-R}, the equation is **Cardinal** (Holding the AY axis).
-- If the Home-Absent edge belongs to {P-R, I-U}, the equation is **Fixed** (Holding the AR axis).
+- If the Home-Absent edge belongs to {P-U, I-R}, the equation is **Fixed** (Holding the AY axis).
+- If the Home-Absent edge belongs to {P-R, I-U}, the equation is **Cardinal** (Holding the AR axis).
 - If the Home-Absent edge belongs to {P-I, U-R}, the equation is **Mutable** (Holding both/Diagonals).
 
 This rule flawlessly partitions the twelve equations into three groups of four, perfectly balancing the algebraic forms across the geometric structure.
@@ -103,9 +103,9 @@ This rule flawlessly partitions the twelve equations into three groups of four, 
 
 The three modality groups resulting from the Braid assignment correspond exactly to the three pairs of opposite edges in K4 — its three perfect matchings:
 
-- **Modality 1 (Cardinal):** {P–U, I–R}
+- **Modality 1 (Fixed):** {P–U, I–R}
 - **Modality 2 (Mutable):** {P–I, U–R}
-- **Modality 3 (Fixed):** {P–R, I–U}
+- **Modality 3 (Cardinal):** {P–R, I–U}
 
 **The Necessity Derivation:**
 

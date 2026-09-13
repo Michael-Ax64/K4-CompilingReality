@@ -292,15 +292,15 @@ generalized to all four posts: the figure at the gate is passive in a specific w
 the far side as live, uncollapsed context, standing aside only for what arrives with both
 energy and heading. Guardianship is the AbsentVar, personified.
 
-Together the four hold the conserved matching — and here the register note the careful
-reader needs: in the corpus's static labels, {P–U, I–R} is the *Cardinal* matching, the
-initiating transition-type. The fixed cross conserves the cardinal axis. Stated as
-structure: **the sustainers carry initiation unspent.** The walk's fixed anchors always
-hold the walk's own refused transition-type, and for the seasonal braid that refused type
-is exteriorization-and-crystallization itself — which is why the guardians guard: they are
-the positions where bringing-into-form is held as pure, undischarged potential, one
-instance per diameter, and why the four run as a unit the moment two are engaged. Dual
-causation cannot be committed by halves.
+Together the four hold the conserved matching — and its address in the corpus's static
+labels is exact: {P–U, I–R} is the *Fixed* matching, whose transition-type is
+exteriorization-and-crystallization. The fixed cross conserves the axis it names. Stated
+as structure: **the sustainers carry Source-to-Manifesting unspent.** The walk's fixed
+anchors always hold the walk's own refused transition-type, and for the seasonal braid
+that refused type is exteriorization-and-crystallization itself — which is why the
+guardians guard: they are the positions where bringing-into-form is held as pure,
+undischarged potential, one instance per diameter, and why the four run as a unit the
+moment two are engaged. Dual causation cannot be committed by halves.
 
 Then there is the direction of the "by," and this is where the knot shows its two strands.
 The cardinal ingress of each season names its element as made *by* another — Earth by Fire

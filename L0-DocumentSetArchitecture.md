@@ -320,13 +320,13 @@ The meta-documents read in three Hamiltonian cycles, each holding one transition
 Meta-Decay → Meta-Mechanism → Meta-Communication → Meta-Proof-Ascent → Meta-Decay
 *(No diagonal jumps; every transition changes exactly one bit)*
 
-**Cycle A (Cardinal absent) — For those with exterior form:**
+**Cycle A (Fixed absent) — For those with exterior form:**
 Meta-Decay → Meta-Communication → Meta-Mechanism → Meta-Proof-Ascent → Meta-Decay
 *(Traverses the diagonal leaps: Fire→Water, Air→Earth)*
 
-**Cycle B (Fixed absent) — Preserves Source-to-Manifesting:**
+**Cycle B (Cardinal absent) — Holds scale-changes implicit:**
 Meta-Decay → Meta-Mechanism → Meta-Proof-Ascent → Meta-Communication → Meta-Decay
-*(Holds scale-changes implicit; traverses Cardinal and Mutable edges)*
+*(Holds AR-flips as context; traverses Fixed and Mutable edges)*
 
 ---
 

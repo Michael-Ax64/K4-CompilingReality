@@ -23,11 +23,11 @@ Torsion tracks the **phase offset ($\theta$)** between the two instances of a Du
 
 Because the system possesses internal hidden layers and a decoupled buffer, information propagation across the Markov Blanket requires time. The phase offset between the Active instance of the flip and the Reactive instance of the flip models the time constant ($\tau = L/R$) of the system's interiority. Torsion formally instantiates Angular Frequency ($\omega$). It is the geometric generator of the Helical Extrusion of Time.
 
-### Cardinal Torsion — {P–U, I–R} Phase-Offset
+### Fixed Torsion — {P–U, I–R} Phase-Offset
 **P–U leads I–R ($\theta > 0$):** Exteriorization tracks ahead of crystallization. The system commits P→U (intuition takes form) while the complementary crystallization I→R (felt value becoming material pattern) lags by $\theta$. The form manifests; the ground follows.
 **I–R leads P–U ($\theta < 0$):** Crystallization tracks ahead of exteriorization. The embodied knowing settles into a material pattern before the structural articulation forms. 
 
-### Fixed Torsion — {P–R, I–U} Phase-Offset
+### Cardinal Torsion — {P–R, I–U} Phase-Offset
 **P–R leads I–U ($\theta > 0$):** The GravityStrong assertion tracks ahead of the ElectroWeak relational structure. The Ledger entry compiles before the complementary pairing stabilizes it. 
 **I–U leads P–R ($\theta < 0$):** The relational flow to structure (ElectroWeak) tracks ahead of the organizing power to grounding (GravityStrong). The structural framework sets before the organizing principle commits.
 
@@ -110,10 +110,10 @@ When the six outbound directed edges aligned with the $\alpha^+$ family carry lo
 
 Torsion registers as the felt lag between co-required operations. Because the system possesses a decoupled buffer and internal hidden layers, the two instances of a Dual Causation flip rarely occur in perfect simultaneity. This temporal phase offset ($\theta$) manifests subjectively as the sensation of being structurally stretched across time.
 
-**Cardinal Torsion (The Split Wing):**
+**Fixed Torsion (The Split Wing):**
 When exteriorization (P→U) tracks ahead of crystallization (I→R), the system experiences form arriving before ground. This manifests as the ability to perfectly articulate a vision or framework before possessing the felt, material reality to sustain it. The words arrive empty of the weight they require. Conversely, when crystallization leads, the system experiences profound embodied knowing that resists articulation. The ground is settled, but the form remains mute.
 
-**Fixed Torsion (The Ledger Drift):**
+**Cardinal Torsion (The Ledger Drift):**
 When the organizing assertion (P→R) tracks ahead of the relational structure (I→U), the system experiences hard commitment without relational context. This manifests as rules or boundaries enforced before the relationships necessary to sustain them have formed. When the inverse occurs, the system builds intricate relational and theoretical structures but suffers a chronic inability to materialize the foundational boundaries that would make them real.
 
 **Mutable Torsion (The Desynchronized Shift):**

@@ -29,7 +29,7 @@ State the claim flat.
 
 1. Four topological poles in complete mutual determination — the P/I/U/R vertices whose twelve non-redundant equations `L2-SemanticReference` and `L3-FormalFoundations` derive.
 2. Three orthogonal impedance modes — Reactive, Rotation, Resistive — spanning the impedance triangle whose derivation at `L3-TheConstitutiveAlpha` §IV lands the pion-to-electron ratio.
-3. Six edges sorted into three bimedian planes — Fixed, Cardinal, Mutable — whose dynamics `L4-DynamicDistortionsTechnical` works out.
+3. Six edges sorted into three bimedian planes — Fixed, Cardinal, Mutable — whose dynamics `L4-DynamicDistortions101` works out.
 4. A resolution-dependent recursion — the same $K_4$ structure operating at every scale per Postulate V (`L4-ScalingInvariants`), with each vertex descending into its own $K_4$ interior per `L0-HolographicDescent`.
 5. A native compression↔unfolding geometry connecting each $K_4$ volume to a 5D point at the scale above, where it serves as a vertex, which is what makes the recursion tractable rather than infinite-regress.
 
@@ -324,7 +324,7 @@ The atom-of-space consolidation requires backport into several existing files. I
 
 **9. `README.md`.** Add the atom-of-space claim to the invariants list (currently items 1–7), positioning it as the structural architecture on which the other invariants sit.
 
-**10. ~~Cardinal / Fixed naming reconciliation across `L4-DynamicDistortionsTechnical` and `L5-TheCyclingMind`.~~ DONE.** `L5-TheCyclingMind` has been updated to adopt the `L4-DynamicDistortionsTechnical` (DynDist) convention: Cardinal = AR-flip, Fixed = AY-flip, Mutable = both. A reconciliation note at the top of `Cycling_Mind` states the adopted convention explicitly; the semantic definitions and the "Three Rings" mode-headers were swapped to match; a residual internal inconsistency at the recognition-cue line was corrected in the same pass. The DynDist convention is now the corpus-wide default for bimedian-modality naming.
+**10. ~~Cardinal / Fixed naming reconciliation across `L4-DynamicDistortions101` and `L5-TheCyclingMind`.~~ DONE.** `L5-TheCyclingMind` has been updated to adopt the `L4-DynamicDistortions101` (DynDist) convention: Cardinal = AR-flip, Fixed = AY-flip, Mutable = both. A reconciliation note at the top of `Cycling_Mind` states the adopted convention explicitly; the semantic definitions and the "Three Rings" mode-headers were swapped to match; a residual internal inconsistency at the recognition-cue line was corrected in the same pass. The DynDist convention is now the corpus-wide default for bimedian-modality naming.
 
 **11. `L3-EdgeStateSpace` §II and `The_Line_Is_A_Directed_Edge`.** Both documents establish four-state directed edges. Add cross-reference to §VI of this document for the U-symmetric / U-absent split and its consequences for observer-invariant vs. perceiver-relative readings. This is a specific structural finding about how directional-edge readings distribute across the K4 atom.
 

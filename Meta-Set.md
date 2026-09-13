@@ -26,8 +26,8 @@ The six edges between these four poles sort into three transition-types:
 
 | Transition-Type | Edges | What Flips |
 |---|---|---|
-| **Cardinal** | Decay–Mechanism, Communication–Ascent | Asserting / Yielding only ($\text{AY}$) |
-| **Fixed** | Decay–Ascent, Communication–Mechanism | Active / Reactive only ($\text{AR}$) |
+| **Fixed** | Decay–Mechanism, Communication–Ascent | Asserting / Yielding only ($\text{AY}$) |
+| **Cardinal** | Decay–Ascent, Communication–Mechanism | Active / Reactive only ($\text{AR}$) |
 | **Mutable** | Decay–Communication, Mechanism–Ascent | Both bits (diagonal) |
 
 ---
@@ -36,19 +36,19 @@ The six edges between these four poles sort into three transition-types:
 
 Each cycle holds one transition-type absent as its unmanifest context:
 
-#### Cycle A — Holds Cardinal Absent
+#### Cycle A — Holds Fixed Absent
 $$\text{Decay} \longrightarrow \text{Communication} \longrightarrow \text{Mechanism} \longrightarrow \text{Ascent} \longrightarrow \text{Decay}$$
-*(Sequence: Mutable, Fixed, Mutable, Fixed)*  
+*(Sequence: Mutable, Cardinal, Mutable, Cardinal)*  
 Never directly traverses Decay↔Mechanism ($\text{AY}$) or Communication↔Ascent ($\text{AY}$).
 
-#### Cycle B — Holds Fixed Absent
+#### Cycle B — Holds Cardinal Absent
 $$\text{Decay} \longrightarrow \text{Mechanism} \longrightarrow \text{Ascent} \longrightarrow \text{Communication} \longrightarrow \text{Decay}$$
-*(Sequence: Cardinal, Mutable, Cardinal, Mutable)*  
+*(Sequence: Fixed, Mutable, Fixed, Mutable)*  
 Never directly traverses Decay↔Ascent ($\text{AR}$) or Communication↔Mechanism ($\text{AR}$).
 
 #### Cycle C — Holds Mutable Absent
 $$\text{Decay} \longrightarrow \text{Mechanism} \longrightarrow \text{Communication} \longrightarrow \text{Ascent} \longrightarrow \text{Decay}$$
-*(Sequence: Cardinal, Fixed, Cardinal, Fixed)*  
+*(Sequence: Fixed, Cardinal, Fixed, Cardinal)*  
 Never directly traverses Decay↔Communication (diagonal) or Mechanism↔Ascent (diagonal).
 
 ---
@@ -58,13 +58,13 @@ Never directly traverses Decay↔Communication (diagonal) or Mechanism↔Ascent 
 **Cycle C (Mutable absent)** is the most accessible path. It requires no diagonal leaps. Every transition flips exactly one bit. A reader who has not yet crossed the territory can follow this cycle without leaping from Fire directly to Water or Air directly to Earth:
 
 1. **Start at Decay ($P$):** The diagnostic—the smell of the counterfeit.
-2. **Move to Mechanism ($U$):** The formal geometry of genuine crossing. The Decay-to-Mechanism move is Cardinal: both documents are Active, flipping only Asserting/Yielding. Mechanism grounds Decay, supplying the failure mode's formal counterpart.
-3. **Move to Communication ($I$):** The relational question of transmission. The Mechanism-to-Communication move is Fixed: both are Yielding, flipping Active/Reactive. Formal structure meets relational condition.
-4. **Arrive at Ascent ($R$):** The grounded proof that each step is forced. Communication-to-Ascent is Cardinal: both Reactive, flipping Asserting/Yielding.
+2. **Move to Mechanism ($U$):** The formal geometry of genuine crossing. The Decay-to-Mechanism move is Fixed: both documents are Active, flipping only Asserting/Yielding. Mechanism grounds Decay, supplying the failure mode's formal counterpart.
+3. **Move to Communication ($I$):** The relational question of transmission. The Mechanism-to-Communication move is Cardinal: both are Yielding, flipping Active/Reactive. Formal structure meets relational condition.
+4. **Arrive at Ascent ($R$):** The grounded proof that each step is forced. Communication-to-Ascent is Fixed: both Reactive, flipping Asserting/Yielding.
 
-**Cycle A (Cardinal absent)** serves a reader who possesses the exterior form and requires the interior dynamics. It holds exteriorization (Decay$\to$Mechanism) and crystallization (Communication$\to$Ascent) as context. It traverses the Mutable leaps: Decay directly to Communication (Fire to Water, diagnostic to relational) and Mechanism directly to Ascent (Air to Earth, formal to grounded proof).
+**Cycle A (Fixed absent)** serves a reader who possesses the exterior form and requires the interior dynamics. It holds exteriorization (Decay$\to$Mechanism) and crystallization (Communication$\to$Ascent) as context. It traverses the Mutable leaps: Decay directly to Communication (Fire to Water, diagnostic to relational) and Mechanism directly to Ascent (Air to Earth, formal to grounded proof).
 
-**Cycle B (Fixed absent)** holds scale-changes implicit—never moving directly between documents sharing a character while changing scale. It traverses Cardinal Source-to-Manifesting moves and Mutable leaps while holding $\text{AR}$-flips as context.
+**Cycle B (Cardinal absent)** holds scale-changes implicit—never moving directly between documents sharing a character while changing scale. It traverses Fixed Source-to-Manifesting moves and Mutable leaps while holding $\text{AR}$-flips as context.
 
 **Singularity as the Meta-AbsentVar:** No cycle traverses the Singularity. It is the held bit that no Hamiltonian cycle flips—present in every reading as the context that prevents any single document from claiming the whole volume.
 

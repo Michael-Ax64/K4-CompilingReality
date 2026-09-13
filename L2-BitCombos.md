@@ -77,9 +77,9 @@ typedef union {
 
     // View 2: 6 steps x 2-bit stride (6 K4 Edges, 4 States/Edge)
     struct {
-        uint16_t edge_PU : 2; // Bits 0-1  (Cardinal Matching)
+        uint16_t edge_PU : 2; // Bits 0-1  (Fixed Matching)
         uint16_t edge_IR : 2; // Bits 2-3
-        uint16_t edge_PR : 2; // Bits 4-5  (Fixed Matching)
+        uint16_t edge_PR : 2; // Bits 4-5  (Cardinal Matching)
         uint16_t edge_IU : 2; // Bits 6-7
         uint16_t edge_PI : 2; // Bits 8-9  (Mutable Matching)
         uint16_t edge_UR : 2; // Bits 10-11

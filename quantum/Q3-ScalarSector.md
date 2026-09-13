@@ -1,7 +1,7 @@
 # The Higgs, the Yukawa Couplings, and the Missing Scalars
 ## Why the K4 Topology Permits Six Scalars, Bars Three, and Requires Two More Than Physics Has Found
 
-*This document claims that scalar (Spin-0) bosons are the pricing operators that break the framework's scale-invariance one edge at a time. It shows that the K4 topology permits up to six such operators (one per edge), that the framework's own P-pole grammar bars three of them, and that physics has confirmed one of the surviving three. It reconciles a contradiction in the session that produced this document, in which an earlier scalar-family account had the Inflaton pricing both edges of the Cardinal bimedian; under the corrected P-edge ban, the Inflaton (or whatever operator physics eventually assigns to that job) can price only the I–R edge, and P–U remains permanently un-priced. It maps the Higgs mechanism's dual role (giving W/Z bosons their masses and giving all fermions their masses via Yukawa coupling) onto a single framework operation: the assignment of |S| to specific edges. A reader with the project files but no access to the session that produced this can verify the P-edge ban's derivation from the Star-Norm and reconcile the account with `L4-DynamicDistortions101`.*
+*This document claims that scalar (Spin-0) bosons are the pricing operators that break the framework's scale-invariance one edge at a time. It shows that the K4 topology permits up to six such operators (one per edge), that the framework's own P-pole grammar bars three of them, and that physics has confirmed one of the surviving three. The Inflaton (or whatever operator physics eventually assigns to that job) prices only the I–R edge; P–U remains permanently un-priced. It maps the Higgs mechanism's dual role (giving W/Z bosons their masses and giving all fermions their masses via Yukawa coupling) onto a single framework operation: the assignment of $|S|$ to specific edges. The P-edge ban's derivation from the Star-Norm is verifiable against `L4-DynamicDistortions101`.*
 
 ---
 
@@ -29,7 +29,7 @@ Without the Higgs field, the fermions would be massless. They would travel at th
 
 Physics distinguishes two roles for the Higgs field. The first is the breaking of electroweak symmetry, which gives the W and Z bosons their mass. The second is the Yukawa coupling to each fermion, which gives every fermion its mass. In the Standard Model these are separate mechanisms in the Lagrangian; the Higgs couples to the gauge bosons via the covariant derivative and to the fermions via Yukawa terms. Different couplings, different physics, one field.
 
-Under the framework, they are one operation. The Higgs field breaks the fusion of the I–U edge (see `L4-DynamicDistortions101` §Fixed: "the Higgs mechanism at low energies re-separates them — restores the AR distinction — giving mass to the W and Z bosons"). This is the "gauge boson mass" part. The Yukawa couplings assign per-edge scale rungs |S| to each of the twelve fermion edges. The Yukawa constant for a specific fermion is the bandwidth at which that specific edge operates — small for the electron, small for the up quark, enormous for the top quark. Same operator, different rates per edge.
+Under the framework, they are one operation. The Higgs field breaks the fusion of the I–U edge (see `L4-DynamicDistortions101` §Cardinal Plane Distortions: "the Higgs mechanism at low energies re-separates them — restores the AR distinction — giving mass to the W and Z bosons"). This is the "gauge boson mass" part. The Yukawa couplings assign per-edge scale rungs |S| to each of the twelve fermion edges. The Yukawa constant for a specific fermion is the bandwidth at which that specific edge operates — small for the electron, small for the up quark, enormous for the top quark. Same operator, different rates per edge.
 
 This makes the generation structure of `Q1-GenerationsOfMatter` operationally cleaner. The three generations are three nested scale rungs of the same edge geometry. Within each generation, individual fermions have different Yukawa constants because they are structurally different traversals of the K4 tetrahedron. The framework does not predict the specific Yukawa numerical values; that would be numerical curve-fitting on the K3 face and belongs to physics. The framework predicts that the pricing is *per edge* and that a single scalar operator (the Higgs) executes it via one mechanism.
 
@@ -41,8 +41,8 @@ This makes the generation structure of `Q1-GenerationsOfMatter` operationally cl
 
 The K4 tetrahedron has six undirected edges, sorted by `L4-DynamicDistortions101` into three bimedians:
 
-- **Cardinal bimedian:** P–U (PhotoGravity) and I–R (ChromoFlux).
-- **Fixed bimedian:** P–R (GravityStrong) and I–U (ElectroWeak).
+- **Fixed bimedian:** P–U (PhotoGravity) and I–R (ChromoFlux).
+- **Cardinal bimedian:** P–R (GravityStrong) and I–U (ElectroWeak).
 - **Mutable bimedian:** P–I (GraviFlux) and U–R (ChromoLux).
 
 A scalar operator, when it "turns on," acts on an edge. It restiffens the traversal, assigns a cost, and separates the two poles the edge connects. The Higgs restiffens I–U. If the framework's account applied uniformly across all six edges, six scalar operators would be permitted, one per edge. Three axes, two edges each, six total.
@@ -70,9 +70,9 @@ Nature permits **exactly three fundamental scalar fields**, mapping 1:1 to the t
 $$\begin{array}{c|c|c|c|c}
 \mathbf{Bimedian\ Axis} & \mathbf{Transactional\ Edge} & \mathbf{Scalar\ Operator} & \mathbf{Cosmological\ Role} & \mathbf{Energy\ Scale} \\
 \hline
-\text{1. Cardinal } \{P-U, \mathbf{I-R}\} & I-R \text{ (ChromoFlux)} & \text{Inflaton Field } \phi & \text{1st Transition (Reheating)} & \sim 10^{16}\ \text{GeV} \\
+\text{1. Fixed } \{P-U, \mathbf{I-R}\} & I-R \text{ (ChromoFlux)} & \text{Inflaton Field } \phi & \text{1st Transition (Reheating)} & \sim 10^{16}\ \text{GeV} \\
 \text{2. Mutable } \{P-I, \mathbf{U-R}\} & U-R \text{ (ChromoLux)} & \text{GUT Scalar } \Phi_{\text{GUT}} & \text{2nd Transition (GUT Break)} & \sim 10^{15}\ \text{GeV} \\
-\text{3. Fixed } \{P-R, \mathbf{I-U}\} & I-U \text{ (ElectroWeak)} & \text{Electroweak Higgs } h^0 & \text{3rd Transition (EW Break)} & 125\ \text{GeV} \\
+\text{3. Cardinal } \{P-R, \mathbf{I-U}\} & I-U \text{ (ElectroWeak)} & \text{Electroweak Higgs } h^0 & \text{3rd Transition (EW Break)} & 125\ \text{GeV} \\
 \end{array}$$
 
 ---
@@ -172,7 +172,7 @@ Intermediate BSM scalars (e.g., Peccei-Quinn Axions or Majorana masses) are not 
 
 The word *fused* appears in two structurally distinct contexts in the corpus and must be clarified before this document closes.
 
-On a **transactional edge** (I–U, U–R, I–R), "fused" means that the AR-distinction between the two poles has not been priced by a scalar operator. The traversal costs nothing; the two poles are indistinguishable at that energy scale. Un-fusing the edge requires a scalar to turn on and assign the Landauer Tax. This is the sense used in `L4-DynamicDistortions101` when it talks about the Higgs "re-stiffening" the I–U edge, or about the Apeiric Field being "the pre-differentiated state where both Cardinal edges are fused."
+On a **transactional edge** (I–U, U–R, I–R), "fused" means that the AR-distinction between the two poles has not been priced by a scalar operator. The traversal costs nothing; the two poles are indistinguishable at that energy scale. Un-fusing the edge requires a scalar to turn on and assign the Landauer Tax. This is the sense used in `L4-DynamicDistortions101` when it talks about the Higgs "re-stiffening" the I–U edge, or about the Apeiric Field being "the pre-differentiated state where both Fixed edges are fused."
 
 On a **P-edge** (P–U, P–I, P–R), "fused" means permanently zero-impedance. Not indistinguishable — structurally distinct, but connected by no boundary, no operator, and no transit time. Nothing to break, because there is no scalar operator that can occupy the position. This is the sense used in `Q4-OpenExhaust` when it names these edges as the writing heads of the Ledger.
 
