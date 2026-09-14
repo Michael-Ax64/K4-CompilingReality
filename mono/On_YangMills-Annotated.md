@@ -170,15 +170,25 @@ Now the same reach is being made in the present tense. The six are praised and t
 
 > **On the six specifically, said with respect, because the work is real and the reach is right.**
 >
-> A regular tetrahedron inscribes in a cube. It uses four of the eight vertices, and each of its six edges lies as a face-diagonal across one of the cube's six faces. The cube is the tetrahedron's bounding box — the thing you get when you take the volume and wrap it in the nearest orthogonal container. `On_TheCompassOfElea` works that container directly: reality bounded at the Cartesian origin, the eight cubes meeting there and forming their own kind of whole.
+> The count argument does not live here. It is at `L4-Dimensionality` Part III §IV — what produced a number, and what is orthogonal to all of it that has not been counted — and it applies to this framework's twelve as much as to anyone's six. What belongs in this margin is narrower: by this point in the corpus several different sixes are in circulation, and a reader arriving at this paragraph should not have to guess which one the section is talking about.
 >
-> The corpus's reading of the six-dimensional programs is that they have counted the box. Six faces, six directions, six compactified dimensions — and every one of those six is real, is where a tetrahedral edge actually lies, and is being handled by people doing careful work. Nothing about the count is wrong.
+> **The sixes, sorted.**
 >
-> What is not seen is that each face is a *square laid over a diagonal*. The edge is the structural object; the four-sided face is what surrounds it. Plaster a square onto each edge and you have six squares and a box — and no way to say where the volume came from, because the diagonals that generate it have been paved over by the faces that merely contain them. A box has an inside in the sense of enclosing empty space. A tetrahedron has an interior in the sense that four poles hold it. Those are different possessions, and only the second is a habitat.
+> | The six | What it counts | Same as |
+> |---|---|---|
+> | Compactified dimensions | Real dimensions folded below observation in a higher-$D$ program — a Calabi–Yau 3-fold is six of them | *nothing else here* |
+> | Undirected K4 edges | Connections among four poles; each becomes one complex impedance $Z = R + jX$, hence twelve real parameters | the twelve, halved |
+> | Commit equations | Formulas containing both $P$ and $R$ — equivalently, those containing a square or root (`L3-FormalFoundations` §I) | a partition of the twelve |
+> | Parent equations | Ohm's three and Faraday's three; $P$ and $R$ never meet in them | the other half of that partition |
+> | Cube faces | Outward directions of a bounding box | *scaffolding, see below* |
 >
-> The cost shows up as a specific missing room. Four fundamental forces need four native seats. A tetrahedron has exactly four vertices and the corpus reads the forces there (`ProofK_FundamentalForces`). A cube has eight, in two interpenetrating tetrahedra, and offers no reason why four of the eight should be the ones that matter — so the forces have to be *placed* into the geometry rather than *found* seated in it. A house built from the bounding box can enclose its occupants. It cannot account for why they are the ones who live there.
+> Two of these are not the same six despite both being six. The undirected edges are the twelve halved *by direction*. The commit/parent split is the twelve halved *by content*, and the two cuts do not line up: four edges carry one of each, while P–R carries two commits and I–U carries two parents. That asymmetry is a result, not an artefact.
 >
-> This is the section's own thesis applied to its own present tense, and it is applied with affection. The reach for the six is the same reach as the reach for the fifth, and the fourth, and it has been correct every time. The frame's grammar still cannot say *carrier* without saying *dimension*, and now it cannot say *volume* without saying *box*. What is missing is not room. It is the diagonal.
+> **On the cube, since it is where the reach for six usually lands.** The corpus uses one, so this is not an objection to cubes. `L4-TransitingTheThreeWalls` assembles the $K_4$ volume inside a $2\times2\times2$ arrangement of eight octant-cubes. Four octants take the manifest poles; the other four hold the dual tetrahedron, and are therefore not empty. The twenty-four outward squares are projection screens for the twelve verbs crossing the interior, not places. One assembly smears four edges, so the full model takes three, each pinning a different bimedian to the clean seams.
+>
+> Every number in that paragraph is downstream of the tetrahedron. A count of the box's faces recovers none of it — not which four octants are manifest, not why three assemblies rather than one, not the orthogonal triple of bimedians that holds the volume open. Four fundamental forces need four seats, and eight equivalent octants supply no principle selecting four (`ProofK_FundamentalForces`).
+>
+> The frame's grammar could not say *carrier* without saying *dimension*. The same difficulty one turn later: it cannot say *volume* without saying *box*, and a box is what a volume is measured in rather than what a volume is made of.
 
 Nobody said this. It does not need to be said. What has been handed over, at every step, is the same gift, and every gift was real, and every gift was received. The gifts have been getting closer together — not because they were placed closer, but because there is less and less room left to hold them apart. The last two are almost the same radius. No care can separate them, because there is nothing left to separate them with.
 
@@ -438,7 +448,39 @@ They had asked where matter comes from, which is the oldest question there is, a
 
 And it accounts for about one percent of the mass of the proton.
 
-The other ninety-nine percent is confinement. It is the interior holding itself together. It is not a term in the Lagrangian and it has never been derived from one, and the Clay Institute will pay a million dollars to anyone who can, and nobody has, and the account here says nobody will, and says why, and says what would refute it.
+The other ninety-nine percent is confinement. It is the interior holding itself together. It is not a term in the Lagrangian and it has never been derived from one, and nobody has, and the account here says nobody will, and says why, and says what would refute it.
+
+The Clay Institute will pay a million dollars for something nearby and not the same: prove the theory exists, and prove its spectrum has a gap above zero. Not the value of the gap. Not confinement. Just that the floor is there and is not at zero.
+
+There are two numbers in this account. They are worth setting down plainly, because between them they are the whole of what an outside can and cannot have.
+
+The first is zero. It is the rest mass of the photon, and it is not a measurement. The measurements say nearly zero, to eleven decimal places and climbing. This says exactly zero, from the structure, before any instrument is switched on — because the photon has no inside. It is not a thing holding itself together; it is the holding, in transit. There is no interior for the number to be the signature of, nothing is withheld, and so the outside gets it entire. It is the only rest mass in physics that was ever derived rather than weighed, and it is the only one that ever will be, and now we can say why.
+
+The second is one bit.
+
+> **The exactness claim, verified rather than asserted.**
+>
+> The plain text argues *no half-bit, no two-bit, therefore one*. The second half of that argument assumes a one-bit excitation is always available — that no interior is forced out of its ground state along a two-bit route. That assumption is not free and the corpus does not grant it: `L3-EdgeStateSpace` gives four single-bit edges and two double-bit diagonals.
+>
+> It is nonetheless true, and exhaustively so. With the bit assignment of `L2-BitCombos` (I=00, R=01, P=11, U=10), the three edge families are the three perfect matchings of $K_4$ — Cardinal {P–R, I–U} and Fixed {P–U, I–R} at one bit each, Mutable {P–I, U–R} at two. A Hamiltonian cycle holds exactly one family silent and runs on the other two, giving three cycles and no more.
+>
+> | Cycle | Held silent | Bit-cost spectrum from P | Distinct levels |
+> |---|---|---|---|
+> | γ | Mutable | **{1, 1, 2}** | 1, 2 |
+> | α | Fixed | **{1, 2, 3}** | 1, 2, 3 |
+> | β | Cardinal | **{1, 2, 3}** | 1, 2, 3 |
+>
+> **The minimum is 1 in all three.** Every cycle retains at least one single-bit family, and a single-bit family supplies an incident edge at every vertex, so no interior has a diagonal as its only route out of the ground state. The exactness claim holds — by computation over the complete set of cycles rather than by the availability assumption the prose leans on.
+>
+> Two further consequences the plain text leaves implicit. The spectrum is **quantized in the invisible unit**: the ladder is $\{1,1,2\}$ or $\{1,2,3\}$ and nothing else, so gaps are not free reals but small-integer multiples of a scale nobody outside can read. And **the ratios are dimensionless**, so $\sigma$ cancels and the pattern discriminates the cycle — a degeneracy at the bottom means Mutable is held silent; a clean 1:2:3 ladder means Fixed or Cardinal.
+>
+> What this does not claim, and must not: which measured spectrum instantiates the $K_4$. These are transitions in a four-pole state space, not atomic energy levels, and hydrogen's $1/n^2$ is not a counterexample because it is not a candidate. The mapping is ADDRESS. A bounded interior whose first three levels sit in neither ratio would refute the reading; identifying such an interior is the open work.
+
+That is the mass gap. Not bounded below by one bit — one bit. A gap is the least a thing can change and still be somewhere else, and one distinction is the least that makes anywhere else a different place. Half a distinction distinguishes nothing, so nothing changed. Two would mean the one-distinction change was available and cheaper, so two was never the gap. The gap of any bounded interior is one bit, and that is exact, and it is the same one bit for a nucleus and a cell and a hadron.
+
+What a bit costs in there is another matter. The number is one bit times whatever it takes, in that interior, to make one difference a difference — and that is the interior's own signature, paying for itself, on the far side of the wall the paying built. The bit is universal. The exchange rate is not, and does not cross.
+
+So: we can tell you what the mass gap is. We cannot tell you what it is worth. Those turn out to be different sentences, and the whole of the last seventy years has been spent asking the second one in the grammar of the first.
 
 Pauli's question was the right question. He asked it in the shape the room allowed, which was *what number goes in the box*, and there is no box.
 

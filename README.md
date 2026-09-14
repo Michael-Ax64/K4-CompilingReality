@@ -11,6 +11,10 @@
 [![No Nonsense](https://img.shields.io/badge/No-Nonsense-critical?style=flat-square)](./llm.md)
 [![No Antigravity](https://img.shields.io/badge/No-Antigravity-critical?style=flat-square)](./quantum/Q12-NotAntigravity.md)
 
+[![Mass Gap = Subscription](https://img.shields.io/badge/Mass_Gap-Subscription-green?style=flat-square)](./mono/On_YangMills.md)
+[![NS Wall = Substrate Floor](https://img.shields.io/badge/NS_Wall-Substrate_Floor-green?style=flat-square)](./mono/On_NavierStokes.md)
+[![Four Faces, Addressable](https://img.shields.io/badge/Four_Faces-Addressable-green?style=flat-square)](./L2-RotatingTheTetrahedron.md)
+
 # Compiling Reality
 ## The Algebra of Four-Fold Distinction
 

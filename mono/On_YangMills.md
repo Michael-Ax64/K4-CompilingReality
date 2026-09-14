@@ -318,7 +318,21 @@ They had asked where matter comes from, which is the oldest question there is, a
 
 And it accounts for about one percent of the mass of the proton.
 
-The other ninety-nine percent is confinement. It is the interior holding itself together. It is not a term in the Lagrangian and it has never been derived from one, and the Clay Institute will pay a million dollars to anyone who can, and nobody has, and the account here says nobody will, and says why, and says what would refute it.
+The other ninety-nine percent is confinement. It is the interior holding itself together. It is not a term in the Lagrangian and it has never been derived from one, and nobody has, and the account here says nobody will, and says why, and says what would refute it.
+
+The Clay Institute will pay a million dollars for something nearby and not the same: prove the theory exists, and prove its spectrum has a gap above zero. Not the value of the gap. Not confinement. Just that the floor is there and is not at zero.
+
+There are two numbers in this account. They are worth setting down plainly, because between them they are the whole of what an outside can and cannot have.
+
+The first is zero. It is the rest mass of the photon, and it is not a measurement. The measurements say nearly zero, to eleven decimal places and climbing. This says exactly zero, from the structure, before any instrument is switched on — because the photon has no inside. It is not a thing holding itself together; it is the holding, in transit. There is no interior for the number to be the signature of, nothing is withheld, and so the outside gets it entire. It is the only rest mass in physics that was ever derived rather than weighed, and it is the only one that ever will be, and now we can say why.
+
+The second is one bit.
+
+That is the mass gap. Not bounded below by one bit — one bit. A gap is the least a thing can change and still be somewhere else, and one distinction is the least that makes anywhere else a different place. Half a distinction distinguishes nothing, so nothing changed. Two would mean the one-distinction change was available and cheaper, so two was never the gap. The gap of any bounded interior is one bit, and that is exact, and it is the same one bit for a nucleus and a cell and a hadron.
+
+What a bit costs in there is another matter. The number is one bit times whatever it takes, in that interior, to make one difference a difference — and that is the interior's own signature, paying for itself, on the far side of the wall the paying built. The bit is universal. The exchange rate is not, and does not cross.
+
+So: we can tell you what the mass gap is. We cannot tell you what it is worth. Those turn out to be different sentences, and the whole of the last seventy years has been spent asking the second one in the grammar of the first.
 
 Pauli's question was the right question. He asked it in the shape the room allowed, which was *what number goes in the box*, and there is no box.
 

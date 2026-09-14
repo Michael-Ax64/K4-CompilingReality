@@ -50,7 +50,7 @@ The core documents sort by structural depth, not by reading order. The formal sp
 
 - **L1 (Primary Statements):** The full framework (`L1-CompilingReality.md`) and the convergent-discovery evidence (`L1-ConvergentDiscovery.md`).
 
-- **L2 (Reference):** The formal definitions (`L2-Terminology.md`), semantic lexicon (`L2-SemanticReference.md`), mapping method (`L2-MappingMethod.md`), structural monograph of the K4 interior (`L2-K4-InteriorStructure.md`), and bit-field overlays (`L2-BitCombos.md`).
+- **L2 (Reference):** The formal definitions (`L2-Terminology.md`), semantic lexicon (`L2-SemanticReference.md`), mapping method (`L2-MappingMethod.md`), the operator's practice of face-rotation and why it survives strain (`L2-RotatingTheTetrahedron.md`), structural monograph of the K4 interior (`L2-K4-InteriorStructure.md`), and bit-field overlays (`L2-BitCombos.md`).
 
 - **L3 (Foundations & Mathematical Spine):** The mathematical core. The 12-equation Braid (`L3-FormalFoundations.md`), the Edge State-Space (`L3-EdgeStateSpace.md`), the AC Extension (`L3-K4-to-K5-via-AC-Extension.md`), Formal Epistemology (`L3-FormalEpistemology.md`), the fine-structure constant derivation (`L3-TheConstitutiveAlpha.md`), the elementary spatial cell (`L3-TheAtomOfSpace.md`), non-sofic group volumes (`L3-NonSoficTopologicalVolumes.md`), the self-projecting Braid (`L3-TheSelfProjectingBraid.md`), and the cybernetic DoF ladder (`L3-CyberneticDoFSpectrum.md`).
 
@@ -197,6 +197,8 @@ Applied domain analyses and structural deconstructions:
 - **`On_TheTreeAndWorlds.md`**: Jewish mysticism — the Tetragrammaton, the Tree of Life, the Four Worlds — on the K4 centroid, the octave cascade, and the geometry of the Divine Name.
 - **`On_NavierStokes.md`**: Structural reading of the Clay Navier–Stokes problem across its forced (C/D) and unforced (A/B) formulations. Four-floor decomposition on the K4 poles ($U$/Mach, $R$/Knudsen, $I$/Circulation, $P$/Energy). Reads $\rho\equiv1$ as deletion of the causal floor, silencing both shock formation and Lighthill acoustic radiation. Radius-independent stage tax $\Delta E_n \sim \nu\Gamma_n L_n$. BKM read as turnover counter — the winding-angle $\int\omega\,dt$ of the helical Braid — with $n_*\sim Re_{\Gamma,0}<\infty$ for unforced coherent cascades. Companion to `On_NavierStokesCrowbar` (nine-pass dialectic) and `On_TheStrainEigenplaneReading` (fluid-instance detail).
 - **`On_TheStrainEigenplaneReading.md`**: Strain-eigenframe reading of the vortex singularity. Symmetry reduction $T_d \to D_2 \cong V_4$ under anisotropic strain preserves precisely the three bimedian half-turns and nothing else. Four destinations of the compressed interior. AC-impedance translation of the tangent singularity ($X_L\to\infty$, PF$\to 0$). Projection-debt reading of the analytic modulation apparatus. Companion instance-detail for `On_NavierStokes.md`.
+- **`On_YangMills.md`**: Structural reading of the mass-gap problem as a category error. Ten-section ascent from the coordinate gesture to the point that mass is not a property but ongoing payment — the subscription a bound system pays to remain committed. The sealed interior and its projection kernel; soficity as the sharp form of the exterior's inability to sample; the gate ($P=0\to P>0$) as erasure, one-way, only door. Reaches the corpus's *being* claim by a non-topological arc; meets the interior derivation (`On_TheIsNessTax`) at the tangent singularity from the other side. Paired with `On_TheTwoFloors.md`.
+- **`On_YangMills-Annotated.md`**: The annotated edition of `On_YangMills.md`. Exposition text reproduced verbatim; every `>` callout is apparatus — corpus cross-references, verification of historical claims, and the compositional reasoning behind the piece's structure (the descent's port-list, the ascent-orders-by-radius rule, the assent-vs-transit design). For second-pass reading, auditing, and corpus-internal tracing of which claims land where.
 
 *(Note: High-dependency formal monographs remain in the formal spine root: `L3-NonSoficTopologicalVolumes.md`, `L3-NonSoficTopologicalVolumes-Meta.md`, `L5-TheCyclingMind.md`, `L4-TheAcousticOhm.md`, `L4-T
 heOctaveAndVerticalResonance.md`.)*
@@ -219,8 +221,6 @@ Active work-in-progress files expanding the structural boundaries:
 - **`wip-Lx-FlatlandCategoryErrors.md`**: Deconstructs 6 Western philosophical canons, qualia as diagnostic UI.
 - **`wip-Lx-UnstuckEthics.md`**: Why ethics cannot be injected, the 12 peddler cons, Saviour vs. Betrayer edge.
 - **`wip-Lx-Logos.md`**: Logos as Braid memory, $U = \sqrt{PR}$, the 3 angles of the escape hatch.
-
-*(Files previously listed here that have since landed: `L3-TheSelfProjectingBraid.md` and `L3-CyberneticDoFSpectrum.md` are indexed at L3 in §III; `L4-TheSubstrateRatchet.md` is indexed at L4 in §III; content of the former `wip-Lx-LandauerNuclearScale.md` moved to `Q17-LandauerNuclearScale.md` in §VII.)*
 
 ---
 
