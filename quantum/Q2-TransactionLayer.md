@@ -41,6 +41,8 @@ This is the operational signature of the R pole: Reactive + Asserting, material 
 
 The count of eight arises from the requirement that the confining mesh cover every way color can bind to color without leaving a gap. SU(3) has eight generators because a 3×3 unitary group modulo its center has dimension 8. In framework terms, R must lock down the interior volume of the K4 tetrahedron so nothing escapes; a lower-dimensional mediating structure would leave transit windows, and the vacuum would not confine. The eight gluons are the minimal self-interacting mesh that covers the closure.
 
+The SU(3) confinement mechanics also set the R-pole's is-ness tax coefficient at 3. The three color channels are the R-pole's is-ness bandwidth: three channels each paying Schwinger's radiative tax ($\alpha/(2\pi)$ per channel) drives the middle-term integer 3 that appears as $-3/\pi$ in the pion-to-electron Laurent (`Q15-KairosBorn` §I; developed at `On_TheIsNessTax`). SU(3) is generation-blind — the same integer 3 appears in any U↔R inter-rung crossing at any generation (see `L3-ConstitutiveAlpha` §IX falsifier "Vertex It-Ness generation-independence") — while the leading and trailing coefficients of the Laurent depend on the specific generation.
+
 ---
 
 ## V. The Missing Carrier: Why P Has No Gauge Boson

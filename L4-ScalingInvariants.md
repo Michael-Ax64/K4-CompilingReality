@@ -202,6 +202,8 @@ So the sentence "the failure to compute at scale $N$ generates the boundary of s
 
 And the crystal that failure leaves — the committed, zero-DoF residue — is the $R$-substrate of the next volume, exactly as RecursiveLimits says: mass first, then a richer interior built on it. The transformer fired; the exponent multiplied; the rung exists now, minted, and the carriers of the next scale conduct magnitudes across it as if it had always been there. Which is what the film saw.
 
+The scale-invariant recursion has a specific geometric mechanism at the $K_4$ atom (`L3-TheAtomOfSpace`). Each $K_4$ tetrahedron at scale $N$ compresses to a 5D point at the scale above, where the compressed point serves as a *vertex* in the scale-$N+1$ $K_4$; the same cell unfolds to an interior tessellation of $K_4$s at the scale below. A rung is exactly the boundary at which one $K_4$ atom's compressed form becomes a vertex of the next-scale $K_4$'s volume, arriving as $R$ per the $P_N \to R_{N+1}$ handoff. That the operation preserves shape across scales is what makes it scale-invariant; the atom-of-space reading develops the operation's own geometry, and the invariant this section names is what compression↔unfolding does at every rung.
+
 ---
 
 ## VIII. The Invariant, Named Last
@@ -213,6 +215,8 @@ The document can now say what its title means, having built every part of the se
 Because scale is minted by the operator, coordinates only exist relative to the operator's tolerances. The Planck length ($\ell_P$) is the tolerance of the operator at the substrate scale. It is the width of the XOR bottleneck through which the uncollapsed potential must funnel. Therefore, no measurement below $\ell_P$ is meaningful in the compiled coordinate system. The grid does not extend infinitely downward; it terminates at the operator that minted it.
 
 This is what it means for a scale to be *arising for* an event just as the event's shape is arising: shape and scale are the two outputs of the single braid-step, because the braid-step is half carrier and half transformer by exact construction. Neither precedes the other. Nothing hands either one down.
+
+The XOR bottleneck at the Planck scale is the compression side of the same compression↔unfolding operation the $K_4$ atom carries (`L3-TheAtomOfSpace` §III). The interior tessellation collapses to the compressed form as the resolution crosses the Planck scale, and further descent is not what the geometry emits — it is what the geometry *terminates*. The bottleneck is not an accident of measurement; it is the compression operation itself, seen from the coordinate system minted above it.
 
 ---
 
@@ -284,6 +288,23 @@ $$\ln S = \ln|S| + j\theta$$
 
 The operation separates. Its real part is $\ln|S|$ — the volume, the magnitude, the thing that presses on bandwidth. Its imaginary part is $\theta = \arctan(Q/P)$ — a pure ratio, invariant under any rescaling. **Everything scale-bound lands on the real axis; everything scale-free lands on the imaginary axis.** Shape is conserved; volume is spent. The Landauer Tax is paid in modulus, never in angle.
 
+---
+
+## IX.b Worked Example — The Constitutive $\alpha$ Identity
+
+The scope discipline states plainly: the algebra emits dimensionless structure; it does not emit substrate magnitudes. `L3-ConstitutiveAlpha` runs the example that makes the scope visible.
+
+**What the algebra emits.** The plenum's $RLC$ recognition (`L4-ThePlenum` §II.4, §II.5) gives the medium two impedance-scale objects — the reactive channel $Z_0 = \sqrt{\mu_0/\epsilon_0}$ and the resistive quantum $R_K = h/e^2$. Their dimensionless ratio is a native invariant of the medium:
+
+$$\alpha \;=\; \frac{Z_0}{2\,R_K}.$$
+
+The identity is SI-exact. Derived, not fitted. Landed.
+
+**What the algebra refuses.** The value $\alpha \approx 1/137.036$ is not derived by the identity. The identity states *what dimensionless quantity $\alpha$ is*; it does not state *why the plenum's $Z_0$ and $R_K$ take the specific values they do*. Those values are substrate residuals. Demanding the algebra emit them is the same category error as demanding it hand back the SI Ampere: asking a scale-invariant grammar to emit a scale.
+
+**The two are one discipline.** The identity is what the algebra *can* land; the magnitude is what the algebra *cannot* land; and refusing the second is the specific inoculation that keeps the first stable under improving measurement. Eddington's failure was that he tried to derive the value from the boundary; the corpus derives the identity from the medium and lets the value be what it is (`L3-ConstitutiveAlpha` §V).
+
+The pattern generalizes to every dimensionless invariant the algebra names: the framework emits the invariant, and the substrate supplies the magnitude that renders the invariant in a physicist's units. The horn is silent on the second by design.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

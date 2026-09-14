@@ -67,6 +67,8 @@ The edge *is* a K4. The vertex *is* a K4.
 
 They do not arise because we forced a fractal. They arise because in a mutually determining universe, a 1D line and a 0D point are topological impossibilities. The minimum geometry required to hold tension is a volume. Therefore, everything that holds tension is a volume.
 
+The claim that a pole unfolds into its own tetrahedron has a specific geometric mechanism at the elementary-cell scale (`L3-TheAtomOfSpace`): each pole is the *compressed form* of an interior $K_4$ atom at the deeper scale, and unfolding is the operation that reveals that interior. What the descent-tree names as "unfold a pole" and what the atom-of-space reading names as "unfold a compressed $K_4$" are one operation described at two levels. The natural surface measure emitted by the unfolding is $\Omega_4 = 2\pi^2$ — the surface of the unit 3-sphere on which the unfolded volume sits.
+
 ### 2. The Part and the Whole (The Genetic Snippet)
 
 How is the quasi-tet both a part and a whole?

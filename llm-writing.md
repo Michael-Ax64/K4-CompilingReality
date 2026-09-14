@@ -168,3 +168,30 @@ to say.
 Reader-facing standing notices (Reasonable Reader Alert footers, dependency blockquotes,
 epistemic-register headers) are conventional metadata and remain.
 
+## Reconciling Apparently-Contradictory Claims: Name the Subject-Shift
+
+When two corpus-internal claims appear to contradict at a load-bearing sentence — one section says "R = 0"
+and another says "rest mass is $I^2R$ paid on P," or one says "the medium pays nothing" and another
+says "the frame pays continuously" — the resolution is rarely "overwrite one side." More often
+the two claims have different *accounting subjects*, and naming the subject-shift makes both hold
+as landed nouns without either being edited away.
+
+Diagnostic: when the same operator ($P = I^2R$, $Z_{\text{plenum}}(\omega)$, a rest-mass ledger)
+appears on both sides of an apparent contradiction and evaluates differently, the two evaluations
+are usually two operating points of one formula — different subjects, different frames, different
+frequencies — not a real disagreement between the sections. Two evaluations of one $Z_{\text{plenum}}(\omega)$
+at different frames, both true; two readings of one $P = I^2R$ where R is 0 for a free-medium subject
+and $R_{\text{drag}}$ for an extracting-frame subject, both true.
+
+The edit that closes the seam names the subject shift explicitly: the medium's own metabolic accounting
+vs. a bounded frame's extractive accounting against the medium; the free-medium limit vs. the
+bounded-frame operating point; the ledger-side reading vs. the extraction-side reading of the same
+resistance quantum. Once the subject is named, both sections stand as written — neither is overwritten,
+and the seam becomes an explicit two-operating-points statement.
+
+The technique is a specific application of type-safety discipline (`L3-TheAtomOfSpace` §V; `About-Claims`
+Round 2): the operator is one operator, but the subject it accounts *for* differs across evaluations,
+and conflating the subjects is the same class of error as conflating the impedance trinity with the
+bimedian trinity. Two operating points, one operator, subject-named — the reconciled form is what the
+corpus reads as internally consistent.
+

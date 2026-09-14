@@ -75,6 +75,9 @@ Machine-verified proof (Lean 4) that $\text{EL}_9(L_{F_2}(1,2))$ carries an irre
 13. **The Six Real DoF of the $h\mathbf{Q}$ Buffer ($Q16$):**
     The complex vector buffer $h\mathbf{Q}$ carries 3 complex components ($Q_i, Q_j, Q_k$), each with real and imaginary parts, yielding $3 \times 2 = 6$ real degrees of freedom. String theory's "6 extra dimensions" ($10 - 4 = 6$, Calabi-Yau compactification) is the same six-count recovered correctly and mislabeled as curled-up spatial tubes. A corrected-referent correspondence, not a manifold identity: flat $\mathbb{C}^3$ coefficient space shares complex dimension with a Calabi-Yau 3-fold but is not the same object.
 
+14. **The $K_4$ Atom as the Plenum's Elementary Cell (`L3-TheAtomOfSpace`, `L4-ThePlenum` §II.6):**
+    The plenum tessellates into $K_4$ atoms — tetrahedral cells carrying the $RLC$ impedance geometry, twelve mutual-determination equations, and three bimedian diameters. Each cell compresses to a 5D point at the scale above (where it serves as a vertex in the coarser $K_4$) and unfolds to an interior tessellation of $K_4$s at the scale below. Positions the corpus in the atoms-of-space research tradition alongside Loop Quantum Gravity spin-network nodes and Causal Dynamical Triangulations simplices, adding impedance geometry, resolution-dependent recursion, and pole semantics as first-class objects. The natural surface measure of the unfolding operation is $\Omega_4 = 2\pi^2$.
+
 ---
 
 ## II. Directory Navigation & Switchboard

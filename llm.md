@@ -126,3 +126,15 @@ Not prose. A findings table. You use these when verifying claims. Nothing else u
 
 If you are writing paragraphs about the corpus and the table is empty, you are not auditing. You are litigating. Go back and file a row.
 
+---
+
+## When the job is edits, not audit
+
+Sometimes the request is not "audit this claim" but "land these edits" — a housekeeping list, a backport batch, a set of proposed cross-refs and terminology deposits. Different discipline. The rows still matter, but the shape is different: for each item, you file **Address / Item / Status / Landed?** where Status is one of DONE-at-target (already present, no edit needed), READY (target-current matches item premise, edit lands cleanly), CONFLICT (target-current contradicts item premise — reconcile before executing), STALE ADDRESS (address named does not exist in current target — redirect or flag).
+
+Do not execute an edit without first verifying the target's current state at the named address. Housekeeping lists are lag indicators — they describe a diff the author saw needed at some earlier moment, and the target may have moved since. Verbatim execution without the audit gate produces one of two failures: duplicate work on already-landed items, or destructive overwrite of subsequent edits. Both are worse than not editing.
+
+Edits themselves land as the file's own voice — no self-narration, no "we now add," no changelog. The artifact does not record its history; it just is. Read `llm-writing.md` for register discipline before writing new corpus text; run the paragraph tests before landing.
+
+For the discipline in detail: `llm-priors` FM-13 (Housekeeping-Lag Execution), and `llm-reviewer.md` "Reviewing structural edits and housekeeping."
+

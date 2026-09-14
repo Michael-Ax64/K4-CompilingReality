@@ -31,7 +31,9 @@ The fundamental hadron-to-lepton inter-scale step — connecting the electronic 
 
 *The pion identification is exact within scope: $Q1$'s pole assignment names the elementary down-quark as the $R$-pole fermion in the uncompiled buffer $H_{\text{incoh}}$; color confinement (`Q2-TransactionLayer` §IV) forbids the elementary down-quark from exiting into the compiled ledger $H_{\text{coh}}$ as a free asymptotic state, so the lightest physical $R$-ground that lands on the page at generation 1 is the charged pion ($m_{\pi^\pm} = u\bar{d}/d\bar{u}$). What Q15 measures is the inter-rung step between the lightest $H_{\text{coh}}$-observables at the electronic $U$-pole and the hadronic $R$-pole; comparing $m_e$ to bare $m_d$ instead of $m_{\pi^\pm}$ would compare a compiled $P$-ledger entry to an uncompiled $h\mathbf{Q}$ virtual state, which is a category error the confinement mechanism forbids.*
 
-$$\frac{m_\pi^\pm}{m_e c^2} = 2\alpha^{-1} - \frac{3}{\pi}\alpha^0 + 2\alpha^1 = \mathbf{\frac{2}{\alpha} - \frac{3}{\pi} + 2\alpha}$$
+$$\frac{m_\pi^\pm}{m_e c^2} \;=\; \underbrace{\frac{2}{\alpha}}_{\text{reactive}} \;-\; \underbrace{\frac{3}{\pi}}_{\text{rotation}} \;+\; \underbrace{2\alpha}_{\text{resistive}}$$
+
+The three terms are the three impedance-triangle projections of one measurement of the U↔R inter-rung crossing at generation 1 (`L3-ConstitutiveAlpha` §IV): `Layer 1 = Forward Edge = reactive`, `Layer 2 = Vertex-Burn = rotation`, `Layer 3 = Return Edge = resistive`. Three vocabularies, one three-way partition, one Kirchhoff loop.
 
 Evaluating with $\alpha \approx 1/137.035999177$ and $\pi \approx 3.1415926535$:
 

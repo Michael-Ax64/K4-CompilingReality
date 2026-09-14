@@ -190,6 +190,8 @@ The temporal compilation engine ($\omega > 0$) turns on when a localized observe
 
 The timeless $K_4$ bimedian structure is serialized into the Live-Written Ledger ($P \in H_{\text{coh}}$), minting physical rest masses ($m_e, m_\mu, m_\tau$) and generating coordinate time $dt$ as the thermodynamic exhaust of the impact (`Q14`).
 
+Rest mass at each scale-rung is the ongoing is-ness tax paid on each pole's It-Ness maintenance: the $I^2 R_{\text{drag}}$ dissipation the bounded frame pays against the plenum's resistive channel at its compilation frequency $\omega_{\text{frame}}$ to hold its character-distinction (`On_TheIsNessTax`; `L4-ThePlenum` §II.4 bounded-frame reading). The three generations differ in phase-context — which bimedian is silent in each cycle — but every pole in every cycle carries its own is-ness tax at its rung, and the observable mass is what the tax reads.
+
 #### 3. Why High Energy Cannot Open a 4th Generation
 Because $N_{\text{gen}} = 3$ is locked in the timeless, uncompiled geometry ($\omega = 0$), pumping massive energy or driving high frequency ($\omega \to \infty$) into $H_{\text{coh}}$ **cannot create a 4th generation**. 
 

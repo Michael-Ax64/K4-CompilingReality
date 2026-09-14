@@ -137,6 +137,10 @@ In three dimensions, ∅ forms the apex of a 3-simplex ($\Delta^3$) whose base i
 
 This is the "ungraphable triangle": not ungraphable in the sense that $K_4$ cannot be drawn as a planar graph (as an abstract graph, $K_4$ is planar in $\mathbb{R}^2$), but ungraphable in the sense that a 2D planar drawing collapses the 3D volume needed to hold all four states in general position. The 2D triangle you draw is the $K_3$ blanket-face of the interior $\Delta^3$ volume. The fourth vertex (∅) is the interior-facing apex, accessible only when embedded as a 3D polyhedral volume in $\mathbb{R}^3$.
 
+The $\Delta^3$ apex-and-base structure carries a specific ambient the corpus consolidates elsewhere. The $K_4$ volume sits inside the unit 3-sphere $S^3$, whose surface measure is $\Omega_4 = 2\pi^2$ (`L3-TheAtomOfSpace` §III, §VIII #3). That measure is the natural surface generated when the $K_4$'s compressed form (a 5D point at the scale above) expands into its bounded native-scale volume — emitted by the geometry, not inserted. The $K_4$ as elementary cell of the plenum is developed at `L3-TheAtomOfSpace`; the same $\Delta^3$ appears there as the plenum's atom.
+
+The four-state directed edges have a specific consequence for how bimedian assignments distribute across the atom's six edges. Three edges are *U-symmetric* — their endpoint set includes the $U$-pole — and give observer-invariant readings under the target-based directed reading rule. Three are *U-absent* — neither endpoint is $U$ — and give perceiver-relative readings that require the observing pole to be named explicitly. See `L3-TheAtomOfSpace` §VI for the split; paired with `The_Line_Is_A_Directed_Edge` for the face-relative reading; formalized as an algebraic rule at `On_TheDirectedReadingRule`.
+
 ---
 
 ## III. The Operational Translation (The Biquaternion States)

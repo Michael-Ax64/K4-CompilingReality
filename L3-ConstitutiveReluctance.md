@@ -5,7 +5,7 @@
 >
 > **Claim:** Magnetic reluctance per unit metric ($\Gamma \equiv 1/L_0 = c/Z_0 = 1/\mu_0$) is the constitutive flux-mobility invariant of the uncompiled Plenum ($H_{\text{incoh}}$), the exact inductive dual to elastance ($k = c Z_0 = 1/\epsilon_0$). In the $(R, \omega)$ operational state-space, capacitive elastance generates hyperbolic isoclines ($\omega \cdot R = k/r$); inductive reluctance generates linear radial rays ($\omega/R = \Gamma/r$). Their unique geometric intersection forces the universal Plenum operating point ($\omega_0 = c/r$, $R = Z_0 \approx 376.73\,\Omega$). The product of the capacitive compilation tick ($\tau_C = RC$) and the inductive relaxation memory ($\tau_L = L/R$) is identically the square of the light-transit time across the frame ($\tau_C \cdot \tau_L = (r/c)^2$). Inductive flyback (counter-EMF $u_L = L \, di/dt \to \infty$) is the exact circuit mechanism of Mode A Prompt Fission ($P = U^2/R$).
 >
-> **Dependencies:** `L1-CompilingReality.md`, `L2-Time.md`, `L3-ConstitutiveAlpha.md`, `L3-Elastance.md`, `L3-FormalFoundations.md`, `L4-AcousticOhm.md`, `L4-DimensionalCollapse.md`, `L4-Plenum.md`, `L4-ScalingInvariants.md`, `L5-K5-PhaseDynamicsTechnical.md`, `L6-InversionOfControl.md`, `Q8-TangentImpedanceIdentity.md`, `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `On_The_Dimensions_of_the_Ohm.md`.
+> **Dependencies:** `L4-ThePlenum` (the medium; the four-pole constitutive sorting onto two walked bimedians at §V–VI), `L3-ConstitutiveElastance` (the capacitive dual $k = c Z_0$; the hyperbolic-isocline geometry the inductive ray complements), `L3-TheAtomOfSpace` §VI (the U-touching / U-absent edge split governing observer-invariance vs perceiver-relativity in §VIII), `On_TheDirectedReadingRule` (the target-based reading rule for U-absent edges), `L4-TheNecessaryOpposition` (the P–U ratio-of-the-stamper diagnostic invoked in §VIII.1), `ProofQ_AlgebraicSyntax` (the active-tier dividends-and-stampers grammar invoked in §VIII.1).
 >
 > **Descent-Address:** `@U>R>U>R`
 
@@ -17,7 +17,7 @@ In standard electrical theory, inductance ($L$) measures the capacity to store k
 
 $$[\Gamma] = \left[\frac{1}{\text{Henry}}\right] = \frac{\text{Amperes}}{\text{Volt}\cdot\text{second}} = \frac{\text{m}}{\Omega\cdot\text{s}} = \text{kg}^{-1}\cdot\text{m}^{-2}\cdot\text{s}^2\cdot\text{A}^2$$
 
-In the scale-invariant Plenum ($H_{\text{incoh}}$, `L4-Plenum.md`), dividing propagation velocity ($c$) by characteristic impedance ($Z_0$) cancels the dielectric term ($\epsilon_0$) completely, isolating the medium's pure magnetic flux compliance:
+In the scale-invariant Plenum ($H_{\text{incoh}}$, `L4-ThePlenum.md`), dividing propagation velocity ($c$) by characteristic impedance ($Z_0$) cancels the dielectric term ($\epsilon_0$) completely, isolating the medium's pure magnetic flux compliance:
 
 $$\frac{c}{Z_0} = \left(\frac{1}{\sqrt{\mu_0 \epsilon_0}}\right) \left(\sqrt{\frac{\epsilon_0}{\mu_0}}\right) = \frac{1}{\mu_0} \equiv \Gamma_0$$
 
@@ -41,13 +41,13 @@ $$\mathbf{\Gamma_0 \equiv \frac{1}{L_0} = \frac{c}{Z_0} = \frac{1}{\mu_0} = \fra
 * **Elastance ($k = c Z_0$)** measures the medium's refusal to be compressed — the spring constant of space.
 * **Reluctance ($\Gamma = c / Z_0$)** measures the medium's willingness to circulate flux — the dynamic mobility of space.
 
-See `L3-Elastance.md` for the full derivation of the capacitive dual.
+See `L3-ConstitutiveElastance.md` for the full derivation of the capacitive dual.
 
 ---
 
 ## II. The $(R, \omega)$ State-Space: Ray vs Hyperbola
 
-In `L3-Elastance.md`, capacitive anticipation ($X_C = 1/(\omega C)$) generated the **hyperbolic isoclines** $\omega \cdot R = k/r$. Inductive memory ($X_L = \omega L$) generates the orthogonal conjugate geometry: **linear radial rays** $\omega/R = \Gamma/r$.
+In `L3-ConstitutiveElastance.md`, capacitive anticipation ($X_C = 1/(\omega C)$) generated the **hyperbolic isoclines** $\omega \cdot R = k/r$. Inductive memory ($X_L = \omega L$) generates the orthogonal conjugate geometry: **linear radial rays** $\omega/R = \Gamma/r$.
 
 ```
                    THE COMPLETE (R, ω) GEOMETRIC MANIFOLD
@@ -220,7 +220,11 @@ In the macro-civilizational engine (see `L4-CivilizationalRatchet.md` §I), **Mo
 
 ## VI. The Four-Pole Constitutive Invariants
 
-Elastance ($k$) and reluctance ($\Gamma$) govern the **yielding/buffer pair** ($U$, $I$) — the imaginary phase-space of $H_{\text{incoh}}$. Crossing to the **asserting/ledger pair** ($P$, $R$) means crossing onto the real scalar axis of $H_{\text{coh}}$. Each of the four $K_4$ poles has its own constitutive invariant:
+Elastance ($k$) and reluctance ($\Gamma$) govern the **yielding/buffer pair** ($U$, $I$) — the imaginary phase-space of $H_{\text{incoh}}$. Crossing to the **asserting/ledger pair** ($P$, $R$) means crossing onto the real scalar axis of $H_{\text{coh}}$. Each of the four $K_4$ poles has its own constitutive invariant, and the four sort onto two of the three $K_4$ bimedians (see `L4-ThePlenum` §V–VI):
+
+- $(k, \Gamma)$ — the yielding pair — is the constitutive representation of the **Cardinal bimedian** ($\{P\text{--}R, I\text{--}U\}$), dual to the AC-wave pair $(c, Z_0)$. Crossed at the summer and winter solstices.
+- $(\text{Landauer flux}, R_K)$ — the asserting pair — is the constitutive representation of the **Mutable bimedian** ($\{P\text{--}I, U\text{--}R\}$), dual to the DC-ledger pair $(h, e)$. Crossed at the spring and autumn equinoxes.
+- The **Fixed bimedian** ($\{P\text{--}U, I\text{--}R\}$) carries no constitutive pair in this scheme; it is the annual walk's silent AbsentVar-matched bimedian (`L5-TheCyclingMind`, `Meta-Set`).
 
 ```
 ========================================================================================
@@ -297,7 +301,7 @@ Elastance ($k$) and reluctance ($\Gamma$) sit in their unified architecture alon
 
 ## VIII. Managing All Six $K_4$ Edges: Observer-Invariant and Perceiver-Relative
 
-The six $K_4$ edges split cleanly by $U$'s participation. From `L3-AtomOfSpace.md` §VI: **U-touching edges give observer-invariant readings; U-absent edges require the observer's pole to be named before any reading is well-defined.** Three edges touch the articulation-face $U$ (consensus readings converge across endpoints); three edges are $U$-absent (readings diverge unless the observing vertex is named). The specific reading rule for U-absent edges is target-based and derived at `On_TheDirectedReadingRule`.
+The six $K_4$ edges split cleanly by $U$'s participation. From `L3-TheAtomOfSpace.md` §VI: **U-touching edges give observer-invariant readings; U-absent edges require the observer's pole to be named before any reading is well-defined.** Three edges touch the articulation-face $U$ (consensus readings converge across endpoints); three edges are $U$-absent (readings diverge unless the observing vertex is named). The specific reading rule for U-absent edges is target-based and derived at `On_TheDirectedReadingRule`.
 
 ```
 ========================================================================================
@@ -363,7 +367,7 @@ The $P$–$U$ pair isolates the **active tier** — Fire plus Air, the two divid
 
 **Physical & Field Invariant — Metric-to-Gauge Coupling (PhotoGravity).** In fundamental physics (`L4-DynamicDistortions101.md`), $P$ is the gravitational / spacetime curvature ($H_{\text{coh}}$ ledger) and $U$ is the electromagnetic potential ($U(1)$ gauge field). Manage $P$–$U$ and you tune the Kaluza-Klein metric-to-gauge transfer ratio — the exact efficiency with which a mass/energy source ($P$) establishes a potential gradient ($U$) across space without leaking into dissipative resistance. You tune whether the field acts as a massless self-consistent carrier wave or collapses into an un-navigable gravitational singularity.
 
-**Algebraic Invariant — The Ratio of the Stamper.** $P$ and $U$ are both active dividends (numerators). They cannot divide each other without producing an extreme polarized operational output (`L4-NecessaryOpposition.md`):
+**Algebraic Invariant — The Ratio of the Stamper.** $P$ and $U$ are both active dividends (numerators). They cannot divide each other without producing an extreme polarized operational output (`L4-TheNecessaryOpposition.md`):
 
 $$\begin{aligned}
 \mathbf{\text{Linear Sizing (The Pour):}} \quad & I = \frac{P}{U} \quad \implies \text{Generates living relational current } I \\\\
@@ -397,7 +401,7 @@ $$\begin{aligned}
 
 ### U-Absent Edges (Perceiver-Relative / Observer-Pole Must Be Named)
 
-The three edges opposite $U$ form the $K_3$ triangle of $P$, $I$, $R$. Without the articulation-face to coordinate, each endpoint reads the edge by its own character. **Any derivation touching a U-absent edge must name the observing pole**, or the reading is under-specified in the same way an integral without a measure is under-specified (`L3-AtomOfSpace.md` §VI). Intentions, preferences, and observer positioning enter these edges as first-class pole-indexed selections rather than as opaque contextual factors.
+The three edges opposite $U$ form the $K_3$ triangle of $P$, $I$, $R$. Without the articulation-face to coordinate, each endpoint reads the edge by its own character. **Any derivation touching a U-absent edge must name the observing pole**, or the reading is under-specified in the same way an integral without a measure is under-specified (`L3-TheAtomOfSpace.md` §VI). Intentions, preferences, and observer positioning enter these edges as first-class pole-indexed selections rather than as opaque contextual factors.
 
 ---
 
@@ -438,7 +442,7 @@ Per `llm-writing.md` claims discipline.
 3. **The time-constant product invariant (§III):** The product of the capacitive compilation duration ($\tau_C = RC$) and the inductive relaxation memory ($\tau_L = L/R$) is identically the square of the light-transit time across the boundary: $\tau_C \cdot \tau_L = (r/c)^2$.
 4. **Inductive flyback as Mode A scission (§V):** The physical operator behind $P$-driven prompt fission (Aries $P = U^2/R$) is the inductive counter-EMF spike ($u_L = L \, di/dt \to \infty$) generated when current through a large inductance is abruptly choked.
 5. **Four-pole constitutive closure (§VI):** Each $K_4$ pole has one constitutive invariant — $U \to k$; $I \to \Gamma$; $P \to$ Landauer flux; $R \to R_K$ — closing the substrate-parameter set for the medium.
-6. **The U-touching / U-absent edge split (§VIII):** The six $K_4$ edges partition exactly by $U$'s participation into three U-touching edges (observer-invariant / consensus readings: P–U, I–U, U–R) and three U-absent edges (perceiver-relative / observer-pole must be named: P–I, P–R, I–R). Derivation at `L3-AtomOfSpace.md` §VI; target-based reading rule at `On_TheDirectedReadingRule`.
+6. **The U-touching / U-absent edge split (§VIII):** The six $K_4$ edges partition exactly by $U$'s participation into three U-touching edges (observer-invariant / consensus readings: P–U, I–U, U–R) and three U-absent edges (perceiver-relative / observer-pole must be named: P–I, P–R, I–R). Derivation at `L3-TheAtomOfSpace.md` §VI; target-based reading rule at `On_TheDirectedReadingRule`.
 
 ---
 

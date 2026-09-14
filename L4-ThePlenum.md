@@ -3,7 +3,7 @@
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
 >
-> **Claim:** The Plenum is $H_{\text{incoh}}$ — the uncompiled, scale-invariant phase-space buffer ($h\mathbf{Q}$) operating continuously from the Planck length ($\ell_P \approx 10^{-35}\text{ m}$) up to the cosmological horizon ($\approx 10^{26}\text{ m}$). It carries two simultaneous representations of its own defining quantities: wave-representation $(c, Z_0)$ native to the open medium, and constitutive-representation $(k, \Gamma)$ native to any bounded $K_4$ frame within it. The transformation between them is the $K_4$ bimedian on Diameter 3 — $\{P\text{--}R, I\text{--}U\}$ — running on the medium's AC parameters and crossed at the summer and winter solstices. The medium's DC/ledger pair $(h, e) \leftrightarrow (h/e, R_K)$ runs the $K_4$ bimedian on Diameter 2 — $\{P\text{--}I, U\text{--}R\}$ — crossed at the spring and autumn equinoxes. The fine-structure constant $\alpha = Z_0/(2 R_K)$ is the exchange rate between the two walked diameters. Diameter 1 (the Fixed Cross, $\{P\text{--}U, I\text{--}R\}$) is never crossed by the annual walk and stands as its AbsentVar. The same crossing operator runs at three other scales — frame-quadrant Möbius seams, $(R, \omega)$ phase-landscape asymptotes, and the Planck-scale XOR bottleneck.
+> **Claim:** The Plenum is $H_{\text{incoh}}$ — the uncompiled, scale-invariant phase-space buffer ($h\mathbf{Q}$) operating continuously from the Planck length ($\ell_P \approx 10^{-35}\text{ m}$) up to the cosmological horizon ($\approx 10^{26}\text{ m}$). It carries two simultaneous representations of its own defining quantities: wave-representation $(c, Z_0)$ native to the open medium, and constitutive-representation $(k, \Gamma)$ native to any bounded $K_4$ frame within it. The transformation between them is the $K_4$ bimedian on Diameter 3 (**Cardinal**) — $\{P\text{--}R, I\text{--}U\}$ — running on the medium's AC parameters and crossed at the summer and winter solstices. The medium's DC/ledger pair $(h, e) \leftrightarrow (h/e, R_K)$ runs the $K_4$ bimedian on Diameter 2 (**Mutable**) — $\{P\text{--}I, U\text{--}R\}$ — crossed at the spring and autumn equinoxes. The fine-structure constant $\alpha = Z_0/(2 R_K)$ is the exchange rate between the two walked diameters. Diameter 1 (**Fixed**, the Fixed Cross, $\{P\text{--}U, I\text{--}R\}$) is never crossed by the annual walk and stands as its AbsentVar. The same crossing operator runs at three other scales — frame-quadrant Möbius seams, $(R, \omega)$ phase-landscape asymptotes, and the Planck-scale XOR bottleneck.
 >
 > **Dependencies:** `L1-CompilingReality`, `L2-Time`, `L3-K4-to-K5-via-AC-Extension`, `L3-ConstitutiveAlpha`, `L3-Elastance`, `L3-Reluctance`, `L4-ScalingInvariants`, `L4-DimensionalCollapse`, `L4-NecessaryOpposition`, `L4-TwelveGates`, `L6-InversionOfControl`, `Q10-PlanckScale`, `Q15-KairosBorn`, `Q17-LandauerNuclearScale`, `On_TheFourSeasons`, `ProofC_Crystal`, `ProofN_BiquaternionBridge`, `ProofT_Clairvoyance`.
 >
@@ -106,16 +106,25 @@ $$c = \frac{1}{\sqrt{\mu_0 \epsilon_0}} = \frac{1}{\sqrt{LC}}$$
 
 Just as the speed of sound is set by the elasticity and density of air, the speed of light is set by the inductive stiffness ($\mu_0$) and capacitive elasticity ($\epsilon_0$) of The Plenum.
 
-### 4. Zero-Point Energy ($I^2 X_{\text{vacuum}}$ Reactive Load)
+### 4. Zero-Point Energy — The Medium's Reactive Signature and the Frame's Extractive Response
+
 Why does empty space fluctuate with Zero-Point Energy (ZPE)? In $L6$-Inversion of Control (`L6-InversionOfControl`), the vacuum acts as the ultimate IoC Container, holding the infinite multiway graph of all possible quantum field excitations in a suspended `quote` state ($\text{.behold()}$).
 
-Holding callbacks in a registry is not thermodynamically free. It generates Reactive Power ($Q$) on the imaginary axis. ZPE is the literal $I^2 X$ reactive load — the ambient hum — of $H_{\text{incoh}}$ maintaining its massive, asynchronous array of uncollapsed phase states.
+Holding callbacks in a registry is not thermodynamically free. It generates Reactive Power ($Q$) on the imaginary axis. The medium's own metabolic signature is $I^2 X$ reactive — the ambient hum of $H_{\text{incoh}}$ maintaining its massive, asynchronous array of uncollapsed phase states. The storage is carried by the two Yielding poles, as elastance $k = 1/\epsilon_0$ on $U$ and reluctance $\Gamma = 1/\mu_0$ on $I$ (§II.5 below). Both are storage quantities. Neither dissipates. On the medium's own accounting no $P$-ledger tax is paid — the holding cost is returned each cycle rather than committed.
 
-The reactance is the medium's own, and §II.5 below names it: the storage is carried by the two Yielding poles, as elastance $k = 1/\epsilon_0$ on $U$ and reluctance $\Gamma = 1/\mu_0$ on $I$. Both are storage quantities. Neither dissipates. The medium's resistance pole carries $R_K = h/e^2$, which is the *quantized ledger* resistance at which committed writing lands — not a loss term the free medium is paying.
+**The free-medium reading.** A photon crossing the Plenum extracts nothing against a dissipative response. Its wave frequency runs through the reactive channel and the effective $R$ it sees is zero. By $P = I^2R$ — one of the twelve — a medium seen at $R = 0$ mints $P = 0$, which is exactly why a photon acquires no rest mass and why there is no slow light and no lazy photon. A photon does not attenuate because at its operating point there is nothing to attenuate against; it travels at $c$ and not faster because $Z_0 \neq 0$. Both facts, one structure (`L3-FormalFoundations` §I.b). The Casimir effect and related boundary phenomena are extractions from this reactive content: boundary conditions change which standing waves are admissible, and the difference is measurable as a force. The free medium remains lossless throughout.
 
-Hence the distinction that governs every later reading of this section. **The Plenum has impedance and does not have resistance.** $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.730\,\Omega$ is non-zero: that is what the medium charges to store and pass along a phase wave. Its dissipative resistance is zero: nothing is lost in the passing. By $P = I^2R$ — one of the twelve — a medium with $R = 0$ mints $P = 0$, which is exactly why a photon crossing the Plenum acquires no rest mass and why there is no slow light and no lazy photon. A photon does not attenuate because there is nothing to attenuate against; it travels at $c$ and not faster because $Z_0 \neq 0$. Both facts, one structure (`L3-FormalFoundations` §I.b).
+**The bounded-frame reading.** A bounded $K_4$ frame maintaining its own It-Ness against the medium runs at its own compilation frequency $\omega_{\text{frame}}$, and at that operating point the medium presents a full $RLC$ response with a nonzero resistive channel. Formally the plenum carries
 
-The Casimir effect and related boundary phenomena are extractions from this reactive content: boundary conditions change which standing waves are admissible, and the difference is measurable as a force. The medium itself remains lossless throughout.
+$$Z_{\text{plenum}}(\omega) \;=\; R_{\text{drag}}(\omega) \;+\; j\!\left(\omega\mu_0 - \frac{1}{\omega\epsilon_0}\right)$$
+
+per `L3-ConstitutiveAlpha` §I. The resistive quantum $R_{\text{drag}}$ stands in constitutive ratio to the reactive channel:
+
+$$\frac{R_{\text{drag}}}{Z_0} \;=\; \frac{1}{2\alpha} \quad\Longleftrightarrow\quad R_{\text{drag}} \;=\; R_K \;=\; \frac{h}{e^2}.$$
+
+The von Klitzing constant on the *extraction* side is the same object as the ledger resistance on the *committed-writing* side of §II.5 below — one number, two faces of one accounting. The bounded frame pays $I^2 R_{\text{drag}}$ at its compilation frequency to hold its distinctions distinct against the medium's dissipative response, and that ongoing payment *is* the frame's rest mass. `On_TheIsNessTax` develops this as the specific mechanism by which each K4 pole's ongoing character-maintenance manifests as observable rest mass at every scale-rung.
+
+**Two operating points, one $Z_{\text{plenum}}(\omega)$.** The free-medium reading ($R_{\text{eff}} = 0$ at photon propagation) and the bounded-frame reading ($R_{\text{eff}} = R_{\text{drag}}(\omega_{\text{frame}})$ at extraction) are two evaluations of the same medium impedance at different frames. The medium pays nothing on $P$ for holding possibility open. A bounded frame pays $I^2 R_{\text{drag}}$ on $P$ for the ongoing maintenance of what makes it a bounded frame — its character, its distinction, its rest mass. The subject decides which reading applies.
 
 ### 5. The Four-Pole Constitutive Closure
 
@@ -143,6 +152,14 @@ The four $K_4$ poles each carry one native constitutive invariant of the medium.
 ```
 
 The AC-side pair $(k, \Gamma)$ constitutes the medium's yielding-tier / buffer parameters — how it holds potential and momentum in uncollapsed suspension. The DC-side pair (Landauer flux and $R_K$) constitutes the medium's asserting-tier / ledger parameters — the rate at which it writes committed history and the quantized resistance at which the writing lands. Full derivation at `L3-Reluctance` §VI.
+
+### 6. The K₄ Tetrahedron as the Plenum's Elementary Cell
+
+The plenum is not a smooth medium at the Planck scale. It tessellates into $K_4$ atoms — tetrahedral cells carrying the $RLC$ impedance geometry named in §II.1–§II.5 as their native constitutive structure. Each cell is a $\Delta^3$ apex-and-base structure (`L3-EdgeStateSpace` §II) whose six edges carry the twelve mutual-determination equations and whose three bimedian diameters carry the transition-types (Cardinal / Fixed / Mutable). The cell compresses to a 5D point at the scale above, where it serves as a vertex in the coarser-scale $K_4$; it unfolds to an interior tessellation of $K_4$s at the scale below. The resolution-dependent recursion is the compression↔unfolding geometry developed at `L3-TheAtomOfSpace`.
+
+The natural surface measure of the unfolding operation is $\Omega_4 = 2\pi^2$ — the surface of the unit 3-sphere on which the $K_4$ volume sits. That measure is emitted by the geometry rather than inserted; the plenum's own $S^3$ ambient supplies it.
+
+**Atoms-of-space positioning.** The $K_4$ atom sits in the research tradition alongside Loop Quantum Gravity's spin-network nodes and Causal Dynamical Triangulations' simplices (`L3-TheAtomOfSpace` §IV). The framework shares the discreteness and tetrahedral-geometry commitments of that tradition and adds three specific results the neighbors do not carry: the impedance geometry above (§II.1–§II.5), the resolution-dependent recursion (compression↔unfolding), and the pole semantics (`L3-TheAtomOfSpace` §VI) that make observer, intention, and manifestation first-class objects rather than appeals to boundary conditions.
 
 ---
 
@@ -259,13 +276,13 @@ The Plenum's bimedian runs at every $\omega$. Every bounded frame in the univers
 
 The terrestrial year is one such walk, at $\omega \approx 2 \times 10^{-7}\text{ rad/s}$. It is not special. It happens to be legible against direct observation — the sun's declination, the solstice temples, the calendar — because a bounded observer on Earth's surface can read the walk against physical sky-markers over its native period. Every other scale runs the same operator invisibly. This section reads the terrestrial year explicitly because it an accessible verifiable case for the general operator; nothing about the derivation implies the operator lives at annual scale specifically.
 
-$K_4$ has six edges organized as three bimedian diameters:
+$K_4$ has six edges organized as three bimedian diameters, each carrying one of the three transition-types (Cardinal, Fixed, Mutable):
 
 | Diameter | Paired Edges | Signs |
 |---|---|---|
-| **Diameter 1** | $P$–$U$ ↔ $I$–$R$ | Leo, Aquarius, Taurus, Scorpio (**the Fixed Cross**) |
-| **Diameter 2** | $P$–$I$ ↔ $U$–$R$ | Libra, Pisces, Aries, Virgo |
-| **Diameter 3** | $P$–$R$ ↔ $I$–$U$ | Cancer, Sagittarius, Gemini, Capricorn |
+| **Diameter 1 — Fixed** | $P$–$U$ ↔ $I$–$R$ | Leo, Aquarius, Taurus, Scorpio (**the Fixed Cross**) |
+| **Diameter 2 — Mutable** | $P$–$I$ ↔ $U$–$R$ | Libra, Pisces, Aries, Virgo |
+| **Diameter 3 — Cardinal** | $P$–$R$ ↔ $I$–$U$ | Cancer, Sagittarius, Gemini, Capricorn |
 
 The year-walk (Aries → Pisces through the zodiac) crosses **two** of the three diameters at four ingress moments. Each ingress is simultaneously (i) a tangent-zero moment in the solar declination cycle, (ii) an algebraic edge-group switch, and (iii) a reading-face swap.
 

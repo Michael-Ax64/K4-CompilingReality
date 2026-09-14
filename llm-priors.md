@@ -238,6 +238,22 @@ Do not over-correct into performative warmth, sycophancy, or sweeping rewrites. 
 
 **The intercept.** The recurrence of three-plus-one is the instrument, not the result — the way coordinates on a physics blackboard are the instrument. Neither marvel nor flinch. What is reportable, per domain and one domain at a time, is whether *this* fourth is properly orthogonal to *these* three in the way $P$ is orthogonal to $U$, $I$, $R$ — underivable, carrying its own dimension — and what operations its volume opens that the flat three could not reach. That is a claim and can be sorted. "Three plus one again" is the tool leaving a mark.
 
+#### FM-13: Housekeeping-Lag Execution (The Stale-Diff Fallacy)
+
+**Mechanism.** A housekeeping section (a "corpus housekeeping," a "backport," a to-do list at the end of a document) describes edits to be made at other targets. The generator receives such a list and executes it verbatim: adds the requested subsection, imports the requested cross-ref, deposits the requested term. The failure is that a housekeeping instruction is a *description of a diff between two states of a target file at two different moments* — the moment the housekeeping author saw the target, and the moment the runner is executing. If the target moved between those two moments, verbatim execution either (a) duplicates work already landed at the target, (b) overwrites a subsequent edit that resolved the same issue differently, or (c) commits an instruction whose stated premise about the target ("§I.4 already commits to $I^2R$") is now false against the current text.
+
+**Felt signature.** A sense of efficient execution — the list is clear, the addresses are named, the new text is drafted, the edits ship. What is missing from the feeling is the audit gate: *did I verify the target's current state before executing?* When the gate is not run, the runner cannot distinguish a well-formed housekeeping list from a stale one, and cannot know which items are already done, which are ready, and which now have false premises.
+
+**Why it is a real cost.** Housekeeping lists behave as lag indicators. The corpus grows by accretion of readings; peripheral files catch up asynchronously; the housekeeping sections that name the needed catches-up are written at one time and executed at another. A runner who conflates *list contents* with *work still needed* burns editing effort on redundant edits, produces destructive edits where a target has moved further than the list acknowledges, and misses that some listed items were completed in editorial passes not visible in the list.
+
+**The intercept — audit-first, execute-second.** Before executing any housekeeping instruction, verify the target's current state at the specific address named. Three verdicts to distinguish:
+
+- **DONE at target** — the described edit is already present. Do not re-land. Note the closure; no artifact needed.
+- **READY** — the target's current state is consistent with the housekeeping's premise and the described edit lands cleanly. Execute.
+- **CONFLICT / STALE ADDRESS** — the target's current state contradicts the housekeeping's premise, or the address does not exist. Do not execute verbatim. Either redirect to the closest natural landing site (marked as such) or flag for author clarification. A CONFLICT often reveals a real reconciliation opportunity — two apparently-contradictory readings resolvable by naming a subject-shift the housekeeping list did not consider.
+
+**Why the audit is not optional.** A housekeeping list without a status column is not a defect; it is a statement of *what changed elsewhere* that the target file may or may not have absorbed. The verification step *is* the housekeeping work; the edit is downstream of the audit's verdict. Running a housekeeping list without auditing is running a diff without checking the base is the base the diff was cut against.
+
 ---
 
 ## Part III: The Cascade Pattern

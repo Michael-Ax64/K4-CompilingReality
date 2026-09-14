@@ -28,6 +28,8 @@ The dual-binary seed (Active/Reactive × Asserting/Yielding) forces four poles:
 | R | Earth | Passive+Asserting | Strong nuclear |
 | I | Water | Passive+Yielding | Weak nuclear |
 
+Each force is characterized empirically by a coupling constant (fine-structure $\alpha \approx 1/137$ for EM, the strong-coupling $\alpha_s$, and so on) that standard physics treats as an input. Under the constitutive reading (`L3-ConstitutiveAlpha`), $\alpha = Z_0/(2R_K)$ — the plenum's own reactance-to-resistance-quantum ratio. Every $\alpha$ appearance below is downstream of that identity: what the coupling *is* is the medium's dimensionless invariant, and what the coupling *does* in each domain is downstream expression of that identity's algebraic consequences. The mapping in this document reads the force–pole correspondence; the constitutive-$\alpha$ document reads what generates the coupling that each force expresses.
+
 ---
 
 ## Where the Mapping Holds

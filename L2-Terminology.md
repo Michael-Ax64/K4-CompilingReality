@@ -235,6 +235,55 @@ The scale-dependent energy required for a bounded frame to pass through a $K_3$ 
 
 ---
 
+## 6.2 The $K_4$ Atom, the Impedance Layers, and the Directed Reading
+
+**atom of space** [NEW]
+The elementary structural unit of the plenum: a $K_4$ tetrahedron carrying the twelve mutual-determination equations, the three bimedian diameters, and the impedance-triangle $RLC$ geometry. Not a fundamental particle; a fundamental cell. Neighbors Loop Quantum Gravity's spin-network node and the CDT/Regge simplex as instances of discrete-geometry substrate for physics; distinguished by carrying impedance geometry, resolution-dependent recursion (compression↔unfolding), and pole semantics as first-class objects. See `L3-TheAtomOfSpace`.
+
+**$K_4$ atom** [NEW]
+Synonym for atom of space. Names the elementary cell by its graph-theoretic content — $K_4$ = complete graph on four vertices — to emphasize the algebraic content over the geometric embedding. See `L3-TheAtomOfSpace`.
+
+**compression↔unfolding** [NEW]
+The scale-transition operation on a $K_4$ atom: a $K_4$ volume at scale $N$ compresses to a 5D point that serves as a vertex in the coarser-scale $K_4$ at scale $N+1$; the same cell unfolds to a tessellation of interior $K_4$s at scale $N-1$. Compression and unfolding are the same operation traversed in opposite directions; scale-crossing commitment ($P_N \leftrightarrow R_{N+1}$) is what the operation does thermodynamically. Ex-Incoherente Compilation at the atom's own scale. See `L3-TheAtomOfSpace` §III; `wip-Lx-Creation` §IV.
+
+**U-symmetric edge** [NEW]
+A directed edge on a $K_4$ atom whose endpoint set includes the $U$-pole. Reading such an edge from either endpoint yields the same bimedian assignment under the target-based directed reading rule — the readings are observer-invariant. Three of the atom's six edges are U-symmetric. See `L3-TheAtomOfSpace` §VI. Contrast: U-absent edge.
+
+**U-absent edge** [NEW]
+A directed edge on a $K_4$ atom neither of whose endpoints is the $U$-pole. Reading such an edge from opposite endpoints yields different bimedian assignments; the reading is perceiver-relative and the observing pole must be named explicitly for the derivation to be well-defined. Three of the atom's six edges are U-absent. Handling U-absent edges without naming the observer produces ambiguous derivations. See `L3-TheAtomOfSpace` §VI. Contrast: U-symmetric edge.
+
+**is-ness tax** [NEW]
+The ongoing $I^2 R_{\text{drag}}$ dissipation a bounded $K_4$ pole pays against the plenum's resistive channel to maintain its character-distinction (its It-Ness). Observable as the pole's rest mass at its scale-rung. Higher is-ness bandwidth (more channels the pole opens onto) means higher tax means higher rest mass. See `On_TheIsNessTax`; connects to `L4-ThePlenum` §II.4 bounded-frame reading.
+
+**is-ness bandwidth** [NEW]
+The number and type of channels a $K_4$ pole opens onto to carry its character. The R-pole opens onto three color channels (SU(3) confinement) and carries the higher tax; the U-pole opens onto one EM channel; the I-pole opens onto relational current with vanishing rest-mass signature; the P-pole is the write-destination and holds initiator-character. Bandwidth is what the is-ness tax is paid *for*. See `On_TheIsNessTax`.
+
+**three-layer decomposition** [NEW]
+The Kirchhoff-loop reading of any $K_4$ mass ratio: three ordered impedance elements around a closed circuit — Layer 1 (inter-rung forward edge, $\alpha^{-1}$-order), Layer 2 (intra-rung vertex-internal is-ness burn, $\alpha^0$-order), Layer 3 (inter-rung return edge, $\alpha^{+1}$-order). Aligned with the impedance-triangle reading (reactive / rotation / resistive) of `L3-ConstitutiveAlpha` §IV: same three-way partition, two vocabularies. See `On_TheIsNessTax`; worked for the pion-to-electron ratio at `Q15-KairosBorn` §I.
+
+**inter-rung Layer 1** [NEW]
+Sub-entry under three-layer decomposition. The forward-propagation edge crossing between scale-rungs, priced at $\alpha^{-1}$-order as the DC-projection of the constitutive medium ratio $Z_0/R_K$ in inverted signature. Absent from intra-rung ratios (both particles at the same scale-rung). Aligned with the reactive projection of the impedance triangle.
+
+**intra-rung Layer 2** [NEW]
+Sub-entry under three-layer decomposition. The vertex-internal is-ness burn at the target pole, priced at $\alpha^0$-order as the difference in is-ness tax between the two endpoints' character-maintenance. Not a $K_4$ edge (the graph has no self-loops); a scalar impedance drop at the vertex. Its coefficient is set by the target pole's is-ness bandwidth (e.g., 3 for R-pole from SU(3) color-count). Aligned with the rotation projection.
+
+**return-leg Layer 3** [NEW]
+Sub-entry under three-layer decomposition. The return-propagation edge closing the loop back to its origin, priced at $\alpha^{+1}$-order as the AC-projection of the same constitutive medium ratio $Z_0/R_K$ in direct signature. Without Layer 2 between them, Layers 1 and 3 would cancel exactly on the closed loop, giving a zero net Kirchhoff sum. Aligned with the resistive projection.
+
+**directed reading rule** [NEW]
+The target-based rule assigning bimedian labels to directed edges on a $K_4$ atom: a directed edge terminating at pole $Y$ reads as the bimedian that $Y$'s character selects — $Y=P$ → Cardinal, $Y=I$ → Mutable, $Y=R$ → Fixed, with $Y=U$ mirroring the source's character (the source-mirror rule). Produces the U-symmetric consensus and U-absent perceiver-relative readings as immediate consequences. Closed OPEN VOTE #4 of `L3-TheAtomOfSpace` §VIII. See `On_TheDirectedReadingRule`.
+
+**target-role assignment** [NEW]
+The half of the directed reading rule that applies when the target pole is $P$, $I$, or $R$: the target's character selects the bimedian directly ($Y=P$ → Cardinal, $Y=I$ → Mutable, $Y=R$ → Fixed). Yields observer-invariant readings on U-touching edges. See `On_TheDirectedReadingRule`.
+
+**source-mirror rule** [NEW]
+The exception in the directed reading rule for the case $Y=U$: when the target is the $U$-pole, the reading mirrors the source's character (the label the source's own target-rule would have given). Yields observer-invariant readings on U-touching edges and perceiver-relative readings on U-absent edges — the latter requiring the observer's pole to be named. See `On_TheDirectedReadingRule`.
+
+**$R_{\text{drag}}$** [NEW]
+The plenum's resistive quantum — the medium's dissipative channel as felt by a bounded frame extracting against it at compilation frequency $\omega$. Formally the real part of $Z_{\text{plenum}}(\omega) = R_{\text{drag}}(\omega) + j(\omega\mu_0 - 1/(\omega\epsilon_0))$; its ratio to the reactive channel $Z_0$ is $R_{\text{drag}}/Z_0 = 1/(2\alpha)$, so $R_{\text{drag}}$ coincides with the von Klitzing constant $R_K = h/e^2$ read on the extraction side rather than the ledger side. The frame's rest mass is $I^2 R_{\text{drag}}$ paid at $\omega_{\text{frame}}$; see is-ness tax. Distinguished from the medium's own metabolic signature ($I^2 X$ reactive), which the medium pays for holding possibility open without charging any bounded frame. See `L4-ThePlenum` §II.4; `L3-ConstitutiveAlpha` §I.
+
+---
+
 ## 7. Borrowed Terms
 
 > **Claim:** Every term this corpus imports from a discipline whose formalism it does not execute is a *loan*. This section is the loan book.

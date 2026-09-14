@@ -97,6 +97,14 @@ Impedance Z = R + jX names the aggregate opposition; the reactance X is generate
 
 **The P-edges have both faces.** The analysis of the P-edges as zero-impedance write-channels (`Q4-OpenExhaust` §II) holds at the DC-face (ω = 0), where only R is active on any edge. At ω > 0, the P-edges admit the same L and C storage behaviors as any K4 edge: the Ledger can hold energy inductively (self-storage of committed structure against configuration change) and capacitively (accumulated potential from prior `.observe()` events, releasable when the drive drops). The write remains free at all ω — the DC result and its consequences (Star-Norm conservation, graviton absence) are preserved. The written acquires reactive dynamics at ω > 0. Gravitational radiation is the L-C discharge behavior of the P-edges at ω > 0; static curvature is the DC-face of the same edges. Two temporal projections of one algebra.
 
+### The Resistive Channel: $R_{\text{drag}}$ as the Third Constitutive Element
+
+The AC extension names $\mu_0$ as the medium's inductive storage parameter ($L$) and $\epsilon_0$ as its capacitive storage parameter ($C$), and until now has left $R$ implicit — carried by the DC algebra's own resistance quantum on the ledger side, but not formally named on the extraction side. The plenum carries the third element natively as $R_{\text{drag}}(\omega)$ — the medium's resistive quantum as felt by a bounded frame extracting against it (`L3-ConstitutiveAlpha` §I; `L4-ThePlenum` §II.4 bounded-frame reading). Its algebraic home is the dissipative axis of $S = P + jQ$, and its quantum stands in the ratio
+
+$$\frac{Z_0}{2\,R_K} \;=\; \alpha, \qquad R_{\text{drag}} \;=\; R_K \;=\; \frac{h}{e^2}$$
+
+against the reactive channel $Z_0$. The constitutive $\alpha$ identity is the medium's own reactance-to-resistance-quantum ratio, and adding $R_{\text{drag}}$ to the AC extension's element inventory completes the $RLC$ triple. The R-quantum on the extraction side and the R_K on the ledger side of §II.5 in `L4-ThePlenum` are one number with two faces; extracting-frame accounting and committed-writing accounting close on the same object.
+
 ---
 
 ## V. Reactive Power: The Power That Is Not Consumed

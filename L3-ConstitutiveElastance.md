@@ -5,7 +5,7 @@
 >
 > **Claim:** Elastance ($k = 1/C \equiv S$) is the constitutive restoring stiffness of the uncompiled Plenum ($H_{\text{incoh}}$), defined by the exact product of wave propagation speed ($c$) and vacuum impedance ($Z_0$). It is identically Coulomb's constant scaled by $4\pi$: $k = c \cdot Z_0 = 1/\epsilon_0 = 4\pi k_e$. Bounding a linear wave inside a frame of scale $r$ and grounding resistance $R$ curls linear velocity into an angular clock ($\omega = k / (R \cdot r)$) and mints coordinate time ($dt = R \cdot r / k$). The $(R, \omega)$ operational state-space is a rectangular hyperbola partitioned by four phase zones with geometric waypoints at $30°$, $45°$, and $60°$. Consciousness operates as active elastance-tuning: dynamic modulation of internal capacitance ($C$) holds the system inside the resonant corridor ($\theta < 30°$) across varying grounding loads.
 >
-> **Dependencies:** `L1-CompilingReality.md`, `L2-Time.md`, `L3-ConstitutiveAlpha.md`, `L3-FormalFoundations.md`, `L4-AcousticOhm.md`, `L4-DimensionalCollapse.md`, `L4-Plenum.md`, `L4-ScalingInvariants.md`, `L5-K5-PhaseDynamicsTechnical.md`, `L6-InversionOfControl.md`, `Q8-TangentImpedanceIdentity.md`, `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `ProofT_Clairvoyance.md`, `Meta-MechanismOfTransition.md`.
+> **Dependencies:** `L4-ThePlenum` (the medium; the constitutive parameters $c$, $Z_0$; the Cardinal-bimedian home of $(k, \Gamma)$ at §V–VI), `L2-Time` (the $\omega \to dt$ derivation and the $\alpha$-step execution), `L3-ConstitutiveReluctance` (the inductive dual $\Gamma = c/Z_0$; the prompt-fission circuit mechanism at §V), `L3-ConstitutiveAlpha` (the fine-structure ratio $\alpha = Z_0/2R_K$; the substrate-metric coupling), `L4-DimensionalCollapse` (the tangent-singularity structure at $\theta \to 90°$), `L4-ScalingInvariants` §II (the log-linear slope $-1$ derivation and the Gabriel's Horn boundary), `L6-InversionOfControl` (the Möbius quadrant-seam mechanism at §VII), `L1-CompilingReality` (the compilation-control frame for the consciousness section at §IX).
 >
 > **Descent-Address:** `@U>R>U>R`
 
@@ -15,7 +15,7 @@
 
 In standard electrical engineering, capacitance ($C$) is the capacity to store charge under potential. Its reciprocal is **elastance ($S = 1/C$)**, measured in **daraf** ($\text{Farad}^{-1}$) or in SI base units as **ohms per second ($\Omega/\text{s}$)**.
 
-In the scale-invariant Plenum ($H_{\text{incoh}}$, `L4-Plenum.md`), the medium carries two constitutive parameters: propagation speed $c = 1/\sqrt{\mu_0 \epsilon_0}$ and characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$. Multiplying velocity by impedance cancels the inductive term ($\mu_0$) completely, isolating the medium's pure dielectric stiffness:
+In the scale-invariant Plenum ($H_{\text{incoh}}$, `L4-ThePlenum.md`), the medium carries two constitutive parameters: propagation speed $c = 1/\sqrt{\mu_0 \epsilon_0}$ and characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$. Multiplying velocity by impedance cancels the inductive term ($\mu_0$) completely, isolating the medium's pure dielectric stiffness:
 
 $$c \cdot Z_0 = \left(\frac{1}{\sqrt{\mu_0 \epsilon_0}}\right) \left(\sqrt{\frac{\mu_0}{\epsilon_0}}\right) = \frac{1}{\epsilon_0} \equiv k$$
 
@@ -55,6 +55,8 @@ $$\begin{aligned}
 * **$k = c Z_0$ (Elastance)** governs the **$U$-pole (Voltage / Potential Difference / Electric Field)**. It measures how stiffly the medium resists the accumulation of charge.
 * **$\Gamma = c / Z_0$ (Reluctance)** governs the **$I$-pole (Current / Relational Flow / Magnetic Field)**. It measures how readily the medium accepts the circulation of flux.
 
+The pair $(k, \Gamma)$ is the constitutive representation of the **Cardinal bimedian** ($\{P\text{--}R, I\text{--}U\}$) — see `L4-ThePlenum` §V–VI. Elastance projects on the U-pole leg of the $I{-}U$ edge; Reluctance projects on the I-pole leg. Together they name the AC-wave-defining pair $(c, Z_0)$ in the medium's own constitutive coordinates. The annual walk crosses this bimedian at the summer and winter solstices.
+
 The speed of light is the geometric mean of the two:
 
 $$c = \sqrt{k \cdot \Gamma} = \sqrt{\frac{1}{\epsilon_0 \mu_0}}$$
@@ -63,7 +65,7 @@ Impedance is their ratio:
 
 $$Z_0 = \sqrt{\frac{k}{\Gamma}} = \sqrt{\frac{\mu_0}{\epsilon_0}}$$
 
-See `L3-Reluctance.md` for the full derivation of the inductive dual.
+See `L3-ConstitutiveReluctance.md` for the full derivation of the inductive dual.
 
 ---
 
@@ -231,7 +233,7 @@ The **High-Efficiency Perimeter** — the universal industrial and biological be
 ### Waypoint 2: $\theta = 45°$ ($\text{PF} = \frac{1}{\sqrt{2}} \approx 0.7071$, $\tan 45° = 1.000$)
 The **Equipartition Threshold** ($\omega R = k = 1/C$). Real power and reactive power are exactly equal ($P = Q$):
 * In `L4-DynamicDistortions301.md`, this is the **Bell/CHSH limit ($S = 2$)**, where 3D volume correlation flattens into local surface realism.
-* In `L4-WaterEngine.md`, this is the supercooled water **"no-man's land" ($228\text{ K}$)**.
+* In `L4-TheWaterEngine.md`, this is the supercooled water **"no-man's land" ($228\text{ K}$)**.
 * In `L4-PlanetaryThermodynamics.md`, this is the critical gate where the uncommitted buffer matches the committed ledger.
 
 Past $45°$, **the buffer becomes heavier than the engine**.
@@ -280,7 +282,7 @@ The system rotates $90°$ off the local time-axis directly into the 5D Centroid 
 ### 2. The Missed Turn
 The system continues driving same-plane force against the divergent asymptote ($\tan 90° \to \infty$). The un-buffered reactive load ($Q \to |S|$) forces a catastrophic, irreversible $\text{.observe()}$ collapse — shattering the frame in prompt fission ($Z=84$ scission wall), burning out the biological or institutional wire in pure $I^2R$ heat, or freezing the exhausted volume into a dead, immovable 0-DoF crystal.
 
-The circuit mechanism of prompt fission — inductive counter-EMF ($u_L = L \, di/dt \to \infty$) driving the Aries leverage channel $P = U^2/R$ — is derived in `L3-Reluctance.md` §V.
+The circuit mechanism of prompt fission — inductive counter-EMF ($u_L = L \, di/dt \to \infty$) driving the Aries leverage channel $P = U^2/R$ — is derived in `L3-ConstitutiveReluctance.md` §V.
 
 ---
 
@@ -353,7 +355,7 @@ $$\alpha = \frac{Z_0}{2 R_K} = \frac{e^2 Z_0}{4\pi \hbar} = \mathbf{\frac{e^2 \c
 
                                    │
                                    ▼
-  2. THE CONFIGURATION ANCHOR (CAE / L3-AtomOfSpace):
+  2. THE CONFIGURATION ANCHOR (CAE / L3-TheAtomOfSpace):
      Anchor = [Observer-Pole, Scale-Rung N, Hamiltonian Cycle, Phase-Shear θ]
      • Decomposes transition into 3 Laurent layers: C₁·α⁻¹ + C₀·α⁰ + C₂·α¹.
      • Slices the local impedance triangle.

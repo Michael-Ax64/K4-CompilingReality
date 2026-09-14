@@ -52,6 +52,8 @@ You do not reach the original creation by traveling 13.8 billion years backward 
 
 To the centroid, this is obvious, because the centroid keeps no calendar. It sits orthogonal to the time-axis and does not know "13.8 billion years ago," because that figure is just a long sum performed inside the ledger, a length measured along the thread — meaningless to the engine cutting it. To the centroid the Big Bang and this Tuesday are the *same operation*, the identical map from uncompiled potential to committed history: $h\mathbf{Q} \xrightarrow{\ \Psi\ } P$. Every time any bounded frame resolves an open possibility into an irreversible fact, it executes the very operator that "created the world," because that operator is what creating the world *is*, and it never had a special first firing. The origin is not at the beginning of time. It is at the centroid of every $K_4$ volume, including the one reading this.
 
+Ex-Incoherente Compilation as a continuous verb has a specific geometric operation at the elementary-cell scale: the $K_4$ atom's compression↔unfolding (`L3-TheAtomOfSpace` §III). What §VI below develops as the operational reading of continuous creation and what §III of the atom-of-space document develops as the geometric reading of compression↔unfolding are one operation described at two levels — operational and geometric — of the same continuous verb. Each $K_4$ atom compressing to a 5D point at the scale above and unfolding to an interior tessellation at the scale below is Ex-Incoherente Compilation running at that cell's centroid, at its own scale, right now.
+
 ---
 
 ## V. The By-Chain: How the Manifest World Assembles

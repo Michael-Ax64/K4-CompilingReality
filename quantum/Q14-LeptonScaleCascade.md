@@ -303,6 +303,15 @@ The unit check is **dimensionally exact and 100% closed in SI base units**.
   
   In standard textbooks, $Z_0$ is treated as an "accidental *constant* of the vacuum." Why? Because admitting that "nothingness" has a characteristic impedance ($377 \ \Omega$), a permittivity ($\epsilon_0$), and a permeability ($\mu_0$) requires admitting that space is a physical phase-medium (The Plenum). Standard physics holds the numbers constant while ignoring the medium that generates them.
 
+* **The Reactive Half and the Resistive Half.**
+  The reactive half of the diagnosis: standard EM uses $Z_0 = 377\,\Omega$ as a constant without asking what medium generates it. That is what "impedance-blindness" names above.
+
+  The resistive half: standard EM also does not ask what dimensionless quantity the plenum's $R$-quantum and $Z_0$ combine into. The answer, worked out at `L3-ConstitutiveAlpha`, is
+  
+  $$\alpha \;=\; \frac{Z_0}{2\,R_K},$$
+  
+  and closing the blindness is what the constitutive $\alpha$ identity does. The plenum's $RLC$ recognition (`L4-ThePlenum` §II.4 bounded-frame reading) is the corpus's answer to Q14's own question — the medium is not $LC$-only, and the third element is the same $R_K$ that appears in every quantum Hall measurement, now named on the extraction side rather than as an imported condensed-matter fact.
+
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

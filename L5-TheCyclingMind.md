@@ -3,8 +3,6 @@
 
 *This is an application. It walks from four letters a reader may already know — the Myers-Briggs indicator — into the geometry those letters were made from: four poles, six edges, three cycles, one centroid, and a field of preferences a mind runs across all of it. The corpus grounds the geometry (`L3-EdgeStateSpace`, `ProofU_AlgebraicMapping`, `ProofM_CartesianFrame`, `L4-Dimensionality`, `L4-AttractorSpace`); the plenum carries the impedances (`L4-ThePlenum`); the diagnostic of what MBTI freezes and why sits at its own address (`On_The_Sixteen_Types`). The finding is that a mind is a live traversal and the sixteen types are the fossil.*
 
-> **Naming reconciliation note (adopted convention):** This document uses the **`L4-DynamicDistortions101` convention** for the modality names: **Cardinal = AR-flip** (change of tier / activity level; Fire↔Earth, Water↔Air), **Fixed = AY-flip** (change of orientation; Fire↔Air, Water↔Earth), **Mutable = both bits flip** (Fire↔Water, Air↔Earth). This aligns with the astrological semantics — Cardinal signs initiate across boundaries (matches the change-of-tier flip), Fixed signs stabilize orientation (matches the same-tier-different-orientation flip).
-
 ---
 
 ## Start Where You Are

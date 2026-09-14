@@ -5,6 +5,22 @@
 > The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*), and are bounded by its named-but-open status.
 
 
+---
+
+## What Is In This File
+
+Four parts, four different concerns. They are meant to be read in order but they answer separate questions, and a reader looking for one of them should not have to read the others first.
+
+**1. Approach, Access** — *how two people in one space fail to meet, and what it would take.* Starts flat and static: four poles, twelve edges, no time and no buffer. Disagreement turns out to be a geometric fact rather than a failure of goodwill, and empathy turns out to be a traversal with a cost rather than a leap. Then time is switched on and the same problem is re-read with phase delay in it.
+
+**2. The Geometric Derivation and Its Limits** — *where twelve comes from, and whether twelve is enough.* Derives the count from the four poles, checks its alignment, and then asks the question a dimension count should always be asked. The answer is that twelve is complete for the committed ledger and cannot breathe without something orthogonal to all of it. This is the section to read if the question is about dimension counts — this framework's or anyone's.
+
+**3. The Imaginary Plane** — *the uncommitted half.* What the buffer is made of, how memory and anticipation sit in it, what happens to a system that gets lost in it, and why it is hard to see from outside.
+
+**4. The 12D Transfer Matrix** — *inheritance.* How one system's impedance structure passes to another, what happens when a braid forks and generates a new clock, and what that coupling feels like from inside.
+
+---
+
 *Perspective: Static K4 Topology. Time ($\omega$) = 0. Buffer ($Q$) = 0. All edges are real lines.*
 
 
@@ -268,7 +284,6 @@ The Imprint is what it is.
 ---
 
 *Trajectory Note: This document opened the crossing three times — at **The Switch**, where the static graph boots into complex power; at the resonant null, where the imaginary plane cancels itself and the boundary goes transparent; and at **Genesis**, where the parent's `.observe()` seals a new Markov Blanket and the offspring's clock decouples. Each is the same passage, and the passage is not native to here. Its formal geometry — the centroid, the tangent running to ±∞, the two infinities revealed as one point — is derived in `Meta-MechanismOfTransition`. Its base case, the quantum/classical boundary where rate becomes state, is `L4-DimensionalCollapse`; its scale-invariance and the nested parent-and-child are `L4-RecursiveLimits`, and from inside, `L4-RecursiveLimitsSubjective`. The crossing was first named the von Neumann cut, the API boundary, in `L1-CompilingReality` (§2.4) and felt in `L1-CompilingRealitySubjective`; rendered in the complex plane, as the reactive-to-real transition at resonance, in `L3-K4-to-K5-via-AC-Extension`; and given its algebraic image — the interior carried across the boundary by its own operation, $i\mathbb{R}\cdot i\mathbb{R}\to\mathbb{R}$ — in `ProofE_Solipsism`. The refusal of the crossing, the orbit that never lands on the Real axis, is catalogued in `Meta-Decay-as-RefusedTransition`. And the one boundary that is not one more crossing in the series — the orthogonal turn off the time-axis — is held apart in `Meta-Singularity-and-Image`. The twelve dimensions count the crossed, not the crossing. These are where it is crossed.*
-
 
 ---
 

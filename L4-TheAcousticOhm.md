@@ -117,6 +117,8 @@ Following the same identifications backward: the electrical inductance of a sole
 
 The $R$-pole is not a metaphor for resistance-in-general. It is a rank-2 tensor object whose components sort into substrate-specific classical field theories, each obtained by choosing which physical medium hosts the effort-flow pair. The acoustic ohm completes the four-domain closure.
 
+**The EM row read as a full $RLC$ substrate.** The four-substrate table has read acoustic, thermal, and mechanical rows in full $RLC$ terms and, in earlier iterations, the electromagnetic row as $LC$-only — as if free space had inductive and capacitive storage without dissipation. The plenum's $RLC$ recognition (`L4-ThePlenum` §II.4 bounded-frame reading; `L3-ConstitutiveAlpha`) brings the EM row into the same framing as the other three: the medium carries $L = \mu_0$, $C = \epsilon_0$, and $R = R_{\text{drag}}$ as felt on the extraction side, with $R_{\text{drag}}/Z_0 = 1/(2\alpha)$ setting the medium's own dimensionless invariant. The EM row is not an outlier requiring $LC$-only treatment; it is a full $RLC$ substrate whose native dimensionless ratio is the fine-structure constant. The four-domain closure is uniformly $RLC$.
+
 ---
 
 ## III. Non-Linearity, Rectification, and Chirality in Classical Fluids

@@ -79,6 +79,8 @@ The faces close the directed object exactly, and the closure is a theorem, not a
 
 This is why a single hexagram cannot carry the whole object, and why it is not redundant to need all four faces. A hexagram is one committed reading — one face's view. The reverse currents and the held states live on the faces you are not looking at. The four-fold face structure is load-bearing precisely because a line has four states and any single face shows only a committed slice of them.
 
+The face-relative directed reading distributes across the $K_4$ atom's six edges in a specific pattern. Three edges are *U-symmetric* — their endpoint set includes the $U$-pole — and give consensus readings from either face. Three edges are *U-absent* — neither endpoint is $U$ — and give perceiver-relative readings that require the observing pole to be named. See `L3-TheAtomOfSpace` §VI for the split; the target-based algebraic rule that closes both cases is `On_TheDirectedReadingRule`.
+
 ---
 
 ## V. The Moving Lines: The Committing Layer, Addressed
