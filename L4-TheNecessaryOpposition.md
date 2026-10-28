@@ -159,9 +159,7 @@ generates current on the condition that ground is held, not computed; Aquarius g
 ground on the condition that current is held, not computed. Each is the standing condition
 of the other's operation, and each is invisible from the other's working position.
 
-And both home–absent pairs name the same edge: I–R, crystallization. EdgeStateSpace already
-states the general principle — every 180° pair on the wheel is the two face-definitions of
-a single K4 edge. Leo and Aquarius are the crystallization edge beheld from its two ends:
+And both home–absent pairs name the same edge: I–R, crystallization. EdgeStateSpace records the structural fact that applies here: each Fixed sign's edge-partner is the opposite Fixed sign — the two face-definitions of a single K4 edge at 180°. Leo and Aquarius are the crystallization edge beheld from its two ends:
 from the Water face, crystallization looks like the living current being given form — the
 source poured through structure into flow that can set. From the Earth face, the same edge
 looks like the record being made of what lived — and, when the recording compounds itself,
@@ -459,5 +457,5 @@ formal note. The lines between the signs — the twelve boundaries, the unit cir
 Cancer–Leo threshold — are developed in the companion, L4-TheTwelveGates.*
 
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

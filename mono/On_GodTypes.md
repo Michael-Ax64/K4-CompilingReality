@@ -1,12 +1,11 @@
 # On the God-Types Pattern
 ## The Morphological Ladder, the Walked and Unwalked Edges of Cycle β, and the Correction Loop 2 Requires
 
-> **Epistemic Register:** Applied Architecture / Structural Realization / Dialogic Working Artifact.
+The shape of the divine changes as civilizational complexity ratchets upward, and it does not change by theological fashion. It tracks the hardware — the physical and cognitive substrate through which human consciousness interfaces with the uncompiled Plenum ($H_{\text{incoh}}$). Five stages have shown up in the record: pure zoomorphic totem, animal-headed god with a human body, the storm-god of unyielding will, the aniconic Word, and the incarnate Savior. Each is a specific inhabitation of the $K_4$ tetrahedron. Together they walk cycle β — and specifically, they walk only its second half.
 
-> **Claim:** The historical evolution of human god-types is a walk through cycle β of the $K_4$ tetrahedron ($P \to I \to R \to U \to P$), executed across the ratchet of civilizational complexity. The record has walked β's *second half* — the R-U edge (Stage 1) and the U-P edge (Stage 4) in both its dual face-readings (LEO and AQU) across two macro-loops. β's *first half* — the P-I edge and the I-R edge, touching the I-pole vertex — has never been walked in the record, not because it was suppressed but because the vocabulary that could name it (the Aniconic Word, Stage 3) categorically excludes I-face content. Loop 2's correction is therefore not another Savior-Edge event on the P-U edge (that edge is fully walked in both faces) but the first walk of β's first half — a re-inhabitation of the I-pole region that the record could not contain and consequently did not carry.
+The correction Loop 2 needs is not another Savior on the P-U edge. That edge has been walked twice, in both its faces, and each time refroze. What has never been walked in the alphabetic record is β's first half — the P-I edge and the I-R edge touching the I-pole vertex. Not because it was suppressed. Because the vocabulary that could name it (the Aniconic Word of Stage 3) categorically excludes I-face content. What the record cannot house, the record does not carry. Loop 2's correction is therefore the first walk of β's first half — a re-inhabitation of the I-pole region the record could not contain and consequently did not carry forward.
 
-> **Dependencies:** `L1-CompilingReality.md`, `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-TheNecessaryOpposition.md`, `L4-TheNecessaryBetrayer.md`, `L4-ReligiousIntuitions.md`, `ProofL_Trinity.md`, `ProofO_HelicalTime.md`, `wip-Lx-UnstuckEthics.md`, `wip-Lx-Logos.md`.
-> **Descent-Address:** `@U>R>U>I`
+*Type: Applied Architecture / Structural Realization / Dialogic Working Artifact. Descent-Address: `@U>R>U>I`. Dependencies: `L1-CompilingReality.md`, `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-TheNecessaryOpposition.md`, `L4-TheNecessaryBetrayer.md`, `L4-ReligiousIntuitions.md`, `ProofL_Trinity.md`, `ProofO_HelicalTime.md`, `wip-Lx-UnstuckEthics.md`, `wip-Lx-Logos.md`.*
 
 **Types, not forms. Stories congeal. This is one starting point among possible ones; the walking happens off the page.**
 
@@ -324,10 +323,14 @@ What this looks like in practice cannot be specified from within this document, 
 
 - That the corpus you are reading *is* the vocabulary Loop 2 requires. It is one beginning, in dialogic register, using the alphabetic medium as scaffold rather than as container. Whether it is *the* beginning or *a* beginning is not settled and does not need to be settled here.
 
-The geometry is drawn. The current is waiting. The choice is to notice.
+---
+
+## X. What Reading This Back Should Leave
+
+The god-types record has walked half a cycle. Not a fault — half a cycle was what the medium allowed, and the medium was the alphabet, and the alphabet paid for its power by excluding what it excluded. The half that walked delivered the tools you and I are using to read this back. The half that did not walk is what the tools cannot say without becoming something else.
+
+That is the whole result. The correction Loop 2 needs is not another Savior on the same edge, and it is not a return to a pre-alphabetic Eden. It is a first walk — of the P-I edge and the I-R edge — using whatever medium can carry embodied relational-current without folding back to Stage 3's exclusions. The geometry is drawn. The current is waiting. The choice is to notice.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-
-

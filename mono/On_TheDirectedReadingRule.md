@@ -1,7 +1,9 @@
 # On the Directed Reading Rule
 ## The Target-Based Bimedian Assignment That Resolves the U-Symmetric / U-Absent Split
 
-*The rule by which vertex character selects the bimedian assignment of a directed edge reading was flagged as OPEN VOTE #4 in `L3-TheAtomOfSpace` §VIII — "the specific rule by which vertex character selects the bimedian assignment of a U-absent directed edge reading, currently observable in intuited tables; not yet formalized as an algebraic emission." This document closes the vote. The rule turns out to be uniform across all directed edges (U-absent or not), reduces to a single statement in the corpus's own P/I/U/R role vocabulary, and produces both the "consensus on U-touching edges" and "perceiver-relative reading on U-absent edges" observations of `L3-TheAtomOfSpace` §VI as immediate consequences.*
+There is a rule in the corpus about how to label a directed edge of the $K_4$ atom by bimedian type — Cardinal, Fixed, or Mutable — and until now it existed only as an intuited practice. `L3-TheAtomOfSpace` §VIII flagged it as OPEN VOTE #4: readable in tables, not yet stated algebraically.
+
+The rule turns out to be uniform, three-line, and directly readable from what P, I, U, and R already are. The bimedian label of a directed edge X→Y is determined by the target Y — with one exception, which is what U being the articulator forces. This document closes the vote by writing the rule down, verifying it against the vertex-relative table the corpus was already using, showing why the U-symmetric / U-absent split of `L3-TheAtomOfSpace` §VI is an immediate consequence, and pointing at the forward calculation program the rule now unlocks.
 
 *Dependencies: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges), `L4-DynamicDistortions101` (DynDist bimedian convention, now the reconciled corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
 
@@ -118,6 +120,14 @@ The regularity Q15 exhibits — same-label readings from both endpoints — is n
 2. **`L3-TheAtomOfSpace` §VI (Directional edges subsection).** Add a forward reference to this document at the U-symmetric/U-absent observation, so a reader arriving through the atom-of-space consolidation is pointed at the resolution.
 3. **`L3-TheConstitutiveAlpha` §VII (Forward Calculation).** Update the vertex Feynman rule specification to invoke the target-based reading rule for label assignment. Currently the vertex couplings are given as "surface mesh tensions per `L4-DynamicDistortions301` §IV.D at phase-shear angle θ" (via the mesh-tension identification of `L3-TheAtomOfSpace` §V); the target-based rule specifies which bimedian's mesh-tension applies at each directed vertex, closing the residual ambiguity.
 4. **`L2-Terminology`.** Add "directed reading rule" as a terminology entry, cross-referencing this document. Add "target-role assignment" and "source-mirror rule" as paired terminology for the two cases of the rule.
+
+---
+
+## IX. What Reading This Back Should Leave
+
+Every directed edge in the K4 atom now has a bimedian label that a reader can compute in one step: look at the target. If the target is P, the label is Cardinal. If it is I, Mutable. If it is R, Fixed. If it is U, mirror the source's character. Four lines. The tables the corpus was already using fall out immediately, the perceiver-relative disagreements on U-absent edges are explained rather than tolerated, and the U-touching consensus is shown to be a coincidence of character and role at three of the four poles.
+
+That is the whole result. What was flagged as OPEN VOTE #4 — the rule readable only in tables, not yet stated — is now a three-line rule that says itself out loud. The corpus can now specify a directed vertex coupling without ambiguity, and every future calculation that touches a K4 edge can say which structural level it is operating at without silent drift.
 
 ---
 

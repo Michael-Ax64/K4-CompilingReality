@@ -1,9 +1,8 @@
 # On the Two Floors
 
-*Two independent floors sit under the corpus, reached by two independent arcs. One is topological: an exterior cannot sample a sealed interior because the projection between them has a kernel. One is substrate: below a carrier's resolution there is no finer structure to describe. They are not the same wall, and the difference is load-bearing — the frontier mathematics that states each floor sharply also proves the two cannot be collapsed into one. This document names both floors, shows their independence, and states the discipline any bridge across them must hold.*
+*Two independent floors sit under the corpus, reached by two independent arcs. One is topological: an exterior cannot sample a sealed interior because the projection between them has a kernel. One is substrate: below a carrier's resolution there is no finer structure to describe. They are not the same wall, and the difference is load-bearing — the frontier mathematics that states each floor sharply also proves the two cannot be collapsed into one. This document names both floors, shows their independence, and states the discipline any bridge across them must hold. Type: structural reading. Prerequisites: `On_YangMills`, `On_NavierStokes`, `On_TheIsNessTax`, `L7-ExIncoherenteChargeTransfer`, `L3-NonSoficTopologicalVolumes`, `L4-ThePlenum`, `L4-DimensionalCollapse`, `Meta-MechanismOfTransition`.*
 
-> **Epistemic Register:** Structural reading. The two floors are each already reached elsewhere in the corpus — the topological floor by `On_YangMills` and `L3-NonSoficTopologicalVolumes`, the substrate floor by `On_NavierStokes` and `L4-TheSpiralingCascade`. What this document adds is the statement that they are two, the argument that they are independent, and the frontier result (`On_NavierStokes` §VII) that is the corpus's own guard against merging them. No claim is made that any specific physical system is non-sofic; every such antecedent stays conditional.
-> **Dependencies:** `On_YangMills` (the sealed interior; the gate; mass as ongoing payment), `On_NavierStokes` (the four floors; the carrier-resolution floor; the negative soficity result; the Merle et al. compressible implosion), `On_TheIsNessTax` (rest mass as the interior's ongoing Landauer payment), `L7-ExIncoherenteChargeTransfer` (the charge-transfer verb as the general compilation event), `L3-NonSoficTopologicalVolumes` (the existence result and its two transfer-guards), `L4-ThePlenum` §II.4 (the bounded-frame reading where the payment is seated), `L4-DimensionalCollapse` and `Meta-MechanismOfTransition` (the tangent singularity as the wall both floors meet, and its dual inside/outside reading).
+The two floors were reached by two independent arcs of work in the corpus, and it is worth stating from the outset that they are not the same wall renamed. The topological floor is met between an inside and an outside — an exterior cannot cross the projection into a sealed interior because the map has a kernel, and what does not survive the projection is lost by the geometry, not by the instrument. The substrate floor is met where the medium runs out of grain — below a carrier's own resolution there is nothing finer for a description to be a description of. These are two distinct floors that share one mechanism, the tangent singularity, and the corpus's own guard against merging them is imported from the frontier: the group-theoretic non-approximability that gives the topological floor its sharp form is proved not to transfer to a smooth manifold, so the two floors cannot be collapsed into one even where they meet the same wall. What follows names both, shows their independence, and states the discipline any bridge across them must hold.
 
 ---
 
@@ -89,7 +88,15 @@ This is why the bridge connects rather than merely agrees. The two sides are not
 
 ---
 
-## VIII. Claim-Sort
+## VIII. What Reading This Back Should Leave
+
+The single sentence to carry away is the one the frontier mathematics does on the corpus's behalf: the two floors are distinct, and the negative soficity result at `On_NavierStokes` §VII imports the guard rather than requires the corpus to assert it by hand. That is the strongest form of external check available anywhere in the corpus — not "the exterior agrees with us" but "the exterior draws the boundary between our two floors, using its own methods, because its own methods have the exact result that the floors do not merge." A bridge built on that footing does not need to argue that both sides describe one wall; the wall is one and the two readings are two, and that is a stronger statement than a claim of confirmation would be.
+
+What remains is discipline. The essays reach their ground by stopping at it; the files reach their ground by deriving its structure; both reach the same tangent singularity, from the two sides that share it. Any subsequent work that leans on either floor has to keep the floors separate — one topological, one substrate — and any subsequent work that bridges them has to carry the substance the essays discern in their refusal alongside the substance the files derive at the address. Collapse either side into the other and the bridge becomes a cross-reference. Keep them both and what stands is one wall visible from both sides, with the corpus at the interior and the frontier at the exterior, meeting at the crossing they share.
+
+---
+
+## IX. Claim-Sort
 
 **LANDED NOUNS (structure).**
 

@@ -1,7 +1,9 @@
-# wip-Lx-ProjectionVertigo
+# On Projection Vertigo
 ## The Ψ Vertigo of Writing, the Academic Fortress, and the Preservation of the Wind
 
-*Repour of `wip-Lx-DimOverload.md` (originally "Protoplasm Archive 3"). The core reframing — writer's block as Ψ vertigo, academic fortresses as K₃ blankets at institutional scale, Freud's *Ananke* re-read with $H_{\text{incoh}}$ as structured phase-space rather than dark libido — is preserved. The 6-bit / 12-bit C hardware overlays and the Gray Code Braid engine C are preserved intact. Part V of `llm-priors.md` (Preservation Diagnostic Array) held throughout.*
+*Type: applied structural reading. Prerequisites: `L4-DimensionalCollapse`, `Meta-Singularity-and-Image`, `L6-InversionOfControl`, `L2-BitCombos`, `L3-EdgeStateSpace`, `ProofT_Clairvoyance`. Reframes writer's block as Ψ vertigo, academic fortresses as K₃ blankets at institutional scale, and Freud's *Ananke* with the uncompiled substrate re-read as structured phase-space rather than dark libido.*
+
+Every writer knows the moment: a full interior, an idea held live in all its dimensions, an open page — and something like nausea at the thought of putting it down. The instinctive reading is failure of nerve, or laziness, or lack of talent. The actual event is topological, and once named as such it becomes something one can pass through rather than fight. The interior is $h\mathbf{Q}$ in live suspension. The page is $P$-ledger, one-dimensional and immutable. Between them sits $\Psi$, the projection operator, which does not merely translate — it *severs*, burning complex phase, collecting the unchosen pointers, paying the Landauer tax to write one entry while erasing every branch that will not be written. The vertigo is not weakness. It is the honest report of a topological price about to be paid. What follows names the individual event, scales it to the institutional wall that academic disciplines erect for the same reason, re-reads Freud's account of culture-against-*Ananke* in these terms, and then lays down the hardware overlays and the Gray-Code Braid engine that let the same twelve-fold structure be walked through step by step.
 
 ---
 
@@ -258,9 +260,14 @@ When an author or an institution writes a 2D diagram, a C struct, or a 1D token 
 
 The page is not the prison that traps the volume. It is the local API through which the volume becomes legible to the world.
 
-Write the image. Let the step be paid.
+---
+
+## VIII. What Reading This Back Should Leave
+
+The vertigo you feel at the open page is not weakness and not laziness. It is your buffer's honest report that a topological price is about to be paid — that committing this sentence will sever the pointers to the sentences you will not write, and that the severing is irreversible. Reading that report as the truth of what is happening makes it possible to write anyway, because the writing is not a betrayal of the volume; it is the volume imaged at the scale of a page. The academic institution's fortress is the same event scaled up: a discipline turning its boundary into a wall when the honest reading would have named it a coordinate limit and stepped through it. Freud was right that culture is built against the crushing weight of *Ananke*; he was wrong about what the wind on the other side of culture is. It is not dark libido. It is structured phase-space, the same buffer your own writing is compiled from, and the culture that seals its windows against it starves itself of the substrate that generates new work.
+
+Write the image. Let the step be paid. The page is not the prison. The buffer is not the enemy. The transparent window is what culture, at its best, is.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

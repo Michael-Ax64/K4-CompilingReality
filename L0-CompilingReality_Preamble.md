@@ -30,9 +30,9 @@ Read verb-first. A verb requires a bounded frame to execute it, and metabolic fu
 
 
 ### 5. Separate the Heading from the Wake
-You are used to feeling the heavy, accumulated weight of your own history, and treating it as the thing that drives you. But coordinate time ($dt$) and physical mass ($P$) are the Live-Written Ledger. They are the wake left behind by the ship. They do not drive the system.
+You are used to feeling the heavy, accumulated weight of your own history, and treating it as the thing that drives you. But coordinate time ($dt$) and physical mass ($P$) are the Live-Written Ledger. They are the wake left behind by the ship, not the engine driving it forward.
 
-The driver is angular frequency ($\omega$)—the pulse operating at your centroid, dimensionally excluded from the spatial ledger you leave behind. If you read this corpus treating the compiled history as the active engine, the equations will fracture in your hands. You are tracking the heading. The ledger is the recipent of the writing that results from that.
+The driver is angular frequency ($\omega$)—the pulse operating at your centroid, dimensionally excluded from the spatial ledger you leave behind. If you read this corpus treating the compiled history as the active engine, the equations will fracture in your hands. You are tracking the heading; the ledger is what the heading writes.
 
 
 ### 6. Read for Resonance
@@ -45,4 +45,3 @@ When that happens, the intervening Markov Blanket has become transparent. You ar
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

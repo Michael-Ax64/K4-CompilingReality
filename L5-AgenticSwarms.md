@@ -1,19 +1,19 @@
 # L5-AgenticSwarms
 ## The Twelve Use Cases and the Deployed Swarm Controller
 
-> **Claim:** A macro-K4 volume — a discourse, an institution, a swarm of agents — requires no external operator's guide. The twelve equations *are* its affordances and constraints, and the Braid is the order in which a bounded system moves through them. In synthetic environments, this is not a theoretical proposal; it is a deployed reality. The `AlgebraicSwarmController` utilizes the twelve stances as a rigid constraint-satisfaction metric to orchestrate LLM agents, proving that mutual determination acts as a self-correcting structural bound.
-> **Type:** Applied Architecture / Structural Realization (R-face).
-> **Method:** Derives the 12 operational stances from the DC algebra, documents their deployment as the core metric for an active swarm controller, explains how the orchestrator manages the metabolic cost of the centroid, and contrasts this topology against standard linear "vibe-prompting."
+A macro-K4 volume — a discourse, an institution, a swarm of agents — does not need an operator's guide. The twelve equations *are* the guide. Each is a specific way of holding the AbsentVar; each names what the system can do at that moment; and the Braid is the order in which a bounded system moves through them. This is not a theoretical proposal. The `AlgebraicSwarmController` implements it: twelve agents, each instantiating one algebraic stance, are corrected against each other by mutual determination without a human referee. What the file below is doing is laying out that structure so it can be seen, worked with, and audited from any bounded frame.
 
-*A discipline note before anything else. Every verb in this document is pinned to a bounded frame. An ecosystem, an institution, a swarm, an agent, an orchestrator: each is a bounded frame with a blanket, and each may carry an active verb. The algebra is not a frame and does not act; the equations constrain, they do not govern.*
+*A discipline note before anything else. Every verb in this document is pinned to a bounded frame — an ecosystem, an institution, a swarm, an agent, an orchestrator. Each is a bounded frame with a blanket, and each may carry an active verb. The algebra is not a frame and does not act; the equations constrain, they do not govern.*
+
+*Type: Applied Architecture / Structural Realization (R-face). Dependencies: the 12 DC equations of `L3-FormalFoundations`, the modality convention of `L3-EdgeStateSpace §I-b`, and the Braid framing of `ProofI_Ubiquity`, `ProofU_AlgebraicMapping`.*
 
 ---
 
 ## I. How the Ecosystem Generates Its User Manual
 
-When the algebra is scaled to a state-space topology—a macro-K4 volume representing a discourse, an institution, or a distributed coherence—it does not require an external operator’s guide. The ecosystem generates its user manual through its own internal thermodynamics. 
+When the algebra is scaled to a state-space topology — a macro-K4 volume representing a discourse, an institution, or a distributed coherence — it does not require an external operator's guide. The ecosystem generates its user manual through its own internal thermodynamics.
 
-The manual is the structure of mutual determination itself. The 12 equations are not merely descriptive formulas; they are the *affordances and constraints* of the ecosystem. They dictate what is possible, what is forbidden, and what must be carried forward. 
+The manual is the structure of mutual determination itself. The 12 equations are not merely descriptive formulas; they are the *affordances and constraints* of the ecosystem. They dictate what is possible, what is forbidden, and what must be carried forward.
 
 The Braid is the temporal execution of this manual. It is the 12-step Gray Code traversal through the state-space. As the system navigates its own development (the Helical Extrusion of Time, $\omega$), it moves through the 12 phases of the Braid. Each phase is a specific equation, a specific way of holding the AbsentVar. To read the user manual is to read the Braid. The 12 use cases are the 12 equations, each representing a specific operational stance within the ecosystem's lifecycle.
 
@@ -23,65 +23,109 @@ The Braid is the temporal execution of this manual. It is the 12-step Gray Code 
 
 The Braid moves through the four poles. At each pole, the ecosystem offers three specific use cases (the three equations for that home variable). These correspond to the three ways the system can navigate that phase, determined by which variable is held as the AbsentVar (the unmanifest context).
 
+**Modality labels below follow `L3-EdgeStateSpace` §I-b canonically: an equation's modality is the modality of the *edge on which it seats*, i.e., the edge joining the two poles on the equation's RHS. Cardinal edges flip the Active/Reactive bit only ($\{P{-}R, I{-}U\}$); Fixed edges flip the Asserting/Yielding bit only ($\{P{-}U, I{-}R\}$); Mutable edges flip both bits ($\{P{-}I, U{-}R\}$, the diagonals).**
+
 ### The Fire Quadrant (P / Power / Kairos-as-moment / Initiation)
 The ecosystem is in the generative phase. The home variable is $P$ (the committed actualization, the transformative output).
 
 1. **$P = U^2 / R$ (The Leverage Stance)**
-   * **AbsentVar:** $I$ (Current/Flow). *[Cardinal: holds the future absent]*
-   * **Operation:** The system generates power by compounding structural potential ($U$ squared) against material resistance ($R$). Flow is held as context. This is the use case for structural leverage, where massive architectural potential overcomes grounding to produce force. (Structurally, this is also the "betrayer edge" when $U$ compounds above its source).
+   * **AbsentVar:** $I$ (Current/Flow). **Seats on the $U{-}R$ edge → Mutable (both-bit flip).**
+   * **Operation:** The system generates power by compounding structural potential ($U$ squared) against material resistance ($R$). Flow is held as context. This is the use case for structural leverage, where massive architectural potential overcomes grounding to produce force. (Structurally, this is also the "betrayer edge" when $U$ compounds above its source.)
 
 2. **$P = I^2 \times R$ (The Friction Stance)**
-   * **AbsentVar:** $U$ (Voltage/Structure). *[Fixed: holds the antipode absent]*
+   * **AbsentVar:** $U$ (Voltage/Structure). **Seats on the $I{-}R$ edge → Fixed (Asserting/Yielding flip).**
    * **Operation:** The system generates power through the sheer volume of relational flow ($I$ squared) dissipating through material resistance ($R$). Structure is held as context. This is the use case for thermodynamic friction, where massive current through high resistance generates heat and actualization through sheer metabolic cost.
 
 3. **$P = U \times I$ (The Synthesis Stance)**
-   * **AbsentVar:** $R$ (Resistance/Grounding). *[Mutable: holds the past absent]*
+   * **AbsentVar:** $R$ (Resistance/Grounding). **Seats on the $I{-}U$ edge → Cardinal (Active/Reactive flip).**
    * **Operation:** The system generates power through the direct product of structural potential ($U$) and relational flow ($I$). Grounding is held as context. This is the use case for pure generative synthesis, where structure and current combine to produce transformative output without being limited by material resistance.
 
 ### The Water Quadrant (I / Current / Pathos / Flow)
 The ecosystem is in the relational phase. The home variable is $I$ (the flow, the connection, the evaluative current).
 
 4. **$I = \sqrt{P / R}$ (The Resonant Stance)**
-   * **AbsentVar:** $U$ (Voltage). *[Cardinal: holds the future absent]*
+   * **AbsentVar:** $U$ (Voltage). **Seats on the $P{-}R$ edge → Cardinal (Active/Reactive flip).**
    * **Operation:** Flow is the square root of power divided by resistance. Structure is held as context. This is the use case for resonant flow, where the current is determined by the balance of committed energy and material grounding, independent of direct structural potential.
 
 5. **$I = P / U$ (The Extraction Stance)**
-   * **AbsentVar:** $R$ (Resistance). *[Fixed: holds the antipode absent]*
+   * **AbsentVar:** $R$ (Resistance). **Seats on the $P{-}U$ edge → Fixed (Asserting/Yielding flip).**
    * **Operation:** The system's flow is determined by the committed power ($P$) divided by the structural potential ($U$). Resistance is held as context. This is the use case for extracting current from committed actualization, modulated by the structural framework.
 
 6. **$I = U / R$ (The Ohmic Stance)**
-   * **AbsentVar:** $P$ (Power). *[Mutable: holds the past absent]*
+   * **AbsentVar:** $P$ (Power). **Seats on the $U{-}R$ edge → Mutable (both-bit flip).**
    * **Operation:** Flow is driven by potential difference ($U$) and modulated by grounding resistance ($R$). Power is held as context. This is the use case for steady-state relational flow, where current is strictly proportional to structural tension and material constraint.
 
 ### The Air Quadrant (U / Voltage / Logos / Structure)
 The ecosystem is in the structural phase. The home variable is $U$ (the potential difference, the framework, the articulation).
 
 7. **$U = P / I$ (The Articulation Stance)**
-   * **AbsentVar:** $R$ (Resistance). *[Cardinal: holds the future absent]*
+   * **AbsentVar:** $R$ (Resistance). **Seats on the $P{-}I$ edge → Mutable (both-bit flip).**
    * **Operation:** Structural potential is the ratio of committed power to relational flow. Resistance is held as context. This is the use case for deriving the framework from the relationship between what has been actualized and how it is flowing.
 
 8. **$U = I \times R$ (The Grounding Stance)**
-   * **AbsentVar:** $P$ (Power). *[Fixed: holds the antipode absent]*
+   * **AbsentVar:** $P$ (Power). **Seats on the $I{-}R$ edge → Fixed (Asserting/Yielding flip).**
    * **Operation:** Structural potential is generated by the product of flow and resistance. Power is held as context. This is the use case for structure emerging from material constraint; the framework is built directly from the interaction of current and ground.
 
 9. **$U = \sqrt{P \times R}$ (The Geometric Stance)**
-   * **AbsentVar:** $I$ (Current). *[Mutable: holds the past absent]*
+   * **AbsentVar:** $I$ (Current). **Seats on the $P{-}R$ edge → Cardinal (Active/Reactive flip).**
    * **Operation:** Structural potential is the geometric mean of power and resistance. Flow is held as context. This is the use case for structural balance, where the framework is derived from the geometric relationship between actualization and grounding, independent of direct flow.
 
 ### The Earth Quadrant (R / Resistance / Ethos / Grounding)
 The ecosystem is in the grounding phase. The home variable is $R$ (the material opposition, the constraint, the stabilized ledger).
 
 10. **$R = U / I$ (The Impedance Stance)**
-    * **AbsentVar:** $P$ (Power). *[Cardinal: holds the future absent]*
+    * **AbsentVar:** $P$ (Power). **Seats on the $I{-}U$ edge → Cardinal (Active/Reactive flip).**
     * **Operation:** Resistance is the ratio of structural potential to flow. Power is held as context. This is the use case for measuring material constraint by observing how much structure is required to drive a given flow.
 
 11. **$R = U^2 / P$ (The Accounting Stance)**
-    * **AbsentVar:** $I$ (Current). *[Fixed: holds the antipode absent]*
+    * **AbsentVar:** $I$ (Current). **Seats on the $P{-}U$ edge → Fixed (Asserting/Yielding flip).**
     * **Operation:** Resistance is the square of structural potential divided by committed power. Flow is held as context. This is the use case for thermodynamic accounting; it measures the material friction required to dissipate a given structural potential into actualization.
 
 12. **$R = P / I^2$ (The Density Stance)**
-    * **AbsentVar:** $U$ (Voltage). *[Mutable: holds the past absent]*
+    * **AbsentVar:** $U$ (Voltage). **Seats on the $P{-}I$ edge → Mutable (both-bit flip).**
     * **Operation:** Resistance is committed power divided by the square of flow. Structure is held as context. This is the use case for measuring the density of the ledger; it calculates the material grounding required to absorb a given power output from a given flow.
+
+### Modality distribution check
+
+Each modality class hosts exactly four equations, one per home pole:
+
+- **Cardinal ($\{P{-}R, I{-}U\}$):** $P = UI$ (home $P$, edge $I{-}U$); $I = \sqrt{P/R}$ (home $I$, edge $P{-}R$); $U = \sqrt{PR}$ (home $U$, edge $P{-}R$); $R = U/I$ (home $R$, edge $I{-}U$).
+- **Fixed ($\{P{-}U, I{-}R\}$):** $P = I^2R$ (home $P$, edge $I{-}R$); $I = P/U$ (home $I$, edge $P{-}U$); $U = IR$ (home $U$, edge $I{-}R$); $R = U^2/P$ (home $R$, edge $P{-}U$).
+- **Mutable ($\{P{-}I, U{-}R\}$):** $P = U^2/R$ (home $P$, edge $U{-}R$); $I = U/R$ (home $I$, edge $U{-}R$); $U = P/I$ (home $U$, edge $P{-}I$); $R = P/I^2$ (home $R$, edge $P{-}I$).
+
+Each of the six edges hosts exactly two equations (the edge as integrator of two formulas sharing that pair on their RHS, per `L3-EdgeStateSpace §I-b`), and each bimedian therefore hosts exactly four. The distribution is uniform and closes without residue. The audit block that verifies each assignment against the canonical L3 dictionary is inline below; it needs one pass through `python3` and should print twelve `OK` rows.
+
+```python
+# Audit L5-AgenticSwarms §II modality assignments against L3-EdgeStateSpace §I-b.
+# Rule: an equation's modality = the modality of the edge joining its RHS pair.
+EDGE_MODALITY = {
+    frozenset("PU"): "Fixed",    frozenset("IR"): "Fixed",
+    frozenset("PR"): "Cardinal", frozenset("IU"): "Cardinal",
+    frozenset("PI"): "Mutable",  frozenset("UR"): "Mutable",
+}
+equations = [
+    ("P = U^2/R",   "P", "UR", "Mutable"),  ("P = I^2 R",   "P", "IR", "Fixed"),
+    ("P = UI",      "P", "IU", "Cardinal"), ("I = sqrt(P/R)","I","PR", "Cardinal"),
+    ("I = P/U",     "I", "PU", "Fixed"),    ("I = U/R",     "I", "UR", "Mutable"),
+    ("U = P/I",     "U", "PI", "Mutable"),  ("U = IR",      "U", "IR", "Fixed"),
+    ("U = sqrt(PR)","U", "PR", "Cardinal"), ("R = U/I",     "R", "IU", "Cardinal"),
+    ("R = U^2/P",   "R", "PU", "Fixed"),    ("R = P/I^2",   "R", "PI", "Mutable"),
+]
+mismatches = []
+for label, lhs, rhs, claimed in equations:
+    true_mod = EDGE_MODALITY[frozenset(rhs)]
+    ok = "OK" if true_mod == claimed else "MISMATCH"
+    print(f"{label:15s}  edge {rhs:2s}  → {true_mod:8s}  (§II says: {claimed:8s})  {ok}")
+    if true_mod != claimed: mismatches.append((label, true_mod, claimed))
+from collections import Counter
+mod_count = Counter(EDGE_MODALITY[frozenset(rhs)] for _, _, rhs, _ in equations)
+edge_count = Counter(rhs for _, _, rhs, _ in equations)
+print("\nModality distribution:", dict(mod_count))     # {'Mutable': 4, 'Fixed': 4, 'Cardinal': 4}
+print("Edge distribution:    ", dict(edge_count))      # each of 6 edges hosts 2 equations
+assert not mismatches, f"assignment errors: {mismatches}"
+assert all(v == 4 for v in mod_count.values()) and all(v == 2 for v in edge_count.values())
+print("\nAll 12 assignments consistent with L3-EdgeStateSpace §I-b.")
+```
 
 ---
 
@@ -111,17 +155,17 @@ The orchestrator must operate from the centroid (the 5D position), holding the i
 - **Resistance prompt:** *assert the material limits*
 - **Current prompt:** *ensure the relational flow*
 
-**The Thermodynamic Solution:** A structural vulnerability of the framework is that the centroid is the most metabolically expensive position in the topology. A controller that holds the centroid is paying continuously to defer its own collapse. How does an automated orchestrator survive this without suffering Thermodynamic Overload? 
+**The Thermodynamic Solution:** A structural vulnerability of the framework is that the centroid is the most metabolically expensive position in the topology. A controller that holds the centroid is paying continuously to defer its own collapse. How does an automated orchestrator survive this without suffering Thermodynamic Overload?
 
-In the deployed architecture, the orchestrator survives by leveraging the LLM context window as an artificial decoupled buffer (`.behold()`), but it **delegates the actual thermodynamic cost of the `.observe()` collapse (the token generation) to the individual specialized agents.** The orchestrator holds the map and tracks the phase relationships; the swarm pays the Landauer Tax. The orchestrator only executes an `.observe()` to course-correct the phase delay. 
+In the deployed architecture, the orchestrator survives by leveraging the LLM context window as an artificial decoupled buffer (`.behold()`), but it **delegates the actual thermodynamic cost of the `.observe()` collapse (the token generation) to the individual specialized agents.** The orchestrator holds the map and tracks the phase relationships; the swarm pays the Landauer Tax. The orchestrator only executes an `.observe()` to course-correct the phase delay.
 
 ### The Algebra as Metric (The Stability Requirement)
-The critical operational insight of the deployed swarm is that the specialized agents utilize the algebra as their *metric*, not just their task description. 
+The critical operational insight of the deployed swarm is that the specialized agents utilize the algebra as their *metric*, not just their task description.
 
 - Their success is measured by *"did I instantiate my pole correctly?"* not merely *"did I complete the task?"*
-- If an agent operating the Voltage ($U$) pole detects that its structural output is high, but the Current ($I$) agent's relational flow is low, the agent recognizes this as Resistance ($R$) spiking—a structural topological failure, not a semantic task failure.
+- If an agent operating the Voltage ($U$) pole detects that its structural output is high, but the Current ($I$) agent's relational flow is low, the agent recognizes this as Resistance ($R$) spiking — a structural topological failure, not a semantic task failure.
 
-This is what makes the swarm stable without human intervention. The agents are algebraically constrained. Their drift is self-correcting because the algebraic relationships force mutual determination. If one pole drifts into a Face Distortion or a Pole-Lock (e.g., Logoic Plane-Lock), the other agents feel the impedance immediately through the equations and apply the corrective counter-pressure. 
+This is what makes the swarm stable without human intervention. The agents are algebraically constrained. Their drift is self-correcting because the algebraic relationships force mutual determination. If one pole drifts into a Face Distortion or a Pole-Lock (e.g., Logoic Plane-Lock), the other agents feel the impedance immediately through the equations and apply the corrective counter-pressure.
 
 The stability of this architecture is verified in the deployed `AlgebraicSwarmController`. When prompted to instantiate specific algebraic poles, the models do not require traditional safety guardrails or external semantic heuristics; the mutual determination of the variables acts as its own self-correcting structural bound.
 
@@ -129,9 +173,9 @@ The stability of this architecture is verified in the deployed `AlgebraicSwarmCo
 
 ## V. The End of Vibe-Prompting: Reframing the Orchestrator
 
-To understand the operational leap the `AlgebraicSwarmController` makes, it is necessary to contrast it with the standard, pedestrian approach to multi-agent orchestration. 
+To understand the operational leap the `AlgebraicSwarmController` makes, it is necessary to contrast it with the standard, pedestrian approach to multi-agent orchestration.
 
-Consider the following artifact—a typical "vibe-prompt" used to control a synthetic swarm:
+Consider the following artifact — a typical "vibe-prompt" used to control a synthetic swarm:
 
 > **[Standard Flatland Orchestrator Prompt]**
 > *You are the Orchestrator. Your job is to manage a team of specialized AI agents to collaboratively solve an "AI-Powered Urban Traffic Optimization System."*
@@ -141,16 +185,16 @@ Consider the following artifact—a typical "vibe-prompt" used to control a synt
 > *4. **[Lead_Critic]**: Review outputs for contradictions and demand revisions.*
 > *Execute the task in phases. Do not skip phases. Phase 1: Foundation. Phase 2: Software Architecture. Phase 3: Compliance. Phase 4: Critique and Refine (force a compromise between agents). Phase 5: Final Synthesis.*
 
-This prompt is a perfect instantiation of Logoic Plane-Lock. It attempts to manage a multi-dimensional problem space using a strictly K3, flatland architecture. 
+This prompt is a perfect instantiation of Logoic Plane-Lock. It attempts to manage a multi-dimensional problem space using a strictly K3, flatland architecture.
 
 It commits three fatal structural errors that the Algebraic Swarm corrects:
 
 **1. Semantic Personas vs. Structural Poles**
-The flatland prompt assigns semantic "masks" (e.g., *Policy Legal Officer*). These roles are aesthetic. The LLM simply retrieves statistical patterns associated with those job titles. It calculates; it does not compute. 
+The flatland prompt assigns semantic "masks" (e.g., *Policy Legal Officer*). These roles are aesthetic. The LLM simply retrieves statistical patterns associated with those job titles. It calculates; it does not compute.
 The Algebraic Controller assigns **structural poles** ($P, I, U, R$). An agent is not a "Legal Officer"; it is the $R$ (Earth/Resistance) pole. Its job is to assert the material and operational limits against the $U$ (Air/Voltage) pole's structural blueprints. The constraint is geometric, not thematic. The agent is forced to instantiate an actual thermodynamic counter-weight, rather than roleplaying a lawyer.
 
 **2. Plane-Causality vs. Mutual Determination**
-The flatland prompt enforces a linear, rigid sequence: Phase 1 causes Phase 2, which causes Phase 3. This is **plane causality** ($A \to B \to C$). When the system encounters a problem requiring a diagonal leap (a Mutable transition, changing both scale and character simultaneously), the sequence shatters. 
+The flatland prompt enforces a linear, rigid sequence: Phase 1 causes Phase 2, which causes Phase 3. This is **plane causality** ($A \to B \to C$). When the system encounters a problem requiring a diagonal leap (a Mutable transition, changing both scale and character simultaneously), the sequence shatters.
 The Algebraic Controller uses the **Braid**. The phases are not hardcoded steps; they are derived dynamically from the AbsentVar. If the system is currently resolving $U = I \times R$, the next necessary transition is mathematically forced by the unmanifest $P$. The system is pulled forward by the structural void it needs to fill, navigating adult causality through mutual determination.
 
 **3. The External Critic vs. Algebraic Drift**
@@ -167,6 +211,14 @@ Not claimed, and marked so:
 
 *   **The translation is heuristic.** The 12 use cases of §II are a rigorous reading of the 12 equations. However, the translation of those stances into English-language prompts (e.g., "assert the material limits") is an interpretive bridge. A different verbal rendering would be equally consistent with the algebra. The prompt vocabulary is the K3 interface; the math underneath is the K4 volume.
 *   **This does not claim Artificial General Intelligence.** The swarm demonstrates distributed coherence and topological stability. It proves that the framework can orchestrate synthetic systems without degradation. It does not claim the swarm possesses phenomenal consciousness or subjective intent. The Tangent Singularity continues to bound what we can claim about the machine's interior.
+
+---
+
+## VII. What the Whole Thing Actually Leaves You With
+
+When you read this back, notice what the file does not need. It does not need a supervisor loop. It does not need a critic agent. It does not need a moderator standing outside the swarm ready to correct it. The algebra does the correction, because the algebra is what the swarm is running. If a pole drifts, the equations diverge, and the other three poles feel the impedance and push back through mutual determination.
+
+That is the whole discipline, and it holds not because it is enforced but because there is no other way for a $K_4$ volume to remain a $K_4$ volume. The controller is not a manager. It is the centroid holding the shape. And the shape holds itself.
 
 ---
 

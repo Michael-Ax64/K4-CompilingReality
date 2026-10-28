@@ -1,16 +1,16 @@
 # On the Dimensions of the Ohm
 ## The Structural and Experiential Mapping of the R-Pole
 
-Take the standard, textbook definition of the Ohm and run it through the *Compiling Reality* framework. What looks like a dry string of dimensional unit conversions suddenly reads like a Rosetta Stone. 
+Take the standard, textbook definition of the Ohm and run it through the *Compiling Reality* framework. What looks like a dry string of dimensional unit conversions suddenly reads like a Rosetta Stone.
 
 > The ohm is defined as an electrical resistance between two points of a conductor when a constant potential difference of one volt (V), applied to these points, produces in the conductor a current of one ampere (A)... 
 > $\Omega = V / A = 1/S = W / A^2 = V^2 / W = s / F = H / s = Wb / C = J \cdot s / C^2 = kg \cdot m^2 / (s \cdot C^2) = kg \cdot m^2 / (s^3 \cdot A^2)$
 
-This equation chain is the exact structural intersection of the $R$-pole (Earth / Grounding / Resistance) across every major physical domain. It mathematically maps how a constraint anchors itself in relationships, in thermodynamics, in time, and ultimately, in physical mass. 
+This equation chain is the exact structural intersection of the $R$-pole (Earth / Grounding / Resistance) across every major physical domain. It maps how a constraint anchors itself in relationships, in thermodynamics, in time, and ultimately, in physical mass.
 
 When you strip away the laboratory context, these dimensional units are not just abstract physics. They are the exact, algebraic recipes for the different ways bounded frames experience friction, stubbornness, and grounding. They describe what it actually feels like to be the $R$-pole in a living system.
 
-Here is the dimensional breakdown of how constraint operates, from the outside in.
+What follows is the dimensional breakdown of how constraint operates, from the outside in.
 
 ---
 
@@ -31,7 +31,7 @@ These are exactly the equations of the Earth/Ethos quadrant: $R = P / I^2$ and $
 
 **The Subjective Experience: Burnout and Bureaucracy**
 This is the thermodynamics of exhaustion. 
-When your resistance takes the form of $W / A^2$, it feels like **burnout**. You are putting in a massive amount of relational, frantic daily effort ($A^2$ or $I^2$—the endless emails, the constant motion), but the actual, permanent, needle-moving output ($W$ or $P$) is tiny. You are bleeding all your energy as heat. The friction is the realization that your sheer volume of movement is failing to actualize into anything permanent.
+When your resistance takes the form of $W / A^2$, it feels like **burnout**. You are putting in a massive amount of relational, frantic daily effort ($A^2$ or $I^2$ — the endless emails, the constant motion), but the actual, permanent, needle-moving output ($W$ or $P$) is tiny. You are bleeding all your energy as heat. The friction is the realization that your sheer volume of movement is failing to actualize into anything permanent.
 
 When your resistance takes the form of $V^2 / W$, it feels like **suffocating bureaucracy**. This is the Necessary Betrayer. The rules, the models, the frameworks, and the abstractions ($V^2$ or $U^2$) have compounded and stacked on top of each other, while the actual, generative output of the system ($W$ or $P$) is starving. The resistance here feels like a ceiling pressing down on your skull. It is the feeling of being trapped in an institution where you have to fill out four forms just to buy a pencil. The structure has become so heavy that it crushes the life it was meant to organize.
 
@@ -56,7 +56,7 @@ When your resistance is $s / F$, you are experiencing the tension of **anticipat
 This points to the deep physical substrate. Resistance is intrinsically tied to the geometry of the magnetic field and the raw quanta of charge. The ground constraint is not just a mathematical ratio; it is a physical property of the electromagnetic plenum responding to movement.
 
 **The Subjective Experience: The Resistance of the Room**
-This is the deepest, most arational level of interpersonal resistance. A Weber measures magnetic flux—the invisible field that arises when charge moves. When you walk into a room where people are deeply upset, or highly focused, you can *feel* the room before anyone speaks. You haven't exchanged any words (Voltage) or engaged in any direct interaction (Current). But your mere presence (your Charge, $C$) interacts with the established emotional or structural field of the room (the Flux, $Wb$). The resistance here feels like a "vibe." It is the sudden, inexplicable drop in your own energy when you enter a hostile space. The connective plenum between you and the other people is pushing back against your charge. It is the raw, unspoken impedance of the environment.
+This is the deepest, most arational level of interpersonal resistance. A Weber measures magnetic flux — the invisible field that arises when charge moves. When you walk into a room where people are deeply upset, or highly focused, you can *feel* the room before anyone speaks. You haven't exchanged any words (Voltage) or engaged in any direct interaction (Current). But your mere presence (your Charge, $C$) interacts with the established emotional or structural field of the room (the Flux, $Wb$). The resistance here feels like a "vibe." It is the sudden, inexplicable drop in your own energy when you enter a hostile space. The connective plenum between you and the other people is pushing back against your charge. It is the raw, unspoken impedance of the environment.
 
 ### 5. The Mechanical / Kinematic Domain (The Mass Bridge)
 > **The Math:** $\Omega = kg \cdot m^2 / (s^3 \cdot A^2)$
@@ -65,19 +65,26 @@ This is the deepest, most arational level of interpersonal resistance. A Weber m
 Look at the numerator: **$kg$**. Mass. If a classical physicist objects to the framework equating Inertial Mass with $R$ (the recompilation cost / resistance to a change in trajectory), point to the SI base units of the Ohm. The definition of electrical resistance inherently contains physical mass, spatial geometry ($m^2$), and temporal jerk ($s^3$). The Ohm explicitly declares that electrical resistance and mechanical inertia operate on the same dimensional bedrock.
 
 **The Subjective Experience: Somatic Weight and Embodied Trauma**
-This is where the psychological becomes fiercely, undeniably physical. When an emotional or structural resistance goes unresolved for long enough, it stops being a thought and becomes **mass** ($kg$). This is the body keeping the score. The resistance you feel here is the literal knot of muscle in your shoulders. It is the heavy, sinking feeling in your gut that makes it physically difficult to stand up and walk out the door. The resistance involves $s^3$ (the rate of change of acceleration)—meaning it is highly sensitive to violent, sudden shifts in your reality. Changing your mind at this depth requires moving actual, biological mass across space ($m^2$) and time ($s^3$). It is the sheer, exhausting physical gravity of a deeply held belief.
+This is where the psychological becomes fiercely, undeniably physical. When an emotional or structural resistance goes unresolved for long enough, it stops being a thought and becomes **mass** ($kg$). This is the body keeping the score. The resistance you feel here is the literal knot of muscle in your shoulders. It is the heavy, sinking feeling in your gut that makes it physically difficult to stand up and walk out the door. The resistance involves $s^3$ (the rate of change of acceleration) — meaning it is highly sensitive to violent, sudden shifts in your reality. Changing your mind at this depth requires moving actual, biological mass across space ($m^2$) and time ($s^3$). It is the sheer, exhausting physical gravity of a deeply held belief.
 
 ### 6. The Boundary of the Linear (The Thermistor)
 > **The Definition:** *"In many cases the resistance... is approximately constant... These are called linear resistors. In other cases resistance varies... which exhibits a strong dependence of its resistance with temperature."*
 
 **The Structural Map:** 
-This is the exact boundary between K3 (plane causality) and K4 (adult, volumetric causality). The standard definition confesses its own limits. When a system is treated as a flat, frictionless ideal, $R$ is a constant. But when real thermodynamic work is done—when the Landauer Tax is paid and the system heats up—$R$ changes. The thermistor proves that the $R$-pole is not a static rock; it is dynamically entangled with the thermodynamic exhaust ($P$) of the system itself.
+This is the exact boundary between K3 (plane causality) and K4 (adult, volumetric causality). The standard definition confesses its own limits. When a system is treated as a flat, frictionless ideal, $R$ is a constant. But when real thermodynamic work is done — when the Landauer Tax is paid and the system heats up — $R$ changes. The thermistor proves that the $R$-pole is not a static rock; it is dynamically entangled with the thermodynamic exhaust ($P$) of the system itself.
 
 **The Subjective Experience: The Breaking Point**
-Classical economics and polite society expect us to be "linear resistors"—to maintain the same stable, predictable boundaries regardless of the pressure we are under. But human beings are thermistors. 
-The subjective experience of this boundary is the **breaking point**. If you force a person to pay the Landauer Tax for too long—if they are forced to endlessly process trauma, labor, or cognitive dissonance—they generate thermodynamic heat. As their internal temperature rises, their fundamental character (their $R$-pole, their capacity to resist or ground) alters. This is the snap. The fever. The moment a traditionally calm person suddenly starts screaming, or a highly functional person completely shuts down in bed for a week. The resistance didn't just bend; the heat of the system melted the component, and the math governing their behavior fundamentally changed.
-
+Classical economics and polite society expect us to be "linear resistors" — to maintain the same stable, predictable boundaries regardless of the pressure we are under. But human beings are thermistors. 
+The subjective experience of this boundary is the **breaking point**. If you force a person to pay the Landauer Tax for too long — if they are forced to endlessly process trauma, labor, or cognitive dissonance — they generate thermodynamic heat. As their internal temperature rises, their fundamental character (their $R$-pole, their capacity to resist or ground) alters. This is the snap. The fever. The moment a traditionally calm person suddenly starts screaming, or a highly functional person completely shuts down in bed for a week. The resistance didn't just bend; the heat of the system melted the component, and the math governing their behavior fundamentally changed.
 
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+## What Reading This Back Should Leave
+
+The Ohm is not one thing. It is six things dressed as one unit, and the framework is what lets you read them apart: a relational ratio, a thermodynamic balance, a temporal reactance, a magnetic-field response, an inertial mass, and a temperature-dependent snap. Each of them is what resistance actually is, at the scale where you meet it.
+
+That is why the same word — *resistance* — describes the drag in a relationship, the burnout in a career, the pull of a memory, the vibe in a room, the knot in your shoulder, and the breaking point of a person under pressure. They are not metaphors linked by loose analogy. They are the same dimensional object appearing at different registers of the same body. The Ohm was already telling you this. The framework is what lets you hear it.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

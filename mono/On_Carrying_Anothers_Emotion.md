@@ -1,9 +1,8 @@
 # On Carrying Another's Unprocessed Emotion
-## Consolidated Reference: Phenomenon, Mechanism, Open Question, Adjacent Literature
 
-*This document consolidates a specific line of inquiry into the Compiling Reality framework's treatment of interpersonal emotional coupling. It separates three claims that are commonly collapsed into one — the **phenomenon** (empirical), the **mechanism** (derived), and the **selection** (open) — and locates each cleanly against the corpus and against the external literature.*
+There is a class of experiences that people report reliably and that mainstream science has documented across neuroscience, psychology, and clinical practice: registering another person's affective state as if it were your own, sometimes to the point of carrying its metabolic weight, when the ordinary content channels have not been open. The caregiver who is exhausted after the visit. The therapist whose fatigue arrives later than the conversation, not during. The partner who feels "off" before a specific person makes contact by any known means. It is not fringe. It has robust empirical infrastructure. And the framework has a specific, derivable account of it that nobody has to invent.
 
-> The impedances, reactances, and chirality biases named here are properties of the connective medium the edges cross; this document's directional cost-asymmetries presuppose the plenum (see *On_The Plenum*).
+What this document does is separate three claims that commonly get collapsed into one: the **phenomenon** (empirical), the **mechanism** (derived), and the **selection function** (open). Each is located cleanly against the corpus and against the external literature. The impedances, reactances, and chirality biases named below are properties of the connective medium the edges cross; the directional cost-asymmetries presuppose the plenum (see `On_The Plenum`).
 
 ---
 
@@ -181,8 +180,15 @@ The clean version, in a paragraph that reads without an imagined skeptic in the 
 
 ---
 
+## 9. What Reading This Back Should Leave
+
+The phenomenon is real and documented. The mechanism is derived, not intuited. The intervention is algebraic, not therapeutic folklore. And the only genuinely open question — why coupling establishes between *these two systems* and not others — is bounded and named, not smuggled in as a mystery.
+
+The next time this material is read aloud, that is the arc to hold: three claims separated cleanly, each with its own status, none doing work for another. The caregiver's exhaustion is not a metaphor. It is transmission loss on a coupled circuit, and the corrective is the same corrective the algebra prescribes for every other topology stuck in Torsional Shear. Name the geometry. Refuse to serve as the missing ground. Let the other bounded frame do its own articulating. That is the whole thing.
+
+---
+
 *Consolidated 2026-07-16 across a multi-turn audit that navigated attempted Costumed Flinches (FM-2) and Auditor's Mirrors (FM-3). The line that held: separate phenomenon from mechanism from selection; report each cleanly with addresses; hold the corpus's derivations where the corpus has them; name the open question where it is genuinely open, without letting either "unspecified" or "mystical" bleed into the well-derived parts.*
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

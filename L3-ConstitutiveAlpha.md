@@ -1,241 +1,224 @@
-# L3-Constitutive $\alpha$
+# L3-ConstitutiveAlpha
 
 ## The Plenum as RLC, the Fine-Structure Constant as Medium Ratio, and What Eddington Was Reaching For
 
-*This document commits a reading the corpus has been carrying half-said: the plenum is an $RLC$ medium, not an $LC$ one, and the fine-structure constant is the dimensionless ratio between its reactive impedance and its quantized resistance. What follows works out the constitutive identity, its algebraic entailments (including why $\alpha$ must appear at three Laurent orders in the pion-to-electron ratio derived at `Q15-KairosBorn` §I), and its historical precedent in Eddington's Fundamental Theory. It closes with the corpus housekeeping the reading requires. Scope discipline throughout: what is derived is the constitutive identity and the algebraic role, not the numerical magnitude — the value $\alpha \approx 1/137$ remains a substrate residual, licensed as outside the algebra's emission range by `About-Claims` §I and `L4-ScalingInvariants` §IX (Gabriel's Horn).*
+Read the plenum as a full $RLC$ medium rather than a lossless $LC$ one, and the fine-structure constant stops being a coupling that happens to equal a metrological ratio. It becomes that ratio: the medium's reactive impedance measured against its own resistance quantum, $\alpha = Z_0/2R_K$. The identity is exact because it is the definition of $\alpha$ written in SI quantities; what this file adds is the reading, and what the reading entails. Wherever an inter-rung crossing samples the medium through all three of its impedance modes, $\alpha$ must appear at three Laurent orders, $\alpha^{-1}$, $\alpha^0$, $\alpha^{+1}$ — the shape of the pion-to-electron ratio of `Q15-KairosBorn` §I. The value $1/137$ is not derived and is not claimed. That refusal is Eddington's failure turned into a scope boundary.
 
-*Dependencies: `L4-ThePlenum` (the plenum posit; the $RLC$ commitment at §II.4 bounded-frame reading; the $K_4$ elementary cell at §II.6), `L3-TheAtomOfSpace` (underlying architecture — the constitutive $\alpha$ derivation is one derived consequence of the atom-of-space reading), `L3-K4-to-K5-via-AC-Extension` ($\epsilon_0 \leftrightarrow C$, $\mu_0 \leftrightarrow L$, $S = P + jQ$, and the $R$-channel completing the $RLC$ triple), `L4-TheAcousticOhm` (the substrate-general $RLC$ pattern already carried in the acoustic realization), `Q14-LeptonScaleCascade` (the $377\,\Omega$ impedance-blindness diagnosis), `Q15-KairosBorn` §I (the pion-to-electron Laurent expansion), `L4-ScalingInvariants` §V, §VIII, §IX (Assert/Yield, the invariant, Gabriel's Horn), `About-Claims` §I (what the framework is and is not).*
+*Dependencies: `L4-ThePlenum` (the two operating points, §II.4; the $K_4$ cell, §II.6), `L3-TheAtomOfSpace`, `L3-K4-to-K5-via-AC-Extension`, `L4-TheAcousticOhm`, `Q14-LeptonScaleCascade`, `Q15-KairosBorn` §I, `On_TheIsNessTax`, `L4-ScalingInvariants` §V, §VIII, §IX, `About-Claims`.*
 
 ---
 
 ## I. The Question the $LC$ Framing Cannot Ask
 
-Standard electromagnetism carries two dimensionless quantities that any student meets in the same semester and never sees related.
+Standard electromagnetism carries two impedance-scale quantities that a student meets in the same semester and never sees related.
 
-The first is the vacuum's characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$. Antenna designers match to it every day. It is the ratio at which a plane wave's electric and magnetic amplitudes lock as the wave propagates through free space, and it is the impedance that must be presented at a radiating boundary if energy is to leave the transmitter rather than reflect back into it.
+The first is the vacuum's characteristic impedance, $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\ \Omega$. Antenna designers match to it every day. It is the ratio at which a plane wave's electric and magnetic amplitudes lock as the wave propagates, and the impedance a radiating boundary must present if energy is to leave the transmitter rather than reflect into it.
 
-The second is the von Klitzing constant $R_K = h/e^2 \approx 25812.807\,\Omega$. The quantum Hall effect measures it directly; it is the resistance quantum, the natural unit in which electrical resistance is metrologically expressed at the quantum level.
+The second is the von Klitzing constant, $R_K = h/e^2 \approx 25\,812.807\ \Omega$. The quantum Hall effect measures it directly; it is the resistance quantum.
 
-The ratio between them:
+Their ratio is
 
-$$\frac{Z_0}{2 R_K} = \frac{\mu_0 c e^2}{2 h} = \alpha \approx \frac{1}{137.036}.$$
+$$\frac{Z_0}{2R_K} = \frac{\mu_0 c\, e^2}{2h} = \frac{e^2}{4\pi\epsilon_0\hbar c} = \alpha.$$
 
-This is not a coincidence and not an approximation. It is an exact SI identity, checkable in one line, and it has been sitting in the metrology tables since before anyone thought of it as sitting anywhere at all. Standard treatments write it and move on. The identity is presented as accounting.
+The identity is exact because the last expression is the definition of $\alpha$; since the 2019 SI, $\mu_0$ is itself fixed through the measured $\alpha$. So the identity cannot fail. Its content is not the equality. It is the question the equality invites: *what would it mean for $\alpha$ to be this ratio constitutively* — the medium's reactance in units of its own resistance quantum, with the coupling behaviour downstream of that?
 
-The question standard electromagnetism cannot easily ask about this identity is: *what would it mean if it were constitutive?* What would it mean for $\alpha$ not to be a coupling that happens to equal $Z_0/(2R_K)$, but to *be* that ratio — the fine-structure constant *just is* the medium's reactance measured in units of its resistance quantum, and the coupling behaviour is downstream of that identity?
+```python
+from mpmath import mp, mpf, pi, sqrt
+mp.dps = 15
+h = mpf('6.62607015e-34'); e = mpf('1.602176634e-19'); c = mpf('299792458')
+alpha = 1/mpf('137.035999177'); hbar = h/(2*pi)
+mu0 = 2*alpha*h/(e**2*c)                      # 2019 SI: mu0 fixed through alpha
+Z0 = mu0*c; RK = h/e**2
+print(Z0, RK, Z0/(2*RK), 1/alpha)             # 376.730313411  25812.8074593  0.00729735256  137.035999177
+print(Z0/pi)                                  # 119.91698  (not 120)
+```
 
-The reason the question is hard to ask inside standard EM is that standard EM treats the vacuum as $LC$: pure reactance, lossless. In an $LC$ framing, $Z_0$ is the medium's only impedance-like number. There is no resistance quantum *in* the medium; $R_K$ has to be imported from the quantum Hall effect as a separate quantum-mechanical fact about electrons on a two-dimensional substrate. The identity $Z_0/(2 R_K) = \alpha$ then lives across a domain seam: one number from the vacuum, one from condensed-matter metrology, and their ratio "happens to be" the coupling that governs how electrons and photons talk to each other. That is exactly the kind of inter-domain coincidence a scope-honest framework must either resolve into one object or accept as unresolved.
-
-The $LC$ framing structurally cannot resolve it. The identity requires two impedance-scale objects natively in one medium, and pure reactance offers only one.
+The $LC$ framing cannot ask that question. Pure reactance supplies one impedance-scale object, $Z_0$. The resistance quantum has to be imported from condensed matter as a separate fact about electrons on a two-dimensional substrate, and the identity then lives across a domain seam: one number from the vacuum, one from metrology, their ratio "happening to be" the coupling. That is the kind of inter-domain coincidence a scope-honest framework must either resolve into one object or leave standing as unresolved.
 
 ---
 
-## II. The $RLC$ Recognition — What `L4-ThePlenum` §I.4 Already Committed
+## II. The $RLC$ Recognition
 
-`L4-ThePlenum` §I.4 already writes the sentence that resolves the seam. Zero-point energy is not just the elastic hum of an $LC$ line. It is literal $I^2 R$ dissipative transmission loss — the plenum's own resistive channel paying its Landauer tax on the uncollapsed multiway potential it holds behind every Markov blanket. The document is emphatic: ZPE is not a mystery to be dispelled; it is what an $R$-channel *sounds like* when the medium is holding an infinite registry of callbacks in a `quote` state.
+`L4-ThePlenum` §II.4 supplies the second impedance-scale object natively, and it does so at a precise place. The free medium is reactive: a photon crossing the plenum sees an effective $R$ of zero, mints no rest mass, and the zero-point hum is the $I^2X$ reactive load of holding possibility open, stored and returned each cycle. A **bounded frame** maintaining its own character against the medium is different. At its own compilation frequency the medium presents a full $RLC$ response,
 
-The commitment is there. What §I.4 does not do — what this document does — is *use* the commitment. If the plenum has an $R$ alongside its $L$ and $C$, then the medium is a full $RLC$ impedance:
+$$Z_{\text{plenum}}(\omega) = R_{\text{drag}}(\omega) + j\!\left(\omega\mu_0 - \frac{1}{\omega\epsilon_0}\right),$$
 
-$$Z_{\text{plenum}}(\omega) = R_{\text{drag}}(\omega) + j\!\left(\omega \mu_0 - \frac{1}{\omega\epsilon_0}\right).$$
+with the resistive quantum in constitutive ratio to the reactive channel, $R_{\text{drag}}/Z_0 = 1/2\alpha$, that is $R_{\text{drag}} = R_K$. The frame pays $I^2R_{\text{drag}}$ to hold its distinctions against the medium, and that payment is its rest mass.
 
-The reactive part is what standard EM already sees; it sets $Z_0 = \sqrt{\mu_0/\epsilon_0}$ at the geometric-mean frequency where $\omega\mu_0 = 1/(\omega\epsilon_0)$. The resistive part is what standard EM sets to zero and what §I.4 names as the actual source of the vacuum's thermodynamic hum.
-
-In the $RLC$ framing the seam of §I disappears. Both $Z_0$ (reactive) and a resistance quantum (dissipative) live in the same medium. The ratio between them is a native dimensionless invariant of that one medium — which is exactly what $\alpha$ has always been asked to be.
-
-The $LC$ framing could not host the identity as constitutive. The $RLC$ framing does host it, natively, with no imported quantities. That is the load-bearing move of this document, and everything else follows from it.
+In this reading the seam of §I closes. $Z_0$ (reactive) and $R_K$ (dissipative, on the extraction side) live in one medium, evaluated at two operating points, and their ratio is a native dimensionless invariant of that medium — which is what $\alpha$ has always been asked to be.
 
 ---
 
 ## III. $\alpha$ as Constitutive Ratio
 
-State the identity in its constitutive reading:
+$$\boxed{\;\alpha = \frac{Z_0}{2R_K}\;}$$
 
-$$\boxed{\;\alpha \;=\; \frac{Z_0}{2 R_K}\;}$$
+Read the boxed line as a statement of what $\alpha$ *is*: the plenum's reactance in units of twice its resistance quantum. Two consequences follow, and neither needs a numerical value.
 
-Read the boxed line not as an accounting equality but as a definition of what $\alpha$ *is*. The fine-structure constant is the plenum's reactance in units of twice its resistance quantum. It is what a full-$RLC$ medium reports when asked for its reactance-to-resistance ratio in the natural quantum units the medium itself carries.
+**$\alpha$'s status changes.** In the standard reading, $\alpha$ is a coupling with a mysterious value. In the constitutive reading it is a ratio that governs a coupling, and asking why it has its value becomes asking why the plenum has these inductive, capacitive and resistive parameters — a substrate question, outside the algebra's emission range by Gabriel's Horn (`L4-ScalingInvariants` §IX).
 
-Two consequences follow immediately, and neither one requires committing to a numerical value of $\alpha$.
-
-**First: $\alpha$'s definitional status changes.** In the standard reading, $\alpha$ is a coupling — a small dimensionless number that governs how strongly charges couple to the electromagnetic field, with a mysterious value that has resisted every derivation attempt. In the constitutive reading, $\alpha$ is not a coupling that happens to equal a ratio; it is a ratio that happens to govern a coupling. The coupling behaviour is a downstream consequence of the medium's impedance geometry, not a fundamental fact about nature. Asking "why does $\alpha$ have this value?" becomes asking "why does the plenum have these specific inductive, capacitive, and resistive parameters?" — a *substrate* question, correctly outside the algebra's emission range per Gabriel's Horn.
-
-**Second: $\alpha$'s appearance in inter-scale ratios becomes forced rather than fitted.** Any calculation involving inter-rung crossings must project through the medium's impedance geometry, and $\alpha$ is the medium's own signature. Wherever an inter-rung ratio engages the reactive channel, $\alpha^{-1}$ appears (the ratio inverted, weighted by whatever integer the K4 topology contributes). Wherever it engages the resistive-return channel, $\alpha^{+1}$ appears (the ratio itself). Wherever it engages a pure-rotation channel that does not care about coupling strength but only about multiplicity, $\alpha^0$ appears with a coefficient set by the rotation multiplicity. The Laurent structure of $\alpha$'s appearance is dictated by which axes of the impedance triangle the calculation samples.
-
-That is where Q15's three-term expansion comes from, and it is what the next section works out.
+**$\alpha$'s appearance in inter-rung ratios becomes structured.** An inter-rung crossing projects through the medium's impedance geometry, and $\alpha$ is the medium's signature. Where the crossing engages the reactive channel, $\alpha^{-1}$ appears, weighted by whatever integer the $K_4$ topology contributes. Where it engages the resistive return, $\alpha^{+1}$ appears. Where it engages a pure-rotation channel that cares only about multiplicity, $\alpha^0$ appears, with a coefficient set by that multiplicity.
 
 ---
 
 ## IV. The Impedance Triangle and the Three Laurent Orders
 
-An $RLC$ medium at any frequency admits a natural triangle of orthogonal impedance modes:
+The framework assigns an $RLC$ medium three orthogonal modes at any frequency:
 
-- **Reactive axis** — pure $jQ$. Coupling-driven, scales with $\alpha^{-1}$ (the reciprocal of the medium's own reactance-to-resistance-quantum ratio, since inter-rung *steps* are inverse-signature to inter-rung *couplings*).
-- **Rotation axis** — pure angular multiplicity. Coupling-independent, scales with $\alpha^{0}$. Sets by the number of orthogonal channels the vertex opens onto, weighted by whatever geometric factor the loop integrates against (typically a power of $\pi$).
-- **Resistive axis** — pure $P$. Ohmic self-load, scales with $\alpha^{+1}$ (the ratio itself, appearing where the return leg closes onto its originating vertex).
+- **Reactive** — pure $jQ$. Coupling-driven; scales as $\alpha^{-1}$, since inter-rung *steps* are inverse-signature to inter-rung *couplings*.
+- **Rotation** — pure angular multiplicity. Coupling-independent; scales as $\alpha^0$, with a coefficient set by the number of channels the vertex opens onto and the geometric factor the loop integrates against, typically a power of $\pi$.
+- **Resistive** — pure $P$. Ohmic self-load; scales as $\alpha^{+1}$, where the return leg closes onto its originating vertex.
 
-Any K4 face-crossing that engages *all three* axes must read at all three Laurent orders. And it must read at exactly three, because the impedance triangle has exactly three axes. This is not three separate perturbative corrections to a bare quantity; it is one measurement projected onto three orthogonal modes.
+A crossing that engages all three reads at all three orders, and at no more, because the construction has three modes. This is one measurement projected onto three modes, not three successive corrections to a bare quantity.
 
-The pion-to-electron mass ratio at `Q15-KairosBorn` §I:
+The pion-to-electron ratio of `Q15-KairosBorn` §I reads on this basis:
 
-$$\frac{m_\pi^\pm}{m_e c^2} \;=\; \underbrace{\frac{2}{\alpha}}_{\text{reactive}} \;-\; \underbrace{\frac{3}{\pi}}_{\text{rotation}} \;+\; \underbrace{2\alpha}_{\text{resistive}}$$
+$$\frac{m_{\pi^\pm}}{m_e} = \underbrace{\frac{2}{\alpha}}_{\text{reactive}} - \underbrace{\frac{3}{\pi}}_{\text{rotation}} + \underbrace{2\alpha}_{\text{resistive}} = 273.131663 \quad (\text{measured } 273.132440;\ 2.84\ \text{ppm}).$$
 
-reads under the constitutive-$\alpha$ reframe as follows.
+**Reactive step, $+2/\alpha$.** The bare carrier step from the electronic $U$-pole ground to the hadronic $R$-pole ground at generation 1. The $2$ is the dual-binary seed (`L3-FormalFoundations`); the $1/\alpha = 2R_K/Z_0$ is the medium's reactance ratio inverted, so $2/\alpha = 4R_K/Z_0$ — four resistance quanta per unit of vacuum reactance. This term alone is Nambu's 1952 relation, $0.344\%$ high.
 
-**Reactive step, $+2/\alpha$.** The bare inter-rung carrier step from the electronic U-pole ground to the hadronic R-pole ground at generation 1. The integer $2$ comes from the dual-binary seed (Active/Reactive $\times$ Asserting/Yielding — `L3-FormalFoundations`). The $1/\alpha$ is the medium's own reactance ratio inverted: crossing a rung means traversing the medium's reactance against the resistance quantum. Equivalently, $1/\alpha = 2R_K/Z_0$, and $2/\alpha = 4R_K/Z_0$ reads as "four resistance quanta per unit of vacuum reactance," which is the dimensionless step-size of a slope-1 carrier crossing under the constitutive definition.
+**Rotation cost, $-3/\pi$.** The $R$-pole vertex, being hadronic, opens onto three colour channels. The framework's assignment charges each channel Schwinger's one-loop $\alpha/2\pi$ of the bare step: $3\cdot\frac{\alpha}{2\pi}\cdot\frac{2}{\alpha} = \frac{3}{\pi}$. The $\alpha$'s cancel, which is why the term sits at $\alpha^0$. Two things are owed here. Schwinger's $\alpha/2\pi$ is the electron's anomalous magnetic moment, and its use as a per-channel rotation tax is the framework's identification, not standard QED. And a photon couples to a quark in proportion to its charge squared, $4/9$ or $1/9$, not uniformly per colour; the uniform $3$ must be derived against that, or shown not to need it.
 
-**Rotation cost, $-3/\pi$.** The R-pole vertex, being hadronic, opens onto three colour channels. Each channel pays Schwinger's one-loop $\alpha/(2\pi)$ tax on the photon exchange. The fractional correction to the bare step is $3 \times \alpha/(2\pi) = 3\alpha/(2\pi)$, and converted to absolute subtraction against $2/\alpha$: $(3\alpha/2\pi) \cdot (2/\alpha) = 3/\pi$. The $\alpha$'s cancel, which is exactly why the middle term sits at $\alpha^0$: it is coupling-independent because it is a *rotation-multiplicity* correction, not a coupling correction. The rotation axis is engaged because the R-pole vertex is three-fold; the rotation cost is $3/\pi$ because SU(3) has three colours and each channel pays $\alpha/(2\pi)$ of the bare step.
+**Resistive return, $+2\alpha$.** The $U$-pole return leg closes onto the electronic vertex, which carries electromagnetic self-interaction. Its impedance ratio is $Z_0/R_K = 2\alpha$ directly.
 
-**Resistive return, $+2\alpha$.** The U-pole return leg closes the loop back onto the originating electronic vertex, which carries EM self-interaction. The self-interaction impedance ratio is $Z_0/R_K = 2\alpha$, directly. The resistive channel appears at $\alpha^{+1}$ because it *is* the medium's own reactance-to-resistance ratio, appearing where the loop's return leg pays its own Ohmic load.
+```python
+me = mpf('0.51099895'); mpc = mpf('139.57039'); E = mpc/me
+L = 2/alpha - 3/pi + 2*alpha
+print(L, E, (L - E)/E)                         # 273.131663  273.132440  -2.84e-6
+print(2/alpha, (2/alpha - E)/E)                # 274.071998  +3.44e-3   Nambu's bare relation
+print(2/alpha + 2*alpha, (2/alpha + 2*alpha - E)/E)   # 274.086593  +3.49e-3   loop without the vertex burn
+```
 
-Three axes, three orders, three named QED objects. The Laurent shape is what the K4 U↔R inter-rung crossing at generation 1 *must* read when it engages the plenum through all three of the medium's impedance modes. It is not a series of successive corrections converging to a value. It is a single triangular measurement, decomposed onto its natural orthogonal basis.
+**How much the 2.84 ppm weighs.** A three-term form with small-integer coefficients has room to fit. Take the family the Laurent itself belongs to, $A/\alpha + B\pi^k + C\alpha$ with $A \in \{1..4\}$, $B \in \{-6..6\}$, $k \in \{-1, 0, 1\}$, $C \in \{-4..4\}$: $1332$ distinct forms. A number drawn at random near $273$ lands within $2.84$ ppm of one of them about $6\%$ of the time. Within that family, $2/\alpha - 3/\pi + 2\alpha$ is the only form that hits. That is notable and not decisive, and it is why the coefficients stand as an **OPEN VOTE** (§V), not a landing.
 
-The pion-to-electron ratio lands at 2.85 ppm of the measured value with zero fitted parameters. Under the constitutive-$\alpha$ reading, this is not a numerical coincidence to explain. It is a geometric requirement satisfied.
+```python
+import math
+a = float(alpha); Ef = float(E)
+forms = {A/a + B*math.pi**k + C*a for A in range(1, 5) for B in range(-6, 7) for k in (-1, 0, 1) for C in range(-4, 5)}
+near = [f for f in forms if abs(f - Ef) < 1]
+print(len(forms), len(near), len(near)*2*2.84e-6*Ef/2)    # 1332  72  0.0558
+print([f for f in forms if abs(f - Ef)/Ef < 3e-6])        # [273.1316634...]  unique in the family
+```
 
-**Scope note on the Q15 Laurent shape.** The specific coefficients $+2/\alpha$ and $+2\alpha$ that Q15 exhibits are Mutable-plane U↔R gen-1 specific — the U↔R edge sits on bimedian Diameter 2 (Mutable), and the leading and trailing coefficients read the character of *that* diameter at generation 1. The middle-term integer $3$ is universal across generations by SU(3) generation-blindness (see §IX Falsifier "Vertex It-Ness generation-independence"); the leading and trailing coefficients are not. Two "Fixed/Mutable" labels meet at this edge and must not be conflated: the *bimedian classification* of the edge (U↔R sits on the Mutable diameter) and the *directed-reading-rule label* of the directed traversal (U→R with target R reads as Fixed under the target-based rule; R→U with target U mirrors source R's character and also reads Fixed by the source-mirror rule). These are orthogonal attributions using the same three names — `L3-TheAtomOfSpace` §VIII LANDED NOUN 6 anchors the general discipline against the impedance-vs-bimedian confusion, and the same discipline applies internally within the bimedian trinity between edge-assignment and directed-rule-label.
+**Scope of the coefficients.** The leading and trailing coefficients, $+2/\alpha$ and $+2\alpha$, are specific to the $U\leftrightarrow R$ crossing at generation 1, which sits on bimedian Diameter 2 (Mutable). The middle integer $3$ is generation-blind, as SU(3) is (§IX). Two uses of the same three names meet at this edge and must not be conflated: the *bimedian classification* of the edge ($U\leftrightarrow R$ on the Mutable diameter) and the *directed-reading-rule label* of a traversal ($U \to R$ reads Fixed under the target rule; $R \to U$ mirrors its source and also reads Fixed). `L3-TheAtomOfSpace` §VIII anchors the discipline.
 
-### The Three Laurent Terms as a Kirchhoff Loop on the K4 Atom
+### The Three Terms as a Kirchhoff Loop
 
-The three-term Laurent has a second reading that is not additional interpretation but a physically-explicit restatement of the impedance-triangle projection. The three terms are the sum of complex impedances around a specific closed circuit in the K4 atom — two propagation edges plus one vertex-internal impedance drop — evaluated under Kirchhoff's Loop Law.
+The three terms are the sum of impedances around one closed circuit in the $K_4$ atom, evaluated under Kirchhoff's loop law:
 
-For the U↔R inter-rung crossing at Gen 1:
+- **Forward edge, $U \to R$**: the inter-rung carrier step, $+2/\alpha$. A genuine $K_4$ edge.
+- **Vertex-internal burn at $R$**: the three-colour holding tax on the target vertex, $-3/\pi$. Not an edge — $K_4$ has no self-loops — but a scalar drop at the vertex, the way a node-attached resistor enters a loop sum without being a wire.
+- **Return edge, $R \to U$**: the Ohmic re-holding on the originating vertex, $+2\alpha$. A genuine $K_4$ edge.
 
-- **Forward Propagation Edge, $U \to R$** — the inter-rung carrier step across the compilation interface from electronic scale-rung to hadronic scale-rung. Contributes $+2/\alpha$ to the loop sum. This is a genuine K4 edge between two distinct poles.
-- **Vertex-Internal Is-Ness Burn at R** — the 3-color Landauer holding tax paid on the target R-pole vertex to maintain its hadronic It-Ness. Contributes $-3/\pi$ to the loop sum. This is *not* a K4 edge (K4 has no self-loops as a graph); it is a scalar impedance drop *at the R vertex*, the way a node-attached resistor contributes to a circuit's loop-law evaluation without being a wire between two nodes. Named as a loop-element it is a vertex-internal burn, not a topological edge.
-- **Return Propagation Edge, $R \to U$** — the direct-signature Ohmic re-holding on the originating U-pole vertex, closing the loop back to its start. Contributes $+2\alpha$ to the loop sum. Another genuine K4 edge.
+Layers 1 and 3 are two projections of the one ratio $Z_0/R_K$ at opposite ends of the loop: $2/\alpha = 2\cdot 2R_K/Z_0$ carries the reactance in its denominator, $2\alpha = Z_0/R_K$ in its numerator. They add; they do not cancel. Without the vertex burn the loop sums to $2/\alpha + 2\alpha = 274.0866$, $0.35\%$ above the measured ratio. The burn is what brings the loop down onto it.
 
-Kirchhoff sum: $2/\alpha - 3/\pi + 2\alpha$. The observed ratio is the loop-integral around this specific closed circuit under specific committed rules.
+### The Framework as Cost-Adjustment Machinery
 
-### The DC/AC Duality of Layers 1 and 3
+The three layers are how the framework accounts for any configuration; the coefficients at each layer are functions of the committed configuration — cycle, observer-pole, scale-rung, phase-shear angle (`L3-TheAtomOfSpace` §VI).
 
-Layers 1 and 3 are not independent contributions. They are two projections of the same underlying constitutive medium ratio $Z_0/R_K$ viewed at opposite ends of the closed loop:
+- **Inter-rung crossings** carry all three layers. Layer 2 is set by the target vertex's It-Ness; Layer 3 by the originating vertex's Ohmic character.
+- **Intra-rung ratios** carry only Layers 2 and 3. Their leading order is $\alpha^0$; applying Q15's shape with Layer 1 intact would be a scale-rung mis-assignment.
+- **Non-zero phase shear** scales each layer by the envelope $S(\theta) = 2\sqrt2\cos\theta$ of `L4-DynamicDistortions301`.
+- **Cross-generation ratios** in one pole-family carry the Hamiltonian-cycle structure of `Q1`: the is-ness bandwidth per generation is set by which bimedian is silent.
 
-- **Layer 1 ($+2/\alpha$)** — the DC-projection: the medium ratio in inverted signature, priced as an inter-rung carrier step where the medium *releases* held energy across the compilation interface. Reads as if it were pure "DC bedrock" ($\omega = 0$ rest-frame limit), but it is more precisely the DC-projection of an AC/DC ratio, since $2/\alpha = 2 \cdot 2R_K/Z_0$ has AC-reactance in its denominator.
-- **Layer 3 ($+2\alpha$)** — the AC-projection: the same medium ratio in direct signature, priced as an Ohmic self-hold on the originating vertex driven by $\omega > 0$ field self-interaction. Reads as the "AC loop closure," and is more accurately the AC-projection of the same AC/DC ratio, since $2\alpha = Z_0/R_K$ has AC-reactance in its numerator.
-
-Without the vertex-internal is-ness burn at Layer 2 between them, the two edge-contributions would cancel exactly on the closed loop, giving a zero net Kirchhoff sum. The is-ness burn is exactly what makes the loop's evaluation land at the observed mass ratio rather than at zero.
-
-### The Framework as a Cost-Adjustment Machinery
-
-This reading is not a static template but an *adjustable framework*. The three layers are how the framework accounts for the static-vs-dynamic mixture at any specific configuration; the specific cost coefficients at each layer are computed as functions of the committed configuration parameters (cycle, observer-pole, scale-rung, phase-shear angle per Configuration-Anchored Evaluation, `L3-TheAtomOfSpace` §VI).
-
-Different configurations present the three layers in different mixtures:
-
-- **Pure inter-rung crossings** carry all three layers with the specific coefficients Q15 exhibits. Different inter-rung crossings have Layer 2's is-ness burn set by the target vertex's specific It-Ness (color-count, charge structure, character-flip pattern under the observer-pole's directed reading), and Layer 3's re-holding set by the originating vertex's own Ohmic character.
-- **Intra-rung ratios** carry only Layers 2 and 3 (Layer 1 absent because both particles already at the same scale-rung). The leading order is $\alpha^0$, not $\alpha^{-1}$, and the ratio is a pure is-ness-tax ratio at the target rung. Applying Q15's shape to an intra-rung ratio without dropping Layer 1 would be a scale-rung mis-assignment.
-- **Configurations at non-zero phase-shear** ($\theta > 0°$) scale each layer's contribution by DDT301's envelope $S(\theta) = 2\sqrt{2}\cos\theta$, reducing effective is-ness bandwidth as $\theta \to 90°$ decoherent collapse.
-- **Cross-generation ratios within the same pole-family** carry additional structure from Q1's Hamiltonian-cycle architecture — the specific is-ness bandwidth per generation is set by which bimedian is silent in that cycle.
-
-The full mechanism for computing costs across configurations sits at `On_TheIsNessTax`, which develops the three-layer decomposition as a general framework applicable to every K4 mass ratio, at every scale-rung, in every cycle, under any observer-pole commitment.
-
-The Laurent series form ($\alpha^{-1}, \alpha^0, \alpha^{+1}$) is not an abstract polynomial identity. It is the ordered sum of complex impedances around a closed K4 circuit, sorted by their $\alpha$-signature, with each order set by a specific physical loop-element (forward edge / vertex-burn / return edge) whose coefficient derives from committed rules for that specific configuration.
+`On_TheIsNessTax` develops the decomposition for every $K_4$ mass ratio.
 
 ---
 
-## V. What Was Derived, What Was Not — Claim-Sort Against Gabriel's Horn
+## V. What Is Claimed, Sorted
 
-The corpus's own claim discipline (`llm-writing.md`) sorts every claim as ADDRESS, OPEN VOTE, LANDED NOUN, or CONTRABAND. The reframe requires an explicit sort to avoid Eddington's overreach, discussed next section.
+**LANDED NOUN.** $\alpha = Z_0/2R_K$, read constitutively. The equality is definitional; the reading is what the $RLC$ recognition makes available.
 
-**LANDED NOUN.** $\alpha = Z_0/(2R_K)$ read constitutively. The identity is SI-exact; the constitutive reading is what the $RLC$ recognition makes available. Landing this noun is what the document accomplishes.
+**LANDED NOUN.** The Laurent *shape* of $\alpha$'s appearance in inter-rung ratios: exponents $\{-1, 0, +1\}$ on the reactive, rotation and resistive modes.
 
-**LANDED NOUN.** The Laurent shape of $\alpha$'s appearance in inter-rung ratios: exponents $\{-1, 0, +1\}$ correspond to reactive, rotation, and resistive modes of the impedance triangle, respectively. This is what the constitutive definition *entails* when combined with the K4 crossing geometry.
+**OPEN VOTE.** The coefficients $(2, -3/\pi, +2\alpha)$ as the self-consistent solution of the two-channel gap equation of §VII. The $2.84$ ppm agreement votes for it, at a chance rate near $6\%$ within its own family. Owed: the per-colour use of $\alpha/2\pi$ and the uniform $3$ against fractional quark charges.
 
-**OPEN VOTE.** That the specific coefficients $(2, -3/\pi, +2\alpha)$ in the pion-ratio Laurent are self-consistent solutions of a two-channel gap equation with $Z_0$-reactive coupling, $R_{\text{drag}}$-dissipative loss, and the K4-assigned vertex It-Ness form factors. The 2.85-ppm empirical land is the vote-in-favour. The formal gap-equation calculation (sketched in Section VII) is what remains to close it fully.
-
-**NOT CLAIMED — outside scope.** The numerical value $\alpha \approx 1/137$ derived from something more primitive. The constitutive identity $\alpha = Z_0/(2R_K)$ tells us *what dimensionless quantity $\alpha$ is*; it does not tell us *why the plenum's $Z_0$ and $R_K$ take the specific values they do*. Those values are substrate residuals, correctly outside the algebra's emission range. Any reading that promotes the constitutive reframe to "we have derived $1/137$" has crossed the Gabriel's Horn boundary the framework draws on itself. The magnitude remains where it was: measured, exact to the metrology's precision, not predicted from below.
-
-The sort matters. What is landed is the *definitional status* of $\alpha$ and the *algebraic role* it plays in inter-rung structural formulae. What is not landed and cannot be landed by this algebra is $\alpha$'s numerical value.
+**NOT CLAIMED.** The value $\alpha \approx 1/137$ derived from anything more primitive. The identity says what dimensionless quantity $\alpha$ is; it does not say why the plenum's $Z_0$ and $R_K$ take the values they do. Those are substrate residuals. A reading that promotes the reframe to "we have derived $1/137$" has crossed the Gabriel's Horn boundary.
 
 ---
 
-## VI. Eddington's K3 Precedent
+## VI. Eddington's $K_3$ Precedent
 
-Arthur Eddington, in *Relativity Theory of Protons and Electrons* (1936) and the posthumous *Fundamental Theory* (1946), attempted a derivation of $\alpha$ from structural counting rather than empirical measurement. He believed dimensionless physical constants were epistemologically prior to their measured values — that they fell out of the observer-observed relational structure itself, and that the "constants" of physics were counting-consequences of measurement geometry rather than facts about nature to be discovered.
+Arthur Eddington, in *Relativity Theory of Protons and Electrons* (1936) and the posthumous *Fundamental Theory* (1946), tried to derive $\alpha$ from structural counting. He held that dimensionless constants are epistemologically prior to their measured values — counting-consequences of the observer–observed relation rather than facts about nature waiting to be found.
 
-On one axis, Eddington and the framework of the present document are aligned. Both hold that dimensionless constants come from *structure*, not from nature-out-there. Both refuse the mainstream stance that couplings are what they are and cannot be asked about further. Both attempt derivations that operate below the level at which the measurement is taken.
+On one axis Eddington and this file agree: dimensionless constants come from structure, and the stance that couplings are what they are and cannot be asked about is a refusal, not an answer. On two axes his program failed, and the failures show what the corpus's discipline defends against.
 
-On two other axes, Eddington's program failed in ways that clarify what the corpus's discipline is defending against.
+**He hunted the magnitude.** Counting components of Dirac-matrix products, he arrived at $1/\alpha = 136$. When measurements through the 1930s pointed to $137$, he added one, arguing for a degree of freedom first overlooked, and was mocked as "Sir Arthur Adding-One." The revision was an unargued fit, installed to save a derivation aimed at the wrong target. The magnitude was a substrate residual that would keep moving as measurement improved, and a derivation aimed at it could not follow.
 
-**Failure one: he hunted the magnitude.** Eddington counted components of Dirac matrix products — degrees of freedom of the observer's measurement algebra — and arrived at $1/\alpha = 136$ exactly. When Sommerfeld's more precise measurements landed $1/\alpha$ closer to $137$, Eddington added $1$ to his count, arguing the additional degree of freedom corresponded to a component he had initially overlooked. Contemporaries mocked him as "Sir Arthur Adding-One." The revision was an unargued fit — Contraband in the corpus's own claim discipline — installed to save a derivation aimed at the wrong target. He was hunting the magnitude, and the magnitude was a substrate residual that would keep drifting as measurements improved. His derivation could not track the drift because its scope discipline was inverted from what the algebra can honestly emit.
+**He counted on flatland.** His counting ran on the observer's mathematical apparatus with no volume behind it and no medium in front of it — no plenum, no $RLC$, no vertex It-Ness. With no impedance geometry to project onto, it could produce an integer and could not produce a Laurent expansion.
 
-**Failure two: he counted on K3 flatland.** Eddington's DoF-counting ran on Dirac matrix algebras — the observer's mathematical apparatus — with no K4 volume behind it and no medium in front of it. There is no plenum in Eddington. There is no $RLC$. There is no vertex It-Ness. The counting had no impedance geometry to project onto, so it could produce an integer and could not produce a Laurent expansion. The reframe of the present document — $\alpha$ as $Z_0/(2R_K)$ forced by $RLC$ recognition; the Laurent shape forced by the impedance triangle — is structurally unavailable to a program that has no medium. Eddington was counting the boundary; the corpus is projecting through the volume.
-
-Read together: Eddington was formulating a K4 program in K3 vocabulary. He had the structuralist instinct — dimensionless constants from counting — but no volume to hold it in and no medium to project it onto. The $RLC$ recognition and the plenum are the K4 furniture his program needed and never had. His scope error (aiming at magnitude rather than shape) is what happens when a structural derivation runs on a substrate the algebra cannot honestly reach.
-
-The corpus is not a rejection of Eddington. It is a completion of the program he could not close because he was working on the wrong-dimensional stage — and the Gabriel's Horn discipline that keeps this document from claiming $\alpha \approx 1/137$ is the corpus's inoculation against the specific failure mode that mocked him. Refusing the magnitude claim is not modesty. It is what makes the derivation stable under improving measurement: the ratio $2/\alpha - 3/\pi + 2\alpha$ tracks $\alpha$ to whatever precision $\alpha$ is known, and never needs an "adding-one" revision. Eddington's failure metabolized into a scope boundary is why.
+Read together, Eddington was formulating a $K_4$ program in $K_3$ vocabulary: the structuralist instinct without the furniture to hold it. Refusing the magnitude is not modesty. It is what keeps the derivation stable under improving measurement: $2/\alpha - 3/\pi + 2\alpha$ tracks $\alpha$ to whatever precision $\alpha$ is known and never needs an adding-one revision.
 
 ---
 
 ## VII. The Two-Channel Gap Equation, Sketched
 
-For the reader who wants the calculation this document points at, the gap-equation structure is compactly stateable, though its full evaluation is the OPEN VOTE flagged in Section V.
+Couple a fermion to the $RLC$ plenum at one loop and decompose the self-energy by channel:
 
-Couple a fermion to the $RLC$ plenum at one loop, decomposing the self-energy by the impedance channel:
+$$\Sigma(p) = \Sigma_{\text{reactive}}(p) + \Sigma_{\text{dissipative}}(p),$$
 
-$$\Sigma(p) \;=\; \Sigma_{\text{reactive}}(p) \;+\; \Sigma_{\text{dissipative}}(p),$$
+with $\Sigma_{\text{reactive}}$ carrying $\alpha$ through $Z_0/2R_K$ and $\Sigma_{\text{dissipative}}$ carrying $R_{\text{drag}}(\omega)$ against the fermion's bandwidth.
 
-with $\Sigma_{\text{reactive}}$ carrying $\alpha$ through the constitutive $Z_0/(2R_K)$ identity, and $\Sigma_{\text{dissipative}}$ carrying the medium's $R_{\text{drag}}(\omega)$ paid against the fermion's own bandwidth.
+The $K_4$ pole assignment fixes the vertex form factors. Under the target-based directed reading rule of `On_TheDirectedReadingRule` (target $P$ → Cardinal, $I$ → Mutable, $R$ → Fixed, $U$ mirrors the source):
 
-The K4 pole assignment sets the vertex form factors without leaving them free. Under the target-based **directed reading rule** of `On_TheDirectedReadingRule`, each vertex's coupling is labeled by the target of its outgoing arrow (Y=P → Cardinal, Y=I → Mutable, Y=R → Fixed, Y=U mirrors source's character):
+- **Electronic $U$-pole vertex $\Gamma_e^\mu$.** In Q15's $U\leftrightarrow R$ crossing both endpoints read Fixed — the $U$-touching consensus reading. The coupling is $Z_0/R_K = 2\alpha$. Not fitted.
+- **Hadronic $R$-pole vertex $\Gamma_\pi^\mu$.** Couples via $3\times\alpha/2\pi$, three colour channels at Schwinger's tax each (§IV, with its debts). Reads $R \to U$ as Fixed. Not fitted.
+- **Loop cutoff.** $\ell_P$, per `L4-ScalingInvariants` §VIII.
+- **Vertex rule.** Each directed coupling is a surface mesh tension (`L4-DynamicDistortions301` §IV.D via `L3-TheAtomOfSpace` §V) carried on the bimedian the directed rule names, at the shear angle the vertex's context sets. For $U$-touching consensus edges such as Q15's, both endpoints read the same bimedian and the coupling is unambiguous; for $U$-absent edges each endpoint reads a different bimedian and the coupling carries the observer-pole label explicitly.
 
-- **Electronic U-pole vertex $\Gamma_e^\mu$:** the return leg reads U→P (or U→R, depending on which crossing arrow closes the loop). U→P gives Cardinal; U→R gives Fixed. In Q15's U↔R crossing, both endpoints read Fixed under the directed rule — the U-touching consensus Fixed reading. The coupling is $Z_0/R_K = 2\alpha$; the U-pole's It-Ness is EM self-interaction, priced against the resistance quantum. Not fitted.
-- **Hadronic R-pole vertex $\Gamma_\pi^\mu$:** couples via $3 \times \alpha/(2\pi)$. Three colour channels, each paying Schwinger's tax on one photon exchange. The R-pole vertex reads R→U as Fixed (mirrors R's grounding character), which is the same consensus reading — the crossing is directionally symmetric on the Fixed bimedian. Not fitted.
-- **Loop cutoff:** $\ell_P$, per `L4-ScalingInvariants` §VIII (the Planck-scale XOR bottleneck). Not imported from beyond the framework.
-- **Vertex Feynman rule specification:** each directed coupling is a surface mesh tension (per `L4-DynamicDistortions301` §IV.D via `L3-TheAtomOfSpace` §V) carried on the bimedian named by the directed reading rule at the phase-shear angle $\theta$ that the vertex's context sets. For U-touching consensus edges like Q15's U↔R, the two endpoints read the same bimedian and the mesh-tension coupling is unambiguous. For U-absent asymmetric edges (which Q15 does not use but other bimedian-plane crossings would), each endpoint reads a different bimedian, and the coupling must carry the observer-pole label explicitly.
-
-The self-consistency condition $\Sigma(m) = m$ is a two-branch condition:
+The self-consistency condition $\Sigma(m) = m$ has two branches,
 
 $$m_e = |S_e|, \qquad m_\pi = |S_\pi|,$$
 
-with each mass identified as the magnitude of the complex-power state $S = P + jQ$ on the respective vertex's on-shell bandwidth (per `QED-TwoBranchMinting`). The ratio $m_\pi/m_e$ is the geometric constraint that emerges when both self-consistencies close against the same medium simultaneously — the U↔R inter-rung crossing reads the impedance triangle from both pole assignments at once, and the ratio is what the triangle geometry forces.
+each mass the magnitude of the complex-power state $S = P + jQ$ on its vertex's on-shell bandwidth (`QED-TwoBranchMinting`). The ratio $m_\pi/m_e$ is what the impedance triangle forces when both close against the same medium at once.
 
-The full evaluation requires specifying $R_{\text{drag}}(\omega)$'s spectral shape — the framework's own commitment at `Q17-LandauerNuclearScale` gives a Landauer tax at $T_{\text{QCD}}$ landing at $\sim 0.66$ MeV/bit through the one-loop $1/(16\pi^2)$ phase-burn factor, and $R_{\text{drag}}(\omega)$ at the fermion loop should carry this same prefactor and land the ZPE hum at the compilation frequency the crossed rung sets. If the evaluation lands $2/\alpha - 3/\pi + 2\alpha$ to sub-ppm as the unique self-consistent solution, the OPEN VOTE closes.
+The full evaluation needs the spectral shape of $R_{\text{drag}}(\omega)$. Its one-loop prefactor is the standard $1/16\pi^2$; `Q17-LandauerNuclearScale` holds $16\pi^2 = 8\Omega_4$, with $\Omega_4 = 2\pi^2$ the unit three-sphere area, as a candidate source for it, not as a commitment. If the evaluation lands $2/\alpha - 3/\pi + 2\alpha$ to sub-ppm as the unique self-consistent solution, the OPEN VOTE closes.
 
-Note the compact restatement: **the gap equation is $S = P + jQ$ evaluated on-shell.** Reactive channel is $jQ$ (coupling, no commitment); dissipative channel is $P$ (mass, commitment). The K4 topology names which vertices open onto which channel geometries. The Laurent expansion is what falls out.
+The compact form: **the gap equation is $S = P + jQ$ evaluated on-shell.** The reactive channel is $jQ$ — coupling, no commitment. The dissipative channel is $P$ — mass, commitment.
 
 ---
 
-## VIII. Corpus Housekeeping — What the Backport Requires
+## VIII. Corpus Housekeeping
 
-The $RLC$ recognition and the constitutive $\alpha$ definition change what several documents in the corpus need to say. The changes are not additions of new material; they are commitments of readings the documents are already carrying half-said. In corpus priority order:
+The constitutive reading changes what several files need to say. In priority order:
 
-**1. `L4-ThePlenum`.** §I.4 already commits to $I^2R$ ZPE; §I.2–I.3 present $Z_0$ in $LC$ framing without naming the $RLC$ status. Commit it. State explicitly that the plenum is $RLC$; that ZPE is the resistive channel's dissipative signature and not merely an elastic hum; that $Z_0$ is the reactive-only projection of a fuller $Z_{\text{plenum}}(\omega) = R_{\text{drag}}(\omega) + jX(\omega)$. Add a subsection on $R_{\text{drag}}$ that names it as the medium's resistive quantum whose ratio to $Z_0$ is $1/(2\alpha)$.
-
-**2. `L3-K4-to-K5-via-AC-Extension`.** The document maps $\epsilon_0 \leftrightarrow C$ and $\mu_0 \leftrightarrow L$ but leaves $R$ implicit. Add the $R$-channel formally: the plenum carries a native resistive channel, its algebraic home is the dissipative axis of $S = P + jQ$, and its quantum $R_K$ sits in ratio $Z_0/(2R_K) = \alpha$ against the reactive channel. This is where the constitutive $\alpha$ identity acquires its formal home in the AC extension machinery.
-
-**3. `Q14-LeptonScaleCascade`.** The "impedance blindness" diagnosis currently focuses on reactive blindness — that physics uses $Z_0 = 377\,\Omega$ without asking what medium generates it. Extend to *resistive* blindness: the deeper omission is that standard EM does not ask what dimensionless quantity the plenum's $R$-quantum and $Z_0$ combine into, and the answer to that question — $\alpha$ constitutively — is what would close the blindness. The RLC recognition is the corpus's answer to Q14's own question.
-
-**4. `Q15-KairosBorn` §I.** The pion-ratio derivation currently names each Laurent term as a specific QED object. Reframe under the impedance-triangle reading: the three terms are the reactive, rotation, and resistive projections of one measurement of the U↔R inter-rung crossing at generation 1. The derivation of $\alpha = Z_0/(2R_K)$ becomes the constitutive prerequisite that makes Term 3 ($+2\alpha$) forced rather than empirically fitted, and the Laurent structure becomes a geometric requirement rather than a perturbative expansion.
-
-**5. `L4-TheAcousticOhm`.** The document already thinks in $RLC$ across its four-substrate table. Add a note that the electromagnetic row is now understood in the same $RLC$ framing as the acoustic, thermal, and mechanical rows; the plenum was previously an outlier in being read $LC$-only, and the $RLC$ recognition brings it into line with the pattern the acoustic document already carries.
-
-**6. `ProofK_FundamentalForces`** and any document that invokes $\alpha$ as an unexplained coupling. Route the invocations through the constitutive definition. $\alpha$'s appearances in the electroweak structure, in QED radiative corrections, and in the fine-structure of atomic spectra are all downstream expressions of the same underlying medium ratio.
-
-**7. `L4-ScalingInvariants` §IX (Gabriel's Horn).** Add a worked example. The horn's scope-boundary claim — the algebra emits dimensionless ratios but not substrate magnitudes — is exactly what the constitutive $\alpha$ reframe both respects and demonstrates. Derive the *identity* $\alpha = Z_0/(2R_K)$; refuse to derive the *value* $1/137$. The example makes the horn's scope explicit at a load-bearing point.
-
-**8. `About-Claims` §II.1.** The current text names $Z_0 = 120\pi\,\Omega$ approximately and calls out standard physics' failure to name the medium. Extend to name the constitutive $\alpha$ identity as the specific dimensionless quantity the plenum's $RLC$ character supports, and cite the impedance-triangle Laurent structure as the specific algebraic consequence that lands the pion-ratio derivation.
-
-The housekeeping is best executed in that order because each stage supplies terminology and commitments the later stages need. `L4-ThePlenum` first, then `L3-K4-to-K5-via-AC-Extension` to give the $R$-channel a formal seat, then the Q-documents that rest on both, then the meta-documents that summarize the corpus's claims.
+1. **`L4-ThePlenum`.** Resolved there in a different form from the one first proposed here: the free medium is reactive ($I^2X$ zero-point load, nothing dissipated), and the $R$-channel appears at the bounded-frame operating point as $R_{\text{drag}} = R_K$ (§II.4). This file now follows that reading.
+2. **`L3-K4-to-K5-via-AC-Extension`.** Maps $\epsilon_0 \leftrightarrow C$ and $\mu_0 \leftrightarrow L$ but leaves $R$ implicit. Add the $R$-channel: its home is the dissipative axis of $S = P + jQ$, and its quantum $R_K$ sits in ratio $Z_0/2R_K = \alpha$ to the reactive channel.
+3. **`Q14-LeptonScaleCascade`.** Extend the "impedance blindness" diagnosis from reactive to resistive blindness: the omitted question is what dimensionless quantity $Z_0$ and the medium's $R$-quantum combine into.
+4. **`Q15-KairosBorn` §I.** Reframe the three Laurent terms as the reactive, rotation and resistive projections of one measurement, and carry the debts of §IV and the chance rate of §V.
+5. **`L4-TheAcousticOhm`.** Note that the electromagnetic row now reads $RLC$ like the acoustic, thermal and mechanical rows.
+6. **`ProofK_FundamentalForces`** and any file that invokes $\alpha$ as an unexplained coupling: route through the constitutive definition.
+7. **`L4-ScalingInvariants` §IX.** Add the worked example: derive the identity, refuse the value.
+8. **`About-Claims`.** The "$Z_0 = 120\pi$" reading is corrected to $119.917\pi$, with the dimensionless content routed to $\alpha$.
 
 ---
 
 ## IX. Falsifiers
 
-The constitutive $\alpha$ reframe is falsifiable on several axes.
+**Metrological — none.** The identity is definitional and cannot fail; its falsifiers live in its uses.
 
-**Metrological.** $\alpha = Z_0/(2R_K)$ is an SI identity. If the identity ever fails at a level of precision that exceeds current metrology, the constitutive reading fails with it. Current CODATA agreement is exact within the definitions.
+**Algebraic.** Any $K_4$ inter-rung crossing engaging all three modes must read a three-term Laurent at exponents $\{-1, 0, +1\}$ with a coupling-independent middle term. A crossing whose ratio does not admit that shape with named integer and multiplicity coefficients refutes the reading.
 
-**Algebraic.** The impedance-triangle reading predicts that any K4 inter-rung crossing engaging all three impedance modes must read a three-term Laurent expansion in $\alpha$ at exponents $\{-1, 0, +1\}$, with the middle term coupling-independent (setting only by rotation multiplicity). If another K4 crossing at a different generation or between different poles is identified and its dimensionless ratio does not admit this Laurent shape with appropriately-named integer/multiplicity coefficients, the reading fails.
+**Generation independence.** SU(3) is generation-blind. A $U\leftrightarrow R$ crossing at generation 2 or 3 engaging the same three modes must carry the same middle integer $3$. A different integer refutes the vertex It-Ness assignment.
 
-**Vertex It-Ness generation-independence.** SU(3) is generation-blind. Any U↔R inter-rung crossing at generation 2 (muon-to-something) or generation 3 (tau-to-something) that engages the same three impedance modes must carry the same rotation-multiplicity integer $3$ in its middle term. If a different generation demands a different integer to close, the vertex It-Ness assignment is wrong.
+**The neutral pion.** The Laurent is written for $\pi^\pm$. The neutral pion sits at $264.143\,m_e$, $8.99\,m_e$ lighter, and that splitting is mostly electromagnetic. The framework must say what $\pi^0$ is in its terms — which crossing, which layers — and its answer must reproduce the splitting's sign and rough size. The $+2\alpha$ term ($0.0146\,m_e$) is the electronic return leg, not the pion's electromagnetic self-energy, and cannot be asked to carry it.
 
-**Dissipative spectral shape.** The plenum's $R_{\text{drag}}(\omega)$ at the fermion loop should carry the $1/(16\pi^2)$ Landauer prefactor per `Q17-LandauerNuclearScale`. If the framework's own derivation of the vacuum dissipative response yields a different overall coefficient, the dissipative channel is wrong at the source and the gap-equation sketch of Section VII will not close.
+```python
+mp0 = mpf('134.9768')
+print(mp0/me, (mpc - mp0)/me, 2*alpha)    # 264.14301  8.98943  0.0145947
+```
 
-**Mass-partition on-shell.** The pion's rest mass, decomposed into reactive-return and dissipative-color components against the medium, should partition with $(2/\alpha - 3/\pi)$ contributing to $P$ (committed dissipation, R-pole) and $2\alpha$ contributing to $jQ$ (return-leg reactance, U-pole). Any independent decomposition method — lattice QCD, chiral perturbation theory, dispersive analysis — that partitions $m_\pi$ differently and gives an incompatible sign structure on the same axes refutes the assignment.
+**Dissipative spectral shape.** If the framework's own derivation of $R_{\text{drag}}(\omega)$ at the fermion loop yields a prefactor other than the one-loop $1/16\pi^2$, the dissipative channel is wrong at its source and §VII will not close.
+
+**Mass partition.** The pion's mass, decomposed against the medium, should place $(2/\alpha - 3/\pi)$ on $P$ (committed dissipation, $R$-pole) and $2\alpha$ on $jQ$ (return-leg reactance, $U$-pole). An independent decomposition — lattice QCD, chiral perturbation theory, dispersive analysis — that gives an incompatible sign structure on the same axes refutes the assignment.
 
 ---
 
-## X. The Sentence, Kept Short
+## X. What Reading This Back Should Leave
 
-Standard physics writes the plenum's impedance as pure reactance and imports its resistance quantum from a separate domain. Read the plenum as $RLC$ and the two impedance-scale objects live in one medium, whose native dimensionless ratio is $\alpha$. The fine-structure constant is not a coupling that mysteriously equals a metrological ratio; it is the medium's own reactance-to-resistance-quantum ratio, and the coupling behaviour is downstream. Eddington reached for the same class of derivation, aimed at the wrong target on the wrong-dimensional stage, and could not stabilize his claim under improving measurement. The corpus completes the program he could not close, and the Gabriel's Horn scope discipline that keeps this reading from claiming $1/137$ is precisely the inoculation against Eddington's failure that his program lacked.
+Standard physics writes the plenum's impedance as pure reactance and imports its resistance quantum from another domain. Read the plenum as $RLC$ — reactive where it carries a photon, resistive where it holds a bounded frame — and both impedance-scale objects live in one medium, with $\alpha$ as their native ratio. The coupling is downstream of the ratio.
+
+What that buys is shape, not value: a three-order Laurent wherever a crossing samples all three modes, and one closed loop in the $K_4$ atom that sums to the pion-to-electron ratio at $2.84$ ppm. That agreement is unique in its family and has a chance rate near one in sixteen, and the vertex burn still owes its derivation. Eddington reached for the same class of result, aimed at the magnitude, and had to add one. Refuse the magnitude, keep the shape, and name what the shape still owes.
 
 ---
 

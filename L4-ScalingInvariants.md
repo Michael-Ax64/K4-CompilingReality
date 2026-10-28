@@ -5,15 +5,6 @@
 
 *This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
 
-*A discipline note before anything else. Every verb in this document is pinned to a bounded frame and makes no appeals to the universe at large. Anytime I was tempted to write "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until I had the global Interpreter, which holds but does not perform tasks at my back again. Any remainig drafts of this document that assigned the Manifold a role has already failed, whatever else it got right.*
-
-
-
-# Scaling Invariants
-## Where Scale Comes From
-
-*This document depends on the twelve DC equations (L2-SemanticReference), the AbsentVar and the Braid (L2-Terminology, Proof_AlgebraicMapping), and the boundary identity established in L4-RecursiveLimits. It uses one operation the reader may not have performed on the twelve equations before — taking their logarithm — and performs it on the page, from the smallest case upward. Nothing else is assumed that an L4 reader has not already earned.*
-
 *A discipline note before anything else. Every verb in this document is pinned to a bounded frame. Wherever the writing was tempted to say "the universe does X" — encapsulates, executes, sorts, decides — the sentence was rewritten until a bounded frame could carry the verb, or deleted. The global Interpreter holds; it does not perform tasks. Any draft of this document that assigns it one has already failed, whatever else it gets right.*
 
 ---
@@ -97,16 +88,33 @@ Now notice what a transformer does that a carrier cannot. A carrier composed wit
 
 The split would matter less if the carriers and transformers clustered — if some region of the algebra were all-carrying and another all-transforming. They do not cluster. The braid distributes them with complete evenness, and this is checkable in one sitting.
 
-Recall from Proof_AlgebraicMapping: the twelve equations partition into three modality groups of four, determined by which Transition-Type the Home–AbsentVar edge belongs to. Perform the sort, then check each group against the table above:
+Recall from `ProofU_AlgebraicMapping`: the twelve equations partition into three modality groups of four, determined by which bimedian matching the Home–AbsentVar edge belongs to. The names are those of the master edge table in `L3-EdgeStateSpace` §I-b. Perform the sort, then check each group against the table above:
 
-**Cardinal** (Home–Absent edge in {P–U, I–R}):
+**Fixed** (Home–Absent edge in {P–U, I–R}; Taurus, Aquarius, Scorpio, Leo):
 $P = I^2R$ (transformer), $R = U^2/P$ (transformer), $U = IR$ (carrier), $I = P/U$ (carrier).
 
-**Fixed** (Home–Absent edge in {P–R, I–U}):
+**Cardinal** (Home–Absent edge in {P–R, I–U}; Cancer, Sagittarius, Gemini, Capricorn):
 $I = \sqrt{P/R}$ (transformer), $U = \sqrt{PR}$ (transformer), $P = UI$ (carrier), $R = U/I$ (carrier).
 
-**Mutable** (Home–Absent edge in {P–I, U–R}):
+**Mutable** (Home–Absent edge in {P–I, U–R}; Aries, Pisces, Virgo, Libra):
 $P = U^2/R$ (transformer), $R = P/I^2$ (transformer), $I = U/R$ (carrier), $U = P/I$ (carrier).
+
+```python
+from fractions import Fraction as F
+eqs = {   # home: exponents of the other variables, P,I,U,R
+ 'P=UI': ('P', {'U': 1, 'I': 1}),   'I=P/U': ('I', {'P': 1, 'U': -1}), 'U=P/I': ('U', {'P': 1, 'I': -1}),
+ 'U=IR': ('U', {'I': 1, 'R': 1}),   'I=U/R': ('I', {'U': 1, 'R': -1}), 'R=U/I': ('R', {'U': 1, 'I': -1}),
+ 'P=U2/R': ('P', {'U': 2, 'R': -1}), 'P=I2R': ('P', {'I': 2, 'R': 1}), 'R=U2/P': ('R', {'U': 2, 'P': -1}),
+ 'R=P/I2': ('R', {'P': 1, 'I': -2}), 'I=sqrt(P/R)': ('I', {'P': F(1, 2), 'R': F(-1, 2)}), 'U=sqrt(PR)': ('U', {'P': F(1, 2), 'R': F(1, 2)})}
+kind = {k: 'carrier' if all(abs(x) == 1 for x in v[1].values()) else 'transformer' for k, v in eqs.items()}
+print(sum(v == 'carrier' for v in kind.values()), sum(v == 'transformer' for v in kind.values()))   # 6 6
+groups = {'Fixed {P-U,I-R}': ['P=I2R', 'R=U2/P', 'U=IR', 'I=P/U'], 'Cardinal {P-R,I-U}': ['I=sqrt(P/R)', 'U=sqrt(PR)', 'P=UI', 'R=U/I'],
+          'Mutable {P-I,U-R}': ['P=U2/R', 'R=P/I2', 'I=U/R', 'U=P/I']}
+for g, ks in groups.items(): print(g, [kind[k] for k in ks].count('carrier'), [kind[k] for k in ks].count('transformer'))   # 2 2, each
+expansive = sorted(eqs[k][0] for k in eqs if kind[k] == 'transformer' and any(abs(x) == 2 for x in eqs[k][1].values()))
+compressive = sorted(eqs[k][0] for k in eqs if kind[k] == 'transformer' and not any(abs(x) == 2 for x in eqs[k][1].values()))
+print(expansive, compressive)                       # ['P','P','R','R']  ['I','U']   (squares home at Asserting poles, roots at Yielding)
+```
 
 Every modality group contains exactly two carriers and exactly two transformers. There is no phase of the braid — no way of traversing the system while holding one Transition-Type absent — that is purely carrying or purely transforming. Whatever the braid is doing, at every phase it is simultaneously *holding a magnitude steady* through two of its four relations and *reshaping a magnitude* through the other two.
 
@@ -174,9 +182,9 @@ And then something did, which is the half of this that must not be dropped, beca
 
 So the threshold is not merely the place a taxonomy goes blind. It is the place where naming *happens* — on both sides of itself, in the same grammar, minting debt before the coordinate arrives and settled crystallizations after. This is what makes the verb-first discipline mechanical rather than a matter of taste: the test on a noun is not whether it improves clarity — debt-nouns always improve clarity, that is their function and their danger — but **which bounded frame pays for it, and in what coin.** A noun with no payer is debt, however fluent. A noun with a payer has settled its bill.
 
-The coordinate that resolved them came from outside the table's own algebra — from $c$, the one constant valence-ratio chemistry has no way to produce internally. Pyykkö identified the relativistic origin of gold's color in the 1960s, in isolation. The systematic account arrived in 1979, when Pyykkö and Desclaux, alongside Pitzer, published together in *Accounts of Chemical Research* and showed that a single ratio — $v/c$, order $Z\alpha$ for an innermost electron — generates two linked effects (direct relativistic contraction of $s$ and $p_{1/2}$ orbitals; spin-orbit splitting of $p$, $d$, $f$ levels) whose consequences, taken together, account for the whole list: gold's color and nobility, mercury's reluctance to bond, the inert pair's lock, and more found since (the lead-acid battery's voltage, later shown to be 85% relativistic in origin).
+The coordinate that resolved them came from outside the table's own algebra — from $c$, the one constant valence-ratio chemistry has no way to produce internally. Gold's colour was the first case recognized. The systematic account arrived in 1979, when Pyykkö and Desclaux, alongside Pitzer, published together in *Accounts of Chemical Research* and showed that a single ratio — $v/c$, order $Z\alpha$ for an innermost electron — generates two linked effects (direct relativistic contraction of $s$ and $p_{1/2}$ orbitals; spin-orbit splitting of $p$, $d$, $f$ levels) whose consequences, taken together, account for the whole list: gold's color and nobility, mercury's reluctance to bond, the inert pair's lock, and more found since (the lead-acid battery's voltage, later shown to be about 80–85% relativistic in origin).
 
-Two corrections belong on the record before this is used for anything. First, the resolution was not instantaneous — gold's case was solved some fifteen years before the systematic 1979 account, and computational confirmation that this same mechanism produces mercury's specific melting point did not arrive until 2013 (Calvo, Pahl, Wormit & Schwerdtfeger). The exceptions did not fall simultaneously; they fell in sequence, against one imported coordinate, over roughly four decades. Second, the mechanism as published is two systematic effects, not three or four — a temptation toward a favored cardinality is exactly the kind of pattern-matching this document's own discipline note exists to catch, and it was caught only on the second pass, after a first draft of this insertion had already reached for three.
+Two corrections belong on the record before this is used for anything. First, the resolution was not instantaneous — gold's case came ahead of the systematic 1979 account, and computational confirmation that the same mechanism produces mercury's specific melting point did not arrive until 2013 (Calvo, Pahl, Wormit & Schwerdtfeger). The exceptions did not fall simultaneously; they fell in sequence, against one imported coordinate, over more than three decades. Second, the mechanism as published is two systematic effects, not three or four — a temptation toward a favored cardinality is exactly the kind of pattern-matching this document's own discipline note exists to catch, and it was caught only on the second pass, after a first draft of this insertion had already reached for three.
 
 What the sequence supports, stated at the size it earns: **a ratio-only coordinate system logs its own unmarkable thresholds as an accumulating list of apparently unrelated exceptions, and the list does not resolve from inside the system that produced it.** It resolves — not always at once, but always eventually as one thing rather than many — only once a coordinate absent from the system's own algebra is supplied. The periodic table is offered here as the cleanest available instance of that pattern, dated and checkable, not as proof that the pattern is universal.
 
@@ -224,7 +232,7 @@ The XOR bottleneck at the Planck scale is the compression side of the same compr
 
 The scaling invariant establishes the *shape* of the operation that mints scale. But log-linear operators carry exponents; they cannot set absolute magnitudes on their own.
 
-This is Gabriel's Horn: a geometric shape with infinite surface area but finite volume. The framework holds a massive qualitative surface—every empirical constant in physics has a structural address inside it (the CKM angles, the Yukawa mass hierarchies, the resonance frequencies)—but a small quantitative volume. The framework can state whether a physical quantity is a scalar or a vector, whether it lives on $P$ or $Q$, whether the transition to it involves a squaring or a rooting, and whether it is anchored on $R$ or free. 
+This is Gabriel's Horn: a geometric shape with infinite surface area but finite volume. The framework holds a massive qualitative surface—every empirical constant in physics has a structural address inside it (the CKM angles, the Yukawa mass hierarchies, the resonance frequencies)—but a small quantitative volume. The framework can state whether a physical quantity is a scalar or a vector, whether it lives on $P$ or $Q$, whether the transition to it involves a squaring or a rooting, and whether it is anchored on $R$ or free.
 
 It cannot say what the specific numerical value is. The absolute value depends on the substrate's specific inductive and capacitive parameters, which the framework does not import. The framework maps the topology; the physical substrate supplies the numbers. Demanding that the log-linear algebra emit absolute values is demanding a ruler from a system explicitly designed to demonstrate that rulers are local, thermodynamic mintings, not universal grids.
 
@@ -253,6 +261,32 @@ The catalog is short and worth writing down.
 * Any substrate-specific inductance, capacitance, or bandwidth number.
 
 **The discipline this makes explicit:** a framework document that produces a specific number states which quantities came from its own algebra and which crossed the boundary. A number without a named import is a debt-noun of the kind §VI.a catalogued — it occupies the position an explanation would hold, and discharges none of its duties. Naming the import is what makes a prediction chargeable to a bounded frame rather than to the manifold.
+
+**The open exception.** One corpus result sits uneasily against this rule: the pion-to-electron ratio $2/\alpha - 3/\pi + 2\alpha$ (`Q15-KairosBorn`, `L3-ConstitutiveAlpha`) is a specific dimensionless number the algebra claims to reach, with $\alpha$ and the colour count as its imports. `Q17-LandauerNuclearScale` §XV pre-registers the next such ratio, $m_p/m_\pi$. If that lands, this subsection needs a codified exception — the algebra reaches a ratio where its geometry touches a rung; if it does not, the pion ratio becomes the anomaly the rule has to explain.
+
+---
+
+## IX.b Worked Example — The Constitutive $\alpha$ Identity
+
+The scope discipline states plainly: the algebra emits dimensionless structure; it does not emit substrate magnitudes. `L3-ConstitutiveAlpha` runs the example that makes the scope visible.
+
+**What the algebra emits.** The plenum's $RLC$ recognition (`L4-ThePlenum` §II.4, §II.5) gives the medium two impedance-scale objects — the reactive channel $Z_0 = \sqrt{\mu_0/\epsilon_0}$ and the resistive quantum $R_K = h/e^2$. Their dimensionless ratio is a native invariant of the medium:
+
+$$\alpha \;=\; \frac{Z_0}{2\,R_K}.$$
+
+The equality is SI-exact because it is the definition of $\alpha$ written in impedances; since 2019, $\mu_0$ is itself fixed through the measured $\alpha$. What the framework lands is the *reading*: $\alpha$ as the medium's reactance measured in its own resistance quantum, and the Laurent shape that reading entails.
+
+```python
+h = 6.62607015e-34; e = 1.602176634e-19; c = 299792458; alpha = 1/137.035999177
+mu0 = 2*alpha*h/(e**2*c)
+print(round(mu0*c/(2*h/e**2), 11), round(1/alpha, 9))   # 0.00729735256  137.035999177   (the identity holds by definition)
+```
+
+**What the algebra refuses.** The value $\alpha \approx 1/137.036$ is not derived by the identity. The identity states *what dimensionless quantity $\alpha$ is*; it does not state *why the plenum's $Z_0$ and $R_K$ take the specific values they do*. Those values are substrate residuals. Demanding the algebra emit them is the same category error as demanding it hand back the SI Ampere: asking a scale-invariant grammar to emit a scale.
+
+**The two are one discipline.** The reading is what the algebra *can* land; the magnitude is what the algebra *cannot* land; and refusing the second is the specific inoculation that keeps the first stable under improving measurement. Eddington's failure was that he tried to derive the value from the boundary; the corpus reads the identity through the medium and lets the value be what it is (`L3-ConstitutiveAlpha` §V–VI).
+
+The pattern generalizes to every dimensionless invariant the algebra names: the framework emits the invariant, and the substrate supplies the magnitude that renders the invariant in a physicist's units. The horn is silent on the second by design.
 
 ---
 
@@ -288,24 +322,18 @@ $$\ln S = \ln|S| + j\theta$$
 
 The operation separates. Its real part is $\ln|S|$ — the volume, the magnitude, the thing that presses on bandwidth. Its imaginary part is $\theta = \arctan(Q/P)$ — a pure ratio, invariant under any rescaling. **Everything scale-bound lands on the real axis; everything scale-free lands on the imaginary axis.** Shape is conserved; volume is spent. The Landauer Tax is paid in modulus, never in angle.
 
+```python
+import cmath
+S = complex(3.0, 4.0)
+for k in (1, 10, 1e6):
+    z = cmath.log(k*S); print(round(z.real, 4), round(z.imag, 4))   # real part moves with scale; angle 0.9273 stays
+```
+
 ---
 
-## IX.b Worked Example — The Constitutive $\alpha$ Identity
+## XI. What Reading This Back Should Leave
 
-The scope discipline states plainly: the algebra emits dimensionless structure; it does not emit substrate magnitudes. `L3-ConstitutiveAlpha` runs the example that makes the scope visible.
-
-**What the algebra emits.** The plenum's $RLC$ recognition (`L4-ThePlenum` §II.4, §II.5) gives the medium two impedance-scale objects — the reactive channel $Z_0 = \sqrt{\mu_0/\epsilon_0}$ and the resistive quantum $R_K = h/e^2$. Their dimensionless ratio is a native invariant of the medium:
-
-$$\alpha \;=\; \frac{Z_0}{2\,R_K}.$$
-
-The identity is SI-exact. Derived, not fitted. Landed.
-
-**What the algebra refuses.** The value $\alpha \approx 1/137.036$ is not derived by the identity. The identity states *what dimensionless quantity $\alpha$ is*; it does not state *why the plenum's $Z_0$ and $R_K$ take the specific values they do*. Those values are substrate residuals. Demanding the algebra emit them is the same category error as demanding it hand back the SI Ampere: asking a scale-invariant grammar to emit a scale.
-
-**The two are one discipline.** The identity is what the algebra *can* land; the magnitude is what the algebra *cannot* land; and refusing the second is the specific inoculation that keeps the first stable under improving measurement. Eddington's failure was that he tried to derive the value from the boundary; the corpus derives the identity from the medium and lets the value be what it is (`L3-ConstitutiveAlpha` §V).
-
-The pattern generalizes to every dimensionless invariant the algebra names: the framework emits the invariant, and the substrate supplies the magnitude that renders the invariant in a physicist's units. The horn is silent on the second by design.
+The *Powers of 10* film shows rungs on a ruler and lets the ruler look prior to everything on it. Take the logarithm of the twelve equations and the ruler turns out to be the one place where nothing can mark a rung: in log coordinates the whole algebra is flat and scale-free. The rungs come from somewhere else — from the six equations that square or root, never from the six that carry. They sit two and two in every phase of the braid, the squares homed at the asserting poles and the roots at the yielding ones, so every step of the braid carries a magnitude and reshapes one in the same move. That is the invariant: not a ladder, but the operation that mints one. What the operation cannot do is say how big; for that it needs an addition, the AC sum, and a bounded frame whose bandwidth it crosses, and every specific number still has to name what it imported. The ruler is local. The minting is everywhere.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

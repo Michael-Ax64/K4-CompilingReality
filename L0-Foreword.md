@@ -9,7 +9,7 @@ Reality has one architecture. It repeats. The same shape organizes Einstein's ma
 
 The tool: an adimensional, scale-invariant topological knot. It has no size of its own — it lends its shape to whatever domain it enters. Its clearest physical projection is alternating current. So voltage, current, power, and resistance describe far more than circuits: they describe anything held in tension between four mutually determining poles.
 
-One knot in many clothes; four capacities arrive together. It **generates** the possibility space of any four-fold system before you map it. It **predicts** where the system will bend, break, or crystallize. It **discriminates** structural matches from poetic ones. It **unifies** — collapsing the jargons that keep physics, biology, psychology, and craft talking past each other.
+One knot in many clothes, and four capacities arrive together with it. It generates the possibility space of any four-fold system before you map it, predicts where the system will bend or break or crystallize, discriminates structural matches from poetic ones, and unifies the domains by collapsing the jargons that keep physics and biology and psychology and craft talking past each other.
 
 The knot is retied, not cut. What Alexander cut with a sword, and specialization cut with jargon, returns as a single walkable geometry. Cross-domain reasoning becomes native rather than heroic. Insights carry between fields because the fields were never separate — only differently dressed. Mystics and scientists mapped the same terrain from opposite sides of one door. Mathematics, physics, and geometry put their long agreement to work — a single lens onto life, the universe, and everything.
 
@@ -40,25 +40,25 @@ The bottom-up discipline was a constraint, not a stylistic choice.
 
 Any argument that begins at the top — at consciousness, at the divine, at a unified field — inherits all the ambiguity of what it claims to explain. Beginning at the atomic substrate and working upward meant each level had to be supported from below before claiming the level above.
 
-The method is slower. It produces narrower claims. Those claims are harder to dismiss.
+The method is slower and produces narrower claims, and those narrower claims are harder to dismiss.
 
-The result is a framework composed of two distinct registers:
+The result is a framework composed of two distinct registers.
 
-1. **The Formal Core:** The dual-binary seed, the twelve equations, the K4 graph structure, the Braid, and the log-linear scaling result. This part is mathematics. It is checkable by hand. It borrows from nobody. You refute it with a counterexample.
+The **Formal Core** carries the dual-binary seed, the twelve equations, the K4 graph structure, the Braid, and the log-linear scaling result. This part is mathematics, checkable by hand, borrowing from nobody, refutable by counterexample.
 
-2. **The Test-Bores:** The applications into psychology, institutions, rhetoric, biology, and cosmology. These are drilled from the inside out, proving that the finite volume of the algebra successfully fills the structure beneath those domains. You refute them by running the permutation sweep (`ProofS`) and watching the resonance fail.
+The **Test-Bores** are the applications into psychology, institutions, rhetoric, biology, and cosmology. These are drilled from the inside out, proving that the finite volume of the algebra successfully fills the structure beneath those domains, and they are refuted by running the permutation sweep (`ProofS`) and watching the resonance fail.
 
 
 ## The Base
 *What is now asked of you.*
 
-This work is an exposition of a generative layer. Its ambition is to make the raw engine of tetradic construction visible and functional for anyone equipped to use it.
+This work is an exposition of a generative layer, and its ambition is to make the raw engine of tetradic construction visible and functional for anyone equipped to use it.
 
 The initial thermodynamic labor — clearing the terminological debris, mapping the K4 topology, and formalizing the compiler — has been paid. But this corpus is not a static monument. It is a new base to work from.
 
-This is not a belief system to adopt, nor a finished map to audit. Its and invitation 'reason dimensionally', to run the algebra withing and against your own domain, to write new works with its aid, to create new executable models, to test the structural limits of the topology, and most importantly of all, to try breaking it!
+This is not a belief system to adopt, nor a finished map to audit. It is an invitation to reason dimensionally, to run the algebra within and against your own domain, to write new works with its aid, to create new executable models, to test the structural limits of the topology, and, most important of all, to try breaking it.
 
-Bring what you know!
+Bring what you know.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

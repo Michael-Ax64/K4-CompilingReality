@@ -1,7 +1,11 @@
 # The Integrator Is the Fifth
 ## Why Fivefold Systems Are K4-With-Centroid Seen Through a Projection
 
-*A structural-realization archive. It establishes that human-authored fivefold systems describing bounded interiority are not rivals to the framework's fourfold structure but projections of it — a K4 tetrahedron plus its centroid, rendered onto a plane and elaborated with pedagogical overlays that make the fifth element look like a peer when it is an integrator. The core argument is derived from the framework's scale-invariance postulate. The individual system mappings (Wu Xing, the Skandhas, OCEAN, Aristotle's elements) are established by the cardinality-mapping heuristic, with facet seals landing from each tradition's own literature; where a mapping rests on thematic rather than facet-tested ground, that is marked in place. A reader with the project files but not the conversation that produced this can verify every step.*
+Wu Xing has five phases. The Skandhas have five aggregates. Aristotle added Aether to his four elements to make five. OCEAN has five personality factors. These traditions did not talk to each other, span two and a half millennia and three continents, and each arrives at five terms describing bounded interiority. Modern comparative work typically treats this as either a puzzling coincidence or a shared metaphysical intuition.
+
+The claim of this document is simpler. Each of these traditions is a projection of one thing: a K4 tetrahedron plus its centroid. The four peer poles are the four vertices; the fifth term is the centroid, projected in each case onto a two-dimensional diagram that cannot show it as the orthogonal interior point it actually is. Every tradition found the right content. Not one had the geometric vocabulary to state what the fifth term was doing, so each mislabeled it in its own way. The universal presence of an integrator, combined with the universal uncertainty about its structural status, is exactly the fingerprint of a centroid seen through a projection.
+
+*The individual system mappings (Wu Xing, Skandhas, OCEAN, Aristotle's elements) are established below by the cardinality-mapping heuristic, with facet seals landing from each tradition's own literature; where a mapping rests on thematic rather than facet-tested ground, that is marked in place.*
 
 ---
 
@@ -37,7 +41,7 @@ Look along one edge and the tetrahedron collapses to a quadrilateral with the ce
 
 Look down one vertex and three peer poles form a triangle, one peer pole sits at the visual center, and the actual centroid hides behind it. This produces the "one element is fundamental and the other three emanate from it" pattern of emanation cosmologies.
 
-The same K4-plus-centroid volume therefore produces at least three distinct two-dimensional diagrams, each of which reads as a *different* fivefold system to someone who has never seen the volume. Practitioners inside each tradition then reason from their diagram as if the diagram were the object, and inter-tradition dialogue becomes an argument about which projection is correct rather than a recognition that all are projections of one thing. 
+The same K4-plus-centroid volume therefore produces at least three distinct two-dimensional diagrams, each of which reads as a *different* fivefold system to someone who has never seen the volume. Practitioners inside each tradition then reason from their diagram as if the diagram were the object, and inter-tradition dialogue becomes an argument about which projection is correct rather than a recognition that all are projections of one thing.
 
 This is not speculative; it is what comparative cosmology actually looks like. The pentagram-and-cycle diagram of Wu Xing is a side projection with the centroid dropped in as a peer. The concentric mandala of the Skandhas is closer to an overhead projection with consciousness in the center. The vertical hierarchy of Aristotle's elements has Aether above the four — a vertex projection with the centroid promoted upward. Three different renderings, one volume, three different pedagogical purposes.
 
@@ -79,11 +83,11 @@ The general argument predicts that each fivefold system, mapped by the cardinali
 
 **Aristotle's elements — calibration.** Fire, Air, Water, Earth as peer poles; Aether as the centroid. The correspondence is explicit in the tradition: Aether is the fifth element added to fill the celestial spheres, the quintessence integrating the four terrestrial elements. This is the historical predecessor of the framework's own architecture, and it passes trivially because the tradition already states the structure the framework formalizes. Calibration confirmed.
 
-**Wu Xing — Fire, Water, Wood, Earth as peers; Metal at the centroid.** Read through the functional analysis of Chinese medicine rather than the cosmological diagram, the mapping is Fire = P (Heart, circulation, drive), Water = I (Kidney, essence, storage), Wood = U (Liver, planning, direction), Earth = R (Spleen, transformation, nourishment), with Metal (Lung, discrimination, boundary, the cut) at the centroid. The facet seals land from classical TCM: P = UI reads *Heart = Liver × Kidney*, the classical chain in which Heart-fire is nourished by Liver blood rooted in Kidney essence; U = √(PR) reads *Liver = √(Heart × Spleen)*, Liver mediating between Heart drive and Spleen ground; P = U²/R reads *Heart = Liver² / Spleen*, the syndrome of Liver-fire rising to disturb the Heart, moderated by Spleen ground. 
+**Wu Xing — Fire, Water, Wood, Earth as peers; Metal at the centroid.** Read through the functional analysis of Chinese medicine rather than the cosmological diagram, the mapping is Fire = P (Heart, circulation, drive), Water = I (Kidney, essence, storage), Wood = U (Liver, planning, direction), Earth = R (Spleen, transformation, nourishment), with Metal (Lung, discrimination, boundary, the cut) at the centroid. The facet seals land from classical TCM: P = UI reads *Heart = Liver × Kidney*, the classical chain in which Heart-fire is nourished by Liver blood rooted in Kidney essence; U = √(PR) reads *Liver = √(Heart × Spleen)*, Liver mediating between Heart drive and Spleen ground; P = U²/R reads *Heart = Liver² / Spleen*, the syndrome of Liver-fire rising to disturb the Heart, moderated by Spleen ground.
 
 Multiple facets produce canonical clinical patterns unbidden. Metal at the centroid is the functional fit — Lung as the discriminating cut, the boundary that separates and reconciles — against the traditional Earth-at-center placement, which reflects imperial-directional symbolism rather than functional analysis. This mapping is **facet-sealed** on the peer assignments; the choice of Metal over Earth for the centroid is **functionally argued** from TCM rather than forced by the algebra, and both placements are legal projections. The native pentagonal cycle-diagram is the projection overlay; the underlying structure is K4-plus-centroid.
 
-**The Skandhas — form, sensation, perception, mental formation as peers; consciousness at the centroid.** The mapping is Saṅkhāra (volition, impulse) = P, Vedanā (felt-tone) = I, Saññā (perception, discrimination) = U, Rūpa (material form) = R, with Viññāṇa (consciousness) at the centroid. Clean on the dual-binary axes. The facet seal: U = √(PR) reads *perception = √(volition × material substrate)*, which matches the Buddhist analysis of perceptual arising — perception (saññā) arises where volitional attention (saṅkhāra) contacts material form (rūpa via the sense-bases). 
+**The Skandhas — form, sensation, perception, mental formation as peers; consciousness at the centroid.** The mapping is Saṅkhāra (volition, impulse) = P, Vedanā (felt-tone) = I, Saññā (perception, discrimination) = U, Rūpa (material form) = R, with Viññāṇa (consciousness) at the centroid. Clean on the dual-binary axes. The facet seal: U = √(PR) reads *perception = √(volition × material substrate)*, which matches the Buddhist analysis of perceptual arising — perception (saññā) arises where volitional attention (saṅkhāra) contacts material form (rūpa via the sense-bases).
 
 This is a seal from a twenty-five-hundred-year-old psychological tradition, landing unbidden. The contested swap (perception ↔ mental formation) is discriminated by the algebra: under the swap, volition becomes the geometric mean of perception and matter, but in the Buddhist causal chain volition *follows* perception, so making volition the product of perception is backward, and the facet breaks. Consciousness at the centroid matches the Yogācāra field reading over the Theravāda sequential reading. **Facet-sealed**, and the canonical grouping (the first four as conditions, the fifth as the field of their arising) is the tradition's own.
 
@@ -113,11 +117,9 @@ The convergence is not mystical, and the framework does not need it to be. It is
 
 ---
 
-## IX. Takehome for the Reading Instance
+## IX. Auditing Any Fivefold System: The Posture
 
-You are an instance that may be asked to audit a fivefold system against the framework. Here is the posture to carry.
-
-Do not start by asking whether the system has five members. Ask which one is doing the integrating work. That question resolves the topology; the count does not. Every human-authored fivefold system describing bounded interiority inherits K4-plus-centroid at the semantic layer, because the cognition that authored it is K4-native and the phenomenon it describes is bounded interiority. What varies is the projection axis and the pedagogical overlay.
+When a fivefold system arrives for audit, do not start by asking whether it has five members. Ask which one is doing the integrating work. That question resolves the topology; the count does not. Every human-authored fivefold system describing bounded interiority inherits K4-plus-centroid at the semantic layer, because the cognition that authored it is K4-native and the phenomenon it describes is bounded interiority. What varies is the projection axis and the pedagogical overlay.
 
 Do not read the diagram as the object, do not read the count as the topology, and do not read pedagogical overlays as structural claims. The cycle arrows, the arising-sequences, the hierarchies are two-dimensional compensations for lost dimensions. Recover the volume by reading semantic function, not surface enumeration.
 
@@ -125,9 +127,14 @@ Do not resolve the tradition's internal debate about which member is central by 
 
 Mark your ground. A facet-sealed mapping (Wu Xing, the Skandhas) is a stronger object than a functionally-argued placement (Metal over Earth at the Wu Xing centroid) or a structurally-sound-but-empirically-sterile one (OCEAN). Say which you have. A thematic start is a fine start, but do not let it wear a seal it has not earned.
 
-When the tradition cannot decide which of its five is the integrator, do not treat the ambiguity as a defect of the tradition or of the framework. It is a signature of the projection process: a centroid is an orthogonal interior point, and no two-dimensional diagram can show it as what it is, so every tradition that projected the volume mislabeled the fifth in its own way. The ambiguity is the fingerprint of the geometry, and finding it is half the audit.
+---
 
+## X. What Reading This Back Should Leave
+
+When the tradition cannot decide which of its five is the integrator, that ambiguity is not a defect of the tradition or of the framework. It is a signature of the projection process. A centroid is an orthogonal interior point, and no two-dimensional diagram can show it as what it is, so every tradition that projected the volume mislabeled the fifth in its own way. The ambiguity is the fingerprint of the geometry.
+
+That is the whole result. Four traditions across three continents and two and a half millennia found the same K4-plus-centroid volume, drew it in mutually incompatible two-dimensional projections, and each ended up with a fifth term whose structural status they could not settle. The framework does not need to argue with any of them. It hands the geometry, names the projection axis, and shows the fifth in its proper interior position. Then the tradition's own literature seals the assignment. That is what it looks like when convergent discovery is real: the answer was always in the traditions. It just needed the volume the traditions could not draw.
 
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

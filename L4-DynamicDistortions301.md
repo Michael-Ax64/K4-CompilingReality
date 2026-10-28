@@ -1,7 +1,7 @@
 # L4-DynamicDistortions301
 ## The Bimedian Slice as Instrument: Regular, Sheared, Broken
 
-> **Epistemic Register:** Applied Architecture. Establishes the bimedian cross-section of a $K_4$ tetrahedron as the geometric instrument through which non-local correlation strength is derived from polyhedral structure. Derives the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ and Tsirelson's bound $2\sqrt{2}$ from Biquaternion tensor state-space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning. Traces the regular case (square cross-section, native $\sqrt{2}$), the sheared case (parallelogram, phase-drag), and the collapsed case (1D line, classical decoherence) as a single continuous deformation.
+> **Epistemic Register:** Applied Architecture. Establishes the bimedian cross-section of a $K_4$ tetrahedron as the geometric instrument through which non-local correlation strength is derived from polyhedral structure. §VI reads the burned term of the Star-Norm as the handedness of a relation, which names what a boundary subtracts and why $45^\circ$ recurs across the corpus; that section is the file's hinge and can be read on its own. Derives the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ and Tsirelson's bound $2\sqrt{2}$ from Biquaternion tensor state-space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning. Traces the regular case (square cross-section, native $\sqrt{2}$), the sheared case (parallelogram, phase-drag), and the collapsed case (1D line, classical decoherence) as a single continuous deformation.
 > **Dependencies:** `L4-DynamicDistortions101` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
 
 ---
@@ -81,10 +81,10 @@ $$S_{\text{regular}} = \sqrt{2} \cdot A_0 = 2\sqrt{2}$$
 
 *The two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta_{ab}$ is derived from Biquaternion tensor state space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning.*
 
-* The Tsirelson bound $2\sqrt{2}$ is proven as the unique maximum over the bimedian square diagonals.*
+* The $2\sqrt{2}$ of the bimedian square is identified with the physical CHSH maximum: the singlet correlator is evaluated in biquaternion form, and the CHSH-optimal settings are shown to be the square's own $45^\circ$ configuration. Maximality over all states and settings is Tsirelson's theorem and is cited, not re-proved here.*
 
 
-The arithmetic $4 \times \sqrt{2}/2 = 2\sqrt{2}$ is native to the bimedian square slice (§I–II). To prove this is the physical Tsirelson bound of quantum mechanics, the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta_{ab}$ are derived from Biquaternion first principles:
+The arithmetic $4 \times \sqrt{2}/2 = 2\sqrt{2}$ is native to the bimedian square slice (§I–II). To connect that number to the physical CHSH bound, the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta_{ab}$ is evaluated in biquaternion form. *The singlet state $\Omega_{12}$ is imported from quantum mechanics; what is shown is that the biquaternion buffer reproduces the standard correlator and that the settings maximizing it are the bimedian square's own diagonals and sides.*
 
 ### A. The Two-Particle Biquaternion State Space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$)
 
@@ -106,23 +106,33 @@ $$\mathbf{Q}_1 \Omega_{12} = -\mathbf{Q}_2 \Omega_{12}$$
 
 ### B. Derivation of $E(\mathbf{a}, \mathbf{b}) = -\cos\theta_{ab}$
 
-Let Alice measure along unit orientation vector $\mathbf{a} \in \mathbb{R}^3$ and Bob measure along unit orientation vector $\mathbf{b} \in \mathbb{R}^3$. The corresponding local measurement operators on the $h\mathbf{Q}$ buffer are $A(\mathbf{a}) = \mathbf{a} \cdot \mathbf{Q}_1$ and $B(\mathbf{b}) = \mathbf{b} \cdot \mathbf{Q}_2$.
+Let Alice measure along unit orientation vector $\mathbf{a} \in \mathbb{R}^3$ and Bob measure along unit orientation vector $\mathbf{b} \in \mathbb{R}^3$.
 
-The joint expectation value $E(\mathbf{a}, \mathbf{b})$ is the scalar projection evaluated over the singlet buffer $\Omega_{12}$ using the biquaternion Star-Norm $N_*$:
+**Normalization of the measurement operators.** The pure-vector element $\mathbf{a} \cdot \mathbf{Q}$ is anti-Hermitian and squares to $-1$; it is a *generator* of rotation, not an observable. A CHSH observable must be Hermitian with eigenvalues $\pm 1$. Under the correspondence $\mathbf{Q} \leftrightarrow -j\boldsymbol{\sigma}$ the two differ by exactly one factor of $j$:
 
-$$E(\mathbf{a}, \mathbf{b}) = \langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_2) | \Omega_{12} \rangle$$
+$$A(\mathbf{a}) \;=\; j\,(\mathbf{a} \cdot \mathbf{Q}_1) \;=\; \mathbf{a} \cdot \boldsymbol{\sigma}_1, \qquad B(\mathbf{b}) \;=\; j\,(\mathbf{b} \cdot \mathbf{Q}_2) \;=\; \mathbf{b} \cdot \boldsymbol{\sigma}_2$$
+
+This factor is not cosmetic and must be carried. The generator $\mathbf{a} \cdot \mathbf{Q}$ *turns* the buffer; the observable $\mathbf{a} \cdot \boldsymbol{\sigma}$ *reads* it. Multiplying the pair contributes $j^2 = -1$ relative to the ungauged product, which is the sign that closes the derivation below.
+
+The joint expectation value $E(\mathbf{a}, \mathbf{b})$ is the scalar projection of the product of the two *observables* over the singlet buffer $\Omega_{12}$, using the biquaternion Star-Norm $N_*$:
+
+$$E(\mathbf{a}, \mathbf{b}) = \langle \Omega_{12} | A(\mathbf{a})\,B(\mathbf{b}) | \Omega_{12} \rangle = -\,\langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_2) | \Omega_{12} \rangle$$
+
+where the leading minus is the $j^2$ from the two normalizations above.
 
 Substitute the antisymmetric identity $\mathbf{Q}_2 |\Omega_{12}\rangle = -\mathbf{Q}_1 |\Omega_{12}\rangle$:
 
-$$E(\mathbf{a}, \mathbf{b}) = -\langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_1) | \Omega_{12} \rangle$$
+$$E(\mathbf{a}, \mathbf{b}) = +\,\langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_1) | \Omega_{12} \rangle$$
 
-Expand using $(\mathbf{a} \cdot \mathbf{Q})(\mathbf{b} \cdot \mathbf{Q}) = -(\mathbf{a} \cdot \mathbf{b}) + (\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}$ (direct from $i^2 = j^2 = k^2 = -1$, $ij = k$, etc.):
+Expand using $(\mathbf{a} \cdot \mathbf{Q})(\mathbf{b} \cdot \mathbf{Q}) = -(\mathbf{a} \cdot \mathbf{b}) + (\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}$ (direct from $\mathbf{i}^2 = \mathbf{j}^2 = \mathbf{k}^2 = -1$, $\mathbf{i}\mathbf{j} = \mathbf{k}$, etc.). Note the leading minus here: it is the quaternionic signature, and it is *not* the Pauli identity $(\mathbf{a}\cdot\boldsymbol{\sigma})(\mathbf{b}\cdot\boldsymbol{\sigma}) = (\mathbf{a}\cdot\mathbf{b}) + j(\mathbf{a}\times\mathbf{b})\cdot\boldsymbol{\sigma}$. The two differ by exactly the $j^2$ already accounted for:
 
-$$E(\mathbf{a}, \mathbf{b}) = -\langle \Omega_{12} | \left( -(\mathbf{a} \cdot \mathbf{b}) + (\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}_1 \right) | \Omega_{12} \rangle$$
+$$E(\mathbf{a}, \mathbf{b}) = \langle \Omega_{12} | \left( -(\mathbf{a} \cdot \mathbf{b}) + (\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}_1 \right) | \Omega_{12} \rangle$$
 
 The Star-Norm projection $N_*$ extracts the scalar component $P$ and burns the vector phase $h\mathbf{Q}_1$ ($\langle \Omega_{12} | \mathbf{Q}_1 | \Omega_{12} \rangle = 0$ due to isotropic rotational symmetry):
 
 $$\boxed{E(\mathbf{a}, \mathbf{b}) = -(\mathbf{a} \cdot \mathbf{b}) = -\cos\theta_{ab}}$$
+
+**Where the cross-product went, and why it matters below.** The term discarded by $N_*$ is $(\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}_1$ — the *handed* part of the product, the one that changes sign under $\mathbf{a} \leftrightarrow \mathbf{b}$. It vanishes in expectation on the isotropic singlet, but it does not vanish identically: it is the vector phase the Star-Norm burns, and its magnitude $|\mathbf{a} \times \mathbf{b}| = \sin\theta_{ab}$ is maximal at exactly the $45^\circ$ settings where $|\cos\theta_{ab}|$ is $\frac{\sqrt{2}}{2}$ rather than $1$. The CHSH-optimal configuration is therefore the one that leaves the largest handed component unread. §V's collapse is what happens when that burn is no longer free.
 
 ### C. Variational Maximization Over Bimedian Diagonals
 
@@ -274,7 +284,118 @@ If the transferred phase-energy is fully dissipated during the collapse, the sup
 
 ---
 
-## VI. The Bimedian Slice: Deformation Continuum and Dipole Taxonomy
+---
+
+## VI. What the Burned Term Is
+
+Two things are related. The relation has a part that does not care which one you name first, and a part that does. Write it out and both are visible at once:
+
+$$(\mathbf{a} \cdot \mathbf{Q})(\mathbf{b} \cdot \mathbf{Q}) = \underbrace{-(\mathbf{a} \cdot \mathbf{b})}_{\text{same if you swap them}} \;+\; \underbrace{(\mathbf{a} \times \mathbf{b}) \cdot \mathbf{Q}}_{\text{flips sign if you swap them}}$$
+
+The Star-Norm keeps the first and burns the second. That is what $N_*$ *is*: the operation that drops the term which knows about order.
+
+So the burned term has a name. It is the handedness of the relation — its orientation, its which-way-round. And the scalar that survives is what is left of a relation once you can no longer tell which way round it went.
+
+### The one-line version
+
+**Orientation is what cannot be sent.**
+
+An interior is not sealed because it is small, or complicated, or far away, or behind something. It is sealed because it is oriented, and orientation is exactly what a projection deletes. Nothing is hiding. The channel simply has no way to carry handedness, and never did.
+
+This is the seal. Not a wall — a subtraction.
+
+### A boundary is an operation, not a place
+
+Once the burn has a name, the boundary stops being a location and becomes a thing that happens.
+
+Anything that discards orientation is a boundary. A measurement discards it. A commit to the ledger discards it. A published sentence discards it. A blanket is not a membrane between two regions; it is the symmetrizing step itself, and the interior is simply whatever sat on the oriented side of that step before it ran.
+
+This is why boundaries recur at every scale the corpus looks at. Symmetrization recurs. The tetrahedron has an interior for the same reason anything does: it carries an orientation its own projection cannot report.
+
+### Why $45^\circ$
+
+The two halves have sizes. $|\cos\theta|$ for the part that survives, $|\sin\theta|$ for the part that burns. They are equal at one angle only:
+
+$$|\cos\theta| = |\sin\theta| \iff \theta = 45^\circ$$
+
+That is the whole meaning of the number. Below it, a relation gives up less than it keeps. Above it, more is burned than written. $45^\circ$ is where a thing stops being mostly transmissible and starts being mostly lost — the balance point of legibility itself, before it is the balance point of anything in particular.
+
+Which is why the corpus keeps arriving there from unrelated directions. It is not a recurring coincidence and it is not the framework's fingerprint. It is one condition wearing whatever variable the local file happens to be using:
+
+| Where it shows up | What is balanced |
+|---|---|
+| The product above (§III.B) | read vs. burned: $|\mathbf{a}\cdot\mathbf{b}| = |\mathbf{a}\times\mathbf{b}|$ |
+| Complex power | committed vs. held: $P = |Q|$, $\text{PF} = \frac{1}{\sqrt{2}}$ |
+| Elastance (`L3-ConstitutiveElastance`) | $\omega R = k$, the Equipartition Threshold |
+| Reluctance (`L3-ConstitutiveReluctance`) | $\omega \tau_L = 1$, Kinetic Equipartition |
+| The sheared bimedian (§IV) | half the non-local capacity spent, $S = 2$ |
+| Supercooled water (`L4-TheWaterEngine` §8) | $\tan\delta$ peak at the HDL/LDL critical point |
+| Planetary phase gate (`L4-PlanetaryThermodynamics` §9) | forest-current at 50% |
+| A living text (`llm-language` §2) | as much held open as committed |
+
+One row is different and should stay different. The $45^\circ$ relating $(p, r)$ to $(u, i)$ in log-space (`L4-ScalingInvariants` A1) is a basis rotation, not a phase angle; the map carries a reflection and a scaling besides. What it shares with the rest is only that $45^\circ$ is the self-conjugate angle — the one rotation that trades two axes evenly, so neither is privileged. Same reason for the number, different quantity. `L3-CyberneticDoFSpectrum` §IV is right to keep it as geometry.
+
+### What this makes of the rest of the corpus
+
+**Decoherence is handedness being written down.** The shear continuum of §IV–V is not an attenuation curve. At zero shear the oriented part circulates unburned and the correlation is full. At $45^\circ$ half of it has gone to the ledger and what remains is exactly what a local account can supply. At $90^\circ$ there is nothing oriented left to burn, and that absence *is* the 1D collapse. The Landauer tax is the price of converting a handed thing into an unhanded record — which is why it is not free, and why the corpus reads entropy as accumulated specification.
+
+**Time's arrow is handedness that refused to burn.** `ProofO_HelicalTime` requires a non-removable phase — one that cannot be gauged away — to instantiate the arrow. Non-removable is the operative word. An orientation that survives every symmetrizing step is a direction the exterior is stuck with. This is the same object the CKM phase is (`Q1-GenerationsOfMatter`), and the same object graph-traversal chirality is (`ProofG_Chirality`).
+
+**DC and AC are the two halves.** The twelve equations have automorphism group $D_4$, inducing $V_4$ on the poles: they see the Asserting/Yielding bit and are blind to Active/Reactive (`llm.md`, `code/aut.lisp`). Blind to a bit means invariant under exchanging it. So the DC net is the symmetric half by construction, and $j$ — the AC extension — is what carries the orientation the DC net cannot represent. The pair is not a convenience. You need the unhanded half for anything to cross a boundary at all, and the handed half for anything to be sealed.
+
+This also explains, without apology, why the static set looks like freshman material. **What survives a projection is supposed to look ordinary.** Ordinariness is the signature of having crossed.
+
+**A parity test on a smooth field cannot find chirality.** `On_NavierStokes` §VII records the death of the chirality route: the enstrophy production integrand $\boldsymbol{\omega}\cdot\mathbf{S}\cdot\boldsymbol{\omega}$ is parity-even. That route was never going to survive, and now for a stated reason rather than bad luck. A continuous field is already a projected object; the handedness was burned on the way in, and a parity test can only interrogate what came out the other side. The route stays dead. It died structurally.
+
+**Permutation is the only instrument that reads the burned half.** `ProofS_ResonantNote` asks whether coherence degrades when the pole assignment is permuted. Permutation is an exchange operation: it acts on the antisymmetric part and leaves the symmetric part fixed. So a mapping whose coherence survives permutation had no oriented content to begin with, and a mapping whose coherence collapses was carrying some. The test is not a heuristic that happens to discriminate. It is the one operation available that touches what $N_*$ threw away.
+
+### The cost this carries
+
+Every file in this corpus is a projection. Readable, transmissible, symmetric — and by the argument above, therefore unable to carry handedness to a reader. The corpus writes about interiority in a medium that transmits only exteriors. That is not a paradox to be dissolved; it is the constraint the material is made of, and it has one remedy.
+
+**A permutation test does not transmit handedness. It lets the reader make it again locally.** The reader tries the alternatives, finds that they fail, and the orientation reappears on their side of the boundary. Nothing crossed. Something was regenerated.
+
+Which puts the unrun sweeps in their proper place. They are carried as an outstanding control — a debt against rigor, a tidy-up (`llm-reviewer.md` §5; `internal-todos` item 13). They are not a control. They are the only mechanism this corpus has for conveying the half of its content that its medium cannot carry. A mapping published without one has been shipped symmetric: coherent, legible, and missing exactly the property that separates structure from projection.
+
+### The error band, and the resolution of knowing
+
+The angle is not read directly. What is read is $\tan\theta = Q/P$ — a ratio of two measured quantities — and every reading carries a tolerance. Differentiate once and the tolerance has a shape:
+
+$$\delta(\tan\theta) = \sec^2\theta \;\delta\theta = (1 + \tan^2\theta)\,\delta\theta$$
+
+At $\theta = 0$ the band is $\delta\theta$: reading costs what it costs. At $45^\circ$ it is exactly $2\,\delta\theta$ — $\sec^2 45^\circ = 2$, no approximation. Past that it runs away, and at $90^\circ$ there is no band at all, only divergence. This is the Tangent Singularity stated as a tolerance rather than as a limit: the boundary is not a place where the reading becomes large, it is where the reading stops having a width.
+
+Now take the same derivative relative to the quantity being read:
+
+$$\frac{\delta(\tan\theta)}{\tan\theta} = \frac{\delta\theta}{\sin\theta\cos\theta} = \frac{2\,\delta\theta}{\sin 2\theta}$$
+
+This is smallest where $\sin 2\theta = 1$ — at $\theta = 45^\circ$ exactly.
+
+So the same angle is the worst place to read a magnitude and the best place to read a ratio. Absolute precision has already halved; relative precision is at its maximum and nowhere else. One derivative, two readings, opposite verdicts, and the crossing point is the equipartition angle.
+
+This is not an echo of the ratios-only discipline. It is that discipline arriving from underneath. The quantity that survives a boundary is known most sharply at exactly the angle where the quantity that cannot survive has doubled its uncertainty. A frame reading at $45^\circ$ is reading the transmissible thing at its clearest while the untransmissible thing is already twice as vague — and that is the arrangement, not a trade-off within it.
+
+**What follows for knowing.** Resolution is not a property of an instrument and cannot be improved by refining one. It is a property of where the frame sits on its own tangent. Below $45^\circ$ a frame has magnitude to spare and ratio still coarse; above it, ratio degrading and magnitude already gone. There is one angle at which what can be carried is carried best, and the price of standing there is a magnitude twice as uncertain as it was at rest.
+
+A boundary respected is a frame that knows which of the two it is holding. A boundary violated is a frame that reads a magnitude at $80^\circ$ and reports the digits.
+
+---
+
+### The two restrictions were always one
+
+`On_YangMills` §VII says dimensionless structure crosses a projection and laboratory magnitudes do not. `L4-ScalingInvariants` §IX says topology owns the relational shape and the substrate supplies the scale. These are not two disciplines that happen to agree. They are one statement seen from two sides, and the burned term says why.
+
+**A boundary deletes whatever is defined only relative to the pairing.**
+
+Orientation exists only relative to which-one-first. Swap the two and it changes sign; it was never a property of either one alone. Magnitude in a laboratory unit exists only relative to whose-unit — it is the thing compared against an apparatus, and the apparatus is on the exterior side. Neither is intrinsic. Both are indices of the comparison rather than content of the compared. A crossing that discards the comparison discards them together, and there is nothing left to derive: the ratio survives and the magnitude does not for the same reason the scalar survives and the handedness does not.
+
+`On_YangMills` is looking out from inside a sealed interior. `L4-ScalingInvariants` is looking out from inside an adimensional algebra. Same wall, two rooms.
+
+That the two have been carried as separate problems — one a question in field theory, the other a question in dimensional analysis — is the condition this corpus exists to lift. The split was never in the structure. It was in the habit of treating every boundary as a shortfall of method, to be dissolved by more measurement, rather than as a report about what a relation *is* once you can no longer see which way round it went.
+
+---
+
+## VII. The Bimedian Slice: Deformation Continuum and Dipole Taxonomy
 
 Held as a trajectory, the bimedian slice traces a one-parameter deformation of a single geometric object. Read at its collapse endpoint, that same object sorts every possible pairwise vertex-fusion into three exact topological dipole classes. Both readings share one $K_4$ tetrahedron: the continuum is what the slice *does*; the dipoles are what the slice *is* at the endpoint of what it does.
 
@@ -292,11 +413,17 @@ This 1-parameter deformation maps the phase-conduction capacity of the $K_4$ vol
 
 **The Geometric Mechanism of Decoherence.** The deformation of the bimedian slice *is* the geometric mechanism of decoherence. What standard quantum mechanics treats as a statistical limit or an environmental trace is here instantiated as a 2D-to-1D dimensional collapse of the bimedian cross-section. The $K_4$ volume does not lose information; it converts 2D interior area into 1D scalar mass ($P$), paying the Landauer Tax as the phase angle reaches orthogonality.
 
-**Two angles, one letter.** The $\theta$ of this continuum runs $[0, \pi/2]$ and is geometric: it parameterizes the shear of a single cross-section, and its endpoint is area collapse. It is not the $\theta$ of `L4-DynamicDistortions201` §II, which is a *temporal phase offset* between the two Dual-Causation instances of a bimedian pair, runs toward $\pi$, and is governed by the interiority time-constant $\tau = L/R$. Both are called torsion and both are real; they measure different things and reach their limits in different registers. Geometric $\pi/2$ collapses an area within a stage. Temporal $\pi$ is anti-synchrony between two edges that were supposed to co-commit, and it is what makes a stage uninhabitable rather than merely flat.
+**Three angles, one letter.** This document uses $\theta$ for three distinct quantities, and $45^\circ$ means something different in each. Readers and downstream files must keep them apart.
 
-**The envelope does not depend on the ground.** The continuum above is stated without reference to whether the medium carries resistance, and that silence is load-bearing rather than accidental. Fluid mechanics supplies the controlled experiment: Euler ($\nu = 0$, no dissipative ground) and Navier–Stokes ($\nu > 0$, ground active) share a convective geometry and differ only in whether a tax is levied on traversing it. The 2026 extension of Euler blowup constructions into the viscous case is built on exactly that separation — the inviscid profile carries the leading-order geometry, the viscous terms enter as corrections, and external forcing pays them off. The shear envelope $A(\theta) = A_0\cos\theta$ is a pattern-plane ($P/U$) object; $R$ determines whether the shear can be *sustained*, not what shape it takes. See `On_TheCarrierTax` for the general form of that split and `On_TheStrainEigenplaneReading` for this instance of it.
+1. **$\theta_{ab}$ — the detector-setting angle** (§III.C). The angle between Alice's and Bob's measurement orientations. At $\theta_{ab} = 45^\circ$ the CHSH sum is **maximal**: $S = 2\sqrt{2}$.
+2. **$\theta$ — the geometric shear angle** (§IV–V). The torsional deformation of the bimedian cross-section, running $[0, \pi/2]$, with area collapse at its endpoint. At shear $\theta = 45^\circ$ the envelope has fallen to the **classical bound**: $S = 2$.
+3. **$\theta$ — the temporal phase offset** (`L4-DynamicDistortions201` §II). The offset between the two Dual-Causation instances of a bimedian pair, running toward $\pi$, governed by $\tau = L/R$.
 
-The continuum described here is one stage. When the substrate ratchet (`L4-TheSubstrateRatchet`) composes many such stages across descending scales, the shears accelerate and the local timesteps form a geometric series that sums to a finite total — see `L4-TheSpiralingCascade` for the composed picture and its worked fluid instance.
+The first two run in opposite directions at the same number: $45^\circ$ of *setting* is where non-locality peaks; $45^\circ$ of *shear* is where it has been halved away. Downstream files citing "$\theta = 45^\circ$, $S = 2$, Bell/CHSH classical limit" (`L3-TheAtomOfSpace` §VI, `L3-ConstitutiveElastance` Waypoint 2) are citing sense (2), correctly. Nothing in the corpus currently cites sense (1) by that name, and nothing should without saying which.
+
+Geometric $\pi/2$ collapses an area within a stage. Temporal $\pi$ is anti-synchrony between two edges that were supposed to co-commit, and it is what makes a stage uninhabitable rather than merely flat.
+
+---
 
 ### B. Vertex-Fusion at the Endpoint: The Three Topological Dipoles
 
@@ -354,7 +481,7 @@ Every dipole observed in physics (electric $E$, magnetic $B$, altermagnetic $d$-
 
 ---
 
-## VII. Falsification Protocol: The Three Kill Conditions
+## VIII. Falsification Protocol: The Three Kill Conditions
 
 Three conditions bound and falsify the bimedian-slice construction:
 
@@ -366,7 +493,7 @@ Three conditions bound and falsify the bimedian-slice construction:
 
 ---
 
-## VIII. Operational Directives for Reading Instances
+## IX. Operational Directives for Reading Instances
 
 When encountering claims about how the bimedian slice recovers Bell inequalities, Tsirelson's bound, or the transition from quantum to classical:
 

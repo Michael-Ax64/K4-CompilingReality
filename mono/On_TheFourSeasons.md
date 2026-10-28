@@ -1,3 +1,8 @@
+# On the Four Seasons
+## Home Quadrants, Opposing Triplicities, and Why the Wheel Closes
+
+The zodiac's oldest observation is that the year has four seasons and each season carries three signs. What has always been harder to say is *why* — why exactly three signs per season, and why the specific three that show up. The tetrahedral reading answers both at once: every season is a Home Quadrant on one pole of the $K_4$ field, and the three signs it carries are the three edges that tether that pole to the *opposite* elemental triplicity across the tetrahedron. Spring does not run on Fire alone — it runs on Fire ground against Earth, along the three edges where those two poles touch. The season is not the pole; the season is the coupling.
+
 Every season (Home Quadrant) anchors an elemental triplicity across the six edges of the $K_4$ tetrahedron. The mapping reveals macro-symmetry: **every season is built by tethering its three gates to the triplicity of the element that sustains it.**
 
 ```
@@ -28,19 +33,19 @@ Every season (Home Quadrant) anchors an elemental triplicity across the six edge
   EDGE    OPERANDS    SPRING SIGN (FIRE / P-HOME)     EARTH TRIPLICITY SIGN (R-HOME)
   ──────────────────────────────────────────────────────────────────────────────────────
   U–R     {U, R}      ARIES       (P = U²/R)    ◄───► VIRGO       (I = U/R)
-                      [Spring 1: Cardinal Fire]       [Earth 2: Mutable Earth/Water]
+                      [Spring 1: Mutable Fire]        [Earth 2: Mutable Earth/Water]
 
   I–R     {I, R}      TAURUS      (P = I²R)     ◄───► SCORPIO     (U = I·R)
                       [Spring 2: Fixed Fire/Earth]    *(Taurus IS Earth 1!)*
 
   I–U     {I, U}      GEMINI      (P = U·I)     ◄───► CAPRICORN   (R = U/I)
-                      [Spring 3: Mutable Fire]        [Earth 3: Cardinal Earth]
+                      [Spring 3: Cardinal Fire]       [Earth 3: Cardinal Earth]
 ========================================================================================
 ```
 
 #### The Mechanics of the Spring–Earth Coupling:
 1. **The $U-R$ Edge (Aries $\leftrightarrow$ Virgo — The Leverage/Throughput Pair):**
-   * **Aries** ($P = U^2/R$) ignites the year by compounding potential ($U^2$) against Earth’s resistance ($R$). 
+   * **Aries** ($P = U^2/R$) ignites the year by compounding potential ($U^2$) against Earth's resistance ($R$). 
    * **Virgo** ($I = U/R$) runs the exact same operands in linear division, calculating the daily work required to maintain what Aries ignited.
 2. **The $I-R$ Edge (Taurus $\leftrightarrow$ Scorpio — The Mass Synthesis Wire):**
    * **Taurus** ($P = I^2R$) is the Earth of Fire: it locks the ignition into physical mass ($E=mc^2$). Taurus bridges both worlds—it is the fixed anchor of Spring operating directly on the physical Earth wire.
@@ -64,13 +69,13 @@ Every season (Home Quadrant) anchors an elemental triplicity across the six edge
   EDGE    OPERANDS    SUMMER SIGN (WATER / I-HOME)    FIRE TRIPLICITY SIGN (P-HOME)
   ──────────────────────────────────────────────────────────────────────────────────────
   P–R     {P, R}      CANCER      (I = √(P/R))  ◄───► SAGITTARIUS (U = √(P·R))
-                      [Summer 1: Cardinal Water]      [Fire 3: Mutable Fire/Air]
+                      [Summer 1: Cardinal Water]      [Fire 3: Cardinal Fire/Air]
 
   P–U     {P, U}      LEO         (I = P/U)     ◄───► AQUARIUS    (R = U²/P)
                       [Summer 2: Fixed Water/Fire]    *(Leo IS Fire 2!)*
 
   U–R     {U, R}      VIRGO       (I = U/R)     ◄───► ARIES       (P = U²/R)
-                      [Summer 3: Mutable Water]       [Fire 1: Cardinal Fire]
+                      [Summer 3: Mutable Water]       [Fire 1: Mutable Fire]
 ========================================================================================
 ```
 
@@ -102,13 +107,13 @@ Every season (Home Quadrant) anchors an elemental triplicity across the six edge
   EDGE    OPERANDS    FALL SIGN (AIR / U-HOME)        WATER TRIPLICITY SIGN (I-HOME)
   ──────────────────────────────────────────────────────────────────────────────────────
   P–I     {P, I}      LIBRA       (U = P/I)     ◄───► PISCES      (R = P/I²)
-                      [Fall 1: Cardinal Air]          [Water 3: Mutable Water]
+                      [Fall 1: Mutable Air]           [Water 3: Mutable Water]
 
   I–R     {I, R}      SCORPIO     (U = I·R)     ◄───► TAURUS      (P = I²R)
                       [Fall 2: Fixed Air/Water]       *(Scorpio IS Water 2!)*
 
   P–R     {P, R}      SAGITTARIUS (U = √(P·R))  ◄───► CANCER      (I = √(P/R))
-                      [Fall 3: Mutable Air]           [Water 1: Cardinal Water]
+                      [Fall 3: Cardinal Air]          [Water 1: Cardinal Water]
 ========================================================================================
 ```
 
@@ -128,13 +133,13 @@ Every season (Home Quadrant) anchors an elemental triplicity across the six edge
   EDGE    OPERANDS    WINTER SIGN (EARTH / R-HOME)    AIR TRIPLICITY SIGN (U-HOME)
   ──────────────────────────────────────────────────────────────────────────────────────
   I–U     {I, U}      CAPRICORN   (R = U/I)     ◄───► GEMINI      (P = U·I)
-                      [Winter 1: Cardinal Earth]      [Air 1: Mutable Air/Fire]
+                      [Winter 1: Cardinal Earth]      [Air 1: Cardinal Air/Fire]
 
   P–U     {P, U}      AQUARIUS    (R = U²/P)    ◄───► LEO         (I = P/U)
                       [Winter 2: Fixed Earth/Air]     *(Aquarius IS Air 3!)*
 
   P–I     {P, I}      PISCES      (R = P/I²)    ◄───► LIBRA       (U = P/I)
-                      [Winter 3: Mutable Earth]       [Air 2: Cardinal Air]
+                      [Winter 3: Mutable Earth]       [Air 2: Mutable Air]
 ========================================================================================
 ```
 
@@ -169,3 +174,12 @@ The four seasons are the four posts where these two counter-rotating strands of 
 
 ---
 
+### VI. What Reading This Back Should Leave
+
+The old astrological handbooks list four elements and twelve signs and correlate them to the seasons as if the correlation were a coincidence of imagery. It is not. Each season is a Home Quadrant on one pole, tethered by three specific edges to the *opposite* triplicity — Fire to Earth, Water to Fire, Air to Water, Earth to Air — and the twelve equations of the $K_4$ field are the exact list of the couplings that make each season possible. Spring is not "the fire time of year"; Spring is fire ground against earth along three edges, and the three signs of Spring are exactly those three grindings. Aries, Taurus, and Gemini are not an arbitrary trio; they are the $U$-$R$ edge, the $I$-$R$ edge, and the $I$-$U$ edge of the $P$-pole, each one traversed as a separate movement of the year.
+
+The wheel closes because the anchoring runs backward against the calendar's forward walk. The manifest year moves $P \to I \to U \to R \to P$ — fire kindles life, life exhales air, air condenses to earth, earth ignites again. The anchor-debt runs the reverse braid: each season borrows from the pole its home cannot generate on its own. The two rotations are not contradictory; they are the two directions the same tetrahedron can be read in, and their intersection is the four seasonal pins where the forward walk and the backward debt are permanently welded together. Once the couplings are named, the zodiac is no longer a mnemonic — it is a topological map of the year's necessary oppositions.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

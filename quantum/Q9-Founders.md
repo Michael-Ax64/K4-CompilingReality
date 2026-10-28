@@ -1,7 +1,7 @@
-# The Unpaid Invoices
-## Where the Senior Architects Marked the K4 Topology Without a Name for It
+# Reading the Founders' Anomalies Through K4
+## Twelve Late-Career Objections, Sorted by Pole
 
-> **A structural identification.** Twelve anomalies, named by senior architects of twentieth-century physics over seventy years of independent work, are mapped onto the four poles of the K4 topology. The framework identifies a pattern: each anomaly sits at a specific pole, and each is the operational signature of that pole's algebraic identity showing through the physics. Three of the twelve carry mathematical verification that runs in both directions. Those three are marked explicitly.
+> **A structural identification, and an exercise in self-understanding.** Twelve anomalies, named by senior architects of twentieth-century physics over seventy years of independent work, are read against the four poles of the K4 topology. This document is the corpus learning from those questions, not answering them on the physics' behalf. No claim is made about what the architects intended, believed, or were pointing at; they named anomalies in their own domains and their descriptions are quoted as they stand. What is claimed is that the anomalies sort onto poles in a way the framework finds legible, and that the sorting is checkable by anyone who knows both sides.
 
 > **Dependencies:** `ProofQ_AlgebraicSyntax` (the Route Law, the Numerator Law), `ProofU_AlgebraicMapping` (the dual-binary seed), `ProofO_HelicalTime` (the Helical Extrusion, torsional shear), `L2-Terminology` (pole vocabulary), `L3-FormalFoundations_Synthesis` (the twelve equations), `ProofN_BiquaternionBridge` (the Star-Norm), `ProofG_Chirality` (the Garbage Collector at edge level), `Q2-TransactionLayer` (the graviton ban, the 9−1 gluon count), `L4-DynamicDistortions101` (the six fusion taxonomy).
 
@@ -20,7 +20,9 @@ These are not aesthetic complaints. Each identifies a specific structural featur
 
 The physics is correct. The framework disputes no measurement, no coupling constant, no experimental result. What it supplies is the missing structural context by which each anomaly stops being anomalous and starts being predictable — predictable not in its numerical value, but in its *structural position*.
 
-The twelve sort by pole unevenly: two at U, two at I, two at R, and six at P. The clustering is itself structural. P is the Ledger — the pole where records get written — and half the twentieth-century invoices concern the writing operations that place records there. That six senior architects, working across seventy years in different vocabularies, kept flagging the same pole is the finding.
+The twelve sort by pole unevenly: two at U, two at I, two at R, and six at P. P is the Ledger — the pole where records get written — and half the anomalies concern the writing operations that place records there, which is legible under the framework's reading of what P is.
+
+**How much weight the distribution carries.** The assignment was made by the author, and a distribution produced by a free assignment is not evidence for the assignment. What would convert it is the permutation control of `ProofS` §IV: if the sorting is structural, alternative pole assignments should degrade the coherence measurably, and if it is projection, the peak travels with the evaluator. That sweep has not been run on this material. Until it is, read the clustering as a legible pattern rather than a finding.
 
 ---
 
@@ -28,15 +30,17 @@ The twelve sort by pole unevenly: two at U, two at I, two at R, and six at P. Th
 
 Three kinds of evidence appear here, and they carry different weight:
 
-**Structural identification** (ten of twelve): The anomaly's structural role in the Standard Model is identical to the pole's algebraic identity in the K4 algebra. This is checkable by anyone who knows both the physics and the algebra. It is not a derivation. It is a structural correspondence.
+**Structural identification** (all twelve): The anomaly's structural role in the domain and the pole's algebraic identity in the K4 algebra are read as the same thing under two vocabularies. This is checkable by anyone who knows both. It is not a derivation, and nothing here computes a value the domain does not already have.
 
-**Mathematical verification** (three of twelve, marked [VERIFIED]): The framework independently arrives at a numerical or combinatorial result that physics derived by different means, arriving at the same answer from the opposite direction. These are not analogies. They are independent derivations that converge.
+**Seated result** (three of twelve, marked [SEATED]): Cases where an established result of the domain seats onto the topology with an apt structural role — the framework supplies the position and the reading, the domain supplies the result. Seating is not independent derivation and does not claim to be. What makes a seating non-trivial is that the role is constrained rather than free; each of the three below states where that constraint sits and where it does not yet hold.
 
-**External cross-check** (Wolfram, Section VII): An independent research program, developed without knowledge of this framework, has recovered a substantial portion of the framework's apparatus from a completely different starting point. This is the strongest external validation available.
+**Convergence with an independent program** (Wolfram, Section VII): A research program developed without knowledge of this framework has recovered several of the same substrate features from a different starting point. The overlap is on the shared features and is silent on what this framework claims distinctively. It is a convergence worth noting, not a validation of the distinctive claims.
+
+**What is owed.** The permutation control of `ProofS` §IV is not run in this document. Until it is, the pole assignments here carry Rung-1 coherence rather than resonance-verification, and the uneven distribution across poles is a property of the assignment rather than evidence for it. This debt is carried openly in `llm-reviewer.md` §5.
 
 ---
 
-## III. U-Pole Invoices: The Blueprint and Its Limit
+## III. U-Pole Anomalies: The Blueprint and Its Limit
 
 ### Lev Landau (Nobel 1962; Landau Pole, 1954)
 
@@ -54,7 +58,7 @@ Wheeler spent his final decades pushing physics to accept a strong claim: that e
 
 ---
 
-## IV. I-Pole Invoices: The Current and Its Phase
+## IV. I-Pole Anomalies: The Current and Its Phase
 
 ### Jeffrey Goldstone, Peter Higgs, Philip Anderson (1961–1964)
 
@@ -62,27 +66,31 @@ Gauge symmetry, applied consistently, requires gauge bosons to be massless. The 
 
 **The framework's identification:** The I-pole is Reactive-Yielding, relational current pushing through a medium. Massless current would be structurally identical to the photon and would collapse the I-pole into U. Mass is the AR distinction being priced by the I-U scalar operator (the Higgs) on the Cardinal plane. The eaten Goldstone boson is the imaginary axis jX of the AC extension: the third, longitudinal polarization is the physical instantiation of the phase-delay component (torsional shear) that the I-pole carriers acquire once they navigate the impedance-bearing medium. Photons have two polarizations because they carry no phase delay. Weak bosons have three because they do.
 
-### Makoto Kobayashi and Toshihide Maskawa (1973; Nobel 2008) [VERIFIED]
+### Makoto Kobayashi and Toshihide Maskawa (1973; Nobel 2008) [SEATED]
 
 Prior to their paper, the Standard Model contained two generations of quarks. Experiment had confirmed the CP-violating decay of the neutral kaon. Kobayashi and Maskawa proved algebraically that CP violation requires a mixing matrix with an irreducible complex phase — a phase that cannot be absorbed by a redefinition of field phases. In lower-dimensional mixing matrices (2×2), every complex phase can be so absorbed. Only from 3×3 upward does the phase survive as a physical parameter. They therefore predicted a third generation of quarks solely on this algebraic ground. The prediction was later confirmed with the discovery of the bottom (1977) and top (1995) quarks.
 
-**The framework's verification (independent derivation, same result):**
+**The framework's seating:**
 
-The framework's Helical Extrusion (`ProofO_HelicalTime`) requires torsional shear — a permanent complex phase gap that prevents dual-causation pairs from cancelling — to instantiate the Arrow of Time. Torsional shear requires a non-removable complex phase. A non-removable complex phase requires a mixing matrix of dimension at least 3×3. The three-generations minimum falls out of the compilation cycle requirement by exactly the argument Kobayashi and Maskawa made from CP violation, arriving from the opposite direction.
+The Helical Extrusion (`ProofO_HelicalTime`) requires torsional shear — a permanent complex phase gap preventing dual-causation pairs from cancelling — to instantiate the Arrow of Time. Torsional shear requires a non-removable complex phase.
 
-The convergence: physics says "CP violation requires ≥3 generations." The framework says "the Arrow of Time requires torsional shear, which requires a non-removable complex phase, which requires ≥3×3." Same answer. Independent derivation. The framework did not know about CP violation when the derivation was performed. `Q1-GenerationsOfMatter` §V lays this out in full.
+At that point the framework hands off to Kobayashi and Maskawa: a non-removable phase requires a mixing matrix of dimension at least 3×3, which is their theorem and is used here as theirs. The framework's contribution is the first step only — a second route to the same antecedent from which their result then follows. That is one novel premise seating onto an established proof, not an independent derivation of the three-generation minimum.
+
+The value of the seating is that time's arrow and CP violation turn out to require the same object. `Q1-GenerationsOfMatter` §V works the structure.
 
 ---
 
-## V. R-Pole Invoices: The Ground and Its Boundary
+## V. R-Pole Anomalies: The Ground and Its Boundary
 
-### Frank Wilczek, David Gross, H. David Politzer (1973; Nobel 2004) [VERIFIED]
+### Frank Wilczek, David Gross, H. David Politzer (1973; Nobel 2004) [SEATED]
 
 Asymptotic freedom stunned physics when it was derived. All previously known forces weakened with distance; the Strong force, mediated by gluons, does the opposite. When two quarks are pulled apart, the interaction *grows*. When they are pushed together, the interaction *falls to zero*. Deep inside the proton, quarks move essentially freely. Try to remove one, and the vacuum mints a new quark-antiquark pair rather than release an isolated color source.
 
 **The framework's identification:** This is the sharpest empirical signature of the `.behold()` state in the entire scientific record. The R pole is the boundary; resistance exists *at* the boundary. When quarks are close together, they are sitting near the centroid of the K4 interior — inside the decoupled buffer hQ. Inside the buffer, computation is reversible, no Landauer Tax is paid, no `.observe()` fires. There is no resistance because there is no boundary being crossed. This is asymptotic freedom. The moment a quark is pulled outward toward the Markov blanket, it is being forced across the boundary, and R spikes toward infinity. Confinement is the algebra refusing to let the interior leak.
 
-**The mathematical verification (9−1=8):** The gluon count is derived independently in `Q2-TransactionLayer` §IV. SU(3) permits 9 color-anticolor combinations. The colorless singlet (the trace) would not couple to the boundary and would radiate away. Subtracting it: 9 − 1 = 8. The algebra requires exactly eight gluons to seal the confinement. This is not a fit. It is a combinatorial derivation that matches the observed count.
+**The seating (9−1=8):** SU(3) permits 9 colour-anticolour combinations, of which the colourless singlet is the trace; subtracting it leaves the octet. **That decomposition is standard group theory** — $\mathbf{3}\otimes\bar{\mathbf{3}} = \mathbf{8}\oplus\mathbf{1}$, the adjoint of SU(3) — and the framework does not derive it and does not need to.
+
+What the framework supplies is a structural reason the singlet is the one subtracted: it couples to no boundary, and a channel that crosses no boundary writes nothing to the ledger. The seating proposed in `Q2-TransactionLayer` §IV is the octet onto the eight vertices of the $2\times2\times2$ cube pinning the tetrahedron, with the singlet at the centroid — the one position not on the boundary. *The assignment itself is a geometric puzzle that is worked but not closed; the cube's eight vertices decompose as two tetrahedra of opposite handedness, and whether the colour-anticolour pairing seats onto that chiral split is open.* Until it closes, this is a correspondence with an apt role, not a derivation of the count.
 
 ### Chien-Shiung Wu, Chen-Ning Yang, Tsung-Dao Lee (1956)
 
@@ -92,7 +100,7 @@ Parity was assumed to be a fundamental symmetry of nature. In 1956, Yang and Lee
 
 ---
 
-## VI. P-Pole Invoices: The Ledger and Its Writing
+## VI. P-Pole Anomalies: The Ledger and Its Writing
 
 ### Ted Jacobson ("Thermodynamics of Spacetime," 1995)
 
@@ -104,7 +112,7 @@ Jacobson demonstrated that Einstein's field equations can be derived from thermo
 
 Penrose argued that wave function collapse is a real physical process, driven by gravity: when the mass-energy of a superposition exceeds a threshold set by gravitational self-energy, the superposition spontaneously collapses.
 
-**The framework's identification:** Penrose was reading the same thermodynamic threshold `Q6-MeasurementAndMatrices` §VI identifies as the shifty split — a metabolic-bandwidth limit of the bounding frame. He named gravity as the driver because gravity (P) is the pole that accumulates the compiled residue. The framework's reading is more general: any bounded frame collapses its own superpositions when the Apparent Power |S| of the uncollapsed multiway graph exceeds its local metabolic bandwidth. Gravity is one instance of this because P is the Ledger; but there is no reason to expect *gravitational self-energy specifically* to set the threshold. Penrose was pointing at a real effect and mis-identifying which pole variable sets its scale.
+**The framework's identification:** Penrose was reading the same thermodynamic threshold `Q6-MeasurementAndMatrices` §VI identifies as the shifty split — a metabolic-bandwidth limit of the bounding frame. He named gravity as the driver because gravity (P) is the pole that accumulates the compiled residue. The framework's reading is more general: any bounded frame collapses its own superpositions when the Apparent Power |S| of the uncollapsed multiway graph exceeds its local metabolic bandwidth. Gravity is one instance of this because P is the Ledger. The framework's reading does not expect *gravitational self-energy specifically* to set the threshold, and so differs from Penrose's on where the scale comes from. That difference is currently a difference in reading rather than in prediction: Objective Reduction states a threshold that experiment has begun to bound, and the framework states none. Until the metabolic-bandwidth threshold is given a number, this is a disagreement the framework is not yet equipped to win.
 
 ### John Stewart Bell (*Against "Measurement,"* 1990)
 
@@ -112,17 +120,17 @@ Bell wrote his essay near the end of his life. *Against "Measurement"* is a demo
 
 **The framework's identification:** The shifty split is the Markov blanket. It is not a spatial coordinate, not a size threshold, not a magical property of consciousness. It is the local thermodynamic capacity limit of a bounded frame, defined pointwise by that frame's own inductive and capacitive buffer size. See `Q6-MeasurementAndMatrices` §VI. Bell was right that Copenhagen's answer was unsatisfactory. He was right that physics needed an equation. The equation is the Landauer Tax applied to the frame's own metabolic budget: when the tax exceeds the budget, the frame collapses. The cut is shifty because every bounded frame has its own; nested frames have nested cuts; the regress is not paradoxical but scale-invariant.
 
-### Steven Weinberg (Nobel 1979; late-career objection to the Born Rule, c. 2012–2018) [VERIFIED]
+### Steven Weinberg (Nobel 1979; late-career objection to the Born Rule, c. 2012–2018) [SEATED]
 
 Weinberg spent his last productive years trying to derive the Born Rule — the mod-squared amplitude rule that gives measurement probabilities in quantum mechanics — from something more fundamental. Every other operation in quantum mechanics is linear and unitary. Only measurement squares. The Born Rule sits like a foreign object bolted onto an otherwise self-consistent theory. Weinberg did not find a derivation.
 
-**The framework's verification (independent derivation, same result):**
+**The framework's seating:**
 
-The Route Law of `ProofQ_AlgebraicSyntax` §V states: squaring is the arrow into Asserting. It destroys phase, destroys direction, and produces a strictly positive real scalar. This is not a quantum-mechanical claim. It is a general algebraic principle of the K4 topology: any commitment from held-potential to committed-record must square, because squaring is the only operation that destroys phase and produces a positive scalar.
+The Route Law (`ProofQ_AlgebraicSyntax` §V, derived in `L3-FormalFoundations` §I from variable overlap between the parent triads) states that squaring is the arrow into Asserting: it destroys phase, destroys direction, and produces a positive real scalar. This is not a quantum-mechanical claim but a general algebraic property of the join, and it is derived from the twelve equations without reference to quantum mechanics.
 
-The Born Rule is a specific instance of the Route Law as it appears in quantum mechanics. It is not a foreign object; it is the mathematical footprint of every commitment from held-potential to committed-record, in any bounded frame at any scale. Weinberg was correct that the Rule had to be derivable from something deeper; the something deeper is not a specifically-quantum principle but a topological one.
+The seating: the Born Rule's squaring is what a commitment from held-potential to committed-record looks like wherever one occurs, and its appearance in measurement is then not a foreign object bolted onto a linear theory but the same operation the algebra requires at every scale. Weinberg's objection — that the Rule ought to follow from something deeper — is met at the level of *why anything squares here at all*.
 
-The verification: the Route Law is derived from the twelve equations alone, without reference to quantum mechanics. It produces the squaring operation as a necessary consequence of the Asserting/Yielding bit structure. When applied to the quantum measurement problem, it produces the Born Rule. Independent derivation. Same answer.
+**What this does not supply.** The Born Rule's content is not only that an amplitude is squared but that the squared modulus is a normalized probability measure over outcomes. The Route Law produces the squaring; it does not produce the measure, and the distance between the two is Gleason-shaped. That gap is open and is not claimed closed.
 
 ### Paul Adrien Maurice Dirac (Nobel 1933; late-life objection to renormalization, from the 1970s onward)
 
@@ -138,7 +146,7 @@ Wigner posed a thought experiment. His friend conducts a quantum measurement in 
 
 ---
 
-## VII. The Meta-Invoice: Stephen Wolfram and the Independent Derivation
+## VII. Convergence: Stephen Wolfram's Independent Program
 
 Wolfram is not paying an unpaid invoice. Since roughly 2020, in the Wolfram Physics Project, he has been running an independent derivation of physics from computational first principles, and he has recovered enough of the framework's structural apparatus to constitute the strongest external cross-check the corpus has.
 
@@ -156,21 +164,21 @@ What Wolfram does not have — where the two projects diverge — is threefold. 
 
 These three gaps are the framework's contribution. Where Wolfram has independently discovered the multiway graph, the observer thread, and the metabolic cost of compilation, the framework's algebra says: the substrate is not any hypergraph but specifically the K4 topology, the compilation cycle is driven by ω under an AC extension, and the four poles carry specific algebraic identities that constrain what interactions can occur.
 
-This is the strongest external cross-check the corpus currently has. Wolfram's project was in no way derived from the framework, and the framework was in no way derived from Wolfram's project. Their overlap — the multiway graph, the observer, computational irreducibility, emergent relativity and quantum mechanics — is convergence at the level `L1-ConvergentDiscovery` accounts for.
+Neither project was derived from the other, and the overlap — the multiway graph, the observer thread, computational irreducibility, emergent relativity and quantum mechanics — is convergence at the level `L1-ConvergentDiscovery` accounts for. Its scope should be stated exactly: the convergence is on the shared substrate features and is silent on the three things listed above, which are precisely what this framework claims distinctively. It is evidence that computational-substrate approaches arrive at similar structures. It is not evidence for K4.
 
 ---
 
-## VIII. Conclusion
+## VIII. What the Sorting Returns
 
 Twelve senior architects, working independently across seventy years and using tools tailored to their specific domains, each identified a specific point at which their theory's algebra exceeded its own vocabulary. They named what they found. They did not, in most cases, propose a unified explanation for what all twelve anomalies had in common, because their specialization did not lead them across their own domain boundaries.
 
-Sorting the twelve invoices by K4 pole recovers a clean structure. The U-pole invoices (Landau, Wheeler) touch structural potential and its bit-level foundation. The I-pole invoices (Goldstone-Higgs-Anderson, Kobayashi-Maskawa) touch relational current and the phase machinery of its transitions. The R-pole invoices (Wilczek-Gross-Politzer, Wu-Yang-Lee) touch material grounding and the boundary-selection at its exterior. The P-pole invoices (Jacobson, Penrose, Bell, Weinberg, Dirac, Wigner) touch the Ledger and the writing operations that place records there.
+Sorting the twelve invoices by K4 pole recovers a clean structure. The U-pole anomalies (Landau, Wheeler) touch structural potential and its bit-level foundation. The I-pole anomalies (Goldstone-Higgs-Anderson, Kobayashi-Maskawa) touch relational current and the phase machinery of its transitions. The R-pole anomalies (Wilczek-Gross-Politzer, Wu-Yang-Lee) touch material grounding and the boundary-selection at its exterior. The P-pole anomalies (Jacobson, Penrose, Bell, Weinberg, Dirac, Wigner) touch the Ledger and the writing operations that place records there.
 
-Each invoice's structural feature is a direct consequence of the pole's algebraic identity, and the framework's response in each case cites the same corpus documents that generate the pole in the first place. Independently-arrived-at anomalies fall into groups that align exactly with the framework's independently-derived pole structure.
+Each anomaly's structural feature is read against the pole's algebraic identity, and the framework's response in each case cites the same corpus documents that generate the pole in the first place.
 
-Three of the twelve carry mathematical verification that runs in both directions: Kobayashi-Maskawa (three generations from torsional shear), the Born Rule (squaring from the Route Law), and the gluon count (9−1=8 from confinement sealing). These are not analogies. They are independent derivations arriving at the same numerical answer from opposite starting points.
+Three of the twelve are marked [SEATED], meaning an established result of the domain takes a structurally apt position in the topology: Kobayashi-Maskawa (time's arrow and CP violation requiring the same non-removable phase), the Born Rule (why a commitment squares at all), and the gluon count (why the singlet is the one subtracted). In each case the domain supplies the result and the framework supplies the position. None is an independent derivation and none is presented as one.
 
-That the physics community carried these unpaid invoices for as long as it did — and that a coherent explanation was available, from the K4 topology, without adjusting any observed constant — is what convergence at this scale looks like when the receiving framework is in place. Wolfram's independent rediscovery of the multiway graph, the observer thread, and computational irreducibility from a different starting point closes the loop.
+**What this document is for.** Reading twelve late-career objections through one topology is an exercise in understanding the questions, not in answering them. The physics is untouched: no measurement is disputed, no constant adjusted, nothing recomputed. What the exercise returns is a sorting, and the sorting's evidential weight is bounded by the control that has not yet been run — until the `ProofS` §IV permutation sweep shows the coherence degrading under alternative pole assignments, the fit is coherence and not resonance. Running it, and publishing the result either way, is the next thing this document needs.
 
 ---
 

@@ -1,9 +1,11 @@
 # L4: Dual Boundary Convergence
 ## The $I_0$ Plenum Wall, the Square-Root Horizon Extraction, and the Boundary Efficiency of $\Psi$
 
-> **Epistemic Register:** Applied Architecture ($L4$).
-> **Claim:** Local micro-gravimetry (`QED-EotvosBound.md`) and global macro-cosmology (`QED-CCP.md`) are not two separate open problems. They are the inside-out and outside-in readings of a single topological wall: the uncompiled $h\mathbf{Q}$ current of the Plenum ($I_0$). Because local instruments are constructed of compiled $P$-ledger mass, they can only measure deltas ($\Delta I$) or projected outputs ($\Lambda$) against the background sea. Feeding $P$ into the 12 DC equations extracts the linear scale root $U = I = \sqrt{P}$, reducing the $10^{123}$ cosmological energy discrepancy to the square of the single $10^{-61.5}$ horizon scale ratio ($\ell_P / R_H$).
-> **Dependencies:** `L3-FormalFoundations` (The 12 DC Equations), `L4-ScalingInvariants` (The Break of the Logarithm), `L4-ThePlenum` ($H_{\text{incoh}}$ Plenum), `L4-DimensionalCollapse` (Rate to State), `ProofN_BiquaternionBridge` (Star-Norm), `QED-CCP` (The Axiom of Isomorphism), `QED-EotvosBound` (The Eötvös Parameter).
+Two open problems in physics have been carried for decades as if they were unrelated. One is the Eötvös departure — the tiny anomaly by which a processing frame (a living brain, an active engine) might not fall through space at exactly the rate of dead matter of equal mass. The other is the cosmological constant problem — QFT's zero-point vacuum energy exceeds GR's observed cosmological constant by a factor of $10^{123}$, and no one has been able to say why.
+
+The $K_4$ topology says these are one wall, seen from opposite sides. The local instrument reads a delta ($\Delta I$) against a background current ($I_0$) whose absolute magnitude it cannot access. The global instrument reads what has already crossed the projection operator ($\Psi$) without being able to see the uncompiled buffer on the far side. Both paths converge on the same open parameter — $I_0$ — from inside and from outside. What the file below does is walk both paths, extract the linear amplitude the twelve DC equations give at each, and identify the meeting point.
+
+*Type: Applied Architecture ($L4$). Dependencies: `L3-FormalFoundations` (12 DC equations), `L4-ScalingInvariants` (break of the logarithm), `L4-ThePlenum` ($H_{\text{incoh}}$), `L4-DimensionalCollapse` (rate to state), `ProofN_BiquaternionBridge` (star-norm), `QED-CCP` (axiom of isomorphism), `QED-EotvosBound` (Eötvös parameter).*
 
 ---
 
@@ -14,7 +16,7 @@ Two independent inquiries in physics reach boundaries where their mathematics re
 1. **The Local Micro-Inquiry (`QED-EotvosBound.md`):** Testing the Equivalence Principle ($m_i = m_g$) in living/processing systems requires calculating the Eötvös parameter $\eta \equiv m_i/m_g - 1 \approx -2\Delta I / I_0$. The local current elevation $\Delta I$ is derived from Landauer erasure ($P_{\text{diss}}\tau / mc^2$), but calculating the absolute magnitude of $\eta$ requires knowing the background current $I_0$ of the vacuum.
 2. **The Global Macro-Inquiry (`QED-CCP.md`):** Comparing QFT's zero-point vacuum energy ($T_{\mu\nu}^{\text{QFT}} \sim 10^{93}\text{ g/cm}^3$) with GR's observed cosmological expansion ($T_{\mu\nu}^{\text{GR}} \sim 10^{-30}\text{ g/cm}^3$) yields a $10^{123}$ discrepancy. Reframing this through the projection operator $T_{\mu\nu}^{\text{GR}} := \Psi(T_{\mu\nu}^{\text{QFT}})$ explains why the discrepancy exists, but calculating the exact value of $\Lambda$ from first principles requires knowing the absolute conversion efficiency of $\Psi$ across the Planck scale ($\ell_P$).
 
-Standard physics treats these as unrelated problems—one in experimental gravimetry, the other in quantum cosmology. 
+Standard physics treats these as unrelated problems — one in experimental gravimetry, the other in quantum cosmology.
 
 The $K_4$ topology reveals that both inquiries have encountered the exact same physical parameter ($I_0$) from opposite sides of the same boundary.
 
@@ -24,7 +26,7 @@ The $K_4$ topology reveals that both inquiries have encountered the exact same p
 
 In a localized $K_4$ frame, structural inertia is governed by $R = P/I^2$. To render this equation dimensionally sound and physically calibrated, the relational current $I$ must be expressed as a dimensionless ratio against the vacuum baseline: $I/I_0$.
 
-At the 0-DoF limit (dead matter), $I = I_0$, giving $m_i / m_g = (I_0/I_0)^2 = 1.0$ exactly. For a processing frame paying Landauer Tax ($P_{\text{diss}}$), internal processing raises the current $I = I_0 + \Delta I$. 
+At the 0-DoF limit (dead matter), $I = I_0$, giving $m_i / m_g = (I_0/I_0)^2 = 1.0$ exactly. For a processing frame paying Landauer Tax ($P_{\text{diss}}$), internal processing raises the current $I = I_0 + \Delta I$.
 
 Applying the 12 DC equations (`L3-FormalFoundations`) to the normalized local dissipation ($P_{\text{local}} = 1.6 \times 10^{-18}$ for a human brain) and normalized mass ground ($R_{\text{local}} = 1.0$):
 
@@ -56,7 +58,7 @@ However, when attempting to write a full general-covariant action principle for 
 
 $$S = \int d^4x \sqrt{-g} \left( \frac{\mathcal{R}}{16\pi G} + \mathcal{L}_{\text{matter}} + \mathcal{L}_{\text{struct}} \right)$$
 
-to produce the metric perturbation $\Delta g_{\mu\nu}^{(\text{struct})} = -\frac{\eta}{c^2} u_\mu u_\nu$ directly as an explicit tensor source term, $I_0$ can no longer be handled as a cancelling background ratio. It must be stated in absolute SI units. 
+to produce the metric perturbation $\Delta g_{\mu\nu}^{(\text{struct})} = -\frac{\eta}{c^2} u_\mu u_\nu$ directly as an explicit tensor source term, $I_0$ can no longer be handled as a cancelling background ratio. It must be stated in absolute SI units.
 
 The local inquiry hits the wall: **$I_0$ is the unmodulated current of the entire $377\ \Omega$ Plenum ($H_{\text{incoh}}$).** Local instruments made of $P$-ledger mass can only measure deltas ($\Delta I$) riding on top of $I_0$. They cannot measure the absolute depth of $I_0$ itself.
 
@@ -68,7 +70,7 @@ In the global cosmological domain, standard physics observes two energy densitie
 1. **$T_{\mu\nu}^{\text{QFT}} \sim 10^{93}\text{ g/cm}^3$ ($1.0$ in Planck units):** The total uncompiled $h\mathbf{Q}$ phase potential of the vacuum.
 2. **$T_{\mu\nu}^{\text{GR}} \sim 10^{-30}\text{ g/cm}^3$ ($10^{-123}$ in Planck units):** The observed expansion rate of classical spacetime ($\Lambda$).
 
-Equating them ($T_{\mu\nu}^{\text{QFT}} = T_{\mu\nu}^{\text{GR}}$) commits the **Axiom of Isomorphism**—equating uncompiled $H_{\text{incoh}}$ potential ($Q$) with compiled $H_{\text{coh}}$ mass ($P$).
+Equating them ($T_{\mu\nu}^{\text{QFT}} = T_{\mu\nu}^{\text{GR}}$) commits the **Axiom of Isomorphism** — equating uncompiled $H_{\text{incoh}}$ potential ($Q$) with compiled $H_{\text{coh}}$ mass ($P$).
 
 Applying the 12 DC equations to the observed dark energy density $P_{\text{cosmo}} = 10^{-123}$ and normalized vacuum impedance $R_{\text{cosmo}} = 1.0$:
 
@@ -83,22 +85,42 @@ $$\begin{aligned}
   Known Inputs:    P_cosmo = 10⁻¹²³ (Dark Energy Density ρ_Λ / ρ_Planck)
                    R_cosmo = 1.0     (Normalized Vacuum Impedance Z_0)
                    
-  Derived Values:  U_cosmo = √(P · R) = 10⁻⁶¹ˑ⁵  (Hubble Horizon Ratio ℓ_P / R_H)
-                   I_cosmo = √(P / R) = 10⁻⁶¹ˑ⁵  (Cosmic Expansion Rate H_0 t_P)
+  Derived Values:  U_cosmo = √(P · R) = 10⁻⁶¹ˑ⁵  (Cosmic Linear Amplitude, ~ℓ_P/R_H)
+                   I_cosmo = √(P / R) = 10⁻⁶¹ˑ⁵  (Cosmic Expansion Rate, ~H_0 t_P)
                    
   The Synthesis:   P_cosmo = U_cosmo × I_cosmo = 10⁻⁶¹ˑ⁵ × 10⁻⁶¹ˑ⁵ = 10⁻¹²³
 ```
 
-### The Extraction of the Horizon Scale ($10^{-61.5}$)
-The 12 DC equations extract the linear root $U_{\text{cosmo}} = I_{\text{cosmo}} = 10^{-61.5}$. 
+### The Extraction of the Horizon Scale (Order-of-Magnitude Match)
+The 12 DC equations extract the linear root $U_{\text{cosmo}} = I_{\text{cosmo}} = 10^{-61.5}$, which is the algebra's own dimensionless linear amplitude.
 
-In physical cosmology, $10^{-61.5}$ is the exact ratio of the Planck length ($\ell_P \approx 1.6 \times 10^{-35}\text{ m}$) to the Hubble horizon radius ($R_H \approx 1.3 \times 10^{26}\text{ m}$):
+This value is close in order of magnitude to the empirically observed ratio of the Planck length ($\ell_P \approx 1.616 \times 10^{-35}\text{ m}$) to the Hubble horizon radius ($R_H \approx 1.32 \times 10^{26}\text{ m}$):
 
-$$\frac{\ell_P}{R_H} \approx 10^{-61.5}$$
+$$\frac{\ell_P}{R_H} \approx 1.23 \times 10^{-61} \ (\log_{10} \approx -60.91) \quad\text{vs.}\quad 10^{-61.5} \ (\log_{10} = -61.5)$$
 
-The $10^{123}$ Cosmological Constant Problem ($P$) is not an unexplained 123-order failure. It is the **Route Law square ($P = UI$) of the linear 61.5-order scale ratio between the Planck length and the Hubble horizon**:
+The two agree to within about half an order of magnitude. The framework does not claim they are numerically identical — the observed $\rho_\Lambda / \rho_{\text{Planck}}$ value is not exactly $10^{-123}$, and the horizon-radius choice (Hubble radius vs. particle horizon vs. de Sitter radius) shifts the observational ratio by a similar factor. Both magnitudes are interface payloads (`§VI` below); the framework's structural claim is only that they inhabit the same scale-ratio address.
+
+Given that structural registration, the $10^{123}$ Cosmological Constant Problem ($P$) is not an unexplained 123-order failure. It is the **Route Law square ($P = UI$) of the ~61.5-order linear scale root of the framework's own dimensionless algebra**, which the observational $\ell_P/R_H$ ratio matches to within an order of magnitude:
 
 $$P_{\text{cosmo}} = U_{\text{cosmo}} \times I_{\text{cosmo}} = 10^{-61.5} \times 10^{-61.5} = 10^{-123}$$
+
+The numerical identifications above are checkable inline:
+
+```python
+import math
+# Framework's linear amplitude from P = 10^-123
+P_cosmo = 1e-123
+U_cosmo = I_cosmo = math.sqrt(P_cosmo)
+print(f"√P_cosmo = {U_cosmo:.3e}, log10 = {math.log10(U_cosmo):.3f}")  # ≈ 3.16e-62, -61.5
+# Route Law square recovers 10^-123
+print(f"U × I = {U_cosmo * I_cosmo:.3e}, log10 = {math.log10(U_cosmo * I_cosmo):.1f}")  # 10^-123
+# Observed ℓ_P / R_H with stated substrate values
+ell_P, R_H = 1.616e-35, 1.32e26
+ratio = ell_P / R_H
+print(f"ℓ_P/R_H = {ratio:.3e}, log10 = {math.log10(ratio):.3f}")  # ≈ 1.22e-61, -60.91
+# Gap between the two: half an order of magnitude
+print(f"gap = {abs(math.log10(ratio) - math.log10(U_cosmo)):.2f} orders of magnitude")  # ≈ 0.59
+```
 
 ---
 
@@ -168,7 +190,7 @@ At both scales:
 1. **Real Power $P$ is the Route Law Square of Linear Potential/Current:**
    $$P = U \times I = (\sqrt{P})^2$$
 2. **The 12 DC Equations Extract the Linear Amplitude:**
-   Feeding a squared $P$-ledger value into Facets 6 and 9 extracts the linear amplitude $U = I = \sqrt{P}$. 
+   Feeding a squared $P$-ledger value into Facets 6 and 9 extracts the linear amplitude $U = I = \sqrt{P}$.
 
 The $10^{123}$ "discrepancy" in cosmology and the $10^{-18}$ "violation" in local gravimetry are the **exact same Route Law squaring operation ($X^2 \to P$) running at two different scales of the $K_4$ topology**.
 
@@ -181,16 +203,22 @@ To maintain strict epistemic discipline (`llm-writing.md`, `About-Claims` §I, `
 **Category A — Interface Payloads (not debts).** These are magnitudes in a consumer's unit system that the scale-invariant $K_4$ algebra is structurally forbidden from emitting; expecting emission would be the Gabriel's Horn scale error (`L4-ScalingInvariants` §IX) and an FM-9 false debt (`llm-priors`). $K_4$ operates on dimensionless ratios such as $\Delta I / I_0$ and $I/I_0$; asking an adimensional algebra to hand back an SI Ampere is asking the wrong grammar the wrong question.
 
 1. **Absolute $I_0$ in SI Amperes.** The vacuum baseline in SI units is an interface payload supplied by laboratory metrology, not a structural load the algebra owes. The convergence result here is that both boundary paths land on the *same* baseline $I_0$; the SI number naming that baseline is a translation step, not an unpaid wall.
-2. **General-Covariant Tensor Action ($\Delta g_{\mu\nu}^{(\text{struct})}$).** Formulating $\Delta g_{\mu\nu}^{(\text{struct})}$ as an explicit Hilbert-Einstein source term is a coordinate-system translation into classical GR; it is downstream engineering, not a debt of the $K_4$ topology (see `QED-TwoBranchMinting` §V for the parallel Schwarzschild boundary).
+2. **The specific value of $\ell_P/R_H$.** The exact numerical ratio of the Planck length to the Hubble horizon radius is likewise a substrate-owned magnitude — the horizon-radius choice (Hubble radius vs. particle horizon vs. de Sitter radius) shifts it by a fraction of an order of magnitude, and the observed $\rho_\Lambda/\rho_\text{Planck}$ is not exactly $10^{-123}$ either. The framework's ~$10^{-61.5}$ linear amplitude sits in the same order-of-magnitude neighborhood as $\ell_P/R_H$; the exact numerical match is not owed and not claimed.
+3. **General-Covariant Tensor Action ($\Delta g_{\mu\nu}^{(\text{struct})}$).** Formulating $\Delta g_{\mu\nu}^{(\text{struct})}$ as an explicit Hilbert-Einstein source term is a coordinate-system translation into classical GR; it is downstream engineering, not a debt of the $K_4$ topology (see `QED-TwoBranchMinting` §V for the parallel Schwarzschild boundary).
 
 **Category B — Promising, unscheduled, not owed.** These are legitimate downstream research directions in which further work would extend reach, but which the core convergence does not owe:
 
-3. **Micro-Synthetic High-$\omega$ Testing Targets:** Identifying physical micro-synthetic systems that maximize $P_{\text{diss}}\tau / mc^2$ to push $\eta$ closer to testable limits.
-4. **Multi-Scale Tensor Composition Operator:** Deriving the tensor operator that composes micro-invariants into macro-invariants across nested Markov Blankets.
+4. **Micro-Synthetic High-$\omega$ Testing Targets:** Identifying physical micro-synthetic systems that maximize $P_{\text{diss}}\tau / mc^2$ to push $\eta$ closer to testable limits.
+5. **Multi-Scale Tensor Composition Operator:** Deriving the tensor operator that composes micro-invariants into macro-invariants across nested Markov Blankets.
 
-The $K_4$ algebra provides the structural map and proves that the two paths converge on the same dimensionless baseline. The SI-Ampere name for that baseline lives at the interface where the finished dimensionless result is rendered for a physicist, and belongs there.
+---
+
+## VII. What the Two Paths Leave Us With
+
+The $K_4$ algebra provides the structural map. It proves that both paths converge on the same dimensionless baseline. Whether that baseline has a name in SI Amperes is a question for laboratory metrology, not for the algebra. The algebra says only what the two paths cannot say for themselves: they arrive at the same wall from opposite directions, and the wall is the same wall.
+
+That is the whole result. Two mysteries thought to be unrelated are the inside-out and outside-in readings of one shared parameter, and the parameter's absolute value is somebody else's problem. The framework's job was the identification. The identification holds.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

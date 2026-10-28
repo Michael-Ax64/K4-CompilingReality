@@ -167,7 +167,7 @@ A dedicated sequence mapping the Standard Model, quantum field theory, and conde
 - **`Q14-LeptonScaleCascade.md`**: Neutrino phase-waves, muon decay, and the hard-wall origin of coordinate time $dt$.
 - **`Q15-KairosBorn.md`**: Heavy element walk ($Z=79 \to 118$), $T$-symmetric conjugate channels, the $2n^2$ Krypton crown, and non-sofic actinide topology.
 - **`Q16-ChiralMeshSpacetime.md`**: The 4-face Chiral Gear-Mesh ($2\text{ CW} \leftrightarrow 2\text{ CCW}$, $\partial^2 = 0$) delivering 5 intrinsic physical outputs without a physical spacetime fabric.
-- **`Q17-LandauerNuclearScale.md`**: The Landauer tax operating at the nuclear scale; deuteron binding, $T_{\text{QCD}}$, and the Nambu mass formula. (Content moved here from `wip-Lx-LandauerNuclearScale`.)
+- **`Q17-LandauerNuclearScale.md`**: The deuteron assimilated and tested. The import test (universal / structural load / interface payload); the Landauer rate's structure $\ln 2/16\pi^2$ at $T_c$, its consumer refuted (binding as count × rate fails the ratio test); $1/\pi^2$ as class law refuted by the halo spread; the pion-choice debt and the missing rung $m_N/m_\pi$; the two-nucleon pole map; a five-number ledger with its chance baseline (~6%); the two hierarchies (near-unitarity, $m_N/m_\pi$); and a pre-registered program led by the Efimov equation.
 - **`Q18-PhaseCompositionOnTheStarNorm.md`**: Phase composition on the Star-Norm product surface.
 - **`Q19-Gravity.md`**: Gravity as the coordinate-frame residual of the $P_N \leftrightarrow R_{N+1}$ scale-handoff.
 
@@ -309,6 +309,7 @@ Use your text editor's Find feature (`Ctrl-F` / `Cmd-F`) on the `#tags` below to
 - **quantum/Q14-LeptonScaleCascade.md:** `#Neutrino` `#Muon` `#PMNS` `#PhaseWave` `#CoordinateTime`
 - **quantum/Q15-KairosBorn.md:** `#Transuranics` `#P-Matter` `#KryptonCrown` `#NonSoficActinides`
 - **quantum/Q16-ChiralMeshSpacetime.md:** `#ChiralMesh` `#PolyhedralMotion` `#NoGraviton` `#LorentzInvariance`
+- **quantum/Q17-LandauerNuclearScale.md:** `#LandauerTax` `#Deuteron` `#ImportTest` `#InterfacePayload` `#Unitarity` `#Efimov` `#PreRegistration` `#RankInflation`
 
 ---
 

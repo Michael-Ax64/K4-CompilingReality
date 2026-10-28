@@ -3,8 +3,6 @@
 
 *This document is the technical complement to L5-K5-PhaseDynamics. Where that document inhabits the phenomenology of oscillating systems — what they feel like from inside — this document inhabits the mathematics. The same structure; the other face. Both are required for the full K4 interior view.*
 
-*Document structure follows L4-DynamicDistortions: systematic, equation-level, tabular where relationships are dense, named where results carry load.*
-
 ---
 
 ## I. The DC Baseline: What the Static System Actually Is
@@ -426,7 +424,7 @@ $$\omega_0 = \frac{1}{\sqrt{LC}} \qquad f_0 = \frac{1}{2\pi\sqrt{LC}}$$
 
 $$Q_{factor} = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 CR} = \frac{1}{R}\sqrt{\frac{L}{C}}$$
 
-$$\Delta\omega = \frac{\omega_0}{Q} = \frac{R}{L} \qquad \omega_{1,2} = -\frac{R}{2L} \pm \sqrt{\left(\frac{R}{2L}\right)^2 + \frac{1}{LC}}$$
+$$\Delta\omega = \frac{\omega_0}{Q} = \frac{R}{L} \qquad \omega_{1,2} = \pm\frac{R}{2L} + \sqrt{\left(\frac{R}{2L}\right)^2 + \frac{1}{LC}}$$
 
 ### RMS Values and Time Averages
 
@@ -545,7 +543,5 @@ This is what resonance means, in full technical precision. Not the absence of in
 
 The fifty equations of AC engineering are the complete formal description of how a system manages the distance between itself and that state.
 
-
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

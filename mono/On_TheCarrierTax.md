@@ -2,8 +2,6 @@
 
 *Why the Landauer bound is exact, why it is never binding, and why the ratio between them is not a mystery but a count.*
 
-`CompilingReality/mono/On_TheCarrierTax.md`
-
 ---
 
 ## I. The Frame
@@ -106,14 +104,16 @@ This is the same disappearance that happens to the senses. Convention names five
 
 Both losses have the same shape. What is legible on the pattern side gets counted; what is doing the work on the carrier side becomes invisible by convention rather than by argument. And in both cases the recovery is the same move — ask what is actually being moved, and count it.
 
-The bound is exact. The gap is a count. Neither is mysterious, and the only reason the second one keeps needing to be restated is that nobody was looking at the ground.
-
 ---
 
-## Theoretical Concordance: Compiling Reality
+## VIII. Theoretical Concordance and the Landing
 
 `L4-ThePlenum` §I.4 commits to the medium paying a Landauer tax on its $R$-channel, and `L3-TheConstitutiveAlpha` reads $\alpha = Z_0/2R_K$ as the ratio of the medium's reactance to its own resistance quantum. The relation above is the same accounting at a different scale: a bound stated on the energy-and-pattern side ($P/U$), a payment made on the flux-and-level side ($I/R$), and the ratio between them a native count rather than an imported constant.
 
-The companion project *InnerSenses* uses the relation at one point only, in `SensoryReference-Foundations` §V, to price the cost of holding a perceptual frame. What it accounts for there is the metabolic cost of neural signalling — ions pumped back across a membrane — and not anything larger. The derivation reaches signalling and stops.
-
 The recurring failure — a $P/U$-plane bound proposed as mechanism, displaced by an $I/R$ mechanism at a gap of eight to ten orders — is predictable from the structure rather than a series of unrelated mistakes. It will happen again in any domain where the pattern side has a clean law and the carrier side does not.
+
+The bound is exact and the gap is a count. Neither is mysterious, and the only reason we have to restated that its a count is that nobody was looking at the ground.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

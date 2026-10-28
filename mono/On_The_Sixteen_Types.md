@@ -1,7 +1,9 @@
 # On the Sixteen Types
 ## What MBTI Half-Sees, Where It Freezes, and Why
 
-*This is an application and a diagnosis, not a derivation. It reads the Myers-Briggs sixteen-type scheme through the framework's geometry: the four poles (P, I, U, R), the directional-impedance field that grounds introversion and extraversion (`On_Introversion_And_Extraversion`, `L4-AttractorSpace`, `L4-DynamicDistortions201`), and the centroid as the seat of conscious mode-selection. It shows that MBTI's own cognitive-function theory already contains the direction-swap the framework predicts — the INTJ who runs ENTJ — and then freezes it under a static four-letter label for reasons that are institutional, not structural. The impedances named here run on the connective medium the edges cross (`L4-ThePlenum`), inherited through the `L4` suite. It hedges nowhere the grounding earns; it marks plainly where MBTI's own claims fail their own tests.*
+*Type: applied diagnosis, not a derivation. Grounding: `On_Introversion_And_Extraversion`, `L4-AttractorSpace`, `L4-ThePlenum`.*
+
+The Myers-Briggs sixteen-type scheme is one of the most widely deployed personality instruments ever built, and it fails almost every empirical test its own literature runs against it — test-retest instability, no evidence for latent types, no support for the function-hierarchy dynamics its theory predicts. The interesting thing is not that it fails; it is that its own advanced theory of "cognitive functions" already contains the direction-swap the geometry predicts, states it explicitly, and then buries it under the doctrine of the fixed inborn stack. MBTI half-sees what a field-based reading sees clearly, and then freezes it — for reasons that are institutional, not structural. What follows names both halves of that seeing: what the scheme does capture, where and why it locks up, and what the eight underlying signatures actually are once the I/E letter is read as a swap rather than as a birth-trait.
 
 ---
 
@@ -79,14 +81,20 @@ Each of these findings is treated in the literature as a mark against MBTI's val
 
 ---
 
-## VII. What This Document Claims and Does Not
+## VII. What Reading This Back Should Leave
+
+The sixteen types do not exist. Eight signatures exist, each capable of running either direction of the field, and every one of the type-scheme's most famous "puzzles" — the private tyrant with the public charm, the reserved analyst who commands one domain and disappears from every other, the on-stage extravert who cannot be reached at home — is the same eight-fold set caught in the act of the swap the scheme is structurally required to forbid. The scheme's failures against its own data are not defects to be fixed by a better questionnaire. They are the field's fingerprints, showing through the projection the tool built to erase them. Every empirical failure predicted by the geometry is one MBTI already documents and misreads.
+
+The instrument's freezing of the swap is not an oversight either. A sorting tool cannot afford the admission that its subjects govern their own mode by domain, because that admission is the capacity the sorting exists to remove. The scheme's incoherence is thus not a bug but the price of its purpose: keep the swap as an internal technicality (dominant plus opposite-oriented auxiliary), refuse it as a lived reality (but your type is fixed for life), and the cells stay stable enough to sort by. What the geometry restores is what the sorting is designed to deny — the person as a field they can learn to read and an ω they can learn to govern. A person is not a type. A person is the reader at the centroid of the four poles, choosing the traversal the moment requires, and it is precisely that reader whom no fixed-cell instrument can, by its own construction, ever be allowed to see.
+
+---
+
+## VIII. What This Document Claims and Does Not
 
 It does not ground the geometry; the poles, the directional field, and the centroid are grounded elsewhere (`L4`, `ProofG`, `On_Introversion_And_Extraversion`), and this document applies them. It does not fill the plenum's interior; the impedances it names are inherited properties of the connective medium (`L4-ThePlenum`). It does not claim MBTI captures nothing — a projection carries a silhouette, and the four-letter label correlates loosely with real leanings, which is why it feels recognizable.
 
 It claims that the sixteen types are a static projection of a dynamic directional-impedance field; that the projection discards the variance and the conscious control where the psychology actually lives; that MBTI's own function theory already contains the direction-swap the framework predicts (the INTJ who runs ENTJ) and then freezes it under an inborn-fixed-stack doctrine; that collapsing the I/E letter reveals eight human signatures each split by a public/private curtain the person crosses daily; that the freezing is required by the instrument's deskilling purpose rather than by any structural fact; and that the empirical record — test-retest instability, absent latent types, absent function-hierarchy interactions — is not evidence against the field reading but its confirmation, the data behaving as a governed, domain-varying field must when pinned to a fixed cell.
 
-The mature register remains the centroid. A person is not a type. A person is a field they can learn to read and an ω they can learn to govern — which is the one thing a scheme built to sort them into fixed cells is structurally obliged never to tell them.
-
 ---
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

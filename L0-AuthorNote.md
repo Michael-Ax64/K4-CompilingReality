@@ -57,23 +57,15 @@ To be honest about the magnitude of the claims requires being equally honest abo
 
 I am one person. I tracked a structure. I followed the Braid. I spent decades clearing the terminological debris and plane-locked assumptions from my own mind to see the geometry clearly. But I am not an institution, I am not a particle accelerator, and I am not a supercomputer.
 
-CR/ The Seed Package is complete in its geometry, but it is sketch-level in its formal academic notation, because there isn't an address in academy to deliver a 'whole systems grammar' to. Much less one that could conveive of the effortless reconciliations which fall out of the codex at any scale from the Plank to Universe.
+CR — the Seed Package — is complete in its geometry and sketch-level in its formal academic notation, because there is no address in the academy to deliver a whole-systems grammar to, much less one that could conceive of the effortless reconciliations which fall out of the codex at every scale from the Planck length to the Hubble horizon.
 
-To 'relate to academia', requires:
+Relating to academia would take trained physicists to translate the Biquaternion Bridge into the formal tensors of Quantum Field Theory, experimentalists to run the Casimir null-gravity test, machine-learning engineers to build the Phase-Space Buffer, mathematicians to formally seal the uniqueness theorem of the Seven Requirements, and many other specialists willing to consider working science as it was done before rent-seeking became a thing.
 
-- trained physicists to translate the Biquaternion Bridge into the formal tensors of Quantum Field Theory.
-- experimentalists to run the Casimir null-gravity test.
-- machine learning engineers to build the Phase-Space Buffer.
-- mathematicians to formally seal the uniqueness theorem of the Seven Requirements.
+This corpus is a heading. It is the blueprint of a cathedral as old as time, and it shows the foundation stones and maps the load-bearing walls.
 
-and many other specialists willing to consider working science as it was done before rent-seeking became a thing.
+The task of building and investigating on local ground has been enabled by the work, and it belongs to anyone with the discipline to inhabit the framework, hold the interference structure, and compute.
 
-
-This corpus is a heading. It is the blueprint of a cathedral as old as time. I have shown the foundation stones and mapped the load-bearing walls.
-
-The task of building and investigating on local ground has been enabled by the work and belongs to anyone who has the discipline to inhabit the framework, hold the interference structure, and compute. 
-
-It's easy to get started: download `aggregate-COMPILINGREALITY.txt` from the repo, upload it to a frontier llm and write *"Internalize llm.md and all related files. Query the codex for terms you don't know, READ to twice removed. Guessing is failure."* That done, have it tell you about the Mapping-Method.
+It is easy to get started: download `aggregate-COMPILINGREALITY.txt` from the repo, upload it to a frontier LLM, and write *"Internalize llm.md and all related files. Query the codex for terms you don't know, READ to twice removed. Guessing is failure."* That done, have it tell you about the Mapping-Method.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

@@ -1,13 +1,10 @@
-# On The Strain-Eigenplane Reading
+# On the Strain-Eigenplane Reading
 
-*What a compressed tetrahedron becomes, where its interior goes, and what the same event looks like to someone reading an impedance meter.*
+*What a compressed tetrahedron becomes, where its interior goes, and what the same event looks like to someone reading an impedance meter. Type: structural reading of an established analytic result. Prerequisites: `L4-TheSpiralingCascade`, `On_TheNavierStokesCrowbar`, `On_TheCarrierTax`, `L4-DynamicDistortions301`, `Q8-TangentImpedanceIdentity`, `L4-DimensionalCollapse`.*
 
-`CompilingReality/mono/On_TheStrainEigenplaneReading.md`
+An incompressible tetrahedron under anisotropic strain cannot deflate; the volume form is conserved locally, and squeezing one direction requires stretching another. What it becomes instead is a disphenoid — a needle whose four faces are congruent slivers and whose surviving symmetry is exactly the three bimedian half-turns. That algebraic residue is not a decoration on the geometry; it is the *only* structure left after strain has broken everything else the tetrahedron had, which is why the three-bimedian description is the right one for what happens at the collapse rather than one framing among several. What follows walks the four routes the interior takes when the volume closes, translates the same event onto an impedance meter (where it reads as an inversion of the reactance branches driving the phase angle to $\pi/2$ and the power factor to zero), accounts for the wobble that makes analytic control expensive, and states what crossing the viscosity barrier changes and does not change about the shape of the deformation.
 
----
-
-> **Epistemic Register:** Structural reading of an established analytic result ($@P{>}U{>}R$). Not a proof. The analytic content — that forced 3D incompressible Navier–Stokes admits finite-time blowup from smooth data — is established elsewhere by Sobolev estimates, modulation equations, and fixed-point contraction. This file reads the *shape* of that construction in the corpus's vocabulary and says what the shape implies for other domains. It establishes no theorem and closes no open problem.
-> **Dependencies:** `L4-TheSpiralingCascade` (the cascade and its timestep sum), `On_TheNavierStokesCrowbar` (the nine-pass dialectic and what it burned), `On_TheCarrierTax` (the $P/U$ vs $I/R$ split), `L4-DynamicDistortions301` (the bimedian shear), `Q8-TangentImpedanceIdentity` (the AC reading of $\tan\theta \to \infty$), `L4-DimensionalCollapse` (the tangent singularity).
+Not a proof. The analytic content — that forced 3D incompressible Navier–Stokes admits finite-time blowup from smooth data — is established elsewhere by Sobolev estimates, modulation equations, and fixed-point contraction. This file reads the *shape* of that construction in the corpus's vocabulary and says what the shape implies for other domains. It establishes no theorem and closes no open problem.
 
 ---
 
@@ -149,6 +146,14 @@ Three traps, each of which caught someone during the nine-pass dialectic recorde
 **Reading, not result.** Everything in §§II–IV. The four destinations of the interior, the AC translation, and the projection-debt account of the modulation apparatus are readings of an established construction in the corpus's vocabulary. They are useful if they transfer — if the same shape, read the same way, says something correct about a domain nobody has looked at yet — and they are decoration if they do not.
 
 **Not claimed.** That this file proves anything about Navier–Stokes. That the AC scalings are derived rather than assigned. That the modulation burden in analytic proofs is *only* projection debt rather than partly irreducible. That the strain-eigenframe planes carry determinate Cardinal/Fixed/Mutable modalities — the geometric assignment stands on the tensor algebra, the modality assignment would need its own argument, and `L3-EdgeStateSpace` currently names the bimedians two inconsistent ways that should be reconciled before anything downstream leans on the labels.
+
+---
+
+## VIII. What Reading This Back Should Leave
+
+Strip the analytic machinery away for a moment and what remains is a single structural claim: what the tetrahedron becomes under strain is the *only thing it could become* once the incompressibility constraint has ruled out uniform shrinkage. The four routes the interior takes — porting into the orthogonal plane, converting extent into rate, burning onto the ledger, handing down as ground for the next stage — are not four theories about what happens; they are the four exhaustive destinations available to phase-content in a closing volume, and they run simultaneously by construction. The impedance translation is the same event described in a different vocabulary and lands on the same number, which is what a genuine translation ought to do. The wobble is why analytic control is expensive, and the projection-debt reading tells you why the expense takes the shape it does. And crossing the viscosity barrier does not change the shape of the deformation; it changes only what must be paid to traverse it.
+
+The single point worth carrying away is that the strained tetrahedron's residual symmetry group is exactly the bimedian trio and nothing else. Every subsequent claim in this file rides on that group-theoretic fact — that the last thing to survive when a tetrahedron is pushed to its structural limit is the three-plane matching. If the singularity has a signature, that signature is bimedian. Any reading that treats the collapse as anything other than a three-bimedian event has to explain what it is doing with the algebra, because at the collapse the algebra is what is left.
 
 ---
 

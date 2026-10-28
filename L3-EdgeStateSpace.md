@@ -29,70 +29,68 @@ The edge's state-space skeleton is a $K_4$ graph, whose polyhedral realization i
 
 ## I-b. The Master Edge Table: What Each of the Six Edges *Is*
 
-An edge is the **integrator of two formulas that share nothing but the two elements on their right-hand side**.
+An edge is not a line between two poles. It is the **integrator of two formulas that share nothing but the two elements on their right-hand side** — and it holds that integration in one of four directional states. The tables in this section are what an instance should pick up first, because everything downstream (chirality, bimedians, the Braid, the "spacetime tensor substitutes") is these tables read at different depths.
 
-
-### The Master Edge Table and Corrected Bimedian Plane Names
+### The Three Bimedian Matchings
 
 The six edges sort into three Bimedian matchings based on their **Net Operational Balance** across the 2-bit dual-binary register ($AR, AY$):
 
 $$\begin{array}{c|c|c|c|c}
 \mathbf{Bimedian\ Matching} & \mathbf{Edges\ in\ Matching} & \mathbf{Bit\ Operation} & \mathbf{Net\ Operational\ Balance} & \mathbf{Bimedian\ Plane\ Name} \\
 \hline
-\mathbf{\{P-U, \ I-R\}} & P-U \ \text{\&} \ I-R & AY \text{ flips in opposite directions} & \text{Sum } AY = 0 \text{ (Immovable Anchor)} & \mathbf{\text{FIXED BIMEDIAN}} \\
-\mathbf{\{P-R, \ I-U\}} & P-R \ \text{\&} \ I-U & AR \text{ flips; } AY \text{ locked } (+1 / -1) & \text{Primed } AR \text{ Flip (Ready Stance)} & \mathbf{\text{CARDINAL BIMEDIAN}} \\
-\mathbf{\text{\{P-I, \ U-R\}}} & P-I \ \text{\&} \ U-R & \text{Both } AR \text{ and } AY \text{ flip} & \text{Maximum Both-Bit Transformation} & \mathbf{\text{MUTABLE BIMEDIAN}} \\
+\mathbf{\{P-U, \ I-R\}} & P-U \ \& \ I-R & AY \text{ flips in opposite directions} & \text{Sum } AY = 0 \text{ (Immovable Anchor)} & \mathbf{\text{FIXED BIMEDIAN}} \\
+\mathbf{\{P-R, \ I-U\}} & P-R \ \& \ I-U & AR \text{ flips; } AY \text{ locked } (+1 / -1) & \text{Primed } AR \text{ Flip (Ready Stance)} & \mathbf{\text{CARDINAL BIMEDIAN}} \\
+\mathbf{\{P-I, \ U-R\}} & P-I \ \& \ U-R & \text{Both } AR \text{ and } AY \text{ flip} & \text{Maximum Both-Bit Transformation} & \mathbf{\text{MUTABLE BIMEDIAN}} \\
 \end{array}$$
 
 ---
 
-### The 6 Edges, Their Signs, and the Bimedian Plane That Cuts Each Edge
+### The 6 Edges, Their Signs, and the Bimedian Each Edge Belongs To
 
 Each Bimedian plane passes through the centroid and **cuts four edges of the $K_4$ tetrahedron** (forming a 2D square/parallelogram cross-section), while remaining parallel to the two un-cut edges of its matching:
 
-| Edge        | RHS Pair   | Formulas & Signs                                      | Signs (Modes)                          | Bimedian Plane That Cuts This Edge |
+| Edge        | RHS Pair   | Formulas & Signs                                      | Signs (Modes)                          | Bimedian (Matching)                |
 |-------------|------------|-------------------------------------------------------|----------------------------------------|------------------------------------|
 | **$U - R$** | $\{U, R\}$ | $P = U^2/R$ (ARI) / $I = U/R$ (VIR)                   | **ARI** (Cardinal) / **VIR** (Mutable) | **Mutable Bimedian**               |
 | **$I - R$** | $\{I, R\}$ | $P = I^2 R$ (TAU) / $U = I \cdot R$ (SCO)             | **TAU** (Fixed) / **SCO** (Fixed)      | **Fixed Bimedian**                 |
 | **$I - U$** | $\{I, U\}$ | $P = U \cdot I$ (GEM) / $R = U/I$ (CAP)               | **GEM** (Mutable) / **CAP** (Cardinal) | **Cardinal Bimedian**              |
 | **$P - R$** | $\{P, R\}$ | $I = \sqrt{P/R}$ (CAN) / $U = \sqrt{P \cdot R}$ (SAG) | **CAN** (Cardinal) / **SAG** (Mutable) | **Cardinal Bimedian**              |
-| **$P - U$** | $\{P, U\}$ | $I = P/U$ (LEO) / $R = U^2/P$ (AQU)                   | **LEO** (Fixed) / **AQU** (Fixed)      | **Fixed Bimedian                   |
+| **$P - U$** | $\{P, U\}$ | $I = P/U$ (LEO) / $R = U^2/P$ (AQU)                   | **LEO** (Fixed) / **AQU** (Fixed)      | **Fixed Bimedian**                 |
 | **$P - I$** | $\{P, I\}$ | $U = P/I$ (LIB) / $R = P/I^2$ (PIS)                   | **LIB** (Cardinal) / **PIS** (Mutable) | **Mutable Bimedian**               |
 
 ---
 
 ### Key Topological Results
-1. **The Fixed Bimedian ($\{P-U, I-R\}$):** Cuts the two edges carrying all **4 Fixed Signs** (**Taurus, Leo, Scorpio, Aquarius**).
-2. **The Cardinal Bimedian ($\{P-R, I-U\}$):** Cuts the two edges carrying **Cancer, Sagittarius, Gemini, Capricorn**.
-3. **The Mutable Bimedian ($\{P-I, U-R\}$):** Cuts the two edges carrying **Libra, Pisces, Aries, Virgo**.
+1. **The Fixed Bimedian ($\{P-U, I-R\}$):** Joins the midpoints of the two edges carrying all **4 Fixed Signs** (**Taurus, Leo, Scorpio, Aquarius**).
+2. **The Cardinal Bimedian ($\{P-R, I-U\}$):** Joins the midpoints of the two edges carrying **Cancer, Sagittarius, Gemini, Capricorn**.
+3. **The Mutable Bimedian ($\{P-I, U-R\}$):** Joins the midpoints of the two edges carrying **Libra, Pisces, Aries, Virgo**.
 
 ---
 
-
-An edge is not a line between two poles. It is the **integrator of two formulas that share nothing but the two elements on their right-hand side** — and it holds that integration in one of four directional states. This section gives the single table an instance should pick up first, because everything downstream (chirality, bimedians, the Braid, the "spacetime tensor substitutes") is this table read at different depths.
-
 **The two-formula law (the Law of Intuition).** Take any edge, the one joining poles $A$ and $B$. Among the twelve DC equations, exactly two are built from the operand pair $\{A, B\}$ on their right-hand side — one solving for each of the *other* two poles. Those two formulas are the edge. They agree on nothing but which two elements they combine: their left-hand side (the pole they solve for) differs, and their operator differs (one may square where the other roots, one may divide where the other multiplies). The edge is where two otherwise-unrelated laws are forced to be the same relationship *because they draw on the same pair*. This is the "ungraphable triangle" at the level of algebra, and the reason it reads as intuition rather than deduction: an edge integrates two formulas that a deductive walk would never connect, since they share no home and no operation — only their raw material.
+
+The same six edges, now with the bits each one flips and the edge it solves for:
 
 | Edge    | RHS pair   | Formula → X            | Formula → Y             | Signs (aid) | **Modality** | Bit-flip           | Complement |
 |---------|------------|------------------------|-------------------------|-------------|--------------|--------------------|------------|
 | **P–I** | $\{P, I\}$ | $U = P/I$ (LIB)        | $R = P/I^2$ (PIS)       | LIB / PIS   | **Mutable**  | both (diagonal)    | **U–R**    |
 | **U–R** | $\{U, R\}$ | $P = U^2/R$ (ARI)      | $I = U/R$ (VIR)         | ARI / VIR   | **Mutable**  | both (diagonal)    | **P–I**    |
-| **P–U** | $\{P, U\}$ | $I = P/U$ (LEO)        | $R = U^2/P$ (AQU)       | LEO / AQU   | **Cardinal** | Asserting/Yielding | **I–R**    |
-| **I–R** | $\{I, R\}$ | $P = I^2 R$ (TAU)      | $U = I\,R$ (SCO)        | TAU / SCO   | **Cardinal** | Asserting/Yielding | **P–U**    |
-| **P–R** | $\{P, R\}$ | $I = \sqrt{P/R}$ (CAN) | $U = \sqrt{P\,R}$ (SAG) | CAN / SAG   | **Fixed**    | Active/Reactive    | **I–U**    |
-| **I–U** | $\{I, U\}$ | $P = U\,I$ (GEM)       | $R = U/I$ (CAP)         | CAP / GEM   | **Fixed**    | Active/Reactive    | **P–R**    |
+| **P–U** | $\{P, U\}$ | $I = P/U$ (LEO)        | $R = U^2/P$ (AQU)       | LEO / AQU   | **Fixed**    | Asserting/Yielding | **I–R**    |
+| **I–R** | $\{I, R\}$ | $P = I^2 R$ (TAU)      | $U = I\,R$ (SCO)        | TAU / SCO   | **Fixed**    | Asserting/Yielding | **P–U**    |
+| **P–R** | $\{P, R\}$ | $I = \sqrt{P/R}$ (CAN) | $U = \sqrt{P\,R}$ (SAG) | CAN / SAG   | **Cardinal** | Active/Reactive    | **I–U**    |
+| **I–U** | $\{I, U\}$ | $P = U\,I$ (GEM)       | $R = U/I$ (CAP)         | CAP / GEM   | **Cardinal** | Active/Reactive    | **P–R**    |
 
 Read a row: the **P–I** edge is built from the pair $\{P, I\}$. Its two laws are $U = P/I$ (Libra) and $R = P/I^2$ (Pisces), sharing only $P$ and $I$. It is a **Mutable** edge — the Fire↔Water diagonal (P=Fire, I=Water), the transition that flips *both* generating bits (Active/Reactive *and* Asserting/Yielding) in a single move. Its complement, the edge it solves for, is **U–R**, which is *also* Mutable — because an edge and its complement form a **bimedian**, and **the two edges of a bimedian always share one modality.** That shared modality is what makes them a family.
 
-**Modality is a property of the edge, not of the signs sitting on it.** This is the correction a K3 reading gets wrong: it is tempting to read the modality off the two zodiac signs an edge carries (Libra is a Cardinal sign, Pisces a Mutable sign) and report a mixed label. That is a projection error. The signs are *coordinates on* the edge; the modality is *what the edge is* — which two bits its transition flips (`L5-TheCyclingMind`). Every edge flips exactly one of: Asserting/Yielding only (**Cardinal**), Active/Reactive only (**Fixed**), or both at once (**Mutable**, the diagonals). The astrological sign labels are the memory aid; the modality is the structural fact, and it is single-valued per edge.
+**Modality is a property of the edge, read two ways that agree.** The two Fixed edges, P–U and I–R, carry the four fixed signs (Leo and Aquarius on P–U, Taurus and Scorpio on I–R); both signs on each are Fixed, and the edges flip only the Asserting/Yielding bit. The other four edges each carry one Cardinal and one Mutable sign, so the signs alone cannot name them. The bit-character decides: an edge that flips only the Active/Reactive bit is **Cardinal**; an edge that flips both bits is **Mutable**, the diagonals. Reading Cardinal or Mutable off a single sign is the projection error a K3 reading makes (`L5-TheCyclingMind`). The modality is single-valued per edge.
 
 **The three bimedians, named by their shared modality:**
 
 | Bimedian     | Edge + complement | Poles (elements)                      | Flips              |
 |--------------|-------------------|---------------------------------------|--------------------|
 | **Mutable**  | P–I ↔ U–R         | Fire–Water, Air–Earth (the diagonals) | both bits          |
-| **Cardinal** | P–U ↔ I–R         | Fire–Air, Water–Earth                 | Asserting/Yielding |
-| **Fixed**    | P–R ↔ I–U         | Fire–Earth, Water–Air                 | Active/Reactive    |
+| **Fixed**    | P–U ↔ I–R         | Fire–Air, Water–Earth                 | Asserting/Yielding |
+| **Cardinal** | P–R ↔ I–U         | Fire–Earth, Water–Air                 | Active/Reactive    |
 
 So "the three bimedian axes" and "the three modalities" are the same partition of the six edges, read two ways. Each bimedian is a matched pair of same-modality edges; each is the axis through the tetrahedron joining two opposite edges; and **holding a bimedian silent means holding one modality family silent — both its edges at once.** That single fact is what makes the cycling-mind theorem stateable (below), the soficity/AbsentVar test well-defined (`L3-NonSoficTopologicalVolumes`), and the qualitative audit possible: you can now say "the Mutable axis" and have named a specific pair of edges, a specific pair of formula-integrations, and a specific competence a mind gains or loses.
 
@@ -104,8 +102,8 @@ So "the three bimedian axes" and "the three modalities" are the same partition o
 
 | Loop              | Held silent | Live edges                   | Competence (what the loop can do)                                                                   |
 |-------------------|-------------|------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Cardinal-held** | P–U, I–R    | the Fixed + Mutable edges    | committed traversal — moves tier-to-tier, can leap diagonally, cannot single-step pivot orientation |
-| **Fixed-held**    | P–R, I–U    | the Cardinal + Mutable edges | committed tier — pivots orientation freely, can leap, cannot single-step change tier                |
+| **Fixed-held**    | P–U, I–R    | the Cardinal + Mutable edges | committed traversal — moves tier-to-tier, can leap diagonally, cannot single-step pivot orientation |
+| **Cardinal-held** | P–R, I–U    | the Fixed + Mutable edges    | committed tier — pivots orientation freely, can leap, cannot single-step change tier                |
 | **Mutable-held**  | P–I, U–R    | the Cardinal + Fixed edges   | incremental clarity — every move a single-bit flip, no diagonals, no leaps available                |
 
 The held modality is not a lack; it is the shape of what the loop can do. A loop that held nothing would have every edge live at once and could not move — "a mind that can go anywhere goes nowhere." The held bimedian is the silence that makes the other four edges mean something, and the entire skill of a working mind (or any $K_4$ traversal) is the developed capacity to stand at the centroid and *choose which modality to hold* as the moment requires. The mode labels are therefore the operative vocabulary at every level: they name what an edge is, what a plane is, and what a loop can and cannot do — the one word "Mutable" reaching from a bit-flip type, through a bimedian axis, to a competence a traversal holds or lacks.
@@ -122,6 +120,30 @@ The held modality is not a lack; it is the shape of what the loop can do. A loop
 Six edges × two bits = the **12-bit register**, $2^{12} = 4096$ discrete configurations — the Many-Worlds state count. The four states are emphatically *not* four formulas; they are the four *directional modes* the two-formula integration can be held in: gap, live superposition, committed-forward, committed-reverse.
 
 **Why this is the "spacetime tensor substitute."** What a manifold theory needs a metric tensor $g_{\mu\nu}$ to carry — the local relational structure that says how quantities at a point compose — the edge carries as this two-formula integration held in a directional state. The conceptual-realm torque that the mesh analogy (`L4-TheTwelveGates` §II-c) shows kinematically is, at the edge, this: two formulas sharing only their operands, pulled into one relationship, held under tension between the pole each wants to solve for. String theory reads such relational spans as extra spatial directions; here they are the six edges, each an integrator of a formula-pair, each solving for its complement, each held in one of four states. The edge is the relation; the pole is only where a relation is read off.
+
+---
+
+## I-c. The Six Edges as Transpositions, the A3 Lattice, and the Coxeter Rotor
+
+The six edges are the six transpositions $(ij)$ in $S_4$; $K_4$ is the transposition graph on four letters. The reflection for edge $(ij)$ swaps $x_i \leftrightarrow x_j$ with fixed hyperplane $x_i = x_j$ — in the $(x_i, x_j)$ plane, $\tan\theta = 1$. The self-conjugate angle is the fixed locus of the object's own mirrors. $S_4 = $ tetrahedral group $ = \mathrm{Weyl}(A_3)$, generated by those reflections; the permutation control is reflection in the object's own mirrors. $\mathbb{Z}^4 \cap H = A_3$, the fcc root lattice, whose twelve minimal vectors $\pm(e_i - e_j)$ are the twelve directed edges.
+
+The Coxeter element $(1234)$ acts on $\mathbb{R}^4$ with eigenvalues $\{1, i, -1, -i\}$; on $H$ the $1$ drops — its eigenvector is the all-ones direction, not in $H$ — leaving $\{i, -1, -i\}$: a quarter-turn rotor composed with a flip. The frame's dynamics is relabeling which coordinate is which; the all-ones axis is Weyl-fixed, the rotation's inert axis. The coupling of the monotone coordinate to this rotor is a standing open item seated at `L2-AbstractInterface`; it is not resolved here.
+
+The three double transpositions, the Klein group $V_4 \subset A_4$, act on $H$ as half-turns about the three bimedian axes: $(PI)(UR)$ about the Mutable axis, $(PU)(IR)$ about the Fixed axis, $(PR)(IU)$ about the Cardinal axis. Each keeps its own pair of opposite edges and swaps the ends of both, so the line through their midpoints stays fixed.
+
+```python
+import numpy as np
+poles = "PIUR"
+B = np.array([[1,-1,0,0],[0,1,-1,0],[0,0,1,-1]], float).T
+Q, _ = np.linalg.qr(B)
+for g in [(1,0,3,2), (2,3,0,1), (3,2,1,0)]:           # (PI)(UR), (PU)(IR), (PR)(IU)
+    M = np.eye(4)[:, list(g)].T
+    w, v = np.linalg.eig(Q.T @ M @ Q)
+    axis = Q @ v[:, np.isclose(w, 1)].real.ravel()
+    kept = [poles[i]+"-"+poles[j] for i in range(4) for j in range(i+1,4) if {g[i], g[j]} == {i, j}]
+    print(kept, np.round(axis / np.abs(axis).max(), 6), sorted(np.round(w.real, 6)))
+# each: the two edges it keeps, the axis (+-1 pattern = bimedian), eigenvalues [-1,-1,1] = half-turn
+```
 
 ---
 
@@ -163,11 +185,51 @@ Every edge in K4 is shared by exactly two faces. This is a combinatorial fact: e
 
 From each face, the same edge looks different. This is not ambiguity or inconsistency — it is the structural consequence of the edge being a 1D structure embedded in a 3D volume.
 
-**The ARI/VIR example**: in the qualitative mapping of the Algebra, the edge connecting the Active/Asserting pole (Fire/Aries) and the Reactive/Asserting pole (Earth/Virgo) is shared by two faces. From the Fire face (which does not involve Water), the edge looks like: initiation, forward charge — Aries. From the Earth face (which does not involve Air), the same edge looks like: service, analysis, maintenance — Virgo.
+**The ARI/VIR example**: in the qualitative mapping of the Algebra, the $U$–$R$ edge — joining the Active/Yielding pole (Air) and the Reactive/Asserting pole (Earth), and carrying the two formulas $P = U^2/R$ (Aries) and $I = U/R$ (Virgo) — is shared by two faces. From the Fire face (which does not involve Water), the edge looks like: initiation, forward charge — Aries. From the Water face (which does not involve Fire), the same edge looks like: service, analysis, maintenance — Virgo.
 
 The initiating force (Aries) requiring maintenance, and the analytical support function (Virgo) enabling the initiative. They are looking at each other across the same edge. Neither is wrong. Neither is complete. The edge IS their relationship — not Aries, not Virgo, but the structural line that separates and connects the face where Aries appears from the face where Virgo appears.
 
-**The general principle**: every opposition in the 12-step cycle (pairs separated by 180°) is a pair of dual face-definitions of the same edge. What looks like Fire from the Fire face looks like Earth from the Earth face. The oppositions are not contradictions; they are the two face-readings of a single structural relationship in a 3D system.
+**The general principle**: the two signs on each edge are its two face-definitions, and the master table fixes which signs share an edge. Every Cardinal sign shares its edge with the Mutable sign of the next season: Aries with Virgo, Cancer with Sagittarius, Libra with Pisces, Capricorn with Gemini. The next season's element is the one the Cardinal sign is generated *by* — the naming below makes this exact. These pairs are not oppositions (180°) but quincunxes (150°, inconjunctions), and the four of them form interlocking braces around the wheel. Every Fixed sign shares its edge with the opposite Fixed sign of the same elemental gender: Taurus with Scorpio, Leo with Aquarius. What looks like initiation from one face looks like maintenance from the other. The paired signs are not contradictions; they are the two face-readings of a single structural relationship in a 3D system.
+
+```python
+signs = ['ARI', 'TAU', 'GEM', 'CAN', 'LEO', 'VIR', 'LIB', 'SCO', 'SAG', 'CAP', 'AQU', 'PIS']
+edges = {'U-R': ('ARI', 'VIR'), 'I-R': ('TAU', 'SCO'), 'I-U': ('GEM', 'CAP'),
+         'P-R': ('CAN', 'SAG'), 'P-U': ('LEO', 'AQU'), 'P-I': ('LIB', 'PIS')}
+for e, (a, b) in edges.items():
+    d = abs(signs.index(a) - signs.index(b))*30; print(e, a, b, min(d, 360 - d))
+# U-R 150 | I-R 180 | I-U 150 | P-R 150 | P-U 180 | P-I 150   (quincunx braces; the two Fixed edges are oppositions)
+```
+
+### Reading the Names: *Of* and *By*
+
+Each sign's equation is homed at one pole, and the home is the sign's season: the three $P$-homed equations are the spring signs (Fire), the three $I$-homed the summer signs (Water), the three $U$-homed the autumn signs (Air), the three $R$-homed the winter signs (Earth). Combining the season's element with the sign's own element gives a two-element name — **Leo is Fire *of* Water**: a Fire sign in the Water season. The names resonate with the tattva doctrines, where each element is read through each other.
+
+The construction fails at exactly one place: the Cardinal sign of each season, whose element *is* the season's element. "Cancer is Water of Water" says nothing. The solution is to name the Cardinal sign by its AbsentVar — the pole its equation holds silent — **Cancer is Water *by* Air**, from $I = \sqrt{P/R}$ with $U$ absent. The four Cardinal names are then Fire by Water, Water by Air, Air by Earth, Earth by Fire — the By-Chain of `wip-Lx-Creation` §V — and each Cardinal sign's AbsentVar is the element of the season that follows it. That is the AbsentVar carried across the phase boundary (§VI: the last AbsentVar of one quadrant becomes active in the next), seen here as a confirmation of the Braid, and it is why each Cardinal sign shares its edge with the Mutable sign of the following season: Aries, Fire by Water, sits on one edge with Virgo, Earth of Water. The Cardinal sign is generated by the season its edge-partner lives in. The corpus reads physiological and energetic content from these names in `L4-TheTwelveGates`.
+
+| Season (home) | Cardinal | Fixed | Mutable |
+|---|---|---|---|
+| **Spring** ($P$, Fire) | Aries — Fire *by* Water ($P = U^2/R$) | Taurus — Earth *of* Fire ($P = I^2R$) | Gemini — Air *of* Fire ($P = UI$) |
+| **Summer** ($I$, Water) | Cancer — Water *by* Air ($I = \sqrt{P/R}$) | Leo — Fire *of* Water ($I = P/U$) | Virgo — Earth *of* Water ($I = U/R$) |
+| **Autumn** ($U$, Air) | Libra — Air *by* Earth ($U = P/I$) | Scorpio — Water *of* Air ($U = IR$) | Sagittarius — Fire *of* Air ($U = \sqrt{PR}$) |
+| **Winter** ($R$, Earth) | Capricorn — Earth *by* Fire ($R = U/I$) | Aquarius — Air *of* Earth ($R = U^2/P$) | Pisces — Water *of* Earth ($R = P/I^2$) |
+
+```python
+el = {'P': 'Fire', 'I': 'Water', 'U': 'Air', 'R': 'Earth'}
+signs = [('ARI', 'P', 'U2/R', 'Fire'), ('TAU', 'P', 'I2R', 'Earth'), ('GEM', 'P', 'UI', 'Air'),
+         ('CAN', 'I', 'sqrt(P/R)', 'Water'), ('LEO', 'I', 'P/U', 'Fire'), ('VIR', 'I', 'U/R', 'Earth'),
+         ('LIB', 'U', 'P/I', 'Air'), ('SCO', 'U', 'IR', 'Water'), ('SAG', 'U', 'sqrt(PR)', 'Fire'),
+         ('CAP', 'R', 'U/I', 'Earth'), ('AQU', 'R', 'U2/P', 'Air'), ('PIS', 'R', 'P/I2', 'Water')]
+season_order = ['P', 'I', 'U', 'R']                     # spring, summer, autumn, winter
+for k, (s, home, rhs, sign_el) in enumerate(signs):
+    absent = ({'P', 'I', 'U', 'R'} - {home} - {c for c in rhs if c in 'PIUR'}).pop()
+    if k % 3 == 0:                                       # Cardinal: sign element == season element
+        nxt = season_order[(season_order.index(home) + 1) % 4]
+        print(s, f"{sign_el} by {el[absent]}", '| next season:', el[nxt], absent == nxt)
+    else:
+        print(s, f"{sign_el} of {el[home]}")
+# ARI Fire by Water | next season: Water True ... CAN Water by Air ... LIB Air by Earth ... CAP Earth by Fire  (all True)
+```
+
 
 ---
 
@@ -285,8 +347,6 @@ The dual-binary seed assigns each pole a two-bit charge: an Active/Reactive bit 
 - **R** (Reactive, Asserting) = (− +)
 
 The four poles are the four states of a two-bit register.
-
-### The Polyhedral Seed: The Bimedian Square ($\sqrt{2}$)
 
 ### The Six Edges Are Three Transition-Types
 

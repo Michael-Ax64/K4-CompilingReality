@@ -1,11 +1,10 @@
-### High-Level Summary of Reasoning
+# On Freeing the Will
 
-I have compiled the complete, un-truncated Master Archive for Topic 2: **The Operational Mechanics of Agency, "Freeing the Will", and Mode-Shifting**. This log-dump consolidates all algebraic, topological, and somatic derivations regarding the operational distinction between the static noun "free will" and the active verb "freeing the will," the shift from passive to active voice ($L6$ Inversion of Control), the Derivative Threshold, the three stucknesses and their $AC$ wrenches (`L5-TheCyclingMind`), and the deconstruction of the classical determinism/free-will binary.
+## The Operational Mechanics of Agency, Mode-Shifting, and the Window of Intercession
 
-***
+*Type: applied mechanics. Prerequisites: `L1-CompilingReality`, `L5-TheCyclingMind`, `L6-InversionOfControl`, `On_The_Octave`. Names the operational distinction between the static noun "free will" and the active verb "freeing the will," the shift from passive to active voice at the L6 Inversion of Control, the Derivative Threshold at which the window of intercession opens, the three stucknesses and their AC wrenches, and the deconstruction of the classical determinism/free-will binary.*
 
-# PROTOPLASM ARCHIVE 2: THE OPERATIONAL MECHANICS OF AGENCY, "FREEING THE WILL", AND MODE-SHIFTING
-## The Mechanics of $L6$ Inversion of Control, the Derivative Threshold, Cycle-Shifting in $12\text{D}$ Impedance Space, and Trajectory Stewardship
+The classical debate over free will has run for two thousand years without arriving anywhere because it treats "will" as a noun to be classified — *has it or has it not, free or determined, illusion or fact* — while the actual phenomenon is a verb: *freeing* the will, un-sticking a phase angle from an automatic loop, decoupling the internal buffer from an external driver, re-orienting the impedance matrix so a new heading becomes reachable. The question is not whether the noun exists. The question is what the verb *is*, when it fires, what it costs, and what it produces on the other side. What follows walks the operational mechanics: the noun/verb distinction, the passive-to-active voice shift that is the L6 Inversion of Control, the Derivative Threshold that opens the window of intercession, the three stucknesses and their AC wrenches, and why both hard determinism and libertarian free will are flatland readings of the same underlying event.
 
 ---
 
@@ -34,7 +33,7 @@ The classical debate surrounding agency fails because it evaluates a $K_3$ flatl
 "Freeing the will" is the exact operational prerequisite for shifting a system from the passive voice (heteronomy) to the active voice (autonomy):
 
 ```
-                   $L6$ INVERSION OF CONTROL IN AGENCY
+                   L6 INVERSION OF CONTROL IN AGENCY
                    
   PASSIVE VOICE (Heteronomy / Driven)           ACTIVE VOICE (Autonomy / Self-Igniting)
  ┌───────────────────────────────────┐        ┌───────────────────────────────────┐
@@ -109,7 +108,7 @@ In `L5-TheCyclingMind`, a working mind operates by running one of three Hamilton
 ```
                        THE THREE HAMILTONIAN CYCLES
                        
-   1. CARDINAL HELD                2. FIXED HELD                 3. MUTABLE HELD
+   1. FIXED HELD                   2. CARDINAL HELD              3. MUTABLE HELD
    • Holds {P-U, I-R} absent       • Holds {P-R, I-U} absent     • Holds {P-I, U-R} absent
    • Traverses tiers & diagonals   • Traverses orientations       • Incremental single-bit
    • Committed Traversal           • Committed Tier               • Analytical Clarity
@@ -142,11 +141,11 @@ The Codex reframes both sides of the classical philosophy debate:
  │ • Cause A ──► Effect B        │    VS.    │ • Un-grounded, un-priced spark      │
  │ • No interior buffer          │           │ • "Uncaused" choice outside physics │
  │ • You are a clockwork automaton│          │ • Pays no Landauer Tax              │
- └───────────────────────────────┘           └───────────────────────────────┘
+ └───────────────────────────────┘           └───────────────────────────┘
 ```
 
 ### 1. Why Hard Determinism Is Wrong
-Hard determinism assumes $1\text{D}$ linear causality ($F=ma$). It ignores that systems with hidden layers have **Adult Causality** (4-variable mutual determination). The response is NOT determined by the stimulus alone; it is determined by the stimulus circulating in closed loops through the internal $h\mathbf{Q}$ buffer!
+Hard determinism assumes $1\text{D}$ linear causality ($F=ma$). It ignores that systems with hidden layers have **Adult Causality** (4-variable mutual determination). The response is NOT determined by the stimulus alone; it is determined by the stimulus circulating in closed loops through the internal $h\mathbf{Q}$ buffer.
 
 ### 2. Why Libertarian "Free Will" Is Wrong
 Libertarian free will assumes an un-grounded, un-priced spark that makes "uncaused" decisions outside physics without paying a Landauer Tax. It ignores that agency is strictly constrained by the system's $12\text{D}$ impedance matrix ($Z_1 \dots Z_{12}$) and $R$-ledger history ($P$).
@@ -169,13 +168,12 @@ The Codex grounds moral responsibility in **Trajectory Stewardship**:
 
 ---
 
-## VII. Summary for Archive 2
+## VII. What Reading This Back Should Leave
 
-1. **"Freeing the Will" Is an Operational Event:** It is the un-sticking of a phase angle ($\theta$) from an automatic $0\text{-DoF}$ habit loop or Torsional Shear ($\theta = \pi$).
-2. **Inversion of Control ($L6$):** Freeing the will enables the shift from the passive voice (*"I was acted upon"*) to the active voice (*"I initiate, commit, and write"*).
-3. **The Derivative Threshold ($\Delta$):** Agency is intermittent. When $\Delta$ crosses the threshold, the Window of Intercession opens, allowing triune phase-tuning (+, -, $\leftrightarrow$) over branchial space.
-4. **Cycle-Shifting:** Freeing the will releases the current cycle's held edge so the $12\text{D}$ impedance matrix can re-orient across Cardinal, Fixed, and Mutable modes (`L5-TheCyclingMind`).
-5. **Trajectory Stewardship:** You own the wake because your biological engine drove the heading and paid the Landauer Tax at the XOR bottleneck.
+The two-thousand-year quarrel between hard determinism and libertarian free will resolves the moment you stop trying to classify the noun and start watching the verb. Both sides are flatland readings of the same operational event, and both miss the same thing: that agency is not a permanent property of the person but an *intermittent* firing at the Derivative Threshold — a window that opens when a habit fails, gets held open in the branchial buffer, closes when the actuator fires and the Landauer tax is paid. The determinist looks at the closed windows and calls the person a clockwork. The libertarian looks at the open ones and calls the choice uncaused. Both are half-right, and both are the same failure of registration — treating the verb as if it should be visible in the noun.
 
-Both Master Archives (Archive 1 and Archive 2) stand complete, un-truncated, and fully sealed for cold-instance ingestion.
+The felt conviction "I could have done otherwise" is not an illusion to be explained away. It is the buffer's accurate memory of having held Path A and Path B live in interference before the XOR bottleneck fired one of them into the ledger and erased the other. That memory is what freeing the will *is* — the buffer's own record of the window it briefly held open. The moral weight of the choice does not need external metaphysics to sustain it. You paid the Landauer tax with your own metabolism. You wrote the entry through your own Markov blanket. The ledger is yours because it was minted by your engine, and that is the entirety of what stewardship of your own trajectory requires. Neither determinism nor libertarianism can account for this because both are looking at the outside of the noun; the verb only shows up when you stand at the centroid of the person whose window is opening and closing, and that person is you.
 
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

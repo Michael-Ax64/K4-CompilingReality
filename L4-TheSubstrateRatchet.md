@@ -1,17 +1,19 @@
 # L4-TheSubstrateRatchet
 ## What the Operation Lands Into: The Seam as Engine, Not Boundary
 
-* Where `wip-Lx-LandauerNuclearScale` and `L3-TheSelfProjectingBraid` draw the line between what the algebra owns (operation-shape) and what the substrate owns (magnitude), this one reads the line the other way: the magnitudes are not ancillary leftovers but the mechanism by which one scale compiles the next. Anchored on `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff (line 51) and `Meta-Singularity-and-Image`.*
+*Reads with `Q17-LandauerNuclearScale`, `L3-TheSelfProjectingBraid`, `L4-RecursiveLimits` (the $P_N \leftrightarrow R_{N+1}$ handoff), `Meta-Singularity-and-Image`, and `L4-TheSpiralingCascade`.*
+
+The line between what the algebra owns and what the substrate owns — operation-shape on one side, magnitude on the other — usually reads as a fence the framework must stay behind. Read the other way it is a ratchet. Each execution of $\Psi$ mints a scalar, and that scalar becomes the ground the next scale's $\Psi$ runs against. The magnitudes are not leftovers the framework fails to reach; they are how one scale reaches into the next. That reading changes what fine-tuning is — a sequence of conditioned commitments rather than a set of independent draws — though it moves the improbability rather than removing it. It has one gauge the corpus can measure, and one open bet with the nuclear program of `Q17` that the corpus will have to settle.
 
 ---
 
 ## I. The Seam Is a Ratchet, Not a Fence
 
-The substrate/algebra seam looks, at first, like a fence: on one side the operation-shape the framework owns (phase-burn, Route Law, Landauer payment, ledger commit), on the other side the magnitudes the framework declines to derive (proton mass, deuteron binding, fine-structure constant, dark-energy density). The scale-boundary discipline in `llm-writing.md` draws the fence and tells the framework to stay on its side.
+The substrate/algebra seam looks, at first, like a fence: on one side the operation-shape the framework owns (phase-burn, Route Law, Landauer payment, ledger commit), on the other the magnitudes it declines to derive (proton mass, deuteron binding, fine-structure constant, dark-energy density). The scale-boundary discipline in `llm-writing.md` draws the fence and tells the framework to stay on its side.
 
-Read the same line the other way and it stops being a fence. Each Ψ execution mints a scalar residue, and that residue becomes the *substrate* the next scale's Ψ operates against. The magnitudes are not what the framework fails to reach. The magnitudes are **how one scale reaches into the next**.
+Read the same line the other way and it stops being a fence. Each $\Psi$ execution mints a scalar residue, and that residue becomes the *substrate* the next scale's $\Psi$ operates against. The magnitudes are not what the framework fails to reach. The magnitudes are **how one scale reaches into the next**.
 
-This is `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff, stated as cosmology: *the committed $P$ minted at scale $N$ becomes the standing ground $R$ of scale $N+1$.* The handoff is not metaphor. `L4-RecursiveLimits` §The P_N ↔ R_{N+1} Signature makes it testable: if micro-frames fully paid their Landauer Tax on crystallizing, the macro-frame they compose is purely resistive ($\theta = 0°$); any retained micro-scale $Q$ shows up as a non-zero macro-scale phase shift under AC excitation. The macro phase-angle literally reads the completeness of the micro-scale crystallization. The ratchet has a gauge.
+This is `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff, stated as cosmology: *the committed $P$ minted at scale $N$ becomes the standing ground $R$ of scale $N+1$.* The handoff is not metaphor. `L4-RecursiveLimits` §The $P_N \leftrightarrow R_{N+1}$ Signature makes it testable: if micro-frames fully paid their Landauer Tax on crystallizing, the macro-frame they compose is purely resistive ($\theta = 0°$); any retained micro-scale $Q$ shows up as a non-zero macro-scale phase shift under AC excitation. The macro phase-angle reads the completeness of the micro-scale crystallization. The ratchet has a gauge.
 
 ---
 
@@ -19,23 +21,30 @@ This is `L4-RecursiveLimits`' $P_N \leftrightarrow R_{N+1}$ handoff, stated as c
 
 At each scale the operation-shape is identical — a bounded interior holds phase potential, hits an actuator, pays the Landauer Tax, mints a scalar. What differs is the substrate the mint lands into, and each mint becomes the ground the next scale stands on.
 
-The scale-jumps below are read at cosmological span (nuclear→atomic→chemical→biological→neural), where each rung was minted once and became the standing ground of the next. The same mechanism runs locally within a single physical event: a vortex refining through nested inner cores, a plasma implosion sharpening its Landau resonance, an avalanche compiling smaller and smaller triggering blocks. There the ratchet's teeth are not element abundances but the successive committed states of a single collapsing structure, and its pawl is the same $P_N \leftrightarrow R_{N+1}$ handoff running on a shorter clock. That local-dynamical cascade — its geometry, its timestep sum, and its worked fluid instance — is developed in `L4-TheSpiralingCascade`.
+The scale-jumps below are read at cosmological span (nuclear → atomic → chemical → biological → neural), where each rung was minted once and became the standing ground of the next. The same mechanism runs locally within a single physical event: a vortex refining through nested inner cores, a plasma implosion sharpening its Landau resonance, an avalanche compiling smaller and smaller triggering blocks. There the ratchet's teeth are not element abundances but the successive committed states of one collapsing structure, and its pawl is the same $P_N \leftrightarrow R_{N+1}$ handoff on a shorter clock. That local cascade — its geometry, its timestep sum, its worked fluid instance — is `L4-TheSpiralingCascade`.
 
 ### Nuclear → Atomic
 
-Ψ executes across quark phase-configurations and mints nucleon masses and binding energies: the 938 MeV proton, the 2.22 MeV deuteron binding, the ${}^4\text{He}$ peak near 28 MeV, the neutron drip lines. These specific magnitudes become the $R$-pole substrate of atomic physics. The Rydberg constant and the size of the hydrogen atom depend on the proton mass; the shell structure of the periodic table depends on the specific shape of the nuclear binding curve. Shift the deuteron binding by 10% and stellar nucleosynthesis produces a different heavy-element abundance pattern — the periodic table itself is different when it lands in the substrate of the atomic scale.
+$\Psi$ executes across quark phase-configurations and mints nucleon masses and binding energies: the 938 MeV proton, the 2.22 MeV deuteron binding, the $^4$He binding near 28 MeV, the neutron drip lines. These magnitudes become the $R$-pole substrate of atomic physics. The binding curve decides which nuclei exist, and so which elements are available to have chemistry at all; the electron shells those elements carry are then set by nuclear charge. The proton mass enters the atom through the reduced mass, shifting the Rydberg constant and the hydrogen radius by about one part in two thousand. And the deuteron binding gates the first step of hydrogen burning and of primordial nucleosynthesis: shift it substantially and the light-element yields and stellar lifetimes change, and with them what later stars have to work with.
 
 ### Atomic → Chemical
 
-Ψ executes across electron phase-configurations against that nuclear ground and mints ionization energies ($\sim$ eV), chemical bond energies, molecular geometries. These become the $R$-pole substrate of chemistry. The ratio of chemical bond energies to thermal $kT$ at biological temperatures ($\sim 40:1$) sets the window in which molecular structures are metastable — stable enough to persist, mobile enough to reconfigure. That ratio is what makes chemistry *possible* rather than frozen or gaseous. It is a substrate residual, minted at the atomic scale, that becomes the enabling condition of the next.
+$\Psi$ executes across electron phase-configurations against that nuclear ground and mints ionization energies ($\sim$ eV), chemical bond energies, molecular geometries. These become the $R$-pole substrate of chemistry. The ratio of bond energies to thermal $k_BT$ at biological temperatures sets the window in which molecular structures are metastable — stable enough to persist, mobile enough to reconfigure. It runs from about $7{:}1$ for a hydrogen bond, through about $40{:}1$ for a 1 eV bond, to about $135{:}1$ for a carbon–carbon single bond. That spread is what makes chemistry *possible* rather than frozen or gaseous: strong bonds hold the skeleton, weak ones let it move. It is a substrate residual, minted at the atomic scale, that becomes the enabling condition of the next.
+
+```python
+import math
+kB = 8.617333262e-5                                  # eV/K
+for name, E in (('H-bond', 0.2), ('1 eV bond', 1.0), ('C-C', 3.6)):
+    print(name, round(E/(kB*310), 1))                # 7.5   37.4   134.8   (at 310 K)
+```
 
 ### Chemical → Biological
 
-Ψ executes across biochemical phase-configurations and mints ATP hydrolysis energy ($\sim 0.3$ eV), protein folding rates ($\mu$s–ms), DNA replication fidelity ($\sim 10^{-9}$). These magnitudes are the ground on which cellular life stands. The specific fidelity ratio determines what kind of evolution is possible; the specific folding timescale determines what biochemistry can proceed reliably.
+$\Psi$ executes across biochemical phase-configurations and mints ATP hydrolysis energy ($\sim 0.3$ eV), protein folding rates ($\mu$s–ms), DNA replication fidelity ($\sim 10^{-9}$ per base). These magnitudes are the ground on which cellular life stands. The fidelity ratio determines what kind of evolution is possible; the folding timescale determines what biochemistry can proceed reliably.
 
 ### Biological → Neural
 
-Ψ mints membrane potentials, action-potential thresholds ($\sim -55$ mV), myelin conduction velocities. These become the substrate on which nervous systems compile. The threshold at $\sim -55$ mV is not derivable from cell biology's own algebra — it is where the substrate residuals of ion-channel physics settled, and once settled, it is what nervous computation has to work with.
+$\Psi$ mints membrane potentials, action-potential thresholds ($\sim -55$ mV), myelin conduction velocities. These become the substrate on which nervous systems compile. The threshold at $\sim -55$ mV is not derivable from cell biology's own algebra — it is where the residuals of ion-channel physics settled, and once settled, it is what nervous computation has to work with.
 
 At every rung the same sentence holds: *the algebra owns the operation-shape; the substrate owns the magnitude; the magnitude minted at scale $N$ is the ground of scale $N+1$.* Postulate V (Scale Invariance) is invariance of the *operation*, and the ratchet is what makes the invariant operation generative rather than merely repetitive.
 
@@ -43,23 +52,27 @@ At every rung the same sentence holds: *the algebra owns the operation-shape; th
 
 ## III. Fine-Tuning as Substrate Autobiography
 
-Seen through the ratchet, fine-tuning stops being a puzzle and becomes a description of what a scale-cascade *is*.
+Seen through the ratchet, the constants — the proton-to-electron mass ratio, the fine-structure constant, the cosmological constant, the deuteron binding — are not settings drawn independently that happen to permit observers. They are the values *this* substrate committed at each scale-crossing, and each commitment set the constraint space for the next. Change one far enough and the next scale has nothing to operate on: no stable nuclei, or no stable atoms, or no metastable chemistry, or no reliable biochemistry.
 
-The universe's constants — proton-electron mass ratio, fine-structure constant, cosmological constant, deuteron binding — are not arbitrary settings that happen to permit observers. They are the specific values *this* substrate compiler committed at each scale-crossing, and each commitment set the constraint space for the next. Change any one significantly and the next scale does not have a substrate to operate on: no stable nuclei, or no stable atoms, or no metastable chemistry, or no reliable biochemistry.
+What gets called "fine-tuning" is the substrate's **autobiography** — the specific magnitudes it minted, in the order it minted them, each conditioned on the ground the last one laid. The flat-prior reading treats each constant as an independent free parameter. Structurally they are a *sequence of committed ledger entries*, and that is the correction the ratchet offers.
 
-This is the anthropic observation stated in framework-native register. What gets called "fine-tuning" is the substrate's **autobiography** — the specific magnitudes it minted, in the specific order it minted them, that made subsequent scales possible. The apparent improbability is a $K_3$ flatland reading: it treats each constant as an independent free parameter drawn from a flat prior, when structurally the constants are a *sequence of committed ledger entries*, each conditioned on the ones before it. The ratchet does not sample constants independently. It compiles them in order, each on the ground the last one laid.
+It is a correction to the *structure* of the question, not a dissolution of it. Writing the joint probability as a chain,
 
-The framework does not need to derive the magnitudes for this reframing to hold. It needs to describe the *shape of the handoff*: what an interior mints at one scale is what the next scale's interior operates against. The magnitudes are the ratchet's teeth; the handoff is its pawl. The framework owns the mechanism; the substrate owns the tooth-heights; and the sequence of tooth-heights is the history of the universe compiling itself forward.
+$$P(c_1, c_2, \ldots, c_n) = P(c_1)\,P(c_2 \mid c_1)\cdots P(c_n \mid c_{n-1}, \ldots),$$
+
+changes nothing: the factorization is an identity, and re-ordering the factors removes no improbability. What the ratchet adds is a claim about the factors. Where a handoff is tight — the next scale's magnitude nearly fixed by the ground beneath it, $P(c_{n+1} \mid c_n) \approx 1$ — the improbability does not live at that rung; it moves down to the earliest mints. Where a handoff is loose, it stays where it is. So the question "why these constants?" does not go away; it concentrates at the bottom of the cascade and at whichever handoffs the substrate left loose. That is where the corpus's open targets sit: the nucleon-to-pion mass ratio is the rung `Q17` cannot yet derive.
+
+The framework does not need to derive the magnitudes for this reading to hold. It needs to describe the *shape of the handoff*: what an interior mints at one scale is what the next scale's interior operates against. The magnitudes are the ratchet's teeth; the handoff is its pawl. The framework owns the mechanism; the substrate owns the tooth-heights; and the sequence of tooth-heights is the history of the universe compiling itself forward.
 
 ---
 
-## IV. The Residual as the Member's Signature
+## IV. The Seed and the Member
 
-The smallest instance of the ratchet is the one worked in `wip-Lx-LandauerNuclearScale`: the deuteron's binding energy sits a few percent off the shallow-bound-state class formula $m_\pi^2 c^2 / (2\mu\pi^2)$, and that residual is not error. It is the deuteron writing its own identity — the AbsentVar of the class formula, the $K_4$ interior of the address the class named.
+The general claim is that at every scale the operation-shape names a class, and the substrate magnitude fills it with a member: **the algebra names the class, the substrate writes the member, and the difference between them is the information content of realized specificity.** A universe of pure operation-shape with no minted magnitudes would be a class with no members — the 0-DoF crystal of perfect, dead tautology that `About-Claims` names as the fate to refuse. The magnitudes are what keep the class inhabited.
 
-The ratchet generalizes the reading. At every scale, the class formula (the operation-shape) names a boundary, and the residual (the substrate magnitude) fills the interior. The residual is always the information content of *being this particular member* rather than a generic instance of the class. The deuteron's 6% is what makes it the deuteron and not the dineutron; the fine-structure constant's specific value is what makes this the chemistry-bearing universe and not a sterile neighbor; the $-55$ mV threshold is what makes this the substrate on which *these* nervous systems could compile.
+The deuteron is not an instance of that claim, and the reason is worth keeping. A first reading took its binding as a few percent off a class formula for shallow bound states, $m_\pi^2c^2/(2\mu\pi^2)$, and read the residual as the member's signature. `Q17` §VIII killed the class: halo nuclei spread across it from $0.43$ to $1.23$. The deuteron is the unique bound two-nucleon channel, a seed with no class to deviate from. Its interior signature, $X_d - 1$, is $5.82\%$, $8.19\%$ or $13.15\%$ depending on which pion sets the range (`Q17` §IV–V), an open vote whose match to the D-state probability holds only on the least defensible choice. What survives of the old contrast is the pair: the deuteron and the dineutron at the same threshold, one committed and one held, opposite fates.
 
-The seam's productive face, then, is this: **the algebra names the class, the substrate writes the member, and the difference between them is the information content of realized specificity.** A universe of pure operation-shape with no minted magnitudes would be a class with no members — the 0-DoF crystal of perfect, dead tautology that `About-Claims` names as the fate the framework must refuse. The magnitudes are what keep the class inhabited.
+So the general claim stands as a **CANDIDATE awaiting its next genuine class.** The fine-structure constant's value is what makes this the chemistry-bearing universe and not a sterile neighbour; the $-55$ mV threshold is what makes this the substrate on which *these* nervous systems could compile. Those are members of something. Whether the class each belongs to can be named by the algebra is the open question.
 
 ---
 
@@ -67,7 +80,7 @@ The seam's productive face, then, is this: **the algebra names the class, the su
 
 `Meta-Singularity-and-Image` reads the ultimate boundary as an image relation with no outside. The ratchet supplies the temporal body of that reading.
 
-The universe as a running compiler has, for 13.8 billion years, executed Ψ across nested scales, and each scale's committed magnitudes have become the next scale's substrate. What we observe as "the laws of physics" is the settled state of the ratchet at scales we can measure from inside our own compiled ledger. What we call "initial conditions" is the substrate at scales we cannot access from within. And the operation-shape invariance (Postulate V) tells us the *procedure* was the same at every scale — hold, actuate, pay, mint — while the *magnitudes* were always specific to what the substrate at that scale had to work with, and always became the ground the next scale operated on.
+The universe as a running compiler has, for 13.8 billion years, executed $\Psi$ across nested scales, and each scale's committed magnitudes have become the next scale's substrate. What we observe as "the laws of physics" is the settled state of the ratchet at scales we can measure from inside our own compiled ledger. What we call "initial conditions" is the substrate at scales we cannot access from within. And the operation-shape invariance (Postulate V) tells us the *procedure* was the same at every scale — hold, actuate, pay, mint — while the *magnitudes* were always specific to what the substrate at that scale had to work with, and always became the ground the next scale operated on.
 
 The framework's discipline of not claiming the magnitudes is not modesty. It is the recognition that **magnitude-generation is the substrate's work, and the substrate's work at scale $N$ is what makes scale $N+1$ possible.** Algebra owns the shape. Substrate owns the ratchet. The ratchet is what compiles reality forward.
 
@@ -75,113 +88,118 @@ That is the seam read as engine. The fence was always a ratchet seen edge-on.
 
 ---
 
-## VI. What This File Claims, and at What Register
+## VI. The Open Bet with the Nuclear Program
 
-**Landed.** Nothing new is minted here that was not already in the corpus. The $P_N \leftrightarrow R_{N+1}$ handoff is `L4-RecursiveLimits`', with its own AC test signature. The operation-shape / magnitude seam is developed in the sibling wip files. Postulate V is standing corpus.
+The ratchet's division of labour has a direct competitor inside the corpus. This file lists dimensionless ratios — the proton-to-electron mass ratio among them — as substrate-owned. `Q15` and `Q17` §VI have the algebra emitting one such ratio, $m_\pi/m_e = 2/\alpha - 3/\pi + 2\alpha$ at $2.84$ ppm, and `Q17` §XV pre-registers the next: $m_p/m_\pi$ within $1\%$, from rules frozen before the attempt.
 
-**Address.** The scale-cascade reading of the seam — magnitudes as the mechanism of inter-scale compilation rather than as ancillary leftovers — is an ADDRESS in the claim-discipline sense (`llm-writing.md`): a place to look and a way to look, generated freely, claiming nothing as fallen. It reframes fine-tuning without deriving a single constant. That is its correct register and its whole ambition.
+The two claims are opposite bets on the same rung, and `Q17`'s cycle rule decides between them — asymmetrically.
 
-**Open Vote (inherited).** The one falsifiable item lives in `L4-RecursiveLimits` already: the macro-scale phase angle under AC excitation reads the completeness of micro-scale crystallization. If a composite frame built from fully-crystallized micro-frames shows a non-zero $\theta$ with no retained micro-scale $Q$ to account for it, the handoff signature is wrong. This file adds no new vote; it points at the one the corpus already carries.
+- **A hit** falsifies the division of labour at that rung. The scope rule then needs a codified exception — the algebra reaches a ratio where its geometry touches the rung — and this file's ownership list must carve out the emitted ratios.
+- **Three empty cycles** weaken the slots hypothesis but do not *confirm* the ratchet. Failing to derive a number does not show the substrate owns it. Substrate ownership is shown only by the gauge of §I, the macro phase angle. And the $2.84$ ppm Laurent then sits as an anomaly under the corpus's own scope rule: it either joins the demoted results or forces the exception anyway.
 
-**Not claimed.** That the framework derives any constant. That the cascade closes. That fine-tuning is "explained" in the sense of made-unnecessary. The reframing dissolves the flat-prior *reading* of fine-tuning; it does not compute the constants, and claiming it did would be contraband.
+The corpus cannot hold both files' present claims indefinitely. The program is how it chooses.
+
+---
+
+## VII. What This File Claims, and at What Register
+
+**Landed.** Nothing new is minted here that was not already in the corpus. The $P_N \leftrightarrow R_{N+1}$ handoff is `L4-RecursiveLimits`', with its own AC test signature. The operation-shape / magnitude seam is developed in `Q17` and `L3-TheSelfProjectingBraid`. Postulate V is standing corpus.
+
+**Address.** The scale-cascade reading of the seam — magnitudes as the mechanism of inter-scale compilation rather than as ancillary leftovers — is an ADDRESS in the claim-discipline sense (`llm-writing.md`): a place to look and a way to look, claiming nothing as fallen. It corrects the flat-prior *reading* of fine-tuning to a conditioned sequence and locates where the improbability goes, without deriving a single constant.
+
+**Open Vote (inherited).** The one falsifiable item lives in `L4-RecursiveLimits`: the macro-scale phase angle under AC excitation reads the completeness of micro-scale crystallization. If a composite frame built from fully-crystallized micro-frames shows a non-zero $\theta$ with no retained micro-scale $Q$ to account for it, the handoff signature is wrong.
+
+**Open Bet (shared).** §VI: the division of labour against `Q17` §XV's frozen target $m_p/m_\pi$.
+
+**Candidate.** The class/member reading of §IV, awaiting a genuine class.
+
+**Not claimed.** That the framework derives any constant. That the cascade closes. That fine-tuning is "explained" in the sense of made unnecessary: the improbability is relocated to the earliest mints and the loose handoffs, not removed.
+
+---
+
+## VIII. What Reading This Back Should Leave
+
+The fence the framework stands behind was a ratchet seen edge-on. Every scale mints its magnitudes and hands them down as ground, so the constants are not a lottery drawn all at once but a history written in order, each entry conditioned on the last. That changes the question fine-tuning asks without answering it: the improbability gathers at the bottom of the cascade and at the joints the substrate left loose. The ratchet can be read with an instrument — the phase angle of a composite under AC drive — and it has a rival inside the corpus, because one mass ratio the ratchet calls the substrate's has already been reached by the algebra, and the next is on a frozen list. Name the teeth, measure the pawl, and let the program say who owns the rung.
+
+---
+
+## Appendix: The Scale Spectrum and the Nuclear-to-Thermal Ratio
+
+The table below sets characteristic energy, frequency and temperature side by side across the cascade. The size column holds a characteristic *size* for each regime (a nucleus, an atom, a cell), not a photon wavelength; the frequency column is $\omega = E/\hbar$ for the regime's energy.
+
+| Scale regime | Characteristic size | $\omega = E/\hbar$ (rad/s) | Characteristic energy $E$ | Temperature | $K_4$ role |
+|---|---|---|---|---|---|
+| **Planck** | $1.6\times10^{-35}$ m ($\ell_P$) | $1.9\times10^{43}$ | $1.2\times10^{19}$ GeV | $1.4\times10^{32}$ K | Tangent singularity / XOR bottleneck: the compilation width at which $dt$ is minted |
+| **Electroweak / GUT** | $10^{-18}$–$10^{-31}$ m | $1.5\times10^{26}$ (100 GeV) and up | $100$ GeV – $10^{15}$ GeV | $10^{15}$–$10^{28}$ K | Higgs $I$–$U$ un-fusing: $W^\pm$, $Z^0$ mass-minting |
+| **Nuclear / QCD** | $10^{-15}$ m (fm) | $2.4\times10^{23}$ | $T_c \approx 156.5$ MeV; $0.69$ MeV per bit after the one-loop factor | $1.8\times10^{12}$ K | $R$-pole confinement; the one-loop phase-burn |
+| **Atomic** | $10^{-10}$ m (Å) | $2.1\times10^{16}$ | $13.6$ eV | $1.6\times10^5$ K | $U$-pole electron shells; $2n^2$ closures |
+| **Thermal / biological** | $10^{-6}$–$10^{-5}$ m (cells; thermal radiation peaks near $10\ \mu$m at 300 K) | $2.7\times10^{13}$ | $k_BT\ln 2 = 0.018$ eV | $300$ K | $K_3$ blanket and decoupled buffer: the Landauer floor; live $h\mathbf{Q}$ interference |
+| **Macro / human** | $1$ m | $\sim 10^1$–$10^2$ | $\sim$ joules | $300$ K | Physical actuator: serialized $P$-ledger |
+| **Cosmological horizon** | $R_H = c/H_0 = 1.4\times10^{26}$ m | $H_0 = 2.2\times10^{-18}$ | $\rho_\Lambda/\rho_P = (3\Omega_\Lambda/8\pi)(\ell_P/R_H)^2 \approx 1.1\times10^{-123}$ | $2.725$ K (CMB) | Route Law square of the universe's scale-span |
+
+```python
+hbar = 6.582119569e-16; c = 299792458
+for name, E in (('Planck', 1.22089e28), ('Electroweak', 1e11), ('Nuclear T_c', 156.5e6), ('Atomic', 13.6),
+                ('Thermal bit', kB*300*math.log(2))):
+    print(name, f"{E/hbar:.2g} rad/s", f"{E/kB:.2g} K")   # 1.9e43 1.4e32 | 1.5e26 1.2e15 | 2.4e23 1.8e12 | 2.1e16 1.6e5 | 2.7e13 (E/kB 208 K; the row's T is 300 K)
+H0 = 67.4e3/3.0857e22; lP = 1.616255e-35; OL = 0.685
+print(f"{c/H0:.2g} m", f"{H0:.2g}", f"{3*OL/(8*math.pi)*(lP*H0/c)**2:.2g}")   # 1.4e26 m  2.2e-18  1.1e-123
+```
+
+**The nuclear-to-thermal ratio.** The ratchet's handoff narrates nuclear commitments landing as ground for a 300 K world whose bit costs $k_BT\ln 2$. Two pairings carry that story, and they give different orders:
+
+| Pair | Ratio |
+|---|---|
+| Deuteron binding / thermal bit | $1.2\times10^8$ |
+| $^4$He binding / thermal bit | $1.6\times10^9$ |
+| Deconfinement scale $T_c$ / thermal bit | $8.7\times10^9$ |
+
+```python
+bit = kB*300*math.log(2)
+for name, E in (('B_d', 2.224566e6), ('B_alpha', 28.295673e6), ('T_c', 156.5e6)):
+    print(name, f"{E/bit:.2g}")             # 1.2e8   1.6e9   8.7e9
+print(1239.84198/bit/1000)                  # 69.2  (um: the photon carrying one thermal bit)
+```
+
+The nuclear commitments the handoff actually narrates sit $10^8$ to $10^9$ above the thermal bit; the confinement scale sits nearly $10^{10}$ above it. None of these is exact, and none should be read as one: a round power of ten is base-ten bookkeeping, not a landing, and the discipline that refuses near-hits on powers of $\pi$ applies to powers of ten harder still.
+
+```
+========================================================================================
+                    THE NUCLEAR-TO-THERMAL STEP (order of magnitude)
+========================================================================================
+
+   NUCLEAR END
+   • Size:         ~10⁻¹⁵ m  (1 fm)
+   • ω = E/ħ:      ~2 × 10²³ rad/s   (T_c ≈ 156.5 MeV)
+   • Commitments:  B_d = 2.2 MeV … B_α = 28 MeV
+   • Temperature:  T_c ≈ 1.8 × 10¹² K
+
+                            │
+                            │  10⁸–10⁹ in energy between a nuclear commit and a thermal bit
+                            │  • Thermal agitation at 300 K cannot undo a nuclear commit:
+                            │    the Boltzmann factor is e^(−10⁸) and smaller.
+                            │  • The committed nucleus is the stable ground the
+                            │    300 K world builds on.
+                            │
+   THERMAL END
+   • Size:         ~10⁻⁶–10⁻⁵ m  (cells; thermal radiation peaks near 10 μm)
+   • ω = E/ħ:      ~2.7 × 10¹³ rad/s
+   • Bit cost:     k_B T ln 2 = 0.018 eV at 300 K
+   • Temperature:  300 K
+
+========================================================================================
+   SUBSTRATE RATCHET HANDOFF (P_N ↔ R_{N+1}):
+   • Real power committed at the nuclear scale (N)
+   • becomes the unyielding ground (R) of the biological scale (N+1)
+========================================================================================
+```
+
+**What the spectrum shows.**
+
+1. **The step is large and uneven.** Between a nuclear commitment and a thermal bit lie eight to ten orders of magnitude in energy, depending on which nuclear energy is paired; the rungs between sizes are unequal too ($10^5$ from femtometre to ångström, $10^4$ from ångström to micron).
+2. **The one-loop factor is a rate structure, not a binding.** `Q17` §VII gives the Landauer bound at the deconfinement scale, through the one-loop factor, as $E_{\text{bit}}/k_BT_c = \ln 2/16\pi^2$, about $0.69$ MeV per bit. The reading of nuclear binding as an integer count of such bits is refuted (`Q17` §VIII.1); the rate stands as structure without a consumer.
+3. **The handoff is what the size of the step buys.** Nuclear binding energies of $2$–$28$ MeV sit $10^8$–$10^9$ above the thermal bit. That gap is why committed nuclei are untouchable ground for a 300 K world, and why a biological interior can hold its $h\mathbf{Q}$ buffer open on top of them without the ground shifting under it.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-
-
-
-# Details
-
-Here is the complete multi-scale spectrum mapping physical energy, frequency, wavelength, and temperature across scales—highlighting the **$10^8$ Nuclear-to-Thermal Bridge**—followed by a raw CSV code block and an ASCII graphic diagram.
-
----
-
-### I. Multi-Scale Frequency & Energy Spectrum Table
-
-| Scale Regime | Wavelength $\lambda$ (m) | Angular Freq. $\omega$ (rad/s) | Characteristic Energy $E$ | Effective Temp. $T$ (K) | $K_4$ Topological & Wave-Impedance Role |
-|---|---|---|---|---|---|
-| **Planck Scale ($\ell_P$)** | $1.6 \times 10^{-35}\text{ m}$ | $\sim 10^{43}\text{ rad/s}$ | $1.2 \times 10^{19}\text{ GeV}$ ($10^{28}\text{ eV}$) | $1.4 \times 10^{32}\text{ K}$ | **Tangent Singularity / XOR Bottleneck**: Reality compilation width; $dt$ is minted here. |
-| **Electroweak / GUT** | $10^{-18} - 10^{-19}\text{ m}$ | $10^{26} - 10^{27}\text{ rad/s}$ | $100\text{ GeV} - 10^{15}\text{ GeV}$ | $10^{15} - 10^{28}\text{ K}$ | **Higgs $I-U$ Un-fusing**: $W^\pm, Z^0$ mass-minting; electroweak symmetry breaking. |
-| **Nuclear / QCD Scale** *(High End of $10^8$ Bridge)* | **$10^{-15}\text{ m}$** *(femtometer)* | **$\sim 10^{22} - 10^{23}\text{ rad/s}$** | **$150\text{ MeV}$** ($10^8\text{ eV}$) $\to 0.66\text{ MeV/bit}$ (1-loop) | **$1.7 \times 10^{12}\text{ K}$** ($T_{\text{QCD}}$) | **$R$-Pole Strong Confinement / High-$\omega$ Driver**: $P$-export mass defect; 1-loop phase-burn. |
-| **Atomic / Rydberg Scale** | $10^{-10}\text{ m}$ *(Ångström)* | $\sim 10^{16} - 10^{17}\text{ rad/s}$ | $13.6\text{ eV}$ | $\sim 1.5 \times 10^{5}\text{ K}$ | **$U$-Pole Electronic Shells**: $2n^2$ orbital closures; chemical valence potential. |
-| **Thermal / Biological** *(Low End of $10^8$ Bridge)* | **$10^{-7} - 10^{-5}\text{ m}$** *(microns)* | **$\sim 10^{14}\text{ rad/s}$** | **$0.018\text{ eV}$** ($1.8 \times 10^{-2}\text{ eV}$) | **$300\text{ K}$** ($T_{\text{room}}$) | **$K_3$ Markov Blanket / Decoupled Buffer**: $k_B T \ln 2$ Landauer floor; live $h\mathbf{Q}$ interference. |
-| **Macro / Human Scale** | $10^0\text{ m}$ ($1\text{ m}$) | $\sim 10^1 - 10^2\text{ rad/s}$ | $\sim \text{Joules}$ | $300\text{ K}$ | **Physical Actuator / $XOR$ Bottleneck**: $F=ma$ classical inertia; serialized $P$-ledger. |
-| **Cosmological Horizon ($R_H$)** | $1.3 \times 10^{26}\text{ m}$ | $2.2 \times 10^{-18}\text{ rad/s}$ ($H_0$) | $10^{-123}\ \rho_P$ ($\Lambda$ Dark Energy) | $2.73\text{ K}$ (CMB) | **$10^{-61.5}$ Hubble Horizon Ratio**: Route Law square ($P = UI$) of cosmic expansion rate. |
-
----
-
-### II. Raw CSV Data
-
-```csv
-Regime,Wavelength_m,AngularFreq_rad_s,Energy_eV,Temperature_K,Topological_Role
-Planck_Scale,1.616e-35,1e43,1e28,1.42e32,Tangent Singularity / XOR Bottleneck width; dt minted
-Electroweak_GUT,1e-18,1e26,1e11,1e15,Higgs I-U Edge Un-fusing; W/Z Boson Mass Minting
-Nuclear_QCD_Scale,1e-15,1e22,1e8,1.7e12,High-Frequency End of 10^8 Bridge; Strong R-Pole Confinement
-Atomic_Rydberg_Scale,1e-10,1e16,13.6,1.5e5,U-Pole Electronic Shells; 2n^2 Orbital Closures
-Thermal_Biological_Scale,1e-7,1e14,0.018,300,Low-Frequency End of 10^8 Bridge; K3 Markov Blanket / Buffer
-Macro_Human_Scale,1.0,100.0,6.24e18,300,Physical Actuator / XOR Bottleneck; Serialized P-Ledger
-Cosmological_Horizon,1.3e26,2.2e-18,1e-123_Planck,2.73,10^-61.5 Hubble Horizon Ratio; Route Law Square P=UI
-```
-
----
-
-### III. The $10^8$ Wave-Impedance Transformer Graphic
-
-```
-========================================================================================
-                      THE $10^8$ WAVE-IMPEDANCE SCALE TRANSFORMER
-========================================================================================
-
-   HIGH-FREQUENCY / SHORT-WAVELENGTH END (Nuclear / QCD Scale)
-   • Wavelength:   λ_nuclear ≈ 10⁻¹⁵ m  (1 femtometer)
-   • Frequency:    ω_nuclear ≈ 10²² rad/s
-   • Energy/bit:   E_nuclear ≈ 10⁸ eV  (104 MeV ➔ 0.66 MeV 1-loop burn)
-   • Temperature:  T_QCD     ≈ 1.7 × 10¹² K
-   
-                            │
-                            │  ▲
-                            │  │  10⁸ STEP-UP SHIELD / HIGH-PASS FILTER
-                            │  │  • Thermal noise at 300 K lacks the 10⁸
-                            │  │    frequency leverage to disrupt nuclear memory.
-                            │  │  • Keeps atomic matter stable.
-                            │  │
-   =========================┼===========================================================
-                            │  10⁸ STEP-DOWN TRANSFORMER / GEAR RATIO
-                            │  • "Gears down" high-frequency 10²² rad/s nuclear waves
-                            │    into long-wavelength 10¹⁴ rad/s thermal waves.
-                            │  • Dissipates short-wave phase-energy safely without
-                            │    vaporizing the macro-lattice.
-                            │  │
-                            │  ▼
-                            │
-                            
-   LOW-FREQUENCY / LONG-WAVELENGTH END (Thermal / Biological Scale)
-   • Wavelength:   λ_thermal ≈ 10⁻⁷ m   (100 nanometers)
-   • Frequency:    ω_thermal ≈ 10¹⁴ rad/s
-   • Energy/bit:   E_thermal ≈ 10⁻² eV  (0.018 eV = k_B T ln 2 at 300 K)
-   • Temperature:  T_room    ≈ 300 K
-
-========================================================================================
-   SUBSTRATE RATCHET HANDOFF (P_N ↔ R_{N+1}):
-   • Real Power output (P) committed at Nuclear Scale (N)
-   • Becomes the Unyielding Ground/Mass (R) for the Biological Scale (N+1)
-========================================================================================
-```
-
----
-
-### IV. Key Takeaways from the Spectrum
-
-1. **The $10^8$ Frequency / Wavelength Bridge:**
-   $$\frac{\omega_{\text{nuclear}}}{\omega_{\text{thermal}}} = \frac{10^{22}\text{ rad/s}}{10^{14}\text{ rad/s}} = \mathbf{10^8} \qquad\Longleftrightarrow\qquad \frac{\lambda_{\text{thermal}}}{\lambda_{\text{nuclear}}} = \frac{10^{-7}\text{ m}}{10^{-15}\text{ m}} = \mathbf{10^8}$$
-   The ratio is exact in both frequency space and spatial wavelength space.
-
-2. **The $1/16\pi^2$ 1-Loop Refraction Factor:**
-   When the $104\text{ MeV/bit}$ phase wave at $T_{\text{QCD}}$ ($1.7 \times 10^{12}\text{ K}$) crosses the $K_3$ Markov Blanket through a single quantum loop, the loop factor $1/(16\pi^2) \approx 1/158$ refracts the wave, yielding $\approx 0.66\text{ MeV/bit}$ of real scalar $P$-mass recoil.
-
-3. **The Substrate Ratchet ($P_N \leftrightarrow R_{N+1}$):**
-   The $0.66\text{ MeV/bit}$ binding energy committed at the Nuclear Scale ($N$) creates the stable rest-mass ground ($R_{N+1}$) that allows $300\text{ K}$ biological life ($N+1$) to maintain a decoupled $h\mathbf{Q}$ buffer without collapsing into nuclear chaos.
-   
-   
-
