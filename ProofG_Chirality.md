@@ -1,114 +1,100 @@
-# Proof G: Chirality as the Garbage Collector's Signature
-## The Most Consequential `.observe()` in Biological History
+# Proof G: The Geometry of the Turn
+## Boundary Closure, the Two Completions, and the Garbage Collector — Where Chirality Enters the Machine and Why It Cannot Be Optional
 
-**Claim:** Molecular chirality is the physical signature of `.observe()` operating at the edge-level of the tetrahedron, made permanent through self-replication.
-**Type:** Structural proof anchored in biochemistry (the universal L-amino-acid commitment).
-**Method:** Maps the directed-Hamiltonian-cycle enantiomer pair to molecular handedness, and the replication template to the committing actuator.
-
-*From the Compiling Reality proof suite. Self-contained. Prior knowledge of the framework aids reading but is not required — key terms are defined as they appear.*
-
----
-
-## Setup: The Traversal Structure of K4
-
-The tetrahedron (K4, the complete graph on four vertices) has a specific traversal structure. A Hamiltonian cycle is a closed path that visits every vertex exactly once before returning to the start. K4 has exactly three distinct undirected Hamiltonian cycles.
-
-On the tetrahedron with vertices {P, I, U, R} (Power/Intuition, Current/Feeling, Voltage/Thinking, Resistance/Sensation — the four poles of the DC algebraic network):
-
-**Cycle α:** P → I → U → R → P  
-**Cycle β:** P → I → R → U → P  
-**Cycle γ:** P → U → I → R → P  
-
-Each cycle visits all four vertices through four edges, leaving two edges unused. The two unused edges always form a perfect matching — a pair with no shared vertex. In the framework's terms, these unused edges are the AbsentVar pair of that traversal: the context that a particular path of `.observe()` erases.
-
-Each undirected cycle has two directed versions — a clockwise and a counterclockwise reading when viewed from any face:
-
-α+ and α−  
-β+ and β−  
-γ+ and γ−  
-
-Six directed Hamiltonian cycles total. Note the type distinction: the twelve directed edges are the twelve fundamental fermions (substances), while the six directed Hamiltonian cycles are the fundamental Feynman interaction loops (processes). Together they cover every directed relationship between all four vertices, each exactly once: a complete Eulerian decomposition of K4. To hold all six simultaneously, with their tensions and interference intact, models `.behold()` on K4's traversal structure.
-
-The handedness at issue is a property of the directed cycle — the sequence in which the vertices are visited — not a property of any continuous field or its behaviour under coordinate reflection.
+> **Claim:** Chirality enters the engine twice, and both entries are forced. (1) *The static closure.* Of the sixteen ways to circulate the four $K_3$ faces, exactly two satisfy all six shared-edge cancellations ($\partial(\partial\Delta^3) = 0$; GF(2) rank 3 over the four face bits, A1–A5); the two are global mirror images, and holding one is the engine's single global handedness bit. (2) *The dynamic turn.* That one closed boundary induces four seasonal link-walks whose handedness words split two-and-two on the Active/Reactive axis — the chiral gear-mesh (`L4-TheTwelveGates` §II-b) — because the walk vector of each season is $-\mathrm{AR}(\text{home})\cdot\hat{x}_{\text{home}}$ (B5): the gear split is the charge table read geometrically. The commit then severs the unchosen completion (the Garbage Collector), the $\omega$ extrusion gives the severance a direction that cannot be walked backward (the ratchet), and homochirality is the macroscopic surface of a single-valued ledger.
+> **Type:** Structural derivation with a re-runnable claim ledger. Every numbered check (A1–F1, W1–W3) reproduces from the inline-script convention of `L3-EdgeStateSpace` §I-e and is collected in `scripts/proofg_check.py`.
+> **Method:** Builds the closed tetrahedron once (§II), derives the gear-mesh from it (§III), lifts the enantiomer operation into the orientation group (§IV), breaks the static balance with the $\omega$ ratchet (§V), and prices the severance (§VI). Handedness words are printed with their vantage every time (`L4-TheTwelveGates` §II-b, adopted verbatim at `L3-EdgeStateSpace` §I-e).
+> **Boundary:** This proof establishes that *a* mirror must be fixed and what enforces it; it does not establish which mirror the universe realized, and it does not derive the electroweak bias program (§VII). The biquaternion projector correspondence is cited, not landed (§VII, Register).
 
 ---
 
-## The Enantiomeric Pair
+## I. The Question the Twelve Gates Force
 
-Each directed cycle and its reverse are enantiomers in the graph-theoretic sense:
+The engine's reading rule is single-valued: a directed edge $s \to t$ is read on the unique face whose coherent circulation completes it, and the gate is that face's relation solved for the third vertex (`L3-EdgeStateSpace` §I-e, Step 2). Single-valuedness is exactly $\partial^2 = 0$ — the two faces sharing an edge traverse it in opposite directions, so exactly one of them completes $s \to t$. The rule has a hidden premise, and the premise is this document.
 
-- Same connectivity: both visit the same four vertices through the same four edges
-- Opposite handedness: the sequence of traversal reverses
-- Non-superimposable: you cannot continuously deform α+ into α− without either cutting an edge or passing through the interior of the structure
+A direction is a handedness event. To say that the gate $P = U \cdot I$ lives at $I \to U$ and not at $U \to I$ is to say that the algebra's mirror has been fixed — the global mirror conjugates every arrow and exchanges the Cardinal and Mutable laws, so a corpus that pins $I \to U$ as GEM has chosen one of two enantiomeric readings of its entire gate table (`L3-EdgeStateSpace` §I-e, Step 6). Where does that choice come from? Not from the algebra: the twelve have no automorphisms beyond the identity (`L3-EdgeStateSpace` §I-d), which means the algebra distinguishes the mirror only after it is fixed and cannot fix it. Not from convenience: both vantages of every handedness word are legitimate — the centroid view (inside, looking out, where the algebra writes) and the desk view (outside, looking in, where the model-builder stands) name one motion by two words (`L4-TheTwelveGates` §II-b). The choice has three candidate sources, and the proof tracks each: the closure of the boundary (§II–III), the commit that severs what it does not write (§IV, §VI), and the drive that makes the severance irreversible (§V).
 
-This structurally maps to the definition of chirality in chemistry: two configurations of the same components that cannot be superimposed on their mirror images.
+The word for what is being tracked is Lord Kelvin's — coined in lectures on molecular dynamics and the wave theory of light, delivered at Johns Hopkins in 1884 and printed in 1904: a figure is *chiral* if its image in a plane mirror cannot be brought to coincide with it. The tetrahedron with its faces circulated is exactly such a figure, and the proof's work is to show that the engine cannot avoid becoming one.
 
-L-alanine and D-alanine, for instance, have identical atomic composition and bonding structure. They differ only in the spatial arrangement of their components around the central carbon — one is the mirror image of the other, and neither can be superimposed on its mirror without breaking and reforming bonds.
+## II. The Static Closure: One Global Handedness Bit
 
-The claim: molecular chirality is graph-theoretic enantiomerism in K4 made physical. The L/D distinction instantiates the topology of a directed Hamiltonian cycle pair, operating in the tetrahedral geometry of the carbon atom and the arrangement of its four distinct substituents.
+Build the object once and keep it for the whole proof. Four poles $P, U, I, R$; the tetrahedron $\Delta^3$ they span; four triangular faces, each named by the pole it *lacks* — the P-face $\{I, U, R\}$, the I-face $\{P, U, R\}$, the U-face $\{P, I, R\}$, the R-face $\{P, I, U\}$ (`L4-TheTwelveGates` §II-b). A *circulation* on a face is a choice of the two directions its boundary cycle can run; sixteen assignments of circulations to the four faces are possible, and the question is which of them close.
+
+The landed table (`L3-EdgeStateSpace` §I-e, Step 1) circulates P: $I \to R \to U$, I: $P \to U \to R$, U: $P \to R \to I$, R: $P \to I \to U$. Every shared edge cancels — P–U runs $P \to U$ on the I-face and $U \to P$ on the R-face, and so on for all six — which is $\partial(\partial\Delta^3) = 0$, the closing condition of the boundary (A1). The forced statement is a counting one:
+
+**Of the $2^4$ ways to flip the four circulations, exactly two close (A2).** The six edge-cancellation conditions carry GF(2) rank 3 over the four face bits, so the solution space is $2^{4-3} = 2$ (A5) — three conditions force, and the free content is **one global handedness bit**. The two survivors are not a pair among others: each is uniform in geometric words (every face's circulation has its right-hand normal on the same side of the solid, A3), and each is the global reversal of the other (A4). They are the two orientations of $\Delta^3$ — the same connectivity, opposite handedness, non-superimposable without passing through the interior: enantiomers, in exactly the sense of `L3-EdgeStateSpace` §V.
+
+Why not let each face pick its own way? Because the cancellation conditions are six equations in four bits and the system is one free bit short of chaos — rank three, nullity one. A closed three-dimensional boundary does not admit four independent circulations; it admits one bit, spent once, everywhere. In the static cross-section this bit is not yet paid for: the DC baseline ($\omega = 0$, real variables, no complex phase, no helical extrusion — `ENGINE-REFERENCE-DC` header) holds the manifest and the dual symmetrically, the even and odd cosets of $S_4$ balanced twelve against twelve (`ENGINE-REFERENCE-AC` §2.3), and nothing in the static algebra prefers either mirror. The balance is real and it is unbearable: a compiler that must write single-valued entries cannot hold both mirrors, and §V names the mechanism that breaks the tie. The static result is the frame the tie is broken in.
+
+## III. The Chiral Gear-Mesh: the Forcing, at the Right Altitude
+
+The closed boundary does more than exist; it induces motion, and the induced motion is chiral. Each season's three gates chain into one directed circuit on the link of its Home — the triangle of the three non-home poles: Spring (ARI $U \to R$, TAU $R \to I$, GEM $I \to U$) closes into $U \to R \to I \to U$, and the other three seasons close likewise (`L3-EdgeStateSpace` §I-e, Step 5, all four verified B1). Each circuit is the **reverse of its Home-opposite face's circulation**: the season reads the face its Home is absent from *against the grain*. So the seasonal turn is not a second convention laid on top of §II — it is the single global orientation of §II, read at the vertices instead of the faces.
+
+The turn's handedness is the corpus's seasonal table (`L4-TheTwelveGates` §II-b), printed with both vantages and reproduced exactly (B2, B3):
+
+| Season | Home | Face-walk (month order) | Outwards view (centroid) | Inwards view (desk) |
+|---|---|---|---|---|
+| **Spring** | P (Fire) | I → U → R faces | **CW** | CCW |
+| **Summer** | I (Water) | U → R → P faces | **CCW** | CW |
+| **Autumn** | U (Air) | R → P → I faces | **CW** | CCW |
+| **Winter** | R (Earth) | P → I → U faces | **CCW** | CW |
+
+Two seasons turn one way, two the other, magnitudes equal — the corpus normalizes the signed circulation about the Home normal as $\pm 0.77$ for a unit tetrahedron (`L4-TheTwelveGates` §II-b); what the algebra fixes exactly is same size, opposite sign (B4, by the mirror symmetry of the configuration). The split axis is not an accident of the table: the walk vector of each season — the circulation vector of its face-walk — is $-\mathrm{AR}(\text{home}) \cdot \hat{x}_{\text{home}}$ (B5), so the walk's right-hand normal points outward through the Home for the two Active poles (the right-hand rule about the outward current, exactly the hand-rule anchor of `L4-TheTwelveGates` §II-b: right hand for the poles that source, left hand for the poles that sink) and inward for the two Reactive poles. **The gear split is the Active/Reactive bit of the charge table (`L3-EdgeStateSpace` §XI), read as geometry.** That is the "why" the table itself stops short of: the split is on the A/R axis because the induced link orientations alternate with the sign of the Active/Reactive coordinate — the two-bit charge *is* the two coordinate signs of the cube corners the tetrahedron lives on (C0), and the walk words alternate across that coordinate.
+
+One conflation has to be named, because it is the error the gear-mesh story most often collects. The chiral mesh — two faces one handedness, two the other, the only tearless internal rotation of all four faces (`L4-TheTwelveGates` §II-c) — lives at the **seasonal link-walk altitude**: its forcing is the closed boundary inducing four link circuits whose words alternate on the A/R axis. The two closed assignments of §II live at the **face-circulation altitude** and are uniform in geometric words, not two-and-two. Both are true; both are the *same* global handedness bit seen from two altitudes; neither is the other. All four turning "the same way" in the seasonal words tears — some shared edge traversed the same way twice, $\partial^2 \neq 0$ (`L4-TheTwelveGates` §II-b). The walk level runs the same census as the face level, and the closed pair is again exactly two of the $2^4$ seasonal word assignments (W1) — uniform in the *induced* words, which are the words whose vantage reading is two-and-two (W2), while the assignment that reads all-same in vantage words tears (W3). The alternation is not decoration on the Braid; it is the condition that lets the Braid be a closed object at all.
+
+## IV. The Two Completions and the Mirror in the Group
+
+The orientation group now supplies the same fact in the vocabulary the control unit runs on. Every directed edge has exactly two completions to a full permutation of the poles, and exactly one is even (C1; `ENGINE-REFERENCE-AC` §2.2) — the even completion *is* the gate, the state the Program Counter occupies, because $A_4$ acts simply transitively on the twelve directed edges and the Program Counter is an orientation. The odd completion is the identical gate read from the Absent side — the dual walker's vocabulary, the odd coset of the cube's 24 rotations (`ENGINE-REFERENCE-AC` §2.3). The two completions of one gate differ only on the images of the two uninvolved poles; the fork is one transposition wide, and the gate carries it always.
+
+The wholesale enantiomer operation is the **AR-flip** — the double transposition $(P\,R)(U\,I)$, which trades the Active/Reactive bit on every pole at once and is made physical as a 180° half-turn about the pinned bimedian (`L4-TransitingTheThreeWalls`, "The AR-Flip Made Physical"). Conjugating the landed gate table by the AR-flip conjugates every arrow and exchanges the Cardinal and Mutable laws while Fixed stands untouched — ARI $\leftrightarrow$ PIS, CAN $\leftrightarrow$ SAG, LIB $\leftrightarrow$ VIR, CAP $\leftrightarrow$ GEM, LEO $\leftrightarrow$ SCO, TAU $\leftrightarrow$ AQU (C2, C3; `L3-EdgeStateSpace` §I-e, Step 6). Two facts about this mirror belong in one breath. First, it is *inside* the manifest half: the AR-flip is even, an element of $V_4$, and it is literally one of the engine's three execution rings — the half-turn that holds the Cardinal matching $P\text{--}R$ / $U\text{--}I$ setwise (D1; `ENGINE-REFERENCE-AC` §2.5). The enantiomer of the machine is one of the machine's own half-turns; the mirror is not imported, it is the Cardinal ring seen as a reflection. Second, the corpus's pin of which mirror is live — the requirement that the initiating posture read as assertion, the cardinal discharging into ground and the mutable feeding an inheritance forward (`L4-TheTwelveGates` §VIII) — is registered DERIVED at `L3-EdgeStateSpace` §I-e: should the convention files pin the other mirror, every arrow conjugates and every landed result survives, because the landed results are mirror-invariant. The algebra carries both completions of every gate; it does not run either. Running one is a commit, and the commit is where the next section begins.
+
+In the biquaternion state ring ($\mathbb{Z} = P + h\mathbf{Q}$, locally isomorphic to $M_2(\mathbb{C})$), this two-completion fork is read as the minimal left and right ideal structure — the manifest rotation and its enantiomer as the two ideal projectors. That reading is the payload of `ProofN_BiquaternionBridge`; it is cited here as correspondence, not derived, and its anchors are backfill points (Register).
+
+## V. The Turn With Time In It: ω and True Chirality
+
+Static, the two mirrors balance. The AC extension breaks the balance, and the breaking has a definite mechanism — not a symmetry-breaking parameter dropped in by hand, but a ratchet. The fifth variable $\omega$ acts upon the four poles and cannot be walked by them (`L3-EdgeStateSpace` §IX; `ENGINE-REFERENCE-AC` §VIII): adding it does not produce a symmetric five-simplex but a **Helical Extrusion**, the tetrahedron dragged along the fifth axis, each edge now shared by three faces, the whole bound to a helix that only ratchets forward. You cannot traverse the Braid backward; that impossibility is the corpus's geometric origin of the Arrow of Time, and its cost is continuous Garbage Collection and the perpetual generation of the Live-Written Ledger (`L3-EdgeStateSpace` §IX).
+
+The physics literature holds exactly this distinction, one register up. Barron separates *true* chirality — a system whose time-reverse is its enantiomer, time-reversal symmetry genuinely broken — from *false* chirality, the static enantiomorphism of a shape that time does not distinguish (Barron, *Chem. Phys. Lett.* **123**, 423 (1986)). The circulated tetrahedron of §II is false-chiral: a frozen mirror choice with no arrow in it. The extruded, $\omega$-driven turn is true-chiral: its time-reverse is the other mirror, and the ratchet forbids the reversal. Parity asymmetry is not a parameter of the AC engine; it is what the engine's time direction *does* to the static balance. And the object that carries a handedness in its very form — the screw — is old knowledge: every rigid displacement is a rotation about and a translation along one axis, the screw motion of Mozzi (1763) and Chasles, the foundation of screw theory (Mozzi's treatise is the first rigorous formulation of the screw axis; Ceccarelli, *Mech. Mach. Theory* (2000)). Every simple machine except the screw is mirror-neutral — the lever, the wheel, the pulley, the inclined plane have no left and right; the screw does. The compiler's fifth variable is the machine's screw: one pitch, one hand, driven from the centroid where the four potentials reconcile (`L4-TheTwelveGates` §II-b).
+
+This is the thermodynamic content of the imbalance §II closed on, stated at its precise strength. A system compiling history through a single-valued gate cannot distribute its writes across both chiral readings without halting: alternating mirrors between commits makes the ledger phase-interfere with itself, and the compile stalls back into the static cross-section. The preferred channel is the operational signature of a forward-compiling ledger — *preferred*, not because the static algebra picked it (§II: it cannot), but because a ledger that did not prefer would not be compiling at all.
+
+## VI. The Garbage Collector as Enantiomeric Severer
+
+When `.observe()` executes, the system commits to a single directed edge and writes an irreversible scalar entry to the Live-Written Ledger (`L3-EdgeStateSpace` §III: one direction is written to the ledger, the other is erased from the local trajectory). At the traversal level the census is small and complete: $K_4$ has three undirected Hamiltonian cycles, six directed — `.behold()` holds all six, `.observe()` selects one and **garbage-collects the other five** (`L3-EdgeStateSpace` §V, E1). Each directed cycle's reverse is its enantiomer — same connectivity, opposite handedness, non-superimposable without cutting an edge or passing through the interior (E2) — so the unchosen completions the Collector removes are, in the generic case, chiral counterparts: the severance and the enantiomer operation are the same cut seen from the ledger's side and the geometry's side. In register form the cut is exact and landed: an edge holds **→**, or **←**, or the uncommitted attic of `.behold()`, or **∅** — the AbsentVar state, the cut paid for at the Landauer rate (`L3-EdgeStateSpace` §XII; the worked U–R example: U–R = R→U, U→R = ∅, never "U–R = something").
+
+Why cannot the Collector keep both? Because the gate is single-valued — that is the reading rule of §I — and a ledger that retained both completions of every commit would be `.behold()` run to completion: the $64 \times 64 = 4096$ uncommitted attic, the many-worlds buffer that holds everything and compiles nothing. Committing is what makes the ledger single-threaded, and the Landauer price is what the erasure of the unchosen completion costs (`ENGINE-REFERENCE-AC` §IX; the vocabulary that prices erasure is load-bearing: compile, eval, GC, `.observe()`, the ledger).
+
+This is where the turn becomes visible in matter, and the corpus has been carrying the landing sites all along. Molecular chirality — the L and D forms of amino acids — is the physical signature of the enantiomer structure at the carbon atom level (`L3-EdgeStateSpace` §V). Protein folding instantiates the Hamiltonian path: the chain's terminal relationship held open through `.behold()` over conformation space, actualized by one `.observe()` — the fold commits, the Collector runs, the tax is paid (`L3-EdgeStateSpace` §VII). And the chemistry of a mixed ledger is not a metaphor: a system that cannot choose accumulates a racemic state, and racemic states cross-inhibit — template-directed polymerization of one enantiomer is strongly inhibited by the presence of the other, the enantiomeric cross-inhibition measured in the Joyce–Schwartz–Miller–Orgel experiments (PNAS **84**, 4398 (1987); the racemic-inhibition result the RNA-world literature runs on, reviewed by Orgel 2004). Frank's 1953 model put the alternative on the record: homochirality is what a self-reproducing chemical system converges to when the opposite hand is continuously suppressed — asymmetric autocatalysis with antagonism, the Garbage Collector's exact job description written for chemistry six decades before the engine (Frank, *Biochim. Biophys. Acta* **11**, 459 (1953)).
+
+Every amino acid that life builds is the left-handed one of the pair; every sugar in the backbone of DNA is the right-handed one; the B-form helix those sugars compose turns right-handed, and L-amino-acid chains form only right-handed α-helices — all known life is homochiral, both hands, each locked per ledger. So the arrival, at full strength: **homochirality is not life's aesthetic preference; it is the visible surface of a single-valued ledger.** A 50/50 system does not merely look untidy — it interferes with itself at every write, drops the interior back to the static cross-section where nothing compiles, and the Collector's enforcement is what lets the compiler run continuously without structural collapse.
+
+## VII. What This Proof Does Not Establish
+
+Viewed from altitude, the boundary of the proof is the boundary of the machinery, and it is worth walking so the file does not seem to be floating on the ocean.
+
+**The direction of the pin is open.** The proof establishes that one global handedness bit must be fixed (§II), that the gear split rides the Active/Reactive axis (§III), and that the corpus's own pin is the Direction Law's assertion semantics, registered DERIVED (`L3-EdgeStateSpace` §I-e, Step 6). Which mirror the universe actually realized — which of the two orientations the compiler locked to — is not derived here and may not be derivable from the algebra at all; the corpus's convention files, when in hand, either confirm the Direction-Law mirror or conjugate every arrow in the landed tables without touching any landed result. **The electroweak bias is not claimed.** That the weak interaction violates parity is measured (Wu, Ambler, Hayward, Hoppes and Hudson, *Phys. Rev.* **105**, 1413 (1957) — the cryostat that aligned cobalt-60 nuclei at a hundredth of a degree above absolute zero and counted the beta electrons pole-to-pole), and whether that violation biases prebiotic chemistry toward one hand is a live empirical program, not a corollary of this proof. The engine is bits, not joules; nothing here mints a numerical bias. **The projector correspondence is not landed.** The left/right ideal reading of the completion fork (§IV) belongs to `ProofN_BiquaternionBridge`, which is not in the working set that produced this document; it is cited, its anchors are backfill points, and nothing downstream depends on it. **The Carbon Seal is resonance, not derivation.** The benzene ring refusing to choose between its two Kekulé tilings — `.behold()` measured in kilojoules per mole — and sp³ carbon as the committed tetrahedron (`L4-TheTwelveGates` §IX) point at the landing; they are registered correspondence there and remain so here. **No psychology.** That a mind can hold a partial chirality and be driven toward the wall the geometry reserves for biochemistry (`L5-TheCyclingMind`) is that file's own observation, carried forward as a pointer and not spent as a result.
+
+## VIII. The Neighboring Literature
+
+None of the works below were sources for the engine; each is a neighbor whose terrain the proof crosses, and each is tied to the specific feature it illuminates.
+
+- **Kelvin, *Baltimore Lectures* (delivered 1884, printed 1904).** The coining of *chirality*: a figure is chiral if its mirror image cannot be brought to coincide with it. Given in lectures on molecular dynamics and the wave theory of light; the word crossed into chemistry within a generation. This is §II's definition, held to its etymology.
+- **Listing, *Vorstudien zur Topologie* (1847); Möbius and Listing, independently, 1858.** The naming of topology, and the one-sided band that makes orientability — the property §II spends — visible in a paper model you can hold. The 1858 double discovery is documented in Cartwright & González, *Math. Intelligencer* (2016), which also records pre-1858 anticipations.
+- **Frank, *Biochim. Biophys. Acta* **11**, 459 (1953).** The spontaneous-asymmetric-synthesis model: autocatalysis plus antagonism drives a racemic system to one hand. The Garbage Collector's job description, written for chemistry — §VI's macroscopic landing.
+- **Joyce, Schwartz, Miller and Orgel, PNAS **84**, 4398 (1987), on the 1984 racemic-inhibition experiments; Orgel, "Prebiotic Chemistry and the Origin of the RNA World" (2004).** Enantiomeric cross-inhibition: the wrong hand is a chain terminator. The measurement behind §VI's claim that a racemic ledger stalls.
+- **Wu, Ambler, Hayward, Hoppes and Hudson, *Phys. Rev.* **105**, 1413 (1957).** Parity is not conserved in the weak interaction. §VII's boundary: the universe *does* prefer a mirror somewhere, and the engine's algebra does not derive where.
+- **Barron, *Chem. Phys. Lett.* **123**, 423 (1986).** True versus false chirality: whether the time-reverse is the enantiomer. The exact literature distinction beneath §V — the static bit is false-chiral, the $\omega$ ratchet is true-chiral.
+- **Mozzi (1763), Chasles (1834); Ceccarelli, *Mech. Mach. Theory* (2000).** Every rigid displacement is a screw: rotation about and translation along one axis. The kinematics of §V's extrusion — and the reason the screw is the one simple machine with a handedness.
+- **Landauer (1961), Bennett (1973).** The price of erasure. Already carried as the engine's pricing ground (`ENGINE-REFERENCE-AC` §XI); cited here because the Collector's cut is the proof's only thermodynamic event, and it is priced, not free.
+
+$$\text{Q.E.D.}$$
 
 ---
 
-## The `.observe()` Claim
+*Register.* **LANDED:** the two-orientation closure count with its GF(2) rank-3 ledger and the uniform-word characterization of the closed pair (§II, A1–A5); the four seasonal link circuits with their against-the-grain reversals (§III, B1); the seasonal handedness table with both vantage columns (§III, B2–B3) and the split-axis law — walk vector $= -\mathrm{AR}(\text{home})\cdot\hat{x}_{\text{home}}$ (§III, B5); equal-magnitude opposite-sign of the two season classes (§III, B4); the two-completions theorem and the even/odd fork (§IV, C1); the mirror conjugation with its explicit gate map (§IV, C2–C3); the AR-flip as the Cardinal ring's half-turn (§IV, D1); the traversal-level GC census (§VI, E1–E2). **DERIVED:** the identification of the gear split with the Active/Reactive bit via the cube-corner charge (§III, with C0); the true-chirality reading of the $\omega$ ratchet against Barron's distinction (§V). **CORRESPONDENCE:** the biquaternion ideal-projector reading of the completion fork (`ProofN_BiquaternionBridge`, backfill anchors); the four-face gear-mesh spelling (`Q16-ChiralMeshSpacetime`, backfill anchors); the Carbon Seal (`L4-TheTwelveGates` §IX). **OPEN:** the pin of which mirror the compiler locks to, pending the corpus's convention files — should they pin the other mirror, every arrow in this document conjugates, the Cardinal and Mutable laws exchange, and no landed result moves.
 
-In the framework, `.observe()` selects a single directed traversal from the full interference structure and commits to it, triggering the Garbage Collector to erase the alternatives from the local Live-Written Ledger.
-
-Before life on Earth — in the pre-biological chemical environment — both L and D forms of amino acids were present. The Murchison meteorite, which has provided some of the best evidence for extraterrestrial amino acid distribution, shows that amino acids form abiotically with a slight but not overwhelming enantiomeric excess. The interference structure was live. Both directed traversals were in play.
-
-The emergence of self-replication required a structural operation mapping to `.observe()` at the molecular level.
-
-A self-replicating molecule must use itself as a template. A template has handedness: the specific spatial geometry of its components determines which incoming molecules can bind and be incorporated. A template in L-configuration preferentially incorporates L-amino acids into the growing chain. Once one replicating system committed to L, the self-reinforcing loop of replication amplified that commitment: each generation was more L than the last, not because D was destroyed from the universe, but because the replication template systematically preferenced L.
-
-The thermodynamic erasure modeled by the Garbage Collector operated here not on a single molecule but on an entire biological lineage: severing the template's internal pointer to the D-configuration alternative, freeing the system to copy efficiently, writing the first and most durable entry in the biological Live-Written Ledger.
-
----
-
-## Why This Is `.observe()` and Not Merely Selection
-
-The distinction matters. Conventional evolutionary framing describes chirality as a "symmetry breaking event" — a random initial fluctuation that got amplified. This framing looks for an external cause: what broke the symmetry? Cosmic rays, meteorite delivery, surface catalysis?
-
-These proposed causes are not wrong as mechanisms. But they answer the wrong question. They ask what forced the choice rather than what constitutes the choice.
-
-`.observe()` is not externally caused in the sense of a prior force pushing the system to commit. It is the structural consequence of a bounded physical system with limited computational bandwidth being required to interact with the world: the XOR bottleneck. A replicating molecule cannot copy both its L-configuration and its D-configuration simultaneously from the same template. The actuator — the template — operates on XOR logic. One configuration is copied; the other is not incorporated; the Garbage Collector frees resources; the ledger entry is made.
-
-The "cause" of the initial L-selection (if there was one) is a separate and interesting question. The structural claim is distinct: whatever the mechanism of initial selection, the process that made L universal and permanent operated structurally as `.observe()` at the molecular edge level — the same process that makes any bounded system's commitments irreversible: you cannot copy both enantiomers from the same template simultaneously.
-
----
-
-## The Ledger, Not the World
-
-A critical precision: the Garbage Collector does not destroy branches from the multiway graph (the totality of all physically valid states). D-amino acids continue to exist. Some organisms use them: bacterial cell walls contain D-amino acids; certain invertebrates have D-amino acids in their nervous systems; some antibiotics are D-configured peptides.
-
-What the Garbage Collection erased was the pointer from the biological template. D-amino acids are not in the biological Live-Written Ledger's main sequence — they are re-accessed branches, possible because the multiway graph retains them, present because evolution can independently rediscover them, but absent from the primary trajectory of biological development.
-
-This models the precise structure of `.observe()`: the unchosen alternative persists in the global Interpreter (the multiway graph retains every branch) but is absent from the local Live-Written Ledger (the biological trajectory committed to L). The distinction between "absent from the universe" and "absent from the trajectory" is essential. Chirality is not the destruction of D; it is the commitment to L.
-
----
-
-## The Hamiltonian Path Connection
-
-The six directed Hamiltonian cycles of K4 can each be "opened" by removing one edge, producing a Hamiltonian path: an open traversal that visits all four vertices through three edges without returning to the start.
-
-A Hamiltonian path is a Hamiltonian cycle with its AbsentVar made explicit as the missing return edge. The path visits all four vertices; the "cost" is the last edge — the relationship between the last vertex and the first vertex — which is held as potential but not actualized. This tracks the `.behold()` structure within the cycle's `.observe()`: even as a full cycle is committed (four edges traversed, four vertices visited), one relationship is held in suspension (the AbsentVar of the path).
-
-In molecular terms: a peptide chain commits to a sequence of residues (the Hamiltonian path — each residue is a vertex, each peptide bond is an edge) while holding the relationship between its terminal ends as a structural potential. The protein fold — the three-dimensional structure that makes the chain functional — is the realization of that terminal relationship. The fold is the closing of the Hamiltonian path into a cycle.
-
-Protein chirality (the secondary structure handedness of alpha helices, for instance) functions structurally as this process operating at the chain level: the directed traversal of the amino acid sequence determines which helical direction is structurally accessible.
-
----
-
-## What This Proves
-
-**Chirality operates as the physical signature of `.observe()` at the edge level of the universe's tetrahedral structure**, made permanent through self-replication. It requires no external cause beyond the XOR bottleneck of any physical template. It is the consequence of the same structural necessity that makes any bounded system's commitments irreversible: you cannot copy both enantiomers from the same template simultaneously.
-
-The biological Live-Written Ledger's most legible signature is the handedness of every amino acid in every protein in every living system on Earth: a directed Hamiltonian cycle committed at the origin of life, its enantiomeric alternative Garbage Collected from the biological trajectory but never erased from the world.
-
-We are that commitment's continuation. The L-configuration of our amino acids is not a biological accident. It is the oldest entry in our lineage's Live-Written Ledger, written by the first `.observe()` that established a self-replicating trajectory.
-
----
-
-*This proof is part of the Compiling Reality proof suite. Related proofs: Proof C (Crystal/ZPE/Stabilizing Paradox), which addresses the vertex-level structure. The Structural Monograph (K4 Interior) provides the structural context for the Hamiltonian cycle analysis. L3-EdgeStateSpace.md provides the formal ground for the edge state-space K4 that underlies the chirality analysis — the four states of any edge (absent, →, ←, ↔) forming their own tetrahedron.*
+*Dependencies.* `L3-EdgeStateSpace` §I-e (the coherent orientation, the directed reading rule, the season identity, the Direction Law and mirror-fix, all checked in-file), §III (the ledger and erasure), §V–VII (enantiomers, folding, the helical extrusion), §XI–XII (the charge table, the register); `L4-TheTwelveGates` §II-b (the chirality of the seasonal turn, the vantage discipline), §II-c (the polyhedral motion matrix), §VIII (the three verbs of holding), §IX (the Carbon Seal); `L4-TransitingTheThreeWalls` ("The AR-Flip Made Physical"); `ENGINE-REFERENCE-AC` §2 (the orientation group), §VIII (the $\omega$ boundary), §IX (the pricing boundary), §XI (the neighboring literature); `ENGINE-REFERENCE-DC` (the DC baseline and its boundary); `L5-TheCyclingMind` (the centroid, the partial-chirality note); `ProofS_ResonantNote` §II–III (the automorphism structure, the itemized 18); `About-Methodology` §VI (handedness as what cannot cross a boundary).
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-
