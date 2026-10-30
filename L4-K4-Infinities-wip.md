@@ -191,7 +191,40 @@ The reductio that settles it is internal: the seed's own Ripple 3 states the pro
 1. `QED-CCP` §VI assigns the Casimir shift to the **stress sector**: *"the Casimir effect is a boundary pressure, not a volume energy."* `L4-ThePlenum` §II.4 says the same from the medium's side: *"extractions from this reactive content… the free medium remains lossless throughout."* **This is the deviation and all the risk lives here.**
 2. **Given** that assignment, Laue closes it for free: a boundary pressure, integrated over a static bound system, contributes nothing.
 
-So Laue is step two, not step one. The proton and the cavity differ in which sector the energy sits in, not in whether the theorem applies. That is a subject-shift reconciliation in the sense `llm-writing` describes, and it makes Archimedes a clean test of exactly one claim.
+So Laue is step two, not step one. The proton and the cavity differ in which sector the energy sits in, not in whether the theorem applies.
+
+### 2.4.a The two-step framing, corrected a second time — and the labelling was backwards
+
+The structure above held for one pass and then failed on inspection, and the failure is worth more than the fix.
+
+**The error:** the two-step was presented as *"only the first step can be wrong, the second is a theorem and costs nothing."* That is technically true and functionally misleading. If step one does all the work, step two is decoration, and advertising a theorem in the structure makes the claim look better supported than it is — which is exactly the critique accepted against the drafter's original version, rebuilt with the placement moved.
+
+**Worse: the labelling was inverted.** Step one — *the shift is a boundary pressure, not a volume energy* — is not a modest premise. It **contests the standard computation of the Casimir stress tensor**, which populates the energy component with a definite calculated value, $u = -\pi^2\hbar c/720a^4$. Denying the calculation is a *heavier* claim than accepting it and denying its gravitational sourcing. The Laue route is therefore the **stronger and less defensible** reading, and it was presented as the free one.
+
+**The tell, which is the part to remember:** I had diagnosed this exact error two turns earlier in the same session — *"Laue zeroes the second group. What remains is $\int T^{00}$ — which includes the Casimir energy. The theorem delivers $\Delta m = E_C/c^2$, not zero"* — and then reached for the theorem again once a placement claim made it applicable. **Reaching for an argument because of what it delivers rather than what it establishes.** The author caught it from the summary sentence alone, which means it was visible from outside.
+
+**The repair, which keeps both arguments on the author's instruction and is better for it.** Both are retained in Part Three §VII, labelled by weight rather than by order:
+
+- **The bet:** the register split alone. Accepts field theory's computation, denies that the uncommitted sector sources gravity. One sentence, contradicts GR, and Archimedes tests it.
+- **The stronger reading:** pure boundary pressure plus Laue, which would give the same prediction *without* the register split — and which contests the stress-tensor computation to do it.
+
+They are not two supports for one conclusion. **The first accepts the sector assignment and denies the sourcing; the second denies the sector assignment.** Only one of them is the bet.
+
+Keeping both earns its keep as a route inward: the weighing argument is concrete and a reader who wants to know *why* the committed sector behaves this way is pointed at `Q4-OpenExhaust`, where the star-norm derivation of the $P$-edge ban actually lives. The Casimir question is where that abstract result touches a balance.
+
+### 2.4.b The energy accounting — strain candidate retired
+
+My first repair proposed that the work done separating Casimir plates shows up as **strain energy in the mechanical structure**, which is committed, sits in the energy component, and weighs — so the books close with the balance carried by the mechanical sector.
+
+**Retired, because the author's direction rule does it without hiding anything.**
+
+The committed register is write-only — `Q4` establishes it four ways: the $P$-edges are *writing heads*, the committed scalar carries no phase and so cannot propagate as a wave, the squaring that produces it is non-invertible (`ProofO` §8), and the result cannot interfere or be reversed. A ledger that emitted would break all four.
+
+So the work does not need a mechanical hiding place. It goes into the **reactive** field, exactly where field theory says it goes, and the reactive channel is *returnable by construction* — stored and returned each cycle, which is what the vacuum's hum already is. Release the plates and it comes back as motion, which then commits. **No entry was ever made in the ledger, so none needs unmaking.**
+
+This is strictly better than the strain candidate: it does not require the energy to be somewhere other than where it is measured to be, and it needs no new mechanism. The claim reduces to the register split, stated once.
+
+And it sharpens the prediction into something directional rather than a null: **committed energy pushed across the firewall into the uncommitted sector reduces gravitational mass.** Battery lighter by $W/c^2$, cavity not heavier, total down. Archimedes, modulating field energy across a superconducting transition, is running that experiment in miniature.
 
 ### 2.5 $P = \mathbf{F}\cdot\mathbf{v} = 0 \Rightarrow \Delta P = 0$ — **struck**
 
@@ -202,6 +235,54 @@ Power is a flux in watts; $P$ as the committed ledger is a stock, and rest mass 
 The $3$ comes from $H^2 = 8\pi G\rho/3$ — the Friedmann equation, a factor in the Einstein field equations, already derived. Equipartition assigns $\tfrac12 kT$ per degree of freedom, which is a thermal energy statement and not a power-flux statement. A second explanation for a number that already has one.
 
 Recorded because the same move was correctly refused two sections later in the same document, over the factor of 4 in the blanket ratio. Catching a pattern in one place and committing it in another, within one pass, is worth remembering as a failure shape rather than an incident.
+
+### 2.7 $T_n = T^n$ as the nesting law — **struck, and this is the one place the construction was wrong rather than owed**
+
+*Claim:* nested boundaries compose multiplicatively, so $n$ layers transmit $T^n$, and four layers reach a part in $10^5$. Windowlessness is depth.
+
+*Why it failed, and it failed on the construction's own premise.* An impedance step **reflects**. It does not absorb. Power that fails to cross the first boundary has not left the system — it is bouncing, and some of it leaks onward at every encounter. Multiplying transmittances counts only the direct path and discards every multiply-scattered one, and with $97\%$ reflection those paths carry almost everything.
+
+$T^n$ is the composition law for *attenuators* — neutral-density filters, each absorbing a fixed fraction. Absorption is exactly what *the free medium remains lossless throughout* forbids. **The two premises were mutually exclusive and the file held both.**
+
+For $n$ identical lossless interfaces combined without fixed phase relationships, the quantity that adds linearly is $R/T$ — the same way series resistances add — giving
+
+$$T_n = \frac{T}{\,n(1-T) + T\,}$$
+
+```
+T = 0.056711   R = 0.943289   R/T = 16.6331
+
+ n     lossless T/(nR+T)      absorptive T^n        ratio
+ 1     5.671137e-02           5.671137e-02          1x
+ 2     2.918319e-02           3.216179e-03          9x
+ 3     1.964658e-02           1.823939e-04          108x
+ 4     1.480766e-02           1.034381e-05          1432x
+ 8     7.459058e-03           1.069944e-10          7e7x
+ 25    2.399067e-03           6.946297e-32          3e28x
+
+two-interface explicit bounce sum  = 0.029183194078878405579
+closed form T/(2R+T)               = 0.029183194078878405579   (agrees to 20 digits)
+layers to reach 1e-5:  lossless 6012   absorptive 4
+```
+
+The verification that settles it: the closed form reproduces the explicit multiple-bounce sum $T^2/(1-R^2)$ exactly, and $(1-T_n)/T_n = n(R/T)$ holds to the last digit — the signature of a series-resistance composition.
+
+**And the number that matters is not 6012; it is 25.** A nested span of 25 rungs offers 25 boundaries, and the lossless law puts isolation there at $0.24\%$. Depth of the kind the structure actually has does not seal. "Thousands of layers" is not an inconvenience, it is an unavailable resource.
+
+*Where this collides with the file's own instrument.* §7 of this file carries **"series-impedance combination rule — flagged debt — the AC extension's series/parallel topology across rungs."** The debt was logged against the cosmological row of a retired table, and the prose then spent the same undischarged rule in the blanket section. That is worse than getting a cascade law wrong: the instrument that should have caught it was already pointing at it. A flagged debt is only useful if somebody checks whether the file is leaning on it.
+
+*And a hole in the kill conditions.* KI-5 as originally written guarded the single-layer transmittance — *"exceeding $8\alpha$ per layer."* Nothing in it touched the composition rule, which is where the error actually was. Every number in this finding uses the file's own $T$. The parent's KI-5 now carries a second clause for exactly this.
+
+*What would revive $T^n$, with a mechanism rather than an assumption.* The region between two nested boundaries is not empty medium — it is a bounded frame's interior, and a bounded frame pays $I^2R_{\text{drag}}$ continuously to hold itself against the medium. **The medium is lossless; the frames in it are not.** Power trapped between layers is trapped inside something that commits, and committing is absorbing. If that channel takes everything that enters, multiplication returns, and returns with a derivation.
+
+So the honest state is **three candidate laws spanning orders of magnitude at modest depth**, selected by one question nobody has answered:
+
+- **Lossless, incoherent** — power bounces freely, $1/n$, verified above.
+- **Absorptive** — the inter-boundary interior commits what enters, $T^n$ returns.
+- **Coherent** — depends on spacing against wavelength, and splits. At resonance a two-mirror stack transmits nearly everything, which is a Fabry–Pérot cavity and is *more* transparent than one mirror alone. Away from resonance the same structure attenuates exponentially, which is what a Bragg reflector does in its stopband. Coherence does not uniformly help or hurt; it makes the answer frequency-dependent.
+
+**The open question, stated at the right size:** how much does a nested interior commit per pass? Everything between $1/n$ and $T^n$ turns on it, the structure has the mechanism, and nobody has computed the coefficient.
+
+*What it costs the monad reading.* Leibniz's *coordination* claim is untouched — co-addressing supplies the mechanism his pre-established harmony stood in for, and that argument never involved transmittance. The *windowlessness* claim is now owed. One boundary at $5.7\%$ is not windowless and neither are four under the lossless law. Windowlessness becomes available only if the interiors commit, and then it arrives with a mechanism, which would be the stronger result. Until then the Leibniz reading is carried on the coordination half alone, and the parent says so.
 
 ---
 
@@ -236,19 +317,13 @@ The parent's v2 dependency block and §IX.3 both cite `L4-ScalingInvariants` for
 
 Things that are genuinely unfinished, with enough detail that someone could pick each one up cold.
 
-### 4.1 The blanket's coherence condition
+### 4.1 The cascade law — superseded; see §2.7
 
-The exponential isolation $T_n \sim (8\alpha)^n$ assumes **incoherent / random-phase stacking**. Coherent nested layers at matched spacing transmit to unity — that is what every quarter-wave stack and every Fabry–Pérot cavity does.
+This section previously worried about the *coherent* case and concluded that exponential isolation "holds under incoherent / random-phase stacking." That conclusion was wrong, and wrong for a reason this file had every tool to catch.
 
-```
-exact T = 8a/(1+2a)^2 = 0.0567114
- n=1  T^n = 5.671e-02   isolation 94.328863%
- n=2  T^n = 3.216e-03   isolation 99.678382%
- n=3  T^n = 1.824e-04   isolation 99.981761%
- n=4  T^n = 1.034e-05   isolation 99.998966%
-```
+The full finding is at **§2.7**. The short version: $T_n = T^n$ is the composition law for *absorbers*, and an impedance step reflects rather than absorbs. For lossless interfaces the law is $T_n = T/(n(1-T)+T)$, which falls as $1/n$ — so the error was not a caveat about the coherent case but a wrong law in the case the section thought it had secured.
 
-So the windowless-monad claim needs the incoherence condition stated, or it is false for exactly the resonant cases where an instance would most want to be sealed. **Open question worth asking directly:** is there a structural reason why nested $K_3$ blankets *cannot* be coherently phase-matched? If the answer is yes, the isolation theorem gets much stronger and the condition stops being a caveat. If no, then a deliberately phase-matched nested structure is a transparent interior, which is a strange and possibly interesting object.
+The open question this section was reaching for survives in better form and is recorded in §2.7: what happens to the power trapped between layers, and whether the interiors between nested boundaries commit it.
 
 ### 4.2 The Wilson loop's routing
 
@@ -276,6 +351,56 @@ The parent now states that $\mathcal{T}_{AB}$ is evaluated in $H_{\text{incoh}}$
 
 **Note for future passes:** this is a placement claim, not a derivation. The port's operations are written as algebra on $Z_A$ and $Z_B$, and the sentence that places them in the medium is doing load-bearing work no equation does. If anyone later asks *where* an anticommutator of two instance states is evaluated, as a physical question rather than a bookkeeping one, the answer will need more than the placement sentence. Flagging it now so the question is not a surprise.
 
+### 4.6 Bits against quadrupole acceleration — the highest-value target in the set
+
+The Laue-to-quadrupole identity (§6.4) is currently a **correspondence**: two vocabularies matched term by term, each checkable in its own language, neither deriving the other. What would lift it to a result is an equation, and the Laue integral is the one place in the construction where the two currencies meet.
+
+The standing debt it would pay is old and explicitly logged. `L2-Terminology` §7, under *The Thermodynamic Conversion Operator*: the mass defect is claimed as the receipt of Landauer erasure, and **"the operator converting bit-erasures into MeV remains unwritten"** — eight orders of magnitude, filed as an asserted debt.
+
+Here is why the Laue integral is the meeting point:
+
+$$\underbrace{\int T^{ij}\,d^3x = \tfrac12 \ddot{I}^{ij}}_{\text{an energy}} \qquad\qquad \underbrace{P_{\text{GW}} = \frac{G}{5c^5}\big\langle \dddot{Q}_{ij}\dddot{Q}^{ij}\big\rangle}_{\text{a power}}$$
+
+The **second** derivative of the quadrupole moment is an energy — the size of the Laue defect, which is the size of the write. The **third** gives the power radiated. One derivative separates the magnitude of a commitment from the rate it is paid out, and both are built from the same moment. So the dimensional mismatch the corpus has been carrying is not a gap between unrelated quantities; it is a gap of one derivative, in a place where both derivatives of one object are already named.
+
+The candidate relation, with the dimensional check done:
+
+$$N_{\text{bits}} \cdot k_BT\ln 2 \;\;\overset{?}{=}\;\; \tfrac12\,\big|\ddot{I}^{ij}\big|$$
+
+Energy on both sides. **If it holds, bits become a derived quantity** rather than an imported one — the number of branches a commitment erases is its quadrupole acceleration divided by the local price of erasure — and the unwritten operator becomes a statement about stress rather than a promissory note.
+
+What it owes, as a programme rather than an excuse:
+
+1. **Is the Laue defect the energy spent, or only a measure of the stress imbalance accompanying the spending?** This is the load-bearing question and I do not know the answer. The identity is exact; the identification of one side with a thermodynamic cost is not.
+2. **Which temperature sets the price?** Part One §II establishes that the floor is set by whatever noise source makes before and after distinguishable, and that is not automatically a thermal bath. For a nuclear commit it is not $300$ K; `Q17` §VII makes the same correction about reading $T \to 0$ off a deconfinement scale.
+3. **Does it hold at both ends?** In a laboratory system the quadrupole is computable and the gravitational power is absurdly small. At the horizon, Part Three §VI finds the write power and the gravitational-wave luminosity scale are the same constant to a factor of order one. **That coincidence is either the relation showing itself where the magnitudes are large enough to see, or it is the unit doing what units do.** Settling which is worth more than anything else open here.
+
+Flagged as the shape to be suspicious of: this closed quickly, and it used the Dyson-luminosity observation that was already in the file. Per §6.2's own heuristic, it should be derived from outside this construction before it is believed. It is carried as a target with a dimensional check, not as a candidate result.
+
+**And it would buy something beyond itself, which raises its value.** `Q4-OpenExhaust` §II proves the $P$-edge ban at zero frequency and then logs its own unfinished business in terms specific enough to be a brief:
+
+> **On the LIGO chafe — routed to $P$, not resolved here.** The zero-impedance result above holds at $\omega = 0$… **Earlier drafts attempted to close the gap by importing reactive storage ($L$, $C$) onto the $P$-edges and calling gravitational radiation an "AC-face discharge" of the $P$-edges. That resolution smuggles dimensional/circuit constants into what should be a topological argument, and it does not in fact close the gap — it relocates it.**
+
+The requirement was therefore stated in advance: an account of the committed sector above zero frequency that imports no circuit constants and puts no impedance on the ledger's edges. The rejected route failed for a reason the ban itself supplies — reactance introduces transit time by construction, and transit time is precisely what the star-norm proof forbids there.
+
+The Laue identity meets that specification. It comes from $\partial_\mu T^{\mu\nu} = 0$ and nothing else: no $L$, no $C$, no $\omega$, no impedance assigned anywhere. And it is **instantaneous** — both sides at the same moment, with no interval in which $|\mathbf{Q}|^2$ has fallen and $P^2$ has not yet risen. Which is exactly the property the $L$–$C$ route could not have.
+
+So the candidate reading is: **the write above zero frequency is the quadrupole term, and there is no carrier because there is no transit.** The identity is local and simultaneous, not a propagation. What LIGO measures is the ledger being written; nothing mediates it, for the reason Q4 gave at $\omega = 0$, now available above it.
+
+Offered as a candidate and as strong as the correspondence it rests on — structurally right, not yet quantitative. Which means the §4.6 target is worth more than it first appeared: closing it would also close a chafe Q4 queued and specified.
+
+**Live corpus-internal conflict, logged.** `L3-K4-to-K5-via-AC-Extension` §IV asserts the rejected reading outright: *"Gravitational radiation is the $L$–$C$ discharge of the $P$-edges at $\omega > 0$; static curvature is the DC face of the same edges."* Q4 §II names that resolution and rejects it as smuggling. **Two files disagree and Q4 is the one that explains why.** The AC extension's §IV sentence needs retracting or defending; it should not sit unmarked while Q4 carries the chafe as open.
+
+### 4.7 The sharing reading of the DESI hint — quarantined on arrival
+
+One channel at fixed power, shared among however many regions draw on it, gives each region a share that falls as the number of drawers grows. If regions are being created over cosmic history, our share falls, and a falling share reads as dark energy weakening over time — which is what DESI hints at.
+
+That is a mechanism for branch (b) of the fork, assembled from two things already in the parent, and it closed on the first attempt.
+
+**Which is exactly the signature §6.2 names as the one to distrust**, so it goes in the box rather than into the argument. It may be right. What would move it out: an independent estimate of how many regions could be drawing, derived from something other than the fit it is explaining; and a check that the implied rate of change is consistent with the $2.8$–$4.2\sigma$ magnitude rather than merely the same sign.
+
+Recorded also because it sharpens the three-way coupling in the parent's §VIII. The fork's branch (a) requires the number of drawing regions to be effectively constant over observable history; PR-25-1 requires branch (a); and the sharing result is the one thing in the set that would produce a *changing* share. The file cannot have a constant write, a pinned scale-span, and an actively multiplying ensemble at once, and that is informative rather than embarrassing.
+
 ---
 
 ## 5. Decision Record
@@ -287,7 +412,27 @@ R_K/Z0 = 1/(2a)   rho =  68.5180  |G| = 0.971230  T = 5.6711%  (~8 alpha)
 2/alpha           rho = 274.0720  |G| = 0.992729  T = 1.4489%  (~2 alpha)
 ```
 
-**Consequence worth recording:** the change is not a figure swap. At $5.67\%$ a single blanket is not windowless, so the claim moves from *a blanket is sealed* to *nesting seals*. That is a better claim — it matches `L4-RecursiveLimits`' nested-cuts architecture and gives the Leibniz citation something structural to stand on instead of a single-interface coincidence.
+**Consequence worth recording, and then corrected:** the change is not a figure swap. At $5.67\%$ a single blanket is not windowless, so the claim moved from *a blanket is sealed* to *nesting seals*.
+
+**That second claim then fell too, and §2.7 is why.** *Nesting seals* was carried on $T_n = T^n$, which is the wrong composition law for lossless interfaces. Under the right law, nesting attenuates as $1/n$ and does not seal at any depth the structure offers. So the claim has moved twice, and now sits at: **a single boundary reflects $97\%$; nesting attenuates further; how fast is undetermined between $1/n$ and $T^n$, pending a computation of how much a nested interior commits per pass.** The parent carries it at that size and the Leibniz windowlessness half is owed rather than claimed.
+
+Worth noting what the sequence shows: two successive corrections in the same section, each one following from taking the losslessness of the medium more seriously than the previous version had. The premise was never in doubt; what it implied was, twice.
+
+**The no-outside ontology → sourced to the whole, not to the medium.** The correction that mattered most in this pass, and it came from the author in four sentences.
+
+The slip was in Part One's fourth property, which read: *the medium has no outside, because whatever an outside were made of would have to be more of the same.* That attributes *no-complement* to a **kind of stuff** — and stuff comes in portions, which quietly licenses many such places, each with no outside of its own. That licence is what produced an apparent fork in the write-head's location (one channel per region, or one shared?) and the fork consumed a turn being adjudicated.
+
+It was never a fork. **The only thing with no outside is the whole**, bounded by a single-sided boundary — a surface with an inside and no exterior, the surface from which the orthogonal turn is made. There is exactly one of it because that is what the words mean, and nothing that contains everything comes in multiples. A pocket universe is not a second universe with its own everything; it is an extrusion from the one.
+
+And it has two faces, which is the part that is easy to lose. From the whole: **no outside.** From inside any bounded thing: **no inside** — a throat, a puncture you cannot enter, with the bounded thing standing as its outside. Same place, two vantages; geometry gives the second, the writer's vantage gives the first, and Part Three §IV already had this right while Part One §V did not.
+
+Three things follow and all three are now in the parts:
+
+- The write seats at the one place, **reached through every throat**, so there is no distance between a centroid and the write-head and no mechanism needed for writes to propagate anywhere. Homogeneity stops being a claim and becomes a restatement.
+- **One place, therefore one channel**, which is what bars the unbounded ensemble. The fork dissolved rather than being resolved; the separate horn was an artifact of the substance-reading.
+- The place described here and the keystone's ultimate boundary are **one object**, which the medium-sourcing had obscured. *The inside of every atom has access to it* and *every interior crossing is an image of the ultimate* are one statement.
+
+Recorded as a method note: a slip in how a property is **attributed** — to a substance rather than to a whole — generated a spurious fork two parts downstream and cost real work to adjudicate. Attribution errors propagate further than magnitude errors and are harder to see, because nothing in them is numerically wrong.
 
 **Title → drop "and the 25-Rung Bandpass Closure."** The file advertised its most fragile claim in its subtitle. After quarantine there is nothing to advertise.
 
@@ -380,26 +525,44 @@ Most files owe one direction. This one owes both, **because its central move is 
 
 The general rule, offered for whatever file next makes a claim of that shape: *where the argument is that an external result and a corpus structure are one object, every external result gets a one-sentence statement of what it says in standard terms before the corpus reading is applied, and every corpus term gets the same in reverse.* No bare citations on either side. A physicist who stops at the first unglossed corpus term has stopped before the argument starts; a corpus reader who stops at "Tolman mass" has done exactly the same thing from the other direction, and neither will report it as the reason they stopped.
 
----
+*Executed in the repour.* Laue, the $4/3$ problem, the Komar and Tolman masses, the Dyson luminosity, Unruh and Gibbons–Hawking, Fabry–Pérot and Bragg, Nash embedding, the Wilson loop, Onsager and Casimir reciprocity, the Hall and Righi–Leduc effects, and the gyrator all now carry one standard-terms sentence at first use. The corpus side — $h\mathbf{Q}$, the committed scalar, `.behold()`/`.observe()`, the Landauer tax — carries the same in reverse.
 
-## 7. Open Items Inventory
+### 6.7 Seeing half of something, and the shape of that
+
+The cascade-law error (§2.7) is the sharpest method lesson in this pass, because **this file looked directly at it and caught the wrong half.**
+
+§4.1 as originally written worried about the coherent case — Fabry–Pérot transmits to unity — and concluded the law was safe "under incoherent / random-phase stacking." It was not safe there either. The worry was real, the diagnosis was adjacent to the error, and the conclusion drawn was the one that let the wrong law survive.
+
+What makes it instructive rather than merely embarrassing: **a correctly identified neighbouring problem can function as cover.** Having flagged *a* condition on the law, the section read as having audited the law. The flag was honest and its presence is what stopped anyone looking further. A caveat that does not close is sometimes worse than no caveat, because it occupies the chair an audit would have sat in.
+
+The tell, available in hindsight and visible in the file's own text: the error was derivable from a premise stated three paragraphs away. *The free medium remains lossless throughout* and *transmission composes multiplicatively* cannot both hold, and both were on the page. **Two premises in one section that contradict each other is a thing to grep for, and nobody greps for it, because each one looks right where it stands.**
+
+Related, and worth filing beside it: §2.6 records the drafting side catching the equipartition gloss in one place and committing the same move in another within a single pass. Same family. A pattern recognized is not a pattern defended against, and the gap between the two is where this kind of error lives.
 
 | Item | Status | Owed |
 |---|---|---|
 | $N = 25.0265$ rung count | OPEN VOTE, quarantined | A derivation that does not refute `L3-TheAtomOfSpace` §VI |
 | Rung step $2/\alpha$ beyond Gen-1 Mutable | Blocked | Bimedian-specific Laurent shapes for Cardinal and Fixed crossings |
-| Agency stationary point | OPEN | Transmission law derived from the port algebra |
+| **Nesting cascade law** | **OPEN — undetermined between $1/n$ and $T^n$** | **How much a nested interior commits per pass (§2.7)** |
+| Leibniz windowlessness half | Owed | Follows the cascade law; the coordination half stands |
+| **Bits $\leftrightarrow$ quadrupole acceleration** | **TARGET — dimensionally checked, not derived** | **Whether the Laue defect is the energy spent; which temperature prices it (§4.6)** |
+| Agency stationary point | OPEN, bet placed (not $45°$) | Transmission law derived from the port algebra |
 | Wilson loop $\neq \mathbf{1}$ | OPEN construction | A canonical $g_{AB}$; a loop with a stated carrier |
-| Blanket coherence condition | OPEN | Whether nested $K_3$ blankets can be phase-matched |
 | $1/4$ duty cycle $=$ Bekenstein $1/4$ | CANDIDATE | An argument that an area coefficient and a time fraction are one object |
-| Casimir $T^{00}$ placement | The deviation | Archimedes |
-| $(a)$/$(b)$ dark-energy fork | Pre-registered | DESI remaining releases, Rubin, Roman |
-| $\rho_\Lambda$ from $Z_0$-maintenance | Pre-registered | The medium's mode spectrum |
-| Series-impedance combination rule | Flagged debt | The AC extension's series/parallel topology across rungs |
-| Scale index $k$ / Postulate V cite | Stale address | Re-point or drop |
-| Epistemic Rubric placement | Undecided | Author's call on consolidation |
+| Casimir sector assignment | The bet is the register split; now KI-6 in the parent | Archimedes |
+| **Q4's LIGO chafe at $\omega > 0$** | **CANDIDATE resolution via the Laue identity** | **The §4.6 relation; see §4.6's closing** |
+| AC extension §IV vs Q4 §II | **Live corpus conflict, logged** | Retract or defend the $L$–$C$ discharge reading |
+| Direction rule (reversal reactive only) | Adopted into Part Three §V | — |
+| $(a)$/$(b)$ dark-energy fork | Pre-registered, three claims coupled | DESI remaining releases, Rubin, Roman |
+| Sharing reading of the DESI hint | QUARANTINED on arrival | An independent estimate of drawing regions (§4.7) |
+| $\rho_\Lambda$ from $Z_0$-maintenance | Pre-registered, owed twice | The medium's mode spectrum; also closes §V's circularity |
+| $p = -\rho c^2$ from pre-filled volume | Postulate traded for postulate | Entry two above; the reframe is what it buys |
+| Series-impedance combination rule | Flagged debt — **was spent while flagged** | The AC extension's series/parallel topology across rungs |
+| Scale index $k$ / Postulate V cite | Stale address, dropped from the parent | — |
 | Port evaluation locus | Placement stated | A derivation, if the question is ever pressed |
 | Coincidence problem ($\rho_\Lambda \sim \rho_m$ now) | Declared unaddressed | — |
+
+**Closed in this pass.** The no-outside attribution (sourced to the whole; §5). The write-head's locus and the apparent fork (dissolved, not resolved; §5). The Epistemic Rubric's placement (compact datasheet in the parent, manual cited out). The blanket's single-layer ratio. KI-5's composition clause and KI-6's elevation of the deviation.
 
 ---
 
@@ -425,12 +588,24 @@ print(log(RH/lP), step)                       # 140.294218  5.613391
 print(4*3, 5*4, 20*step/log(10), 25*step/log(10), log(RH/lP)/log(10))
 # 12  20  48.76  60.95  60.93
 
-# blanket, both ratios
+# blanket, both candidate ratios
 for rho in (RK/Z0, 2/alpha):
     print(rho, (rho-1)/(rho+1), 4*rho/(1+rho)**2)
 # 68.5180  0.971230  0.0567114   |   274.0720  0.992729  0.0144888
-T8 = 8*alpha/(1+2*alpha)**2
-print([T8**n for n in (1,2,3,4)])             # 5.671e-2  3.216e-3  1.824e-4  1.034e-5
+
+# the two cascade laws (see 2.7): lossless series vs absorptive product
+T = 8*alpha/(1+2*alpha)**2; R = 1 - T
+print(T, R, R/T)                              # 0.0567114  0.9432886  16.6331
+for n in (1, 2, 3, 4, 8, 25):
+    print(n, T/(n*R + T), T**n)
+# 1   5.671137e-02   5.671137e-02
+# 2   2.918319e-02   3.216179e-03
+# 3   1.964658e-02   1.823939e-04
+# 4   1.480766e-02   1.034381e-05
+# 8   7.459058e-03   1.069944e-10
+# 25  2.399067e-03   6.946297e-32
+print(T**2/(1-R**2), T/(2*R + T))             # 0.029183194078878  0.029183194078878  (identical)
+print((T/mpf('1e-5') - T)/R, log(mpf('1e-5'))/log(T))   # 6012.03   4.01   layers for 1e-5
 
 # write power, Dyson ladder, clock
 PP = c**5/G; rho_dS = 3*c**4/(8*pi*G*RH**2); dVdt = 4*pi*RH**2*c

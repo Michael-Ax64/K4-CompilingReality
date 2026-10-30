@@ -64,6 +64,9 @@ Addition composes only within a pole-class. It assembles a pole from its own rea
 **The Stamp and the Die** [NEW]
 The formal roles of the division operation. The dividend is the Stamper: the active drive being allocated (always $P$ or $U$). The divisor is the Die: the structural constraint shaping the drive (always $I$ or $R$). The quotient is the Stampled: the joint signature. The stamper leads, the die shapes, and the arithmetic forces the orientation.
 
+**Soficity\*** [NEW]
+See `L3-SoficityStar.md` for the full definition. Bare *sofic* keeps Gromov–Weiss's meaning. **Sofic\*** applies the same test — a structure, a class of finite models, a normalized defect, a verdict — to any declared pair. Every use owes two names: the structure, and the model class it is approximable by or outruns. **Floor rule:** a finite structure is its own perfect model, so nothing finite is non-sofic\* in any sense. **Two walls, kept apart:** *non-sofic\** is the approximation wall (finite models cannot build the inside); *non-readable\** is the readout wall (Laue, Noether, Weyl — the boundary carries less than the inside holds). In the corpus's register, permutation models work in the ledger's register (bit-counting), unitary models in the buffer's (phase); whether phase-bearing models reach what bit-counting cannot is the ledger/buffer asymmetry stated as mathematics.
+
 **Threefold image (the realm's image of the orthogonal source)** [NEW]
 The structural account of why the threefold-godhead intuition recurs across cultures. The centroid (the dimensionless 5D interior) stands orthogonal to the manifest realm's time-axis and casts zero projection into it. A consciousness embedded in the realm images this one source as three, because the four-fold presents exactly three co-equal relational classes (the transition-types). The three are mutually distinct, none ranked above another, organized by the centroid that is none of them.
 

@@ -169,43 +169,37 @@ One confusion to intercept before it starts, because it is the natural misreadin
 
 The boundaries have been doing a great deal of work. It is worth asking what one actually transmits.
 
-The medium presents two impedance-scale quantities, and they belong to different operating points rather than different domains. A wave crossing freely meets the characteristic impedance $Z_0 \approx 376.73\ \Omega$ and nothing dissipative at all — it extracts nothing, mints no mass, travels at $c$. A **bounded frame**, holding its own character against the medium rather than passing through it, meets something else: a resistive channel, whose ratio to the reactive one is fixed,
+The medium presents two impedance-scale quantities, and they belong to different operating points rather than different domains. A wave crossing freely meets the characteristic impedance $Z_0 \approx 376.73\ \Omega$ and nothing dissipative at all — it extracts nothing, mints no mass, travels at $c$. A **bounded frame**, holding its own character against the medium rather than passing through it, meets something else: a resistive channel whose ratio to the reactive one is fixed:
 
 $$\frac{R_{\text{drag}}}{Z_0} = \frac{1}{2\alpha} \qquad\Longleftrightarrow\qquad R_{\text{drag}} = R_K = \frac{h}{e^2}$$
 
-the von Klitzing constant, the resistance quantum measured directly in every quantum Hall experiment. That is the ratio a boundary meets, because a boundary is precisely a frame holding itself apart.
+which is the von Klitzing constant, the resistance quantum measured directly in every quantum Hall experiment. That is the ratio a boundary meets, because a boundary is precisely a frame holding itself apart.
 
-Treat the boundary as the impedance step it is. A step of ratio $\rho$ reflects with coefficient $(\rho - 1)/(\rho + 1)$ and transmits the remaining power:
+Treat the boundary as the impedance step it is. A step of ratio $\rho = R_K/Z_0 = 1/(2\alpha) \approx 68.518$ reflects with coefficient $|\Gamma| = (\rho - 1)/(\rho + 1) \approx 0.97123$ and transmits the remaining power:
 
-```python
-from mpmath import mp, mpf
-mp.dps = 15
-alpha = 1/mpf('137.035999177'); Z0 = mpf('376.730313411'); RK = mpf('25812.8074593')
-rho = RK/Z0
-print(rho, (rho-1)/(rho+1), 4*rho/(1+rho)**2, 8*alpha/(1+2*alpha)**2)
-# 68.5180   0.971230   0.0567114   0.0567114     (exact form: T = 8a/(1+2a)^2)
-print([(4*rho/(1+rho)**2)**n for n in (1,2,3,4)])
-# 5.671e-2   3.216e-3   1.824e-4   1.034e-5
-```
+$$T = 1 - |\Gamma|^2 = \frac{4\rho}{(1+\rho)^2} = \frac{8\alpha}{(1+2\alpha)^2} \approx 5.6711\% \quad (\approx 8\alpha)$$
 
-A single boundary reflects **97.1%** of incident power and transmits about **5.7%** — close to $8\alpha$, and exactly $8\alpha/(1+2\alpha)^2$.
+A single boundary reflects **97.12%** of incident power and transmits **5.67%**.
 
-### Nesting is what seals
+### The Stacking Law: An Open Debt
 
-Five percent is a strong boundary. It is not a sealed one, and the difference matters more than the figure.
+In classical optics, how nested boundaries compose depends entirely on whether the trapped energy between them is absorbed, reflected, or phase-locked:
 
-Stack them. Each nested boundary multiplies the transmission, and four layers put the total near one part in $10^5$:
+1. **Lossless Incoherent Stacking ($1/n$):** 
+   An impedance step *reflects*; it does not absorb. For $n$ identical, lossless interfaces combined without fixed phase relationships, the quantity that adds linearly is $R/T$ (in direct analogy to series resistances), giving:
+   $$T_n = \frac{T}{n(1-T) + T} \;\sim\; \frac{1}{n}$$
+   Under purely lossless reflection, power bounces indefinitely between layers and leaks forward; four layers transmit $1.48\%$, and reaching $10^{-5}$ isolation requires over 6,000 layers.
+2. **Absorptive Stacking ($T^n$):** 
+   If the interior region between nested boundaries commits (absorbs) the multiply-scattered power—paying the Landauer tax on the trapped flux—transmittance compounds multiplicatively as $T^n$. Under absorptive commitment, four layers achieve $1.03 \times 10^{-5}$ ($99.999\%$ isolation).
+3. **Coherent Stacking:** 
+   If phase coherence is maintained across fixed geometric spacings, the stack splits: at resonance it acts as a Fabry–Pérot cavity transmitting near unity, while off-resonance it acts as a Bragg reflector attenuating exponentially.
 
-| layers | transmitted | isolation |
-|---|---|---|
-| 1 | $5.67\times10^{-2}$ | 94.33% |
-| 2 | $3.22\times10^{-3}$ | 99.68% |
-| 3 | $1.82\times10^{-4}$ | 99.982% |
-| 4 | $1.03\times10^{-5}$ | 99.999% |
+**The Open Debt:** The framework does not yet possess a derived calculation of how much trapped flux an inter-boundary interior commits per pass. The claim that nesting delivers windowlessness is therefore conditioned on that interior commitment rate:
+* A single boundary at $5.67\%$ transmission is a strong barrier, not an absolute seal.
+* Leibniz's *coordination* claim is fully secured by co-addressing in the medium.
+* Leibniz's *windowlessness* claim is logged as an **Open Debt**, bounded between the $1/n$ lossless reflection floor and the $T^n$ absorptive ceiling.
 
-**Windowlessness is a property of depth, not of a single wall.** That is the better claim and the one the structure actually supports: interiors are nested, every bounded frame has its own boundary, and nested frames have nested boundaries. Leibniz's monad has no windows because it sits several boundaries deep in a structure that puts boundaries inside boundaries all the way down — not because any one of them is opaque.
-
-One condition has to be stated with it, and it is physical rather than cosmetic. **Exponential isolation holds under incoherent stacking** — where the layers do not maintain fixed phase relationships with one another. Coherent layers at matched spacing do the opposite: a quarter-wave stack or a Fabry–Pérot cavity, which is two mirrors held at a resonant separation, transmits essentially everything at its resonant frequency precisely *because* its reflections are phase-locked. Whether nested boundaries can be coherently matched in this sense is not settled here; if they cannot, the isolation theorem is stronger than stated and the condition stops being a caveat; if they can, a deliberately phase-matched nest is a transparent interior, which is a strange object and possibly an interesting one.
+*"Exponential isolation ($T_n \sim T^n$) holds when inter-boundary interiors commit the trapped flux; purely lossless reflection across uncommitted interiors attenuates as $1/n$, while coherent phase-matching (Fabry–Pérot resonance) does the opposite and transmits near unity."*
 
 ---
 

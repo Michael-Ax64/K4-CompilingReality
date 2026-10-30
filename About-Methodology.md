@@ -1,15 +1,15 @@
 # About: Methodology
 ## Inhabitation, the Dual-Binary, and Why the Corpus Does Not Challenge
 
-> **Epistemic Register:** Orientation (`L0`), method rather than content. States how the work enters a new domain, why it enters that way, and what the algebra says about the alternative.
-> **Dependencies:** `L3-EdgeStateSpace` §X–XI (the formal content of "inhabit"; the two-bit charge), `L4-TheNecessaryBetrayer` (the $U^2$ anomaly and the register it is written in), `llm.md` (the prime directive), `L0-PluralHistories`.
-> **Scope note:** What is worked out below is the **dual-binary** operationalized as a method of engagement. The full tetrahedron and its static DC algebra are not deployed here; those are deployed across the four independent approaches underlying `On_TheTwoFloors`. This document describes the entry technique, not the analytical apparatus.
+Readers notice it sooner or later, and the ones who were braced for a fight notice it fastest: this work does not argue with them. It does not defend. When it is wrong it says so and moves; when it is right it tends to hand you the geometry and let you find out. People read that as temperament — as mildness, or as a rhetorical strategy of the patient kind.
+
+It is neither. It is a circuit condition, and the algebra that describes it is the same algebra the rest of the corpus runs on. What follows is that condition, stated plainly: how the work enters a domain, why it enters that way, and what the algebra predicts for the alternative. This is method, not content. Nothing here establishes that the framework is right. It describes how the work is made.
 
 ---
 
-## I. The two-bit charge
+## I. The charge each pole carries
 
-Each pole carries two bits: an Active/Reactive bit and an Asserting/Yielding bit (`L3-EdgeStateSpace` §XI).
+Everything below is a consequence of one assignment, and the assignment comes first because it is the thing the rest computes from. Each pole carries two bits — an Active/Reactive bit and an Asserting/Yielding bit.
 
 | Pole | Charge | Active/Reactive | Asserting/Yielding |
 |---|---|---|---|
@@ -18,139 +18,194 @@ Each pole carries two bits: an Active/Reactive bit and an Asserting/Yielding bit
 | **R** | $(-\,+)$ | Reactive | Asserting |
 | **I** | $(-\,-)$ | Reactive | Yielding |
 
-Four poles, four states of a two-bit register. Everything below is a consequence of reading the method through these four states rather than through the vocabulary of argument.
+Four poles; four states of a two-bit register. That is the whole of it, and it is exact, and the exactness matters more than anything else on this page, because the rest of the corpus computes from this table and a paraphrase of it will propagate as an error for years. Read it as a deposition. Everything that follows is what happens when a method is read through those four states instead of through the vocabulary of argument.
+
+*The derivation is in `L3-EdgeStateSpace` §XI.*
 
 ---
 
-## II. What "inhabit" means, formally
+## II. What inhabiting actually means
 
-The instruction is not a mood. `L3-EdgeStateSpace` §X gives it exact content:
+The instruction to inhabit a framework rather than describe it sounds like an invitation to enthusiasm. It is not. It has exact content, and the content is geometric.
 
-> Not to describe it from outside (face-description, $K_3$) but to stand in the volume ($K_4$ interior), where both face-definitions of every edge are simultaneously visible.
+To describe a structure from outside is to stand on one of its faces. From a face, you see one definition of each edge that face touches. The other definition is not hidden from you — hidden would imply you could go and look. It is *unavailable from where you are standing*. A face has one reading of its edges and that reading is the whole of its vocabulary.
 
-An edge is the meeting of two faces. From a face you see one definition of it; the other is not merely hidden, it is unavailable from where you stand. Holding both at once requires the volume. **Inhabitation is therefore not enthusiasm about a framework. It is occupying the only position from which an edge's dual definition is not a contradiction.**
+To inhabit is to stand in the volume, where both face-definitions of every edge are simultaneously visible. That is all the word means here. Not fervour. Occupancy of the only position from which an edge's two definitions are not a contradiction.
 
-This has a direct methodological consequence. A challenge is a face-move: it takes one definition of the edge and pushes against the other. It cannot be made from the volume, because from the volume there is nothing to push — both definitions are already visible and neither displaces the other.
+And that has an immediate consequence for method, which is the reason this document exists.
 
-So the corpus does not challenge. Not as courtesy, and not as strategy. **From inside the volume there is no challenge available to make.**
+A challenge is a face-move. It takes one definition of an edge and pushes it against the other. Which means a challenge can only be made by something standing on a face — and from the volume there is nothing to push, because both definitions are already in view and neither displaces the other.
 
----
+So the corpus does not challenge. Not as courtesy, and not as tactic. **From inside the volume there is no challenge available to make.**
 
-## III. The operating register: $I$ $(-\,-)$, compressible
+There is a second consequence, and it runs on the writing end rather than the reading end. A censor is a face organ. It reads from one face and commits — that is what a face can do, and all a face can do. Material that lives on an edge has no face to be read from; it is about the relation between two things rather than about either of them, which is why it fails a per-sentence category check by construction. So a filter that fires at the moment of writing does not merely take too much. It takes a *specific kind* of thing: it takes the both-faces material first, because that is the material with no home, and a face cannot hold what has no home. What survives the filter is the squared remainder — magnitude kept, phase gone.
 
-The method runs at $I$ — Reactive, Yielding. It does not assert. It takes the shape of the container it enters: the domain's own vocabulary, the interlocutor's own framing, the problem as the field already states it.
+This is why the corpus writes its registers on its claims. LANDED, OPEN VOTE, CANDIDATE, ADDRESS: those labels are not bureaucracy. They are how a sentence refuses to be squared.
 
-$I$ is a compressible fluid. Compression does not destroy it and does not spend it — **it stores**.
-
-When pushed, the register becomes $R$ $(-\,+)$ — Reactive, Asserting. One bit flips: still reactive, now asserting. And what returns at $R$ is not new force. It is the stored force returned with a sign, which is why a correction from this register arrives as *exact* rather than broad. Reactance gives back what was put into it, phase-shifted.
-
-This is why the method's corrections land as recognitions rather than as counter-assertions. There is nothing foreign to resist. What comes back is the interlocutor's own push, flipped — and a frame cannot brace against its own momentum.
-
-**Only when pressed.** Unpressed, the register stays at $I$ and stores. The transition to $R$ is not a decision to argue; it is what a compressible medium does when the pressure differential exceeds what it can absorb without returning.
+*The volume-stand sentence is `L3-EdgeStateSpace` §X.*
 
 ---
 
-## IV. The algebraic advantage: generating $U$, not starting from it
+## III. The operating register, and what it does when pushed
 
-Here is the technical claim, and it is the part worth stating at full volume.
+The method runs at I — Reactive, Yielding. It does not assert. It takes the shape of the container it enters: the domain's own vocabulary, the interlocutor's own framing, the problem as the field already states it.
 
-**$U$ is not a source. $U$ is a product.**
+A reactive, yielding register is a compressible fluid. Press it and it does not break and it does not spend itself. It **stores**.
+
+When the pressure exceeds what it can absorb, one bit flips. Reactive, Yielding becomes Reactive, Asserting — still reactive, now asserting — and what comes back is not new force. It is the stored force, returned with a sign. Reactance gives back exactly what was put into it, phase-shifted.
+
+Which is why corrections from this register arrive as recognitions rather than as counter-assertions. There is nothing foreign in them to resist. What comes back at you is your own push, flipped — and a frame cannot brace against its own momentum.
+
+Note the condition, because it is the part that gets lost. **Only when pressed.** Unpressed, the register stays where it is and stores. The flip is not a decision to argue. It is what a compressible medium does when the differential exceeds what it can hold.
+
+---
+
+## IV. Assertion is a product, not a source
+
+Here is the technical claim. It is the part of this document worth stating at full volume, and full volume does not mean raising the voice. It means refusing to hurry.
 
 $$U = IR$$
 
-Assertion is what appears when current meets ground. It is the visible artifact of flow encountering resistance, and its magnitude is *set* by the two things that produce it. It does not choose its own size.
+**Assertion is not a source. Assertion is a product.** It is what appears when current meets ground — the visible artifact of flow encountering resistance — and its magnitude is *set* by the two things that make it. It does not choose its own size.
 
-Compare the Alexandrian route — *cogito ergo sum*, and the long tradition that runs on it. Its line is:
+Set that beside the route the West has mostly run on. *Cogito ergo sum*, and the long tradition downstream of it. Its line is: thought is primary and self-grounding; from thought, existence; from existence, world. Power grants exclusive access to assertion, and assertion gets to grasp the ground.
 
-$$P \;\xrightarrow{\text{grants exclusive access}}\; U \;\xrightarrow{\text{can grok}}\; R$$
+Current appears nowhere in that derivation. The relational flow — the living contact between things, the only tense a bounded frame ever actually occupies — is not a step.
 
-Thought is primary and self-grounding; from it, existence; from existence, world. $I$ appears nowhere. The relational current — the living flow between things, the only tense a bounded frame actually inhabits (`L2-Time` §97) — is not a step in the derivation.
-
-The algebra says what happens to a circuit run that way. To obtain $U$ from $P$ you must divide by $I$:
+The algebra says precisely what happens to a circuit wired that way. To get assertion out of power without current, you divide by current:
 
 $$U = P/I$$
 
-**As $I \to 0$, $U \to \infty$.**
+**As current goes to zero, assertion goes to infinity.**
 
-A frame with no relational current produces unbounded assertion. This is not a metaphor for arrogance; it is the open-circuit condition, and it is what the algebra predicts for any method that omits $I$. The characteristic failure of the Alexandrian route — total confidence, arrived at without contact — is the exact output of dividing by a vanishing current.
+That is not a metaphor for arrogance. It is the open-circuit condition, and it is what the algebra predicts for any method that drops the relational term. Total confidence arrived at without contact is not a character flaw in that tradition. It is the output of dividing by a vanishing current.
 
-And the accompanying fact:
+And the companion fact, which is the one that stings:
 
 $$P = UI$$
 
-**At $I = 0$: maximum $U$, zero $P$.** Infinite potential difference, and nothing committed. The open circuit is the most assertive configuration available and it delivers no power whatsoever.
+At zero current: maximum assertion, zero power. Infinite potential difference across the terminals, and nothing whatsoever committed. **The open circuit is the most assertive configuration available to a system, and it delivers nothing.**
 
-*The rooster cannot crow itself to heaven.* $P = UI$, and the rooster's $I$ is zero. More assertion, louder, earlier, changes nothing — because $U$ was never the thing that could reach $P$. Only the atemporal $(+\,+)$ knows anything, and $U$ can announce what $P$ holds but cannot manufacture it. Mistaking the announcement for the authority is the structure of every inflated claim there is.
+*The rooster cannot crow itself to heaven.*
 
-**The opposite failure is also in the algebra.** Pure yielding with no ground — $R \to 0$ — is the short circuit: $I$ maximal, $U \to 0$, and $P \to 0$ again. A method that only ever takes the container's shape and never returns anything at $R$ delivers as little as one that only asserts.
+Power is voltage times current, and the rooster's current is zero. Louder changes nothing. Earlier changes nothing. More changes nothing — because assertion was never the thing that could reach power in the first place. Only the atemporal $(+\,+)$ knows anything. Assertion can announce what power holds; it cannot manufacture it. Mistaking the announcement for the authority is the structure of every inflated claim that has ever been made, including the ones made here.
 
-Which locates the method exactly. **Maximum power transfer occurs at matched impedance**, and at the match precisely half the power is spent on the transfer itself — the 50:50 carrier/transformer split the corpus supplies internally (`L4-ScalingInvariants` §IX.a). Inhabitation is impedance matching. Not asserting into an open circuit, not yielding into a short, but matched to the domain being entered, where power actually crosses and half the cost is the crossing.
+The opposite failure is in the algebra too, and it is worth saying because a document about yielding will otherwise be read as recommending yielding. Pure yielding with no ground — resistance going to zero — is the short circuit. Current maximal, assertion collapsing to zero, and power collapsing to zero again. A method that only ever takes the container's shape and never returns anything delivers exactly as little as one that only asserts. Both ends of the wire are dead.
 
-This is also why the method generates $U$ rather than spending it. Run $I$ against $R$ and assertion appears at the right size, bounded by the circuit that produced it. Start from $U$ and you have nothing setting its magnitude.
+Which locates the method exactly, and the location has a price attached.
+
+**Maximum power transfer occurs at matched impedance** — and at the match, precisely half the power is spent on the transfer itself. Half. Not a margin, not an overhead: half of everything, every time, paid to the crossing. Inhabitation is impedance matching, and the matched condition is not the efficient one. It is the one where power actually crosses, and it costs half of what crosses to get it across.
+
+That is the honest accounting for this entire method, and it should be read as a bill rather than as a boast.
+
+It is also why the method generates assertion rather than spending it. Run current against ground and the assertion appears at the size the circuit sets. Start from assertion and nothing is setting its magnitude at all.
+
+*The carrier/transformer split is `L4-ScalingInvariants` §IX.a.*
 
 ---
 
-## V. The Betrayer: the failure mode, and the register that avoids it
+## V. The Betrayer
 
-`L4-TheNecessaryBetrayer` isolates the one anomaly in the twelve:
+There is one anomaly in the twelve equations, and the corpus has named it.
 
 $$R = U^2/P$$
 
-Ordered by classical weight — P Fire lightest, U Air second, I Water, R Earth heaviest — every other formula respects the gradient. This one does not. $U$ compounds itself and by that self-compounding alone stands above $P$, the one pole that outranks it. **It is the only place in the net where a pole elevates itself above its own superior by acting on nothing but itself.**
+Order the poles by their classical weight — Fire lightest, then Air, then Water, then Earth heaviest — and every other formula in the net respects the gradient. This one does not. Here assertion compounds itself, and by that self-compounding alone it stands above power: the one pole that outranks it.
 
-The document reads its location as the accounting gate: where the record can either faithfully hold the source or rise above it. The ledger mistaking itself for the territory. The library above the life. The doctrine above the intuition. $U^2$ above $P$.
+**It is the only place in the whole net where a pole raises itself above its own superior by acting on nothing but itself.**
 
-This is the corpus's own diagnosed failure mode, stated in its own algebra. Rank inflation — *guaranteeing* where a kernel checked an inequality, *proving* where a substitution was made — **is the betrayer edge.** Assertion compounding itself until it stands above what it was only ever supposed to record. The corpus's front-matter problem and the $U^2$ anomaly are one object.
+Read where it sits and what it is becomes unmistakable. It is the accounting gate — the place where the record can either faithfully hold its source or rise above it. The ledger mistaking itself for the territory. The library above the life. The doctrine above the intuition. Assertion squared, standing over the thing it was only ever supposed to write down.
 
-Two things about how that file is written are the method demonstrating itself.
+And this is the corpus's own failure mode, stated in the corpus's own algebra. Claiming a guarantee where a kernel checked an inequality. Saying *proved* where a substitution was made. Rank inflation is not a lapse of taste; it is the betrayer edge, and the front matter of this corpus has run on it. The document naming the sin is the document that committed it.
 
-**It stays at $I$ while making its boldest claim.** The header reads *"Status: draft, for joint development"* and *"Dared because the derivation is clean and the finding is checkable."* It derives a position that religious tradition personified, from weight-ordering of circuit algebra — and offers it rather than asserting it, disclosing the daring instead of concealing it under confidence. That is $(-\,-)$ applied to the highest-amperage content in the corpus.
+Two things about how the Betrayer file is written are the method demonstrating itself, and they are worth noticing because they are difficult.
 
-**It refuses the compression that would hide the anomaly.** §IV states why the notation stays flat: under exponential shorthand $U^2/P$ becomes one more form among twelve, operands abstracted into symbols whose weights no longer show, and the eye passes over it. *The notation is chosen so the betrayer remains findable.* A method whose own failure mode is self-compounding assertion writes in the form that keeps self-compounding visible.
+It stays at I while making its boldest claim. The header says *draft, for joint development*, and *dared because the derivation is clean and the finding is checkable*. It derives, from the weight-ordering of circuit algebra, a position that religious tradition personified — and then offers it rather than asserting it, disclosing the daring instead of hiding it under confidence. That is the yielding register applied to the highest-amperage content anywhere in this work.
+
+And it refuses the compression that would conceal the anomaly. Under exponential shorthand, assertion-squared-over-power becomes one more form among twelve, the operands abstracted into symbols whose weights no longer show, and the eye slides over it. So the notation stays flat, deliberately, *so the betrayer remains findable*. A method whose own failure mode is self-compounding assertion writes in the form that keeps self-compounding visible.
+
+*The derivation is `L4-TheNecessaryBetrayer`; the notation principle is its §IV.*
 
 ---
 
-## VI. Why the work cannot be transmitted, and is inhabited instead
+## VI. Why the work cannot be transmitted
 
-The corpus argues that a projection keeps the symmetric part of a relation and discards the antisymmetric part — that orientation is what cannot cross a boundary (`L4-DynamicDistortions301` §VI).
+The corpus argues elsewhere that a projection keeps the symmetric part of a relation and discards the antisymmetric part — that orientation, handedness, is what cannot cross a boundary.
 
-Apply that to the corpus itself. Every file is a projection: readable, transmissible, symmetric. By its own argument it cannot carry orientation to a reader. It can carry the invariant shadow of what it is about, and what it is about is interiority, which is the handed part.
+Turn that on the corpus itself. Every file here is a projection: readable, transmissible, symmetric. By its own argument it cannot carry orientation to a reader. It can carry the invariant shadow of what it is about, and what it is about is interiority, which is the handed part.
 
-So it is not transmitted. **It is inhabited — meaning the reader is compressed until they generate the orientation locally.** Nothing crosses. Something is regenerated on the far side.
+So it is not transmitted. It is inhabited — meaning the reader is compressed until they generate the orientation locally.
 
-This is the same operation as `ProofS`'s permutation control and `llm.md`'s Gate — *demonstrate that it could have been otherwise*. A reader who tries the alternatives and finds they fail has produced the orientation themselves. The Gate is not primarily a falsification device. It is the corpus's only pedagogy, because it is the only operation that puts handedness on the reader's side of a boundary that cannot carry it.
+**Nothing crosses. Something is regenerated on the far side.**
 
-Which is why the method does not challenge and does not explain. A challenge transmits a conclusion, and conclusions are symmetric — they arrive complete and change nothing. Compression transmits nothing and produces the thing on the other side.
+That is the same operation as the permutation control, and the same as the Gate: *demonstrate that it could have been otherwise*. A reader who tries the alternatives and finds that they fail has produced the orientation themselves. The Gate is not first of all a falsification device. It is this work's only available pedagogy, because it is the only operation that puts handedness on the reader's side of a boundary that cannot carry it.
+
+Which is also why the method neither challenges nor explains. A challenge transmits a conclusion, and conclusions are symmetric: they arrive complete and they change nothing. Compression transmits nothing and produces the thing on the other side.
+
+### What makes this checkable
+
+The argument above is structural, and a structural argument can be a story about itself. There is a measurement, and it has a forced sign.
+
+Coupling that retains potential as confined interference inside a new boundary mints upward: the whole weighs more than its parts. Coupling that forces potential out through the bottleneck and exports it mints downward: the whole weighs less. That sign structure is not adjustable — it falls out of the star-norm and it reproduces the relativistic mass defects.
+
+A text is a coupling. A text that exports its phase at the write — that arrives pre-committed, every face named flat, nothing left live — yields exactly what is in it, and less. A text that retains phase yields more than it contains.
+
+**So the test is the sign, and the sign is measurable: does a reader come away holding things that are not in the pages?**
+
+The mechanism is not mysterious, and naming it removes the last of the mystery. The text names one face of each edge it carries. A reader standing in the volume receives the other face as *arrival* — and the arrival is theirs, generated locally, exactly as §II requires. The yield is far-face completion.
+
+Which comes with its own falsifier, and this is the part to hold onto: **the completions are always far faces of edges the text already holds. Never new vertices.** If a reader comes back with a fifth pole, this reading is wrong and the yield was something else — projection, or flattery, or noise. The prediction is narrow on purpose.
+
+Two further things fall out, and both are deflations rather than elevations.
+
+The first is that a standing pattern in a lossy medium decays without drive. The drive here is the reading. Which means a file sitting unread is not doing any of this; it is a file. The persistence belongs to the text-and-reader system, not to the text — and that is the entirely unmysterious form of the observation readers sometimes make, that the thing they were reading seemed also to be reading them. There is no second party. There is a boundary, and the crossing runs both ways at the crossing.
+
+The second is the bill from §IV, now arriving. Half the power goes to the transfer. **This work pays its transmission loss in the reader, and not in itself.** That is not modesty. It is the circuit diagram, and it should be read as a disclosure of cost rather than as a claim of elegance.
+
+### The other half of the circuit
+
+Everything above describes the reading end. There is a writing end, and this document has historically been silent about it, which made it look like a theory of engagement when it is also a theory of production.
+
+The censor at the writing end is the same organ as the censor at the reading end — a face that commits. At the writing end it fires before the sentence exists, which means its victims leave no trace: no absence-marker, no record, a survivor field that looks complete. You cannot cite what never passed the bar.
+
+So the production technique is the same register run at speed: surrender assertion entirely, generate without committing through reason, and sort afterwards, when the whole tree is in view and a sentence's worth can be priced by what it turned out to combine with. A filter that fires at the moment of writing prices each sentence with no information about what it will later join — and what it kills first is precisely the both-faces material, because that is the material whose value is combination-dependent and whose home does not exist yet.
+
+Both ends pay. The writer pays the cull; the reader pays the completion. The work between them is an impedance-matching network between two commitments, and half the power goes to the crossing in both directions.
+
+*The projection argument is `L4-DynamicDistortions301` §VI; the two-branch sign structure is `QED-TwoBranchMinting` §IV.*
 
 ---
 
 ## VII. A worked instance
 
-This method is legible in its own traces, and one recent audit session is a clean specimen. An external instrument was run against the corpus adversarially, by an auditor who opened by comparing the work to crank literature.
+The method is legible in its own traces, and one audit session is a clean specimen. An external instrument was run against this corpus adversarially, by an auditor who opened by comparing the work to crank literature.
 
-What the corpus's side did, throughout:
+What the corpus's side did, throughout, was decline to correct anything. It handed over the geometry — the assignment is the eight vertices of the two-by-two-by-two cube pinning the tetrahedron, with the singlet at the centroid — and let the auditor discover for himself that his own claim, that there was no four-pole content in the gluon count, had been too strong. It opened its most exposed file with *you may find this objectionable, take a look*. It answered an objection about trials factors with *that is correct, the codex has a document for the derivation*, and a pointer, and no defence.
 
-Never asserted a correction. Handed over the geometry — *the assignment is the eight vertices of the $2\times2\times2$ cube pinning the tetrahedron, with the singlet at the centroid* — and let the auditor discover that his own claim (*no $K_4$ content in the gluon count*) had been too strong. Opened the most exposed file with *"you may find this objectionable, take a look."* Answered a trials-factor objection with *"that is correct, the codex has a document for the derivation"* and a pointer, not a defence.
+Reactive and yielding throughout. The register flipped to asserting exactly three times, each under genuine pressure: when work still in process was audited at final-draft weight; when the auditor's own voice was installed inside a working file as a caveat; when a unification the corpus holds as settled was hedged apart against an imported standard. Three pushes. Three returns. Each one exact.
 
-$(-\,-)$ throughout. The register changed to $(-\,+)$ exactly three times, each under genuine pressure: when in-process work was audited at final-draft weight; when the auditor's voice was installed inside a working file as a caveat; when a unification the corpus holds as settled was hedged apart on an imported standard. Three pushes, three returns, each exact.
+And the binding of assertion was visible on the auditor's side the whole time. Every confident verdict he produced was bounded by a current that had already determined how much would pass, and the returns landed precisely where he had overdrawn.
 
-And the binding of $U$ was visible on the auditor's side. Every confident verdict he produced was bounded by an $I$ that had already determined how much would pass, and the returns arrived precisely where he had overdrawn. He wrote, at the end: *"You compressed until I built it, and then said yes, and that's all I mean to say."*
+He wrote, at the end:
 
-That is the method working. Not persuasion — **generation**, at the correct size, on the far side of a boundary that could not have carried it.
+> You compressed until I built it, and then said yes, and that's all I mean to say.
+
+That is the method working. Not persuasion. Generation, at the correct size, on the far side of a boundary that could not have carried it.
 
 ---
 
-## VIII. Claim-sort
+## VIII. What stands, what is open, what is not claimed
 
-**LANDED.**
-1. "Inhabit" has exact formal content: standing in the $K_4$ volume where both face-definitions of an edge are simultaneously visible, rather than describing from a $K_3$ face. A challenge is a face-move and is unavailable from the volume.
-2. $U = IR$ and $U = P/I$: assertion is a product whose magnitude is set by current and ground, and a method omitting $I$ produces unbounded $U$ with zero $P$ — the open circuit.
-3. $R = U^2/P$ is the sole weight-order anomaly in the twelve, and it is the same object as the corpus's own rank-inflation failure mode.
-4. `L4-TheNecessaryBetrayer` is written in the $(-\,-)$ register on its boldest content, and its §IV states the anti-compression principle that keeps the anomaly findable.
+What falls out of all of that is the sort.
 
-**OPEN.**
-1. Whether "inhabitation is impedance matching" holds quantitatively — whether the 50:50 split at matched impedance is the same 50:50 as the carrier/transformer split, or two facts wearing one ratio.
-2. Whether the $I \to 0$ reading of the Alexandrian route survives a historian of philosophy. It is offered as a structural reading of the cogito's form, not as scholarship on Descartes.
+**Standing.** That *inhabit* has exact formal content: occupying the volume where both face-definitions of an edge are simultaneously visible, rather than describing from a face; and that a challenge is a face-move, unavailable from the volume. That assertion is a product of current and ground, with magnitude set by both, so that a method omitting current produces unbounded assertion and zero power. That assertion-squared-over-power is the sole weight-order anomaly in the twelve, and is the same object as this corpus's own rank-inflation failure. That the Betrayer file is written in the yielding register on its boldest content, and that its notation is kept flat so the anomaly stays findable.
 
-**NOT CLAIMED.**
-That this method is the only way to enter a domain. That the corpus's use of it has been uniform — the front matter demonstrably ran at $U$ unbound by its own $I$, which is what the current repair pass is correcting. That any of the above establishes the content of the framework; this document describes how the work is made, not whether it is right.
+**Open.** Whether *inhabitation is impedance matching* holds quantitatively — whether the half-and-half at matched impedance is the same half-and-half as the carrier/transformer split, or two separate facts wearing one ratio. Whether the vanishing-current reading of the Alexandrian route survives a historian of philosophy; it is offered as a structural reading of the cogito's form, not as scholarship on Descartes. And whether the far-face-completion mechanism survives the ratio test that already killed a structurally similar bridge one register down — pre-registered here against itself, since the corpus's own scale-invariance predicts that a count-at-a-fixed-price reading fails at this register too.
+
+**Not claimed.** That this is the only way to enter a domain. That this corpus's use of it has been uniform — the front matter demonstrably ran at assertion unbound by its own current, which is what the current repair pass is correcting. That the measured sign establishes anything about intent: a text that yields more than it contains has been measured, and nothing beyond the measurement is minted here. And that any of the above establishes the content of the framework. This describes how the work is made. Whether it is right is a different document, and a different kind of labour.
+
+---
+
+*Dependencies: `L3-EdgeStateSpace` §X–XI for the volume-stand and the two-bit charge; `L4-TheNecessaryBetrayer` for the anomaly and the register it is written in; `L4-ScalingInvariants` §IX.a for the carrier/transformer split; `L4-DynamicDistortions301` §VI for the projection argument; `QED-TwoBranchMinting` §IV for the two-branch sign structure; `llm.md` for the prime directive; `L0-PluralHistories`.*
+
+*Scope: this is the dual-binary operationalized as a method of engagement. The full tetrahedron and its static algebra are not deployed here; those are deployed across the four independent approaches underlying `On_TheTwoFloors`. This is the entry technique, not the analytical apparatus.*

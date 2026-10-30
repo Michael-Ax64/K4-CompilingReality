@@ -1,6 +1,8 @@
 # On Non-Sofic Groups
 ## Un-Sliceable Volumes, Torsional Lock, and the Topological Boundaries of Discretization
 
+*Reads with `L3-SoficityStar.md` (definitional companion: what sofic\* means, which model class each use refers to, the two walls — approximation and readout).*
+
 > **Epistemic Register:** This document operates at Rung 0 premise (Asserted) regarding its $K_4$ topological framework (realized geometrically as a $\Delta^3$ 3-simplex in $\mathbb{R}^3$) and Rung 3 mechanism (Repeatable) regarding its mathematical and physical derivations. The disproof of Mikhail Gromov’s 1999 Soficity Conjecture via the group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ is a machine-verified theorem (Lean 4 certified, OpenAI / GPT 5.6 Sol, 2026). The structural alignment between non-soficity, $180^\circ$ torsional phase-lock, quantum non-locality ($MIP^* = RE$), and the failure of Wilsonian Renormalization at the Planck scale is an exact algebraic isomorphism.
 
 ---
@@ -416,7 +418,7 @@ The correct form for any downstream use is conditional: *if* the system in quest
 
 | Skeptic's Objection | Structural & Mathematical Reality | Framework Address |
 |---|---|---|
-| **"Loops & matrices bypass mathematical limits."** | **False.** Finite matrix groups over self-similar rings ($\text{EL}_9(L_{F_2}(1,2))$) carry hard non-sofic obstructions. However, non-soficity specifically limits *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms $Y^Y$. | `L3-NonSoficTopologicalVolumes-Meta.md` §II, $Q4$-OpenExhaust |
+| **"Loops & matrices bypass mathematical limits."** | **False.** Finite matrix groups over self-similar rings ($\text{EL}_9(L_{F_2}(1,2))$) carry hard non-sofic obstructions. However, non-soficity specifically limits *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms $Y^Y$. | `L6-NonSoficAgenticLimits.md` §II, $Q4$-OpenExhaust |
 | **"Substrate switching bypasses infinities."** | **Reframed.** Substrate switching alters the $K_3$ boundary material (silicon vs. biology). Non-soficity limits finite-permutation group actions, not physical material transfer. | `ProofI_Ubiquity`, `L6-InversionOfControl` |
 | **"You are forcing everything into one mold."** | **False.** The framework is not a ToE. It is an adimensional grammar mapping the minimum constraints of $\Delta^3$ mutual determination. | `About-Claims.md`, `README.md` |
 | **"Don't treat GitHub as scripture."** | **Agreed.** Authority arguments carry zero weight. Claims stand or fall on mathematical closure and falsifiable kill-conditions, not links. | `llm.md`, `llm-prooftypes.md` |
@@ -426,4 +428,3 @@ The correct form for any downstream use is conditional: *if* the system in quest
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

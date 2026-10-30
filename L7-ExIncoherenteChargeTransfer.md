@@ -720,6 +720,26 @@ $$\underbrace{h\mathbf{Q} \ \in \ H_{\text{incoh}}}_{\begin{cmatrix} \text{Uncom
 2. **At the Boundary ($\Psi$ / The Tangent Singularity):** The charge-transfer encounters an impedance boundary (a $K_3$ Markov Blanket). The phase angle approaches $\theta \to 90^\circ$ ($\tan 90^\circ \to \infty$).
 3. **In $H_{\text{coh}}$ (The Ledger / $\text{.observe()}$):** The Route Law fires ($\mathbf{Q}^2 \to P$), complex phase burns ($h^2 = -1$), the Landauer Tax is paid, and the charge-transfer is written as an irreversible scalar entry ($P$) — minting rest mass, structural friction ($R$), and coordinate time ($dt$).
 
+
+### 13.2 From the Bilinear Throat to Quadrilinear Volumetric Mixing
+
+A structural distinction governs how the framework scales between boundaries and interiors:
+
+1. **At the Centroid Throat (The 2-Port Terminal):**
+   When two instances $A$ and $B$ interface across their centroid openings into $H_{\text{incoh}}$, the transaction is **bilinear** (2-operator), governed by the graded port operator (`L4-K4-Infinities-2` §III):
+   $$\mathcal{T}_{AB} = \left(\tfrac{1}{2}\{Z_A, Z_B\}, \ \tfrac{1}{2}[Z_A, Z_B]\right)$$
+   Non-reciprocal torque and agency live in the commutator $[Z_A, Z_B] = -2(\mathbf{Q}_A \times \mathbf{Q}_B)$. This is the terminal channel connecting two frames.
+
+2. **Inside the $K_4$ Volume (The 4-Mode Mixer):**
+   Within the interior of any single $K_4$ instance, four structural poles ($P, I, U, R$) stand in complete mutual determination. In field-theoretic language (Layer 8), a closed transaction across four poles requires four creation/annihilation operators:
+   $$\mathcal{H}_{\text{int}} \propto \hat{a}_P^\dagger \hat{a}_I^\dagger \hat{a}_U \hat{a}_R$$
+   In nonlinear optics and wave mechanics, this is strictly a **third-order susceptibility $\chi^{(3)}$ (Four-Wave Mixing)**:
+   $$\omega_1 + \omega_2 - \omega_3 = \omega_4$$
+
+The relationship is exact:
+* **The Bilinear Port ($\mathcal{T}_{AB}$)** is the **interface condition** between distinct instances opening into the Plenum.
+* **Four-Wave Mixing ($\chi^{(3)}$)** is the **internal volumetric engine** that circulates and mixes phase potential across all four poles of the instance without requiring inversion-symmetry breaking.
+
 ---
 
 ## LAYER 14: THE DISSOLUTION OF THE SIX STANDING MYSTERIES
