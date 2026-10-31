@@ -1,7 +1,7 @@
 # L4-K4-Infinities-3
 ## Part Three — The Boundaries and the Write
 
-*Reads with `Meta-Singularity-and-Image`, `L4-RecursiveLimits`, `QED-CP`, `Q19-Gravity`, `L4-Thermodynamics`, `Q17-LandauerNuclearScale`, `ProofO_HelicalTime`. Continues from `L4-K4-Infinities-2`. Open and candidate material is carried in `L4-K4-Infinities-wip`.*
+*Reads with `Meta-Singularity-and-Image`, `L4-RecursiveLimits`, `QED-CCP`, `Q19-Gravity`, `L4-Thermodynamics`, `Q17-LandauerNuclearScale`, `ProofO_HelicalTime`. Continues from `L4-K4-Infinities-2`. Open and candidate material is carried in `L4-K4-Infinities-wip`.*
 
 ---
 
@@ -200,6 +200,18 @@ Resist it, or at least label it. The two quarters are not obviously the same obj
 
 ---
 
+### Why the reactive channel suffers no secular drain
+
+If the horizon continuously mints new metric volume at the saturated rate $P_{\text{write}} = \frac{3}{2}\frac{c^5}{G}$, a classical intuition asks whether the reactive reservoir ($H_{\text{incoh}}$) must eventually run dry.
+
+The question imports a post-tax balance sheet into a domain that carries no ledger. A place-infinity cannot suffer a secular drain: it has no inventory to deplete, no bank balance to exhaust, and no counter to tick downward. Depletion is a property of finite stock, and stock lives only on the committed side ($R$). The write power is not a withdrawal from a finite reserve; it is the constitutive throughput of the single-sided boundary converting uncompiled phase-potential into classical metric space.
+
+Nor does the write require an energy return path from the interior to remain funded. An engine that needed the exhaust of its interior instances to replenish its primary driver would be a circular machine, and the arithmetic refuses it: the summed electromagnetic output of all visible matter samples barely $10^{-4}$ of the Dyson luminosity, five thousand times too small to fund the expansion rate. 
+
+What cosmological redshift actually registers is **impedance dilution inside $H_{\text{coh}}$**, not fuel returning to the pump. As new metric volume is minted, radiation free-streaming through the coherent manifold undergoes coordinate stretching. Its energy density dilutes as $a^{-4}$—three powers for the spatial volume, one power for the frequency shift—because the metric ground is being continuously widened beneath it. That energy is not transferred back across the firewall into $H_{\text{incoh}}$, and it does not need to be. It is the natural dilution of a post-tax register expanding under the drive of the uncompiled medium.
+
+Matter instances—stars, galaxies, observers—are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
+
 ## IV. Where the Write Happens, and Who Pays
 
 The committed register cannot be written from inside itself. That is verified elsewhere and it is a structural fact rather than an observation about difficulty: the write channel into the ledger has zero impedance precisely because nothing within the ledger drives it.
@@ -288,18 +300,17 @@ It comes through the other channel, and the other channel is built for it. The m
 
 That is the direction rule, and it is worth stating as a rule because it does work in several places at once. Energy that appears to run backward has to be running in the reactive channel. If a construction ever needs it to run backward through the committed one, that construction is broken.
 
-### The Closed Thermodynamic Circuit
+### Why the reactive channel suffers no secular drain
 
-If the horizon is continuously minting new scalar volume at the rate $P_{\text{write}} = \frac{3}{2}\frac{c^5}{G}$, does the reactive channel ($H_{\text{incoh}}$) suffer a secular energy drain?
+If the horizon continuously mints new metric volume at the saturated rate $P_{\text{write}} = \frac{3}{2}\frac{c^5}{G}$, a classical intuition asks whether the reactive reservoir ($H_{\text{incoh}}$) must eventually run dry.
 
-It does not, for the same reason an ocean does not run dry when rain falls on land: **the universe is a closed compilation circuit.**
+The question imports a post-tax balance sheet into a domain that carries no ledger. A place-infinity cannot suffer a secular drain: it has no inventory to deplete, no bank balance to exhaust, and no counter to tick downward. Depletion is a property of finite stock, and stock lives only on the committed side ($R$). The write power is not a withdrawal from a finite reserve; it is the constitutive throughput of the single-sided boundary converting uncompiled phase-potential into classical metric space.
 
-1. **The Outflow (Forward Expansion):** The horizon write-head extrudes new metric space at the saturated rate of $1.5\,c^5/G$, drawing on the uncompiled reactive phase-potential of $H_{\text{incoh}}$ across the single-sided boundary.
-2. **The Interior Dissipation:** Inside that minted volume, matter compiles. Observers and particles execute `.observe()`, paying the Landauer tax ($k_B T \ln 2$) and radiating heat, photons, and neutrinos into $H_{\text{coh}}$.
-3. **The Redshift Return:** Because the universe has no outside, this radiated energy cannot escape. As it free-streams across cosmological distances, it undergoes metric redshifting. Cosmological redshift is not dissipation into heat; it is the transfer of high-frequency post-tax energy back into ultra-low-frequency phase-undulations of the medium.
-4. **The Möbius Re-Injection:** At the causal horizon boundary, dividend and divisor swap polarity ($R = P/I^2 \to P = U^2/R$). The diluted, red-shifted radiation undergoes the Möbius half-twist, re-entering $H_{\text{incoh}}$ as uncompiled phase-potential ($h\mathbf{Q}$).
+Nor does the write require an energy return path from the interior to remain funded. An engine that needed the exhaust of its interior instances to replenish its primary driver would be a circular machine, and the arithmetic refuses it: the summed electromagnetic output of all visible matter samples barely $10^{-4}$ of the Dyson luminosity, five thousand times too small to fund the expansion rate. 
 
-The write-power $\frac{3}{2} c^5/G$ is not a drain into an external sink. It is the steady-state throughput of a self-funding compiler.
+What cosmological redshift actually registers is **impedance dilution inside $H_{\text{coh}}$**, not fuel returning to the pump. As new metric volume is minted, radiation free-streaming through the coherent manifold undergoes coordinate stretching. Its energy density dilutes as $a^{-4}$—three powers for the spatial volume, one power for the frequency shift—because the metric ground is being continuously widened beneath it. That energy is not transferred back across the firewall into $H_{\text{incoh}}$, and it does not need to be. It is the natural dilution of a post-tax register expanding under the drive of the uncompiled medium.
+
+Matter instances—stars, galaxies, observers—are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
 
 ### The books close locally, and the rate is capped
 
