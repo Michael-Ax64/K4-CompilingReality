@@ -33,9 +33,15 @@ This is the helical-extrusion reading of the ratchet $P_N \leftrightarrow R_{N+1
 
 ## III. Gravity Couples to the Monotonic Accumulation
 
-Jacobson's theorem (1995, **ADOPTED** — mainstream physics, active research program): the Einstein field equations are the equation of state of accumulated thermodynamic bookkeeping on local horizons — $\delta Q = T\,dS$, with the area-entropy as ledger and the energy flux as payment.
+Jacobson's theorem (1995, **ADOPTED** — mainstream physics, active research program): the Einstein field equations are the equation of state of accumulated thermodynamic bookkeeping on local horizons — $\delta Q = T\,dS$, with the area-entropy as ledger and the energy flux as payment. The relation is the **equilibrium** one, and that qualifier is load-bearing below.
 
-The corpus's Landauer-per-commit is the same bookkeeping in algebra variables: each commit's erasure tax is the $\delta Q$; the accumulated specification written to $P$ is the entropy $S$. The identification is not an analogy. Both sides say the same thing: the curvature of spacetime at a point is the footprint of the information that has been irreversibly committed there.
+The corpus's Landauer-per-commit is the same bookkeeping in algebra variables — but it enters on the other side of Clausius, and the seating matters enough to state.
+
+Jacobson's 1995 derivation uses the **equilibrium** Clausius relation, in which $\delta Q$ is a *reversible* heat flux across a local Rindler horizon. Eling, Guedens and Jacobson then showed (*Phys. Rev. Lett.* **96**, 121301, 2006) that corrections to the entropy require a **non-equilibrium** treatment, $dS = \delta Q/T + d_iS$, with $d_iS$ a bulk-viscosity entropy-production term — and that even pure Einstein gravity admits entropy production through a shear viscosity of the horizon.
+
+A Landauer tax is irreversible entropy production. **So the erasure tax is $d_iS$, not $\delta Q$.** The accumulated specification written to $P$ remains the entropy $S$, and the identification is still not an analogy — it is seated one term over.
+
+That is a strengthening rather than a concession, and it buys the division of labour its sharpest form. The Einstein field equations are the **equilibrium** equation of state: the held register, written as a reversible relation. The committed register — the tax, the irreversible write — appears as the **non-equilibrium correction** to it. Held and committed land in different terms of one balance, which is the same split §IV draws between source and medium and the same one a variational principle cannot cross: an action yields reversible equations, so it can carry the equilibrium side and not the production term. Both sides still say that the curvature of spacetime at a point is the footprint of what has been irreversibly committed there; what is now explicit is which term does the committing.
 
 Therefore: the metric's source is the accumulated monotonic scalar — and the helix has exactly one, $\chi$, written on $P$.
 

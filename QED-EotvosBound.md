@@ -105,7 +105,7 @@ Evaluating the master equation across the full physical spectrum demonstrates wh
   Compton Floor       ω_C = mc²/ℏ             ~ 10⁻²⁴ s           ~ 10⁻⁵⁰ to 10⁻⁷⁰
   Atomic / Lattice    ω_vib ~ 10¹³ Hz         ~ 10⁻¹³ s           ~ 10⁻²⁸
   Metabolic Macro     ω_bio ~ 10–100 Hz       ~ 10⁻² s            ~ 3.2 × 10⁻¹⁸
-  Cosmic Horizon      ω_H = H₀                ~ 14 Gyr            ~ 1.0 (Dyson Saturation)
+  Cosmic Horizon      ω_H = H₀                ~ 14 Gyr            >> 1  (expansion invalid)
 ========================================================================================
 ```
 
@@ -117,6 +117,12 @@ $$\omega_C = \frac{m c^2}{\hbar} \implies \tau_C = \frac{\hbar}{m c^2}$$
 Substituting $\tau_C$ into the master equation yields:
 
 $$\eta_{\text{Compton}} \approx -2\left(\frac{P_{\text{diss}}\cdot \hbar}{(m c^2)^2}\right)$$
+
+> **Defect, marked and not yet resolved: this clock breaks additivity.** Inertial and gravitational mass each add over non-interacting parts, so whatever theory produced it, an aggregate's $\eta$ must be the **mass-weighted mean** of its parts' $\eta$. That constraint is theory-neutral. With $\omega_C$ taken at the *whole body's* mass, $\eta$ scales as $P/m^2$, and two identical test cylinders placed side by side get **half** the $\eta$ of one — where additivity requires no change at all. Two further signs of the same slip: the table row above gives $\tau \sim 10^{-24}\,$s, which is a *nucleon's* clock, while the arithmetic here uses $(mc^2)^2 \approx (10^{17}\,\mathrm{J})^2$, which is the *cylinder's*; and above the Planck mass, $21.8\,\mu$g, a whole-body Compton frequency exceeds the Planck frequency — for a 300 g cylinder by a factor of $1.4\times10^{7}$ — while `L4-ThePlenum` §VII puts the shortest crossing at the Planck bottleneck.
+>
+> **What additivity forces:** an *intensive* clock, one that does not grow with the aggregate's mass — a constituent's Compton or lattice frequency. Additivity is then restored and MICROSCOPE passes by a wider margin, not a narrower one: 1 mW of leakage in a 300 g cylinder at the nucleon clock gives $|\eta| \approx 5\times10^{-44}$. The repair is forced by how parts combine, not by data, and it costs the file nothing.
+>
+> **What stays open, and it is the real debt:** the rule that assigns a frame its clock. Because $\eta \propto 1/\omega$, the slowest dissipative clock dominates, and §IV.3's "three orders of magnitude below MICROSCOPE" holds only because EEG is taken as the slowest dissipative clock in biology — organisms also dissipate on circadian clocks, where the same brain gives $|\eta| \approx 4\times10^{-12}$. Until the rule is stated, the bound is set by that choice rather than by the formula.
 
 For a passive laboratory test mass, $P_{\text{diss}}$ is limited to tiny thermal noise leakage. Because the denominator scales as $(m c^2)^2 \approx (10^{17}\text{ J})^2 \sim 10^{34}\text{ J}^2$, the predicted departure is suppressed to astronomical insignificance:
 

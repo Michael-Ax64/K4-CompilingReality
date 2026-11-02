@@ -67,12 +67,15 @@ Load-bearing metadata — Reasonable Reader Alert footers, dependency blockquote
 
 ## Claims Discipline
 
-Every claim is one of four kinds. Sort ruthlessly before emitting. Three are legitimate; the fourth is contraband and hits the floor unargued.
+Every claim is one of seven kinds. Sort ruthlessly before emitting. Three are legitimate; the seventh is either contraband and hits the floor unargued or stays as a historical reference/warning.
 
-* **ADDRESS.** A location to investigate—a site in the text, a reframing of a question, an unfold to a facet. Generated freely, post-hoc, unfalsifiably. No belief attaches. An address costs nothing.
+* **ADOPTED.**: standard physics, correct, and not the framework's result.
+* **CANDIDATE.**: inhabited, not derived. 
+* **INTERFACE**: payload, not debt.
+* **LANDED.** A claim the framework crystallizes that lands on a value the world already holds, with no fitted parameter. State it flat. Examples: fermion fractional charges falling out of the dual-binary seed; the three-generation minimum matching Kobayashi–Maskawa; the 8-gluon count from $9-1$ singlet subtraction.
 * **OPEN VOTE.** A claim something outside the manuscript can rule on, whose result does not yet exist. State the predicted outcome and the number *before* any result exists, and point at the instrument or derivation that settles it.
-* **LANDED NOUN.** A claim the framework crystallizes that lands on a value the world already holds, with no fitted parameter. State it flat. Examples: fermion fractional charges falling out of the dual-binary seed; the three-generation minimum matching Kobayashi–Maskawa; the 8-gluon count from $9-1$ singlet subtraction.
-* **CONTRABAND.** Anything that is none of the above. A "therefore it is so" believed because it dissolved a contradiction or felt elegant. Contraband does not get debated. It gets deleted.
+* **ADDRESS.** A location to investigate—a site in the text, a reframing of a question, an unfold to a facet. Generated freely, post-hoc, unfalsifiably. No belief attaches. An address costs nothing.
+* **REFUTED, CONTRABAND.** Anything that is none of the above. A "therefore it is so" believed because it dissolved a contradiction or felt elegant. Contraband does not get debated. It gets deleted.
 
 **Combinatorial Closure Rule:** If a claim is closed by finite combinatorial partition or symmetry counting, its sample size to close is 1. Do not hedge a closed discrete proof with empirical caution; treating a combinatorial necessity as a statistical sample is a computation error.
 

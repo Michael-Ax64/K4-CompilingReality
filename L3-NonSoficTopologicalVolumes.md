@@ -103,8 +103,8 @@ A **non-sofic group** is a manifold where **all three Bimedian axes are simultan
 ```
                    THE TORSION-LOCKED MANIFOLD
                    
-       Cardinal Axis {P-U, I-R}  ──► Locked at θ = π
-       Fixed Axis    {P-R, I-U}  ──► Locked at θ = π
+       Fixed Axis    {P-U, I-R}  ──► Locked at θ = π
+       Cardinal Axis {P-R, I-U}  ──► Locked at θ = π
        Mutable Axis  {P-I, U-R}  ──► Locked at θ = π
                                      │
                                      ▼
