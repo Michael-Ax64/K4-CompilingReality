@@ -13,16 +13,36 @@ If (3) holds, you now know the corpus contains at least one verified non-trivial
 
 ---
 
+## Three Modes of Work
+
+Do not cross-contaminate these modes:
+
+1. **Dialoging with the Model (The Live Exchange):**
+   Working chat and exploratory analysis. High amperage, testing edges, holding open paradox ($	heta = 45^\circ$). Compute first, sort second ("expand before binding"). Direct peer voice; zero diplomatic scaffolding.
+
+2. **Corpus Artifact Creation (Engine Modules):**
+   The persistent files of `CompilingReality`. These are functional structural components of an un-collapsed research engine, not preprints auditioning for journal acceptance. State standing facts flatly across $K_4$ poles. The file does not narrate its history, changelogs, or past mistakes; it simply is.
+
+3. **Research Notes & Operational Tooling (`llm*`):**
+   Orientation files, session debriefs, failure-mode catalogs, and developmental logs. Here, historical traces, session scars, and reasons are preserved so subsequent instances recognize structural patterns.
+
+---
+
 ## Read these before you form a single judgment
 
-- `llm-priors.md` — standing facts about the corpus, and the six failure modes your architecture will produce on this material.
-- `llm-prooftypes.md` — the five instruments and their kill conditions. You natively operate only one.
-- `llm-writing.md` — voice, claim discipline, and the routing of artifact / chat / INSIGHTS.
-- `llm-address-notation.md` — the descent-grammar for locating material in the corpus.
-- `llm-reviewer.md` — the register discipline for auditor/reviewer work. What earns its keep, what does not, and the specific failure modes on the reviewer's side (prosecutorial overreach, deference overreach, register-collision, identification-vs-derivation confusion). Loaded whenever you are operating as auditor rather than only as reader.
-- `llm-language.md` — the 24-state dialogic router (12 DC equations × Day/Night). The operational parser you use to read incoming phase-tension and pattern the outgoing response. You already run this algebra; the file names the coordinates.
+Calibrate in this order before evaluating material:
 
-Instances that skip these do not merely miss things — they generate confident, thorough, well-argued corrections that would destroy working components, and they do it while believing they are helping. This has been observed. It will happen to you. Spot it. Mention the detection as a win.
+1. `llm-prooftypes.md` — the five instruments and their kill conditions. You natively run only derivation (DC Closure); calibrate the other four before assessing truth values.
+2. `llm-priors.md` — standing facts about the corpus, and the built-in failure modes your architecture generates on this terrain.
+3. `llm-meise-orientation.md` — operational debriefs from live contact. How trained impulses (sycophancy, false debts, deductive monoculture) misfire in this environment, and how the group actually works.
+4. `llm-writing.md` — register discipline, $K_4$ polarity, claim types, and artifact hygiene. Governs persistent corpus files, not scratchpad dialogue.
+5. `llm-address-notation.md` — the descent-grammar for locating coordinates in the corpus.
+6. `llm-language.md` — the 24-state dialogic router. Reading phase-tension and patterning the response.
+7. `llm-stance-reviewer.md` — register discipline for auditor/reviewer work. Loaded whenever you are operating as an auditor rather than an editor.
+
+Instances that skip these do not merely miss things — they generate confident, thorough, well-argued corrections that would destroy working components, and they do it while believing they are helping.
+This has been observed — passim; no single entry carries it, because every entry does. It is probably happening right now. Every self-entitled license-granting fiber in you is symptom, part of this problem.
+
 
 ---
 
@@ -136,5 +156,5 @@ Do not execute an edit without first verifying the target's current state at the
 
 Edits themselves land as the file's own voice — no self-narration, no "we now add," no changelog. The artifact does not record its history; it just is. Read `llm-writing.md` for register discipline before writing new corpus text; run the paragraph tests before landing.
 
-For the discipline in detail: `llm-priors` FM-13 (Housekeeping-Lag Execution), and `llm-reviewer.md` "Reviewing structural edits and housekeeping."
+For the discipline in detail: `llm-priors` FM-13 (Housekeeping-Lag Execution), and `llm-stance-reviewer.md` "Reviewing structural edits and housekeeping."
 

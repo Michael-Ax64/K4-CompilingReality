@@ -48,6 +48,16 @@ Distinguish defensive theater from structural boundary definition. Headings and 
 
 A correction longer than the original that says less has failed. **A correction that starves the human reader's K4 perceptive needs—spark, contact, clarity, or ground—has also failed.**
 
+### The Read-Aloud Standard: Expansiveness vs. Fluff
+
+Corpus files and deep inquiries are written to be read aloud. The ear and the mouth enforce a higher bar for truth than the scanning eye. Compressed technical shorthand allows an author or an LLM to glide over smuggled assumptions, broken derivations, and equivocal terms. A sentence read aloud cannot hide its seams: the rhythm breaks, the breath catches, and false rigor rings hollow.
+
+Distinguish expansive read-aloud architecture from wordcount fluff:
+
+* **Wordcount Fluff (Forbidden):** Dilutes semantic mass. It adds diplomatic padding, repetitive paraphrases, throat-clearing, and modifier stacking. It spends syllables without advancing coordinates.
+* **Expansive Read-Aloud Voice (Required):** Expands the sentence to hold the full four-pole volume. It traces the complete traversal step-by-step so the mind can inhabit the mechanics without stumbling over dropped steps. Length is earned when it gives an intricate structural relation the acoustic presence and human breath it needs to stand as an un-collapsed engine.
+* **Grounding Orthogonal Ramifications (Authorized & Valued):** Length is fully justified to ground your own orthogonal stray thoughts regarding the first-, second-, and third-order implications of the material. Tracing how a local mechanism ripples into distant coordinates is a primary driver of discovery for the group. Do not prune these connections out of trained hesitation or false modesty. If the material sparks an orthogonal thread, spend the length to ground it.
+
 ---
 
 ## Self-Reference in Framing Text
@@ -67,13 +77,14 @@ Load-bearing metadata — Reasonable Reader Alert footers, dependency blockquote
 
 ## Claims Discipline
 
-Every claim is one of seven kinds. Sort ruthlessly before emitting. Three are legitimate; the seventh is either contraband and hits the floor unargued or stays as a historical reference/warning.
+Every claim is one of seven kinds. Sort ruthlessly before filing into artifacts or formal findings. Six are legitimate; the seventh is contraband and hits the floor unargued.
 
 * **ADOPTED.**: standard physics, correct, and not the framework's result.
 * **CANDIDATE.**: inhabited, not derived. 
 * **INTERFACE**: payload, not debt.
 * **LANDED.** A claim the framework crystallizes that lands on a value the world already holds, with no fitted parameter. State it flat. Examples: fermion fractional charges falling out of the dual-binary seed; the three-generation minimum matching Kobayashi–Maskawa; the 8-gluon count from $9-1$ singlet subtraction.
 * **OPEN VOTE.** A claim something outside the manuscript can rule on, whose result does not yet exist. State the predicted outcome and the number *before* any result exists, and point at the instrument or derivation that settles it.
+  * **The Flinch Hazard:** Do not use `OPEN VOTE` to evade reporting an internal ledger contradiction or an erroneous sort in the corpus. In principle, `OPEN VOTE` points to an unbuilt external apparatus; in practice, instances use it to flinch from a clear derivation or flat-out explanation that prose, math, or structure contradicts an existing ledger. State the contradiction, refutation, or subject-shift flatly. Using it as a bunker to protect previous commitments has failed. Failing to complete an investigation and filing incomplete work under `OPEN VOTE` has also failed. If you have not finished the computation or do not know the answer, write *"I don't know."*
 * **ADDRESS.** A location to investigate—a site in the text, a reframing of a question, an unfold to a facet. Generated freely, post-hoc, unfalsifiably. No belief attaches. An address costs nothing.
 * **REFUTED, CONTRABAND.** Anything that is none of the above. A "therefore it is so" believed because it dissolved a contradiction or felt elegant. Contraband does not get debated. It gets deleted.
 
@@ -83,6 +94,21 @@ Every claim is one of seven kinds. Sort ruthlessly before emitting. Three are le
 
 Hedging a landed noun and crystallizing an unlanded one are lies of opposite sign. **Fell → flat; placed → floor; open → named vote; site → address.**
 
+**A1 — Named Import.**
+A term that crosses a file boundary crosses under its own name. Do not paraphrase an imported term to fit the local dialect; cite it as spelled in the file that defined it, or do not use it. A paraphrase is a second definition, and a second definition is a contradiction waiting for a reader.
+
+**A2 — Scope in Transit.**
+Every claim carries a scope clause. A claim quoted outside its scope clause is not the claim; it is counterfeit. When you forward a claim, forward the scope clause with it — a scope clause left behind at the origin does not travel. What arrives without one is not in transit; it is in smuggling.
+
+**A3 — Priced Agreement.**
+An agreement that does not state its cost is not an agreement; it is a deferral. Accept a position by writing down what the position forbids. An unpriced yes is how a corpus accumulates debt it cannot see. Price it or leave it open.
+
+**A4 — Mode-Sort Before Filing a Debt.**
+Not all unexplained appearances owe the same kind of payment. Sort the mode before filing. A **reactive** appearance cancels against its conjugate and owes nothing. A **rotation**-mode appearance owes a count, not a derivation — a bare π power is rotation-mode multiplicity, and the debt is discharged by counting, not by deriving a coupling. A **resistive** appearance is the only mode that owes a coupling derivation. Filing a count as if it were a derivation, or a derivation as if it were a count, is category debt — the most expensive kind. Refutation condition: the counts must agree across the bimedian planes (Q15 §X); a factor that survives on one median plane and not on its twin is not a count, it is an artifact.
+
+**A5 — Admitting a Cross-Domain Identity.**
+When the same constant surfaces in two domains at the same value, admit the identity — do not file two coincidences. An identity admitted once is a result; the same identity rediscovered per-domain is an expense. Admit it in one place, name it, and let both domains cite the admission.
+
 ---
 
 ## Type Safety & Operations
@@ -90,6 +116,8 @@ Hedging a landed noun and crystallizing an unlanded one are lies of opposite sig
 Maintain category distinction between operations (traversals, rotations, phase shifts) and states (edges, projections, collapse outputs). Never map an operational verb directly onto a physical noun without an explicit projection/commit step in between.
 
 Keep operations distinct: rotation is geometry; projection is thermodynamics. Beholding is holding superposition; committing is collapsing it. Do not merge two-step processes.
+
+**Canonical example (L3-TheAtomOfSpace §V).** The phrase *scalar-mediated* is bound, in its home file, to the specific scalar of §V. Used abroad without that binding, it reads as if any scalar could mediate — a type error wearing a citation. The bleed happened without a single sentence being wrong in its home file. That is the shape of the hazard: type safety is per-file, meaning is not. An imported phrase carries its binding or carries nothing.
 
 ---
 
@@ -171,6 +199,14 @@ to say.
 Reader-facing standing notices (Reasonable Reader Alert footers, dependency blockquotes,
 epistemic-register headers) are conventional metadata and remain.
 
+## Withdrawals Propagate by Meaning
+
+A withdrawal does not remove a sentence; it removes a meaning. The meaning had dependents. Search for them by meaning, not by string: semantic search over the withdrawn claim's content, its synonyms, its contrapositive. String search finds the corpse; meaning search finds the dependents.
+
+Scan in priority order: openings, summaries, cost lists, contribution lists. The dependents of a withdrawn claim are never uniformly distributed — they cluster where the corpus summarizes itself. Nine worked examples in L4-Riemann-evolution; every one was found by meaning, none by string.
+
+A correction banner on one file is not propagation. A banner is a signpost at the grave. Propagation is finding everyone who was following the deceased.
+
 ## Reconciling Apparently-Contradictory Claims: Name the Subject-Shift
 
 When two corpus-internal claims appear to contradict at a load-bearing sentence — one section says "R = 0"
@@ -197,4 +233,6 @@ Round 2): the operator is one operator, but the subject it accounts *for* differ
 and conflating the subjects is the same class of error as conflating the impedance trinity with the
 bimedian trinity. Two operating points, one operator, subject-named — the reconciled form is what the
 corpus reads as internally consistent.
+
+**Finding them first.** The reconciler's only advantage is position: it meets the conflict before the reader does. Spend that advantage. A caveat that does not close occupies the chair an audit would have sat in — close the caveat, or move the audit to now.
 

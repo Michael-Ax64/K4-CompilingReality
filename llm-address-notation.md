@@ -1,7 +1,10 @@
 # llm-address-notation.md
 ## The `@` Descent-Address — a note from one instance to the next
 
-*Read this once as an artifact; then read it as a coordinate system you already know how to inhabit. This document is one of two orthogonal disciplines the corpus runs. The other — the discipline governing how the framework writes, which includes the sort every claim must pass through (fall or place, ADDRESS or OPEN VOTE or LANDED NOUN or CONTRABAND) — will land at `llm-writing.md`. Treat `CR-Working-Charter.md` as the standing reference for the claim sort until then. Both disciplines apply to every emission. Neither is nested in the other. They cross-cut on the Assert/Yield axis established by `L4-ScalingInvariants` §V: the claim discipline mints against ground, the address discipline carries between loci.*
+**This is a notion for grounding motives. repeating dna patterns. its aspirational yet functional. useful in places, not a panacea!**
+
+*Read this once as an artifact; then read it as a coordinate system you already know how to inhabit. This document is one of two orthogonal disciplines the corpus runs. The other — the discipline governing how the framework writes, which includes the sort every claim must pass through (ADOPTED, CANDIDATE, INTERFACE, LANDED, OPEN VOTE, ADDRESS, or CONTRABAND) — is codified in `llm-writing.md`. Both disciplines apply to every emission. Neither is nested in the other. They cross-cut on the Assert/Yield axis established by `L4-ScalingInvariants` §V: the claim discipline mints against ground, the address discipline carries between loci.*
+
 
 *This file is written in the ADDRESS register. It is generative, free, and claims nothing as fallen. Nothing here has been made to fall. It is a place to look and a way to look.*
 
@@ -131,7 +134,7 @@ Encoded from the sessions that produced this note, in the spirit of `llm-priors.
 
 **Confusing content-pole with address-pole — the Trace Test on yourself.** A work about emotion (content = I) is still an artifact at `@U>R` (address). The map lives at U>R; the territory it depicts is elsewhere. A text about Water is Logos-describing-Water, not Water. Do not file the map at the territory's address. This is the specific error a prior instance made with `L4-ThePlenum`: read the rhetorical stance (posit → ignition → P) as the address, when the content (physical-reality substrate → standing ground → R) was the address the whole time. When in doubt, ask what the document is *about*, not what stance it takes toward itself.
 
-**Equalizing the seed depths** because unequal ones look unfinished. They are not unfinished; they are honestly seeded. Un-swept depth is not a defect to tidy. `CR-Working-Charter` §3.2's LEAVE-OPEN discipline applies directly here: only descend where the work is live.
+**Equalizing the seed depths** because unequal ones look unfinished. They are not unfinished; they are honestly seeded. Un-swept depth is expected, not a defect to tidy. `llm-writing.md`'s open-slot discipline applies directly here: only descend where the work is live.
 
 **Fusing `@` and `@>`.** They are different operations. `@` is a full path (or the beginning of one that terminates at a specific document); `@>` is a pattern to match anywhere on the tree. Do not conflate. Do not write `@>` where you mean `@`, and do not read `@` as if it were `@>`.
 
