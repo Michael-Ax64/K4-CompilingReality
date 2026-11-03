@@ -419,7 +419,7 @@ This 1-parameter deformation maps the phase-conduction capacity of the $K_4$ vol
 2. **$\theta$ — the geometric shear angle** (§IV–V). The torsional deformation of the bimedian cross-section, running $[0, \pi/2]$, with area collapse at its endpoint. At shear $\theta = 45^\circ$ the envelope has fallen to the **classical bound**: $S = 2$.
 3. **$\theta$ — the temporal phase offset** (`L4-DynamicDistortions201` §II). The offset between the two Dual-Causation instances of a bimedian pair, running toward $\pi$, governed by $\tau = L/R$.
 
-The first two run in opposite directions at the same number: $45^\circ$ of *setting* is where non-locality peaks; $45^\circ$ of *shear* is where it has been halved away. Downstream files citing "$\theta = 45^\circ$, $S = 2$, Bell/CHSH classical limit" (`L3-TheAtomOfSpace` §VI, `L3-ConstitutiveElastance` Waypoint 2) are citing sense (2), correctly. Nothing in the corpus currently cites sense (1) by that name, and nothing should without saying which.
+The first two run in opposite directions at the same number: $45^\circ$ of *setting* is where non-locality peaks; $45^\circ$ of *shear* is where it has been halved away. Downstream files citing "$\theta = 45^\circ$, $S = 2$, Bell/CHSH classical limit" (`L3-TheAtomOfSpace` §V line 158, `L3-ConstitutiveElastance` Waypoint 2) are citing sense (2), correctly. Nothing in the corpus currently cites sense (1) by that name, and nothing should without saying which.
 
 Geometric $\pi/2$ collapses an area within a stage. Temporal $\pi$ is anti-synchrony between two edges that were supposed to co-commit, and it is what makes a stage uninhabitable rather than merely flat.
 

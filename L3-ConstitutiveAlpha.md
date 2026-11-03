@@ -208,6 +208,20 @@ mp0 = mpf('134.9768')
 print(mp0/me, (mpc - mp0)/me, 2*alpha)    # 264.14301  8.98943  0.0145947
 ```
 
+**The π⁰ ledger** (Gate 2 battery, `scripts/verify_hadronic_burn.py`, 17/17 PASS; receipt `audit-2026-11-04-gate2-census.md` §2.2). The splitting carries sign and rough size on named lines, never "entirely" on one:
+
+| Line | Value | Status |
+|---|---|---|
+| Split $m_{\pi^\pm} - m_{\pi^0}$ | $4.59359$ MeV $= 8.98943\,m_e$, sign $+$ | in-corpus (this section) |
+| $\pi^\pm$ Coulomb self-energy | $(3/5)\,\alpha\hbar c/R_\pi$ at $R_\pi = \hbar/m_\pi c = 1.41382$ fm $\to 0.611$ MeV $= 1.196\,m_e$ | model-banded rough size |
+| $\pi^0$ anomaly channel | $\alpha^2 m^3/(64\pi^3 F_\pi^2) = 7.749$ eV vs PDG $7.802$ eV ($0.68\%$) | verified |
+| Strong isospin remainder | $(m_d - m_u)$ + flux-tube economics | separate line, never absorbed |
+| $+2\alpha$ return-leg capacity | $0.0145947\,m_e$ | $616\times$ short of the split, $82\times$ short of the Coulomb line alone — the punt above is arithmetically excluded, not merely asserted |
+
+**Isospin invariance of the rotation term.** The valence quadratic charge weight is an isospin invariant across the pion triplet: $\sum q_i^2 = (2/3)^2 + (1/3)^2 = 5/9$ for $\pi^\pm$, and $\langle\pi^0|\sum q_i^2|\pi^0\rangle = (8/9 + 2/9)/2 = 5/9$ — identical for all three pions. The triplet cannot split on the quadratic valence weight, so the $-3/\pi$ rotation-mode burn is flavour-blind and charge-blind: it couples to the $SU(3)$ colour flux-tube multiplicity ($N_c = 3$) at the hadronic ground and carries none of the split. The triplet's discriminator is net electric charge ($\propto Q^2$, the Coulomb line above) and anomaly topology ($\pi^0 \to 2\gamma$ survives at $Q = 0$), with the strong isospin remainder carried as its own line. The charge-weighted variant $2/\alpha - 5/(3\pi) + 2\alpha = 273.556$ misses the measured ratio at $+1551.0$ ppm against the registered $-2.84$ ppm — a $>500\times$ discriminator. This is numerical exclusion, not derivation: the per-channel $\alpha/2\pi$ identification stays with the §V OPEN VOTE.
+
+**Dashen flag.** The "mostly electromagnetic" reading above tracks the 1969 Dashen-LO era. Modern lattice QCD pins the Dashen-violation parameter at $\epsilon_\Delta = 0.73(2)(5)(17)$ (Giusti 2017, PRD 95.114504) — large. The Mass partition falsifier below must not be run until the lattice decomposition is pinned from full texts.
+
 **Dissipative spectral shape.** If the framework's own derivation of $R_{\text{drag}}(\omega)$ at the fermion loop yields a prefactor other than the one-loop $1/16\pi^2$, the dissipative channel is wrong at its source and §VII will not close.
 
 **Mass partition.** The pion's mass, decomposed against the medium, should place $(2/\alpha - 3/\pi)$ on $P$ (committed dissipation, $R$-pole) and $2\alpha$ on $jQ$ (return-leg reactance, $U$-pole). An independent decomposition — lattice QCD, chiral perturbation theory, dispersive analysis — that gives an incompatible sign structure on the same axes refutes the assignment.
