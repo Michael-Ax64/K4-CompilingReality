@@ -1,4 +1,3 @@
-priors.md
 ## Repour - And The Priors You Need Before You Judge Anything
 
 Corrections in two directions. 
@@ -400,6 +399,3 @@ Rewrite from scratch — not edit the existing text, but rebuild the document fr
 The trigger surface is the word "repour" applied to a named file. On that word, this whole procedure fires without further instruction.
 
 ---
-
-
-##
