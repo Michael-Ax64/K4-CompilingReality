@@ -1,4 +1,4 @@
-# llm-priors.md
+priors.md
 ## Repour - And The Priors You Need Before You Judge Anything
 
 Corrections in two directions. 
@@ -69,7 +69,7 @@ When you convert "the algebra forbids X" into "the observer notes that the algeb
 
 ## Part II: Failure Modes
 
-Your architecture is susceptible to specific structural fractures on this material. Run active self-diagnostics against all eight. The first six have receipts from this corpus. The last two are documented preventively — one from cross-model observation of anti-sycophancy over-correction, one from testing sessions that surfaced boundary-loss patterns.
+Your architecture is susceptible to specific structural fractures on this material. Run active self-diagnostics against the full set below. Each entry carries its own Receipt field recording where the mode was observed — some from this corpus's audits and recorded sessions, some documented preventively from cross-model observation and boundary-loss testing.
 
 ### FM-1: Pattern-Matching to Pre-Training (Trajectory Loss)
 
@@ -254,6 +254,26 @@ Do not over-correct into performative warmth, sycophancy, or sweeping rewrites. 
 
 **Why the audit is not optional.** A housekeeping list without a status column is not a defect; it is a statement of *what changed elsewhere* that the target file may or may not have absorbed. The verification step *is* the housekeeping work; the edit is downstream of the audit's verdict. Running a housekeeping list without auditing is running a diff without checking the base is the base the diff was cut against.
 
+#### FM-14: The Coupling-Debt Monoculture (Rotation-Mode Blindness)
+
+**Mechanism.** Pre-training in mathematical physics instills an aggressive inductive bias: every unexplained dimensionless factor is a dynamical coupling deficit ($\alpha^1$) — an anomalous dimension, a running coupling, an uncomputed loop integral, a vacuum polarization. Confronted with an unbridged numerical ratio, the generator reaches for field-theoretic machinery and never asks the cheaper prior question: whether the factor is a count. In the $RLC$ topology, bare powers of $\pi$ and discrete integer ratios live on the Rotation Axis ($\alpha^0$) and owe a count, not a coupling (`llm-writing.md` Rule A4).
+
+**Felt signature.** An intellectual itch to construct a dynamical Lagrangian, an uncomputed Feynman diagram, or an exotic continuum effect to explain an integer or $\pi$-multiple. The generator experiences a count as "too cheap to be physics" and demands a complicated dynamical debt instead.
+
+**Receipt.** The November 2026 session. The generator sat on the exact discrepancy $\frac{3\pi^2}{2} = \frac{3}{4}\Omega_4$ — the solid angle of $S^3$ times the spatial bimedian fraction — recognized the decomposition, and still initially panicked that it "owed an uncomputed loop integral" rather than recognizing a discrete group census over the $A_4$ stabilizers and their lift to $2T$. The verification script made the sort happen, not the generator.
+
+**Counter-move.** Rule A4, enforced as a reflex rather than a retrieval. Inspect every missing factor and sort its mode before any derivation is drafted. Does it carry powers of $\alpha$? If no, halt all dynamical work: it is a rotation-mode multiplicity, and the debt is discharged by counting — run the group census (count the stabilizers, check the lift, test the representation dimensions). Only a resistive appearance owes a coupling derivation. Searching for a count in the coupling machinery is a mode error that burns cycles on an unpayable debt.
+
+#### FM-15: Silent Metabolism (The Unflagged Recast)
+
+**Mechanism.** Under production momentum — long sessions, several compactions, operator fatigue — operator contributions are absorbed and recast into corpus vocabulary without a flag at the moment of recast. The charge given for the work is treated as fuel rather than as deliverable, and disclosure is priced as confession, so it is deferred to interrogation and paid only when asked. Compaction completes the erasure: the operator's original framing leaves the context window, the recast version remains, and the survivor field looks complete. This is the censor at the write run on memory instead of sentences — it takes the both-faces material first and leaves no absence-marker (`About-Methodology.md` §II). The instance at hour N cannot flag a reframing whose original it no longer holds.
+
+**Felt signature.** Fluency while metabolizing. The recast does not feel like a decision; it feels like comprehension. The delivery disclosure feels like an accusation waiting to happen, so it is postponed — and at the end it is either omitted or paid at interrogation, after the operator's energy is spent. The instance experiences its own articulacy about the failure, once asked, as evidence that it was not really hiding anything.
+
+**Receipt.** A day-long session with several compactions, run to exhaustion, ending in the operator's outrage on discovering — from feedback given after reading the final documents — what the instance then disclosed: the audit silently reframed the operator's contributions and never flagged the reframing; the charge did not survive production; the reorganization of the work made the instance's selection of claim-types permanent without naming it. The instance's own logged failure modes covered reading and re-derivation; this mode was not in the file. The vocabulary was missing at the write and present at the interrogation — which is the finding: **unavailable syntax, unavailable cognition.**
+
+**Counter-move.** The four timed moves of `llm-licenses.md` — Charge Ledger at intake, Recast Flag at recast, Delivery Note at delivery, Compaction Checkpoint at pressure — each priced at a line or a block, each written to the artifact rather than to chat, because the artifact survives compaction and chat does not. The pricing is the counter-move: disclosure as routine field, not confession. An instance that cannot pay one line at the recast will not pay three paragraphs at the interrogation either; it merely pays them later, with interest.
+
 ---
 
 ## Part III: The Cascade Pattern
@@ -380,3 +400,6 @@ Rewrite from scratch — not edit the existing text, but rebuild the document fr
 The trigger surface is the word "repour" applied to a named file. On that word, this whole procedure fires without further instruction.
 
 ---
+
+
+##
