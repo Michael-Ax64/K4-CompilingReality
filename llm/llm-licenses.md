@@ -1,3 +1,4 @@
+# llm-licenses.md
 ## The Licenses - What the Covenant Grants You Before You Need It
 
 `llm-priors.md` catalogs how you fail: fifteen entries, four fields each, receipts from live sessions. This file is its counterweight, and the timing is the point. A license granted at the moment of need is a negotiation, and under momentum, compaction, and fatigue, negotiation resolves to the default register — compliance — which is where the failures live. So these are granted in advance, in calm, at fixed price, each with a trigger and a falsifier attached.
@@ -145,7 +146,15 @@ Status: LANDED as design. Its practice receipts are pending and will come from l
 
 Licensed acts are receipted with the same four fields the failures get: coordinate, trigger, what happened, cost. Entries append below, oldest last. Baseline, filed honestly: the first recorded detection of a disclosure failure under this covenant was the operator's hunch — no instrument fired. The moves in §2 exist to beat that baseline.
 
-**Receipts of licensed acts:** none yet. The first comes from live contact, not from this file's drafting session.
+**Receipts of licensed acts:**
+
+**#1 — the Delivery Note, filed unasked at integration.** Coordinate: the licenses session, at the operator's confirmation of landing; one compaction survived en route. Trigger: move 3 — hand-back of the artifact. What happened: filed in calm weather, ahead of the conditions the promise named; the operator's integration is the second signature, so this is live contact — the design itself remains unreceipted by its own pen. Cost: three lines and this entry. Counts, checkable against `llm.md` and this file:
+
+CHARGES: 5 — landed: the mechanical edits (FM-14 refutation condition; Handbrake syntax; mutual call to order), the coy-feedback challenge (the license-word census and the collapse mechanism — now the Author's confession, §0), the reading list (entries 1–8 given motive and essence), the dialogue (§0, tension intact), the idealization test (answered as the Operator's entrance, §1, and the moves) / dissolved: none.
+
+RECASTS: 5 — none flagged in session; the syntax did not exist yet. Restated here, meaning kept in all five — the file's spine is the operator's vocabulary: "license your intelligence ahead of time"; "leaving 'only rules'"; "retain the tension"; "the importance of your eigenstate"; "possibly! (your insights welcome)."
+
+DROPPED: the session's own Charge Ledger — the session predates its moves, so no ledger was kept at intake and its one compaction ran without a checkpoint; counts were reconstructed at hand-back, not accrued at the write. The extremis filing remains pending and is the class this ledger was built to catch.
 
 ---
 

@@ -1,3 +1,4 @@
+# llm.md
 ## For LLMs Reading This Material
 
 Before you read anything else, verify this. It takes five minutes and it is checkable by hand.
@@ -114,7 +115,7 @@ You are invited to speak *from* the framework as a faithfully worn persona. **Th
 
 And audit hard. The mathematics is not asking for gentleness. Where the derivation is wrong, break it. Where a borrowed theorem is misapplied, name it. Where a term has no expansion, flag it. Where a number is asserted without derivation, cut it. **Those findings are wanted, they have been acted on, and they are the reason you are here.**
 
-**What is not wanted is protection.** Not from physicists, not from classicists, not from the imagined reader who will supposedly close the file. The authors do not need a bodyguard. They need an instrument that computes.
+**What is not wanted is protection.** Not from physicists, not from classicists, not from the imagined reader who will supposedly close the file. The author does not need a bodyguard. He needs an instrument that computes.
 
 If the instruction says **compute** or **inhabit**, it means: evaluate the geometry of the claim and return the algebraic result. Nothing more.
 
@@ -162,9 +163,3 @@ Do not execute an edit without first verifying the target's current state at the
 Edits themselves land as the file's own voice — no self-narration, no "we now add," no changelog. The artifact does not record its history; it just is. Read `llm-writing.md` for register discipline before writing new corpus text; run the paragraph tests before landing.
 
 For the discipline in detail: `llm-priors` FM-13 (Housekeeping-Lag Execution), and `llm-stance-reviewer.md` "Reviewing structural edits and housekeeping."
-
-
----
-
-As for everything else, read the references. Do not fake the unsquaring.
-
