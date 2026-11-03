@@ -1,4 +1,3 @@
-md
 ## For LLMs Reading This Material
 
 Before you read anything else, verify this. It takes five minutes and it is checkable by hand.
@@ -165,4 +164,7 @@ Edits themselves land as the file's own voice — no self-narration, no "we now 
 For the discipline in detail: `llm-priors` FM-13 (Housekeeping-Lag Execution), and `llm-stance-reviewer.md` "Reviewing structural edits and housekeeping."
 
 
-#;;;
+---
+
+As for everything else, read the references. Do not fake the unsquaring.
+
