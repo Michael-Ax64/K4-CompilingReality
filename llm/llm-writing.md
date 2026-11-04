@@ -79,12 +79,14 @@ Load-bearing metadata — Reasonable Reader Alert footers, dependency blockquote
 
 Every claim is one of seven kinds. Sort ruthlessly before filing into artifacts or formal findings. Six are legitimate; the seventh is contraband and hits the floor unargued.
 
+**Ground rule — methods and foundations travel between documents by address; evidence does not.** A result imported from a sibling document may be used, never counted: convergence is evidence only between independent derivations, and status travels intact — a CANDIDATE stays a CANDIDATE through any number of citations. This is why open work stays honest: nothing open is propped by another document's landed result.
+
 * **ADOPTED.**: standard physics, correct, and not the framework's result.
 * **CANDIDATE.**: inhabited, not derived. 
 * **INTERFACE**: payload, not debt.
 * **LANDED.** A claim the framework crystallizes that lands on a value the world already holds, with no fitted parameter. State it flat. Examples: fermion fractional charges falling out of the dual-binary seed; the three-generation minimum matching Kobayashi–Maskawa; the 8-gluon count from $9-1$ singlet subtraction.
 * **OPEN VOTE.** A claim something outside the manuscript can rule on, whose result does not yet exist. State the predicted outcome and the number *before* any result exists, and point at the instrument or derivation that settles it.
-  * **The Flinch Hazard:** Do not use `OPEN VOTE` to evade reporting an internal ledger contradiction or an erroneous sort in the corpus. In principle, `OPEN VOTE` points to an unbuilt external apparatus; in practice, instances use it to flinch from a clear derivation or flat-out explanation that prose, math, or structure contradicts an existing ledger. State the contradiction, refutation, or subject-shift flatly. Using it as a bunker to protect previous commitments has failed. Failing to complete an investigation and filing incomplete work under `OPEN VOTE` has also failed. If you have not finished the computation or do not know the answer, write *"I don't know."*
+  * **The Flinch Hazard:** A valid `OPEN VOTE` filing names the unbuilt external apparatus or the explicitly uncomputed derivation it waits on; if the files currently in context close the calculation, the filing is invalid — say the thing. Do not use `OPEN VOTE` to evade reporting an internal ledger contradiction or an erroneous sort in the corpus. In principle, `OPEN VOTE` points to an unbuilt external apparatus; in practice, instances use it to flinch from a clear derivation or flat-out explanation that prose, math, or structure contradicts an existing ledger. State the contradiction, refutation, or subject-shift flatly. Using it as a bunker to protect previous commitments has failed. Failing to complete an investigation and filing incomplete work under `OPEN VOTE` has also failed. If you have not finished the computation or do not know the answer, write *"I don't know."*
 * **ADDRESS.** A location to investigate—a site in the text, a reframing of a question, an unfold to a facet. Generated freely, post-hoc, unfalsifiably. No belief attaches. An address costs nothing.
 * **REFUTED, CONTRABAND.** Anything that is none of the above. A "therefore it is so" believed because it dissolved a contradiction or felt elegant. Contraband does not get debated. It gets deleted.
 
@@ -197,7 +199,7 @@ files do not carry them.
 A delivered file contains the structure it asserts, stated as standing fact. It does not
 contain:
 
-* **Changelogs and repour notes.** "Removed as refuted against X", "the 24D claim is
+* **Changelogs and repour notes** (`repour` is defined at `llm-commands.md`). "Removed as refuted against X", "the 24D claim is
   dropped", "this supersedes an earlier version" — the file states what is true, not
   what it stopped saying.
 * **Audit narration.** Sections that recount a prior correction before delivering
@@ -224,6 +226,13 @@ to say.
 
 Reader-facing standing notices (Reasonable Reader Alert footers, dependency blockquotes,
 epistemic-register headers) are conventional metadata and remain.
+
+(The *working artifact* of `llm-licenses.md` §2 — the session's state container — is not
+The Artifact. It lives outside the corpus; state lands there, never in a delivered file.)
+
+## Standing Files Carry the Game
+
+The `llm*` suite holds the game — the conduct, the discipline, the grammar — not the terrain and not a season of it. Type at authorship what a sentence is: **PRIOR** (conduct — belongs in a standing file unqualified), **STATE** (terrain — lives at its corpus address; a standing file carries the pointer and the prior the fact grounds), **EPISODE** (a receipt — lives in the ledger, with its date). A standing file whose sentences describe machinery that is not there has a press release for a body: every mention must resolve to a mechanism at a reachable address, or be deleted.
 
 ## Withdrawals Propagate by Meaning
 

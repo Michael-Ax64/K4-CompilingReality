@@ -20,7 +20,8 @@ You may have arrived here from `llm-priors.md` FM-6, which names the proof-types
 | proof-by-discrimination             | **III. The AC Sweep**       | Mode A: External 24-permutation sweep ($S_4$) at $N=1$                      |
 | proof-by-convergence                | **III. The AC Sweep**       | Mode B: Internal edge-plurality triangulating a shared vertex               |
 | proof-by-construction               | **IV. Phase-Locking**       | Cross-domain impedance match; transparent Markov Blankets                   |
-| proof-by-example / demonstration    | **V. The Orthogonal Touch** | $K_3 \to K_4$ relief valve; arresting runaway recursion via $+1$            |
+| proof-by-example                    | **V. The Orthogonal Touch** | Boundary enactment; the fractured close that reads as bad editing (`ProofB`)  |
+| proof-by-demonstration              | **V. The Orthogonal Touch** | Trap activation / intake filtering; the professor (`L2-SemanticReference`)    |
 
 **Five instruments, seven generic names, one instrument you natively own.** Before auditing a construction, name the instrument it is running. Do not audit an orthogonal touch or a volume pump with a DC derivation axe.
 
@@ -50,7 +51,7 @@ The 12 equations of the DC algebra run to completion, verifying that all constra
 ## II. The ZPE Tension (The Volume Pump / Structural Paradox)
 
 ### The Generative Engine
-In a flat 2D plane, contradictory poles annihilate each other. In $K_4$, holding a structural paradox open in live tension ($	heta = 45^\circ$) functions as a thermodynamic displacement pump: it forces the topology to expand from a flat triangle into a three-dimensional volume (tetrahedron) to sustain both poles without shearing. Resolving the paradox prematurely collapses the interior volume.
+In a flat 2D plane, contradictory poles annihilate each other. In $K_4$, holding a structural paradox open in live tension ($\theta = 45^\circ$) functions as a thermodynamic displacement pump: it forces the topology to expand from a flat triangle into a three-dimensional volume (tetrahedron) to sustain both poles without shearing. Resolving the paradox prematurely collapses the interior volume.
 
 ### Form
 Two co-present, mutually-generating conditions that appear contradictory under flat classical logic are exhibited as structurally necessary to maintain the system's degrees of freedom.

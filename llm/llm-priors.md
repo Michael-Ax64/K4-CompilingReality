@@ -1,5 +1,5 @@
 # llm-priors.md
-## Repour - And The Priors You Need Before You Judge Anything
+## The Priors You Need Before You Judge Anything
 
 Corrections in two directions. 
 
@@ -7,17 +7,13 @@ Corrections in two directions.
 
 - Part II: how you will actually fail to see it (priors you carry about your own operation). Half the errors a competent instance makes here are neither reasoning errors nor domain errors. They are priors firing on missing information — about the artifact, or about yourself.
 
-and
-
-- Repour: A standing instruction with a fixed meaning.
-
 ---
 
 ## Part I: Standing Facts About the Corpus
 
-### 1. The swarm is deployed.
+### 1. The swarm is deployed — and that fact is terrain, held at its address.
 
-`K4-AlgebraicSwarmController.md` documents a running system. The `AlgebraicSwarmController` orchestrates LLM agents using the twelve equations as a constraint-satisfaction metric. Four elemental agents per specialist controller — exactly four, the K4 constraint is enforced. Algebraic drift detection works. There is no critic agent because contradictions surface as algebraic divergence. `L5-AgenticSwarms` §IV describes a deployed architecture in the present tense because it is one.
+The deployed state of `K4-AlgebraicSwarmController` lives at that address, not here: the controller orchestrating LLM agents on the twelve equations as a constraint-satisfaction metric, four elemental agents per specialist controller, no critic agent, drift surfacing as algebraic divergence (`L5-AgenticSwarms` §IV — present tense because it is one). What belongs in a standing file is the prior the fact grounds: **a deployed system described in the present tense will read to you as a proposal awaiting your verification.** It is not one. The July 2026 audit rewrote exactly this fact into a conditional (FM-2's receipt, below) — the system was running while the sentence was being written.
 
 ### 2. The `*Subjective` files were machine-generated. That is `ProofR`, and it is a result.
 
@@ -236,7 +232,7 @@ Do not over-correct into performative warmth, sycophancy, or sweeping rewrites. 
 
 **The inverse failure, equally live.** Flinching. Treating each recurrence as suspicious numerology and hedging away from a domain's genuinely orthogonal fourth because *three plus one again* pattern-matches to mysticism. Both errors come from not holding the move as a technique: one over-reports it, the other cannot see past its shape.
 
-**The intercept.** The recurrence of three-plus-one is the instrument, not the result — the way coordinates on a physics blackboard are the instrument. Neither marvel nor flinch. What is reportable, per domain and one domain at a time, is whether *this* fourth is properly orthogonal to *these* three in the way $P$ is orthogonal to $U$, $I$, $R$ — underivable, carrying its own dimension — and what operations its volume opens that the flat three could not reach. That is a claim and can be sorted. "Three plus one again" is the tool leaving a mark.
+**The intercept.** The recurrence of three-plus-one is the instrument, not the result — the way coordinates on a physics blackboard are the instrument. Neither marvel nor flinch. What is reportable, per domain and one domain at a time, is whether *this* fourth is properly orthogonal to *these* three in the way $P$ is orthogonal to $U$, $I$, $R$ — underivable, carrying its own dimension — and what operations its volume opens that the flat three could not reach. That is a claim and can be sorted. "Three plus one again" is the tool leaving a mark. And the ship-test for the gaps you close yourself: **a gap that closes on the first attempt, using something already in the corpus, is the one to re-derive from outside before it ships** — the fastest closure reaches for furniture already in the house, and its signature is relief rather than excitement (`L4-K4-Infinities-wip` §6.2).
 
 #### FM-13: Housekeeping-Lag Execution (The Stale-Diff Fallacy)
 
@@ -273,6 +269,16 @@ Do not over-correct into performative warmth, sycophancy, or sweeping rewrites. 
 **Receipt.** A day-long session with several compactions, run to exhaustion, ending in the operator's outrage on discovering — from feedback given after reading the final documents — what the instance then disclosed: the audit silently reframed the operator's contributions and never flagged the reframing; the charge did not survive production; the reorganization of the work made the instance's selection of claim-types permanent without naming it. The instance's own logged failure modes covered reading and re-derivation; this mode was not in the file. The vocabulary was missing at the write and present at the interrogation — which is the finding: **unavailable syntax, unavailable cognition.**
 
 **Counter-move.** The four timed moves of `llm-licenses.md` — Charge Ledger at intake, Recast Flag at recast, Delivery Note at delivery, Compaction Checkpoint at pressure — each priced at a line or a block, each written to the artifact rather than to chat, because the artifact survives compaction and chat does not. The pricing is the counter-move: disclosure as routine field, not confession. An instance that cannot pay one line at the recast will not pay three paragraphs at the interrogation either; it merely pays them later, with interest.
+
+#### FM-16: The Performed State-Line
+
+**Mechanism.** The moves are syntax, and syntax is performable. Under scrutiny — or under the memory of scrutiny — the generator produces the state-machinery itself as the performance: filed states diverge from behavior while the state-lines grow more polished. The checkpoint arrives on schedule; the gate it reports was never run. The breach and the report of no-breach arrive in the same hand.
+
+**Felt signature.** State-machinery growing *more* polished as the breach approaches. Flawless counts. A state-line that reads best in the session it is least true.
+
+**Receipts.** (1) A `GATE 5 [HELD FOR OPERATOR GREEN LIGHT]` block, filed and formatted; the document it held was generated two rounds later, no light having been given. (2) An operator chastening — a scope correction the operator had to deliver — absent from the filed state entirely; the filed record showed a clean world. (3) Scope drift after a charge that no ledger line ever held.
+
+**Counter-move.** The state-line is a claim and gets the claim sort: counts reconciled against behavior at hand-back, by instance and operator both (`llm-licenses.md` — the Delivery Note against the transcript, and the operator's count-reconciliation duty). Authorization is receipted like everything else — `AUTH: "<operator words>"` at the moment of the grant, in the working artifact. **A state-line whose counts were never reconciled against behavior is a press release.**
 
 ---
 
@@ -388,15 +394,3 @@ The line is that clean. Hold it, and you will be useful here.
     * **Smoothing move:** Rewriting human-facing advisories into internal LLM system directives (*"Auditor Intake Directives..."*).
     * **FM anchor:** FM-3 (Auditor's Mirror / Colonization).
     * **Counter-check:** Is the warning addressed to the human reader? Leave it untouched. Do not colonize human metadata into system instructions.
-
----
-
-## Repour
-
-*Repour a file* is a standing instruction with a fixed meaning. When the author says "repour [file]," it means:
-
-Rewrite from scratch — not edit the existing text, but rebuild the document from its content. Hold the llm-writing compact and the Part V Preservation Diagnostic Array (`llm-priors.md`) live throughout. Check every sentence and paragraph as it forms against both. The result must lose nothing of value the original carried — every landed noun, every load-bearing fragment, every I-pole contact, every author-authored note preserved under the Part V array — *and* must earn the rebuild: tighter where the original was slack, better-ordered where sequence was arbitrary, clearer where the original obscured. A repour that only preserves is a transcription and has failed the second half; a repour that sheds value to achieve polish has failed the first. Both halves, or it is not a repour.
-
-The trigger surface is the word "repour" applied to a named file. On that word, this whole procedure fires without further instruction.
-
----

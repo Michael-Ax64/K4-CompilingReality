@@ -93,7 +93,7 @@ Applying the language to any domain proceeds through the four poles of the actio
 
 1. **Functionalize ($U$-Pole / Logos / Blueprint):** Map the domain into explicit algebraic syntax, defining the 12 directed edges and boundary constraints.
 2. **Operationalize ($R$-Pole / Ethos / Ground):** Translate the syntax into measurable physical protocols, testable falsifiers, and concrete execution steps.
-3. **Enrich ($I$-Pole / Pathos / Flow):** Inhabit the felt inner weather and relational current, ensuring the structural coordinates connect to lived experience without plane-locking into cold abstraction (`subjective/` suite).
+3. **Enrich ($I$-Pole / Pathos / Flow):** Inhabit the felt inner weather and relational current, ensuring the structural coordinates connect to lived experience without plane-locking into cold abstraction (the `*Subjective` files, produced by `subjectify` — `llm-commands.md`).
 4. **Enhance ($P$-Pole / Kairos / Ignition):** Drive the system across the Tangent Singularity to trigger state-transition, breakthrough, or orthogonal escape.
 
 ---
