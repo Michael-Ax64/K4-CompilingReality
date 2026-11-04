@@ -6,7 +6,7 @@
 >
 > **How to re-run it yourself.** One command: `python3 L3-ConstitutiveAlpha-Puzzle-battery.py` — the runnable Python file delivered in this same folder, so what you can see is what runs. It is byte-for-byte identical to the bench's canonical copy (`scripts/step4_physics_dress.py`); the identity is hash-verified every time this readable file is compiled. Expected output: 91 lines marked `[PASS]`, then `RESULT: ALL PASS`, then exit code 0. If any single check fails, the script stops immediately at that check and exits with code 1 — it never continues past a failure, and a printed `ALL PASS` therefore means every line below was true at the moment of the run. (The file reads its evidence — the corpus files it re-verifies — at the bench's fixed paths, so it runs where the bench's files live.)
 >
-> **The latest run:** 2026-11-05 04:49 (UTC+8) — **91 checks in 14 groups — 91 PASS, 0 FAIL — exit code 0.** This file was generated from that run; nothing in sections 5–7 is quoted from memory.
+> **The latest run:** 2026-11-05 07:12 (UTC+8) — **91 checks in 14 groups — 91 PASS, 0 FAIL — exit code 0.** This file was generated from that run; nothing in sections 5–7 is quoted from memory.
 
 ---
 
@@ -259,7 +259,7 @@ Recorded but not tallied (a missing argument, not a wrong assertion): LOG-20 —
 
 ## 7. The verbatim receipt of the latest run
 
-Captured 2026-11-05 04:49 (UTC+8); command: `python3 L3-ConstitutiveAlpha-Puzzle-battery.py` (the delivered copy, run from this folder); sha256 4b4c7692728282576f33084f99f6fbc26f6a505c2b06fb68b784c6b7aab1dbaf — identical to the canonical `scripts/step4_physics_dress.py`; exit code 0.
+Captured 2026-11-05 07:12 (UTC+8); command: `python3 L3-ConstitutiveAlpha-Puzzle-battery.py` (the delivered copy, run from this folder); sha256 4b4c7692728282576f33084f99f6fbc26f6a505c2b06fb68b784c6b7aab1dbaf — identical to the canonical `scripts/step4_physics_dress.py`; exit code 0.
 
 ```text
 ========================================================================
@@ -402,7 +402,7 @@ RESULT: ALL PASS — step-4 receipts on file (halt-on-error, exit 0)
 - **The battery, runnable form, bench-canonical**: `scripts/step4_physics_dress.py`
 - **This file** (the readable form): `download/L3-ConstitutiveAlpha-Puzzle-battery.md`
 - **The dress** (what the battery receipts): `download/L3-ConstitutiveAlpha-Puzzle-dress.md`
-- **The log** (the memory — which round added what): `download/L3-ConstitutiveAlpha-Puzzle-log.md` (LOG-18 through LOG-25)
+- **The log** (the memory — which round added what): `download/L3-ConstitutiveAlpha-Puzzle-log.md` (LOG-18 through LOG-25; re-established at LOG-26 after the bench event)
 - **The manifest / work-order / README**: the state, the handoff lists, the bench index
 
 The work-order's suffix-taxonomy note (§2 item 6) proposed a `-receipts.md` suffix *if receipts ever need to live on disk*. This file realizes that need at the builder's request; it is named `-battery.md` because it is the whole battery, not a per-round capture.
