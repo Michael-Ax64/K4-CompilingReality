@@ -1,7 +1,7 @@
 # L4-Plenum
 ## The Scale-Invariant Buffer, its Bimedian Duality, and the Crossings
 
-*Applied architecture, meta-of-physics register; descent-address `@U>R>U>R`. Reads with `L1-CompilingReality`, `L2-Time`, `L3-K4-to-K5-via-AC-Extension`, `L3-ConstitutiveAlpha`, `L3-Elastance`, `L3-Reluctance`, `L4-ScalingInvariants`, `L4-DimensionalCollapse`, `L4-NecessaryOpposition`, `L4-TwelveGates`, `L6-InversionOfControl`, `Q10-PlanckScale`, `Q15-KairosBorn`, `Q17-LandauerNuclearScale`, `On_TheFourSeasons`, `ProofC_Crystal`, `ProofN_BiquaternionBridge`, `ProofT_Clairvoyance`.*
+*Applied architecture, meta-of-physics register; descent-address `@U>R>U>R`. Reads with `L1-CompilingReality`, `L2-Time`, `L3-K4-to-K5-via-AC-Extension`, `L3-ConstitutiveAlpha`, `L3-ConstitutiveElastance`, `L3-ConstitutiveReluctance`, `L4-ScalingInvariants`, `L4-DimensionalCollapse`, `L4-NecessaryOpposition`, `L4-TwelveGates`, `L6-InversionOfControl`, `Q10-PlanckScale`, `Q15-KairosBorn`, `Q17-LandauerNuclearScale`, `On_TheFourSeasons`, `ProofC_Crystal`, `ProofN_BiquaternionBridge`, `ProofT_Clairvoyance`.*
 
 ## The Plain Statement
 
@@ -125,11 +125,16 @@ Holding callbacks in a registry is not thermodynamically free. It generates reac
 
 **The free-medium reading.** A photon crossing the Plenum extracts nothing against a dissipative response. Its wave frequency runs through the reactive channel and the effective $R$ it sees is zero. By $P = I^2R$ — one of the twelve — a medium seen at $R = 0$ mints $P = 0$, which is exactly why a photon acquires no rest mass and why there is no slow light and no lazy photon. A photon does not attenuate because at its operating point there is nothing to attenuate against; it travels at $c$ and not faster because $Z_0 \neq 0$. Both facts, one structure (`L3-FormalFoundations` §I.b). The Casimir effect and related boundary phenomena are extractions from this reactive content: boundary conditions change which standing waves are admissible, and the difference is measurable as a force. The free medium remains lossless throughout.
 
-**The bounded-frame reading.** A bounded $K_4$ frame maintaining its own It-Ness against the medium runs at its own compilation frequency $\omega_{\text{frame}}$, and at that operating point the medium presents a full $RLC$ response with a nonzero resistive channel:
+**The bounded-frame reading.** A bounded $K_4$ frame maintaining its own It-Ness against the medium runs at its own compilation frequency $\omega_{\text{frame}}$, and at that operating point the medium, per `L3-ConstitutiveAlpha` §II, presents a full $RLC$ response with a nonzero resistive channel:
 
-$$Z_{\text{plenum}}(\omega) = R_{\text{drag}}(\omega) + j\!\left(\omega\mu_0 - \frac{1}{\omega\epsilon_0}\right)$$
+$$Z_{\text{plenum}}(\omega, r) = R_{\text{drag}}(\omega) + j\left(\omega\mu_0 r - \frac{1}{\omega\epsilon_0 r}\right)$$
 
-per `L3-ConstitutiveAlpha` §II. The resistive quantum stands in constitutive ratio to the reactive channel:
+* $\omega \mu_0 r \longrightarrow (\text{s}^{-1})(\Omega\cdot\text{s/m})(\text{m}) = \mathbf{\Omega}$
+* $\frac{1}{\omega \epsilon_0 r} \longrightarrow \frac{1}{(\text{s}^{-1})(\text{s}/\Omega\cdot\text{m})(\text{m})} = \mathbf{\Omega}$
+* At resonance ($\omega_0 = c/r$), the parentheses collapse to zero, leaving $Z = R_K = 25{,}812.8\,\Omega$. 
+
+
+The resistive quantum thus stands in a constitutive ratio to the reactive channel:
 
 $$\frac{R_{\text{drag}}}{Z_0} = \frac{1}{2\alpha} \quad\Longleftrightarrow\quad R_{\text{drag}} = R_K = \frac{h}{e^2}.$$
 
@@ -162,7 +167,7 @@ The four $K_4$ poles each carry one native constitutive invariant of the medium.
 ========================================================================================
 ```
 
-The AC-side pair $(k, \Gamma)$ constitutes the medium's yielding-tier buffer parameters — how it holds potential and momentum in uncollapsed suspension. The DC-side pair (Landauer flux and $R_K$) constitutes its asserting-tier ledger parameters — the rate at which it writes committed history and the quantized resistance at which the writing lands. Full derivation at `L3-Reluctance` §VI.
+The AC-side pair $(k, \Gamma)$ constitutes the medium's yielding-tier buffer parameters — how it holds potential and momentum in uncollapsed suspension. The DC-side pair (Landauer flux and $R_K$) constitutes its asserting-tier ledger parameters — the rate at which it writes committed history and the quantized resistance at which the writing lands. Full derivation at `L3-ConstitutiveReluctance` §VI.
 
 ### 6. The K₄ Tetrahedron as the Plenum's Elementary Cell
 
@@ -386,11 +391,11 @@ The four seasonal ingresses are one scale-instance of a scale-invariant crossing
 
 ### 1. Möbius Seams at Frame-Quadrant Boundaries
 
-In `L3-Elastance` §VII, the transit from Pisces ($R = P/I^2$) into Aries ($P = U^2/R$) at the winter-to-spring seam executes as an $L6$ Inversion of Control with simultaneous role and parity inversion — a single-sided Möbius handoff where output becomes floor. This is the frame-level analogue of the annual ingress: same operator, one scale up. Every bounded $K_4$ frame executes the same swap at its own quadrant boundaries.
+In `L3-ConstitutiveElastance` §VII, the transit from Pisces ($R = P/I^2$) into Aries ($P = U^2/R$) at the winter-to-spring seam executes as an $L6$ Inversion of Control with simultaneous role and parity inversion — a single-sided Möbius handoff where output becomes floor. This is the frame-level analogue of the annual ingress: same operator, one scale up. Every bounded $K_4$ frame executes the same swap at its own quadrant boundaries.
 
 ### 2. Phase-Landscape Asymptotes in $(R, \omega)$ Space
 
-In `L3-Elastance` §IV, the operational hyperbola $\omega \cdot R = k$ has two asymptotes:
+In `L3-ConstitutiveElastance` §IV, the operational hyperbola $\omega \cdot R = k$ has two asymptotes:
 
 * $R \to 0$, $\omega \to \infty$ — the **Ergodic Ground**: pure syntax, wave-representation dominant, constitutive-representation decoupled.
 * $R \to \infty$, $\omega \to 0$ — the **Symmetric Freeze** (0-DoF crystal, `ProofC_Crystal`): pure ledger, constitutive-representation dominant, wave-representation decoupled.
@@ -431,15 +436,17 @@ Same operator. Four scales. The crossing is where wave-representation and consti
 Once the bimedian and the crossings are stated at the Plenum level, the medium's constitutive constants across every scale read as $K_4$ walks on the medium's own parameters. Each consolidation has its own address and is not re-derived here:
 
 * **Fine-structure as master coupling.** $\alpha = Z_0/2R_K$ is the exchange rate between the medium's two walked diameters. Full treatment at `L3-ConstitutiveAlpha`; the joint role is §VI.4 above.
-* **Resonant intersection theorem.** The $(R, \omega)$ manifold's capacitive hyperbola ($\omega \cdot R = k/r$) and inductive ray ($\omega/R = \Gamma/r$) meet uniquely at $\omega_0 = c/r$, $R = Z_0$. Derivation at `L3-Reluctance` §II.
-* **Time-constant transit invariant.** $\tau_C \cdot \tau_L = (r/c)^2$. Resistance $R$ acts as an asymmetric lever between compilation and memory but does not create or destroy time. Derivation at `L3-Reluctance` §III.
+* **Resonant intersection theorem.** The $(R, \omega)$ manifold's capacitive hyperbola ($\omega \cdot R = k/r$) and inductive ray ($\omega/R = \Gamma/r$) meet uniquely at $\omega_0 = c/r$, $R = Z_0$. Derivation at `L3-ConstitutiveReluctance` §II.
+* **Time-constant transit invariant.** $\tau_C \cdot \tau_L = (r/c)^2$. Resistance $R$ acts as an asymmetric lever between compilation and memory but does not create or destroy time. Derivation at `L3-ConstitutiveReluctance` §III.
 * **Three-term pion mass ratio.** $m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha = 273.1317$, a closed Kirchhoff loop around the $K_4$ atom with all three Laurent orders of $\alpha$; $2.84$ ppm from measurement, an open vote that imports the SU(3) colour count (`L3-ConstitutiveAlpha` §IV–V, `Q15-KairosBorn`, `On_TheIsNessTax`).
-* **Horizon-scale ratio.** The observed vacuum density over the Planck density is the Route Law square of the universe's scale-span, $\rho_\Lambda/\rho_P = (3\Omega_\Lambda/8\pi)(\ell_P/R_H)^2$, with the geometric factor $\sqrt{3\Omega_\Lambda/8\pi} \approx 0.29$ and $\Omega_\Lambda$ observed (`L4-ScalingInvariants`, `QED-CCP`).
+
+* **Horizon-scale ratio.** The observed vacuum density over the Planck density is the Route Law square of the universe's scale-span, $\rho_\Lambda/\rho_P = (3/8\pi)(\ell_P/R_\Lambda)^2$, derived from the elementary $K_4$ cell's resonant impedance dissipation $P_{\text{cell}} = I_0^2 R_K = \hbar c^2 / (2\pi r^2)$ where elementary charge $e$ cancels completely, converted from the $S^3$ loop measure by the rotating-mode factor $(3/4)\Omega_4$ and projected through the Route Law boundary square $(\ell_P/R_\Lambda)^2$ onto the de Sitter horizon (`L3-TheAtomOfSpace`, `L4-K4-Infinities-3` §V).
 
 ```python
 lP = mpf('1.616255e-35'); H0 = mpf('67.4')*1000/mpf('3.0857e22'); OL = mpf('0.685')
-r = lP*H0/c
-print(r, sqrt(3*OL/(8*pi)), 3*OL/(8*pi)*r**2)   # 1.1776e-61   0.28595   1.1339e-123
+RL = c/(H0*sqrt(OL))
+r = lP/RL
+print(r, sqrt(3/(8*pi)), 3/(8*pi)*r**2)   # 9.7463e-62   0.34549   1.1339e-123
 ```
 
 The first three import nothing beyond the substrate's own constitutive invariants. The last two import, respectively, the colour count and the observed dark-energy fraction, and say so. The Plenum is the medium in which all five hold together.

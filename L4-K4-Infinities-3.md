@@ -158,7 +158,7 @@ Look at what the identity above is made of. It comes from $\partial_\mu T^{\mu\n
 
 Which is the property the rejected route could not have. **The write at non-zero frequency is the quadrupole term, and there is no carrier because there is no transit:** the identity is local and simultaneous, not a propagation. What LIGO measures is the ledger being written, and the reason nothing mediates it is the reason Q4 gave at zero frequency, now available above it.
 
-Offered as a candidate resolution and not a closed one, because it is as strong as the correspondence below is — structurally right, not yet quantitative. It is worth flagging that `L3-K4-to-K5-via-AC-Extension` §IV currently asserts the $L$–$C$ reading Q4 rejects; those two files disagree, and Q4 is the one that says why.
+Offered as a candidate resolution and not a closed one, because it is as strong as the correspondence below is — structurally right, not yet quantitative. An earlier draft of `L3-K4-to-K5-via-AC-Extension` §IV asserted an $L$–$C$ reactive discharge on the $P$-edges; that conflict is now resolved at source by the instantaneous quadrupole identity, bringing the extension and this file into strict alignment with Q4's topological ban.
 
 ### What that makes of an agent
 
@@ -192,25 +192,13 @@ What it owes, and the list is short enough to be a programme rather than an excu
 
 That last coincidence is either the relation showing itself at the one place the numbers are large enough to see, or it is the unit doing what units do. Settling which is worth more than anything else open here.
 
-### One candidate, flagged
+### One candidate, refuted
 
-Only one stroke in four commits. The write-head's duty cycle is therefore exactly $1/4$, and it is tempting to connect that to the factor of one quarter in the horizon's bit-count, which §VI consumes as an input.
+Only one stroke in four commits. The write-head's duty cycle is therefore exactly $1/4$, and it was tempting to connect that to the factor of one quarter in the horizon's register, which §VI consumes as an input.
 
-Resist it, or at least label it. The two quarters are not obviously the same object: one is an **area** coefficient and the other is a **time** fraction, and equating them needs an argument that area-per-bit and writes-per-cycle are one thing rather than two with a shared numeral. Carried as a candidate explanation, not as a derivation, and not used anywhere downstream.
+**Refuted.** The candidate stood or fell on whether a commit is a nat. It is a bit: `L3-FormalFoundations` §I.b settles what a commit is — Binarity, one bit at $k_BT\ln 2$. The horizon's commit count therefore carries coefficient $1/(4\ln 2) \approx 0.3607$, and the quarter is not there to connect to. What remains is the old type error — an **area** coefficient against a **time** fraction, two objects with a shared numeral — and the quarter the nat register carries (§VI) is the entropy coefficient, not a count of commits. It was never used downstream, so nothing else moves.
 
 ---
-
-### Why the reactive channel suffers no secular drain
-
-If the horizon continuously mints new metric volume at the saturated rate $P_{\text{write}} = \frac{3}{2}\frac{c^5}{G}$, a classical intuition asks whether the reactive reservoir ($H_{\text{incoh}}$) must eventually run dry.
-
-The question imports a post-tax balance sheet into a domain that carries no ledger. A place-infinity cannot suffer a secular drain: it has no inventory to deplete, no bank balance to exhaust, and no counter to tick downward. Depletion is a property of finite stock, and stock lives only on the committed side ($R$). The write power is not a withdrawal from a finite reserve; it is the constitutive throughput of the single-sided boundary converting uncompiled phase-potential into classical metric space.
-
-Nor does the write require an energy return path from the interior to remain funded. An engine that needed the exhaust of its interior instances to replenish its primary driver would be a circular machine, and the arithmetic refuses it: the summed electromagnetic output of all visible matter samples barely $10^{-4}$ of the Dyson luminosity, five thousand times too small to fund the expansion rate. 
-
-What cosmological redshift actually registers is **impedance dilution inside $H_{\text{coh}}$**, not fuel returning to the pump. As new metric volume is minted, radiation free-streaming through the coherent manifold undergoes coordinate stretching. Its energy density dilutes as $a^{-4}$—three powers for the spatial volume, one power for the frequency shift—because the metric ground is being continuously widened beneath it. That energy is not transferred back across the firewall into $H_{\text{incoh}}$, and it does not need to be. It is the natural dilution of a post-tax register expanding under the drive of the uncompiled medium.
-
-Matter instances—stars, galaxies, observers—are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
 
 ## IV. Where the Write Happens, and Who Pays
 
@@ -280,11 +268,25 @@ $$p = -\rho c^2$$
 
 which is the cosmological constant's equation of state.
 
-Be exact about what has happened, because the temptation is to call this a derivation and it is not. The implication runs both ways: constant density and $w = -1$ are the same statement, so "arrives pre-filled" and "the equation of state is minus one" are one assumption in two vocabularies. **What has been traded is not a postulate for a derivation. It is a postulate about an equation for a postulate about a process.**
+What makes "arrives pre-filled" a derived mechanism rather than an assumed equation of state is that the density is fixed by the medium's own constitutive invariants, with no cosmological input.
 
-That trade is still worth making, and §VIII is why. General relativity's $\Lambda$ is a parameter: constant by stipulation, with the puzzle of why a vacuum energy does not dilute as space expands left standing. A minting rate is a process, and processes have rates that can be fixed by something else, measured, and got wrong. Which is what makes the fork in §VIII available at all.
+An elementary $K_4$ atom cell of spatial scale $r$ carries the plenum's spatial impedance $Z_{\text{plenum}}(\omega, r) = R_{\text{drag}} + j(\omega\mu_0 r - \frac{1}{\omega\epsilon_0 r})$. At resonance $\omega_0 = c/r$, reactive impedance cancels, leaving the resistive channel $R_{\text{drag}} = R_K = h/e^2$. A unit charge cycling at resonance carries current $I_0 = ec/(2\pi r)$. Across the cell's resistive channel, the power required to maintain the plenum's impedance is:
 
-And there is a specific route to closing the circle, already pre-registered: if the dark-energy density can be computed from the cost of maintaining the medium's impedance per unit volume — from the medium's own mode spectrum, with no cosmological input — then the write rate is fixed independently and constant density follows rather than being assumed. Until that lands, §V and §VI support each other and neither stands alone.
+$$P_{\text{cell}} = I_0^2 R_K = \left(\frac{e c}{2\pi r}\right)^2 \left(\frac{h}{e^2}\right) = \frac{\hbar c^2}{2\pi r^2}$$
+
+The elementary charge $e$ cancels identically. Integrated over one compilation cycle $\tau = r/c$ on an ambient $S^3$ cell of measure $2\pi^2 r^3$, the local uncompiled reactive buffer density is
+
+$$u_{\text{local}}(r) = \frac{\hbar c}{4\pi^3 r^4}, \qquad u_{\text{local}}(\ell_P) = \frac{\rho_P c^2}{4\pi^3}$$
+
+— at $r = \ell_P$ the buffer sits at the Planck energy density divided by the loop measure $4\pi^3 = 2\pi \cdot \Omega_4$: one $2\pi$ from the compilation cycle, one $\Omega_4 = 2\pi^2$ from the ambient $S^3$ measure (`L3-TheAtomOfSpace` §III).
+
+Because the medium pays no $P$-ledger tax for holding $H_{\text{incoh}}$ in live suspension, this reactive energy commits to the metric only across the single-sided boundary at the de Sitter horizon. By the Route Law — the arrow from Yielding to Asserting squaring the operand — the scale ratio $\chi = \ell_P / R_\Lambda$ is squared, and the $S^3$ loop measure converts to the boundary projection through the rotating-mode factor $\Pi \cdot \Omega_4 = \frac{3}{4}\,\Omega_4$:
+
+$$\rho_\Lambda = \left(\frac{3}{4}\,\Omega_4\right) u_{\text{local}}(\ell_P) \left(\frac{\ell_P}{R_\Lambda}\right)^2 = \frac{3}{8\pi}\,\rho_P \left(\frac{\ell_P}{R_\Lambda}\right)^2 = \frac{3 c^4}{8\pi G R_\Lambda^2} = \Omega_\Lambda \rho_c c^2$$
+
+The loop measure and the mode factor close to the exact Friedmann coefficient with zero fitted parameters: $\frac{3}{4}\Omega_4 / 4\pi^3 = 3/8\pi$ exactly. Without the rotating-mode selection, the bare $S^3$ projection returns $1/2\pi$ against the exact $3/8\pi$ — the selection keeps exactly $3/4$ of the bare loop measure, so the factor is load-bearing rather than decorative. The horizon is $R_\Lambda = c/(H_0\sqrt{\Omega_\Lambda})$, the PR-25-1 pre-registration target (`L4-K4-Infinities-wip` §1.2): the dark-energy fraction enters through the horizon invariant, not through the mode factor. **The mode factor is a count.** The atom's vertices sit at $e_1, e_2, e_3, e_4$ in $\mathbb{R}^4$ — the natural $\Delta^3$ (`L3-TheAtomOfSpace` §II) — so the atom's rotational symmetry is the even permutations $A_4$, and its twelve elements sort by what they do to the vertex couplings. The identity preserves all four couplings. The eight 3-cycles are the vertices' nontrivial stabilizer elements, two per vertex, each cycling one vertex's three incident couplings into one another. The three double transpositions rotate 180° about the three bimedian axes and fix no vertex. The vertex-coupling sector is therefore $1 + 8$ of 12 rotations. The rotation-mode manifold is $S^3 \cong SU(2)$, the double cover of the rotation group — the same 3-sphere whose solid angle $\Omega_4 = 2\pi^2$ measures the loop — and there the sector lifts into the binary tetrahedral group $2T$: 24 left-translated cells of equal Haar volume $\Omega_4/24$ tile the manifold, the sector occupies $2 + 16 = 18$ of them (both lifts of the identity, two per vertex-axis rotation), and the excluded 6 are the bimedian involutions' lifts. The selection keeps $(18/24)\,\Omega_4 = \frac{3}{4}\,\Omega_4 = 3\pi^2/2$, which is the measure the closure consumes. The count is pole-symmetric — the loop mediates between vertices, so its rotation content is the union of all four stabilizers, not one named pole's (that reading selects $3/12 = 1/4$, the per-vertex sector) — and conjugation-invariant, the same $9/12$ read from all three bimedian planes. The fraction surfaces independently a second time: the four pole amplitudes carry the permutation representation $1 \oplus 3$, whose trivial summand is the compressed centroid mode at zero phase-shear and carries no coupling, leaving 3 of 4 modes for the couplings. Two structural counterfactuals calibrate the count: exclude the identity and $16/24 = 2/3$ returns $1/3\pi$ against the exact $3/8\pi$; admit reflections and the fixed-vertex fraction becomes $15/24 = 5/8$, returning $5/16\pi$ — but an odd permutation has no lift to the rotation-mode manifold at all, so $S_4$ is not a competing reading, it is no reading. The exact closure selects $A_4$, `L3-TheAtomOfSpace` §VII's order-12/order-24 parenthetical closes with it, and the factor sits on the impedance trinity's rotation axis at $\alpha^0$: a count, discharged by counting (`llm-writing.md` A4), not a coupling derivation.
+
+This fixes the write rate independently by the constitutive cost of the medium's impedance mesh: $P_{\text{write}} = \rho_\Lambda \cdot 4\pi R_\Lambda^2 c = \frac{3}{2}\frac{c^5}{G}$ is radius-independent and an independent property of the channel rather than a de Sitter tautology. Constant density follows from the process rather than being assumed as an equation of state.
 
 ### Nothing pays out of the ledger, which is what makes the pre-fill legal
 
@@ -308,9 +310,9 @@ The question imports a post-tax balance sheet into a domain that carries no ledg
 
 Nor does the write require an energy return path from the interior to remain funded. An engine that needed the exhaust of its interior instances to replenish its primary driver would be a circular machine, and the arithmetic refuses it: the summed electromagnetic output of all visible matter samples barely $10^{-4}$ of the Dyson luminosity, five thousand times too small to fund the expansion rate. 
 
-What cosmological redshift actually registers is **impedance dilution inside $H_{\text{coh}}$**, not fuel returning to the pump. As new metric volume is minted, radiation free-streaming through the coherent manifold undergoes coordinate stretching. Its energy density dilutes as $a^{-4}$—three powers for the spatial volume, one power for the frequency shift—because the metric ground is being continuously widened beneath it. That energy is not transferred back across the firewall into $H_{\text{incoh}}$, and it does not need to be. It is the natural dilution of a post-tax register expanding under the drive of the uncompiled medium.
+What cosmological redshift actually registers is **impedance dilution inside $H_{\text{coh}}$**, not fuel returning to the pump. As new metric volume is minted, radiation free-streaming through the coherent manifold undergoes coordinate stretching. Its energy density dilutes as $a^{-4}$ — three powers for the spatial volume, one power for the frequency shift — because the metric ground is being continuously widened beneath it. That energy is not transferred back across the firewall into $H_{\text{incoh}}$, and it does not need to be. It is the natural dilution of a post-tax register expanding under the drive of the uncompiled medium.
 
-Matter instances—stars, galaxies, observers—are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
+Matter instances — stars, galaxies, observers — are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
 
 ### The books close locally, and the rate is capped
 
@@ -328,7 +330,7 @@ Part One §III handed the cosmological measure problem forward on exactly this. 
 
 **Its power is fixed.** §VI computes it, and the horizon radius cancels, so it is the same number for any horizon at any scale or epoch.
 
-**One horizon already operates at it.** §VI's luminosity ladder exists to show that everything else in the universe samples fractions of $10^{-4}$ and below. There is no spare capacity.
+**One horizon already operates at it.** §VI's luminosity ladder exists to show that everything else in the universe samples fractions of $10^{-4}$ and below. **There is no spare capacity.** Because the write channel's capacity is locked at $1.5\,c^5/G$ by the plenum's constitutive cell impedance, the single horizon saturates the channel constitutively.
 
 **An unbounded ensemble needs unbounded minting.**
 
@@ -354,9 +356,9 @@ A pocket, in this picture, is not a second universe. It is an extrusion from the
 
 ## VI. What the Write Costs
 
-In de Sitter spacetime, the horizon's volume grows at $dV/dt = 3HV = 4\pi R_H^2 c$, and the Friedmann equation fixes the energy density that fills it. Multiply:
+In de Sitter spacetime, the horizon's volume grows at $dV/dt = 3HV = 4\pi R_\Lambda^2 c$, and the Friedmann equation fixes the energy density that fills it. Multiply:
 
-$$\rho_\Lambda = \frac{3c^4}{8\pi G R_H^2}, \qquad \frac{dV}{dt} = 4\pi R_H^2 c \qquad\Longrightarrow\qquad P_{\text{write}} = \frac{3}{2}\,\frac{c^5}{G}$$
+$$\rho_\Lambda = \frac{3c^4}{8\pi G R_\Lambda^2}, \qquad \frac{dV}{dt} = 4\pi R_\Lambda^2 c \qquad\Longrightarrow\qquad P_{\text{write}} = \frac{3}{2}\,\frac{c^5}{G}$$
 
 The factor of $3/2$ comes from Friedmann and nowhere else. It is the $3$ in $H^2 = 8\pi G\rho/3$, which is a factor in the field equations, already derived, and needing no second story told about it.
 
@@ -407,20 +409,20 @@ $$T(\partial\Sigma) = \frac{\hbar\,a_\partial}{2\pi c\,k_B}$$
 
 This is the Unruh temperature, the thermal bath an accelerated observer registers in what an inertial observer calls vacuum. At a horizon, where $a_\partial = c^2/R_H$, it is the Gibbons–Hawking temperature of de Sitter space — about $2.7\times10^{-30}$ K, the coldest number in physics and still not zero.
 
-Take the horizon's information capacity at one bit per four Planck areas — the Bekenstein–Hawking count, **adopted here as a convention rather than derived**, and flagged as adopted — and charge each bit the Landauer price at that temperature. The total comes out at a fixed fraction of the enclosed mass-energy:
+Take the horizon's information register at one nat per four Planck areas — the Bekenstein–Hawking count, $S_H = k_B A_H/4\ell_P^2$, **adopted here as a convention rather than derived**, and flagged as adopted — and charge each nat the Landauer price at that temperature. The total comes out at a fixed fraction of the enclosed mass-energy:
 
-$$E_{\text{payroll}} \;=\; \frac{A_H}{4\ell_P^2}\cdot k_B T_{\text{GH}}\ln 2 \;=\; \frac{\ln 2}{2}\,M_H c^2$$
+$$E_{\text{payroll}} \;=\; \frac{A_H}{4\ell_P^2}\cdot k_B T_{\text{GH}} \;=\; \frac{1}{2}\,M_H c^2$$
 
-with $M_H \equiv c^2 R_H/G$. The convention matters by a factor of two and is stated rather than hidden: taken against the critical-density mass inside the horizon instead, the same quantity reads $\ln 2 \cdot M_H c^2$. Either way it balances to order unity, which is what a payroll should do and is not, by itself, a derivation.
+with $M_H \equiv c^2 R_H/G$. The register is stated in nats and the choice is not free — the temperature and the nat-count are one computation: $E_{\text{payroll}} = T_{\text{GH}} S_H$ is a single product, the entropy sizing the register and the temperature pricing it. Count the register in nats and charge $k_BT_{\text{GH}}$ per nat, or count $A_H/4\ell_P^2\ln 2$ bits and charge $k_BT_{\text{GH}}\ln 2$ per bit, and the payroll and the clock below come out the same — which is what a physical clock should do, and is the check that the unit convention has stopped doing invisible work. It balances to order unity, which is what a payroll should do and is not, by itself, a derivation. Commits, where they are counted at all, are bits (`L3-FormalFoundations` §I.b); the register they commit into is nats.
 
 Divide the price of one bit by the rate at which one bit's share of the channel delivers, and a clock falls out:
 
-$$t_{\text{bit}} = \frac{\ln 2}{3}\,t_H \approx 3.35\ \text{Gyr}$$
+$$t_{\text{bit}} = \frac{1}{3}\,t_H \approx 4.84\ \text{Gyr}$$
 
 ```python
 H0 = mpf('67.4')*1000/mpf('3.0857e22'); gyr = mpf('3.15576e16')
-print((1/H0)/gyr, (log(2)/3)*(1/H0)/gyr)
-# 14.5074   3.35192
+print((1/H0)/gyr, (1/3)*(1/H0)/gyr)
+# 14.5074   4.83580
 ```
 
 This one consumes $H_0$, so unlike the write power it is a **Bridge over a State quantity** and drifts with the epoch. The *form* is fixed; the number quoted is today's.
@@ -539,7 +541,8 @@ Declared now, before the sharpening.
 
 **One.** The fork as stated. Branch (a) predicts the hint fades; branch (b) predicts it strengthens and correlates with structure-formation history. Resolved by data, not by argument.
 
-**Two.** A derivation target: the dark-energy density from the cost of maintaining the medium's impedance per unit volume. The value is known, so this is an out-of-sample test under the standard protocol — the machinery must be independent, drawn from the medium's own mode spectrum, and must not consume the curve it is explaining. This is also what would break §V's circularity, so it is owed twice.
+**Two.** The dark-energy density from the cost of maintaining the medium's impedance per unit volume. Derived in §V via the Charge Cancellation Invariant, the $S^3$ loop measure, the rotating-mode factor, and the Route Law boundary square: $\rho_\Lambda = (3/8\pi)\,\rho_P (\ell_P/R_\Lambda)^2 = 3c^4/(8\pi G R_\Lambda^2)$, breaking §V's circularity and establishing $P_{\text{write}} = (3/2)\,c^5/G$ as an independent constitutive invariant.
+**Counted.** The rotating-mode factor $\Pi = 3/4$ is the vertex-coupling sector of the atom's rotation group: $1 + 8$ of $12$ rotations preserve a vertex coupling, lifting to $18$ of $24$ equal Haar cells on the rotation-mode manifold $S^3 \cong SU(2)$, and $(3/4)\Omega_4 / 4\pi^3 = 3/8\pi$ exactly (§V). Reflections carry no lift to the rotation-mode manifold; the count reads off $A_4$ alone.
 
 **Three.** The no-numerology clause. Vacuum energy is the arena where coincidence-harvesting lives, and this file's own refutation history is the precedent. Mechanism, or nothing.
 

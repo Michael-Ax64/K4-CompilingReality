@@ -49,7 +49,7 @@ Every transmission line carries two dual invariant products that isolate its con
 
 $$\begin{aligned}
 \mathbf{\text{1. Dielectric Elastance (Capacitive Stiffness):}} \quad & k = c \cdot Z_0 = \frac{1}{\epsilon_0} = \frac{1}{C_0} \quad [\Omega\cdot\text{m/s}] \\\\
-\mathbf{\text{2. Magnetic Reluctance (Inductive Compliance):}} \quad & \Gamma = \frac{c}{Z_0} = \frac{1}{\mu_0} = \frac{1}{L_0} \quad [\text{H}^{-1}\cdot\text{m/s}]
+\mathbf{\text{2. Magnetic Reluctance (Inductive Compliance):}} \quad & \Gamma = \frac{c}{Z_0} = \frac{1}{\mu_0} = \frac{1}{L_0} \quad [\text{m/H}]
 \end{aligned}$$
 
 * **$k = c Z_0$ (Elastance)** governs the **$U$-pole (Voltage / Potential Difference / Electric Field)**. It measures how stiffly the medium resists the accumulation of charge.

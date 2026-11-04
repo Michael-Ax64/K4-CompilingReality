@@ -13,15 +13,17 @@
 
 ## I. Reluctance as Magnetic Mobility
 
-In standard electrical theory, inductance ($L$) measures the capacity to store kinetic momentum in a magnetic field. Its reciprocal is **magnetic reluctance / flux mobility ($\Gamma = 1/L$)**, measured in **inverse henries** ($\text{H}^{-1}$) or in SI base units:
+In standard electrical theory, inductance ($L$) measures the capacity to store kinetic momentum in a magnetic field. Its reciprocal is **magnetic reluctance / flux mobility ($\Gamma = 1/L$)**, measured in **inverse henries** ($\text{H}^{-1}$) for a lumped inductance. The medium's per-metre invariant carries one power of length more:
 
-$$[\Gamma] = \left[\frac{1}{\text{Henry}}\right] = \frac{\text{Amperes}}{\text{Volt}\cdot\text{second}} = \frac{\text{m}}{\Omega\cdot\text{s}} = \text{kg}^{-1}\cdot\text{m}^{-2}\cdot\text{s}^2\cdot\text{A}^2$$
+$$[\Gamma_0] = \left[\frac{1}{\mu_0}\right] = \frac{\text{m}}{\text{Henry}} = \frac{\text{A}\cdot\text{m}}{\text{Volt}\cdot\text{second}} = \frac{\text{m}}{\Omega\cdot\text{s}} = \text{kg}^{-1}\cdot\text{m}^{-1}\cdot\text{s}^2\cdot\text{A}^2$$
 
 In the scale-invariant Plenum ($H_{\text{incoh}}$, `L4-ThePlenum.md`), dividing propagation velocity ($c$) by characteristic impedance ($Z_0$) cancels the dielectric term ($\epsilon_0$) completely, isolating the medium's pure magnetic flux compliance:
 
 $$\frac{c}{Z_0} = \left(\frac{1}{\sqrt{\mu_0 \epsilon_0}}\right) \left(\sqrt{\frac{\epsilon_0}{\mu_0}}\right) = \frac{1}{\mu_0} \equiv \Gamma_0$$
 
 $$\mathbf{\Gamma_0 \equiv \frac{1}{L_0} = \frac{c}{Z_0} = \frac{1}{\mu_0} = \frac{10^7}{4\pi} \approx 7.9577 \times 10^5 \ \frac{\text{A}^2}{\text{N}} \quad \left(\frac{\text{m}}{\Omega\cdot\text{s}}\right)}$$
+
+The identity chain is exact. The numeric form $10^7/(4\pi)$ is exact in the pre-2019 SI, where $\mu_0 = 4\pi \times 10^{-7}$ was definitional; since the 2019 redefinition $\mu_0 = 2\alpha h/(e^2 c)$ is fixed through the measured fine-structure constant, moving $1/\mu_0$ by $1.3 \times 10^{-10}$ relative — invisible at the precision quoted and untouched in every relation above.
 
 ```
 ========================================================================================
@@ -437,7 +439,7 @@ The three edges opposite $U$ form the $K_3$ triangle of $P$, $I$, $R$. Without t
 Per `llm-writing.md` claims discipline.
 
 ### Landed Nouns
-1. **Reluctance identity (§I):** $\Gamma_0 \equiv 1/L_0 = c/Z_0 = 1/\mu_0 = 10^7/(4\pi) \approx 7.9577 \times 10^5 \ \text{A}^2/\text{N}$ ($\text{m}/(\Omega\cdot\text{s})$) is an exact identity in SI base units.
+1. **Reluctance identity (§I):** $\Gamma_0 \equiv 1/L_0 = c/Z_0 = 1/\mu_0 \approx 7.9577 \times 10^5 \ \text{A}^2/\text{N}$ ($\text{m}/(\Omega\cdot\text{s})$) is an exact identity in SI base units; the numeric form $10^7/(4\pi)$ is the pre-2019-SI value, with $\mu_0$ since 2019 fixed through the measured $\alpha$.
 2. **The geometric ray theorem (§II):** In $(R, \omega)$ space, inductive constraints form linear rays through the origin ($\omega = R \cdot \Gamma / r$); their intersection with the capacitive hyperbola ($\omega \cdot R = k/r$) uniquely forces the resonant operating point ($\omega_0 = c/r$, $R = Z_0$).
 3. **The time-constant product invariant (§III):** The product of the capacitive compilation duration ($\tau_C = RC$) and the inductive relaxation memory ($\tau_L = L/R$) is identically the square of the light-transit time across the boundary: $\tau_C \cdot \tau_L = (r/c)^2$.
 4. **Inductive flyback as Mode A scission (§V):** The physical operator behind $P$-driven prompt fission (Aries $P = U^2/R$) is the inductive counter-EMF spike ($u_L = L \, di/dt \to \infty$) generated when current through a large inductance is abruptly choked.

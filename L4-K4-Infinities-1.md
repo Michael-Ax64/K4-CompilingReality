@@ -145,11 +145,13 @@ Take a static bound system and integrate its entire stress-energy tensor over it
 
 $$\int T^{\mu\nu}\,d^3x = \mathrm{diag}\!\left(Mc^2,\ 0,\ 0,\ 0\right)$$
 
-**One scalar survives. Every vector and tensor component is annihilated.**
+**The energy survives. Every spatial stress component is annihilated.**
+
+Said at its exact strength, because the overstated version of this sentence has been quoted against the corpus: Laue zeroes $\int T^{ij}$, the *spatial stresses*. It does not zero every directional quantity a bound system can export. The angular-momentum moment of $T^{0k}$ is not an $\int T^{ij}$ component and is generically non-zero — a proton exports spin, which is an axial vector, and that export is measured. What the theorem annihilates is the interior's *stress* anatomy.
 
 Read what that says about an interior. A proton holds internal pressures of staggering magnitude — confinement tension inward, quark kinetic pressure outward, a boiling gluon field between them, all of it directional, all of it structured. None of it reaches the outside. The integral that delivers the system to the world returns a number and discards the orientation, the directionality, the entire vectorial anatomy of what is inside.
 
-That is the Markov blanket, stated in general relativity's own variables. Not as a postulate about boundaries and conditional independence, but as a theorem of classical field theory with a one-line proof: **the exterior reads a scalar and cannot read the interior's structure, because the operation that reads is an integral and the integral kills everything but the scalar.**
+That is the Markov blanket, stated in general relativity's own variables. Not as a postulate about boundaries and conditional independence, but as a theorem of classical field theory with a one-line proof: **the exterior cannot read the interior's stress anatomy, because the operation that reads is an integral and the integral zeroes every spatial stress component.** What it does not kill is the energy, which weighs, or the angular-momentum moment, which spins.
 
 The corpus has been carrying the blanket as an axiom, defensible and kill-conditioned and not derived. It is derived. It was derived in 1911.
 
