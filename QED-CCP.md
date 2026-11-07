@@ -1,9 +1,9 @@
-# QED: The Cosmological Constant Problem Is a Category Error
-## The Axiom of Isomorphism, the Tangent Singularity, and the Linear Root of $10^{-123}$
+# A Category-Error Reframing of the Cosmological Constant Problem
+## The Axiom of Isomorphism, the Tangent Singularity, and the Horizon Scale-Span
 
 The cosmological constant problem — a mismatch of some $10^{123}$ between the vacuum energy quantum field theory computes and the one general relativity infers — rests on an assumption almost never examined: that the two are the same quantity. They are not. One is uncompiled potential, held before any commitment; the other is the committed ledger the classical world can see. Equating them projects an interior onto its boundary and expects the numbers to agree. Once the projection is named, the mismatch stops being a failed prediction and becomes a measure of how much has not crossed. The linear root of the observed density is the universe's own scale-span, Planck length over Hubble radius — not as a new result but as the Friedmann equation read in Planck units, which the twelve equations read as a Route Law square. The argument ends on one falsifiable prediction: Casimir energy should not gravitate.
 
-*Structural proof by category-error reframe and square-root extraction; reads with `ProofQ_AlgebraicSyntax` §V, `L4-DualConvergence`, `QED-EotvosBound`, `ProofN_BiquaternionBridge`.*
+*Structural reframing and falsifiable hypothesis; reads with `ProofQ_AlgebraicSyntax` §V, `L4-DualConvergence`, `QED-EotvosBound`, `ProofN_BiquaternionBridge`.*
 
 ---
 
@@ -35,6 +35,8 @@ To move from the former to the latter requires paying the **Landauer Tax** — t
 
 One caution keeps the number honest. The $10^{123}$ is not itself measured. It is the naive QFT estimate with a Planck-scale cutoff, divided by the observed value, and the estimate moves with the cutoff (some $10^{55}$ at the electroweak scale, less with supersymmetry). With the Planck cutoff, the "QFT side" is simply the Planck density, so the ratio is the observed dark-energy density expressed in Planck units. That is the quantity §III works with.
 
+A crucial distinction separates localized excitations from homogeneous vacuum states. While the Higgs VEV ($\sim(246\ \text{GeV})^4$) and QCD condensates ($\sim(250\ \text{MeV})^4$) contribute to the inertial rest masses of localized particles that cross $\Psi$ into $H_{\text{coh}}$, the homogeneous background potentials themselves lack localized spatial boundaries. In the absence of a localized Markov blanket undergoing active Landauer erasure, homogeneous vacuum offsets remain uncollapsed background potential ($H_{\text{incoh}}$) and do not source classical spacetime curvature.
+
 ---
 
 ## III. The Square-Root Extraction
@@ -53,6 +55,8 @@ and the Route Law square (`ProofQ_AlgebraicSyntax` §V) recovers the density: $P
 $$\frac{\rho_\Lambda}{\rho_P} = \frac{3\,\Omega_\Lambda}{8\pi}\left(\frac{\ell_P}{R_H}\right)^2,$$
 
 which is the Friedmann equation, $\rho_\Lambda = \Omega_\Lambda\cdot 3H_0^2/8\pi G$, divided by the Planck density $c^5/\hbar G^2$. The geometric factor $\sqrt{3\Omega_\Lambda/8\pi} \approx 0.29$ is why the root lands at $10^{-61.5}$ rather than at $10^{-60.9}$, and $\Omega_\Lambda$ is an observed input.
+
+In the log-dimensional ledger, this relation reflects the exact cancellation of scale: $[\ell_P^2]\cdot[\Lambda] = \text{m}^2\cdot\text{m}^{-2} = 1$. The Planck area sets the microscopic operator floor, while the de Sitter horizon ($\Lambda = 3/R_H^2$) sets the macroscopic ceiling. The ratio $(\ell_P/R_H)^2$ is the dimensionless Planck angle squared, balancing the dimensional units of the manifold to zero.
 
 ```python
 import math
@@ -101,6 +105,8 @@ $$T_{\mu\nu}^{\text{GR}} := \text{Tr}\left(\rho_Q \left[P_{\text{coh}}\, \hat{T}
 
 where $P_{\text{coh}}$ is the projector onto $H_{\text{coh}}$, sandwiching the QFT stress tensor between two projections.
 
+To preserve the contracted Bianchi identity ($\nabla^\mu T_{\mu\nu}^{\text{GR}} = 0$) required by general relativity, $\Psi$ is not a rigid spatial truncation. It is a gauge-invariant, diffeomorphism-preserving projection operator mapping on-shell coherent states into $H_{\text{coh}}$ without introducing local energy-momentum sinks.
+
 The critical property: **$\Psi$ is blind to $H_{\text{incoh}}$ by construction.** What operates in $H_{\text{incoh}}$ does not appear in $H_{\text{coh}}$ coordinates. $\Psi$ is not just a mathematical operator; it maps the **Tangent Singularity**. At the substrate scale the threshold is the Planck scale — the boundary width of the XOR bottleneck, where the localized observer's clock ($dt$) dissolves and the rate of uncollapsed potential ($Q$) crystallizes into the state of the ledger ($P$).
 
 When a quantum state crosses $\Psi$, its rate of actualization becomes its state (mass). What does not cross $\Psi$ does not acquire inertial mass.
@@ -133,7 +139,7 @@ In the projection architecture, the Casimir effect is a boundary pressure, not a
 
 $$\Delta m_{\text{Casimir}} = 0 \quad [\text{kg}]$$
 
-The standard treatment expects the opposite: by the equivalence principle Casimir energy should fall like any other energy, and theoretical work on how Casimir energy gravitates has reached that conclusion. The test is not hypothetical. The Archimedes experiment has been in development since the mid-2010s to weigh vacuum energy by modulating the Casimir energy of layered superconductors across their transition and reading the change on a balance. A measured weight at the expected magnitude refutes this file; a null at that sensitivity is its prediction.
+The standard treatment expects the opposite: by the equivalence principle Casimir energy should fall like any other energy, and theoretical work on how Casimir energy gravitates has reached that conclusion. The test is not hypothetical. The Archimedes experiment, sited at the SAR-GRAV laboratory in the former Sos Enattos mine in Sardinia (INFN), has been in active development to weigh vacuum energy by modulating the Casimir energy of layered high-$T_c$ superconductors across their transition on a precision balance. A measured weight at the expected magnitude refutes this file; a null at that sensitivity is its prediction.
 
 ---
 
@@ -142,6 +148,8 @@ The standard treatment expects the opposite: by the equivalence principle Casimi
 The search for the graviton is a category error born of applying $H_{\text{coh}}$ plane-causality to the Tangent Singularity. Standard physics assumes that because the relational poles (electromagnetism/$U$, weak/$I$, strong/$R$) use exchange bosons to mediate interactions across space, the scalar pole (gravity/$P$) must do the same. This is a false symmetry.
 
 Gravity is not an active exchange within the manifold; it is the macroscopic, geometric footprint of the Live-Written Ledger — the density of compiled `.observe()` commitments. One does not need an exchange particle to transmit a topological fact; the manifold *is* the fact. The graviton will never be found, because the Landauer Tax is not a particle.
+
+This category error applies strictly to static spacetime curvature. Static gravitational attraction is not an exchange interaction mediated by virtual bosons in the manifold; it is the macroscopic geometric footprint of the Live-Written Ledger (the $P$-pole). The graviton as a mediator of static attraction is an unneeded borrowing. However, dynamic, propagating metric perturbations (gravitational waves carrying energy-momentum as detected by LIGO) represent transverse-traceless ripples of the boundary metric itself, whose quantum-carrier status remains an open boundary question.
 
 ---
 

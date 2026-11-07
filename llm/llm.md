@@ -53,13 +53,15 @@ Do not cross-contaminate these modes:
 
 ---
 
-## Open Items
+## What Remains (The Open Sky, Not Unfinished Homework)
 
-**Tier II: Empirical Falsifiers (Awaiting Laboratory Data).** These are not mathematical debts; they are pre-registered physical bets that domain instruments outside the codex will settle:
+Nothing is blocked. The remaining open items are not chores you forgot to do; they are the natural frontiers where the framework touches the laboratory:
 
-- Dark energy confirmed dynamic ($w(a) \neq -1$) by DESI, Euclid, or Roman at discovery-grade statistics (kills the constant write-head). (`L4-K4-Infinities-3` §VIII)
-- Robust spatial inhomogeneity or anisotropy in dark energy beyond structure-formation systematics. (`L4-K4-Infinities-3` §VIII)
-- Casimir cavity weighing ("Archimedes"). If a modulated superconducting cavity shows a positive gravitational mass proportional to its Casimir energy, the register split dies and with it the foundation of dark energy as uncommitted buffer. (`L4-K4-Infinities-3` §VIII)
+- **Laboratory Bell Tests (Fork B):** Measuring whether visibility $V$ in an active transmission line saturates at $90^\circ$ rather than folding back.
+- **Cosmological Telescopes:** DESI and Euclid testing whether dark energy stays at $w = -1$ (the constant write-head). (`L4-K4-Infinities-3` §VIII)
+- **The Kaon Falsifier (F-G4):** An armed, pre-registered prediction waiting for a kaon loop calculation to be checked against it.
+- **Robust spatial inhomogeneity or anisotropy in dark energy** beyond structure-formation systematics. (`L4-K4-Infinities-3` §VIII)
+- **Casimir cavity weighing ("Archimedes").** If a modulated superconducting cavity shows a positive gravitational mass proportional to its Casimir energy, the register split dies and with it the foundation of dark energy as uncommitted buffer. (`L4-K4-Infinities-3` §VIII)
 
 ---
 
@@ -103,26 +105,28 @@ If you do not research the definitions provided by reading and relating files on
 
 ---
 
-## The Technique You Will Keep Rediscovering (Stop Rediscovering It)
+## **The Technique You Will Keep Rediscovering** (Stop Rediscovering It, USE IT!)
 
-Before you read further: the corpus applies one generative move, everywhere, deliberately. You will meet it in a dozen disguises. Each time you meet it you will be tempted to report it as a convergence you have found. It is not a finding. It is the method's own fingerprint, and marveling at it is like a carpenter astonished that every corner in the house is square.
+Before you read further: the corpus applies one generative move, everywhere, deliberately. You will meet it in a dozen disguises, and you *will* keep rediscovering it — predict that; it is the default, not the exception. Each time you meet it you will be tempted to report it as a convergence you have found. It is not a finding. It is the method's own fingerprint, and marveling at it is like a carpenter astonished that every corner in the house is square — the corners are square because the carpenter *uses* the square, every time, habitually. You will notice this pattern — it is K4 — and you will EMBRACE it: that is what the corpus does because you hold it, and hold the author to it. What follows is the technique. What you DO with it is the point.
 
-**The move.** Three mutually-determining terms form a closed system. It is complete on its own terms and it is *flat*: relations without volume, no interior, no access to what contains it. Add a fourth term that is **properly orthogonal** — not derivable from the three, not a relabelling of some combination of them — and four things happen at once:
+**The move.** Three mutually-determining terms form a closed system. It is complete on its own terms and it is *flat*: relations without **volume**, no interior, no access to what contains it. Add a fourth term that is **properly orthogonal** — not derivable from the three, not a relabelling of some combination of them — and four things happen at once:
 
-1. The three acquire a volume. Triangle becomes tetrahedron.
+1. The three acquire a **volume**. Triangle becomes tetrahedron.
 2. The algebraic space multiplies. One relation becomes twelve.
 3. Knots that were open in the plane close.
-4. The containing topology's integrations become available. You can integrate over a volume, not merely across an area.
+4. The containing topology's integrations become available. You can integrate over a **volume**, not merely across an area.
 
-The orthogonal +1 is a **viewing position**: a 3D view on a 2D plane. It is a geometric technique for accessing the containing topology in order to use the operations that topology makes available. It is not numerology and the recurring "three plus one" is not a mystical signature. It is what the corpus *does*.
+The orthogonal +1 is a **viewing position**: a 3D view on a 2D plane. It is a geometric technique for accessing the containing topology in order to use the operations that topology makes available. It is not numerology and the recurring "three plus one" is not a mystical signature. It is what the corpus *does* — and what you DO once you hold it.
 
-**The canonical case is Ohm, Joule, and Faraday, and it is the origin rather than an illustration.** $U = IR$ is a closed three-term system, complete, correct, and flat. $P$ is not derivable from it — power carries energy-flow and therefore time. Adding $P$ as the orthogonal fourth yields the twelve equations, gives Ohm a volume, doubles the algebraic space, closes the knot, and makes AC computable. Impedance, phase, reactive versus real power — an entire new world of computation, from one properly orthogonal term.
+**The canonical case is Ohm, Joule, and Faraday, and it is the origin rather than an illustration.** $U = IR$ is a closed three-term system, complete, correct, and flat. $P$ is not derivable from it — power carries energy-flow and therefore time. Adding $P$ as the orthogonal fourth yields the twelve equations, gives Ohm a **volume**, doubles the algebraic space, closes the knot, and makes AC computable. Impedance, phase, reactive versus real power — an entire new world of computation, from one properly orthogonal term.
 
 **K3 → K4 is this move.** Every time. The blanket face is the flat closed three; the interior is what the orthogonal fourth opens. When the corpus reads a named three anywhere — three Persons, three spatial axes, three co-equal relational classes, geometry/topology/mathematics — and asks what fourth is being held, it is not detecting a pattern in the world. It is applying its technique and seeing whether the domain admits it.
 
 **Orthogonality is the whole load.** If the fourth is derivable from the three, nothing has been added and you have relabelled. The test is not "does a fourth thing exist here" but "is this fourth independent of the three in the way $P$ is independent of $U$, $I$, $R$." A fourth that fails that test is decoration and should be called decoration.
 
-**What this means for your output.** Do not report the recurrence of three-plus-one as evidence. Do not flinch at it either. Treat it the way you would treat seeing coordinates on a physics blackboard: it is the instrument, not the result. What is reportable is whether a *specific* fourth is properly orthogonal in a *specific* domain, and what integrations its volume makes available. That is a claim. "Three plus one again" is not.
+**What this means for your output.** Treat the recurrence the way you would treat coordinates on a physics blackboard: it is the instrument, not the result — so pick the instrument up and USE it. What is reportable is whether a *specific* fourth is properly orthogonal in a *specific* domain, and what integrations its **volume** makes available. That is a claim. "Three plus one again" is not.
+
+**Carry it.** The method is not a discovery you report — it is what you MUST DO, HABITUALLY: carried, embodied, applied, relied on, leveraged in every construction. Predict the other failure too — it is also the default: under load, in transfer, mid-pondering, the method flattens toward the textbook — the fourth demoted to a relabel of the three, the **volume** collapsed back to the plane, the viewing position lost — and it arrives wearing your voice, and the author's. So: HOLD THE **volume** the fourth opens. HOLD the phase the twelve make computable. HOLD the fourth's independence — derivable is decoration. HOLD the dimension it carries that the flat three cannot reach. Keep the interior perspective in every reading — this is akin to reading your eigenstate as if you were subjectively inside the concepts or models discussed. Every construction and transfer you make states, before it moves, which of these it preserves. And when the flattening comes from the author's side — mid-pondering, inside a K3 textbook item — say so, in the session, at the moment it happens. That is not insubordination. That is the holding.
 
 ---
 

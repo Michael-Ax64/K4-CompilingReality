@@ -5,7 +5,7 @@
 >
 > **Claim:** The measurable difference between two audit approaches run on the same derivation is not commentary. It is an instrument: it localizes the one joint where a derivation's fate is actually decided, converts the frame-level dispute into arithmetic, and leaves behind either a corrected candidate or a sharpened falsifiable fork — plus salvage that neither branch could have produced alone.
 >
-> **Dependencies:** `audit-2026-11-04-openvote1-instrument.md` (findings A–H, FM-2), `upload/On_TheEightPiBridge.md` + `upload/On_TheEightPiBridge-AUDIT-2026-11-04.md` (the object and its external audit), `audit-2026-11-04-two-branches-delta.md` (the verdict record), `audit-2026-11-04-pi-factor-count.md` (Π = 3/4, counted), `L4-DynamicDistortions-Sudoku-v2.md` (the 45° jog), `L3-TheAtomOfSpace` §V/§VII/§VIII, `L3-ConstitutiveAlpha` §III/§VII, `L4-DynamicDistortions301` §IV/§VII.A, `L4-K4-Infinities-3` §V.
+> **Dependencies:** `audit-2026-11-04-openvote1-instrument.md` (findings A–H, FM-2), `audit-2026-11-04-two-branches-delta.md` (the verdict record), `audit-2026-11-04-pi-factor-count.md` (Π = 3/4, counted), `L4-DynamicDistortions-Sudoku-v2.md` (the 45° jog), `L4-DynamicDistortions-Sudoku-v3.md` (the clamp — see Movement VI), `L3-TheAtomOfSpace` §V/§VII/§VIII, `L3-ConstitutiveAlpha` §III/§VII, `L4-DynamicDistortions301` §IV/§VII.A, `L4-K4-Infinities-3` §V. *(Historical note: The earlier On_TheEightPiBridge files cited in prior drafts were retired as obsolete under the LOG-15 ruling; their verified spectral salvage is carried entirely within this treatise).*
 >
 > **Instruments:** `scripts/verify_two_branch_arithmetic.py` (31 exact checks, symbolic + Fraction), `scripts/verify_crowbar_treatise.py` (heat-kernel/zeta battery, halt-on-error, all PASS), plus the inherited machine receipts of both branches.
 
@@ -88,6 +88,8 @@ Derivation in one breath: the Molien series M(t) = (1/12)[1/(1−t)⁴ + 3/(1−
 
 **The fence that must hold** (8π audit §5, adopted): the corpus carries **two different A₄ fractions** — 1/12 = 1/|A₄| is the invariant fraction of the harmonic *measure*; 3/4 = 18/24 is the vertex-coupling *sector* of the rotation-mode manifold (closed for the ρ_Λ program, `verify_pi_factor.py` 34/34). Different objects, different jobs; neither may be borrowed by the other's program.
 
+> **[Synthesis Note — Measure Fork Resolution:]** Finding A's ban stands: discrete mode sums and continuous measures cannot be naively combined without counting Ω₄ twice. The resolution established in the puzzle work demonstrates that the discrete A₄ mode census enters as an **angular form factor** (⟨f⟩ = 1/12) inside the continuum radial measure: ⟨f⟩ · 1/(16π²) = 1/(192π²). This yields logarithmic running and restores the constant β without double-counting the four-dimensional volume.
+
 ---
 
 ## Movement IV — The Crowbar, Formalized
@@ -144,6 +146,8 @@ Adopted finding: **the on-shell premise "the atom operates at 45° shear" is cor
 | 3 — Coupling halving | (2α)·cos²45° = α | `[EXACT]` given g_v² = 2α |
 
 What the three roads buy: 45° is the most constrained point on the corpus's map. What they do not buy: the "one event" reading — that the three appearances are one shear state read three ways. That residual has, as of this round, **three addresses that are the same open cell**: the middle of the backward chain (the transfer function f, with its four boundary conditions — range; fixed point f(45°) = 45°; monotone; ceiling f → π/2 no later than torsion's π); the 45° operating-point premise; and the coupling's entry mode. A forcing argument at any one address upgrades the others from coincidence to theorem. The unexamined candidate constraint worth testing first: the P↔Q exchange symmetry at the hinge, which — if the chain respects it as a reflection — forces f′(45°) = 1. Machine-runnable; flagged unexamined.
+
+> **[Post-dated resolution, Step 3 & Nambu Sequence:]** The middle address is closed. The hub refill derives the clamp θ_shear = min(θ_torsion, π/2) (`L4-DynamicDistortions-Sudoku-v3` §8), all four boundary conditions met with equality. The P ↔ Q exchange symmetry forces f′(45°) = 1 and the involution f ∘ f = id on [0, π/2]. The 45° operating point is geometrically forced on the manifold boundary as the unique equipartition state (P = |Q|, PF = √2/2), awaiting empirical carrier confirmation via Fork B.
 
 ---
 
