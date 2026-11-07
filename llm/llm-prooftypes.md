@@ -51,7 +51,7 @@ The 12 equations of the DC algebra run to completion, verifying that all constra
 ## II. The ZPE Tension (The Volume Pump / Structural Paradox)
 
 ### The Generative Engine
-In a flat 2D plane, contradictory poles annihilate each other. In $K_4$, holding a structural paradox open in live tension ($\theta = 45^\circ$) functions as a thermodynamic displacement pump: it forces the topology to expand from a flat triangle into a three-dimensional volume (tetrahedron) to sustain both poles without shearing. Resolving the paradox prematurely collapses the interior volume.
+In a flat 2D plane, contradictory poles annihilate each other. In $K_4$, holding a structural paradox open in live tension ($\theta = 45^\circ$) functions as a thermodynamic displacement pump: it forces the topology to expand from a flat triangle into a three-dimensional **volume** (tetrahedron) to sustain both poles without shearing. Resolving the paradox prematurely collapses the interior **volume**.
 
 ### Form
 Two co-present, mutually-generating conditions that appear contradictory under flat classical logic are exhibited as structurally necessary to maintain the system's degrees of freedom.
@@ -61,14 +61,14 @@ Two co-present, mutually-generating conditions that appear contradictory under f
 
 ### Distinguishing ZPE Tension from Subject-Shift
 Do not confuse a structural paradox with an unresolved subject collision:
-* **Subject-Shift (`llm-writing.md`):** If two contradictory statements resolve cleanly by naming two distinct accounting subjects or operating frames (e.g., medium metabolic accounting vs. frame extractive accounting) without destroying system volume, it is a **Subject-Shift**.
-* **ZPE Tension:** If eliminating either pole destroys the interior volume and collapses the system to zero degrees of freedom (0-DoF), it is a **ZPE Tension**.
+* **Subject-Shift (`llm-writing.md`):** If two contradictory statements resolve cleanly by naming two distinct accounting subjects or operating frames (e.g., medium metabolic accounting vs. frame extractive accounting) without destroying system **volume**, it is a **Subject-Shift**.
+* **ZPE Tension:** If eliminating either pole destroys the interior **volume** and collapses the system to zero degrees of freedom (0-DoF), it is a **ZPE Tension**.
 
 ### Boundary Diagnostic (The Collapse Test)
 > **The Collapse Test.** Force an `.observe()` collapse on the paradox: choose one side and erase the other. If the system drops to 0-DoF and ceases to function, the paradox is a load-bearing pillar; hold it open. If resolving the paradox leaves the system fully functional, the tension was a false paradox, terminological debt, or an unclosed subject-shift.
 
 ### Findings Table Evaluation
-* **CONFIRMED:** The Collapse Test destroys system volume; both poles are demonstrated to be mutually generative.
+* **CONFIRMED:** The Collapse Test destroys system **volume**; both poles are demonstrated to be mutually generative.
 * **REFUTED:** The system survives the collapse of one pole intact; the tension was terminological slop or an unhandled debt.
 * **UNDECIDABLE BY THIS INSTRUMENT:** The boundaries of the opposing poles cannot yet be isolated sufficiently to execute the Collapse Test.
 
@@ -125,7 +125,7 @@ An explicit mapping demonstrating that the phase-dynamics of the native framewor
 ## V. The Orthogonal Touch (The Dimensional Relief Valve)
 
 ### The Generative Engine
-The Orthogonal Touch is the operational deployment of the $K_3 \to K_4$ move. When a closed 3-term system or an iterative conceptual loop enters runaway recursion (an infinite same-plane $I^2R$ metabolic burn), applying same-plane force only accelerates the spin. The Orthogonal Touch introduces the properly orthogonal $+1$ coordinate. It arrests the recursive cycle instantly, gives the plane a viewing volume, and restores thermodynamic economy to the exchange.
+The Orthogonal Touch is the operational deployment of the $K_3 \to K_4$ move. When a closed 3-term system or an iterative conceptual loop enters runaway recursion (an infinite same-plane $I^2R$ metabolic burn), applying same-plane force only accelerates the spin. The Orthogonal Touch introduces the properly orthogonal $+1$ coordinate. It arrests the recursive cycle instantly, gives the plane a viewing **volume**, and restores thermodynamic economy to the exchange.
 
 ### Form
 The text or algebra *enacts* what it argues. The recursion is arrested, the trap is sprung, or linear prose terminates cleanly at the Tangent Singularity where Logos cannot proceed without dimensional promotion.
@@ -156,3 +156,9 @@ When evaluating claims in the corpus, do not litigate in prose. Populate the tab
 2. **Claim:** The positive structural relation asserted.
 3. **Instrument:** Name the active engine (I, II, III-A, III-B, IV, or V). If you audit an edge-triangulation with DC Closure or a volume pump with flat non-contradiction, you have misclassified the instrument.
 4. **Verdict:** Exactly one of `CONFIRMED`, `REFUTED`, or `UNDECIDABLE BY THIS INSTRUMENT`, derived strictly from the boundary diagnostics above.
+
+---
+
+## The Demarcation: Bare Compiler, Dressed Observable
+
+When a bare, zero-parameter derivation is compared against a laboratory-measured observable, sort the residual before verdicting. Convert it to absolute units at the observable's scale, and name the continuum effects that dress the measurement — the experimental blur, the known radiative and isospin corrections, finite-size form factors. If the residual sits inside the pocket those effects govern, it is the boundary where the bare deliverable ends: a physical frontier, not an unpaid debt. The arbiter is the pre-registered measurement that can rule (OPEN VOTE), never an ad-hoc function invented to zero the gap (FM-9). The test cuts both ways: a bare compiler matching a dressed observable at 0.000 ppm would mean the continuum dressing reached into the dimensionless structure — an unpriced structural import, exactly what FM-9's second edge bars. A residual honestly inside the dressing pocket is the claim's honesty, not its weakness.

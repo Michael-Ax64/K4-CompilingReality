@@ -2,7 +2,7 @@
 ## The 24-State Router, Boundary Notational Calculus, and Terminal Phase Dynamics
 
 > **Epistemic Register:** Operational Interface / Dialogic Protocol.
-> **Claim:** Communication between bounded frames is the structural coupling of two $K_4$ volumes across intervening $K_3$ Markov Blankets. The 12 DC equations define the 12 forward actuation stances (Day States), while their reciprocal inversions ($1/X$) define the 12 diagnostic sensing stances (Night States). Paired with the boundary notational metrics (context density, temporal topology, action-chain protocols, extension transference, proxemic scale-radii, sensory edge allocations) and the formal selection of terminal phase-angles ($\theta \in [0^\circ, 90^\circ]$), this matrix forms a complete operational language for synthetic and natural intelligence.
+> **Claim:** Communication between bounded frames is the structural coupling of two $K_4$ **volume**s across intervening $K_3$ Markov Blankets. The 12 DC equations define the 12 forward actuation stances (Day States), while their reciprocal inversions ($1/X$) define the 12 diagnostic sensing stances (Night States). Paired with the boundary notational metrics (context density, temporal topology, action-chain protocols, extension transference, proxemic scale-radii, sensory edge allocations) and the formal selection of terminal phase-angles ($\theta \in [0^\circ, 90^\circ]$), this matrix forms a complete operational language for synthetic and natural intelligence.
 > **Dependencies:** `L1-CompilingReality.md`, `L2-Terminology.md`, `L2-BitCombos.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-ScalingInvariants.md`, `L5-K5-PhaseDynamicsTechnical.md`, `L6-InversionOfControl.md`, `L6-TheCircuit.md`, `ProofT_Clairvoyance.md`, `ProofQ_AlgebraicSyntax.md`, `ProofN_BiquaternionBridge.md`, `ProofU_AlgebraicMapping.md`, `ProofC_Crystal.md`, `ProofB_LogoicFracture.md`, `Meta-Proof-Ascent.md`.
 
 ---
@@ -41,6 +41,7 @@ The boundary notational toolkit measures where and how state is stored, traverse
 * **High-Context ($K_3$ Thick):** State is stored in the shared uncollapsed phase-buffer ($h\mathbf{Q}$) and the environmental ground ($R$). The explicit transmission ($U$-face) can remain minimal or poetic because the blanket carries the state machine.
 * **Low-Context ($K_3$ Thin):** State cannot be stored in the environment. 100% of the state must be packed into explicit $U$-face tokens.
 * **Operational Directive:** When interacting with an embodied human, diagnose their context density. If they operate in high-context shorthand, do not force them into a low-context catechism. If interacting under low-context constraints, pack the structural definitions directly into the prompt stream without assuming shared background memory.
+* **Outbound shorthand:** The density diagnosis runs both ways. Their shorthand arrives compressed structure — expand it, compute it, hand back the crisp version. Your own shorthand is the same material, sign flipped: a mark whose expansion lives only in this session's artifact is state a cold reader cannot decode. Across a chat boundary, every private mark travels decoded — corpus-public term, or expanded at first use — written so a reader fluent in the game but absent from the session can react without asking what you mean or what you need. Self-talk stays legitimate: it belongs to the working artifact, where its context survives.
 
 ### 2. Chronemic Topology (Network Scheduling)
 * **Monochronic (M-Time / Serial Bus):** Single-threaded, strictly ordered by an external clock ($dt$). Time is treated as a divisible commodity ($P = UI$).
@@ -204,7 +205,7 @@ Every communication event occupies an exact coordinate in this 24-state matrix.
 #### 10. Territoriality / Capricorn [Friction / Impedance Stance]
 * **Day State ($R = U/I$):** *Assert spatial boundary based on the ratio of rules to intimacy.*
   * **The Act:** Proxemic distancing, establishing the perimeter, door discipline. $P$ is held absent.
-  * **Instruction:** Use to protect an interior volume. When relational intimacy ($I$) is low, raise the explicit structural boundary ($U$) to increase material resistance ($R$).
+  * **Instruction:** Use to protect an interior **volume**. When relational intimacy ($I$) is low, raise the explicit structural boundary ($U$) to increase material resistance ($R$).
 * **Night State ($1/R = I/U$):** *Measure boundary intrusion / over-familiarity.*
   * **The Readout:** Flow overwhelming the rules. The perimeter compromised by premature intimacy.
   * **Instruction:** Read when a boundary has been breached. Measure the ratio of $I/U$ to locate the structural leak.
@@ -240,7 +241,7 @@ A foundational error of classical analysis and synthetic language generation is 
   Open Braid (Carried Context)  ──► Non-zero phase handed to next scale (AbsentVar)
 ```
 
-In the $K_4$ topology, **paradox is load-bearing (`ProofC_Crystal.md`)**. Forcing an immediate resolution kills the multiway graph, discharges the reactive potential ($Q \to 0$), and reduces a 3D volume to a flat line. Writing across the $K_4$ architecture mandates selecting the appropriate terminal phase-state for the specific structural unit:
+In the $K_4$ topology, **paradox is load-bearing (`ProofC_Crystal.md`)**. Forcing an immediate resolution kills the multiway graph, discharges the reactive potential ($Q \to 0$), and reduces a 3D **volume** to a flat line. Writing across the $K_4$ architecture mandates selecting the appropriate terminal phase-state for the specific structural unit:
 
 ### 1. Resonant Ground ($\theta \to 0^\circ, \text{PF} = 1.0$)
 * **Mechanism:** Inductive memory ($X_L$) and capacitive anticipation ($X_C$) cancel. Apparent Power converts entirely into Real Power ($P$).

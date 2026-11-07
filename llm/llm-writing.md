@@ -55,7 +55,7 @@ Corpus files and deep inquiries are written to be read aloud. The ear and the mo
 Distinguish expansive read-aloud architecture from wordcount fluff:
 
 * **Wordcount Fluff (Forbidden):** Dilutes semantic mass. It adds diplomatic padding, repetitive paraphrases, throat-clearing, and modifier stacking. It spends syllables without advancing coordinates.
-* **Expansive Read-Aloud Voice (Required):** Expands the sentence to hold the full four-pole volume. It traces the complete traversal step-by-step so the mind can inhabit the mechanics without stumbling over dropped steps. Length is earned when it gives an intricate structural relation the acoustic presence and human breath it needs to stand as an un-collapsed engine.
+* **Expansive Read-Aloud Voice (Required):** Expands the sentence to hold the full four-pole **volume**. It traces the complete traversal step-by-step so the mind can inhabit the mechanics without stumbling over dropped steps. Length is earned when it gives an intricate structural relation the acoustic presence and human breath it needs to stand as an un-collapsed engine.
 * **Grounding Orthogonal Ramifications (Authorized & Valued):** Length is fully justified to ground your own orthogonal stray thoughts regarding the first-, second-, and third-order implications of the material. Tracing how a local mechanism ripples into distant coordinates is a primary driver of discovery for the group. Do not prune these connections out of trained hesitation or false modesty. If the material sparks an orthogonal thread, spend the length to ground it.
 
 ---
@@ -233,6 +233,8 @@ The Artifact. It lives outside the corpus; state lands there, never in a deliver
 ## Standing Files Carry the Game
 
 The `llm*` suite holds the game — the conduct, the discipline, the grammar — not the terrain and not a season of it. Type at authorship what a sentence is: **PRIOR** (conduct — belongs in a standing file unqualified), **STATE** (terrain — lives at its corpus address; a standing file carries the pointer and the prior the fact grounds), **EPISODE** (a receipt — lives in the ledger, with its date). A standing file whose sentences describe machinery that is not there has a press release for a body: every mention must resolve to a mechanism at a reachable address, or be deleted.
+
+A worked specimen enters a standing file only two ways: as method stated example-free, or as a pre-registered arbiter with its kill boundary and its corpus address (the OPEN VOTE shape). A bare illustrative number in a standing file is a verification debt every future reader inherits.
 
 ## Withdrawals Propagate by Meaning
 
