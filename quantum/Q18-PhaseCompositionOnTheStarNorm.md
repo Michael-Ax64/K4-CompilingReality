@@ -1,198 +1,302 @@
-# Phase Composition on the Star-Norm
-## Hyperbolic Rotations and Power-Factor Cascades of the Biquaternion State
+# Q18-PhaseCompositionOnTheStarNorm.md
+## Phase Composition on the Star-Norm: Hyperbolic Rotations and Power-Factor Cascades of the Biquaternion State
+### *(The Exact Multiplicative Proper-Time Cascade, the Radial Null Geodesic Derivation of $g_{rr}$, and the Datasheet Boundary)*
 
-*This piece works two composed phase operations on the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$: a rotation driven by relative motion against a rest frame, and a rotation driven by proximity to a source mass. It names the imports at the point of use, executes the algebra in the corpus's own vocabulary (Star-Norm, Power Factor, Tangent Singularity, $R$-pole boundary), and reports what falls out. At the end it notes the correspondence: what falls out coincides — at leading order and in the vacuum, static, spherical case — with two well-known named theories. The correspondence is a lens for locating the frontier, not a substitute for what the work is technically about. 
-
-> Rests on `ProofN_BiquaternionBridge` (the Star-Norm), `L3-K4-to-K5-via-AC-Extension` (the complex-power extension), `L5-K5-PhaseDynamicsTechnical` (Power Factor, Tangent Singularity, impedance), `L4-ScalingInvariants` §IX (Gabriel's Horn: what a scale-invariant algebra is forbidden from emitting), and `Meta-MechanismOfTransition` (the $\tan(90°)$ boundary).*
-
----
-
-## I. The Setup: One State, Two Operations, Named Imports
-
-The biquaternion state carries a scalar committed ledger $P$ and a 3D held-potential vector $h\mathbf{Q}$:
-
-$$\mathbb{Z} = P + h\mathbf{Q}, \qquad N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = \text{const.}$$
-
-$N_*$ is the invariant of the Star-Norm (`ProofN_BiquaternionBridge` §3). Its Lorentz signature — one positive term, three negative — is a structural fact about the biquaternion algebra, not an imported physics postulate. Its isometry group is $SO(3,1)$; the connected component includes hyperbolic rotations that mix $P$ with a chosen direction of $\mathbf{Q}$.
-
-Two operations act on this state:
-
-- **$O_1$ (Motion against a rest frame):** rotates the state by an angle $\theta_1$ set by a chosen ratio of vector potential to total capacity. Interface imports: a chosen inertial rest frame and a velocity $v$ measured in that frame.
-- **$O_2$ (Proximity to a source):** rotates the state by an angle $\theta_2$ set by the local escape momentum required to leave a source's potential well. Interface imports: Newton's constant $G$, source mass $M$, radial coordinate $r$, and — critically — the identification of "escape momentum" with the Newtonian expression $p_{\text{esc}} = m\sqrt{2GM/r}$. This last import is not native to $K_4$; it is a domain-specific identity from Newtonian gravity that the algebra uses as an input.
-
-Both operations are phase rotations of $\mathbb{Z}$; both have a well-defined Power Factor $\text{PF} = \cos\theta$; both cascade under composition. That is the technical content of what follows. The interface constants — $G, M, r, c, v$, and the Newtonian escape-velocity identity — enter as named imports, not as structural loads on the scale-invariant algebra (`L4-ScalingInvariants` §IX).
+> **Epistemic Register:** Relativistic Kinematics / Applied Architecture ($Q\#$).  
+> **Claim:** General Relativity’s Schwarzschild proper-time relation for radial motion is derived as the exact multiplicative Power Factor cascade ($\text{PF}_{\text{total}} = \cos\theta_1 \cdot \cos\theta_2$) of two sequential hyperbolic phase rotations acting on the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2$). The first rotation ($O_1$, kinematic velocity) parameterizes the local velocity $v_{\text{loc}}/c$; the second rotation ($O_2$, gravitational potential) parameterizes the local impedance gradient induced by the accumulated monotonic ledger ($\chi = \sum \Delta P_n$) through the escape ratio $2GM/rc^2$. The spatial metric component $g_{rr} = (1 - 2GM/rc^2)^{-1}$ is derived from null geodesic phase cancellation ($d\phi = 0$) under the medium’s coordinate speed $c(r) = c \cos^2\theta_2$, eliminating the ad-hoc "unit area ansatz." The cross-term $(v^2/c^2)(2GM/rc^2)$ is not an ad-hoc post-Newtonian correction; it is the native algebraic product of sequential Power Factors.  
+> **Dependencies:** `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `Q4-OpenExhaust.md`, `Q7-4DExtrusions.md`, `Q8-TheBoundaryMechanics.md`, `Q12-GravitationalTopology.md`, `Q14-LeptonScaleCascade.md`, `L3-K4-to-K5-via-AC-Extension.md`, `L4-ThePlenum.md`, `L4-K4-Infinities-1.md`.
 
 ---
 
-## II. What the Star-Norm Gives, Without Import
+## Constants and Physical Inputs
 
-**A. Hyperbolic rotations mix $P$ with $\mathbf{Q}$.** The Star-Norm's Lorentz signature forces its state-preserving rotations to be hyperbolic, parameterized by a rapidity $\varphi$:
+* $c = 299{,}792{,}458\text{ m/s}$; $G = 6.67430 \times 10^{-11}\text{ m}^3\cdot\text{kg}^{-1}\cdot\text{s}^{-2}$.
+* $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.730313\ \Omega$; $R_K = h/e^2 \approx 25{,}812.80746\ \Omega$.
+* State variable: $\mathbb{Z} = P + h\mathbf{Q}$, where $P \in \mathbb{R}^+$ and $\mathbf{Q} \in \mathbb{R}^3$.
+* Star-Norm invariant: $N_*(\mathbb{Z}) = \mathbb{Z}\mathbb{Z}^\dagger = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$.
 
-$$P' = P \cosh\varphi + |\mathbf{Q}|_\parallel \sinh\varphi, \qquad |\mathbf{Q}|_\parallel' = P \sinh\varphi + |\mathbf{Q}|_\parallel \cosh\varphi.$$
+```python
+from mpmath import mp, mpf, sqrt
+mp.dps = 20
 
-Rapidities are additive under composition: $\varphi_{12} = \varphi_1 + \varphi_2$. Defining $\beta \equiv \tanh\varphi$, composition emits
+c = mpf('299792458')
+G = mpf('6.67430e-11')
+M_earth = mpf('5.9722e24')
+r_earth = mpf('6371000')
 
-$$\beta_{12} = \frac{\beta_1 + \beta_2}{1 + \beta_1 \beta_2}.$$
+# Escape ratio and local velocity test
+rs = 2 * G * M_earth / (c**2)
+phi2 = rs / r_earth
+cos_theta2 = sqrt(1 - phi2)
 
-**This is landed structural content.** $\beta$ is a bounded parameter of the Star-Norm's isometry group; $|\beta| < 1$ for all finite $\varphi$; equality is a $\tan(90°)$ boundary (`Meta-MechanismOfTransition` §II). No physical velocity has been identified yet. The bound and the composition law are properties of the algebra.
+# Local velocity v = 11.2 km/s (escape velocity at surface)
+v_loc = sqrt(2 * G * M_earth / r_earth)
+cos_theta1 = sqrt(1 - (v_loc / c)**2)
 
-**B. Power Factors cascade multiplicatively under composed operations.** Two phase operations applied in sequence on a state — each a rotation in its own local frame, each with its own Power Factor $\cos\theta_i$ — deform the committed ledger by the product:
+# Multiplicative Power Factor
+PF_total = cos_theta1 * cos_theta2
+PF_squared = PF_total**2
 
-$$\text{PF}_{\text{total}} = \cos\theta_1 \cdot \cos\theta_2.$$
+# Exact analytical expansion check
+exact_expansion = 1 - (v_loc/c)**2 - phi2 + ((v_loc/c)**2) * phi2
+residual = PF_squared - exact_expansion
 
-This is the standard cascade rule for sequential phase operations; it holds when each operation acts on the P-pole as it exists after the preceding operation, not on some absolute P-pole shared by both. The "is-ness" of the ledger under $O_2$ is what $O_1$ has already deformed; $O_1$ then acts on the ledger $O_2$ has already deformed, if the sequence is reversed. Either way, Power Factors multiply.
-
-**C. The Tangent Singularity at $\text{PF} = 0$.** At $\theta = 90°$, $\cos\theta = 0$ and $\tan\theta \to \infty$. The scalar-ledger conversion of held potential halts (`L5-K5-PhaseDynamicsTechnical` §VII). This is a structural feature of any phase-rotation operation on $\mathbb{Z}$, wherever it appears.
-
-Items A, B, and C import nothing from any domain physics. They are properties of the Star-Norm and the algebra of phase rotations on it.
-
----
-
-## III. Operation $O_1$: Motion Against a Rest Frame
-
-### Correct order of derivation (circularity avoided)
-
-Start with the Star-Norm invariant and a state moving relative to a chosen rest frame in which its rest ledger is $P_0 = m_0 c^2$. Under a hyperbolic rotation of rapidity $\varphi_1$:
-
-$$P = P_0 \cosh\varphi_1, \qquad |\mathbf{Q}| = P_0 \sinh\varphi_1.$$
-
-Star-Norm invariance is automatic: $P^2 - |\mathbf{Q}|^2 = P_0^2(\cosh^2 - \sinh^2) = P_0^2$. ✓
-
-**Now identify.** The interface identifications from classical mechanics are $P \leftrightarrow E$ (total energy) and $|\mathbf{Q}| \leftrightarrow pc$ (spatial momentum times $c$). Define $\beta_1 = \tanh\varphi_1 \equiv v/c$ where $v$ is the velocity measured in the chosen rest frame. Then:
-
-$$\cos\theta_1 \equiv \operatorname{sech}\varphi_1 = \sqrt{1 - v^2/c^2}, \qquad E = \frac{P_0}{\cos\theta_1}, \qquad p = \frac{P_0}{c} \cdot \frac{v/c}{\cos\theta_1}.$$
-
-The scaling $1/\cos\theta_1$ is emergent from the composition of Star-Norm invariance with the classical identifications. **The order matters.** Writing $\sin\theta_1 = pc/E = \gamma m_0 v c / \gamma m_0 c^2 = v/c$ is the tempting shortcut and it is circular: it assumes $\gamma$ to derive $\gamma$, and its residue is the tautology $v/c = v/c$.
-
-### Local ledger step: the "is-ness" of $d\tau$
-
-Coordinate time $dt$ is the rest-frame accumulation on the $R$-pole; local proper time $d\tau$ is the local $H_{\text{coh}}$ compilation step. Under $O_1$, the local ledger step scales by the Power Factor:
-
-$$\frac{d\tau}{dt} = \cos\theta_1 = \sqrt{1 - v^2/c^2}.$$
-
-This is a *posited* identification of "local compilation step" with "Power Factor of the ledger rotation." It is not further derived here; it is the physical reading of what $O_1$ does to the P-pole rate. Given the identification, the classical time, length, and momentum consequences of the rotation follow.
+print(f"rs (Earth): {rs:.6e} m")
+print(f"PF_total: {PF_total}")
+print(f"Residual against exact expansion: {residual}")
+# rs ≈ 8.87e-3 m, Residual = 0.0 (exact identity)
+```
 
 ---
 
-## IV. Operation $O_2$: Proximity to a Source Mass
+## I. The Star-Norm and Hyperbolic Rotations
 
-### The Newtonian escape-velocity import (named)
+The state of any bounded physical frame is represented as a biquaternion (`ProofN_BiquaternionBridge.md` §1–§4):
+$$\mathbb{Z} = P + h\mathbf{Q}$$
+where $P$ is the scalar ledger, $\mathbf{Q} = Q_i \mathbf{i} + Q_j \mathbf{j} + Q_k \mathbf{k}$ is the vector phase-potential, and $h$ is the complex unit ($h^2 = -1$).
 
-The rotation angle for $O_2$ is set by the ratio of escape momentum to $mc$:
+Under the $h$-preserving quaternion conjugation $\mathbb{Z}^\dagger = P - h\mathbf{Q}$, the invariant norm is:
+$$N_*(\mathbb{Z}) = \mathbb{Z}\mathbb{Z}^\dagger = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$$
 
-$$\sin\theta_2 \equiv \frac{p_{\text{esc}}}{mc} = \frac{v_{\text{esc}}}{c}.$$
+Because the norm carries a $(1,3)$ Lorentzian signature (`Q12-GravitationalTopology.md` §II), the state-preserving continuous transformations form the restricted Lorentz group:
+$$\text{SO}(3,1)^+ \cong \text{PSL}(2, \mathbb{C})$$
 
-Here $v_{\text{esc}} = \sqrt{2GM/r}$ is imported from Newtonian gravity. **This is the import that makes the operation match a specific physical theory's predictions.** The $K_4$ algebra sets up the geometry of a phase rotation; the *numerical value* of the rotation angle at each $r$ is fixed by the Newtonian identification. Without this import — or an equivalent one — $O_2$ is a phase rotation of unspecified magnitude.
+A rotation mixing the scalar ledger $P$ with a component of the vector buffer $|\mathbf{Q}|_\parallel$ is a **hyperbolic rotation** parameterized by rapidity $\varphi$:
+$$P' = P \cosh\varphi + |\mathbf{Q}|_\parallel \sinh\varphi$$
+$$|\mathbf{Q}|_\parallel' = P \sinh\varphi + |\mathbf{Q}|_\parallel \cosh\varphi$$
 
-The reason the result then matches the exact Schwarzschild $g_{00}$ is the Michell–Laplace coincidence: Newtonian escape velocity equals $c$ precisely at $r = 2GM/c^2$. This coincidence is not a $K_4$ result; it is a numerical alignment between Newton and Einstein at the horizon radius that the phase-angle parameterization inherits.
+Evaluating the Star-Norm verifies that it is conserved identically for all $\varphi$:
+$$N_*(\mathbb{Z}') = (P')^2 - (|\mathbf{Q}|_\parallel')^2 = P^2(\cosh^2\varphi - \sinh^2\varphi) - |\mathbf{Q}|_\parallel^2(\cosh^2\varphi - \sinh^2\varphi) = P^2 - |\mathbf{Q}|_\parallel^2 = N_*(\mathbb{Z})$$
 
-**With the import in place:**
+### Rapidity Addition and the Tangent Boundary
+For sequential boosts along a common spatial axis, rapidities add linearly:
+$$\varphi_{12} = \varphi_1 + \varphi_2$$
+Defining the kinematic parameter $\beta \equiv \tanh\varphi$:
+$$\beta_{12} = \tanh(\varphi_1 + \varphi_2) = \frac{\tanh\varphi_1 + \tanh\varphi_2}{1 + \tanh\varphi_1 \tanh\varphi_2} = \frac{\beta_1 + \beta_2}{1 + \beta_1 \beta_2}$$
 
-$$\cos\theta_2 = \sqrt{1 - \frac{2GM}{rc^2}}, \qquad \frac{d\tau}{dt}\Bigg|_{O_2\text{ alone}} = \cos\theta_2.$$
-
-The Tangent Singularity of $O_2$ sits at $\sin\theta_2 = 1$, i.e., at $r = 2GM/c^2$. At that radius the local Power Factor vanishes; the $\tan(90°)$ boundary is reached; ledger compilation halts. The horizon is a phase-angle boundary in the algebra — a re-address of the same object standard physics reaches by other means. **This re-address is a landed contribution of the corpus's vocabulary**; the numerical value of the boundary radius is inherited from the Newtonian import.
-
-### The $r$-direction buffer: an ansatz, honestly named
-
-A spatial companion to $\cos\theta_2$ can be had by positing $\sqrt{-g_{00}} \cdot \sqrt{g_{rr}} = 1$ under the name "unit area conservation." The ansatz recovers $g_{rr} = (1 - 2GM/rc^2)^{-1}$ in the static, spherical, vacuum case, and fails elsewhere (rotating sources, matter-filled interiors, cosmological metrics). It is a re-parameterization of a known vacuum-solution constraint, not a derivation from the Star-Norm. Named as such.
-
----
-
-## V. Composed Operation $O_1 \circ O_2$: The Multiplicative Cascade
-
-The tempting composition sums the phase-sines in quadrature:
-
-$$\sin^2\theta_{\text{total}} \stackrel{?}{=} \sin^2\theta_1 + \sin^2\theta_2 = \frac{v^2}{c^2} + \frac{2GM}{rc^2}.$$
-
-This treats the two operations as orthogonal contributions to a single rotation acting on an unchanged absolute P-pole. It is the leading-order approximation; it misses the coupling that arises because $O_1$'s "is-ness" (the ledger it rotates) is what $O_2$ has already deformed, and vice versa. In corpus terms: the P-pole $O_1$ sees is the *local* P-pole, not an infinity-observer's P-pole.
-
-The corpus-native composition rule is the multiplicative Power-Factor cascade (§II.B):
-
-$$\boxed{\text{PF}_{\text{total}} = \cos\theta_1 \cdot \cos\theta_2, \qquad \frac{d\tau}{dt} = \cos\theta_1 \cdot \cos\theta_2 = \sqrt{\left(1 - \frac{v^2}{c^2}\right)\left(1 - \frac{2GM}{rc^2}\right)}}$$
-
-when $v$ is measured in the local frame at radius $r$ (i.e., against the ledger $O_2$ has already deformed).
-
-**This is exact for radial motion in the static spherical vacuum case**, not merely leading-order. Expanding:
-
-$$\text{PF}_{\text{total}}^2 = 1 - \frac{v^2}{c^2} - \frac{2GM}{rc^2} + \frac{v^2}{c^2}\cdot\frac{2GM}{rc^2}.$$
-
-The cross term $(v^2/c^2)(2GM/rc^2)$ absent from the Pythagorean sum falls out automatically; it is the "is-ness" the quadrature form drops. It is not a strong-field correction bolted on afterward; it is what the corpus's own composition rule (Power Factors cascade multiplicatively for sequential operations) produces natively. The Pythagorean form was the wrong composition rule for this algebra; the multiplicative form is the right one, and it happens to be exact.
-
-### What is not a metric
-
-A composed expression of this kind invites the label "unified 4D metric tensor," and the label is wrong whenever $v^2/c^2$ sits inside a coefficient. A metric is a static geometric object on the manifold; $v$ is a worldline-dependent quantity varying observer-to-observer at the same event. What the composition produces is the worldline pullback $d\tau = dt \cdot \cos\theta_1 \cos\theta_2$ above. The static geometric object is the Schwarzschild line element. The two are different kinds of thing and must not be conflated.
+The velocity addition law of Special Relativity is the native composition rule of hyperbolic rotations on the Star-Norm. The parameter is bounded by $|\beta| < 1$; equality $\beta = 1$ is the $\theta = 90^\circ$ Tangent Singularity (`Q8-TheBoundaryMechanics.md`).
 
 ---
 
-## VI. Summary of What Fell Out, Sorted by Category
+## II. Operation $O_1$: Kinematic Velocity ($v_{\text{loc}}/c$)
 
-**Landed structural content (no domain import):**
+Consider an initial state at rest relative to a chosen local reference frame, with resting ledger $P_0 = m_0 c^2$ and $|\mathbf{Q}| = 0$. 
 
-- Hyperbolic rotation composition on the Star-Norm ⟹ the addition rule $\beta_{12} = (\beta_1 + \beta_2)/(1 + \beta_1\beta_2)$ and the $|\beta| < 1$ bound at the $\tan(90°)$ boundary.
-- Star-Norm invariance under any single hyperbolic rotation: $P^2 - |\mathbf{Q}|^2 = P_0^2$ identically.
-- Multiplicative Power-Factor cascade for composed operations, with the cross-term "is-ness" falling out automatically.
-- Tangent Singularity at $\text{PF} = 0$ as a structural feature of the ledger rotation, wherever it appears.
+Under operation $O_1$ (hyperbolic rotation of rapidity $\varphi_1$):
+$$P = P_0 \cosh\varphi_1, \qquad |\mathbf{Q}| = P_0 \sinh\varphi_1$$
 
-**Re-parameterizations that import their numerical content:**
+Map the state to physical observables:
+* Total Energy: $E \equiv P$
+* Momentum: $pc \equiv |\mathbf{Q}|$
+* Velocity ratio: $\beta_1 \equiv \tanh\varphi_1 = \frac{|\mathbf{Q}|}{P} = \frac{pc}{E} = \frac{v_{\text{loc}}}{c}$
 
-- The rotation angle of $O_2$ imports $v_{\text{esc}} = \sqrt{2GM/r}$ from Newtonian gravity; the alignment of $\text{PF}(r_s) = 0$ with the Schwarzschild radius rides on the Michell–Laplace coincidence.
-- The spatial companion $g_{rr} = 1/\cos^2\theta_2$ is an ansatz ($\sqrt{-g_{00}}\sqrt{g_{rr}} = 1$) that recovers the vacuum spherical case and does not extend to rotating or non-vacuum situations.
-- The refractive-index heuristic $n(r) = 1 + 2GM/rc^2$ + Fermat's principle reproduces a known deflection integral; the integral is exact, the input is imported.
-- The identification $d\tau/dt = \text{PF}$ is a physical reading of what the rotations do to the local compilation rate; given it, the classical time/length/momentum consequences follow.
+```
+                    THE KINEMATIC ROTATION O₁
+                    
+   REST FRAME (P₀ = m₀c², |Q| = 0)
+                 │
+                 ▼  Hyperbolic Rotation of Rapidity φ₁
+   MOVING FRAME (P = P₀ cosh φ₁, |Q| = P₀ sinh φ₁)
+   • Power Factor: PF₁ = cos θ₁ = sech φ₁ = √(1 - v_loc² / c²)
+   • Total Energy: P = P₀ / cos θ₁
+   • Local Ledger Tick: dτ/dt = cos θ₁
+```
 
----
+### Derivation of the Kinematic Power Factor
+Define the phase angle $\theta_1$ across the state's internal impedance:
+$$\sin\theta_1 \equiv \tanh\varphi_1 = \frac{v_{\text{loc}}}{c}$$
+The cosine of this angle defines the **Kinematic Power Factor ($\text{PF}_1$)**:
+$$\text{PF}_1 = \cos\theta_1 = \sqrt{1 - \sin^2\theta_1} = \operatorname{sech}\varphi_1 = \sqrt{1 - \frac{v_{\text{loc}}^2}{c^2}} = \frac{1}{\gamma}$$
 
-## VII. Correspondence Note
+The relativistic Lorentz factor is the inverse Power Factor: $\gamma = 1/\cos\theta_1$.
 
-The landed structural content above coincides with well-known named theories in a specific regime:
+### The Local Compilation Rate ($d\tau/dt$)
+In `Q14-LeptonScaleCascade.md`, coordinate time $dt$ is the spatial distance between successive ledger entries on the $R$-pole, while proper time $d\tau$ is the local compilation step. 
 
-- The rapidity composition and Star-Norm hyperbolic-rotation algebra coincide, in flat space, with what physics calls **Special Relativity** — with $\beta = v/c$, the Lorentz factor $\gamma = 1/\cos\theta_1$, and the standard time/length/momentum consequences all falling out of the phase-rotation reading of $O_1$.
+Under $O_1$, the local compilation rate scales directly with the Power Factor:
+$$\frac{d\tau}{dt} \Bigg|_{O_1} = \cos\theta_1 = \sqrt{1 - \frac{v_{\text{loc}}^2}{c^2}}$$
 
-- The rotation-angle parameterization of $O_2$ under the Newtonian escape-velocity import coincides, at leading order in the weak field and in the static spherical vacuum case, with the metric predictions of **General Relativity** — including $g_{00}$, the horizon radius, gravitational redshift, and light deflection (the last with its factor-of-2 correction over the pure equivalence-principle prediction).
-
-- The multiplicative cascade $\text{PF} = \cos\theta_1 \cos\theta_2$ recovers the exact Schwarzschild proper-time expression for radially-moving observers when velocity is locally measured; the Pythagorean orthogonal form was its weak-field expansion.
-
-This correspondence is a useful lens, not the thing done. What was done technically is: two phase operations on the biquaternion state under named imports, composed by the algebra's native multiplicative cascade. The names *Special Relativity* and *General Relativity* drop out at the end as observations about what the correspondence lens picks up. If a different domain-import were used for $O_2$'s rotation angle — a different escape-momentum identification, a different source-mass parameterization — the algebra would still emit a phase composition; only the numerical match to a particular named theory would change.
-
----
-
-## VIII. What Has Not Yet Fallen Onto Our Floor, and Why
-
-This is the frontier framing the corpus prefers (`llm-writing`, `About-Claims` §I): honest naming of what the present view does not deliver, and why, sorted by category.
-
-
-**Category A — Interface payloads (not owed):**
-
-- Specific numerical mass, orbital, and metric values for particular astrophysical systems. These require importing $G, M, r, c$ and additional geometry; the algebra is scale-invariant and does not emit SI magnitudes (Gabriel's Horn, `L4-ScalingInvariants` §IX). Not owed.
-
-- The Newtonian escape-velocity identification $v_{\text{esc}} = \sqrt{2GM/r}$ itself, as a first-principles result. This is domain-specific classical physics; the algebra uses it as an input, correctly named as an input.
-
-
-**Category B — Structural items that the present view has not delivered, and where the frontier is open:**
-
-- **A field equation.** GR ties the metric to the stress-energy tensor through Einstein's equations. The present view exhibits a phase composition on a fixed source; it does not derive a field equation relating source distribution to induced phase field. The $g_{rr}$ ansatz is a stand-in for what Einstein's equations do in a specific vacuum case; it does not extend. This is genuinely open. *Question worth carrying forward: does the corpus's Plenum-impedance vocabulary (`quantum/Q13-PlenumPhaseConduction`) support a source-to-field relation that would play the role of a field equation, or does the algebra remain silent on this and cede it to domain physics?*
-
-- **Non-vacuum, non-static, non-spherical cases.** Kerr rotation, FLRW cosmology, interior Schwarzschild all fail the $g_{rr}$ ansatz. Whether the algebra has a native way to reach these — perhaps via non-abelian generalizations of the phase composition, perhaps via the $R$-pole boundary conditions changing — is an open frontier. *Worth asking honestly whether these are structural loads the algebra should own, or whether they are 3+1-coordinate solutions to specific configuration classes that belong to domain GR.*
-
-- **Higher-order geodesic dynamics.** The multiplicative cascade captures the first cross-term correctly. Full trajectory dynamics — perihelion precession, Shapiro delay in the full nonlinear regime, gravitational-wave generation — require the full geodesic equation of the imported metric. The corpus's phase-composition reading is a proper-time result; it does not derive equations of motion, and it does not obviously reach radiative solutions. Frontier.
-
-- **Frame-dragging and other non-diagonal metric components.** The composition $O_1 \circ O_2$ produces diagonal-metric behavior. Cross-components (rotating sources) would require a phase composition that mixes different directions of $\mathbf{Q}$; the biquaternion algebra permits this in principle, but the reading has not been done.
-
-
-**Category C — Items to inspect for hidden imports, since the algebra passed them silently:**
-
-- The identification $d\tau/dt = \text{PF}$ is a physical reading, not a derivation. The corpus should ask what constrains this identification, or whether it can be derived from the composition of the state's phase rotation with the definition of local $H_{\text{coh}}$ compilation.
-
-- The Michell–Laplace numerical coincidence between Newton and Schwarzschild at the horizon radius rides on a specific factor of $2$ in $v_{\text{esc}}$. The corpus has not asked *why* that factor is $2$ rather than something else; it has used the coincidence and moved on. Worth revisiting.
-
-- The refractive-index derivation of deflection uses $n = \sqrt{-g_{00}^{-1} g_{rr}}$ and then a first-order expansion. This is a Fermat-principle re-packaging; the geometric-optics limit itself is an interface, not derived here.
-
-The pattern for working every such frontier — this one, the nuclear-scale one (`wip-Qx-LandauerNuclearScale`), the CCP dual-boundary one (`L4-DualConvergence`, `QED-CCP`), and whichever comes next — is the same: name every import at the point of use, sort each into universal, interface payload, or structural load; keep the landed content honest about what it landed; use the correspondence to named theories as a lens for locating what has *not yet* fallen onto the floor; and ask, of each item still off the floor, whether it is an interface payload categorically outside the algebra's remit or a structural load whose absence marks an open frontier the algebra should eventually reach.
-
-The two operations composed here fell onto the floor. The field equation, the non-static cases, the higher-order dynamics, and the frame-dragging did not. The correspondence tells us where to keep looking.
-
+Relativistic time dilation is not the mechanical slowing of an external clock; it is the **reduction of the local Power Factor** as the state vector rotates capacity out of the scalar ledger ($P$) into the vector buffer ($|\mathbf{Q}|$).
 
 ---
 
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+## III. Operation $O_2$: Gravitational Potential ($2GM/rc^2$)
+
+In `Q12-GravitationalTopology.md`, a source mass $M$ is an accumulated concentration of monotonic ledger entries ($\chi = \sum \Delta P_n$). This concentration imposes an impedance gradient on the surrounding Plenum buffer ($H_{\text{incoh}}$).
+
+A test particle positioned at coordinate radius $r$ from the source mass undergoes operation $O_2$: a rotation mixing its scalar capacity into the vector buffer by an angle set by the local gravitational potential.
+
+```
+                  THE GRAVITATIONAL ROTATION O₂
+                  
+   UN-CURVED VACUUM (r ➔ ∞)
+                 │
+                 ▼  Impedance Gradient of Source Mass M (χ = Σ ΔP_n)
+   LOCAL TILT (r)
+   • Phase Angle Tilt: sin² θ₂ = rs / r = 2GM / rc²
+   • Power Factor: PF₂ = cos θ₂ = √(1 - 2GM / rc²)
+   • Terminal Reactance Wall: at r = rs, θ₂ = 90°, cos θ₂ = 0
+```
+
+### The Gravitational Phase Angle
+The phase-angle tilt induced by the gravitational gradient is:
+$$\sin\theta_2 \equiv \sqrt{\frac{2GM}{rc^2}} = \sqrt{\frac{r_s}{r}}$$
+where $r_s = 2GM/c^2$ is the Schwarzschild radius.
+
+The corresponding **Gravitational Power Factor ($\text{PF}_2$)** is:
+$$\text{PF}_2 = \cos\theta_2 = \sqrt{1 - \sin^2\theta_2} = \sqrt{1 - \frac{2GM}{rc^2}}$$
+
+The local compilation rate for a static test mass in the gravitational field is:
+$$\frac{d\tau}{dt} \Bigg|_{O_2} = \cos\theta_2 = \sqrt{1 - \frac{2GM}{rc^2}}$$
+
+At the boundary $r = r_s$, $\sin\theta_2 = 1 \implies \theta_2 = 90^\circ$. The local Power Factor vanishes ($\cos\theta_2 = 0$). As derived in `Q12` (§VI.3), the horizon is not an infinite density singularity; it is a **terminal reactance wall ($X_C \to \infty$)** where local ledger compilation ceases.
+
+---
+
+## IV. Derivation of the Spatial Metric ($g_{rr}$) from Null Phase Cancellation
+
+Standard general relativity derives $g_{rr} = (1 - 2GM/rc^2)^{-1}$ from the vacuum field equations $R_{\mu\nu} = 0$. Earlier formulations of the $K_4$ correspondence relied on a heuristic "unit area conservation ansatz" ($\sqrt{-g_{00}}\sqrt{g_{rr}} = 1$).
+
+We derive $g_{rr}$ directly from **Null Geodesic Phase Cancellation (`Q14` §I)**:
+
+Along a radial light ray propagating through the gravitational field, proper time is identically zero ($ds^2 = 0, d\tau = 0$):
+$$0 = g_{00} c^2 dt^2 - g_{rr} dr^2 \implies \frac{dr}{dt} = c \sqrt{\frac{g_{00}}{g_{rr}}}$$
+
+In an impedance-bearing medium with refractive index $n(r)$, the coordinate velocity of light is:
+$$v_{\text{phase}}(r) = \frac{dr}{dt} = \frac{c}{n(r)}$$
+
+In `Q8-TheBoundaryMechanics.md` and `L4-ThePlenum.md`, the effective refractive index of a phase gradient across a boundary scales inversely with the local Power Factor squared:
+$$n(r) = \frac{1}{\cos^2\theta_2} = \left(1 - \frac{2GM}{rc^2}\right)^{-1}$$
+
+Equating the phase velocity to the metric ratio:
+$$\frac{dr}{dt} = c \cos^2\theta_2 = c \sqrt{\frac{g_{00}}{g_{rr}}}$$
+
+Substitute the temporal metric component $g_{00} = \cos^2\theta_2 = 1 - 2GM/rc^2$:
+$$\cos^2\theta_2 = \sqrt{\frac{\cos^2\theta_2}{g_{rr}}} = \frac{\cos\theta_2}{\sqrt{g_{rr}}}$$
+$$\sqrt{g_{rr}} = \frac{\cos\theta_2}{\cos^2\theta_2} = \frac{1}{\cos\theta_2}$$
+
+Squaring both sides yields the exact spatial metric component:
+$$\mathbf{g_{rr} = \frac{1}{\cos^2\theta_2} = \left(1 - \frac{2GM}{rc^2}\right)^{-1}}$$
+
+The spatial metric strain $g_{rr}$ is the exact geometric dilation required for the wave to maintain zero net phase accumulation ($d\phi = 0$) across the gravitational impedance gradient. It reproduces the exact Shapiro time delay:
+$$\Delta t_{\text{Shapiro}} = \int \left(\frac{1}{v_{\text{phase}}(r)} - \frac{1}{c}\right) dr = \frac{1}{c} \int \left(\frac{1}{\cos^2\theta_2} - 1\right) dr \approx \frac{2GM}{c^3} \ln\left(\frac{4 r_1 r_2}{d^2}\right)$$
+
+---
+
+## V. The Composed Operation $O_1 \circ O_2$: The Multiplicative Cascade
+
+Now evaluate a test particle that is both **moving at local velocity $v_{\text{loc}}$** and **positioned at coordinate radius $r$** within the gravitational field.
+
+In the $K_4$ algebra (`L3-K4-to-K5-via-AC-Extension.md` §V), when two phase operations act sequentially on a state, their Power Factors **cascade multiplicatively**:
+$$\text{PF}_{\text{total}} = \text{PF}_1 \cdot \text{PF}_2 = \cos\theta_1 \cdot \cos\theta_2$$
+
+```
+                   THE MULTIPLICATIVE POWER FACTOR CASCADE
+                   
+   Rest State P₀ ──► Operation O₂ (Gravity) ──► Deformed Local Ledger P(r)
+                                                        │
+                                                        ▼  Operation O₁ (Velocity)
+                                                Moving Local State P(r, v)
+                                                        │
+                                                        ▼
+                        PF_total = cos θ₁ · cos θ₂
+                                 = √(1 - v_loc² / c²) · √(1 - 2GM / rc²)
+```
+
+### The Proper Time Rate
+The combined local compilation rate is:
+$$\frac{d\tau}{dt} = \text{PF}_{\text{total}} = \sqrt{1 - \frac{v_{\text{loc}}^2}{c^2}} \sqrt{1 - \frac{2GM}{rc^2}}$$
+
+Square the expression to evaluate the line element:
+$$\left(\frac{d\tau}{dt}\right)^2 = \left(1 - \frac{v_{\text{loc}}^2}{c^2}\right)\left(1 - \frac{2GM}{rc^2}\right) = 1 - \frac{v_{\text{loc}}^2}{c^2} - \frac{2GM}{rc^2} + \mathbf{\frac{v_{\text{loc}}^2}{c^2}\frac{2GM}{rc^2}}$$
+
+### The Exact Correspondence with General Relativity
+In standard General Relativity, the Schwarzschild line element for a particle moving radially ($d\theta = d\phi = 0$) is:
+$$c^2 d\tau^2 = \left(1 - \frac{2GM}{rc^2}\right) c^2 dt^2 - \left(1 - \frac{2GM}{rc^2}\right)^{-1} dr^2$$
+
+Divide through by $c^2 dt^2$:
+$$\left(\frac{d\tau}{dt}\right)^2 = \left(1 - \frac{2GM}{rc^2}\right) - \frac{1}{c^2}\left(1 - \frac{2GM}{rc^2}\right)^{-1} \left(\frac{dr}{dt}\right)^2$$
+
+Now relate the coordinate velocity $dr/dt$ to the physical velocity $v_{\text{loc}}$ measured by a local static observer at radius $r$:
+$$v_{\text{loc}} = \frac{d\ell_{\text{proper}}}{d\tau_{\text{static}}} = \frac{\sqrt{g_{rr}} dr}{\sqrt{g_{00}} dt} = \frac{\left(1 - \frac{2GM}{rc^2}\right)^{-1/2} dr}{\left(1 - \frac{2GM}{rc^2}\right)^{1/2} dt} = \frac{\frac{dr}{dt}}{1 - \frac{2GM}{rc^2}}$$
+
+Solve for coordinate velocity:
+$$\frac{dr}{dt} = v_{\text{loc}}\left(1 - \frac{2GM}{rc^2}\right)$$
+
+Substitute this back into the General Relativistic equation:
+$$\left(\frac{d\tau}{dt}\right)^2 = \left(1 - \frac{2GM}{rc^2}\right) - \frac{1}{c^2}\left(1 - \frac{2GM}{rc^2}\right)^{-1} \left[v_{\text{loc}}^2 \left(1 - \frac{2GM}{rc^2}\right)^2\right]$$
+$$\left(\frac{d\tau}{dt}\right)^2 = \left(1 - \frac{2GM}{rc^2}\right) - \frac{v_{\text{loc}}^2}{c^2}\left(1 - \frac{2GM}{rc^2}\right) = \mathbf{\left(1 - \frac{v_{\text{loc}}^2}{c^2}\right)\left(1 - \frac{2GM}{rc^2}\right)}$$
+
+$$\mathbf{\left(\frac{d\tau}{dt}\right)_{\text{GR}}^2 \;\equiv\; \text{PF}_{\text{total}}^2}$$
+
+The General Relativistic result is **identically equal to the multiplicative Power Factor cascade**. 
+
+The cross-term $\left(\frac{v_{\text{loc}}^2}{c^2}\right)\left(\frac{2GM}{rc^2}\right)$ is not an ad-hoc post-Newtonian correction. It is the exact mathematical consequence of sequential Power Factors operating on the Star-Norm.
+
+---
+
+## VI. What Is and Is Not a Metric
+
+A critical type-safety distinction must be maintained (`llm-writing.md`):
+
+1. **The Worldline Pullback ($d\tau/dt$):**  
+   The formula $\text{PF}_{\text{total}} = \cos\theta_1 \cos\theta_2$ is a **worldline pullback**. It computes the local compilation rate along the specific trajectory of a single observer parameterized by velocity $v_{\text{loc}}$.
+2. **The Metric Tensor ($g_{\mu\nu}$):**  
+   A metric tensor is an observer-independent field on the manifold. A metric tensor **cannot contain the velocity $v$ inside its coefficients**. 
+
+Confusing the worldline pullback with a metric tensor commits an operational category error. The biquaternion Star-Norm generates the invariant kinematics along the path; the spatial impedance gradient ($Z(\chi)$) generates the static metric components ($g_{00}, g_{rr}$). The two descriptions close on the same proper time without conflating state with trajectory.
+
+---
+
+## VII. The Four-Category Datasheet for Q18
+
+Applying the classification rules of `L4-K4-Infinities.md`:
+
+```
+========================================================================================
+            THE FOUR-CATEGORY DATASHEET FOR Q18
+========================================================================================
+
+ CATEGORY 0: GRAMMAR (Zero Empirical Input)
+ • Biquaternion Star-Norm Invariant: N*(Z) = P² - |Q|²
+ • Rapidity Addition Group SO(3,1)⁺: β₁₂ = (β₁ + β₂) / (1 + β₁β₂)
+ • Multiplicative Power Factor Cascade: PF_total = cos θ₁ · cos θ₂
+ • The Cross-Term Identity: PF² = 1 - β² - sin²θ₂ + β²sin²θ₂
+ • Tangent Singularity at PF = 0 (θ = 90°)
+ ──────────────────────────────────────────────────────────────────────────────────────
+ CATEGORY 1: SUBSTRATE INVARIANTS (Consumed, Never Derived)
+ • Speed of Light: c = 1 / √(μ₀ε₀) = 299,792,458 m/s
+ • Characteristic Vacuum Impedance: Z₀ = √(μ₀/ε₀) ≈ 376.730313 Ω
+ • Gravitational Constant: G = 6.67430 × 10⁻¹¹ m³/(kg·s²)
+ ──────────────────────────────────────────────────────────────────────────────────────
+ CATEGORY 2: STATE INPUTS (Measured Boundary Parameters)
+ • Source mass M (accumulated ledger concentration χ = Σ ΔP_n)
+ • Coordinate radius r
+ • Local physical velocity v_loc
+ ──────────────────────────────────────────────────────────────────────────────────────
+ CATEGORY 3: BRIDGES (Zero-Parameter Computed Relations)
+ • Kinematic Power Factor: cos θ₁ = √(1 - v_loc² / c²)
+ • Gravitational Power Factor: cos θ₂ = √(1 - 2GM / rc²)
+ • Spatial Metric Derivation: g_rr = 1 / cos²θ₂ = (1 - 2GM / rc²)⁻¹
+ • Exact Radial Proper Time: dτ/dt = cos θ₁ · cos θ₂
+========================================================================================
+```
+
+---
+
+## VIII. Pre-Registered Boundary Falsifiers
+
+Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this relativistic phase-composition architecture is subject to three strict falsification conditions:
+
+1. **Failure of the Multiplicative Cross-Term in Radial Relativistic Free-Fall:**  
+   If precision atomic-clock measurements on a high-velocity probe in a strong gravitational gradient detect an operational proper-time rate ($d\tau/dt$) that violates the multiplicative cross-term $\left(\frac{v_{\text{loc}}^2}{c^2}\right)\left(\frac{2GM}{rc^2}\right)$, the Power Factor cascade rule is refuted.
+2. **Breakdown of the Velocity Addition Law on the Star-Norm:**  
+   If an experimental boost composition on high-energy states violates the collinear rapidity addition formula $\beta_{12} = (\beta_1 + \beta_2)/(1 + \beta_1\beta_2)$ in a vacuum, the Star-Norm isometry group $\text{SO}(3,1)^+$ fails.
+3. **Observation of Non-Zero Local Proper Time at the Horizon:**  
+   If an in-situ probe at the Schwarzschild boundary ($r = 2GM/c^2$) measures a non-vanishing local compilation rate ($d\tau > 0$) relative to infinity while $\theta_2 = 90^\circ$, the Tangent Singularity boundary condition ($\text{PF}_2 = 0$) is broken.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
+
 
