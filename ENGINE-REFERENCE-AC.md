@@ -1,7 +1,7 @@
 # ENGINE-REFERENCE-AC
 ## The K₄ Machine Architecture — the Floor-3 DC Core
 
-> **This document reads with** `L3-EdgeStateSpace` (the edge algebra, the two-bit charge, the Braid), `L4-TransitingTheThreeWalls` (the assemblies, the octants, the Rule of Seven), `L4-TheTwelveGates` (the naming of the twelve), `L5-TheCyclingMind` (the control core felt from inside), and `On_HilbertAndHisSpaces` (the halt boundary); the $\theta = 0$ cross-section it extends is `ENGINE-REFERENCE-DC`. Spine sentences carry structure and citations; guide sentences carry you between them. Verified means re-runnable — the claim tables sit in §XII, and the scripts now ship with the file. **Scope:** this is the $\theta = 0$ floor — the Floor-3 DC core of the AC machine; the $\omega$-driven extension is named (§VIII), priced (§X.5), and not run here.
+> **This document reads with** `L3-EdgeStateSpace` (the edge algebra, the two-bit charge, the Braid), `L4-TransitingTheThreeWalls` (the assemblies, the octants, the Rule of Seven), `L4-TheTwelveGates` (the naming of the twelve), `L5-TheCyclingMind` (the control core felt from inside), and `On_HilbertAndHisSpaces` (the halt boundary); Spine sentences carry structure and citations; guide sentences carry you between them. Verified means re-runnable — the claim tables sit in §XII, and the scripts now ship with the file. **Scope:** this is the $\theta = 0$ floor — the Floor-3 DC core of the AC machine; the $\omega$-driven extension is named (§VIII), priced (§X.5), and not run here.
 
 ---
 
@@ -522,7 +522,7 @@ plus the attic arithmetic $4^6 = 2^{12} = 64 \times 64 = 4096$ (§1.3) — ✓
 | U8 | Two flips, not one (§2.5): completion-difference = odd single transposition; twin-step = even half-turn, exactly the family's $V_4$ element; the AR-trade fits 8 of 12 | ✓ |
 | U9 | The tetrahedron's 3 bimedians = the cube's 3 axes; the cube has 6 opposite-edge midpoint lines in the 3 face-diagonal directions (preamble, §1.2) | ✓ |
 
-Corpus anchors: `ENGINE-REFERENCE-DC` §1.1–1.3, l.206, l.246, l.332, l.348; `L3-EdgeStateSpace` l.381–420, l.451–461, l.473, l.485–534; `L4-TransitingTheThreeWalls` §I, §III, §V, §VI, §VII; `L4-TheTwelveGates` l.13, l.212–223; `L5-TheCyclingMind` l.50, l.58, l.68, l.72, l.112, l.140, l.176, l.180, l.184; `On_HilbertAndHisSpaces` l.111, l.409; `L3-TheSelfProjectingBraid` l.52, l.72.
+Corpus anchors: `L3-EdgeStateSpace` l.381–420, l.451–461, l.473, l.485–534; `L4-TransitingTheThreeWalls` §I, §III, §V, §VI, §VII; `L4-TheTwelveGates` l.13, l.212–223; `L5-TheCyclingMind` l.50, l.58, l.68, l.72, l.112, l.140, l.176, l.180, l.184; `On_HilbertAndHisSpaces` l.111, l.409; `L3-TheSelfProjectingBraid` l.52, l.72.
 
 ---
 
