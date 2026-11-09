@@ -208,10 +208,6 @@ Evaluating this reduction across all three transactional edges reveals that **ea
 
 ---
 
-Here is the complete, upgraded **Section VI** for `Q3-ScalarSector.md`. It pulls no punches, tracks the exact geometric mechanism, and delivers the cold diagnostic verdict on the String Landscape.
-
-***
-
 ## VI. Reconciling String Theory Moduli Space
 ### *(The 1-Skeleton Projection and the 5-Edge Trap)*
 
