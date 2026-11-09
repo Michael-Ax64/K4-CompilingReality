@@ -2,17 +2,19 @@
 ## The Chiral Gear-Mesh and the Polyhedral Engine
 ### *(The Boundary Operator $\partial^2 = 0$, the Closure Split, and the Active/Reactive Grading)*
 
-> **Epistemic Register:** Polyhedral Kinematics / Quantum Topology ($Q\#$).
->
-> **Claims, sorted by register.**
->
-> * **LANDED (combinatorial).** The complete graph on four poles ($K_4$) encloses a 3-cell ($\Delta^3$) bounded by four AbsentVar faces, and $\partial(\partial\Delta^3) = 0$ holds exactly when every shared edge is traversed in opposite directions by its two incident faces. The cell admits exactly two coherent orientations — GF(2) rank 3 over the four face bits, one global handedness bit — and no assignment tears all six edges: the torn-edge spectrum is $\{0, 3, 4\} = k(4-k)$. The printed face listings are Cycle α's induced vertex orders (the Generation-1 reference walk, `Q1` §VI; traversal $P \to I \to U \to R \to P$, `L3-EdgeStateSpace` §V), and the same listings encode the Asserting/Yielding split of the face labels against the Gray wheel $\gamma$. For each of the three reference cycles, the listings that cycle induces close for exactly the partition whose same-class edges are that cycle's silent bimedian.
-> * **DERIVED.** The Gen-1 closure partition $\{P, U\} \mid \{I, R\}$ — forced by $\partial^2 = 0$ plus the reference walk, with no Active/Reactive input anywhere in the derivation. The direction-set theorem: the sixteen chirality assignments carry residuals in $\{0,\ 2.0,\ 4/\sqrt{3}\}$ directed along the set {origin, three bimedian axes, four vertex diagonals} — $A_4$'s $1 + 3 + 8$ read as directions. Every edge-closing assignment is a $2{+}2$ class and carries the maximal non-trivial residual, directed along the bimedian whose two edges join same-class poles — for the Gen-1 frame, the Fixed bimedian — with the two enantiomers sending it along opposite rays of that axis. The Direction Law (Cardinal gates read Active → Reactive, Mutable Reactive → Active, Fixed within class) holds on the corpus orientation under the two-bit charge of `L3-EdgeStateSpace` §XI.
-> * **INTERFACE.** The grading $\text{Chirality}(F_k) = \text{sign}(\text{AR}_k)$ grades the classes the reference walk forces; the walk's forced split and the seed's Active/Reactive axis agree, and the map's remaining freedom is the global sign — the handedness the engine holds structural ($C_2 \notin A_4$; "the flip the machine cannot make is the reason its world has a handedness at all," `ENGINE-REFERENCE-AC` §2.6). The reference frame itself is the corpus's generation doctrine. Dimensional stipulations: $A_0 = 2$ carries the area; $S(\theta) = 2\sqrt{2}\cos\theta$ is a dimensionless capacity; the Ω/W → kg identification lands at the 0-DoF crystal limit, where ledger power is the rest-mass energy.
-> * **CANDIDATE.** The maximally-tensioned boundary-state reading of the closed mesh (three corpus addresses: `ProofC_Crystal`'s irreducible tetrahedral tension; `ENGINE-REFERENCE-AC` §X.4's standing stock; `L4-K4-Infinities-3` §III's holding/write pair). The stationary-phase impedance function $X(r)$ and its extremum principle, with the quantitative anchor at `Q18-PhaseCompositionOnTheStarNorm` §IV. The rutile $4_2$ screw as a real-space instantiation of the order-4 phase operator, awaiting one signature beyond rotation × time-reversal plus the full space group.
-> * **ADOPTED.** The experimental record carried in §VI.3 and §VI.2 — the $\text{RuO}_2$ contested prototype, the confirmed layered vanadium oxides, MnTe as the established $g$-wave case, and MICROSCOPE's Eötvös bound — is standard physics, not this framework's result.
->
-> **Dependencies, with verification status.** Verified at source, full read: `L3-EdgeStateSpace.md` (§I-e, §V, §XI), `ENGINE-REFERENCE-AC.md` (§1.2, §2.2–§2.8, §IV, §VIII, §X). Verified at source, worked sections: `Q1` §VI, `Q8` Movement I–II, `Q11` §III.1, `Q18` §IV, `L3-FormalFoundations` §V.b, `L4-ThePlenum`, `L4-DynamicDistortions-Sudoku` §I–§IV, `L5-K5-PhaseDynamicsTechnical` §III–§IV, `L4-K4-Infinities-3` §III & §V, `ProofC_Crystal`, `ProofN_BiquaternionBridge` §3–§4, `ProofT_Clairvoyance` §III. Citation depth: `On_HilbertAndHisSpaces` §III.b, `L3-K4-to-K5-via-AC-Extension` §V. Upstream ground outside the provided set, carried through `L3-EdgeStateSpace` §I-e's in-file derivation: `L4-TheTwelveGates` §II-b, §V, §VIII. Extracted and **held**: `Q12-GravitationalTopology.md` is the version under audit; §VI.1 below bears no load on it until its audit completes.
+**Epistemic Register:** Polyhedral Kinematics / Quantum Topology ($Q\#$).
+
+Demonstrates: a chiral tetrahedral mesh — four poles, four AbsentVar faces, $\partial^2 = 0$ — carries a directional spacetime reading, and holds edge closure while failing vector cancellation. Provides: the face-listing convention and the dictionary other Q files consume.
+
+## 0. What is being demonstrated
+
+* **LANDED** — the cell, the boundary identity, the two orientations, no total tear (§I).
+* **DERIVED** — the closure partition forced per reference cycle; the direction-set theorem: 16 assignments → residuals $\{0,\ 2.0,\ 4/\sqrt{3}\}$ on origin/axes/diagonals (§II, §IV).
+* **INTERFACE** — $\text{Chirality}(F_k) = \text{sign}(\text{AR}_k)$; the remaining freedom is the handedness bit the engine holds structural (§II).
+* **CANDIDATE** — the maximally-tensioned boundary state; the $X(r)$ extremum; the rutile $4_2$ screw as order-4 instantiation (§IV, §VI.1, §VI.3).
+* **ADOPTED** — the experimental record of §VI.2–§VI.3 is standard physics, not this framework's result.
+
+Registers are marked inline where the claims are made; the promotion criterion and the falsifiers are pre-registered at §VII; the dependency ledger closes the document (§VIII).
 
 ---
 
@@ -114,7 +116,7 @@ The eight closure-outcome classes are exactly the cell's direction set {origin, 
 
 ## VI. The Deliverables of the Mesh
 
-Each section below names the document that owns its derivation and the register of the handoff.
+What the mesh delivers to spacetime is derived on the corpus side already; each deliverable below names the document that owns its derivation and the register of the handoff.
 
 ### 1. Spacetime Curvature — owned by `Q18-PhaseCompositionOnTheStarNorm` §IV
 
@@ -122,7 +124,7 @@ The working derivation of the gravity identification lives at `Q18` §IV, and it
 
 $$n(r) = \frac{1}{\cos^2\theta_2} = \left(1 - \frac{2GM}{rc^2}\right)^{-1},$$
 
-**increasing toward the mass**; the spatial metric component $g_{rr} = (1 - 2GM/rc^2)^{-1}$ follows from null-geodesic phase cancellation ($d\phi = 0$) under the coordinate speed $c(r) = c\cos^2\theta_2$, and the Shapiro delay drops out of the same integral. The phase wave follows the stationary-phase path through the gradient — it bends toward the region of higher index, which is what attraction requires. The mechanism is variational, not pointwise-descent: what the wave extremizes is accumulated phase along the path, and the index it meets is larger near the mass; a pointwise reading of "minimum complex impedance" would drive the wave the wrong way, which is why the sign is pinned to Q18's monotonicity. What remains open here (CANDIDATE, quantitative anchor in Q18): the functional form $X(r)$ for the static-cell impedance picture and the extremum principle connecting that picture to Q18's Power-Factor cascade. Until those land, the curvature identification stands at the strength of Q18's derivation and no further. The reconciliation pass against `Q12-GravitationalTopology.md` — monotonic-direction agreement between the two documents' mechanisms — is held pending Q12's own audit, and §VI.1 bears no load on Q12 until it completes.
+**increasing toward the mass**; the spatial metric component $g_{rr} = (1 - 2GM/rc^2)^{-1}$ follows from null-geodesic phase cancellation ($d\phi = 0$) under the coordinate speed $c(r) = c\cos^2\theta_2$, and the Shapiro delay drops out of the same integral. The phase wave follows the stationary-phase path through the gradient — it bends toward the region of higher index, which is what attraction requires. The mechanism is variational, not pointwise-descent: what the wave extremizes is accumulated phase along the path, and the index it meets is larger near the mass; a pointwise reading of "minimum complex impedance" would drive the wave the wrong way, which is why the sign is pinned to Q18's monotonicity. What remains open here (CANDIDATE, quantitative anchor in Q18): the functional form $X(r)$ for the static-cell impedance picture and the extremum principle connecting that picture to Q18's Power-Factor cascade. The reconciliation pass against `Q12-GravitationalTopology.md` — monotonic-direction agreement between the two documents' mechanisms — is held pending Q12's audit (§VIII).
 
 ### 2. The Equivalence Principle — the conventional half and the physical half
 
@@ -144,8 +146,6 @@ The experimental record, stated at its size:
 * **The film and surface signals are live and contested.** Positive claims exist — anomalous Hall and transport signatures, and single-variant $\text{RuO}_2(101)$ films (He et al., Nat. Commun. 16, 8235 (2025)), with epitaxial strain as the claimed activator. A published alternative explains some film signals without altermagnetism: a spontaneous surface ferrimagnetic order on oxygen-terminated surfaces, bulk nonmagnetic, with a spin texture incompatible with any altermagnetic order (Lu et al., arXiv:2604.10659 (2026)). Under that reading the film signals have $\mathbf{M} \neq 0$ — which is why the falsifier in §VII is stated against the mesh-plus-postulate, not against the raw films.
 * **The confirmed $d$-wave altermagnets are the layered vanadium oxides**: $\text{KV}_2\text{Se}_2\text{O}$ (metallic, ordering above room temperature; Qu et al., Nature Physics (2025)) and $\text{Rb}_{1-\delta}\text{V}_2\text{Te}_2\text{O}$ — with a live bulk-versus-surface question on $\text{KV}_2\text{Se}_2\text{O}$'s own splitting. The confirmed **$g$-wave** case is $\text{MnTe}$ (Krempaský et al., Nature 626, 517 (2024)): hexagonal NiAs-type, three nodal planes parallel to $k_z$ — a different symmetry class and a different structure, cited here as the established altermagnetic lifting of Kramers degeneracy, not as an anchor for the rutile mapping.
 
-$\text{RuO}_2$ remains the disputed prototype; the vanadium oxides are the confirmed layered instances; the mesh's solid-state section stands on the structural correspondence and the open promotion test, not on a settled laboratory confirmation.
-
 ---
 
 ## VII. Pre-Registered Boundary Conditions
@@ -156,6 +156,12 @@ Under the covenant's boundary diagnostics (`llm-prooftypes.md`): **one promotion
 
 1. **Composition-dependence of the gear ratio.** If an experimental test finds the proportionality between inertial resistance and gravitational ledger power varying with composition — $\eta(\text{material A}, \text{material B}) \neq 0$ at the 0-DoF limit, for neutral ground-state matter in vacuum, absent external fields or acceleration gradients — the same-baseline-current step ($I = I_0$ for all matter) fails. This is the MICROSCOPE class of instrument; the framework's content here is the universality claim, and that claim is what such an experiment would overturn.
 2. **Dipole emission from the postulated cancellation.** If a solid-state junction operating under the mesh condition *plus* the sublattice-mapping postulate of §IV — one orientation class's moments mapped onto the other's by the altermagnetic symmetry operation — emits a net real-space magnetic dipole field ($\mathbf{M} \neq 0$) without an applied symmetry-breaking field, the cancellation model is refuted. The raw $2{+}2$ mesh without the postulate is not covered by this falsifier: §IV states its residual ($4/\sqrt{3}$) as a theorem, not a defect.
+
+---
+
+## VIII. Dependency Ledger
+
+Verified at source, full read: `L3-EdgeStateSpace.md` (§I-e, §V, §XI), `ENGINE-REFERENCE-AC.md` (§1.2, §2.2–§2.8, §IV, §VIII, §X). Verified at source, worked sections: `Q1` §VI, `Q8` Movement I–II, `Q11` §III.1, `Q18` §IV, `L3-FormalFoundations` §V.b, `L4-ThePlenum`, `L4-DynamicDistortions-Sudoku` §I–§IV, `L5-K5-PhaseDynamicsTechnical` §III–§IV, `L4-K4-Infinities-3` §III & §V, `ProofC_Crystal`, `ProofN_BiquaternionBridge` §3–§4, `ProofT_Clairvoyance` §III. Citation depth: `On_HilbertAndHisSpaces` §III.b, `L3-K4-to-K5-via-AC-Extension` §V. Upstream ground outside the provided set, carried through `L3-EdgeStateSpace` §I-e's in-file derivation: `L4-TheTwelveGates` §II-b, §V, §VIII. Extracted and **held**: `Q12-GravitationalTopology.md` is the version under audit; §VI.1 bears no load on it until its audit completes.
 
 ---
 
