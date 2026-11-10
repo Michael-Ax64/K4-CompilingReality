@@ -18,10 +18,43 @@ The 6-bit surface ($2^6 = 64$) and 12-bit uncompiled volume ($2^{12} = 4096$) fi
  * 1. THE K4 DUAL-BINARY SEED & EDGE STATE-SPACE
  * ==================================================================== */
 
-// 2-bit seed primitive: 4 poles (P, I, U, R)
+/* ---- READING DIRECTION: normative, and the corpus's oldest convention ----
+ * Seed strings are read LEFT TO RIGHT:   "++  +-  --  -+"  ==  P  U  I  R
+ * Position 1 (leftmost) is Active/Reactive; position 2 is Asserting/Yielding.
+ * The leftmost symbol is therefore the HIGH bit of the numeral:
+ *      value = (AR << 1) | AY      P = 11b = 3    U = 10b = 2
+ *                                  R = 01b = 1    I = 00b = 0
+ * Reading right to left exchanges the two binaries. By the kernel rule
+ * (see view 3 below) that exchanges the CARDINAL and FIXED bimedians and
+ * leaves MUTABLE untouched, because XOR is symmetric in its two arguments.
+ * It is the corpus's single most-propagated naming defect, and it is the
+ * ONLY naming swap a direction error can produce. Use the macros below;
+ * never infer the reading direction from C field order.
+ */
+#define SEED_AR_SHIFT 1               /* position 1, read FIRST  */
+#define SEED_AY_SHIFT 0               /* position 2, read second */
+#define SEED_PACK(ar, ay) ((uint8_t)(((ar) << SEED_AR_SHIFT) | ((ay) << SEED_AY_SHIFT)))
+#define SEED_AR(v)        (((v) >> SEED_AR_SHIFT) & 1u)
+#define SEED_AY(v)        (((v) >> SEED_AY_SHIFT) & 1u)
+
+// 2-bit seed primitive: 4 poles, left-to-right encoded
+typedef enum {
+    POLE_I = 0, // 00  "--"  Reactive Yielding  (Flow)
+    POLE_R = 1, // 01  "-+"  Reactive Asserting (Ethos)
+    POLE_U = 2, // 10  "+-"  Active   Yielding  (Logos)
+    POLE_P = 3  // 11  "++"  Active   Asserting (Spark)
+} Pole;
+
+/* The bitfield form is retained for overlay work ONLY. C leaves bit-field
+ * allocation order implementation-defined (C11 6.7.2.1p11); on GCC/x86-64 the
+ * FIRST-declared field takes bit 0 — verified by compiling this header. So
+ * asserting_yielding is declared first, which puts active_reactive in the
+ * high bit and agrees with the numeral above. Revisions before 2026-11-10
+ * declared active_reactive first, silently bit-reversing the seed relative
+ * to the written convention and to §V's table. */
 typedef struct {
-    uint8_t active_reactive   : 1; // 0: Reactive (-), 1: Active (+)
-    uint8_t asserting_yielding : 1; // 0: Yielding (-), 1: Asserting (+)
+    uint8_t asserting_yielding : 1; // bit 0 — position 2.  0: Yielding (-), 1: Asserting (+)
+    uint8_t active_reactive    : 1; // bit 1 — position 1.  0: Reactive (-), 1: Active (+)
 } __attribute__((packed)) DualBinarySeed;
 
 // 4-state edge quasi-clone (L3-EdgeStateSpace)
@@ -85,11 +118,22 @@ typedef union {
         uint16_t edge_UR : 2; // Bits 10-11
     } __attribute__((packed)) k4_edges;
 
-    // View 3: 3 steps x 4-bit stride (3 Bimedian Planes x 16-Fold Pole Space)
+    /* View 3: 3 steps x 4-bit stride (3 Bimedian Planes x 16-Fold Pole Space)
+     * THE KERNEL RULE — normative. Each bimedian is the kernel of one of the
+     * three non-zero binary functionals on the seed, so given the seed the
+     * three names are DETERMINED, not assigned. The name comes from the bit
+     * the plane PRESERVES, never the bit it flips:
+     *   Active/Reactive    kernel {P,U} -> {P-U, I-R} = FIXED    (flips AY)
+     *   Asserting/Yielding kernel {P,R} -> {P-R, I-U} = CARDINAL (flips AR)
+     *   AR xor AY          kernel {P,I} -> {P-I, U-R} = MUTABLE  (flips both)
+     * Z_2^2 has exactly 3 non-zero functionals and K_4 exactly 3 perfect
+     * matchings, so the assignment is forced. Settle any suspected swap by
+     * computing kernels, not by reading tables. This struct is the corpus's
+     * normative machine-readable copy of that assignment. */
     struct {
-        uint16_t fixed_plane    : 4; // Bits 0-3   {P-U, I-R}
-        uint16_t cardinal_plane : 4; // Bits 4-7   {P-R, I-U}
-        uint16_t mutable_plane  : 4; // Bits 8-11  {P-I, U-R}
+        uint16_t fixed_plane    : 4; // Bits 0-3   {P-U, I-R}   kernel of AR
+        uint16_t cardinal_plane : 4; // Bits 4-7   {P-R, I-U}   kernel of AY
+        uint16_t mutable_plane  : 4; // Bits 8-11  {P-I, U-R}   kernel of XOR
     } __attribute__((packed)) bimedians;
 
     // View 4: 2 steps x 6-bit stride (2 Uncollapsed 64-State Trigrams)
@@ -190,6 +234,19 @@ inline uint8_t step_gray_code_braid(uint8_t current_state) {
 ```
 
 Flipping 1 bit per step ensures that transitions between $2^6$ surface states and $2^{12}$ volumetric states proceed without state collisions or race conditions.
+
+**The table above is correct under the left-to-right convention of §I, annotations included** — AR is the high bit, so $00 \to 01$ changes AY and $01 \to 11$ changes AR, exactly as marked. Revisions before 2026-11-10 declared `active_reactive` first in `DualBinarySeed`, which bit-reversed the struct relative to this table; the struct was corrected, not the table.
+
+**The braid is a live check on any file's plane names.** One bit per step means the braid can **never** cross a Mutable edge, since Mutable flips both. Reading the four steps as $K_4$ edges and applying §I's kernel rule:
+
+| Step | Edge | Flips | Plane |
+|---|---|---|---|
+| $00 \to 01$ | $I$–$R$ | AY | **Fixed** |
+| $01 \to 11$ | $R$–$P$ | AR | **Cardinal** |
+| $11 \to 10$ | $P$–$U$ | AY | **Fixed** |
+| $10 \to 00$ | $U$–$I$ | AR | **Cardinal** |
+
+Fixed, Cardinal, Fixed, Cardinal — the braid traverses $K_4$ **minus the Mutable bimedian**, which is forced: removing a perfect matching from $K_4$ leaves a 4-cycle, there are three matchings and three Hamiltonian cycles, and the one-bit-flip condition selects the both-bits matching for removal. **A Gray braid that touches a plane a file calls Mutable has that file's names swapped.**
 
 ---
 
