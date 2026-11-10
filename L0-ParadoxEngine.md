@@ -5,7 +5,7 @@
 
 ---
 
-> “Before I go on with this short history, let me make a general observation—the test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function.”
+> “Before I go on with this short ~~history~~ discussion, let me make a general observation—the test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function.”
 > —F. Scott Fitzgerald, “The Crack-Up”
 
 ---
