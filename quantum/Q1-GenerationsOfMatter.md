@@ -87,9 +87,9 @@ In the Standard Model, the Weak force mediates flavor transitions (e.g., a muon 
 Why does the universe forbid the direct conversion of quarks to leptons?
 
 In the $K_4$ topology, the six edges partition into three pairs of opposite, non-adjacent edges called **bimedians** (`L4-DynamicDistortions101.md`):
-1. **The Fixed bimedian:** $\{P\text{--}U, \; I\text{--}R\}$
-2. **The Cardinal bimedian:** $\{P\text{--}R, \; I\text{--}U\}$
-3. **The Mutable bimedian:** $\{P\text{--}I, \; U\text{--}R\}$
+* **The Fixed** Bimedian: $\{P\text{--}U, \; I\text{--}R\}$
+* **The Cardinal** Bimedian: $\{P\text{--}R, \; I\text{--}U\}$
+* **The Mutable** Bimedian: $\{P\text{--}I, \; U\text{--}R\}$
 
 Look at the bit-flips across these three bimedians:
 * **Fixed bimedian ($\{P\text{--}U, I\text{--}R\}$):** Flips the **AY bit** while holding **AR constant**. Traversal along these edges forces a transition between an Asserting pole and a Yielding pole: $P \leftrightarrow U$ (Quark $\leftrightarrow$ Lepton) and $I \leftrightarrow R$ (Lepton $\leftrightarrow$ Quark).
@@ -209,9 +209,14 @@ The number of distinct perfect matchings on a complete graph $K_{2k}$ is given b
 $$\text{Matchings}(K_4) = (N_v - 1)!! = (4 - 1)!! = 3!! = 3 \times 1 = \mathbf{3}$$
 
 These three perfect matchings are the **three bimedians** of the $K_4$ tetrahedron:
-1. the Fixed bimedian: $\{P\text{--}U, \; I\text{--}R\}$
-2. the Cardinal bimedian: $\{P\text{--}R, \; I\text{--}U\}$
-3. the Mutable bimedian: $\{P\text{--}I, \; U\text{--}R\}$
+* the **Fixed** Bimedian: $\{P\text{--}U, \; I\text{--}R\}$
+* the **Cardinal** Bimedian: $\{P\text{--}R, \; I\text{--}U\}$
+* the **Mutable** Bimedian: $\{P\text{--}I, \; U\text{--}R\}$
+
+*Unnumbered by design.* Nothing in this document may depend on the position of a
+bimedian in a list: the three carry names, and an ordinal quoted across files has
+already inverted Cardinal and Mutable once (see `L3-EdgeStateSpace` and
+`L4-ThePlenum` decoder headers). Name the Bimedian and print its edge pair.
 
 Every independent Hamiltonian cycle on $K_4$ consists of 4 edges. Subtracting a 4-edge cycle from the 6-edge complete graph leaves exactly $6 - 4 = 2$ unused edges. Those 2 unused edges form a perfect matching.
 
@@ -259,6 +264,38 @@ What distinguishes the three generations is **which bimedian axis is held silent
 * **Generation 1 (Cycle $\alpha$):** Holds the **Fixed bimedian** ($\{P\text{--}U, I\text{--}R\}$) silent. This cycle constitutes the stable matter of the universe ($u, d, e, \nu_e$).
 * **Generation 2 (Cycle $\beta$):** Holds the **Cardinal bimedian** ($\{P\text{--}R, I\text{--}U\}$) silent ($c, s, \mu, \nu_\mu$).
 * **Generation 3 (Cycle $\gamma$):** Holds the **Mutable bimedian** ($\{P\text{--}I, U\text{--}R\}$) silent ($t, b, \tau, \nu_\tau$).
+
+**The rule of record, in names:** *Gen 1 holds the Fixed, Gen 2 holds the Cardinal,
+and Gen 3 holds the Mutable Bimedian.* This sentence replaces any reliance on list
+order and is the form every other file should cite.
+
+### The Carrier Column
+
+Holding is one of two slots a generation occupies, and the corpus uses both. A
+generation **holds** one Bimedian silent and is **carried** by one of the two that
+remain live. `L3-ConstitutiveAlpha-Puzzle` §5 and §90 fix one entry directly — the
+pion of Generation 1 traverses the Pure Exterior edge $U\text{--}R$, so Generation 1
+is carried by the **Mutable** Bimedian. Two constraints then close the table: a
+carrier must be live for its own generation, and the three carriers must be
+distinct. Exactly two systems of distinct representatives exist, and the Generation-1
+datum selects one:
+
+| | holds silent | carried by |
+|---|---|---|
+| **Generation 1** | Fixed Bimedian | **Mutable Bimedian** |
+| **Generation 2** | Cardinal Bimedian | **Fixed Bimedian** |
+| **Generation 3** | Mutable Bimedian | **Cardinal Bimedian** |
+
+The columns close a three-cycle: **each generation is carried by the Bimedian the
+previous generation holds.** Gen 1 holds Fixed and Gen 2 rides it; Gen 2 holds
+Cardinal and Gen 3 rides it; Gen 3 holds Mutable and Gen 1 rides it.
+
+Consequence for the open task at `L4-HadronicVolume` §244, which asks for the
+Cardinal and Fixed Bimedians to be evaluated for the second and third generations
+without saying which goes with which: **Fixed → Generation 2, Cardinal →
+Generation 3.** Register: the held column is Q1's own (LANDED); the carrier
+selection is DERIVED from the held column plus the Puzzle's Generation-1 datum, and
+the three-cycle is its consequence.
 
 The three generations do not occupy three different physical volumes in space; they are **three distinct operational phase-contexts of the same $K_4$ tetrahedron**.
 
