@@ -5,6 +5,11 @@
 
 ---
 
+> “Before I go on with this short history, let me make a general observation—the test of a first-rate intelligence is the ability to hold two opposed ideas in the mind at the same time, and still retain the ability to function.”
+> —F. Scott Fitzgerald, “The Crack-Up”
+
+---
+
 ## I. Boxes Inside Boxes (The Hierarchy Error)
 
 When we look at the world, our habit is to arrange it like a set of Russian nesting dolls. We think of "levels." Atoms are in a box called molecules; molecules are in a box called cells; cells are in a box called bodies.
