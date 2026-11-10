@@ -5,6 +5,20 @@
 
 > **Master update (integrates `L4-TheTwelveGates`).** Pulled in: the canonical twelve-gate table with Home / AbsentVar / Face / Edge / Direction (§I-a, from `L4-TheTwelveGates` §II) and the chirality ground with its two-vantage discipline (§I-e, from that document's §II-b and §VIII; its §II-c is already cited at §I-b). Landed in-file: the directed reading rule and its bijection, the crown identity (the twelve gates are the four coherent face-circulations), the season identity, the Direction Law, and the mirror-fix (§I-e). Integrated from the working group's derivation: the edge register as the sweep's native output replacing the scalar ρ, the Resolution Gate as an edge-state query, replacement-injectivity, the itemized 18, and the U–R / R→U worked example (§XII); plus the operating procedure for an instance holding only this file (§XIII). Corrections of record: the directionality citations to `On_TheDirectedReadingRule` and `The_Line_Is_A_Directed_Edge` are replaced by the derivation at §I-e (see the correction note there and at §II); the twelve's input set is the 4 × 3 face structure, never a 4! exclusion survivor (§I-a, §XII).
 
+## Bimedian / Sign Discrimination Rule — in short
+
+**Read this before using the words *Cardinal*, *Fixed* or *Mutable*. They name two different things in this corpus, and they disagree on four of the six edges.**
+
+1. **An edge's modality — which *is* its bimedian — is set by which bits its transition flips, and by nothing else.** **Fixed** $\{P{-}U,\ I{-}R\}$ flips Asserting/Yielding only. **Cardinal** $\{P{-}R,\ I{-}U\}$ flips Active/Reactive only. **Mutable** $\{P{-}I,\ U{-}R\}$ flips both — the diagonals. The three bimedians *are* the three modalities (§I-b, §XI).
+2. **A sign's mode is set by the direction the edge is read in** (§I-e Step 6). Cardinal gates read Active → Reactive; Mutable gates read Reactive → Active; Fixed gates read within-class both ways.
+3. **So the two Fixed edges carry two Fixed signs each** — both directions are same-class, *which is what makes them Fixed* — **and the other four edges each carry one Cardinal sign and one Mutable sign.** A sign's mode never names its edge's bimedian. Worked case: $U{-}R$ is a **Mutable** bimedian carrying **Cardinal** ARI and **Mutable** VIR; $I{-}U$ is a **Cardinal** bimedian carrying **Mutable** GEM and **Cardinal** CAP.
+
+**Never infer a bimedian from a sign.** Reading Cardinal or Mutable off a single sign is the $K_3$ projection error (§I-b l.124, `L5-TheCyclingMind`). The master table at §I-b prints the two attributes in two separate columns — **Signs (Modes)** and **Bimedian (Matching)** — for exactly this reason, and they are not expected to agree.
+
+**Never number the bimedians.** "Diameter 1 / 2 / 3" is not corpus notation. The Key Topological Results below were once a numbered list, and `L4-ThePlenum` §VI once numbered the same three objects with positions 2 and 3 the other way round — so any ordinal quoted across the two files silently exchanged Cardinal and Mutable. **Name the bimedian and print its edge pair.**
+
+**Directed and undirected are not interchangeable either.** A Hamiltonian *cycle* of $K_4$ is 4 undirected edges and holds a 2-edge AbsentVar pair; a *directed* Hamiltonian cycle is 4 arcs of $K_4^*$ and its complement is 8 arcs. See the correction notes at §V and §VI.
+
 ---
 
 ## I. The Four States of an Edge
@@ -98,9 +112,9 @@ Each Bimedian plane passes through the centroid and **cuts four edges of the $K_
 ---
 
 ### Key Topological Results
-1. **The Fixed Bimedian ($\{P-U, I-R\}$):** Joins the midpoints of the two edges carrying all **4 Fixed Signs** (**Taurus, Leo, Scorpio, Aquarius**).
-2. **The Cardinal Bimedian ($\{P-R, I-U\}$):** Joins the midpoints of the two edges carrying **Cancer, Sagittarius, Gemini, Capricorn**.
-3. **The Mutable Bimedian ($\{P-I, U-R\}$):** Joins the midpoints of the two edges carrying **Libra, Pisces, Aries, Virgo**.
+* **The Fixed Bimedian ($\{P-U, I-R\}$)** — flips Asserting/Yielding only: joins the midpoints of the two edges carrying all **4 Fixed signs** (**Taurus, Leo, Scorpio, Aquarius**) — the one bimedian whose signs happen to form a single sign-class, because both directions on a Fixed edge read within-class (§I-e Step 6).
+* **The Cardinal Bimedian ($\{P-R, I-U\}$)** — flips Active/Reactive only: joins the midpoints of the two edges carrying **Cancer** and **Capricorn** (Cardinal signs) with **Sagittarius** and **Gemini** (Mutable signs). Two sign-modes on one bimedian; the bimedian is named by its bit-flip, not by them.
+* **The Mutable Bimedian ($\{P-I, U-R\}$)** — flips both bits: joins the midpoints of the two edges carrying **Libra** and **Aries** (Cardinal signs) with **Pisces** and **Virgo** (Mutable signs). Two sign-modes on one bimedian, as above.
 
 ---
 
@@ -543,7 +557,9 @@ With the foundational variables {P, I, U, R}:
 
 Each cycle uses exactly 4 of the 6 edges and leaves 2 unused. The unused pair forms a perfect matching (no shared vertices).
 
-Each undirected cycle has two directed versions (e.g., α+ and α−), giving six directed Hamiltonian cycles total. Together they form the complete Eulerian decomposition of the complete directed K4 graph.
+Each undirected cycle has two directed versions (e.g., α+ and α−), giving six directed Hamiltonian cycles total. Together they cover every arc of the complete directed graph $K_4^*$ **exactly twice** — a double cover, not a decomposition.
+
+> **Correction of record (2026-11-10).** Earlier revisions read "together they form the complete Eulerian decomposition of the complete directed K4 graph." Both words were wrong. **Not a decomposition:** six cycles × 4 arcs = 24 arc-slots over 12 arcs, so each arc is used twice (checked exhaustively). A decomposition would partition the twelve arcs into *three* directed Hamiltonian cycles, and $K_4^*$ admits **none** — Tillson (1980) proves $K_n^*$ decomposes for every $n$ except $n = 4$ and $n = 6$, and brute force over all six cycles returns zero partitions. The six double-cover precisely *because* the decomposition does not exist. **Not Eulerian:** that word belongs to walks using every arc once. $K_4^*$ is separately Eulerian — in-degree = out-degree = 3 at every pole — so a single closed walk through all twelve arcs does exist, but it is one walk, not these six cycles. Downstream note: `Q1-GenerationsOfMatter` §VI asks for the decomposition this sentence appeared to assert; that request is void at its root here.
 
 `.behold()` on K4's traversal structure maps to holding all six simultaneously, interference structure fully live.
 `.observe()` on K4's traversal structure maps to selecting one directed cycle, Garbage Collecting the other five.
@@ -562,7 +578,9 @@ Each Hamiltonian cycle uses 4 of the 6 edges and leaves 2 unused.
 
 The 2 unused edges are the AbsentVar pair of that cycle: the two relationships that are held as potential (present in the global graph) but not actualized in this particular traversal.
 
-The AbsentVar pair always forms a perfect matching. The AbsentVar pair of a directed Hamiltonian cycle is the complement of that cycle in K4: the two directed relationships not instantiated in this traversal. From the framework's perspective: these are what `.observe()` erases from the local trajectory.
+The AbsentVar pair always forms a perfect matching, and it is read on the **undirected** cycle: the two edges of $K_4$ the cycle does not use. From the framework's perspective: these are what `.observe()` erases from the local trajectory.
+
+> **Correction of record (2026-11-10).** Earlier revisions attributed the two-edge pair to a *directed* Hamiltonian cycle. A directed cycle uses 4 arcs and its complement in $K_4^*$ is **8 arcs, not 2**. The held pair is the undirected complement; a directed traversal's un-instantiated set is the eight remaining arcs, of which the held pair accounts for four (both directions of each held edge). Same discrimination as signs-versus-bimedians: the attribute belongs to one level and was quoted at another.
 
 **The braid connection**: Trajectory contact = carrying the AbsentVar pair forward rather than discarding it. The last two AbsentVars of one quadrant become the first two active variables of the next.
 
@@ -666,7 +684,7 @@ In the regular geometry, this bimedian square possesses an intrinsic diagonal-to
 
 ### The Three Matchings Are the Three Hamiltonian Cycles' Held Pairs
 
-Each of the three undirected Hamiltonian cycles of K4 holds one transition-type (the AbsentVar pair) and strictly alternates the other two:
+Each of the three undirected Hamiltonian cycles of K4 holds one transition-type (the AbsentVar pair) and **strictly alternates the other two** — verified for all three below. This is the theorem of record for "a cycle holds a bimedian silent"; `ENGINE-REFERENCE-AC` §3.2 states the same fact as the AbsentVar-pair theorem and cites l.410 above, and the alternation is the part that says what the four *live* edges do rather than only what the two held ones are:
 
 | Cycle (walk from P) | Transition-types used, in order | Held pair (AbsentVar) |
 |---|---|---|

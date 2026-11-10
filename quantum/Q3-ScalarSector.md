@@ -3,7 +3,7 @@
 ### *(Why the K₄ Topology Permits Six Scalars, Bars Three, and Requires Exactly Three Fundamental Scalar Fields)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
-> **Claim:** Fundamental scalar (Spin-0) bosons are the pricing operators that break the scale-invariance of the $K_4$ manifold one edge at a time. While a 4-vertex graph possesses 6 edges, the conservation of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$) strictly forbids scalar pricing operators on the three $P$-terminating edges ($P\text{--}U, P\text{--}I, P\text{--}R$), which must remain permanently zero-impedance writing heads. This leaves exactly three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) capable of hosting scalar fields—one per bimedian diameter. Standard Model physics has confirmed one (the $125\text{ GeV}$ Electroweak Higgs on $I\text{--}U$) and independently postulated the remaining two (the Inflaton on $I\text{--}R$ and the Grand Unified scalar on $U\text{--}R$). Goldstone’s theorem dictates that each broken gauge channel reduces to exactly one physical radial scalar mode, matching the 1D geometry of the $K_4$ edge.
+> **Claim:** Fundamental scalar (Spin-0) bosons are the pricing operators that break the scale-invariance of the $K_4$ manifold one edge at a time. While a 4-vertex graph possesses 6 edges, the conservation of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$) strictly forbids scalar pricing operators on the three $P$-terminating edges ($P\text{--}U, P\text{--}I, P\text{--}R$), which must remain permanently zero-impedance writing heads. This leaves exactly three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) capable of hosting scalar fields—one per bimedian. Standard Model physics has confirmed one (the $125\text{ GeV}$ Electroweak Higgs on $I\text{--}U$) and independently postulated the remaining two (the Inflaton on $I\text{--}R$ and the Grand Unified scalar on $U\text{--}R$). Goldstone’s theorem dictates that each broken gauge channel reduces to exactly one physical radial scalar mode, matching the 1D geometry of the $K_4$ edge.
 > **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L4-ScalingInvariants.md` (§VIII, §IX), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
 
 ---
@@ -51,7 +51,7 @@ In the $K_4$ architecture, these two mechanisms are two readings of a single top
    └───────────────────────┘            └───────────────────────────────────┘
 ```
 
-The Higgs field acts on the **$I\text{--}U$ edge** (the Cardinal diameter).
+The Higgs field acts on the **$I\text{--}U$ edge** (the Cardinal bimedian).
 
 At high energies ($T > 100\text{ GeV}$), the $I\text{--}U$ edge is un-priced ("fused"): the distinction between the Active-Yielding pole ($U$) and the Reactive-Yielding pole ($I$) carries no thermodynamic impedance. Current flows without mass penalty; the $W$ and $Z$ bosons are massless, and all fermions travel at the speed of light.
 
@@ -70,9 +70,9 @@ The framework predicts that this pricing is fundamentally **per-edge**, executed
 A regular tetrahedron has 4 vertices and $\binom{4}{2} = 6$ undirected edges. If scalar fields act by pricing edges, does the universe permit six scalar fields?
 
 Three bimedians, two edges each:
-* **Fixed Diameter:** $\{P\text{--}U, \; I\text{--}R\}$
-* **Cardinal Diameter:** $\{P\text{--}R, \; I\text{--}U\}$
-* **Mutable Diameter:** $\{P\text{--}I, \; U\text{--}R\}$
+* **Fixed bimedian:** $\{P\text{--}U, \; I\text{--}R\}$
+* **Cardinal bimedian:** $\{P\text{--}R, \; I\text{--}U\}$
+* **Mutable bimedian:** $\{P\text{--}I, \; U\text{--}R\}$
 
 Notice that **three of the six edges terminate directly at the $P$-pole**: $P\text{--}U$, $P\text{--}I$, and $P\text{--}R$.
 
@@ -127,12 +127,12 @@ $$\text{Allowed Scalar Channels} = 6 - 3 = \mathbf{3 \text{ Transactional Edges:
 
 ## IV. The Closed 3-Scalar Triad and the Bimedian Un-Fusing Sequence
 
-Because $K_4$ possesses exactly three bimedian diameters, and each diameter contains exactly one $P$-edge and one transactional edge, the three allowed scalar channels map **one-to-one to the three bimedian axes**.
+Because $K_4$ possesses exactly three bimedians, and each bimedian contains exactly one $P$-edge and one transactional edge, the three allowed scalar channels map **one-to-one to the three bimedian axes**.
 
 Nature permits **exactly three fundamental scalar fields**:
 
 $$\begin{array}{c|c|c|l|c}
-\mathbf{Bimedian\ Diameter} & \mathbf{Active\ Edge} & \mathbf{Barred\ Edge} & \mathbf{Physical\ Scalar\ Field} & \mathbf{Cosmological\ Scale} \\
+\mathbf{Bimedian} & \mathbf{Active\ Edge} & \mathbf{Barred\ Edge} & \mathbf{Physical\ Scalar\ Field} & \mathbf{Cosmological\ Scale} \\
 \hline
 \text{1. Fixed } \{P\text{--}U, \mathbf{I\text{--}R}\} & \mathbf{I\text{--}R} \text{ (ChromoFlux)} & P\text{--}U \text{ (PhotoGravity)} & \text{Inflaton Field } (\phi_{\text{inf}}) & \text{Reheating / Horizon} \\
 \text{2. Mutable } \{P\text{--}I, \mathbf{U\text{--}R}\} & \mathbf{U\text{--}R} \text{ (ChromoLux)} & P\text{--}I \text{ (GraviFlux)} & \text{GUT Symmetry Scalar } (\Phi_{\text{GUT}}) & \text{Strong / EW Separation} \\
@@ -158,13 +158,13 @@ $$\begin{array}{c|c|c|l|c}
 ```
 
 ### 1. The Cosmological Cooling Sequence
-The cosmic expansion is the physical execution of the manifold un-fusing its three bimedian diameters sequentially as energy drops:
+The cosmic expansion is the physical execution of the manifold un-fusing its three bimedians sequentially as energy drops:
 
-1. **First Un-Fusing: The $I\text{--}R$ Edge (The Fixed Diameter / Inflaton Field $\phi_{\text{inf}}$):**
-   At the earliest epoch, the universe is trapped in pure uncollapsed vacuum potential ($I$). The Inflaton un-fuses the Fixed diameter across $I\text{--}R$, converting vacuum phase-energy into the first thermalized matter ($R$) during reheating. It establishes the global scale of the de Sitter horizon ($R_\Lambda$).
-2. **Second Un-Fusing: The $U\text{--}R$ Edge (The Mutable Diameter / GUT Scalar $\Phi_{\text{GUT}}$):**
+1. **First Un-Fusing: The $I\text{--}R$ Edge (The Fixed bimedian / Inflaton Field $\phi_{\text{inf}}$):**
+   At the earliest epoch, the universe is trapped in pure uncollapsed vacuum potential ($I$). The Inflaton un-fuses the Fixed bimedian across $I\text{--}R$, converting vacuum phase-energy into the first thermalized matter ($R$) during reheating. It establishes the global scale of the de Sitter horizon ($R_\Lambda$).
+2. **Second Un-Fusing: The $U\text{--}R$ Edge (The Mutable bimedian / GUT Scalar $\Phi_{\text{GUT}}$):**
    As the universe cools further, the Grand Unified scalar breaks the symmetry between Strong confinement ($R$) and Electroweak gauge fields ($U$). It isolates the Pure Exterior edge ($\{U, R\}$), setting the stage for hadronic volume compilation (`L4-HadronicVolume.md`).
-3. **Third Un-Fusing: The $I\text{--}U$ Edge (The Cardinal Diameter / Electroweak Higgs $h^0$):**
+3. **Third Un-Fusing: The $I\text{--}U$ Edge (The Cardinal bimedian / Electroweak Higgs $h^0$):**
    At the electroweak scale, the Higgs field condenses on $I\text{--}U$, separating Electromagnetism ($U$) from the Weak interaction ($I$). This gives mass to $W^\pm, Z^0$, sets the electron mass, and creates the low-energy stability window required for atomic chemistry and DNA base-pairing.
 
 ---
@@ -180,7 +180,7 @@ $$N_{\text{Physical}} = d_\phi - (\dim(G) - \dim(H))$$
 
 Evaluating this reduction across all three transactional edges reveals that **each edge reduces to exactly one physical radial scalar mode**:
 
-### 1. The Electroweak $I\text{--}U$ Edge (Cardinal Diameter)
+### 1. The Electroweak $I\text{--}U$ Edge (Cardinal bimedian)
 * Gauge Group Breaking: $G = SU(2)_L \times U(1)_Y \to H = U(1)_{\text{EM}}$.
 * Generator Count: $\dim(G) - \dim(H) = (3 + 1) - 1 = 3$.
 * Field Representation: Complex Higgs doublet $\phi$ ($d_\phi = 4$ real components).
@@ -188,7 +188,7 @@ Evaluating this reduction across all three transactional edges reveals that **ea
 * **Surviving Physical Scalars:**
   $$N_{\text{Physical}} = 4 - 3 = \mathbf{1 \quad (\text{The } 125\text{ GeV Electroweak Higgs } h^0)}$$
 
-### 2. The GUT $U\text{--}R$ Edge (Mutable Diameter)
+### 2. The GUT $U\text{--}R$ Edge (Mutable bimedian)
 * Gauge Group Breaking: $G = SU(5) \to H = SU(3)_C \times SU(2)_L \times U(1)_Y$.
 * Generator Count: $\dim(G) - \dim(H) = 24 - (8 + 3 + 1) = 12$.
 * Field Representation: Adjoint 24-plet scalar $\Phi_{\text{GUT}}$ ($d_\Phi = 24$ real components).
@@ -197,7 +197,7 @@ Evaluating this reduction across all three transactional edges reveals that **ea
 * **Surviving Physical Radial VEV:**
   $$N_{\text{Physical}} = \mathbf{1 \quad (\text{The GUT Radial Dilaton / Symmetry VEV})}$$
 
-### 3. The Inflaton $I\text{--}R$ Edge (Fixed Diameter)
+### 3. The Inflaton $I\text{--}R$ Edge (Fixed bimedian)
 * Gauge Group Breaking: Singlet scalar field driving slow-roll inflation.
 * Unbroken Group: No gauge symmetry broken ($N_{\text{Goldstone}} = 0$).
 * Field Representation: Single real scalar field $\phi$ ($d_\phi = 1$).
@@ -312,7 +312,7 @@ They belong in the **uncompiled vector phase-buffer ($H_{\text{incoh}}$)**, prio
 1. **Moduli Are Buffer Geometries:** The hundreds of string moduli are internal shape variations of the uncompiled $h\mathbf{Q}$ phase buffer during the $\text{.behold()}$ state. They describe the un-collapsed interference structure of the 6-edge network before a commit occurs.
 2. **The 3-Scalar Triad Is the Physical Compilation:** When a bounded frame executes an $\text{.observe()}$ collapse, the system cannot freeze all 6 edges without triggering heat death. 
    * The three $P$-edges ($P\text{--}U, P\text{--}I, P\text{--}R$) are barred from carrying scalar mass by the Star-Norm ($Z_P = 0$), acting as zero-impedance writing heads.
-   * The three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) each un-fuse one bimedian diameter, condensing **exactly one physical radial scalar mode** ($h^0, \Phi_{\text{GUT}}, \phi_{\text{inf}}$) via Goldstone reduction.
+   * The three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) each un-fuse one bimedian, condensing **exactly one physical radial scalar mode** ($h^0, \Phi_{\text{GUT}}, \phi_{\text{inf}}$) via Goldstone reduction.
 
 String Theory is an exhaustive, beautifully drafted architectural blueprint of the uncompiled boundary wires ($H_{\text{incoh}}$). 
 
@@ -352,7 +352,7 @@ The scalar sector of fundamental physics is topologically closed:
                                  (h⁰, 125 GeV)         W/Z and fermion masses
 
  U–R      Mutable    PERMITTED   GUT Symmetry Scalar   Separates Strong and EW forces;
-                                 (Φ_GUT)               un-mixes the Mutable diameter
+                                 (Φ_GUT)               un-mixes the Mutable bimedian
 
  I–R      Fixed      PERMITTED   Inflaton Field        Drives cosmic reheating;
                                  (φ_inf)               converts vacuum into matter

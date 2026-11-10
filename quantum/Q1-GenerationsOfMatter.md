@@ -86,15 +86,15 @@ In the Standard Model, the Weak force mediates flavor transitions (e.g., a muon 
 
 Why does the universe forbid the direct conversion of quarks to leptons?
 
-In the $K_4$ topology, the six edges partition into three pairs of opposite, non-adjacent edges called **bimedian diameters** (`L4-DynamicDistortions101.md`):
-1. **The Fixed Diameter:** $\{P\text{--}U, \; I\text{--}R\}$
-2. **The Cardinal Diameter:** $\{P\text{--}R, \; I\text{--}U\}$
-3. **The Mutable Diameter:** $\{P\text{--}I, \; U\text{--}R\}$
+In the $K_4$ topology, the six edges partition into three pairs of opposite, non-adjacent edges called **bimedians** (`L4-DynamicDistortions101.md`):
+1. **The Fixed bimedian:** $\{P\text{--}U, \; I\text{--}R\}$
+2. **The Cardinal bimedian:** $\{P\text{--}R, \; I\text{--}U\}$
+3. **The Mutable bimedian:** $\{P\text{--}I, \; U\text{--}R\}$
 
-Look at the bit-flips across these three diameters:
-* **Fixed Diameter ($\{P\text{--}U, I\text{--}R\}$):** Flips the **AY bit** while holding **AR constant**. Traversal along these edges forces a transition between an Asserting pole and a Yielding pole: $P \leftrightarrow U$ (Quark $\leftrightarrow$ Lepton) and $I \leftrightarrow R$ (Lepton $\leftrightarrow$ Quark).
-* **Mutable Diameter ($\{P\text{--}I, U\text{--}R\}$):** Flips **both AR and AY simultaneously**. Traversal crosses the diagonal: $P \leftrightarrow I$ (Up-quark $\leftrightarrow$ Neutrino) and $U \leftrightarrow R$ (Electron $\leftrightarrow$ Down-quark).
-* **Cardinal Diameter ($\{P\text{--}R, I\text{--}U\}$):** Flips the **AR bit** while holding **AY strictly constant**.
+Look at the bit-flips across these three bimedians:
+* **Fixed bimedian ($\{P\text{--}U, I\text{--}R\}$):** Flips the **AY bit** while holding **AR constant**. Traversal along these edges forces a transition between an Asserting pole and a Yielding pole: $P \leftrightarrow U$ (Quark $\leftrightarrow$ Lepton) and $I \leftrightarrow R$ (Lepton $\leftrightarrow$ Quark).
+* **Mutable bimedian ($\{P\text{--}I, U\text{--}R\}$):** Flips **both AR and AY simultaneously**. Traversal crosses the diagonal: $P \leftrightarrow I$ (Up-quark $\leftrightarrow$ Neutrino) and $U \leftrightarrow R$ (Electron $\leftrightarrow$ Down-quark).
+* **Cardinal bimedian ($\{P\text{--}R, I\text{--}U\}$):** Flips the **AR bit** while holding **AY strictly constant**.
 
 ```
                     THE THREE BIMEDIAN AXES
@@ -109,7 +109,7 @@ Look at the bit-flips across these three diameters:
   [ FORBIDDEN DECAY ]       [ WEAK FLAVOR DECAY ]      [ UN-MIXED CROSSING ]
 ```
 
-Because the Weak interaction preserves the Asserting/Yielding distinction ($\Delta \text{AY} = 0$), **all observed electroweak flavor transitions execute exclusively on the Cardinal diameter $\{P\text{--}R, I\text{--}U\}$** (`ENGINE-REFERENCE-AC.md` §2.5).
+Because the Weak interaction preserves the Asserting/Yielding distinction ($\Delta \text{AY} = 0$), **all observed electroweak flavor transitions execute exclusively on the Cardinal bimedian $\{P\text{--}R, I\text{--}U\}$** (`ENGINE-REFERENCE-AC.md` §2.5).
 
 Quark flavor changes occur along the $P \leftrightarrow R$ edge (Up-type $\leftrightarrow$ Down-type). Lepton flavor changes occur along the $I \leftrightarrow U$ edge (Neutrino $\leftrightarrow$ Charged Lepton). The conservation of baryon and lepton number is not an arbitrary empirical rule; it is the geometric immutability of the $\text{AY}$ bit under single-bit rotation.
 
@@ -208,10 +208,10 @@ A **perfect matching** (or 1-factor) is a subgraph containing a set of disjoint 
 The number of distinct perfect matchings on a complete graph $K_{2k}$ is given by the double factorial:
 $$\text{Matchings}(K_4) = (N_v - 1)!! = (4 - 1)!! = 3!! = 3 \times 1 = \mathbf{3}$$
 
-These three perfect matchings are the **three bimedian diameters** of the $K_4$ tetrahedron:
-1. Diameter 1 (Fixed): $\{P\text{--}U, \; I\text{--}R\}$
-2. Diameter 2 (Cardinal): $\{P\text{--}R, \; I\text{--}U\}$
-3. Diameter 3 (Mutable): $\{P\text{--}I, \; U\text{--}R\}$
+These three perfect matchings are the **three bimedians** of the $K_4$ tetrahedron:
+1. the Fixed bimedian: $\{P\text{--}U, \; I\text{--}R\}$
+2. the Cardinal bimedian: $\{P\text{--}R, \; I\text{--}U\}$
+3. the Mutable bimedian: $\{P\text{--}I, \; U\text{--}R\}$
 
 Every independent Hamiltonian cycle on $K_4$ consists of 4 edges. Subtracting a 4-edge cycle from the 6-edge complete graph leaves exactly $6 - 4 = 2$ unused edges. Those 2 unused edges form a perfect matching.
 
@@ -256,9 +256,9 @@ In each generation cycle, four edges carry active current. The two remaining edg
 "Holding an edge silent" is not an arbitrary omission. In an AC impedance network, an un-driven edge does not disappear; it functions as a **passive reactive buffer** ($h\mathbf{Q}$). The two un-traversed edges maintain the capacitive and inductive background against which the active 4-step cycle oscillates.
 
 What distinguishes the three generations is **which bimedian axis is held silent**:
-* **Generation 1 (Cycle $\alpha$):** Holds the **Fixed diameter** ($\{P\text{--}U, I\text{--}R\}$) silent. This cycle constitutes the stable matter of the universe ($u, d, e, \nu_e$).
-* **Generation 2 (Cycle $\beta$):** Holds the **Cardinal diameter** ($\{P\text{--}R, I\text{--}U\}$) silent ($c, s, \mu, \nu_\mu$).
-* **Generation 3 (Cycle $\gamma$):** Holds the **Mutable diameter** ($\{P\text{--}I, U\text{--}R\}$) silent ($t, b, \tau, \nu_\tau$).
+* **Generation 1 (Cycle $\alpha$):** Holds the **Fixed bimedian** ($\{P\text{--}U, I\text{--}R\}$) silent. This cycle constitutes the stable matter of the universe ($u, d, e, \nu_e$).
+* **Generation 2 (Cycle $\beta$):** Holds the **Cardinal bimedian** ($\{P\text{--}R, I\text{--}U\}$) silent ($c, s, \mu, \nu_\mu$).
+* **Generation 3 (Cycle $\gamma$):** Holds the **Mutable bimedian** ($\{P\text{--}I, U\text{--}R\}$) silent ($t, b, \tau, \nu_\tau$).
 
 The three generations do not occupy three different physical volumes in space; they are **three distinct operational phase-contexts of the same $K_4$ tetrahedron**.
 
@@ -268,7 +268,7 @@ A vital distinction must be maintained between the bare pole state in the uncomp
 * However, because gluon exchange on the $R$-pole carries $SU(3)$ color charge (`Q2-TransactionLayer.md`), single quarks are topologically forbidden from crossing the $K_3$ Markov blanket alone (Color Confinement, `L4-HadronicVolume.md`).
 * The lightest physical color-singlet state that can commit an entry to $H_{\text{coh}}$ as rest mass carrying $R$-pole hadronic character at Generation 1 is the **charged pion** ($\pi^\pm = u\bar{d} / d\bar{u}$).
 
-The bare Down quark is an uncompiled $h\mathbf{Q}$ state; the charged pion is the on-shell compiled hadronic ground state whose mass ratio against the electron ($m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha$) evaluates across the Mutable diameter (`L3-ConstitutiveAlpha-Puzzle.md`).
+The bare Down quark is an uncompiled $h\mathbf{Q}$ state; the charged pion is the on-shell compiled hadronic ground state whose mass ratio against the electron ($m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha$) evaluates across the Mutable bimedian (`L3-ConstitutiveAlpha-Puzzle.md`).
 
 ---
 

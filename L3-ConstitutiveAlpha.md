@@ -100,11 +100,11 @@ print(len(forms), len(near), len(near)*2*2.84e-6*Ef/2)    # 1332  72  0.0558
 print([f for f in forms if abs(f - Ef)/Ef < 3e-6])        # [273.1316634...]  unique in the family
 ```
 
-**Scope of the coefficients.** The leading and trailing coefficients, $+2/\alpha$ and $+2\alpha$, are specific to the $U\leftrightarrow R$ crossing at generation 1, which sits on bimedian Diameter 2 (Mutable). The middle integer $3$ is generation-blind, as SU(3) is (§IX). Two uses of the same three names meet at this edge and must not be conflated: the *bimedian classification* of the edge ($U\leftrightarrow R$ on the Mutable diameter) and the *directed-reading-rule label* of a traversal ($U \to R$ reads Fixed under the target rule; $R \to U$ mirrors its source and also reads Fixed). `L3-TheAtomOfSpace` §VIII anchors the discipline.
+**Scope of the coefficients.** The leading and trailing coefficients, $+2/\alpha$ and $+2\alpha$, are specific to the $U\leftrightarrow R$ crossing at generation 1, which sits on the Mutable bimedian. The middle integer $3$ is generation-blind, as SU(3) is (§IX). Two uses of the same three names meet at this edge and must not be conflated: the *bimedian classification* of the edge ($U\leftrightarrow R$ on the Mutable bimedian) and the *directed-reading-rule label* of a traversal ($U \to R$ reads Fixed under the target rule; $R \to U$ mirrors its source and also reads Fixed). `L3-TheAtomOfSpace` §VIII anchors the discipline.
 
 ### The Three Terms as the On-Shell Cycle Traversal of the Atom of Space
 
-The three terms are the evaluation of normalized boundary impedance around the closed cycle traversal of the K4 atom of space (L3-TheAtomOfSpace), traversing the Mutable diameter (U ↔ R) between the leptonic Logos ground (m_e) and the hadronic Ethos ground (m_π):
+The three terms are the evaluation of normalized boundary impedance around the closed cycle traversal of the K4 atom of space (L3-TheAtomOfSpace), traversing the Mutable bimedian (U ↔ R) between the leptonic Logos ground (m_e) and the hadronic Ethos ground (m_π):
 
 - Forward carrier step, U → R: +2/α = 4 R_K / Z_0. The constitutive inter-rung impedance step connecting the electron vertex to the hadron vertex.
 - Hadronic vertex circulation, R: −3/π. The topological phase winding of the SU(3) color flux-tube junction at the confinement boundary.
@@ -133,7 +133,7 @@ LANDED NOUN. α = Z_0 / 2R_K, read constitutively. The medium's characteristic w
 
 LANDED NOUN. The Laurent shape {−1, 0, +1} enforced by K4 3-regular apex geometry.
 
-LANDED NOUN (Bare Topological Compiler). The bare topological mass ratio: L = 2/α − 3/π + 2α = 273.1316634 derived as the on-shell boundary characteristic of the single K4 atom of space across the Mutable diameter. Zero free parameters. The integer N_c = 3 is unique on the discrete lattice 0..120 by a 409× margin against competing integers.
+LANDED NOUN (Bare Topological Compiler). The bare topological mass ratio: L = 2/α − 3/π + 2α = 273.1316634 derived as the on-shell boundary characteristic of the single K4 atom of space across the Mutable bimedian. Zero free parameters. The integer N_c = 3 is unique on the discrete lattice 0..120 by a 409× margin against competing integers.
 
 IDENTIFIED IMPORT. The per-channel phase tax magnitude is identified with Schwinger's topological one-loop anomaly α/(2π), establishing the gauge-phase bridge across the boundary.
 

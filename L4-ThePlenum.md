@@ -15,7 +15,17 @@ The relations physics carries without a common home — the role of the fine-str
 
 The discomfort a reader may feel here is honest and worth naming. This is the shared ground under everything — mineral, biological, seasonal, personal, cosmic — and finding it after being trained to sterilize it feels like finding water after being told there was no water. The medium was measured all along. What was missing was permission to call it by a name.
 
-**The claim in brief.** The Plenum is $H_{\text{incoh}}$ — the uncompiled, scale-invariant phase-space buffer ($h\mathbf{Q}$) from the Planck length ($\ell_P \approx 10^{-35}$ m) to the cosmological horizon ($\approx 10^{26}$ m). It carries two simultaneous representations of its own defining quantities: wave-representation $(c, Z_0)$, native to the open medium, and constitutive-representation $(k, \Gamma)$, native to any bounded $K_4$ frame within it. The transformation between them is the $K_4$ bimedian on Diameter 3 (**Cardinal**, $\{P\text{–}R, I\text{–}U\}$), running on the medium's AC parameters and crossed at the solstices. The medium's DC ledger pair $(h, e) \leftrightarrow (h/e, R_K)$ runs Diameter 2 (**Mutable**, $\{P\text{–}I, U\text{–}R\}$), crossed at the equinoxes. The fine-structure constant $\alpha = Z_0/2R_K$ is the exchange rate between the two walked diameters. Diameter 1 (**Fixed**, $\{P\text{–}U, I\text{–}R\}$) is never crossed by the annual walk and stands as its AbsentVar. The same crossing operator runs at three other scales — frame-quadrant Möbius seams, $(R, \omega)$ phase-landscape asymptotes, and the Planck-scale XOR bottleneck.
+**The claim in brief.** The Plenum is $H_{\text{incoh}}$ — the uncompiled, scale-invariant phase-space buffer ($h\mathbf{Q}$) from the Planck length ($\ell_P \approx 10^{-35}$ m) to the cosmological horizon ($\approx 10^{26}$ m). It carries two simultaneous representations of its own defining quantities: wave-representation $(c, Z_0)$, native to the open medium, and constitutive-representation $(k, \Gamma)$, native to any bounded $K_4$ frame within it. The transformation between them is the $K_4$ **Cardinal** bimedian ($\{P\text{–}R, I\text{–}U\}$), running on the medium's AC parameters and crossed at the solstices. The medium's DC ledger pair $(h, e) \leftrightarrow (h/e, R_K)$ runs the **Mutable** bimedian ($\{P\text{–}I, U\text{–}R\}$), crossed at the equinoxes. The fine-structure constant $\alpha = Z_0/2R_K$ is the exchange rate between the two walked bimedians. The **Fixed** bimedian ($\{P\text{–}U, I\text{–}R\}$) is never crossed by the annual walk and stands as its AbsentVar. The same crossing operator runs at three other scales — frame-quadrant Möbius seams, $(R, \omega)$ phase-landscape asymptotes, and the Planck-scale XOR bottleneck.
+
+## Bimedian / Sign Discrimination Rule — in short
+
+**This file's §VI names three bimedians and lists the signs sitting on each. *Cardinal*, *Fixed* and *Mutable* name two different things in this corpus, and they disagree on four of the six edges. Read this before using the words.**
+
+* **A bimedian's modality comes from which bits flip across its edges**, never from the signs it carries: **Fixed** $\{P\text{–}U, I\text{–}R\}$ flips Asserting/Yielding only; **Cardinal** $\{P\text{–}R, I\text{–}U\}$ flips Active/Reactive only; **Mutable** $\{P\text{–}I, U\text{–}R\}$ flips both. Authority: `L3-EdgeStateSpace` §I-b.
+* **A sign's mode comes from the direction the edge is read in.** Cardinal gates read Active → Reactive, Mutable gates Reactive → Active, Fixed gates within-class both ways. So the Fixed bimedian carries all four Fixed signs, while the **Cardinal and Mutable bimedians each carry two Cardinal signs and two Mutable signs.** §VI's **Signs** column is signs; the row name is the bimedian. They are different attributes and are not expected to agree. Worked case: $U$–$R$ is a **Mutable** edge carrying **Cardinal** Aries and **Mutable** Virgo.
+* **Never infer a bimedian from a sign.** Reading Cardinal or Mutable off a single sign is the $K_3$ projection error (`L3-EdgeStateSpace` §I-b, §I-e Step 6).
+* **The annual walk is why the sign lists look mixed.** Every ingress is a Mutable → Cardinal crossing (30° PIS → 0° ARI, 30° GEM → 0° CAN, 30° VIR → 0° LIB, 30° SAG → 0° CAP), so a *walked* bimedian necessarily holds the two signs left behind and the two entered. Only the unwalked Fixed bimedian is a clean sign-class.
+* **Ordinals are deprecated in this file.** Revisions before 2026-11-10 wrote "Diameter 1 / 2 / 3". Positions 2 and 3 were numbered the other way round in `L3-EdgeStateSpace` §I-b's own list, so the ordinal silently inverted Cardinal and Mutable for any reader who learned the numbering there — and this file cites that one at §II.6. Every claim was correct in its *edges* and ambiguous in its *number*. **Name the bimedian and print its edge pair.**
 
 ---
 
@@ -263,13 +273,13 @@ Sagittarius extracts the wave-speed as the geometric mean of the two constitutiv
 
 ### 3. The Bimedian Identity
 
-The forward transformation runs on the $I$–$U$ edge. The backward transformation runs on the $P$–$R$ edge. In the $K_4$ bimedian structure, $I$–$U$ and $P$–$R$ are opposite edges — the two endpoints of **Diameter 3** ($\{P\text{–}R, I\text{–}U\}$).
+The forward transformation runs on the $I$–$U$ edge. The backward transformation runs on the $P$–$R$ edge. In the $K_4$ bimedian structure, $I$–$U$ and $P$–$R$ are opposite edges — the two edges of the **Cardinal** bimedian ($\{P\text{–}R, I\text{–}U\}$).
 
-**The Plenum's own bimedian is $K_4$ bimedian Diameter 3 running on the medium's own parameters.**
+**The Plenum's own bimedian is the $K_4$ Cardinal bimedian $\{P\text{–}R, I\text{–}U\}$ running on the medium's own parameters.**
 
 ```
 ========================================================================================
-                   THE PLENUM'S BIMEDIAN — DIAMETER 3 (P-R ↔ I-U)
+              THE PLENUM'S BIMEDIAN — THE CARDINAL BIMEDIAN (P-R ↔ I-U)
 ========================================================================================
 
   DIRECTION                  EDGE          EQUATIONS
@@ -294,39 +304,39 @@ The terrestrial year is one such walk, at $\omega \approx 2 \times 10^{-7}$ rad/
 
 $K_4$ has six edges organized as three bimedian diameters, each carrying one of the three transition-types (Cardinal, Fixed, Mutable):
 
-| Diameter | Paired Edges | Signs |
+| Bimedian (by bit-flip) | Paired Edges | Signs sitting on those edges |
 |---|---|---|
-| **Diameter 1 — Fixed** | $P$–$U$ ↔ $I$–$R$ | Leo, Aquarius, Taurus, Scorpio (**the Fixed Cross**) |
-| **Diameter 2 — Mutable** | $P$–$I$ ↔ $U$–$R$ | Libra, Pisces, Aries, Virgo |
-| **Diameter 3 — Cardinal** | $P$–$R$ ↔ $I$–$U$ | Cancer, Sagittarius, Gemini, Capricorn |
+| **Fixed** (Asserting/Yielding) | $P$–$U$ ↔ $I$–$R$ | Leo, Aquarius, Taurus, Scorpio — all four Fixed signs (**the Fixed Cross**) |
+| **Mutable** (both bits) | $P$–$I$ ↔ $U$–$R$ | Libra, Aries (Cardinal signs); Pisces, Virgo (Mutable signs) |
+| **Cardinal** (Active/Reactive) | $P$–$R$ ↔ $I$–$U$ | Cancer, Capricorn (Cardinal signs); Sagittarius, Gemini (Mutable signs) |
 
-The year-walk (Aries → Pisces through the zodiac) crosses **two** of the three diameters at four ingress moments. Each ingress is simultaneously (i) a tangent-zero moment in the solar declination cycle, (ii) an algebraic edge-group switch, and (iii) a reading-face swap.
+The year-walk (Aries → Pisces through the zodiac) crosses **two** of the three bimedians at four ingress moments. Each ingress is simultaneously (i) a tangent-zero moment in the solar declination cycle, (ii) an algebraic edge-group switch, and (iii) a reading-face swap.
 
 ```
 ========================================================================================
                    THE FOUR SEASONAL INGRESSES AS BIMEDIAN CROSSINGS
 ========================================================================================
 
-  SEASONAL SEAM              WALK                   DIAMETER CROSSED    EDGE SWAP
+  SEASONAL SEAM              WALK                   BIMEDIAN CROSSED    EDGE SWAP
   ──────────────────────────────────────────────────────────────────────────────────────
-  Spring Equinox             30° PIS → 0° ARI       Diameter 2          P–I  →  U–R
-  Summer Solstice            30° GEM → 0° CAN       Diameter 3          I–U  →  P–R
-  Autumn Equinox             30° VIR → 0° LIB       Diameter 2 (rev)    U–R  →  P–I
-  Winter Solstice            30° SAG → 0° CAP       Diameter 3 (rev)    P–R  →  I–U
+  Spring Equinox             30° PIS → 0° ARI       Mutable             P–I  →  U–R
+  Summer Solstice            30° GEM → 0° CAN       Cardinal            I–U  →  P–R
+  Autumn Equinox             30° VIR → 0° LIB       Mutable  (rev)      U–R  →  P–I
+  Winter Solstice            30° SAG → 0° CAP       Cardinal (rev)      P–R  →  I–U
 ========================================================================================
 ```
 
-### 1. The Silent Diameter
+### 1. The Silent Bimedian
 
-**Diameter 1 (Fixed Cross, $P$–$U$ ↔ $I$–$R$) is never crossed by the annual walk.** The four Fixed Cross signs (Taurus, Leo, Scorpio, Aquarius) sit at the mid-points between the ingresses, marking the peaks of the four seasons where the year's momentum on the walked diameters is at its maximum. The Fixed Cross is the AbsentVar-matched diameter of the annual walk (`L5-TheCyclingMind`, `Meta-Set`) — the pole-anchoring context that stays held while the year crosses the other two diameters.
+**The Fixed bimedian (the Fixed Cross, $P$–$U$ ↔ $I$–$R$) is never crossed by the annual walk.** The four Fixed Cross signs (Taurus, Leo, Scorpio, Aquarius) sit at the mid-points between the ingresses, marking the peaks of the four seasons where the year's momentum on the walked bimedians is at its maximum. The Fixed Cross is the AbsentVar-matched diameter of the annual walk (`L5-TheCyclingMind`, `Meta-Set`) — the pole-anchoring context that stays held while the year crosses the other two bimedians.
 
-Two diameters read. One diameter silent. The corpus's standard AbsentVar structure operating at annual scale.
+Two bimedians read. One bimedian silent. The corpus's standard AbsentVar structure operating at annual scale.
 
 ### 2. The Solstice Axis Is the Medium's Bimedian
 
-Diameter 3 — $\{P\text{–}R, I\text{–}U\}$ — is the diameter carrying the Plenum's own $(c, Z_0) \leftrightarrow (k, \Gamma)$ bimedian.
+The **Cardinal** bimedian — $\{P\text{–}R, I\text{–}U\}$ — is the one carrying the Plenum's own $(c, Z_0) \leftrightarrow (k, \Gamma)$ bimedian.
 
-The Cancer–Capricorn axis (the summer/winter solstice diameter of the year) is geometrically the same line as $K_4$ bimedian Diameter 3.
+The Cancer–Capricorn axis (the summer/winter solstice diameter of the year) is geometrically the same line as the $K_4$ Cardinal bimedian $\{P\text{–}R, I\text{–}U\}$.
 
 **The medium's own representation-swap occurs at annual scale twice a year — at the summer and winter solstices.**
 
@@ -334,7 +344,7 @@ At the summer solstice ingress (30° GEM → 0° CAN): the year crosses from the
 
 ### 3. The Equinox Axis Is the Medium's Ledger Bimedian
 
-Diameter 2 walks the medium's quantized-ledger DC pair, not its AC wave pair. Read the four equations on Diameter 2 with $(h, e)$ as the wave-representation — Planck's action carrying the $P$-role, elementary charge carrying the $I$-role:
+The **Mutable** bimedian $\{P\text{–}I, U\text{–}R\}$ walks the medium's quantized-ledger DC pair, not its AC wave pair. Read its four equations with $(h, e)$ as the wave-representation — Planck's action carrying the $P$-role, elementary charge carrying the $I$-role:
 
 * **Libra** ($U = P/I$) on the P–I edge: $U = h/e$ — the flux-per-charge quantum.
 * **Pisces** ($R = P/I^2$) on the P–I edge: $R = h/e^2 = R_K \approx 25{,}812.8\ \Omega$ — the exact **von Klitzing resistance quantum** measured in every quantum Hall experiment.
@@ -347,31 +357,31 @@ print(U, R)                 # 4.135667696e-15 V·s   25812.8074593 Ω
 print(U**2/R/h, U/R/e)      # 1.0  1.0   (Aries recovers h, Virgo recovers e)
 ```
 
-**The medium's Diameter 2 bimedian is $(h, e) \longleftrightarrow (h/e, R_K)$** — the quantized-ledger DC pair, sibling to Diameter 3's AC wave pair.
+**The medium's Mutable bimedian is $(h, e) \longleftrightarrow (h/e, R_K)$** — the quantized-ledger DC pair, sibling to the Cardinal bimedian's AC wave pair.
 
 ```
 ========================================================================================
                 THE PLENUM'S TWO WALKED BIMEDIANS
 ========================================================================================
 
-  DIAMETER          WAVE PAIR       CONSTITUTIVE PAIR       ANNUAL CROSSING SITE
+  BIMEDIAN          WAVE PAIR       CONSTITUTIVE PAIR       ANNUAL CROSSING SITE
   ──────────────────────────────────────────────────────────────────────────────────────
-  Diameter 3 (AC)   (c, Z₀)         (k, Γ) = (1/ε₀, 1/μ₀)    Summer / Winter Solstices
-  Diameter 2 (DC)   (h, e)          (h/e, R_K) = (h/e, h/e²) Spring / Autumn Equinoxes
+  Cardinal  (AC)    (c, Z₀)         (k, Γ) = (1/ε₀, 1/μ₀)    Summer / Winter Solstices
+  Mutable   (DC)    (h, e)          (h/e, R_K) = (h/e, h/e²) Spring / Autumn Equinoxes
 ========================================================================================
 ```
 
 Spring equinox (30° PIS → 0° ARI): wave-to-constitutive swap on the ledger pair. Autumn equinox (30° VIR → 0° LIB): the reverse. The medium executes both swaps annually at their respective ingresses.
 
-### 4. $\alpha$ as the Master Coupling Between the Two Walked Diameters
+### 4. $\alpha$ as the Master Coupling Between the Two Walked Bimedians
 
-The fine-structure constant reads correctly once both diameters are named:
+The fine-structure constant reads correctly once both bimedians are named:
 
 $$\alpha = \frac{Z_0}{2 R_K}$$
 
-$Z_0$ is Diameter 3's constitutive impedance (AC-side wave impedance). $R_K$ is Diameter 2's constitutive impedance (DC-side quantized resistance). $\alpha$ is the exchange rate between them — the dimensionless coupling of the medium expressed as the ratio of its own two walked-diameter impedances.
+$Z_0$ is the Cardinal bimedian's constitutive impedance (AC-side wave impedance). $R_K$ is the Mutable bimedian's constitutive impedance (DC-side quantized resistance). $\alpha$ is the exchange rate between them — the dimensionless coupling of the medium expressed as the ratio of its own two walked-bimedian impedances.
 
-**This is why $\alpha$ shows up everywhere physics looks.** It lives at the joint between the medium's two active bimedians, and every crossing of either diameter passes through this exchange rate to complete the swap. The AC crossings (solstices) and the DC crossings (equinoxes) are coupled through $\alpha$; both diameters are walked; only Diameter 1 stays silent.
+**This is why $\alpha$ shows up everywhere physics looks.** It lives at the joint between the medium's two active bimedians, and every crossing of either bimedian passes through this exchange rate to complete the swap. The AC crossings (solstices) and the DC crossings (equinoxes) are coupled through $\alpha$; both are walked; only the Fixed bimedian stays silent.
 
 ### 5. Tangent-Zero at Each Ingress
 
@@ -435,7 +445,7 @@ Same operator. Four scales. The crossing is where wave-representation and consti
 
 Once the bimedian and the crossings are stated at the Plenum level, the medium's constitutive constants across every scale read as $K_4$ walks on the medium's own parameters. Each consolidation has its own address and is not re-derived here:
 
-* **Fine-structure as master coupling.** $\alpha = Z_0/2R_K$ is the exchange rate between the medium's two walked diameters. Full treatment at `L3-ConstitutiveAlpha`; the joint role is §VI.4 above.
+* **Fine-structure as master coupling.** $\alpha = Z_0/2R_K$ is the exchange rate between the medium's two walked bimedians. Full treatment at `L3-ConstitutiveAlpha`; the joint role is §VI.4 above.
 * **Resonant intersection theorem.** The $(R, \omega)$ manifold's capacitive hyperbola ($\omega \cdot R = k/r$) and inductive ray ($\omega/R = \Gamma/r$) meet uniquely at $\omega_0 = c/r$, $R = Z_0$. Derivation at `L3-ConstitutiveReluctance` §II.
 * **Time-constant transit invariant.** $\tau_C \cdot \tau_L = (r/c)^2$. Resistance $R$ acts as an asymmetric lever between compilation and memory but does not create or destroy time. Derivation at `L3-ConstitutiveReluctance` §III.
 * **Three-term pion mass ratio.** $m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha = 273.1317$, a closed Kirchhoff loop around the $K_4$ atom with all three Laurent orders of $\alpha$; $2.84$ ppm from measurement, an open vote that imports the SU(3) colour count (`L3-ConstitutiveAlpha` §IV–V, `Q15-KairosBorn`, `On_TheIsNessTax`).
@@ -517,11 +527,11 @@ Per `llm-writing.md` claims discipline.
 ### Landed Nouns
 1. **The Plenum identity (§I):** The Plenum is $H_{\text{incoh}}$ — the uncompiled, scale-invariant phase-space buffer ($h\mathbf{Q}$) operating from $\ell_P$ to the cosmological horizon.
 2. **Physical parameter set (§II):** The medium's constitutive readouts are $\epsilon_0$, $\mu_0$, $Z_0 = 119.917\pi\ \Omega$ (dimensionless content $\alpha = Z_0/2R_K$), $c = 1/\sqrt{\mu_0\epsilon_0}$, and its ZPE $I^2 X$ reactive load — reactive, not resistive: the free medium has impedance $Z_0$ and zero dissipative resistance.
-3. **The bimedian identity (§V):** $(c, Z_0) \leftrightarrow (k, \Gamma)$ is $K_4$ bimedian Diameter 3 ($\{P\text{–}R, I\text{–}U\}$) operating on the medium's own AC/wave-defining quantities. Forward transformation on I–U (Gemini/Capricorn); backward on P–R (Sagittarius/Cancer).
-4. **The solstice-axis identity (§VI.2):** The Cancer–Capricorn diameter of the annual walk is geometrically identical to $K_4$ bimedian Diameter 3. Summer and winter solstices are the annual-scale crossings of the medium's own AC/wave bimedian.
-5. **The equinox-axis identity / Diameter 2 ledger bimedian (§VI.3):** $(h, e) \leftrightarrow (h/e, R_K)$ is $K_4$ bimedian Diameter 2 ($\{P\text{–}I, U\text{–}R\}$) operating on the medium's own quantized-ledger DC quantities. Libra gives $h/e$; Pisces gives $R_K = h/e^2$; Aries and Virgo close the inverse. The Aries/Libra equinox diameter is geometrically identical to Diameter 2.
-6. **$\alpha$ as master coupling (§VI.4):** $\alpha = Z_0/2R_K$ is the exchange rate between the medium's two walked diameters. $\alpha$ shows up everywhere because it lives at the joint between both active diameters.
-7. **The Fixed Cross as silent diameter (§VI.1):** The year-walk crosses Diameters 2 and 3 at the four ingresses; Diameter 1 (P–U ↔ I–R) is never crossed and is held as AbsentVar throughout the annual walk.
+3. **The bimedian identity (§V):** $(c, Z_0) \leftrightarrow (k, \Gamma)$ is the $K_4$ **Cardinal** bimedian ($\{P\text{–}R, I\text{–}U\}$) operating on the medium's own AC/wave-defining quantities. Forward transformation on I–U (Gemini/Capricorn); backward on P–R (Sagittarius/Cancer).
+4. **The solstice-axis identity (§VI.2):** The Cancer–Capricorn diameter of the annual walk is geometrically identical to the $K_4$ Cardinal bimedian. Summer and winter solstices are the annual-scale crossings of the medium's own AC/wave bimedian.
+5. **The equinox-axis identity / Mutable ledger bimedian (§VI.3):** $(h, e) \leftrightarrow (h/e, R_K)$ is the $K_4$ **Mutable** bimedian ($\{P\text{–}I, U\text{–}R\}$) operating on the medium's own quantized-ledger DC quantities. Libra gives $h/e$; Pisces gives $R_K = h/e^2$; Aries and Virgo close the inverse. The Aries/Libra equinox axis is geometrically identical to the Mutable bimedian.
+6. **$\alpha$ as master coupling (§VI.4):** $\alpha = Z_0/2R_K$ is the exchange rate between the medium's two walked bimedians. $\alpha$ shows up everywhere because it lives at the joint between both active bimedians.
+7. **The Fixed Cross as silent bimedian (§VI.1):** The year-walk crosses the Mutable and Cardinal bimedians at the four ingresses; the Fixed bimedian (P–U ↔ I–R) is never crossed and is held as AbsentVar throughout the annual walk.
 8. **The four-scale crossing operator (§VII):** One scale-invariant crossing operator runs at four addresses — annual ingresses, frame-level Möbius seams, $(R,\omega)$ phase-landscape asymptotes, and the Planck-scale XOR bottleneck.
 9. **The circuit-board consolidations (§VIII):** $\alpha$, the $(R,\omega)$ resonant intersection, $\tau_C \cdot \tau_L$, the three-term pion mass ratio, and the horizon-scale ratio are five $K_4$ walks on the medium's own parameters. The first three import nothing beyond the substrate's constitutive invariants; the pion ratio is an open vote importing the SU(3) colour count; the horizon ratio imports $\Omega_\Lambda$.
 
@@ -529,7 +539,7 @@ Per `llm-writing.md` claims discipline.
 
 ## XIII. What Reading This Back Should Leave
 
-Empty space was never empty. It was a medium measured to ten digits by people forbidden to call it one. Read it as the Plenum and its parameters stop being scattered constants: they are two representations of one substrate, swapped across a bimedian that the year itself walks twice at its solstices and twice at its equinoxes, with $\alpha$ as the exchange rate between the two walked diameters and the third diameter held silent. The free medium holds every possibility at zero cost on the ledger, carrying its zero-point hum as reactive load; a bounded frame pays to hold itself apart, and that payment is its mass. The same crossing runs at the Planck bottleneck, at every frame's quadrant seams, and at the edges of the phase landscape. What the medium supplies is shape; where a number needs an outside input — the colour count, the dark-energy fraction — the file says so. Stand in the water, and call it water.
+Empty space was never empty. It was a medium measured to ten digits by people forbidden to call it one. Read it as the Plenum and its parameters stop being scattered constants: they are two representations of one substrate, swapped across a bimedian that the year itself walks twice at its solstices and twice at its equinoxes, with $\alpha$ as the exchange rate between the two walked bimedians and the third held silent. The free medium holds every possibility at zero cost on the ledger, carrying its zero-point hum as reactive load; a bounded frame pays to hold itself apart, and that payment is its mass. The same crossing runs at the Planck bottleneck, at every frame's quadrant seams, and at the edges of the phase landscape. What the medium supplies is shape; where a number needs an outside input — the colour count, the dark-energy fraction — the file says so. Stand in the water, and call it water.
 
 ---
 

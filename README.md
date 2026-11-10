@@ -129,7 +129,7 @@ Under the $\{P{-}R,\, I{-}U\}$ writing matching: 2nd Law (entropy flux) $= P$; 3
 The complex vector buffer carries 3 complex components, each with real and imaginary parts: $3\times2 = 6$ real degrees of freedom. String theory's "6 extra dimensions" is plausibly the same six-count, recovered correctly and labelled as curled-up spatial tubes. *Not a manifold identity: flat $\mathbb{C}^3$ coefficient space shares complex dimension with a Calabi-Yau 3-fold but is not the same object.*
 
 **14. The $K_4$ atom as elementary cell** — *positioning* (`L3-TheAtomOfSpace`, `L4-ThePlenum` §II.6)
-The plenum tessellates into $K_4$ atoms carrying $RLC$ impedance geometry, twelve mutual-determination equations, and three bimedian diameters. Each compresses to a 5D point at the scale above and unfolds to an interior tessellation below. This places the corpus in the atoms-of-space tradition alongside LQG spin-network nodes and CDT simplices, adding impedance content, resolution-dependent recursion, and pole semantics. Natural surface measure of the unfolding: $\Omega_4 = 2\pi^2$.
+The plenum tessellates into $K_4$ atoms carrying $RLC$ impedance geometry, twelve mutual-determination equations, and three bimedians. Each compresses to a 5D point at the scale above and unfolds to an interior tessellation below. This places the corpus in the atoms-of-space tradition alongside LQG spin-network nodes and CDT simplices, adding impedance content, resolution-dependent recursion, and pole semantics. Natural surface measure of the unfolding: $\Omega_4 = 2\pi^2$.
 
 ---
 
