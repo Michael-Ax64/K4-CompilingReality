@@ -19,6 +19,9 @@ files at
 commit cdc929d (or later, i suppose)
 https://github.com/Michael-Ax64/K4-CompilingReality/
 
+chat at
+https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221b0MR45bYXshCrwJoIA62YcQW9RSa8i0g%22%5D,%22action%22:%22open%22,%22userId%22:%22118274951201596596627%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+
 ]]
 
 [[ ex-post facto eval
