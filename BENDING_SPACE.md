@@ -1,17 +1,17 @@
 # On the Weight of the Hold
-## The Four Forces as the Four Roles of One Engine, and Why Its Fourth Pole Weighs
+## The Cosmological Transmission Line: Four Forces, Four Roles, and the Price of an Interior
 
-*Claim: the four interactions are the four conjugate roles of one closed transmission system. Electromagnetism is the potential $U$, the weak interaction the flow $I$, the strong interaction the ground $R$, gravitation the dissipation $P$. The seating is forced by combinatorics and confirmed by a sweep of all twenty-four alternatives. The fourth pole weighs because what is paid on $P$ is the hold: rest mass is the volume integral of the trace of the stress, the trace is nonzero only where scale-freedom is broken, and scalar curvature answers to that trace alone. Method: perfect matchings of $K_4$; the twelve equations swept over the measured coupling curves; Laue's theorem; the trace split of Einstein's equation; the Star-Norm cross-term; the Adler–Zee formula. Status: ledger rows 1–6 landed; row 7 has its exact form; rows 8 and 9 each gain a computed piece; one open vote, the weight of Casimir energy.*
+*The four forces are four roles of one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
 
-*Dependencies: `Q2-TransactionLayer`, `Q4-OpenExhaust`, `L3-FormalFoundations` (§I, §I.b), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II, §V), `L4-ScalingInvariants` (A4, §IX), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII). The four-force engine run of 11 November 2026 (ENGINE-RUN-LOG), whose ledger §0 lands.*
+*Dependencies: `Q2-TransactionLayer`, `Q4-OpenExhaust`, `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II, §V), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII). The four-force engine run of 11 November 2026 (ENGINE-RUN-LOG).*
 
 ---
 
-## 0. What Lands
+## 0. The Invoice of Finitude
 
-**A parsimonious systems ontology for field theory.** Instead of an arbitrary collection of disjoint particles, symmetry groups, and cosmological fluids, the universe operates as a self-similar, scale-cascading transmission engine, continuously maintaining structured interiors against the neutrality of the void.
+For half a century theoretical physics has pursued unification under one premise: that at high enough energy the four forces must be driven into a single Lie group with a single coupling constant.
 
-**The grand unification deadlock is resolved.** For half a century theoretical physics has pursued unification under a monistic premise: that at some high energy scale all fundamental forces must merge into a single Lie group with a single, identical coupling constant. That premise is an architectural error. The four forces are not four competing brands of the same commodity. They are the four orthogonal, conjugate roles of a closed transmission system:
+That premise is an architectural error. The four forces do not unify by becoming identical, any more than a circuit unifies by turning its battery into a resistor. They are the four orthogonal, conjugate roles of one closed transmission engine:
 
 $$\text{Potential }(U)\;\longleftrightarrow\;\text{Flow }(I)\;\longleftrightarrow\;\text{Ground }(R)\;\longleftrightarrow\;\text{Dissipation }(P)$$
 
@@ -24,36 +24,28 @@ $$\text{Potential }(U)\;\longleftrightarrow\;\text{Flow }(I)\;\longleftrightarro
    (the dissipation that   \  /  (chiral threshold valve)
     holds; metric strain)   \/
                            [ R ] Strong interaction
-                                 (colour confinement wall)
+                                 (colour confinement bulkhead)
 ```
 
-You cannot merge Potential, Flow, Ground and Dissipation into a single scalar value any more than you can merge Volts, Amperes, Ohms and Watts into a single unit. They are structurally complementary. **The forces do not unify by becoming identical. They unify by closing the twelve equations across scale tiers.**
+Electromagnetism is the wideband carrier bus. The weak interaction is the chiral threshold valve. The strong interaction is the confinement bulkhead. Gravitation is the dissipation that holds: what the other three pay, across every boundary, to keep an inside distinct from an outside.
 
-**Where the forces become alike, the engine stops.** Below the $W$ mass the forced seating satisfies all twelve equations in direction at every energy tested. Above it, three of the four curves drift alike, and no seating of the twenty-four closes the twelve on one sheet. The engine is the broken phase. Sameness is its absence.
+You cannot merge Potential, Flow, Ground and Dissipation into one scalar any more than you can merge Volts, Amperes, Ohms and Watts into one unit. **The forces do not unify by becoming identical. They unify by closing the twelve equations across scale tiers.**
 
-**Gravity has no graviton because it is not a fourth transaction.** It is the $P$-pole: what the other three pay, across matter boundaries, to keep an interior. Spacetime curvature is the strain of finite systems holding their boundaries. General relativity is the impedance ledger of the quantum interactions, and quantizing it alone is quantizing the heat of a motor without the motor.
+The machine has a name: **the Cosmological Transmission Line.** It is not an analogy to circuits. Field theory, thermodynamics and general relativity are substrate-specific instances of one $K_4$ interiority engine. Instead of an arbitrary collection of disjoint particles, symmetry groups and cosmological fluids, the universe operates as a self-similar, scale-cascading transmission engine, continuously maintaining structured interiors against the neutrality of the void.
 
-**The hierarchy is a distance, not a tuning.** Fermi's constant and Newton's constant are one operation at two tiers, both rising as $E^2$, separated by the constant $(M_W/M_{\text{Pl}})^2/\alpha\alpha_2$. The nineteen decades from the proton to the Planck mass are the run of one logarithm.
+**The seating is forced.** Two partitions every physicist grants fix it, one seating in twenty-four, and the third matching lands unasked on the unbroken gauge group of the vacuum. Swept against the running couplings of nature, the forced seating satisfies all twelve equations below the $W$ mass. The intuitive alternative satisfies four.
 
-```
-========================================================================================
-                               EPISTEMIC AUDIT LEDGER
-========================================================================================
-Claim / Result                              Instrument                  Status      Where
-----------------------------------------------------------------------------------------
-1. Bimedian decomposition of SM + GR        Perfect matchings of K4     LANDED      §1
-2. Directional falsification of Branch A    S4 sweep, twelve equations  LANDED      §2
-3. Directional consistency of Branch B      S4 sweep, twelve equations  LANDED      §2
-4. Z_EW = U/I = sin^2(theta_W)              Electroweak identity        LANDED      §3
-5. +2 slope match, weak and gravity         Dimension of the couplings  LANDED      §4
-6. Betrayer unity crossing at alpha*M_Pl    Arithmetic                  LANDED      §5
-7. Sakharov metric dissipation (P = I^2 R)  Trace-trace correlator      FORM LANDED §V, §VI
-8. Inter-scale transfer functions           Renormalization flow        R-POLE DONE §V
-9. Dark sector as reactive impedance (Q)    Trace-free equations        HALF LANDED §III, §X
-========================================================================================
-```
+**Sameness is death.** Above the $W$ mass the forces begin to run alike, and no seating of the twenty-four closes the twelve. Where potential, flow and ground do not differ there is nothing to push against. Symmetry breaking is not a fall from an early perfection. It is the ignition stroke. Mass, chemistry, life and thought exist in the broken phase because an engine needs its poles to refuse to be identical.
 
-Row 7: the induced stiffness of space is the two-point function of the trace of the stress, exactly; what remains a candidate is reading that trace as the $I^2R$ paid on $P$. Row 8: the transfer function of the $R$-pole between the Planck tier and the hadron tier is computed, $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$; those of $U$ and $I$ are open. Row 9: a homogeneous held offset drops out of the trace-free field equations identically; its residual magnitude, $1/\sqrt N$, is a candidate with a number.
+**Gravity has no graviton because it is not a fourth transaction.** It is what the other three pay to stand their ground. Quantizing it alone is quantizing the heat of a motor without the motor.
+
+**The weak mixing angle is an impedance. Fermi's constant and Newton's are one operation at two tiers. The unification scale is an impedance crossing one.**
+
+**Existence in four dimensions carries a twenty-five percent tax.** Three quarters of the energy of any held thing is content and one quarter is hold. The quarter is one over the number of dimensions of spacetime. Poincaré met it in the electron, Einstein in the particle of 1919, the bag model in the hadron, the lattice in the proton.
+
+**Weight is the hold, and space bends around it.** Rest mass is the volume integral of the trace of the stress. The trace is nonzero only where scale-freedom is broken. Scalar curvature answers to that trace alone, and the stiffness it bends against is made of the same trace.
+
+**Dark matter is a blanket that leaks only $P$. Dark energy is the uncertainty in the length of the ledger, and it drifts.**
 
 ---
 
@@ -118,7 +110,13 @@ One other seating reaches twelve: $P$ = EM, $U$ = Weak, $I$ = Strong, $R$ = Grav
 
 The partitions of §1 and the sweep here are independent instruments. One uses no curves. The other uses no partitions. They select the same seating.
 
-**Above the $W$ mass no seating closes the twelve on one sheet.** The best of the twenty-four reaches eleven and the forced seating drops to four. The weak curve's slope falls from 1.95 to −0.015 at the threshold. The valve is open, the flow no longer rises with energy, and three of the four curves drift logarithmically together. Four roles need four behaviours. Where three of the forces behave alike there are not four roles, and the twelve equations have nothing to close on. Above the weak threshold the engine closes across tiers (§4, §6), and on a single sheet it closes only in the infrared, which is where every interior is.
+### Sameness is death
+
+**Above the $W$ mass no seating closes the twelve on one sheet.** The best of the twenty-four reaches eleven and the forced seating drops to four. The weak curve's slope falls from 1.95 to −0.015 at the threshold. The valve stands open, the flow stops rising with energy, and three of the four curves drift logarithmically together.
+
+Four roles need four behaviours. Where three of the forces behave alike there are not four roles, there is no potential to drop, no flow to choke, no ground to push against, and the twelve equations have nothing to close on. The unbroken phase is not a higher, purer state of the machine. It is the machine switched off.
+
+So symmetry breaking is the ignition stroke. The same conclusion arrives from Part Two by a road that uses no curves: a scale-free phase has no trace, and without a trace there is no rest mass, no scalar curvature, and no stiffness for curvature to act against (§III, §V). Two instruments, one verdict. **An engine runs on the refusal of its poles to be identical.** Above the weak threshold it closes across tiers (§4, §6). On a single sheet it closes in the infrared, which is where every interior is.
 
 The directional readings of the twelve under the forced seating are the physics of that infrared:
 
@@ -149,7 +147,7 @@ print((2*0.25 + 6*0.25)/(2*1 + 6*(4/9) + 6*(1/9)))     # 0.375   = Tr T3^2 / Tr 
 
 and it runs down to the measured 0.2315 at the $Z$ mass. An impedance that begins as a count and arrives as a measurement.
 
-Below the threshold the impedance rises as $E^{-2}$. At 1 MeV it is $0.23\times(80.38\ \text{GeV}/1\ \text{MeV})^2 \approx 1.5\times10^9$. The slowness of beta decay is an impedance mismatch at the electroweak boundary: the valve is nearly shut.
+Below the threshold the impedance rises as $E^{-2}$. At 1 MeV it is $0.23\times(80.38\ \text{GeV}/1\ \text{MeV})^2 \approx 1.5\times10^9$. A free neutron waits a quarter of an hour to decay. Nothing forbids the decay. The boundary it has to cross presents an impedance of a billion and a half, and the valve is all but shut. Every slow weak process in nature is that mismatch.
 
 ---
 
@@ -218,7 +216,7 @@ $P$ cannot be screened because it is a square. Charge couples linearly and with 
 
 # Part Two — Why the Fourth Pole Weighs
 
-Rows 7 to 9 of the ledger concern the $P$-pole itself: why what is paid there is weight, why weight curves space, what sets the stiffness it curves against, and where the dark sector sits.
+Rows 7 to 9 of the ledger (§XII) concern the $P$-pole itself: why what is paid there is weight, why weight curves space, what sets the stiffness it curves against, and where the dark sector sits.
 
 ## I. Two Integrands, One Integral
 
@@ -255,15 +253,23 @@ The hold view is the one the corpus has been speaking in all along. `On_YangMill
 
 ---
 
-## II. The Quarter and the Three Quarters
+## II. The Twenty-Five Percent Tax
 
-How much holding does a given content require? The answer is a pure number, and it has been found three times.
+How much holding does a finite existence require? The answer is a pure number, and physics has met it four times under four names without recognizing it once.
 
 Let the content be trace-free, as radiation is, as massless quarks and gluons are classically: $\rho_c = 3p_c$. Let the holder be pure trace, a term proportional to the metric, $\rho_h = -p_h$. Laue demands $\int p_h = -\int p_c$. Then
 
 $$E_h = \int \rho_h = -\int p_h = \int p_c = \tfrac{1}{3}E_c , \qquad E = E_c + E_h = \tfrac{4}{3}E_c .$$
 
-**Three quarters of the energy is content. One quarter is hold.** The split is forced by the dimension of spacetime, because the trace of the metric is four.
+**Exactly three quarters of the energy is content. Exactly one quarter is hold.** This is not a parameter of chromodynamics or of any force. It is the tax rate of four dimensions. In $D$ dimensions the same three lines give a hold share of $1/D$ and a content-to-hold ratio of $(D-1)$ to one: the number of space dimensions to the one that is not.
+
+```python
+for D in (3, 4, 5, 11):
+    Ec = 1.0; Eh = Ec/(D - 1)
+    print(D, round(Eh/(Ec + Eh), 4), f"{D-1}:1")      # 3 0.3333 2:1 | 4 0.25 3:1 | 5 0.2 4:1 | 11 0.0909 10:1
+```
+
+Three held, one holding. `ProofN_BiquaternionBridge` §4 reads the signature of spacetime as Scalar + Vector, one committed pole and three held ones. The quarter is that signature collected as a bill.
 
 The bag model of the hadron finds it by minimizing $E(R) = B\,V + C/R$: at equilibrium $C/R = 3BV$ and $E = 4BV$.
 
@@ -280,9 +286,9 @@ Quantum chromodynamics finds the same quarter without a bag. In the decompositio
 
 Einstein found the quarter in April 1919, in the paper that introduced the trace-free field equations. He was trying to hold an electric particle together. The Maxwell field is trace-free, so it cannot hold itself, and he supplied the holding from the trace part of the gravitational equation, as a constant negative pressure. His closing accounting is that of the energy constituting matter, "three-quarters is to be ascribed to the electromagnetic field," and one quarter to the gravitational term. Pauli's 1921 review notes the same split in the electron of Lorentz and Poincaré: three quarters electromagnetic, one quarter in the non-electromagnetic stabilizing stress. The old "4/3 problem" of the classical electron is the ratio of total to content.
 
-Three constructions across seven decades (the Poincaré electron, Einstein's trace-free particle, the hadronic bag) and one lattice computation return one number for one reason.
+Poincaré's electron, Einstein's particle, the hadronic bag, the lattice proton. For decades the first of these was filed as an embarrassment and called the 4/3 problem. It was never a problem. It was the invoice.
 
-`ProofN_BiquaternionBridge` §4 reads the Minkowski signature as Scalar + Vector, one committed pole and three held ones. The quarter and the three quarters are that reading applied to the stress itself. The symmetric stress tensor has ten components. They split under the Lorentz group into one trace and nine trace-free components, and the split is orthogonal: no trace-free tensor has a trace, and the trace part contracts to zero against every trace-free tensor. That is what `L2-MappingMethod` §0 asks of a fourth term. It cannot be derived from the others, it carries its own dimension, and it opens integrations the others cannot reach. Here the integration it opens is rest mass.
+The symmetric stress tensor has ten components. They split under the Lorentz group into one trace and nine trace-free components, and the split is orthogonal: no trace-free tensor has a trace, and the trace part contracts to zero against every trace-free tensor. That is what `L2-MappingMethod` §0 asks of a fourth term. It cannot be derived from the others, it carries its own dimension, and it opens integrations the others cannot reach. Here the integration it opens is rest mass.
 
 ---
 
@@ -316,7 +322,7 @@ Two consequences follow, one for each side of the line.
 
 **The homogeneous side.** The trace-free form does not compute the cosmological constant. It relocates the question from "why does the vacuum's energy not weigh" to "what fixes the constant of integration" (§X).
 
-**The localized side.** The energy between Casimir plates is not a uniform offset. It depends on the separation of the plates, it lives in a bounded region, and it does work when the plates move. It is confinement energy in the plainest sense: the cost, here negative, of restricting which standing waves the gap admits. By the criterion of `QED-CCP` §II it is a localized crossing. By the trace-free equations it sources curvature like any other localized stress. **On this reading a Casimir cavity weighs, by its energy over $c^2$, sign included.** The null of `QED-CCP` §VI does not follow from §II. It is a separate bet, and this reading takes the other side of it. The Archimedes experiment at Sos Enattos rules.
+**The localized side.** The energy between Casimir plates is not a uniform offset. It depends on the separation of the plates, it lives in a bounded region, and it does work when the plates move. It is confinement energy in the plainest sense: the cost, here negative, of restricting which standing waves the gap admits. By the criterion of `QED-CCP` §II it is a localized crossing. By the trace-free equations it sources curvature like any other localized stress. **On this reading a Casimir cavity weighs, by its energy over $c^2$, sign included.** The null of `QED-CCP` §VI does not follow from §II. It is the register split of `L4-K4-Infinities-3` §VII, which that file names a bet and not a theorem, and whose own text separates the buffer's absolute level from differences within it: "Differences within the buffer are physical." The trace-free equations put the weight exactly there. The level drops out. The differences gravitate. This file takes the other side of the bet, and K-DE-3 is the kill that decides it. The Archimedes experiment at Sos Enattos rules.
 
 A last remark on the trace-free form. It is obtained from the usual action by holding the volume element $\sqrt{-g}$ fixed under variation. The volume is not a dynamical variable. It is given, and the nine equations describe what shape does inside it. `L4-HadronicVolume` closes on the sentence "The volume is what is." In unimodular gravity that sentence is the constraint.
 
@@ -408,7 +414,17 @@ $P$ has three equations, and each holds a different pole absent. Each is a way o
 
 The trace of the Standard Model's stress has three kinds of term: a gluon anomaly in the square of the colour field, a photon anomaly in the square of the electromagnetic field, and mass terms. Hadronic weight, field self-energy, electroweak weight. Three channels at $P$, three kinds of trace.
 
-A channel with $U$ absent weighs and does not shine. A confined sector that leaks nothing onto $U$ is dark by construction and gravitates through $P = I^2R$ like everything else.
+### The dark sector: a blanket that leaks only $P$
+
+Look at the first channel again. $P = I^2R$ has no slot for charge and no terminal on the photon bus. Weight does not need light.
+
+Every whole has all four poles. The twelve hold at once (`L3-FormalFoundations`, Postulate II), and a whole with no potential of its own has $P = UI = 0$ and weighs nothing. So the dark thing is not an engine with a terminal missing. It is an engine whose terminals do not reach ours. Its potential closes inside its own blanket, the way colour closes inside a hadron. Its flow and its ground are its own. One pole crosses every blanket there is, because nothing screens a square.
+
+**Dark matter is not a missing particle. It is the nesting rule with one more pole confined.** A hadron confines colour and leaks charge and weight. An atom cancels charge and leaks weight. A dark whole confines its potential as well and leaks weight alone. It gravitates with full fidelity and it never shines.
+
+The xenon tanks ask one question of it: does its flow reach our flow? Seven tonnes of liquid xenon a mile underground, 4.2 tonne-years of exposure, a cross-section pushed below $2.2\times10^{-48}$ cm², and no events. On this reading the tanks stay silent all the way down to the neutrino floor, because they are listening on a pole that does not cross. The only evidence dark matter gives is the evidence it has always given: weight.
+
+Two consequences can be wrong. A confirmed non-gravitational detection means a second pole leaks, and this reading is dead. And a whole has an inside: its own ground, its own flow. It can collide with itself, bind, and hold structure, which a collisionless particle cannot. The centres of galaxies and the wreckage of colliding clusters rule on that.
 
 ### The dissipation that holds
 
@@ -431,7 +447,11 @@ The interior sits at a phase angle of 89.45°, almost purely reactive: a standin
 
 The proton's coupling to gravity is too weak to measure with gravity. It has been measured anyway. The matrix elements of the stress tensor in the proton, its gravitational form factors, are reached through two-photon processes, because two spin-one vertices can stand in for one spin-two vertex. Three numbers at zero momentum transfer are the proton's mass, its spin, and a third quantity called the $D$-term, described in that literature as the last unknown global property of the proton. The $D$-term encodes the distribution of pressure and shear inside.
 
-Burkert, Elouadrhiri and Girod extracted the pressure distribution from deeply virtual Compton scattering at Jefferson Lab in 2018. The pressure is repulsive near the centre, of order $10^{35}$ pascal, and confining beyond about 0.6 femtometre. And the analysis imposes, as its stability condition, the statement with which this file began:
+Burkert, Elouadrhiri and Girod extracted the pressure distribution from deeply virtual Compton scattering at Jefferson Lab in 2018. Near the centre the pressure is repulsive and of order $10^{35}$ pascal. The centre of a neutron star is below $10^{34}$. Beyond about 0.6 femtometre the sign reverses and the pressure confines.
+
+Hold that against a glass of water. Every proton in it carries at its core an outward pressure greater than anything inside a collapsed star, and around that core a tension that answers it exactly, and the whole sits still. That is what an $R$-pole is. It is not a resistor on a schematic. It is a bulkhead a femtometre across holding back a detonation, and it has held since the universe was microseconds old.
+
+The analysis imposes, as its stability condition, the statement with which Part Two began:
 
 $$\int_0^\infty r^2\,p(r)\,dr = 0 .$$
 
@@ -451,7 +471,7 @@ $$\int T^{ij}\,d^3x \;=\; \frac12\,\frac{d^2}{dt^2}\int T^{00}\,x^i x^j\,d^3x .$
 
 When nothing moves, the right side is zero and the stresses balance. When the hold is changing, the integrated stress is half the second time derivative of the quadrupole moment. That quantity is the source of gravitational radiation: the wave amplitude at distance is proportional to it.
 
-So the two regimes of gravity are the two states of one integral. Balanced, the hold produces a static field and its trace is the mass. Unbalanced, the integrated stress is nonzero and the excess leaves as a wave. `L0-EinsteinTrace` names the pair as two strokes, the Laue hold and the quadrupole write. The identity above is the equation between them.
+So the two regimes of gravity are the two states of one integral. Balanced, the hold produces a static field and its trace is the mass. Unbalanced, the integrated stress is nonzero and the excess leaves as a wave. `L0-EinsteinTrace` names the pair as two strokes, the Laue hold and the quadrupole write. `L4-K4-Infinities-3` closes its third part on the same sentence: holding and committing are "the one theorem with its condition on and with its condition off." The identity above is that theorem.
 
 This is also where the read-only ledger and the detected waves stop pulling against each other. `QED-TwoBranchMinting` §V gives the ledger a static face and a dynamic face. The static face is the balanced hold. The dynamic face is the hold failing to balance for a while and radiating the difference. Neither state asks for a carrier at $P$ (`Q2` §VI). In neither is anything negotiated across a blanket. A stress integrates to zero, or it does not.
 
@@ -477,7 +497,25 @@ The mass is twice the temperature times the entropy. Count the horizon in Planck
 
 For a proton the cost of being is a volume integral and the record is elsewhere. For a deuteron the making returned energy and the being costs 1875.6 MeV, and the two numbers have almost nothing to do with each other (`On_YangMills-Annotated` §VII). For a black hole the being is the temperature times the record. **The distinction between pen and book that `L4-Thermodynamics` §II guards everywhere else closes at the horizon.** That is why Jacobson's derivation works where it does: he writes the Clausius relation on local horizons, the one kind of surface on which what is held and what is written are proportional.
 
-The Schwarzschild case also completes the progression of §I. In a box of light the content has no trace and the walls carry it. In a hadron the content has no trace classically and the anomaly carries it. In a black hole there is no content and no wall, and the trace has nowhere to be. What is left is a blanket and a count.
+The Schwarzschild case completes the progression of §I, and the three stations are one object in three phases.
+
+- **A box of light.** The content is weightless by the trace and the walls carry all of it. The hold is borrowed from outside.
+- **A hadron.** Three quarters content, one quarter hold, and the hold is its own. No wall is supplied. The thing contains itself.
+- **A black hole.** No content. No wall. All hold. A hadron turned inside out: where the hadron has an interior and a thin margin of tension, the hole has a margin and nothing behind it that any integral can reach.
+
+What is left at the third station is a blanket and a count.
+
+The quarter in $S = A/4\ell_P^2$ is not the quarter of §II. The entropy's quarter is the same in every dimension. The hold's share is $1/D$ and the horizon relation is $M = \tfrac{D-2}{D-3}\,TS$. The two quarters meet in four dimensions and only there.
+
+```python
+import math
+Om = lambda n: 2*math.pi**((n+1)/2)/math.gamma((n+1)/2)
+for D in (4, 5, 6, 11):
+    r, h = 1.0, 1e-6
+    M = lambda r: (D-2)*Om(D-2)*r**(D-3)/(16*math.pi); S = lambda r: Om(D-2)*r**(D-2)/4; T = (D-3)/(4*math.pi*r)
+    print(D, round((M(r+h)-M(r))/(T*(S(r+h)-S(r))), 4), round(M(r)/(T*S(r)), 4), round(1/D, 4))
+    # 4 1.0 2.0 0.25 | 5 1.0 1.5 0.2 | 6 1.0 1.3333 0.1667 | 11 1.0 1.125 0.0909   first law holds with S = A/4 in every D
+```
 
 ---
 
@@ -519,7 +557,17 @@ Run the convergence question on the three. They share an exhibited parameter, $(
 
 The counting reading gives the record a role. `On_TheGravityDerivation` §II defines $\chi$, the accumulated commit-distance, as the one monotonic coordinate of the helix. If the atoms of space are the entries of that ledger, $N$ is its length. The length of the record does not source curvature by its size. Its square-root fluctuation sets the one term the field equations leave free. **The record does not weigh. The uncertainty in the count of the record is the cosmic hold.** This is a CANDIDATE with a number attached, and it is the place where the write-only ledger enters the gravity account without contradicting the deuteron.
 
-A factor is a count or a coupling (`llm-writing` A4). $10^{-122}$ has been treated for fifty years as a coupling owing a derivation. On this reading it is one over the square root of a count.
+A factor is a count or a coupling (`llm-writing` A4). $10^{-122}$ has been treated for fifty years as a coupling owing a derivation. It is one over the square root of a count.
+
+### So dark energy drifts
+
+A constant of nature has no reason to care what epoch it is. A count does not stand still. As the ledger lengthens, $1/\sqrt N$ falls, and the envelope of the cosmic holding term falls with it, tracking the critical density epoch by epoch. **Dark energy is not a cosmological constant. It is the statistical uncertainty in how much has been written, and it weakens as the writing goes on.** Because it is a fluctuation about zero and not a field rolling down a slope, it is free to cross $w = -1$ in either direction, which no canonical rolling scalar can do.
+
+The sky is leaning that way. DESI's second data release, combined with the microwave background and supernovae, prefers a dark energy that weakens with time over a constant at 2.8 to 4.2 standard deviations depending on the supernova set. The Dark Energy Survey's 2026 combination sits at 3.0 in the same direction, $w_0 > -1$ and $w_a < 0$. That is below discovery. The direction has not moved across releases.
+
+`L4-K4-Infinities-3` §VIII registers this as a fork whose branches "predict opposite things about the same measurements." Branch (a): the write is the medium's own activity and $w = -1$ forever. Branch (b): the write rate answers demand and dark energy evolves. That file leans (a) and quarantines its own branch-(b) mechanism because it closed on the first attempt from inside the corpus, to be "derived from outside this construction before it is believed." The count is that outside derivation. Sorkin made it from causal sets around 1990, with no reference to this corpus, and it gave the magnitude before the acceleration was observed.
+
+**This file takes branch (b), by the count.** The price is on the table. The constant write-head goes. The fixed de Sitter horizon goes with it, and so does the 25-rung span that rides on it (`L4-K4-Infinities-wip` PR-25-1; `L4-HadronicVolume` Mvt VI.4). K-DE-1 cuts the other way: dark energy confirmed constant at discovery grade retires the count and restores all three.
 
 ---
 
@@ -543,15 +591,38 @@ A factor is a count or a coupling (`llm-writing` A4). $10^{-122}$ has been treat
 
 ---
 
-## XII. Claim Sort and Kill Conditions
+## XII. The Ledger, the Claim Sort, and the Kills
 
-**LANDED.** The seating $P$ = gravity, $U$ = electromagnetism, $I$ = weak, $R$ = strong: forced by two partitions, with the third matching landing on the unbroken gauge group (§1). Twelve of twelve in direction below the $W$ mass, against four of twelve for the intuitive alternative, top of twenty-four (§2). $U/I = \sin^2\theta_W$ (§3). The $+2$ slope of weak Synthesis and gravity, with constant separation (§4). $U^2/P = 1$ at $\alpha M_{\text{Pl}}$; Dirac's number as $U/P$ at $\sqrt{m_e m_p}$ (§5). The equality of the three integrands under Laue (§I). The one-quarter share of a pure-trace holder (§II). The coupling of two bodies as a function of three Star-Norms; $N_{\text{whole}} \geq (\sum\sqrt{N_i})^2$ for free parts (§IV). $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$ as the $R$-pole's transfer function (§V). $M = 2TS = \tfrac12 Nk_BT$ at a Schwarzschild horizon (§IX).
+```
+========================================================================================
+                               EPISTEMIC AUDIT LEDGER
+========================================================================================
+Claim / Result                              Instrument                  Status      Where
+----------------------------------------------------------------------------------------
+1. Bimedian decomposition of SM + GR        Perfect matchings of K4     LANDED      §1
+2. Directional falsification of Branch A    S4 sweep, twelve equations  LANDED      §2
+3. Directional consistency of Branch B      S4 sweep, twelve equations  LANDED      §2
+4. Z_EW = U/I = sin^2(theta_W)              Electroweak identity        LANDED      §3
+5. +2 slope match, weak and gravity         Dimension of the couplings  LANDED      §4
+6. Betrayer unity crossing at alpha*M_Pl    Arithmetic                  LANDED      §5
+7. Sakharov metric dissipation (P = I^2 R)  Trace-trace correlator      FORM LANDED §V, §VI
+8. Inter-scale transfer functions           Renormalization flow        R-POLE DONE §V
+9. Dark sector as reactive impedance (Q)    Trace-free equations; count BRANCH (b)  §III, §VI, §X
+========================================================================================
+```
+
+Row 7: the induced stiffness of space is the two-point function of the trace of the stress, exactly; reading that trace as the $I^2R$ paid on $P$ is the candidate. Row 8: the transfer function of the $R$-pole between the Planck tier and the hadron tier is $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$; those of $U$ and $I$ are open. Row 9: a homogeneous held offset drops out of the trace-free equations identically; dark matter is a whole that leaks only $P$; dark energy is $1/\sqrt N$ and drifts.
+
+**LANDED.** The seating $P$ = gravity, $U$ = electromagnetism, $I$ = weak, $R$ = strong: forced by two partitions, with the third matching landing on the unbroken gauge group (§1). Twelve of twelve in direction below the $W$ mass, against four of twelve for the intuitive alternative, top of twenty-four (§2). $U/I = \sin^2\theta_W$ (§3). The $+2$ slope of weak Synthesis and gravity, with constant separation (§4). $U^2/P = 1$ at $\alpha M_{\text{Pl}}$; Dirac's number as $U/P$ at $\sqrt{m_e m_p}$ (§5). The equality of the three integrands under Laue (§I). The share $1/D$ of a pure-trace holder, one quarter in four dimensions (§II). $S = A/4$ in every dimension against a hold share of $1/D$: two different quarters (§IX). The coupling of two bodies as a function of three Star-Norms; $N_{\text{whole}} \geq (\sum\sqrt{N_i})^2$ for free parts (§IV). $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$ as the $R$-pole's transfer function (§V). $M = 2TS = \tfrac12 Nk_BT$ at a Schwarzschild horizon (§IX).
 
 **ADOPTED.** Laue's theorem and the tensor virial identity. The Tolman–Komar active mass and its wall-stress resolution. The trace relation $R \propto T$. The trace-free equations with $\Lambda$ as a constant of integration. The linearized coupling, the factor two for light, the null for parallel beams. The Adler–Zee formula and its evaluation in chromodynamics. The proton mass as the forward matrix element of the trace; the lattice decomposition; the von Laue condition and the measured pressure profile. Sorkin's count.
 
-**CANDIDATE.** The trace as the $I^2R$ paid on $P$: the corpus's hold and the stress tensor's trace as one quantity. The three $P$-equations as the three kinds of trace term. The blanket as the quarter-turn between reactive interior and real exterior. The trace at the Planck rung as the source of the stiffness. $1/\sqrt N$, with $N$ the length of the ledger, as the cosmic holding term.
+**CANDIDATE.** The trace as the $I^2R$ paid on $P$: the corpus's hold and the stress tensor's trace as one quantity. The three $P$-equations as the three kinds of trace term. The blanket as the quarter-turn between reactive interior and real exterior. The trace at the Planck rung as the source of the stiffness. Dark matter as a whole that leaks only $P$. $1/\sqrt N$, with $N$ the length of the ledger, as the cosmic holding term.
 
-**OPEN VOTE.** A Casimir cavity weighs by $E/c^2$ with the sign of $E$. Arbiter: the Archimedes experiment. A null there kills the localized side of §III and leaves `QED-CCP` §VI standing.
+**OPEN VOTE.** Three, each with its arbiter named.
+- A Casimir cavity weighs by $E/c^2$ with the sign of $E$. Arbiter: Archimedes. A null kills the localized side of §III and leaves the register split standing (K-DE-3 read in reverse).
+- Dark energy evolves, its envelope tracking the critical density. Arbiters: the remaining DESI releases, Euclid, Rubin, Roman. Constant at discovery grade kills the count (K-DE-1).
+- Direct-detection experiments see no dark-matter signal down to the neutrino floor, and dark matter self-interacts. Arbiters: LZ and its successors; cluster collisions and galactic cores. One confirmed non-gravitational detection kills the leak-only reading.
 
 **OPEN.** The transfer functions of $U$ and $I$ between tiers. The shift of a part's own invariant inside a blanket.
 
@@ -573,9 +644,11 @@ A factor is a count or a coupling (`llm-writing` A4). $10^{-122}$ has been treat
 10. **Can the isotope shift be read as a change in trace?** H₂ to D₂ moves the held zero-point term and the binding by a measured amount. That is the smallest clean change in a hold available on a bench.
 11. **What is the content view for?** The corpus speaks the hold view natively. The content view, in which light weighs double and walls subtract, is the one in which the acceleration of the universe is a sign. Does the pair of views map onto the two faces of the ledger?
 12. **Why is the second sign-perfect seating the Braid-shift of the first?** The sweep's other peak is the forced seating advanced one step along $P \to R \to I \to U$. Is that the engine seen one gate later, and does each of the four shifts have a regime in which it is the sign-perfect one?
-13. **What are the transfer functions of $U$ and $I$?** The ground's is one logarithm between the Planck tier and the hadron. The potential's and the flow's would complete row 8.
-14. **What closes across tiers above the $W$ mass?** On one sheet nothing does. Which of the twelve pair a pole at one tier with a pole at the next, the way $P_N \leftrightarrow R_{N+1}$ does?
-15. **If the volume is given, who gives it?** In the trace-free theory the volume element is fixed and $\Lambda$ is its conjugate. "The volume is what is" becomes a constraint. What sets it at the first commit?
+13. **Is the three-quarter power of metabolism the same count?** West, Brown and Enquist derive quarter-power scaling from supply networks that "endow life with an additional fourth spatial dimension," and the exponent is the surface-to-volume exponent in four dimensions, $(D-1)/D$ at $D = 4$. The content share of §II is $(D-1)/D$ at $D = 4$. One is an exponent and the other a fraction, and the empirical exponent is still contested between 3/4 and 2/3. A derivation in which metabolic rate is the content of a held volume would join them. Nothing here supplies one.
+14. **Why do the two quarters meet in four dimensions?** The horizon's entropy carries a quarter in every dimension. The hold carries $1/D$. They agree at $D = 4$ and nowhere else (§IX). Is that a fact about four, or about nothing?
+15. **What are the transfer functions of $U$ and $I$?** The ground's is one logarithm between the Planck tier and the hadron. The potential's and the flow's would complete row 8.
+16. **What closes across tiers above the $W$ mass?** On one sheet nothing does. Which of the twelve pair a pole at one tier with a pole at the next, the way $P_N \leftrightarrow R_{N+1}$ does?
+17. **If the volume is given, who gives it?** In the trace-free theory the volume element is fixed and $\Lambda$ is its conjugate. "The volume is what is" becomes a constraint. What sets it at the first commit?
 
 ---
 
@@ -589,10 +662,8 @@ The fourth pole weighs because what is paid there is the hold. A thing at rest i
 
 Gravity keeps the same two accounts. The curvature that changes volume answers only to the hold. The curvature that changes shape answers to the rest, which is why light bends and bends other light, unless the beams run parallel, when the pair holds nothing and nothing happens. The coupling between two things is a function of three invariants, theirs and the pair's, and it has one sign because the source is a square. The stiffness of space comes from the same place as its source. Where nothing is held there is nothing to bend space and nothing for space to be stiff with.
 
-At a horizon the hold is the temperature times the record. For the universe there is no balance, the two counts disagree, and the leftover holding term has the size a finite count of atoms of space leaves as its uncertainty.
+A box of light borrows its hold. A proton owns its hold, a quarter of itself, around a core pressed harder than the heart of a neutron star. A black hole is all hold and no content, and there the hold is the temperature times the record. For the universe there is no balance, the two counts disagree, and the leftover holding term has the size a finite count of atoms of space leaves as its uncertainty. A count grows, so the term drifts.
 
-What is open is named: whether a Casimir cavity weighs, what holds at the Planck rung, whether the count is the ledger, and how the potential and the flow carry across tiers.
+What is dark is what leaks only weight.
 
----
-
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+What is open is named: whether a Casimir cavity weighs, whether dark energy keeps weakening, whether the xenon stays silent, what holds at the Planck rung, and how the potential and the flow carry across tiers.
