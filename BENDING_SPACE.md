@@ -3,7 +3,7 @@
 
 *The four forces are four roles of one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
 
-*Dependencies: `Q2-TransactionLayer`, `Q4-OpenExhaust`, `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II, §V), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
+*Reads with: `Q2-TransactionLayer`, `Q4-OpenExhaust`, `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II, §V), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
 
 ---
 
