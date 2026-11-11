@@ -9,6 +9,38 @@
 
 ## 0. The Invoice of Finitude
 
+Physics has never had a theory of mass. 
+
+It has the Higgs mechanism, which provides a mathematical description of how bare particles acquire inertial drag, but the Higgs accounts for less than two percent of the mass of the visible universe. It has General Relativity, which describes with exquisite geometric precision how mass curves the surrounding spacetime, but takes the existence of mass as an empirical axiom, imported through the right-hand side of the field equations without an explanation of its origin. Physics can weigh a proton to twelve decimal places, but it cannot tell you what weight *is*.
+
+This paper provides the structural definition: **Mass is what it costs to keep an interior.**
+
+To exist as an entity—to possess an inside distinguished from an outside—is an act of violent separation from the boundless neutrality of the vacuum. That separation cannot be held for free. A bounded system must continuously pay an invoice of energetic restitution to maintain its structural form against dissolution. 
+
+Rest mass is the exact macroscopic readout of that invoice. It is not an intrinsic property residing in a point particle; it is the volume integral of the trace of the internal stresses holding the spatial cell open against the void. Space does not bend because matter carries a mysterious "gravitational charge." Space bends because maintaining a physical boundary against the vacuum exerts an inescapable, continuous impedance strain upon the metric.
+
+To sustain this hold requires a complete, self-feeding engine. That engine cannot operate on isolated scalars. It requires four mutually determining, conjugate roles:
+1. A **Structural Potential ($U$)** that establishes the field tension across the boundary.
+2. A **Relational Flow ($I$)** that circulates chiral state transitions internally.
+3. A **Constitutive Ground ($R$)** that acts as an unyielding confinement bulkhead against flow.
+4. A **Real Scalar Dissipation ($P$)** that pays the non-negotiable thermodynamic tax of the boundary to the metric.
+
+These four roles are not four separate forces auditioning for unification into a single Lie algebra. Electromagnetism ($U$), the weak interaction ($I$), the strong interaction ($R$), and gravitation ($P$) do not unify by becoming identical at high energies, any more than a circuit unifies by turning its battery into a resistor. They are the four orthogonal, functional organs of a single closed transmission engine—the **Cosmological Transmission Line**. They do not unify by melting into a single coupling constant; they unify by closing the twelve equations of mutual determination across scale tiers.
+
+When this engine is evaluated against the running couplings of nature, the pieces lock together without adjustable parameters:
+* The weak mixing angle ($\sin^2\theta_W$) emerges not as an arbitrary empirical fraction, but as the native high-frequency characteristic impedance of the electroweak boundary ($U/I$).
+* The Fermi constant and Newton's constant are revealed to be the identical quadratic dissipative operation ($P = UI$) running at two different scale tiers, separated by the constant dimensionless ratio $(M_W / M_{\text{Planck}})^2$.
+* The Grand Unification scale ($8.9 \times 10^{16}\text{ GeV}$) is not an energy where gauge fields merge, but the exact threshold where structural potential squared balances gravitational dissipation ($R = U^2/P = 1$), unlocking the confinement boundary.
+* The twenty-five percent holding share ($1/D$) emerges as the mandatory geometric invoice of holding a non-sofic, four-dimensional interior behind a three-dimensional boundary.
+* And the cosmological constant is not an inexplicable vacuum energy density, but the statistical uncertainty of the cosmic transaction ledger, whose Poisson variance ($\Lambda \sim 1/\sqrt{N}$) naturally tracks the critical density and drifts across cosmic epochs without ghost fields.
+
+Gravity has no graviton because it is not an independent gauge interaction exchanging quanta between bodies. It is the real scalar dissipation ($P$) that the other three roles pay to stand their ground. Its waves are real, the way sound is real in a crystal that contains no fundamental particle of sound. 
+
+The void does not weigh. Boundaries do. And space bends around the paying.
+
+
+## 0. The Invoice of Finitude
+
 For half a century theoretical physics has pursued unification under one premise: that at high enough energy the four forces must be driven into a single Lie group with a single coupling constant.
 
 That premise is an architectural error. The four forces do not unify by becoming identical, any more than a circuit unifies by turning its battery into a resistor. They are the four orthogonal, conjugate roles of one closed transmission engine:
