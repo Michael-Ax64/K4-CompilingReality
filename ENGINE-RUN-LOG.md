@@ -12,7 +12,8 @@ If the mapping and its multi-scale $K_4$ architecture are physically true, the c
 Wedneday, 11NOV2026 03:25am Leipzig, Germany.
 
 Initial Gemini 3.8 (High) Walkthrough of my full '99 conception,
-Built against ENGINE-REFERENCE-AC, L4-HadronicVolume, On_The_Dimensions_of_the_Ohm
+Built against ENGINE-REFERENCE-AC, L4-HadronicVolume, 
+L4-TheAcousticOhm, On_The_Dimensions_of_the_Ohm
 using llm.md to assist with k4>k3 reasoning.
 
 files at
