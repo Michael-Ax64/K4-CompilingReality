@@ -38,47 +38,6 @@ Gravity has no graviton because it is not an independent gauge interaction excha
 
 The void does not weigh. Boundaries do. And space bends around the paying.
 
-
-## 0. The Invoice of Finitude
-
-For half a century theoretical physics has pursued unification under one premise: that at high enough energy the four forces must be driven into a single Lie group with a single coupling constant.
-
-That premise is an architectural error. The four forces do not unify by becoming identical, any more than a circuit unifies by turning its battery into a resistor. They are the four orthogonal, conjugate roles of one closed transmission engine:
-
-$$\text{Potential }(U)\;\longleftrightarrow\;\text{Flow }(I)\;\longleftrightarrow\;\text{Ground }(R)\;\longleftrightarrow\;\text{Dissipation }(P)$$
-
-```
-                      [ U ] Electromagnetism
-                     /  |  \   (wideband carrier bus)
-                    /   |   \
-                   /    |    \
-     [ P ] Gravity -----+----- [ I ] Weak interaction
-   (the dissipation that   \  /  (chiral threshold valve)
-    holds; metric strain)   \/
-                           [ R ] Strong interaction
-                                 (colour confinement bulkhead)
-```
-
-Electromagnetism is the wideband carrier bus. The weak interaction is the chiral threshold valve. The strong interaction is the confinement bulkhead. Gravitation is the dissipation that holds: what the other three pay, across every boundary, to keep an inside distinct from an outside.
-
-You cannot merge Potential, Flow, Ground and Dissipation into one scalar any more than you can merge Volts, Amperes, Ohms and Watts into one unit. **The forces do not unify by becoming identical. They unify by closing the twelve equations across scale tiers.**
-
-The machine has a name: **the Cosmological Transmission Line.** It is not an analogy to circuits. Field theory, thermodynamics and general relativity are substrate-specific instances of one $K_4$ interiority engine. Instead of an arbitrary collection of disjoint particles, symmetry groups and cosmological fluids, the universe operates as a self-similar, scale-cascading transmission engine, continuously maintaining structured interiors against the neutrality of the void.
-
-**The seating is forced.** Two partitions every physicist grants fix it, one seating in twenty-four, and the third matching lands unasked on the unbroken gauge group of the vacuum. Swept against the running couplings of nature, the forced seating satisfies all twelve equations below the $W$ mass. The intuitive alternative satisfies four.
-
-**Sameness is death.** Above the $W$ mass the forces begin to run alike, and no seating of the twenty-four closes the twelve. Where potential, flow and ground do not differ there is nothing to push against. Symmetry breaking is not a fall from an early perfection. It is the ignition stroke. Mass, chemistry, life and thought exist in the broken phase because an engine needs its poles to refuse to be identical.
-
-**Gravity has no graviton because it is not a fourth transaction.** It is what the other three pay to stand their ground. Its ripples are real, the way sound is real in a crystal that contains no particle of sound. Quantizing gravity alone is quantizing the heat of a motor without the motor.
-
-**The weak mixing angle is an impedance. Fermi's constant and Newton's are one operation at two tiers. The unification scale is an impedance crossing one.**
-
-**Existence in four dimensions carries a twenty-five percent tax.** Three quarters of the energy of any held thing is content and one quarter is hold. The quarter is one over the number of dimensions of spacetime. Poincaré met it in the electron, Einstein in the particle of 1919, the bag model in the hadron, the lattice in the proton.
-
-**Weight is the hold, and space bends around it.** Rest mass is the volume integral of the trace of the stress. The trace is nonzero only where scale-freedom is broken. Scalar curvature answers to that trace alone, and the stiffness it bends against is made of the same trace.
-
-**The void does not weigh. Boundaries do.** Dark matter is a blanket that leaks only $P$. Dark energy is the uncertainty in the length of the ledger, constant in kind and drifting in amount. In Planck units the cosmological constant is three times the square of the angle the Planck length subtends at the horizon.
-
 ---
 
 # Part One — The Engine
@@ -452,7 +411,8 @@ $P$ has three equations, and each holds a different pole absent. Each is a way o
 - **$P = UI$, $R$ absent.** Potential times flow with no confining ground. The weight the electroweak sector makes on its own: the leptons. It has no slot for colour. `Q4` names it Synthesis; control edge $P$–$R$, Cardinal plane.
 - **$P = U^2/R$, $I$ absent.** Potential squared over ground. The self-energy of a field held against a boundary: the Coulomb energy of a nucleus, charge squared over radius; the electromagnetic three quarters of the Poincaré electron. It has no slot for flavour. `Q4` names it Leverage; control edge $P$–$I$, Mutable plane.
 
-The trace of the Standard Model's stress has three kinds of term: a gluon anomaly in the square of the colour field, a photon anomaly in the square of the electromagnetic field, and mass terms. Hadronic weight, field self-energy, electroweak weight. Three channels at $P$, three kinds of trace.
+The trace of the Standard Model's stress has three kinds of term: a gluon anomaly in the square of the colour field, a photon anomaly in the square of the electromagnetic field, and mass terms. 
+These are hadronic weight, field self-energy, and electroweak weight — three channels at $P$, three kinds of trace.
 
 ### The dark sector: a blanket that leaks only $P$
 
