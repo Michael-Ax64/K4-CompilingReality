@@ -3,7 +3,51 @@
 
 *The four forces are four roles of one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
 
-*Reads with: `Q2-TransactionLayer`, `Q4-OpenExhaust`, `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II, §V), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
+*Reads with: `Q2-TransactionLayer`, `Q4-OpenExhaust` (§II–§V), `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II–§V, §VII.2–3), `L4-AttractorSpace` (Part One), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `Q13-PlenumPhaseConduction`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
+
+---
+
+## What All Those Years Built: The Solves 
+### *Four forces are one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
+
+✅ **What rest mass actually is—and where 99% of the visible universe's weight comes from.**
+The Higgs field only accounts for ~1% (~9 MeV) of a proton's 938 MeV mass. A flat 2D triangle of three quarks has no inside, so it cannot hold the remaining 929 MeV. Adding the fourth orthogonal dimension closes a 3D cell with an interior volume—and the proton's measured core pressure ($10^{35}\text{ Pa}$, over ten times the heart of a neutron star) is literally the physical bulkhead holding that interior open against the void.
+
+✅ **The 100-year "4/3 problem" solved on one accounting line.**
+For over a century, the same mysterious 25% kept showing up in disconnected corners of physics: Poincaré's classical electron (3/4 electromagnetic, 1/4 stabilizing stress), Einstein's 1919 field paper (3/4 field, 1/4 gravitational hold), the hadronic bag model ($E = 4BV$), and modern lattice QCD (the proton's ~23–25% trace anomaly). Under Laue's balance theorem, they are all the exact same $1/D$ structural tax of a 4-dimensional universe: holding trace-free energy inside a closed boundary always puts **75% in the contents and 25% in the wall holding it together**.
+
+✅ **Why a box of light weighs more—and who actually carries the weight.**
+Light has zero rest mass, yet a mirrored box full of trapped light weighs more than an empty box. The math proves two exact ways to read the same balance sheet: in the usual "content view," trapped light gravitates double and the walls' tension subtracts; in the "hold view," the light weighs zero and the container walls carry 100% of the extra weight. **The void does not weigh. Boundaries do.**
+
+✅ **Four forces seated as four organs of one machine—scoring 12 out of 12 against nature.**
+Electromagnetism (Potential $U$), the Weak force (Flow $I$), the Strong force (Ground $R$), and Gravity (Dissipation $P$) are not four separate forces waiting to melt into one another. Two standard physics partitions force that exact seating out of 24 possibilities—and the third pairing drops straight onto the unbroken symmetry of the vacuum ($SU(3)_c \times U(1)_{\text{EM}}$). Swept against the actual measured running coupling curves below the $W$ mass, that forced seating satisfies **all 12 circuit equations in direction (12/12)**, while the textbook intuition scores **4/12**.
+
+✅ **Why broken symmetry is the ignition switch, not a defect.**
+Above the $W$ mass, where the forces start behaving alike, *zero* of the 24 possible seatings can close the 12 equations on one sheet. An engine cannot run when its parts behave identically. Symmetry breaking is what turns the machine on.
+
+✅ **The weak mixing angle decoded as boundary impedance.**
+$\sin^2\theta_W$ is not an arbitrary empirical constant—it is the native electrical impedance $Z_{\text{EW}} = U/I$ across the electroweak boundary. That single ratio starts as a simple fermion count ($3/8$) at high energy, runs down to $0.2315$ at the $Z$ mass, and explodes to $1.5\text{ billion}$ at nuclear decay energies—which is why a free neutron takes fifteen minutes to decay.
+
+✅ **Fermi's weak force and Newton's gravity shown to be one operation at two scale tiers.**
+Below their thresholds ($M_W$ and $M_{\text{Pl}}$), weak synthesis ($P = UI$) and gravity both scale with the exact same $+2$ slope. The 31-decade hierarchy between them is simply the fixed vertical gap $(M_W / M_{\text{Pl}})^2 / (\alpha\,\alpha_2)$ between two floors of one cascade.
+
+✅ **The Grand Unification scale explained without merging a single force.**
+The famous $8.91\times 10^{16}\text{ GeV}$ unification window is not where gauge couplings melt together—it is the exact threshold $E^* = \alpha_{\text{EM}} M_{\text{Pl}}$ where structural tension squared balances gravitational dissipation ($R = U^2/P = 1$), unlocking the confinement boundary. The exact same pole pair produces Dirac's famous large number ($2.27\times 10^{39}$) as an ordinary operating point ($U/P$) at the scale of the atom.
+
+✅ **The pion-to-electron mass ratio derived to 2.8 parts per million with zero free parameters.**
+Evaluating the lone exterior edge of the 4-pole spatial cell gives $m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha = 273.13166$—matching the laboratory value ($273.13244$) to **$-2.84\text{ ppm}$**, with the tiny $397\text{ eV}$ remainder sitting right at standard chiral/electromagnetic dressing ($2.2\sigma$).
+
+✅ **Why gravity has no graviton, why it never cancels out, and why dark matter never shines.**
+Gravity is the real scalar cost ($P$) that the other three roles pay to stand their ground. Because it enters as a *square* (burning off the $\pm$ sign), masses can never cancel out the way opposite electric charges cancel in an atom. Static gravity is the balanced hold; gravitational waves are what that hold emits when it shifts—real ripples like sound in a crystal, with no "particle of sound" required. And dark matter is simply a bounded whole that confines its electric potential the way a proton confines color, leaking only weight.
+
+✅ **Why the cosmological constant is $10^{-122}$—and why dark energy weakens over time.**
+A uniform vacuum energy drops out of the trace-free Einstein equations completely—empty space has no weight of its own. What remains as $\Lambda$ is the statistical uncertainty ($\sim 1/\sqrt{N_4}$) of a finite cosmic ledger of $N_4 \approx 10^{244}$ Planck cells, locking curvature, horizon angle, horizon entropy, and 4-volume into one exact identity ($\Lambda\ell_P^2 = 3\theta_\Lambda^2 = 3\pi/S_\Lambda = 3/\sqrt{N_4} \approx 2.85\times 10^{-122}$). Because a growing count shrinks $1/\sqrt{N_4}$, dark energy drifts downward across cosmic epochs with no ghost fields required.
+
+✅ **Why the universe locks to one handedness and an arrow of time.**
+Closing a 3D tetrahedron's four faces forces a rank-3 algebraic lock over 4 face bits, leaving **one single global handedness bit** free. Driving that cell along the 5th frequency axis ($\omega$) turns it into a helical ratchet that must erase the unchosen mirror branch at every commit (paying the 1-bit Landauer price), locking the ledger to one chiral hand so history compiles forward instead of stalling against itself.
+
+✅ **And the whole framework stands on four live, falsifiable experimental gates—no hiding.**
+It lives or dies in the open on four real measurements: whether a Casimir cavity weighs ($\text{Archimedes}$), whether dark energy keeps drifting ($\text{DESI / Euclid / Rubin / Roman}$), whether xenon tanks stay dark down to the neutrino floor ($\text{LZ}$), and whether two masses coupled by gravity alone entangle across a boundary wall ($\text{BMV}$).
 
 ---
 
@@ -65,6 +109,8 @@ The third matching has no freedom left, and it lands. The pure-exterior edge $U$
 
 Three matchings, three canonical partitions, no remainder, one seating. This is a combinatorial closure and its sample size is one.
 
+In the attractor taxonomy (`L4-AttractorSpace`, Part One, **The Conservative Field**—Mutable collapse $\{P\text{--}I,\ U\text{--}R\} \to 0$, the diagonals the system's cheapest motion), this places the vacuum in the Mutable matching's wake: $U$–$R$ as the vacuum's unbroken massless carriers, $P$–$I$ as the un-priced writing head (`Q4` §II)—the free-diagonal subsidy under chemistry and phase change—while the Fixed and Cardinal axes hold the visible confinement and the electroweak stiffness.
+
 ---
 
 ## 2. Twenty-Four Seatings, Twelve Equations
@@ -107,7 +153,7 @@ The partitions of §1 and the sweep here are independent instruments. One uses n
 
 Four roles need four behaviours. Where three of the forces behave alike there are not four roles, there is no potential to drop, no flow to choke, no ground to push against, and the twelve equations have nothing to close on. The unbroken phase is not a higher, purer state of the machine. It is the machine switched off.
 
-So symmetry breaking is the ignition stroke. The same conclusion arrives from Part Two by a road that uses no curves: a scale-free phase has no trace, and without a trace there is no rest mass, no scalar curvature, and no stiffness for curvature to act against (§III, §V). Two instruments, one verdict. **An engine runs on the refusal of its poles to be identical.** Above the weak threshold it closes across tiers (§4, §6). On a single sheet it closes in the infrared, which is where every interior is.
+So symmetry breaking is the ignition stroke. The same conclusion arrives from Part Two by a road that uses no curves: a scale-free phase has no trace, and without a trace there is no rest mass, no scalar curvature, and no stiffness for curvature to act against (§III, §V). Three instruments, one verdict: the coupling sweep, the trace identity (§III, §V), and the attractor taxonomy (`L4-AttractorSpace`, Part One, **The Isotropic Pole**—the pre-Higgs symmetry state, Cardinal collapse $\{P\text{--}R, I\text{--}U\} \to 0$: every pairing equally cheap, the discriminating cost that makes a write meaningful gone, and the ledger stalls until the Higgs re-stiffens $I$–$U$ to restore it). `L4-Thermodynamics` §IV Facet 3 is the same arrest in algebra: flux $P = UI$, so a frame out of phase with its blanket ($I \to 0$) generates zero entropy flux at any capacity $U$ it holds. **An engine runs on the refusal of its poles to be identical.** Above the weak threshold it closes across tiers (§4, §6). On a single sheet it closes in the infrared, which is where every interior is.
 
 The directional readings of the twelve under the forced seating are the physics of that infrared:
 
@@ -418,7 +464,7 @@ These are hadronic weight, field self-energy, and electroweak weight — three c
 
 Look at the first channel again. $P = I^2R$ has no slot for charge and no terminal on the photon bus. Weight does not need light.
 
-Every whole has all four poles. The twelve hold at once (`L3-FormalFoundations`, Postulate II), and a whole with no potential of its own has $P = UI = 0$ and weighs nothing. So the dark thing is not an engine with a terminal missing. It is an engine whose terminals do not reach ours. Its potential closes inside its own blanket, the way colour closes inside a hadron. Its flow and its ground are its own. One pole crosses every blanket there is, because nothing screens a square.
+Every whole has all four poles. The twelve hold at once (`L3-FormalFoundations`, Postulate II), and a whole with no potential of its own has $P = UI = 0$ and weighs nothing. So the dark thing is not an engine with a terminal missing. It is an engine whose terminals do not reach ours. `L4-Thermodynamics` §IV Facet 3 is the arithmetic: $P = UI$ across a blanket, and with no phase contact across it the transparency term $I_{\text{EM/weak}} \to 0$ zeroes the crossing flux regardless of how much capacity sits confined inside. Its potential closes inside its own blanket, the way colour closes inside a hadron. Its flow and its ground are its own. One pole crosses every blanket there is, because nothing screens a square.
 
 **Dark matter is not a missing particle. It is the nesting rule with one more pole confined.** A hadron confines colour and leaks charge and weight. An atom cancels charge and leaks weight. A dark whole confines its potential as well and leaks weight alone. It gravitates with full fidelity and it never shines. A city wired entirely in fibre is silent on every radio band, and it weighs what it weighs.
 
@@ -446,9 +492,11 @@ print(round(197.3269804/139.57039, 3))      # 1.414 fm   hbar / (m_pi c)
 
 The margin buys something. The square of the pion's mass is proportional to the quark mass (Gell-Mann, Oakes and Renner). At ninety degrees the pion is massless and the residual force between hadrons reaches without limit. With the margin the pion weighs 140 MeV and the fringe of the hold dies away in 1.4 femtometres. The standoff is what gives the bulkhead a skin of finite thickness, and nuclei their size.
 
+In the AC and attractor registers (`Q4` §III; `L4-AttractorSpace`, Part One), pure chromodynamics sits at the **Apeiric** reactive limit—maximum Apparent Power with zero Real Power: enormous capacity circulating, none of it committed to output ($\cos 90^\circ = 0$). The Synthesis channel cannot price any of it: `Q4` §III pins $P = UI$ to in-phase transfer, Power Factor $\cos\theta = 1.0$, and a purely reactive loop has no in-phase component to project. Distinct from the $180^\circ$ Torsional anti-synchrony, which is no resting state at all—co-required edges out of phase orbit and never arrive, uninhabitable by construction. The $9\%$ quark-mass term supplies the non-zero Synthesis projection ($\cos 84.8^\circ = 0.09$) toward `TD0` phase-lock.
+
 From outside, at rest, the same energy reads as real, with nothing held. The blanket is where the turn happens.
 
-Statics says a weight held at arm's length does no work. The arm disagrees inside three minutes. Holding is an activity: the fibres let go and catch without pause, and every catch is paid for. The proton holds the same way and does not tire, because its circulation closes on itself. **Mass is phase-locked motion caught in a standing loop.** From outside, the loop reads as a number. Inside, it is the pressure of §VII going round.
+Statics says a weight held at arm's length does no work. The arm disagrees inside three minutes. Holding is an activity: the fibres let go and catch without pause, and every catch is paid for. The proton holds the same way and does not tire, because its circulation closes on itself. **Mass is phase-locked motion caught in a standing loop.** `L4-Thermodynamics` §VII.3 names the lock: Resonance, $\theta \to 0^\circ$—inductive memory and capacitive anticipation cancel on the imaginary axis, the internal circulation runs free, and the blanket turns transparent to real power. From outside, the loop reads as a number. Inside, it is the pressure of §VII going round.
 
 `On_TheGravityDerivation` §III carries the same division in Jacobson's terms. The equilibrium Clausius relation, reversible, gives the Einstein equation. The irreversible term, the entropy production $d_iS$ of Eling, Guedens and Jacobson, is the viscosity of a horizon. **Static gravity is the dissipation that holds. Radiation is what the hold emits when it shifts** (§VIII).
 
@@ -503,6 +551,8 @@ Nothing in the square at $P$ erases that phase. The square is taken inside each 
 
 So the question is whether it is available branch by branch, and that is a question about a wall. `L3-TheSixWalls` §IV files the ways a finite exterior fails to reach an interior onto the six edges. Two of them meet in this experiment.
 
+Part of the answer is already on the books. By Star-Norm conservation, the three $P$-edges sit at $Z_P = 0$, $\theta_P = 0$, $\tau_P = 0$—and `Q4` §II shows the setting is forced, not assumed: $N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$, and a priced or delayed write would let the norm fluctuate in transit. The three edges are permanently open writing heads, and a commit through them carries no phase: the Route Law's squaring burns the phase, and what lands at $P_A$ is a pure, directionless scalar. A wave needs a phase gradient to propagate; a scalar with none cannot radiate through $H_{\text{incoh}}$ to signal a distant partner, and the partner's reduced density matrix $\rho_B$ stays invariant—not one local statistic shifts (`Q4` §V, the No-Communication Firewall). Dynamic metric waves are a different object: ripples of $H_{\text{incoh}}$ itself rather than $P$-bosons (`Q4` §IV). That settles the collapsed case only—an `.observe()` write cannot signal. What remains open in BMV is whether two uncollapsed masses sitting in `.behold()` couple branch-by-branch prior to collapse:
+
 - **The Readout Wall: quasi-locality, on $P$–$I$.** Laue, Noether, ADM. No local density of gravitational energy can be read from outside. Only a boundary total crosses. $P$–$I$ is the pure-interior edge of §1, the edge gravity itself sits on. If the wall is exact for phase as it is for energy, each mass receives from the other one committed scalar. The cross-term is taken against a total and not against a branch, and nothing entangles. This is the baseline, and it is where `On_TheGravityDerivation` §VII stands: **a null.**
 - **The edge-mode fringe: non-factorizability, on $I$–$R$.** Gauss, Donnelly and Freidel. A region cannot be cut out without creating degrees of freedom on the cut. If the blanket's edge modes are live, the boundary total is not a committed scalar. It is an operator with a value for each branch, the phase leaks through the fringe, and the masses entangle. Then the ripple of the hold is a phonon in the full sense.
 
@@ -526,7 +576,7 @@ M = 1.0; T = 1/(8*math.pi*M); S = 4*math.pi*M**2     # G = hbar = c = k = 1
 print(2*T*S/M, 0.5*(16*math.pi*M**2)*T/M)            # 1.0  1.0
 ```
 
-The mass is twice the temperature times the entropy. Count the horizon in Planck cells, $N = A/\ell_P^2$ with $S = N/4$, and the same relation reads $M = \tfrac12 N k_B T$: one half $k_BT$ per cell. `L4-Thermodynamics` §V gives $\tfrac12 k_BT$ per held degree of freedom as the standing budget for holding. At a horizon that budget, summed over the cells, is the mass.
+The mass is twice the temperature times the entropy. Count the horizon in Planck cells, $N = A/\ell_P^2$ with $S = N/4$, and the same relation reads $M = \tfrac12 N k_B T$: one half $k_BT$ per cell. `L4-Thermodynamics` §V.1 separates the standing **holding budget** ($\tfrac12 k_B T$ per held degree of freedom in $H_{\text{incoh}}$) from the **erasure price** ($k_B T \ln 2$ per bit, ratio $0.72$). `L4-Thermodynamics` §V.2 couples the two meters—the tachometer $P_{\text{rest}} = mc^2\omega$ and the price meter $P_{\text{diss}} = T\dot S$—only at the Planckian dissipation limit: at $\omega \approx k_B T/\hbar$, temperature and frequency cancel identically, and the ratio of dissipated flux to resting stock collapses into the Compton timescale, $P_{\text{diss}}/P_{\text{rest}} = \dot N \ln 2 \cdot \tau_C$ with $\tau_C = \hbar/mc^2$—a bit-count through the boundary, not a reading off either dial, so the budget's $\tfrac12$ and the erasure price's $\ln 2$ never trade places. At a horizon the mass prices on the holding budget, summed over the cells.
 
 For a proton the cost of being is a volume integral and the record is elsewhere. For a deuteron the making returned energy and the being costs 1875.6 MeV, and the two numbers have almost nothing to do with each other (`On_YangMills-Annotated` §VII). For a black hole the being is the temperature times the record. **The distinction between pen and book that `L4-Thermodynamics` §II guards everywhere else closes at the horizon.** That is why Jacobson's derivation works where it does: he writes the Clausius relation on local horizons, the one kind of surface on which what is held and what is written are proportional.
 
