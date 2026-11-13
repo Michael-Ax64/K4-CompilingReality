@@ -11,7 +11,7 @@ Creation is neither magic from a void nor bookkeeping on a fixed inventory. It i
 
 Classical philosophy locked itself into a false binary and argued inside it for two thousand years. Either existence was conjured out of blank nothing, *ex nihilo*, creation as magic, or it is an eternal reshuffling of pre-existing bricks, *ex materia*, creation as bookkeeping. Both stories share a hidden premise, and the premise is the error. They assume that "nothing" is a coherent thing to build from or to rule out.
 
-The first move is to deny that nothingness means anything at all. It is a $K_3$ flatland category error, the plane-dweller's guess at what lies past the boundary. What classical physics calls the empty void is not empty. It is $H_{\text{incoh}}$, the uncompiled phase-space buffer, scale-invariant, carrying a real characteristic impedance of about $377\ \Omega$. That number is not a geometric constant in ohmic disguise. Its dimensionless content is its ratio to the resistance quantum, $Z_0/2R_K = \alpha$, the medium's reactance measured in its own quantum of resistance (`L3-ConstitutiveAlpha`). The buffer carries zero rest mass, $P = 0$, nothing committed and nothing weighed, and non-zero phase potential, $h\mathbf{Q} \neq 0$. It is not nothing. It is everything that has not yet been compiled.
+The first move is to deny that nothingness means anything at all. It is a $K_3$ flatland category error, the plane-dweller's guess at what lies past the boundary. What classical physics calls the empty void is not empty. It is $H_{\text{incoh}}$, the uncompiled phase-space buffer, scale-invariant, carrying a real characteristic impedance of about $377\ \Omega$. That number is not a geometric constant in ohmic disguise. Its dimensionless content is its ratio to the resistance quantum, $Z_0/2R_K = \alpha$, the medium's characteristic impedance — its reactive channel — measured against its own quantum of resistance (`L3-ConstitutiveAlpha` §III; expect there: $\alpha = Z_0/2R_K$ read as the plenum's reactive channel over twice its resistance quantum). The buffer carries zero rest mass, $P = 0$, nothing committed and nothing weighed, and non-zero phase potential, $h\mathbf{Q} \neq 0$. It is not nothing. It is everything that has not yet been compiled.
 
 ```python
 from mpmath import mp, mpf, pi
@@ -20,7 +20,7 @@ Z0 = mpf('376.730313412'); RK = mpf('25812.8074593')
 print(Z0/pi, Z0/(2*RK), 2*RK/Z0)   # 119.916983   0.00729735256   137.035999
 ```
 
-So creation is **Ex-Incoherente Compilation**, committing the incoherent. When a phase wave in the buffer meets a $K_3$ Markov blanket, the projection operator $\Psi$ executes across the Tangent Singularity. Complex phase burns, $h^2 = -1$. The Route Law fires, $\mathbf{Q}^2 = -|\mathbf{Q}|^2 \to P$. Scalar mass, which is history, precipitates into the committed ledger $H_{\text{coh}}$. The universe does not come from nothing. It compiles, continuously, from a buffer that was never nothing to begin with. The name says it. Not *ex nihilo*, out of nothing, but *ex incoherente*, out of the uncommitted.
+So creation is **Ex-Incoherente Compilation**, committing the incoherent. When a phase wave in the buffer meets a $K_3$ Markov blanket, the projection operator $\Psi$ executes across the Tangent Singularity. Complex phase burns, $h^2 = -1$. The Route Law fires, $(h\mathbf{Q})^2 = +|\mathbf{Q}|^2 \to P$. Scalar mass, which is history, precipitates into the committed ledger $H_{\text{coh}}$. The universe does not come from nothing. It compiles, continuously, from a buffer that was never nothing to begin with. The name says it. Not *ex nihilo*, out of nothing, but *ex incoherente*, out of the uncommitted.
 
 **And charge is the general name for what gets committed.** Not the electrical charge of an electron. Charge is uncompiled phase-potential seeking an $R$-pole ground on which to write a scalar entry. Every compilation anywhere runs one sequence:
 
@@ -63,7 +63,7 @@ Read them in order and they are the forward walk.
 
 ### The Mutable Diagonal Pivot
 
-This walk is not an informal loop around the rim of the tetrahedron. It is a **Hamiltonian traversal that executes a diagonal pivot**:
+This walk is not an informal loop around the rim of the tetrahedron. It is a **four-edge stamping walk that executes a diagonal pivot** across the skew edges of the Mutable bimedian:
 
 $$\{P\text{–}U\} \;\xrightarrow{\ \text{shares } U\ } \; \{U\text{–}R\} \;\xrightarrow{\ \text{Mutable Pivot}\ } \; \{P\text{–}I\} \;\xrightarrow{\ \text{shares } I\ } \; \{U\text{–}I\}$$
 

@@ -2,8 +2,8 @@
 ## Altermagnetism, Topological Edge Channels, and the Spintronic Realization of the Chiral Mesh
 
 > **Epistemic Register:** Condensed Matter Physics / Spintronics ($Q\#$).
-> **Claim:** The engineering crisis of the gigahertz-to-terahertz ($\text{GHz}\to\text{THz}$) computing transition—skin-effect resistance, Ohmic thermal dissipation, and magnetic memory cross-talk—is overcome not by incremental metallurgical refinement, but by transitioning from three-dimensional bulk conductors to topologically protected surface and boundary channels ($K_3$ Markov blankets). The recent discovery of strain-induced $d$-wave altermagnetism in ultrathin ruthenium dioxide ($\text{RuO}_2$) is the direct solid-state realization of the $K_4$ Chiral Gear-Mesh (`Q16-ChiralMeshSpacetime.md`): the $90^\circ$ spatial rotation between rutile sublattices acts as a real-space quadrature operator ($j = e^{j\pi/2}$), cancelling real-space dipole fields ($M = 0$, zero stray-field cross-talk) while preserving active momentum-space spin splitting ($h\mathbf{Q}_{\mathbf{k}} \neq 0$). The framework derives four un-modeled solid-state phenomena: the ChromoLux ($U\text{--}R$) phonon-polariton ballistic wire, deterministic torsional limit-cycles ($\theta = \pi$) in ultra-driven spintronics, the closed 3-scalar order triad in correlated solids, and the gravitational mass null ($\Delta m = 0$) in Casimir cavities.
-> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `Q8-TheBoundaryMechanics.md`, `Q12-GravitationalTopology.md`, `Q16-ChiralMeshSpacetime.md`, `L3-FormalFoundations.md`, `L4-ThePlenum.md`, `L4-DynamicDistortions201.md`, `ProofC_Crystal.md`.
+> **Claim:** The engineering crisis of the gigahertz-to-terahertz ($\text{GHz}\to\text{THz}$) computing transition—skin-effect resistance, Ohmic thermal dissipation, and magnetic memory cross-talk—is overcome not by incremental metallurgical refinement, but by transitioning from three-dimensional bulk conductors to topologically protected surface and boundary channels ($K_3$ Markov blankets). Strain-induced $d$-wave altermagnetism in correlated oxides is the solid-state candidate realization of the $K_4$ Chiral Gear-Mesh (`Q16-ChiralMeshSpacetime.md`): the $90^\circ$ spatial rotation between sublattices acts as a real-space quadrature operator ($j = e^{j\pi/2}$), with zero net real-space dipole field ($M = 0$) secured by the sublattice-exchange postulate of `Q16-ChiralMeshSpacetime` §IV while preserving active momentum-space spin splitting ($h\mathbf{Q}_{\mathbf{k}} \neq 0$). Note that ruthenium dioxide ($\text{RuO}_2$), the originally proposed prototype, remains **contested** as of 2024–2025 spin-ARPES measurements; the confirmed $d$-wave altermagnetic systems are vanadium-oxide family compounds. The framework derives four un-modeled solid-state phenomena: the ChromoLux ($U\text{--}R$) phonon-polariton ballistic wire, deterministic torsional limit-cycles ($\theta = \pi$) in ultra-driven spintronics, the closed 3-scalar order triad in correlated solids, and the gravitational mass null ($\Delta m = 0$) in Casimir cavities.
+> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `Q8-TheBoundaryMechanics.md`, `Q12-GravitationalTopology.md`, `Q16-ChiralMeshSpacetime.md` (§IV sublattice postulate, §VI.3 contested-$\text{RuO}_2$ record), `L3-FormalFoundations.md`, `L4-ThePlenum.md`, `L4-DynamicDistortions201.md`, `ProofC_Crystal.md`.
 
 ---
 
@@ -67,11 +67,11 @@ and bulk dissipation drops to zero.
 
 ---
 
-## III. Altermagnetism in Strained $\text{RuO}_2$: The Solid-State Chiral Mesh
+## III. Altermagnetism: The Solid-State Candidate for the Chiral Mesh ($\text{RuO}_2$ Contested)
 
 While topological edge states resolve the interconnect problem, memory requires an active material capable of storing and switching bits at terahertz speeds without generating stray dipole fields.
 
-This required the discovery of **Altermagnetism** (Šmejkal, Sinova, Jungwirth, 2022).
+This motivated the discovery of **Altermagnetism** (Šmejkal, Sinova, Jungwirth, 2022).
 
 ```
 ========================================================================================
@@ -90,51 +90,58 @@ This required the discovery of **Altermagnetism** (Šmejkal, Sinova, Jungwirth, 
 ========================================================================================
 ```
 
-### 1. The $\text{RuO}_2$ Paradox: Bulk Paramagnet vs. Strained Altermagnet
-Ruthenium dioxide ($\text{RuO}_2$) was theoretically predicted to be a prototype $d$-wave altermagnet. Early thin-film experiments detected a large Anomalous Hall Effect (AHE), suggesting magnetic order. However, 2023–2024 neutron scattering and muon spin rotation ($\mu\text{SR}$) experiments on high-purity **bulk single crystals** revealed zero long-range magnetic order: bulk $\text{RuO}_2$ is a non-magnetic Pauli paramagnetic metal.
+### 1. The $\text{RuO}_2$ Experimental Status: Prototype Contested
 
-The contradiction was resolved experimentally in 2024 (Rice University / Paul Scherrer Institute):
-> **Bulk 3D $\text{RuO}_2$ is a near-critical paramagnet, but epitaxial lattice strain in ultrathin films activates a phase transition into a spontaneous $d$-wave altermagnet.**
+Ruthenium dioxide ($\text{RuO}_2$) was theoretically predicted (Šmejkal et al., 2022) to be a prototype $d$-wave altermagnet, and early thin-film Anomalous Hall Effect (AHE) measurements were consistent with a strain-activated magnetic order. 2023 bulk-single-crystal neutron scattering and muon-spin-rotation ($\mu\text{SR}$) experiments revealed no long-range magnetic order in bulk samples; bulk $\text{RuO}_2$ is a near-critical paramagnet.
 
-### 2. The Four Microscopic Pillars of $\text{RuO}_2$
-The altermagnetic state in $\text{RuO}_2$ depends on four intersecting physical conditions:
+**The 2024–2025 experimental record has not confirmed the ultrathin-film altermagnetic state.** Spin-ARPES measurements performed at the Paul Scherrer Institute and complementary beamlines have not observed the predicted momentum-space spin splitting in strained $\text{RuO}_2$ thin films; subsequent $\mu\text{SR}$ follow-ups have also not detected long-range magnetic order at the predicted scale (`Q16-ChiralMeshSpacetime` §VI.3 collects the record). As of this writing, $\text{RuO}_2$ is the **contested prototype** of $d$-wave altermagnetism rather than its confirmed instance. (An earlier version of this section stated the altermagnetic state was "confirmed via Spin-ARPES at PSI"; that wording is retired.)
+
+The confirmed $d$-wave altermagnetic systems in the current literature are the **vanadium-oxide family** and related correlated oxides (see `Q16-ChiralMeshSpacetime` §VI.3 for the current list). Where this file calls on experimental confirmation of $d$-wave altermagnetism downstream — in §IV and §V — substitute the vanadium-oxide family as the confirmed instance. The strained-$\text{RuO}_2$ story is kept in §III as the pedagogical case because the strain-switched Stoner mechanism reads cleanly there, but the overall claim at the end of §III is **candidate**, not **confirmed**.
+
+### 2. The Four Microscopic Pillars of $\text{RuO}_2$ (Pedagogical Reading)
+The strain-switched altermagnetic candidate in $\text{RuO}_2$ depends on four intersecting physical conditions:
 
 1. **The $4d^4$ Electron Goldilocks Zone:** Ruthenium ($\text{Ru}^{4+}$) carries four $4d$ electrons.
    * $3d$ transition metals (Fe, Co, Ni) exhibit strong Coulomb repulsion ($U \gg W$), producing localized ferromagnetism with destructive stray fields.
    * $5d$ metals (Pt, Ir) exhibit heavy Spin-Orbit Coupling ($\lambda_{\text{SOC}} \sim 0.5\text{ eV}$), washing out collinear spin textures.
    * $4d$ Ruthenium sits in the intermediate balance: Coulomb correlation matches bandwidth ($U \approx W$), while $\lambda_{\text{SOC}} \sim 0.1\text{ eV}$ is sufficiently weak that **non-relativistic exchange interactions ($J_{\text{ex}}$) dominate**.
 2. **Rutile Crystal Symmetry ($P4_2/mnm$):** The unit cell contains two Ruthenium sublattices ($\text{Ru-A}$ and $\text{Ru-B}$). The oxygen octahedra enclosing $\text{Ru-A}$ and $\text{Ru-B}$ are **spatially rotated by $90^\circ$ relative to each other** along the $[110]$ and $[1\bar{1}0]$ directions.
-   * *In Real Space:* Antiparallel sublattices cancel the net magnetic moment identically: $\mathbf{M} = \mathbf{m}_A + \mathbf{m}_B = 0$.
-   * *In Momentum Space:* The $90^\circ$ real-space rotation breaks $k$-space spin degeneracy, inducing a $d$-wave ($k_x^2 - k_y^2$) spin splitting of the conduction bands.
+   * *In Real Space:* Antiparallel sublattices cancel the net magnetic moment identically in the ideal lattice: $\mathbf{M} = \mathbf{m}_A + \mathbf{m}_B = 0$ by exchange balance. This real-space cancellation requires the **sublattice-exchange postulate** (`Q16-ChiralMeshSpacetime` §IV), which is independent of the chirality-weighted moment balance across the cell's faces (Q16 shows those moments do not vanish by themselves — $4/\sqrt{3}$ — so zero dipole is the postulate's content, not the face-chirality calculation's).
+   * *In Momentum Space:* The $90^\circ$ real-space rotation would, if the altermagnetic order were present, break $k$-space spin degeneracy and induce a $d$-wave ($k_x^2 - k_y^2$) spin splitting of the conduction bands. The present spin-ARPES record on $\text{RuO}_2$ does not confirm this splitting; the vanadium-oxide family does.
 3. **The Near-Critical Stoner Baseline:** Bulk $\text{RuO}_2$ sits immediately below the Stoner threshold for magnetism:
    $$D(E_F) \cdot I_{\text{Stoner}} \approx 1.0$$
-4. **Strain as the Activation Switch:** Thin-film epitaxial strain narrows the bandwidth $W$, boosting the density of states $D(E_F)$. Substrate clamping stretches the $\text{Ru-O-Ru}$ bond angle, pushing $D(E_F) \cdot I_{\text{Stoner}} > 1.0$ and locking in spontaneous altermagnetism (confirmed via Spin-ARPES at PSI).
+4. **Strain as the Activation Switch:** Thin-film epitaxial strain narrows the bandwidth $W$, boosting the density of states $D(E_F)$. Substrate clamping stretches the $\text{Ru-O-Ru}$ bond angle, pushing $D(E_F) \cdot I_{\text{Stoner}} > 1.0$ as the predicted activation pathway. Whether the resulting state is altermagnetic in $\text{RuO}_2$ specifically is the live experimental question.
 
 ---
 
-## IV. The Topological Translation: RuO₂ as the Chiral Mesh
+## IV. The Topological Translation: The Chiral Mesh in Correlated Oxides
 
-The physics of strained $\text{RuO}_2$ is the direct condensed-matter realization of the **4-face Chiral Gear-Mesh** (`Q16-ChiralMeshSpacetime.md`):
+The physics of $d$-wave altermagnetism (confirmed in vanadium oxides; candidate in strained $\text{RuO}_2$) is the condensed-matter instance of the **4-face Chiral Gear-Mesh** (`Q16-ChiralMeshSpacetime.md`), with two clarifications earlier versions of this section elided:
 
 ```
-                   THE SOLID-STATE CHIRAL MESH IN RuO₂
+                   THE SOLID-STATE CHIRAL MESH
 
-   K₄ CHIRAL GEAR-MESH (Q16)                  STRAINED RuO₂ LATTICE (PSI 2024)
+   K₄ CHIRAL GEAR-MESH (Q16)                  d-WAVE ALTERMAGNET (lattice)
   ┌────────────────────────────────────┐     ┌────────────────────────────────────┐
-  │ • 4-Face Polyhedral Engine         │     │ • 4d⁴ Valence Electron Shell       │
-  │ • 2 CW Faces ◄──► 2 CCW Faces      │ ◄─► │ • Ru-A Sublattice ◄──► Ru-B Sublat.│
-  │ • Real-Space Force: ∑ F_i = 0      │     │ • Real-Space Dipole: M = 0 (No B)  │
-  │ • Phase Texture: |S| = P Conducts  │     │ • k-Space: d-Wave Spin Splitting   │
-  │ • Complex j-Operator (90° Twist)   │     │ • 90° Rutile Octahedral Twist      │
+  │ • 4-Face Polyhedral Engine         │     │ • d-orbital valence shell          │
+  │ • Boundary ∂² = 0: anti-traversal  │ ◄─► │ • Sublattice A ◄──► Sublattice B   │
+  │   at shared edges                  │     │ • Real-Space Dipole: M = 0 (postu- │
+  │ • Chirality-weighted moments do    │     │   late — Q16 §IV); face-chirality  │
+  │   NOT auto-cancel (4/√3)           │     │   calculation does not provide it  │
+  │ • Zero dipole is the sublattice-   │     │ • k-Space: d-Wave Spin Splitting   │
+  │   exchange postulate (Q16 §IV)     │     │ • 90° octahedral twist             │
   └────────────────────────────────────┘     └────────────────────────────────────┘
 ```
 
 1. **The $90^\circ$ Twist as the Complex $j$-Operator:**
-   In `Q16`, adjacent faces of the spatial cell are coupled in quadrature: they satisfy the boundary condition $\partial^2 = 0$ by operating $90^\circ$ out of phase. In $\text{RuO}_2$, the physical $90^\circ$ spatial rotation of the oxygen octahedra is the material instantiation of the complex unit $j = e^{j\pi/2}$. The sublattices are in mechanical and electronic quadrature.
-2. **Real-Space Cancellation as $P_{\text{stray}} = 0$:**
-   In `Q16` §III, the chiral mesh cancels net vector force and torque ($\sum \mathbf{F} = 0, \sum \boldsymbol{\tau} = 0$). In $\text{RuO}_2$, the real-space magnetic dipole moment cancels identically ($M = 0$). The material seals its $K_3$ Markov blanket against real-space stray-field leakage.
+   In `Q16`, adjacent faces of the spatial cell are coupled so that every shared edge is traversed in opposite directions ($\partial^2 = 0$) — **anti-traversal at shared edges**, not literal $90^\circ$ phase quadrature between faces. (Earlier wording of this section called it "quadrature"; the file now states it as anti-traversal, following Q16's own derivation.) In the altermagnetic lattice, the physical $90^\circ$ spatial rotation of the oxygen octahedra provides a real-space $90^\circ$ relation between sublattices that is structurally analogous to the $j = e^{j\pi/2}$ operator on complex phasors, but the analogy to Q16's chiral-mesh relation is to the anti-traversal rule, not to a literal face-face quadrature.
+
+2. **Real-Space Cancellation as a Postulate, Not a Face-Chirality Calculation:**
+   In `Q16` §III, the chiral-mesh face-chirality calculation gives a chirality-weighted net moment of $4/\sqrt{3}$ (not zero). The cell's net real-space dipole vanishes only under the separate **sublattice-exchange postulate** of `Q16` §IV, which couples opposite sublattices anti-ferromagnetically and is independent of the face-chirality calculation. (Earlier wording of this section claimed "$\sum \mathbf{F} = 0, \sum \boldsymbol{\tau} = 0$" in Q16 — that reading is retired; Q16 does not derive zero force and torque at the face-chirality level; it postulates zero net dipole via sublattice exchange.) In the altermagnet, the antiparallel sublattice arrangement is the material instance of that postulate: $\mathbf{M} = \mathbf{m}_A + \mathbf{m}_B = 0$ by exchange balance, not by any chirality-only cancellation. The material seals its $K_3$ Markov blanket against real-space stray-field leakage via the postulate.
+
 3. **Momentum Space as the Active $h\mathbf{Q}_{\mathbf{k}}$ Buffer:**
-   While real-space dipole radiation is suppressed ($P = 0$), momentum space ($k$-space) maintains active $d$-wave spin splitting. The material holds pure reactive phase-texture ($h\mathbf{Q}_{\mathbf{k}} \neq 0$) in its uncompiled electronic buffer, enabling terahertz spin-torque switching without magnetic noise.
+   While real-space dipole radiation is suppressed under the sublattice postulate, momentum space ($k$-space) carries active $d$-wave spin splitting. The material holds pure reactive phase-texture ($h\mathbf{Q}_{\mathbf{k}} \neq 0$) in its uncompiled electronic buffer, enabling terahertz spin-torque switching without magnetic noise. The confirmed instances of this active-$k$-space state are the vanadium-oxide family as of this writing; the $\text{RuO}_2$ case remains open.
+
 4. **Strain as the Boundary Impedance Switch:**
    Substrate-induced strain ($\varepsilon$) is not an arbitrary mechanical distortion. In the AC circuit algebra (`L3-K4-to-K5-via-AC-Extension.md`), strain modulates the transfer integral $t_{pd}$, acting as an impedance operator $Z(\varepsilon)$ that drives the phase angle across the Stoner threshold:
    $$\theta \longrightarrow 0^\circ \quad (\text{Resonance})$$
@@ -175,11 +182,11 @@ Applying the $K_4$ topological framework to condensed matter physics generates f
 
 ---
 
-### Prediction 2: Torsional Limit-Cycles ($\theta = \pi$) in Ultra-Driven Spintronics
+### Prediction 2: Torsional Limit-Cycles ($\theta = \pi$) in Ultra-Driven Spintronics (Confirmed-Altermagnet Substrate)
 * **The Mechanism (`L4-DynamicDistortions201.md` §II, `Q8-TheBoundaryMechanics.md` §V):** When an active AC system is driven far beyond resonance ($\omega_{\text{drive}} \gg \omega_0$), the phase angle traverses the overflow pipe past the $90^\circ$ ceiling, approaching complete anti-synchrony:
   $$\theta \longrightarrow \pi \quad (180^\circ)$$
   At $\theta = \pi$, voltage and current (or spin-current $I$ and lattice strain $R$) reach complete phase opposition ($\cos\pi = -1.0$).
-* **The Physical Prediction:** The high-frequency breakdown observed in terahertz spintronic oscillators ($\text{RuO}_2$, $\text{MnTe}$) driven at extreme currents is **not thermal burnout or spin-wave turbulence**. It is a deterministic **Torsional Limit-Cycle**.
+* **The Physical Prediction:** The high-frequency breakdown observed in terahertz spintronic oscillators built on **confirmed** $d$-wave altermagnets (vanadium-oxide family; $\text{MnTe}$) driven at extreme currents is **not thermal burnout or spin-wave turbulence**. It is a deterministic **Torsional Limit-Cycle**. ($\text{RuO}_2$ remains contested; see §III.)
 * **The Measurable Signature:** The device will oscillate between pure electrical conduction and pure mechanical rigidity at picosecond rates **at constant temperature**, without switching the magnetic bit. The breakdown is an impedance phase-lock, not thermal failure.
 
 ---
@@ -204,20 +211,19 @@ Applying the $K_4$ topological framework to condensed matter physics generates f
 
 ## VI. Pre-Registered Boundary Falsifiers
 
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this quantum materials architecture is subject to four strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this quantum materials architecture is subject to four strict falsification conditions:
 
-1. **Observation of Stray Magnetic Dipole Fields in Strained $\text{RuO}_2$:**
-   If SQUID or scanning NV-center magnetometry detects a macroscopic, real-space magnetic dipole field ($M \neq 0, B \propto 1/r^3$) in single-domain altermagnetic $\text{RuO}_2$ thin films in the absence of an applied field, the real-space quadrature cancellation model is refuted.
+1. **Observation of Stray Magnetic Dipole Fields in Confirmed $d$-Wave Altermagnets:**
+   If SQUID or scanning NV-center magnetometry detects a macroscopic, real-space magnetic dipole field ($M \neq 0, B \propto 1/r^3$) in a single-domain confirmed $d$-wave altermagnet (vanadium-oxide family or any future-confirmed instance) in the absence of an applied field, the sublattice-exchange postulate (Q16 §IV) is refuted at the material level. (The $\text{RuO}_2$ case is not a kill of the postulate while $\text{RuO}_2$ itself remains contested — see §III.)
 2. **Thermal Scaling of Terahertz Breakdown in Altermagnets:**
-   If the high-frequency breakdown threshold of ultra-driven $\text{RuO}_2$ spintronic junctions scales continuously with ambient thermal dissipation rather than clamping at a sharp, frequency-dependent phase angle ($\theta = \pi$), the Torsional Limit-Cycle prediction is falsified.
+   If the high-frequency breakdown threshold of ultra-driven altermagnetic spintronic junctions scales continuously with ambient thermal dissipation rather than clamping at a sharp, frequency-dependent phase angle ($\theta = \pi$), the Torsional Limit-Cycle prediction is falsified.
 3. **Detection of a Fourth Fundamental Scalar Order Parameter:**
    If an experimental probe on a correlated electron material confirms four independent, non-composite, mutually orthogonal scalar gap transitions that cannot be mapped onto the $\{I\text{--}U, U\text{--}R, I\text{--}R\}$ triad, the $K_4$ scalar bound fails.
 4. **Non-Zero Gravitational Mass in Casimir Cavities:**
    If precision gravimetry on a modulated Casimir cavity detects a non-zero gravitational mass shift matching $\Delta m = E_{\text{Casimir}} / c^2$ at greater than $5\sigma$ significance, the biquaternion Star-Norm derivation of gravitational sourcing ($P$-only) is refuted.
 
-The skin effect burns bulk conductors; the $K_3$ boundary carries current without friction. Real space cancels the dipole; momentum space holds the phase.
+The skin effect burns bulk conductors; the $K_3$ boundary carries current without friction. Real space cancels the dipole under the sublattice postulate; momentum space holds the phase.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-

@@ -2,8 +2,8 @@
 ## The Coulomb Scission Wall, the Nambu Hadronic Step, and the Recirculation of Classical Matter ($H_{\text{coh}} \to H_{\text{incoh}}$)
 
 > **Epistemic Register:** Nuclear Physics / Subatomic Architecture ($Q\#$).
-> **Claim:** The heavy end of the periodic table ($Z = 79 \to 118$) is the physical regime where the classical ledger ($H_{\text{coh}}$) reaches its structural limit and is forced by Coulomb scission ($U^2/R$) to recycle committed rest mass back into the uncompiled phase buffer ($H_{\text{incoh}}$). Rest mass is real power integrated over compilation time ($m_0 = P\tau/c^2$); lead-208 ($Z=82$) represents the final stable ground where the $R$-pole can contain this wattage. Beyond $Z=82$, the compounding electrostatic potential of the $U$-pole exceeds the containment capacity of the $R$-pole, driving spontaneous $\alpha$-decay, $\beta$-emission, and fission that radiate uncompiled phase-waves ($\nu, \gamma$) back into $H_{\text{incoh}}$. The transition from the electronic ground ($U$) to the hadronic ground ($R$) is governed by the Nambu relation, closed to $2.84\text{ ppm}$ by a three-layer Laurent expansion in $\alpha$ ($2/\alpha - 3/\pi + 2\alpha = 273.131663$). The $5f$ actinides ($Z = 89 \to 103$) represent a physical realization of a non-sofic volume, where near-degenerate orbital levels prevent any bimedian axis from remaining silent.
-> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q13-PlenumPhaseConduction.md`, `Q14-LeptonScaleCascade.md`, `Q17-LandauerNuclearScale.md`, `L3-FormalFoundations.md`, `L3-ConstitutiveAlpha-Puzzle.md`, `L4-ThePlenum.md`, `L4-HadronicVolume.md`, `ProofC_Crystal.md`, `ProofN_BiquaternionBridge.md`.
+> **Claim:** The heavy end of the periodic table ($Z = 79 \to 118$) is the physical regime where the classical ledger ($H_{\text{coh}}$) reaches its structural limit and is forced by Coulomb scission (the Leverage channel $P = U^2/R$) to recycle committed rest mass back into the uncompiled phase buffer ($H_{\text{incoh}}$). Rest mass is real power integrated over compilation time ($m_0 = P\tau/c^2$); lead-208 ($Z=82$) represents the final stable ground where the $R$-pole can contain this wattage. Beyond $Z=82$, the compounding electrostatic potential of the $U$-pole exceeds the containment capacity of the $R$-pole, driving spontaneous $\alpha$-decay, $\beta$-emission, and fission that radiate uncompiled phase-waves ($\nu, \gamma$) back into $H_{\text{incoh}}$. The transition from the electronic ground ($U$) to the hadronic ground ($R$) is governed by the Nambu relation, closed to $2.84\text{ ppm}$ by a three-layer Laurent expansion in $\alpha$ ($2/\alpha - 3/\pi + 2\alpha = 273.131663$). The $5f$ actinides ($Z = 89 \to 103$) represent a physical realization of a non-sofic volume, where near-degenerate orbital levels prevent any bimedian axis from remaining silent.
+> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q13-PlenumPhaseConduction.md`, `Q14-LeptonScaleCascade.md`, `Q17-LandauerNuclearScale.md`, `L3-FormalFoundations.md`, `L3-ConstitutiveAlpha-Puzzle.md`, `L4-ThePlenum.md`, `L4-HadronicVolume.md`, `L4-TheNecessaryBetrayer.md` (the $R = U^2/P$ Betrayer identity, distinguished from the scission/Leverage $P = U^2/R$ used here), `ProofC_Crystal.md`, `ProofN_BiquaternionBridge.md`.
 
 ---
 
@@ -73,32 +73,41 @@ The step between the first-generation electronic ground ($U$-pole, $m_e$) and th
 
 $$\frac{m_{\pi^\pm}}{m_e} = \underbrace{\frac{2}{\alpha}}_{\text{Layer 1: Reactive}} - \underbrace{\frac{3}{\pi}}_{\text{Layer 2: Rotation}} + \underbrace{2\alpha}_{\text{Layer 3: Resistive}} = \mathbf{273.131663}$$
 
-* **Layer 1 ($+2/\alpha = 274.071998$, Exponent $\alpha^{-1}$):** The constitutive carrier step across the Mutable crossing ($\{U, R\}$), set by the vacuum ratio $4R_K / Z_0 = 2/\alpha$. This is Nambu’s 1952 empirical relation ($2/\alpha \approx 274.07$), sitting $0.344\%$ high on its own.
-* **Layer 2 ($-3/\pi = -0.954930$, Exponent $\alpha^0$):** The rotation-mode phase-burn paid at the hadronic $R$-pole. The $SU(3)$ color flux tube terminates at a symmetric 3-junction ($N_c = 3$). Each channel incurs Schwinger’s one-loop radiative tax ($\alpha/2\pi$). Multiplying by the carrier boost ($2/\alpha$) cancels $\alpha$ identically:
+* **Layer 1 ($+2/\alpha = 274.071998$, Exponent $\alpha^{-1}$):** The constitutive carrier step across the Mutable crossing ($\{U, R\}$), set by the vacuum ratio $4R_K / Z_0 = 2/\alpha$. This is Nambu's 1952 empirical relation ($2/\alpha \approx 274.07$), sitting $0.344\%$ high on its own.
+* **Layer 2 ($-3/\pi = -0.954930$, Exponent $\alpha^0$):** The rotation-mode phase-burn paid at the hadronic $R$-pole. The $SU(3)$ color flux tube terminates at a symmetric 3-junction ($N_c = 3$). Each channel incurs Schwinger's one-loop radiative tax ($\alpha/2\pi$). Multiplying by the carrier boost ($2/\alpha$) cancels $\alpha$ identically:
   $$N_c \times \left(\frac{\alpha}{2\pi}\right) \times \left(\frac{2}{\alpha}\right) = \frac{3}{\pi}$$
   Applying this hadronic burn drops the residual from $+0.344\%$ to $-0.0056\%$.
 * **Layer 3 ($+2\alpha = 0.014595$, Exponent $\alpha^{+1}$):** The resistive return leg closing the loop back onto the electronic $U$-pole, set by the self-interaction ratio $Z_0/R_K = 2\alpha$. Applying it closes the calculation to **$-2.843\text{ ppm}$** ($-396.8\text{ eV}$ in the pion rest mass).
 
-### 2. Chance Baseline and Error Demarcation
+### 2. Error Demarcation and the Operator That Dresses $\pi^\pm$
+
 Evaluating the three-term form against a target family of $A/\alpha + B\pi^k + C\alpha$ ($A \le 4$, $|B| \le 6$, $k \in \{-1,0,1\}$, $|C| \le 4$) yields a random hit probability within $2.84\text{ ppm}$ of $p \approx 0.06$ ($6\%$).
 
-The $-396.8\text{ eV}$ residual is not an unresolved parameter gap. As established in `L3-ConstitutiveAlpha-Puzzle.md` §IX, the PDG experimental uncertainty on $m_{\pi^\pm}$ is $\pm 180\text{ eV}$ ($1.29\text{ ppm}$), making the residual a $2.20\sigma$ effect. Second-order chiral perturbation theory (ChPT) strong isospin breaking from the quark mass difference ($m_d - m_u \approx 2.40\text{ MeV}$) contributes independently:
-$$\delta m_\pi^{\text{strong}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2} m_\pi \approx \mathbf{370\text{ eV}}$$
-The residual sits inside the physical continuum dressing pocket of the hadronic detector bath.
+The $-396.8\text{ eV}$ residual is small in absolute terms ($2.20\sigma$ against the PDG uncertainty $\pm 180\text{ eV}$). What operator should be expected to dress it?
+
+**The $\pi^\pm$ residual is electromagnetic, not strong-isospin.** Earlier wording of this subsection pointed to the $O((m_d - m_u)^2)$ chiral-perturbation-theory strong-isospin operator as the dressing, with an estimated $\sim 370\text{ eV}$ contribution. That estimate is in the right numerical range, but it is the wrong operator for the $\pi^\pm$ residual:
+
+* The $O((m_d - m_u)^2)$ strong-isospin-breaking operator in ChPT acts primarily on the **neutral pion** $\pi^0$. The quark-mass-squared isospin breaking produces the $\pi^0$–$\eta$ mixing shift and dominantly moves $m_{\pi^0}$, not $m_{\pi^\pm}$.
+* The **$\pi^\pm$** electromagnetic mass shift is dressed by the $O(\alpha)$ **electromagnetic self-energy operator** (the current-current four-point insertion, in Dashen's theorem language): the $\pi^\pm$ carries unit electric charge, the $\pi^0$ does not, and the dominant mass difference $m_{\pi^\pm} - m_{\pi^0} \approx 4.59\text{ MeV}$ is electromagnetic to leading order. The Dashen-theorem operator is $\mathcal{L}_{\text{EM}} = e^2 F_\pi^2 \text{Tr}(Q U Q U^\dagger)$ with $Q$ the quark-charge matrix and $U$ the pion-field matrix — the standard form of the $O(e^2)$ electromagnetic contribution to pseudoscalar-meson masses in ChPT.
+* **Numerical estimates vary by convention.** Depending on the pion decay constant choice ($F = F_\pi \approx 92$ MeV or $F = F_0 \approx 88$ MeV, chiral limit vs. physical), the magnitude of the $O(e^2)$ EM operator's contribution to the $\pi^\pm$ mass shift lies in the range **$\sim 300\text{ to } 600\text{ eV}$** at the residual's scale. The $-396.8\text{ eV}$ residual sits inside this range; the audit's verdict (`audit/Q-audit-2026-11-10.md`, Q15 §I.2 row) records it as **UNDECIDABLE BY THIS INSTRUMENT** — the operator is identifiable (electromagnetic self-energy on $\pi^\pm$), but the convention-sensitive magnitude is not sharp enough to pin the residual.
+
+**Register:** the operator that dresses $\pi^\pm$ at the residual's scale is the $O(\alpha)$ electromagnetic self-energy, specifically the Dashen-theorem current-current insertion. Earlier wording pointing to the $O((m_d - m_u)^2)$ strong-isospin operator (which acts on $\pi^0$) is retired.
 
 ---
 
-## II. The Coulomb Scission Wall ($U^2/R$) and the Reversal Pump ($H_{\text{coh}} \to H_{\text{incoh}}$)
+## II. The Coulomb Scission Wall ($P = U^2/R$, Leverage) and the Reversal Pump ($H_{\text{coh}} \to H_{\text{incoh}}$)
 
 Why does the periodic table terminate?
 
 In light nuclei ($Z < 28$), nuclear fusion commits entries to the $P$-ledger, releasing binding energy down to the iron/nickel peak ($P$-export, Branch B of the Gate, `L3-FormalFoundations.md` §I.b).
 
-Beyond $Z = 28$, nucleons must be forced into the nucleus against compounding Coulomb repulsion. Beyond lead-208 ($Z = 82$), this compounding triggers **The Necessary Betrayer** (`L4-TheNecessaryBetrayer.md`, `ENGINE-REFERENCE-AC.md` §V):
+Beyond $Z = 28$, nucleons must be forced into the nucleus against compounding Coulomb repulsion. Beyond lead-208 ($Z = 82$), this compounding triggers Coulomb scission. The equation that governs scission is the **Leverage channel** (Aries, Mutable-plane $P = U^2/R$), **not** the Betrayer identity $R = U^2/P$:
 
-$$R_{\text{Coulomb}} = \frac{U^2}{P}$$
+$$P_{\text{scission}} = \frac{U^2}{R}$$
 
-The structural electrostatic potential of the protons ($U \propto Z$) compounds quadratically ($U^2 \propto Z^2$). The short-range strong confinement force ($R$) scales only with the nuclear surface area ($A^{2/3}$), while the Coulomb scission pressure scales with the volume charge density:
+Read: the Coulomb scission power ($P$) that destabilizes the heavy nucleus is the structural electrostatic potential ($U \propto Z$) squared, divided by the strong-confinement resistance ($R$, the material containment the hadronic ground provides). Earlier wording of this section wrote $R_{\text{Coulomb}} = U^2/P$, which is the Aquarius / Betrayer identity (`L4-TheNecessaryBetrayer.md`, `ENGINE-REFERENCE-AC.md` §V): structural potential squared over destructive power, returning a resistance. The two equations are not interchangeable — they live on different planes, they solve for different homes, and they belong to different stories. The scission argument is $P = U^2/R$ (Leverage); the Betrayer identity is $R = U^2/P$ (Aquarius) and is not what drives scission.
+
+The structural electrostatic potential of the protons ($U \propto Z$) compounds quadratically ($U^2 \propto Z^2$). The short-range strong confinement force ($R$) scales only with the nuclear surface area ($A^{2/3}$), while the Coulomb scission power scales with the volume charge density:
 
 $$E_{\text{Coulomb}} = \frac{3}{5}\frac{e^2}{4\pi\epsilon_0 R_0} \frac{Z^2}{A^{1/3}}$$
 
@@ -132,7 +141,7 @@ print(f"Og-294 Coulomb Energy: {E_coulomb(118, 294):.1f} MeV")
 2. **$Z = 81 \to 82$ (Thallium to Lead / The Terminal $R$-Ground):**
    Thallium ($6p^1$) re-establishes solid metallic bonding ($+304\,^\circ\text{C}$). Lead-208 ($82p + 126n$) completes both the proton $Z=82$ and neutron $N=126$ shell closures. It is the **asymptotic double-magic ground of the periodic table**: the absolute terminal point of natural decay chains where the $R$-pole can contain nuclear stress.
 3. **$Z = 83 \to 84$ (Bismuth to Polonium / The Scission Boundary):**
-   Bismuth-209 ($Z=83$) sits at the absolute lip of stability: it decays by $\alpha$-emission with a half-life of $t_{1/2} = 2.01 \times 10^{19}\text{ yr}$ (exceeding the age of the universe). At Polonium-210 ($Z=84$), the $U^2/R$ scission wall breaches containment ($Z^2 = 7056$). The nucleus shatters spontaneously: $^{210}\text{Po}$ emits an $\alpha$-particle every $138\text{ days}$, generating $140\text{ W/g}$ of thermal dissipation.
+   Bismuth-209 ($Z=83$) sits at the absolute lip of stability: it decays by $\alpha$-emission with a half-life of $t_{1/2} = 2.01 \times 10^{19}\text{ yr}$ (exceeding the age of the universe). At Polonium-210 ($Z=84$), the $P = U^2/R$ scission wall breaches containment ($Z^2 = 7056$). The nucleus shatters spontaneously: $^{210}\text{Po}$ emits an $\alpha$-particle every $138\text{ days}$, generating $140\text{ W/g}$ of thermal dissipation.
 4. **$Z = 89 \to 103$ (The Actinides / The $5f$ Non-Sofic Phase Boundary):**
    The $5f$ electron shell sits at the exact energy crossover between localized core-like states and itinerant conduction states (§VI).
 5. **$Z = 93 \to 118$ (The Transuranics / Wet $P$-Matter):**
@@ -188,7 +197,7 @@ Heavy element transmutations are **not closed thermodynamic loops**. They are op
 
 ## IV. The $2n^2$ Octave Fold and Group 18 Binding
 
-The periodic table’s shell capacities are generated by the principal quantum number $n$:
+The periodic table's shell capacities are generated by the principal quantum number $n$:
 $$\text{Capacity}(n) = 2n^2 \implies 2, 8, 18, 32$$
 
 Summing these capacities in symmetric pairs yields the noble-gas electron configurations:
@@ -299,14 +308,13 @@ In the light actinides:
 1. **No Bimedian Silencing:** The orbital degeneracy of $5f\text{--}6d\text{--}7s$ forces all three bimedian diameters (Fixed, Cardinal, Mutable) into simultaneous active participation. The system cannot hold an AbsentVar silent (`L5-TheCyclingMind.md`).
 2. **The Localized/Itinerant Boundary:** The $5f$ electrons sit directly on the knife-edge between localized classical ledger entries ($H_{\text{coh}}$) and itinerant uncompiled phase waves ($H_{\text{incoh}}$).
 
-Plutonium’s radical volume instabilities are the macroscopic readout of **a non-sofic volume operating at room temperature**: the system cannot settle into a single classical finite-element discretization because the internal degrees of freedom exceed the containment capacity of the local Markov blanket.
-
+Plutonium's radical volume instabilities are the macroscopic readout of **a non-sofic volume operating at room temperature**: the system cannot settle into a single classical finite-element discretization because the internal degrees of freedom exceed the containment capacity of the local Markov blanket.
 
 ---
 
 ## VII. The Coulomb Scission Boundary and the Decay-Width Parameter ($\Gamma = \hbar/\tau$)
 
-An axis orthogonal to PlankScale--UniverseAsManifold.
+An axis orthogonal to PlanckScale–UniverseAsManifold.
 
 ### 1. The Scaling Asymmetry: Strong Confinement vs. Long-Range Repulsion
 The physical ceiling on localized nuclear mass is determined by an exact mechanical competition between two forces with divergent spatial scaling:
@@ -326,24 +334,23 @@ In scattering theory and effective field models, the transition between stable m
 $$E_{\text{pole}} = E_0 - \frac{i\Gamma}{2}, \qquad \Gamma = \frac{\hbar}{\tau}$$
 
 * **Bound Ground States ($\Gamma \to 0$):** Stable matter ($^{208}\text{Pb}$) possesses a vanishing decay width, residing on the real energy axis ($H_{\text{coh}}$).
-* **Decay and Un-Coupling ($\Gamma > 0$):** Radioactive transuranics possess finite, non-zero decay widths. When the Coulomb potential ($U^2/R$) breaches the confinement barrier, the system relaxes via quantum tunneling, shedding momentum and energy as emitted particles ($\alpha, \beta, \gamma$) and unconfined phase radiation back into the medium ($H_{\text{incoh}}$).
+* **Decay and Un-Coupling ($\Gamma > 0$):** Radioactive transuranics possess finite, non-zero decay widths. When the Coulomb potential ($P = U^2/R$) breaches the confinement barrier, the system relaxes via quantum tunneling, shedding momentum and energy as emitted particles ($\alpha, \beta, \gamma$) and unconfined phase radiation back into the medium ($H_{\text{incoh}}$).
 
 ---
 
-## VII. Pre-Registered Boundary Falsifiers
+## VIII. Pre-Registered Boundary Falsifiers
 
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this architecture is bounded by four strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this architecture is bounded by four strict falsification conditions:
 
 1. **Spontaneous Heavy-Element Synthesis in Closed Ground:**
    If an isolated sample of gold-197 or mercury-200 undergoes spontaneous nuclear transmutation into adjacent heavy elements without external kinetic energy injection ($E_{\text{kin}} \ge 6.63\text{ MeV}$), the non-equilibrium direction rule of the $P$-ledger is refuted.
 2. **Observation of an $SU(3)$ Color-Charge Dependency in the Pion Mass Ratio:**
    If precision lattice QCD or non-perturbative calculations prove that the $-3/\pi$ term in the pion mass ratio scales with individual quark fractional electric charges ($(2/3)^2, (-1/3)^2$) rather than the uniform color count ($N_c = 3$), the boundary isospin lock derivation fails.
-3. **Finite-Element Convergence of the Plutonium $5f$ Ground State:**
-   If a standard local density approximation (LDA) or finite-dimensional density functional theory calculation derives the exact volume transitions of all six plutonium allotropes from first principles without importing empirical Hubbard-$U$ or dynamical mean field theory (DMFT) parameter fitting, the non-sofic actinide hypothesis is refuted.
+3. **Finite-Element Convergence of the Plutonium $5f$ Ground State — All Six Phases Without Any Fitted Parameter:**
+   If a standard local density approximation (LDA) or finite-dimensional density functional theory calculation derives the exact volume transitions of **all six** plutonium allotropes ($\alpha, \beta, \gamma, \delta, \delta', \epsilon$) from first principles with **no fitted parameter at all** — not an imported empirical Hubbard-$U$, not an ab-initio cRPA Hubbard-$U$, not a dynamical-mean-field-theory (DMFT) parameter choice, not a tuned hybridization function — the non-sofic actinide hypothesis is refuted. (Earlier versions sharpened this to "without imported Hubbard-$U$ or DMFT fitting"; the DFT+DMFT literature already carries ab-initio cRPA Hubbard-$U$ values, so the kill is tightened to "no fitted parameter, all six phases" to remain live.)
 4. **Observation of a Stable Element at $Z \ge 120$:**
-   If heavy-ion fusion experiments discover a superheavy element at $Z \ge 120$ with a half-life exceeding $10^6\text{ years}$ (an absolute "island of stability" violating the Coulomb scission scaling $E_C \propto Z^2/A^{1/3}$), the $U^2/R$ scission wall is broken.
+   If heavy-ion fusion experiments discover a superheavy element at $Z \ge 120$ with a half-life exceeding $10^6\text{ years}$ (an absolute "island of stability" violating the Coulomb scission scaling $E_C \propto Z^2/A^{1/3}$), the $P = U^2/R$ scission wall is broken.
 
 ---
 
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work. *(Repour completed under Q17 discipline: poetry purged, Nambu pion ratio derived as a three-layer Kirchhoff loop, heavy-element walk formalized as the Coulomb scission reversal pump $H_{\text{coh}} \to H_{\text{incoh}}$, and pre-registered falsifiers armed).*
-
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.

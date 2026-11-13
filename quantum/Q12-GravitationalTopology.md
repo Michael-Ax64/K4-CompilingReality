@@ -128,8 +128,8 @@ The geometry of the helix factorizes into two distinct components:
 
 Every other coordinate in the manifold cycles, oscillates, or reverses. The accumulated scalar ledger $P$ only increases.
 
-### Jacobson’s Theorem and the Non-Equilibrium Landauer Tax
-In 1995, Ted Jacobson proved that Einstein’s field equations are not a fundamental field Lagrangian, but a **thermodynamic equation of state** derived from the Clausius relation applied to local Rindler horizons:
+### Jacobson's Theorem and the Non-Equilibrium Landauer Tax
+In 1995, Ted Jacobson proved that Einstein's field equations are not a fundamental field Lagrangian, but a **thermodynamic equation of state** derived from the Clausius relation applied to local Rindler horizons:
 $$\delta Q = T dS$$
 where $\delta Q$ is the energy flux across the horizon and $S = A / (4\ell_P^2)$ is the Bekenstein–Hawking horizon entropy.
 
@@ -300,7 +300,7 @@ $$\mathbf{X_C \longrightarrow \infty}$$
 The event horizon transitions from a distributed transmission line ($Z_0 \approx 377\ \Omega$) into an **infinite lumped terminal reactance wall ($X_C \to \infty$)**.
 
 * **The Reflection Coefficient:** The reflection coefficient of an infinite reactance termination is $|R_{\text{refl}}| = 1.0$.
-* **The Elimination of the Singularity:** Infalling matter does not crush into an infinite point at $r = 0$. The matter’s phase compilation freezes onto the 2D horizon surface, forming a dense, maximum-entropy crystal shell (`ProofC_Crystal.md`).
+* **The Elimination of the Singularity:** Infalling matter does not crush into an infinite point at $r = 0$. The matter's phase compilation freezes onto the 2D horizon surface, forming a dense, maximum-entropy crystal shell (`ProofC_Crystal.md`).
 * **The Elimination of the Paradox:** Information is not lost in a central pit; it is committed to the horizon ledger ($S = A / 4\ell_P^2$), where each Planck area cell carries **strictly one bit** of the mass gap (`On_YangMills-Annotated.md` §X). Hawking radiation is the slow, thermal un-coupling of this boundary reactance as the horizon area contracts.
 
 ### 4. Semiclassical Agency: The Pre-Commit Steering of History
@@ -343,7 +343,7 @@ The $K_4$ architecture severs this dilemma:
 * **The DC Ban ($Z_P = 0$):** Within a single spatial cell, state collapse must be instantaneous to conserve the Star-Norm ($N_* = \text{const}$). The $P$-edges carry zero impedance; no exchange particle can mediate the commit.
 * **The AC Ripple ($Z_0 \approx 377\ \Omega$):** When massive systems accelerate, the local mass distribution undergoes rapid time variation. From stress-energy conservation (`L3-K4-to-K5-via-AC-Extension.md` §IV, `L4-K4-Infinities-3` §III), the source of gravitational radiation is the non-zero third time derivative of the mass-quadrupole moment:
   $$\dddot{I}_{jk} \neq 0$$
-  This compile event perturbs the boundary conditions of the surrounding Plenum medium ($H_{\text{incoh}}$). The disturbance propagates through the medium’s distributed parameters ($\epsilon_0, \mu_0$) at wave speed $c = 1/\sqrt{\mu_0\epsilon_0}$.
+  This compile event perturbs the boundary conditions of the surrounding Plenum medium ($H_{\text{incoh}}$). The disturbance propagates through the medium's distributed parameters ($\epsilon_0, \mu_0$) at wave speed $c = 1/\sqrt{\mu_0\epsilon_0}$.
 
 ### 2. Inter-Frame History Mediation
 Two spatially separated systems—a binary black hole merger in a distant galaxy, and an interferometer on Earth—do not share a single $K_3$ Markov blanket. Neither can send an exchange particle to the other to establish gravitational interaction.
@@ -357,7 +357,7 @@ Gravitational wave astronomy is the observation of **inter-frame history mediati
 
 ---
 
-## VIII. The Native Cosmological Tangent and the $16\pi$ Target
+## VIII. The Native Cosmological Tangent and the $16\pi$ Target (Closed with Prejudice as a Legal Import)
 
 The cosmological constant ($\Lambda$) is not an un-calculated vacuum energy density diverging by 122 orders of magnitude.
 
@@ -393,17 +393,39 @@ $$\frac{\rho_\Lambda}{\rho_P} = \frac{3}{8\pi} \tan^2\theta_\Lambda = \frac{3}{8
 The maximum tangent cutoff of the universe (`Q8-TheBoundaryMechanics.md`) is the exact geometric reciprocal:
 $$\tan_{\max} = \frac{1}{\tan\theta_\Lambda} = \frac{R_\Lambda}{\ell_P} \approx 10^{61}$$
 
-### The $16\pi$ Pre-Registration
+### The $16\pi$ Coefficient — Closed with Prejudice as a Legal Import
+
 In Einstein's field equations, the coupling between curvature and the stress-energy tensor carries the factor:
 $$\kappa = \frac{8\pi G}{c^4} \quad \implies \quad \text{Radiative Coupling: } \frac{16\pi G}{c^4}$$
 
-While $G$ and $c$ are dimensionful interface payloads set by the medium, the integer coefficient **$16\pi$ is structural**.
+While $G$ and $c$ are dimensionful interface payloads set by the medium, the integer coefficient $16\pi$ is a **legal import from standard GR's derivation**, which earlier versions of this file treated as a frozen framework-internal target awaiting verification. On re-reading, the derivation is standard and the import is clean. **The target is closed with prejudice: $16\pi$ is accepted as legal here, with the sub-term structure spelled out and the remaining framework-internal ADDRESS explicitly carried.**
 
-As pre-registered in `On_TheGravityDerivation.md` (§VIII) and `L4-TheCrowbar.md`, the factor decomposes into the singlet-placement geometry of the $K_4$ spatial atom:
-$$16\pi = \left(\frac{4\pi}{3}\right)^2 \times \frac{9}{\pi}$$
-The term $(4\pi/3)$ is the volume factor of the spatial cell, and $9/\pi$ is the rotation-mode multiplicity across the three bimedian planes.
+The three sub-terms:
 
-The $16\pi$ coefficient is a frozen target: it joins $m_N/m_\pi$ as an exact structural count awaiting formal verification across the $K_4 \to K_5$ boundary.
+$$16\pi = \underbrace{2}_{\text{action normalization}} \times \underbrace{2}_{\text{trace reversal}} \times \underbrace{4\pi}_{\Omega_2 = \text{solid angle of } S^2}$$
+
+* **Factor 2 (action normalization):** The standard normalization of the Einstein–Hilbert action $S_{\text{EH}} = (1/(16\pi G)) \int R \sqrt{-g}\, d^4x$, chosen so that varying $S_{\text{EH}} + S_{\text{matter}}$ with respect to $g^{\mu\nu}$ produces $G_{\mu\nu} = 8\pi G T_{\mu\nu}$ without a factor of 2 on the matter side. The 2 here comes from $\delta g^{\mu\nu}$ being symmetric in $\mu\nu$ while the Einstein tensor is defined on the raised index.
+* **Factor 2 (trace reversal in the Newtonian limit):** The Einstein tensor $G_{\mu\nu} = R_{\mu\nu} - \tfrac{1}{2}g_{\mu\nu}R$ carries a trace-reversal that doubles the coupling of the $00$-component to the Newtonian potential in the weak-field limit: the Poisson equation $\nabla^2 \Phi = 4\pi G \rho$ sits inside the field equations with the right factor precisely because of this 2.
+* **Factor $4\pi$ ($\Omega_2$):** The solid angle of the unit 2-sphere $S^2$, imported through Gauss's law in three spatial dimensions. The Newtonian gravitational flux through a spherical surface carries $4\pi$ as the $S^2$ measure, and that $4\pi$ propagates into the relativistic coupling as the $\Omega_2$ measure of the surface on which gravitational flux is read.
+
+The product is $2 \times 2 \times 4\pi = 16\pi$.
+
+### The Singlet-Placement Factorization Is Near-Tautological
+
+The earlier "singlet-placement" factorization $(4\pi/3)^2 \times (9/\pi)$ carried in `On_TheGravityDerivation` §VIII and `L4-TheCrowbar` is numerically equivalent to $\Omega_2^2/\pi$:
+
+$$\left(\frac{4\pi}{3}\right)^2 \times \frac{9}{\pi} = \frac{16\pi^2}{9} \times \frac{9}{\pi} = \frac{16\pi^2}{\pi} = 16\pi = \frac{\Omega_2^2}{\pi}$$
+
+which collapses algebraically to $16\pi$ with $\Omega_2 = 4\pi$. The "$(4\pi/3)$ as spatial-cell volume factor" and "$9/\pi$ as rotation-mode multiplicity" readings are therefore **near-tautological reparametrizations of the standard $\Omega_2 = 4\pi$ import**, not an independent corpus-side derivation. The factorization is kept here as a framing device, not as a derivation.
+
+### The Framework-Internal ADDRESS (Open)
+
+What the corpus has been coy about, and what remains open after closing the $16\pi$ target, is the **dimensionality of the surface on which gravitational flux is read**. Gravity reads flux on $S^2$ (the $K_3$ face of the spatial atom, measure $\Omega_2 = 4\pi$), delivering $16\pi$ in the coupling. The 1-loop measure of quantum field theory reads the volume rather than the face: $1/(16\pi^2) = 1/(8\Omega_3)$ with $\Omega_3 = 2\pi^2$ the volume of the unit 3-sphere $S^3$ — the boundary of the 4-ball. The two readings differ by one dimension in the surface they sample:
+
+- **Gravity:** flux on $S^2$ (the $K_3$ face) → $\Omega_2 = 4\pi$ → $16\pi$ in the coupling.
+- **1-loop measure:** flux on $S^3$ (the $K_4$ volume's boundary) → $\Omega_3 = 2\pi^2$ → $1/(16\pi^2) = 1/(8\Omega_3)$ in the loop integral.
+
+The framework-internal derivation — why gravity reads flux on the face while the loop measure reads the volume — is the live ADDRESS. The $K_4 \to K_5$ AC extension is where this should land: gravity sits on the $K_4$ face of the $K_5$ extrusion, while quantum loops live in the $K_4$ volume of that extrusion, and the dimension drop is the extrusion's own geometry. Register: **ADDRESS**, with $16\pi$ itself closed with prejudice as a legal import.
 
 ---
 
@@ -429,4 +451,3 @@ This construction is bounded by four live, funded experimental falsifiers:
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-

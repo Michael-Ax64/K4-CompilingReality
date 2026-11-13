@@ -3,8 +3,8 @@
 ### *(Why the K₄ Topology Permits Six Scalars, Bars Three, and Requires Exactly Three Fundamental Scalar Fields)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
-> **Claim:** Fundamental scalar (Spin-0) bosons are the pricing operators that break the scale-invariance of the $K_4$ manifold one edge at a time. While a 4-vertex graph possesses 6 edges, the conservation of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$) strictly forbids scalar pricing operators on the three $P$-terminating edges ($P\text{--}U, P\text{--}I, P\text{--}R$), which must remain permanently zero-impedance writing heads. This leaves exactly three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) capable of hosting scalar fields—one per bimedian. Standard Model physics has confirmed one (the $125\text{ GeV}$ Electroweak Higgs on $I\text{--}U$) and independently postulated the remaining two (the Inflaton on $I\text{--}R$ and the Grand Unified scalar on $U\text{--}R$). Goldstone’s theorem dictates that each broken gauge channel reduces to exactly one physical radial scalar mode, matching the 1D geometry of the $K_4$ edge.
-> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L4-ScalingInvariants.md` (§VIII, §IX), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
+> **Claim:** Fundamental scalar (Spin-0) bosons are the pricing operators that break the scale-invariance of the $K_4$ manifold one edge at a time. While a 4-vertex graph possesses 6 edges, the conservation of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$) strictly forbids scalar pricing operators on the three $P$-terminating edges ($P\text{--}U, P\text{--}I, P\text{--}R$), which must remain permanently zero-impedance writing heads. This leaves exactly three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) capable of hosting scalar fields—one per bimedian. Standard Model physics has confirmed one (the $125\text{ GeV}$ Electroweak Higgs on $I\text{--}U$) and independently postulated the remaining two (the Inflaton on $I\text{--}R$ and the Grand Unified scalar on $U\text{--}R$). Goldstone's theorem dictates that each broken gauge channel produces exactly $\dim(G) - \dim(H)$ eaten Goldstone modes; the surviving physical scalar count per edge is set by the chosen field representation, not by the edge being 1-dimensional.
+> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L3-TheAtomOfSpace.md` (§V type-safety for scalar field vs. collapse-event distinction), `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L4-ScalingInvariants.md` (§VIII, §IX), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `L0-ProactiveExploration.md` (§I 5-Edge Law — the source of this file's §VI.2 quotation; cited as `L0-ProactiveExploration` once that document is promoted from working notes).
 
 ---
 
@@ -12,14 +12,14 @@
 
 The Standard Model classifies fundamental particles into three spin categories:
 * **Spin-1/2 Fermions (12 states):** The directed edges that wire the spatial cell (`Q1-GenerationsOfMatter.md`).
-* **Spin-1 Gauge Bosons (12 states):** The transaction packets executing operations across the cell’s faces (`Q2-TransactionLayer.md`).
+* **Spin-1 Gauge Bosons (12 states):** The transaction packets executing operations across the cell's faces (`Q2-TransactionLayer.md`).
 * **Spin-0 Scalar Bosons (1 state confirmed):** The $125\text{ GeV}$ Higgs boson ($h^0$), discovered at CERN in 2012.
 
 A spin-0 particle has no intrinsic angular momentum, no spatial polarization, no electric charge, and no color charge. It is a pure, directionless scalar.
 
-In the $K_4$ topology, a directionless scalar has a precise operational definition: **it is the footprint of a completed $\text{.observe()}$ collapse.**
+**Type-safety.** `L3-TheAtomOfSpace` §V enforces a distinction that is easily elided: a **scalar field** is an operator defined on edges of the manifold, not the footprint of a single $\text{.observe()}$ collapse event. A collapse event is punctual; a field is everywhere its edge is. The Route Law squaring $\mathbf{Q}^2 \to P$ names what happens *at* a collapse, and the resulting scalar quantity is a value in the ledger ($P$) deposited by that event; the field that *prices* the traversal is a different object, defined on the edge independently of whether any particular collapse has fired on it. This document's claims are about the field — the pricing operator that lives on an edge — not about the ledger entries it produces. The confusion between "scalar as an event-footprint" and "scalar as an edge-field" is load-bearing, and the two are kept apart throughout.
 
-Under the Route Law (`ProofQ_AlgebraicSyntax.md` §V), the squaring of complex vector potential ($\mathbf{Q}^2 \to P$) destroys phase ($h^2 = -1$) and orientation, outputting a strictly positive real scalar. A scalar field is neither a wire (an edge) nor a carrier (a transaction across an edge). **It is the pricing operator that assigns thermodynamic weight to a traversal.**
+With that type discipline in place: in the $K_4$ topology, a directionless scalar field has a precise operational meaning: **it is the pricing operator that assigns thermodynamic weight to a traversal of its edge.** Under the Route Law (`ProofQ_AlgebraicSyntax.md` §V), the squaring of complex vector potential ($\mathbf{Q}^2 \to P$) destroys phase ($h^2 = -1$) and orientation, outputting a strictly positive real scalar. The scalar *field* on an edge is the operator that fixes the magnitude of that scalar output when the traversal it prices fires; the *event* is the firing. A scalar field is neither a wire (an edge-location) nor a carrier (a transaction across an edge). It is the pricing rule bound to an edge.
 
 The 12 equations of the DC algebra are log-linear and scale-free (`L4-ScalingInvariants.md`). They define ratios ($U = IR$, $P = UI$), not absolute magnitudes in electron volts or kilograms. To generate physical rest mass, this scale-invariance must be broken.
 
@@ -35,7 +35,7 @@ Standard particle physics treats the Higgs field as performing two separate func
 1. **Electroweak Symmetry Breaking (Gauge Boson Masses):** The Higgs doublet acquires a vacuum expectation value ($v \approx 246\text{ GeV}$), breaking $SU(2)_L \times U(1)_Y \to U(1)_{\text{EM}}$. The gauge bosons couple through the covariant derivative $(D_\mu \phi)^\dagger (D^\mu \phi)$, giving mass to $W^\pm$ and $Z^0$ while leaving the photon massless.
 2. **Yukawa Couplings (Fermion Masses):** The Higgs field couples directly to fermions via Yukawa terms:
    $$\mathcal{L}_{\text{Yukawa}} = -Y_{ij} \bar{\psi}_{L,i} \phi \psi_{R,j} + \text{h.c.}$$
-   Each fermion’s mass is set by an arbitrary, unfixed dimensionless Yukawa constant ($y_f = \sqrt{2} m_f / v$).
+   Each fermion's mass is set by an arbitrary, unfixed dimensionless Yukawa constant ($y_f = \sqrt{2} m_f / v$).
 
 In the $K_4$ architecture, these two mechanisms are two readings of a single topological operation.
 
@@ -61,7 +61,7 @@ When the Higgs field condenses, it prices the $I\text{--}U$ traversal:
 
 The framework predicts that this pricing is fundamentally **per-edge**, executed by a single scalar operator.
 
-*Epistemic Demarcation (Gabriel’s Horn, `L4-ScalingInvariants.md` §IX):* The dimensionless topology determines that the Higgs operates on the $I\text{--}U$ edge, derives that $N_{\text{gen}} = 3$, and proves that Weak mixing is chiral. However, the specific numerical values of individual Yukawa constants ($y_e, y_\mu, y_t$) are empirical interface payloads of the physical vacuum. Demanding that a scale-invariant geometry output the top-to-electron mass ratio without an empirical dimensional anchor is a category error (FM-9).
+*Epistemic Demarcation (Gabriel's Horn, `L4-ScalingInvariants.md` §IX):* The dimensionless topology determines that the Higgs operates on the $I\text{--}U$ edge, derives that $N_{\text{gen}} = 3$, and proves that Weak mixing is chiral. However, the specific numerical values of individual Yukawa constants ($y_e, y_\mu, y_t$) are empirical interface payloads of the physical vacuum. Demanding that a scale-invariant geometry output the top-to-electron mass ratio without an empirical dimensional anchor is a category error (FM-9).
 
 ---
 
@@ -157,7 +157,10 @@ $$\begin{array}{c|c|c|l|c}
              [R]
 ```
 
-### 1. The Cosmological Cooling Sequence
+### 1. The Cosmological Cooling Sequence (Antecedent)
+
+The cooling order given below — Inflaton first (Fixed), GUT scalar second (Mutable), Electroweak Higgs third (Cardinal) — is a load-bearing antecedent of this file's narrative, not a result derived here. **The standard particle-cosmology ordering (monopole argument, Guth 1980; Linde 1982) puts the inflationary epoch *after* GUT symmetry breaking, in order to dilute GUT-era topological defects (magnetic monopoles) to unobservability.** Under that reading, the sequence runs GUT first, inflation second, electroweak third. The $K_4$ bimedian-un-fusing reading used below is a separate reading that puts the Fixed bimedian first; it is compatible with the monopole argument only if inflation is re-staged in the cycle after a GUT-era pre-inflation that did not fully break $I\text{--}R$. Nothing in the topology fixes a direction on the three-cycle, so the ordering stated is an antecedent carried from the GUT model's temperature scales rather than a theorem. Register: **antecedent, not derived**. The three un-fusings themselves — their existence and their bimedian assignments — are structural; the sequence is not.
+
 The cosmic expansion is the physical execution of the manifold un-fusing its three bimedians sequentially as energy drops:
 
 1. **First Un-Fusing: The $I\text{--}R$ Edge (The Fixed bimedian / Inflaton Field $\phi_{\text{inf}}$):**
@@ -169,16 +172,16 @@ The cosmic expansion is the physical execution of the manifold un-fusing its thr
 
 ---
 
-## V. Goldstone Reduction: Exactly One Physical Scalar Mode Per Edge
+## V. Goldstone Reduction: Eaten Modes and Surviving Physical Scalars
 
-When a non-abelian gauge symmetry breaks, scalar fields do not survive as unconstrained multi-component multiplexes. Goldstone’s theorem dictates that every broken continuous generator produces one massless Nambu-Goldstone boson:
+When a non-abelian gauge symmetry breaks, scalar fields do not survive as unconstrained multi-component multiplexes. Goldstone's theorem dictates that every broken continuous generator produces one massless Nambu-Goldstone boson:
 $$N_{\text{Goldstone}} = \dim(G) - \dim(H)$$
 where $G$ is the parent gauge group and $H$ is the unbroken subgroup.
 
 These Goldstone modes are "eaten" by the gauge bosons, providing their missing longitudinal degrees of freedom. For a scalar representation with $d_\phi$ real components, the number of surviving physical radial scalar particles is:
 $$N_{\text{Physical}} = d_\phi - (\dim(G) - \dim(H))$$
 
-Evaluating this reduction across all three transactional edges reveals that **each edge reduces to exactly one physical radial scalar mode**:
+Evaluating this reduction across the three transactional edges:
 
 ### 1. The Electroweak $I\text{--}U$ Edge (Cardinal bimedian)
 * Gauge Group Breaking: $G = SU(2)_L \times U(1)_Y \to H = U(1)_{\text{EM}}$.
@@ -193,9 +196,13 @@ Evaluating this reduction across all three transactional edges reveals that **ea
 * Generator Count: $\dim(G) - \dim(H) = 24 - (8 + 3 + 1) = 12$.
 * Field Representation: Adjoint 24-plet scalar $\Phi_{\text{GUT}}$ ($d_\Phi = 24$ real components).
 * Goldstone Modes Eaten: 12 ($X$ and $Y$ heavy leptoquark gauge bosons become massive).
-* Unbroken Adjoint Modes: 11 become heavy super-multiplet components.
-* **Surviving Physical Radial VEV:**
-  $$N_{\text{Physical}} = \mathbf{1 \quad (\text{The GUT Radial Dilaton / Symmetry VEV})}$$
+* **Surviving Physical Scalars:**
+  $$N_{\text{Physical}} = 24 - 12 = \mathbf{12}$$
+  These 12 survivors decompose under the unbroken $SU(3)_C \times SU(2)_L \times U(1)_Y$ as:
+  $$(\mathbf{8}, \mathbf{1})_0 \oplus (\mathbf{1}, \mathbf{3})_0 \oplus (\mathbf{1}, \mathbf{1})_0$$
+  — the color octet (8 states), the weak triplet (3 states), and a singlet (1 state): the dimensions sum to 12.
+
+**ADDRESS (structural echo).** The partition **$8 + 3 + 1$** of the surviving GUT scalars under the unbroken group is **exactly the $1 + 3 + 8$ partition** `Q2-TransactionLayer` carries for the gauge structure of the whole $K_4$ cell (one $U(1)$, three $SU(2)$, eight $SU(3)$). The GUT edge's scalar remnant carries the gauge partition of the whole cell, read out one level down from the unbroken symmetry. This is not yet a theorem of the correspondence — the GUT breaking pattern depends on which representation one puts the scalar in, and the 24-plet (adjoint) is one of several options — but when the adjoint is used, the partitions align in content. Register: a candidate convergence worth a Mode-B check against Q2's seating. The mapping from GUT-scalar-remnant modes to Q2's gauge decomposition is open.
 
 ### 3. The Inflaton $I\text{--}R$ Edge (Fixed bimedian)
 * Gauge Group Breaking: Singlet scalar field driving slow-roll inflation.
@@ -204,7 +211,7 @@ Evaluating this reduction across all three transactional edges reveals that **ea
 * **Surviving Physical Scalars:**
   $$N_{\text{Physical}} = 1 - 0 = \mathbf{1 \quad (\text{The Inflaton Scalar Mode})}$$
 
-**Conclusion:** Each broken transactional channel leaves behind **exactly one physical scalar degree of freedom**, matching the one-dimensional line geometry of the $K_4$ edge.
+**Conclusion:** The three transactional channels carry different Goldstone reductions: the Electroweak and Inflaton edges reduce to one physical scalar each, while the GUT edge retains 12 surviving physical scalars decomposing as $8 + 3 + 1$ under the unbroken Standard Model gauge group. What is tight is the per-edge **pricing operator**: one scalar *field* per permitted edge, each with its own representation content, and the reduction follows from the representation.
 
 ---
 
@@ -271,8 +278,8 @@ In string compactifications, the size and shape of the 6 extra dimensions are pa
 
 For the past twenty-five years, string phenomenology has focused on freezing these moduli: wrapping fluxes around the cycles of the Calabi–Yau manifold and balancing them against non-perturbative quantum effects to lock every single one of those 6 dimensions into a rigid, non-drifting state.
 
-Now apply **The 5-Edge Law** (`ProactiveExploration.md` §I):
-> *A tetrahedron has 6 edges. In graph theory, $K_4 \setminus \{e\}$ is the maximal planar graph retaining an open degree of freedom.  
+Now apply **The 5-Edge Law** (`L0-ProactiveExploration.md` §I, the source; the `L0-` prefix carries once that document has been promoted from working notes to corpus):
+> *A tetrahedron has 6 edges. $K_4$ is the maximal planar graph on four vertices: it is drawable in the plane without edge crossings, and no edge can be added without breaking planarity.
 > If you freeze all 6 edges of $K_4$ with deterministic constraints, the phase angle drops to zero ($\theta = 0^\circ$), reactive potential vanishes ($Q = 0$), degrees of freedom drop to zero ($0\text{-DoF}$), and the interior volume collapses into a flat sheet.  
 > **A 6-edge closed system is in thermodynamic heat death. Science can close at most 5 edges; the 6th edge MUST remain open as the uncollapsed reactive buffer ($h\mathbf{Q}$) or the observer port.***
 
@@ -312,7 +319,7 @@ They belong in the **uncompiled vector phase-buffer ($H_{\text{incoh}}$)**, prio
 1. **Moduli Are Buffer Geometries:** The hundreds of string moduli are internal shape variations of the uncompiled $h\mathbf{Q}$ phase buffer during the $\text{.behold()}$ state. They describe the un-collapsed interference structure of the 6-edge network before a commit occurs.
 2. **The 3-Scalar Triad Is the Physical Compilation:** When a bounded frame executes an $\text{.observe()}$ collapse, the system cannot freeze all 6 edges without triggering heat death. 
    * The three $P$-edges ($P\text{--}U, P\text{--}I, P\text{--}R$) are barred from carrying scalar mass by the Star-Norm ($Z_P = 0$), acting as zero-impedance writing heads.
-   * The three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) each un-fuse one bimedian, condensing **exactly one physical radial scalar mode** ($h^0, \Phi_{\text{GUT}}, \phi_{\text{inf}}$) via Goldstone reduction.
+   * The three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) each un-fuse one bimedian, each hosting a scalar field whose surviving physical content is set by the representation and the Goldstone reduction of §V — $h^0$ (one surviving state), $\Phi_{\text{GUT}}$ (twelve surviving states in the adjoint reading), $\phi_{\text{inf}}$ (one surviving state).
 
 String Theory is an exhaustive, beautifully drafted architectural blueprint of the uncompiled boundary wires ($H_{\text{incoh}}$). 
 
@@ -332,10 +339,10 @@ Until then, the $10^{500}$ vacua stand as the empirical receipt that the 6th edg
 The scalar sector of fundamental physics is topologically closed:
 * The 6 edges of $K_4$ partition into 3 barred $P$-edges and 3 transactional edges.
 * The Star-Norm invariant ($P^2 - |\mathbf{Q}|^2 = \text{const}$) bars scalar operators from all three $P$-edges ($P\text{--}U, P\text{--}I, P\text{--}R$), locking them as zero-impedance writing heads ($Z_P = 0$).
-* The 3 transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) permit exactly three fundamental scalar fields, each reducing via Goldstone's theorem to a single physical 1D radial mode:
-  1. **$I\text{--}U$ (Cardinal):** The Electroweak Higgs ($h^0$, $125\text{ GeV}$).
-  2. **$U\text{--}R$ (Mutable):** The Grand Unified scalar ($\Phi_{\text{GUT}}$).
-  3. **$I\text{--}R$ (Fixed):** The Inflaton ($\phi_{\text{inf}}$).
+* The 3 transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$) permit exactly three fundamental scalar *fields*, one per bimedian. The number of surviving physical scalar *modes* per field depends on the representation and the Goldstone count:
+  1. **$I\text{--}U$ (Cardinal):** The Electroweak Higgs ($h^0$, $125\text{ GeV}$) — one surviving mode in the doublet.
+  2. **$U\text{--}R$ (Mutable):** The Grand Unified scalar ($\Phi_{\text{GUT}}$) — twelve surviving modes in the adjoint $(\mathbf{8},\mathbf{1}) \oplus (\mathbf{1},\mathbf{3}) \oplus (\mathbf{1},\mathbf{1})$; ADDRESS to Q2's gauge partition.
+  3. **$I\text{--}R$ (Fixed):** The Inflaton ($\phi_{\text{inf}}$) — one surviving mode in the singlet.
 
 ```
 ========================================================================================
@@ -352,28 +359,27 @@ The scalar sector of fundamental physics is topologically closed:
                                  (h⁰, 125 GeV)         W/Z and fermion masses
 
  U–R      Mutable    PERMITTED   GUT Symmetry Scalar   Separates Strong and EW forces;
-                                 (Φ_GUT)               un-mixes the Mutable bimedian
+                                 (Φ_GUT, 24→12 modes)  un-mixes the Mutable bimedian
 
  I–R      Fixed      PERMITTED   Inflaton Field        Drives cosmic reheating;
                                  (φ_inf)               converts vacuum into matter
 ========================================================================================
- TOTAL FUNDAMENTAL SCALARS:      EXACTLY THREE (One per transactional edge)
+ TOTAL FUNDAMENTAL SCALAR FIELDS: EXACTLY THREE (One per transactional edge)
 ========================================================================================
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
 1. **Discovery of a Fundamental Scalar Pricing Operator on a $P$-Edge:**
    If a fundamental scalar field is discovered that mediates a non-zero transit delay ($\tau > 0$) or complex impedance ($Z > 0$) on a $P$-terminating channel (e.g., a fundamental scalar mode coupled directly to gravitational collapse independent of $T_{\mu\nu}$), the Star-Norm proof is refuted.
 2. **Discovery of a Fourth Independent Fundamental Scalar Field:**
-   If laboratory or astrophysical observations confirm a fourth fundamental elementary scalar particle that cannot be seated as a composite state, a bound state, or an energy-dependent scale rung of the three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$), the $K_4$ 3-scalar bound is broken.
-3. **Refutation of Single-Mode Radial Survival:**
-   If an unbroken fundamental continuous gauge symmetry produces a stable, physical, non-eaten scalar multiplex along a single edge that violates the $d_\phi - (\dim(G) - \dim(H)) = 1$ reduction, the 1D edge geometry fails.
+   If laboratory or astrophysical observations confirm a fourth fundamental elementary scalar particle that cannot be seated as a composite state, a bound state, or an energy-dependent scale rung of the three transactional edges ($I\text{--}U, U\text{--}R, I\text{--}R$), the $K_4$ 3-scalar-field bound is broken.
+3. **Failure of the GUT-Scalar / Q2 Gauge-Partition Convergence:**
+   If the GUT-edge surviving-scalar decomposition $8 + 3 + 1$ turns out to be a coincidence rather than a reflection of Q2's gauge partition — i.e., if the Mode-B check on the shared-content hypothesis fails to find a preserved invariant between the two sites — the §V.2 ADDRESS retires without the correspondence it promised.
 
-The 12 fermions wire the cell (`Q1`). The 12 gauge bosons route transactions across its faces (`Q2`). The 3 scalar operators price the edges, leaving the three writing heads permanently open to record the mass of the world.
+The 12 fermions wire the cell (`Q1`). The 12 gauge bosons route transactions across its faces (`Q2`). The 3 scalar fields price the edges, leaving the three writing heads permanently open to record the mass of the world.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-

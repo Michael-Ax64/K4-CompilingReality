@@ -168,7 +168,7 @@ The resolution is stated explicitly in Section VII of `On_YangMills`:
 The distinction is total:
 - **Dimensional Magnitudes ($1.5\text{ GeV}$, $938\text{ MeV}$, $140\text{ MeV}$) Cannot Be Derived:** An electron volt is an arbitrary human unit defined by passing an electric charge through a one-volt potential. The absolute exchange rate between the interior's 1-bit commit and a human laboratory battery does not cross the Markov blanket.
 - **Dimensionless Ratios ($m_\pi / m_e = 273.131663$) Cross Intact:** The ratio of two physical ground states across an atom of space does not depend on electron volts, kilograms, or seconds. It depends only on:
-  - The ratio of the vacuum's reactive impedance to its resistance quantum: $\frac{Z_0}{2R_K} = \alpha$.
+  - The ratio of the vacuum's characteristic impedance to its resistance quantum: $\frac{Z_0}{2R_K} = \alpha$.
   - The topological winding number of the flux-tube junction: $N_c = 3$.
   - The geometric half-wave rectified average: $\frac{1}{\pi}$.
 
@@ -263,7 +263,7 @@ The answer was not in the room.
 
 The three quarks are not a triangle on a sheet of paper. They are the base of an enclosed three-dimensional cell of space. The ninety-nine percent of the mass is not missing stuff; it is the orthogonal fourth coordinate erecting the volume over the plane. 
 
-The pion is not an accidental curve fit. It is the on-shell boundary impedance of that spatial cell traversing its Mutable bimedian, evaluating the ratio of the vacuum's reactive reactance to its resistance quantum, subtracting the integer winding of the color flux junction, and returning the bare mass ratio with zero free parameters. 
+The pion is not an accidental curve fit. It is the on-shell boundary impedance of that spatial cell traversing its Mutable bimedian, evaluating the ratio of the vacuum's characteristic impedance to its resistance quantum, subtracting the integer winding of the color flux junction, and returning the bare mass ratio with zero free parameters. 
 
 What a thing weighs in electron volts is an interior subscription that no exterior theory can publish. But the dimensionless ratio of one boundary to another crosses the wall intact. 
 

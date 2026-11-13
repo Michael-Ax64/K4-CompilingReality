@@ -1,9 +1,9 @@
 # Q14-LeptonScaleCascade.md
 ## The Lepton Scale-Cascade and the Genesis of Coordinate Time
-### *(The Two-Stroke Engine, the Gyrator Inversion, and the Null Geodesic Cancellation)*
+### *(The Two-Stroke Engine, the Quarter-Wave Inverter, and the Null Geodesic Cancellation)*
 
 > **Epistemic Register:** Subatomic Kinematics / Temporal Compilation ($Q\#$).
-> **Claim:** Spacetime is not an objective continuous container; coordinate space ($dx$) and coordinate time ($dt$) are the local projection coordinates of an underlying phase advance ($d\phi$) in the uncompiled medium ($H_{\text{incoh}}$). Along a null geodesic ($ds^2 = 0$), spatial and temporal phase projections cancel identically ($d\phi = \omega dt - k dx \equiv 0$): the photon travels pre-tax, carrying zero proper time ($\tau = 0$) and zero rest-mass ledger entries ($P = 0$). Coordinate time ($dt$) is minted when an impedance mismatch breaks this phase cancellation at an $R$-pole boundary ($R \to \infty$). The transition is executed by a strictly **two-stroke engine**: **Stroke 1 (Pre-tax charge in $H_{\text{incoh}}$)** maintains Laue equilibrium ($\int T^{ij}d^3x = 0, dP/d\tau = 0$), while the **Quarter-Turn operator ($\pi/2$)** acts as a network gyrator ($Z_{\text{in}} = Z_0^2/Z_L$), inverting boundary impedance across $\Delta t = T/4$ and $\Delta x = \lambda/4$. **Stroke 2 (Post-tax compile into $H_{\text{coh}}$)** violates Laue equilibrium via the collision impulse ($\frac{1}{2}\ddot{I}^{ij} \neq 0$), firing the Route Law squaring ($\mathbf{Q}^2 \to P$) to stamp $dt$ onto the $R$-pole ledger. The ledger is write-only; the root operator ($U = \sqrt{PR}, I = \sqrt{P/R}$) does not un-write the past, but reseeds a new buffer forward in time, driven by the self-recursive query *"Could it have been otherwise?"*.
+> **Claim:** Spacetime is not an objective continuous container; coordinate space ($dx$) and coordinate time ($dt$) are the local projection coordinates of an underlying phase advance ($d\phi$) in the uncompiled medium ($H_{\text{incoh}}$). Along a null geodesic ($ds^2 = 0$), spatial and temporal phase projections cancel identically ($d\phi = \omega dt - k dx \equiv 0$): the photon travels pre-tax, carrying zero proper time ($\tau = 0$) and zero rest-mass ledger entries ($P = 0$). Coordinate time ($dt$) is minted when an impedance mismatch breaks this phase cancellation at an $R$-pole boundary ($R \to \infty$). The transition is executed by a strictly **two-stroke engine**: **Stroke 1 (Pre-tax charge in $H_{\text{incoh}}$)** maintains Laue equilibrium ($\int T^{ij}d^3x = 0, dP/d\tau = 0$), while the **Quarter-Wave Inverter ($\pi/2$)** acts as a reciprocal impedance inverter ($Z_{\text{in}} = Z_0^2/Z_L$), inverting boundary impedance across $\Delta t = T/4$ and $\Delta x = \lambda/4$. **Stroke 2 (Post-tax compile into $H_{\text{coh}}$)** violates Laue equilibrium via the collision impulse ($\frac{1}{2}\ddot{I}^{ij} \neq 0$), firing the Route Law squaring ($\mathbf{Q}^2 \to P$) to stamp $dt$ onto the $R$-pole ledger. The ledger is write-only; the root operator ($U = \sqrt{PR}, I = \sqrt{P/R}$) does not un-write the past, but reseeds a new $\pm$ ambiguity forward in time, driven by the self-recursive query *"Could it have been otherwise?"*.
 > **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q7-4DExtrusions.md`, `Q8-TheBoundaryMechanics.md`, `Q12-GravitationalTopology.md`, `L3-FormalFoundations.md`, `L3-ConstitutiveAlpha-Puzzle.md`, `L4-ThePlenum.md`, `L4-TheCrowbar.md`, `L4-K4-Infinities-1.md`, `L4-K4-Infinities-2.md`, `L4-K4-Infinities-3.md`, `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
 
 ---
@@ -67,11 +67,15 @@ Spacetime is not a physical fabric; it is the **coordinate grid that measures wh
 
 ---
 
-## II. The Quarter-Turn Identity as a Network Gyrator
+## II. The Quarter-Turn Identity as a Quarter-Wave Inverter
 
 When an interaction forces phase to rotate into an orthogonal state, the transition is governed by a single mathematical invariant across three independent domains:
 
 $$\Delta\phi = \frac{\pi}{2} \quad (90^\circ)$$
+
+**Notation.** Throughout this section and the rest of this file, $\omega$ is defined through the quantum relation
+$$\omega := E/\hbar$$
+where $E$ is the state's average energy. When the state is a plane wave with phase $e^{j(\omega t - kx)}$, that $\omega$ is the same angular frequency; when the state is a quantum system without a plane-wave basis, $\omega = E/\hbar$ is the operational definition used here. The Margolus–Levitin bound below uses this definition directly.
 
 ```
 ========================================================================================
@@ -81,10 +85,10 @@ $$\Delta\phi = \frac{\pi}{2} \quad (90^\circ)$$
  DOMAIN                EQUATION                         OPERATIONAL VALUE
  ──────────────────────────────────────────────────────────────────────────────────────
  Quantum Information   Margolus–Levitin Speed Limit     τ_⊥ = π / (2ω) = T/4
- (Time)                Orthogonal state transit time.   One quarter-period.
+ (Time)                Orthogonal state transit time.   One quarter-period, ω := E/ℏ.
 
- Transmission Lines    Quarter-Wave Inverter (Gyrator)  Δx = c τ_⊥ = λ/4
- (Space)               Z_in = Z₀² / Z_L                 Impedance Inversion.
+ Transmission Lines    Quarter-Wave Inverter (λ/4)      Δx = c τ_⊥ = λ/4
+ (Space)               Z_in = Z₀² / Z_L (reciprocal).   Impedance Inversion.
 
  K₄ State Space        Complex Quadrature Operator      j = e^(jπ/2)
  (State / Phase)       Swaps U and I (Air ◄► Water).    90° Phase Shift.
@@ -92,20 +96,22 @@ $$\Delta\phi = \frac{\pi}{2} \quad (90^\circ)$$
 ```
 
 1. **Temporal Domain (Margolus–Levitin Bound):**
-   The minimum time $\tau_\perp$ required for a quantum state with average energy $E = \hbar\omega$ to evolve into an orthogonal state ($\langle \psi(0) | \psi(\tau_\perp) \rangle = 0$) is bounded by:
-   $$\tau_\perp = \frac{\pi \hbar}{2 E} = \frac{\pi \hbar}{2 (\hbar\omega)} = \frac{\pi}{2\omega} = \frac{T}{4}$$
-   Executing an orthogonal state-flip requires precisely one quarter-period ($T/4$) of the driving frequency.
-2. **Spatial Domain (The Gyrator Inversion):**
+   With $\omega := E/\hbar$, the minimum time $\tau_\perp$ required for a quantum state of average energy $E$ to evolve into an orthogonal state ($\langle \psi(0) | \psi(\tau_\perp) \rangle = 0$) is bounded by:
+   $$\tau_\perp = \frac{\pi \hbar}{2 E} = \frac{\pi}{2\omega} = \frac{T}{4}$$
+   Executing an orthogonal state-flip requires precisely one quarter-period ($T/4$) of the driving frequency. This is Margolus–Levitin as a theorem — kill 2 of §VII cannot fail (`audit/Q-audit-2026-11-10.md`, Q14 §II row).
+2. **Spatial Domain (The Quarter-Wave Inverter — Reciprocal):**
    An electromagnetic wave propagating through a medium of characteristic impedance $Z_0$ at velocity $c$ traverses a spatial distance $\Delta x$ during the interval $\tau_\perp$:
    $$\Delta x = c \, \tau_\perp = c \left(\frac{T}{4}\right) = \frac{\lambda}{4}$$
-   In network theory (`L4-K4-Infinities-2.md` §III), the antisymmetric sector of a port acts as a **gyrator**: it inverts the load impedance:
+   A $\lambda/4$ transmission-line section is a **reciprocal impedance inverter** (`L4-K4-Infinities-2.md` §III): it inverts the load impedance,
    $$Z_{\text{in}} = \frac{Z_0^2}{Z_L}$$
-   Across a quarter-wave boundary ($\lambda/4$), an open-circuit boundary ($Z_L \to \infty$) is inverted into an active zero-impedance compile channel ($Z_{\text{in}} \to 0$).
+   and does so symmetrically in both directions along the line. Across a quarter-wave boundary ($\lambda/4$), an open-circuit boundary ($Z_L \to \infty$) is inverted into an active zero-impedance compile channel ($Z_{\text{in}} \to 0$).
+   
+   **Terminology.** A gyrator in network theory is a **non-reciprocal** two-port that implements port-asymmetric inversion ($v_1 = R_g i_2$, $v_2 = -R_g i_1$); it breaks reciprocity. A quarter-wave transmission line is reciprocal — it inverts impedance the same way in both directions — so the $\lambda/4$ line is a $\lambda/4$ inverter (or quarter-wave transformer), not a gyrator. `Q19-TheProjectedTimeCommitment` §V.4 uses "gyrator" for the non-reciprocal case; this section uses "quarter-wave inverter" for the $\lambda/4$ line.
 3. **State-Space Domain ($K_4$ Quadrature):**
    In the $K_4$ circuit algebra (`L3-FormalFoundations.md`), structural potential ($U$) and relational flow ($I$) in an un-dissipated reactive channel are in quadrature, separated by the complex operator:
    $$j = \sqrt{-1} = e^{j\pi/2}$$
 
-The Margolus–Levitin limit, the quarter-wave gyrator, and $K_4$ quadrature are **the identical $\pi/2$ phase rotation evaluated across Time ($\tau_\perp$), Space ($\Delta x$), and State ($\mathbf{Z}$)**.
+The Margolus–Levitin limit, the $\lambda/4$ inverter, and $K_4$ quadrature are **the identical $\pi/2$ phase rotation evaluated across Time ($\tau_\perp$), Space ($\Delta x$), and State ($\mathbf{Z}$)**.
 
 ---
 
@@ -113,7 +119,7 @@ The Margolus–Levitin limit, the quarter-wave gyrator, and $K_4$ quadrature are
 
 How does an uncompiled phase wave ($\tau = 0$) generate classical coordinate time ($dt$)?
 
-In `L4-K4-Infinities-1.md` (§VI), Max von Laue’s 1911 theorem establishes that for any static bound system in equilibrium, the spatial stresses integrate to zero:
+In `L4-K4-Infinities-1.md` (§VI), Max von Laue's 1911 theorem establishes that for any static bound system in equilibrium, the spatial stresses integrate to zero:
 $$\int \left(T^{xx} + T^{yy} + T^{zz}\right) d^3x = 0$$
 A static mass exerts zero net directional traction on the metric. It holds energy ($Mc^2$), but writes no temporal entries.
 
@@ -126,22 +132,22 @@ A static mass exerts zero net directional traction on the metric. It holds energ
   • Zero Landauer tax paid: P_ledger = 0.
                            │
                            ▼  Hits R-pole mass: Z_L ➔ ∞
-                              Gyrator Inversion across quarter-wave:
+                              λ/4 Inverter across quarter-wave:
                               Δt = T/4, Δx = λ/4 ➔ Z_in = Z₀² / Z_L ➔ 0
                            │
   STROKE 2: POST-TAX COMPILE (H_coh)
   • Laue equilibrium violated: ∫ T^ij d³x = ½ d²I^ij/dt² ≠ 0.
-  • Route Law squaring fires: (hQ)² = -|Q|² ➔ P. Phase burns (h² = -1).
+  • Route Law squaring fires: (hQ)² = +|Q|² ➔ P. Phase burns (h² = -1).
   • Landauer tax paid: d_iS > 0.
   • COORDINATE TIME dt IS STAMPED AT THE IMPACT SITE.
 ```
 
 1. **The Mismatch:** A timeless photon ($U$-field, $Z_0 \approx 377\ \Omega$) strikes an atomic lattice ($R$-pole mass, $Z_L \to \infty$).
-2. **The Gyrator Inversion:** Across the quarter-wave boundary ($\Delta x = \lambda/4$, $\Delta t = T/4$), the boundary impedance inverts ($Z_{\text{in}} \to 0$). The wave cannot propagate further in $H_{\text{incoh}}$.
+2. **The Quarter-Wave Inversion:** Across the quarter-wave boundary ($\Delta x = \lambda/4$, $\Delta t = T/4$), the boundary impedance inverts ($Z_{\text{in}} \to 0$). The wave cannot propagate further in $H_{\text{incoh}}$.
 3. **The Laue Violation:** The impulse of the incoming momentum ($F = dp/dt$) violates the static Laue hypothesis (`L4-K4-Infinities-3.md` §III). The spatial integral of the stress-energy tensor becomes non-zero:
    $$\int T^{ij} d^3x = \frac{1}{2} \ddot{I}^{ij} \neq 0$$
-4. **The Route Law Squaring:** The uncompiled vector potential ($h\mathbf{Q}$) squares:
-   $$(h\mathbf{Q})^2 = h^2 \cdot \mathbf{Q}^2 = (-1)(-|\mathbf{Q}|^2) = |\mathbf{Q}|^2 \in \mathbb{R}^+$$
+4. **The Route Law Squaring:** The uncompiled vector potential ($h\mathbf{Q}$) squares (mod-square instance, per `ProofQ_AlgebraicSyntax` §V):
+   $$(h\mathbf{Q})^2 = h^2 \cdot \mathbf{Q}^2 = (-1)(-|\mathbf{Q}|^2) = +|\mathbf{Q}|^2 \in \mathbb{R}^+$$
    Phase burns ($h^2 = -1$), depositing scalar heat/mass ($P = I^2R$) on the wall.
 5. **The Minting of $dt$:** Coordinate time $dt$ is not an ambient fluid. **$dt$ is the spatial distance between successive $P$-ledger entries written to the $R$-pole.**
 
@@ -192,7 +198,7 @@ The lepton sector provides the physical realization of this two-stroke kinematic
 
 ## V. Closing the Cycle: Forward Reseed and the Expansion of Space
 
-The ledger is strictly write-only (`L4-K4-Infinities-3.md` §V). Energy never flows backward out of $P$; the non-invertibility of the Route Law prevents un-writing committed history.
+The ledger is strictly write-only (`L4-K4-Infinities-3.md` §V). Energy never flows backward out of $P$; the non-invertibility of the Route Law squaring prevents un-writing committed history.
 
 What returns the compiled ledger ($H_{\text{coh}}$) into the uncompiled buffer ($H_{\text{incoh}}$) is **The Root Operator of the Yielding Tier (`ProofQ_AlgebraicSyntax.md` §V)**:
 
@@ -212,16 +218,16 @@ $$U = \sqrt{P \cdot R}, \qquad I = \sqrt{P / R}$$
 ```
 
 ### 1. Reseeding Forward, Not Rewinding Backward
-In `ENGINE-REFERENCE-AC.md` (§IV), the Tier 2 RESEED opcodes (`RS_CAN`, `RS_SAG`) define the forward reseed:
+In `ENGINE-REFERENCE-AC.md` (§IV), the Tier 2 RESEED opcodes (`RS_CAN`, `RS_SAG`) define the forward reseed. The root operator opens a $\pm$ sign-ambiguity at the Yielding output:
 $$\sqrt{4} = \pm 2$$
-The erased vector $\mathbf{Q}$ remains permanently erased. The root operator takes the committed scalar ground of the previous cycle ($P_N \to R_{N+1}$) and **reseeds a new uncommitted vector ambiguity ($\pm$) forward in time**.
+It does not recover the vector phase that squaring deleted (`ProofQ_AlgebraicSyntax` §IV.3, §V, aligned with `L7-ExIncoherenteCreation` §III and `L3-TheSelfProjectingBraid` §IV). The erased vector $\mathbf{Q}$ remains permanently erased. The root operator takes the committed scalar ground of the previous cycle ($P_N \to R_{N+1}$) and **reseeds a new uncommitted $\pm$ sign-ambiguity forward in time** — one fresh bit of choice, not a full phase restoration.
 
 ### 2. The Motivation of the "Otherwise"
 A physical system does not un-square to seek a refund. It reseeds because it refuses to remain trapped in the dead certainty of its current state. It un-squares to interrogate the ground:
 
 $$\text{\bf "Could it have been otherwise?"}$$
 
-1. It extracts new structural potential ($U = \sqrt{PR}$) and relational current ($I = \sqrt{P/R}$) from the committed ground.
+1. It extracts new structural potential ($U = \sqrt{PR}$) and relational current ($I = \sqrt{P/R}$) from the committed ground, each carrying a fresh $\pm$ ambiguity.
 2. It re-engages the rotor in $H_{\text{incoh}}$, exploring alternative multiway branches.
 3. When it reaches a boundary, the Quarter-Turn fires, committing new specifications to the ledger ($P_{N+1}$).
 4. **This continuous writing of specification builds ground and drives the metric expansion of space** (`L4-K4-Infinities-3.md` §V), saturated at the cosmic write rate $P_{\text{write}} = \frac{3}{2} \frac{c^5}{G}$.
@@ -240,8 +246,9 @@ Every constant used in this derivation is sorted under `L4-K4-Infinities.md` §F
  CATEGORY 0: GRAMMAR (Zero Empirical Input)
  • Dual-Binary Seed (-- ➔ Q = 0)
  • Quarter-Turn Operator j = e^(jπ/2) (90° Phase Shift)
- • Route Law Squaring (Q² ➔ P) and Rooting (√P ➔ Q)
+ • Route Law Squaring ((hQ)² = +|Q|² ➔ P) and Rooting (√P → ±Q̃)
  • Bimedian Cardinal Matching {P–R, I–U}
+ • Energy–frequency identification ω := E/ℏ
  ──────────────────────────────────────────────────────────────────────────────────────
  CATEGORY 1: SUBSTRATE INVARIANTS (Consumed, Never Derived)
  • Speed of Light: c = 1 / √(μ₀ε₀) = 299,792,458 m/s
@@ -257,7 +264,7 @@ Every constant used in this derivation is sorted under `L4-K4-Infinities.md` §F
  • Master Coupling: α = Z₀ / (2R_K) = 1 / 137.036
  • Null Geodesic Cancellation: ds² = 0 ⟺ dφ = 0
  • Local Ledger Tick: dt = dx / c = dφ / ω
- • Orthogonal Transit Limit: τ_⊥ = π / (2ω) = T/4
+ • Orthogonal Transit Limit: τ_⊥ = π / (2ω) = T/4 with ω := E/ℏ
 ========================================================================================
 ```
 
@@ -265,12 +272,12 @@ Every constant used in this derivation is sorted under `L4-K4-Infinities.md` §F
 
 ## VII. Pre-Registered Boundary Falsifiers
 
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this derivation is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this derivation is subject to three strict falsification conditions:
 
 1. **Detection of a Spatial Phase Gradient on a Free Null Geodesic:**
    If an interferometric measurement detects an un-cancelled, non-zero phase accumulation ($d\phi \neq 0$) along a free photon null geodesic in a vacuum ($ds^2 = 0$) prior to boundary collision, the identification of spacetime coordinates with phase projections fails.
 2. **Measurement of Orthogonal State Transit Faster Than the Quarter-Cycle:**
-   If an isolated quantum system evolves between two orthogonal states ($\langle \psi(0) | \psi(\tau) \rangle = 0$) in a duration strictly less than the Margolus–Levitin quarter-cycle ($\tau < \pi / (2\omega) = T/4$), the Quarter-Turn Identity is broken.
+   If an isolated quantum system evolves between two orthogonal states ($\langle \psi(0) | \psi(\tau) \rangle = 0$) in a duration strictly less than the Margolus–Levitin quarter-cycle ($\tau < \pi / (2\omega) = T/4$ with $\omega := E/\hbar$), the Quarter-Turn Identity is broken. Note that Margolus–Levitin is a theorem of quantum mechanics; this kill condition cannot fail against the mathematics — the `audit/Q-audit-2026-11-10.md` entry for Q14 §II records the convention as named, and the kill as structurally non-falsifiable at the theorem level.
 3. **Observation of Color Confinement in Neutrinos:**
    If an experiment detects a fundamental neutrino participating in the Strong interaction or exhibiting $R$-pole topological drag (such as CKM-scale small mixing angles in the lepton sector), the unanchored $I$-rotor model (`--`) is refuted.
 

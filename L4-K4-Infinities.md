@@ -53,7 +53,11 @@ Six findings would break the construction. Each is stated so that it could in pr
 
 **KI-5 — Boundary permeability, and the law that composes it.** Two clauses, because the second is where the construction was recently wrong. *(a)* If an isolated boundary is shown to transmit real power substantially exceeding the medium's own constitutive threshold — about $8\alpha$, or $5.7\%$ — the single-boundary result is falsified. *(b)* If nested boundaries are shown to compose by a law materially different from the one the dissipative channel between them implies, the isolation account is falsified independently of the single-boundary number. Part Two §V currently leaves that law undetermined between a slow $1/n$ and a geometric decay, and says so; a demonstration either way lands here.
 
-**KI-6 — The deviation itself.** The one sentence in this construction that departs from general relativity says that gravity sources from committed entries only — what has crossed weighs, what has not does not. **If uncommitted vacuum level is shown to gravitate, the register split dies, and with it the resolution of the vacuum-energy gap and the Casimir prediction together.** Two routes: a measured Casimir weight at the magnitude the equivalence principle assigns it, which the Archimedes balance is built to detect; or any demonstrated gravitational sourcing of manipulated zero-point energy, which is impractical today and filed because a condition one cannot currently run is still a condition. This is the construction's actual bet and it now sits on the same explicit footing as the five that guard the machinery around it.
+**KI-6 — The deviation itself.** The one sentence in this construction that departs from general relativity says the metric sources from committed entries only: the medium's homogeneous uncompiled level does not source $G_{\mu\nu}$. **If it is shown to, the register split dies, and the resolution of the vacuum-energy gap dies with it.**
+
+The line falls between homogeneous and localized rather than between held and real (`QED-CCP` §II; expect there: localized excitations crossing $\Psi$ source curvature, while homogeneous background offsets, lacking a localized Markov blanket under active erasure, do not). A Casimir cavity sits on the localized side — committed plates, a committed separation, and a gradient that does work when they move — so it sources and it weighs by $\Delta E/c^2$, which `BENDING_SPACE` §III works and §XI arbitrates. It is not a route to this kill.
+
+That leaves KI-6 without an arbiter, and what has happened is that the arbitration moved rather than vanished. A homogeneous level cannot be modulated — being unmodulable is what makes it homogeneous — while the Archimedes balance modulates a localized cavity, so Archimedes arbitrates the localized prediction, and a null there strikes `BENDING_SPACE` §XI's row instead of this one. KI-6 is a structural condition with no experiment currently addressing it, and it is filed as that rather than on a borrowed arbiter.
 
 Three further tests live in Part Three §VIII with the material they bear on: the dark-energy fork's constancy condition, its spatial-homogeneity condition, and the pre-registered derivation target that would close the circularity in §V.
 
@@ -80,7 +84,7 @@ Every number appearing anywhere in these three parts belongs to exactly one of f
 | **0 · Grammar** | Pure counting and algebraic closure: four poles, six edges, twelve equations, Laurent orders $\{-1, 0, +1\}$, $\pi$ from a loop integral, $e$ from a growth base | Native to any universe running this algebra. Zero empirical input |
 | **1 · Substrate** | Physical invariants: $c$, $\hbar$, $G$, $Z_0 \approx 376.73\ \Omega$, $R_K \approx 25\,812.8\ \Omega$, $\ell_P$ | **Consumed, never derived.** The grammar cannot emit the weight of the ink |
 | **2 · State** | Trajectory of a particular frame: $H_0$, $R_H(t)$, $\Omega_\Lambda$, a local temperature | Epoch-dependent readouts. A claim resting on one of these is epoch-dependent too |
-| **3 · Bridge** | Computed predictions: $\alpha = Z_0/2R_K$; $T_{\text{boundary}} = 8\alpha/(1+2\alpha)^2$; $P_{\text{write}} = \tfrac32\,c^5/G$; $t_{\text{bit}} = (\ln 2/3)\,t_H$ | Computed from Categories 0, 1 and 2 with **zero free parameters**, and itemizing which it consumed |
+| **3 · Bridge** | Computed predictions: $\alpha = Z_0/2R_K$; $T_{\text{boundary}} = 8\alpha/(1+2\alpha)^2$; $P_{\text{write}} = \tfrac32\,c^5/G$; $t_{\text{bit}} = t_H/3$ | Computed from Categories 0, 1 and 2 with **zero free parameters**, and itemizing which it consumed |
 
 Five rules govern the table, and the fourth does the most work:
 
@@ -134,7 +138,7 @@ Then the writing, which is the same theorem with its condition removed. While a 
 
 What remains open is written open. The law by which nested boundaries compose, and whether windowlessness is earned or merely hoped. The angle at which leverage peaks, with the bet placed against the obvious answer. Whether bits erased and quadrupole acceleration are one quantity in two currencies, which is the thing most worth knowing here. Whether a route through a coordinate-free medium can be made canonical. Why this epoch and not another.
 
-And one sentence that departs from textbook physics, which says gravity weighs what has been committed and not what is merely held, and which is sitting on a balance in Sardinia waiting to be told whether it is true.
+And one sentence that departs from textbook physics, which says gravity sources what has been committed and not the medium's homogeneous level, and whose localized half is sitting on a balance in Sardinia waiting to be told whether it is true.
 
 That is the right place for a construction to end. Not in agreement, and not in argument, but in a measurement that only one side can survive.
 

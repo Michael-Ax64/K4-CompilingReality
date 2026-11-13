@@ -3,8 +3,14 @@
 ### *(Why the P-Edges Are Permanently Un-Priced and How Mass Is Minted Through Them)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.  
+
 > **Claim:** The three edges of the $K_4$ tetrahedron terminating at the $P$-pole ($P\text{--}U, P\text{--}I, P\text{--}R$) carry zero scalar pricing impedance ($Z_P = 0$) and zero transit delay ($\tau_P = 0$), acting as the permanent, open writing heads of the physical universe. This zero-impedance condition is an exact algebraic consequence of biquaternion Star-Norm conservation ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$). The three classical routes to power—Friction ($P = I^2R$), Leverage ($P = U^2/R$), and Synthesis ($P = UI$)—map one-to-one to the three bimedian axes of $K_4$, exhausting all algebraic channels into the Ledger. The absence of a gauge boson on $P$ formalizes the non-existence of the graviton: gravity is the macroscopic geometric curvature of the committed scalar ledger ($T_{\mu\nu}^{\text{GR}}$), not a gauge transaction crossing a boundary. This condition provides the topological firewall that enforces the quantum No-Communication Theorem.  
-> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV, §X.4), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
+
+> **Entanglement (Spatial / `.behold()` Definition):** Two or more bounded frames holding a joint, uncollapsed consistency constraint in the pre-tax buffer (`ENGINE-REFERENCE-AC` §§1.1–1.3: `.behold()` across $H_{\text{incoh}}$) under a single Star-Norm cross-term ($2\,p_1\cdot p_2$, `BENDING_SPACE` §IV) and a shared `TD0` Now (`L4-Thermodynamics` §VI). Neither frame can execute Tier-1 `COMMIT` independently without Garbage Collection (`Proof G` §VI) fixing the partner's compatible state, while the zero-phase condition on $P$-edges ($\theta_P = 0$, §II) forbids local collapse writes from propagating phase waves across $H_{\text{incoh}}$ to alter the partner's reduced state.
+
+
+**Reads with:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV, §X.4), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
+
 
 ---
 
@@ -76,6 +82,8 @@ The $P$-edges ($P\text{--}U, P\text{--}I, P\text{--}R$) are structurally un-pric
 
 ## III. The Three Channels of Compilation as the Three Bimedians
 
+Each writing head is the control edge (home, absent) of the gate at the head of its tier — plane names by the Kernel Rule (`L3-EdgeStateSpace.md` — Bimedian / Sign Discrimination Rule).
+
 How does energy cross from the transactional tier $\{U, I, R\}$ into the Ledger ($P$)?
 
 In the 12 DC equations of mutual determination (`L3-FormalFoundations.md`, `ENGINE-REFERENCE-AC.md` §IV), there are **exactly three equations that solve directly for $P$**. 
@@ -87,35 +95,35 @@ These three equations are the three physical channels of compilation. Each chann
                       THE THREE COMPILATION CHANNELS
 ========================================================================================
 
- CHANNEL       EQUATION     TIER / OPCODE    BIMEDIAN AXIS       PHYSICAL MECHANISM
+ CHANNEL       EQUATION     TIER / OPCODE    BIMEDIAN AXIS                  PHYSICAL MECHANISM
  ──────────────────────────────────────────────────────────────────────────────────────
- Friction      P = I²R      Tier 1 (CM_TAU)  Fixed {P–U, I–R}    Relational current
-                            Commit (Slope 2)                     burned against ground
+ Friction      P = I²R      Tier 1 (CM_TAU)  Fixed-Bimedian {P–U, I–R}      Relational current
+                            Commit (Slope 2)                                burned against ground
                             
- Leverage      P = U²/R     Tier 1 (CM_ARI)  Mutable {P–I, U–R}  Structural potential
-                            Commit (Slope 2)                     loaded against ground
+ Leverage      P = U²/R     Tier 1 (CM_ARI)  Mutable-Bimedian {P–I, U–R}    Structural potential
+                            Commit (Slope 2)                                loaded against ground
                             
- Synthesis     P = UI       Tier 3 (RT_GEM)  Cardinal {P–R, I–U} Direct in-phase power
-                            Route (Slope 1)                      (Power Factor cos θ = 1)
+ Synthesis     P = UI       Tier 3 (RT_GEM)  Cardinal-Bimedian {P–R, I–U}   Direct in-phase power
+                            Route (Slope 1)                                 (Power Factor cos θ = 1)
 ========================================================================================
 ```
 
 Notice the topological precision: **Every bimedian axis possesses exactly one compilation route into $P$.**
 
-### 1. The Friction Channel: $P = I^2R$ (Fixed Family / Opcode `CM_TAU`)
+### 1. The Friction Channel: $P = I^2R$ (TAU gate, Fixed-Bimedian plane / Opcode `CM_TAU`)
 * **Mechanism:** Relational current ($I$) is forced through material resistance ($R$). Under the Route Law grammar (`ProofQ_AlgebraicSyntax.md` §V), the squaring operation applies to the Yielding operand ($I$), destroying its vector phase. Resistance ($R$) acts as the unyielding anvil that forces the collapse.
-* **Writing Head:** The scalar exhaust of this burn drops directly through the **$P\text{--}I$ writing head**.
+* **Writing Head:** The scalar exhaust of this burn drops directly through the **$P\text{--}U$ writing head** — the control edge of the TAU gate (home $P$, absent $U$), which is the Fixed-Bimedian plane's $P$-edge.
 * **Physical Manifestation:** Ohmic dissipation and Joule heating. In particle physics, this is the Is-Ness tax (`On_TheIsNessTax`): a bounded frame paying continuous metabolic dissipation against the Plenum's drag resistance ($R_K = h/e^2$) to maintain its rest mass.
 
-### 2. The Leverage Channel: $P = U^2/R$ (Mutable Family / Opcode `CM_ARI`)
+### 2. The Leverage Channel: $P = U^2/R$ (ARI gate, Mutable-Bimedian plane / Opcode `CM_ARI`)
 * **Mechanism:** Structural potential ($U$) compounds upon itself ($U^2$) and leverages against the ground ($R$). The squaring operation applies to the Active operand ($U$), burning its phase as it forces a commit.
-* **Writing Head:** The scalar exhaust drops through the **$P\text{--}U$ writing head**.
+* **Writing Head:** The scalar exhaust drops through the **$P\text{--}I$ writing head** — the control edge of the ARI gate (home $P$, absent $I$), which is the Mutable-Bimedian plane's $P$-edge.
 * **Physical Manifestation:** Dielectric breakdown and high-voltage discharge. In institutional dynamics, this is the Necessary Betrayer (`L4-TheNecessaryBetrayer.md`): structural protocol compounding itself until the sheer weight of syntax collapses into an irreversible audit.
 
-### 3. The Synthesis Channel: $P = UI$ (Cardinal Family / Opcode `RT_GEM`)
+### 3. The Synthesis Channel: $P = UI$ (GEM gate, Cardinal-Bimedian plane / Opcode `RT_GEM`)
 * **Mechanism:** The direct linear product of potential ($U$) and flow ($I$). Because this equation contains no squaring, it does not burn phase via non-linear collapse. It requires that potential and current be strictly in-phase:
   $$\cos\theta = 1.0 \quad (\text{Power Factor } 1.0)$$
-* **Writing Head:** It uses the **$P\text{--}U$ and $P\text{--}I$ heads simultaneously**, conducting real power without reactive circulation.
+* **Writing Head:** The scalar exhaust drops through the **$P\text{--}R$ writing head** — the control edge of the GEM gate (home $P$, absent $R$), which is the Cardinal-Bimedian plane's $P$-edge.
 * **Physical Manifestation:** Resonant power transfer. When an $RLC$ circuit hits its resonant frequency $\omega_0 = 1/\sqrt{LC}$, inductive and capacitive reactances cancel ($X = 0$), the phase angle drops to zero ($\theta = 0^\circ$), and apparent power converts entirely into real power ($P = UI$).
 
 In all three channels, the transition from $\{U, I, R\}$ to $P$ requires no mediating exchange particle. The algebra contains no intermediate divisor or propagation factor: the operands multiply or square, and the result **is** $P$.
@@ -234,13 +242,13 @@ The three $P$-terminating edges of $K_4$ are the permanent writing heads of the 
                       THE P-EDGE OPERATIONAL TOPOLOGY
 ========================================================================================
 
- EDGE     BIMEDIAN AXIS       COMPILATION CHANNEL   OPERATIONAL FORMULA
+ EDGE     BIMEDIAN AXIS                     COMPILATION CHANNEL   OPERATIONAL FORMULA
  ──────────────────────────────────────────────────────────────────────────────────────
- P–U      Mutable {P–I, U–R}  Leverage Channel      P = U² / R  (Necessary Betrayer)
- P–I      Fixed   {P–U, I–R}  Friction Channel      P = I² R    (Is-Ness Tax / Joule)
- P–U/P–I  Cardinal {P–R, I–U} Synthesis Channel     P = U · I   (Resonant Synthesis)
+ P–U      Fixed-Bimedian    {P–U, I–R}      Friction Channel      P = I² R    (Is-Ness Tax / Joule)
+ P–I      Mutable-Bimedian  {P–I, U–R}      Leverage Channel      P = U² / R  (Necessary Betrayer)
+ P–R      Cardinal-Bimedian {P–R, I–U}      Synthesis Channel     P = U · I   (Resonant Synthesis)
  
- P-POLE   ALL BIMEDIANS       Zero-Impedance Ledger Z_P = 0, τ_P = 0 (No Graviton)
+ P-POLE   ALL BIMEDIANS                     Zero-Impedance Ledger Z_P = 0, τ_P = 0 (No Graviton)
 ========================================================================================
 ```
 

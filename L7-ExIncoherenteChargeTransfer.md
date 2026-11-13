@@ -9,6 +9,7 @@ The document runs in two coordinated passes. Layers 0–11 establish the physics
 
 ---
 
+```
 ========================================================================================
                   L7-ExIncoherenteChargeTransfer Architecture
 ========================================================================================
@@ -29,7 +30,7 @@ The document runs in two coordinated passes. Layers 0–11 establish the physics
   LAYER 13 ──► The Ex-Incoherente Re-Framing (The Universal Charge-Transfer Verb)
   LAYER 14 ──► The Dissolution of the Six Standing Mysteries
 ========================================================================================
-  
+```  
 
 ---
 
@@ -688,14 +689,14 @@ Layers 1–11 have established the physics of in-medium collective excitations o
 |---|---|---|---|
 | `wip-On_InMediumPhysics.md §Layer 3` | Four-Wave Mixing ($\omega_1 + \omega_2 - \omega_3 = \omega_4$) is the universal 3rd-order non-linear engine ($\chi^{(3)}$) operating inside any $H_{\text{incoh}}$ phase-buffer without requiring inversion symmetry breaking. | The DC Closure | **CONFIRMED** |
 | `quantum/Q18-PhaseCompositionOnTheStarNorm.md §V` | The multi-operation Power Factor cascade $\text{PF}_{\text{total}} = \cos\theta_1 \cdot \cos\theta_2$ on the Biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ yields the exact Schwarzschild proper-time expression $d\tau/dt = \sqrt{(1 - v^2/c^2)(1 - 2GM/rc^2)}$ for radially moving observers without requiring an $h_{ij}$ weak-field expansion. | The DC Closure | **CONFIRMED** |
-| `quantum/Q10-PlanckScale.md §IV` | The Planck scale ($\ell_P, t_P$) is the width of the XOR bottleneck where the $H_{\text{incoh}}$ phase-buffer compiles into $H_{\text{coh}}$ $P$-ledger mass, marking the Tangent Singularity ($\tan 90^\circ \to \infty$) where classical interior coordinates fail. | The ZPE Tension | **CONFIRMED** |
-| `QED-EotvosBound.md §IV` | Parsing local metabolic dissipation $P = 1.6 \times 10^{-18}$ against rest mass $R = 1.0$ extracts local linear current $I = \sqrt{P} \approx 1.26 \times 10^{-9}$, yielding an Eötvös departure $\eta = -2I^2 = -3.2 \times 10^{-18}$, 3 orders below current experimental bounds ($10^{-15}$). | The DC Closure | **CONFIRMED** |
-| `L4-ThePlenum.md §II.2` | Free space carries an intrinsic complex impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$ ($120\pi\,\Omega$), proving $H_{\text{incoh}}$ is an $RLC$ transmission medium carrying non-zero phase potential ($h\mathbf{Q}$) at $P=0$. | The DC Closure | **CONFIRMED** |
-| `quantum/Q1-GenerationsOfMatter.md §V` | Bimedian matching combinatorics $(4-1)!! = 3$ combined with the Arrow of Time non-removable phase requirement $\delta = (N-1)(N-2)/2 \ge 1$ bounds the fermion generation count strictly at $3 \le N_{\text{gen}} \le 3$. | The DC Closure | **CONFIRMED** |
+| `quantum/Q10-PlanckScale.md §IV` | The Planck scale ($\ell_P, t_P$) is the width of the XOR bottleneck where the $H_{\text{incoh}}$ phase-buffer compiles into $H_{\text{coh}}$ $P$-ledger mass, marking the Tangent Singularity ($\tan 90^\circ \to \infty$) where classical interior coordinates fail. | The ZPE Tension | **CONFIRMED as a reading** (not a closure — the identification is interpretive, not derived from an invariant the file emits) |
+| `QED-EotvosBound.md §IV` | Parsing local metabolic dissipation $P = 1.6 \times 10^{-18}$ against rest mass $R = 1.0$ extracts local linear current $I = \sqrt{P} \approx 1.26 \times 10^{-9}$, yielding an Eötvös departure $\eta = -2I^2 = -3.2 \times 10^{-18}$, 3 orders below current experimental bounds ($10^{-15}$). | The DC Closure | **CONFIRMED with scope note** (the file's own derivation runs $\eta = -2\Delta I/I_0$ from the dissipation-to-rest ratio; the $I = \sqrt{P}$ parsing above is a parallel restatement, and both carry the file's open clock-rule debt — see `QED-EotvosBound` §V and `L4-Thermodynamics` §V.2 for the Planckian-clock address) |
+| `L4-ThePlenum.md §II.2` | Free space carries an intrinsic characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$ ($119.917\pi\,\Omega$), real-valued and lossless; $H_{\text{incoh}}$ is a reactive storage medium carrying non-zero phase potential ($h\mathbf{Q}$) at $P=0$ with zero dissipative $R$ at the free-medium operating point. | The DC Closure | **CONFIRMED** |
+| `quantum/Q1-GenerationsOfMatter.md §V` | Bimedian matching combinatorics $(4-1)!! = 3$ bounds the fermion generation count from above at $N_{\text{gen}} \le 3$. | The DC Closure | **CONFIRMED on the upper bound only.** The lower bound $N_{\text{gen}} \ge 3$ depends on the antecedent "the Arrow of Time requires an irreducible CP phase $\delta \ge 1$," which no corpus file derives — UNDECIDABLE by the DC Closure instrument (`audit/Q-audit-2026-11-10.md`). |
 | `L4-TheWaterEngine.md §5.3` | High-Density Liquid (HDL) and Low-Density Liquid (LDL) water are native $S = P + jQ$ phasor rotations in the Fixed-plane basin, where LDL is the high-$|Q|$ pre-ice tetrahedral cage and HDL is the high-$P$ sheared-parallelogram state ($A(\theta) = A_0 \cos\theta$). | The AC Sweep | **OPEN VOTE** (Kill: $\tan\delta$ resonance at 198 K / 1250 atm approaching $45^\circ$ at peak) |
-| `QED-CCP.md §VI` | Uncompiled zero-point energy ($h\mathbf{Q}$) in a Casimir cavity carries $P=0$ (has paid no Landauer Tax) and therefore carries a null gravitational mass anomaly ($\Delta m = 0$). | The DC Closure | **UNDECIDABLE BY THIS INSTRUMENT** (Falsifiable prediction; requires precision Casimir gravimetry) |
+| `QED-CCP.md §VI` | Uncompiled zero-point energy ($h\mathbf{Q}$) in a Casimir cavity carries $P=0$ (has paid no Landauer Tax) and therefore carries a null gravitational mass anomaly ($\Delta m = 0$). | The DC Closure | **OPEN** (the kind the Archimedes experiment resolves; see also `BENDING_SPACE` §B row "Casimir weight": the void does not weigh, the plates' binding weighs, sign included) |
 
-The rows are the load-bearing bridge between the in-medium physics of Layers 1–11 and the charge-transfer verb of Layers 13–14. Each row identifies a concrete codex address, states a specific claim about how the in-medium apparatus reads under the framework's algebra, names the instrument, and records the verdict. Two rows carry open register (an OPEN VOTE with named kill condition, and an UNDECIDABLE by this instrument); the remaining six are CONFIRMED.
+The rows are the load-bearing bridge between the in-medium physics of Layers 1–11 and the charge-transfer verb of Layers 13–14. Each row identifies a concrete codex address, states a specific claim about how the in-medium apparatus reads under the framework's algebra, names the instrument, and records the verdict. Three rows carry open register (an OPEN VOTE with named kill condition, the Q1 lower-bound restricted to upper-only, and the CCP Casimir reopened against `BENDING_SPACE`); one row (Q10 §IV) is scope-reduced to a reading; the remaining four are CONFIRMED.
 
 ---
 
@@ -706,7 +707,7 @@ Four-Wave Mixing structures Layers 0–11 because it is the universal signature 
 1. **Inversion Symmetry Universality.** 2nd-order non-linearities ($\chi^{(2)}$) require broken inversion symmetry ($P^{(2)} = \varepsilon_0 \chi^{(2)} E^2$). In any centrosymmetric medium (liquid water, amorphous glass, silicon, YIG, or free space), $P(-E) = -P(E) \implies \chi^{(2)} = 0$. 
 2. **The 3rd-Order Kernel ($\chi^{(3)}$).** Because $(-E)^3 = -E^3$, 3rd-order non-linearities do not cancel under inversion symmetry. $\chi^{(3)}$ exists in every material in the universe, including the $377\,\Omega$ Plenum ($H_{\text{incoh}}$).
 3. **The Holstein-Primakoff 4-Boson Term.** In §Layer 8, expanding the spin-to-boson Holstein-Primakoff square root ($\sqrt{2S - \hat{a}^\dagger \hat{a}} \approx \sqrt{2S}(1 - \frac{\hat{a}^\dagger \hat{a}}{4S})$) introduces **4-boson interaction terms ($\hat{a}^\dagger \hat{a}^\dagger \hat{a} \hat{a}$)** into the Hamiltonian.
-4. **Energy and Momentum Conservation in $K_4$.** Four-Wave Mixing ($\omega_1 + \omega_2 - \omega_3 = \omega_4$) is the exact algebraic mechanism by which four bosonic modes interact in a closed $K_4$ volume to exchange energy and phase without requiring an external symmetry-breaking crystal. The 5.5 GHz parametric pumping in the YIG waveguide is 3rd-order FWM operating inside the $H_{\text{incoh}}$ phase-buffer of a magnetic $377\,\Omega$ Plenum.
+4. **Energy and Momentum Conservation in $K_4$.** Four-Wave Mixing ($\omega_1 + \omega_2 - \omega_3 = \omega_4$) is the exact algebraic mechanism by which four bosonic modes interact in a closed $K_4$ volume to exchange energy and phase without requiring an external symmetry-breaking crystal. The 5.5 GHz parametric pumping in the YIG waveguide is 3rd-order FWM operating inside the $H_{\text{incoh}}$ phase-buffer of a $377\,\Omega$ characteristic-impedance Plenum.
 
 ### 13.1 The Universal Charge-Transfer Equation
 
@@ -733,7 +734,7 @@ A structural distinction governs how the framework scales between boundaries and
 2. **Inside the $K_4$ Volume (The 4-Mode Mixer):**
    Within the interior of any single $K_4$ instance, four structural poles ($P, I, U, R$) stand in complete mutual determination. In field-theoretic language (Layer 8), a closed transaction across four poles requires four creation/annihilation operators:
    $$\mathcal{H}_{\text{int}} \propto \hat{a}_P^\dagger \hat{a}_I^\dagger \hat{a}_U \hat{a}_R$$
-   In nonlinear optics and wave mechanics, this is strictly a **third-order susceptibility $\chi^{(3)}$ (Four-Wave Mixing)**:
+   The 2+2 operator split written here — creation on $\{P, I\}$, annihilation on $\{U, R\}$ — picks one of the three perfect matchings of $K_4$. The split $\{P, I\} \mid \{U, R\}$ is the Mutable-Bimedian partition (`L3-EdgeStateSpace` §XI: both bits flip across each edge). The other two matchings, $\{P, U\}\mid\{I, R\}$ (Fixed-Bimedian) and $\{P, R\}\mid\{I, U\}$ (Cardinal-Bimedian), carry different Hamiltonians — reactive and resistive mixers rather than the full both-bit exchange. The YIG waveguide's 5.5 GHz parametric pumping sits on the Mutable-Bimedian channel. In nonlinear optics and wave mechanics, this is strictly a **third-order susceptibility $\chi^{(3)}$ (Four-Wave Mixing)**:
    $$\omega_1 + \omega_2 - \omega_3 = \omega_4$$
 
 The relationship is exact:
@@ -758,13 +759,13 @@ in transit.                     and moves via $H_{\text{incoh}}$ phase.  ($dx/dt
        │                                  │                                  │
        ▼                                  ▼                                  ▼
 [4. ROOM-TEMP COHERENCE]       [5. DARK MATTER PARADOX]       [6. THE BIRTH OF TIME ($dt$)]
-Phase-swaps on non-$P$ edges   $P$-axis mass recoil vs.        $dt$ is the spatial wake
-burn ZERO phase ($h^2 = -1$).   $Q$-axis lattice modulation.   left by $P$-ledger compilation.
+Phase-swaps on the P-absent    $P$-axis mass recoil vs.        $dt$ is the spatial wake
+face burn ZERO phase.           $Q$-axis lattice modulation.   left by $P$-ledger compilation.
 ```
 
 ### 14.1 The Graviton "Mystery" Dissolves
 * **The Noun-Error:** "Where is the graviton particle that travels through space to carry gravity?"
-* **The Charge-Transfer Verb (`Q2`, `Q4`, `Q19`):** $P$ (Mass/Ledger) is **the destination where charge-transfer lands**, NOT a charge-transfer in transit. The three $P$-edges ($P{-}U, P{-}I, P{-}R$) are zero-impedance writing heads. State collapse ($\mathbf{Q}^2 \to P$) writes directly to the $P$-ledger without an intermediate transit interval. Gravity is the static geometry of the committed ledger, not a particle being exchanged. You do not need a "graviton" particle to carry gravity for the same reason you do not need a "spelling particle" to travel between printed letters on a page.
+* **The Charge-Transfer Verb (`Q2`, `Q4`, `Q19`):** $P$ (Mass/Ledger) is **the destination where charge-transfer lands**, NOT a charge-transfer in transit. The three $P$-edges ($P{-}U, P{-}I, P{-}R$) are zero-impedance writing heads (the dt-minting ground: a write cannot occupy the interval it mints — `audit/STATUS-2026-11-10.md` §B1). State collapse ($\mathbf{Q}^2 \to P$) writes directly to the $P$-ledger without an intermediate transit interval. Gravity is the static geometry of the committed ledger, not a particle being exchanged. You do not need a "graviton" particle to carry gravity for the same reason you do not need a "spelling particle" to travel between printed letters on a page.
 
 ### 14.2 The Strange Metal / Quasiparticle Breakdown Dissolves
 * **The Noun-Error:** "Why do electron quasiparticles 'die' in strange metals near quantum critical points?"
@@ -776,11 +777,12 @@ burn ZERO phase ($h^2 = -1$).   $Q$-axis lattice modulation.   left by $P$-ledge
 
 ### 14.4 Biological Room-Temperature Coherence Dissolves
 * **The Noun-Error:** "How do plants and proteins avoid thermal decoherence at $300\text{ K}$ during energy transfer?"
-* **The Charge-Transfer Verb (`L4-TheWaterEngine`, `Q13`):** In Grotthuss proton hopping and photosynthetic exciton routing, charge-transfer executes as a **Cardinal-plane phase-swap between non-$P$ edges ($U{-}R \leftrightarrow I{-}R$)**. Because this swap touches no $P$-edge (no $P$-ledger writing), **no phase-burning ($h^2 = -1$) occurs during transit.** The charge/energy transfers as a non-dissipative $h\mathbf{Q}$ phase-wave *before* the thermal environment can execute an $\text{.observe()}$ collapse.
+* **The Charge-Transfer Verb (`L4-TheWaterEngine`, `Q13`):** In Grotthuss proton hopping and photosynthetic exciton routing, charge-transfer executes as a **phase-swap on the P-absent face $\{I, U, R\}$**, touching no $P$-edge. Because the swap crosses no $P$-edge, the Route Law does not fire — no phase-burning ($h^2 = -1$), no Landauer tax. The charge/energy transfers as a non-dissipative $h\mathbf{Q}$ phase-wave *before* the thermal environment can force an $\text{.observe()}$ collapse. The three non-P edges (I–U, U–R, I–R) each sit on a different bimedian plane (Cardinal-Bimedian, Mutable-Bimedian, Fixed-Bimedian respectively), so the swap's plane-character depends on which pair of non-P edges the mechanism engages; the specific L4-TheWaterEngine / Q13 mechanisms pick out one of these. CORRESPONDENCE pending a concrete identification of which two non-P edges each quantum-biological mechanism engages.
 
-### 14.5 The Dark Matter DAMA vs. XENON Stalemate Dissolves
+### 14.5 The Dark Matter DAMA vs. XENON Stalemate Dissolves — OPEN
 * **The Noun-Error:** "Is dark matter a physical particle hitting detector nuclei, or is DAMA wrong?"
-* **The Charge-Transfer Verb (`Q13`, `L4-TheWaterEngine`):** Liquid Xenon reads **$P$-axis charge-transfer** (scalar mass-recoil / real power $P = I^2R$). NaI crystals read **$Q$-axis charge-transfer** (capacitive reactance shift $X_C = 1/\omega C$ in the crystalline lattice modulated by Earth's orbital velocity). XENON reads real power $P$; DAMA reads reactive power $Q$. They are the real and imaginary components of the **same complex power charge-transfer ($S = P + jQ$)**.
+* **Status, 2026-11:** The "NaI reads ΔQ of its zero-point buffer" prediction from `Q13` §IV is empirically refused at the same-material test: COSINE-100 + ANAIS-112 use crystalline NaI(Tl) and find no annual modulation, excluding DAMA's signal at 4.7σ in 1–6 keV and 3.5σ in 2–6 keV (PRL 135, 121002, 2025). What remains open is the decomposition of DAMA's own reading into crystal / site / analysis components the corpus speaks to and the parts it cannot (`audit/STATUS-2026-11-10.md` §B4).
+* **The Charge-Transfer Verb under this correction:** The complex-power split $S = P + jQ$ remains the corpus's native read of dark-sector detectors — Xenon on $P$-axis scalar mass-recoil, NaI *if* it reads any Q-axis reactive signature — but the specific DAMA/NaI ↔ Q identification is OPEN pending decomposition of DAMA's modulating observable. The $P$/$Q$ complementarity statement is structural; the DAMA-specific instantiation is empirically reopened.
 
 ### 14.6 The Nature and Birth of Time ($dt$) Dissolves
 * **The Noun-Error:** "Is time a 4th spatial dimension in a static block universe, or a flowing river?"

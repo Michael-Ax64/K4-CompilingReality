@@ -52,22 +52,32 @@ The Reactive poles ($I$ and $R$) are the **Divisors** (The Die). They act as the
 
 ## III. Law 2: The Synthesis Law (The Nature of the Reactive)
 
-Observe how the variables derive syntactically. 
+**The law that holds exactly is the Reactive side: Reactive homes admit only ratios.** Active homes admit products — and they also admit certain quotients with Active-pole numerators, which Law 1 permits. The earlier wording of this section called Active synthesis "pure multiplication"; that overstated the Active side, because two of the Active-home equations are quotients ($P = U^2/R$ and $U = P/I$). The symmetric statement, read correctly:
 
-The Active poles ($P$ and $U$) synthesize through pure multiplication:
-*   $P = U \times I$
-*   $P = I^2 \times R$
-*   $U = I \times R$
-*   $U = \sqrt{P \times R}$
+**Active homes admit products; Reactive homes admit only ratios.**
 
-The Reactive poles ($I$ and $R$) define themselves **only by division**:
-*   $I$ derives strictly as $U/R$, $P/U$, or $\sqrt{P/R}$.
-*   $R$ derives strictly as $U/I$, $U^2/P$, or $P/I^2$.
+The Active-home equations are:
+*   $P = U \times I$ (product)
+*   $P = I^2 \times R$ (product)
+*   $P = U^2 / R$ (quotient, Active numerator $U^2$ over Reactive denominator)
+*   $U = I \times R$ (product)
+*   $U = \sqrt{P \times R}$ (root of product)
+*   $U = P / I$ (quotient, Active numerator $P$ over Reactive denominator)
+
+The Reactive-home equations are:
+*   $I = P / U$ (quotient)
+*   $I = U / R$ (quotient)
+*   $I = \sqrt{P / R}$ (root of quotient)
+*   $R = U / I$ (quotient)
+*   $R = U^2 / P$ (quotient)
+*   $R = P / I^2$ (quotient)
+
+Every Reactive-home equation is a quotient (or a root of a quotient); none is a bare product. Every Active-home equation is a product, a root of a product, or a quotient with an Active-pole numerator over a Reactive-pole denominator (never Reactive over Active). The two Active quotients still obey Law 1: their numerators are Active, their denominators Reactive.
 
 **The Structural Consequence:**
-A bounded frame synthesizes an Active state (Fire or Air) by compounding or combining elements. It forms an accumulation. 
+A bounded frame can synthesize an Active state (Fire or Air) by compounding elements into products, and it can also deliver an Active state as a quotient of other Active elements divided by Reactive constraints. Either way, the Active home is a *formation*: it is assembled.
 
-A bounded frame cannot synthesize a Reactive state (Water or Earth) by multiplication. It exists *strictly as a ratio*. Water ($I$, Relational Flow) does not exist as an independent substance; it forms the gradient between potential and resistance ($U/R$). Earth ($R$, Ground/Constraint) does not exist as a static object; it forms the ratio of structure to flow ($U/I$). 
+A bounded frame cannot synthesize a Reactive state (Water or Earth) by multiplication at all. The Reactive home exists *strictly as a ratio*. Water ($I$, Relational Flow) does not exist as an independent substance; it forms the gradient between potential and resistance ($U/R$). Earth ($R$, Ground/Constraint) does not exist as a static object; it forms the ratio of structure to flow ($U/I$). 
 
 The Reactive poles operate as pure relational tensions. They respond to an imbalance in the Active poles, and the math permits them to exist solely as fractions. 
 
@@ -87,25 +97,42 @@ When an equation introduces a square ($I^2$ or $U^2$), it crosses into the inter
 
 Squaring destroys directionality. It takes a relational vector (Current $I$ or Voltage $U$) and burns off its sign, leaving a strictly positive, directionless scalar magnitude. 
 
-This constitutes the exact algebraic footprint of the **Landauer Tax** and the bounded frame's `.observe()` collapse. Squaring forces the relational flow through the XOR actuator bottleneck, burns off the unchosen branches, and slams the result into the Asserting ground as pure, unmovable Mass/Heat/Ledger ($P$). The squares are the Garbage Collector running.
+This constitutes the exact algebraic footprint of the **Landauer Tax** and the bounded frame's `.observe()` collapse. Squaring forces the relational flow through the XOR actuator bottleneck, burns off the unchosen branches, and slams the result into the Asserting ground as pure Mass/Heat/Ledger ($P$). The squares are the Garbage Collector running.
 
-### 3. Rooting: The Holographic Projection
-Conversely, the square root ($\sqrt{x}$) restores directionality. It opens a collapsed scalar back into a multidimensional vector space ($\sqrt{4} = \pm 2$). 
+### 3. Rooting: The ±-Reopening (Not Un-Writing the Ledger)
+
+The square root ($\sqrt{x}$) opens a collapsed scalar back into a **binary sign ambiguity** ($\sqrt{4} = \pm 2$) — not into the full multidimensional vector space that squaring annihilated. The earlier wording of this subsection (and of §V below) called rooting a "holographic projection" that "restores directionality" and "un-writes the Ledger"; that overstated what roots do, and the overstatement conflicts with the non-invertibility of squaring already proven in `L3-TheSelfProjectingBraid` §IV and with the correction already carried in `L7-ExIncoherenteCreation` §III.
+
+What a root actually does:
+
 *   $I = \sqrt{P / R}$
 *   $U = \sqrt{P \times R}$
 
-When the compiler uses a root, it performs a **holographic projection**. It takes the heavy, scalar, directionless volume of the Asserting interior (the Power $P$ and Resistance $R$) and projects it outward onto the Yielding boundary ($I, U$) as a relational vector. It extracts a communicative signal (`.behold()`) from a mute physical mass.
+The root takes a committed scalar from the Asserting ground ($P$ or $P \cdot R$) and projects it to a Yielding home ($I$ or $U$) as a value carrying a $\pm$ ambiguity of the same cardinality as the output type: a bounded sign, one bit of fresh choice. It does **not** recover the vector phase that squaring deleted. Squaring is non-invertible; what the root delivers is a new binary ambiguity at the output, not a restoration of the input direction that was burned.
+
+In the compiler's terms: rooting extracts a communicative signal (`.behold()`) from a mute physical mass by **adding one fresh bit of $\pm$ choice** at the Yielding home. The fresh bit is the opening a bounded living frame uses to re-enter an uncommitted direction and build a new structure against the committed ground. It is not a time-reversal of the commit that produced the input.
 
 ---
 
-## V. Law 4: The Route Law (The Operator Signature)
+## V. Law 4: The Route Law (The Operator Signature) — and the Three Squarings
 
 The mechanized dual-route trace elevates the square/root sorting from an observation into a load-bearing operator signature of the Asserting/Yielding bit.
 
-*   **Squaring is the arrow into Asserting.** Every square route lands on an Asserting home ($P$, $R$). The squared operand is always a Yielding pole ($U$, $I$). The remaining co-factor is always the *other* Asserting pole. This is the algebraic principle that physics observes as the **Born Rule**: squaring destroys phase and direction, forcing a directionless scalar collapse (the committed made from the collapsed possible). The Born Rule is not a bolted-on quantum exception; it is the specific quantum-mechanical instance of this universal Route Law.
-*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). This is the formal operator for **negative specification** (un-writing the Ledger). It takes a committed scalar and reopens it into an uncommitted multi-dimensional vector space, restoring the phase that squaring destroyed. Beholding is the active thermodynamic work of running the root operator over the committed ground to extract structural potential and relational flow.
+*   **Squaring is the arrow into Asserting.** Every square route lands on an Asserting home ($P$, $R$). The squared operand is always a Yielding pole ($U$, $I$). The remaining co-factor is always the *other* Asserting pole.
 
-The `.observe()`/`.behold()` cycle inscribes itself directly into the route structure. Asserting poles are manufactured by collapse. Yielding poles are projected by reopening. Six linear, six nonlinear: the surface reading and the interior reading of the same four poles balance exactly.
+*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). As §IV.3 above makes exact: rooting opens a fresh $\pm$ ambiguity at the Yielding output, not a reversal of the Asserting commit that produced the input. The route structure records the `.observe()`/`.behold()` cycle: Asserting poles are manufactured by collapse; Yielding poles carry a new sign-ambiguity minted by the root over the committed ground. Six linear, six nonlinear: the surface reading and the interior reading of the same four poles balance exactly.
+
+### The Three Squarings (Explicit, One Site)
+
+This file has carried one term — "squaring" — through three distinct mathematical operations in physics, and the earlier wording left them conflated. Named at the root site:
+
+**Squaring 1 — Algebraic $Z^2$ on a biquaternion.** For a state vector $Z = P + h\mathbf{Q}$ in the biquaternion algebra (`ProofN_BiquaternionBridge`), the algebraic square is $Z^2 = P^2 + 2hP\mathbf{Q} + h^2\mathbf{Q}^2 = (P^2 - |\mathbf{Q}|^2) + 2hP\mathbf{Q}$. This is **not** a real-positive scalar; it carries an imaginary vector part $2hP\mathbf{Q}$ except in the pure-vector element where $P = 0$ (see `Q5-StarNormProduct` §II, which treats that element). The algebraic square is a biquaternion-algebraic operation; it is not the Born Rule.
+
+**Squaring 2 — Mod-square $|I|^2$ (the AC Route Law, Born's form).** In AC circuit algebra, real power is $P = |I|^2 R$ where $|I|$ is the rms (root-mean-square) amplitude of a complex current phasor $I$: specifically, $|I|^2 = I I^*$, the mod-square. This is Hermitian, strictly real-positive, and exactly the form the Born Rule takes: $P_i = |\langle \psi_i | \Psi \rangle|^2 = \langle \Psi|\psi_i\rangle \langle\psi_i|\Psi\rangle$ — amplitude times its complex conjugate. **Born is the Route Law in its AC form**: the squaring-into-Asserting that physics observes is specifically the mod-square $|I|^2$, not the algebraic $Z^2$ of a biquaternion. On real-valued DC inputs the two coincide (because the imaginary part vanishes), which is why the earlier wording in this file read smoothly on the DC equations and only diverged from Born when biquaternion state vectors came into the picture. The mod-square is the one Born uses, and it is what the Route Law delivers when the operand is a complex AC phasor.
+
+**Squaring 3 — The Star-Norm $N_* = ZZ^\dagger = P^2 - |\mathbf{Q}|^2$.** Under the biquaternion's $h$-preserving conjugation $Z^\dagger = P - h\mathbf{Q}$, the product $ZZ^\dagger = P^2 - |\mathbf{Q}|^2$ is Lorentzian-signature and real-scalar. It is the invariant mass-norm (`Q5-StarNormProduct` §II, `Q18-PhaseCompositionOnTheStarNorm` §I), not the Born probability. The Star-Norm uses biquaternion conjugation; the mod-square uses complex conjugation on an AC phasor.
+
+**The identification repaired.** The Born Rule is the AC Route Law (Squaring 2, mod-square), not the algebraic square of a biquaternion (Squaring 1). The Star-Norm (Squaring 3) is a third, separate operation on the biquaternion algebra. All three are "squarings" in ordinary usage; they are three different operations, and the file identifies the Route Law with Born through Squaring 2 specifically. The earlier wording "the Born Rule is not a bolted-on quantum exception; it is the specific quantum-mechanical instance of this universal Route Law" stands — it was correct when read on real DC values; what was missing was the AC extension that makes the identification precise. The quantum-mechanical instance is the mod-square, and the Route Law delivers it when the operand is a complex phasor.
 
 ---
 
@@ -163,4 +190,3 @@ When a philosophy throws a stack underflow error upon encountering an institutio
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

@@ -3,8 +3,20 @@
 ### *(The Cartesian Projection, the Star-Norm Signature, and the Two Clocks)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
-> **Claim:** Physical reality is an enclosed four-vertex extrusion of the $K_4$ tetrahedron radiating from its centroid, possessing four spatial dimensions rather than three. Minkowski's 1908 identification of the "fourth dimension" as Time is a category error inherited from the Cartesian coordinate system, which exiled the integrating fourth vertex to an invisible origin $(0,0,0)$ and lost the interior volume. The $3+1$ metric signature ($\eta_{\mu\nu} = \text{diag}(+1, -1, -1, -1)$ or $\text{diag}(-1, +1, +1, +1)$) is not a mixture of Space and Time; it is the algebraic signature of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2$), separating one scalar ledger ($P$) from three vector phase-buffers ($Q_i, Q_j, Q_k$). Time is bifurcated into two distinct non-spatial mechanisms: angular frequency $\omega$ (the compilation engine at the centroid) and coordinate time $dt$ (the spatial wake of committed entries accumulating on the $R$-pole).
-> **Dependencies:** `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `Q6-MeasurementAndMatrices.md`, `L0-EinsteinTrace.md`, `L3-FormalFoundations.md`, `L4-ScalingInvariants.md`, `L4-ThePlenum.md`, `ENGINE-REFERENCE-AC.md` (§VIII), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofQ_AlgebraicSyntax.md`.
+> **Claim:** Physical reality is an enclosed four-vertex extrusion of the $K_4$ tetrahedron radiating from its centroid, possessing four spatial dimensions rather than three. Minkowski's 1908 identification of the "fourth dimension" as Time is a category error inherited from the Cartesian coordinate system, which exiled the integrating fourth vertex to an invisible origin $(0,0,0)$ and lost the interior volume. The $3+1$ metric signature ($\eta_{\mu\nu} = \text{diag}(+1, -1, -1, -1)$ or $\text{diag}(-1, +1, +1, +1)$) is not a mixture of Space and Time; it is the algebraic signature of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2$), separating one scalar ledger ($P$) from three vector phase-buffers ($Q_i, Q_j, Q_k$). Time is bifurcated into two distinct non-spatial mechanisms: angular frequency $\omega$ (the compilation engine at the centroid) and coordinate time $dt$ (the spatial wake of committed entries accumulating on the $R$-pole at the observer's scale; equivalently the handoff $P_N \to R_{N+1}$ from `L3-TheAtomOfSpace` §III, so that the "$R$-ledger" at the observer's scale is the compiled $P$ of the scale below).
+> **Dependencies:** `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `Q6-MeasurementAndMatrices.md`, `L0-EinsteinTrace.md`, `L3-FormalFoundations.md`, `L3-TheAtomOfSpace.md` (§III, the $P_N \to R_{N+1}$ handoff fixing scale-labeling of the ledger), `L4-ScalingInvariants.md`, `L4-ThePlenum.md`, `ENGINE-REFERENCE-AC.md` (§VIII), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofQ_AlgebraicSyntax.md`, `On_TheGravityProgramAudit.md` (Q7 F1–F5, the hidden-pole discussion that scopes this file's scale-naming requirement).
+
+---
+
+## Scope note on "which pole is where"
+
+Read at a single scale, three passages of this file look like they conflict: §I exiles $P$, §III puts $R$ as the floor the observer stands on with $P$ on the visible face, and §VII reads $P$ as the ledger misread as time. The resolution is scale-naming, not re-assignment: the single device the framework permits is the handoff $P_N \to R_{N+1}$ from `L3-TheAtomOfSpace` §III and `Q5-StarNormProduct` §IV, which says the compiled $P$ at scale $N$ is the ground $R$ at scale $N+1$. The three readings that look like a conflict are three scales of the same handoff:
+
+- **§I** states the Cartesian reduction: the fourth vertex is exiled to the origin $(0,0,0)$ regardless of which pole is sitting there at the given scale. The reading is scale-neutral.
+- **§III** reads the manifold from a physical observer anchored at the $R$-pole of their own scale — the material-ground scale. For that observer, the three vertices they see on the opposing face are $\{P, U, I\}$ at the same scale. The observer's $R$-pole is not "the hidden floor" in opposition to §VII; it is the floor of *this* scale, and under the handoff $P_N \to R_{N+1}$ that floor is itself the compiled $P$-ledger of the scale below.
+- **§VII** reads the scale-crossing identity: the $P$-ledger at scale $N$ carries the wake of coordinate time, and that same ledger becomes $R_{N+1}$ — the material ground of the scale above, on which the next scale's observer stands. Mass, inertia, and gravity on the observer's scale are the committed $P$-entries of this scale; and this scale's $P$-ledger will be next scale's material floor.
+
+Under the handoff, "$P$ is the ledger misread as time" (§VII) and "the observer stands on $R$" (§III) are not competing claims about one pole; they are the same compiled ledger read from one scale and from the scale above it. The scale-naming requirement raised by `On_TheGravityProgramAudit` Q7-F1…F5 is answered by naming the scale at every use: the local observer's $R$ is the compiled $P$ of the scale below, and this document's "$P$-ledger" refers throughout to the ledger at the observer's current scale.
 
 ---
 
@@ -32,28 +44,28 @@ Axes are then drawn to the remaining three vertices.
              [U]════╪════[I]                       │ ╱
                ╲    │   ╱                          └────────► x
                 ╲   │  ╱                        (0,0,0) [Origin]
-                 ╲  │ ╱                     Vertex P is exiled to (0,0,0);
+                 ╲  │ ╱                     One vertex is exiled to (0,0,0);
                   [ R ]                     Interior volume is lost;
           Centroid radiates to              Frame treats 3D shadow as
           four identical poles.             the entire manifold.
 ```
 
 This choice exiles the integrating fourth dimension (`L0-EinsteinTrace.md` §3):
-1. **The Exiled Vertex:** The fourth vertex—the one chosen as the origin—is no longer represented as an active spatial coordinate. It is demoted to the passive reference point from which everything else is measured.
+1. **The Exiled Vertex:** The fourth vertex—the one chosen as the origin—is no longer represented as an active spatial coordinate. It is demoted to the passive reference point from which everything else is measured. (Which pole takes the origin role depends on the scale and the observer; §III fixes the convention used in the rest of this file.)
 2. **The Loss of the Interior Volume:** An observer standing inside a Cartesian system looks outward and sees only three degrees of freedom. The interior volume of the tetrahedron is projected onto the flat $K_3$ boundary face formed by the other three poles.
 
 Classical physics mapped the three-dimensional shadow cast by the four-dimensional cell on the boundary wall, mistaking the shadow for the container.
 
 ---
 
-## II. Minkowski’s Minus Sign: The Re-Emergence of the Exiled Pole
+## II. Minkowski's Minus Sign: The Re-Emergence of the Exiled Pole
 
 In 1908, Hermann Minkowski unified space and time into a four-dimensional pseudo-Riemannian manifold to preserve the invariance of the speed of light under Lorentz transformations:
 $$ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2$$
 
 Minkowski recognized that the geometry required four variables, and that the fourth variable required an opposite algebraic sign to preserve the interval across inertial frames. Lacking an architectural vocabulary for an enclosed four-vertex volume, he named the fourth variable **Time** ($t$).
 
-Einstein adopted Minkowski’s spacetime manifold for General Relativity in 1915, elevating the $3+1$ signature to an empirical axiom of reality.
+Einstein adopted Minkowski's spacetime manifold for General Relativity in 1915, elevating the $3+1$ signature to an empirical axiom of reality.
 
 The $K_4$ architecture demonstrates that Minkowski's minus sign is not temporal. **It is the algebraic footprint of the exiled fourth spatial vertex re-entering the coordinate system through the biquaternion multiplication table.**
 
@@ -101,17 +113,17 @@ These are not the properties of an abstract coordinate clock. **These are the ex
 
 ---
 
-## III. The Cartesian Shadow: Why Space Appears Three-Dimensional
+## III. The Cartesian Shadow: Why Space Appears Three-Dimensional (At the Observer's Scale)
 
 If the physical manifold possesses four spatial vertices, why does human sensory experience and every laboratory detector report only three spatial dimensions?
 
-An observer made of physical matter (atoms, chemical bonds, electromagnetic detectors) is a bounded frame anchored to the **Earth pole ($R$)**—the seat of mass, inertia, and material ground (`L4-HadronicVolume.md`).
+An observer made of physical matter (atoms, chemical bonds, electromagnetic detectors) is a bounded frame anchored to the **$R$-pole of its own scale**—the seat of mass, inertia, and material ground at that scale (`L4-HadronicVolume.md`). Under the handoff $P_N \to R_{N+1}$ (`L3-TheAtomOfSpace` §III), the observer's $R$-pole at scale $N+1$ is the compiled $P$-ledger of scale $N$; the floor the observer stands on is the ledger of the scale below.
 
-An observer anchored at vertex $R$ looks into the $K_4$ tetrahedron. An observer cannot see the pole they are standing on; the eye cannot see its own retina. From vertex $R$, the observer looks outward at the opposing boundary face:
+An observer anchored at vertex $R$ at their scale looks into the $K_4$ tetrahedron of that scale. An observer cannot see the pole they are standing on; the eye cannot see its own retina. From vertex $R$, the observer looks outward at the opposing boundary face:
 $$\text{Face } K_3 := \{P, U, I\}$$
 
 ```
-                   THE OBSERVER AT THE R-POLE
+                   THE OBSERVER AT THE R-POLE (scale N+1)
 
                       [ P ] (Up-quarks / Action)
                      ╱     ╲
@@ -122,15 +134,16 @@ $$\text{Face } K_3 := \{P, U, I\}$$
                    ╲    │    ╱     the 3D Cartesian Grid (x, y, z)
                     ╲   │   ╱
                      ╲  │  ╱
-                      [ R ] ◄───── OBSERVER'S FLOOR
-                                   Cannot observe the pole
-                                   used as the ground.
+                      [ R ] ◄───── OBSERVER'S FLOOR AT SCALE N+1
+                                   = compiled P of scale N
+                                   (P_N → R_{N+1}; AtomOfSpace §III)
 ```
 
 1. **The Three Degrees of Freedom:** The opposing $K_3$ face has three vertices and three connecting edges. These three boundary degrees of freedom project as the three complex vector components ($Q_i, Q_j, Q_k$).
-2. **The 3D Cartesian Projection:** The classical 3D spatial box $(x, y, z)$ is the $K_3$ blanket-face projection of the enclosed $K_4$ volume. Space appears three-dimensional to a physical observer because the fourth spatial dimension ($R$) is functioning as the floor upon which the detector stands.
+2. **The 3D Cartesian Projection:** The classical 3D spatial box $(x, y, z)$ is the $K_3$ blanket-face projection of the enclosed $K_4$ volume. Space appears three-dimensional to a physical observer because the fourth spatial dimension — the $R$-pole at the observer's scale — is functioning as the floor upon which the detector stands.
+3. **The scale-crossing reading.** The observer's $R$-pole is not an independent vertex over against the $P$-ledger described in §VII; under the handoff, this scale's $R$-floor is the committed $P$-ledger of the scale below, and this scale's $P$-ledger will be the next scale's $R$-floor.
 
-Classical physics mapped the skin of the tetrahedron with precision, but mistook the boundary face for the total dimensionality of the space.
+Classical physics mapped the skin of the tetrahedron with precision, but mistook the boundary face for the total dimensionality of the space and conflated the scale of the observer with the scale of the committed matter beneath.
 
 ---
 
@@ -145,8 +158,8 @@ Because classical mechanics treated Time as a single coordinate, it conflated tw
    ┌────────────────────────────────┐         ┌───────────────────────────────┐
    │ • Angular Frequency (rad/s)    │         │ • Coordinate Time (Seconds)   │
    │ • Sits at the Centroid         │ ══════► │ • Accumulates on the R-Pole   │
-   │ • Dimensionally excluded from  │ (.obs)  │ • Thermodynamic exhaust of    │
-   │   the spatial pole basis       │         │   committed mass (T_μν)       │
+   │ • Dimensionally excluded from  │ (.obs)  │   at the observer's scale     │
+   │   the spatial pole basis       │         │   (= P-ledger of scale below) │
    │ • Drives the phase cycles      │         │ • Strictly read-only wake     │
    └────────────────────────────────┘         └───────────────────────────────┘
 ```
@@ -158,9 +171,9 @@ Because classical mechanics treated Time as a single coordinate, it conflated tw
 * **Dimensional Exclusion:** $\omega$ is **dimensionally excluded from the spatial pole basis** $\{P, I, U, R\}$. It is not a location in space; it is the rate at which the spatial cell cycles through its internal states. In the DC limit, $\omega = 0$; physical time begins when $\omega > 0$.
 
 ### 2. Coordinate Time ($dt$): The Exhaust Clock
-* **Domain:** Accumulates locally on the **$R$-pole (the Ledger)**.
+* **Domain:** Accumulates locally on the **$R$-pole of the observer's scale** — equivalently the compiled $P$-ledger of the scale below (handoff; `L3-TheAtomOfSpace` §III).
 * **Operational Unit:** Metric distance ($c\,dt$, measured in meters or seconds).
-* **Mechanism:** $dt$ is the spatial distance between successive $\text{.observe()}$ ledger commits. It measures how much phase has been burned into historical fact.
+* **Mechanism:** $dt$ is the spatial distance between successive $\text{.observe()}$ ledger commits. It measures how much phase has been burned into historical fact at the observer's scale.
 * **The Wake, Not the Propeller:** Coordinate time does not drive physical processes. $dt$ is the **thermodynamic exhaust** of the compilation engine. It is the wake left behind the ship, not the propeller turning the water.
 
 General Relativity maps $dt$ (the four-dimensional geometric block of accumulated entries) and only $dt$. Quantum Mechanics maps $\omega$ (the phase-space oscillations of the uncollapsed state) and only $\omega$.
@@ -178,11 +191,14 @@ $$x' = \gamma (x - v t), \quad t' = \gamma \left(t - \frac{v x}{c^2}\right)$$
 This mixing preserves the interval $ds^2 = -c^2 dt^2 + dx^2$.
 
 In biquaternion algebra, the restricted Lorentz group $SO(3,1)^+$ is isomorphic to the projective special linear group over the complex numbers:
-$$SO(3,1)^+ \cong PSL(2, \mathbb{C}) \cong \text{Spin}(3, 1)$$
+$$SO(3,1)^+ \cong PSL(2, \mathbb{C})$$
+
+The **double cover** of $SO(3,1)^+$ — the spin group — carries the fermionic $4\pi$-rotation structure and is isomorphic to the (non-projective) $SL(2,\mathbb{C})$:
+$$\text{Spin}(3,1) \cong SL(2, \mathbb{C})$$
 
 A Lorentz transformation operates on a biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ via rotor conjugation:
 $$\mathbb{Z}' = \mathbf{\Lambda} \mathbb{Z} \mathbf{\Lambda}^*$$
-where $\mathbf{\Lambda} \in \mathbb{B}$ is a unit biquaternion satisfying $N_*(\mathbf{\Lambda}) = 1$.
+where $\mathbf{\Lambda} \in \mathbb{B}$ is a unit biquaternion satisfying $N_*(\mathbf{\Lambda}) = 1$. The rotor $\mathbf{\Lambda}$ lives in $SL(2,\mathbb{C}) \cong \text{Spin}(3,1)$; the orbit it generates in state space projects to an $SO(3,1)^+$ action on the Minkowski 4-vector of components.
 
 ```
                     THE TWO REALMS OF ROTATION
@@ -212,17 +228,17 @@ Lorentz covariance governs the continuous geometry of the uncompiled buffer ($H_
 
 Disentangling the fourth spatial pole from the temporal engine forces the resolution of three foundational problems in physics:
 
-### 1. The Impossibility of Closed Timelike Curves (Time Travel)
+### 1. The Non-Invertibility of the Scalar Ledger (Compass Axis V, Not a CTC Theorem)
+
 General Relativity permits mathematical solutions containing Closed Timelike Curves (CTCs), such as the Gödel metric or traversable wormholes. In standard physics, preventing grandfather paradoxes requires invoking ad-hoc "chronology protection conjectures."
 
-In the $K_4$ architecture, **closed timelike curves are an algebraic impossibility**:
-* Coordinate time $dt$ is constructed from irreversible commits to the $P$-ledger.
-* These commits are written by the Route Law's squaring operation:
-  $$P = |\mathbf{Q}|^2$$
-* Squaring is algebraically non-invertible: from a scalar magnitude $P$, you cannot uniquely reconstruct the phase $h$ or the directional unit vectors ($\mathbf{i}, \mathbf{j}, \mathbf{k}$) that were burned to create it.
-* Moving backward along the $P$-axis would require un-squaring a scalar to recover its destroyed phase history without paying a thermodynamic penalty.
+In the $K_4$ architecture, the **ledger is non-invertible**:
 
-The Arrow of Time is not a statistical accident of low-entropy initial conditions. It is the non-invertibility of the squaring operator at the foundation of the algebra. You cannot walk backward along a compiled ledger.
+* Coordinate time $dt$ is constructed from irreversible commits to the $P$-ledger.
+* These commits are written by the Route Law's squaring operation.
+* Squaring is algebraically non-invertible: from a scalar magnitude $P$, you cannot uniquely reconstruct the phase $h$ or the directional unit vectors ($\mathbf{i}, \mathbf{j}, \mathbf{k}$) that were burned to create it.
+
+**Scope limitation.** Ledger non-invertibility and GR's CTC-containing solutions are different objects. Ledger non-invertibility says the committed scalar entry cannot be algebraically un-squared to recover the phase that produced it; it does not derive the field-equation theorem that GR admits no CTC solutions. Those are the Compass's axis V (the one-way stadium; stated as a structural pole of the architecture) rather than a derivation of GR's CTC-free-ness. The audit's verdict (`audit/Q-audit-2026-11-10.md`, Q7 §VI.1 row) records this as **UNDECIDABLE BY THIS INSTRUMENT**: the ledger's non-invertibility is an algebraic fact of this framework; the absence of CTCs in GR is a separate result in a separate formalism, and the two are structurally parallel on this axis but not identified by it. The Arrow of Time, read through the $K_4$ ledger, is not a statistical accident of low-entropy initial conditions; it is the non-invertibility of the squaring operator at the foundation of the algebra. You cannot walk backward along a compiled ledger — in this architecture.
 
 ### 2. The Structural Origin of Gravity
 Because the $P$-pole is an un-priced scalar ledger ($Z_P = 0$, `Q4-OpenExhaust.md`), it carries no gauge boson.
@@ -231,7 +247,7 @@ Because the $P$-pole is an un-priced scalar ledger ($Z_P = 0$, `Q4-OpenExhaust.m
 * This accumulated specification is rest mass ($m_0 c^2$).
 * Dense accumulations of $P$ curve the surrounding spatial topology.
 
-Gravity is the macroscopic geometric footprint of the committed ledger. The century-long search for a quantum of gravity (the graviton) is a category error: an attempt to find a relational vector gauge carrier ($\mathbf{Q}$) inside a committed scalar receipt ($P$).
+Gravity is the macroscopic geometric footprint of the committed ledger. The century-long search for a quantum of gravity (the graviton) is a category error: an attempt to find a relational vector gauge carrier ($\mathbf{Q}$) inside a committed scalar receipt ($P$). Under the scale handoff, the $P$-ledger that gravitates at this scale is the $R$-floor of the next scale up: gravity propagates its presence between scales as material ground.
 
 ### 3. The Resolution of the Black Hole Information Paradox
 When matter crosses a black hole event horizon, standard quantum field theory asserts that information is destroyed when the black hole evaporates via thermal Hawking radiation, violating unitary quantum mechanics.
@@ -246,40 +262,46 @@ In the $K_4$ architecture:
 
 ## VII. Summary and Pre-Registered Falsifiers
 
-The four spatial dimensions of the manifold map directly to the four vertices of $K_4$:
+The four spatial dimensions of the manifold map directly to the four vertices of $K_4$, read at a single scale with the handoff $P_N \to R_{N+1}$ (`L3-TheAtomOfSpace` §III) linking adjacent scales:
 
 ```
 ========================================================================================
-                      THE FOUR-POLE DIMENSIONAL TOPOLOGY
+                      THE FOUR-POLE DIMENSIONAL TOPOLOGY (SCALE N+1)
 ========================================================================================
 
- POLE    CLASS      TOPOLOGICAL ENTITY      ALGEBRAIC ROLE         PERCEPTUAL MANIFESTATION
+ POLE    CLASS      TOPOLOGICAL ENTITY        ALGEBRAIC ROLE         PERCEPTUAL MANIFESTATION
  ──────────────────────────────────────────────────────────────────────────────────────
- P       Fire       Apex Spatial Vertex     Scalar Ledger (P)      Mass, Inertia, Gravity;
-                                                                   Misidentified as Time (t).
+ P       Fire       Apex Spatial Vertex       Scalar Ledger (P)      Mass, Inertia, Gravity;
+                    (this scale's ledger)                            Misidentified as Time (t).
+                    = R-floor of scale N+2
 
- U       Air        Base Spatial Vertex 1   Vector Phase Q_i       3D Boundary Face;
- I       Water      Base Spatial Vertex 2   Vector Phase Q_j       Perceived by R-observer
- R       Earth      Base Spatial Vertex 3   Vector Phase Q_k       as Cartesian Space (x,y,z).
+ U       Air        Base Spatial Vertex 1     Vector Phase Q_i       3D Boundary Face;
+ I       Water      Base Spatial Vertex 2     Vector Phase Q_j       Perceived by R-observer
+ R       Earth      Base Spatial Vertex 3     Vector Phase Q_k       as Cartesian Space (x,y,z).
+                    (this scale's floor)      
+                    = P-ledger of scale N
 
- CENTROID           The Internal Engine     Angular Frequency (ω)  The Driver of Cycles.
- R-LEDGER           The Structural Wake     Coordinate Time (dt)   The Record of Collapses.
+ CENTROID           The Internal Engine       Angular Frequency (ω)  The Driver of Cycles.
+ R-LEDGER (= P_N)   The Structural Wake       Coordinate Time (dt)   The Record of Collapses.
+========================================================================================
+Scale-crossing reading: the observer's R-floor at scale N+1 is the compiled P-ledger of
+scale N; this scale's P-ledger will be the R-floor of scale N+2. One handoff, applied at
+every pair of adjacent scales.
 ========================================================================================
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
-1. **Experimental Verification of a Closed Timelike Curve:**
-   If an experimental apparatus transmits a macroscopic or microscopic state backward along its own historical worldline, recovering its pre-collapsed vector phase without thermodynamic dissipation, the non-invertibility of the Route Law fails.
+1. **Experimental Verification of Phase Recovery Without Thermodynamic Dissipation:**
+   If an experimental apparatus un-squares a committed scalar entry $P$ to recover its pre-collapse vector phase $h\mathbf{Q}$ without paying the Landauer floor, the non-invertibility of the Route Law fails at this scale. (Scope: this is the algebraic non-invertibility of §VI.1, not a derivation of GR's CTC absence.)
 2. **Observation of Quantum Superposition in the Metric Exhaust ($dt$):**
    If coordinate time $dt$ can be put into a quantum superposition—exhibiting temporal interference fringes on the scalar ledger $P$ without a driving frequency $\omega$—the segregation between the two clocks is refuted.
 3. **Detection of a Spatial Axis Independent of $K_4$:**
    If an experiment detects a fifth orthogonal macroscopic spatial coordinate that cannot be seated within the 4-vertex extrusion or the $K_4 \to K_5$ AC extension, the tetrahedral dimensional ceiling is broken.
 
-The cell is four vertices. Three form the boundary face; one forms the scalar ledger. The engine turns at the centroid, leaving the wake of coordinate time behind it.
+The cell is four vertices. Three form the boundary face; one forms the scalar ledger at this scale. The engine turns at the centroid, leaving the wake of coordinate time behind it. The ledger of this scale is the floor of the next; the floor of this scale was the ledger of the scale below.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-

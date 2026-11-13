@@ -3,8 +3,8 @@
 ### *(Why the CKM and PMNS Matrices Are Unitary, Why the Weak Force Is Left-Handed, and Where the Copenhagen Cut Actually Lives)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.  
-> **Claim:** The unitary mixing matrices of the Standard Model (the CKM matrix for quarks and the PMNS matrix for leptons) are the geometric operators of the Tangent Crossing turn (`Meta-MechanismOfTransition`), rotating uncollapsed mass eigenstates into localized flavor eigenstates to avoid coordinate divergence at the $K_3$ boundary face. The measurement process separates into two distinct operations: a reversible unitary coordinate rotation (interface binding across the Markov blanket) followed by a non-linear mod-squared projection into the Live-Written Ledger (the Born Rule as Route Law squaring, $\mathbf{Q}^2 \to P$). The maximal chirality of the Weak force ($\frac{1}{2}(1 - \gamma_5)$) is the physical cut that severs the unchosen enantiomer branch. The "Heisenberg cut" is neither a spatial coordinate nor a human observer; it is the local thermodynamic bandwidth limit where Apparent Power ($|S|$) exceeds the reactive holding capacity of the bounding frame.  
-> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ScalingInvariants.md` (§IX), `L6-InversionOfControl.md` (§I, §II), `ENGINE-REFERENCE-AC.md` (§2.5), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `ProofG_Chirality.md`.
+> **Claim:** The unitary mixing matrices of the Standard Model (the CKM matrix for quarks and the PMNS matrix for leptons) are the geometric operators of the Tangent Crossing turn (`Meta-MechanismOfTransition`), rotating uncollapsed mass eigenstates into localized flavor eigenstates to avoid coordinate divergence at the $K_3$ boundary face. The measurement process separates into two distinct operations: a reversible unitary coordinate rotation (interface binding across the Markov blanket) followed by a non-linear mod-squared projection into the Live-Written Ledger (the Born Rule as the **AC Route Law**, $|I|^2 R$ — `ProofQ_AlgebraicSyntax` §V; specifically the mod-square instance of the three squarings named there, not the algebraic $Z^2$ of a biquaternion). The maximal chirality of the Weak force ($\frac{1}{2}(1 - \gamma_5)$) is the physical cut that severs the unchosen enantiomer branch. The "Heisenberg cut" is neither a spatial coordinate nor a human observer; it is the local thermodynamic bandwidth limit where Apparent Power ($|S|$) exceeds the reactive holding capacity of the bounding frame.  
+> **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ScalingInvariants.md` (§IX), `L6-InversionOfControl.md` (§I, §II), `ENGINE-REFERENCE-AC.md` (§2.5), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md` (§V, the three squarings: algebraic $Z^2$, mod-square $|I|^2$, Star-Norm $ZZ^\dagger$), `ProofG_Chirality.md`.
 
 ---
 
@@ -54,7 +54,7 @@ To describe physical states crossing between the uncollapsed buffer ($H_{\text{i
    └───────────────────────────┬────────────────────────────┘
                                │
                                ▼  Actuator threshold exceeded (|S| > Bandwidth)
-                               │  Route Law Squaring: Q² ➔ P
+                               │  AC Route Law: |I|² R into P
                                │  Phase burned (h² = -1); Landauer tax paid
                                │
    STEP 2: THE MOD-SQUARED PROJECTION (Born Rule)
@@ -73,23 +73,30 @@ The flavor eigenstate is the interface contract demanded by the Weak force inter
 
 ---
 
-## III. The Born Rule as Route Law Squaring
+## III. The Born Rule as the AC Route Law (Mod-Square Instance)
 
 The unitary rotation does not collapse the state. A rotated superposition is still a superposition. 
 
 The commitment occurs only when the Weak interaction reads the state and forces a single observable outcome. In quantum mechanics, this step is governed by the **Born Rule**: the probability of observing eigenvalue $i$ is the squared modulus of the complex amplitude:
-$$P_i = |\langle \psi_i | \Psi \rangle|^2$$
+$$P_i = |\langle \psi_i | \Psi \rangle|^2 = \langle \Psi | \psi_i \rangle \langle \psi_i | \Psi \rangle$$
 
 As Steven Weinberg highlighted, the Born Rule introduces a glaring structural discontinuity into quantum theory: every equation of motion (Schrödinger, Dirac, Klein–Gordon) is strictly linear and unitary, yet the measurement axiom is non-linear and dissipative.
 
-In the $K_4$ algebra, the Born Rule is not an isolated quantum axiom; it is a direct physical instance of the **Route Law** (`ProofQ_AlgebraicSyntax.md` §V):
+In the $K_4$ algebra, the Born Rule is a direct physical instance of the **Route Law** (`ProofQ_AlgebraicSyntax.md` §V):
 
 $$\text{\bf Squaring is the arrow into Asserting.}$$
 
-The Route Law dictates that moving from the uncommitted phase buffer ($h\mathbf{Q}$) into the physical ledger ($P$) requires squaring:
-$$(h\mathbf{Q})^2 = h^2 \cdot \mathbf{Q}^2 = (-1) \cdot (-|\mathbf{Q}|^2) = |\mathbf{Q}|^2 \in \mathbb{R}^+$$
+The precise identification requires naming **which** squaring. `ProofQ` §V enumerates three distinct operations that the ordinary English word "squaring" can refer to:
 
-Squaring destroys the phase operator ($h^2 = -1$), destroys vector orientation ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$), and outputs a strictly positive real scalar (`Q5-StarNormProduct.md`). The Born Rule does not merely calculate probability; it is the physical operation that pays the Landauer tax, erases the unchosen branches, and writes an irreversible entry to the $P$-ledger.
+1. **Algebraic $Z^2$ on a biquaternion:** $Z^2 = (P + h\mathbf{Q})^2 = (P^2 - |\mathbf{Q}|^2) + 2hP\mathbf{Q}$. Carries an imaginary vector part except in the pure-vector element ($P = 0$).
+2. **Mod-square $|I|^2$ (the AC Route Law):** For a complex AC phasor $I$, real power is $P = |I|^2 R = I I^* R$. Hermitian, strictly real-positive, Born's exact form.
+3. **Star-Norm $ZZ^\dagger = P^2 - |\mathbf{Q}|^2$:** The Lorentzian-signature mass-norm.
+
+**Born is the Route Law in its AC form, specifically the mod-square instance (Squaring 2 in ProofQ §V).** The amplitude $\langle \psi_i | \Psi \rangle$ is a complex number, and the Born probability $|\langle \psi_i | \Psi \rangle|^2 = \langle \Psi|\psi_i\rangle \langle\psi_i|\Psi\rangle$ is its mod-square — amplitude times its complex conjugate, not its algebraic square. This is exactly the form AC circuit algebra delivers for real power: $P = |I|^2 R$ where $|I|^2 = I I^*$ is the rms mod-square of a complex current phasor.
+
+On real-valued (DC) amplitudes the algebraic square and the mod-square coincide (because the imaginary part is zero), which is why the Route Law reads smoothly on the DC equations without distinguishing the two. In the AC regime of quantum amplitudes the two separate, and Born uses the mod-square. The identification "Born Rule = Route Law" survives in its AC form. The earlier wording of this section treated the two as identical without specifying which squaring; that was imprecise on biquaternion state vectors, and the precise identification is above.
+
+The mod-square destroys the phase operator (returning amplitude times conjugate yields a real-positive number with no phase), destroys vector orientation if the amplitude carried any (through the inner product reduction), and outputs a strictly positive real scalar (`Q5-StarNormProduct.md`, in the pure-vector element). The Born Rule does not merely calculate probability; it is the physical operation that pays the Landauer tax, erases the unchosen branches, and writes an irreversible entry to the $P$-ledger.
 
 ### Disentangling the Two-Step
 Physics conflated these two steps into an undefined composite called "measurement." The framework separates them by operation and price:
@@ -154,7 +161,7 @@ This thermodynamic residue is the physical mass of the baryonic universe (`QED-T
 
 ## VI. Where the Copenhagen Cut Actually Lives
 
-John Stewart Bell’s critique of the Copenhagen interpretation targeted the undefined status of the "observer." The Schrödinger equation evolves wavefunctions smoothly, but upon "measurement," the wave collapses. Bell asked: *What qualifies as a measurement apparatus? Does it require a human consciousness? A macroscopic pointer? A photographic plate?* He named this ambiguity the **shifty split**.
+John Stewart Bell's critique of the Copenhagen interpretation targeted the undefined status of the "observer." The Schrödinger equation evolves wavefunctions smoothly, but upon "measurement," the wave collapses. Bell asked: *What qualifies as a measurement apparatus? Does it require a human consciousness? A macroscopic pointer? A photographic plate?* He named this ambiguity the **shifty split**.
 
 The $K_4$ architecture removes human consciousness from the cut entirely.
 
@@ -228,7 +235,7 @@ The framework reads this asymmetry directly from the pole assignments of `Q1-Gen
 2. **Leptons ($U, I$) Float on the Yielding Tier:**  
    Leptons occupy the Yielding poles ($U$ and $I$). They do not carry color charge and do not couple to the $R$-pole confinement mesh. Yielding poles conduct relational current and structural potential without mass inertia. Lacking an anchor to the $R$-pole, the lepton state space offers almost zero topological resistance to basis rotation. The phase space twists freely under electroweak gauge forces, producing large, near-maximal PMNS mixing angles.
 
-*Epistemic Demarcation (Gabriel’s Horn, `L4-ScalingInvariants.md` §IX):* This qualitative alignment explains why the two sectors behave differently in kind. However, the exact numerical values of the mixing angles ($\theta_{12}, \theta_{23}, \theta_{13}$) are interface payloads dictated by the physical vacuum's specific Yukawa textures. The topology derives the structural asymmetry; physics measures the angles.
+*Epistemic Demarcation (Gabriel's Horn, `L4-ScalingInvariants.md` §IX):* This qualitative alignment explains why the two sectors behave differently in kind. However, the exact numerical values of the mixing angles ($\theta_{12}, \theta_{23}, \theta_{13}$) are interface payloads dictated by the physical vacuum's specific Yukawa textures. The topology derives the structural asymmetry; physics measures the angles.
 
 ---
 
@@ -260,8 +267,9 @@ The measurement sector of quantum theory is topologically grounded:
  Unitary Matrices     Why is mixing norm-         Tangent Crossing rotation; interface
  (CKM / PMNS)         preserving (U†U = I)?       binding across the Markov blanket.
  
- The Born Rule        Why square amplitudes       Route Law non-linear collapse:
- (P = |ψ|²)           in a linear theory?         (hQ)² = |Q|² ➔ P writes mass to Ledger.
+ The Born Rule        Why square amplitudes       AC Route Law (mod-square |I|²R):
+ (P = |ψ|²)           in a linear theory?         amplitude × conjugate writes mass to P.
+                                                  (ProofQ §V, Squaring 2.)
  
  Maximal Chirality    Why is Weak interaction     Physical cut severing unchosen
  (½(1 - γ₅))          strictly left-handed?       enantiomer; odd C₂ flip barred in A₄.
@@ -275,18 +283,15 @@ The measurement sector of quantum theory is topologically grounded:
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
-1. **Non-Unitary Flavor Mixing in Closed Systems:**  
-   If high-precision flavor experiments (e.g., at Belle II or LHCb) detect a statistically significant violation of unitarity in the 3-generation CKM matrix ($\sum_i |V_{ui}|^2 \neq 1$) that cannot be seated as an un-modeled higher-scale phase, the boundary rotation model fails.
+1. **The Cabibbo Angle Anomaly as a Live Kill of First-Row Unitarity:**  
+   Current first-row CKM measurements show tension with unitarity: $|V_{ud}|^2 + |V_{us}|^2 + |V_{ub}|^2 \approx 0.998 \pm 0.001$, roughly $2$–$3\sigma$ below $1$ depending on which $V_{us}$ determination (kaon semileptonic vs. tau decays) is used. This is the **Cabibbo angle anomaly** (sometimes CAA; see e.g. Belfatto–Beradze–Berezhiani, Crivellin et al., post-2019 literature). If the anomaly consolidates with increased statistics and improved form-factor control into a confirmed unitarity violation that cannot be seated as an un-modeled higher-scale phase or as a hadronic-input mismeasurement, the three-generation boundary rotation model of this file is refuted, and the correspondence survives only with a fourth-generation or higher-scale extension that this document does not carry. The anomaly is live, not yet decisive; its evolution is the registered kill.
 2. **Observation of Right-Handed Weak Charged Currents:**  
    If an experiment detects fundamental tree-level coupling of the $W^\pm$ boson to right-handed fermions with $V + A$ coupling strength equal to left-handed currents, the chiral cut mechanism is refuted.
 3. **Decoupling of the Born Rule from the Landauer Tax:**  
-   If an experimental protocol achieves an irreversible, macroscopic measurement collapse that outputs a classical coordinate ($P$) without dissipating the thermodynamic Landauer floor ($k_B T \ln 2$ per bit) at the detector boundary, the Route Law squaring derivation fails.
+   If an experimental protocol achieves an irreversible, macroscopic measurement collapse that outputs a classical coordinate ($P$) without dissipating the thermodynamic Landauer floor ($k_B T \ln 2$ per bit) at the detector boundary, the AC Route Law squaring derivation fails.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-
-
-

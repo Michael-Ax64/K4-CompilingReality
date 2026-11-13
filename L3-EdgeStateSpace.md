@@ -23,6 +23,8 @@
 
 **Directed and undirected are not interchangeable either.** A Hamiltonian *cycle* of $K_4$ is 4 undirected edges and holds a 2-edge AbsentVar pair; a *directed* Hamiltonian cycle is 4 arcs of $K_4^*$ and its complement is 8 arcs. See the correction notes at §V and §VI.
 
+**Naming convention adopted at use-sites.** When a passage downstream carries both senses in close context — the sign a season carries (*Mode*), and the bimedian a season's edge sits on (*Bimedian*) — prefer the suffixes **Cardinal-Mode / Fixed-Mode / Mutable-Mode** and **Cardinal-Bimedian / Fixed-Bimedian / Mutable-Bimedian** to the bare word plus a disambiguating clause. The bare word stays where a passage lives wholly in one register. The disambiguation moves into the token where it is actually computed, not into a preamble the reader may not consult. Files citing this convention point at *`L3-EdgeStateSpace.md` — Bimedian / Sign Discrimination Rule* (expect there: the Kernel Rule and this naming convention).
+
 ---
 
 ## I. The Four States of an Edge

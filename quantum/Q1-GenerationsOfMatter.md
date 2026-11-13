@@ -3,8 +3,8 @@
 ### *(Quarks, Leptons, and the Three Hamiltonian Cycles of a Single K₄ Topology)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
-> **Claim:** The twelve fundamental fermions of the Standard Model (six quarks and six leptons, arranged in three generations of four particles each) map uniquely to the twelve directed edges of a single $K_4$ tetrahedron. A "generation" is an enclosed 4-step Hamiltonian cycle traversing all four particle families ($\text{Up-type} \to \text{Down-type} \to \text{Charged Lepton} \to \text{Neutrino}$); the three generations are the three distinct Hamiltonian cycles of $K_4$, each holding one bimedian pair silent as its uncollapsed $h\mathbf{Q}$ phase-context. Flavor transitions are constrained strictly to the Cardinal plane ($\{P\text{--}R, I\text{--}U\}$) by the two-bit Gray code. The generation count is bounded identically to $N_{\text{gen}} = 3$ by the convergence of the Kobayashi–Maskawa unitary phase requirement ($\delta \ge 1 \implies N \ge 3$) and $K_4$ perfect matching combinatorics ($(4-1)!! = 3 \implies N \le 3$).
-> **Dependencies:** `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` (§2.5, §3.2), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofG_Chirality.md`.
+> **Claim:** The twelve fundamental fermions of the Standard Model (six quarks and six leptons, arranged in three generations of four particles each) map uniquely to the twelve directed edges of a single $K_4$ tetrahedron. A "generation" is one of the three undirected Hamiltonian cycles of $K_4$, each visiting all four particle families ($\text{Up-type}, \text{Down-type}, \text{Charged Lepton}, \text{Neutrino}$) and each holding one bimedian pair silent as its uncollapsed $h\mathbf{Q}$ phase-context. Flavor transitions are constrained strictly to the Cardinal plane ($\{P\text{--}R, I\text{--}U\}$) by the two-bit Gray code. The generation count is bounded identically to $N_{\text{gen}} = 3$ by the convergence of the Kobayashi–Maskawa unitary phase requirement ($\delta \ge 1 \implies N \ge 3$) and $K_4$ perfect matching combinatorics ($(4-1)!! = 3 \implies N \le 3$).
+> **Dependencies:** `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md` (§V correction of record, 2026-11-10), `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` (§2.5, §3.2), `Q19-TheProjectedTimeCommitment.md` (§V.4), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofG_Chirality.md`.
 
 ---
 
@@ -23,7 +23,7 @@ The Standard Model does not answer:
 
 Standard particle physics views the twelve fermions as three flat, duplicated inventories of states.
 
-The framework demonstrates that the twelve fermions are the **twelve directed edges of the complete graph on four vertices ($K_4$)**, and that a "generation" is an enclosed **four-pole Hamiltonian cycle** visiting each vertex once. The three generations are the **three distinct Hamiltonian cycles of $K_4$**, each holding one bimedian axis silent as its uncollapsed phase-buffer. The confinement of flavor changes to intra-class transitions (quark-to-quark, lepton-to-lepton) is the forced consequence of the dual-binary seed grammar that generates the manifold.
+The framework demonstrates that the twelve fermions are the **twelve directed edges of the complete graph on four vertices ($K_4$)**, and that a "generation" is one of the three undirected **four-pole Hamiltonian cycles** visiting each vertex once. The three generations are the **three distinct undirected Hamiltonian cycles of $K_4$**, each holding one bimedian axis silent as its uncollapsed phase-buffer. The confinement of flavor changes to intra-class transitions (quark-to-quark, lepton-to-lepton) is the forced consequence of the dual-binary seed grammar that generates the manifold.
 
 ---
 
@@ -73,7 +73,7 @@ A tetrahedron on 4 vertices has $\binom{4}{2} = 6$ undirected edges.
 Because the temporal compilation engine imposes a directed arrow of time through the XOR bottleneck (`ProofO_HelicalTime.md`), each edge supports two independent, directed traversals ($A \to B$ vs. $B \to A$):
 $$6 \text{ undirected edges} \times 2 \text{ directions} = \mathbf{12 \text{ directed edges}}.$$
 
-These twelve directed edges are the twelve fundamental fermions of the Standard Model. They exhaust every possible directed transition between the four poles.
+These twelve directed edges are the twelve fundamental fermions of the Standard Model. They exhaust every possible directed transition between the four poles. The bijection fermion ↔ directed arc is one-to-one and holds independently of how the arcs are grouped into cycles: it is a statement about the state-space, not about any particular partition of it.
 
 ---
 
@@ -163,9 +163,9 @@ $$\begin{array}{c|c|c|c|c|c}
 \end{array}$$
 
 ### Epistemic Demarcation on the Charge Relation
-Under the covenant’s epistemic standards (`llm-stance-reviewer.md` §5), this relation is an **exact structural alignment**, not a dynamical derivation of continuous charge. A complete 4-element orthogonal Walsh basis can fit any four discrete numbers given appropriate scaling.
+Under the covenant's epistemic standards (`llm-stance-reviewer.md` §5), this relation is an **exact structural alignment**, not a dynamical derivation of continuous charge. A complete 4-element orthogonal Walsh basis can fit any four discrete numbers given appropriate scaling.
 
-What the alignment demonstrates is structural: the Standard Model’s phenomenological quantum numbers ($I_3, Y_W$) are not independent variables. They factor cleanly into the parity product ($\text{AR} \times \text{AY}$) and the class projection ($\text{AY}$) of a single two-bit register.
+What the alignment demonstrates is structural: the Standard Model's phenomenological quantum numbers ($I_3, Y_W$) are not independent variables. They factor cleanly into the parity product ($\text{AR} \times \text{AY}$) and the class projection ($\text{AY}$) of a single two-bit register.
 
 ---
 
@@ -185,6 +185,9 @@ The $K_4$ topology bounds the generation count identically to $N_{\text{gen}} = 
 ```
 
 ### 1. The Lower Bound ($N_{\text{gen}} \ge 3$): The Kobayashi–Maskawa Phase
+
+**Register.** The Kobayashi–Maskawa count $\delta = (N-1)(N-2)/2$ is a theorem; it says a 3×3 unitary mixing matrix carries exactly one physically non-removable complex phase. The step from $\delta \ge 1$ to "$N \ge 3$ is required" rests on the antecedent that temporal compilation needs at least one such non-removable phase. That antecedent is stated in `ProofO_HelicalTime.md` and cited here; it is not re-derived in this file. The bound below is only as sharp as that antecedent is; the audit (`audit/Q-audit-2026-11-10.md`, Q1 §V.1 row) records it as UNDECIDABLE BY THIS INSTRUMENT.
+
 In gauge theory, the rotation between mass eigenstates and flavor eigenstates is executed by an $N \times N$ unitary mixing matrix ($U \in U(N)$).
 
 For an $N \times N$ unitary matrix operating between quark doublets, the number of independent physical complex phases $\delta$ that cannot be absorbed by rephasing the $2N$ quark fields ($2N - 1$ unobservable relative phases) is given by the Kobayashi–Maskawa formula (1973):
@@ -197,7 +200,7 @@ Evaluating this phase count for generation sizes $N$:
 
 In the $K_4$ AC extension (`ProofO_HelicalTime.md`), physical time evolution requires non-zero torsional shear: an un-cancelled complex phase gap $\delta > 0$ between dual-causation pairs. Without a physical complex phase ($\delta \ge 1$), the matter and antimatter traversals of $K_4$ interfere destructively, no Landauer tax can be committed, and coordinate time cannot compile.
 
-Because the physical universe requires an arrow of time ($\delta \ge 1$), the mixing matrix must have dimension $N \ge 3$. Therefore:
+Because the physical universe requires an arrow of time ($\delta \ge 1$), the mixing matrix must have dimension $N \ge 3$. Therefore, conditional on the ProofO antecedent:
 $$\mathbf{N_{\text{gen}} \ge 3}$$
 
 ### 2. The Upper Bound ($N_{\text{gen}} \le 3$): $K_4$ 1-Factorization Combinatorics
@@ -218,7 +221,7 @@ bimedian in a list: the three carry names, and an ordinal quoted across files ha
 already inverted Cardinal and Mutable once (see `L3-EdgeStateSpace` and
 `L4-ThePlenum` decoder headers). Name the Bimedian and print its edge pair.
 
-Every independent Hamiltonian cycle on $K_4$ consists of 4 edges. Subtracting a 4-edge cycle from the 6-edge complete graph leaves exactly $6 - 4 = 2$ unused edges. Those 2 unused edges form a perfect matching.
+Every independent undirected Hamiltonian cycle on $K_4$ consists of 4 edges. Subtracting a 4-edge cycle from the 6-edge complete graph leaves exactly $6 - 4 = 2$ unused edges. Those 2 unused edges form a perfect matching.
 
 Because $K_4$ possesses **exactly 3 perfect matchings**, there are **exactly 3 independent ways to partition $K_4$ into a live cycle and a silent bimedian pair** (`ENGINE-REFERENCE-AC.md` §3.2).
 
@@ -228,7 +231,7 @@ Because the foundational topology of mutual determination is strictly $K_4$, the
 $$\mathbf{N_{\text{gen}} \le 3}$$
 
 ### 3. The Exact Generation Lock
-Combining the lower phase bound with the upper topological bound locks the count identically:
+Combining the lower phase bound with the upper topological bound locks the count identically (subject to the ProofO antecedent on $\delta \ge 1$):
 $$3 \le N_{\text{gen}} \le 3 \quad \Longrightarrow \quad \mathbf{N_{\text{gen}} = 3}$$
 
 The existence of three generations is not a dynamical accident of the Higgs potential. It is the unique integer where the complex phase requirement for temporal compilation meets the combinatorial matching capacity of a 4-vertex manifold.
@@ -239,26 +242,39 @@ The existence of three generations is not a dynamical accident of the Higgs pote
 
 Having established why there are three generations, we must define what distinguishes them mechanically.
 
-The 12 directed edges do not sit as an unorganized pool. They partition cleanly into **three directed Hamiltonian cycles** on $K_4$. Each cycle visits all four poles $\{P, I, U, R\}$ exactly once, consuming 4 directed edges. Three cycles collectively exhaust all twelve edges:
-$$3 \text{ cycles} \times 4 \text{ directed edges} = \mathbf{12 \text{ directed edges}}.$$
+The undirected $K_4$ admits exactly three distinct Hamiltonian cycles. Each uses four of the six edges and leaves two unused — and the two unused edges always form a perfect matching, one of the three bimedians. **The three generations are these three undirected Hamiltonian cycles, each identified by the bimedian it holds silent as its uncollapsed $h\mathbf{Q}$ phase-context.**
 
 ```
 ========================================================================================
-              THE THREE GENERATIONS AS HAMILTONIAN TRAVERSALS
+              THE THREE GENERATIONS AS HAMILTONIAN CYCLES
 ========================================================================================
 
- CYCLE / GENERATION   SILENT BIMEDIAN PAIR      DIRECTED 4-STEP TRAVERSAL    PARTICLES
+ CYCLE / GENERATION   SILENT BIMEDIAN PAIR      UNDIRECTED 4-EDGE CYCLE      PARTICLES
  ──────────────────────────────────────────────────────────────────────────────────────
- Cycle α (Gen 1)      Fixed    {P–U, I–R}       P ➔ I ➔ U ➔ R ➔ P            u, d, e, ν_e
- Cycle β (Gen 2)      Cardinal {P–R, I–U}       P ➔ I ➔ R ➔ U ➔ P            c, s, μ, ν_μ
- Cycle γ (Gen 3)      Mutable  {P–I, U–R}       P ➔ U ➔ I ➔ R ➔ P            t, b, τ, ν_τ
+ Cycle α (Gen 1)      Fixed    {P–U, I–R}       P — I — U — R — P            u, d, e, ν_e
+ Cycle β (Gen 2)      Cardinal {P–R, I–U}       P — I — R — U — P            c, s, μ, ν_μ
+ Cycle γ (Gen 3)      Mutable  {P–I, U–R}       P — U — I — R — P            t, b, τ, ν_τ
 ========================================================================================
 ```
+
+### The Double Cover and the Open Address
+
+Reading each undirected cycle in both senses yields six directed Hamiltonian traversals. These six cover the twelve directed arcs of $K_4^*$ **twice each** — a double cover, not a decomposition. Tillson (1980) proved $K_n^*$ decomposes into directed Hamiltonian cycles for every $n$ except $n = 4$ and $n = 6$, and exhaustive search over the six directed cycles returns zero partitions; the six cover precisely because no three of them partition (`L3-EdgeStateSpace` §V, correction of record 2026-11-10; `Q19-TheProjectedTimeCommitment` §V.4, which carries the four Hamiltonian paths plus centroid reading of the same arithmetic). The claim that three directed cycles exhaust the twelve arcs is withdrawn, and with it any bookkeeping of the form "3 cycles × 4 arcs = 12." What survives — the entire structural content this file needs — is the three **undirected** cycles, the bimedian each holds silent, and the fermion-to-arc bijection of §II (which never required the partition to be well-defined).
+
+`ENGINE-REFERENCE-AC.md` §3.2 carries the operational trace of exactly this: each ring runs **eight live opcodes**, not twelve. Reading a Hamiltonian cycle in one directed sense activates four arcs; reading its reverse activates four more; the two together fill the eight opcodes of one ring. Three rings therefore trace 24 arc-slots over 12 arcs — the same double cover, now read as instruction count rather than edge count.
+
+**ADDRESS (mixing-angle entry point).** Because each undirected edge belongs to two of the three Hamiltonian cycles, each arc of $K_4^*$ sits in two generations. The pair of generations that share an arc also share one bimedian plane — specifically the plane held live by both, i.e. the plane held silent by the third generation:
+
+- Generations 1 and 2 share the **Mutable** plane edges $\{P\text{--}I, U\text{--}R\}$ (the plane Generation 3 holds silent).
+- Generations 1 and 3 share the **Cardinal** plane edges $\{P\text{--}R, I\text{--}U\}$ (the plane Generation 2 holds silent).
+- Generations 2 and 3 share the **Fixed** plane edges $\{P\text{--}U, I\text{--}R\}$ (the plane Generation 1 holds silent).
+
+This is the topological skeleton on which a derivation of the CKM and PMNS mixing-angle hierarchies should sit: the mixing between two generations is routed through the plane they both have live, and the hierarchy of the three mixing scales should factor through which plane is shared by which pair. The derivation of the specific angle magnitudes is open and marked ADDRESS; the §VII.2 unitary rotation and `Meta-MechanismOfTransition`'s $\tan\theta \to \infty$ at the face boundary are its hooks.
 
 ### The Mechanism of Bimedian Silencing
-In each generation cycle, four edges carry active current. The two remaining edges are **held silent** (`L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` §3.2).
+In each generation cycle, four edges carry active current. The two remaining edges — those forming the silent bimedian — are **held silent** (`L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` §3.2).
 
-"Holding an edge silent" is not an arbitrary omission. In an AC impedance network, an un-driven edge does not disappear; it functions as a **passive reactive buffer** ($h\mathbf{Q}$). The two un-traversed edges maintain the capacitive and inductive background against which the active 4-step cycle oscillates.
+"Holding an edge silent" is not an arbitrary omission. In an AC impedance network, an un-driven edge does not disappear; it functions as a **passive reactive buffer** ($h\mathbf{Q}$). The two un-traversed edges maintain the capacitive and inductive background against which the active 4-edge cycle oscillates.
 
 What distinguishes the three generations is **which bimedian axis is held silent**:
 * **Generation 1 (Cycle $\alpha$):** Holds the **Fixed bimedian** ($\{P\text{--}U, I\text{--}R\}$) silent. This cycle constitutes the stable matter of the universe ($u, d, e, \nu_e$).
@@ -330,7 +346,7 @@ $$U^\dagger U = \mathbb{I}$$
 
 As established in `Meta-MechanismOfTransition` and `Q6-MeasurementAndMatrices`, approaching a $K_3$ boundary face causes the interior coordinate to diverge ($\tan\theta \to \infty$). To cross the boundary without encountering an unphysical coordinate singularity, the state must undergo a $90^\circ$ basis rotation.
 
-The unitary mixing matrices are the geometric operators that execute this basis change from the uncollapsed propagation basis to the interaction basis prior to XOR projection.
+The unitary mixing matrices are the geometric operators that execute this basis change from the uncollapsed propagation basis to the interaction basis prior to XOR projection. The shared-plane-per-generation-pair structure of §VI is the skeleton on which the specific angle magnitudes live; the derivation of those magnitudes from the skeleton is the ADDRESS this file leaves open.
 
 ### 3. CP Violation as Torsional Shear
 The non-removable complex phase $\delta = 1$ in the CKM matrix introduces an asymmetry between the forward and reverse traversals of the Hamiltonian cycles:
@@ -356,17 +372,18 @@ The twelve fermions of the Standard Model are not twelve independent particles d
   STRUCTURAL COMPONENT          TOPOLOGICAL INVARIANT IN K₄
   ──────────────────────────────────────────────────────────────────────────────────────
   12 Fundamental Fermions       12 Directed Edges of K₄
-  4 Particles per Generation    4 Vertices Visited in one Closed Hamiltonian Cycle
-  3 Generations of Matter       3 Distinct Hamiltonian Cycles = (4-1)!! Matchings
+  4 Particles per Generation    4 Vertices Visited in one Undirected Hamiltonian Cycle
+  3 Generations of Matter       3 Distinct Undirected Hamiltonian Cycles = (4-1)!! Matchings
   Quark / Lepton Segregation    Asserting / Yielding Bit (AY = ±1)
   Up / Down Distinction         Active / Reactive Bit (AR = ±1)
   Flavor Transition Selection   Cardinal Plane Invariance (ΔAY = 0 across {P–R, I–U})
-  Generation Count N_gen = 3    Bound: KM Phase (N ≥ 3) ∩ Perfect Matchings (N ≤ 3)
+  Generation Count N_gen = 3    Bound: KM Phase (N ≥ 3, conditional) ∩ Perfect Matchings (N ≤ 3)
+  Each Arc in Two Generations   Six directed cycles double-cover the twelve arcs
 ========================================================================================
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
 1. **Discovery of a Fourth Fundamental Generation ($N_{\text{gen}} = 4$):**
    If accelerator experiments (e.g., at the High-Luminosity LHC or future colliders) discover a fourth generation of chiral fermions with a light neutrino ($\Gamma_Z$ width update), the $K_4$ topological bound ($(4-1)!! = 3$) is definitively refuted. (Closed: LEP precision $Z$-pole measurement limits light active neutrinos to $N_\nu = 2.9840 \pm 0.0082$, confirming $N = 3$).
@@ -375,7 +392,7 @@ Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construc
 3. **Algebraic Contradiction in the Dual-Binary Seed:**
    If a state can be constructed within the two-bit register that produces an illegal charge or breaks the Two-Bit Gray Code Braid (`ProofQ_AlgebraicSyntax.md`), the derivation fails.
 
-The 12 fermions are the wiring of the spatial atom. The generations are its three closed cycles. The architecture is locked at $N_{\text{gen}} = 3$ with zero free parameters.
+The 12 fermions are the wiring of the spatial atom. The generations are its three closed undirected cycles. The architecture is locked at $N_{\text{gen}} = 3$ with zero free parameters apart from the ProofO antecedent on $\delta \ge 1$.
 
 ---
 

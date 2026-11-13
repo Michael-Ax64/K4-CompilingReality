@@ -5,7 +5,7 @@ There is a rule in the corpus about how to label a directed edge of the $K_4$ at
 
 The rule turns out to be uniform, three-line, and directly readable from what P, I, U, and R already are. The bimedian label of a directed edge X→Y is determined by the target Y — with one exception, which is what U being the articulator forces. This document closes the vote by writing the rule down, verifying it against the vertex-relative table the corpus was already using, showing why the U-symmetric / U-absent split of `L3-TheAtomOfSpace` §VI is an immediate consequence, and pointing at the forward calculation program the rule now unlocks.
 
-*Dependencies: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges), `L4-DynamicDistortions101` (DynDist bimedian convention, now the reconciled corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
+*Dependencies: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges; Bimedian / Sign Discrimination Rule), `L4-DynamicDistortions101` (DynDist bimedian convention, now the reconciled corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
 
 ---
 
@@ -68,36 +68,41 @@ The rule is derivable from the corpus's own P/I/U/R role semantics without furth
 
 **U is the articulator.** U is the structural coordinator, the pole whose function is to make explicit what is already implicit at the other three. It does not have its own dominant character in the way P (initiator), I (flow), R (ground) do; instead, U articulates whatever is being brought to it. When something is directed at U, U reflects back the mode the source is bringing. Hence "TO U → mirror source's character."
 
-This is not a fitting exercise. It is a direct reading of the four poles' semantic functions, and the fact that it produces exactly the vertex-relative labels observed in practice is what confirms the reading.
+This reads the four poles' semantic functions directly. The rule produces exactly the vertex-relative labels observed in practice. Grade: assignment, not theorem — the rule was fit to a table whose U-column was itself constructed under the source-mirror clause, so §IV's "consensus on U-touching edges" is a structural consequence of how the table was built, not an independent coincidence requiring explanation.
 
 ## IV. Why the U-Symmetric / U-Absent Split Falls Out Immediately
 
 `L3-TheAtomOfSpace` §VI observed that U-touching edges have consensus readings while U-absent edges have perceiver-relative readings. Both observations follow directly from the rule.
 
-**U-touching edges (P–U, I–U, U–R): consensus.** Consider P–U. From P's side, P→U mirrors P's character → Cardinal. From U's side, U→P has target P → Cardinal. Both readings give Cardinal, but for two different reasons. On P→U, Cardinal comes from mirroring source P's initiating character. On U→P, Cardinal comes from target P's write-destination role. The two reasons converge on the same label because P's *character* (initiating) and P's *role* (initiating write-destination) are the same underlying semantic. Same convergence holds on I–U (both Mutable — I's flow character and I's flow role coincide) and U–R (both Fixed — R's grounding character and R's ground-attractor role coincide).
+**U-touching edges (P–U, I–U, U–R): consensus.** Consider P–U. From P's side, P→U mirrors P's character → Cardinal. From U's side, U→P has target P → Cardinal. Both readings give Cardinal, but by construction: the source-mirror clause at Y=U is built so that an edge X–U reads the same from both endpoints whenever X's character and X's target-role coincide — which is exactly when X ∈ {P, I, R}. Same mechanism holds on I–U (both Mutable) and U–R (both Fixed).
 
-The consensus on U-touching edges is not a coincidence; it is what happens when the source-mirror rule and the target-role rule land on the same label — which they do precisely at the poles whose character and role coincide.
+The consensus on U-touching edges is a built-in feature of the rule's source-mirror clause, not an emergent coincidence.
 
 **U-absent edges (P–I, P–R, I–R): perceiver-relative.** Consider P–I. From P's side, P→I has target I → Mutable. From I's side, I→P has target P → Cardinal. Different targets, different labels. The two endpoints legitimately name the edge by different bimedian assignments because they are naming the target-role of their outgoing arrow, and their outgoing arrows point at different vertices.
 
 The "perceiver-relative reading" is not observer bias or interpretive slippage. It is each endpoint accurately naming the semantic role of what its arrow points at. Both readings are correct simultaneously; they name different phenomenological facts (what each endpoint is directing attention toward) rather than one shared property of the undirected edge.
 
-## V. Relation to the DynDist Topological Classification
+## V. Three Classifications, Not Two
 
-The DynDist bimedian classification and the directed-reading rule live at orthogonal structural levels:
+The words *Cardinal*, *Fixed* and *Mutable* now name **three distinct classifications** in the corpus:
 
-- **DynDist (topological):** classifies undirected edges by bit-flip pattern between endpoints. Cardinal = AR-flip, Fixed = AY-flip, Mutable = both. Structural, symmetric, independent of any observer.
-- **Directed reading (dynamical):** assigns a label to each directed edge based on the target's role (P, I, R) or the source's character (when target is U). Dynamical, direction-sensitive, per-observation.
+1. **DynDist topological (undirected edge bit-flip, from `L3-EdgeStateSpace` §I-b):** Cardinal = AR-flip {P–R, I–U}; Fixed = AY-flip {P–U, I–R}; Mutable = both bits {P–I, U–R}. Property of the pair, independent of direction or observer.
+2. **Directed reading (target-based, this document):** target-role (P → Cardinal, I → Mutable, R → Fixed), source-mirror at Y = U. Property of the directed arrow.
+3. **Sign modality (astrological-register, from `L4-TheTwelveGates` §II):** the twelve zodiacal signs sort as Cardinal / Fixed / Mutable by season position. Property of the sign-gate at an edge.
 
-The two classifications disagree on every edge because they classify different things. This is not a contradiction; it is the corpus operating at two structural levels simultaneously. Any calculation touching a K4 edge must specify which level it is operating at, or it will drift between the two silently and produce ambiguous results.
+Any calculation touching a K4 edge must specify which of the three it is operating at, or it will drift between them silently.
 
-For example: the pion-to-electron Laurent expansion at `Q15-KairosBorn` §I operates on the U↔R inter-rung crossing at generation 1. Under DynDist topological classification, this is a Mutable crossing (both bits flip: U is A-Y, R is R-A). Under the directed reading rule, both U→R and R→U are Fixed (target R gives Fixed; target U mirrors source R's grounding character which is Fixed). Both readings say something true; they say it about different aspects of the same underlying crossing. Q15's Laurent decomposition uses the impedance triangle, which is a third orthogonal decomposition — reactive/rotation/resistive dynamical modes of the crossing — and the three levels together give the full structural description.
+**Directed reading against DynDist topology, agreement on 3 of 12 arcs.** The two classifications agree on exactly the directed 3-cycle **P→I→R→P** around the U-absent face: P→I both Mutable, I→R both Fixed, R→P both Cardinal. The reverse cycle P→R→I→P (same face, opposite direction) disagrees both ways. Every U-touching arrow disagrees under both readings. The U-absent / U-touching split of §IV reads cleanly at this level too: U-absent edges carry one agreement arrow each, U-touching edges carry none.
+
+**Worked example.** The pion-to-electron Laurent expansion at `Q15-KairosBorn` §I operates on the U↔R inter-rung crossing at generation 1. Under DynDist topological classification, this is a Mutable crossing (both bits flip: U is A-Y, R is R-A). Under the directed reading rule, both U→R and R→U are Fixed (target R gives Fixed; target U mirrors source R's grounding character which is Fixed). Both readings say something true; they say it about different aspects of the same underlying crossing. Q15's Laurent decomposition uses the impedance triangle, which is a third orthogonal decomposition — reactive/rotation/resistive dynamical modes of the crossing.
+
+For the Mode/Bimedian naming convention that disambiguates sign-modality (3) from edge-plane (1): `L3-EdgeStateSpace.md` — Bimedian / Sign Discrimination Rule.
 
 ## VI. What This Closes and What It Opens
 
 **Closes:** OPEN VOTE #4 in `L3-TheAtomOfSpace` §VIII. The rule is now formalized as target-based with U-mirror; the vertex-character link is via the target-role semantics (P=initiator, I=flow, R=ground, U=articulator/mirror), and those role semantics are themselves derived from the corpus's own load-bearing vocabulary rather than imported.
 
-**Opens:** The forward calculation program of `L3-TheAtomOfSpace` §VII can now specify vertex Feynman rules unambiguously. Any coupling at a K4 vertex is a directed operation X→Y; the bimedian label of the coupling is the target-based label from the rule; the coupling strength inherits from the corresponding bimedian's impedance geometry (per the impedance triangle at `L3-TheConstitutiveAlpha` §IV) and the mesh-tension identification (`L3-TheAtomOfSpace` §V). What was previously an under-specified "vertex coupling" becomes a computable directed operation with an unambiguous label, a specific bimedian, a specific impedance mode, and a specific mesh-tension geometry.
+**Opens:** The forward calculation program of `L3-TheAtomOfSpace` §VII can now specify vertex Feynman rules unambiguously. Any coupling at a K4 vertex is a directed operation X→Y; the bimedian label of the coupling is the target-based label from the rule; the coupling strength inherits from the corresponding bimedian's impedance geometry (per the impedance triangle at `L3-ConstitutiveAlpha` §IV; expect there: the reactive / rotation / resistive modes at Laurent orders $\alpha^{-1}$, $\alpha^{0}$, $\alpha^{+1}$) and the mesh-tension identification (`L3-TheAtomOfSpace` §V). What was previously an under-specified "vertex coupling" becomes a computable directed operation with an unambiguous label, a specific bimedian, a specific impedance mode, and a specific mesh-tension geometry.
 
 **Also opens:** the possibility that the target-based rule extends beyond bimedian labeling. If P/I/R/U roles govern label assignment via target, they may also govern coupling amplitudes, spectral weights, and other vertex-attached quantities. The target-based structure is a candidate general organizing principle for K4-vertex operations, and it is worth checking whether other observable-per-vertex quantities in the corpus (e.g. the specific impedance-triangle coefficients at each vertex, or the phase-shear angle θ carried by each vertex's outgoing mesh-tensions) also submit to a target-based reading. This is speculative and not claimed here; flagged as a candidate for follow-up.
 
@@ -118,16 +123,16 @@ The regularity Q15 exhibits — same-label readings from both endpoints — is n
 
 1. **`L3-TheAtomOfSpace` §VIII.** Update OPEN VOTE #4 to closed-status; cross-reference this document as the resolution.
 2. **`L3-TheAtomOfSpace` §VI (Directional edges subsection).** Add a forward reference to this document at the U-symmetric/U-absent observation, so a reader arriving through the atom-of-space consolidation is pointed at the resolution.
-3. **`L3-TheConstitutiveAlpha` §VII (Forward Calculation).** Update the vertex Feynman rule specification to invoke the target-based reading rule for label assignment. Currently the vertex couplings are given as "surface mesh tensions per `L4-DynamicDistortions301` §IV.D at phase-shear angle θ" (via the mesh-tension identification of `L3-TheAtomOfSpace` §V); the target-based rule specifies which bimedian's mesh-tension applies at each directed vertex, closing the residual ambiguity.
+3. **`L3-ConstitutiveAlpha` §VII (Forward Calculation).** Update the vertex Feynman rule specification to invoke the target-based reading rule for label assignment. Currently the vertex couplings are given as "surface mesh tensions per `L4-DynamicDistortions301` §IV.D at phase-shear angle θ" (via the mesh-tension identification of `L3-TheAtomOfSpace` §V); the target-based rule specifies which bimedian's mesh-tension applies at each directed vertex, closing the residual ambiguity.
 4. **`L2-Terminology`.** Add "directed reading rule" as a terminology entry, cross-referencing this document. Add "target-role assignment" and "source-mirror rule" as paired terminology for the two cases of the rule.
 
 ---
 
 ## IX. What Reading This Back Should Leave
 
-Every directed edge in the K4 atom now has a bimedian label that a reader can compute in one step: look at the target. If the target is P, the label is Cardinal. If it is I, Mutable. If it is R, Fixed. If it is U, mirror the source's character. Four lines. The tables the corpus was already using fall out immediately, the perceiver-relative disagreements on U-absent edges are explained rather than tolerated, and the U-touching consensus is shown to be a coincidence of character and role at three of the four poles.
+Every directed edge in the K4 atom now has a bimedian label that a reader can compute in one step: look at the target. If the target is P, the label is Cardinal. If it is I, Mutable. If it is R, Fixed. If it is U, mirror the source's character. Four lines. The tables the corpus was already using fall out immediately, the perceiver-relative disagreements on U-absent edges are explained rather than tolerated, and the U-touching consensus falls out of the source-mirror clause by construction.
 
-That is the whole result. What was flagged as OPEN VOTE #4 — the rule readable only in tables, not yet stated — is now a three-line rule that says itself out loud. The corpus can now specify a directed vertex coupling without ambiguity, and every future calculation that touches a K4 edge can say which structural level it is operating at without silent drift.
+The directed reading lives alongside DynDist's topological classification and alongside `L4-TheTwelveGates`' sign-modality classification: three distinct uses of the same three words, agreeing on exactly three of the twelve directed arcs and requiring per-level specification everywhere else.
 
 ---
 

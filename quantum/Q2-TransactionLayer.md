@@ -3,7 +3,7 @@
 ### *(Why the Photon Is Alone, the Weak Is Three, the Strong Is Eight, and Nothing Carries P)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
-> **Claim:** The twelve gauge bosons of the Standard Model (one photon, three weak bosons, eight gluons) map to the $U$, $I$, and $R$ poles of the $K_4$ topology, with their count ($1 + 3 + 8 = 12$) locked by the conjugacy class partition of the tetrahedral orientation group $A_4$. The fourth pole, $P$ (the Live-Written Ledger), has no gauge boson. The graviton is topologically barred because an exchange boson mediates transactions across a $K_3$ Markov blanket, whereas $P$ is the scalar destination to which transactions compile. Attempting to quantize gravity as a gauge interaction is a category error: it attempts to model a hardware-level ledger write as an application-layer network packet.
+> **Claim:** The twelve gauge bosons of the Standard Model (one photon, three weak bosons, eight gluons) map to the $U$, $I$, and $R$ poles of the $K_4$ topology, with their count ($1 + 3 + 8 = 12$) locked by the partition of the tetrahedral orientation group $A_4$ into $S_4$-orbits. The fourth pole, $P$ (the Live-Written Ledger), has no gauge boson. The graviton is topologically barred because an exchange boson mediates transactions across a $K_3$ Markov blanket, whereas $P$ is the scalar destination to which transactions compile. Attempting to quantize gravity as a gauge interaction is a category error: it attempts to model a hardware-level ledger write as an application-layer network packet.
 > **Dependencies:** `Q1-GenerationsOfMatter.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§2.5, §2.7), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
 
 ---
@@ -29,41 +29,47 @@ Physics has spent a century searching for the carrier of the fourth pole—the g
 
 ---
 
-## II. The Group-Theoretic Bedrock: $A_4 = 1 + 3 + 8$
+## II. The Group-Theoretic Bedrock: $A_4 = 1 + 3 + 8$ as the $S_4$-Orbit Partition
 
-The partition of the twelve gauge carriers across the three transactional poles is anchored directly in the orientation group of the $K_4$ tetrahedron (`ENGINE-REFERENCE-AC.md` §2.7).
+The partition of the twelve gauge carriers across the three transactional poles is anchored in the orientation group of the $K_4$ tetrahedron (`ENGINE-REFERENCE-AC.md` §2.7), read through the full tetrahedral symmetry group $S_4$ acting on $A_4$.
 
-The alternating group $A_4$ consists of the 12 even permutations of the four poles $\{P, I, U, R\}$. It is the orientation-preserving isometry group of the regular tetrahedron. Every abstract finite group partitions uniquely into **conjugacy classes**—sets of elements that represent the same type of geometric operation seen from different coordinate perspectives.
+The alternating group $A_4$ consists of the 12 even permutations of the four poles $\{P, I, U, R\}$. It is the orientation-preserving isometry group of the regular tetrahedron.
 
-Under full tetrahedral symmetry ($S_4$), the 12 elements of the orientation group $A_4$ decompose into three distinct operational geometric classes:
+**Terminology note on the partition.** $A_4$'s own conjugacy-class equation is $|A_4| = 1 + 3 + 4 + 4 = 12$: the identity (1), the three double-transpositions forming the Klein four-group $V_4 \setminus \{e\}$ (3), and the eight three-cycles **split into two classes of four** by handedness — the two cosets of $V_4$ that permute under conjugation inside $A_4$ but not outside it. The split is $A_4$'s record of chirality: a left-handed triple of three-cycles and its mirror right-handed triple are not conjugate inside $A_4$, because $A_4$ contains no odd permutation to swap them.
+
+Under the full tetrahedral group $S_4$, the outer automorphism fuses those two chiral four-classes into a single eight-element orbit, because $S_4$ contains the transpositions needed to swap handedness. The partition of $A_4$ into **$S_4$-orbits** is therefore:
 
 $$|A_4| = \mathbf{1} + \mathbf{3} + \mathbf{8} = \mathbf{12}$$
 
+This is the partition that lines up with the Lie-algebra dimensions $(1, 3, 8)$ of $U(1) \times SU(2) \times SU(3)$. It is the partition under the full symmetry of the regular tetrahedron, not $A_4$'s own class equation. The headline here is the one that carries the gauge mapping; the chirality split inside the 8 is the handedness record and is picked up in §V's gluon discussion.
+
 ```
 ========================================================================================
-            THE A₄ CONJUGACY PARTITION AND THE GAUGE BOSONS
+            THE A₄ PARTITION INTO S₄-ORBITS AND THE GAUGE BOSONS
 ========================================================================================
 
- CONJUGACY CLASS       COUNT   GEOMETRIC OPERATION IN K₄     SM GAUGE CHANNEL / POLE
+ S₄-ORBIT              COUNT   GEOMETRIC OPERATION IN K₄     SM GAUGE CHANNEL / POLE
  ──────────────────────────────────────────────────────────────────────────────────────
  Identity (e)            1     Zero rotation; the invariant  Photon (γ)
                                center.                       U-Pole / U(1) [Dimension 1]
 
- Two-Cycles (V₄)         3     180° Half-turns about the     Weak Bosons (W⁺, W⁻, Z⁰)
+ Two-Cycles (V₄ \ {e})   3     180° Half-turns about the     Weak Bosons (W⁺, W⁻, Z⁰)
                                3 bimedian axes.              I-Pole / SU(2) [Dimension 3]
 
- Three-Cycles (C₃)       8     120° Third-turns about the    Gluons (g₁ ... g₈)
+ Three-Cycles (C₃ ∪ C₃⁻¹) 8    120° Third-turns about the    Gluons (g₁ ... g₈)
                                4 vertex axes (4 × 2).        R-Pole / SU(3) [Dimension 8]
+                               A₄'s own classes split 4+4
+                               by chirality; S₄ fuses them.
  ======================================================================================
  TOTAL GAUGE BOSONS:    12     Exhausts the even rotations   Nothing remains for P
 ========================================================================================
 ```
 
-1. **The Identity Class (Count = 1):** The single element that leaves all four poles unmoved. It represents pure, un-deflected structural potential. It maps to the single generator of $U(1)$ on the $U$-pole.
-2. **The Two-Cycle Class (Count = 3):** The three $180^\circ$ half-turns around the three bimedian axes (the Klein four-group $V_4 \setminus \{e\}$: $(PI)(UR)$, $(PU)(IR)$, $(PR)(IU)$). Each half-turn swaps two pairs of poles simultaneously. This is the geometry of exchange, mapping to the three generators of $SU(2)$ on the $I$-pole.
-3. **The Three-Cycle Class (Count = 8):** The eight $120^\circ$ third-turns around the four vertex axes ($4 \text{ vertices} \times 2 \text{ rotational senses} = 8$). These rotations cycle three poles while holding the fourth fixed, mapping to the eight Gell-Mann generators of $SU(3)$ on the $R$-pole.
+1. **The Identity Orbit (Count = 1):** The single element that leaves all four poles unmoved. It represents pure, un-deflected structural potential. It maps to the single generator of $U(1)$ on the $U$-pole.
+2. **The Two-Cycle Orbit (Count = 3):** The three $180^\circ$ half-turns around the three bimedian axes (the Klein four-group $V_4 \setminus \{e\}$: $(PI)(UR)$, $(PU)(IR)$, $(PR)(IU)$). Each half-turn swaps two pairs of poles simultaneously. This is the geometry of exchange, mapping to the three generators of $SU(2)$ on the $I$-pole.
+3. **The Three-Cycle Orbit (Count = 8):** The eight $120^\circ$ third-turns around the four vertex axes ($4 \text{ vertices} \times 2 \text{ rotational senses} = 8$). These rotations cycle three poles while holding the fourth fixed, mapping to the eight Gell-Mann generators of $SU(3)$ on the $R$-pole. Inside $A_4$ these eight elements split $4 + 4$ by handedness (the two chiralities of the three-cycle); $S_4$'s outer automorphism fuses the two chiral four-classes into one orbit of eight — the gluon count.
 
-The Lie algebra dimensions of the Standard Model gauge groups ($\dim(U(1)) = 1$, $\dim(SU(2)) = 3$, $\dim(SU(3)) = 8$) are the three geometric classes of the tetrahedral orientation group. They sum to 12. There is no thirteenth rotational element in $A_4$ to host a graviton.
+The Lie algebra dimensions of the Standard Model gauge groups ($\dim(U(1)) = 1$, $\dim(SU(2)) = 3$, $\dim(SU(3)) = 8$) are the three $S_4$-orbits of $A_4$. They sum to 12. There is no thirteenth rotational element in $A_4$ to host a graviton. (The $4+4$ chirality split inside the gluon orbit is $A_4$'s handedness record; it is a candidate hook for the gluon-level chirality discussion in `ProofG_Chirality` — the two chiral four-classes read as the two directed-cycle enantiomer families inside the eight-dimensional $SU(3)$ adjoint. Register: ADDRESS.)
 
 ---
 
@@ -178,19 +184,10 @@ The $P$-pole is not a bounded frame sitting on the other side of a boundary. **$
 
 To demand an exchange particle to write to $P$ is like demanding that a computer send an outgoing network packet across the internet in order to write a byte to its own local motherboard RAM. The gauge bosons are the network protocol mediating transactions between external nodes ($U, I, R$); the $P$-pole is the local hardware interrupt that commits the finalized transaction to memory.
 
-### 2. The Star-Norm Proof of the Ban
-The biquaternion state space (`ProofN_BiquaternionBridge.md`) enforces the conservation of the Star-Norm for any bounded system:
-$$N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = \text{const}$$
+### 2. The $dt$-Minting Reading of $\tau_P = 0$
+The biquaternion state space (`ProofN_BiquaternionBridge.md`) enforces conservation of the apparent-power invariant $|S| = E$ in the real-power instance $P = \sqrt{N_*}$ at fixed $|S|$; the Star-Norm $N_* = P^2 - |\mathbf{Q}|^2$ tracks the apparent/real split (`audit/STATUS-2026-11-10.md` B1 finding; $\tau_P = 0$ because $dt$ is minted at the commit, not because $N_*$ is strictly conserved during a transit interval — the earlier "$N_* = $const" wording is replaced here by the $E$-conserved, $dt$-minted reading).
 
-When an actuator executes an $\text{.observe()}$ collapse, the uncollapsed vector phase-potential $|\mathbf{Q}|^2$ drops as phase is burned ($h^2 = -1$). To maintain Star-Norm conservation, the scalar ledger $P^2$ must increase by the identical amount at the identical instant:
-$$\Delta(P^2) = -\Delta(|\mathbf{Q}|^2)$$
-
-If $P$ were mediated by a gauge boson, that boson would possess finite transit impedance ($Z_P > 0$) and a non-zero transit delay ($\tau_P > 0$). During the transit interval $\tau_P$, $|\mathbf{Q}|^2$ would have already collapsed, but $P^2$ would not yet have received the transmission.
-
-Throughout that duration, the invariant would fluctuate:
-$$N_*(\mathbb{Z}) \neq \text{const}$$
-
-To preserve Star-Norm conservation as an exact algebraic identity, the $P$-edges must carry **zero transit impedance ($Z_P = 0$)** and **zero transit delay ($\tau_P = 0$)**. Because an exchange boson requires finite impedance and non-zero transit time, **a gauge carrier on $P$ is topologically impossible.**
+When an actuator executes an $\text{.observe()}$ collapse, the uncollapsed vector phase-potential $|\mathbf{Q}|^2$ drops as phase is burned ($h^2 = -1$). The commit writes directly to the ledger as $dt$ is minted at the commit site; there is no transit interval, no transit impedance, and no phase-delay on the $P$-edges. If $P$ were mediated by a gauge boson, that boson would possess finite transit impedance ($Z_P > 0$) and a non-zero transit delay ($\tau_P > 0$), which the $dt$-minting mechanism rules out: the $P$-edges have $Z_P = 0$ and $\tau_P = 0$ by construction of how coordinate time is stamped at the commit. **A gauge carrier on $P$ is topologically impossible.**
 
 ### 3. Gravity Is Not a Gauge Force
 What, then, is gravity?
@@ -255,17 +252,17 @@ The twelve gauge bosons of the Standard Model map to the three transactional pol
                                                (No Graviton)  zero impedance (Z_P = 0);
                                                               scalar commit destination.
 ========================================================================================
- TOTAL GAUGE BOSONS:               12          Exhausts A₄ conjugacy classes (1+3+8)
+ TOTAL GAUGE BOSONS:               12          Exhausts A₄'s S₄-orbit partition (1+3+8)
 ========================================================================================
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
 1. **Discovery of a Fundamental Spin-2 Exchange Boson (The Graviton):**
    If an experimental apparatus detects a microscopic, renormalizable, propagating spin-2 gauge particle mediating gravity across a vacuum boundary with a coupling constant independent of the stress-energy tensor, the $P$-edge ban is refuted.
 2. **Observation of an Extra Fundamental Gauge Boson:**
-   If a thirteenth fundamental vector gauge boson is discovered (e.g., a fourth electroweak mediator $Z'$ or a ninth gluon $g_9$ outside the $A_4 = 1 + 3 + 8$ partition), the $K_4$ mapping is refuted.
+   If a thirteenth fundamental vector gauge boson is discovered (e.g., a fourth electroweak mediator $Z'$ or a ninth gluon $g_9$ outside the $A_4 = 1 + 3 + 8$ $S_4$-orbit partition), the $K_4$ mapping is refuted.
 3. **Observation of Tree-Level Photon Self-Scattering in Free Space:**
    If photons in a vacuum exhibit direct tree-level self-coupling ($[T, T] \neq 0$) without virtual fermion loops, the abelian $U(1)$ identification on the $U$-pole fails.
 
@@ -274,4 +271,3 @@ The twelve directed edges wire the spatial cell (`Q1`). The twelve gauge bosons 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-
