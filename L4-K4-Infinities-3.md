@@ -192,6 +192,8 @@ What it owes, and the list is short enough to be a programme rather than an excu
 
 That last coincidence is either the relation showing itself at the one place the numbers are large enough to see, or it is the unit doing what units do. Settling which is worth more than anything else open here.
 
+The zero-erasure limit of that relation is reachable in a laboratory, and it is where this couples to the pre-collapse question. A quasi-static two-mass protocol holds $\ddot{I}^{ij} \approx 0$ for the mutual moment, which is the write-ban on by the same theorem whose relaxation is the compile event — so $N_{\text{bits}} = 0$ there. If mutual gravitational phase accumulates anyway, phase has conducted while nothing committed, which is the reactive channel of §V carrying structure with no ledger entry made. That is a sharper reading of the experiment than asking whether a carrier exists.
+
 ### One candidate, refuted
 
 Only one stroke in four commits. The write-head's duty cycle is therefore exactly $1/4$, and it was tempting to connect that to the factor of one quarter in the horizon's register, which §VI consumes as an input.
@@ -278,7 +280,7 @@ The elementary charge $e$ cancels identically. Integrated over one compilation c
 
 $$u_{\text{local}}(r) = \frac{\hbar c}{4\pi^3 r^4}, \qquad u_{\text{local}}(\ell_P) = \frac{\rho_P c^2}{4\pi^3}$$
 
-— at $r = \ell_P$ the buffer sits at the Planck energy density divided by the loop measure $4\pi^3 = 2\pi \cdot \Omega_4$: one $2\pi$ from the compilation cycle, one $\Omega_4 = 2\pi^2$ from the ambient $S^3$ measure (`L3-TheAtomOfSpace` §III).
+— at $r = \ell_P$ the buffer sits at the Planck energy density divided by the loop measure $4\pi^3 = 2\pi \cdot \Omega_4$: one $2\pi$ from the compilation cycle, one $\Omega_4 = 2\pi^2$ from the ambient $S^3$ measure (`L3-TheAtomOfSpace` §III; expect there: $\Omega_4 = 2\pi^2$ derived as the measure of the unfolding operation, with the subscript naming the ambient dimension).
 
 Because the medium pays no $P$-ledger tax for holding $H_{\text{incoh}}$ in live suspension, this reactive energy commits to the metric only across the single-sided boundary at the de Sitter horizon. By the Route Law — the arrow from Yielding to Asserting squaring the operand — the scale ratio $\chi = \ell_P / R_\Lambda$ is squared, and the $S^3$ loop measure converts to the boundary projection through the rotating-mode factor $\Pi \cdot \Omega_4 = \frac{3}{4}\,\Omega_4$:
 
@@ -368,7 +370,7 @@ In the hub's datasheet terms it is a **Bridge** consuming two **Substrate** cons
 
 This at the Gibbons-Hawking Temperature:
 
-$$T_{\text{GH}} = \frac{\hbar c}{2\pi k_B R_H} \approx \mathbf{2.654 \times 10^{-30}\text{ K}} \quad (\text{at } H_0 = 67.36\text{ km/s/Mpc})$$
+$$T_{\text{GH}} = \frac{\hbar c}{2\pi k_B R_H} \approx \mathbf{2.654 \times 10^{-30}\text{ K}} \quad (\text{at } H_0 = 67.4\text{ km/s/Mpc})$$
 
 
 ### The unit is not arbitrary
@@ -451,43 +453,49 @@ The problem dissolves by register distinction. Not by luck, and not by cancellat
 
 One sentence in this file departs from general relativity, and hiding it inside a theorem would be worse than useless.
 
-Standard general relativity sources gravity with all stress-energy. The claim here is that it sources gravity with **committed entries only.** What has crossed weighs. What has not, does not.
+Standard general relativity sources gravity with all stress-energy. The claim here is that it sources gravity with **committed entries only.** What has crossed sources curvature. What has not, does not.
 
-Be precise about where that line falls, because the loose version says something false. The distinction is not between buffer energy and some other kind of energy. A proton's mass is overwhelmingly binding energy — energy that was in the buffer before the system committed to a bound configuration — and it weighs every gram of what it committed. **The line is between what has paid and what has not**, and energy crosses it constantly in one direction.
+Be precise about where that line falls, because the loose version says something false, and two different lines get confused for one.
 
-What is claimed gravitationally silent is the uncommitted level: the buffer's standing content, which no `.observe()` has forced and which therefore carries no entry. In the formalism, the two stress tensors are not equal — the one that curves spacetime is a projection of the one field theory computes, and the projection is blind to the uncompiled sector by construction.
+The distinction is not between buffer energy and some other kind of energy. A proton's mass is overwhelmingly binding energy — energy that was in the buffer before the system committed to a bound configuration — and it sources every gram of what it committed. **The line is between what has paid and what has not**, and energy crosses it constantly in one direction.
+
+And the operational test of whether something has paid is **localization**, not register-membership (`QED-CCP` §II; expect there: localized excitations crossing $\Psi$ source curvature, while homogeneous background offsets, lacking a localized Markov blanket under active erasure, do not). Whatever carries a localized blanket, a gradient, and an active erasure has crossed. A uniform offset has not, and the trace-free equations confirm it from the other side: a homogeneous pure-trace shift drops out of the nine identically.
+
+So what is claimed gravitationally silent is the uncommitted level in its *homogeneous* form — the buffer's standing absolute level, which no `.observe()` has forced, which has no gradient, and which therefore carries no entry. In the formalism, the two stress tensors are not equal: the one that curves spacetime is a projection of the one field theory computes, and the projection is blind to the homogeneous uncompiled sector by construction.
 
 That is falsifiable in principle and it is not a reinterpretation. It is the whole deviation, and everything else in this file is compatible with textbook physics.
 
-### Casimir: the measurement, and two readings of why
+### Casimir: where the criterion puts it
 
-The sharpest test is the Casimir effect — the measured attraction between closely spaced conducting plates, produced by the boundary conditions they impose on the vacuum's modes. Two separate readings in this construction both predict no gravitational anomaly, and they are *not* equally cheap. Keeping them apart is the point; which is the bet and which is the stronger claim matters more than the shared conclusion.
+The sharpest place to apply the criterion is the Casimir effect — the measured attraction between closely spaced conducting plates, produced by the boundary conditions they impose on the vacuum's modes.
 
-**The bet: the register split, alone.** Field theory computes the shift's energy density, and it is real — a measurable boundary-condition effect with a sign and a magnitude. This construction accepts that computation and denies that all of it sources gravity. The shift is *uncommitted*: no outcome forced, no branch erased, no tax paid. So it carries no ledger entry and does not weigh.
+Field theory computes the shift's energy density, and it is real: a measurable boundary-condition effect with a sign and a magnitude. This construction accepts that computation, and the criterion then puts the shift on the localized side of the line.
 
-$$\Delta m_{\text{Casimir}} = 0$$
+The plates are committed. Their separation is committed. The energy that depends on that separation is localized in a bounded region, carries a gradient, and does mechanical work when the plates move — which is to say it is the binding energy of a committed pair, computable as the retarded van der Waals attraction between two bodies with no reference to the vacuum at all (Jaffe 2005). A bound pair is lighter than its parts by its binding. So:
 
-Say the shape exactly, because this is where the claim is sharpest. The shift is **an uncommitted quantity whose magnitude is set by a committed configuration.** The plates are committed. Their separation is committed. The mode shift those commitments induce is still in the buffer. The force is real because uncommitted states have real effects — virtual-state poles carry signed physical weight throughout atomic physics. The weight is absent because nothing crossed.
+$$\Delta m_{\text{Casimir}} = \frac{\Delta E}{c^2}, \qquad \text{sign included}$$
 
-And the energy accounting closes without hiding anything, by the direction rule of §V. Separate the plates and you do work; that work goes into the reactive field, exactly where field theory says it goes; and the reactive channel is returnable by construction. Let the plates go and it comes back as motion, which then commits. **No entry was ever made in the ledger, so none needs unmaking.** What the deviation predicts is directional: committed energy pushed across the firewall into the uncommitted sector *reduces* gravitational mass. The battery lighter, the cavity not heavier, the total down.
+That is not the vacuum weighing. It is a boundary paying for what it holds, and it agrees with the equivalence principle rather than contesting it.
 
-**A stronger reading that would make the same prediction without the register split at all.** Read the shift as a *boundary pressure* rather than a volume energy — purely in the spatial components of the stress tensor, with nothing in the energy component. Then Part One §VI closes it with a theorem and no deviation is needed: the integrated spatial stresses of a static bound system vanish, so a boundary pressure contributes nothing to what the exterior weighs.
+The accounting closes without hiding anything, by the direction rule of §V. Separate the plates and you do work; the work goes into the field where field theory says it goes; let the plates go and it comes back as motion, which commits. The register split is untouched by any of this, because the split was never about the separation-dependent part. **It is about the buffer's absolute level**, and that level is homogeneous, has no gradient, and is exactly what the nine trace-free equations cannot see.
 
-**That reading is bigger, not cheaper, and an earlier draft of this file had the labelling backwards.** It contests the standard computation of the Casimir stress tensor, which populates the energy component with a definite, calculated value. Denying the calculation is a heavier claim than accepting it and denying its gravitational sourcing. So Laue is not doing free work here — it is doing work conditional on an antecedent nobody has defended, and advertising the theorem makes the claim look better supported than it is.
-
-The guard from Part One applies at full strength either way, and the proton is the discriminator: it satisfies Laue equilibrium exactly and weighs 938 MeV, because its mass is a volume energy sitting where the theorem does not reach. **The theorem never zeroes an energy.** Any argument that uses it to do so has used it backwards — which is also why these two readings are not two supports for one conclusion. The first accepts the sector assignment and denies the sourcing; the second denies the sector assignment. One of them is the bet.
+What the deviation predicts remains directional, and now with the localization test attached: committed energy pushed across the firewall into a *homogeneous* uncommitted level reduces gravitational source strength. The battery lighter, the cavity weighing its energy, the total down.
 
 ### Where this goes if you want the structural version
 
-Both readings are surface expressions of a result derived elsewhere and more deeply. `Q4-OpenExhaust` shows from the star-norm invariant that the edges terminating at the committed pole cannot carry a scalar pricing operator at all — a pricing operator implies a phase gap, a phase gap implies transit time, and any transit interval would break the invariant. From that one ban follow three things: there is no graviton and never will be; the no-communication theorem has a topological mechanism rather than a coincidence; and the ledger is write-only, which §V needs and this section leans on.
+The criterion above is a surface expression of a result derived elsewhere and more deeply. `Q4-OpenExhaust` shows from the star-norm invariant that the edges terminating at the committed pole cannot carry a scalar pricing operator at all — a pricing operator implies a phase gap, a phase gap implies transit time, and any transit interval would break the invariant. From that one ban follow three things: there is no graviton and never will be; the no-communication theorem has a topological mechanism rather than a coincidence; and the ledger is write-only, which §V needs and this section leans on.
 
-The Casimir question is where that abstract result touches a balance. A reader who finds the weighing argument interesting and wants to know *why* the committed sector behaves this way should read Q4, which is the derivation this is a consequence of.
+### The guard that still applies at full strength
+
+Laue never zeroes an energy. The theorem zeroes $\int T^{ij}$ and leaves $\int T^{00}$ standing, and the proton is the discriminator: it satisfies Laue equilibrium exactly and weighs 938 MeV, because its mass is a volume energy sitting where the theorem does not reach. Any argument that reads a boundary effect as pure spatial stress in order to let Laue annihilate it has used the theorem backwards — and that route is also the heavier claim, because it contests the standard computation of the Casimir stress tensor, which populates the energy component with a definite calculated value. Accepting the calculation and locating it by the criterion costs nothing the calculation does not already grant.
 
 ### What Archimedes decides
 
 The Archimedes experiment, in development since the mid-2010s, modulates the Casimir energy of layered superconductors across their transition and reads the change on a balance.
 
-**A measured weight at the expected magnitude refutes this construction. A null at that sensitivity is its prediction.** There is no version of the result that both sides can claim — and because the register split is the bet rather than the theorem, a null does not merely leave the file standing. It says that energy crossed the firewall and the balance did not notice.
+**A measured weight at $\Delta E/c^2$ is the prediction. A null at that sensitivity means boundary-induced mode exclusion pays nothing real, and the localized half of the criterion falls with it.**
+
+And this is where the arbitration sits, which is worth stating rather than leaving to be inferred. A homogeneous level cannot be modulated — being unmodulable is what makes it homogeneous — so no balance can isolate its contribution. Archimedes therefore arbitrates the localized half, where this construction and textbook physics now agree, and the register split proper is a structural claim with no experiment currently addressing it. That is the honest division of labour between the two halves, and the hub's `KI-6` records it in the same terms.
 
 ### Where dark energy appears to vary, and the fork it opens
 
@@ -501,7 +509,7 @@ The phrasing throughout this file leans (A). The compensation intuition — that
 
 ### Two honesty items
 
-**What the reading does not deny.** Uncommitted states have real effects, and the corpus holds that elsewhere at full strength — virtual poles carry signed physical weight throughout atomic physics. Differences within the buffer are physical. It is the buffer's absolute level that stays off the ledger, and the distinction between those two statements is exactly what the Casimir test probes.
+**What the reading does not deny.** Uncommitted states have real effects, and the corpus holds that elsewhere at full strength — virtual poles carry signed physical weight throughout atomic physics. Differences within the buffer are physical, and the Casimir shift is one of them. It is the buffer's absolute homogeneous level that stays off the ledger, and the distinction between those two statements is the criterion doing its work.
 
 **What is not addressed.** This dissolves the magnitude problem and says nothing about the coincidence problem — why the dark-energy density should be of the same order as the matter density *now*, in this epoch, out of all epochs. No answer is offered. The omission is declared rather than left for a reader to notice.
 
@@ -552,7 +560,7 @@ Declared now, before the sharpening.
 
 **K-DE-2.** Robust spatial inhomogeneity or anisotropy in dark energy, beyond structure-formation systematics. The homogeneous-write claim dies, §V's promotion of local omnipresence from position to mechanism dies with it, and §VII's reading (A) dies in favour of (B).
 
-**K-DE-3.** Any demonstrated gravitational sourcing of manipulated zero-point energy. The register split dies, and with it §VII and the Casimir prediction together. Impractical today; filed because a kill condition one cannot currently run is still a kill condition.
+**K-DE-3.** Demonstrated gravitational sourcing by a **homogeneous** uncompiled level — a uniform offset shown to curve spacetime. The register split dies, and the resolution of the vacuum-energy gap dies with it. The condition has no arbiter under construction, because a homogeneous level is unmodulable; it is filed as the structural half of the deviation rather than as a scheduled experiment. The localized half is a separate condition and it is Archimedes's: a null at $\Delta E/c^2$ strikes §VII's criterion at its other margin.
 
 ### Quarantined
 
@@ -570,11 +578,9 @@ Which gives agency a physical home that is neither a ghost nor a domino. An agen
 
 At the largest scale the same engine runs with the whole as its frame. The write happens at the one place with no outside, which is reached through every throat and is therefore not far away from anything. Its power is fixed by Friedmann at one and a half times the natural unit of power in general relativity — and the horizon is the only thing in the universe that sits at that unit rather than sampling tiny fractions of it. The radius cancels, so the result does not care which horizon you meant. The ledger refreshes on a clock of a few billion years. And because the channel is one and its power is fixed, the unbounded ensemble that cosmology could not learn to count was never funded in the first place.
 
-The expansion's own funding obeys the same asymmetry, which is the thing easiest to misread as a violation. Negative pressure means work flows *into* the new volume, and something is paying. It is not the ledger: the committed register receives and never emits, carries no phase to propagate with, and is built by an operation nothing inverts. What pays is the reactive channel, where energy is stored and returned by construction and nothing was ever written down to be unwritten. Reversal is legal in the uncommitted sector and illegal in the committed one, and that single rule funds the expansion, closes the Casimir books without hiding the work anywhere, and says why a cavity assembled from committed energy should weigh less rather than more.
+The expansion's own funding obeys the same asymmetry, which is the thing easiest to misread as a violation. Negative pressure means work flows *into* the new volume, and something is paying. It is not the ledger: the committed register receives and never emits, carries no phase to propagate with, and is built by an operation nothing inverts. What pays is the reactive channel, where energy is stored and returned by construction and nothing was ever written down to be unwritten. Reversal is legal in the uncommitted sector and illegal in the committed one, and that single rule funds the expansion, closes the Casimir books without hiding the work anywhere, and says why a cavity assembled from committed energy weighs exactly what its binding comes to.
 
-The hundred-and-twenty-order gap that opened the whole construction closes as what it always was: not a failed prediction but a ratio, between what the medium holds and what has ever been written down.
-
-One sentence here departs from textbook physics, and it is the one that says gravity weighs what has been committed and not what is merely held. It is on a balance in Sardinia. It will be settled by a measurement rather than by an argument, which is the correct ending for a file that began by refusing to count.
+One sentence here departs from textbook physics, and it is the one that says gravity sources what has been committed and not the medium's homogeneous level. The line between the two is localization, and the localized half is on a balance in Sardinia. It will be settled by a measurement rather than by an argument, which is the correct ending for a file that began by refusing to count.
 
 ---
 

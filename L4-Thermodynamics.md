@@ -7,7 +7,7 @@
 >
 > **The Dual Rate Meters:** Temperature ($T$) and Angular Frequency ($\omega$) are the two rate-parameters dimensionally excluded from the $K_4$ basis. $T$ is the price meter ($P = T\dot{S}$); $\omega$ is the tachometer ($P_{\text{rest}} = mc^2\omega$). At the quantum thermal limit (Planckian dissipation, $\omega \sim k_BT/\hbar$), temperature and frequency cancel, collapsing the ratio of dissipated flux to resting stock directly into the Compton action floor.
 >
-> **Dependencies:** `ProofP_ThermodynamicInertia`, `L0-TheEinsteinTrace`, `L3-FormalFoundations`, `L4-AttractorSpace`, `L4-TheTwelveGates`, `QED-EotvosBound`, `QED-CCP`.
+> **Dependencies:** `ProofP_ThermodynamicInertia`, `L0-EinsteinTrace`, `L3-FormalFoundations`, `L4-AttractorSpace`, `L4-TheTwelveGates`, `QED-EotvosBound`, `QED-CCP`.
 
 ---
 
@@ -44,6 +44,8 @@ We map the four-element domain of thermodynamics onto the $K_4$ poles ($P, I, U,
                         • Reactive + Asserting
                         • The Book / Ground Stock (Mass)
 ```
+
+The four `TD`-labels are this mapping's own names for the four laws, fixed by the set rather than chosen: there are four laws and four poles, and no label can move without the others moving. They are labels and not addresses. Where the 0-DoF crystal limit is used as a *result* rather than as a label, its derivation lives at `L0-ParadoxEngine` (expect there: the symmetric freeze read as a paradox engine, $\omega \to 0$ with the payer's expiry as the structural boundary).
 
 ### Step 1: Fix the Anchor
 
@@ -223,7 +225,48 @@ $$\eta = -\frac{2 (P/m) \hbar}{c^2 k_B T}$$
 
 For the brain at $T = 310$ K this floor is $\eta \approx -7.8 \times 10^{-30}$. Because Planckian is the fastest clock, this is the $|\eta|$ floor for any dissipating frame at $T$ — not a universal prediction but the $\omega$-ceiling in the clock spectrum. ADDRESS.
 
-### 3. The Expiration of the Payer
+### 3. The Substrate's Own Micro-Time, and What Drops Out of It
+
+The two meters couple at the Planckian ceiling. One rung below it, a third timescale is fixed by the same two constants, and the frame's mass vanishes from it.
+
+Read the dissipation flux per unit mass as a specific power, $\epsilon \equiv P_{\text{diss}}/m$ — the quantity a turbulence theorist calls the dissipation rate. The bit-rate the frame is paying for is then
+
+$$\dot{N}_1 = \frac{m\,\epsilon}{k_B T \ln 2},$$
+
+and its ratio to the Planckian ceiling is a dimensionless saturation number:
+
+$$\chi_{\text{sub}} \equiv \frac{\dot{N}_1}{\omega_{\text{Planckian}}} = \frac{m\,\epsilon\,\hbar}{(k_B T)^2 \ln 2}.$$
+
+A frame at $\chi_{\text{sub}} = 1$ is erasing as fast as its own thermal quantum timescale permits, which fixes the specific power to $\epsilon = (k_B T)^2 \ln 2 / (m\hbar)$.
+
+Now take the medium's kinematic viscosity at its quantum floor. The Kovtun–Son–Starinets bound is stated for entropy *density*, so the per-particle factor travels with it: $\nu = (\hbar/4\pi m)\,\kappa$ with $\kappa = s/(n k_B)$ the entropy carried per particle, which for a relativistic fluid sits between about $3.6$ and $4$. The Kolmogorov micro-time of that flow is $\tau_K = \sqrt{\nu/\epsilon}$. Substituting the saturated $\epsilon$:
+
+$$\tau_K = \sqrt{\frac{\nu}{\epsilon}} = \frac{\hbar}{k_B T}\sqrt{\frac{\kappa}{4\pi \ln 2}}$$
+
+**The mass cancels identically.** The viscosity's $1/m$ and the dissipation rate's $m$ remove each other, and the micro-time of the substrate's own flow is set by the price meter and nothing else. A property that looked like it belonged to a particular frame belongs to the temperature.
+
+Two coefficients have to travel with that result or it drifts. The Landauer $\ln 2$ does not cancel out of $\epsilon$, and the entropy-per-particle $\kappa$ does not cancel out of $\nu$ — dropping either moves $\tau_K$ by a factor of two and the two omissions compound in the same direction.
+
+At the deconfinement boundary the coefficient is $0.64$ to $0.68$, and the four relevant timescales land inside a factor of two of one another:
+
+```python
+from mpmath import mp, mpf, sqrt, pi, log
+mp.dps = 15
+hbar = mpf('6.582119569e-22')      # MeV s
+kT   = mpf(200)                    # MeV
+tau_Pl = hbar/kT
+for kappa in (mpf('3.6'), mpf('4.0')):
+    print(float(sqrt(kappa/(4*pi*log(2)))), float(tau_Pl*sqrt(kappa/(4*pi*log(2)))))
+# 0.6429 2.116e-24     0.6777 2.230e-24
+print(float(tau_Pl))               # 3.291e-24   hbar/kT
+# tau_QCD ~ 3.0e-24 s ; tau_pi (Compton) ~ 4.7e-24 s
+```
+
+$\tau_K \approx 2.1$–$2.2 \times 10^{-24}$ s against $\hbar/k_BT = 3.3 \times 10^{-24}$ s, the strong-interaction timescale near $3.0 \times 10^{-24}$ s, and the pion's Compton time near $4.7 \times 10^{-24}$ s. Four clocks within a factor of two at the boundary where colour confines.
+
+The cancellation is algebra and it lands. The four-way agreement is a **CORRESPONDENCE** at order-of-magnitude strength, and it should be read as one clock to within a factor of two rather than as a coincidence of digits — the surprising content is that the mass leaves, which needs no numerical agreement to be surprising.
+
+### 4. The Expiration of the Payer
 The Third Law now asserts its full structural force. As $T \to 0$, the tax rate vanishes—but so does the holding budget ($\frac{1}{2} k_B T \to 0$). 
 
 A frame at absolute zero pays nothing and holds nothing: no priced erasure, no funded suspension, no `.behold()`, and no `.observe()`. Absolute zero is unattainable in finite steps because **a frame that has nothing to pay with has nothing to hold with**, and a frame holding nothing behind its blanket ceases to be a frame. 
@@ -337,6 +380,7 @@ Gravity, Time, and Thermodynamics are the same topological event viewed from dif
 
 * **Negative Temperature ($\partial S / \partial E < 0$):** In population-inverted laser media, the system operates in an active state "hotter than infinity." In this mapping, it reads as a frame whose ledger temporarily contracts per unit of held capacity. Integrating this into the tense-key remains an open derivation.
 * **Onsager Reciprocity ($L_{ij} = L_{ji}$):** The observed microscopic reversibility of coupled thermodynamic flows directly reflects the symmetric sector of the $K_4$ port (`L4-K4-Infinities-2` §III). Formalizing Onsager symmetry as the exact algebraic dual of the antisymmetric cross-coupling ($[Z_A, Z_B]$) is an active derivation target.
+* **The two $\ln 2$'s and the two $4\pi$'s of §V.3.** The Landauer price carries a $\ln 2$ by definition; the viscosity floor carries a $4\pi$ and an entropy-per-particle factor from a bound of a different kind. They meet in one square root and nothing yet says they are the same kind of object. Whether the coincidence of $\tau_K$ with the strong-interaction timescale survives a derivation of $\kappa$ from the medium's own degrees of freedom, rather than from a relativistic-fluid estimate, is the open question behind the correspondence.
 
 ---
 
