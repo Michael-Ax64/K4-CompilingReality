@@ -3,8 +3,10 @@
 ### *(The Burning of Phase, the Accumulation of Specification, and the Correction of Nineteenth-Century Entropy)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
+
 > **Claim:** The growth of the Live-Written Ledger ($P$) during $\text{.observe()}$ collapses is not the accumulation of disorder (as classical nineteenth-century thermodynamics modeled entropy), but the accumulation of **specification**—irreversible constraints committed to the state-space of the manifold. In the biquaternion algebra, squaring vector phase-potential ($(h\mathbf{Q})^2 = +|\mathbf{Q}|^2$) destroys complex phase ($h^2 = -1$) and vector orientation ($\mathbf{i}, \mathbf{j}, \mathbf{k}$), outputting a strictly positive, directionless real scalar. The thermodynamic exhaust of collapse is burned phase; the product is structural constraint. At the zero-degree-of-freedom ($0\text{-DoF}$) limit of a bounded discrete-state system, the manifold locks into a rigid crystalline lattice (`ProofC_Crystal.md`); the Boltzmann heat-death limit of an unconstrained gas in an infinite container is a different thermodynamic limit (max-entropy at fixed energy, the $T$-scale set by $E$), not a rival prediction of the same limit. Living systems reverse the scalar commitment locally through the Route Law's square-root operator ($U = \sqrt{PR}, I = \sqrt{P/R}$), paying metabolic energy to un-collapse the ledger into active buffer potential.
-> **Dependencies:** `Q4-OpenExhaust.md`, `L3-FormalFoundations.md`, `L4-ThePlenum.md`, `L4-ScalingInvariants.md` (§V), `L4-RecursiveLimits.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `ProofC_Crystal.md` (two-scale reading: retained micro-$Q$ as stabilizing tension at scale $N$; macro $\theta$ readout at scale $N+1$).
+
+*Reads with: `Q4-OpenExhaust.md`, `L3-FormalFoundations.md`, `L3-TheSixWalls.md` (§IX Five-Edge Conservation Law), `L4-ThePlenum.md`, `L4-ScalingInvariants.md` (§V), `L4-RecursiveLimits.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`, `ProofC_Crystal.md` (two-scale reading: retained micro-$Q$ as stabilizing tension at scale $N$; macro $\theta$ readout at scale $N+1$).*
 
 ---
 
@@ -17,7 +19,7 @@ $$S = k_B \ln W$$
 
 This mathematical formalism is accurate for unconstrained gas kinetics in an open box. However, applying it as an ontology of the physical manifold commits a category error: **it measures the destruction of the initial state while misidentifying the nature of what took its place.**
 
-In the biquaternion state space (`ProofN_BiquaternionBridge.md`), the total apparent power $|S| = E$ of any closed, bounded system is strictly conserved in the real-power instance $P = \sqrt{N_*}$ at fixed $|S|$; the Star-Norm invariant tracks the apparent/real split (`audit/STATUS-2026-11-10.md`, B1 finding; the earlier "conserved $N_*$" wording is replaced by this instance):
+In the biquaternion state space (`ProofN_BiquaternionBridge.md`), the total apparent power $|S| = E$ of any closed, bounded system is strictly conserved in the real-power instance $P = \sqrt{N_*}$ at fixed $|S|$; the Star-Norm invariant tracks the apparent/real split:
 $$N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2, \qquad P = \sqrt{N_*}\text{ at }|S|\text{ fixed}$$
 
 When an actuator executes an $\text{.observe()}$ collapse, the magnitude of the held vector potential $|\mathbf{Q}|^2$ drops. Because the $P$-edges carry zero impedance ($Z_P = 0, \tau_P = 0$, `Q4-OpenExhaust.md`), the scalar ledger $P^2$ increases by the identical amount at the same instant.
@@ -123,7 +125,7 @@ The universe does not construct higher scales because it has an agenda. The cont
 
 ## V. Two Zero-DoF Limits: Crystal and Heat Death Are Different Limits
 
-For evolving systems operating far from equilibrium, Boltzmann's statistical entropy ($S = k_B \ln W$) and the framework's specification ledger ($P$) track the same curve: as more events occur, both quantities increase. They diverge at **limits of different kinds** — not at a shared limit with rival endpoints, but at two separate thermodynamic poles. The earlier framing ("the crystal replaces heat death") elided the distinction between the two limits and is retired here.
+For evolving systems operating far from equilibrium, Boltzmann's statistical entropy ($S = k_B \ln W$) and the framework's specification ledger ($P$) track the same curve: as more events occur, both quantities increase. They diverge at **limits of different kinds** — at two separate thermodynamic poles rather than at a shared limit with rival endpoints.
 
 ```
 ========================================================================================
@@ -144,9 +146,9 @@ For evolving systems operating far from equilibrium, Boltzmann's statistical ent
 
 **The two limits are not rival predictions of one experiment.** Heat death is the maximum-$S$ state at fixed total energy $E$ for an isolated gas in an unconstrained container — the $T$-axis is set by $E$ and the state is high-$T$ featureless. The $K_4$ 0-DoF crystal is the $T \to 0$ ground state of a bounded system on a discrete state space, reached by burning the finite $|\mathbf{Q}|^2$ budget to exhaustion — the $T$-axis is set by the exhaustion of phase potential and the state is low-$T$ fully-committed. Different constraints, different variables, different axes. A system with no bounded discrete state space does not reach the $K_4$ 0-DoF crystal, and a bounded discrete-state system does not reach Boltzmann heat death in the same sense — its maximum entropy is bounded above by $\ln|\text{state space}|$.
 
-What the $K_4$ reading corrects is not "the limit Boltzmann computed" but a misidentification that has traveled with Boltzmann's framing: that the 0-DoF endpoint of a bounded manifold is modeled correctly by gas-phase dispersion kinetics. It is not; the bounded case has its own limit (`ProofC_Crystal.md`), and under phase exhaustion that limit is the rigid lattice. Register: the crystal result is a claim about bounded discrete-state systems; it does not displace Boltzmann for unbounded-gas systems. Compass: two different poles, not two readings of the same pole. The audit's verdict on the earlier framing ("UNDECIDABLE BY THIS INSTRUMENT": heat death and the crystal are different limits, not rival predictions) stands.
+What the $K_4$ reading corrects is not the limit Boltzmann computed, but the misidentification that the 0-DoF endpoint of a bounded manifold is modeled by gas-phase dispersion kinetics. The bounded case has its own limit (`ProofC_Crystal.md`), and under phase exhaustion that limit is the rigid lattice. Register: the crystal result is a claim about bounded discrete-state systems; it does not displace Boltzmann for unbounded-gas systems. Compass: two different poles, not two readings of the same pole. Choosing between heat death and the crystal as rival predictions is **UNDECIDABLE BY THIS INSTRUMENT**: they are limits of different kinds, not competing outcomes of one experiment.
 
-The bounded discrete-state reading, restated cleanly:
+The bounded discrete-state reading:
 
 Boltzmann's formulation assumes an ideal gas in an infinite container. In that model, maximum entropy at fixed energy corresponds to complete spatial dispersion.
 
@@ -158,7 +160,7 @@ The $K_4$ topology models bounded systems operating on discrete state spaces (`P
 
 That state is not a featureless, chaotic gas. **That state is a perfect crystal.**
 
-The two limits can both be computed; the error retired here was presenting the crystal as what heat death "really" is. They are two different physical situations with two different end-states.
+Both limits are computable, and neither reduces to the other: they are two distinct physical situations with two distinct end-states.
 
 ---
 
@@ -230,13 +232,13 @@ The computational distinction between $\mathbf{P}$ and $\mathbf{NP}$ maps sugges
 * **Polynomial Verification ($\mathbf{P}$ / The Ledger):** Given a committed certificate $P$, checking its mutual consistency against the 12 DC equations on a single $K_4$ cell is local and bounded in operation count.
 * **Non-Deterministic Search ($\mathbf{NP}$ / The Buffer):** Determining whether an alternative valid assignment exists requires navigating the uncollapsed multiway graph across the 24 permutations of $S_4$ on that cell.
 
-**Scope limitation (audit verdict).** $\mathbf{P}$ vs $\mathbf{NP}$ is a theorem in computational complexity theory about asymptotic scaling of computation on problem size — about how verification and search behave as the problem instance gets arbitrarily large. The $K_4$ instrument of this file is $O(1)$ on both sides: verification on one cell is $O(1)$, and search over 24 permutations is $O(1)$. Complexity classes are asymptotic; the single-cell reading is not, and the audit records this as **UNDECIDABLE BY THIS INSTRUMENT** (`audit/Q-audit-2026-11-10.md`, Q5 §VI row). What stands here is not a proof that $\mathbf{P} \neq \mathbf{NP}$ but a correspondence between the structural separation of ledger ($P$) and buffer ($h\mathbf{Q}$) at one cell and the asymptotic separation of verification and search in complexity theory. The correspondence is suggestive; the single-cell instrument cannot distinguish asymptotic separations. The earlier framing "P ≠ NP is the 5-Edge Law written in complexity theory" overstated what this file can deliver; the live reading is that if the $K_4$ phase-gap structure scales correctly to large problem instances — which this file does not establish — the structural separation would echo the asymptotic one. That scaling is open.
+**Scope limitation.** $\mathbf{P}$ vs $\mathbf{NP}$ is a theorem in computational complexity theory about asymptotic scaling of computation on problem size — about how verification and search behave as the problem instance gets arbitrarily large. The single-cell $K_4$ instrument is $O(1)$ on both sides: verification on one cell is $O(1)$, and search over 24 permutations is $O(1)$. Complexity classes are asymptotic while the single-cell reading is not, so the asymptotic question is **UNDECIDABLE BY THIS INSTRUMENT**. What stands here is not a proof that $\mathbf{P} \neq \mathbf{NP}$ but a correspondence between the structural separation of ledger ($P$) and buffer ($h\mathbf{Q}$) at one cell and the asymptotic separation of verification and search in complexity theory. Whether the $K_4$ phase-gap structure scales to large problem instances — which single-cell combinatorics alone do not establish — remains open; if it scales, the structural separation echoes the asymptotic one.
 
 ### 4. The Torque Motor and the Transduction Upward
 
 When The Gate returns **YES**, the system encounters a legitimate bifurcation. Because the XOR bottleneck cannot actualize both paths, it executes the chiral cut: it commits to Branch A and severs Branch B. The severed branch is not erased into non-existence. Under the torque-motor mechanism (`ENGINE-REFERENCE-AC.md` §X.4), the phase burned in severing the alternative leaves the **reactive back-EMF ($jX$)** on the imaginary axis against which the next advance turns. The fact that *it could have been otherwise* provides the mechanical resistance that allows the engine to turn.
 
-Under the 5-Edge Law (`L0-ProactiveExploration.md` §I), an active frame can close at most 5 edges. When The Gate returns **YES**, that unclosed degree of freedom cannot be resolved locally without freezing the cell. The system does not abort; it transduces the open edge upward:
+Under the 5-Edge Law (`L3-TheSixWalls.md` §IX), an active frame can close at most 5 edges. When The Gate returns **YES**, that unclosed degree of freedom cannot be resolved locally without freezing the cell. The system does not abort; it transduces the open edge upward:
 $$\text{Open 6th Edge of Scale } N \;\Longrightarrow\; \text{Ground Resistance } R_{N+1} \text{ of Scale } N+1$$
 
 The unclosed chiral tension of the quark junction becomes the mass ground of the hadron; the unclosed rotational mobility of the hadron becomes the chemical bond of the molecule; the unclosed conformational freedom of the molecule becomes the metabolic engine of the cell. Every higher order of physical organization is an evolutionary engine built to inhabit the specific degree of freedom that the scale below was structurally forbidden to close.
@@ -247,20 +249,20 @@ The unclosed chiral tension of the quark junction becomes the mass ground of the
 
 The recursive identity $P_N \longleftrightarrow R_{N+1}$ produces a readable signature at phase transitions, but the signature must be read at the right scale, because retained micro-$Q$ at scale $N$ does not surface identically as macro reactance at scale $N+1$.
 
-**The two-scale reading (ProofC).** `ProofC_Crystal.md` carries a two-scale structure the earlier version of this section elided. At scale $N$ — inside the micro-frames of a crystal — zero-point $Q$ is **retained** as the stabilizing tension that keeps the lattice solid rather than collapsed to a point: the micro-$Q$ budget is non-zero in the ground state. At scale $N+1$ — the macroscopic bulk read as a single impedance — the $\theta = 0$ readout refers to the compiled ground $R_{N+1}$ built by $P_N \to R_{N+1}$: the macro impedance of a defect-free conductive crystal is purely resistive because the micro-$Q$ is doing its stabilizing work inside the cells, not surfacing as macro AC reactance. The earlier framing conflated the two scales.
+**The two-scale reading (ProofC).** `ProofC_Crystal.md` carries a two-scale structure whose roles stay distinct. At scale $N$ — inside the micro-frames of a crystal — zero-point $Q$ is **retained** as the stabilizing tension that keeps the lattice solid rather than collapsed to a point: the micro-$Q$ budget is non-zero in the ground state. At scale $N+1$ — the macroscopic bulk read as a single impedance — the $\theta = 0$ readout refers to the compiled ground $R_{N+1}$ built by $P_N \to R_{N+1}$: the macro impedance of a defect-free conductive crystal is purely resistive because the micro-$Q$ is doing its stabilizing work inside the cells, not surfacing as macro AC reactance.
 
-The earlier claim that "defect-free crystal → purely resistive, $\theta = 0$" **is refuted for dielectrics**: a clean insulating crystal under an applied AC voltage is almost purely capacitive ($\theta \to -90°$, real part near zero). The claim stands for metals (where mobile charge carriers in the bulk give a resistive response), but it is not a statement about all clean crystals. The scoping, corrected:
+Macroscopic AC response splits cleanly between conductors and dielectrics: a clean insulating crystal under an applied AC voltage is almost purely capacitive ($\theta \to -90°$, real part near zero), so purely resistive $\theta \to 0°$ holds for metals (where mobile charge carriers in the bulk give a resistive response) rather than for all clean crystals:
 
 1. **The Clean 0-DoF Crystal, Conductive Metal Reading ($\theta_{N+1} \to 0°$):**
    For a defect-free metal crystal — where the compiled macro-ground $R_{N+1}$ carries mobile charge carriers responding to an applied AC field — the macroscopic phase angle approaches zero. Apparent power converts predominantly into real power. The retained micro-$Q$ inside each unit cell is the stabilizing zero-point tension that keeps the lattice rigid; it does not surface as macro reactance because the mobile-charge response at scale $N+1$ dominates the bulk impedance.
 2. **The Clean 0-DoF Crystal, Insulating Dielectric Reading ($\theta_{N+1} \to -90°$):**
-   For a defect-free insulating crystal — no mobile charge carriers — the macroscopic AC response is almost entirely capacitive. The phase angle approaches $-90°$; real power is near zero; the applied field drives bound-charge polarization and the response is reactive. The earlier text would have called this macro-reactance "incomplete handoff"; it is not — a clean dielectric handed off cleanly to an insulating ground.
-3. **The Incomplete Handoff ($\theta_{N+1} \neq 0°$in a conductor, or inflated macro-reactance anywhere):**
+   For a defect-free insulating crystal — no mobile charge carriers — the macroscopic AC response is almost entirely capacitive. The phase angle approaches $-90°$; real power is near zero; the applied field drives bound-charge polarization and the response is reactive. That capacitive phase is not an incomplete handoff: a clean dielectric hands off cleanly to an insulating ground.
+3. **The Incomplete Handoff ($\theta_{N+1} \neq 0°$ in a conductor, or inflated macro-reactance anywhere):**
    If the micro-constituents fail to exhaust their internal phase buffers — if topological defects, un-annealed dislocations, or biological closures retain **surfacing** uncollapsed potential — the macro-frame inherits that unspent phase as **parasitic reactance** beyond what the clean reading predicts:
    $$\tan\theta_{N+1,\,\text{parasitic}} = \frac{X_{N+1,\,\text{parasitic}}}{R_{N+1}} > 0$$
    This is the signature of an un-completed compilation, not of the clean 0-DoF limit itself.
 
-**OPEN (dielectric register).** A separate open question stays explicitly on the table: does an insulator's native capacitive AC response count, structurally, as retained micro-$Q$ surfacing as macro reactance, or does it belong to the medium's own permittivity ($\epsilon_r$) in the compiled ground? The two readings predict the same voltage-current phase at the terminals; they differ on the ownership of the reactance (micro-$Q$ at scale $N$ surfacing versus a property of the bulk material at scale $N+1$). The measurement that would distinguish them is open; this file flags it rather than closes it, in alignment with `audit/Q-audit-2026-11-10.md`'s Q5 §VII row and `audit/STATUS-2026-11-10.md`'s B6 insulator entry.
+**OPEN (dielectric register).** A separate open question stays explicitly on the table: does an insulator's native capacitive AC response count, structurally, as retained micro-$Q$ surfacing as macro reactance, or does it belong to the medium's own permittivity ($\epsilon_r$) in the compiled ground? The two readings predict the same voltage-current phase at the terminals; they differ on the ownership of the reactance (micro-$Q$ at scale $N$ surfacing versus a property of the bulk material at scale $N+1$). The measurement that would distinguish them is open and left unclosed here.
 
 ---
 

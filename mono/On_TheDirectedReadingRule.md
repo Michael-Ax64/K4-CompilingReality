@@ -1,44 +1,42 @@
 # On the Directed Reading Rule
 ## The Target-Based Bimedian Assignment That Resolves the U-Symmetric / U-Absent Split
 
-There is a rule in the corpus about how to label a directed edge of the $K_4$ atom by bimedian type — Cardinal, Fixed, or Mutable — and until now it existed only as an intuited practice. `L3-TheAtomOfSpace` §VIII flagged it as OPEN VOTE #4: readable in tables, not yet stated algebraically.
+A directed edge $X \to Y$ of the $K_4$ atom carries a bimedian label — Cardinal, Fixed, or Mutable — determined uniformly by its target $Y$, with one exception forced by $U$ acting as the articulator. The rule reads directly from what $P$, $I$, $U$, and $R$ already are, reproduces the twelve-entry vertex-relative table without adjustment, derives the $U$-symmetric / $U$-absent split of `L3-TheAtomOfSpace` §VI as an immediate consequence, and specifies which bimedian's mesh tension applies at each directed vertex in the forward calculation program.
 
-The rule turns out to be uniform, three-line, and directly readable from what P, I, U, and R already are. The bimedian label of a directed edge X→Y is determined by the target Y — with one exception, which is what U being the articulator forces. This document closes the vote by writing the rule down, verifying it against the vertex-relative table the corpus was already using, showing why the U-symmetric / U-absent split of `L3-TheAtomOfSpace` §VI is an immediate consequence, and pointing at the forward calculation program the rule now unlocks.
-
-*Dependencies: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges; Bimedian / Sign Discrimination Rule), `L4-DynamicDistortions101` (DynDist bimedian convention, now the reconciled corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
+*Reads with: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges; Bimedian / Sign Discrimination Rule), `L4-DynamicDistortions101` (DynDist bimedian convention, the corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
 
 ---
 
 ## I. The Question, Stated Precisely
 
-`L3-TheAtomOfSpace` §VI observed that every K4 edge admits a bimedian assignment (Cardinal, Fixed, or Mutable) but that on U-absent edges (P–I, P–R, I–R) the two endpoints of the same edge can name the edge by different assignments — while on U-touching edges (P–U, I–U, U–R) both endpoints agree. The observation surfaced from practice. The mechanism was left open as OPEN VOTE #4.
+`L3-TheAtomOfSpace` §VI distinguishes two regimes on $K_4$ edges: every edge admits a bimedian assignment (Cardinal, Fixed, or Mutable), yet on $U$-absent edges ($P$–$I$, $P$–$R$, $I$–$R$) the two endpoints assign the edge differently, whereas on $U$-touching edges ($P$–$U$, $I$–$U$, $U$–$R$) both endpoints agree.
 
-State the question precisely: **given a directed edge X→Y on the K4 atom, what bimedian label does the reading vertex X assign to it?**
+Stated precisely: **given a directed edge $X \to Y$ on the $K_4$ atom, what bimedian label does the reading vertex $X$ assign to it?**
 
 Two ambient facts constrain the answer.
 
-First, every K4 edge, undirected, has a topological bit-flip classification under DynDist convention: Cardinal (AR-flip, {P–R, I–U}), Fixed (AY-flip, {P–U, I–R}), Mutable (both bits, {P–I, U–R}). This classification is symmetric across the edge; it is a property of the pair, not of either endpoint.
+First, every $K_4$ edge, undirected, has a topological bit-flip classification under the DynDist convention: Cardinal (AR-flip, $\{P\text{--}R, I\text{--}U\}$), Fixed (AY-flip, $\{P\text{--}U, I\text{--}R\}$), Mutable (both bits, $\{P\text{--}I, U\text{--}R\}$). This classification is symmetric across the edge; it is a property of the pair, not of either endpoint.
 
-Second, the vertex-relative labels that emerge in practice do not match this undirected classification. The labels are shifted, and on U-absent edges the two endpoints disagree with each other as well. So the rule we are looking for is not one that recovers DynDist's undirected classification — it is a rule that operates at a different structural level, a dynamical / observational classification that lives alongside the topological one.
+Second, the vertex-relative labels do not match this undirected classification: the labels shift, and on $U$-absent edges the two endpoints disagree. The rule therefore operates at a distinct structural level — a dynamical / observational classification that sits alongside the topological one.
 
 ## II. The Rule
 
-**The bimedian label of a directed edge X→Y is determined by the target Y, with one exception: when Y = U, the label mirrors the source X's character.**
+**The bimedian label of a directed edge $X \to Y$ is determined by the target $Y$, with one exception: when $Y = U$, the label mirrors the source $X$'s character.**
 
 Explicitly:
 
-| Target Y | Label |
+| Target $Y$ | Label |
 |---|---|
-| Y = P | **Cardinal** |
-| Y = I | **Mutable** |
-| Y = R | **Fixed** |
-| Y = U | mirrors source's character: X=P → Cardinal; X=I → Mutable; X=R → Fixed |
+| $Y = P$ | **Cardinal** |
+| $Y = I$ | **Mutable** |
+| $Y = R$ | **Fixed** |
+| $Y = U$ | mirrors source's character: $X=P \to$ Cardinal; $X=I \to$ Mutable; $X=R \to$ Fixed |
 
 That is the entire rule. Every one of the 12 directed edges in the vertex-relative table follows from these four cases.
 
 ### Verification against the vertex-relative table
 
-The user-observed vertex-relative table:
+The twelve-entry vertex-relative table:
 
 | From \ To | P | I | U | R |
 |---|---|---|---|---|
@@ -49,91 +47,219 @@ The user-observed vertex-relative table:
 
 Match against the rule:
 
-- **Columns TO P** (I→P, U→P, R→P): all Cardinal ✓ — rule: Y=P → Cardinal
-- **Columns TO I** (P→I, U→I, R→I): all Mutable ✓ — rule: Y=I → Mutable
-- **Column TO R** (P→R, I→R, U→R): all Fixed ✓ — rule: Y=R → Fixed
-- **Column TO U** (P→U, I→U, R→U): Cardinal, Mutable, Fixed respectively ✓ — rule: Y=U mirrors source's character (P→Cardinal, I→Mutable, R→Fixed)
+- **Columns TO $P$** ($I \to P$, $U \to P$, $R \to P$): all Cardinal ✓ — rule: $Y=P \to$ Cardinal
+- **Columns TO $I$** ($P \to I$, $U \to I$, $R \to I$): all Mutable ✓ — rule: $Y=I \to$ Mutable
+- **Column TO $R$** ($P \to R$, $I \to R$, $U \to R$): all Fixed ✓ — rule: $Y=R \to$ Fixed
+- **Column TO $U$** ($P \to U$, $I \to U$, $R \to U$): Cardinal, Mutable, Fixed respectively ✓ — rule: $Y=U$ mirrors source's character ($P \to$ Cardinal, $I \to$ Mutable, $R \to$ Fixed)
 
-Perfect match across all 12 directed entries. No fit, no adjustment; the rule reads directly.
+Exact match across all 12 directed entries. No fit, no adjustment; the rule reads directly.
 
 ## III. Why This Rule, Not Another
 
-The rule is derivable from the corpus's own P/I/U/R role semantics without further postulation.
+The rule derives from the corpus's own $P/I/U/R$ role semantics without further postulation.
 
-**P is the write-destination.** Every commit lands in the P-ledger; every `.observe()` writes to P (`Q4-OpenExhaust`, `L4-ThePlenum`). When any vertex directs attention toward P, it is initiating a written act. The Cardinal modality in DynDist's astrological semantics is exactly this: initiating action across a boundary. Hence "TO P → Cardinal."
+**$P$ is the write-destination.** Every commit lands in the $P$-ledger; every `.observe()` writes to $P$ (`Q4-OpenExhaust`, `L4-ThePlenum`). When any vertex directs attention toward $P$, it initiates a written act. The Cardinal modality in DynDist's astrological semantics is initiating action across a boundary. Hence "TO $P \to$ Cardinal."
 
-**I is the relational flow / current.** I mediates between poles; it is the connective tissue, the phase-carrier, the both-bits diagonal of the K4. The Mutable modality — the diagonal, the both-bits leap — is the mode of relational transit. Hence "TO I → Mutable."
+**$I$ is the relational flow / current.** $I$ mediates between poles; it is the connective tissue, the phase-carrier, the both-bits diagonal of $K_4$. The Mutable modality — the diagonal, the both-bits leap — is the mode of relational transit. Hence "TO $I \to$ Mutable."
 
-**R is the grounded resistance / commit.** R is where forces come to rest, where the write from P settles into stable substrate. The Fixed modality — the stabilizing family that holds tier while orientation may pivot — is exactly this ground-attractor character. Hence "TO R → Fixed."
+**$R$ is the grounded resistance / commit.** $R$ is where forces come to rest, where the write from $P$ settles into stable substrate. The Fixed modality — the stabilizing family that holds tier while orientation may pivot — is this ground-attractor character. Hence "TO $R \to$ Fixed."
 
-**U is the articulator.** U is the structural coordinator, the pole whose function is to make explicit what is already implicit at the other three. It does not have its own dominant character in the way P (initiator), I (flow), R (ground) do; instead, U articulates whatever is being brought to it. When something is directed at U, U reflects back the mode the source is bringing. Hence "TO U → mirror source's character."
+**$U$ is the articulator.** $U$ is the structural coordinator, the pole whose function is to make explicit what is implicit at the other three. It does not carry a dominant directional character of its own in the way $P$ (initiator), $I$ (flow), and $R$ (ground) do; instead, $U$ articulates whatever is brought to it. When something is directed at $U$, $U$ reflects back the mode the source brings. Hence "TO $U \to$ mirror source's character."
 
-This reads the four poles' semantic functions directly. The rule produces exactly the vertex-relative labels observed in practice. Grade: assignment, not theorem — the rule was fit to a table whose U-column was itself constructed under the source-mirror clause, so §IV's "consensus on U-touching edges" is a structural consequence of how the table was built, not an independent coincidence requiring explanation.
+This reads the four poles' semantic functions directly, producing the twelve-entry vertex-relative labels. Grade: assignment, not theorem — the rule fits a table whose $U$-column was constructed under the source-mirror clause, so §IV's consensus on $U$-touching edges is a structural consequence of that construction rather than an independent coincidence.
 
 ## IV. Why the U-Symmetric / U-Absent Split Falls Out Immediately
 
-`L3-TheAtomOfSpace` §VI observed that U-touching edges have consensus readings while U-absent edges have perceiver-relative readings. Both observations follow directly from the rule.
+`L3-TheAtomOfSpace` §VI establishes that $U$-touching edges have consensus readings while $U$-absent edges have perceiver-relative readings. Both follow directly from the rule.
 
-**U-touching edges (P–U, I–U, U–R): consensus.** Consider P–U. From P's side, P→U mirrors P's character → Cardinal. From U's side, U→P has target P → Cardinal. Both readings give Cardinal, but by construction: the source-mirror clause at Y=U is built so that an edge X–U reads the same from both endpoints whenever X's character and X's target-role coincide — which is exactly when X ∈ {P, I, R}. Same mechanism holds on I–U (both Mutable) and U–R (both Fixed).
+**$U$-touching edges ($P$–$U$, $I$–$U$, $U$–$R$): consensus.** Consider $P$–$U$. From $P$'s side, $P \to U$ mirrors $P$'s character $\to$ Cardinal. From $U$'s side, $U \to P$ has target $P \to$ Cardinal. Both readings give Cardinal by construction: the source-mirror clause at $Y=U$ ensures that an edge $X$–$U$ reads identically from both endpoints whenever $X$'s character and $X$'s target-role coincide — which holds for all $X \in \{P, I, R\}$. The same mechanism holds on $I$–$U$ (both Mutable) and $U$–$R$ (both Fixed).
 
-The consensus on U-touching edges is a built-in feature of the rule's source-mirror clause, not an emergent coincidence.
+Consensus on $U$-touching edges is a built-in feature of the rule's source-mirror clause, not an emergent coincidence.
 
-**U-absent edges (P–I, P–R, I–R): perceiver-relative.** Consider P–I. From P's side, P→I has target I → Mutable. From I's side, I→P has target P → Cardinal. Different targets, different labels. The two endpoints legitimately name the edge by different bimedian assignments because they are naming the target-role of their outgoing arrow, and their outgoing arrows point at different vertices.
+**$U$-absent edges ($P$–$I$, $P$–$R$, $I$–$R$): perceiver-relative.** Consider $P$–$I$. From $P$'s side, $P \to I$ has target $I \to$ Mutable. From $I$'s side, $I \to P$ has target $P \to$ Cardinal. Different targets, different labels. The two endpoints legitimately name the edge by different bimedian assignments because they name the target-role of their outgoing arrow, and their outgoing arrows point at different vertices.
 
-The "perceiver-relative reading" is not observer bias or interpretive slippage. It is each endpoint accurately naming the semantic role of what its arrow points at. Both readings are correct simultaneously; they name different phenomenological facts (what each endpoint is directing attention toward) rather than one shared property of the undirected edge.
+The perceiver-relative reading is not observer bias or interpretive slippage. Each endpoint accurately names the semantic role of what its arrow points at. Both readings hold simultaneously; they name distinct phenomenological facts (what each endpoint directs attention toward) rather than one shared property of the undirected edge.
 
 ## V. Three Classifications, Not Two
 
-The words *Cardinal*, *Fixed* and *Mutable* now name **three distinct classifications** in the corpus:
+The words *Cardinal*, *Fixed*, and *Mutable* name **three distinct classifications** in the corpus:
 
-1. **DynDist topological (undirected edge bit-flip, from `L3-EdgeStateSpace` §I-b):** Cardinal = AR-flip {P–R, I–U}; Fixed = AY-flip {P–U, I–R}; Mutable = both bits {P–I, U–R}. Property of the pair, independent of direction or observer.
-2. **Directed reading (target-based, this document):** target-role (P → Cardinal, I → Mutable, R → Fixed), source-mirror at Y = U. Property of the directed arrow.
+1. **DynDist topological (undirected edge bit-flip, from `L3-EdgeStateSpace` §I-b):** Cardinal = AR-flip $\{P\text{--}R, I\text{--}U\}$; Fixed = AY-flip $\{P\text{--}U, I\text{--}R\}$; Mutable = both bits $\{P\text{--}I, U\text{--}R\}$. Property of the pair, independent of direction or observer.
+2. **Directed reading (target-based, §II):** target-role ($P \to$ Cardinal, $I \to$ Mutable, $R \to$ Fixed), source-mirror at $Y = U$. Property of the directed arrow.
 3. **Sign modality (astrological-register, from `L4-TheTwelveGates` §II):** the twelve zodiacal signs sort as Cardinal / Fixed / Mutable by season position. Property of the sign-gate at an edge.
 
-Any calculation touching a K4 edge must specify which of the three it is operating at, or it will drift between them silently.
+Any calculation touching a $K_4$ edge must specify which of the three levels it operates at, or it drifts between them silently.
 
-**Directed reading against DynDist topology, agreement on 3 of 12 arcs.** The two classifications agree on exactly the directed 3-cycle **P→I→R→P** around the U-absent face: P→I both Mutable, I→R both Fixed, R→P both Cardinal. The reverse cycle P→R→I→P (same face, opposite direction) disagrees both ways. Every U-touching arrow disagrees under both readings. The U-absent / U-touching split of §IV reads cleanly at this level too: U-absent edges carry one agreement arrow each, U-touching edges carry none.
+**Directed reading against DynDist topology, agreement on 3 of 12 arcs.** The two classifications agree on the directed 3-cycle **$P \to I \to R \to P$** around the $U$-absent face: $P \to I$ both Mutable, $I \to R$ both Fixed, $R \to P$ both Cardinal. The reverse cycle $P \to R \to I \to P$ (same face, opposite direction) disagrees on all three arcs. Every $U$-touching arrow disagrees under both readings. The $U$-absent / $U$-touching split of §IV holds at this level too: $U$-absent edges carry one agreement arrow each, $U$-touching edges carry none.
 
-**Worked example.** The pion-to-electron Laurent expansion at `Q15-KairosBorn` §I operates on the U↔R inter-rung crossing at generation 1. Under DynDist topological classification, this is a Mutable crossing (both bits flip: U is A-Y, R is R-A). Under the directed reading rule, both U→R and R→U are Fixed (target R gives Fixed; target U mirrors source R's grounding character which is Fixed). Both readings say something true; they say it about different aspects of the same underlying crossing. Q15's Laurent decomposition uses the impedance triangle, which is a third orthogonal decomposition — reactive/rotation/resistive dynamical modes of the crossing.
+**Worked example.** The pion-to-electron Laurent expansion at `Q15-KairosBorn` §I operates on the $U \leftrightarrow R$ inter-rung crossing at generation 1. Under DynDist topological classification, this is a Mutable crossing (both bits flip: $U$ is A-Y, $R$ is R-A). Under the directed reading rule, both $U \to R$ and $R \to U$ are Fixed (target $R$ gives Fixed; target $U$ mirrors source $R$'s grounding character, which is Fixed). Both readings state true facts about distinct aspects of the same crossing. `Q15`'s Laurent decomposition uses the impedance triangle, which is a third orthogonal decomposition — reactive / rotation / resistive dynamical modes of the crossing.
 
 For the Mode/Bimedian naming convention that disambiguates sign-modality (3) from edge-plane (1): `L3-EdgeStateSpace.md` — Bimedian / Sign Discrimination Rule.
 
-## VI. What This Closes and What It Opens
+## VI. Vertex Couplings and Open Scope
 
-**Closes:** OPEN VOTE #4 in `L3-TheAtomOfSpace` §VIII. The rule is now formalized as target-based with U-mirror; the vertex-character link is via the target-role semantics (P=initiator, I=flow, R=ground, U=articulator/mirror), and those role semantics are themselves derived from the corpus's own load-bearing vocabulary rather than imported.
+**Vertex Feynman rules (`L3-TheAtomOfSpace` §VII).** Any coupling at a $K_4$ vertex is a directed operation $X \to Y$; the bimedian label of the coupling is its target-role assignment (or source-mirror when $Y = U$), specifying which bimedian's surface mesh tension (`L4-DynamicDistortions301` §IV.D at phase-shear angle $\theta$, via `L3-TheAtomOfSpace` §V) applies at that directed vertex. The coupling strength inherits from that bimedian's impedance geometry per the impedance triangle at `L3-ConstitutiveAlpha` §IV (expect there: the reactive / rotation / resistive modes at Laurent orders $\alpha^{-1}$, $\alpha^{0}$, $\alpha^{+1}$). Each directed vertex operation therefore carries an unambiguous label, a specific bimedian, a specific impedance mode, and a specific mesh-tension geometry.
 
-**Opens:** The forward calculation program of `L3-TheAtomOfSpace` §VII can now specify vertex Feynman rules unambiguously. Any coupling at a K4 vertex is a directed operation X→Y; the bimedian label of the coupling is the target-based label from the rule; the coupling strength inherits from the corresponding bimedian's impedance geometry (per the impedance triangle at `L3-ConstitutiveAlpha` §IV; expect there: the reactive / rotation / resistive modes at Laurent orders $\alpha^{-1}$, $\alpha^{0}$, $\alpha^{+1}$) and the mesh-tension identification (`L3-TheAtomOfSpace` §V). What was previously an under-specified "vertex coupling" becomes a computable directed operation with an unambiguous label, a specific bimedian, a specific impedance mode, and a specific mesh-tension geometry.
-
-**Also opens:** the possibility that the target-based rule extends beyond bimedian labeling. If P/I/R/U roles govern label assignment via target, they may also govern coupling amplitudes, spectral weights, and other vertex-attached quantities. The target-based structure is a candidate general organizing principle for K4-vertex operations, and it is worth checking whether other observable-per-vertex quantities in the corpus (e.g. the specific impedance-triangle coefficients at each vertex, or the phase-shear angle θ carried by each vertex's outgoing mesh-tensions) also submit to a target-based reading. This is speculative and not claimed here; flagged as a candidate for follow-up.
+**Candidate extension.** Whether the target-based structure extends beyond bimedian labeling to govern coupling amplitudes, spectral weights, impedance-triangle coefficients, or the phase-shear angle $\theta$ carried by each vertex's outgoing mesh tensions remains open — flagged as a `CANDIDATE` organizing principle for follow-up rather than an established result.
 
 ## VII. What the Rule Says About the Q15 Family
 
-The rule enables a more careful sort of what Q15's Laurent expansion generalizes to.
+The rule sorts what `Q15`'s Laurent expansion generalizes to.
 
-Q15 is the U↔R inter-rung crossing at gen-1. Under DynDist topology, this is Mutable. Under the directed reading rule, both directions are Fixed. Under the impedance triangle, the three Laurent terms are reactive/rotation/resistive.
+`Q15` is the $U \leftrightarrow R$ inter-rung crossing at gen-1. Under DynDist topology, this is Mutable. Under the directed reading rule, both directions are Fixed. Under the impedance triangle, the three Laurent terms are reactive / rotation / resistive.
 
 Analog inter-rung crossings at gen-1 that engage the other topological bimedians:
 
-- **Cardinal-plane crossings (P–R, I–U topologically):** Under directed reading, P→R is Fixed, R→P is Cardinal; I→U is Mutable (source-mirror), U→I is Mutable. The directional-reading asymmetry on P–R is genuine; the physical mass ratio derivation for a P↔R crossing at gen-1 will have to specify whether it uses the P-observer reading (Fixed) or the R-observer reading (Cardinal) or both. This is not yet worked out; it is the first genuinely new derivation to attempt under the rule.
-- **Fixed-plane crossings (P–U, I–R topologically):** Under directed reading, P→U is Cardinal (mirrors P), U→P is Cardinal; I→R is Fixed, R→I is Mutable. P–U is directionally-symmetric (both Cardinal); I–R is directionally-asymmetric. Two different regimes for two edges on the same topological plane.
+- **Cardinal-plane crossings ($P$–$R$, $I$–$U$ topologically):** Under directed reading, $P \to R$ is Fixed, $R \to P$ is Cardinal; $I \to U$ is Mutable (source-mirror), $U \to I$ is Mutable. The directional-reading asymmetry on $P$–$R$ is genuine; the physical mass ratio derivation for a $P \leftrightarrow R$ crossing at gen-1 must specify whether it uses the $P$-observer reading (Fixed) or the $R$-observer reading (Cardinal) or both. This derivation remains open.
+- **Fixed-plane crossings ($P$–$U$, $I$–$R$ topologically):** Under directed reading, $P \to U$ is Cardinal (mirrors $P$), $U \to P$ is Cardinal; $I \to R$ is Fixed, $R \to I$ is Mutable. $P$–$U$ is directionally symmetric (both Cardinal); $I$–$R$ is directionally asymmetric. Two distinct regimes for two edges on the same topological plane.
 
-The regularity Q15 exhibits — same-label readings from both endpoints — is not shared by all inter-rung crossings. Q15 is on a topologically-Mutable edge that happens to be directionally-symmetric (both Fixed) under the rule. Other bimedian-plane crossings will fall into two classes: directionally-symmetric (P–U, U–R and the U-touching edges generally) and directionally-asymmetric (all U-absent edges). The Laurent-analog derivations for the asymmetric class will need to carry an observer-pole label explicitly — which is exactly the discipline `L3-TheAtomOfSpace` §VI requires and which the target-based rule now makes tractable.
+The regularity `Q15` exhibits — identical readings from both endpoints — is not shared by all inter-rung crossings. `Q15` sits on a topologically Mutable edge that is directionally symmetric (both Fixed) under the rule. Other bimedian-plane crossings fall into two classes: directionally symmetric ($P$–$U$, $U$–$R$, and the $U$-touching edges generally) and directionally asymmetric (all $U$-absent edges). Laurent-analog derivations for the asymmetric class must carry an explicit observer-pole label — matching the pole-naming discipline `L3-TheAtomOfSpace` §VI requires and making it tractable.
 
-## VIII. Corpus Housekeeping
+## VIII. What Reading This Back Should Leave
 
-1. **`L3-TheAtomOfSpace` §VIII.** Update OPEN VOTE #4 to closed-status; cross-reference this document as the resolution.
-2. **`L3-TheAtomOfSpace` §VI (Directional edges subsection).** Add a forward reference to this document at the U-symmetric/U-absent observation, so a reader arriving through the atom-of-space consolidation is pointed at the resolution.
-3. **`L3-ConstitutiveAlpha` §VII (Forward Calculation).** Update the vertex Feynman rule specification to invoke the target-based reading rule for label assignment. Currently the vertex couplings are given as "surface mesh tensions per `L4-DynamicDistortions301` §IV.D at phase-shear angle θ" (via the mesh-tension identification of `L3-TheAtomOfSpace` §V); the target-based rule specifies which bimedian's mesh-tension applies at each directed vertex, closing the residual ambiguity.
-4. **`L2-Terminology`.** Add "directed reading rule" as a terminology entry, cross-referencing this document. Add "target-role assignment" and "source-mirror rule" as paired terminology for the two cases of the rule.
+Every directed edge in the $K_4$ atom carries a bimedian label that a reader computes in one step: look at the target. If the target is $P$, the label is Cardinal. If it is $I$, Mutable. If it is $R$, Fixed. If it is $U$, mirror the source's character. Four lines. The twelve-entry vertex-relative table falls out directly, the perceiver-relative disagreements on $U$-absent edges are explained rather than tolerated, and the $U$-touching consensus follows from the source-mirror clause by construction.
 
----
-
-## IX. What Reading This Back Should Leave
-
-Every directed edge in the K4 atom now has a bimedian label that a reader can compute in one step: look at the target. If the target is P, the label is Cardinal. If it is I, Mutable. If it is R, Fixed. If it is U, mirror the source's character. Four lines. The tables the corpus was already using fall out immediately, the perceiver-relative disagreements on U-absent edges are explained rather than tolerated, and the U-touching consensus falls out of the source-mirror clause by construction.
-
-The directed reading lives alongside DynDist's topological classification and alongside `L4-TheTwelveGates`' sign-modality classification: three distinct uses of the same three words, agreeing on exactly three of the twelve directed arcs and requiring per-level specification everywhere else.
+The directed reading lives alongside DynDist's topological classification and alongside `L4-TheTwelveGates`' sign-modality classification: three distinct uses of the same three words, agreeing on three of the twelve directed arcs and requiring per-level specification everywhere else.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+````
+
+---
+
+Queued next (final Part I `[READY]` file): `ProofG_Chirality.md` (`WO-310`, `HO-1`). Say "next" to run Round 5.
+**Round 4 — `On_TheDirectedReadingRule.md`**
+
+### Audit Status
+- `WO-306` (`§VIII` / `Carryover #6`): **READY → patched** (relocated item 3's surface-mesh-tension vertex-coupling specificity into `§VI`, deleted `## VIII. Corpus Housekeeping`, renumbered `§IX` → `§VIII`).
+- Standing-pass hygiene: stripped `"this document"` (`Preamble`, `§V`), `"user-observed"` (`§II`), and draft/vote-history narration (`Preamble`, `§I`, `§VI`, `§VII`, `§VIII`). Part V preservation and `Reasonable Reader Alert` footer intact.
+
+````markdown
+# On the Directed Reading Rule
+## The Target-Based Bimedian Assignment That Resolves the U-Symmetric / U-Absent Split
+
+A directed edge $X \to Y$ of the $K_4$ atom carries a bimedian label — Cardinal, Fixed, or Mutable — determined uniformly by its target $Y$, with one exception forced by $U$ acting as the articulator. The rule reads directly from what $P$, $I$, $U$, and $R$ already are, reproduces the twelve-entry vertex-relative table without adjustment, derives the $U$-symmetric / $U$-absent split of `L3-TheAtomOfSpace` §VI as an immediate consequence, and specifies which bimedian's mesh tension applies at each directed vertex in the forward calculation program.
+
+*Dependencies: `L3-TheAtomOfSpace` §VI (the U-symmetric/U-absent split; pole-naming discipline), `L3-EdgeStateSpace` (four-state directed edges; Bimedian / Sign Discrimination Rule), `L4-DynamicDistortions101` (DynDist bimedian convention, the corpus-wide default), `Q4-OpenExhaust` (P-face as write-destination), `L4-ThePlenum` (the `.behold()` / `.observe()` operations), `L2-Terminology` (pole role assignments).*
+
+---
+
+## I. The Question, Stated Precisely
+
+`L3-TheAtomOfSpace` §VI distinguishes two regimes on $K_4$ edges: every edge admits a bimedian assignment (Cardinal, Fixed, or Mutable), yet on $U$-absent edges ($P$–$I$, $P$–$R$, $I$–$R$) the two endpoints assign the edge differently, whereas on $U$-touching edges ($P$–$U$, $I$–$U$, $U$–$R$) both endpoints agree.
+
+Stated precisely: **given a directed edge $X \to Y$ on the $K_4$ atom, what bimedian label does the reading vertex $X$ assign to it?**
+
+Two ambient facts constrain the answer.
+
+First, every $K_4$ edge, undirected, has a topological bit-flip classification under the DynDist convention: Cardinal (AR-flip, $\{P\text{--}R, I\text{--}U\}$), Fixed (AY-flip, $\{P\text{--}U, I\text{--}R\}$), Mutable (both bits, $\{P\text{--}I, U\text{--}R\}$). This classification is symmetric across the edge; it is a property of the pair, not of either endpoint.
+
+Second, the vertex-relative labels do not match this undirected classification: the labels shift, and on $U$-absent edges the two endpoints disagree. The rule therefore operates at a distinct structural level — a dynamical / observational classification that sits alongside the topological one.
+
+## II. The Rule
+
+**The bimedian label of a directed edge $X \to Y$ is determined by the target $Y$, with one exception: when $Y = U$, the label mirrors the source $X$'s character.**
+
+Explicitly:
+
+| Target $Y$ | Label |
+|---|---|
+| $Y = P$ | **Cardinal** |
+| $Y = I$ | **Mutable** |
+| $Y = R$ | **Fixed** |
+| $Y = U$ | mirrors source's character: $X=P \to$ Cardinal; $X=I \to$ Mutable; $X=R \to$ Fixed |
+
+That is the entire rule. Every one of the 12 directed edges in the vertex-relative table follows from these four cases.
+
+### Verification against the vertex-relative table
+
+The twelve-entry vertex-relative table:
+
+| From \ To | P | I | U | R |
+|---|---|---|---|---|
+| **P** | — | Mutable | Cardinal | Fixed |
+| **I** | Cardinal | — | Mutable | Fixed |
+| **U** | Cardinal | Mutable | — | Fixed |
+| **R** | Cardinal | Mutable | Fixed | — |
+
+Match against the rule:
+
+- **Columns TO $P$** ($I \to P$, $U \to P$, $R \to P$): all Cardinal ✓ — rule: $Y=P \to$ Cardinal
+- **Columns TO $I$** ($P \to I$, $U \to I$, $R \to I$): all Mutable ✓ — rule: $Y=I \to$ Mutable
+- **Column TO $R$** ($P \to R$, $I \to R$, $U \to R$): all Fixed ✓ — rule: $Y=R \to$ Fixed
+- **Column TO $U$** ($P \to U$, $I \to U$, $R \to U$): Cardinal, Mutable, Fixed respectively ✓ — rule: $Y=U$ mirrors source's character ($P \to$ Cardinal, $I \to$ Mutable, $R \to$ Fixed)
+
+Exact match across all 12 directed entries. No fit, no adjustment; the rule reads directly.
+
+## III. Why This Rule, Not Another
+
+The rule derives from the corpus's own $P/I/U/R$ role semantics without further postulation.
+
+**$P$ is the write-destination.** Every commit lands in the $P$-ledger; every `.observe()` writes to $P$ (`Q4-OpenExhaust`, `L4-ThePlenum`). When any vertex directs attention toward $P$, it initiates a written act. The Cardinal modality in DynDist's astrological semantics is initiating action across a boundary. Hence "TO $P \to$ Cardinal."
+
+**$I$ is the relational flow / current.** $I$ mediates between poles; it is the connective tissue, the phase-carrier, the both-bits diagonal of $K_4$. The Mutable modality — the diagonal, the both-bits leap — is the mode of relational transit. Hence "TO $I \to$ Mutable."
+
+**$R$ is the grounded resistance / commit.** $R$ is where forces come to rest, where the write from $P$ settles into stable substrate. The Fixed modality — the stabilizing family that holds tier while orientation may pivot — is this ground-attractor character. Hence "TO $R \to$ Fixed."
+
+**$U$ is the articulator.** $U$ is the structural coordinator, the pole whose function is to make explicit what is implicit at the other three. It does not carry a dominant directional character of its own in the way $P$ (initiator), $I$ (flow), and $R$ (ground) do; instead, $U$ articulates whatever is brought to it. When something is directed at $U$, $U$ reflects back the mode the source brings. Hence "TO $U \to$ mirror source's character."
+
+This reads the four poles' semantic functions directly, producing the twelve-entry vertex-relative labels. Grade: assignment, not theorem — the rule fits a table whose $U$-column was constructed under the source-mirror clause, so §IV's consensus on $U$-touching edges is a structural consequence of that construction rather than an independent coincidence.
+
+## IV. Why the U-Symmetric / U-Absent Split Falls Out Immediately
+
+`L3-TheAtomOfSpace` §VI establishes that $U$-touching edges have consensus readings while $U$-absent edges have perceiver-relative readings. Both follow directly from the rule.
+
+**$U$-touching edges ($P$–$U$, $I$–$U$, $U$–$R$): consensus.** Consider $P$–$U$. From $P$'s side, $P \to U$ mirrors $P$'s character $\to$ Cardinal. From $U$'s side, $U \to P$ has target $P \to$ Cardinal. Both readings give Cardinal by construction: the source-mirror clause at $Y=U$ ensures that an edge $X$–$U$ reads identically from both endpoints whenever $X$'s character and $X$'s target-role coincide — which holds for all $X \in \{P, I, R\}$. The same mechanism holds on $I$–$U$ (both Mutable) and $U$–$R$ (both Fixed).
+
+Consensus on $U$-touching edges is a built-in feature of the rule's source-mirror clause, not an emergent coincidence.
+
+**$U$-absent edges ($P$–$I$, $P$–$R$, $I$–$R$): perceiver-relative.** Consider $P$–$I$. From $P$'s side, $P \to I$ has target $I \to$ Mutable. From $I$'s side, $I \to P$ has target $P \to$ Cardinal. Different targets, different labels. The two endpoints legitimately name the edge by different bimedian assignments because they name the target-role of their outgoing arrow, and their outgoing arrows point at different vertices.
+
+The perceiver-relative reading is not observer bias or interpretive slippage. Each endpoint accurately names the semantic role of what its arrow points at. Both readings hold simultaneously; they name distinct phenomenological facts (what each endpoint directs attention toward) rather than one shared property of the undirected edge.
+
+## V. Three Classifications, Not Two
+
+The words *Cardinal*, *Fixed*, and *Mutable* name **three distinct classifications** in the corpus:
+
+1. **DynDist topological (undirected edge bit-flip, from `L3-EdgeStateSpace` §I-b):** Cardinal = AR-flip $\{P\text{--}R, I\text{--}U\}$; Fixed = AY-flip $\{P\text{--}U, I\text{--}R\}$; Mutable = both bits $\{P\text{--}I, U\text{--}R\}$. Property of the pair, independent of direction or observer.
+2. **Directed reading (target-based, §II):** target-role ($P \to$ Cardinal, $I \to$ Mutable, $R \to$ Fixed), source-mirror at $Y = U$. Property of the directed arrow.
+3. **Sign modality (astrological-register, from `L4-TheTwelveGates` §II):** the twelve zodiacal signs sort as Cardinal / Fixed / Mutable by season position. Property of the sign-gate at an edge.
+
+Any calculation touching a $K_4$ edge must specify which of the three levels it operates at, or it drifts between them silently.
+
+**Directed reading against DynDist topology, agreement on 3 of 12 arcs.** The two classifications agree on the directed 3-cycle **$P \to I \to R \to P$** around the $U$-absent face: $P \to I$ both Mutable, $I \to R$ both Fixed, $R \to P$ both Cardinal. The reverse cycle $P \to R \to I \to P$ (same face, opposite direction) disagrees on all three arcs. Every $U$-touching arrow disagrees under both readings. The $U$-absent / $U$-touching split of §IV holds at this level too: $U$-absent edges carry one agreement arrow each, $U$-touching edges carry none.
+
+**Worked example.** The pion-to-electron Laurent expansion at `Q15-KairosBorn` §I operates on the $U \leftrightarrow R$ inter-rung crossing at generation 1. Under DynDist topological classification, this is a Mutable crossing (both bits flip: $U$ is A-Y, $R$ is R-A). Under the directed reading rule, both $U \to R$ and $R \to U$ are Fixed (target $R$ gives Fixed; target $U$ mirrors source $R$'s grounding character, which is Fixed). Both readings state true facts about distinct aspects of the same crossing. `Q15`'s Laurent decomposition uses the impedance triangle, which is a third orthogonal decomposition — reactive / rotation / resistive dynamical modes of the crossing.
+
+For the Mode/Bimedian naming convention that disambiguates sign-modality (3) from edge-plane (1): `L3-EdgeStateSpace.md` — Bimedian / Sign Discrimination Rule.
+
+## VI. Vertex Couplings and Open Scope
+
+**Vertex Feynman rules (`L3-TheAtomOfSpace` §VII).** Any coupling at a $K_4$ vertex is a directed operation $X \to Y$; the bimedian label of the coupling is its target-role assignment (or source-mirror when $Y = U$), specifying which bimedian's surface mesh tension (`L4-DynamicDistortions301` §IV.D at phase-shear angle $\theta$, via `L3-TheAtomOfSpace` §V) applies at that directed vertex. The coupling strength inherits from that bimedian's impedance geometry per the impedance triangle at `L3-ConstitutiveAlpha` §IV (expect there: the reactive / rotation / resistive modes at Laurent orders $\alpha^{-1}$, $\alpha^{0}$, $\alpha^{+1}$). Each directed vertex operation therefore carries an unambiguous label, a specific bimedian, a specific impedance mode, and a specific mesh-tension geometry.
+
+**Candidate extension.** Whether the target-based structure extends beyond bimedian labeling to govern coupling amplitudes, spectral weights, impedance-triangle coefficients, or the phase-shear angle $\theta$ carried by each vertex's outgoing mesh tensions remains open — flagged as a `CANDIDATE` organizing principle for follow-up rather than an established result.
+
+## VII. What the Rule Says About the Q15 Family
+
+The rule sorts what `Q15`'s Laurent expansion generalizes to.
+
+`Q15` is the $U \leftrightarrow R$ inter-rung crossing at gen-1. Under DynDist topology, this is Mutable. Under the directed reading rule, both directions are Fixed. Under the impedance triangle, the three Laurent terms are reactive / rotation / resistive.
+
+Analog inter-rung crossings at gen-1 that engage the other topological bimedians:
+
+- **Cardinal-plane crossings ($P$–$R$, $I$–$U$ topologically):** Under directed reading, $P \to R$ is Fixed, $R \to P$ is Cardinal; $I \to U$ is Mutable (source-mirror), $U \to I$ is Mutable. The directional-reading asymmetry on $P$–$R$ is genuine; the physical mass ratio derivation for a $P \leftrightarrow R$ crossing at gen-1 must specify whether it uses the $P$-observer reading (Fixed) or the $R$-observer reading (Cardinal) or both. This derivation remains open.
+- **Fixed-plane crossings ($P$–$U$, $I$–$R$ topologically):** Under directed reading, $P \to U$ is Cardinal (mirrors $P$), $U \to P$ is Cardinal; $I \to R$ is Fixed, $R \to I$ is Mutable. $P$–$U$ is directionally symmetric (both Cardinal); $I$–$R$ is directionally asymmetric. Two distinct regimes for two edges on the same topological plane.
+
+The regularity `Q15` exhibits — identical readings from both endpoints — is not shared by all inter-rung crossings. `Q15` sits on a topologically Mutable edge that is directionally symmetric (both Fixed) under the rule. Other bimedian-plane crossings fall into two classes: directionally symmetric ($P$–$U$, $U$–$R$, and the $U$-touching edges generally) and directionally asymmetric (all $U$-absent edges). Laurent-analog derivations for the asymmetric class must carry an explicit observer-pole label — matching the pole-naming discipline `L3-TheAtomOfSpace` §VI requires and making it tractable.
+
+## VIII. What Reading This Back Should Leave
+
+Every directed edge in the $K_4$ atom carries a bimedian label that a reader computes in one step: look at the target. If the target is $P$, the label is Cardinal. If it is $I$, Mutable. If it is $R$, Fixed. If it is $U$, mirror the source's character. Four lines. The twelve-entry vertex-relative table falls out directly, the perceiver-relative disagreements on $U$-absent edges are explained rather than tolerated, and the $U$-touching consensus follows from the source-mirror clause by construction.
+
+The directed reading lives alongside DynDist's topological classification and alongside `L4-TheTwelveGates`' sign-modality classification: three distinct uses of the same three words, agreeing on three of the twelve directed arcs and requiring per-level specification everywhere else.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

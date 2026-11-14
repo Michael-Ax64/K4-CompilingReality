@@ -1,14 +1,14 @@
 # Q13-PlenumPhaseConduction.md
 ## Subatomic Phase-Conduction and the Topological Architecture of Dark Matter
-### *(1-Loop Phase-Burning, Flavour Cascades, and the DAMA/XENON Reading, Re-Opened)*
+### *(1-Loop Phase-Burning, Flavour Cascades, and the DAMA/XENON Decomposition)*
 
 > **Epistemic Register:** Subatomic Physics / Quantum Realization ($Q\#$).
 
-> **Claim:** Standard quantum field theory's 1-loop momentum integration ($\int \frac{d^4k}{(2\pi)^4}$) is the physical execution of the Route Law (`ProofQ_AlgebraicSyntax.md` §V): a closed loop in the uncompiled buffer ($H_{\text{incoh}}$) forces the complex phase operator to square ($h^2 = -1$), burning vector phase-potential ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$) into an unsuppressed scalar recoil ($P$) in the classical ledger ($H_{\text{coh}}$) via the geometric conversion factor $1/16\pi^2$. Quark flavour-changing neutral currents ($b \to s \to d$) ride the Cardinal plane ($\{P\text{--}R, I\text{--}U\}$) as inter-generation transitions, routed by the shared-plane skeleton of `Q1-GenerationsOfMatter` §VI. The DAMA/XENON direct-detection record is re-opened: DAMA's own $11\sigma$ annual modulation is persistent, but the same NaI(Tl) target at COSINE-100 and ANAIS-112 does not modulate (PRL 135, 121002, 2025: 4.7σ exclusion in 1–6 keV and 3.5σ in 2–6 keV of DAMA's own parameter space). The "DAMA reads $\Delta Q$ in any NaI crystal" reading is withdrawn; what remains open is a decomposition into crystal / site / analysis contributions, stated below.
+> **Claim:** Standard quantum field theory's 1-loop momentum integration ($\int \frac{d^4k}{(2\pi)^4}$) is the physical execution of the Route Law (`ProofQ_AlgebraicSyntax.md` §V): a closed loop in the uncompiled buffer ($H_{\text{incoh}}$) forces the complex phase vector to square ($h^2 = -1$), burning vector phase-potential ($\mathbf{Q}^2 = -|\mathbf{Q}|^2$) into an unsuppressed scalar recoil ($P$) in the classical ledger ($H_{\text{coh}}$) via the geometric conversion factor $1/16\pi^2$. Quark flavour-changing neutral currents ($b \to s \to d$) ride the Cardinal plane ($\{P\text{--}R, I\text{--}U\}$) as inter-generation transitions, routed by the shared-plane skeleton of `Q1-GenerationsOfMatter` §VI. On the DAMA/XENON direct-detection record, liquid Xenon targets (XENONnT, LZ) read real scalar recoil ($P$) and return null while crystalline NaI(Tl) carries lattice ZPE ($Q$), yet the same-material NaI(Tl) null at COSINE-100 and ANAIS-112 (PRL 135, 121002, 2025: $4.7\sigma$ exclusion in 1–6 keV and $3.5\sigma$ in 2–6 keV) demonstrates that lattice reactance alone does not deliver DAMA's persistent $11\sigma$ annual modulation, leaving DAMA open across crystal, site, and analysis contributions.
 
 > **Phase Conduction (Architectural Definition):** Non-dissipative coupling carried strictly in angle ($\theta$, $\mathbf{Q} \in H_{\text{incoh}}$, $Q = I^2 X$, or Tier-3 `ROUTE` at slope $+1$) without executing a closed-loop square ($h^2 = -1$) or crossing a zero-impedance $P$-writing head (`Q4-OpenExhaust` §II, where $\theta_P = 0$). Because the Landauer tax lands exclusively on modulus and trace (`BENDING_SPACE` §III), phase conduction in angle transfers relational constraint at zero dissipative recoil ($P = 0$) until a closed loop burns phase into the scalar ledger.
 
-**Reads with:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q6-MeasurementAndMatrices.md`, `Q8-TheBoundaryMechanics.md`, `L3-FormalFoundations.md`, `L4-ThePlenum.md`, `ProofC_Crystal.md`, `ProofQ_AlgebraicSyntax.md`, `L4-Thermodynamics` (Facet 7, crystal ZPE).
+*Reads with: `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q6-MeasurementAndMatrices.md`, `Q8-TheBoundaryMechanics.md`, `L3-FormalFoundations.md`, `L4-ThePlenum.md`, `ProofC_Crystal.md`, `ProofQ_AlgebraicSyntax.md`, `L4-Thermodynamics` (Facet 7, crystal ZPE).*
 
 ---
 
@@ -26,7 +26,7 @@ $$\text{\bf 1-Loop Integration is the execution of .observe() across a closed bu
                        THE 1-LOOP PHASE-BURNING MECHANISM
 
    TREE-LEVEL PSEUDOSCALAR (jX)               1-LOOP CLOSED INTEGRAL
-   [Pure Phase-Shift in H_incoh]              [Route Law: Q² = -|Q|² ➔ P]
+   [Pure Phase-Shift in H_incoh]              [Route Law: (hQ)² = +|Q|² ➔ P]
    • Mediated by γ₅ operator                  • Closes a loop across H_incoh
    • Pure imaginary phase rotation            • Burns phase: h² = -1
    • Non-relativistically suppressed:         • Mints unsuppressed scalar recoil:
@@ -38,14 +38,14 @@ The Dirac matrix $\gamma_5$ is the algebraic operator of chirality. In `Q6-Measu
 
 A tree-level interaction involving $\gamma_5$ is a **pure reactive phase-rotation within the uncompiled buffer ($H_{\text{incoh}}$)**: it acts as a $jX$ reactance on the imaginary axis. Because it carries zero real scalar projection on $P$, it cannot transfer mechanical momentum to a classical nucleon in $H_{\text{coh}}$, causing the $v^2 \sim 10^{-6}$ momentum suppression.
 
-### 2. The Route Law Squaring ($X^2 \to P$)
+### 2. The Route Law Squaring ($(h\mathbf{Q})^2 \to P$)
 When virtual particles circulate in a closed 1-loop diagram, the state vector in $H_{\text{incoh}}$ is multiplied by its conjugate:
 $$\mathbf{Q} \cdot \mathbf{Q}^\dagger$$
 Under the Route Law (`ProofQ_AlgebraicSyntax.md` §V), **squaring is the arrow into Asserting ($P, R$)**.
 
-Evaluating a closed loop forces the complex phase operator to square:
-$$h^2 = +|\mathbf{Q}|^2$$
-Equivalently $\mathbf{Q}^2 \to +|\mathbf{Q}|^2$ as a real-positive projection on $P$: squaring a phase-vector in the buffer lands a positive scalar recoil in the ledger. The vector components collapse, permanently extinguishing the phase and projecting an unsuppressed scalar entry onto the $P$-ledger.
+Evaluating a closed loop forces the complex phase vector to square:
+$$(h\mathbf{Q})^2 = h^2 \cdot \mathbf{Q}^2 = (-1)\left(-|\mathbf{Q}|^2\right) = +|\mathbf{Q}|^2$$
+Equivalently $(h\mathbf{Q})^2 \to +|\mathbf{Q}|^2$ as a real-positive projection on $P$: squaring the phase-vector in the buffer burns complex phase ($h^2 = -1$) and lands a positive scalar recoil in the ledger. The vector components collapse, permanently extinguishing the phase and projecting an unsuppressed scalar entry onto the $P$-ledger.
 
 The resulting scalar-scalar operator ($\bar{\chi}\chi \cdot \bar{q}q$) is not a new fundamental force; it is the **thermodynamic exhaust of the closed loop being forced through the XOR bottleneck**.
 
@@ -65,7 +65,7 @@ The factor $1/16\pi^2$ is the exact geometric conversion rate at which uncompile
 
 In flavor physics (LHCb, NA62), coupling a light mediator $a$ to heavy third-generation quarks ($b$) unavoidably induces Flavor-Changing Neutral Currents (FCNCs), driving rare meson decays ($B \to K a$, $K \to \pi a$). Standard physics models this via Minimal Flavor Violation (MFV) and CKM loop insertions.
 
-The $K_4$ grammar reads the same linkage structurally, but it is **not an edge traversal within one Hamiltonian cycle**. In `Q1-GenerationsOfMatter` §VI, the three generations are three distinct undirected Hamiltonian cycles of a single $K_4$. Each generation's $R$-pole is a quark of the Down-type class: $d$, $s$, $b$. These three quarks sit at *the same pole in the dual-binary register* but in *three different generation cycles*. They are not three vertices connected by edges of one cycle; they are the same vertex read in three different cycle-memberships.
+The $K_4$ grammar reads the same linkage structurally, and it is **not an edge traversal within one Hamiltonian cycle**. In `Q1-GenerationsOfMatter` §VI, the three generations are three distinct undirected Hamiltonian cycles of a single $K_4$—three choices of four edges out of six, each identified by the perfect matching it holds silent. Each generation's $R$-pole is a quark of the Down-type class: $d$, $s$, $b$. These three quarks sit at *the same pole in the dual-binary register* but in *three different generation cycles*. They are not three vertices connected by edges of one cycle; they are the same vertex read in three different cycle-memberships.
 
 The electroweak Cardinal plane $\{P\text{--}R, I\text{--}U\}$ is the pair of edges that implements the **intra-class flavor flip** within a generation: within Generation 1, the $P\text{--}R$ edge is the single $u \leftrightarrow d$ transition, and the $I\text{--}U$ edge is $\nu_e \leftrightarrow e$. This is where $\Delta\text{AY} = 0$ transitions live. A $b \to s$ transition changes neither $P$-pole nor $R$-pole identity; it changes which generation cycle is live. The transition between generations is not a Cardinal edge but a **jump between two Hamiltonian cycles that share the Cardinal plane as live edges** — the shared-plane skeleton of `Q1-GenerationsOfMatter` §VI's ADDRESS entry:
 
@@ -86,8 +86,6 @@ The physical $b \to s \to d$ cascade observed in rare-meson decays is a two-step
 ```
 
 A mediator cannot couple to an outer generation rung in isolation because a generation is not a free-standing scale; it is a cycle-membership of the same $K_4$ cell, and perturbing one cycle mixes it with its neighbors by the shared-plane skeleton. FCNC transitions ($b \to s \to d$) are the physical readout of inter-cycle mixing in the single $K_4$ spatial atom.
-
-**Earlier framing retired.** A previous version of this section called the three generations "concentric, nested Hamiltonian cycles" sharing "the identical R-pole vertex" and described flavor cascades as "cascading energy down the concentric rungs." That reading over-geometrizes: the three cycles are not nested; they are three choices of four edges out of six, each identified by the perfect matching it holds silent. The correct read is the shared-plane skeleton above.
 
 ---
 
@@ -126,43 +124,43 @@ $$\text{Low-mass end only: the Neutrino Floor } (\sigma_{\text{SI}} \sim 10^{-47
 
 ---
 
-## IV. The DAMA / Null-NaI Record: Re-Opened Before Retiring
+## IV. The DAMA / Null-NaI Record: Real vs. Reactive Open Decomposition
 
 For over twenty years, the DAMA/LIBRA experiment in Gran Sasso has recorded an $11\sigma$ statistically undeniable annual modulation signal in Sodium Iodide (NaI(Tl)) scintillation detectors matching Earth's heliocentric orbital period ($\omega_{\text{orbit}} = 2\pi / 1\text{ year}$). Earth's $\pm 30\text{ km/s}$ orbital speed projects onto the Sun's $\sim 220\text{ km/s}$ galactic motion to give a $\pm 15\text{ km/s}$ modulation of the laboratory's velocity through the galactic rest frame — the kinematic driver standard WIMP analyses use for modulation phenomenology.
 
 Concurrently, liquid Xenon time-projection chambers (XENONnT, LZ, PandaX-4T) set exclusion limits on spin-independent dark matter scattering several orders of magnitude below the DAMA parameter space, observing zero signal.
 
-**The 2025 closure of the same-material test.** COSINE-100 (Yangyang, South Korea) and ANAIS-112 (Canfranc, Spain) both use crystalline NaI(Tl) — the same target material as DAMA/LIBRA — and their combined 6-year analysis excludes DAMA's modulation signal at $4.7\sigma$ in the 1–6 keV range and $3.5\sigma$ in the 2–6 keV range (PRL 135, 121002, 2025). The naive reading that DAMA's signal is a general property of NaI crystals in the galactic Plenum — carried by the earlier version of this section — is removed by that measurement. The earlier framing that "crystalline NaI reads $\Delta Q$ because any ionic lattice is an active ZPE tension system" is retired here: ZPE in a crystal lattice is real (`ProofC_Crystal.md`, `L4-Thermodynamics` Facet 7), but it is not enough to explain why one site modulates and two others with the same target do not.
+**The 2025 same-material test.** COSINE-100 (Yangyang, South Korea) and ANAIS-112 (Canfranc, Spain) both use crystalline NaI(Tl) — the same target material as DAMA/LIBRA — and their combined 6-year analysis excludes DAMA's modulation signal at $4.7\sigma$ in the 1–6 keV range and $3.5\sigma$ in the 2–6 keV range (PRL 135, 121002, 2025). Zero-point energy in a crystal lattice is real (`ProofC_Crystal.md`, `L4-Thermodynamics` Facet 7), yet lattice reactance alone cannot explain why one site modulates while two others with the identical target do not.
 
-What stays open (and what this file now flags as ADDRESS, not resolution):
+Open decomposition (flagged as ADDRESS, not resolution):
 
-**DAMA's $11\sigma$ is persistent.** Treating the signal as experimental error begs the question of what the persistent reading is. The standard-WIMP hypothesis is one reading; the NaI(Tl)-reads-$\Delta Q$ reading was this file's earlier reading; neither survives the same-material null. The audit's own position (`audit/Q-audit-2026-11-10.md` finding 6) is that DAMA's modulation is a persistent reading of *something* — the open question is of what.
+**DAMA's $11\sigma$ is persistent.** Neither the standard-WIMP hypothesis nor bare crystal-lattice reactance survives the same-material null, leaving DAMA's modulation as a persistent empirical reading whose physical source remains open.
 
-**A decomposition the corpus can speak to.** The DAMA reading has at least three nested components, each of which the same-material test constrains differently:
+**A three-component decomposition.** The DAMA reading splits into at least three nested components, each constrained differently by the same-material test:
 
-1. **Target-material component (crystal).** Properties of NaI(Tl) itself: the lattice ZPE, the capacitive reactance of the ionic crystal, scintillation response. Any explanation that lives entirely at this level is now excluded by same-material-at-other-sites. The corpus's reading of a crystal lattice as an active $jX$ reactive network (`ProofC_Crystal.md`) remains intact at the material level but cannot be the whole story.
-2. **Site component.** Properties of Gran Sasso specifically — its depth, overburden composition, cosmic-ray veto, ambient neutron and radon flux, geological $^{40}\text{K}$ background. Something at the site, interacting with the material, could give a persistent signal that doesn't reproduce at other sites with the same material. The corpus doesn't yet speak to this component; it is left as an ADDRESS for a separate instrument.
-3. **Analysis component.** The DAMA/LIBRA pipeline: energy-threshold choice, background subtraction, bin definition, residual cuts, periodogram methodology. If the reading is a signature of analysis-specific residuals interacting with a genuine environmental periodicity, same-material same-analysis at other sites should reproduce it (and does not in COSINE-100 / ANAIS-112, which apply independent analyses). The corpus has no instrument for analysis-level residuals.
+1. **Target-material component (crystal).** Properties of NaI(Tl) itself: the lattice ZPE, the capacitive reactance of the ionic crystal, scintillation response. Any explanation living entirely at this level is excluded by same-material-at-other-sites. Reading a crystal lattice as an active $jX$ reactive network (`ProofC_Crystal.md`) remains intact at the material level without delivering the whole signal.
+2. **Site component.** Properties of Gran Sasso specifically — its depth, overburden composition, cosmic-ray veto, ambient neutron and radon flux, geological $^{40}\text{K}$ background. A site property interacting with the target material could yield a persistent signal absent at other sites with the same material; this component is left as an ADDRESS for a separate instrument.
+3. **Analysis component.** The DAMA/LIBRA pipeline: energy-threshold choice, background subtraction, bin definition, residual cuts, periodogram methodology. If the reading reflects analysis-specific residuals interacting with a genuine environmental periodicity, identical material with identical analysis elsewhere would reproduce it (whereas COSINE-100 and ANAIS-112 apply independent analyses). Analysis-level residuals sit outside this instrument.
 
-Where the corpus *can* speak now is the broader structural statement: the $S = P + jQ$ split between real-power and reactive-power readings of lab detectors is a distinction the architecture makes, and liquid-vs-crystal targets do sit on different sides of it. What the corpus **cannot** say — and the earlier section said — is that this split delivers DAMA. The null in the same-material test says that the $jQ$-in-the-crystal reading alone is insufficient; some site-level or analysis-level component must contribute to deliver a modulation at one site and not at two others. Register: **OPEN**, pending an instrument that separates (crystal) × (site) × (analysis).
+Where the framework speaks cleanly is the broader structural distinction: the $S = P + jQ$ split separates real-power from reactive-power detector responses, and liquid versus crystal targets sit on opposite sides of that split. It does not by itself deliver DAMA: the same-material null shows that crystal $jQ$ alone is insufficient, requiring a site-level or analysis-level contribution to produce modulation at one site and not at two others. Register: **OPEN**, pending an instrument separating (crystal) × (site) × (analysis).
 
 ### The Structural Observation that Survives
-The real/reactive distinction between liquid (no long-range lattice, reads scalar recoil heat $P$) and crystal (ionic lattice with ZPE $Q$) remains a legitimate distinction the architecture draws. Liquid Xenon correctly reports a null on $P = I^2R$ for pure-reactive scattering. A crystalline target carries an additional $jX$ response the liquid does not. What is retracted is the stronger claim that this architectural distinction alone delivers DAMA's specific site-specific modulation signal.
+The real/reactive distinction between liquid (no long-range lattice, reading scalar recoil heat $P$) and crystal (ionic lattice carrying ZPE $Q$) remains a valid structural partition. Liquid Xenon reports a null on $P = I^2R$ for pure-reactive scattering, while a crystalline target carries an additional $jX$ response the liquid lacks. That architectural distinction alone does not deliver DAMA's site-specific modulation signal.
 
 ---
 
 ## V. Pre-Registered Boundary Falsifiers
 
-Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this architecture is bounded by three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this architecture is bounded by three falsification conditions:
 
 1. **Spatial Invariance of the Neutrino Floor (low-mass regime):**
    If an ultra-sensitive direct detection experiment operated at low WIMP mass ($m_\chi \lesssim 10\text{ GeV}$) in a high-neutrino flux environment (e.g., adjacent to a gigawatt fission reactor core) measures an identical CE$\nu$NS background threshold ($\sigma_{\text{SI}} \sim 10^{-47}\text{ cm}^2$) to deep-underground Earth detectors without scaling with the local neutrino flux ($\Phi_\nu$), the identification of the low-mass neutrino floor with local solar $R_{\text{bg}}$ fails. (The claim is scoped to the regime where $^8\text{B}$ solar neutrinos set the floor; atmospheric and diffuse-supernova backgrounds are not predicted to scale with local reactor flux.)
-2. **DAMA Open Status:**
-   The earlier version of this file carried a strong kill condition: "observation of DAMA-type annual modulation in a pure liquid target with null scalar recoil refutes the $S = P + jQ$ lattice-reactance derivation." That kill condition is withdrawn with the derivation it tested. The DAMA reading itself is now an open item (§IV), and the falsifier is replaced by its decomposition: a confirmation of a site-specific environmental periodicity at Gran Sasso that reproduces in a differently-sited NaI(Tl) detector at the same latitude and depth would recover the material-level reading; its absence is already consistent with COSINE-100 / ANAIS-112 at different depths and latitudes.
+2. **DAMA Site vs. Material Decomposition (§IV Open Item):**
+   Confirmation of a site-specific environmental periodicity at Gran Sasso reproducing in an independent NaI(Tl) detector at matching latitude, depth, and overburden would isolate the site-coupled material response (consistent with COSINE-100 and ANAIS-112 at differing depths and latitudes); conversely, observation of DAMA-type annual modulation in a pure liquid target with null scalar recoil would falsify the $S = P + jQ$ liquid-versus-crystal reactance distinction itself.
 3. **Flavour-Changing Neutral Currents Violating the Cardinal Plane / Shared-Plane Structure:**
    If a light mediator particle ($a$) is discovered that couples to third-generation quarks ($b$) with zero induced couplings to second-generation ($s$) or first-generation ($d$) quarks — i.e., the inter-cycle mixing specified by the shared-plane skeleton of `Q1-GenerationsOfMatter` §VI fails to appear — the $K_4$ inter-generation routing is broken.
 
-The loop integral burns phase into heat. The Cardinal plane routes intra-class flips; the shared-plane skeleton routes inter-generation cascades. The liquid reads the recoil, the crystal carries the $jX$; what delivers the DAMA signal specifically is now re-opened.
+The loop integral burns phase into heat. The Cardinal plane routes intra-class flips; the shared-plane skeleton routes inter-generation cascades. The liquid reads the recoil, the crystal carries the $jX$, and the DAMA modulation remains an open decomposition across crystal, site, and analysis contributions.
 
 ---
 

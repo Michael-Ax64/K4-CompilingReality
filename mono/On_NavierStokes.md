@@ -73,6 +73,8 @@ The $U$ and $R$ floors are physical structure the continuum idealization removes
 | Knudsen | $n \approx 22$ | $\sim 2.4\ \mathrm{nm}$ |
 | Circulation | $n \sim Re_{\Gamma,0}$ | far below either |
 
+*(Scope pin: deep stage counts past $n \approx 7$ apply strictly to a locally focusing core of shrinking active length rather than to a global material tube; §III.)*
+
 The causal floor binds **eleven doublings before** the molecular floor — a factor of two thousand in scale. The standard account of why real fluids do not blow up reaches for molecular structure. Molecular structure is the *second* line of defence and it is never called upon, because the core goes sonic and shocks long before it approaches the mean free path.
 
 Which means the deletion in line one is not a minor idealization ahead of a major one. It removes the floor that actually operates.
@@ -94,6 +96,8 @@ $$\Delta E_n = \nu\,\Omega_n\,\Delta t_n \sim \nu\,\frac{\Gamma_n^2 L_n}{r_n^2}\
 **The radius cancels exactly.** The energy a vortex burns per turnover depends on viscosity, circulation, and length — not on how thin it has become. Dimensionally $L^5/T^2$, energy per unit density, as required.
 
 This is a fixed amount per stage rather than a fixed fraction, and the difference matters against a closed budget. Under material-tube incompressibility, $r_n^2 L_n$ is conserved, so $r_n \to 0$ forces $L_n \sim L_0\lambda^{2n}$ and the tax rises geometrically. The tube is not merely getting thinner; it is getting more expensive to run.
+
+**Scope split: global material tube vs. locally focusing core.** For the water parameters in §II ($Re_{\Gamma,0} = 10^4$, $\lambda = 2$), cumulative dissipation on a global material tube ($\sum_{k=0}^n \nu\Gamma_0 L_0 4^k \sim E_0 \cdot 4^{n+1}/(3 Re_{\Gamma,0})$) exhausts the initial energy $E_0$ near **stage 7**. Deep stage counts ($n \gg 7$, out to $n_* \sim Re_{\Gamma,0}$) therefore belong strictly to a **locally focusing core of shrinking active length** $L_{\text{act},n}$—a measure-zero pinch whose energy increment $\Delta E_n = \nu\Gamma_n L_{\text{act},n}$ remains summably bounded against $E_0$, while its circulation decrement $\Delta\Gamma_n \sim \nu$ stays radius-independent (§IV). The axial scaling $\mu = \lambda^2$ holds for global material tubes, not for the shrinking focusing sub-length $L_{\text{act},n}$ (§VII.10). That the focusing core remains measure-zero (with summably bounded $L_{\text{act},n}$) is **assumed** here as the coherent-pinch scaling ansatz—consistent with Caffarelli–Kohn–Nirenberg's measure-zero singular-set bound (§VIII), rather than derived from the Navier–Stokes PDE for a specific cascade.
 
 **The sheet gives the same exponent.** Numerical work on colliding antiparallel vortices produces sheets rather than tubes at the collision plane. Take thickness $h_n \sim \lambda^{-2n}$ compressing under the negative strain eigenvalue, width and length $\sim\lambda^n$ spreading under the two positive ones — volume conserved, incompressibility satisfied. Then $\omega_n \sim u_0/h_n \sim \lambda^{2n}$, enstrophy $\sim\lambda^{4n}\cdot\text{Vol} \sim \lambda^{4n}$, and with $\Delta t_n \sim \lambda^{-2n}$:
 
@@ -208,7 +212,7 @@ Several approaches to this problem are natural, reachable, and wrong. Each is wo
 
 **The algebra forbids unforced actualization.** An appealing move within the framework: unforced flow has no external $P$-source, the Synthesis Law says Active poles cannot be built from Reactive ones, therefore infinite dissipation rate is algebraically impossible. This contradicts one of the twelve equations. $P = I^2R$ says precisely that reactive current through a resistance mints real power — that is what dissipation *is*, and every dissipative system does it without external drive. The correct content of "unforced systems cannot dissipate infinitely" is $\int P\,dt \le E_0$, which is Leray's inequality and adds nothing. Dressing a known result in framework vocabulary and treating the vocabulary as the argument is the failure mode the corpus names as pattern-matching on trigger words; it is worth noting that the framework-native route was the one that produced the framework-violating claim.
 
-**A feasibility interval between two exponents.** Parameterize the cascade by transverse contraction $\lambda$ and axial elongation $\mu$, impose finite energy as a lower bound on $\mu$ and a proportional dissipation tax as an upper bound, and ask whether the interval is non-empty. Two things kill it. The tax is a fixed amount per stage, not a fixed fraction — §III — and the two behave completely differently against a closed budget. And $\mu$ is not free: incompressibility on a material tube fixes $\mu = \lambda^2$ exactly, so there was never an interval to be non-empty. The direction of the energy bound on $\mu$, incidentally, remains underived; it is not needed.
+**A feasibility interval between two exponents.** Parameterize the cascade by transverse contraction $\lambda$ and axial elongation $\mu$, impose finite energy as a lower bound on $\mu$ and a proportional dissipation tax as an upper bound, and ask whether the interval is non-empty. Two things kill it. The tax is a fixed amount per stage, not a fixed fraction — §III — and the two behave completely differently against a closed budget. And $\mu$ is not free: incompressibility on a material tube fixes $\mu = \lambda^2$ exactly (holding only for global material tubes, which exhaust $E_0$ near stage 7; deep focusing stages rely instead on a shrinking active pinch length $L_{\text{act},n}$, §III), so there was never an interval to be empty. The direction of the energy bound on $\mu$, incidentally, remains underived; it is not needed.
 
 ---
 
@@ -285,4 +289,4 @@ The framework did not compute anything a fluid dynamicist could not have compute
 
 ---
 
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.

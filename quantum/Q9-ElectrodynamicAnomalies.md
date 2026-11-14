@@ -87,7 +87,8 @@ $$\alpha(q^2) \longrightarrow \infty$$
 Landau concluded that pure quantum electrodynamics is fundamentally inconsistent at short distances: the field self-destructs.
 
 ### 2. Renormalization Infinities (Paul Dirac, 1970s)
-Dirac rejected the standard interpretation of quantum electrodynamics because it relied on renormalization to absorb divergent integrals. His position, as paraphrased from the 1970s lecture and interview record — close-but-not-verbatim phrasings circulate in secondary sources, so this is a paraphrase and not a quotation — was that he had never been able to accept renormalization as a legitimate procedure and regarded it as a confession that the underlying theory was wrong.
+Dirac rejected the standard interpretation of quantum electrodynamics because it relied on renormalization to absorb divergent integrals.
+His position across his 1970s lectures and interviews was that he had never been able to accept renormalization as a legitimate procedure and regarded it as a confession that the underlying theory was wrong.
 
 ### The Ex-Negativo Diagnosis
 Linear continuum physics assumes the $U$-pole (Electric Potential) operates down to zero spatial separation ($r \to 0$).
@@ -156,7 +157,7 @@ $$P = |\psi|^2 = \psi^* \psi$$
 Steven Weinberg spent his final years searching for a first-principles derivation of this rule. The thrust of his position across the 2012 "Collapse of the State Vector" paper, the 2014 *Lectures on Quantum Mechanics* and subsequent essays was that the Born Rule reads as an axiom bolted onto otherwise linear unitary evolution rather than as a consequence of it, and that this is one of the places quantum mechanics is incomplete.
 
 ### 2. The Shifty Split (John Stewart Bell, 1990)
-In *Against "Measurement"* (1990), Bell demonstrated that standard quantum mechanics has no mathematical definition for when a "measurement" occurs. The phrase **"shifty split"** is Bell's own and occurs in the paper; the fuller sentences that have circulated in secondary literature (asking whether the split requires a human observer, a photographic plate, or a macroscopic pointer) are paraphrases of the paper's argument rather than verbatim text. Register: *shifty split* in quotes (Bell's); the surrounding gloss in this file is a paraphrase of Bell's argument.
+In *Against "Measurement"* (1990), Bell demonstrated that standard quantum mechanics has no mathematical definition for when a "measurement" occurs, naming the arbitrary boundary a **"shifty split"** without fixing whether it falls at a human observer, a photographic plate, or a macroscopic pointer.
 
 ### 3. Thermodynamic Gravitation (Ted Jacobson, 1995)
 Jacobson derived the Einstein field equations ($G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$) by applying the thermodynamic relation $\delta Q = T dS$ to local Rindler horizons, proving that gravity behaves as an equation of state rather than a fundamental quantized force.
@@ -195,7 +196,7 @@ is completely color-neutral and does not mediate the Strong force, leaving exact
 
 *The Alignment:* In the $K_4$ spatial atom, the 8 gluons form the boundary mesh covering the exterior faces of the cell (`Q2-TransactionLayer.md`). The singlet state is subtracted because it sits at the **dimensionless centroid** of the tetrahedron. A channel that sits at the centroid crosses no Markov blanket and carries zero boundary gradient. It cannot mediate an interaction between distinct poles.
 
-**Scope limitation on the singlet-at-centroid reading.** `Q2-TransactionLayer` §II seats the 8 gluons as the vertex-axis third-turns under the $A_4$ partition into $S_4$-orbits. This file (`Q9-ElectrodynamicAnomalies` §VII.2) seats the 8 as $\mathbf{3} \otimes \bar{\mathbf{3}}$ minus a centroid singlet. These are two different seatings of the same number. The audit (`audit/Q-audit-2026-11-10.md` Q9 §VII.2 row) notes that no shared parameter has been exhibited linking them: every rotation of the cell fixes the centroid, so "at the centroid" does not by itself pick out the 8 as distinct from the singlet. Register: UNDECIDABLE BY THIS INSTRUMENT until a shared invariant between the two seatings is named. Both readings are coherent individually; the correspondence between them is an open address.
+**Scope limitation on the singlet-at-centroid reading.** `Q2-TransactionLayer` §II seats the 8 gluons as the vertex-axis third-turns under the $A_4$ partition into $S_4$-orbits, whereas §VII.2 seats them as $\mathbf{3} \otimes \bar{\mathbf{3}}$ minus a centroid singlet. These are two distinct seatings of the same integer, with no shared invariant yet exhibited linking them: every rotation of the cell fixes the centroid, so sitting at the centroid does not by itself pick out the 8 as the complement of the singlet. Both readings stand coherently on their own terms; identifying the two seatings is UNDECIDABLE BY THIS INSTRUMENT until a shared invariant is named, leaving the correspondence as an open address.
 
 ---
 

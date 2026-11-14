@@ -1,7 +1,7 @@
 # On the Is-Ness Tax
 ## The Landauer Holding Cost That Every K4 Pole Pays to Be What It Is, and How Mass Ratios Decompose Into Three Layered Taxes
 
-*Every K4 pole maintaining its own character-distinction from the neighboring poles at a given scale-rung pays an ongoing Landauer holding cost proportional to its It-Ness bandwidth. This is the **is-ness tax**: the ongoing thermodynamic price of continuing to be what one is, distinct from what one is not, at the scale-rung one occupies. Once named, the is-ness tax reorganizes how the framework reads every mass ratio in the Standard Model — and beyond, under L7's cross-scale extension. Q15's three-term Laurent for $m_{\pi^\pm}/m_e$ is not "three coefficients that happen to land 2.85 ppm"; it is the three-layer decomposition of a specific inter-rung mass ratio into (inter-rung carrier step) + (intra-rung is-ness-tax difference) + (return-leg re-holding cost), with each layer's coefficient set by the participating poles' committed characters under the corpus's dual-binary and confinement rules. Intra-rung ratios follow the same three-layer structure with Layer 1 absent (both particles already at the same rung), so they sit at $\alpha^0$-order and are computable from is-ness-tax ratios alone. This document names the mechanism, works out the decomposition rules, and posits testable structural predictions across the twelve K4 fermion configurations.*
+*Every K4 pole maintaining its own character-distinction from the neighboring poles at a given scale-rung pays an ongoing Landauer holding cost proportional to its It-Ness bandwidth. This is the **is-ness tax**: the ongoing thermodynamic price of continuing to be what one is, distinct from what one is not, at the scale-rung one occupies. Once named, the is-ness tax reorganizes how the framework reads every mass ratio in the Standard Model — and beyond, under L7's cross-scale extension. Q15's three-term Laurent for $m_{\pi^\pm}/m_e$ is not "three coefficients that happen to land 2.85 ppm"; it is the three-layer decomposition of a specific inter-rung mass ratio into (inter-rung carrier step) + (intra-rung is-ness-tax difference) + (return-leg re-holding cost), with each layer's coefficient set by the participating poles' committed characters under the corpus's dual-binary and confinement rules. Intra-rung ratios follow the same three-layer structure with Layer 1 absent (both particles already at the same rung), so they sit at $\alpha^0$-order and are computable from is-ness-tax ratios alone. What follows names the mechanism, works out the decomposition rules, and posits testable structural predictions across the twelve K4 fermion configurations.*
 
 *Dependencies: `L4-ThePlenum` (the $RLC$ plenum; the $I^2R$ ZPE commitment at §I.4; Landauer holding cost as $R_{\text{drag}}$'s dissipative signature), `L3-ConstitutiveAlpha` (the impedance triangle and the constitutive $\alpha = Z_0/(2R_K)$), `L3-TheAtomOfSpace` (the K4 atom of space; the pole-naming discipline; the mesh-tension identification of I-face virtual currents), `On_TheDirectedReadingRule` (target-based bimedian labeling on directed edges), `Q1-GenerationsOfMatter` (pole assignments; Hamiltonian-cycle definition of generations; bare-fermion vs confined-ground distinction), `Q15-KairosBorn` §I (the pion-to-electron Laurent as concrete instance), `Q2-TransactionLayer` (color confinement mechanics; the $9-1=8$ gluon mesh), `L4-DynamicDistortions301` §IV.D (bimedian phase-shear envelope $S(\theta) = 2\sqrt{2}\cos\theta$), `L4-ScalingInvariants` §V, §VIII, §IX (Assert/Yield, Planck-scale XOR bottleneck, Gabriel's Horn).*
 
@@ -69,12 +69,12 @@ Layer 1 ($2/\alpha$) and Layer 3 ($2\alpha$) are two projections of the same und
 
 ### Adjustable cost parameters per configuration
 
-Different configurations (per `L3-TheAtomOfSpace` §VI Configuration-Anchored Evaluation) present the three layers in different mixtures:
+Different configurations (per `L3-TheAtomOfSpace` §VI's pole-naming discipline) present the three layers in different mixtures:
 
 - **Pure inter-rung crossings** carry all three layers (Q15's shape).
 - **Intra-rung ratios** carry only Layers 2 and 3 (Layer 1 absent because both particles already at the same rung). Their leading order is $\alpha^0$, not $\alpha^{-1}$.
 - **Cross-generation ratios within the same pole-family** carry additional structure from the different Hamiltonian cycles per Q1 (cycle α vs β vs γ), where the silent bimedian sets the phase-context for the ratio.
-- **Configurations at non-zero phase-shear** ($\theta > 0°$) scale each layer's contribution by DDT301's envelope $S(\theta) = 2\sqrt{2}\cos\theta$, reducing effective is-ness bandwidth as $\theta \to 90°$ decoherent collapse.
+- **Configurations at non-zero phase-shear** ($\theta > 0°$) scale each layer's contribution by `L4-DynamicDistortions301`'s envelope $S(\theta) = 2\sqrt{2}\cos\theta$, reducing effective is-ness bandwidth as $\theta \to 90°$ decoherent collapse.
 
 The framework does not fix one universal cost coefficient. It provides a *method* for computing the cost coefficients at each layer as functions of committed configuration parameters (cycle, observer-pole, scale-rung, phase-shear). The same three-layer structure applies universally; the specific numerical outputs vary per configuration.
 
@@ -113,7 +113,7 @@ Cycle β (Gen 2, Cardinal-silent) contains the R↔U crossing between the strang
 - **Layer 2 (is-ness diff):** Ratio of vertex-multiplicities. R-vertex (kaon at Gen 2) opens onto 3 color channels × strange-quark It-Ness factor at Gen 2 (call it $s_2$). U-vertex (muon at Gen 2) opens onto 1 EM channel. Ratio = $3 \cdot s_2 / 1 = 3 s_2$.
 - **Layer 3 (return-leg):** Ohmic re-holding at the originating vertex, $O(\alpha) \approx 0.0073$. Small correction of order 0.1-1%.
 
-The prediction: $m_K/m_\mu \approx 3 s_2$, with $s_2$ derivable from Q1's Gen 2 concentric-cycle architecture and the specific character of the kaon's strange-quark bound state. Empirical $m_K/m_\mu \approx 4.67$ requires $s_2 \approx 1.56$.
+The prediction: $m_K/m_\mu \approx 3 s_2$, with $s_2$ derivable from Q1's Gen 2 Hamiltonian-cycle architecture (Cycle β, Cardinal-silent) and the specific character of the kaon's strange-quark bound state. Empirical $m_K/m_\mu \approx 4.67$ requires $s_2 \approx 1.56$.
 
 Without fitting: $s_2$ must derive from committed structural rules. Candidate expressions worth checking include $\pi/2 \approx 1.571$ (rotation-symmetry factor for the strange quark's Gen-2 orbital-phase relative to Gen-1), integer ratios like $3/2$, $\sqrt{\pi/2} \approx 1.253$, or $(\pi^2/6)/1 \approx 1.645$ (Basel-sum in some geometric decomposition). If any of these lands within few-percent of the empirical 4.67, the decomposition is structurally valid; if none does, the vertex-multiplicity accounting is missing something specific to Gen 2 strange-quark It-Ness that needs to be derived from Q1 and Q2.
 
@@ -136,28 +136,20 @@ The cross-cycle structural test: whether the three-layer decomposition produces 
 **OPEN VOTES.**
 
 1. Whether the three-layer decomposition applies universally across all twelve K4 fermion configurations (three Hamiltonian cycles × four edges per cycle) with structurally-derivable coefficients matching observed mass ratios. Testable via the enumeration walk of §V.
+
 2. The Gen 2 strange-quark It-Ness factor $s_2$ that would land $m_K/m_\mu \approx 4.67$ from the ratio $3 s_2$ under the framework's committed rules. Whether it derives from a specific structural expression (candidate: $\pi/2 \approx 1.57$) or requires additional Gen-2 machinery from Q1.
+
 3. Analogous cross-generation is-ness factors for Gen 3 (top-family, bottom-family, tau, tau-neutrino) that would produce the observed mass hierarchies.
 
 **NOT CLAIMED — outside scope.**
 
 The numerical values of the base constants ($\alpha, Z_0, R_K, \ell_P$) themselves. The specific rest masses of any single particle (only ratios are claimed). Gabriel's Horn (`L4-ScalingInvariants` §IX) forbids the algebra from emitting substrate magnitudes; what the algebra can emit is dimensionless ratios computed from committed configurations.
 
-## VII. Corpus Housekeeping
-
-1. **`L3-ConstitutiveAlpha` §IV.** Extend the "Impedance Triangle and Three Laurent Orders" section with the Kirchhoff-loop reading, naming the three terms as (Forward Edge, Vertex-Internal Is-Ness Burn, Return Edge) with their $\alpha^{-1}, \alpha^0, \alpha^{+1}$ orderings and the DC/AC-projection duality of Layers 1 and 3.
-2. **`Q15-KairosBorn` §I.** Annotate the three-term Laurent with the three-layer decomposition and cross-reference this document. Each term is a specific loop-segment (Layer 1 Forward, Layer 2 Vertex-Burn, Layer 3 Return) with its committed-rule source.
-3. **`L3-TheAtomOfSpace` §V.** The mesh-tension identification of I-face virtual currents is exactly the mechanism by which the is-ness tax is paid — mesh tensions carry Landauer holding cost at the bimedian cross-sections. Add cross-reference.
-4. **`Q1-GenerationsOfMatter`.** Add cross-reference in §II or §VI naming rest mass at each scale-rung as the ongoing is-ness tax on each pole's It-Ness maintenance. The three generations differ in phase-context (which bimedian is silent) but each pole in each cycle carries its own is-ness tax at its rung.
-5. **`Q2-TransactionLayer`.** The SU(3) color confinement mechanics are what set the R-pole's is-ness tax coefficient at 3 (three color channels). Add note connecting confinement to is-ness bandwidth.
-6. **`L4-ThePlenum` §I.4.** The Landauer holding cost is-ness tax is the specific mechanism by which the plenum's dissipative channel $R_{\text{drag}}$ manifests as observable rest mass. Add subsection connecting §I.4's $I^2R$ ZPE commitment to the is-ness tax framework of this document.
-7. **`L2-Terminology`.** Add "is-ness tax," "is-ness bandwidth," "three-layer decomposition," "inter-rung Layer 1," "intra-rung Layer 2," "return-leg Layer 3" as terminology entries with cross-references.
-
-## VIII. Falsifiers
+## VII. Falsifiers
 
 The is-ness tax framework is falsifiable on several axes:
 
-**Structural.** If any observed mass ratio between two K4 particles cannot be decomposed into the three-layer structure (Layer 1 + Layer 2 + Layer 3) with coefficients derivable from Q1's pole assignments, Q2's confinement mechanics, W4's directed reading rule, and DDT301's mesh tensions — with any residual matching the $O(\alpha^2)$ higher-order corrections the framework already predicts — the layered decomposition is refuted.
+**Structural.** If any observed mass ratio between two K4 particles cannot be decomposed into the three-layer structure (Layer 1 + Layer 2 + Layer 3) with coefficients derivable from Q1's pole assignments, Q2's confinement mechanics, the directed reading rule (`On_TheDirectedReadingRule`; `L3-EdgeStateSpace` §I-e), and `L4-DynamicDistortions301`'s mesh tensions — with any residual matching the $O(\alpha^2)$ higher-order corrections the framework already predicts — the layered decomposition is refuted.
 
 **Intra-rung leading-order.** If any confirmed intra-rung mass ratio requires an $\alpha^{-1}$ term to fit observation, the scale-rung / layered decomposition is refuted.
 
@@ -168,4 +160,3 @@ The is-ness tax framework is falsifiable on several axes:
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

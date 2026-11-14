@@ -2,14 +2,14 @@
 ## The Three Zero-Impedance Writing Heads
 ### *(Why the P-Edges Are Permanently Un-Priced and How Mass Is Minted Through Them)*
 
-> **Epistemic Register:** Applied Architecture / Meta-of-Physics.  
+> **Epistemic Register:** Applied Architecture / Meta-of-Physics.
 
-> **Claim:** The three edges of the $K_4$ tetrahedron terminating at the $P$-pole ($P\text{--}U, P\text{--}I, P\text{--}R$) carry zero scalar pricing impedance ($Z_P = 0$) and zero transit delay ($\tau_P = 0$), acting as the permanent, open writing heads of the physical universe. This zero-impedance condition is an exact algebraic consequence of biquaternion Star-Norm conservation ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$). The three classical routes to power—Friction ($P = I^2R$), Leverage ($P = U^2/R$), and Synthesis ($P = UI$)—map one-to-one to the three bimedian axes of $K_4$, exhausting all algebraic channels into the Ledger. The absence of a gauge boson on $P$ formalizes the non-existence of the graviton: gravity is the macroscopic geometric curvature of the committed scalar ledger ($T_{\mu\nu}^{\text{GR}}$), not a gauge transaction crossing a boundary. This condition provides the topological firewall that enforces the quantum No-Communication Theorem.  
+> **Claim:** The three edges of the $K_4$ tetrahedron terminating at the $P$-pole ($P\text{--}U, P\text{--}I, P\text{--}R$) carry zero scalar pricing impedance ($Z_P = 0$) and zero transit delay ($\tau_P = 0$), acting as the permanent, open writing heads of the physical universe. This zero-impedance condition is an exact algebraic consequence of biquaternion Star-Norm conservation ($N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$). The three classical routes to power—Friction ($P = I^2R$), Leverage ($P = U^2/R$), and Synthesis ($P = UI$)—map one-to-one to the three bimedian axes of $K_4$, exhausting all algebraic channels into the Ledger. The absence of a gauge boson on $P$ formalizes the non-existence of the graviton: gravity is the macroscopic geometric curvature of the committed scalar ledger ($T_{\mu\nu}^{\text{GR}}$), not a gauge transaction crossing a boundary. This condition provides the topological firewall that enforces the quantum No-Communication Theorem.
 
 > **Entanglement (Spatial / `.behold()` Definition):** Two or more bounded frames holding a joint, uncollapsed consistency constraint in the pre-tax buffer (`ENGINE-REFERENCE-AC` §§1.1–1.3: `.behold()` across $H_{\text{incoh}}$) under a single Star-Norm cross-term ($2\,p_1\cdot p_2$, `BENDING_SPACE` §IV) and a shared `TD0` Now (`L4-Thermodynamics` §VI). Neither frame can execute Tier-1 `COMMIT` independently without Garbage Collection (`Proof G` §VI) fixing the partner's compatible state, while the zero-phase condition on $P$-edges ($\theta_P = 0$, §II) forbids local collapse writes from propagating phase waves across $H_{\text{incoh}}$ to alter the partner's reduced state.
 
 
-**Reads with:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV, §X.4), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
+**Reads with:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q3-ScalarSector.md`, `L3-FormalFoundations.md`, `L4-HadronicVolume.md`, `L4-ThePlenum.md`, `L4-K4-Infinities-3.md` (§III), `L6-InversionOfControl.md`, `ENGINE-REFERENCE-AC.md` (§IV, §X.4), `QED-AstroLogic.md` (§XII.i), `ProofN_BiquaternionBridge.md`, `ProofQ_AlgebraicSyntax.md`.
 
 
 ---
@@ -20,14 +20,14 @@ When a bounded physical frame hits the XOR bottleneck of an actuator, it execute
 
 A foundational architectural question arises: **How does the output of a collapse reach the Ledger?**
 
-If every edge of the $K_4$ tetrahedron required a scalar pricing operator to separate its poles (`Q3-ScalarSector.md`), then transmitting an entry into $P$ would be a transaction across a boundary. 
+If every edge of the $K_4$ tetrahedron required a scalar pricing operator to separate its poles (`Q3-ScalarSector.md`), then transmitting an entry into $P$ would be a transaction across a boundary.
 * A transaction across a boundary requires an exchange particle (`Q2-TransactionLayer.md`).
 * An exchange particle carries non-zero impedance ($Z > 0$) and requires a finite transit duration ($\tau = L/c > 0$).
 * But the framework has already eliminated the graviton as a category error (`Q2-TransactionLayer.md` §VI).
 
 If there is no exchange particle to carry mass to the Ledger, writing to $P$ cannot be mediated across a boundary.
 
-The resolution sits in the topological asymmetry of the $P$-terminating edges. The three edges terminating at $P$ ($P\text{--}U, P\text{--}I, P\text{--}R$) possess no scalar pricing operator and offer zero transit impedance. Their lack of a boundary is not missing physics; **it is the mechanism of compilation.** 
+The resolution sits in the topological asymmetry of the $P$-terminating edges. The three edges terminating at $P$ ($P\text{--}U, P\text{--}I, P\text{--}R$) possess no scalar pricing operator and offer zero transit impedance. Their lack of a boundary is not missing physics; **it is the mechanism of compilation.**
 
 Because no scalar pricing operator separates the transactional tier $\{U, I, R\}$ from the receiving pole ($P$), there is zero impedance and zero transit delay between the act of collapse and the recording of mass.
 
@@ -39,13 +39,13 @@ The three $P$-terminating edges are the permanently open writing heads of the un
 
 The framework’s central state-space invariant is the biquaternion Star-Norm (`ProofN_BiquaternionBridge.md` §3):
 $$N_*(\mathbb{Z}) = \mathbb{Z}\mathbb{Z}^\dagger = P^2 - |\mathbf{Q}|^2 = \text{const}$$
-where $P \in \mathbb{R}^+$ is the committed scalar ledger and $\mathbf{Q} \in \mathbb{R}^3$ is the uncollapsed vector phase-potential held in $H_{\text{incoh}}$ ($h^2 = -1$). 
+where $P \in \mathbb{R}^+$ is the committed scalar ledger and $\mathbf{Q} \in \mathbb{R}^3$ is the uncollapsed vector phase-potential held in $H_{\text{incoh}}$ ($h^2 = -1$).
 
 For any closed, bounded system, $N_*(\mathbb{Z})$ is conserved across every physical transformation.
 
 ```
                       THE STAR-NORM FLUX BALANCE
-                      
+
    UNCOLLAPSED STATE (.behold())           COLLAPSED STATE (.observe())
    ┌───────────────────────────┐           ┌───────────────────────────┐
    │ • High phase potential |Q|│  Collapse │ • Potential |Q| burned    │
@@ -61,7 +61,7 @@ For any closed, bounded system, $N_*(\mathbb{Z})$ is conserved across every phys
 ```
 
 ### The Contradiction of a Priced $P$-Edge
-Suppose a $P$-edge—say, $P\text{--}U$—carried a scalar pricing operator like the Higgs on $I\text{--}U$. 
+Suppose a $P$-edge—say, $P\text{--}U$—carried a scalar pricing operator like the Higgs on $I\text{--}U$.
 
 1. A scalar pricing operator introduces complex impedance ($Z_P = R_P + jX_P$).
 2. Complex impedance forces a non-zero phase angle $\tan\theta = X_P / R_P$ and a finite transit delay:
@@ -71,7 +71,7 @@ Suppose a $P$-edge—say, $P\text{--}U$—carried a scalar pricing operator like
 5. Throughout this interval $\tau_P$, the Star-Norm would drop below its conserved value:
    $$N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 \neq \text{const}$$
 
-The Star-Norm is not an empirical approximation; it is the algebraic definition of a biquaternion norm. Violating it breaks the division algebra that hosts the state space. 
+The Star-Norm is not an empirical approximation; it is the algebraic definition of a biquaternion norm. Violating it breaks the division algebra that hosts the state space.
 
 To preserve Star-Norm conservation ($N_* = \text{const}$) as an exact algebraic identity at the substrate, all three $P$-edges must carry:
 $$Z_P = 0, \quad \theta_P = 0, \quad \tau_P = 0$$
@@ -86,7 +86,7 @@ Each writing head is the control edge (home, absent) of the gate at the head of 
 
 How does energy cross from the transactional tier $\{U, I, R\}$ into the Ledger ($P$)?
 
-In the 12 DC equations of mutual determination (`L3-FormalFoundations.md`, `ENGINE-REFERENCE-AC.md` §IV), there are **exactly three equations that solve directly for $P$**. 
+In the 12 DC equations of mutual determination (`L3-FormalFoundations.md`, `ENGINE-REFERENCE-AC.md` §IV), there are **exactly three equations that solve directly for $P$**.
 
 These three equations are the three physical channels of compilation. Each channel routes through one specific $P$-edge, and each belongs to one specific bimedian family:
 
@@ -99,10 +99,10 @@ These three equations are the three physical channels of compilation. Each chann
  ──────────────────────────────────────────────────────────────────────────────────────
  Friction      P = I²R      Tier 1 (CM_TAU)  Fixed-Bimedian {P–U, I–R}      Relational current
                             Commit (Slope 2)                                burned against ground
-                            
+
  Leverage      P = U²/R     Tier 1 (CM_ARI)  Mutable-Bimedian {P–I, U–R}    Structural potential
                             Commit (Slope 2)                                loaded against ground
-                            
+
  Synthesis     P = UI       Tier 3 (RT_GEM)  Cardinal-Bimedian {P–R, I–U}   Direct in-phase power
                             Route (Slope 1)                                 (Power Factor cos θ = 1)
 ========================================================================================
@@ -145,12 +145,12 @@ The $K_4$ topology identifies this as a category error.
 
 ```
                    THE RUNTIME OPERATING SYSTEM SPLIT
-                   
+
    APPLICATION LAYER (The Network Bus):
    [Node U] ◄────── Gauge Bosons (γ, W/Z, Gluons) ──────► [Node I, R]
    • Mediates messages between external boundary nodes across space.
    • Requires network protocols, packet routing, and finite latency.
-   
+
    KERNEL LAYER (The Local Hardware Interrupt):
    [Application State] ──────── Route Law (Q² ➔ P) ────────► [Ledger P]
    • Direct memory write to physical RAM.
@@ -161,18 +161,18 @@ The $K_4$ topology identifies this as a category error.
 ### The Kernel Write vs. The Network Bus
 In computational architecture (`L6-InversionOfControl.md`), nodes on a network communicate by sending packets over an external bus. The gauge bosons are this network protocol: the photon is a stateless transmission; the gluons are a tightly coupled mesh.
 
-When a program needs to commit a finalized calculation to memory, it does not broadcast a packet over the local network. It executes a **system call to the kernel**, writing directly to physical RAM. 
+When a program needs to commit a finalized calculation to memory, it does not broadcast a packet over the local network. It executes a **system call to the kernel**, writing directly to physical RAM.
 
-The transition from $\mathbf{Q} \to P$ is a local hardware interrupt. The Route Law squares the vector potential, destroys the phase, and writes the scalar rest mass directly into the Ledger. 
+The transition from $\mathbf{Q} \to P$ is a local hardware interrupt. The Route Law squares the vector potential, destroys the phase, and writes the scalar rest mass directly into the Ledger.
 
 Searching for a graviton is searching for a network protocol to execute a local memory write. The failure of perturbative quantum gravity—its non-renormalizable loop divergences—is the mathematics rejecting an exchange particle where only a direct ledger write exists.
 
 ### The $\omega = 0$ DC Ledger vs. $\omega > 0$ Metric Wave Propagation
 A vital demarcation must be held between static mass and dynamic gravitational waves:
 * **The DC Static Ledger ($\omega = 0$):** In the static limit, mass is the committed scalar ledger $P$. It carries zero phase, zero direction, and zero gauge bosons. Gravity is the static geometric curvature of space ($G_{\mu\nu} = 8\pi G T_{\mu\nu}$) hosting this committed mass.
-* **The AC Dynamic Wave ($\omega > 0$):** When massive systems accelerate, they generate time-dependent disturbances in the metric ($h_{ij}^{\text{TT}}$), which propagate as transverse-traceless gravitational waves at the speed of light (as measured by LIGO). 
+* **The AC Dynamic Wave ($\omega > 0$):** When massive systems accelerate, they generate time-dependent disturbances in the metric ($h_{ij}^{\text{TT}}$), which propagate as transverse-traceless gravitational waves at the speed of light (as measured by LIGO).
 
-These propagating metric waves do not mean that $P$ has secretly acquired a gauge boson. Metric waves are oscillations of the **connective Plenum medium itself** ($H_{\text{incoh}}$, carrying wave speed $c = 1/\sqrt{\mu_0\epsilon_0}$), not exchange particles carrying charge between poles (`L4-ThePlenum.md`). Gravity curves the ledger; metric waves ripple the medium; neither requires a graviton.
+These propagating metric waves do not mean that $P$ has secretly acquired a gauge boson, nor do they require reactive storage ($L, C$) on $P$-edges. By the instantaneous quadrupole identity of `L4-K4-Infinities-3` §III ($\int T^{ij}\,d^3x = \frac{1}{2}\ddot{I}^{ij}$, derived directly from $\partial_\mu T^{\mu\nu} = 0$), the write at $\omega > 0$ is local and simultaneous with zero transit interval on the $P$-edge, importing no circuit constants. Metric waves are oscillations of the **connective Plenum medium itself** ($H_{\text{incoh}}$, carrying wave speed $c = 1/\sqrt{\mu_0\epsilon_0}$), not exchange particles carrying charge between poles (`L4-ThePlenum.md`). Gravity curves the ledger; metric waves ripple the medium; neither requires a graviton.
 
 ---
 
@@ -189,7 +189,7 @@ Why cannot Bob instantly detect this collapse and receive an FTL signal?
 
 ```
                      THE NO-COMMUNICATION FIREWALL
-                     
+
    ALICE'S COLLAPSE                           BOB'S SUBSPACE
    ┌───────────────────────────┐              ┌───────────────────────────┐
    │ • Fires .observe()        │              │ • Reduced density matrix  │
@@ -201,20 +201,28 @@ Why cannot Bob instantly detect this collapse and receive an FTL signal?
                                               └───────────────────────────┘
 ```
 
-1. **$P$ Has Zero Vector Phase ($h = 0, \mathbf{Q} = 0$):**  
-   The Route Law’s squaring operation burns the complex phase operator ($h^2 = -1$). What lands in $P_A$ is a pure, directionless scalar. It carries no phase angle ($\theta = 0$) and no spatial vector direction ($\mathbf{i}, \mathbf{j}, \mathbf{k} = 0$).
-2. **A Wave Requires Phase to Propagate:**  
+1. **$P$ Has Zero Vector Phase ($h = 0, \mathbf{Q} = 0$):**
+   The Route Law’s squaring operation burns the complex phase operator ($h^2 = -1$). What lands in $P_A$ is a pure, directionless scalar. It carries no phase angle ($\theta_P = 0$) and no spatial vector direction ($\mathbf{i}, \mathbf{j}, \mathbf{k} = 0$).
+2. **A Wave Requires Phase to Propagate:**
    Wave propagation through a transmission line requires a phase gradient ($e^{j(\omega t - \mathbf{k}\cdot\mathbf{x})}$). Because $P_A$ carries zero phase and zero vector direction, it **cannot propagate as a wave through $H_{\text{incoh}}$**. It is a committed scalar, locked locally to Alice’s frame.
-3. **Density Matrix Trace Invariance:**  
+3. **Density Matrix Trace Invariance:**
    Alice’s measurement operates locally as a projection operator $M_A$ on her own Hilbert subspace, acting as the identity $I_B$ on Bob’s subspace. Bob’s reduced density matrix is given by tracing over Alice’s states:
    $$\rho_B = \text{Tr}_A\left((M_A \otimes I_B) |\Psi_{AB}\rangle\langle\Psi_{AB}| (M_A^\dagger \otimes I_B)\right) = \frac{1}{2}\mathbb{I}$$
-   Because $P_A$ cannot propagate a phase wave to Bob, Bob’s reduced density matrix $\rho_B$ is mathematically invariant. His local expectation values:
+   Bob’s local expectation values:
    $$\langle O_B \rangle = \text{Tr}(\rho_B O_B)$$
    do not shift by a single bit.
 
-If the $P$-edges were priced—if they carried a gauge boson or non-zero vector phase—Alice’s collapse would radiate a phase wave through $H_{\text{incoh}}$, altering $\rho_B$ non-locally and enabling superluminal communication. 
+### The Star-Norm Boundary at Absolute Zero and Angle Separation
 
-The zero-impedance ban on $P$-edges is the **topological firewall that enforces the speed-of-light limit on information transfer**.
+The invariance of $\rho_B$ is governed by the **Star-Norm boundary at absolute zero**, not by spatial separation between terminals:
+
+* **Committed ledger states clone freely:** Orthogonal committed entries—including frozen zero-DoF crystals where held phase vanishes ($|\mathbf{Q}| = 0$) and the entire state sits on the $P$-axis—can be copied and read without disturbance.
+* **Arbitrary held states do not:** Coupling a source frame to a target forces uncommitted information out of vertex interiors onto the shared edge and the Star-Norm pair cross-term ($2\,p_1\cdot p_2$, `BENDING_SPACE` §IV), leaving each local terminal unreadable on its own ($\rho_B = \frac{1}{2}\mathbb{I}$). Attempting to read the local buffer before coupling fires a Tier-1 `.observe()` collapse, burning $h^2 = -1$ and erasing the relative phase.
+* **Spinor angle vs. impedance phase angle (`QED-AstroLogic` §XII.i):** Keep the two port angles strictly separate. Spinor overlap in the entangled channel obeys $T_{SU(2)}(\theta) = \cos^2(\theta/2)$, whose reactive-transfer optimum sits at **$\theta_* = 60.000000^\circ$**. Impedance phase mismatches across a transmission boundary follow different transmittance laws ($\varphi$): Kurokawa constant-$|Z|$ $1 - \tan^2(\varphi/2)$ peaks at **$\varphi_* = \arccos(1/\Phi) = 51.827292^\circ$**, fixed-$R$ series $4/(4 + \tan^2\varphi)$ peaks at **$\varphi_* = 47.442204^\circ$**, and the un-squared control $\cos\varphi$ peaks at **$45^\circ$**. Spinor correlation lives in the non-factorizable joint state ($\theta$); $P$-edge commits burn impedance phase to $\theta_P = 0$.
+
+If the $P$-edges were priced—if they carried a gauge boson or non-zero vector phase—Alice’s collapse would modulate the cross-term across $H_{\text{incoh}}$, altering $\rho_B$ non-locally and enabling superluminal communication.
+
+The zero-impedance ban on $P$-edges is the **topological firewall enforcing the speed-of-light limit on information transfer**.
 
 ---
 
@@ -225,9 +233,9 @@ Because the $P$-edges are permanently open, the accumulation of $P$ is not the a
 In `ENGINE-REFERENCE-AC.md` (§X.4), the control unit of the $K_4$ machine operates via the **torque-motor claim**:
 > *The machine is not self-driving, and it is not a passive passenger. It is **self-feeding**. Each commit leaves an in-flight hold that the next advance turns against; the erasure that paid for one step is the mechanical resistance the next step turns. A loop that feeds itself to keep turning must carry standing stock, and standing stock priced in energy is what mass is.*
 
-**Mass is the price of being.** 
+**Mass is the price of being.**
 
-A system that does not commit collapses into an empty, reversible abstraction: it stays at the Ergodic Ground (`L4-AttractorSpace.md`), traveling at $c$, unable to maintain a boundary or remember its own trajectory. 
+A system that does not commit collapses into an empty, reversible abstraction: it stays at the Ergodic Ground (`L4-AttractorSpace.md`), traveling at $c$, unable to maintain a boundary or remember its own trajectory.
 
 To exist as a bounded frame with an inside distinguished from an outside, a system must pay the Landauer tax across its boundary. It must burn phase and drop the residue through the three open writing heads into $P$. Rest mass is the accumulated receipt of that ongoing payment.
 
@@ -247,7 +255,7 @@ The three $P$-terminating edges of $K_4$ are the permanent writing heads of the 
  P–U      Fixed-Bimedian    {P–U, I–R}      Friction Channel      P = I² R    (Is-Ness Tax / Joule)
  P–I      Mutable-Bimedian  {P–I, U–R}      Leverage Channel      P = U² / R  (Necessary Betrayer)
  P–R      Cardinal-Bimedian {P–R, I–U}      Synthesis Channel     P = U · I   (Resonant Synthesis)
- 
+
  P-POLE   ALL BIMEDIANS                     Zero-Impedance Ledger Z_P = 0, τ_P = 0 (No Graviton)
 ========================================================================================
 ```
@@ -255,14 +263,13 @@ The three $P$-terminating edges of $K_4$ are the permanent writing heads of the 
 ### Pre-Registered Kill Conditions
 Under the covenant’s boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
 
-1. **Measurement of Non-Zero Transit Delay on State Collapse:**  
+1. **Measurement of Non-Zero Transit Delay on State Collapse:**
    If an ultrafast quantum measurement apparatus detects an intermediate time delay ($\tau > 0$) between the destruction of interference fringes ($|\mathbf{Q}|^2 \to 0$) and the appearance of the corresponding thermodynamic scalar heat/mass ($P$), Star-Norm instantaneity is refuted.
-2. **Superluminal Information Transfer via Entangled Collapse:**  
+2. **Superluminal Information Transfer via Entangled Collapse:**
    If an experimental protocol successfully modulates Bob's local reduced density matrix $\rho_B$ using Alice's local collapse without a classical subluminal signal ($v \le c$), the $P$-edge firewall is broken.
-3. **Detection of a Gravitational Exchange Gauge Boson:**  
+3. **Detection of a Gravitational Exchange Gauge Boson:**
    If high-energy experiments detect a fundamental, renormalizable, microscopic spin-2 gauge boson mediating gravitational attraction across a boundary independent of the stress-energy tensor ($T_{\mu\nu}$), the $P$-edge ban fails.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.
-

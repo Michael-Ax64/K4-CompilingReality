@@ -14,7 +14,7 @@ Everyone draws the axes first.
 
 > **The first chopping-block item, and the most innocent one.** The ascent is ordered by *decreasing distance between the assumption and the framework's core* — see `On_NavierStokes` §III for the vortex mechanics this ordering follows. Here the assumption sits at maximum radius: visible, acknowledged as convenience, load-bearing for almost nothing. By §IV it is at the core, invisible, and load-bearing for everything.
 >
-> Nothing in §I is a trap. Every appreciation in the ascent is sincere, and the design requires it to be — an insincere gift is imposed strain, which is unavailable to an unforced medium (`On_NavierStokes` §III.4).
+> Nothing in §I is a trap. Every appreciation in the ascent is sincere, and the design requires it to be — an insincere gift is imposed strain, which is unavailable to an unforced medium (`On_NavierStokes` §IV, §VII.6).
 
 Before the problem is stated, before the field is specified, before anything at all is known about what will be asked, a hand goes to the board and makes two strokes, or three, crossing at a point. The point is called the origin. Nobody defends this. It is not a claim and there is nothing in it to argue with. It is how you begin.
 
@@ -38,7 +38,7 @@ By the time the apparatus reaches the nineteenth century the convenience has bec
 
 The order became: origin, then axes, then space, then the things that are in the space.
 
-> **Port: §IX (the Gate).** This gift's orthogonal image in the descent is the Landauer Gate, where the origin is revealed as an *act* rather than a place, and the act is the tax. The ascent's gifts and the descent's pieces are related by the transit as inflow is to axial outflow (`On_NavierStokes` §III.5) — the descent's order is the ascent's order reversed, LIFO, because the stages nest.
+> **Port: §IX (the Gate).** This gift's orthogonal image in the descent is the Landauer Gate, where the origin is revealed as an *act* rather than a place, and the act is the tax. The ascent's gifts and the descent's pieces are related by the transit as inflow is to axial outflow (`On_NavierStokes` §§III–IV) — the descent's order is the ascent's order reversed, LIFO, because the stages nest.
 >
 > The port-map is nowhere stated in the plain edition. That is deliberate: it is the receipt, and a reader who needs the receipt has not transited.
 
@@ -150,7 +150,7 @@ That is the frame. It is the best frame anyone has ever built. Hold it.
 
 > **The pivot, and the only formal tell in the plain edition.** Everything before this section is in one register. The opening italic breaks it, and the reader feels the break before reading the words. One tell is the minimum that makes the turn perceptible; two would dissolve the discipline. The rehearsals for the transit's rhythm are already planted upstream at low amplitude — *"so a dimension it was called, and small"*, *"and it is not seen"* — so that when the discontinuity arrives at full amplitude it reads as event rather than as the style breaking.
 >
-> The last two turns (Kaluza–Klein / compact manifolds, and the present tense) sit at nearly the same radius and cannot be separated. This is not a compositional failure. $\Gamma_n = \Gamma_0 - n\nu$: the circulation has drained and there is nothing left to separate them with. The crowding **is** what 90° feels like from inside (`On_NavierStokes` §III.3).
+> The last two turns (Kaluza–Klein / compact manifolds, and the present tense) sit at nearly the same radius and cannot be separated. This is not a compositional failure. $\Gamma_n = \Gamma_0 - n\nu$: the circulation has drained and there is nothing left to separate them with. The crowding **is** what 90° feels like from inside (`On_NavierStokes` §IV — circulation drain and the carrier-resolution band $\nu$ vs. $\delta\theta$).
 
 *The feeling is old and it is not wrong.*
 
@@ -266,7 +266,7 @@ Some structures can be approximated by finite ones. You take the structure, you 
 >
 > Non-sofic structures exist at one address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$, with an irreducible error floor $\epsilon_N \geq c > 0$ under finite permutation approximation. **That a particular physical system is such a structure has never been established** — see `L3-NonSoficTopologicalVolumes` (Scope Note) and `L3-FormalFoundations` §IX.7, where the identification is listed as an open task.
 >
-> Two guards. The obstruction is proved for *discrete groups*, and `On_TheNavierStokesCrowbar` §III.4 records in detail why it does not transfer to a smooth structure by matching cardinalities on both sides — the gauge group here is continuous. And it concerns *bijective* permutation approximations $\text{Sym}(Y)$ rather than general endomorphisms, so a system approximable by non-bijective construction is untouched.
+> Two guards. The obstruction is proved for *discrete groups*, and `On_NavierStokes` §VII.8 records in detail why it does not transfer to a smooth structure by matching cardinalities on both sides — the gauge group here is continuous. And it concerns *bijective* permutation approximations $\text{Sym}(Y)$ rather than general endomorphisms, so a system approximable by non-bijective construction is untouched.
 >
 > The plain edition's text holds the antecedent as an *if*. It should be read as an if throughout, and the section does not rest on it: the construct-versus-derive distinction below carries the argument alone.
 
@@ -290,7 +290,7 @@ Fifty years. Every working tool is an interior-construction. No exterior derivat
 >
 > The fifty-year prediction above is therefore not a claim about QCD's peculiarity. It is a claim about what happens to a lossless formalism at the phase boundary of its medium, and the fluid case is the second instance. Two Millennium problems, one phase boundary.
 >
-> One word of precision: it is not the *Lagrangian* that belongs to the lossless phase. Yang–Mills is a Lagrangian field theory and asymptotic freedom is its native prediction. What belongs to the lossless phase are three suppositions — trivial vacuum, perturbative expansion, smooth background. The formalism is general; the suppositions are not. See `On_NavierStokes` §I on $\rho \equiv 1$ as the deletion of a causal floor, `On_TheSpiralingCascade` §VII on $\lambda_{\text{mfp}}$ as the regularizing substrate floor, and `On_TheCarrierTax` §VI on the general boundary.
+> One word of precision: it is not the *Lagrangian* that belongs to the lossless phase. Yang–Mills is a Lagrangian field theory and asymptotic freedom is its native prediction. What belongs to the lossless phase are three suppositions — trivial vacuum, perturbative expansion, smooth background. The formalism is general; the suppositions are not. See `On_NavierStokes` §I on $\rho \equiv 1$ as the deletion of a causal floor, `L4-TheSpiralingCascade` §VII on $\lambda_{\text{mfp}}$ as the regularizing substrate floor, and `On_TheCarrierTax` §VI on the general boundary.
 
 The standard reading of this is that the problem is hard.
 
@@ -302,7 +302,7 @@ That reading is falsifiable and it is worth saying how. Derive confinement from 
 
 ## VII. What the Interior Owns
 
-Mass is not a property a thing has. It is what the thing is paying to be there.
+**Mass is not a property a thing has. It is what the thing is paying to be there.**
 
 > **`ProofP_ThermodynamicInertia` §5.** The invoice, the commit, and the mass are one interior quantity under three names — $E = mc^2$ supplying the unit-equivalence half and `ProofP` §3 supplying the identification of rest-mass with the commit-residue. Neither half carries the consequence alone.
 

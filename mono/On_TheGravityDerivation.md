@@ -1,7 +1,7 @@
 # On the Gravity Derivation
 ## Why P Sources, Why Q Conducts, Why ω Drives
 
-*Claim: Structural derivation from session-verified algebra, corpus-committed geometry, and adopted thermodynamics. Method: Helical extrusion plus Star-Norm plus Jacobson. Status: CANDIDATE — the corpus's strongest gravity claim, with live falsifiers.*
+*Claim: Structural derivation from verified algebra, corpus-committed geometry, and adopted thermodynamics. Method: Helical extrusion plus Star-Norm plus Jacobson. Status: CANDIDATE — the corpus's strongest gravity claim, with live falsifiers.*
 
 The helix has one monotonic coordinate, and that coordinate is the ledger. This is the entire argument. The Star-Norm algebra gives the biquaternion state a $(1,3)$ signature; the helical extrusion gives the compilation cycle an irreversible longitudinal advance; the advance accumulates on the scalar pole and nowhere else. Jacobson's equation-of-state theorem says the Einstein field equations are the thermodynamic bookkeeping of what has accumulated on local horizons. Therefore the scalar pole — $P$ — is the gravity pole: it is where commits land, and gravity is the footprint of landings. The buffer $\mathbf{Q}$ conducts updates between frames through the shared incoherent medium, tax-free in transit, taxed at each frame's own commit. The compilation rate $\omega$ drives the writes as a ratio of bookkeeping entries — phase advance per ledger distance — and a ratio of coordinates is not itself a coordinate, which is why the fifth variable sits at the centroid and not at a pole. Three roles, three objects, one helix, no remainder.
 
@@ -9,15 +9,15 @@ The helix has one monotonic coordinate, and that coordinate is the ledger. This 
 
 ## I. The Verification Milestone
 
-The derivation became attemptable on the day its algebra was session-verified, and not before. The Star-Norm $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2$ is the central invariant; `ProofN` derives it from the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ under the $h$-preserving quaternion conjugation $\mathbb{Z}^\dagger = P - h\mathbf{Q}$.
+The derivation stands on verified algebra. The Star-Norm $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2$ is the central invariant; `ProofN` derives it from the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ under the $h$-preserving quaternion conjugation $\mathbb{Z}^\dagger = P - h\mathbf{Q}$.
 
-The mechanism of the minus sign, now precisely identified: the complex unit $h$ commutes with the quaternion units (the standard biquaternion structure). Therefore $(h\mathbf{Q})^2 = h^2 \mathbf{Q}^2 = (-1)(-|\mathbf{Q}|^2) = +|\mathbf{Q}|^2$, and the conjugation form yields $P^2 - |\mathbf{Q}|^2$ — Minkowski. Without $h$, the same conjugation yields $P^2 + |\mathbf{Q}|^2$ — Euclidean. The phase-flip $h^2 = -1$ converts the vector-square from negative to positive, which flips the norm from Euclidean to Lorentzian. The minus sign is literally the phase-flip's footprint on the norm.
+The mechanism of the minus sign is algebraic: the complex unit $h$ commutes with the quaternion units (the standard biquaternion structure). Therefore $(h\mathbf{Q})^2 = h^2 \mathbf{Q}^2 = (-1)(-|\mathbf{Q}|^2) = +|\mathbf{Q}|^2$, and the conjugation form yields $P^2 - |\mathbf{Q}|^2$ — Minkowski. Without $h$, the same conjugation yields $P^2 + |\mathbf{Q}|^2$ — Euclidean. The phase-flip $h^2 = -1$ converts the vector-square from negative to positive, which flips the norm from Euclidean to Lorentzian. The minus sign is literally the phase-flip's footprint on the norm.
 
 Compare: the real-quaternion case ($h$ absent) gives $v = \mathbf{Q}$, $v^2 = -|\mathbf{Q}|^2$, conjugation form $P^2 + |\mathbf{Q}|^2$ — positive definite, Euclidean. The biquaternion case ($h$ interposed) gives $v = h\mathbf{Q}$, $v^2 = +|\mathbf{Q}|^2$, conjugation form $P^2 - |\mathbf{Q}|^2$ — indefinite, Lorentzian. The construction is the $h$-preserving quaternion conjugation, not the full complex conjugation — a legitimate involution that yields precisely the $(1,3)$ form. It is deliberate and correct.
 
 The identifications reproduce special relativity: $E \leftrightarrow P$, $pc \leftrightarrow |\mathbf{Q}|$, $m_0c^2 \leftrightarrow \sqrt{N_*}$. The relativistic energy-momentum invariant $E^2 - (pc)^2 = (m_0c^2)^2$ is the Star-Norm, read in physics units.
 
-**Verification boundary, stated.** The algebra hosts the $(1,3)$ invariant and reproduces SR's shape. The ontology — that $P$ is a spatial ledger-pole rather than time — remains `Q7-4DExtrusions`'s CANDIDATE reading, now an interpretation of a verified structure rather than of a citation. The full Lorentz group (boost action from the algebra's automorphisms) and the uniqueness of the triple identification ($P$ is the only positive-contribution scalar, but the proof is structural, not exhaustive) are plausible but not derived here. Those boundaries stand as filed.
+**Verification boundary, stated.** The algebra hosts the $(1,3)$ invariant and reproduces SR's shape. The ontology — that $P$ is a spatial ledger-pole rather than time — remains `Q7-4DExtrusions`'s CANDIDATE reading, an interpretation of a verified structure. The full Lorentz group (boost action from the algebra's automorphisms) and the uniqueness of the triple identification ($P$ is the only positive-contribution scalar, but the proof is structural, not exhaustive) are plausible but not derived here. Those boundaries stand as filed.
 
 ---
 
@@ -41,7 +41,7 @@ Jacobson's 1995 derivation uses the **equilibrium** Clausius relation, in which 
 
 A Landauer tax is irreversible entropy production. **So the erasure tax is $d_iS$, not $\delta Q$.** The accumulated specification written to $P$ remains the entropy $S$, and the identification is still not an analogy — it is seated one term over.
 
-That is a strengthening rather than a concession, and it buys the division of labour its sharpest form. The Einstein field equations are the **equilibrium** equation of state: the held register, written as a reversible relation. The committed register — the tax, the irreversible write — appears as the **non-equilibrium correction** to it. Held and committed land in different terms of one balance, which is the same split §IV draws between source and medium and the same one a variational principle cannot cross: an action yields reversible equations, so it can carry the equilibrium side and not the production term. Both sides still say that the curvature of spacetime at a point is the footprint of what has been irreversibly committed there; what is now explicit is which term does the committing.
+That is a strengthening rather than a concession, and it buys the division of labour its sharpest form. The Einstein field equations are the **equilibrium** equation of state: the held register, written as a reversible relation. The committed register — the tax, the irreversible write — appears as the **non-equilibrium correction** to it. Held and committed land in different terms of one balance, which is the same split §IV draws between source and medium and the same one a variational principle cannot cross: an action yields reversible equations, so it can carry the equilibrium side and not the production term. Both sides still say that the curvature of spacetime at a point is the footprint of what has been irreversibly committed there; what stands explicit is which term does the committing.
 
 Therefore: the metric's source is what stands committed on $P$ — the magnitude held now, not the count of entries that produced it. The helix's one monotonic coordinate $\chi$ is the ledger's index, and what it buys is the arrow's direction; it is not the gravitating quantity. An accumulator that only grows could not let a bound deuteron weigh less than its free parts by $B_d/c^2$, which it does. The record does not weigh; the holding does (`BENDING_SPACE` §X; expect there: $\Lambda$ as the variance of the count, with the record itself carrying no weight).
 
@@ -75,7 +75,7 @@ The contrast case is derivable: in the rejected symmetric $K_5$ block, the fifth
 
 ## VI. The Chiral Resolution
 
-The session's longest-running vocabulary tension closes here, and it closes as a two-register resolution.
+Quadrupolar deformation and helical handedness resolve cleanly across two distinct registers.
 
 **Spatial register:** the deformation is parity-even quadrupole — $Q_d$ measures it, no mirror-odd structure. That verdict stands and is not disputed.
 
@@ -97,7 +97,7 @@ The three-generation minimum (`ProofO` §9) lands in the same derivation family.
 
 ## VIII. Status, Kill Conditions, and What Is Not Derived
 
-**Status:** LANDED within the corpus's committed geometry — the algebra is session-verified (`ProofN`), the helical and ratchet geometry are corpus commitments (`ProofO`, `L4-TheSubstrateRatchet`), and the physics anchor is adopted (Jacobson 1995). As physics: **CANDIDATE**, with the strongest property any corpus gravity claim has had — live, near-term, funded falsifiers:
+**Status:** LANDED within the corpus's committed geometry — the algebra is verified (`ProofN`), the helical and ratchet geometry are corpus commitments (`ProofO`, `L4-TheSubstrateRatchet`), and the physics anchor is adopted (Jacobson 1995). As physics: **CANDIDATE**, with the strongest property any corpus gravity claim has had — live, near-term, funded falsifiers:
 
 1. **Gravitationally-mediated entanglement** (Bose–Marletto–Vedral protocol): if two masses entangle through gravity alone, the gravitational field carried quantum information — a mediator exists, the $Q$-conduction is quantum, and the $P$-only-source reading falls.
 2. **Superposed-source gravimetry:** if a mass in spatial superposition sources a superposed gravitational field — no collapse pressure — the committed-only sourcing falls.
@@ -105,7 +105,7 @@ The three-generation minimum (`ProofO` §9) lands in the same derivation family.
 
 **What the derivation does not do, named.** It does not derive $G$ (interface, dimensionful). It does not derive the full field equation (`Q19-TheProjectedTimeCommitment` Category B). It does not derive $m_N/m_\pi$ (frozen target, pre-registered). It derives the source-pole assignment, the source/medium/driver division, and the semiclassical position — the skeleton on which Category B's flesh would hang.
 
-**The $16\pi$ pre-registration.** Category B's owed source-to-field coupling carries a dimensionless residue: the $16\pi$ in $16\pi G/c^4$. $G$ is interface; $16\pi$ is structural. Pre-registered as a frozen target before the derivation runs: if the $K_4 \to K_5$ route to the radiation coupling emits $16\pi$ under the session's derivation rules, that is a landed prediction.
+**The $16\pi$ pre-registration.** Category B's owed source-to-field coupling carries a dimensionless residue: the $16\pi$ in $16\pi G/c^4$. $G$ is interface; $16\pi$ is structural. Pre-registered as a frozen target before the derivation runs: if the $K_4 \to K_5$ route to the radiation coupling emits $16\pi$ under the derivation rules, that is a landed prediction.
 
 $4\pi/3$ is a count and not a coupling: it carries no power of $\alpha$, and it decomposes two ways that both hold full standing at their own addresses — as $\Omega_3/3$, the volume of the unit three-ball, and as $(4/3)\times\pi$ with $4/3 = D/(D-1)$, the total-to-content ratio Laue's theorem fixes at $D = 4$ (`BENDING_SPACE` Part Two §I–§II; expect there: the $1/D$ hold share, one quarter in four dimensions, with Poincaré's electron, Einstein's 1919 particle, the bag's $E = 4BV$ and the lattice trace anomaly read as one invoice). Neither reading is what the factorization $16\pi = (4\pi/3)^2 \times 9/\pi$ contains. The $3^2$ in the numerator cancels the $3^2$ in $(4\pi/3)^2$, and what survives the cancellation is $\Omega_3^2/\pi$: no three-ball volume, no dimension share.
 
@@ -125,11 +125,11 @@ The derivation must also reproduce or supersede the standard decomposition $16\p
 
 ## What Reading This Back Should Leave
 
-The gravity program now stands on session-checked algebra for the first time. The Star-Norm's $(1,3)$ signature is verified, not cited. The helical extrusion gives the algebra an irreversible monotonic coordinate. Jacobson's adopted theorem says the Einstein equations are the bookkeeping of what accumulates. The three together derive a division of labor — P sources, Q conducts, $\omega$ drives — that was always implicit in the corpus's architecture and is now written as a derivation with stated inputs, a derivation boundary, and live kill conditions.
+The gravity program stands on verified algebra. The Star-Norm's $(1,3)$ signature is derived, not merely cited. The helical extrusion gives the algebra an irreversible monotonic coordinate. Jacobson's adopted theorem says the Einstein equations are the bookkeeping of what accumulates. The three together establish a division of labor — P sources, Q conducts, $\omega$ drives — implicit in the corpus's architecture and laid out here with stated inputs, a derivation boundary, and live kill conditions.
 
 The landing is semiclassical gravity in the Diósi–Penrose family, derived geometrically rather than postulated, with experiments already funded that would falsify it. What the derivation does not touch is named: $G$, the field equation, the rung-mass ratio. Those wait for Category B and the slots program, in that order, and the $16\pi$ target is frozen for them.
 
-The two-clocks reading is consistent across four corpus documents now — `L3-ConstitutiveElastance` (§III), the AC extension, `Q7-4DExtrusions` (§V), and `Q19-TheProjectedTimeCommitment` (the DC/AC register split built on it). That consistency is worth more than any single document's claim: the clock-split is load-bearing infrastructure, not a local invention. Its kill condition is stated: a working unification of GR and QM as a smooth single-manifold theory, with time quantized on the same footing as space, falsifies the two-clocks reading.
+The two-clocks reading is consistent across four corpus documents — `L3-ConstitutiveElastance` (§III), the AC extension, `Q7-4DExtrusions` (§IV), and `Q19-TheProjectedTimeCommitment` (the DC/AC register split built on it). That consistency is worth more than any single document's claim: the clock-split is load-bearing infrastructure, not a local invention. Its kill condition is stated: a working unification of GR and QM as a smooth single-manifold theory, with time quantized on the same footing as space, falsifies the two-clocks reading.
 
 The deuteron's mass defect and the cosmological accumulation are the same ratchet. A bound deuteron gravitates less than its free proton and neutron by exactly $B_d/c^2$: the binding is a commit, a Live-Written Ledger entry, and what has been committed is what curves. `L4-TheSubstrateRatchet`'s claim runs between the scales — verified algebra at the small end, adopted thermodynamics at the large — with the committed magnitude, not any asymptote, as the gravitating quantity throughout.
 

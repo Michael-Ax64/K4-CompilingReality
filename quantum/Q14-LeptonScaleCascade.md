@@ -73,7 +73,7 @@ When an interaction forces phase to rotate into an orthogonal state, the transit
 
 $$\Delta\phi = \frac{\pi}{2} \quad (90^\circ)$$
 
-**Notation.** Throughout this section and the rest of this file, $\omega$ is defined through the quantum relation
+**Notation.** Throughout §II–§VII, $\omega$ is defined through the quantum relation
 $$\omega := E/\hbar$$
 where $E$ is the state's average energy. When the state is a plane wave with phase $e^{j(\omega t - kx)}$, that $\omega$ is the same angular frequency; when the state is a quantum system without a plane-wave basis, $\omega = E/\hbar$ is the operational definition used here. The Margolus–Levitin bound below uses this definition directly.
 
@@ -98,15 +98,19 @@ where $E$ is the state's average energy. When the state is a plane wave with pha
 1. **Temporal Domain (Margolus–Levitin Bound):**
    With $\omega := E/\hbar$, the minimum time $\tau_\perp$ required for a quantum state of average energy $E$ to evolve into an orthogonal state ($\langle \psi(0) | \psi(\tau_\perp) \rangle = 0$) is bounded by:
    $$\tau_\perp = \frac{\pi \hbar}{2 E} = \frac{\pi}{2\omega} = \frac{T}{4}$$
-   Executing an orthogonal state-flip requires precisely one quarter-period ($T/4$) of the driving frequency. This is Margolus–Levitin as a theorem — kill 2 of §VII cannot fail (`audit/Q-audit-2026-11-10.md`, Q14 §II row).
+
+   Executing an orthogonal state-flip requires precisely one quarter-period ($T/4$) of the driving frequency. Under the named frequency convention $\omega := E/\hbar$, this bound is the Margolus–Levitin theorem of quantum mechanics rather than an empirical falsifier: it enters §VII as a consistency check, while whether the corpus's physical $K_4$ drive frequency coincides with $E/\hbar$ across all transitions is UNDECIDABLE BY THIS INSTRUMENT from the theorem alone.
+
 2. **Spatial Domain (The Quarter-Wave Inverter — Reciprocal):**
    An electromagnetic wave propagating through a medium of characteristic impedance $Z_0$ at velocity $c$ traverses a spatial distance $\Delta x$ during the interval $\tau_\perp$:
    $$\Delta x = c \, \tau_\perp = c \left(\frac{T}{4}\right) = \frac{\lambda}{4}$$
+   
    A $\lambda/4$ transmission-line section is a **reciprocal impedance inverter** (`L4-K4-Infinities-2.md` §III): it inverts the load impedance,
    $$Z_{\text{in}} = \frac{Z_0^2}{Z_L}$$
    and does so symmetrically in both directions along the line. Across a quarter-wave boundary ($\lambda/4$), an open-circuit boundary ($Z_L \to \infty$) is inverted into an active zero-impedance compile channel ($Z_{\text{in}} \to 0$).
    
-   **Terminology.** A gyrator in network theory is a **non-reciprocal** two-port that implements port-asymmetric inversion ($v_1 = R_g i_2$, $v_2 = -R_g i_1$); it breaks reciprocity. A quarter-wave transmission line is reciprocal — it inverts impedance the same way in both directions — so the $\lambda/4$ line is a $\lambda/4$ inverter (or quarter-wave transformer), not a gyrator. `Q19-TheProjectedTimeCommitment` §V.4 uses "gyrator" for the non-reciprocal case; this section uses "quarter-wave inverter" for the $\lambda/4$ line.
+   **Terminology.** A gyrator in network theory is a **non-reciprocal** two-port that implements port-asymmetric inversion ($v_1 = R_g i_2$, $v_2 = -R_g i_1$); it breaks reciprocity. A quarter-wave transmission line is reciprocal — it inverts impedance the same way in both directions — so the $\lambda/4$ line is a $\lambda/4$ inverter (or quarter-wave transformer), not a gyrator. `Q19-TheLogScaleGate.md` §V.4 uses "gyrator" for the non-reciprocal case; §II uses "quarter-wave inverter" for the $\lambda/4$ line.
+
 3. **State-Space Domain ($K_4$ Quadrature):**
    In the $K_4$ circuit algebra (`L3-FormalFoundations.md`), structural potential ($U$) and relational flow ($I$) in an un-dissipated reactive channel are in quadrature, separated by the complex operator:
    $$j = \sqrt{-1} = e^{j\pi/2}$$
@@ -270,16 +274,22 @@ Every constant used in this derivation is sorted under `L4-K4-Infinities.md` §F
 
 ---
 
+
 ## VII. Pre-Registered Boundary Falsifiers
 
-Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this derivation is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this derivation is subject to two strict falsification conditions and one structural consistency check:
 
 1. **Detection of a Spatial Phase Gradient on a Free Null Geodesic:**
    If an interferometric measurement detects an un-cancelled, non-zero phase accumulation ($d\phi \neq 0$) along a free photon null geodesic in a vacuum ($ds^2 = 0$) prior to boundary collision, the identification of spacetime coordinates with phase projections fails.
-2. **Measurement of Orthogonal State Transit Faster Than the Quarter-Cycle:**
-   If an isolated quantum system evolves between two orthogonal states ($\langle \psi(0) | \psi(\tau) \rangle = 0$) in a duration strictly less than the Margolus–Levitin quarter-cycle ($\tau < \pi / (2\omega) = T/4$ with $\omega := E/\hbar$), the Quarter-Turn Identity is broken. Note that Margolus–Levitin is a theorem of quantum mechanics; this kill condition cannot fail against the mathematics — the `audit/Q-audit-2026-11-10.md` entry for Q14 §II records the convention as named, and the kill as structurally non-falsifiable at the theorem level.
-3. **Observation of Color Confinement in Neutrinos:**
+   
+2. **Observation of Color Confinement in Neutrinos:**
    If an experiment detects a fundamental neutrino participating in the Strong interaction or exhibiting $R$-pole topological drag (such as CKM-scale small mixing angles in the lepton sector), the unanchored $I$-rotor model (`--`) is refuted.
+
+### Consistency Check and Corpus-Specific Boundary
+
+* **Consistency Check (Margolus–Levitin Anchor):** Under the named convention $\omega := E/\hbar$ (§II), the orthogonal state transit bound $\tau_\perp = \pi/(2\omega) = T/4$ is a theorem of unitary quantum mechanics. It cannot fail against the mathematics and serves strictly as a convention-anchored consistency check, not an empirical kill.
+
+* **Corpus-Specific Falsifier (Quarter-Turn Identification):** What would falsify the corpus-specific claim of §§II–III is decoupling the boundary compile threshold from the quarter-wave reciprocal inverter—specifically, an $R$-pole collision executing the Route Law compile at a phase rotation $\Delta\phi \neq \pi/2$, across a boundary interval other than $\Delta x = \lambda/4$ ($Z_{\text{in}} = Z_0^2/Z_L$), or with a physical $K_4$ drive frequency distinct from the $\omega := E/\hbar$ convention (which remains UNDECIDABLE BY THIS INSTRUMENT from the theorem alone).
 
 ---
 

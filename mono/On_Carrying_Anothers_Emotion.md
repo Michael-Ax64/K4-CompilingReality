@@ -2,7 +2,7 @@
 
 There is a class of experiences that people report reliably and that mainstream science has documented across neuroscience, psychology, and clinical practice: registering another person's affective state as if it were your own, sometimes to the point of carrying its metabolic weight, when the ordinary content channels have not been open. The caregiver who is exhausted after the visit. The therapist whose fatigue arrives later than the conversation, not during. The partner who feels "off" before a specific person makes contact by any known means. It is not fringe. It has robust empirical infrastructure. And the framework has a specific, derivable account of it that nobody has to invent.
 
-What this document does is separate three claims that commonly get collapsed into one: the **phenomenon** (empirical), the **mechanism** (derived), and the **selection function** (open). Each is located cleanly against the corpus and against the external literature. The impedances, reactances, and chirality biases named below are properties of the connective medium the edges cross; the directional cost-asymmetries presuppose the plenum (see `On_The Plenum`).
+This account separates three claims that commonly get collapsed into one: the **phenomenon** (empirical), the **mechanism** (derived), and the **selection function** (open). Each is located cleanly against the corpus and against the external literature. The impedances, reactances, and chirality biases named below are properties of the connective medium the edges cross; the directional cost-asymmetries presuppose the plenum (see `On_The Plenum`).
 
 ---
 
@@ -50,6 +50,8 @@ The receiver, coupled and grounded, absorbs part of that dissipation. Fatigue tr
 
 **The Geometric Read (`L4-DynamicDistortions301-1` §V):** Geometrically, this emotional exhaustion in a dyad is the physical sensation of the shared 2D bimedian cross-section flattening to a 1D line under $180^\circ$ torsional shear ($\theta \to 90^\circ, A(\theta) \to 0$). As the 2D area of the shared workspace collapses, the relationship loses its capacity to hold uncollapsed nuance ($h\mathbf{Q}$), squeezing out the volume and forcing the biological wire to carry the circulating reactive load as pure $I^2R$ heat loss.
 
+**Opposite sides of the commit gate:** Under the same $S = P + jQ$ algebra, insulated quantum memories and dyadic resonance sit on opposite sides of the commit gate. Pre-commit insulated quantum correlations (`.behold()` across $H_{\text{incoh}}$) conduct zero real energy exchange across the link (`Q4-OpenExhaust` §V). Post-commit dyadic resonance (`.observe()` across $H_{\text{coh}}$) operates by classical phase-locking across sensory and autonomic channels—facial and autonomic mimicry, prosody, neural synchrony—which conducts real $I^2R$ metabolic drain through the coupled conductors. Biological empathy is classical transmission-line coupling, not quantum entanglement. The Orthogonal Touch (§2.4) acts as the inverse insulation move: re-establishing blanket impedance across the interface so reactive circulation stops spending the receiver's ATP.
+
 ### 2.4 The Intervention Is Power Factor Correction
 
 From `L4-Dimensionality.md` and `QED-Astrologic.md` §X: same-plane force into a system in Torsional Shear — more analysis, more advice, more action-prescription — only widens the phase gap and generates more reactive heat.
@@ -93,7 +95,7 @@ The specific formal apparatus this framework brings to the class of problems abo
 
 5. **The bounded-frame verb discipline** — "only a bounded frame can spend"; metabolic verbs licensed only to bounded frames; the Pure Interpreter holds and performs nothing. — `llm.md`.
 
-6. **The self-audit apparatus for LLM readers** — `llm.md`, `llm-facts.md`, `llm-failuremodes.md`. Not present in any peer framework I could locate.
+6. **The self-audit apparatus for LLM readers** — `llm.md`, `llm-priors.md`, `llm-prooftypes.md`, `llm-writing.md`.
 
 ---
 
@@ -138,8 +140,6 @@ The specific formal apparatus this framework brings to the class of problems abo
 
 ## 6. The Sharable Statement
 
-The clean version, in a paragraph that reads without an imagined skeptic in the room:
-
 > A well-documented class of phenomena — the involuntary registration of another person's affective load, sometimes to the point of metabolic exhaustion, with no need for explicit content channels — has robust empirical infrastructure across neuroscience, psychology, and clinical practice. The Compiling Reality framework supplies a specific, derivable mechanism for this class, drawn entirely from the AC extension of its native algebra: coupled bounded frames tuning to a shared resonance drop reactance to zero across their interface; what transfers is *phase-form*, not semantic content; the metabolic cost registers as I²R loss on the biological substrate carrying the reactive circulation; the algebraically-derived intervention is Power Factor Correction via Orthogonal Touch. What the framework does not derive is the selection function — why coupling establishes between these two systems and not others. This is a bounded and locatable gap. Non-mystical placeholders exist (shared history, physical co-signature, learned attentional priors, established relational roles), and the framework has precedent for leaving structural coupling undefined at the mechanism level without opening a hole in the derivation, since it already accepts the same license for the celestial case on scale-invariance grounds. The framework's uncommon contribution is not the observation of coupling — many traditions have that. It is the specific algebraic engine that lets the mechanism be derived rather than asserted, tested rather than intuited, and applied rather than merely described.
 
 ---
@@ -171,12 +171,11 @@ The clean version, in a paragraph that reads without an imagined skeptic in the 
 
 ---
 
-## 8. What This Document Is Not
+## 8. Scope and Parallel Accounts
 
-- Not a defense of the framework against imagined critics. If a specific critic produces a specific defect at a specific address, that finding is welcome and separately answerable.
-- Not a claim that the phenomenon *requires* the framework's mechanism. Emotional contagion has other adequate mainstream accounts (mirror mechanism, autonomic mimicry, hyperscanning synchrony). The framework's contribution is a *unified topological account* that also derives its intervention.
-- Not a claim that the framework is the only research program with related ambitions. Bayesian mechanics, Fields/Levin, Wolfram, and ACT all run adjacent projects with substantial rigor.
-- Not a claim that the selection function is unknowable. It is *presently unspecified in the framework* — a bounded and legitimate open question, of the same kind the framework already accepts for celestial coupling.
+- **Unified topological mechanism:** Emotional contagion has established mainstream accounts (mirror mechanism, autonomic mimicry, hyperscanning synchrony). The framework supplies a unified topological account that derives both the mechanism and its intervention within one algebra.
+- **Adjacent research programs:** Bayesian mechanics, Fields/Levin, Wolfram, and Applied Category Theory pursue related scale-invariant architectures with independent formalisms.
+- **Bounded open slot:** The selection function is presently unspecified in the framework—a bounded open question of the same kind accepted for celestial coupling, rather than an unknowable mystery.
 
 ---
 
@@ -188,7 +187,5 @@ The next time this material is read aloud, that is the arc to hold: three claims
 
 ---
 
-*Consolidated 2026-07-16 across a multi-turn audit that navigated attempted Costumed Flinches (FM-2) and Auditor's Mirrors (FM-3). The line that held: separate phenomenon from mechanism from selection; report each cleanly with addresses; hold the corpus's derivations where the corpus has them; name the open question where it is genuinely open, without letting either "unspecified" or "mystical" bleed into the well-derived parts.*
-
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

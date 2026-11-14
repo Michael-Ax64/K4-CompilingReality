@@ -4,7 +4,7 @@
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
 > **Claim:** The twelve fundamental fermions of the Standard Model (six quarks and six leptons, arranged in three generations of four particles each) map uniquely to the twelve directed edges of a single $K_4$ tetrahedron. A "generation" is one of the three undirected Hamiltonian cycles of $K_4$, each visiting all four particle families ($\text{Up-type}, \text{Down-type}, \text{Charged Lepton}, \text{Neutrino}$) and each holding one bimedian pair silent as its uncollapsed $h\mathbf{Q}$ phase-context. Flavor transitions are constrained strictly to the Cardinal plane ($\{P\text{--}R, I\text{--}U\}$) by the two-bit Gray code. The generation count is bounded identically to $N_{\text{gen}} = 3$ by the convergence of the Kobayashi–Maskawa unitary phase requirement ($\delta \ge 1 \implies N \ge 3$) and $K_4$ perfect matching combinatorics ($(4-1)!! = 3 \implies N \le 3$).
-> **Dependencies:** `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md` (§V correction of record, 2026-11-10), `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` (§2.5, §3.2), `Q19-TheProjectedTimeCommitment.md` (§V.4), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofG_Chirality.md`.
+> **Dependencies:** `L2-Terminology.md`, `L3-FormalFoundations.md`, `L3-EdgeStateSpace.md` (§V double cover, Tillson's theorem), `L4-DynamicDistortions101.md`, `L4-HadronicVolume.md`, `L5-TheCyclingMind.md`, `ENGINE-REFERENCE-AC.md` (§2.5, §3.2), `Q19-TheProjectedTimeCommitment.md` (§V.4), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofG_Chirality.md`.
 
 ---
 
@@ -186,7 +186,7 @@ The $K_4$ topology bounds the generation count identically to $N_{\text{gen}} = 
 
 ### 1. The Lower Bound ($N_{\text{gen}} \ge 3$): The Kobayashi–Maskawa Phase
 
-**Register.** The Kobayashi–Maskawa count $\delta = (N-1)(N-2)/2$ is a theorem; it says a 3×3 unitary mixing matrix carries exactly one physically non-removable complex phase. The step from $\delta \ge 1$ to "$N \ge 3$ is required" rests on the antecedent that temporal compilation needs at least one such non-removable phase. That antecedent is stated in `ProofO_HelicalTime.md` and cited here; it is not re-derived in this file. The bound below is only as sharp as that antecedent is; the audit (`audit/Q-audit-2026-11-10.md`, Q1 §V.1 row) records it as UNDECIDABLE BY THIS INSTRUMENT.
+**Register.** The Kobayashi–Maskawa count $\delta = (N-1)(N-2)/2$ is a theorem; it says a $3\times 3$ unitary mixing matrix carries exactly one physically non-removable complex phase. The step from $\delta \ge 1$ to "$N \ge 3$ is required" rests on the antecedent that temporal compilation needs at least one such non-removable phase, stated in `ProofO_HelicalTime.md` and not re-derived here. The lower bound carries the strength of that antecedent; verifying the antecedent itself from the combinatorics alone is **UNDECIDABLE BY THIS INSTRUMENT**.
 
 In gauge theory, the rotation between mass eigenstates and flavor eigenstates is executed by an $N \times N$ unitary mixing matrix ($U \in U(N)$).
 
@@ -216,7 +216,7 @@ These three perfect matchings are the **three bimedians** of the $K_4$ tetrahedr
 * the **Cardinal** Bimedian: $\{P\text{--}R, \; I\text{--}U\}$
 * the **Mutable** Bimedian: $\{P\text{--}I, \; U\text{--}R\}$
 
-*Unnumbered by design.* Nothing in this document may depend on the position of a
+*Unnumbered by design.* No argument here may depend on the position of a
 bimedian in a list: the three carry names, and an ordinal quoted across files has
 already inverted Cardinal and Mutable once (see `L3-EdgeStateSpace` and
 `L4-ThePlenum` decoder headers). Name the Bimedian and print its edge pair.
@@ -259,7 +259,7 @@ The undirected $K_4$ admits exactly three distinct Hamiltonian cycles. Each uses
 
 ### The Double Cover and the Open Address
 
-Reading each undirected cycle in both senses yields six directed Hamiltonian traversals. These six cover the twelve directed arcs of $K_4^*$ **twice each** — a double cover, not a decomposition. Tillson (1980) proved $K_n^*$ decomposes into directed Hamiltonian cycles for every $n$ except $n = 4$ and $n = 6$, and exhaustive search over the six directed cycles returns zero partitions; the six cover precisely because no three of them partition (`L3-EdgeStateSpace` §V, correction of record 2026-11-10; `Q19-TheProjectedTimeCommitment` §V.4, which carries the four Hamiltonian paths plus centroid reading of the same arithmetic). The claim that three directed cycles exhaust the twelve arcs is withdrawn, and with it any bookkeeping of the form "3 cycles × 4 arcs = 12." What survives — the entire structural content this file needs — is the three **undirected** cycles, the bimedian each holds silent, and the fermion-to-arc bijection of §II (which never required the partition to be well-defined).
+Reading each undirected cycle in both senses yields six directed Hamiltonian traversals. These six cover the twelve directed arcs of $K_4^*$ **twice each** — a double cover, not a decomposition. Tillson (1980) proved $K_n^*$ decomposes into directed Hamiltonian cycles for every $n$ except $n = 4$ and $n = 6$, and exhaustive search over the six directed cycles returns zero partitions; the six cover twice precisely because no three of them partition (`L3-EdgeStateSpace` §V; `Q19-TheProjectedTimeCommitment` §V.4, which carries the four Hamiltonian paths plus centroid reading of the same arithmetic). Three directed cycles never partition the twelve arcs; what governs the generations is the three **undirected** cycles, the bimedian each holds silent, and the fermion-to-arc bijection of §II (which is independent of any directed-cycle partition).
 
 `ENGINE-REFERENCE-AC.md` §3.2 carries the operational trace of exactly this: each ring runs **eight live opcodes**, not twelve. Reading a Hamiltonian cycle in one directed sense activates four arcs; reading its reverse activates four more; the two together fill the eight opcodes of one ring. Three rings therefore trace 24 arc-slots over 12 arcs — the same double cover, now read as instruction count rather than edge count.
 
@@ -346,7 +346,7 @@ $$U^\dagger U = \mathbb{I}$$
 
 As established in `Meta-MechanismOfTransition` and `Q6-MeasurementAndMatrices`, approaching a $K_3$ boundary face causes the interior coordinate to diverge ($\tan\theta \to \infty$). To cross the boundary without encountering an unphysical coordinate singularity, the state must undergo a $90^\circ$ basis rotation.
 
-The unitary mixing matrices are the geometric operators that execute this basis change from the uncollapsed propagation basis to the interaction basis prior to XOR projection. The shared-plane-per-generation-pair structure of §VI is the skeleton on which the specific angle magnitudes live; the derivation of those magnitudes from the skeleton is the ADDRESS this file leaves open.
+The unitary mixing matrices are the geometric operators that execute this basis change from the uncollapsed propagation basis to the interaction basis prior to XOR projection. The shared-plane-per-generation-pair structure of §VI is the skeleton on which the specific angle magnitudes live; the derivation of those magnitudes from the skeleton is an open ADDRESS.
 
 ### 3. CP Violation as Torsional Shear
 The non-removable complex phase $\delta = 1$ in the CKM matrix introduces an asymmetry between the forward and reverse traversals of the Hamiltonian cycles:
@@ -383,14 +383,15 @@ The twelve fermions of the Standard Model are not twelve independent particles d
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to two strict empirical falsification conditions and one algebraic consistency check:
 
 1. **Discovery of a Fourth Fundamental Generation ($N_{\text{gen}} = 4$):**
-   If accelerator experiments (e.g., at the High-Luminosity LHC or future colliders) discover a fourth generation of chiral fermions with a light neutrino ($\Gamma_Z$ width update), the $K_4$ topological bound ($(4-1)!! = 3$) is definitively refuted. (Closed: LEP precision $Z$-pole measurement limits light active neutrinos to $N_\nu = 2.9840 \pm 0.0082$, confirming $N = 3$).
+   If accelerator experiments (e.g., at the High-Luminosity LHC or future colliders) discover a fourth generation of chiral fermions with a light neutrino ($\Gamma_Z$ width update), or an elementary chiral matter fermion whose weak quantum numbers violate the four-pole $Q = I_3 + Y_W/2$ alignment of §IV, the $K_4$ topological bound ($(4-1)!! = 3$) and two-bit seating are refuted. (Note: LEP precision $Z$-pole measurement already limits light active neutrinos to $N_\nu = 2.9840 \pm 0.0082$, leaving high-mass fourth-generation fermions as the live collider test.)
 2. **Observation of Tree-Level Quark-to-Lepton Flavor Transitions:**
    If a tree-level weak charged-current decay executes an unmediated quark-to-lepton transition violating the $\text{AY}$ bit (e.g., direct $t \to \tau$ without a mediator boson), the Cardinal plane restriction ($\{P\text{--}R, I\text{--}U\}$) is broken.
-3. **Algebraic Contradiction in the Dual-Binary Seed:**
-   If a state can be constructed within the two-bit register that produces an illegal charge or breaks the Two-Bit Gray Code Braid (`ProofQ_AlgebraicSyntax.md`), the derivation fails.
+
+### Consistency Check
+* **Two-Bit Register Arithmetic and Gray Code Braid (`ProofQ_AlgebraicSyntax.md`):** Exhaustive evaluation of the 4 states $(\mathrm{AR}, \mathrm{AY}) \in \{\pm 1\}^2$ in $Q = \frac{1}{2}(\mathrm{AR} \times \mathrm{AY}) + \frac{2\cdot\mathrm{AY}-1}{6}$ and along the Two-Bit Gray Code Braid is a finite combinatorial check (sample size 1) verifying internal algebraic consistency rather than an empirical falsifier.
 
 The 12 fermions are the wiring of the spatial atom. The generations are its three closed undirected cycles. The architecture is locked at $N_{\text{gen}} = 3$ with zero free parameters apart from the ProofO antecedent on $\delta \ge 1$.
 

@@ -3,20 +3,23 @@
 ### *(The Cartesian Projection, the Star-Norm Signature, and the Two Clocks)*
 
 > **Epistemic Register:** Applied Architecture / Meta-of-Physics.
+
 > **Claim:** Physical reality is an enclosed four-vertex extrusion of the $K_4$ tetrahedron radiating from its centroid, possessing four spatial dimensions rather than three. Minkowski's 1908 identification of the "fourth dimension" as Time is a category error inherited from the Cartesian coordinate system, which exiled the integrating fourth vertex to an invisible origin $(0,0,0)$ and lost the interior volume. The $3+1$ metric signature ($\eta_{\mu\nu} = \text{diag}(+1, -1, -1, -1)$ or $\text{diag}(-1, +1, +1, +1)$) is not a mixture of Space and Time; it is the algebraic signature of the biquaternion Star-Norm ($N_* = P^2 - |\mathbf{Q}|^2$), separating one scalar ledger ($P$) from three vector phase-buffers ($Q_i, Q_j, Q_k$). Time is bifurcated into two distinct non-spatial mechanisms: angular frequency $\omega$ (the compilation engine at the centroid) and coordinate time $dt$ (the spatial wake of committed entries accumulating on the $R$-pole at the observer's scale; equivalently the handoff $P_N \to R_{N+1}$ from `L3-TheAtomOfSpace` §III, so that the "$R$-ledger" at the observer's scale is the compiled $P$ of the scale below).
-> **Dependencies:** `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `Q6-MeasurementAndMatrices.md`, `L0-EinsteinTrace.md`, `L3-FormalFoundations.md`, `L3-TheAtomOfSpace.md` (§III, the $P_N \to R_{N+1}$ handoff fixing scale-labeling of the ledger), `L4-ScalingInvariants.md`, `L4-ThePlenum.md`, `ENGINE-REFERENCE-AC.md` (§VIII), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofQ_AlgebraicSyntax.md`, `On_TheGravityProgramAudit.md` (Q7 F1–F5, the hidden-pole discussion that scopes this file's scale-naming requirement).
+
+*Reads with: `Q4-OpenExhaust.md`, `Q5-StarNormProduct.md`, `Q6-MeasurementAndMatrices.md`, `L0-EinsteinTrace.md`, `L3-FormalFoundations.md`, `L3-TheAtomOfSpace.md` (§III, the $P_N \to R_{N+1}$ handoff fixing scale-labeling of the ledger), `L4-ScalingInvariants.md`, `L4-ThePlenum.md`, `ENGINE-REFERENCE-AC.md` (§VIII), `ProofN_BiquaternionBridge.md`, `ProofO_HelicalTime.md`, `ProofQ_AlgebraicSyntax.md`, `On_TheGravityProgramAudit.md` (Q7 F1–F5, the hidden-pole discussion that scopes this file's scale-naming requirement).*
 
 ---
 
 ## Scope note on "which pole is where"
 
-Read at a single scale, three passages of this file look like they conflict: §I exiles $P$, §III puts $R$ as the floor the observer stands on with $P$ on the visible face, and §VII reads $P$ as the ledger misread as time. The resolution is scale-naming, not re-assignment: the single device the framework permits is the handoff $P_N \to R_{N+1}$ from `L3-TheAtomOfSpace` §III and `Q5-StarNormProduct` §IV, which says the compiled $P$ at scale $N$ is the ground $R$ at scale $N+1$. The three readings that look like a conflict are three scales of the same handoff:
+Read at a single scale, three passages look like they conflict: §I exiles $P$, §III puts $R$ as the floor the observer stands on with $P$ on the visible face, and §VII reads $P$ as the ledger misread as time.
 
 - **§I** states the Cartesian reduction: the fourth vertex is exiled to the origin $(0,0,0)$ regardless of which pole is sitting there at the given scale. The reading is scale-neutral.
 - **§III** reads the manifold from a physical observer anchored at the $R$-pole of their own scale — the material-ground scale. For that observer, the three vertices they see on the opposing face are $\{P, U, I\}$ at the same scale. The observer's $R$-pole is not "the hidden floor" in opposition to §VII; it is the floor of *this* scale, and under the handoff $P_N \to R_{N+1}$ that floor is itself the compiled $P$-ledger of the scale below.
 - **§VII** reads the scale-crossing identity: the $P$-ledger at scale $N$ carries the wake of coordinate time, and that same ledger becomes $R_{N+1}$ — the material ground of the scale above, on which the next scale's observer stands. Mass, inertia, and gravity on the observer's scale are the committed $P$-entries of this scale; and this scale's $P$-ledger will be next scale's material floor.
 
-Under the handoff, "$P$ is the ledger misread as time" (§VII) and "the observer stands on $R$" (§III) are not competing claims about one pole; they are the same compiled ledger read from one scale and from the scale above it. The scale-naming requirement raised by `On_TheGravityProgramAudit` Q7-F1…F5 is answered by naming the scale at every use: the local observer's $R$ is the compiled $P$ of the scale below, and this document's "$P$-ledger" refers throughout to the ledger at the observer's current scale.
+Under the handoff, "$P$ is the ledger misread as time" (§VII) and "the observer stands on $R$" (§III) are not competing claims about one pole; they are the same compiled ledger read from one scale and from the scale above it. 
+The scale-naming requirement raised by `On_TheGravityProgramAudit` Q7-F1…F5 is answered by naming the scale at every use: the local observer's $R$ is the compiled $P$ of the scale below, and "$P$-ledger" refers throughout to the ledger at the observer's current scale.
 
 ---
 
@@ -51,7 +54,8 @@ Axes are then drawn to the remaining three vertices.
 ```
 
 This choice exiles the integrating fourth dimension (`L0-EinsteinTrace.md` §3):
-1. **The Exiled Vertex:** The fourth vertex—the one chosen as the origin—is no longer represented as an active spatial coordinate. It is demoted to the passive reference point from which everything else is measured. (Which pole takes the origin role depends on the scale and the observer; §III fixes the convention used in the rest of this file.)
+
+1. **The Exiled Vertex:** The fourth vertex—the one chosen as the origin—is no longer represented as an active spatial coordinate. It is demoted to the passive reference point from which everything else is measured. (Which pole takes the origin role depends on the scale and the observer; §III fixes the convention used across §§III–VII.)
 2. **The Loss of the Interior Volume:** An observer standing inside a Cartesian system looks outward and sees only three degrees of freedom. The interior volume of the tetrahedron is projected onto the flat $K_3$ boundary face formed by the other three poles.
 
 Classical physics mapped the three-dimensional shadow cast by the four-dimensional cell on the boundary wall, mistaking the shadow for the container.
@@ -238,7 +242,7 @@ In the $K_4$ architecture, the **ledger is non-invertible**:
 * These commits are written by the Route Law's squaring operation.
 * Squaring is algebraically non-invertible: from a scalar magnitude $P$, you cannot uniquely reconstruct the phase $h$ or the directional unit vectors ($\mathbf{i}, \mathbf{j}, \mathbf{k}$) that were burned to create it.
 
-**Scope limitation.** Ledger non-invertibility and GR's CTC-containing solutions are different objects. Ledger non-invertibility says the committed scalar entry cannot be algebraically un-squared to recover the phase that produced it; it does not derive the field-equation theorem that GR admits no CTC solutions. Those are the Compass's axis V (the one-way stadium; stated as a structural pole of the architecture) rather than a derivation of GR's CTC-free-ness. The audit's verdict (`audit/Q-audit-2026-11-10.md`, Q7 §VI.1 row) records this as **UNDECIDABLE BY THIS INSTRUMENT**: the ledger's non-invertibility is an algebraic fact of this framework; the absence of CTCs in GR is a separate result in a separate formalism, and the two are structurally parallel on this axis but not identified by it. The Arrow of Time, read through the $K_4$ ledger, is not a statistical accident of low-entropy initial conditions; it is the non-invertibility of the squaring operator at the foundation of the algebra. You cannot walk backward along a compiled ledger — in this architecture.
+**Scope limitation.** Ledger non-invertibility and GR's CTC-containing solutions are different objects. Ledger non-invertibility says the committed scalar entry cannot be algebraically un-squared to recover the phase that produced it; it does not derive the field-equation theorem that GR admits no CTC solutions. Those are the Compass's axis V (the one-way stadium; stated as a structural pole of the architecture) rather than a derivation of GR's CTC-free-ness. Whether ledger non-invertibility implies the absence of CTCs in General Relativity is **UNDECIDABLE BY THIS INSTRUMENT**: the ledger's non-invertibility is an algebraic fact of the $K_4$ framework, whereas the existence or absence of CTCs in GR is a separate result in a separate formalism, structurally parallel on this axis but not identified by it. The Arrow of Time, read through the $K_4$ ledger, is not a statistical accident of low-entropy initial conditions; it is the non-invertibility of the squaring operator at the foundation of the algebra. You cannot walk backward along a compiled ledger — in this architecture.
 
 ### 2. The Structural Origin of Gravity
 Because the $P$-pole is an un-priced scalar ledger ($Z_P = 0$, `Q4-OpenExhaust.md`), it carries no gauge boson.
@@ -291,14 +295,17 @@ every pair of adjacent scales.
 ```
 
 ### Pre-Registered Kill Conditions
-Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to three strict falsification conditions:
+Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this construction is subject to two strict falsification conditions and one structural consistency check:
 
-1. **Experimental Verification of Phase Recovery Without Thermodynamic Dissipation:**
-   If an experimental apparatus un-squares a committed scalar entry $P$ to recover its pre-collapse vector phase $h\mathbf{Q}$ without paying the Landauer floor, the non-invertibility of the Route Law fails at this scale. (Scope: this is the algebraic non-invertibility of §VI.1, not a derivation of GR's CTC absence.)
-2. **Observation of Quantum Superposition in the Metric Exhaust ($dt$):**
+1. **Observation of Quantum Superposition in the Metric Exhaust ($dt$):**
    If coordinate time $dt$ can be put into a quantum superposition—exhibiting temporal interference fringes on the scalar ledger $P$ without a driving frequency $\omega$—the segregation between the two clocks is refuted.
-3. **Detection of a Spatial Axis Independent of $K_4$:**
+2. **Detection of a Spatial Axis Independent of $K_4$:**
    If an experiment detects a fifth orthogonal macroscopic spatial coordinate that cannot be seated within the 4-vertex extrusion or the $K_4 \to K_5$ AC extension, the tetrahedral dimensional ceiling is broken.
+
+### Consistency Check and Corpus-Specific Boundary
+
+* **Consistency Check (Algebraic Non-Invertibility and Landauer Floor):** Squaring $P = |\mathbf{Q}|^2$ is algebraically many-to-one, and bit erasure carries the Landauer floor $k_B T \ln 2$. Recovering erased complex phase $h\mathbf{Q}$ from the committed scalar $P$ alone without thermodynamic dissipation cannot succeed against the algebra, so this condition acts as a structural consistency check (already separated from GR's CTC absence in §VI.1) rather than a live empirical kill.
+* **Corpus-Specific Falsifier (Physical Collapse as Route-Law Commit):** What would falsify the corpus-specific claim of §§II–VI.1 is an experimental demonstration that macroscopic state compilation into the rest-mass ledger ($dt$) preserves full phase reversibility without paying the Landauer dissipation floor, breaking the identification of physical measurement collapse with Route-Law squaring at this scale.
 
 The cell is four vertices. Three form the boundary face; one forms the scalar ledger at this scale. The engine turns at the centroid, leaving the wake of coordinate time behind it. The ledger of this scale is the floor of the next; the floor of this scale was the ledger of the scale below.
 
