@@ -5,7 +5,7 @@
 
 ---
 
-Cantor asks how big. This asks where.
+**Cantor asks how big. This asks where.**
 
 That is not a preference between two questions about one object. It is the difference between an infinity that costs and an infinity that does not, and everything downstream turns on which one is under discussion. An infinity of count has to be assembled — sets formed, power sets taken, the diagonal run, ordinals climbed — and every operation in that assembly is a commitment that something has to pay for. An infinity of place is not assembled at all. It is where the assembling happens, and it holds every uncompiled possibility at no charge whatever, because nothing in it has yet been written down.
 
@@ -17,13 +17,14 @@ Physics imported the first and has been paying for it for a century. The bill ar
 
 Quantum field theory computes the energy of empty space by counting modes. Each field mode is a harmonic oscillator; each oscillator carries a ground-state energy of $\tfrac12\hbar\omega$; integrate over the wavevector continuum and the total diverges. Cut the integral off at the Planck scale, where the calculation's own assumptions fail, and the divergence becomes a number — the Planck density — which exceeds the vacuum energy the universe actually exhibits by some one hundred and twenty orders of magnitude.
 
-Keep the arithmetic honest about what that figure is. It is not a measurement. It is an estimate divided by an observation, and the estimate moves with the cutoff — drop the cutoff to the electroweak scale and the discrepancy falls to around $10^{55}$; impose supersymmetry and it falls further. With the Planck cutoff the "QFT side" is simply the Planck density, so the ratio is the observed dark-energy density expressed in Planck units, and that is a quantity with a clean closed form:
+Keep the arithmetic honest about what that figure is. It is not a measurement. It is an estimate divided by an observation, and the estimate moves with the cutoff — drop the cutoff to the electroweak scale and the discrepancy falls to around $10^{55}$; impose supersymmetry and it falls further. With the Planck cutoff the "QFT side" is simply the Planck density, so the ratio is the observed dark-energy density expressed in Planck units, evaluated below at the observed present-epoch State parameter $H_0 = 67.4\text{ km/s/Mpc}$ (Planck 2018 spread $67.36\text{–}67.4\text{ km/s/Mpc}$), and that is a quantity with a clean closed form:
 
 ```python
 from mpmath import mp, mpf, sqrt, pi
 mp.dps = 15
 c = mpf('299792458'); G = mpf('6.67430e-11'); hbar = mpf('1.054571817e-34')
-lP = sqrt(hbar*G/c**3); H0 = mpf('67.4')*1000/mpf('3.0857e22'); OL = mpf('0.685')
+lP = sqrt(hbar*G/c**3)
+H0 = mpf('67.4')*1000/mpf('3.0857e22'); OL = mpf('0.685')   # epoch-dependent State input (Planck 2018: 67.36-67.4)
 RH = c/H0; rhoP = c**7/(hbar*G**2); rho_L = OL*(3*H0**2/(8*pi*G))*c**2
 print(rho_L/rhoP, (lP/RH)**2, (rho_L/rhoP)/((lP/RH)**2), 3*OL/(8*pi))
 # 1.1339e-123   1.3867e-122   0.0817659   0.0817659   (the factor is 3*Omega_L/8pi, exactly)
@@ -210,3 +211,4 @@ What has not been settled yet is how many of these there are, how they reach eac
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

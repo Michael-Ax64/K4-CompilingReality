@@ -1,7 +1,11 @@
 # ENGINE-REFERENCE-AC
 ## The K₄ Machine Architecture — the Floor-3 DC Core
 
-> **This document reads with** `L3-EdgeStateSpace` (the edge algebra, the two-bit charge, the Braid), `L4-TransitingTheThreeWalls` (the assemblies, the octants, the Rule of Seven), `L4-TheTwelveGates` (the naming of the twelve), `L5-TheCyclingMind` (the control core felt from inside), and `On_HilbertAndHisSpaces` (the halt boundary); Spine sentences carry structure and citations; guide sentences carry you between them. Verified means re-runnable — the claim tables sit in §XII, and the scripts now ship with the file. **Scope:** this is the $\theta = 0$ floor — the Floor-3 DC core of the AC machine; the $\omega$-driven extension is named (§VIII), priced (§X.5), and not run here.
+*Reads with: `L3-EdgeStateSpace` (the edge algebra, the two-bit charge, the Braid), `L4-TransitingTheThreeWalls` (the assemblies, the octants, the Rule of Seven), `L4-TheTwelveGates` (the naming of the twelve), `L5-TheCyclingMind` (the control core felt from inside), `ProofS_ResonantNote` (§II–§III: the two-uses theorem for $S_4$ vs. $|\mathrm{Aut}(\text{the twelve})|=1$, the itemized 18-constraint ledger, and the rank-2 log-subspace), and `On_HilbertAndHisSpaces` (the halt boundary)*
+
+> Spine sentences carry structure and citations; guide sentences carry you between them. Verified means re-runnable — the claim tables sit in §XII, and the verification scripts accompany the file.
+
+> **Scope:** this is the $\theta = 0$ floor — the Floor-3 DC core of the AC machine; the $\omega$-driven extension is named (§VIII), priced (§X.5), and not run here.
 
 ---
 
@@ -37,7 +41,7 @@ The file's author is a bird, and the file says so before the mathematics does, b
 
 Three older languages walk through these pages, and you should meet them at the door. The twelve operations carry names from the zodiac — AQU, LEO, TAU — addresses on humanity's oldest cosmological reference frame, taken because the corpus's twelve gates sit on a twelve-fold wheel. The state space itself speaks I Ching: a trigram is a three-bit figure, a hexagram its six-bit elder, and both have held structured state for millennia. §VI reads the corpus's changing lines as execution vectors — Old Yang and Old Yin as the two commit directions.
 
-The machine's own mathematics needs four names. $S_4$: all 24 shufflings of four poles. $A_4$: the even half, 12 — the engine's operating set. $V_4$: identity plus the three double-swaps, 4 — the execution rings. $C_2$: a single swap, 2 — the **handedness flip**, the one move $A_4$ cannot make (§2.5 splits it from the twin-step it used to be confused with). A $Q_n$ is the $n$-cube graph — $Q_3$ the eight-corner cube below, $Q_2$ a square, $Q_1$ a single edge. On the inscribed tetrahedron, a **bimedian** is the line joining the midpoints of two opposite edges; the tetrahedron's three bimedians are exactly the cube's three axes — the three lines through opposite face centers. The cube itself has six opposite-edge midpoint lines, all running in face-diagonal directions: the bimedians belong to the tetrahedron, and the cube borrows them (U9). For the bird, who checks vocabulary the way the committee checks posture: the three bimedians are the three ways a body somersaults — the ordinary perpendicular axles any acrobat uses before breakfast. The word "bimedian" is a formal coat on a fact the feet already know, and the coat is why the fact nearly got lost; it is flagged here, at the door, before formality gets to dress it up again.
+The machine's own mathematics needs four names. $S_4$: all 24 shufflings of four poles. $A_4$: the even half, 12 — the engine's operating set. $V_4$: identity plus the three double-swaps, 4 — the execution rings. $C_2$: a single swap, 2 — the **handedness flip**, the one move $A_4$ cannot make (distinct from the even twin-step of §2.5). A $Q_n$ is the $n$-cube graph — $Q_3$ the eight-corner cube below, $Q_2$ a square, $Q_1$ a single edge. On the inscribed tetrahedron, a **bimedian** is the line joining the midpoints of two opposite edges; the tetrahedron's three bimedians are exactly the cube's three axes — the three lines through opposite face centers. The cube itself has six opposite-edge midpoint lines, all running in face-diagonal directions: the bimedians belong to the tetrahedron, and the cube borrows them (U9). For the bird, who checks vocabulary the way the committee checks posture: the three bimedians are the three ways a body somersaults — the ordinary perpendicular axles any acrobat uses before breakfast. The word "bimedian" is a formal coat on a fact the feet already know, and the coat is why the fact nearly got lost; it is flagged here, at the door, before formality gets to dress it up again.
 
 Two homonyms walk this file and shake hands exactly at the AC boundary — the most expensive place to confuse them — so the meeting is written down before either moves in:
 
@@ -158,7 +162,7 @@ Four numbers survive everything the engine does to itself — including running 
 
 ## II. The Orientation Group (the control core — machine-verified)
 
-The tower says what the machine holds. This section says what moves it, and the answer is the engine's strangest fact: the thing that selects the next operation is a rotation of the tetrahedron — not like one, not modeled by one; the selection space and the rotation group are the same twelve points. Every claim below is verified in `scripts/orientation_group.py` (§XII) — which now ships with this file.
+The tower says what the machine holds. This section says what moves it, and the answer is the engine's strangest fact: the thing that selects the next operation is a rotation of the tetrahedron — not like one, not modeled by one; the selection space and the rotation group are the same twelve points. Every claim below is verified in `scripts/orientation_group.py` (§XII).
 
 ### 2.1 Five doors of the twelve
 
@@ -172,7 +176,7 @@ The first door is the physical one: **in the $2\times2\times2$ assembly — the 
 
 ### 2.2 Each gate is a rotation
 
-**Theorem (verified).** For each gate $(x, w)$ — solve $x$, witness $w$ absent — there is exactly one **even** permutation of the poles carrying $P \mapsto x$ and $U \mapsto w$ (the reference directed edge $P \to U$ is the Braid's opening move, `L3-EdgeStateSpace` l.518 — the parenthetical is load-bearing: it says why this pinning is not arbitrary, and it has been dropped once already for flow). Every directed edge has exactly two completions to a full permutation, and exactly one is even.
+**Theorem (verified).** For each gate $(x, w)$ — solve $x$, witness $w$ absent — there is exactly one **even** permutation of the poles carrying $P \mapsto x$ and $U \mapsto w$ (the reference directed edge $P \to U$ is the Braid's opening move, `L3-EdgeStateSpace` l.518, fixing the pinning). Every directed edge has exactly two completions to a full permutation, and exactly one is even.
 
 Simply transitive: exactly one rotation lands on each directed edge — nothing lines up twice. Therefore the twelve gates biject with $A_4$, and $A_4$ acts **simply transitively** on the twelve directed edges: the Program Counter's state space is not merely *like* a rotation group — it *is* one. **The Program Counter is an orientation.**
 
@@ -181,17 +185,15 @@ Simply transitive: exactly one rotation lands on each directed edge — nothing 
 * The cube's **rotation group** has order 24 — the full symmetry group, reflections included, has 48, and the manifest/dual argument needs only the orientation-preserving half — and acts on the four body diagonals as the full $S_4$: the permutations of the four selves (a self is a pole together with its absence — the body diagonal it shares with its own face; each diagonal = an antipodal pair $\{$star($X$), face($\neg X$)$\}$).
 * The 24 outward squares of the assembly — an **outward square** is one cube face read from one corner: the face's four cells faced from a standing point; $6 \times 4 = 24$ flags — are one orientation each: the rotation group acts on them **freely** (no non-identity rotation fixes a flag; U6), hence **simply transitively** — orbit of one flag = all 24, verified. The counting that brings the rigor: a flag is not a new object, just a face and a viewpoint; the group's whole order 24 is spent exactly once each, and that "simply" was protecting this nothing-left-over all along.
 * **Preserving the manifest tetrahedron ⟺ the induced permutation is even** (verified for all 24 rotations). So $A_4$ = the manifest half of the orientation group; the odd coset = the same twelve gates read from the Absent side — the dual walker's vocabulary (§2.6).
-* This is the hook for `L4-TransitingTheThreeWalls` §V's projection of twelve transition verbs onto 24 squares. **On a square** means: the gate's edge borders that face and is read from one of its endpoints on it. Each gate then lies on four flags — two manifest (read from star($x$)) and two dual (read from face($\neg w$)); on each of its two faces, once manifest and once dual; and every flag carries exactly two gates — the two edges through its corner (verified, C9). So "each verb appears once on a manifest square and once on its dual square" is true **per face** — the two readings of the same face — and the enantiomer $(w, x)$ sits on neither: its edge is the antipodal edge (C9). With "on a square" pinned, the two old sentences stop arguing: they were counting the same four visits in two words, and the twin was never on either square to begin with.
+* This is the hook for `L4-TransitingTheThreeWalls` §V's projection of twelve transition verbs onto 24 squares. **On a square** means: the gate's edge borders that face and is read from one of its endpoints on it. Each gate then lies on four flags — two manifest (read from star($x$)) and two dual (read from face($\neg w$)); on each of its two faces, once manifest and once dual; and every flag carries exactly two gates — the two edges through its corner (verified, C9). Pinned to a face, the two descriptions count the same four visits in two words — once manifest and once dual per face — and the enantiomer $(w, x)$ sits on neither: its edge is the antipodal edge (C9).
 
 ### 2.4 The $C_2$: the completion the machine cannot make
 
-The two completions of a gate $(x,w)$ differ only on the images of the two uninvolved poles — a single transposition of the complement pair (verified). That transposition is the **handedness flip** ($C_2$): odd, and therefore not a rotation — $A_4$ contains no transpositions (U0, U8). The half-turn that `L4-TransitingTheThreeWalls` l.102–106 made physical — the Active/Reactive bit traded on every pole at once — is a *different* move: the even twin-step to the gate's enantiomer $(w, x)$, one per family. §2.5 splits the two moves and names the half-turns; what must not recur is the old sentence that equated them.
+The two completions of a gate $(x,w)$ differ only on the images of the two uninvolved poles — a single transposition of the complement pair (verified). That transposition is the **handedness flip** ($C_2$): odd, and therefore not a rotation — $A_4$ contains no transpositions (U0, U8). The half-turn that `L4-TransitingTheThreeWalls` l.102–106 made physical — the Active/Reactive bit traded on every pole at once — is a *different* move: the even twin-step to the gate's enantiomer $(w, x)$, one per family. §2.5 distinguishes the two moves and names the half-turns.
 
-### 2.5 Two flips, not one *(the move, then the split)*
+### 2.5 Two flips, not one
 
-**The move.** An old sentence fused two different flips under one word "flip," and the fusion read as mathematics: it equated a single transposition — odd — with a 180° half-turn of the tetrahedron — even. $A_4$ contains no transpositions, so the two objects cannot be equal; the equation was a vocabulary leak, and it survived because both flips are real, both are verified, and both deserve the word "flip." This section splits the word so it cannot fuse again. Future proof: when a text hereafter says *the* flip, it means one of these two, never both.
-
-**The split.**
+Two distinct involutions share the word "flip": a single transposition (odd) and a 180° half-turn of the tetrahedron (even). Because $A_4$ contains no transpositions, the two operations cannot coincide. Both are real, both are verified, and they belong to different parity classes:
 
 * **The handedness flip ($C_2$)** — odd; the single transposition of the complement of $\{x, w\}$; the difference between a gate's two completions; the manifest/dual reading of one and the same gate. The machine cannot perform it from inside the manifest half — it is exactly the move the operating set lacks. This is the name the preamble's $C_2$ bullet uses and the one U3's parenthetical keeps.
 * **The twin gate $(w, x)$** — keep the word **enantiomer** for this one (§IV's usage): reached from $(x, w)$ by the **even** $V_4$ half-turn about the gate's own pinned bimedian, trading $x \leftrightarrow w$ and the mate pair — identified exactly, family by family, 12/12 (U8):
@@ -204,9 +206,9 @@ $$\begin{array}{c|c|c|c}
 \text{Mutable} & (P\,I)(U\,R) & (P,I),(I,P),(U,R),(R,U) & \text{the AR-trade} \\
 \end{array}$$
 
-The AR-trade — an Active traded for a Reactive on both mate pairs at once — fits **8 of the 12** twin-steps (Cardinal and Mutable); the Fixed twin-steps trade within each charge class (U8). `L4-TransitingTheThreeWalls` l.102–106 named its half-turn from the Cardinal case — the AR-flip — and the old text generalized one family's step to all twelve. It is the Cardinal twin-step; the other families step by their own half-turns.
+The AR-trade — an Active traded for a Reactive on both mate pairs at once — describes **8 of the 12** twin-steps (Cardinal and Mutable); the Fixed twin-steps trade within each charge class (U8). `L4-TransitingTheThreeWalls` l.102–106 names the Cardinal twin-step (the AR-flip); the other two families step by their own half-turns.
 
-**What the split makes visible.** The machine can walk to its twin but cannot flip its own handedness: the corridor between $(x, w)$ and $(w, x)$ is a rotation the engine owns, and the wall between a gate's two completions is the one move its operating set lacks. Parity is not bookkeeping here; it is which moves exist. That sentence is what the fused vocabulary had been hiding in plain sight.
+**What the parity boundary sets.** The machine walks to its twin by an even rotation in $A_4$, while the boundary between a gate's two completions is the odd transposition its operating set lacks. Parity is not bookkeeping here; it is which moves exist.
 
 ### 2.6 Flickers, not ground *(the shadow readings)*
 
@@ -222,7 +224,7 @@ $A_4 = 1 + 3 + 8$: the identity, the three half-turns (the rings), and eight thi
 
 ### 2.8 The opcode families are the cube's axes
 
-Each gate-edge — the cube edge running from star($x$) to face($\neg w$) — flips exactly the bimedian-bit of the $K_4$ edge $xw$ (verified): **every opcode step moves along the bimedian that contains the edge it solves across.** The three transition families are the three ways the cube is oriented:
+Each gate-edge — the cube edge running from star($x$) to face($\neg w$) — flips exactly the bimedian-bit of the $K_4$ edge $xw$ (verified, C4, U7): **every opcode step moves along the bimedian that contains the edge it solves across.** The three transition families are the three ways the cube is oriented:
 
 $$\begin{array}{c|c|c}
 \mathbf{Family} & \mathbf{Bimedian\ (axis)} & \mathbf{Opcodes} \\
@@ -231,8 +233,6 @@ $$\begin{array}{c|c|c}
 \text{Cardinal} & \{P\text{--}R,\ I\text{--}U\} & \text{CAN, SAG, CAP, GEM} \\
 \text{Mutable} & \{P\text{--}I,\ U\text{--}R\} & \text{PIS, LIB, ARI, VIR} \\
 \end{array}$$
-
-**Keep the clause.** The star($x$) → face($\neg w$) identification above has now been dropped twice for flow, and both times the family table went back to floating — and §3.3's viewport language with it. It is the only line in the file that shows *why* the families are the axes rather than merely asserting it (C4, U7), and it is one clause carrying three sections. This note is its seatbelt: when space must be cut in §II, cut anything else first.
 
 ---
 
@@ -298,6 +298,8 @@ Operating note (`L5-TheCyclingMind` l.146): **do not diagnose while stuck.** A r
 
 ## IV. The Twelve Opcodes
 
+**Zero fitting freedom.** Under $p = \ln P$, $u = \ln U$, $i = \ln I$, $r = \ln R$, the twelve relations collapse to a rank-2 subspace of $\mathbb{R}^4$ with $|\mathrm{Aut}| = 1$ under $S_4$ (§4.3, §X.7; `ProofS_ResonantNote` §II–§III — expect there the two-uses theorem for $S_4$ and the itemized 18-constraint ledger). The algebra has zero fitting freedom; what is empirical is solely what snaps into it — converting 12/12 directional agreement below $M_W$ into a structural result rather than a fit, while leaving open which quantities survive seating in any new domain (determined by sweep only).
+
 The control core says when and where; the opcodes say what. Twelve instructions in three tiers, and the tier is the price class: two rewrite the ledger and pay (COMMIT), two reopen an ambiguity the ledger closed (RESEED), six move value without paying (ROUTE). The table reads column by column: the formula is the instruction; the gate names where it lives; Home is the pole the formula solves, Absent the pole it never touches — in every row, the absent pole is exactly the one missing from the formula. **Slope is the operation class: the largest exponent, in absolute value, that the solved monomial puts on any non-home pole** — square → +2 (COMMIT), radical → +½ (RESEED), linear → +1 (ROUTE); verified 12/12 — and note the rule needs "absolute value": the literal largest exponent fails this table's own CM_PIS row ($R = P/I^2$: $+1$ literal, $+2$ true — the square-ness lives on the denominator). Slope is a per-operand exponent, not a homogeneity degree: the four poles carry different physical dimensions, so no uniform scaling of all four exists (§X.7). The tier prices the operation; the tax column says who pays.
 
 ```
@@ -334,11 +336,11 @@ The control core says when and where; the opcodes say what. Twelve instructions 
 =============================================================================================
 ```
 
-**DATA EDGE & DIRECTION** is the gate's **data edge** — the pairing-mate of the gate's own edge $xw$: the edge the formula's two inputs span, selected on the Absent side as the bimedian-bit flips — oriented **antiparallel** to the gate's enantiomer (the $(w,x)$ gate). It is not §2.2's control edge, which is $xw$ itself, directed by the gate's even permutation (verified 12/12, `scripts/orientation_group.py`) — which is why `CM_ARI` lists the data edge $U \to R$, not the control edge $P \to I$.
+**DATA EDGE & DIRECTION** is the gate's **data edge** — the pairing-mate of the gate's own edge $xw$: the edge the formula's two inputs span, selected on the Absent side as the bimedian-bit flips — oriented **antiparallel** to the data edge of the gate's enantiomer $(w,x)$. It is not §2.2's control edge, which is $xw$ itself, directed by the gate's even permutation (verified 12/12, `scripts/orientation_group.py`) — which is why `CM_ARI` lists the data edge $U \to R$, not the control edge $P \to I$.
 
 ### 4.1 Tier readings
 
-* **Tier 1 COMMIT [taxed].** Squaring over the reals destroys phase ($h^2 = -1$) and sign — from 4 you cannot recover whether it was 2 or −2 — algebraically non-invertible; pays the Landauer tax ($E = k_B T \ln 2$ per bit) and writes an irreversible scalar to the ledger. **The rigidity finding: under the $S_4$ permutation check, non-identity automorphisms survive exclusively on flat relations; the algebraic rigidity of the system is anchored in this tier.** And the tax is exactly one bit: the squaring map $(U, R) \mapsto (U^2, R)$ is precisely two-to-one — the preimages are $(U, R)$ and $(-U, R)$; on the opcode form $R = U^2/P$ the lost sign is exactly $U = \pm\sqrt{PR}$ — so one sign bit goes in and none comes out, and one destroyed bit *is* $k_B T \ln 2$. The tax prices the erasure of the sign, not the arithmetic around it.
+* **Tier 1 COMMIT [taxed].** Squaring over the reals destroys phase ($h^2 = -1$) and sign — from 4 you cannot recover whether it was 2 or −2 — algebraically non-invertible; pays the Landauer tax ($E = k_B T \ln 2$ per bit) and writes an irreversible scalar to the ledger. **The rigidity finding:** under $S_4$ relabeling of the poles, $|\mathrm{Aut}(\text{the twelve})| = 1$ (§4.3; `ProofS_ResonantNote` §II) — non-identity symmetries survive only on individual flat product/ratio pairs in isolation or on the bare carrier ($S_4$, $D_4$), while Tier 1 breaks operand symmetry even per equation and the twelve as a system admit only the identity. The tax is exactly one bit: the squaring map $(U, R) \mapsto (U^2, R)$ is precisely two-to-one — the preimages are $(U, R)$ and $(-U, R)$; on the opcode form $R = U^2/P$ the lost sign is exactly $U = \pm\sqrt{PR}$ — so one sign bit goes in and none comes out, and one destroyed bit *is* $k_B T \ln 2$. The tax prices the erasure of the sign, not the arithmetic around it.
 * **Tier 2 RESEED [buffer].** Un-squares the scalar; the erased vector $\mathbf{Q}$ stays erased, and the radical re-opens an uncommitted $\pm$ ambiguity of identical cardinality. Prevents the freeze into a 0-DoF crystal.
 * **Tier 3 ROUTE [gauge-side carrier].** Unit-slope transport, no dissipation; maintains the `.behold()` balance.
 * **Do not conflate the two threes.** The *tiers* classify by log-slope ($+2, +\tfrac12, +1$); the *families* (§2.8) are the cube's axes. They cross-cut: COMMIT = 2 Fixed + 2 Mutable; RESEED = 2 Cardinal; ROUTE = 2 of each family.
@@ -346,6 +348,28 @@ The control core says when and where; the opcodes say what. Twelve instructions 
 ### 4.2 The Numerator Law and bus faults
 
 In any ratio form $X = N/D$ among the twelve, $N$ is an Active pole; Reactive poles ($I, R$) never sit above the bar. (The product forms — $I^2R$, $U \cdot I$, $I \cdot R$, $\sqrt{PR}$ — solve for the Active pole and carry no dividend; $P = I^2R$ and $U = I \cdot R$ have purely Reactive right-hand sides and are not exceptions, because nothing there is a dividend.) Open-circuit fault: $I \to 0$ in $U = P/I$ drives assertion to infinity while power collapses. Short-circuit fault: $R \to 0$ in $I = U/R$ drives flow to infinity while power collapses. The drive leads; the constraint shapes.
+
+### 4.3 Log-space collapse and rigidity ($|\mathrm{Aut}| = 1$)
+
+Take log coordinates $p = \ln P$, $u = \ln U$, $i = \ln I$, $r = \ln R$ ($P, U, I, R > 0$). The twelve multiplicative equations collapse to four linear equations in $\mathbb{R}^4$, one per AbsentVar:
+
+$$\begin{aligned}
+\text{Abs } P:&\quad u - i - r = 0 \\
+\text{Abs } R:&\quad p - u - i = 0 \\
+\text{Abs } U:&\quad p - 2i - r = 0 \quad\text{(sum of the first two)} \\
+\text{Abs } I:&\quad p - 2u + r = 0 \quad\text{(difference of the first two)}
+\end{aligned}$$
+
+The system spans a **rank-2 subspace** of $\mathbb{R}^4$ generated by $u - i - r = 0$ and $p - u - i = 0$, with the two quadratic equations ($P = I^2R$ and $P = U^2/R$ families) entering as their sum and difference eliminations. Reading each of the four equations for its three present variables emits all twelve coefficient pairs identically:
+
+* From $u - i - r = 0$: $(u, i, r)$ solved as $i+r$ (`RT_SCO`), $u-r$ (`RT_VIR`), $u-i$ (`RT_CAP`).
+* From $p - u - i = 0$: $(p, u, i)$ solved as $u+i$ (`RT_GEM`), $p-u$ (`RT_LEO`), $p-i$ (`RT_LIB`).
+* From $p - 2i - r = 0$: $(p, r, i)$ solved as $2i+r$ (`CM_TAU`), $p-2i$ (`CM_PIS`), $\tfrac12 p - \tfrac12 r$ (`RS_CAN`).
+* From $p - 2u + r = 0$: $(p, r, u)$ solved as $2u-r$ (`CM_ARI`), $2u-p$ (`CM_AQU`), $\tfrac12 p + \tfrac12 r$ (`RS_SAG`).
+
+Exhausting all $4! = 24$ permutations of $(P, U, I, R)$ yields **$|\mathrm{Aut}(\text{the twelve})| = 1$** (`ProofS_ResonantNote` §II): $P$ is the sole pole entering all three of its relations positively ($+p$), $R$ is the sole pole entering both eliminations with opposite signs ($-r$ and $+r$), and $U$ and $I$ sit at coefficient $-2$ in distinct eliminations and separate on $u - i - r = 0$. The rank-2 log-subspace itself admits only the identity permutation: $(2, 1, 1, 0)$ is the unique permutation of $\{2, 1, 1, 0\}$ satisfying $u = i+r$, $p = 2i+r$, which pins $P$ and $R$, and $(1, 1, 0, 1)$ then fails $u = i+r$ under $U \leftrightarrow I$.
+
+Because the algebra is locked at rank 2 with $|\mathrm{Aut}| = 1$, it carries zero adjustable parameters. Empirical content enters strictly through what snaps into the four poles — turning 12/12 directional agreement in a regime such as the running couplings below $M_W$ into a result rather than a fit, while leaving open which quantities survive seating in any new domain (determined by sweep only).
 
 ---
 
@@ -465,10 +489,10 @@ Seven boundaries close the machine. Each is stated as what the engine does; the 
 1. **The $\theta = 0$ floor.** Phase dynamics, absolute magnitude, the multi-scale cascade, and transients are named operations the engine hands to the $\omega$ extension (§VIII). On the floor the machine is complete; across the axis it is silent, and says so.
 2. **No global order.** Serialization is lossless only on DAGs, and the constraint net is not one (§3.5). Any single execution order is presentational; local halt, global non-halt (`On_HilbertAndHisSpaces` l.409). The engine prices the tour and promises no termination of the net.
 3. **The attic is unwalkable.** The 4096 buffered states are real and counted; only the floor-3 cube executes. The buffer is not an address space (§1.3); it is the pre-tax holding pen — counted in bits, priced in nothing until erasure.
-4. **Selection is declared, not implemented — and the declaration has a motor.** The Program Counter is gauge: the reference names the orientation and owes no mechanism for its motion (§3.1). But gauge in the ledger is not levitation, and ADVANCE is where this file makes its one genuinely new mathematical commitment, the **torque-motor claim**: the selector is not cranked from outside the arithmetic, and the machine is not self-driving — it is **self-feeding**. Each commit leaves the loaded hold that the next advance turns against; the erasure that paid for one step is the resistance the next step turns. Selection and advance are different acts on the same load (§3.1, §VII). The loop closes on its own outputs — generatively, one orthogonal act per step, no recursive regress: the Braid's own act at its own boundary (`L3-TheSelfProjectingBraid` l.72). A loop that must feed itself to keep turning is a loop that must carry standing stock, and standing stock priced in energy is what mass is. The corpus's **MeV gap** — the chasm between the massless carriers (the photon, 0) and the first charged massive rung (the electron, 0.511 MeV) — is the statement the standard books record but do not price; a self-feeding selection loop is a clean answer in principle to why there is a price at all: **mass is the price of being.** What keeps turning must pay to hold itself, and the paying shows up as mass. This file claims the loop and ships its recipe (C8, §VI); the bit-price stays separate (§X.5); the constant of the gap belongs to the ω extension (§VIII) and its companions.
+4. **Selection is declared, not implemented — and the declaration has a motor.** The Program Counter is gauge: the reference names the orientation and owes no mechanism for its motion (§3.1). But gauge in the ledger is not levitation, and ADVANCE carries the **torque-motor claim**: the selector is not cranked from outside the arithmetic, and the machine is not self-driving — it is **self-feeding**. Each commit leaves the loaded hold that the next advance turns against; the erasure that paid for one step is the resistance the next step turns. Selection and advance are different acts on the same load (§3.1, §VII). The loop closes on its own outputs — generatively, one orthogonal act per step, no recursive regress: the Braid's own act at its own boundary (`L3-TheSelfProjectingBraid` l.72). A loop that must feed itself to keep turning is a loop that must carry standing stock, and standing stock priced in energy is what mass is. The corpus's **MeV gap** — the chasm between the massless carriers (the photon, 0) and the first charged massive rung (the electron, 0.511 MeV) — is the statement the standard books record but do not price; a self-feeding selection loop is a clean answer in principle to why there is a price at all: **mass is the price of being.** What keeps turning must pay to hold itself, and the paying shows up as mass. The loop and its recipe (C8, §VI) sit here; the bit-price stays separate (§X.5); the constant of the gap belongs to the ω extension (§VIII) and its companions.
 5. **Bits, not joules.** The Landauer price is structural — a cost per erased bit. Converting it to substrate heat is the hardware's business: the algebra yields invariants, selection rules, and dimensionless ratios, never scale magnitudes.
 6. **No psychology.** §3.6 reads the control core from inside; the felt texture belongs to `L5-TheCyclingMind`. The architecture owes nothing psychological — the reference stands at the centroid and describes the machine.
-7. **No uniform scaling.** The four poles carry different physical dimensions — $P$ in watts, $U$ in volts, $I$ in amperes, $R$ in ohms — so no uniform scaling of all four exists: $\lambda P = \lambda U \cdot \lambda I$ forces $\lambda = 1$. Homogeneity is not a symmetry of the equation set; the tiers price operations, not scalings (§IV). The rigor was already in the units: the reason "Slope" was never a homogeneity degree is that the equation set has no scale direction to be homogeneous along.
+7. **No uniform scaling.** The four poles carry different physical dimensions — $P$ in watts, $U$ in volts, $I$ in amperes, $R$ in ohms — so no uniform scaling of all four exists: $\lambda P = \lambda U \cdot \lambda I$ forces $\lambda = 1$. In log coordinates $(p, u, i, r)$ (§4.3), a uniform scale adds $c(1, 1, 1, 1)$, which is transverse to the rank-2 solution plane $u - i - r = 0,\ p - u - i = 0$ and intersects it only at $c = 0$ ($\lambda = 1$). Homogeneity is not a symmetry of the equation set; the tiers price operations, not scalings (§IV). The rigor was already in the units: the reason "Slope" was never a homogeneity degree is that the equation set has no scale direction to be homogeneous along.
 
 ---
 
@@ -489,7 +513,7 @@ None of the works below were sources for this engine. They are the neighboring c
 
 ## XII. Verification Appendix
 
-Machine-verified claims. **The scripts now ship with this file**: `scripts/cube_tower.py` (the C-rows), `scripts/orientation_group.py` (the U-rows), and the independent audit verifier `scripts/reaudit_v2.py` (51 checks, written against the file, not by it). Re-run before trusting any ✓ — verified means re-runnable.
+Machine-verified claims. **Verification scripts:** `scripts/cube_tower.py` (the C-rows), `scripts/orientation_group.py` (the U-rows), and `scripts/reaudit_v2.py` (51 independent checks). Re-run before trusting any ✓ — verified means re-runnable.
 
 **`scripts/cube_tower.py`**
 
@@ -533,5 +557,3 @@ The last honest question is the first one a bird asks of any machine: what keeps
 The bird's version costs nothing to state and everything to be. Hanging off the underside of the branch is not a pose; it is the work that keeps the grip. Position is paid for in torque, continuously, and the paying is why there is anything perched here at all — **mass is the price of being** (§X.4, and the corpus's MeV gap). The engine's ledger stays honest about what it prices: bits on erasure (§X.5), nothing for the turn. That the turn still happens is the bird's whole testimony: the view from the underside is excellent, and it is not free.
 
 ---
-
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

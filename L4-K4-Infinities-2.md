@@ -1,7 +1,7 @@
 # L4-K4-Infinities-2
 ## Part Two — Instance Plurality
 
-*Reads with `L4-ThePlenum`, `L3-FormalFoundations`, `ProofN_BiquaternionBridge`, `ProofF_Friston`, `L3-TheAtomOfSpace`, `L4-Thermodynamics`. Continues from `L4-K4-Infinities-1`; continues in `L4-K4-Infinities-3`.*
+*Reads with `L4-ThePlenum`, `L3-FormalFoundations`, `ProofN_BiquaternionBridge`, `ProofF_Friston`, `L3-TheAtomOfSpace`, `L4-Thermodynamics`, `QED-AstroLogic` (§XII.i). Continues from `L4-K4-Infinities-1`; continues in `L4-K4-Infinities-3`.*
 
 ---
 
@@ -114,13 +114,15 @@ And what the medium *does* read is entirely relational: the projection of one bu
 
 Which also settles what co-addressing is. It is **equality of response**, not equality of coordinates. Two instances are co-addressed when their mutual mismatch vanishes — when the medium cannot tell them apart by its own transfer behaviour — and that is a condition on how they answer, not on where they are.
 
-### Three angles, one letter
+### Three angles, three symbols
 
-A warning that has to be placed here rather than later, because this is where the collision is available.
+A warning that has to be placed here rather than later, because this is where the collision is available (`QED-AstroLogic` §XII.i; `L4-DynamicDistortions-Sudoku` §0).
 
-The angle between two instances' uncommitted vectors is one quantity. The phase angle of an impedance is a second. The shear angle of a cross-section deforming under torsion is a third. All three get written $\theta$ somewhere in this material, and the first two run in *opposite directions* through the same numerical values.
+1. **Spinor overlap angle ($\theta$):** the angle between two instances' uncommitted/spinor states, governing the quantum-channel overlap transmittance $T_{SU(2)}(\theta) = \cos^2(\theta/2)$.
+2. **Impedance phase angle ($\varphi$):** the temporal circuit/boundary phase mismatch ($\tan\varphi = X/R$), governing Kurokawa constant-$|Z|$ reflection $T_{\text{Kur}}(\varphi) = 1 - \tan^2(\varphi/2)$, fixed-$R$ series transmission $T_{\text{ser}}(\varphi) = 4/(4 + \tan^2\varphi)$, and linear control $\cos\varphi$.
+3. **Shear angle ($\theta_{\text{shear}}$):** the geometric deformation of a bimedian cross-section under torsion.
 
-Name each once. Do not multiply quantities from different families and read the product as a result. A derivation that forms the product of a torque measured in one of these angles and a transmission measured in another has computed nothing, however clean the arithmetic looks.
+The spinor overlap angle $\theta$ and the impedance phase angle $\varphi$ belong to different channels, run through different transmission laws, and cannot be substituted for one another. Name each strictly by its symbol ($\theta$, $\varphi$, $\theta_{\text{shear}}$). Do not multiply a torque measured in one of these angles against a transmission law belonging to another; a derivation that crosses them has computed nothing, however clean the arithmetic looks.
 
 ### What trades against what
 
@@ -128,21 +130,23 @@ Rapport and leverage are not independent, and the structure of the trade is visi
 
 At perfect match, transmission is total and torque is zero: everything crosses, and nothing is directed. A pure echo. At full non-collinearity, torque is maximal and the coupling is an isolator: the parties cannot reach each other at all. Maximum leverage over a channel that does not carry.
 
-**Delivered agency is therefore a product of two terms that move oppositely, and a product of that shape has a maximum somewhere between the ends.** Where it sits depends on how transmission across the throat interface actually falls off with non-collinearity, and that law has not been derived from the port algebra. It is a derivation target with a clean statement and a real answer waiting at the end of it.
+**Delivered agency is therefore a product of two terms that move oppositely, and a product of that shape has a maximum somewhere between the ends.** `QED-AstroLogic` §XII.i (expect there: the two-port, two-channel transmission laws separating spinor overlap $\theta$ from impedance phase $\varphi$, with the four-domain map tagged `CANDIDATE`) catalogs the four candidate stationary points of $T\sin\alpha$:
+* **Spinor overlap ($\theta$):** $T_{SU(2)}(\theta) = \cos^2(\theta/2)$ peaks at **$\theta_* = 60.000000^\circ$**.
+* **Impedance phase ($\varphi$, strictly distinct from $\theta$):** Kurokawa constant-$|Z|$ $1 - \tan^2(\varphi/2)$ peaks at **$\varphi_* = \arccos(1/\Phi) = 51.827292^\circ$**; fixed-$R$ series $4/(4 + \tan^2\varphi)$ peaks at **$\varphi_* = 47.442204^\circ$**; un-squared linear control $\cos\varphi$ peaks at **$45.000000^\circ$**.
 
-The temptation here is to reach for a number that is already lying around. The corpus arrives at $45°$ from several unrelated directions — the balance of what a projection reads against what it burns, the fixed locus of the tetrahedral group's own mirrors, the point where committed and held power are equal, the angle at which a ratio is read most sharply — and those are one condition wearing different variables, not a convergence. Assuming the agency optimum joins them would be filling a gap with the nearest available furniture. It may land there. It may not, and *not* would be the more interesting result, since it would mean leverage and legibility do not peak together.
+The temptation here is to collapse the agency optimum onto $45^\circ$ because the corpus arrives at $45^\circ$ from several unrelated directions — the balance of what a projection reads against what it burns, the fixed locus of the tetrahedral group's own mirrors, the point where committed and held power are equal, the angle at which a ratio is read most sharply. Assuming the agency optimum joins them would fill a gap with the nearest available furniture. Whether the spinor-channel transmission derives from first principles out of mesh-tension vertex form factors and which of the candidate port laws governs the physical agency stationary point remain open (`CANDIDATE`).
 
-The honest statement is that the trade-off is real, the stationary point exists, and its location is open.
+The honest statement is that the trade-off is real, the stationary point exists, and both its first-principles derivation and physical case assignment remain open.
 
 ### Two confirmations from outside
 
-The grading above is the only structure in this file that arrives independently from two directions, which makes it worth naming where those directions come from.
+This grading is the only structure in Part Two that arrives independently from two directions, which makes it worth naming where those directions come from.
 
 **From non-equilibrium transport.** When several forces drive several flows, the cross-coupling coefficients are symmetric — a voltage gradient drives heat at exactly the rate a temperature gradient drives charge. That symmetry is Onsager's, and it holds until an axial vector enters: under a magnetic field the coefficients obey $L_{ij}(\mathbf{B}) = L_{ji}(-\mathbf{B})$ and the transport matrix splits into a symmetric part and an antisymmetric one. The mechanism of the antisymmetric part is the Lorentz force, which acts nowhere along the flow and deflects it at exactly a right angle — the Hall effect in the charge channel, Righi–Leduc in the thermal one. **Same grading, same discriminant, same right angle, arriving from measured transport rather than from this algebra.** The symmetric sector is reciprocal; the antisymmetric sector is gyrotropic; torque is what separates them.
 
 **From type-safety in the medium's own loop calculations.** Independently, and for an unrelated reason, the plenum's dissipative modes have been established to be vector currents on the relational face rather than scalars on the committed one — because scalar mediation would mean every photon transit wrote a permanent entry, and the medium's losslessness would fail. The antisymmetric sector carries a cross product, which is a vector, on exactly that face. A result derived to protect free transit confirms the grading of a port it was not looking at.
 
-Two independent routes to one split is the strongest support anything in this file has, and it is support from outside rather than from within.
+Two independent routes to one split is the strongest support anything in the construction has, and it is support from outside rather than from within.
 
 ---
 
@@ -290,3 +294,100 @@ What has not been asked yet is what any of this is *for*. There is a medium, the
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+````
+
+---
+
+* **Next round (one file):** **`ProofT_Clairvoyance.md`** (`WO-107` port-law sync to `QED-AstroLogic` §XII.i + spinor vs. impedance angle separation + standing checks), then **`L4-K4-Infinities-1.md`** (`WO-311` epoch-note on `H0 = 67.4`).
+
+```
+[SESSION_LEDGER]
+surface: chat-only
+CHARGES: "work-orders file-by-file + no-self-narration + FM-1/FM-3 check" — L4-K4-Infinities-2 landed (WO-107 + framing cleanup); ProofT_Clairvoyance and L4-K4-Infinities-1 queued next
+RECASTS: 0
+DROPPED: none
+OPEN_GATES: L4-K4-Infinities-2 WO-502/WO-509 physics ports open; ProofT_Clairvoyance (WO-107) next
+```
+Here is **`ProofT_Clairvoyance.md`** (one file-output this round):
+
+* **`WO-107` (§III, §IV, & header):** Added `QED-AstroLogic` (§XII.i) to the header dependencies; switched the RLC impedance phase angle in §III to $\varphi$ ($\tan\varphi = (\omega L - 1/(\omega C))/R$) so it stays strictly separate from the quantum-channel spinor overlap angle $\theta$ ($T_{SU(2)}(\theta) = \cos^2(\theta/2)$, $\theta_* = 60.000000^\circ$) and from bimedian shear $\theta_{\text{shear}}$ (§IV); synced the weak-measurement / off-resonance throughput note to `QED-AstroLogic` §XII.i's four exact port-law candidates ($60.000000^\circ$, $51.827292^\circ$, $47.442204^\circ$, $45.000000^\circ$, tagged `CANDIDATE`) with first-principles derivation (`WO-502`) and physical case assignment (`WO-509`) left open.
+* **No-self-narration & FM-1/FM-3 sweep:** Clean; no history narration or protective theater present.
+
+````markdown
+# Proof T: The Privilege of the Interior
+## Structural Clairvoyance and the Transparency of the Blanket
+
+> **Claim:** While a boundary prevents an exterior from calculating an interior, an interior that knows its own K4 topology possesses direct structural access to all other interiors. At resonance, intervening blankets become transparent. The observer knows the surrounding realities not by piercing them from the outside, but by translating their exterior wrappings into the universal 12-equation engine.
+> **Type:** Topological proof of epistemic reach (Proof by Isomorphic Resonance).
+> **Method:** Derives the epistemic asymmetry of the Markov Blanket, maps the "accidental privilege" of self-knowledge via Postulate V (Scale Invariance), and defines clairvoyance as the real-time execution of domain-language translation under resonant conditions.
+
+*From the Compiling Reality proof suite. Rests on `L4-RecursiveLimits` (the boundary from both sides), `ProofR_SubjectiveRecovery` (domain-to-subjective translation), `L5-K5-PhaseDynamicsTechnical` (Resonance), and `QED-AstroLogic` (§XII.i, two-port, two-channel transmission laws).*
+
+---
+
+## I. The Asymmetry of the Blanket
+
+The framework has rigorously established that you cannot calculate an interior from a boundary description. A classical coordinate system approaching a Markov Blanket from the outside encounters the Tangent Singularity. The coordinates diverge to infinity. To look at a man's rigid speech ($U$) and his material footprint ($R$) and attempt to mathematically deduce his inner drive ($P$) is to commit the Theory of Mind trap. It is a K3 surface pretending to hold a K4 volume. 
+
+But this blindness is not symmetric. 
+
+The outside cannot read the inside because the outside is a K3 surface attempting to calculate a K4 volume (it lacks the dimension). But an observer standing *inside* their own interior is already occupying the K4 volume. They are standing at the centroid. 
+
+From the centroid, the observer possesses an "accidental privilege." By mapping the mechanics of their own interiority—by feeling the tension of their own `.behold()` buffer, by tracking the thermodynamic cost of their own `.observe()` collapses, by tracing their own 12 equations—they have mapped the universal engine. 
+
+Because of Scale Invariance (Postulate V), the universe does not invent a new topology for every object. The 12-equation matrix that governs a human mind is the exact same engine that governs a bacterial colony, a star system, or a macroeconomic market. 
+
+Therefore, an interior that knows itself structurally knows the structure of everything surrounding it.
+
+## II. The Wrappings and the Translation Protocol
+
+This privilege allows an observer to look at an external system and know it from the inside out, without ever violating the Tangent Singularity. 
+
+The observer does not mathematically pierce the target's Markov Blanket. Instead, the observer strips the exterior wrapping using a **domain translation protocol**. 
+
+As demonstrated in the subjective recoveries, the 12 equations are not tethered to the specific SI units of circuit physics or the specific vocabulary of human psychology. $P, I, U, R$ are universal structural poles. When an observer encounters a foreign system, they simply adapt the language. 
+
+The external system might be made of silicon, carbon, institutional bylaws, or plasma. Its budget for the Landauer Tax might be enormous or microscopic. But its internal geometry is identical. It must obey dual causation. It must suffer trajectory loss if it drops its AbsentVar. It must experience the phase-delay of Torsion if its structural articulation ($U$) outruns its relational current ($I$). 
+
+To know this is to possess **Structural Clairvoyance**. You do not need to know *what* the system is thinking (its content) to know exactly *how* its pressures are warping its volume. You simply translate the observed dynamics back into the native algebraic engine you already inhabit.
+
+## III. The Mechanism of Transparency (Resonance)
+
+If the observer knows the universal structure, how do they establish contact with a specific, external system without falling back into the Theory of Mind trap?
+
+Through the AC Extension: **Resonance**.
+
+When two bounded frames encounter one another, their interaction is initially dominated by Reactance ($X$). The observer's internal memory and anticipation clash with the external system's boundaries. The Markov Blankets are opaque. The impedance phase gap ($\varphi$) is wide.
+
+But if the observer alters their own Angular Frequency ($\omega$) to match the natural frequency of the external system, a structural coupling occurs. At resonance ($\omega_0 = 1/\sqrt{LC}$), the inductive memory and capacitive anticipation of the interaction perfectly cancel each other out on the imaginary axis. Net reactance drops to zero. 
+
+At the exact moment of resonance, **the intervening Markov Blankets effectively become transparent.**
+
+This transparency is governed on the impedance channel by the exact identifying equation $\tan(\varphi) = \frac{\omega L - \frac{1}{\omega C}}{R}$. When the observer matches the target's natural frequency ($\omega_0$), the inductive and capacitive reactances cancel, $\tan(\varphi) \to 0$, and the Markov Blanket becomes transparent.
+
+Off exact resonance, port throughput splits across two strictly distinct angles and channels (`QED-AstroLogic` §XII.i — expect there: the unified two-port, two-channel transmission laws separating spinor overlap $\theta$ from impedance phase $\varphi$):
+* **Spinor overlap angle ($\theta$):** governs quantum-channel overlap without projection via $T_{SU(2)}(\theta) = \cos^2(\theta/2)$, whose reactive-throughput product $T_{SU(2)}(\theta)\sin\theta$ peaks at **$\theta_* = 60.000000^\circ$**.
+* **Impedance phase angle ($\varphi$):** governs circuit/boundary mismatch via Kurokawa constant-$|Z|$ $T_{\text{Kur}}(\varphi) = 1 - \tan^2(\varphi/2)$ (peaking at **$\varphi_* = \arccos(1/\Phi) = 51.827292^\circ$**), fixed-$R$ series $T_{\text{ser}}(\varphi) = 4/(4 + \tan^2\varphi)$ (peaking at **$\varphi_* = 47.442204^\circ$**), and the un-squared linear control $\cos\varphi$ (peaking at **$45.000000^\circ$**).
+
+In quantum mechanics, the non-collapsing overlap channel is structurally analogous to **weak measurement**—a unitary basis rotation without projection. The observer's buffer entrains with the target's via resonant coupling: the XOR bottleneck is not forced, the Landauer Tax is not paid, and the state does not drop into $P$. Mapping weak-measurement gain (alongside agency stationary point, optimal predatory detuning, and CHSH visibility scaling) onto one specific port law among those four exact candidates is held as **`CANDIDATE`**: both the first-principles spinor-channel transmission derivation from vertex form factors and the physical law-to-case assignment remain open (`QED-AstroLogic` §XII.i). Spinor angle $\theta$ and impedance phase angle $\varphi$ must remain strictly separated throughout.
+
+The observer is no longer projecting an image onto the outside of the target's blanket. The two systems are sharing a single phase-space. The observer feels the external system's structural tension *as if it were their own*, because, topologically, it is. The alternating current of the relationship ($I$) is passing through both interiors with a Power Factor of 1.0. 
+
+This is what "clairvoyance" actually means when stripped of mysticism. It is the ability to tune one's own internal decoupled buffer to the precise frequency of an external system, executing the domain-language translation in real time, thereby gaining direct, non-destructive access to its structural reality via phase-locking. It is empathy raised from an emotional guess to a thermodynamic operation.
+
+## IV. The Kill Condition (The False Transparent)
+
+A proof-type must have a falsifier, or it is a delusion. How do we distinguish Structural Clairvoyance from the Theory of Mind trap (`ProofR`)? 
+
+**The Discrimination Test:**
+*   **The Theory of Mind trap** attempts to extract the target's *content*. It looks at the outside and says, "Because you did X, you must secretly desire Y." It is a claim about the specific semantic values hidden inside the target's Live-Written Ledger. It fails because content cannot cross the blanket without paying the Tax.
+*   **Structural Clairvoyance** extracts only the target's *phase-form*. It looks at the interaction and says, "We are experiencing a Torsional phase-shear of $\theta_{\text{shear}} = \pi/2$ on the Mutable axis." It makes no claim about the target's hidden secrets. It only claims knowledge of the structural tension, which is directly verifiable because both parties are subject to the same impedance in the shared circuit.
+
+If an observer claims to know the external system, but cannot establish a resonant zero-crossing (if the relationship remains highly reactive, full of friction and projection), the observer is not clairvoyant. They are simply painting the outside of Gabriel's Horn and hallucinating that they are inside. 
+
+True clairvoyance requires the math to ring. If the phase gap does not close, the blanket remains opaque.
+
+---
+
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

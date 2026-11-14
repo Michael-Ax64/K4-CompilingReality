@@ -2,8 +2,10 @@
 ## The Nambu Puzzle — The Topological Compilation of the Spatial Atom
 
 > **Epistemic Register:** Theoretical Architecture / Topological Invariant Derivation.
+
 > **Claim:** The bare mass ratio between the charged pion and the electron ($m_{\pi^\pm}/m_e = 2/\alpha - 3/\pi + 2\alpha = 273.1316634$) is derived as the on-shell boundary cycle traversal across the Mutable bimedian ($U \leftrightarrow R$) of a single $K_4$ Atom of Space. The three terms correspond one-to-one with the three boundary channels of a 3-regular apex: the constitutive carrier step ($4R_K/Z_0 = 2/\alpha$), the topological color-flux winding outside the confinement blanket ($-N_c/\pi = -3/\pi$), and the resonant Ohmic return leg ($Z_0/R_K = 2\alpha$). The derivation operates with zero free parameters. The integer multiplicity $N_c = 3$ is mathematically unique on the discrete lattice $0..120$ by a $409\times$ margin. The $-2.843\text{ ppm}$ residual ($-397\text{ eV}$, a $2.20\sigma$ effect against $1.29\text{ ppm}$ laboratory uncertainty) is demarcated as the physical continuum dressing delta (electromagnetic self-energy and strong isospin breaking), separating the bare topological compiler from the dressed physical particle measured in the continuum.
-> **Dependencies:** `L3-TheAtomOfSpace.md` (§V, §VII, §VIII), `L3-ConstitutiveAlpha.md` (§III, §IV, §V, §IX), `L4-DynamicDistortions-Sudoku.md` (§II, §III, §VI, §VII, §XII), `L4-TheCrowbar.md` (Movements I–IV, VII), `L4-ScalingInvariants.md` (§VIII, §IX), `QED-TwoBranchMinting.md` (§I).
+
+*Reads with: `L3-TheAtomOfSpace.md` (§V, §VII, §VIII), `L3-ConstitutiveAlpha.md` (§III, §IV, §V, §IX), `L4-DynamicDistortions-Sudoku.md` (§II, §III, §VI, §VII, §XII), `L4-TheCrowbar.md` (Movements I–IV, VII), `L4-HadronicVolume.md` (Mvt III), `L4-ScalingInvariants.md` (§VIII, §IX), `QED-TwoBranchMinting.md` (§I).*
 
 ---
 
@@ -15,9 +17,9 @@ The construction runs on three non-negotiable structural rules:
 2. **Assign the three Laurent orders $\{\alpha^{-1}, \alpha^0, \alpha^{+1}\}$ to the three boundary spokes.**
 3. **Derive the closed-cycle traversal with zero fitted parameters.**
 
-Sudoku is the right operational name for this procedure: the givens are printed by the vacuum, the solver fills cells by constraint propagation, and every placement propagates constraints across the entire manifold. 
+Sudoku is the right operational name for this procedure: the givens are printed by the vacuum, the solver fills cells by constraint propagation, and every placement propagates constraints across the entire manifold.
 
-The puzzle does not ask: *Can we invent a formula that fits a measured mass?*  
+The puzzle does not ask: *Can we invent a formula that fits a measured mass?*
 It asks: **If an atom of space is closed on-shell across its generation-1 bimedian (Mutable), what mass ratio does its boundary traverse?**
 
 Closure is what the topology delivers. The physical delta against the laboratory measurement is demarcated at its exact energy scale (§IX).
@@ -45,7 +47,7 @@ Nambu treated this as an empirical hint. The construction below reveals that Nam
 
 ## §II — The Figure: The $B'$ Apex and the Unique Matching Theorem
 
-Take the single $K_4$ Atom of Space (`L3-TheAtomOfSpace`). 
+Take the single $K_4$ Atom of Space (`L3-TheAtomOfSpace`).
 
 ```
                           [ α ]  (Apex Vertex)
@@ -64,29 +66,29 @@ Take the single $K_4$ Atom of Space (`L3-TheAtomOfSpace`).
 ```
 
 ### 1. The Degree Check
-$K_4$ is maximal planar and 3-regular: every vertex touches **exactly three edges**. 
-Erecting $\alpha$ as the apex over the Mutable crossing ($U \leftrightarrow R$) forces the boundary transfer operator to hold **exactly three spokes**. 
+$K_4$ is maximal planar and 3-regular: every vertex touches **exactly three edges**.
+Erecting $\alpha$ as the apex over the Mutable crossing ($U \leftrightarrow R$) forces the boundary transfer operator to hold **exactly three spokes**.
 
 A Laurent series with a fourth term has no vertex to hold it; a two-term closure leaves a dangling edge. The graph forces the three-order shape $\{\alpha^{-1}, \alpha^0, \alpha^{+1}\}$ before any mode physics is invoked.
 
 ### 2. The Unique Matching Theorem
-A complete graph $K_4$ on four poles $\{P, I, U, R\}$ contains 6 edges. The dual-binary seed (`L3-FormalFoundations.md`) partitions the poles by interiority and action:
-- **Interior Poles:** $\mathbf{P}$ (Active Asserting / Spark) and $\mathbf{I}$ (Reactive Yielding / Flow).
-- **Exterior Poles:** $\mathbf{U}$ (Active Yielding / Logos) and $\mathbf{R}$ (Reactive Asserting / Ethos).
+A complete graph $K_4$ on four poles $\{P, I, U, R\}$ contains 6 edges. Under the dual-binary seed (`L3-FormalFoundations.md`) in $(\mathrm{AR}, \mathrm{AY})$ and its parity character $\chi = \mathrm{AR} \cdot \mathrm{AY}$ (`L4-HadronicVolume.md` Mvt III):
+- **Interior parity class ($\chi = +1$):** $\mathbf{P} = (+,+)$ (Active Asserting / Spark) and $\mathbf{I} = (-,-)$ (Reactive Yielding / Flow).
+- **Exterior parity class ($\chi = -1$):** $\mathbf{U} = (+,-)$ (Active Yielding / Logos) and $\mathbf{R} = (-,+)$ (Reactive Asserting / Ethos).
 
 The 6 edges partition into three demographic classes:
-- Mixed Edges (Interior $\leftrightarrow$ Exterior): Exactly 4 edges ($\{P, U\}, \{P, R\}, \{I, U\}, \{I, R\}$).
-- Pure Exterior Edge: Exactly **one** edge: **$\{U, R\}$** (Logos to Ethos / Syntax to Mass).
-- Pure Interior Edge: Exactly **one** edge: **$\{P, I\}$** (Kairos to Pathos / Intent to Current).
+- Mixed Edges ($\chi = +1 \leftrightarrow \chi = -1$): Exactly 4 edges ($\{P, U\}, \{P, R\}, \{I, U\}, \{I, R\}$).
+- Exterior Parity Edge ($\chi = -1$): Exactly **one** edge: **$\{U, R\}$** (Logos to Ethos / Syntax to Mass).
+- Interior Parity Edge ($\chi = +1$): Exactly **one** edge: **$\{P, I\}$** (Kairos to Pathos / Intent to Current).
 
-A 1-factorization partitions the 6 edges into the three bimedians (the three generations of matter):
-1. **Fixed bimedian:** $\{P\text{--}U, \; I\text{--}R\}$ *(Both edges mixed)*.
-2. **Cardinal bimedian:** $\{P\text{--}R, \; I\text{--}U\}$ *(Both edges mixed)*.
-3. **Mutable bimedian:** **$\{U\text{--}R, \; P\text{--}I\}$**
+A 1-factorization partitions the 6 edges into the three bimedians (the three $V_4$ bit-flip involutions, corresponding to the three generations of matter):
+1. **Fixed bimedian** (flip bit 2, $\mathrm{AY}$): $\{P\text{--}U, \; I\text{--}R\}$ *(Both edges mixed; negates $\chi$)*.
+2. **Cardinal bimedian** (flip bit 1, $\mathrm{AR}$): $\{P\text{--}R, \; I\text{--}U\}$ *(Both edges mixed; negates $\chi$)*.
+3. **Mutable bimedian** (flip both bits): **$\{U\text{--}R, \; P\text{--}I\}$** *(Stabilizes $\chi$)*.
 
-> **The Unique Matching Theorem:** *The Mutable bimedian is the UNIQUE matching of $K_4$ that completely un-mixes the manifold into an isolated Pure Exterior edge ($\{U, R\}$) and an isolated Pure Interior edge ($\{P, I\}$).*
+> **The Unique Matching Theorem:** *Flip-both (the Mutable matching) is the unique $V_4$ involution stabilizing $\chi = \mathrm{AR}\cdot\mathrm{AY}$, un-mixing $K_4$ into an isolated Exterior parity edge ($\{U, R\}$, $\chi = -1$) and an isolated Interior parity edge ($\{P, I\}$, $\chi = +1$). This $\{P,I\}/\{U,R\}$ split is an algebraic parity class, not an audit-exempt private interior—$P$ writes directly to the exterior ledger.*
 
-The Nambu puzzle evaluates the **Pure Exterior edge $\{U, R\}$** at Generation 1. Its conjugate partner across the cell, the **Pure Interior edge $\{P, I\}$**, remains the unengaged, uncollapsed phase potential. 
+The Nambu puzzle evaluates the **Exterior parity edge $\{U, R\}$** at Generation 1. Its conjugate partner across the cell, the **Interior parity edge $\{P, I\}$**, remains the unengaged phase potential. **Scope:** this three-term Laurent expansion is specific to the Mutable Generation-1 crossing across $\{U, R\}$, not a universal shape across all three bimedians or three-valence baryons.
 
 Mesons ($q\bar{q}$) sit on a single bimedian ($U \leftrightarrow R$); baryons ($qqq$) engage all three bimedians simultaneously to enclose a 3D spatial volume.
 
@@ -156,7 +158,7 @@ Multiplying by the three color flux tubes yields the total winding burn:
 $$- N_c \times \delta\theta = - \frac{3}{\pi} = -0.954929659$$
 
 ### 4. Exclusion of Charge-Weighted Variants
-The charge-weighted alternative models ($2/\alpha - \frac{5}{3\pi} + 2\alpha = 273.556077$ and $2/\alpha - \frac{5}{9\pi} + 2\alpha = 273.909754$) miss the physical ratio by $+1551.0\text{ ppm}$ and $+2845.9\text{ ppm}$ respectively. 
+The charge-weighted alternative models ($2/\alpha - \frac{5}{3\pi} + 2\alpha = 273.556077$ and $2/\alpha - \frac{5}{9\pi} + 2\alpha = 273.909754$) miss the physical ratio by $+1551.0\text{ ppm}$ and $+2845.9\text{ ppm}$ respectively.
 
 The uniform topological count is preferred over the charge-weighted models by a **$545.6\times$ numerical discriminator**.
 
@@ -206,7 +208,7 @@ $$m = |P| + |Q| = \left(\frac{2}{\alpha} - \frac{3}{\pi}\right) + 2\alpha = 273.
 
 The invariant $\ell^2$ Euclidean modulus ($\sqrt{P^2 + Q^2}$) suppresses the $2\alpha$ return leg by a factor of:
 $$\frac{Q^2}{2|P|} = \frac{(0.0146)^2}{2(273.117)} \approx 3.9 \times 10^{-7} \implies \text{Suppression } 3.74 \times 10^4$$
-resulting in the off-shell probe miss of $-56.276\text{ ppm}$. 
+resulting in the off-shell probe miss of $-56.276\text{ ppm}$.
 
 Coordinates add algebraically with directed signs before any outer envelope is evaluated (`QED-TwoBranchMinting` §I: *"Addable: the whole's coordinates. Forbidden: the parts' invariants"*). This preserves the physical meaning of the corpus's sign-structured mass-partition falsifier.
 
@@ -257,15 +259,48 @@ $$\Delta = L - E = -0.0007765 \quad (-2.843\text{ ppm})$$
 Converting this dimensionless ratio into physical energy:
 $$\Delta M = \Delta \times m_e = -0.0007765 \times 0.51099895\text{ MeV} \approx \mathbf{-396.8\text{ eV} \approx -397\text{ eV}}$$
 
+### Grounding the $-397\text{ eV}$ Scale in Known Continuum Physics
+The $-397\text{ eV}$ delta is not an algebraic defect; it marks the physical boundary where the bare spatial atom couples to continuous gauge fields:
+
+1. **Experimental Blur ($\pm 180\text{ eV}$):** The PDG uncertainty on $m_{\pi^\pm}$ is $\pm 0.00018\text{ MeV} = \pm 180\text{ eV}$ ($1.29\text{ ppm}$). The entire delta is **$2.20\sigma$**:
+   $$\frac{397\text{ eV}}{180\text{ eV}} = 2.204\sigma$$
+   The comparison is blur-limited by current accelerator precision.
+   
+2. **Second-Order Chiral Isospin Scale ($\sim 599\text{ eV}$):** In chiral perturbation theory, the chiral symmetry-breaking scale is invariant across pion decay-constant conventions:
+   $$\Lambda_\chi = 4\pi F_\pi = 2\sqrt{2}\,\pi f_\pi \approx 1.16\text{ GeV}$$
+   where $F_\pi \approx 92.2\text{ MeV}$ is the $SU(2)$ axial-generator normalization ($\langle 0 | A_\mu^a | \pi^b \rangle = i F_\pi p_\mu \delta^{ab}$) and $f_\pi = \sqrt{2}\,F_\pi \approx 130.2\text{ MeV}$ is the PDG charged-weak-current normalization ($\langle 0 | \bar{u}\gamma_\mu\gamma_5 d | \pi^- \rangle = i f_\pi p_\mu$). Evaluated consistently in either convention ($\Lambda_\chi^2 = 16\pi^2 F_\pi^2 = 8\pi^2 f_\pi^2$), the naive dimensional analysis (NDA) scale of second-order strong isospin breaking from $m_d - m_u \approx 2.40\text{ MeV}$ is one unique number:
+   $$\delta m_\pi^{\text{NDA}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2}\,m_\pi = \frac{(m_d - m_u)^2}{8\pi^2 f_\pi^2}\,m_\pi \approx \frac{(2.40\text{ MeV})^2}{16\pi^2 (92.2\text{ MeV})^2} \times 139.57\text{ MeV} \approx \mathbf{599\text{ eV}}$$
+   Across the $\sim 20\%$ uncertainty in light quark masses ($m_d - m_u \approx 2.0\text{–}3.0\text{ MeV}$), this scale sits in the $\sim 400\text{–}900\text{ eV}$ window.
+   
+3. **Finite-Size Form Factors:** A bare topological compiler models the boundary of a single spatial cell. In the continuum, the pion carries a charge radius of $r_\pi \approx 0.66\text{ fm}$ and a soft virtual-photon cloud that shift the physical pole at the sub-keV scale.
+
+### What the ChPT Scale Does and Does Not Settle
+The $599\text{ eV}$ calculation is an **unsigned order-of-magnitude NDA check**, not a signed continuum derivation of $-397\text{ eV}$. In QCD, $(m_d - m_u)^2$ $\pi^0\text{--}\eta$ mixing primarily shifts $m_{\pi^0}$ downward, while the leading electromagnetic shift ($\approx +4.59\text{ MeV}$ separating $\pi^\pm$ from $\pi^0$) is already absorbed into the charged-pion target $E$. The NDA estimate shows only that second-order hadronic dressing sits in the sub-keV ($\sim 0.6\text{ keV}$) decade—placing $|\Delta M| = 397\text{ eV}$ inside that scale without predicting its sign or exact value. The $-397\text{ eV}$ pocket therefore remains open—blur-limited at $2.20\sigma$ today and arbitrated by `KD-2` (PSI, $u \le 0.5\text{ ppm} \approx 70\text{ eV}$) alongside any full signed continuum calculation.
+
+A bare geometric derivation that landed at $0.000000\text{ ppm}$ against a laboratory hadron would be physically fraudulent, as it would mean a bare Planck-scale cell anticipated the low-energy radiative cloud of a laboratory detector.
+
+## §IX — The Continuum Dressing Frontier ($-2.843\text{ ppm}$ / $-397\text{ eV}$)
+
+The formula outputs the **bare topological mass pole**:
+$$L = 273.1316634$$
+The laboratory measures the **continuum-dressed physical hadron**:
+$$E = 273.1324399 \pm 0.000352 \quad (u = 1.29\text{ ppm})$$
+
+The residual is:
+$$\Delta = L - E = -0.0007765 \quad (-2.843\text{ ppm})$$
+
+Converting this dimensionless ratio into physical energy:
+$$\Delta M = \Delta \times m_e = -0.0007765 \times 0.51099895\text{ MeV} \approx \mathbf{-396.8\text{ eV} \approx -397\text{ eV}}$$
+
 ### Grounding the $397\text{ eV}$ in Known Continuum Physics
 The $-397\text{ eV}$ delta is not an algebraic defect; it is the physical boundary condition where the bare spatial atom couples to continuous gauge fields:
 
 1. **Experimental Blur ($\pm 180\text{ eV}$):** The PDG uncertainty on $m_{\pi^\pm}$ is $\pm 0.00018\text{ MeV} = \pm 180\text{ eV}$ ($1.29\text{ ppm}$). The entire delta is only **$2.20\sigma$**:
    $$\frac{397\text{ eV}}{180\text{ eV}} = 2.204\sigma$$
    The comparison is blur-limited by current accelerator precision.
-2. **Second-Order Chiral Isospin Breaking ($\sim 370\text{ eV}$):** In chiral perturbation theory, while the leading electromagnetic split $m_{\pi^\pm} - m_{\pi^0} \approx 4.59\text{ MeV}$ is Coulomb energy, the strong isospin breaking from the quark mass difference ($m_d - m_u \approx 2.40\text{ MeV}$) contributes at second order:
-   $$\delta m_\pi^{\text{strong}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2} m_\pi \approx \frac{(2.4\text{ MeV})^2}{16\pi^2 (92.2\text{ MeV})^2} \times 139.57\text{ MeV} \approx \mathbf{370\text{ eV}}$$
-   The scale of second-order continuum chiral breaking is identically $\sim 370\text{ eV}$.
+2. **Second-Order Chiral Isospin Breaking ($\sim 300\text{–}600\text{ eV}$):** In chiral perturbation theory, while the leading electromagnetic split $m_{\pi^\pm} - m_{\pi^0} \approx 4.59\text{ MeV}$ is Coulomb energy, the strong isospin breaking from the quark mass difference ($m_d - m_u \approx 2.40\text{ MeV}$) contributes at second order:
+   $$\delta m_\pi^{\text{strong}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2} m_\pi \approx \frac{(2.40\text{ MeV})^2}{16\pi^2 (92.2\text{ MeV})^2} \times 139.57\text{ MeV} \approx \mathbf{599\text{ eV}}$$
+   (or $\approx 300\text{ eV}$ in the $f_\pi = 130.2\text{ MeV}$ normalization)—placing the sub-keV continuum chiral breaking bracket right across the $-397\text{ eV}$ delta.
 3. **Finite-Size Form Factors:** A bare topological compiler models the boundary of a single spatial cell. In the continuum, the pion has a charge radius of $r_\pi \approx 0.66\text{ fm}$ and a virtual photon cloud, shifting the pole at the sub-keV scale.
 
 A bare geometric derivation that landed at $0.000000\text{ ppm}$ against a laboratory hadron would be physically fraudulent, as it would mean a bare Planck-scale cell anticipated the low-energy radiative cloud of a laboratory detector.
@@ -276,18 +311,18 @@ A bare geometric derivation that landed at $0.000000\text{ ppm}$ against a labor
 
 Four pre-registered kill conditions bound the construction:
 
-1. **KD-1 — The Neutral Kaon Falsifier ($F\text{-}G4$, Testable).**  
-   In the neutral kaon ($K^0 = d\bar{s}$, valence charges $\{-1/3, 1/3\}$), the quadratic charge sum drops to $\sum q^2 = 2/9$. 
+1. **KD-1 — The Neutral Kaon Falsifier ($F\text{-}G4$, Testable).**
+   In the neutral kaon ($K^0 = d\bar{s}$, valence charges $\{-1/3, 1/3\}$), the quadratic charge sum drops to $\sum q^2 = 2/9$.
    - *Topological prediction:* The rotation burn remains strictly $-3/\pi$ (flavor-blind color junction).
    - *Charge-weighted prediction:* The burn scales to $\frac{2}{5} \times \frac{3}{\pi} = \frac{6}{5\pi}$.
    - *Kill boundary:* $\Delta = \frac{9}{5\pi} \approx \mathbf{2097.7\text{ ppm}}$ (decision midpoint $M = 273.418142$). An evaluation resolving a K-loop landing above $M$ refutes the topological reading.
-2. **KD-2 — The Sub-PPM Pion Mass Arbiter ($A1b$, Testable).**  
+2. **KD-2 — The Sub-PPM Pion Mass Arbiter ($A1b$, Testable).**
    The experimental uncertainty $u(m_\pi) = 1.29\text{ ppm}$ ($2.20\sigma$) currently limits verification:
    - If future accelerator experiments (e.g., at PSI) measure $m_{\pi^\pm}$ to $u \le 0.5\text{ ppm}$ and the central value stays put, exact bare equality is killed at **$5.7\sigma$** discovery-grade refutation.
    - If the central value shifts by $+397\text{ eV}$ ($+0.4\text{ keV}$) onto the triad, the bare formula is confirmed.
-3. **KD-3 — Multiplicity Permutation (Derived).**  
+3. **KD-3 — Multiplicity Permutation (Derived).**
    If any integer $m \neq 3$ in $m \in [0, 120]$ produces a residual within $1000\text{ ppm}$ under the on-shell traversal, the discrete uniqueness is refuted. (Closed: margin is $409\times$).
-4. **KD-4 — Dimensional Leak (Derived).**  
+4. **KD-4 — Dimensional Leak (Derived).**
    If any term of the on-shell cycle carries physical units after normalization, the apex neutrality is broken and the construction falls.
 
 ---
@@ -322,7 +357,7 @@ The Nambu puzzle is solved as a **bare topological compilation across the single
 - The discrete multiplicity $N_c = 3$ is unique by a $409\times$ margin.
 - The formula evaluates the on-shell boundary cycle traversal with **zero free parameters**.
 
-What a hadron weighs in electron volts is an interior subscription that no exterior theory can publish. But the dimensionless ratio of one boundary to another crosses the wall intact. 
+What a hadron weighs in electron volts is an interior subscription that no exterior theory can publish. But the dimensionless ratio of one boundary to another crosses the wall intact.
 
 The bare topological mass pole is derived. The physical continuum dressing is demarcated. The experimental arbiter is named.
 
@@ -330,4 +365,4 @@ The puzzle is closed at the Bare Topological Grade. The braid remains open for t
 
 ---
 
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work. *(Audit status of repour: 12 sections complete, zero working-manifest scaffolding, all suffix physics consolidated into master, 14-point solution grid closed, two testable falsifiers armed).*
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.

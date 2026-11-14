@@ -4,12 +4,12 @@
 > **Epistemic Register:** Foundations of Gravitation / Applied K4 Thermodynamics (`QED`).
 >
 > **Thesis:** The Weak Equivalence Principle ($m_i = m_g$) is not an irreducible primitive of nature; it is the degenerate 0-DoF boundary condition of a bounded frame compiling reality. For systems with active interiority, the framework derives an exact, signed departure:
-> $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\left(\frac{P_{\text{diss}}}{m c^2 \omega}\right)$$
-> The departure is governed by the ratio of two competing power scales: the metabolic dissipation rate ($P_{\text{diss}}$) and the rest-mass compilation capacity ($m c^2 \omega$). 
+> $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\left(\frac{P_{\text{diss}}}{m c^2 \omega}\right) = -2\left(\frac{P_{\text{diss}}\cdot \tau}{m c^2}\right)$$
+> The departure is governed by the ratio of two competing power scales: the metabolic dissipation rate ($P_{\text{diss}}$) and the rest-mass compilation capacity ($m c^2 \omega$).
 >
-> **The Clock Spectrum:** At the atomic Compton floor ($\omega_C = m c^2/\hbar$), $\eta$ vanishes into the noise floor ($|\eta| \sim 10^{-50}$ to $10^{-70}$), recovering the standard Equivalence Principle. At the slowest macroscopic biological coordination clocks ($\sim 100\text{ Hz}$), the departure is bounded at $|\eta| \sim 10^{-18}$, three orders of magnitude below current satellite sensitivity ($|\eta| < 10^{-15}$).
+> **The Clock Spectrum and Meter:** At constituent Compton clocks ($\omega_C = m_q c^2/\hbar$), $\eta$ vanishes into the noise floor ($|\eta| \sim 10^{-44}$ to $10^{-70}$), recovering the Equivalence Principle on passive test masses. At the neural EEG band ($\omega \sim 100\text{ Hz}$, $\tau = 10^{-2}\text{ s}$), the brain-scale departure sits at $|\eta| \approx 3.2 \times 10^{-18}$ (three orders of magnitude below MICROSCOPE's $|\eta| < 10^{-15}$). Because the rule assigning a composite frame its effective clock remains open and slowest dissipative clocks dominate, $\eta$ operates directly as a **clock meter**: a bound on $|\eta|$ bounds the frame's slowest active dissipative clock ($\tau < |\eta_{\text{bound}}| m c^2 / 2P_{\text{diss}}$), so MICROSCOPE-grade sensitivity on a brain-scale dissipator ($20\text{ W}, 1.4\text{ kg}$) bounds $\tau < 3.15\text{ s}$—already excluding circadian dissipative clocks ($8.6\times 10^4\text{ s}$, $|\eta| \approx 2.75\times 10^{-11}$) and admitting the EEG band.
 >
-> **Dependencies:** `L0-TheEinsteinTrace`, `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `L4-Thermodynamics`, `L4-K4-Infinities`, `QED-CCP`.
+> **Dependencies:** `L0-TheEinsteinTrace`, `L0-ParadoxEngine` (§I–II), `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `L4-Thermodynamics`, `L4-K4-Infinities`, `QED-CCP`.
 
 ---
 
@@ -20,7 +20,7 @@ In General Relativity, inertial mass ($m_i$) and gravitational mass ($m_g$) are 
 In the four-fold architecture (`L0-TheEinsteinTrace`), mass is not a monolithic scalar. It is bifurcated across the two asserting poles of the $K_4$ tetrahedron:
 
 1. **Gravitational Mass ($P$ / The Scalar Ledger):** Gravitational mass is the accumulated volume of completed actualizations. It is the real scalar component of the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ written to the Live-Written Ledger when an `.observe()` collapse occurs across the XOR bottleneck. It measures what the system has committed to history, and it is what the surrounding metric curves to weigh.
-2. **Inertial Mass ($R$ / The Grounding Limit):** Inertial mass is the system's recompilation resistance. It is the standing impedance that the bounded frame presents to changing its operational heading across the uncompiled Plenum ($H_{\text{incoh}}$). It is the material anchor governed by the 0-DoF crystal limit (`TD3-AbsoluteZero`).
+2. **Inertial Mass ($R$ / The Grounding Limit):** Inertial mass is the system's recompilation resistance. It is the standing impedance that the bounded frame presents to changing its operational heading across the uncompiled Plenum ($H_{\text{incoh}}$). It is the material anchor governed by the 0-DoF crystal limit (`TD3-AbsoluteZero`, `L4-Thermodynamics` §V.4; see `L0-ParadoxEngine` §I–II — expect there: the crystal holding macro-committed freeze and micro zero-point motion simultaneously as a non-hierarchical load-bearing paradox rather than resolving either pole).
 
 The relationship between the flux of actualization ($P$), the grounding resistance ($R$), and the relational current ($I$) circulating through the system is governed by Facet 12 of the mutual determination matrix (`L4-Thermodynamics` §IV):
 
@@ -102,7 +102,7 @@ Evaluating the master equation across the full physical spectrum demonstrates wh
 
   REGIME              FREQUENCY (ω)           CYCLE TIME (τ)      PREDICTED DEPARTURE (|η|)
   ──────────────────────────────────────────────────────────────────────────────────────
-  Compton Floor       ω_C = mc²/ℏ             ~ 10⁻²⁴ s           ~ 10⁻⁵⁰ to 10⁻⁷⁰
+  Compton Floor       ω_C = m_q c²/ℏ          ~ 10⁻²⁴ s           ~ 10⁻⁴⁴ to 10⁻⁷⁰
   Atomic / Lattice    ω_vib ~ 10¹³ Hz         ~ 10⁻¹³ s           ~ 10⁻²⁸
   Metabolic Macro     ω_bio ~ 10–100 Hz       ~ 10⁻² s            ~ 3.2 × 10⁻¹⁸
   Cosmic Horizon      ω_H = H₀                ~ 14 Gyr            >> 1  (expansion invalid)
@@ -110,23 +110,29 @@ Evaluating the master equation across the full physical spectrum demonstrates wh
 ```
 
 ### 1. The Compton Floor (Atomic / Laboratory Masses)
-For elementary particles, nuclei, and unorganized solid-state masses (such as the platinum and titanium test cylinders aboard the MICROSCOPE satellite), there is no decoupled macro-buffer. The system compiles at the fundamental quantum Compton frequency:
+For elementary particles, nuclei, and unorganized solid-state masses (such as the platinum and titanium test cylinders aboard the MICROSCOPE satellite), there is no decoupled macro-buffer. Each constituent compiles at its fundamental quantum Compton frequency:
 
-$$\omega_C = \frac{m c^2}{\hbar} \implies \tau_C = \frac{\hbar}{m c^2}$$
+$$\omega_C = \frac{m_q c^2}{\hbar} \implies \tau_C = \frac{\hbar}{m_q c^2}$$
 
-Substituting $\tau_C$ into the master equation yields:
+Substituting $\tau_C$ into the master equation at the constituent level yields:
 
-$$\eta_{\text{Compton}} \approx -2\left(\frac{P_{\text{diss}}\cdot \hbar}{(m c^2)^2}\right)$$
+$$\eta_{\text{Compton}} \approx -2\left(\frac{P_{\text{diss}}\cdot \hbar}{m\, m_q c^4}\right)$$
 
-> **Defect, marked and not yet resolved: this clock breaks additivity.** Inertial and gravitational mass each add over non-interacting parts, so whatever theory produced it, an aggregate's $\eta$ must be the **mass-weighted mean** of its parts' $\eta$. That constraint is theory-neutral. With $\omega_C$ taken at the *whole body's* mass, $\eta$ scales as $P/m^2$, and two identical test cylinders placed side by side get **half** the $\eta$ of one — where additivity requires no change at all. Two further signs of the same slip: the table row above gives $\tau \sim 10^{-24}\,$s, which is a *nucleon's* clock, while the arithmetic here uses $(mc^2)^2 \approx (10^{17}\,\mathrm{J})^2$, which is the *cylinder's*; and above the Planck mass, $21.8\,\mu$g, a whole-body Compton frequency exceeds the Planck frequency — for a 300 g cylinder by a factor of $1.4\times10^{7}$ — while `L4-ThePlenum` §VII puts the shortest crossing at the Planck bottleneck.
+> **Additivity constraint and the clock-meter program:** Inertial and gravitational mass each add over non-interacting parts, so an aggregate's $\eta$ must be the **mass-weighted mean** of its parts' $\eta$. Evaluating $\omega_C$ at a *whole cylinder's* mass $m$ would scale $\eta$ as $P/m^2$ (giving two identical cylinders side-by-side half the $\eta$ of one) and, above the Planck mass ($21.8\,\mu\text{g}$), push a whole-body Compton frequency past the Planck frequency (by $1.4\times 10^7$ for a $300\text{ g}$ cylinder, whereas `L4-ThePlenum` §VII sets the shortest crossing at the Planck bottleneck).
 >
-> **What additivity forces:** an *intensive* clock, one that does not grow with the aggregate's mass — a constituent's Compton or lattice frequency. Additivity is then restored and MICROSCOPE passes by a wider margin, not a narrower one: 1 mW of leakage in a 300 g cylinder at the nucleon clock gives $|\eta| \approx 5\times10^{-44}$. The repair is forced by how parts combine, not by data, and it costs the file nothing.
+> **What additivity forces:** an *intensive* clock that does not grow with aggregate mass—a constituent's nucleon Compton or lattice frequency. Additivity is then preserved and passive test masses satisfy MICROSCOPE by an even wider margin: $1\text{ mW}$ of leakage in a $300\text{ g}$ cylinder at the nucleon clock gives $|\eta| \approx 5\times 10^{-44}$. The repair follows directly from how parts combine, and costs the scaling law nothing.
 >
-> **What stays open, and it is the real debt:** the rule that assigns a frame its clock. Because $\eta \propto 1/\omega$, the slowest dissipative clock dominates, and §IV.3's "three orders of magnitude below MICROSCOPE" holds only because EEG is taken as the slowest dissipative clock in biology — organisms also dissipate on circadian clocks, where the same brain gives $|\eta| \approx 4\times10^{-12}$. Until the rule is stated, the bound is set by that choice rather than by the formula.
+> **The clock-assignment debt reframed as a clock meter:** Because $\eta \propto 1/\omega$, the slowest dissipative clock dominates. The assignment rule selecting a composite frame's effective clock remains open (constrained by additivity, not yet stated): on circadian clocks ($\tau = 8.64\times 10^4\text{ s}$), the brain ($20\text{ W}, 1.4\text{ kg}$) would give $|\eta| \approx 2.75\times 10^{-11}$ and the whole organism ($100\text{ W}, 70\text{ kg}$) would give $|\eta| \approx 2.75\times 10^{-12}$. Inverting the departure law solves that ambiguity operationally as a **clock meter**: given $P_{\text{diss}}$ and $m$, an empirical bound on $\eta$ sets an upper bound on the frame's slowest active dissipative clock:
+> $$\tau \;<\; \frac{|\eta_{\text{bound}}|\,m c^2}{2 P_{\text{diss}}}$$
+> * **Brain-scale dissipator ($20\text{ W},\, 1.4\text{ kg}$):** $|\eta| < 10^{-15} \Rightarrow \tau < 3.15\text{ s}$; $|\eta| < 10^{-18} \Rightarrow \tau < 3.2\text{ ms}$.
+> * **Whole organism ($100\text{ W},\, 70\text{ kg}$):** $|\eta| < 10^{-15} \Rightarrow \tau < 31.5\text{ s}$.
+> * **Laboratory cylinder ($1\text{ mW}$ leakage, $300\text{ g}$):** $|\eta| < 10^{-18} \Rightarrow \tau < 13.5\text{ s}$.
+>
+> A MICROSCOPE-grade bound ($|\eta| < 10^{-15}$) on a brain-scale dissipator already excludes circadian dissipative clocks ($8.6\times 10^4\text{ s}$) and admits the EEG band ($10^{-2}\text{ s}$), turning the open clock-assignment debt into a direct measurement program.
 
-For a passive laboratory test mass, $P_{\text{diss}}$ is limited to tiny thermal noise leakage. Because the denominator scales as $(m c^2)^2 \approx (10^{17}\text{ J})^2 \sim 10^{34}\text{ J}^2$, the predicted departure is suppressed to astronomical insignificance:
+For a passive laboratory test mass, $P_{\text{diss}}$ is limited to tiny thermal noise leakage at constituent scales. The predicted departure is suppressed to astronomical insignificance:
 
-$$|\eta_{\text{Compton}}| \sim 10^{-50} \text{ to } 10^{-70}$$
+$$|\eta_{\text{Compton}}| \sim 10^{-44} \text{ to } 10^{-70}$$
 
 **Conclusion:** At the atomic and test-mass scale, the Equivalence Principle holds to absolute mathematical precision. Any experiment measuring passive mineral cylinders will observe $\eta = 0.000\dots$, confirming MICROSCOPE.
 
@@ -135,7 +141,7 @@ Living biological systems instantiate the AC Extension (`L4-Thermodynamics` §VI
 
 In human neural tissue, coordinated macroscopic processing occurs at the EEG spectrum ($\omega \approx 10\text{--}100\text{ Hz}$), establishing a compilation cycle time of $\tau \approx 10^{-2}\text{ s}$.
 
-Evaluating human metabolic benchmarks:
+Evaluating human metabolic benchmarks on that clock:
 
 * **Human Brain (Active Metabolism):**
   $$P_{\text{diss}} \approx 20\text{ W}, \quad m = 1.4\text{ kg}, \quad \tau = 10^{-2}\text{ s}$$
@@ -148,10 +154,10 @@ Evaluating human metabolic benchmarks:
 * **Whole Organism (Baseline Basal Metabolism):**
   $$P_{\text{diss}} \approx 100\text{ W}, \quad m = 70\text{ kg}, \quad \tau = 10^{-2}\text{ s} \implies |\eta| \approx \mathbf{3.17 \times 10^{-19}}$$
 
-### 3. The Structural Upper Bound
-The value $|\eta| \sim 3.2 \times 10^{-18}$ is **not** an exported universal constant. It is an **empirical upper bound for macroscopic biological matter**. 
+### 3. The Clock-Meter Bound
+The value $|\eta| \sim 3.2 \times 10^{-18}$ is **not** an exported universal constant, and it assumes the EEG band ($\tau \sim 10^{-2}\text{ s}$) sets the active dissipative clock rather than slower metabolic/circadian cycles (which a $10^{-15}$ bound on a brain-scale dissipator already cuts off at $\tau < 3.15\text{ s}$).
 
-It demonstrates that even if a composite system selects the slowest, most energetically dissipative macro-coordination clock available in biology, the departure from the Equivalence Principle sits **three orders of magnitude below the current detection threshold of human technology** ($|\eta|_{\text{MICROSCOPE}} < 10^{-15}$).
+Reading the formula as a clock meter fixes the experimental stakes without needing the full clock-assignment rule upfront: at the EEG coordination band, the departure sits **three orders of magnitude below current satellite sensitivity** ($|\eta|_{\text{MICROSCOPE}} < 10^{-15}$), while any sensitivity step between $10^{-15}$ and $10^{-18}$ on an active $20\text{ W}/1.4\text{ kg}$ dissipator directly slices the active biological clock spectrum between $3.15\text{ s}$ and $3.2\text{ ms}$.
 
 ---
 
@@ -166,7 +172,7 @@ Because $\eta < 0$, the ratio $m_i / m_g$ is strictly less than unity for active
 * An active, living system paying Landauer taxes experiences a slight drop in its resistance to acceleration. In an idealized gravitational vacuum drop, an active living organism would accelerate marginally *faster* than an equivalent dead mass ($a = g \cdot (m_g / m_i) = g / (1 + \eta) \approx g(1 + |\eta|)$).
 
 ### 2. Second-Order Metric Consequence: The $1/c^4$ Coupling Operator
-In General Relativity, any modification to inertial motion must project onto the metric $g_{\mu\nu}$. In `QED-EotvosBound` §VII, the structural metric perturbation along a frame's four-velocity $u_\mu$ evaluates to:
+In General Relativity, any modification to inertial motion projects onto the metric $g_{\mu\nu}$. In linearized metric response along a frame's four-velocity $u_\mu$, the structural metric perturbation scales as:
 
 $$\Delta g_{\mu\nu}^{(\text{struct})} = -\frac{\eta}{c^2} u_\mu u_\nu = \frac{2 P_{\text{diss}}\,\tau}{m c^4} u_\mu u_\nu$$
 
@@ -195,10 +201,11 @@ To maintain strict alignment with the Four-Category Datasheet (`L4-K4-Infinities
 
 1. **The Algebraic Form ($\eta \approx -2\Delta I / I_0$)** is **Category 0 (Grammar)**. It is derived deductively from Facet 12 ($R = P/I^2$) under small-signal perturbation.
 2. **The Coupling Constants ($c, \hbar$)** are **Category 1 (Substrate)**. They are consumed physical invariants that establish the metric and action scales.
-3. **The Parameters ($P_{\text{diss}}, m, \omega$)** are **Category 2 (State)**. They belong entirely to the specific bounded frame under analysis. 
+3. **The Parameters ($P_{\text{diss}}, m, \omega$)** are **Category 2 (State)**. They belong entirely to the specific bounded frame under analysis. Used as a **clock meter**, any empirical bound on $\eta$ given $P_{\text{diss}}$ and $m$ bounds the frame's slowest active dissipative clock $\tau = 1/\omega$; the clock-assignment rule itself remains constrained by additivity and open.
 
 The framework does not predict a single, rigid universal number for $\eta$. It provides the **invariant scaling law** governing how interior metabolic work modifies classical inertia, proving that while the Equivalence Principle must shatter for active interiority in principle, nature rigorously protects its validity across every domain human instruments have ever measured.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

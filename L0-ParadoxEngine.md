@@ -75,7 +75,8 @@ The universe is not throwing dice into the dark. It is navigating a pre-existing
 
 This does not mean the algebra can predict *which* specific animal will evolve. It means the algebra defines the boundary conditions of viability. A biological system that attempts to achieve complete mutual determination without adopting a K4 topology will suffer thermodynamic overload and fail to cohere.
 
-The forms that life takes — the strictly Fixed-axis pairing of the DNA double-helix, the 4-chambered mammalian heart achieving total internal decoupling — are not just lucky accidents that survived a chaotic lottery. They are the physical expressions of biological mass finding the stable, navigable edges of its own topology.
+The forms that life takes — the strictly Cardinal-axis pairing of the DNA double-helix, the 4-chambered mammalian heart achieving total internal decoupling — are not just lucky accidents that survived a chaotic lottery.
+They are the physical expressions of biological mass finding the stable, navigable edges of its own topology.
 
 We are not here by accident. We are here because we are what the math looks like when it breathes.
 

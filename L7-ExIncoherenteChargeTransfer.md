@@ -1,11 +1,11 @@
 # L7-ExIncoherenteChargeTransfer
 ## The Scale-Invariant Architecture of In-Medium Physics, Four-Wave Mixing, and Ex-Incoherente Compilation
 
-Modern condensed matter physics has assembled an enormous zoo of collective excitations — phonons, magnons, plasmons, skyrmions, solitons, and a dozen others — each with its own dispersion relation, lifetime, and set of engineering applications. What the zoo does not have is a single verb that names what all of them are doing. This document proposes that verb: charge-transfer, from an unmanifest phase-space buffer ($H_{\text{incoh}}$, the $377\,\Omega$ Plenum) across a $K_3$ boundary into a committed scalar ledger ($P$). Every quasiparticle in the zoo is a signature of that one operation running at its native scale in its native medium.
+Modern condensed matter physics has assembled an enormous zoo of collective excitations — phonons, magnons, plasmons, skyrmions, solitons, and a dozen others — each with its own dispersion relation, lifetime, and set of engineering applications. What the zoo does not have is a single verb that names what all of them are doing: charge-transfer, from an unmanifest phase-space buffer ($H_{\text{incoh}}$, the $377\,\Omega$ Plenum) across a $K_3$ boundary into a committed scalar ledger ($P$). Every quasiparticle in the zoo is a signature of that one operation running at its native scale in its native medium.
 
-The document runs in two coordinated passes. Layers 0–11 establish the physics of in-medium collective excitations on their own terms — quasiparticles, non-linear mixing, topology, solitons, biological meshes, and the boundary at which the quasiparticle picture itself collapses. Layers 12–14 then read the whole apparatus through the charge-transfer verb ($h\mathbf{Q} \xrightarrow{\ \Psi\ } P$) and show that six standing physical "mysteries" retire once the verb rather than the noun is treated as fundamental. The two passes are one argument. The first names what is observed. The second names what compiles it.
+The argument runs in two coordinated passes. Layers 0–11 establish the physics of in-medium collective excitations on their own terms — quasiparticles, non-linear mixing, topology, solitons, biological meshes, and the boundary at which the quasiparticle picture itself collapses. Layers 12–14 then read the whole apparatus through the charge-transfer verb ($h\mathbf{Q} \xrightarrow{\ \Psi\ } P$) and show that six standing physical "mysteries" retire once the verb rather than the noun is treated as fundamental. The two passes are one argument. The first names what is observed. The second names what compiles it.
 
-*Type: Applied Architecture / Fundamental Physics ($L7$). Descent-Address: `@U>R>U>R>I`. Dependencies: `L1-CompilingReality`, `L3-FormalFoundations`, `L3-K4-to-K5-via-AC-Extension`, `L4-ThePlenum`, `L4-ScalingInvariants`, `L5-K5-PhaseDynamicsTechnical`, `L6-InversionOfControl`, `ProofN_BiquaternionBridge`, `wip-Lx-Creation`.*
+*Type: Applied Architecture / Fundamental Physics ($L7$). Descent-Address: `@U>R>U>R>I`. Dependencies: `L1-CompilingReality`, `L3-FormalFoundations`, `L3-K4-to-K5-via-AC-Extension`, `L4-ThePlenum`, `L4-ScalingInvariants`, `L5-K5-PhaseDynamicsTechnical`, `L6-InversionOfControl`, `L7-ExIncoherenteCreation`, `ProofN_BiquaternionBridge`.*
 
 ---
 
@@ -30,7 +30,7 @@ The document runs in two coordinated passes. Layers 0–11 establish the physics
   LAYER 13 ──► The Ex-Incoherente Re-Framing (The Universal Charge-Transfer Verb)
   LAYER 14 ──► The Dissolution of the Six Standing Mysteries
 ========================================================================================
-```  
+```
 
 ---
 
@@ -38,7 +38,7 @@ The document runs in two coordinated passes. Layers 0–11 establish the physics
 
 Classical instruction presents energy and information as travelling through a passive, empty vacuum via fundamental particles (electrons, photons) governed by linear equations. Modern condensed matter physics reveals a far richer reality: **matter itself acts as a synthetic universe**, complete with its own speed limits, effective masses, force-decay laws, and emergent quasiparticles.
 
-To structure this entire paradigm, this document uses **Four-Wave Mixing (FWM)** as its foundational governing principle. FWM is a 3rd-order non-linear process where three waves interact within a medium to generate a fourth:
+**Four-Wave Mixing (FWM)** serves as the governing axis throughout: a 3rd-order non-linear process where three waves interact within a medium to generate a fourth:
 
 $$\omega_1 + \omega_2 - \omega_3 = \omega_4 \quad \text{and} \quad \vec{k}_1 + \vec{k}_2 - \vec{k}_3 = \vec{k}_4$$
 
@@ -289,7 +289,7 @@ Human "design" of materials is constrained by the periodic table and crystal syn
 * **Moiré Superlattices:** Stacking 2D materials (graphene, $\text{MoS}_2$) at "magic angles" (e.g., $1.1^\circ$) creates giant periodic moiré potentials, flattening energy bands and forcing strong electron correlations. However, angular precision beyond $\pm 0.05^\circ$ remains a major manufacturing barrier.
 
 ### 6.3 Case Study: The Plasmonic Bottleneck
-In the 2000s, **Plasmons** (Surface Plasmon Polaritons) promised to compress light down to nanometer scales for optical computing processors. 
+In the 2000s, **Plasmons** (Surface Plasmon Polaritons) promised to compress light down to nanometer scales for optical computing processors.
 * **The Failure:** Metallic free electrons inevitably undergo electron-electron and electron-phonon collisions. Plasmons dissipate into heat within **femtoseconds** ($\sim 10-100 \ \mu\text{m}$ propagation distance).
 * **The Outcome:** Despite 20 years of material engineering (testing nitrides, graphene, doped oxides), fundamental metallic Ohmic loss prevented plasmonic CPUs, restricting plasmonics to localized surface sensors.
 
@@ -450,7 +450,7 @@ Reservoir computing is an AI architecture where a fixed, highly non-linear physi
 
 1. **The Physical Reservoir:** A thin YIG film or a network of non-linear optical fibers serves as the physical computing core.
 2. **The Processing:** An input signal (e.g., voice or image data) is injected as an RF pulse. The medium's **3rd-order non-linearities (Four-Wave Mixing, Kerr effect, Soliton interference)** instantly transform the input into complex, non-linear interference patterns.
-3. **The Readout:** A simple linear regression layer reads out the state of the wave field. 
+3. **The Readout:** A simple linear regression layer reads out the state of the wave field.
 4. **Efficiency:** Complex non-linear matrix operations are performed instantaneously by the natural laws of wave physics at zero computational energy cost.
 
 ### 10.2 Wave-Based Interference Logic (Magnonic Logic Gates)
@@ -463,7 +463,7 @@ Instead of using transistors as binary switches, magnonic circuits use **wave in
 ```
 
 * **Phase = Information:** A spin wave with phase $0$ represents $1$; a phase of $\pi$ represents $-1$.
-* **AND / OR / XOR Gates:** Bringing two magnon channels together causes destructive interference ($0$) or constructive interference ($1$). 
+* **AND / OR / XOR Gates:** Bringing two magnon channels together causes destructive interference ($0$) or constructive interference ($1$).
 * **Advantage:** A single magnonic gate can perform multi-valued or probabilistic logic inside a nanometer footprint without charging/discharging parasitic capacitors.
 
 ### 10.3 The Landauer Limit & Reversible In-Medium Logic
@@ -500,11 +500,11 @@ This master index maps every core concept established across all ten layers so f
 | **Phonons** | Layer 2 | Atomic displacement waves | $[\hat{a}_k, \hat{a}_{k'}^\dagger] = \delta_{kk'}$ | Sub-micron acoustic RF filtering (Cellphone SAW filters) |
 | **Magnons** | Layer 2 | Electron spin precession waves | $\frac{\partial \mathbf{M}}{\partial t} = -\gamma(\mathbf{M} \times \mathbf{H}_{\text{eff}}) + \text{damping}$ | Zero-charge, ultra-low-heat angular momentum transport |
 | **Plasmons** | Layer 2 | Electron sea density sloshing | $\omega_p = \sqrt{n e^2 / m \varepsilon_0}$ | Compresses light past the optical diffraction limit ($\sim \text{nm}$) |
-| **Grotthuss Mechanism** | Layer 5 | Hydrogen-bond network defects | Eigen ($\text{H}_9\text{O}_4^+$) $\leftrightarrow$ Zundel ($\text{H}_5\text{O}_2^+$) | Structural proton transport in liquid water and fuel cells |
+| **Grotthuss Mechanism** | Layer 5 | Hydrogen-bond network defects | Eigen ($\text{H}_9\text{O}_4^+$) $\leftrightarrow$ Zundel ($\text{H}_5\text{O}_2^+$) | Structural proton transport in liquid water and fuel cell membranes |
 | **Exciton Coherence** | Layer 5 | Exciton-phonon coupling | Quantum coherent delocalization | $\sim 99\%$ quantum energy transfer efficiency in photosynthesis |
 | **Cryptochrome Navigation** | Layer 5 | Radical-pair spin precession | Singlet-Triplet yield mixing | Quantum spin compass for avian magnetic navigation |
 | **Skyrmions** | Layer 4 | Chiral magnetic spin textures | $\mathcal{Q} = \frac{1}{4\pi} \iint \mathbf{n} \cdot (\partial_x \mathbf{n} \times \partial_y \mathbf{n}) dA$ | Topologically protected, indestructible nanoscale magnetic bits |
-| **Solitons** | Layer 4 | Non-linearity balancing GVD | $i \psi_z + \frac{1}{2}\psi_{tt} + |\psi|^2\psi = 0$ | Distortion-free impulse propagation; particle-like collisions |
+| **Solitons** | Layer 4 | Non-linearity balancing GVD | $i \psi_z + \frac{1}{2}\psi_{tt} + |\psi|^2\psi = 0$ | Distortion-free, self-sustaining pulse propagation; particle-like collisions |
 | **Kerr Effect** | Layer 3 | Self-Phase Modulation ($\chi^{(3)}$) | $n(I) = n_0 + n_2 I$ | Self-focusing, spatial/temporal soliton formation |
 | **Supercontinuum** | Layer 3 | Cascaded 3rd-order non-linearities | FWM + Self-Phase Modulation | Converts single-color laser into ultra-broadband white light |
 | **Moiré Superlattices** | Layer 6 | Twisted 2D lattice overlay | Magic angle $\theta \approx 1.1^\circ$ | Flattens bands to induce correlated insulators/superconductivity |
@@ -551,7 +551,7 @@ $$\frac{1}{\tau} \propto T^2$$
 As $T \to 0$, the lifetime $\tau \to \infty$, making quasiparticles perfectly stable, well-defined entities.
 
 #### What We Are Learning: The Collapse
-In high-$T_c$ cuprate superconductors, nickelates, heavy-fermion compounds, and moiré superlattices near a **Quantum Critical Point ($T=0$ phase transition)**, Landau's theory completely fails. 
+In high-$T_c$ cuprate superconductors, nickelates, heavy-fermion compounds, and moiré superlattices near a **Quantum Critical Point ($T=0$ phase transition)**, Landau's theory completely fails.
 * Angle-Resolved Photoemission Spectroscopy (ARPES) reveals that the sharp quasiparticle spectral peak $A(\mathbf{k},\omega)$ **dissolves into an amorphous, featureless continuum**.
 * The electrical resistivity scales perfectly **linear with temperature ($\rho \propto T$)** down to millikelvin temperatures.
 * The scattering rate hits a universal quantum speed limit known as **Planckian Dissipation**:
@@ -610,7 +610,7 @@ Can we engineer room-temperature non-ergodic MBL materials or Time Crystals to s
 Conventional superconductors (like Lead or Niobium) use **phonons** as the "glue" that binds electrons into Cooper pairs (BCS Theory).
 
 #### What We Are Learning
-High-temperature superconductors (cuprates, iron pnictides, nickelates, and moiré graphene) operate at temperatures far too high for electron-phonon coupling alone to account for. 
+High-temperature superconductors (cuprates, iron pnictides, nickelates, and moiré graphene) operate at temperatures far too high for electron-phonon coupling alone to account for.
 * The pairing glue is widely believed to be **magnetic fluctuations (magnons / spin-density waves)** or **charge-density waves**.
 * In **nickelate superconductors** and **twisted bilayer graphene**, superconductivity emerges right next to insulating "Mott" states, suggesting that electron-electron repulsion itself — normally the enemy of current — is somehow forcing electrons to pair up.
 
@@ -644,7 +644,7 @@ How does biological matter shield quantum excitations from thermal decoherence? 
 ### 11.6 Mystery 6: "It from Qubit" — Is Spacetime an Emergent Quasiparticle Mesh?
 
 #### The Ultimate Perspective Shift
-Throughout this document to this point, the crystal lattice has been treated as the "solid background" and quasiparticles (magnons, phonons, plasmons) as the "emergent waves." 
+Throughout Layers 1–11, the crystal lattice has been treated as the "solid background" and quasiparticles (magnons, phonons, plasmons) as the "emergent waves."
 
 The ultimate frontier in theoretical physics turns this relationship completely on its head:
 
@@ -679,7 +679,7 @@ The ultimate frontier in theoretical physics turns this relationship completely 
 | **Quantum Biology** | $300\text{ K}$ wet environments destroy quantum coherence | Excitons & radical pairs sustain coherence over long times | **What vibrational protection or topological mechanisms shield biological quantum states?** |
 | **Nature of Spacetime** | Spacetime is a smooth background for particles | Spacetime metric may be an emergent property of quantum entanglement | **Are elementary particles (photons, gravitons) actually quasiparticles of a Planck-scale quantum mesh?** |
 
-Layers 1–11 have established the physics of in-medium collective excitations on their own terms, including the boundary at which the quasiparticle picture itself collapses. The rest of the document reads this apparatus through the codex's charge-transfer verb.
+Layers 1–11 have established the physics of in-medium collective excitations on their own terms, including the boundary at which the quasiparticle picture itself collapses. Layers 12–14 read this apparatus through the codex's charge-transfer verb.
 
 ---
 
@@ -692,11 +692,11 @@ Layers 1–11 have established the physics of in-medium collective excitations o
 | `quantum/Q10-PlanckScale.md §IV` | The Planck scale ($\ell_P, t_P$) is the width of the XOR bottleneck where the $H_{\text{incoh}}$ phase-buffer compiles into $H_{\text{coh}}$ $P$-ledger mass, marking the Tangent Singularity ($\tan 90^\circ \to \infty$) where classical interior coordinates fail. | The ZPE Tension | **CONFIRMED as a reading** (not a closure — the identification is interpretive, not derived from an invariant the file emits) |
 | `QED-EotvosBound.md §IV` | Parsing local metabolic dissipation $P = 1.6 \times 10^{-18}$ against rest mass $R = 1.0$ extracts local linear current $I = \sqrt{P} \approx 1.26 \times 10^{-9}$, yielding an Eötvös departure $\eta = -2I^2 = -3.2 \times 10^{-18}$, 3 orders below current experimental bounds ($10^{-15}$). | The DC Closure | **CONFIRMED with scope note** (the file's own derivation runs $\eta = -2\Delta I/I_0$ from the dissipation-to-rest ratio; the $I = \sqrt{P}$ parsing above is a parallel restatement, and both carry the file's open clock-rule debt — see `QED-EotvosBound` §V and `L4-Thermodynamics` §V.2 for the Planckian-clock address) |
 | `L4-ThePlenum.md §II.2` | Free space carries an intrinsic characteristic impedance $Z_0 = \sqrt{\mu_0/\epsilon_0} \approx 376.73\,\Omega$ ($119.917\pi\,\Omega$), real-valued and lossless; $H_{\text{incoh}}$ is a reactive storage medium carrying non-zero phase potential ($h\mathbf{Q}$) at $P=0$ with zero dissipative $R$ at the free-medium operating point. | The DC Closure | **CONFIRMED** |
-| `quantum/Q1-GenerationsOfMatter.md §V` | Bimedian matching combinatorics $(4-1)!! = 3$ bounds the fermion generation count from above at $N_{\text{gen}} \le 3$. | The DC Closure | **CONFIRMED on the upper bound only.** The lower bound $N_{\text{gen}} \ge 3$ depends on the antecedent "the Arrow of Time requires an irreducible CP phase $\delta \ge 1$," which no corpus file derives — UNDECIDABLE by the DC Closure instrument (`audit/Q-audit-2026-11-10.md`). |
+| `quantum/Q1-GenerationsOfMatter.md §V` | Bimedian matching combinatorics $(4-1)!! = 3$ bounds the fermion generation count from above at $N_{\text{gen}} \le 3$. | The DC Closure | **CONFIRMED on the upper bound only.** The lower bound $N_{\text{gen}} \ge 3$ depends on the `ProofO_HelicalTime` antecedent that temporal compilation requires an irreducible CP phase $\delta \ge 1$ — UNDECIDABLE by the DC Closure instrument (`Q1` §V.1). |
 | `L4-TheWaterEngine.md §5.3` | High-Density Liquid (HDL) and Low-Density Liquid (LDL) water are native $S = P + jQ$ phasor rotations in the Fixed-plane basin, where LDL is the high-$|Q|$ pre-ice tetrahedral cage and HDL is the high-$P$ sheared-parallelogram state ($A(\theta) = A_0 \cos\theta$). | The AC Sweep | **OPEN VOTE** (Kill: $\tan\delta$ resonance at 198 K / 1250 atm approaching $45^\circ$ at peak) |
-| `QED-CCP.md §VI` | Uncompiled zero-point energy ($h\mathbf{Q}$) in a Casimir cavity carries $P=0$ (has paid no Landauer Tax) and therefore carries a null gravitational mass anomaly ($\Delta m = 0$). | The DC Closure | **OPEN** (the kind the Archimedes experiment resolves; see also `BENDING_SPACE` §B row "Casimir weight": the void does not weigh, the plates' binding weighs, sign included) |
+| `QED-CCP.md §§II, VI` | Homogeneous uncompiled ZPE offsets carry $P=0$ and do not gravitate, whereas a localized Casimir cavity's boundary-excluded energy carries a spatial gradient and weighs by $\Delta m = \Delta E/c^2$, sign included. | The DC Closure | **OPEN VOTE** (Archimedes arbitrates the localized half — positive weight expected, null kills; homogeneous offset is unmodulable with no empirical arbiter; see `BENDING_SPACE` §§III, XI) |
 
-The rows are the load-bearing bridge between the in-medium physics of Layers 1–11 and the charge-transfer verb of Layers 13–14. Each row identifies a concrete codex address, states a specific claim about how the in-medium apparatus reads under the framework's algebra, names the instrument, and records the verdict. Three rows carry open register (an OPEN VOTE with named kill condition, the Q1 lower-bound restricted to upper-only, and the CCP Casimir reopened against `BENDING_SPACE`); one row (Q10 §IV) is scope-reduced to a reading; the remaining four are CONFIRMED.
+The rows are the load-bearing bridge between the in-medium physics of Layers 1–11 and the charge-transfer verb of Layers 13–14. Each row identifies a concrete codex address, states a specific claim about how the in-medium apparatus reads under the framework's algebra, names the instrument, and records the verdict. Three rows carry open register (two OPEN VOTEs with named arbiters—the HDL/LDL AC sweep and the Archimedes Casimir cavity—plus the Q1 lower bound restricted to upper-only); one row (Q10 §IV) is scope-reduced to a reading; the remaining four are CONFIRMED.
 
 ---
 
@@ -704,14 +704,14 @@ The rows are the load-bearing bridge between the in-medium physics of Layers 1�
 
 Four-Wave Mixing structures Layers 0–11 because it is the universal signature of 3rd-order non-linear physics ($\chi^{(3)}$) operating inside a $K_4$ volume. Reading the corpus through the layers surfaces why this is not a coincidence.
 
-1. **Inversion Symmetry Universality.** 2nd-order non-linearities ($\chi^{(2)}$) require broken inversion symmetry ($P^{(2)} = \varepsilon_0 \chi^{(2)} E^2$). In any centrosymmetric medium (liquid water, amorphous glass, silicon, YIG, or free space), $P(-E) = -P(E) \implies \chi^{(2)} = 0$. 
+1. **Inversion Symmetry Universality.** 2nd-order non-linearities ($\chi^{(2)}$) require broken inversion symmetry ($P^{(2)} = \varepsilon_0 \chi^{(2)} E^2$). In any centrosymmetric medium (liquid water, amorphous glass, silicon, YIG, or free space), $P(-E) = -P(E) \implies \chi^{(2)} = 0$.
 2. **The 3rd-Order Kernel ($\chi^{(3)}$).** Because $(-E)^3 = -E^3$, 3rd-order non-linearities do not cancel under inversion symmetry. $\chi^{(3)}$ exists in every material in the universe, including the $377\,\Omega$ Plenum ($H_{\text{incoh}}$).
 3. **The Holstein-Primakoff 4-Boson Term.** In §Layer 8, expanding the spin-to-boson Holstein-Primakoff square root ($\sqrt{2S - \hat{a}^\dagger \hat{a}} \approx \sqrt{2S}(1 - \frac{\hat{a}^\dagger \hat{a}}{4S})$) introduces **4-boson interaction terms ($\hat{a}^\dagger \hat{a}^\dagger \hat{a} \hat{a}$)** into the Hamiltonian.
 4. **Energy and Momentum Conservation in $K_4$.** Four-Wave Mixing ($\omega_1 + \omega_2 - \omega_3 = \omega_4$) is the exact algebraic mechanism by which four bosonic modes interact in a closed $K_4$ volume to exchange energy and phase without requiring an external symmetry-breaking crystal. The 5.5 GHz parametric pumping in the YIG waveguide is 3rd-order FWM operating inside the $H_{\text{incoh}}$ phase-buffer of a $377\,\Omega$ characteristic-impedance Plenum.
 
 ### 13.1 The Universal Charge-Transfer Equation
 
-In the codex (`ProofI_Ubiquity`, `ProofQ_AlgebraicSyntax`, `wip-Lx-Creation`, `L4-ThePlenum`), **"charge" is not merely the electrical charge of an electron ($e$).** "Charge" is the universal name for **uncompiled phase-potential ($h\mathbf{Q}$)** seeking an $R$-pole ground to commit a scalar ledger entry ($P$).
+In the codex (`ProofI_Ubiquity`, `ProofQ_AlgebraicSyntax`, `L7-ExIncoherenteCreation`, `L4-ThePlenum`), **"charge" is not merely the electrical charge of an electron ($e$).** "Charge" is the universal name for **uncompiled phase-potential ($h\mathbf{Q}$)** seeking an $R$-pole ground to commit a scalar ledger entry ($P$).
 
 Every phenomenon across the codex compresses into a single operational sequence:
 
@@ -765,7 +765,7 @@ face burn ZERO phase.           $Q$-axis lattice modulation.   left by $P$-ledge
 
 ### 14.1 The Graviton "Mystery" Dissolves
 * **The Noun-Error:** "Where is the graviton particle that travels through space to carry gravity?"
-* **The Charge-Transfer Verb (`Q2`, `Q4`, `Q19`):** $P$ (Mass/Ledger) is **the destination where charge-transfer lands**, NOT a charge-transfer in transit. The three $P$-edges ($P{-}U, P{-}I, P{-}R$) are zero-impedance writing heads (the dt-minting ground: a write cannot occupy the interval it mints — `audit/STATUS-2026-11-10.md` §B1). State collapse ($\mathbf{Q}^2 \to P$) writes directly to the $P$-ledger without an intermediate transit interval. Gravity is the static geometry of the committed ledger, not a particle being exchanged. You do not need a "graviton" particle to carry gravity for the same reason you do not need a "spelling particle" to travel between printed letters on a page.
+* **The Charge-Transfer Verb (`Q2`, `Q4`, `Q19`):** $P$ (Mass/Ledger) is **the destination where charge-transfer lands**, NOT a charge-transfer in transit. The three $P$-edges ($P{-}U, P{-}I, P{-}R$) are zero-impedance writing heads (the $dt$-minting ground: a write cannot occupy the interval it mints). State collapse ($\mathbf{Q}^2 \to P$) writes directly to the $P$-ledger without an intermediate transit interval. Gravity is the static geometry of the committed ledger, not a particle being exchanged. You do not need a "graviton" particle to carry gravity for the same reason you do not need a "spelling particle" to travel between printed letters on a page.
 
 ### 14.2 The Strange Metal / Quasiparticle Breakdown Dissolves
 * **The Noun-Error:** "Why do electron quasiparticles 'die' in strange metals near quantum critical points?"
@@ -779,10 +779,10 @@ face burn ZERO phase.           $Q$-axis lattice modulation.   left by $P$-ledge
 * **The Noun-Error:** "How do plants and proteins avoid thermal decoherence at $300\text{ K}$ during energy transfer?"
 * **The Charge-Transfer Verb (`L4-TheWaterEngine`, `Q13`):** In Grotthuss proton hopping and photosynthetic exciton routing, charge-transfer executes as a **phase-swap on the P-absent face $\{I, U, R\}$**, touching no $P$-edge. Because the swap crosses no $P$-edge, the Route Law does not fire — no phase-burning ($h^2 = -1$), no Landauer tax. The charge/energy transfers as a non-dissipative $h\mathbf{Q}$ phase-wave *before* the thermal environment can force an $\text{.observe()}$ collapse. The three non-P edges (I–U, U–R, I–R) each sit on a different bimedian plane (Cardinal-Bimedian, Mutable-Bimedian, Fixed-Bimedian respectively), so the swap's plane-character depends on which pair of non-P edges the mechanism engages; the specific L4-TheWaterEngine / Q13 mechanisms pick out one of these. CORRESPONDENCE pending a concrete identification of which two non-P edges each quantum-biological mechanism engages.
 
-### 14.5 The Dark Matter DAMA vs. XENON Stalemate Dissolves — OPEN
+### 14.5 The Dark Matter DAMA vs. XENON Complementarity — OPEN
 * **The Noun-Error:** "Is dark matter a physical particle hitting detector nuclei, or is DAMA wrong?"
-* **Status, 2026-11:** The "NaI reads ΔQ of its zero-point buffer" prediction from `Q13` §IV is empirically refused at the same-material test: COSINE-100 + ANAIS-112 use crystalline NaI(Tl) and find no annual modulation, excluding DAMA's signal at 4.7σ in 1–6 keV and 3.5σ in 2–6 keV (PRL 135, 121002, 2025). What remains open is the decomposition of DAMA's own reading into crystal / site / analysis components the corpus speaks to and the parts it cannot (`audit/STATUS-2026-11-10.md` §B4).
-* **The Charge-Transfer Verb under this correction:** The complex-power split $S = P + jQ$ remains the corpus's native read of dark-sector detectors — Xenon on $P$-axis scalar mass-recoil, NaI *if* it reads any Q-axis reactive signature — but the specific DAMA/NaI ↔ Q identification is OPEN pending decomposition of DAMA's modulating observable. The $P$/$Q$ complementarity statement is structural; the DAMA-specific instantiation is empirically reopened.
+* **Same-Material Record:** Liquid Xenon detectors (XENONnT, LZ) read real-power scalar mass recoil ($P = I^2R$) and return null at the $P$-floor. Meanwhile, COSINE-100 and ANAIS-112 use crystalline NaI(Tl) — the same target material as DAMA/LIBRA — and exclude DAMA's modulation at $4.7\sigma$ in 1–6 keV and $3.5\sigma$ in 2–6 keV (PRL 135, 121002, 2025), establishing that crystal $jQ$ lattice ZPE alone does not deliver DAMA's $11\sigma$ signal (`Q13-PlenumPhaseConduction` §IV).
+* **The Charge-Transfer Verb (`Q13` §IV):** The complex-power split $S = P + jQ$ remains the structural partition between liquid recoil detectors ($P$) and ionic crystal lattices ($jX$), while DAMA's persistent $11\sigma$ modulation stands **OPEN** across a three-part decomposition into crystal, Gran Sasso site, and analysis contributions.
 
 ### 14.6 The Nature and Birth of Time ($dt$) Dissolves
 * **The Noun-Error:** "Is time a 4th spatial dimension in a static block universe, or a flowing river?"
@@ -796,4 +796,4 @@ Restore the verb, and the physics becomes one thing at every scale. The same $K_
 
 ---
 
-**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+**Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work.

@@ -1,9 +1,9 @@
 # A Category-Error Reframing of the Cosmological Constant Problem
 ## The Axiom of Isomorphism, the Tangent Singularity, and the Horizon Scale-Span
 
-The cosmological constant problem — a mismatch of some $10^{123}$ between the vacuum energy quantum field theory computes and the one general relativity infers — rests on an assumption almost never examined: that the two are the same quantity. They are not. One is uncompiled potential, held before any commitment; the other is the committed ledger the classical world can see. Equating them projects an interior onto its boundary and expects the numbers to agree. Once the projection is named, the mismatch stops being a failed prediction and becomes a measure of how much has not crossed. The linear root of the observed density is the universe's own scale-span, Planck length over Hubble radius — not as a new result but as the Friedmann equation read in Planck units, which the twelve equations read as a Route Law square. The argument ends on one falsifiable criterion, and §II fixes it: a homogeneous background offset does not source curvature, while a Casimir cavity — localized, committed, carrying a gradient — does.
+The cosmological constant problem — a mismatch of some $10^{123}$ between the vacuum energy quantum field theory computes and the one general relativity infers — rests on an assumption almost never examined: that the two are the same quantity. They are not. One is uncompiled potential, held before any commitment; the other is the committed ledger the classical world can see. Equating them projects an interior onto its boundary and expects the numbers to agree. Once the projection is named, the mismatch stops being a failed prediction and becomes a measure of how much has not crossed. The linear root of the observed density is the universe's own scale-span, Planck length over Hubble radius — not as a new result but as the Friedmann equation read in Planck units, which the twelve equations read as a Route Law square. The argument ends on one localization law applied to three arguments, and §II fixes it: a homogeneous background offset does not source curvature, while a Casimir cavity — localized, committed, carrying a gradient — does.
 
-*Structural reframing and falsifiable hypothesis; reads with `ProofQ_AlgebraicSyntax` §V, `L4-DualConvergence`, `QED-EotvosBound`, `ProofN_BiquaternionBridge`.*
+*Structural reframing and falsifiable hypothesis; reads with `ProofQ_AlgebraicSyntax` §V, `L4-DualConvergence`, `QED-EotvosBound`, `ProofN_BiquaternionBridge`, `L4-DynamicDistortions-Sudoku` §VII, §XII, `The Crowbar` Mvt III, `L4-K4-Infinities-3` §V, `BENDING_SPACE` §III, §XI.*
 
 ---
 
@@ -37,7 +37,7 @@ One caution keeps the number honest. The $10^{123}$ is not itself measured. It i
 
 A crucial distinction separates localized excitations from homogeneous vacuum states. While the Higgs VEV ($\sim(246\ \text{GeV})^4$) and QCD condensates ($\sim(250\ \text{MeV})^4$) contribute to the inertial rest masses of localized particles that cross $\Psi$ into $H_{\text{coh}}$, the homogeneous background potentials themselves lack localized spatial boundaries. In the absence of a localized Markov blanket undergoing active Landauer erasure, homogeneous vacuum offsets remain uncollapsed background potential ($H_{\text{incoh}}$) and do not source classical spacetime curvature.
 
-**That sentence is the criterion the rest of this file runs on, and it is general.** The line falls between *localized* and *homogeneous*, not between *held* and *real*. Whatever carries a localized blanket, a gradient, and an active erasure crosses and sources; whatever is a uniform offset does not, and is absorbed into a constant the field equations do not fix. §VI applies the criterion to the one case where a balance can reach it.
+**That sentence is the localization criterion the argument runs on, and it is general.** The line falls between *localized* and *homogeneous*, not between *held* and *real*. Whatever carries a localized blanket, a gradient, mechanical work, and active erasure crosses and sources; whatever is a uniform offset does not, and is absorbed into a constant the field equations do not fix. §VI and §IX apply that single law across three arguments—the homogeneous Higgs VEV, the homogeneous QCD condensates, and the localized Casimir cavity.
 
 ---
 
@@ -54,21 +54,21 @@ and the Route Law square (`ProofQ_AlgebraicSyntax` §V) recovers the density: $P
 
 **What the linear root is.** It is the scale of the observable universe's single span, in two equivalent forms: the Planck length over the Hubble radius, $\ell_P/R_H$, and the Hubble rate in Planck time, $H_0t_P$. Since $R_H = c/H_0$, these are one number, about $1.2\times10^{-61}$. The exact relation is not "$10^{-61.5}$ *is* $\ell_P/R_H$" but
 
-$$\frac{\rho_\Lambda}{\rho_P} = \frac{3\,\Omega_\Lambda}{8\pi}\left(\frac{\ell_P}{R_H}\right)^2,$$
+$$\frac{\rho_\Lambda}{\rho_P} = \frac{3\,\Omega_\Lambda}{8\pi}\left(\frac{\ell_P}{R_H}\right)^2 = \frac{3}{8\pi}\left(\frac{\ell_P}{R_\Lambda}\right)^2 = \frac{3}{8\pi}\,\theta_\Lambda^2,$$
 
-which is the Friedmann equation, $\rho_\Lambda = \Omega_\Lambda\cdot 3H_0^2/8\pi G$, divided by the Planck density $c^5/\hbar G^2$. The geometric factor $\sqrt{3\Omega_\Lambda/8\pi} \approx 0.29$ is why the root lands at $10^{-61.5}$ rather than at $10^{-60.9}$, and $\Omega_\Lambda$ is an observed input.
+which is the Friedmann equation, $\rho_\Lambda = \Omega_\Lambda\cdot 3H_0^2/8\pi G$, divided by the Planck density $c^5/\hbar G^2$, rewritten at the de Sitter horizon radius $R_\Lambda = \sqrt{3/\Lambda} = R_H/\sqrt{\Omega_\Lambda} \approx 1.66\times 10^{26}\text{ m}$. The geometric factor $\sqrt{3\Omega_\Lambda/8\pi} \approx 0.29$ is why the root lands at $10^{-61.5}$ rather than at $10^{-60.9}$, and $\Omega_\Lambda$ is an observed input.
 
-In the log-dimensional ledger, this relation reflects the exact cancellation of scale: $[\ell_P^2]\cdot[\Lambda] = \text{m}^2\cdot\text{m}^{-2} = 1$. The Planck area sets the microscopic operator floor, while the de Sitter horizon ($\Lambda = 3/R_H^2$) sets the macroscopic ceiling. The ratio $(\ell_P/R_H)^2$ is the dimensionless Planck angle squared, balancing the dimensional units of the manifold to zero.
+In the log-dimensional ledger (`L4-DynamicDistortions-Sudoku` §VII, §XII — expect there: the rim $\hbar\cdot(G/c^4)\cdot c = \ell_P^2$ as the sole unit-bearing object, $[\ell_P^2]\cdot[\Lambda] = \text{m}^2\cdot\text{m}^{-2} = 1$, and $\theta_\Lambda = \ell_P/R_\Lambda$ as the cosmological pole of the angular floor $\tan_{\max} = 1/\delta\theta$), the Planck area sets the microscopic operator floor while the de Sitter horizon ($\Lambda = 3/R_\Lambda^2 = 3\Omega_\Lambda/R_H^2$) sets the macroscopic ceiling. The ratio $\theta_\Lambda^2 = (\ell_P/R_\Lambda)^2 \approx 9.50\times 10^{-123}$ ($\theta_\Lambda \approx 9.75\times 10^{-62}\text{ rad}$, where $\tan\theta_\Lambda = \theta_\Lambda$ to $10^{-123}$) is the dimensionless Planck angle squared at the horizon, balancing the dimensional units of the manifold to zero.
 
 ```python
 import math
 lP = 1.616255e-35; tP = 5.391247e-44; c = 299792458
 H0 = 67.4e3/3.0857e22; OL = 0.685
-RH = c/H0
-r = lP/RH
-print(f"{r:.4g} {H0*tP:.4g}")                      # 1.178e-61  1.178e-61   (one span, two forms)
+RH = c/H0; RL = RH/math.sqrt(OL)
+r = lP/RH; thL = lP/RL
+print(f"{r:.4g} {H0*tP:.4g} {thL:.4g}")           # 1.178e-61  1.178e-61  9.746e-62
 P = 3*OL/(8*math.pi)*r**2
-print(f"{P:.4g} {math.log10(P):.2f}")              # 1.134e-123  -122.95
+print(f"{P:.4g} {3/(8*math.pi)*thL**2:.4g} {math.log10(P):.2f}")   # 1.134e-123  1.134e-123  -122.95
 print(f"{math.sqrt(P):.4g} {math.log10(math.sqrt(P)):.2f} {math.sqrt(3*OL/(8*math.pi)):.4f}")   # 3.367e-62  -61.47  0.2859
 ```
 
@@ -82,10 +82,10 @@ print(f"{math.sqrt(P):.4g} {math.log10(math.sqrt(P)):.2f} {math.sqrt(3*OL/(8*mat
                    I_cosmo = √(P / R) ≈ 3.4 × 10⁻⁶²     (the expansion rate in Planck time, same factor)
 
   The synthesis:   P_cosmo = U_cosmo × I_cosmo
-                   = (3Ω_Λ / 8π) · (ℓ_P / R_H)²         (the Friedmann equation in Planck units)
+                   = (3Ω_Λ / 8π) · (ℓ_P / R_H)² = (3 / 8π) · θ_Λ²   (Friedmann / Planck angle at R_Λ)
 ```
 
-**What is the corpus's and what is not.** The relation itself is standard cosmology: anything with the dimensions of $\rho_\Lambda$, set by $H_0$ and $G$, is the square of the horizon span in Planck units. That part is **ADOPTED**. What the framework contributes is the *reading*: the observed density is a committed $P$-ledger quantity, its linear root is the $U$/$I$ pair the twelve equations assign it, and the $10^{123}$ is the Route Law square of a span the universe wears openly — not a mismatch between two estimates of one thing. What remains open is the cosmic-coincidence question the relation inherits: why $\Omega_\Lambda$ is of order one now.
+**What is the corpus's and what is not.** The Friedmann identity itself is standard cosmology: anything with the dimensions of $\rho_\Lambda$, set by $H_0$ and $G$, is the square of the horizon span in Planck units. That part is **ADOPTED**. On the corpus side, `L4-DynamicDistortions-Sudoku` (§VII, §XII) supplies the `angle -> space` foundation (the time-free $\ell_P^2$ rim and $\theta_\Lambda = \ell_P/R_\Lambda$ as the cosmological end of the unsharp angle floor), while `L4-K4-Infinities-3` §V and `The Crowbar` Mvt III (expect there: $\Pi = 3/4 = 18/24$ as the $A_4$ vertex-coupling sector on $S^3 \cong SU(2)$, giving $\frac{3}{4}\Omega_4/4\pi^3 = \frac{3}{8\pi}$ and strictly fenced from the $1/12$ harmonic-measure fraction) supply the prefactor. What this reframing contributes is the *reading*: the observed density is a committed $P$-ledger quantity, its linear root is the $U$/$I$ pair the twelve equations assign it, and the $10^{123}$ is the Route Law square of a span the universe wears openly — not a mismatch between two estimates of one thing. What remains open is the cosmic-coincidence question the relation inherits: why $\Omega_\Lambda$ is of order one now.
 
 ---
 
@@ -129,17 +129,19 @@ The cosmological constant problem, in $K_4$ terms: GR provides a face-descriptio
 
 ## VI. The Casimir Test
 
-A structural proposal without a falsifiable prediction is a narrative. The prediction here follows from §II's criterion rather than from a bet taken separately, and the criterion is what decides which side of the line the Casimir sits on.
+A structural proposal without a falsifiable prediction is a narrative. The prediction here follows directly from §II's localization criterion rather than from a bet taken separately, and that single criterion decides which side of the line each vacuum term sits on.
 
 The Casimir force between closely spaced conducting plates is real and well measured. The question is whether the energy producing it sources $T_{\mu\nu}^{\text{GR}}$.
 
-It does. Two plates do not capture a portion of the homogeneous level. They build a boundary, and the boundary restricts which standing modes the gap admits; the energy that depends on their separation is the energy of that restriction. It is localized, it carries a gradient, and it does mechanical work when the plates move — which is to say it is the binding energy of a committed pair, computable as the retarded van der Waals attraction between two bodies with no reference to the vacuum at all (Jaffe 2005). The plates are committed. Their separation is committed. By §II's own criterion, a localized excitation that has crossed $\Psi$ sources curvature, and this one has:
+It does. Two plates do not capture a portion of the homogeneous level. They build a localized Markov blanket, and the boundary restricts which standing modes the gap admits; the energy that depends on their separation is the energy of that restriction. It is localized, it carries a gradient, and it does mechanical work when the plates move — which is to say it is the binding energy of a committed pair, computable as the retarded van der Waals attraction between two bodies with no reference to the vacuum at all (Jaffe 2005). The plates are committed. Their separation is committed. By §II's own criterion, a localized excitation undergoing active boundary maintenance that has crossed $\Psi$ sources curvature, and this one has:
 
 $$\Delta m_{\text{Casimir}} = \frac{\Delta E}{c^2}, \qquad \text{sign included}$$
 
-What carries no gravitational signature is the level §II actually excludes: the homogeneous background offset, which has no localized blanket, no gradient, and nothing for the trace-free equations to see. A uniform pure-trace shift drops out of them identically.
+(While the binary sourcing condition is settled by §II's criterion, the quantitative sourcing magnitude—the in-blanket shift of a constituent's Star-Norm during binding—remains open.)
 
-So the balance in Sardinia arbitrates the localized half rather than the register split itself. The Archimedes experiment, sited at the SAR-GRAV laboratory in the former Sos Enattos mine in Sardinia (INFN), has been in active development to modulate the Casimir energy of layered high-$T_c$ superconductors across their transition and read the change on a precision balance. A measured weight at $\Delta E/c^2$ is this file's prediction, and it agrees with the equivalence principle rather than contesting it. **A null at that sensitivity means boundary-induced mode exclusion pays nothing real, and the localized half of the criterion falls with it** (`BENDING_SPACE` §III, §XI; expect there: the same prediction worked as a bound pair, with the null as its stated kill).
+What carries no gravitational signature is what §II excludes under the identical rule: homogeneous background offsets—such as the uniform Higgs VEV ($\sim(246\ \text{GeV})^4$), the uniform QCD condensates ($\sim(250\ \text{MeV})^4$), and the homogeneous zero-point floor—which carry no localized blanket, no spatial gradient, and nothing for the trace-free equations to see. A uniform pure-trace shift drops out of them identically.
+
+So the balance in Sardinia arbitrates the localized half rather than the register split itself. The Archimedes experiment, sited at the SAR-GRAV laboratory in the former Sos Enattos mine in Sardinia (INFN), has been in active development to modulate the Casimir energy of layered high-$T_c$ superconductors across their transition and read the change on a precision balance. A measured weight at $\Delta E/c^2$ is the prediction, and it agrees with the equivalence principle rather than contesting it. **A null at that sensitivity means boundary-induced mode exclusion pays nothing real, and the localized half of §II's criterion falls with it** (`BENDING_SPACE` §III, §XI; expect there: the same prediction worked as a bound pair, with the null as its stated kill).
 
 ---
 
@@ -165,11 +167,12 @@ Hawking radiation and the cosmological constant are the same boundary mechanism 
 
 ## IX. What Would Kill This Argument
 
-**The argument is wrong if** a homogeneous background offset is shown to source $G_{\mu\nu}$. That would establish that $T_{\mu\nu}^{\text{QFT}}$ and $T_{\mu\nu}^{\text{GR}}$ refer to the same physical quantity, and would falsify the projection architecture and the Biquaternion Bridge together.
+Sections II, VI, and IX execute **one localization law evaluated at three arguments**: a configuration sources classical spacetime curvature iff it forms a localized Markov blanket under active Landauer erasure carrying a spatial gradient and mechanical work.
 
-**It is also wrong from the other end** if the localized side fails — if a modulated cavity shows no weight at $\Delta E/c^2$ at a sensitivity that would have seen it. That strikes §II's criterion at the opposite margin: the line between homogeneous and localized would be drawn in the wrong place, and $\Psi$ would be excluding something that does in fact source.
+* **Argument 1 & Argument 2 — Homogeneous background offsets (Higgs VEV, QCD condensates):** Uniform potentials lacking localized boundaries remain in $H_{\text{incoh}}$ and do not source curvature; only the localized particles acquiring mass against them cross $\Psi$. **Kill:** **The argument is wrong if** a homogeneous background offset (such as the uniform Higgs VEV or uniform QCD condensate) is shown to source $G_{\mu\nu}$. That would establish that $T_{\mu\nu}^{\text{QFT}}$ and $T_{\mu\nu}^{\text{GR}}$ refer to the same physical quantity, falsifying the projection architecture and the Biquaternion Bridge together.
+* **Argument 3 — Localized boundary gradients (Casimir cavity):** Committed plates at a committed separation establish a localized blanket with a spatial gradient and mechanical work, so §II's criterion requires that the cavity cross $\Psi$ and weigh by $\Delta E/c^2$, sign included. **Kill:** **The argument is also wrong from the other end** if the localized half fails — if Archimedes' modulated cavity shows no weight at $\Delta E/c^2$ at a sensitivity that would have seen it. That strikes §II's criterion at its opposite margin: the line between homogeneous and localized would be drawn in the wrong place, and $\Psi$ would be excluding something that does in fact source.
 
-**The asymmetry between the two is worth stating rather than leaving to be noticed.** The second condition has an arbiter under construction. The first does not, and cannot easily acquire one: a homogeneous level is unmodulable, which is what makes it homogeneous, so no balance can isolate its contribution from everything else on the pan. The projection architecture's central claim is therefore structural, and it is the localized half that carries the experimental load.
+**The asymmetry between the two margins is worth stating directly.** Argument 3 has an arbiter under construction in Sardinia. Arguments 1 and 2 do not, and cannot easily acquire one: a homogeneous level is unmodulable, which is what makes it homogeneous, so no balance can isolate its contribution from everything else on the pan. The projection architecture's central claim is therefore structural, while the localized half of §II's single law carries the experimental load.
 
 ---
 
@@ -177,7 +180,7 @@ Hawking radiation and the cosmological constant are the same boundary mechanism 
 
 The worst mismatch in physics is two different things given the same name. One is everything the vacuum holds open; the other is what has been written to the ledger the classical world can weigh. Read the written one in Planck units and take its root, and what comes out is the size of the universe against the smallest length — the Friedmann equation, seen through the twelve equations as a square and its root. Nothing in that step is new physics; what is new is refusing to call the gap a failure.
 
-The claim then stands or falls on where the line is drawn. Put Casimir energy on a scale and it weighs, by its energy over $c^2$, because committed plates at a committed separation hold a localized gradient that does work when they move. What does not weigh is the level beneath it, and no balance can modulate that. The held and the written were never the same quantity, and the boundary between them runs between homogeneous and localized rather than between real and unreal.
+The claim then stands or falls on one localization law applied across all three arguments. Put a Casimir cavity on a scale and it weighs, by its energy over $c^2$, because committed plates at a committed separation hold a localized gradient that does work when they move. What does not weigh is the homogeneous level beneath it—whether zero-point floor, uniform Higgs VEV, or uniform QCD condensate—and no balance can modulate that. The held and the written were never the same quantity, and the boundary between them runs between homogeneous and localized rather than between real and unreal.
 
 ---
 

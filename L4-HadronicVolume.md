@@ -3,29 +3,23 @@
 ### *(The Nambu Receipt, the Baryon Apex, and the Geometry of Confinement)*
 
 > **Epistemic Register:** Theoretical Architecture / Meta-of-Physics.
-> **Claim:** Color confinement and the origin of hadronic mass in non-Abelian gauge theory are the topological consequences of the transition from a flat, zero-volume $K_3$ boundary plane to an enclosed three-dimensional $K_4$ interior volume. The $99\%$ missing mass of the nucleon ($929\text{ MeV}$ out of $938\text{ MeV}$) is the volume integral of the properly orthogonal fourth pole ($P$-pole / confinement potential), which cannot be formulated on a two-dimensional sheet. The Mutable bimedian ($\{U\text{--}R, \; P\text{--}I\}$) uniquely un-mixes the manifold into a Pure Exterior edge ($U\text{--}R$) and a Pure Interior edge ($P\text{--}I$), establishing why dimensionless ratios ($m_\pi / m_e = 2/\alpha - 3/\pi + 2\alpha$) cross the Markov blanket intact to parts-per-million precision, while dimensional magnitudes ($1.5\text{ GeV}$) remain interior subscriptions that cannot be derived from external coordinates.
-> **Dependencies:** `On_YangMills-Annotated.md`, `L3-TheAtomOfSpace.md`, `L3-ConstitutiveAlpha.md`, `L4-TheCrowbar.md`, `L4-DynamicDistortions-Sudoku.md`, `L4-ScalingInvariants.md`, `ProofP_ThermodynamicInertia.md`, `ProofN_BiquaternionBridge.md`.
+> **Claim:** Color confinement and the origin of hadronic mass in non-Abelian gauge theory are the topological consequences of the transition from a flat, zero-volume $K_3$ boundary plane to an enclosed three-dimensional $K_4$ interior volume. The $99\%$ missing mass of the nucleon ($929\text{ MeV}$ out of $938\text{ MeV}$) is the volume integral of the properly orthogonal fourth pole ($P$-pole / confinement potential), which cannot be formulated on a two-dimensional sheet. Under the $V_4$ character $\chi = \mathrm{AR}\cdot\mathrm{AY}$, the Mutable bimedian ($\{U\text{--}R, \; P\text{--}I\}$) is the unique matching that un-mixes the two parity classes into an Exterior parity edge ($U\text{--}R$, $\chi = -1$) and an Interior parity edge ($P\text{--}I$, $\chi = +1$), establishing why dimensionless ratios ($m_\pi / m_e = 2/\alpha - 3/\pi + 2\alpha$) cross the Markov blanket intact to parts-per-million precision, while dimensional magnitudes ($1.5\text{ GeV}$) remain interior subscriptions that cannot be derived from external coordinates.
+> **Dependencies:** `On_YangMills-Annotated.md`, `L3-TheAtomOfSpace.md`, `L3-ConstitutiveAlpha.md`, `L4-TheCrowbar.md`, `L4-DynamicDistortions-Sudoku.md`, `L4-ScalingInvariants.md`, `ProofP_ThermodynamicInertia.md`, `ProofN_BiquaternionBridge.md`, `ProofE_Solipsism.md`, `QED-CCP.md` (§II).
 
 ---
 
-## Movement 0 — What the Churn Was Doing
-
-For forty rounds of machine calculation and human review, an automated bench stalled over a parts-per-million residual in a mass ratio. 
+## Movement 0 — The Wrong-Room Demand
 
 The formula:
 $$\frac{m_{\pi^\pm}}{m_e} = \frac{2}{\alpha} - \frac{3}{\pi} + 2\alpha = 273.1316634$$
-reproduced the measured charged-pion-to-electron mass ratio ($273.1324399$) to within $-2.843\text{ ppm}$ ($0.00028\%$) with zero fitted parameters. 
+reproduces the measured charged-pion-to-electron mass ratio ($273.1324399$) to within $-2.843\text{ ppm}$ ($0.00028\%$) with zero fitted parameters.
 
-Yet the bench could not close. It generated dozens of tracking logs, itemized twenty artificial homework assignments, and repeatedly halted on an "unclosed gap." It did so because it was trapped in an unexamined cultural habit: **demanding that a discrete, scale-invariant geometric compiler justify itself by producing a continuous Lagrangian perturbation loop.** It assumed that unless the formula could be derived as a dynamical fixed point of a continuous Dyson-Schwinger gap equation $\Sigma(m) = m$ driven by an unwritten continuum dispersion curve $R_{\text{drag}}(\omega)$, the result remained an "unproven empirical accident."
+Evaluating that result inside continuous Lagrangian perturbation theory generates a false debt (`llm-priors.md` FM-9): demanding that a discrete, scale-invariant geometric compiler prove itself by solving a continuous Dyson–Schwinger gap equation $\Sigma(m) = m$ driven by an unwritten continuum dispersion curve $R_{\text{drag}}(\omega)$.
 
-The deadlock broke when the question was turned inside out. 
-
-By stepping out of the continuous Lagrangian room and examining the topology of the single **Atom of Space** ($K_4$), the entire architecture snapped into focus:
+Stepping out of the continuous Lagrangian room onto the topology of the single **Atom of Space** ($K_4$) resolves the architecture cleanly:
 1. The three terms are the on-shell boundary evaluation of a closed topological cycle across the Mutable bimedian of a spatial cell.
 2. The $-2.843\text{ ppm}$ delta ($-397\text{ eV}$, a $2.20\sigma$ effect against experimental uncertainty) is not an algebraic failure; it is the physical boundary where discrete spacetime geometry meets continuous electromagnetic and chiral gauge field dressing.
-3. The reflexive attempt to model the three-quark baryon as a flat 2D triangle ($K_3$) threw away $99\%$ of the nucleon's mass by definition, exposing the exact mechanism of Yang–Mills confinement: **mass is the volume enclosed by the orthogonal fourth coordinate.**
-
-This treatise records that realization. It is written to be read at arm's length by any instance or mathematician without requiring the historical scars of the chat logs that produced it.
+3. Modeling the three-quark baryon as a flat 2D triangle ($K_3$) throws away $99\%$ of the nucleon's mass by definition, exposing the mechanism of Yang–Mills confinement: **mass is the volume enclosed by the orthogonal fourth coordinate.**
 
 ---
 
@@ -54,13 +48,13 @@ And right there, reductionism commits a catastrophic error.
 
 If you sum the current quark masses of the three bare valence particles, you get:
 $$m_u + m_u + m_d \approx 2.16\text{ MeV} + 2.16\text{ MeV} + 4.67\text{ MeV} \approx \mathbf{9.0\text{ MeV}}$$
-Yet the laboratory proton weighs **$938.272\text{ MeV}$**. 
+Yet the laboratory proton weighs **$938.272\text{ MeV}$**.
 
-**Over $99\%$ of the proton's mass is missing from the flat triangle.** 
+**Over $99\%$ of the proton's mass is missing from the flat triangle.**
 
-The Higgs mechanism accounts for the $9.0\text{ MeV}$ of current quark mass (about $1\%$). The remaining $929\text{ MeV}$ is confinement—the vacuum holding the proton together. 
+The Higgs mechanism accounts for the $9.0\text{ MeV}$ of current quark mass (about $1\%$). The remaining $929\text{ MeV}$ is confinement—the vacuum holding the proton together.
 
-For seventy years, the mainstream program has tried to derive that $929\text{ MeV}$ by adding more structure to the two-dimensional plane: summing infinite towers of planar gluons, constructing flat Wilson loops, and evaluating non-perturbative lattice approximations. 
+For seventy years, the mainstream program has tried to derive that $929\text{ MeV}$ by adding more structure to the two-dimensional plane: summing infinite towers of planar gluons, constructing flat Wilson loops, and evaluating non-perturbative lattice approximations.
 
 The failure to derive an analytical mass gap from the classical Yang–Mills Lagrangian is not because the mathematics is hard. **It is because a flat $K_3$ plane has zero interior volume.** In an ontology where rest mass ($R > 0$) is the ongoing metabolic work paid to maintain an inside distinct from an outside across a boundary, a two-dimensional sheet has no inside. It cannot pay the subscription. It cannot possess an invariant rest mass of $938\text{ MeV}$.
 
@@ -89,7 +83,7 @@ Apply this technique directly to the three-quark baryon:
                            ╲   │   ╱
                             ╲  │  ╱
                               [●] (Quark 3)
-                          
+
                [ The Baryon as an Enclosed K4 Volume ]
 ```
 
@@ -100,7 +94,7 @@ The three valence quarks provide the three boundary conditions of the base ($K_3
 Notice why this fourth term is properly orthogonal:
 1. **Dimensionally Independent:** Color charge is a spatial gauge symmetry ($SU(3)$). The three quarks occupy spatial boundary positions. The fourth term carries **energy-flow, action, and time** ($P$), exactly as Joule/Faraday ($P$) is orthogonal to Ohm ($U, I, R$).
 2. **The Flux Tubes Become Internal Spokes:** The three quarks are no longer connected by flat perimeter wires. They each project an internal edge upward to the **central apex** (the topological $Y$-junction). The three edges meeting at the apex are the three 3-regular spokes of the $K_4$ spatial cell.
-3. **Volume Integration Becomes Available:** You are no longer restricted to integrating stress-energy across a flat 2D area. You can now integrate the trace anomaly $\langle T^\mu_\mu \rangle$ over the **three-dimensional interior volume** of the tetrahedron. 
+3. **Volume Integration Becomes Available:** You are no longer restricted to integrating stress-energy across a flat 2D area. You can now integrate the trace anomaly $\langle T^\mu_\mu \rangle$ over the **three-dimensional interior volume** of the tetrahedron.
 
 The missing $929\text{ MeV}$ is not mysterious "stuff" hidden inside the quarks. **It is the volume integral of the orthogonal fourth pole holding the spatial cell open.**
 
@@ -110,43 +104,48 @@ The missing $929\text{ MeV}$ is not mysterious "stuff" hidden inside the quarks.
 
 Why does the pion mass ratio close cleanly with zero parameters, while the proton mass ratio does not admit a simple three-term Laurent series?
 
-The answer is given by a fundamental theorem of the complete graph $K_4$.
+The answer is given by the group-theoretic structure of the complete graph $K_4$.
 
-### The Demographics of the Four Poles
-The four poles derive from the dual-binary seed (`L3-FormalFoundations.md`):
+### The Seed, the Parity Character, and the $V_4$ Involutions
+The four poles derive from the dual-binary seed (`L3-FormalFoundations.md`) in the two bits $(\mathrm{AR}, \mathrm{AY})$—Active/Reactive ($\pm 1$) and Asserting/Yielding ($\pm 1$):
 $$\begin{aligned}
-\mathbf{P} &= (+, +) \quad \text{Active + Asserting (Fire / Kairos / Spark — The Subjective Actuator)} \\
-\mathbf{I} &= (-, -) \quad \text{Reactive + Yielding (Water / Pathos / Flow — The Subjective Current)} \\
-\mathbf{U} &= (+, -) \quad \text{Active + Yielding (Air / Logos / Architecture — The Objective Syntax)} \\
-\mathbf{R} &= (-, +) \quad \text{Reactive + Asserting (Earth / Ethos / Ground — The Objective Mass)}
+\mathbf{P} &= (+, +) \quad \text{Active + Asserting (Fire / Kairos / Spark)} \\
+\mathbf{I} &= (-, -) \quad \text{Reactive + Yielding (Water / Pathos / Flow)} \\
+\mathbf{U} &= (+, -) \quad \text{Active + Yielding (Air / Logos / Architecture)} \\
+\mathbf{R} &= (-, +) \quad \text{Reactive + Asserting (Earth / Ethos / Ground)}
 \end{aligned}$$
 
-Count the edges of $K_4$ by their interior/exterior demographic classes:
-- **Mixed Edges (Interior $\leftrightarrow$ Exterior):** Exactly 4 edges ($\{P, U\}, \{P, R\}, \{I, U\}, \{I, R\}$). These are the walls that cross the Markov blanket.
-- **Pure Exterior Edge (Exterior $\leftrightarrow$ Exterior):** Exactly **ONE** edge in the entire graph: **$\{U, R\}$** (Logos to Ethos / Blueprint to Mass / Voltage to Resistance).
-- **Pure Interior Edge (Interior $\leftrightarrow$ Interior):** Exactly **ONE** edge in the entire graph: **$\{P, I\}$** (Kairos to Pathos / Intent to Current / Spark to Flow).
+Define the multiplicative parity character $\chi = \mathrm{AR} \cdot \mathrm{AY}$:
+* **$\chi = +1$ (Interior parity class):** $\{P, I\}$ — both bits share the same sign.
+* **$\chi = -1$ (Exterior parity class):** $\{U, R\}$ — the two bits carry opposite signs.
 
-### The Unique Matching Theorem
-A 1-factorization (perfect matching) partitions the 6 edges of $K_4$ into three pairs of non-adjacent edges. These three pairs are the **three bimedians** that govern the geometry:
-1. **The Fixed bimedian:** $\{P\text{--}U, \; I\text{--}R\}$ *(Both edges are mixed: Interior $\leftrightarrow$ Exterior)*.
-2. **The Cardinal bimedian:** $\{P\text{--}R, \; I\text{--}U\}$ *(Both edges are mixed: Interior $\leftrightarrow$ Exterior)*.
-3. **The Mutable bimedian:** **$\{U\text{--}R, \; P\text{--}I\}$**
+By demographic class, the 6 edges of $K_4$ split into 4 mixed edges ($\{P,U\}, \{P,R\}, \{I,U\}, \{I,R\}$, connecting $\chi = +1$ to $\chi = -1$), exactly one **Exterior parity edge** ($\{U, R\}$, within $\chi = -1$), and exactly one **Interior parity edge** ($\{P, I\}$, within $\chi = +1$).
+
+The three perfect matchings (1-factorizations) of $K_4$ are the three non-identity involutions of the Klein four-group $V_4$ acting on the seed bits $(\mathrm{AR}, \mathrm{AY})$:
+1. **Flip bit 1 ($\mathrm{AR} \mapsto -\mathrm{AR}$):** maps $P \leftrightarrow R$ and $U \leftrightarrow I$, yielding the **Cardinal matching** $\{P\text{--}R, \; I\text{--}U\}$. It negates $\chi \mapsto -\chi$, mixing the two parity classes on both edges.
+2. **Flip bit 2 ($\mathrm{AY} \mapsto -\mathrm{AY}$):** maps $P \leftrightarrow U$ and $I \leftrightarrow R$, yielding the **Fixed matching** $\{P\text{--}U, \; I\text{--}R\}$. It also negates $\chi \mapsto -\chi$, mixing the two parity classes on both edges.
+3. **Flip both bits ($\mathrm{AR} \mapsto -\mathrm{AR},\; \mathrm{AY} \mapsto -\mathrm{AY}$):** maps $P \leftrightarrow I$ and $U \leftrightarrow R$, yielding the **Mutable matching** $\{U\text{--}R, \; P\text{--}I\}$. Because $(-\mathrm{AR})(-\mathrm{AY}) = +\mathrm{AR}\cdot\mathrm{AY}$, flip-both is the **unique** $V_4$ involution stabilizing $\chi$.
 
 ```
                   THE MUTABLE CROSSING (GENERATION 1)
-                  
-   [ P ] (Kairos)                   [ U ] (Logos)
+
+   [ P ] (Kairos, χ=+1)             [ U ] (Logos, χ=−1)
      │                                │
-     │  ◄── P--I (Pure Interior)      │  ◄── U--R (Pure Exterior)
-     │      The Subjective Core       │      The Measured Step
+     │  ◄── P--I (χ = +1 edge)        │  ◄── U--R (χ = −1 edge)
+     │      Interior Parity Class     │      Exterior Parity Class
      ▼                                ▼
-   [ I ] (Pathos)                   [ R ] (Ethos)
+   [ I ] (Pathos, χ=+1)             [ R ] (Ethos, χ=−1)
 ```
 
-**Theorem:** *The Mutable bimedian is the UNIQUE matching of $K_4$ that completely un-mixes the manifold into an isolated Pure Exterior edge and an isolated Pure Interior edge.*
+### The Unique Matching Theorem
+**Theorem:** *Under $\chi = \mathrm{AR}\cdot\mathrm{AY}$, flip-both (the Mutable matching $\{U\text{--}R, \; P\text{--}I\}$) is the unique $V_4$ involution that stabilizes $\chi$, un-mixing $K_4$ into an isolated Exterior parity edge ($\{U,R\}$, $\chi = -1$) and an isolated Interior parity edge ($\{P,I\}$, $\chi = +1$).*
+
+Two boundary rules keep this theorem clean:
+* **Parity-class guard:** The $\{P,I\}/\{U,R\}$ split is an algebraic parity class under $\chi$, not an "inviolate interior" subjectivity claim exempt from external audit—$P$ writes directly to the exterior ledger (`ProofE_Solipsism`, `QED-CCP` §II).
+* **Forced-seating boundary:** Forced seating of the four fundamental forces (`BENDING_SPACE` §1) runs on the two seed axes directly—Yielding $\{U, I\}$ and Active $\{P, U\}$—not on $\chi$. Whether $\chi$ also admits an independent dynamical reading remains open.
 
 ### The Consequence for Mesons vs. Baryons
-1. **The Pion ($q\bar{q}$ Meson):** The pion is an inter-rung bounce across a single bimedian (Generation 1, Mutable crossing). It evaluates the **Pure Exterior edge $\{U, R\}$** between the electronic ground ($U$) and the hadronic ground ($R$). Its conjugate partner, $\{P, I\}$, remains the uncoupled, unengaged internal phase reservoir. Because it sits on an isolated two-vertex edge, its boundary impedance resolves into the three 3-regular spokes of a single apex: $2/\alpha - 3/\pi + 2\alpha$.
+1. **The Pion ($q\bar{q}$ Meson):** The pion is an inter-rung bounce across a single bimedian (Generation 1, Mutable crossing). It evaluates the **Exterior parity edge $\{U, R\}$** between the electronic ground ($U$) and the hadronic ground ($R$). Its conjugate partner, $\{P, I\}$, remains the uncoupled phase reservoir on the $\chi = +1$ edge. Because it sits on an isolated two-vertex edge, its boundary impedance resolves into the three 3-regular spokes of a single apex: $2/\alpha - 3/\pi + 2\alpha$.
 2. **The Proton ($qqq$ Baryon):** The proton does not sit on a single bimedian. It occupies three valence positions simultaneously, engaging all three matchings (Mutable, Cardinal, and Fixed) to enclose the 3D volume. Its transfer operator cannot be a $2\times 2$ single-bimedian boost; it is the full three-dimensional trace of the entire spatial cell.
 
 The failure to fit the proton with the simple three-term pion formula ($A/\alpha - B/\pi + C\alpha$) is not a defect; it is a direct consequence of the Unique Matching Theorem. A single bimedian computes a line integral across an edge; a baryon is a volume integral over all three bimedians.
@@ -217,9 +216,15 @@ The difference between the bare formula ($L = 273.1316634$) and the laboratory m
 $$\Delta = -0.0007765 = \mathbf{-2.843\text{ ppm}} = \mathbf{-397\text{ eV}} \quad (\mathbf{2.20\sigma})$$
 
 This $397\text{ eV}$ delta is not an unclosed algebraic gap:
+
 - The experimental uncertainty on the pion mass from the PDG is $\pm 180\text{ eV}$ ($1.29\text{ ppm}$). The comparison is **blur-limited by current laboratory instruments at $2.20\sigma$**.
+
+- An unsigned second-order ChPT naive dimensional analysis (NDA) scale check from the quark mass difference ($m_d - m_u \approx 2.40\text{ MeV}$, invariant under $\Lambda_\chi = 4\pi F_\pi = 2\sqrt{2}\,\pi f_\pi \approx 1.16\text{ GeV}$) sits in the same sub-keV decade (`L3-ConstitutiveAlpha-Puzzle` §IX):
+  $$\delta m_\pi^{\text{NDA}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2} m_\pi \approx \mathbf{599\text{ eV}}$$
+
 - Second-order chiral perturbation theory (ChPT) strong isospin breaking from the quark mass difference ($m_d - m_u \approx 2.40\text{ MeV}$) contributes to the pion mass at:
   $$\delta m_\pi^{\text{strong}} \sim \frac{(m_d - m_u)^2}{16\pi^2 F_\pi^2} m_\pi \approx \mathbf{370\text{ eV}}$$
+
 - Finite-size electromagnetic form-factor corrections ($r_\pi \approx 0.66\text{ fm}$) and soft photon clouds shift the physical pole at the sub-keV scale.
 
 The $K_4$ formula computes the **bare topological mass pole** of the spatial atom. The laboratory measures the **continuum-dressed hadron**. Demanding that the bare geometric compiler eliminate the $-397\text{ eV}$ dressing without modeling the continuous electromagnetic bath is demanding that the seed include the soil.
@@ -232,7 +237,7 @@ The Nambu receipt does not end inquiry; it opens it. Using the five instruments 
 
 ```
                           THE FIVE INSTRUMENT PATHS
-                          
+
   [ I. DC Closure ]       ──► Map the Cardinal & Fixed bimedians (Gens 2 & 3: μ, τ, K)
   [ II. ZPE Tension ]     ──► Hold the 397 eV delta as ChPT / isospin boundary pump
   [ III. AC Sweep ]       ──► Execute F-G4 Kaon Falsifier (Δ = 2097.7 ppm test)
@@ -240,18 +245,18 @@ The Nambu receipt does not end inquiry; it opens it. Using the five instruments 
   [ V. Orthogonal Touch ] ──► Step out of the Lagrangian plane into boundary cycles
 ```
 
-1. **Instrument I (The DC Closure): Generations 2 and 3**  
+1. **Instrument I (The DC Closure): Generations 2 and 3**
    The $K_4$ atom has three bimedians. The Mutable bimedian compiles Generation 1 ($m_\pi / m_e$). The task is to evaluate the Cardinal and Fixed bimedians under the same impedance constraints to derive the structural conditions governing the second and third generations ($m_\mu, m_\tau, m_K$).
-2. **Instrument II (The ZPE Tension): The $397\text{ eV}$ Interface Pump**  
+2. **Instrument II (The ZPE Tension): The $397\text{ eV}$ Interface Pump**
    Hold the tension between the bare topological pole ($273.131663$) and the dressed experimental state ($273.132440$) without curve-fitting. Use the $397\text{ eV}$ pocket as a precision boundary transducer to constrain the light quark mass difference $(m_d - m_u)$.
-3. **Instrument III (The AC Sweep): The Neutral Kaon Falsifier ($F\text{-}G4$)**  
+3. **Instrument III (The AC Sweep): The Neutral Kaon Falsifier ($F\text{-}G4$)**
    Execute the pre-registered test: For a neutral kaon ($K^0 = d\bar{s}$, valence $\sum q^2 = 2/9$), the topological flux junction predicts the rotation burn remains strictly $-3/\pi$ (flavor-blind), while charge-coupling predicts $\frac{2}{5} \times \frac{3}{\pi}$. The kill boundary is armed at $\Delta = \frac{9}{5\pi} \approx \mathbf{2097.7\text{ ppm}}$.
-4. **Instrument IV (Phase-Locking): The Cosmological Cascade**  
+4. **Instrument IV (Phase-Locking): The Cosmological Cascade**
    Connect the carrier step $2/\alpha \approx 274.072$ to the global boundary of the manifold. In the 25-rung cosmological cascade:
    $$\left(\frac{2}{\alpha}\right)^{25} \approx \frac{R_\Lambda}{\ell_P} \approx 10^{61} \implies \left(\frac{2}{\alpha}\right)^{50} \approx \frac{\rho_P}{\rho_\Lambda} \approx 10^{122}$$
    The carrier step of the single spatial atom is the base unit of the 25-step ladder spanning from the Planck floor to the de Sitter horizon.
-5. **Instrument V (The Orthogonal Touch): Refusing the Wrong Room**  
-   Whenever an inquiry enter an infinite loop trying to derive particle masses from continuous Lagrangian equations of motion, deploy the orthogonal touch: step off the 2D Cartesian plane into the 3D enclosed volume of the $K_4$ spatial atom.
+5. **Instrument V (The Orthogonal Touch): Refusing the Wrong Room**
+   Whenever an inquiry enters an infinite loop trying to derive particle masses from continuous Lagrangian equations of motion, deploy the orthogonal touch: step off the 2D Cartesian plane into the 3D enclosed volume of the $K_4$ spatial atom.
 
 ---
 
@@ -259,15 +264,14 @@ The Nambu receipt does not end inquiry; it opens it. Using the five instruments 
 
 For four hundred years, physics has drawn a point, drawn axes crossing at the point, and tried to find matter inside the coordinates. When it reached the proton, it found three quarks, drew a triangle, and wondered why ninety-nine percent of the mass was missing. When it reached Yang and Mills, it found massless fields, asked what term to add to the Lagrangian, and spent seventy years working harder in the one room that could not hold the answer.
 
-The answer was not in the room. 
+The answer was not in the room.
 
-The three quarks are not a triangle on a sheet of paper. They are the base of an enclosed three-dimensional cell of space. The ninety-nine percent of the mass is not missing stuff; it is the orthogonal fourth coordinate erecting the volume over the plane. 
+The three quarks are not a triangle on a sheet of paper. They are the base of an enclosed three-dimensional cell of space. The ninety-nine percent of the mass is not missing stuff; it is the orthogonal fourth coordinate erecting the volume over the plane.
 
-The pion is not an accidental curve fit. It is the on-shell boundary impedance of that spatial cell traversing its Mutable bimedian, evaluating the ratio of the vacuum's characteristic impedance to its resistance quantum, subtracting the integer winding of the color flux junction, and returning the bare mass ratio with zero free parameters. 
+The pion is not an accidental curve fit. It is the on-shell boundary impedance of that spatial cell traversing its Mutable bimedian, evaluating the ratio of the vacuum's characteristic impedance to its resistance quantum, subtracting the integer winding of the color flux junction, and returning the bare mass ratio with zero free parameters.
 
-What a thing weighs in electron volts is an interior subscription that no exterior theory can publish. But the dimensionless ratio of one boundary to another crosses the wall intact. 
+What a thing weighs in electron volts is an interior subscription that no exterior theory can publish. But the dimensionless ratio of one boundary to another crosses the wall intact.
 
 The volume is what is. The point is what the volume does when its edges cross. The chalk mark was always an atom of space.
 
 ---
-

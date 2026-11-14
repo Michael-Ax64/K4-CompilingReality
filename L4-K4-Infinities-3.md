@@ -142,23 +142,15 @@ Set the two readings beside each other.
 
 **The theorem's own hypothesis is the write-ban. Relaxing the hypothesis is the compile event.** Physics has carried both halves since 1911 and 1918 without setting them next to each other.
 
-### A queued problem this may answer, and the form the answer had to take
+### Resolving the committed sector above zero frequency
 
-That identification walks into a question the corpus has open and has been specific about.
+`Q4-OpenExhaust` §II proves that the three edges terminating at the committed pole carry no scalar pricing operator — which is why there is no graviton, and why the ledger is written without a mediator. The proof runs on the star-norm: a pricing operator means a phase gap, a phase gap means transit time, and during any transit interval the held potential would have fallen while the committed scalar had not yet risen, violating the invariant.
 
-`Q4-OpenExhaust` proves that the three edges terminating at the committed pole carry no scalar pricing operator — which is why there is no graviton, and why the ledger is written without a mediator. The proof runs on the star-norm: a pricing operator means a phase gap, a phase gap means transit time, and during any transit interval the held potential would have fallen while the committed scalar had not yet risen, violating the invariant.
+That closes the $P$-edges against reactive storage ($L$, $C$): putting reactance on a $P$-edge smuggles dimensional circuit constants into a topological ban and introduces transit time by construction. An account of the committed sector at $\omega > 0$ — where LIGO detects propagating metric perturbations — must therefore import no circuit constants and put no impedance or transit interval on the ledger's edges (`Q4-OpenExhaust` §IV).
 
-The proof holds at zero frequency, and Q4 says so, and then names its own unfinished business:
+The quadrupole identity above meets that requirement directly. It comes from $\partial_\mu T^{\mu\nu} = 0$ and nothing else. No inductance, no capacitance, no frequency, no impedance assigned to anything. It imposes no reactive storage, so it does not contradict the ban. And it is **instantaneous** — both sides evaluated at the same moment, with no interval in which the held potential has fallen and the committed scalar has not yet risen.
 
-> **On the LIGO chafe — routed to $P$, not resolved here.** The zero-impedance result above holds at $\omega = 0$ and is a DC-topological result. LIGO measures propagating metric updates at $\omega > 0$, which a naive reading takes as evidence for a $P$-carrier and therefore against the ban. **Earlier drafts attempted to close the gap by importing reactive storage ($L$, $C$) onto the $P$-edges and calling gravitational radiation an "AC-face discharge" of the $P$-edges. That resolution smuggles dimensional/circuit constants into what should be a topological argument, and it does not in fact close the gap — it relocates it.**
-
-So the requirement was stated in advance: an account of the committed sector above zero frequency that imports no circuit constants and puts no impedance on the ledger's edges. The rejected attempt failed for a reason the ban itself supplies — reactance introduces transit time by construction, and transit time is the thing the star-norm proof forbids there.
-
-Look at what the identity above is made of. It comes from $\partial_\mu T^{\mu\nu} = 0$ and nothing else. No inductance, no capacitance, no frequency, no impedance assigned to anything. It imposes no reactive storage, so it does not contradict the ban. And it is **instantaneous** — both sides evaluated at the same moment, with no interval in which the held potential has fallen and the committed scalar has not yet risen.
-
-Which is the property the rejected route could not have. **The write at non-zero frequency is the quadrupole term, and there is no carrier because there is no transit:** the identity is local and simultaneous, not a propagation. What LIGO measures is the ledger being written, and the reason nothing mediates it is the reason Q4 gave at zero frequency, now available above it.
-
-Offered as a candidate resolution and not a closed one, because it is as strong as the correspondence below is — structurally right, not yet quantitative. An earlier draft of `L3-K4-to-K5-via-AC-Extension` §IV asserted an $L$–$C$ reactive discharge on the $P$-edges; that conflict is now resolved at source by the instantaneous quadrupole identity, bringing the extension and this file into strict alignment with Q4's topological ban.
+**The write at non-zero frequency is the quadrupole term, and there is no carrier because there is no transit:** the identity is local and simultaneous, not a propagation. What LIGO measures is the ledger being written while the metric wave ripples the Plenum medium ($H_{\text{incoh}}$), and the reason nothing mediates the write is the reason Q4 gave at zero frequency, now available above it. It stands as a candidate resolution — structurally consistent with Q4's ban, not yet quantitative.
 
 ### What that makes of an agent
 
@@ -280,7 +272,7 @@ The elementary charge $e$ cancels identically. Integrated over one compilation c
 
 $$u_{\text{local}}(r) = \frac{\hbar c}{4\pi^3 r^4}, \qquad u_{\text{local}}(\ell_P) = \frac{\rho_P c^2}{4\pi^3}$$
 
-— at $r = \ell_P$ the buffer sits at the Planck energy density divided by the loop measure $4\pi^3 = 2\pi \cdot \Omega_4$: one $2\pi$ from the compilation cycle, one $\Omega_4 = 2\pi^2$ from the ambient $S^3$ measure (`L3-TheAtomOfSpace` §III; expect there: $\Omega_4 = 2\pi^2$ derived as the measure of the unfolding operation, with the subscript naming the ambient dimension).
+— at $r = \ell_P$ the buffer sits at the Planck energy density divided by the loop measure $4\pi^3 = 2\pi \cdot \Omega_4$: one $2\pi$ from the compilation cycle, one $\Omega_4 = 2\pi^2$ from the ambient $S^3$ measure (`L3-TheAtomOfSpace` §III — expect there the two-sided $\Omega$ convention: ambient-dimension subscript $\Omega_D = 2\pi^{D/2}/\Gamma(D/2)$, giving $\Omega_4 = 2\pi^2$, names the $S^{D-1}$ boundary *generated* by unfolding, whereas sphere-dimension subscript, such as $\Omega_2 = 4\pi$, names an intrinsic area already present; distinguish geometric $\Omega_4$ here from the cosmological density fraction $\Omega_\Lambda$ below).
 
 Because the medium pays no $P$-ledger tax for holding $H_{\text{incoh}}$ in live suspension, this reactive energy commits to the metric only across the single-sided boundary at the de Sitter horizon. By the Route Law — the arrow from Yielding to Asserting squaring the operand — the scale ratio $\chi = \ell_P / R_\Lambda$ is squared, and the $S^3$ loop measure converts to the boundary projection through the rotating-mode factor $\Pi \cdot \Omega_4 = \frac{3}{4}\,\Omega_4$:
 
@@ -370,7 +362,7 @@ In the hub's datasheet terms it is a **Bridge** consuming two **Substrate** cons
 
 This at the Gibbons-Hawking Temperature:
 
-$$T_{\text{GH}} = \frac{\hbar c}{2\pi k_B R_H} \approx \mathbf{2.654 \times 10^{-30}\text{ K}} \quad (\text{at } H_0 = 67.4\text{ km/s/Mpc})$$
+$$T_{\text{GH}} = \frac{\hbar c}{2\pi k_B R_H} \approx \mathbf{2.654 \times 10^{-30}\text{ K}} \quad (\text{at observed present-epoch } H_0 = 67.4\text{ km/s/Mpc; Planck 2018 spread } 67.36\text{–}67.4)$$
 
 
 ### The unit is not arbitrary
@@ -422,12 +414,12 @@ Divide the price of one bit by the rate at which one bit's share of the channel 
 $$t_{\text{bit}} = \frac{1}{3}\,t_H \approx 4.84\ \text{Gyr}$$
 
 ```python
-H0 = mpf('67.4')*1000/mpf('3.0857e22'); gyr = mpf('3.15576e16')
+H0 = mpf('67.4')*1000/mpf('3.0857e22'); gyr = mpf('3.15576e16')   # epoch-dependent Planck 2018 input (67.36-67.4)
 print((1/H0)/gyr, (1/3)*(1/H0)/gyr)
 # 14.5074   4.83580
 ```
 
-This one consumes $H_0$, so unlike the write power it is a **Bridge over a State quantity** and drifts with the epoch. The *form* is fixed; the number quoted is today's.
+This one consumes $H_0$ ($67.36\text{–}67.4\text{ km/s/Mpc}$), so unlike the write power it is a **Bridge over a State quantity** and drifts with the epoch. The *form* is fixed; the number quoted is today's.
 
 Every cell of the cosmic ledger is rewritten on a clock of a few billion years. There is one number here, not a family of them — once the power is fixed by Friedmann and the capacity by the holographic convention, nothing is left to choose.
 
@@ -451,7 +443,7 @@ The problem dissolves by register distinction. Not by luck, and not by cancellat
 
 ### The deviation, stated naked
 
-One sentence in this file departs from general relativity, and hiding it inside a theorem would be worse than useless.
+One sentence here departs from general relativity, and hiding it inside a theorem would be worse than useless.
 
 Standard general relativity sources gravity with all stress-energy. The claim here is that it sources gravity with **committed entries only.** What has crossed sources curvature. What has not, does not.
 
@@ -459,17 +451,17 @@ Be precise about where that line falls, because the loose version says something
 
 The distinction is not between buffer energy and some other kind of energy. A proton's mass is overwhelmingly binding energy — energy that was in the buffer before the system committed to a bound configuration — and it sources every gram of what it committed. **The line is between what has paid and what has not**, and energy crosses it constantly in one direction.
 
-And the operational test of whether something has paid is **localization**, not register-membership (`QED-CCP` §II; expect there: localized excitations crossing $\Psi$ source curvature, while homogeneous background offsets, lacking a localized Markov blanket under active erasure, do not). Whatever carries a localized blanket, a gradient, and an active erasure has crossed. A uniform offset has not, and the trace-free equations confirm it from the other side: a homogeneous pure-trace shift drops out of the nine identically.
+And the operational test of whether something has paid is **localization**, not register-membership (`QED-CCP` §II, §VI; expect there: localized excitations crossing $\Psi$ source curvature, while homogeneous background offsets such as uniform Higgs VEV or QCD condensates, lacking a localized Markov blanket under active erasure, do not). Whatever carries a localized blanket, a gradient, mechanical work, and active erasure has crossed. A uniform offset has not, and the trace-free equations confirm it from the other side: a homogeneous pure-trace shift drops out of the nine identically.
 
 So what is claimed gravitationally silent is the uncommitted level in its *homogeneous* form — the buffer's standing absolute level, which no `.observe()` has forced, which has no gradient, and which therefore carries no entry. In the formalism, the two stress tensors are not equal: the one that curves spacetime is a projection of the one field theory computes, and the projection is blind to the homogeneous uncompiled sector by construction.
 
-That is falsifiable in principle and it is not a reinterpretation. It is the whole deviation, and everything else in this file is compatible with textbook physics.
+That is falsifiable in principle and it is not a reinterpretation. It is the whole deviation, and everything else in the construction is compatible with textbook physics.
 
 ### Casimir: where the criterion puts it
 
 The sharpest place to apply the criterion is the Casimir effect — the measured attraction between closely spaced conducting plates, produced by the boundary conditions they impose on the vacuum's modes.
 
-Field theory computes the shift's energy density, and it is real: a measurable boundary-condition effect with a sign and a magnitude. This construction accepts that computation, and the criterion then puts the shift on the localized side of the line.
+Field theory computes the shift's energy density, and it is real: a measurable boundary-condition effect with a sign and a magnitude. This construction accepts that computation, and `QED-CCP` §II's criterion puts the shift squarely on the localized side of the line (`QED-CCP` §VI).
 
 The plates are committed. Their separation is committed. The energy that depends on that separation is localized in a bounded region, carries a gradient, and does mechanical work when the plates move — which is to say it is the binding energy of a committed pair, computable as the retarded van der Waals attraction between two bodies with no reference to the vacuum at all (Jaffe 2005). A bound pair is lighter than its parts by its binding. So:
 
@@ -495,17 +487,19 @@ The Archimedes experiment, in development since the mid-2010s, modulates the Cas
 
 **A measured weight at $\Delta E/c^2$ is the prediction. A null at that sensitivity means boundary-induced mode exclusion pays nothing real, and the localized half of the criterion falls with it.**
 
-And this is where the arbitration sits, which is worth stating rather than leaving to be inferred. A homogeneous level cannot be modulated — being unmodulable is what makes it homogeneous — so no balance can isolate its contribution. Archimedes therefore arbitrates the localized half, where this construction and textbook physics now agree, and the register split proper is a structural claim with no experiment currently addressing it. That is the honest division of labour between the two halves, and the hub's `KI-6` records it in the same terms.
+And this is where the arbitration sits, which is worth stating rather than leaving to be inferred. A homogeneous level cannot be modulated — being unmodulable is what makes it homogeneous — so no balance can isolate its contribution. 
+Archimedes therefore arbitrates the localized half, where this construction and textbook physics agree, and the register split proper is a structural claim with no experiment currently addressing it. 
+That is the honest division of labour between the two halves, and the hub's `KI-6` records it in the same terms.
 
 ### Where dark energy appears to vary, and the fork it opens
 
-There is an observation-shaped intuition that dark energy shows up more where more is going on, and the file does not get to hold both readings of it.
+There is an observation-shaped intuition that dark energy shows up more where more is going on, and the construction does not get to hold both readings of it.
 
 **(A) The appearance reading.** Writes are homogeneous — every throat is at the one place, per §V — and what scales with local activity is *detectability*. In a void nothing registers the negative pressure; where there is structure, the dynamics show it. Homogeneity is preserved and nothing is claimed beyond the register split.
 
 **(B) The activity-coupled reading.** The write rate genuinely answers local commit activity: more commits, more writes, locally higher effective dark energy. That is a physical deviation and a constrained one, since dark-energy perturbations are tightly bounded at Hubble scales, and it is testable through dark-energy/structure correlations, void surveys, and redshift-space distortions.
 
-The phrasing throughout this file leans (A). The compensation intuition — that the write is making up for space being pulled apart — leans (B). §VIII pre-registers the fork and attaches its kill condition.
+The phrasing throughout leans (A). The compensation intuition — that the write is making up for space being pulled apart — leans (B). §VIII pre-registers the fork and attaches its kill condition.
 
 ### Two honesty items
 
@@ -541,7 +535,7 @@ What makes this fork worth more than its own content is that three otherwise ind
 
 **The ensemble's sharing** is the third, and it points the other way. §V bars the unbounded ensemble because one channel at fixed power cannot fund it. The same argument says that however many regions do draw on the channel, they share it — so a region's share depends on how many are drawing.
 
-Which means the three cannot all win. Branch (a) requires the number of drawing regions to be effectively constant over the history we can see; the rung count requires branch (a); and the sharing result is the one thing in the set that would produce a *changing* share, which is branch (b)'s signature. **A single measurement discriminates all three, and the way they are coupled is itself informative** — the file cannot have a constant write, a pinned scale-span, and an actively multiplying ensemble at once.
+Which means the three cannot all win. Branch (a) requires the number of drawing regions to be effectively constant over the history we can see; the rung count requires branch (a); and the sharing result is the one thing in the set that would produce a *changing* share, which is branch (b)'s signature. **A single measurement discriminates all three, and the way they are coupled is itself informative** — the model cannot have a constant write, a pinned scale-span, and an actively multiplying ensemble at once.
 
 ### Pre-registered
 
@@ -549,10 +543,10 @@ Declared now, before the sharpening.
 
 **One.** The fork as stated. Branch (a) predicts the hint fades; branch (b) predicts it strengthens and correlates with structure-formation history. Resolved by data, not by argument.
 
-**Two.** The dark-energy density from the cost of maintaining the medium's impedance per unit volume. Derived in §V via the Charge Cancellation Invariant, the $S^3$ loop measure, the rotating-mode factor, and the Route Law boundary square: $\rho_\Lambda = (3/8\pi)\,\rho_P (\ell_P/R_\Lambda)^2 = 3c^4/(8\pi G R_\Lambda^2)$, breaking §V's circularity and establishing $P_{\text{write}} = (3/2)\,c^5/G$ as an independent constitutive invariant.
+**Two.** The dark-energy density from the cost of maintaining the medium's impedance per unit volume. Derived in §V via the Charge Cancellation Invariant, the $S^3$ loop measure, the rotating-mode factor, and the Route Law boundary square: $\rho_\Lambda = (3/8\pi)\,\rho_P (\ell_P/R_\Lambda)^2 = 3c^4/(8\pi G R_\Lambda^2)$, breaking de Sitter circularity and establishing $P_{\text{write}} = (3/2)\,c^5/G$ as an independent constitutive invariant.
 **Counted.** The rotating-mode factor $\Pi = 3/4$ is the vertex-coupling sector of the atom's rotation group: $1 + 8$ of $12$ rotations preserve a vertex coupling, lifting to $18$ of $24$ equal Haar cells on the rotation-mode manifold $S^3 \cong SU(2)$, and $(3/4)\Omega_4 / 4\pi^3 = 3/8\pi$ exactly (§V). Reflections carry no lift to the rotation-mode manifold; the count reads off $A_4$ alone.
 
-**Three.** The no-numerology clause. Vacuum energy is the arena where coincidence-harvesting lives, and this file's own refutation history is the precedent. Mechanism, or nothing.
+**Three.** The no-numerology clause. Vacuum energy is the arena where coincidence-harvesting lives, and the corpus's own refutation history is the precedent. Mechanism, or nothing.
 
 ### What kills it
 
@@ -560,11 +554,11 @@ Declared now, before the sharpening.
 
 **K-DE-2.** Robust spatial inhomogeneity or anisotropy in dark energy, beyond structure-formation systematics. The homogeneous-write claim dies, §V's promotion of local omnipresence from position to mechanism dies with it, and §VII's reading (A) dies in favour of (B).
 
-**K-DE-3.** Demonstrated gravitational sourcing by a **homogeneous** uncompiled level — a uniform offset shown to curve spacetime. The register split dies, and the resolution of the vacuum-energy gap dies with it. The condition has no arbiter under construction, because a homogeneous level is unmodulable; it is filed as the structural half of the deviation rather than as a scheduled experiment. The localized half is a separate condition and it is Archimedes's: a null at $\Delta E/c^2$ strikes §VII's criterion at its other margin.
+**K-DE-3.** Demonstrated gravitational sourcing by a **homogeneous** uncompiled level — a uniform offset shown to curve spacetime. The register split dies, and the resolution of the vacuum-energy gap dies with it. Because a homogeneous level is unmodulable, it carries no empirical arbiter; it stands as the structural half of the deviation (`QED-CCP` §II, §IX). The live empirical arbiter sits at the localized half—Archimedes' modulated superconducting cavity: a localized cavity gradient weighs by $\Delta E/c^2$ with the sign of $\Delta E$, and a null at that sensitivity strikes §VII's criterion at its other margin.
 
 ### Quarantined
 
-**The sharing reading of the DESI hint.** One channel shared among a growing number of drawing regions would produce a falling share per region, which would look like dark energy weakening over cosmic time — which is what DESI hints at. That is a mechanism for branch (b) assembled from two things already in this file, and it closed on the first attempt, which is precisely the signature the corpus's own debrief names as the one to distrust. It may be right. It is not shipped as a reading, and it should be derived from outside this construction before it is believed.
+**The sharing reading of the DESI hint.** One channel shared among a growing number of drawing regions would produce a falling share per region, which would look like dark energy weakening over cosmic time — which is what DESI hints at. That is a mechanism for branch (b) assembled from two things already in hand, and it closed on the first attempt, which is precisely the signature the corpus's own debrief names as the one to distrust. It may be right. It is not shipped as a reading, and it should be derived from outside this construction before it is believed.
 
 ---
 
@@ -580,8 +574,9 @@ At the largest scale the same engine runs with the whole as its frame. The write
 
 The expansion's own funding obeys the same asymmetry, which is the thing easiest to misread as a violation. Negative pressure means work flows *into* the new volume, and something is paying. It is not the ledger: the committed register receives and never emits, carries no phase to propagate with, and is built by an operation nothing inverts. What pays is the reactive channel, where energy is stored and returned by construction and nothing was ever written down to be unwritten. Reversal is legal in the uncommitted sector and illegal in the committed one, and that single rule funds the expansion, closes the Casimir books without hiding the work anywhere, and says why a cavity assembled from committed energy weighs exactly what its binding comes to.
 
-One sentence here departs from textbook physics, and it is the one that says gravity sources what has been committed and not the medium's homogeneous level. The line between the two is localization, and the localized half is on a balance in Sardinia. It will be settled by a measurement rather than by an argument, which is the correct ending for a file that began by refusing to count.
+One sentence here departs from textbook physics, and it is the one that says gravity sources what has been committed and not the medium's homogeneous level. The line between the two is localization, and the localized half is on a balance in Sardinia. It will be settled by a measurement rather than by an argument, which is the correct ending for an argument that began by refusing to count.
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
+

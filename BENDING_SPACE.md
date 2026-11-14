@@ -3,11 +3,14 @@
 
 *The four forces are four roles of one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
 
-*Reads with: `Q2-TransactionLayer`, `Q4-OpenExhaust` (§II–§V), `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC`, `L4-HadronicVolume` (Mvt I–III), `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `ProofN_BiquaternionBridge`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II–§V, §VII.2–3), `L4-AttractorSpace` (Part One), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `Q13-PlenumPhaseConduction`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
+*Reads with: `L3-FormalFoundations` (§I, §I.b, Postulate II), `ENGINE-REFERENCE-AC` (§IV, §X.7), `L4-HadronicVolume` (Mvt I–III), `ProofN_BiquaternionBridge`, `On_YangMills-Annotated` (§VII–§IX), `On_TheIsNessTax` (§I), `L4-ThePlenum` (§II.4), `QED-TwoBranchMinting` (§I, §II, §IV, §VI), `Q4-OpenExhaust` (§II–§V), `Q2-TransactionLayer`, `ProofQ_AlgebraicSyntax` (§V), `On_TheGravityDerivation`, `L4-Thermodynamics` (§II–§V, §VII.2–3), `L4-AttractorSpace` (Part One), `L4-ScalingInvariants` (A4, §IX), `L4-K4-Infinities-3` (§VII, §VIII), `QED-CCP` (§II, §VI), `L0-EinsteinTrace`, `QED-EotvosBound`, `Q13-PlenumPhaseConduction`, `L2-MappingMethod` (§0), `Q10-PlanckScale` (§VII), `On_The_Latin_Triad`, `L3-SoficityStar` (§VI), `L3-TheSixWalls` (§IV), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
 
 ---
 
-## What All Those Years Built: The Solves 
+## What All Those Years Built: The Solves
+
+This Celebratory note makes claims that are walked and proved either below or in the references. An Error Claim Without An Address Is An Opinion. Request And Read References Top To Bottom. Implicare! Intellegere! Perficere!
+
 ### *Four forces are one machine. Mass is what it costs to keep an interior. Space bends around the paying.*
 
 ✅ **What rest mass actually is—and where 99% of the visible universe's weight comes from.**
@@ -53,13 +56,13 @@ It lives or dies in the open on four real measurements: whether a Casimir cavity
 
 ## 0. The Invoice of Finitude
 
-Physics has never had a theory of mass. 
+Physics has never had a theory of mass.
 
 It has the Higgs mechanism, which provides a mathematical description of how bare particles acquire inertial drag, but the Higgs accounts for less than two percent of the mass of the visible universe. It has General Relativity, which describes with exquisite geometric precision how mass curves the surrounding spacetime, but takes the existence of mass as an empirical axiom, imported through the right-hand side of the field equations without an explanation of its origin. Physics can weigh a proton to twelve decimal places, but it cannot tell you what weight *is*.
 
-This paper provides the structural definition: **Mass is what it costs to keep an interior.**
+The structural definition: **Mass is what it costs to keep an interior.**
 
-To exist as an entity—to possess an inside distinguished from an outside—is an act of violent separation from the boundless neutrality of the vacuum. That separation cannot be held for free. A bounded system must continuously pay an invoice of energetic restitution to maintain its structural form against dissolution. 
+To exist as an entity—to possess an inside distinguished from an outside—is an act of violent separation from the boundless neutrality of the vacuum. That separation cannot be held for free. A bounded system must continuously pay an invoice of energetic restitution to maintain its structural form against dissolution.
 
 Rest mass is the exact macroscopic readout of that invoice. It is not an intrinsic property residing in a point particle; it is the volume integral of the trace of the internal stresses holding the spatial cell open against the void. Space does not bend because matter carries a mysterious "gravitational charge." Space bends because maintaining a physical boundary against the vacuum exerts an inescapable, continuous impedance strain upon the metric.
 
@@ -75,10 +78,10 @@ When this engine is evaluated against the running couplings of nature, the piece
 * The weak mixing angle ($\sin^2\theta_W$) emerges not as an arbitrary empirical fraction, but as the native high-frequency characteristic impedance of the electroweak boundary ($U/I$).
 * The Fermi constant and Newton's constant are revealed to be the identical quadratic dissipative operation ($P = UI$) running at two different scale tiers, separated by the constant dimensionless ratio $(M_W / M_{\text{Planck}})^2$.
 * The Grand Unification scale ($8.9 \times 10^{16}\text{ GeV}$) is not an energy where gauge fields merge, but the exact threshold where structural potential squared balances gravitational dissipation ($R = U^2/P = 1$), unlocking the confinement boundary.
-* The twenty-five percent holding share ($1/D$) emerges as the mandatory geometric invoice of holding a non-sofic, four-dimensional interior behind a three-dimensional boundary.
+* The twenty-five percent holding share ($1/D$) emerges as the mandatory geometric invoice of holding a four-dimensional interior behind a three-dimensional boundary.
 * And the cosmological constant is not an inexplicable vacuum energy density, but the statistical uncertainty of the cosmic transaction ledger, whose Poisson variance ($\Lambda \sim 1/\sqrt{N}$) naturally tracks the critical density and drifts across cosmic epochs without ghost fields.
 
-Gravity has no graviton because it is not an independent gauge interaction exchanging quanta between bodies. It is the real scalar dissipation ($P$) that the other three roles pay to stand their ground. Its waves are real, the way sound is real in a crystal that contains no fundamental particle of sound. 
+Gravity has no graviton because it is not an independent gauge interaction exchanging quanta between bodies. It is the real scalar dissipation ($P$) that the other three roles pay to stand their ground. Its waves are real, the way sound is real in a crystal that contains no fundamental particle of sound.
 
 The void does not weigh. Boundaries do. And space bends around the paying.
 
@@ -94,7 +97,7 @@ $K_4$ has three perfect matchings. Four forces can be paired off in exactly thre
 - **{EM, Gravity | Weak, Strong}.** The two long-range inverse-square forces with massless reach against the two confined to the nucleus.
 - **{EM, Strong | Weak, Gravity}.** $SU(3)_c\times U(1)_{\text{EM}}$, the exact gauge symmetry the vacuum leaves unbroken, both members vector-like, against the chiral broken interaction and the one with no gauge carrier.
 
-The dual-binary seed gives each matching its own meaning (`L3-FormalFoundations` §V.b; `L4-HadronicVolume` Mvt III): Yielding $\{U, I\}$ against Asserting $\{P, R\}$; Active $\{P, U\}$ against Reactive $\{I, R\}$; and the Mutable matching, the one that un-mixes the cell into a pure-exterior edge $U$–$R$ and a pure-interior edge $P$–$I$.
+The dual-binary seed gives each matching its own meaning (`L3-FormalFoundations` §V.b; `L4-HadronicVolume` Mvt III): Yielding $\{U, I\}$ against Asserting $\{P, R\}$; Active $\{P, U\}$ against Reactive $\{I, R\}$; and the Mutable matching, the one stabilized by flipping both bits under the character $\chi = \mathrm{AR}\cdot\mathrm{AY}$ ($+1$ on $\{P, I\}$, $-1$ on $\{U, R\}$), which un-mixes the cell into an exterior parity edge $U$–$R$ and an interior parity edge $P$–$I$. (The $\{P, I\}/\{U, R\}$ split is an algebraic parity class, not an audit-exempt private interior: $P$ writes directly to the exterior ledger.)
 
 Set Yielding to the electroweak pair and Active to the long-range pair. Of the twenty-four seatings exactly one satisfies both.
 
@@ -105,7 +108,7 @@ ok = [dict(zip('PUIR', p)) for p in itertools.permutations(['EM', 'Weak', 'Stron
 print(ok)     # [{'P': 'Grav', 'U': 'EM', 'I': 'Weak', 'R': 'Strong'}]
 ```
 
-The third matching has no freedom left, and it lands. The pure-exterior edge $U$–$R$ is electromagnetism with the strong force: the unbroken gauge group of the vacuum. The pure-interior edge $P$–$I$ is gravity with the weak force: the one with no carrier and the one whose symmetry does not survive outside. `L4-HadronicVolume`'s Unique Matching Theorem singles out the Mutable matching as the only one that separates interior from exterior. The Standard Model singles out the same pair of forces as the only exact gauge symmetries of its ground state.
+The third matching has no freedom left, and it lands. The exterior parity edge $U$–$R$ is electromagnetism with the strong force: the unbroken gauge group of the vacuum. The interior parity edge $P$–$I$ is gravity with the weak force: the one with no carrier and the one whose symmetry does not survive outside. `L4-HadronicVolume`'s Unique Matching Theorem (stabilizing $\chi = \mathrm{AR}\cdot\mathrm{AY}$ via the $V_4$ flip-both involution) singles out the Mutable matching as the only one that separates the $\{P, I\}$ and $\{U, R\}$ parity classes. The Standard Model singles out the same pair of forces as the only exact gauge symmetries of its ground state.
 
 Three matchings, three canonical partitions, no remainder, one seating. This is a combinatorial closure and its sample size is one.
 
@@ -145,7 +148,7 @@ print(worst(B, high), max(worst(s, high) for s in seats))               # 4  11
 
 One other seating reaches twelve: $P$ = EM, $U$ = Weak, $I$ = Strong, $R$ = Gravity. It is the forced seating advanced one step around the Braid, each force moved along $P \to R \to I \to U \to P$. It puts the weak and strong interactions on the Yielding pair and is excluded by §1. On directions it survives by the margin between the weak slope, 1.95, and gravity's 2.00. The two seatings at eleven are these same two with weak and gravity exchanged, which is §4 seen from here: below the $W$ mass the weak interaction and gravity move alike.
 
-The partitions of §1 and the sweep here are independent instruments. One uses no curves. The other uses no partitions. They select the same seating.
+The partitions of §1 and the sweep here are independent instruments. One uses no curves. The other uses no partitions. They select the same seating. And by the log-space tautology (`ENGINE-REFERENCE-AC` §4.3; expect there: the twelve equations collapsing to a rank-2 subspace of $\mathbb{R}^4$ with $|\mathrm{Aut}| = 1$ by exhaustion), the algebra carries zero fitting freedom: what is empirical is solely what snaps into it, making 12/12 below $M_W$ a structural result rather than a curve fit.
 
 ### Sameness is death
 
@@ -365,9 +368,10 @@ Two consequences follow, one for each side of the line.
 
 **The homogeneous side.** The trace-free form does not compute the cosmological constant. It relocates the question from "why does the vacuum's energy not weigh" to "what fixes the constant of integration" (§X).
 
-**The localized side.** The void does not weigh. Its uniform level is a pure-trace constant, and the nine equations do not see it. Two plates do not capture a piece of the void. They build a boundary, and the boundary restricts which standing waves the gap admits. The energy that depends on their separation is the energy of that restriction. It lives in a bounded region, it has a gradient, and it does work when the plates move. It is the binding energy of the pair, and it can be computed as the retarded van der Waals attraction between the two bodies with no reference to the vacuum at all (Jaffe 2005). A bound pair is lighter than its parts by its binding (`QED-TwoBranchMinting`, Branch B). The plates are a bound pair.
+**The localized side.** By `QED-CCP` §II and §VI (expect there: the localized-blanket criterion and the Casimir prediction $\Delta m = \Delta E/c^2$, sign included, with a null killing the localized half), the void does not weigh; its uniform level is a pure-trace constant that the nine equations do not see. Two plates do not capture a piece of the void. They build a localized Markov blanket, and the boundary restricts which standing waves the gap admits. The energy that depends on their separation is the energy of that restriction. It lives in a bounded region, it has a gradient, and it does work when the plates move. It is the binding energy of the pair, and it can be computed as the retarded van der Waals attraction between the two bodies with no reference to the vacuum at all (Jaffe 2005). A bound pair is lighter than its parts by its binding (`QED-TwoBranchMinting`, Branch B). The plates are a bound pair, so the configuration meets `QED-CCP` §II's criterion directly.
 
-**A Casimir cavity weighs, by its energy over $c^2$, sign included. That is not the vacuum weighing. It is a boundary paying for what it holds.** Weight belongs to the boundary and never to the void. The Archimedes experiment at Sos Enattos audits exactly this. A null at the sensitivity of the expected $\Delta E/c^2$ would mean that boundary-induced mode exclusion is purely reactive and pays nothing real, and the localized half of this section would fall with it.
+**A Casimir cavity weighs, by its energy over $c^2$, sign included. That is not the vacuum weighing. It is a boundary paying for what it holds.** Weight belongs to the boundary and never to the void. The Archimedes experiment at Sos Enattos audits exactly this. 
+A null at the sensitivity of the expected $\Delta E/c^2$ would mean that boundary-induced mode exclusion is purely reactive and pays nothing real, and the localized half of `QED-CCP` §II and §III would fall with it.
 
 A last remark on the trace-free form. It is obtained from the usual action by holding the volume element $\sqrt{-g}$ fixed under variation. The volume is not a dynamical variable. It is given, and the nine equations describe what shape does inside it. `L4-HadronicVolume` closes on the sentence "The volume is what is." In unimodular gravity that sentence is the constraint.
 
@@ -457,7 +461,7 @@ $P$ has three equations, and each holds a different pole absent. Each is a way o
 - **$P = UI$, $R$ absent.** Potential times flow with no confining ground. The weight the electroweak sector makes on its own: the leptons. It has no slot for colour. `Q4` names it Synthesis; control edge $P$–$R$, Cardinal plane.
 - **$P = U^2/R$, $I$ absent.** Potential squared over ground. The self-energy of a field held against a boundary: the Coulomb energy of a nucleus, charge squared over radius; the electromagnetic three quarters of the Poincaré electron. It has no slot for flavour. `Q4` names it Leverage; control edge $P$–$I$, Mutable plane.
 
-The trace of the Standard Model's stress has three kinds of term: a gluon anomaly in the square of the colour field, a photon anomaly in the square of the electromagnetic field, and mass terms. 
+The trace of the Standard Model's stress has three kinds of term: a gluon anomaly in the square of the colour field, a photon anomaly in the square of the electromagnetic field, and mass terms.
 These are hadronic weight, field self-energy, and electroweak weight — three channels at $P$, three kinds of trace.
 
 ### The dark sector: a blanket that leaks only $P$
@@ -553,10 +557,12 @@ So the question is whether it is available branch by branch, and that is a quest
 
 Part of the answer is already on the books. By Star-Norm conservation, the three $P$-edges sit at $Z_P = 0$, $\theta_P = 0$, $\tau_P = 0$—and `Q4` §II shows the setting is forced, not assumed: $N_* = P^2 - |\mathbf{Q}|^2 = \text{const}$, and a priced or delayed write would let the norm fluctuate in transit. The three edges are permanently open writing heads, and a commit through them carries no phase: the Route Law's squaring burns the phase, and what lands at $P_A$ is a pure, directionless scalar. A wave needs a phase gradient to propagate; a scalar with none cannot radiate through $H_{\text{incoh}}$ to signal a distant partner, and the partner's reduced density matrix $\rho_B$ stays invariant—not one local statistic shifts (`Q4` §V, the No-Communication Firewall). Dynamic metric waves are a different object: ripples of $H_{\text{incoh}}$ itself rather than $P$-bosons (`Q4` §IV). That settles the collapsed case only—an `.observe()` write cannot signal. What remains open in BMV is whether two uncollapsed masses sitting in `.behold()` couple branch-by-branch prior to collapse:
 
-- **The Readout Wall: quasi-locality, on $P$–$I$.** Laue, Noether, ADM. No local density of gravitational energy can be read from outside. Only a boundary total crosses. $P$–$I$ is the pure-interior edge of §1, the edge gravity itself sits on. If the wall is exact for phase as it is for energy, each mass receives from the other one committed scalar. The cross-term is taken against a total and not against a branch, and nothing entangles. This is the baseline, and it is where `On_TheGravityDerivation` §VII stands: **a null.**
+- **The Readout Wall: quasi-locality, on $P$–$I$.** Laue, Noether, ADM. No local density of gravitational energy can be read from outside. Only a boundary total crosses. $P$–$I$ is the interior parity edge of §1 ($\chi = +1$, not an audit-exempt interior), the edge gravity itself sits on. If the wall is exact for phase as it is for energy, each mass receives from the other one committed scalar. The cross-term is taken against a total and not against a branch, and nothing entangles. This is the baseline, and it is where `On_TheGravityDerivation` §VII stands: **a null.**
 - **The edge-mode fringe: non-factorizability, on $I$–$R$.** Gauss, Donnelly and Freidel. A region cannot be cut out without creating degrees of freedom on the cut. If the blanket's edge modes are live, the boundary total is not a committed scalar. It is an operator with a value for each branch, the phase leaks through the fringe, and the masses entangle. Then the ripple of the hold is a phonon in the full sense.
 
 The classical theorems do not choose. They say that only a total crosses. They do not say whether the total is a number or an operator. The experiment measures that and nothing else. Either outcome leaves $P$ without a carrier.
+
+**The mass-bridge double test (`CANDIDATE`).** Photonic links already clear the massless baseline as reversible unitary phase in the untaxed angle coordinate (`L4-ScalingInvariants` A4). Testing whether gravity cuts coherence therefore requires massive crystals whose internal self-energy timescale ($\tau_{\text{self}} \sim \hbar R / Gm^2$) sits two orders of magnitude below the run window ($\tau = 2.5\text{ s}$), alongside an internal zero-point buffer—testing within one window both whether internal self-gravity stays bound inside the hold without burning it and whether mutual phase crosses blankets. **Kill:** varying crystal radius at fixed mass and separation and seeing decoherence shift onto $\tau_{\text{self}}$ means internal self-gravity burns the hold before the Readout Wall acts.
 
 The exhaust reading of §VI lands here and only here. The irreversible term in the horizon's Clausius relation is the viscous response of a horizon to shear. Radiation and horizon viscosity are what gravity looks like on the price meter. Weight is what it looks like on the tachometer.
 
@@ -589,6 +595,8 @@ The Schwarzschild case completes the progression of §I, and the three stations 
 What is left at the third station is a blanket and a count.
 
 The quarter in $S = A/4\ell_P^2$ is not the quarter of §II. The entropy's quarter is the same in every dimension. The hold's share is $1/D$ and the horizon relation is $M = \tfrac{D-2}{D-3}\,TS$. The two quarters meet in four dimensions and only there.
+
+*Convention signpost (`L3-TheAtomOfSpace` §III):* `Om(n)` below indexes by **intrinsic sphere dimension** (`Om(D-2)` = area of $S^{D-2}$, so $\Omega_2 = 4\pi$ at $D=4$ and $\Omega_3 = 2\pi^2$ at $D=5$), naming an intrinsic surface already present, whereas ambient-dimension subscript $\Omega_D = 2\pi^{D/2}/\Gamma(D/2)$ ($\Omega_4 = 2\pi^2$) names the $S^{D-1}$ boundary *generated* by unfolding. Do not confuse geometric solid-angle $\Omega$ here with the cosmological density fractions $\Omega_m, \Omega_\Lambda, \Omega_b$ in §X.
 
 ```python
 import math
@@ -630,11 +638,11 @@ $$\Lambda \sim \frac{1}{\sqrt{N}} .$$
 ```python
 import math
 G, hbar, c = 6.67430e-11, 1.054571817e-34, 299792458.0
-H0 = 67.4e3/3.0856775814913673e22; RH = c/H0; lP = math.sqrt(hbar*G/c**3)
+H0 = 67.4e3/3.0856775814913673e22; RH = c/H0; lP = math.sqrt(hbar*G/c**3)   # H0 is epoch-dependent (Planck 2018: 67.36-67.4 km/s/Mpc)
 print(f"{(RH/lP)**4:.2e}", f"{(lP/RH)**2:.3e}", f"{3*0.685*(lP/RH)**2:.3e}")   # 5.20e+243   1.387e-122   2.850e-122
 ```
 
-With $N$ the four-volume of the Hubble region in Planck units, $5\times10^{243}$, the fluctuation is $1.4\times10^{-122}$. The observed $\Lambda\ell_P^2$ is $2.9\times10^{-122}$. The argument was made before the acceleration was observed, and it predicts that the term tracks the critical density at every epoch rather than staying fixed.
+With $N$ the four-volume of the Hubble region in Planck units, $5\times10^{243}$, the fluctuation is $1.4\times10^{-122}$. The observed $\Lambda\ell_P^2$ is $2.9\times10^{-122}$ (evaluated at the present-epoch observed $H_0 = 67.36\text{–}67.4\text{ km/s/Mpc}$, an epoch-dependent state parameter). The argument was made before the acceleration was observed, and it predicts that the term tracks the critical density at every epoch rather than staying fixed.
 
 Now take the radius the term itself defines, $R_\Lambda = \sqrt{3/\Lambda}$, and the angle the Planck length subtends from there, $\theta_\Lambda = \ell_P/R_\Lambda$ (`L4-DynamicDistortions-Sudoku` §XII). Four quantities are then one:
 
@@ -698,11 +706,11 @@ Claim / Result                             Instrument                   Status  
 ==============================================================================================================
 ```
 
-**LANDED.** The seating $P$ = gravity, $U$ = electromagnetism, $I$ = weak, $R$ = strong: forced by two partitions, with the third matching landing on the unbroken gauge group (§1). Twelve of twelve in direction below the $W$ mass, against four of twelve for the intuitive alternative, top of twenty-four (§2). $U/I = \sin^2\theta_W$ (§3). The $+2$ slope of weak Synthesis and gravity, with constant separation (§4). $U^2/P = 1$ at $\alpha M_{\text{Pl}}$; Dirac's number as $U/P$ at $\sqrt{m_e m_p}$ (§5). The equality of the three integrands under Laue (§I). The share $1/D$ of a pure-trace holder, one quarter in four dimensions (§II). $S = A/4$ in every dimension against a hold share of $1/D$: two different quarters (§IX). The coupling of two bodies as a function of three Star-Norms; $N_{\text{whole}} \geq (\sum\sqrt{N_i})^2$ for free parts (§IV). $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$ as the $R$-pole's transfer function (§V). $M = 2TS = \tfrac12 Nk_BT$ at a Schwarzschild horizon (§IX). $\Lambda\ell_P^2 = 3\theta_\Lambda^2 = 3\pi/S_\Lambda = 3/\sqrt{N_4}$, one ratio of lengths read four ways (§X). The owned share of pure chromodynamics is zero, ninety degrees; the physical proton's is 9(2)%, 84.8° (§VI). The bilinear cross-term between two superposed masses and its phase, 0.31 radian at the proposed parameters (§VIII).
+**LANDED.** The seating $P$ = gravity, $U$ = electromagnetism, $I$ = weak, $R$ = strong: forced by two partitions, with the third matching landing on the unbroken gauge group (§1). Twelve of twelve in direction below the $W$ mass, against four of twelve for the intuitive alternative, top of twenty-four, with zero fitting freedom in the rank-2 log-subspace ($|\mathrm{Aut}| = 1$, `ENGINE-REFERENCE-AC` §4.3) (§2). $U/I = \sin^2\theta_W$ (§3). The $+2$ slope of weak Synthesis and gravity, with constant separation (§4). $U^2/P = 1$ at $\alpha M_{\text{Pl}}$; Dirac's number as $U/P$ at $\sqrt{m_e m_p}$ (§5). The equality of the three integrands under Laue (§I). The share $1/D$ of a pure-trace holder, one quarter in four dimensions (§II). $S = A/4$ in every dimension against a hold share of $1/D$: two different quarters (§IX). The coupling of two bodies as a function of three Star-Norms; $N_{\text{whole}} \geq (\sum\sqrt{N_i})^2$ for free parts (§IV). $\Lambda_{\text{QCD}}/M_{\text{Pl}} = e^{-2\pi/\beta_0\alpha_s(M_{\text{Pl}})}$ as the $R$-pole's transfer function (§V). $M = 2TS = \tfrac12 Nk_BT$ at a Schwarzschild horizon (§IX). $\Lambda\ell_P^2 = 3\theta_\Lambda^2 = 3\pi/S_\Lambda = 3/\sqrt{N_4}$, one ratio of lengths read four ways (§X). The owned share of pure chromodynamics is zero, ninety degrees; the physical proton's is 9(2)%, 84.8° (§VI). The bilinear cross-term between two superposed masses and its phase, 0.31 radian at the proposed parameters (§VIII).
 
 **ADOPTED.** Laue's theorem and the tensor virial identity. The Tolman–Komar active mass and its wall-stress resolution. The trace relation $R \propto T$. The trace-free equations with $\Lambda$ as a constant of integration. The linearized coupling, the factor two for light, the null for parallel beams. The Adler–Zee formula and its evaluation in chromodynamics. The proton mass as the forward matrix element of the trace; the lattice decomposition; the von Laue condition and the measured pressure profile. Sorkin's count. Markov's theorem and the residual finiteness of three-manifold groups. The slope definition of $w$. The Gell-Mann–Oakes–Renner relation.
 
-**CANDIDATE.** The trace as the $I^2R$ paid on $P$: the corpus's hold and the stress tensor's trace as one quantity. The three $P$-equations as the three kinds of trace term. The blanket as the turn between reactive interior and real exterior, a quarter-turn in the chiral limit. The trace at the Planck rung as the source of the stiffness. Dark matter as a whole that leaks only $P$. $1/\sqrt N$, with $N$ the length of the ledger, as the cosmic holding term. The proton's standoff from ninety degrees as the Synthesis channel working inside the Friction channel.
+**CANDIDATE.** The trace as the $I^2R$ paid on $P$: the corpus's hold and the stress tensor's trace as one quantity. The three $P$-equations as the three kinds of trace term. The blanket as the turn between reactive interior and real exterior, a quarter-turn in the chiral limit. The trace at the Planck rung as the source of the stiffness. Dark matter as a whole that leaks only $P$. $1/\sqrt N$, with $N$ the length of the ledger, as the cosmic holding term. The proton's standoff from ninety degrees as the Synthesis channel working inside the Friction channel. The mass-bridge double test in massive crystals with $\tau_{\text{self}}$ two orders below the run window and an internal zero-point buffer (§VIII).
 
 **CORRESPONDENCE.** The loop threshold at four dimensions and the quarter (§II). Two independent facts that land on one number.
 
@@ -714,7 +722,7 @@ Claim / Result                             Instrument                   Status  
 
 **OPEN.** The transfer functions of $U$ and $I$ between tiers. The shift of a part's own invariant inside a blanket.
 
-**Kills.** A seating other than the forced one scoring twelve of twelve below the $W$ mass while satisfying the partitions of §1. A thirteenth gauge carrier, or a fundamental carrier at $P$ (`Q2` §VIII). Starlight passing the Sun unbent would have restored the exclusive trace reading; it bends, and by twice the Newtonian angle. A derivation of confinement with no trace anomaly cuts §V from §II. A measured proton pressure profile violating the von Laue condition breaks §I at its root. A constant $\Lambda$ that fails to track the critical density across epochs retires the counting reading of §X and leaves the other two. A derivation that needs the loop threshold at a dimension other than four cuts the correspondence of §II.
+**Kills.** A seating other than the forced one scoring twelve of twelve below the $W$ mass while satisfying the partitions of §1. A thirteenth gauge carrier, or a fundamental carrier at $P$ (`Q2` §VIII). Starlight passing the Sun unbent would have restored the exclusive trace reading; it bends, and by twice the Newtonian angle. A derivation of confinement with no trace anomaly cuts §V from §II. A measured proton pressure profile violating the von Laue condition breaks §I at its root. A constant $\Lambda$ that fails to track the critical density across epochs retires the counting reading of §X and leaves the other two. A derivation that needs the loop threshold at a dimension other than four cuts the correspondence of §II. Varying crystal radius at fixed mass and separation and seeing decoherence shift onto $\tau_{\text{self}}$ kills the §VIII mass-bridge candidate (self-gravity burns the hold before the Readout Wall acts).
 
 ---
 
@@ -722,7 +730,7 @@ Claim / Result                             Instrument                   Status  
 
 1. **What is the trace at the Planck rung?** The stiffness of space is a trace–trace correlator. Colour supplies $10^{-40}$ of it. What holds at the bottom of the ladder, and is its trace computable from the $K_4$ atom of space the way the pion's boundary impedance is?
 2. **Is the quarter the Scalar of Scalar + Vector?** The split of the stress into one trace and nine trace-free components, and the split of energy into one quarter hold and three quarters content, both come from the trace of the metric being four. Does `ProofN`'s biquaternion give the one-to-three energy split directly?
-3. **Which wall is the Laue balance on?** `L3-TheSixWalls` §IV files Laue, Noether and ADM under quasi-locality on $P$–$I$, the pure-interior edge of the Mutable matching. The core pushes and the periphery pulls, and the sign change in the proton's pressure near 0.6 fm is a boundary inside the blanket. Is that inner boundary the place where the Readout Wall meets the edge-mode fringe of §VIII?
+3. **Which wall is the Laue balance on?** `L3-TheSixWalls` §IV files Laue, Noether and ADM under quasi-locality on $P$–$I$, the interior parity edge of the Mutable matching. The core pushes and the periphery pulls, and the sign change in the proton's pressure near 0.6 fm is a boundary inside the blanket. Is that inner boundary the place where the Readout Wall meets the edge-mode fringe of §VIII?
 4. **What is the $D$-term in the algebra?** Mass and spin have seats. The third global property of the proton, the one that encodes its stability, has none yet.
 5. **Does the composition operator close on cross-terms plus one shift per part?** If the in-blanket shift of a part's invariant is a function of its is-ness bandwidth, `On_TheIsNessTax` Layer 2 may already be that function.
 6. **Why does the hold equal the record only at a horizon?** $M = 2TS$ there and nowhere else. Is a horizon the limit in which the scale handoff $P_N \leftrightarrow R_{N+1}$ has nothing left to hand to?
@@ -745,7 +753,7 @@ Claim / Result                             Instrument                   Status  
 
 ## What Reading This Back Should Leave
 
-There are not four forces looking for a fifth thing to become. There is one engine with four roles. Electromagnetism is its potential, the weak interaction its flow, the strong interaction its ground, and gravity its dissipation. The seating is not chosen. Two facts every physicist grants, that electromagnetism and the weak force are one sector and that electromagnetism and gravity are the two long-range forces, fix it, and the third fact then arrives unasked: the remaining pair is the unbroken gauge group of the vacuum. Swept against the measured curves, that seating satisfies all twelve equations in direction and the intuitive one satisfies four.
+There are not four forces looking for a fifth thing to become. There is one engine with four roles. Electromagnetism is its potential, the weak interaction its flow, the strong interaction its ground, and gravity its dissipation. The seating is not chosen. Two facts every physicist grants, that electromagnetism and the weak force are one sector and that electromagnetism and gravity are the two long-range forces, fix it, and the third fact then arrives unasked: the remaining pair is the unbroken gauge group of the vacuum. Swept against the measured curves, that seating satisfies all twelve equations in direction and the intuitive one satisfies four; and because the twelve collapse to a rank-2 log-subspace with $|\mathrm{Aut}| = 1$ (`ENGINE-REFERENCE-AC` §4.3), the seating carries zero fitting freedom and 12/12 below $M_W$ stands as a result rather than a fit.
 
 The weak mixing angle is the impedance of the electroweak boundary. Fermi's constant and Newton's are one operation at two tiers, and the hierarchy between them is a distance along a cascade. What is called the unification scale is where one of the engine's impedances crosses one. Above the $W$ mass, where the forces begin to look alike, the twelve stop closing on a sheet. The engine lives where the roles differ.
 
@@ -758,3 +766,6 @@ A box of light borrows its hold. A proton owns its hold, a quarter of itself, ar
 What is dark is what leaks only weight.
 
 What is open is named: whether a Casimir cavity weighs, whether dark energy keeps weakening, whether the xenon stays silent, whether two masses can be entangled by weight alone, what holds at the Planck rung, and how the potential and the flow carry across tiers.
+
+---
+

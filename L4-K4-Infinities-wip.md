@@ -156,19 +156,23 @@ A driving-point admittance for $\omega$ is a pure factor in a pole-synthesis. On
 
 *One argument in the reading's favour that was never made, and should be recorded:* in a **reciprocal** network $\mathbf{Y}$ is symmetric and a 5-node system has only $N(N+1)/2 = 15$ independent entries. All 25 are independent only if $Y_{ij} \neq Y_{ji}$ — which is exactly the gyrator sector, $\tfrac12[Z_A,Z_B] \neq 0$. **The 25 requires non-reciprocity, and the framework supplies it.** If anyone revives this line, that is the lock to build on, because it ties the count to the port's antisymmetric sector rather than to a graph.
 
-### 2.3 The $45°$ agency derivation — **struck; the angle survives at other addresses**
+### 2.3 The $45°$ agency derivation — **struck; spinor vs. impedance angles separated**
 
-*Claim:* delivered agency is torque $\times$ transmission; the product $\sin\theta\cos\theta$ peaks at $45°$.
+*Claim:* delivered agency is torque $\times$ transmission; the product $\sin\alpha\cos\alpha$ peaks at $45°$.
 
-*Why it failed:* the answer is entirely a function of which transmission law is used, and the passage used three.
+*Why it failed:* the answer depends entirely on which port channel and transmission law is used, and the passage mixed **spinor overlap ($\theta$)** with **impedance phase ($\varphi$)** across four distinct laws (`QED-AstroLogic` §XII.i):
 
 ```
-cos^2(th/2)   [as stated in the text]   peak  60.000 deg
-cos(th)       [as used in the product]  peak  45.000 deg
-1-tan^2(th/2) [from the port's Gamma]   peak  51.827 deg
+[Spinor overlap angle theta]
+  T_SU(2)(theta) = cos^2(theta/2)         peak theta_* = 60.000000 deg   (cos = 1/2)
+
+[Impedance phase angle phi -- strictly separate from spinor theta]
+  Kurokawa constant-|Z|  1 - tan^2(phi/2) peak phi_*   = 51.827292 deg   (arccos(1/Phi))
+  Fixed-R series         4/(4 + tan^2 phi) peak phi_*  = 47.442204 deg
+  Un-squared linear      cos(phi)          peak phi_*  = 45.000000 deg
 ```
 
-Separately, and more seriously, the product cross-wires two angles the corpus separates by name. `L4-DynamicDistortions301` §VII.A: *"Three angles, one letter… The first two run in opposite directions at the same number: $45°$ of setting is where non-locality peaks; $45°$ of shear is where it has been halved away."* The torque factor uses the detector-setting sense; the area law uses the shear sense.
+Separately, and more seriously, the old product cross-wired angles the corpus separates by name. `L4-DynamicDistortions301` §VII.A: *"Three angles, one letter… The first two run in opposite directions at the same number: $45°$ of setting is where non-locality peaks; $45°$ of shear is where it has been halved away."* Spinor overlap ($\theta$), impedance phase mismatch ($\varphi$), and bimedian cross-section shear ($\theta_{\text{shear}}$) cannot be substituted for one another.
 
 *Where $45°$ actually lives, and it lives in a lot of places:*
 
@@ -178,7 +182,7 @@ Separately, and more seriously, the product cross-wires two angles the corpus se
 - `L3-FormalFoundations` §IX.4.a — relative uncertainty $2\delta\theta/\sin 2\theta$ minimized at $\sin 2\theta = 1$: the best place to read a ratio and the worst place to read a magnitude.
 - `L4-ScalingInvariants` A1 — the log-space basis rotation, flagged in `301`'s own table as a *different* quantity sharing the number.
 
-*What would revive it as a distinct result:* derive the transmission law from the port algebra itself — what fraction of offered power crosses the throat interface as a function of buffer non-collinearity — and then locate the stationary point of torque $\times$ transmission under *that* law. If it lands at $45°$, it is a fifth instance of one condition and should be reported as such. If it lands at $51.8°$ or elsewhere, it is a new result and a genuinely interesting one, because it would mean **agency and legibility do not optimize at the same angle.** That second outcome is the one I'd bet on and the one worth the work.
+*What would revive it as a distinct result:* derive the spinor-channel transmission law from first principles out of mesh-tension vertex form factors and determine which port law governs each physical case (agency stationary point, weak-measurement gain, optimal predatory detuning, CHSH visibility scaling; `QED-AstroLogic` §XII.i `CANDIDATE`). If agency lands at $45°$, it is a fifth instance of one condition and should be reported as such. If it lands at $51.827292^\circ$, $47.442204^\circ$, or $60.000000^\circ$, it is a new result and a genuinely interesting one, because it means **agency and legibility do not optimize at the same angle.**
 
 ### 2.4 Laue as the proof of $\Delta m_{\text{Casimir}} = 0$ — **struck; the correct two-step recorded**
 
@@ -341,9 +345,9 @@ If the two quarters are the same quarter, the derivation is circular. If they ar
 
 **The dimensional problem nobody has addressed:** the Bekenstein quarter is an *area* coefficient; the duty cycle is a *time* fraction. Equating them needs an argument that area-per-bit and writes-per-cycle are the same object, and they are not obviously the same kind of thing. The parent carries the duty cycle as a candidate explanation with this noted; someone should either close it or retire it.
 
-### 4.4 The agency stationary point
+### 4.4 The agency stationary point (`QED-AstroLogic` §XII.i)
 
-See §2.3. The live version: derive the transmission law from the port algebra, then locate the maximum of torque $\times$ transmission under it. The prediction worth making in advance is that it will **not** land at $45°$, because $45°$ is the legibility optimum and there is no obvious reason legibility and leverage should peak together.
+See §2.3. `QED-AstroLogic` §XII.i now holds the unified two-port, two-channel results separating spinor overlap $\theta$ ($T_{SU(2)}(\theta) = \cos^2(\theta/2)$, optimum $\theta_* = 60.000000^\circ$) from the three impedance phase laws in $\varphi$ (Kurokawa constant-$|Z|$ $1-\tan^2(\varphi/2)$ at $\varphi_* = \arccos(1/\Phi) = 51.827292^\circ$; fixed-$R$ series $4/(4+\tan^2\varphi)$ at $47.442204^\circ$; linear control $\cos\varphi$ at $45.000000^\circ$), with the four-domain map (agency stationary point, weak-measurement gain, optimal predatory detuning, CHSH visibility scaling) tagged **`CANDIDATE`**. Two open physics ports remain (`WO-502` / `WO-509`): deriving the spinor-channel transmission law from first principles out of mesh-tension vertex form factors, and assigning which exact port law governs the agency stationary point. The expectation stands: if agency lands at $51.827^\circ$, $47.442^\circ$, or $60.000^\circ$ rather than $45^\circ$, **agency and legibility do not optimize at the same angle.**
 
 ### 4.5 The Solipsism Warning, structurally satisfied but worth watching
 
@@ -389,7 +393,7 @@ So the candidate reading is: **the write above zero frequency is the quadrupole 
 
 Offered as a candidate and as strong as the correspondence it rests on — structurally right, not yet quantitative. Which means the §4.6 target is worth more than it first appeared: closing it would also close a chafe Q4 queued and specified.
 
-**Live corpus-internal conflict, logged.** `L3-K4-to-K5-via-AC-Extension` §IV asserts the rejected reading outright: *"Gravitational radiation is the $L$–$C$ discharge of the $P$-edges at $\omega > 0$; static curvature is the DC face of the same edges."* Q4 §II names that resolution and rejects it as smuggling. **Two files disagree and Q4 is the one that explains why.** The AC extension's §IV sentence needs retracting or defending; it should not sit unmarked while Q4 carries the chafe as open.
+**Conflict resolution note (`WO-403` landed):** An earlier draft of `L3-K4-to-K5-via-AC-Extension` §IV asserted the rejected $L$–$C$ discharge on $P$-edges. Both `L3-K4-to-K5-via-AC-Extension` §IV and `Q4-OpenExhaust` §IV now carry the instantaneous quadrupole identity from `L4-K4-Infinities-3` §III, closing that conflict at source.
 
 ### 4.7 The sharing reading of the DESI hint — quarantined on arrival
 
@@ -546,12 +550,12 @@ Related, and worth filing beside it: §2.6 records the drafting side catching th
 | **Nesting cascade law** | **OPEN — undetermined between $1/n$ and $T^n$** | **How much a nested interior commits per pass (§2.7)** |
 | Leibniz windowlessness half | Owed | Follows the cascade law; the coordination half stands |
 | **Bits $\leftrightarrow$ quadrupole acceleration** | **TARGET — dimensionally checked, not derived** | **Whether the Laue defect is the energy spent; which temperature prices it (§4.6)** |
-| Agency stationary point | OPEN, bet placed (not $45°$) | Transmission law derived from the port algebra |
+| Agency stationary point | OPEN (`CANDIDATE` at `QED-AstroLogic` §XII.i; not assumed $45°$) | First-principles spinor transmission & physical law-to-case assignment (`WO-502`, `WO-509`) |
 | Wilson loop $\neq \mathbf{1}$ | OPEN construction | A canonical $g_{AB}$; a loop with a stated carrier |
-| $1/4$ duty cycle $=$ Bekenstein $1/4$ | CANDIDATE | An argument that an area coefficient and a time fraction are one object |
-| Casimir sector assignment | The bet is the register split; now KI-6 in the parent | Archimedes |
+| $1/4$ duty cycle $=$ Bekenstein $1/4$ | **REFUTED** in Part Three §III | Area coefficient vs. time fraction (`1/(4 ln 2)` bit count) |
+| Casimir sector assignment | Split under `QED-CCP` §II (`KI-6` homogeneous structural; localized cavity tested) | Archimedes (`\Delta E/c^2`, sign included; reversed against earlier null-weight claim) |
 | **Q4's LIGO chafe at $\omega > 0$** | **CANDIDATE resolution via the Laue identity** | **The §4.6 relation; see §4.6's closing** |
-| AC extension §IV vs Q4 §II | **Live corpus conflict, logged** | Retract or defend the $L$–$C$ discharge reading |
+| AC extension §IV vs Q4 §II | **RESOLVED at source (`WO-403`)** | Both `L3-K4-to-K5-via-AC-Extension` §IV and `Q4-OpenExhaust` §IV now use the instantaneous quadrupole identity |
 | Direction rule (reversal reactive only) | Adopted into Part Three §V | — |
 | $(a)$/$(b)$ dark-energy fork | Pre-registered, three claims coupled | DESI remaining releases, Rubin, Roman |
 | Sharing reading of the DESI hint | QUARANTINED on arrival | An independent estimate of drawing regions (§4.7) |
@@ -575,6 +579,7 @@ from mpmath import mp, mpf, sqrt, pi, log, sin, cos, tan, degrees, findroot, dif
 mp.dps = 20
 c = mpf('299792458'); G = mpf('6.67430e-11'); hbar = mpf('1.054571817e-34')
 alpha = 1/mpf('137.035999177'); lP = sqrt(hbar*G/c**3); OL = mpf('0.685')
+# epoch-dependent Planck 2018 input (67.36-67.4 km/s/Mpc; standardized on 67.4)
 H0 = mpf('67.4')*1000/mpf('3.0857e22'); RH = c/H0; RdS = c/(H0*sqrt(OL))
 Z0 = mpf('376.730313411'); RK = mpf('25812.8074593'); step = log(2/alpha)
 
@@ -612,23 +617,26 @@ PP = c**5/G; rho_dS = 3*c**4/(8*pi*G*RH**2); dVdt = 4*pi*RH**2*c
 print(PP, rho_dS*dVdt/PP)                     # 3.6283e52 W   1.5  exactly
 print([L/PP for L in (mpf('3.828e26'), mpf('2e37'), mpf('1e49'), mpf('3.6e49'))])
 # 1.055e-26  5.512e-16  2.756e-4  9.922e-4
-print((log(2)/3)*(1/H0)/mpf('3.15576e16'))    # 3.35192 Gyr
+print((mpf(1)/3)*(1/H0)/mpf('3.15576e16'))    # 4.83580 Gyr (t_bit = t_H/3; supersedes retired log(2)/3 = 3.35192 Gyr)
 
 # the corrected cosmological ratio
 rhoP = c**7/(hbar*G**2); rho_obs = OL*(3*H0**2/(8*pi*G))*c**2
 print(rho_obs/rhoP, (lP/RH)**2, (rho_obs/rhoP)/((lP/RH)**2), 3*OL/(8*pi))
 # 1.1339e-123  1.3867e-122  0.0817659  0.0817659   (exact match)
 
-# agency stationary point under three transmission models
+# spinor overlap (theta) vs impedance phase (phi) -- strictly separated (WO-107, QED-AstroLogic §XII.i)
 d = pi/180
-for nm, T in (("cos^2(th/2)", lambda t: cos(t/2)**2), ("cos(th)", lambda t: cos(t)),
-              ("1-tan^2(th/2)", lambda t: 1 - tan(t/2)**2)):
-    A = lambda t: sin(t)*T(t)
-    best = max(((A(k*d), k) for k in range(1, 90)), key=lambda p: p[0])
-    print(nm, degrees(findroot(lambda t: diff(A, t), best[1]*d)))
-# cos^2(th/2) 60.000 | cos(th) 45.000 | 1-tan^2(th/2) 51.827
+for nm, T_fn in (("spinor cos^2(th/2)", lambda t: cos(t/2)**2),
+                 ("impedance Kurokawa 1-tan^2(phi/2)", lambda p: 1 - tan(p/2)**2),
+                 ("impedance fixed-R 4/(4+tan^2(phi))", lambda p: 4/(4 + tan(p)**2)),
+                 ("impedance linear cos(phi)", lambda p: cos(p))):
+    A = lambda a: sin(a)*T_fn(a)
+    best = max(((A(k*d), k) for k in range(1, 90)), key=lambda x: x[0])
+    print(nm, degrees(findroot(lambda a: diff(A, a), best[1]*d)))
+# spinor cos^2(th/2) 60.000000 | Kurokawa 51.827292 | fixed-R series 47.442204 | linear 45.000000
 ```
 
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work. This file in particular is a working spillover and carries nothing landed; read `L4-K4-Infinities` for the standing claims.
+

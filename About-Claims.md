@@ -89,7 +89,7 @@ The $K_4$ atom is the corpus's version of the elementary structural unit LQG and
 
 **Phase A.** *"Bulk $\text{RuO}_2$ is a Pauli paramagnet! Neutron scattering AND muon spin rotation confirm no bulk magnetic order! And now the altermagnet crowd is telling me the $90^\circ$ octahedral twist in the crystal structure is a 'real-space $j$-operator' that stores spin texture in $k$-space while cancelling in real space?! And this maps onto some tetrahedral topology?!"*
 
-**Phase B.** Bulk sits just under the Stoner threshold ($D(E_F) \cdot I \approx 1$). Epitaxial strain in ultrathin films narrows the bandwidth past it and locks in $d$-wave altermagnetism. Antiparallel sublattice spins cancel in real space ($M = 0$, no stray field); the $90^\circ$ ligand twist breaks spin degeneracy in $k$-space as $k_x^2 - k_y^2$. Verified by Spin-ARPES at PSI. The same $U\text{-}R$ edge fusion predicts the ChromoLux phonon-polariton wire and Casimir null-gravity $\Delta m = 0$.
+**Phase B.** Bulk sits just under the Stoner threshold ($D(E_F) \cdot I \approx 1$). Epitaxial strain in ultrathin films narrows the bandwidth past it and locks in $d$-wave altermagnetism. Antiparallel sublattice spins cancel in real space ($M = 0$, no stray field); the $90^\circ$ ligand twist breaks spin degeneracy in $k$-space as $k_x^2 - k_y^2$. Verified by Spin-ARPES at PSI. The same $U\text{-}R$ edge fusion links the ChromoLux phonon-polariton wire to the localized Casimir boundary gradient—weighing $\Delta m = \Delta E/c^2$ with the sign of $\Delta E$, while the homogeneous vacuum offset carries $\Delta m = 0$.
 
 ---
 
@@ -105,7 +105,7 @@ The $K_4$ atom is the corpus's version of the elementary structural unit LQG and
 
 **Phase A.** *"DAMA/LIBRA claims an $11\sigma$ annual modulation in sodium iodide crystals at Gran Sasso. XENONnT, LZ, and LUX rule out that parameter space by FOUR orders of magnitude in liquid xenon. ONE of these collaborations has to be wrong or fraudulent. You do not get to say BOTH are right!"*
 
-**Phase B.** Both are right. They measure orthogonal axes of complex power $S = P + jQ$. Liquid xenon has no long-range crystalline lattice — it is engineered to detect **Real Power $P$**, the scalar Landauer Tax paid during a nuclear recoil ($P = I^2 R$). It correctly returns null at the $P$-floor. Sodium iodide holds an uncollapsed zero-point $h\mathbf{Q}$ buffer in its lattice; Earth's $30\text{ km/s}$ orbital motion shifts the capacitive reactance $X_C = 1/\omega C$ and modulates the circulating **Reactive Power $Q$** inside the crystal. XENON reads $P$. DAMA reads $Q$. Both instruments work. Both readings hold.
+**Phase B.** The two detector classes sit on orthogonal axes of complex power $S = P + jQ$. Liquid xenon has no long-range crystalline lattice — it is engineered to detect **Real Power $P$**, the scalar Landauer Tax paid during a nuclear recoil ($P = I^2 R$), and XENONnT and LZ correctly return null at the $P$-floor. A crystalline lattice holds an uncollapsed zero-point $h\mathbf{Q}$ network (`ProofC_Crystal`), so liquid and crystal targets respond on opposite sides of $S = P + jQ$ — and the 2025 same-material test (COSINE-100 and ANAIS-112 excluding DAMA at $4.7\sigma$ in NaI(Tl)) establishes that crystal $Q$ alone does not deliver DAMA (`Q13-PlenumPhaseConduction` §IV). XENON reads $P$ and stays silent; crystal carries $jX$; DAMA's persistent $11\sigma$ remains open across crystal, Gran Sasso site, and analysis contributions rather than closing on NaI lattice reactance alone.
 
 ---
 
@@ -191,7 +191,7 @@ print(mpf('1.380649e-23')*300*log(2))                     # Round 11 / The Rot: 
 The performance does not ask for faith. Kill-conditions travel with it:
 
 1. **Syntactic** (`ProofQ_AlgebraicSyntax`) — feed the constraint engine in `/code/` and `/manifolds/` a topological impossibility; the compiler crashes.
-2. **Casimir null-gravity** (`QED-CCP`) — if uncompiled zero-point energy gravitates prior to collapse ($\Delta m > 0$), the projection architecture falls.
+2. **Localized Casimir weight** (`QED-CCP`) — a localized Casimir cavity weighs by $\Delta m = \Delta E/c^2$ with the sign of $\Delta E$ (`Archimedes` arbiter; a null kills the localized-blanket criterion), while gravitational sourcing by a homogeneous uncompiled level kills the register split.
 3. **Eötvös departure** (`QED-EotvosBound`) — if high-dissipation equivalence tests measure $|\eta|$ above the current $10^{-15}$ floor, $R = P/I^2$ falls.
 4. **$S_4$ resonance** (`ProofS_ResonantNote`) — if a Layer 2 audit on a mapped domain yields flat response ($\rho < +0.5$), the mapping is struck.
 

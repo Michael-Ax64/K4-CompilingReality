@@ -5,7 +5,7 @@
 > **Type:** Topological proof of epistemic reach (Proof by Isomorphic Resonance).
 > **Method:** Derives the epistemic asymmetry of the Markov Blanket, maps the "accidental privilege" of self-knowledge via Postulate V (Scale Invariance), and defines clairvoyance as the real-time execution of domain-language translation under resonant conditions.
 
-*From the Compiling Reality proof suite. Rests on `L4-RecursiveLimits` (the boundary from both sides), `ProofR_SubjectiveRecovery` (domain-to-subjective translation), and `L5-K5-PhaseDynamicsTechnical` (Resonance).*
+*From the Compiling Reality proof suite. Rests on `L4-RecursiveLimits` (the boundary from both sides), `ProofR_SubjectiveRecovery` (domain-to-subjective translation), `L5-K5-PhaseDynamicsTechnical` (Resonance), and `QED-AstroLogic` (§XII.i, two-port, two-channel transmission laws).*
 
 ---
 
@@ -41,15 +41,19 @@ If the observer knows the universal structure, how do they establish contact wit
 
 Through the AC Extension: **Resonance**.
 
-When two bounded frames encounter one another, their interaction is initially dominated by Reactance ($X$). The observer's internal memory and anticipation clash with the external system's boundaries. The Markov Blankets are opaque. The phase gap ($\theta$) is wide.
+When two bounded frames encounter one another, their interaction is initially dominated by Reactance ($X$). The observer's internal memory and anticipation clash with the external system's boundaries. The Markov Blankets are opaque. The impedance phase gap ($\varphi$) is wide.
 
 But if the observer alters their own Angular Frequency ($\omega$) to match the natural frequency of the external system, a structural coupling occurs. At resonance ($\omega_0 = 1/\sqrt{LC}$), the inductive memory and capacitive anticipation of the interaction perfectly cancel each other out on the imaginary axis. Net reactance drops to zero. 
 
 At the exact moment of resonance, **the intervening Markov Blankets effectively become transparent.**
 
-This transparency is governed by the exact identifying equation $\tan(\theta) = \frac{\omega L - \frac{1}{\omega C}}{R}$. When the observer matches the target's natural frequency ($\omega_0$), the inductive and capacitive reactances cancel, $\tan(\theta) \to 0$, and the Markov Blanket becomes transparent.
+This transparency is governed on the impedance channel by the exact identifying equation $\tan(\varphi) = \frac{\omega L - \frac{1}{\omega C}}{R}$. When the observer matches the target's natural frequency ($\omega_0$), the inductive and capacitive reactances cancel, $\tan(\varphi) \to 0$, and the Markov Blanket becomes transparent.
 
-In quantum mechanics, this is structurally identical to **weak measurement**—a rotation without projection. The observer's buffer entrains with the target's via resonant coupling. The unitary rotation occurs (the basis changes so the boundary is describable), but the XOR bottleneck is not forced. The Landauer Tax is not paid, and the state does not drop into $P$. The observer extracts phase information without forcing a thermodynamic collapse.
+Off exact resonance, port throughput splits across two strictly distinct angles and channels (`QED-AstroLogic` §XII.i — expect there: the unified two-port, two-channel transmission laws separating spinor overlap $\theta$ from impedance phase $\varphi$):
+* **Spinor overlap angle ($\theta$):** governs quantum-channel overlap without projection via $T_{SU(2)}(\theta) = \cos^2(\theta/2)$, whose reactive-throughput product $T_{SU(2)}(\theta)\sin\theta$ peaks at **$\theta_* = 60.000000^\circ$**.
+* **Impedance phase angle ($\varphi$):** governs circuit/boundary mismatch via Kurokawa constant-$|Z|$ $T_{\text{Kur}}(\varphi) = 1 - \tan^2(\varphi/2)$ (peaking at **$\varphi_* = \arccos(1/\Phi) = 51.827292^\circ$**), fixed-$R$ series $T_{\text{ser}}(\varphi) = 4/(4 + \tan^2\varphi)$ (peaking at **$\varphi_* = 47.442204^\circ$**), and the un-squared linear control $\cos\varphi$ (peaking at **$45.000000^\circ$**).
+
+In quantum mechanics, the non-collapsing overlap channel is structurally analogous to **weak measurement**—a unitary basis rotation without projection. The observer's buffer entrains with the target's via resonant coupling: the XOR bottleneck is not forced, the Landauer Tax is not paid, and the state does not drop into $P$. Mapping weak-measurement gain (alongside agency stationary point, optimal predatory detuning, and CHSH visibility scaling) onto one specific port law among those four exact candidates is held as **`CANDIDATE`**: both the first-principles spinor-channel transmission derivation from vertex form factors and the physical law-to-case assignment remain open (`QED-AstroLogic` §XII.i). Spinor angle $\theta$ and impedance phase angle $\varphi$ must remain strictly separated throughout.
 
 The observer is no longer projecting an image onto the outside of the target's blanket. The two systems are sharing a single phase-space. The observer feels the external system's structural tension *as if it were their own*, because, topologically, it is. The alternating current of the relationship ($I$) is passing through both interiors with a Power Factor of 1.0. 
 
@@ -61,7 +65,7 @@ A proof-type must have a falsifier, or it is a delusion. How do we distinguish S
 
 **The Discrimination Test:**
 *   **The Theory of Mind trap** attempts to extract the target's *content*. It looks at the outside and says, "Because you did X, you must secretly desire Y." It is a claim about the specific semantic values hidden inside the target's Live-Written Ledger. It fails because content cannot cross the blanket without paying the Tax.
-*   **Structural Clairvoyance** extracts only the target's *phase-form*. It looks at the interaction and says, "We are experiencing a Torsional phase-shear of $\theta = \pi/2$ on the Mutable axis." It makes no claim about the target's hidden secrets. It only claims knowledge of the structural tension, which is directly verifiable because both parties are subject to the same impedance in the shared circuit.
+*   **Structural Clairvoyance** extracts only the target's *phase-form*. It looks at the interaction and says, "We are experiencing a Torsional phase-shear of $\theta_{\text{shear}} = \pi/2$ on the Mutable axis." It makes no claim about the target's hidden secrets. It only claims knowledge of the structural tension, which is directly verifiable because both parties are subject to the same impedance in the shared circuit.
 
 If an observer claims to know the external system, but cannot establish a resonant zero-crossing (if the relationship remains highly reactive, full of friction and projection), the observer is not clairvoyant. They are simply painting the outside of Gabriel's Horn and hallucinating that they are inside. 
 
@@ -69,6 +73,5 @@ True clairvoyance requires the math to ring. If the phase gap does not close, th
 
 ---
 
----
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 
