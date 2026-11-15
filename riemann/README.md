@@ -1,13 +1,13 @@
 # The Riemann Folder
 ## What the First Line Bought, Where It Binds, and Why a Routing Economy Looks Like Progress
 
-*An architectural index to the geometric and arithmetic audits. Reads with `L4-Riemann` (the parent: the five registers, the checks, the kills, the debts, the rules), and `claude/L2-K4-Inferences` (the arithmetic companion). Owns no claims of its own; every claim below is held at an address.*
+*An architectural index to the geometric and arithmetic audits. Reads with `L4-Riemann` (the parent: the five registers, the checks, the kills, the debts, the rules), and `L2-K4-Inferences` (the arithmetic companion). Owns no claims of its own; every claim below is held at an address.*
 
 ---
 
 ## What This Folder Is
 
-$K_4$ is treated here as an abstract class — four poles in mutual determination, a cyclic constraint net, a cost per commit — and the exercise is to inflate that class into a host domain and find where it binds. In `L4-Riemann` and its six parts the host is differential geometry and gravitation. In `claude/L2-K4-Inferences` the host is analytic number theory. **The binding is the deliverable.**
+$K_4$ is treated here as an abstract class — four poles in mutual determination, a cyclic constraint net, a cost per commit — and the exercise is to inflate that class into a host domain and find where it binds. In `L4-Riemann` and its six parts the host is differential geometry and gravitation. In `L2-K4-Inferences` the host is analytic number theory. **The binding is the deliverable.**
 
 Nothing here proposes to replace General Relativity, and nothing here claims the Riemann Hypothesis holds or fails. A reader who takes either track for a candidate theory of everything will find category errors on every page, correctly, and will be auditing a document that does not exist (`L4-Riemann`, *What This Series Is*).
 
@@ -21,7 +21,7 @@ Read this paragraph before the index, because almost every misreading of this fo
 
 Standard gravitation sets the connection symmetric, and that was not a convenience nobody examined. Metric compatibility with a symmetric connection buys the unique connection built from the metric and its first derivatives; it can be made to vanish at a point in a suitable frame, which is the local form of the equivalence principle; the field equations stay second-order; no extra unconstrained tensor field has to be carried, propagated or bounded; and the resulting theory is confirmed to the precision the post-Newtonian tests reach. Those are good reasons, and this series takes them as the host's own (`L4-Riemann`, the opening).
 
-The arithmetic track has the same shape. Centring on $\sigma = \tfrac12$ buys clean averaged prime laws, a real and lossless wave on the critical line, a positive proportion of zeros known to lie there, and the Bombieri–Vinogradov strength on average that much of the subject already runs on (`claude/L2-K4-Inferences` §III.5). Neither purchase was careless. **No confirmed number is disputed anywhere in this folder.**
+The arithmetic track has the same shape. Centring on $\sigma = \tfrac12$ buys clean averaged prime laws, a real and lossless wave on the critical line, a positive proportion of zeros known to lie there, and the Bombieri–Vinogradov strength on average that much of the subject already runs on (`L2-K4-Inferences` §III.5). Neither purchase was careless. **No confirmed number is disputed anywhere in this folder.**
 
 What the folder tracks is the other column of the receipt: what becomes invisible once a working formalism closes without a register to record it.
 
@@ -49,7 +49,7 @@ Readers arriving from physics or mathematics most often stall on three moves. No
 
 **The floor is not the solid.** Written in logarithms, the twelve DC relations are four lines through one point, one per face, and they span a plane. They reduce to two, and that was never a secret: it is the floor. The solid is built over it by the seats — the directed reading of every edge, and the single handedness bit the boundary's closure leaves free — and a rank count does not contain a seat (`L4-Riemann-2`; expect there: rank two in log space against rank three over $\mathbb{F}_2$ plus one global bit, and the harmonic floor that cannot tell Fixed from Mutable though the seats can). Counting the floor's rank as the solid's content is the deepest error in the case history, and it was made again after being named (`L4-Riemann-evolution` §IV, pattern 11).
 
-**A face reading is not an improper question; a routing economy is not progress.** The classical statement of the Riemann Hypothesis, $\mathrm{Re}(s) = \tfrac12$, is a valid and flat face reading, measured from the corner $s = 0$ — complete on its own terms, and carrying a coordinate choice. Calling it improper spends a domain-native licence the arithmetic track never bought; its own first step fixes the layer at meta-of-domain and buys the right to say nothing inside analytic number theory (`claude/L2-K4-Inferences` §1). What the track does say is sharper. Symmetry is routing: free, unit slope, moving value without paying. The deciding square is a commit: taxed, slope two. The equivalence mill — Li's criterion, Weil's form, Robin's inequality, Nyman–Beurling, de Branges — moves the claim across untaxed routes, while only a positivity commit can decide bulk occupancy (§III.4). Two controls measure that structurally: the Davenport–Heilbronn function has the group and no Euler product, $\zeta(s-\tfrac14)\zeta(s+\tfrac14)$ has the group *and* an Euler product, and both have zeros in the bulk (§7.1). **Nothing routable decides occupancy.**
+**A face reading is not an improper question; a routing economy is not progress.** The classical statement of the Riemann Hypothesis, $\mathrm{Re}(s) = \tfrac12$, is a valid and flat face reading, measured from the corner $s = 0$ — complete on its own terms, and carrying a coordinate choice. Calling it improper spends a domain-native licence the arithmetic track never bought; its own first step fixes the layer at meta-of-domain and buys the right to say nothing inside analytic number theory (`L2-K4-Inferences` §1). What the track does say is sharper. Symmetry is routing: free, unit slope, moving value without paying. The deciding square is a commit: taxed, slope two. The equivalence mill — Li's criterion, Weil's form, Robin's inequality, Nyman–Beurling, de Branges — moves the claim across untaxed routes, while only a positivity commit can decide bulk occupancy (§III.4). Two controls measure that structurally: the Davenport–Heilbronn function has the group and no Euler product, $\zeta(s-\tfrac14)\zeta(s+\tfrac14)$ has the group *and* an Euler product, and both have zeros in the bulk (§7.1). **Nothing routable decides occupancy.**
 
 A real proof is therefore the framework's arbiter and never a threat to it: the track predicts that a proof turns on a positivity and not on a new symmetry, and lists the reverse as a kill. Two hazards stay distinct from the proof itself. Mistaking a route — an equivalence, or a property that only holds once the two monads coincide — for a commit is the freeze error. And even after a genuine proof lands, **Simplicity is a separate conjecture**: a zero of even multiplicity sits on the line, fuses its orbit into a dipole, satisfies the hypothesis, and changes no sign (§IV.4).
 
@@ -88,7 +88,7 @@ A resemblance that is none of the five is not a claim and does not belong in the
   • L4-Riemann-wip                   Sibling-file flags, open workings, script map
 
   THE ARITHMETIC COMPANION
-  • claude/L2-K4-Inferences          Seven-step procedure; V4 lifted to the saddle z = xy;
+  • L2-K4-Inferences                 Seven-step procedure; V4 lifted to the saddle z = xy;
                                      two bulk-occupied controls; the prime-writing cycle
 ========================================================================================
 ```
@@ -129,7 +129,7 @@ It also scores the bench and counsel both ways, and names the shape worth keepin
 
 ## The Arithmetic Companion
 
-**`claude/L2-K4-Inferences`** runs the same floor-and-solid, route-and-commit audit on $\xi(s)$ without importing physics into number theory, and it is a cross-link this index proposes rather than a claim the geometric series already makes — the parent does not cite it.
+**`L2-K4-Inferences`** runs the same floor-and-solid, route-and-commit audit on $\xi(s)$ without importing physics into number theory, and it is a cross-link this index proposes rather than a claim the geometric series already makes — the parent does not cite it.
 
 It owns a seven-step inference procedure and its worked specimen. The four moves on $\xi$ close into a Klein four-group; sorting the plane by what each move fixes gives one bulk, two axes and a centre, with one subgroup class missing until the lift locates it; every orbit balances on $s = \tfrac12$ whatever the hypothesis turns out to be. The lift is where the work is: requiring each move to act as a rotation forces a third coordinate odd under conjugation, odd under the line-reflection and even under the functional equation, and the lowest monomial that qualifies is $z = xy$ — half the imaginary part of $(s - \tfrac12)^2$, so no new data enters. Two candidate lifts return zero volume and are reported as results. Volume then vanishes on exactly two axes, which is weaker than the hypothesis, and the second axis is cleared for $\xi$ by a theorem and left open for real characters, where a Landau–Siegel zero would sit. Part Four walks the cycle that writes the primes — unfold, hold, collapse, reseed, write — computing the explicit formula at $\psi_1(30.5)$ and closing 98.9% of the gap with a hundred dipoles, and ends by stating what the hypothesis is once the nouns are set down: **the claim that the cycle which writes the primes runs without gain or loss.**
 
@@ -137,7 +137,7 @@ It owns a seven-step inference procedure and its worked specimen. The four moves
 
 ## Reading Tracks
 
-A classical physicist or sceptic gets the fastest verification from the parent's registers and rules, then `-1` §§II–III and §VII, then `-5` for the action and the bound, then `-6` §§I–II and §V, and then by re-running the scripts the parent names. A corpus-internal audit runs `-2` for floor against solid, `-4` for the frictions, `-evolution` for the Fossil Census and the patterns, `-wip` for the sibling flags and open workings, and `claude/L2-K4-Inferences` for the arithmetic companion. A reader who wants the inoculation before the argument reads `-3` §V, *Why Not 1922*, first.
+A classical physicist or sceptic gets the fastest verification from the parent's registers and rules, then `-1` §§II–III and §VII, then `-5` for the action and the bound, then `-6` §§I–II and §V, and then by re-running the scripts the parent names. A corpus-internal audit runs `-2` for floor against solid, `-4` for the frictions, `-evolution` for the Fossil Census and the patterns, `-wip` for the sibling flags and open workings, and `L2-K4-Inferences` for the arithmetic companion. A reader who wants the inoculation before the argument reads `-3` §V, *Why Not 1922*, first.
 
 ---
 
@@ -156,14 +156,6 @@ What the second purchase removes is a kind of object rather than a dimension: a 
 The arithmetic track finds the same shape in another host. A centre that is settled, proved and in daily use; a bulk whose occupancy is decided by a square nobody has paid at; and a century of equivalences moving the claim around the untaxed tier while the gate stays shut.
 
 Neither track asks for belief, and neither disputes a confirmed number. What they add is a cost column — and a cost column is a bookkeeping device, not a discovery. What an action cannot do is commit, which is why the geometric case ends on a balance in Sardinia, and the arithmetic case ends holding a question open rather than closing it.
-
----
-
-## Verification Boundary
-
-Read at source for this index: `L4-Riemann`, `L4-Riemann-3`, `L4-Riemann-evolution` (as `L4-Riemann-log.md`), and `claude/L2-K4-Inferences`. The entries for `-1`, `-2`, `-4`, `-5`, `-6` and `-wip` rest on the parent's own part summaries and on the case history's narration of each, both read in full here, and not on a direct read of those six files — verify any quotation from them at its own address before relying on it.
-
-Three count drifts noted and **not** corrected, since they belong to their own files: the parent describes the case history as carrying "fourteen error patterns" where it now carries twenty-one; the parent's *Takehome* is headed "Twelve rules" and lists fourteen; and the parent's one-line summary of Part Three still ends *"None of them had the flag,"* which the Withdrawals Ledger records as withdrawn as teleological, and which `L4-Riemann-3` itself no longer says. The last of these is a live instance of the Fossil Census's own finding — a withdrawal written at one site, with the claim still standing in a summary, which is exactly where a reader goes first.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work. Part Five is the part a classical reader can check with their own tools; Part Four reads as overreach unless the friction register is in view.
