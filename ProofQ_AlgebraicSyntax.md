@@ -5,17 +5,15 @@
 > **Type:** Structural proof (Algebraic morphology), verified mechanically.
 > **Method:** Parses the equation set by operator class (linear vs. non-linear, multiplication vs. division, numerator vs. denominator) to demonstrate that the syntax natively auto-classifies the state-space. Mechanized traces enforce the rules and crash on topological impossibilities.
 
-*From the Compiling Reality proof suite. Self-contained. This proof retires the assumption that the framework uses a subjective "mapping heuristic" to assign qualitative meaning to the variables. It establishes the epistemology as an auto-classifying arithmetic syntax. The position of a variable in a fraction or under an exponent geometrically determines its role in compiling reality.*
+*From the Compiling Reality proof suite. Self-contained. The epistemology is an auto-classifying arithmetic syntax: the framework does not assign qualitative meaning to the variables by a subjective mapping heuristic — the position of a variable in a fraction or under an exponent geometrically determines its role in compiling reality.*
 
 ---
 
-## I. The End of the Mapping Heuristic
+## I. The Arithmetic Assigns the Roles
 
-Earlier stages of this work treated the assignment of elements to variables—identifying $P$ as Fire/Power and $I$ as Water/Current—as a constrained sorting procedure. It relied on observing qualitative symmetries between physical circuits and domains like psychology or classical rhetoric.
+Strip away the variable names and examine only the arithmetic operators—how the equations construct themselves using multiplication, division, squares, and roots. A massive topological symmetry emerges. The equations do not form just a relational network; they form a **Generative Grammar**. The rules of interiority, boundary, resource, and constraint are written directly into the operators themselves.
 
-That was an underclaim. 
-
-Strip away the variable names and examine only the arithmetic operators—how the equations construct themselves using multiplication, division, squares, and roots. A massive topological symmetry emerges. The equations do not form just a relational network; they form a **Generative Grammar**. The rules of interiority, boundary, resource, and constraint are written directly into the operators themselves. 
+The assignment of elements to variables—$P$ as Fire/Power, $I$ as Water/Current—is not a sorting procedure read off qualitative symmetries between circuits and domains like psychology or classical rhetoric. The operators fix it.
 
 ---
 
@@ -52,9 +50,7 @@ The Reactive poles ($I$ and $R$) are the **Divisors** (The Die). They act as the
 
 ## III. Law 2: The Synthesis Law (The Nature of the Reactive)
 
-**The law that holds exactly is the Reactive side: Reactive homes admit only ratios.** Active homes admit products — and they also admit certain quotients with Active-pole numerators, which Law 1 permits. The earlier wording of this section called Active synthesis "pure multiplication"; that overstated the Active side, because two of the Active-home equations are quotients ($P = U^2/R$ and $U = P/I$). The symmetric statement, read correctly:
-
-**Active homes admit products; Reactive homes admit only ratios.**
+**Active homes admit products; Reactive homes admit only ratios.** The Reactive side holds exactly: every Reactive home is a ratio. Active homes admit products, and also certain quotients with Active-pole numerators, which Law 1 permits — two of the Active-home equations are quotients ($P = U^2/R$ and $U = P/I$).
 
 The Active-home equations are:
 *   $P = U \times I$ (product)
@@ -99,18 +95,20 @@ Squaring destroys directionality. It takes a relational vector (Current $I$ or V
 
 This constitutes the exact algebraic footprint of the **Landauer Tax** and the bounded frame's `.observe()` collapse. Squaring forces the relational flow through the XOR actuator bottleneck, burns off the unchosen branches, and slams the result into the Asserting ground as pure Mass/Heat/Ledger ($P$). The squares are the Garbage Collector running.
 
-### 3. Rooting: The ±-Reopening (Not Un-Writing the Ledger)
+### 3. Rooting: The ±-Reopening (Is not Un-Writing the Ledger)
 
-The square root ($\sqrt{x}$) opens a collapsed scalar back into a **binary sign ambiguity** ($\sqrt{4} = \pm 2$) — not into the full multidimensional vector space that squaring annihilated. The earlier wording of this subsection (and of §V below) called rooting a "holographic projection" that "restores directionality" and "un-writes the Ledger"; that overstated what roots do, and the overstatement conflicts with the non-invertibility of squaring already proven in `L3-TheSelfProjectingBraid` §IV and with the correction already carried in `L7-ExIncoherenteCreation` §III.
-
-What a root actually does:
+The square root ($\sqrt{x}$) opens a collapsed scalar back into a **binary sign ambiguity** ($\sqrt{4} = \pm 2$) — not into the full multidimensional vector space that squaring annihilated.
 
 *   $I = \sqrt{P / R}$
 *   $U = \sqrt{P \times R}$
 
-The root takes a committed scalar from the Asserting ground ($P$ or $P \cdot R$) and projects it to a Yielding home ($I$ or $U$) as a value carrying a $\pm$ ambiguity of the same cardinality as the output type: a bounded sign, one bit of fresh choice. It does **not** recover the vector phase that squaring deleted. Squaring is non-invertible; what the root delivers is a new binary ambiguity at the output, not a restoration of the input direction that was burned.
+The root takes a committed scalar from the Asserting ground ($P$ or $P \cdot R$) and projects it to a Yielding home ($I$ or $U$) as a value carrying a $\pm$ ambiguity of the same cardinality as the output type: a bounded sign, one bit of fresh choice. It does **not** recover the vector phase that squaring deleted; squaring is non-invertible (`L3-TheSelfProjectingBraid` §IV; `L7-ExIncoherenteCreation` §III). What the root delivers is a new binary ambiguity at the output, not a restoration of the input direction that was burned.
 
 In the compiler's terms: rooting extracts a communicative signal (`.behold()`) from a mute physical mass by **adding one fresh bit of $\pm$ choice** at the Yielding home. The fresh bit is the opening a bounded living frame uses to re-enter an uncommitted direction and build a new structure against the committed ground. It is not a time-reversal of the commit that produced the input.
+
+### 4. Corollary: The Curvature Tensor Sits on the K3 Face
+
+Gravity commits by squaring into the K4 interior — $P = I^2 R$, $P = U^2/R$, the directionless scalar landed on the Asserting ground (§IV.2). The curvature tensor is the other side of that cut: a linear, relational, across-the-boundary object — the K3 Blanket-Face read (§IV.1) of the interior write, taken from outside. It is not a primitive of the algebra. The primitive is the local square-commit at the vertex; curvature is the reversible plane-causality view of what was irreversibly written, and its free, source-free part (the Weyl content) is the reactive circulation the interior holds in `.behold()`, never a committed carrier. A bounded account of gravity therefore never writes the curvature tensor; this is a forced consequent of Law 3. The full reading, in the engine's Inversion-of-Control register, is `L6-InversionOfControl` §VII.
 
 ---
 
@@ -120,19 +118,19 @@ The mechanized dual-route trace elevates the square/root sorting from an observa
 
 *   **Squaring is the arrow into Asserting.** Every square route lands on an Asserting home ($P$, $R$). The squared operand is always a Yielding pole ($U$, $I$). The remaining co-factor is always the *other* Asserting pole.
 
-*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). As §IV.3 above makes exact: rooting opens a fresh $\pm$ ambiguity at the Yielding output, not a reversal of the Asserting commit that produced the input. The route structure records the `.observe()`/`.behold()` cycle: Asserting poles are manufactured by collapse; Yielding poles carry a new sign-ambiguity minted by the root over the committed ground. Six linear, six nonlinear: the surface reading and the interior reading of the same four poles balance exactly.
+*   **Rooting is the arrow into Yielding.** Every root route lands on a Yielding home ($U$, $I$). The radicand consists exclusively of the two Asserting poles ($P$, $R$). As §IV.3 makes exact: rooting opens a fresh $\pm$ ambiguity at the Yielding output, not a reversal of the Asserting commit that produced the input. The route structure records the `.observe()`/`.behold()` cycle: Asserting poles are manufactured by collapse; Yielding poles carry a new sign-ambiguity minted by the root over the committed ground. Six linear, six nonlinear: the surface reading and the interior reading of the same four poles balance exactly.
 
 ### The Three Squarings (Explicit, One Site)
 
-This file has carried one term — "squaring" — through three distinct mathematical operations in physics, and the earlier wording left them conflated. Named at the root site:
+The term "squaring" names three distinct operations. At the root site:
 
 **Squaring 1 — Algebraic $Z^2$ on a biquaternion.** For a state vector $Z = P + h\mathbf{Q}$ in the biquaternion algebra (`ProofN_BiquaternionBridge`), the algebraic square is $Z^2 = P^2 + 2hP\mathbf{Q} + h^2\mathbf{Q}^2 = (P^2 - |\mathbf{Q}|^2) + 2hP\mathbf{Q}$. This is **not** a real-positive scalar; it carries an imaginary vector part $2hP\mathbf{Q}$ except in the pure-vector element where $P = 0$ (see `Q5-StarNormProduct` §II, which treats that element). The algebraic square is a biquaternion-algebraic operation; it is not the Born Rule.
 
-**Squaring 2 — Mod-square $|I|^2$ (the AC Route Law, Born's form).** In AC circuit algebra, real power is $P = |I|^2 R$ where $|I|$ is the rms (root-mean-square) amplitude of a complex current phasor $I$: specifically, $|I|^2 = I I^*$, the mod-square. This is Hermitian, strictly real-positive, and exactly the form the Born Rule takes: $P_i = |\langle \psi_i | \Psi \rangle|^2 = \langle \Psi|\psi_i\rangle \langle\psi_i|\Psi\rangle$ — amplitude times its complex conjugate. **Born is the Route Law in its AC form**: the squaring-into-Asserting that physics observes is specifically the mod-square $|I|^2$, not the algebraic $Z^2$ of a biquaternion. On real-valued DC inputs the two coincide (because the imaginary part vanishes), which is why the earlier wording in this file read smoothly on the DC equations and only diverged from Born when biquaternion state vectors came into the picture. The mod-square is the one Born uses, and it is what the Route Law delivers when the operand is a complex AC phasor.
+**Squaring 2 — Mod-square $|I|^2$ (the AC Route Law, Born's form).** In AC circuit algebra, real power is $P = |I|^2 R$ where $|I|$ is the rms (root-mean-square) amplitude of a complex current phasor $I$: specifically, $|I|^2 = I I^*$, the mod-square. This is Hermitian, strictly real-positive, and exactly the form the Born Rule takes: $P_i = |\langle \psi_i | \Psi \rangle|^2 = \langle \Psi|\psi_i\rangle \langle\psi_i|\Psi\rangle$ — amplitude times its complex conjugate. **Born is the Route Law in its AC form**: the squaring-into-Asserting that physics observes is specifically the mod-square $|I|^2$, not the algebraic $Z^2$ of a biquaternion. On real-valued DC inputs the two coincide, because the imaginary part vanishes; they diverge only for biquaternion state vectors. The Route Law delivers the mod-square when the operand is a complex AC phasor.
 
 **Squaring 3 — The Star-Norm $N_* = ZZ^\dagger = P^2 - |\mathbf{Q}|^2$.** Under the biquaternion's $h$-preserving conjugation $Z^\dagger = P - h\mathbf{Q}$, the product $ZZ^\dagger = P^2 - |\mathbf{Q}|^2$ is Lorentzian-signature and real-scalar. It is the invariant mass-norm (`Q5-StarNormProduct` §II, `Q18-PhaseCompositionOnTheStarNorm` §I), not the Born probability. The Star-Norm uses biquaternion conjugation; the mod-square uses complex conjugation on an AC phasor.
 
-**The identification repaired.** The Born Rule is the AC Route Law (Squaring 2, mod-square), not the algebraic square of a biquaternion (Squaring 1). The Star-Norm (Squaring 3) is a third, separate operation on the biquaternion algebra. All three are "squarings" in ordinary usage; they are three different operations, and the file identifies the Route Law with Born through Squaring 2 specifically. The earlier wording "the Born Rule is not a bolted-on quantum exception; it is the specific quantum-mechanical instance of this universal Route Law" stands — it was correct when read on real DC values; what was missing was the AC extension that makes the identification precise. The quantum-mechanical instance is the mod-square, and the Route Law delivers it when the operand is a complex phasor.
+**The identification.** The Born Rule is the AC Route Law (Squaring 2, the mod-square), not the algebraic square of a biquaternion (Squaring 1); the Star-Norm (Squaring 3) is a third, separate operation on the biquaternion algebra. All three are "squarings" in ordinary usage and are three different operations. The Born Rule is the Route Law's quantum-mechanical instance — the mod-square the Route Law delivers when the operand is a complex phasor.
 
 ---
 
@@ -140,7 +138,7 @@ This file has carried one term — "squaring" — through three distinct mathema
 
 The DC set contains no addition. The AC set introduces it. Mechanical verification confirms a strict homogeneity constraint: **addition composes only within a pole-class.** 
 
-Addition assembles a pole from its own real and imaginary components ($S = P + jQ$), or it composes same-class elements (e.g., series impedances $Z = Z_L + Z_C$). Addition never crosses the Active/Reactive seed boundary. Cross-class addition crashes the syntax. This amends the Synthesis Law for AC: class-preserving addition operates as composition, not synthesis.
+Addition assembles a pole from its own real and imaginary components ($S = P + jQ$), or it composes same-class elements (e.g., series impedances $Z = Z_L + Z_C$). Addition never crosses the Active/Reactive seed boundary. Cross-class addition crashes the syntax. For AC, class-preserving addition operates as composition, not synthesis.
 
 ---
 

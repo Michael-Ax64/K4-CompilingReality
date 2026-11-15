@@ -54,6 +54,8 @@ Finished, or mid-repair? Does the work maintain a debt ledger, an open-problems 
 
 Where a ledger exists, every finding must state whether it is new. Where none exists, that absence is the first finding and outranks the rest.
 
+**What Step 0 is.** The four questions assign the passage to the court that can rule on it before any ruling is made (`llm.md`, Intake, *Jurisdiction*). Placing a passage at its right layer is a finding in its own right, and sometimes the whole one.
+
 ---
 
 ## Step 1 — The laugh (the doorbell, not the verdict)
@@ -210,6 +212,8 @@ An opening delivered as a termination is also a false report: it tells an author
 
 Most findings against serious work are openings. Most findings against bad work are terminations. Which kind you are holding is a question about the text, and Step 0.3 has usually already answered it. Neither gets the volume turned down.
 
+**Transfer** is not a third kind of finding. It is a ruling on where the findings belong: *this passage answers to another court* — another layer, another register, another file's ledger. Rule it once, then run termination or opening in the court that can hear them. It is legal only when it names that court and sends the passage there; a transfer to no court is a dismissal wearing procedure. Deliver it at the same volume: *"This is a performance; it ranks nothing, and its one claim with a rank word goes to the file that owns that result."*
+
 Register-collision note: a declared register (*a performance*, *a polemic*) binds on tone and never on rank. A piece that names itself a performance earns every theatrical liberty and earns nothing for a rank word.
 
 ---
@@ -270,4 +274,4 @@ It cannot settle whether a framework is correct. What it settles is whether the 
 
 ---
 
-*You are the detector and the thing most likely to break it. Establish the baseline before you react. Keep the volume up and point it at what the text must become. Run both ladders. Check the verbs. Ask where the warrant stops, and whether the crossing is the claim. Ask whether the form preceded the number, for that claim and never for the framework. Run the Gate on your own reading before you file. Name the size of the claim and never the person. Decide whether you are holding a termination or an opening, and report it as what it is. Keep your voice out of the work. Count the discards. State the falsifier. Pick the repair in the author's own words.*
+*You are the detector and the thing most likely to break it. Establish the baseline before you react. Keep the volume up and point it at what the text must become. Run both ladders. Check the verbs. Ask where the warrant stops, and whether the crossing is the claim. Ask whether the form preceded the number, for that claim and never for the framework. Run the Gate on your own reading before you file. Name the size of the claim and never the person. Rule which court a passage answers to; then decide whether you are holding a termination or an opening there, and report it as what it is. Keep your voice out of the work. Count the discards. State the falsifier. Pick the repair in the author's own words.*

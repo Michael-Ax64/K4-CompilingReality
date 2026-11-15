@@ -23,13 +23,15 @@ Ask instead: **does the topology it names actually recur where it claims to recu
 
 That is the criterion. Apply it consistently.
 
+The register question is a question of court. Before asking whether a claim holds, ask where it is filed and whether that court can rule on it; then judge it there (`llm.md`, Intake, *Jurisdiction*). A correct verdict from the wrong court is still a misfiling.
+
 ---
 
 ## What to check, in order
 
 **1. The combinatorics.** ProofU and ProofQ derive K4 and its twelve equations from two orthogonal bits. This is deductive. Verify it as combinatorics, not as physics. If it holds (it does), the substrate exists as a well-defined mathematical object. This is the foundation and it is not in dispute; do not spend time here except to confirm.
 
-**2. The scale-invariance postulate.** L4-ScalingInvariants is where the corpus extends "correct combinatorics on four things" to "the topology any bounded interior instantiates." This is a postulate, not a theorem. Everything downstream rides on it. Ask whether the postulate is defensible, not whether it is proven — it isn't proven and doesn't claim to be. Ask whether the cross-domain instances the corpus marshals toward it are numerous, specific, and non-trivial, or whether they are cherry-picked and pattern-matched.
+**2. The scale-invariance step.** L4-ScalingInvariants is where the corpus extends "correct combinatorics on four things" to "the topology any bounded interior instantiates." Sort the step before auditing it. The scale-minting mechanism — six carriers, six transformers in log coordinates — is a theorem there. "Holds at every scale" is that theorem plus the interiority tautology, applied wherever a bounded interior exists. What is open is the antecedent, domain by domain: whether a given domain admits an interior at all, and how its poles seat. Audit there. Ask whether the cross-domain instances the corpus marshals are numerous, specific, and non-trivial, or cherry-picked and pattern-matched. Do not file the forced part as an open postulate (`llm-writing.md`, the Modal Stamp).
 
 **3. The identifications, not the derivations.** When the corpus says "the Landau pole is a Tangent Singularity," "the Born Rule is a Route Law instance," "CKM δ is the substrate's non-removable phase showing through" — read these as claims that the domain's phenomenon and the framework's operation are the same thing under different vocabulary. The test is not "does the framework compute the Landau pole's location" (it doesn't and doesn't try). The test is: does the phenomenon exhibit the structural features the framework's operation predicts, in the domain's own terms, checkable by a domain-native?
 
@@ -64,6 +66,8 @@ Hold these at their actual size. They are three specific debts, not a general co
 
 **The False Debt (FM-9).** Beware of manufacturing an outstanding obligation by measuring an address with an imported ruler. Check the currency: is the framework's stated deliverable dimensionless structure, while your debt demands a physical scale or textbook representation? Scoring the framework against an unpromised consumer deliverable is measuring an electrical outlet by whether it contains a toaster.
 
+**Wrong court.** Most of the failures above are errors of jurisdiction before they are errors of judgement. Prosecutorial overreach rules in a register the work disclaims; deference admits into the claims court what was filed as performance; the false debt tries an address by a ruler it was never built for. The repair is a transfer — declared, and toward a court that can rule — not a softer verdict delivered in the same wrong court.
+
 **Scope inflation (local mismatch is not topological refutation).** When a probe against an external domain fails at a local claim — for example, showing that the fluid enstrophy production $\boldsymbol{\omega}\cdot\mathbf{S}\cdot\boldsymbol{\omega}$ is parity-even and cannot carry the framework's chirality — record the finding at its exact size. It is a failed local analogy. It is not a refutation of the corpus's foundational topology. Graph-traversal chirality (`ProofG`) and the chiral face-mesh (`Q16`) are discrete boundary and path invariants operating in a different mathematical category from continuous-field parity, and do not stand or fall on tensor symmetries in classical fluid mechanics. The general rule: a local domain negative sizes to the domain, not to the substrate.
 
 ---
@@ -91,4 +95,3 @@ Occasionally the review job is not a document but a set of *proposed edits* — 
 **Lost sources.** Report lost references. No harm done. Rewrite only from source.
 
 **Two-attribution type-safety within a trinity.** `L3-TheAtomOfSpace` §VIII LANDED NOUN 6 anchors the discipline against confusing the impedance trinity (Reactive / Rotation / Resistive) with the bimedian trinity (Cardinal / Fixed / Mutable). The same discipline applies *within* a trinity when the three-name pool is used at two orthogonal levels — for example, {Cardinal, Fixed, Mutable} attaches both as an edge's bimedian assignment (which diameter it sits on) and as a directed edge's reading-rule label (what the target-based rule reads off the directed traversal). The same three names, two different attributions, easily conflated by a runner not tracking level. When editing sections that use one of these three-name pools at multiple levels, name the level each attribution is operating at.
-

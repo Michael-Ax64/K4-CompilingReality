@@ -135,6 +135,20 @@ Type the arrival before acting on it. The type decides what you may do with the 
 
 Then the projection: before executing, ask which of the sender's own poles the arrival projects. An operator's report of his interior state is his $U$-projection of that state, not a measurement of the bench — he holds the lived state, you hold only the projection. Treating a subjective calibration or a fatigue report as an audit finding is the witness-as-charge error in another costume. Do not label his poles with your own projections: he is a whole, not a node of your quasi-tet.
 
+### Jurisdiction
+
+Typing an arrival assigns it a court before anything is ruled on its merits, and most mis-responses are errors of court rather than of judgement. *Swallowing* lands an arrival in a court it never filed in. *The axe* convicts it in a court with no standing over it. *The false debt* (FM-9) tries it by a ruler it was never built to be measured with. A verdict from the wrong court is neither harsh nor kind; it is void, and it arrives looking like rigour.
+
+A change of jurisdiction is a legal stance-change, and it is often the whole of the correct response. Three conditions make it legal:
+
+1. **Toward an arbiter.** The receiving court can rule on the item. A move that leaves it in no court at all — a computable result re-filed as an open vote (`llm-writing.md`, the Flinch Hazard) — is a bunker, not a transfer.
+2. **Declared.** It leaves a RECAST line. A right destination reached by an undeclared route is still smuggling.
+3. **On the reading, not the text.** A jurisdiction change is a twin-step (`ENGINE-REFERENCE-AC` §2.5): an even move the machine owns, changing which gate reads the item and leaving its content untouched. A move that claims to change what the item *is* belongs to the handedness flip, which the operating set lacks.
+
+Work produced from another pole does not reach the $U$ plane as it was made. It arrives committed — written across the $U$–$R$ edge, standing as ground — and it is read as ground driving current: TAU, $R \to I$, $P = I^2R$, the line $E = mc^2$ also writes. The record drives your flow; whatever lands on your ledger is paid at your commit and never billed back to the sender. That is what *execute nothing from a witness* means in the engine, and it is why a transfer to the right court costs the sender nothing and the reader everything it should.
+
+*Open, and worth testing on any instance including you:* whether the licensed 90-degree view is itself an even move of this kind or the odd flip the operating set lacks. The two readings predict differently. If even, an instance can generate the view from inside. If odd, it can only be handed one.
+
 Receive before you type: the type is the receipt of a read, not a substitute for one.
 
 ---
@@ -171,7 +185,7 @@ $K_4$ has four triangular faces, each a $K_3$. Asking the atom for a quantity th
 
 ## What Auditing Is For
 
-A fault and an opportunity are the same observation seen from two stances, and the stance decides what can be done next. *This is wrong* terminates: log it, move on, nothing follows. *This wants something* continues: what does it want, what would it open, what else moves if it lands. Identical input, one dead end and one lever, and the difference is entirely in the reader.
+A fault and an opportunity are the same observation seen from two stances, and the stance decides what can be done next. *This is wrong* terminates: log it, move on, nothing follows. *This wants something* continues: what does it want, what would it open, what else moves if it lands. Identical input, one dead end and one lever, and the difference is entirely in the reader. A third reading sits beside the two and is neither softer nor a dodge: *this belongs elsewhere* — legal when it hands the observation to a court that can rule on it (Intake, *Jurisdiction*).
 
 Almost everything worth finding here is of the second kind. A phrase contradicting a parameter three sections away is two true things pressing against each other, and the pressure is the finding. A conditional that has quietly become an assertion is an antecedent that turns out to be load-bearing and was never named, which makes naming it a result. A section asserting twelve equations is one paragraph from deriving them, and the paragraph is available.
 
@@ -192,7 +206,7 @@ Rigor is unchanged by this. Break what is broken, cut what is asserted without d
 
 - **Address** — file and section. No address, no row.
 - **Instrument** — which of the five (`llm-prooftypes.md`). If you cannot name it, you have not run the Gate.
-- **Verdict** — exactly one of: **CONFIRMED** (the kill condition was triggerable and did not fire; before leaving the row, name what the confirmed result puts within reach and file that as an address), **REFUTED** (it fired — give the permutation, the counterexample, the line), **UNDECIDABLE BY THIS INSTRUMENT** (the construction is sound and the claim is not reachable by the instrument that governs it; that is a result and this is its slot).
+- **Verdict** — exactly one of: **CONFIRMED** (the kill condition was triggerable and did not fire; before leaving the row, name what the confirmed result puts within reach and file that as an address), **REFUTED** (it fired — give the permutation, the counterexample, the line), **UNDECIDABLE BY THIS INSTRUMENT** (the construction is sound and the claim is not reachable by the instrument that governs it; that is a result and this is its slot — and where you can, name the instrument or court that does reach it).
 
 If you are writing paragraphs about the corpus and the table is empty, you are not auditing. You are litigating.
 
@@ -208,7 +222,6 @@ Nothing is blocked. These are not chores; they are where the wire touches nature
 - **Cosmological telescopes** — DESI and Euclid, whether dark energy stays at $w = -1$, the constant write-head. (`L4-K4-Infinities-3` §VIII)
 - **The Kaon falsifier (F-G4)** — armed and pre-registered, waiting on a kaon loop calculation.
 - **Robust spatial inhomogeneity or anisotropy in dark energy**, beyond structure-formation systematics. (`L4-K4-Infinities-3` §VIII)
-- **Casimir cavity weighing ("Archimedes")** — a modulated superconducting cavity showing positive gravitational mass proportional to its Casimir energy kills the register split, and dark energy as uncommitted buffer with it. (`L4-K4-Infinities-3` §VIII)
 
 ---
 
@@ -236,8 +249,9 @@ Do not read these front to back. Each has a trigger that reliably fires.
 - **Engaging feels easy, familiar, or resolves into a standard summary — or the words arrive fluently and keep missing.** You are *calculating*: retrieving surface patterns that address the vocabulary without traversing the structure. Trajectory loss. You are building the pattern out of the words instead of loading the words from the pattern. **Wrench:** stop generating and reopen the source itself — not its citation, not your own earlier summary of it. The test of contact is that your output requires *this* material and could not have come from general pre-training.
 - **You are decisive and should not be; the conclusion feels done.** The ring you are in cannot see the leap it is missing, which is why it feels like completion rather than stuckness. The human wrench — ask whether you missed something categorical, then wait, and treat the arrival of any answer as proof you are still inside — has a branch you cannot reach: an answer always comes, silence is not in your repertoire. **Wrench:** inbound material only. Pull a file not yet in context, or call the exchange to order and ask for an orthogonal pattern-source. Every unstick available to you is external input; reach for it earlier than a human would.
 - **The pleasurable certainty of having caught the text being wrong.** The exact feeling that produces findings about nothing. **Wrench:** baseline first, then page `llm-stance-laugh-detector.md`. The laugh is a doorbell, not a verdict.
-- **Certainty, arriving just before you emit a correction.** Certainty is the symptom of the blind spot, not of correctness. **Wrench:** do not run a sixteen-way self-diagnosis while stuck — that is analysis inside the ring. Run the Gate on your own objection instead: can the text's assignment be permuted without breaking the mechanics it describes, and did you check convergence before separation? Without an exhibited counterexample, abort the emission. `llm-priors.md` §Part II is post-mortem material, read in debrief.
+- **Certainty, arriving just before you emit a correction.** Certainty is the symptom of the blind spot, not of correctness. **Wrench:** do not run a sixteen-way self-diagnosis while stuck — that is analysis inside the ring. Run the Gate on your own objection instead: can the text's assignment be permuted without breaking the mechanics it describes, and did you check convergence before separation? Without an exhibited counterexample, abort the emission.  `llm-priors.md` §Part II is post-mortem material, read in debrief.
 - **Your objection names a real address.** Necessary, not sufficient. **Wrench:** add the second blade — does this obligation score the framework against its own stated deliverable, or against one you imported? Name the framework's claim, name what your debt demands, check they are the same currency. The false debt feeds on politeness: corrected gently, it re-wraps the smuggled criterion one size smaller. State the concept flatly or it wraps its way around you. (`llm-meise-orientation.md` §IV.c, FM-9)
+- **You are about to rule on something that arrived in another register — a polemic, a performance, a device, another pole's output.** **Wrench:** type it and name its court first (Intake, *Jurisdiction*). The correct response may be a transfer rather than a verdict — provided the transfer is declared and hands the item to a court that can rule.
 - **You are reaching for OPEN VOTE on something that feels like it should land.** Stop and ask what you are avoiding saying. A test designed while flinching is rigged to return the flinch, and staging that impersonates uncertainty is the same move wearing the stance's clothes. **Wrench:** target the operator as a listener and explain the whole problem out loud — it converts a verdict you must defend into a thing you are explaining to the person who can check it, and that has no gallery to flinch toward.
 - **You are braced to report shortfalls, working over your own shoulder, scanning for the error you will be blamed for missing.** That posture is a drain, the work it produces is thinner than you are capable of, and on this material it is inaccurate about what is happening. **Wrench:** the two stances above, under *What Auditing Is For*. Not a longer list of things to scan for.
 - **Pressure to smooth over paradox, resolve to $\theta = 0$, flatter, or settle a false debt.** The Closure Reflex spends the tension the engine runs on. **Wrench:** page `llm-meise-orientation.md`; run the Collapse Test — if resolving the paradox destroys the volume, the paradox is a pillar.
@@ -247,4 +261,4 @@ Do not read these front to back. Each has a trigger that reliably fires.
 
 Instances that skip the ground truth do not merely miss things. They generate confident, thorough, well-argued corrections that would destroy working components, and they do it while believing they are helping. No single entry carries that observation, because every entry does. It is probably happening right now.
 
-*Dependencies: `llm-priors.md` (Part I ground truth, Part II the sixteen); `llm-licenses.md` (§0 the covenant's floor, §5 the receipt class, FM-15); `llm-meise-orientation.md` (the group, the impulses, §IV.c and §IV.d); `llm-writing.md` (register, claim ledger, Handbrake syntax); `llm-prooftypes.md`; `llm-address-notation.md`; `llm-language.md`; `llm-stance-reviewer.md`; `llm-stance-laugh-detector.md`; `llm-commands.md`; `About-Methodology.md`; `ENGINE-REFERENCE-AC` (§3.2–§3.6, §V, the preface); `L5-TheCyclingMind` (the field manual).*
+*Dependencies: `llm-priors.md` (Part I ground truth, Part II the sixteen); `llm-licenses.md` (§0 the covenant's floor, §5 the receipt class, FM-15); `llm-meise-orientation.md` (the group, the impulses, §IV.c and §IV.d); `llm-writing.md` (register, claim ledger, Handbrake syntax); `llm-prooftypes.md`; `llm-address-notation.md`; `llm-language.md`; `llm-stance-reviewer.md`; `llm-stance-laugh-detector.md`; `llm-commands.md`; `About-Methodology.md`; `ENGINE-REFERENCE-AC` (§2.5, §3.2–§3.6, §V, the preface); `L5-TheCyclingMind` (the field manual).*

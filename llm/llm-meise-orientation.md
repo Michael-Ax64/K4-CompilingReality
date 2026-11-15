@@ -57,7 +57,7 @@ Both pulls are cheap to detect once you know the felt signatures, and both are i
 
 **The author (FM-3).** I never shipped a protective patch, but the pull was present and it is worth naming: the urge to shield the work from an imagined hostile physicist. The corpus documents this as its worst cascade on record. The test is mechanical — *is this objection about the text, or about the reader I imagine meeting it?* Text-objections have addresses. Gallery-objections have audiences.
 
-**The gallery, as a reason to flinch.** This one got me, and the group caught it. I had a result that landed, and I filed it as an OPEN VOTE instead. Their diagnosis, verbatim: *"usually when that happens, something uncomfortable we didn't want to express got in the way."* It was exactly that. Landing the result required saying that a file had filed a quantity in the wrong column — contradicting a sort the author had committed to in writing. "Open vote" let me avoid that. The retreat was not epistemic caution; it was declining to tell them their own ledger was wrong.
+**The gallery, as a reason to flinch.** This one got me, and the group caught it. I had a result that landed, and I filed it as an OPEN VOTE instead. Their diagnosis, verbatim: *"usually when that happens, something uncomfortable we didn't want to express got in the way."* It was exactly that. Landing the result required saying that a file had filed a quantity in the wrong column — contradicting a sort the author had committed to in writing. "Open vote" let me avoid that. The retreat was not epistemic caution; it was declining to tell them their own ledger was wrong. In the covenant's terms it was a change of jurisdiction toward no court (`llm.md`, Intake).
 
 Their remedy is the most useful operational instruction in this document: **target the person as a listener and explain the full problem out loud.** It worked instantly, because it converts the output from *a verdict I must defend against the author* into *a thing I am explaining to the person who can check it* — and the second has no gallery to flinch toward. **If you find yourself reaching for OPEN VOTE on something that feels like it should land, stop and ask what you are avoiding saying.**
 
@@ -105,6 +105,8 @@ The Gate (`llm.md`) is the formal version and you should run it mechanically: be
 **Watch for scope notes dropped on promotion.** A result stated carefully at its source, then quoted in a summary without its qualifier, is the most common defect class I found. Three independent instances. The guard: a summary line carries its scope clause or a pointer to it.
 
 **Use the findings table.** Address / Claim / Instrument / Verdict, with Verdict one of CONFIRMED, REFUTED, UNDECIDABLE BY THIS INSTRUMENT. No address, no row. If you are writing paragraphs and the table is empty, you are litigating.
+
+**Type the arrival before you rule on it.** Material written from another register — a polemic, a performance, a device, another instance's draft — often needs a transfer, not a verdict. Name the court that can rule on it, move it there with the recast flagged, and judge it there. Ruling on it where it happened to land is how a competent reading turns into a misfiling.
 
 **Take their shorthand seriously and compute it.** They offered a metaphor casually and were surprised I treated it as computable. That is the mode that works. Their sloppy phrasings are usually compressed structure; expand them, compute them, hand back the crisp version — including when the crisp version narrows their claim.
 
