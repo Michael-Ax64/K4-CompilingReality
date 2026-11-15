@@ -9,8 +9,8 @@
 > **The Stance:** This inquiry is not an algebraic rebus claiming that SI base-unit abbreviations encode a secret prophecy. It is **conceptual archaeology**. It traces the mathematical formalisms of the $R$-pole back to their ancient, lived perceptual ancestry: Anaximander’s archaic recognition that to carve a finite boundary out of the Boundless (*Apeiron*) requires paying continuous penalty and restitution according to the assessment of Time.
 >
 > **The Thesis:** The Ohm ($\Omega$) is the modern metrological coordinate of that restitution. Across every domain it touches—relational drag, thermodynamic dissipation, reactive memory, thermal noise, and quantum action—resistance measures the operational cost a bounded frame must pay to hold its distinctions against dissolution.
->
-> **Dependencies:** `L0-TheEinsteinTrace`, `L3-FormalFoundations`, `L4-Thermodynamics`, `L4-ThePlenum`, `ProofN_BiquaternionBridge`, `ProofP_ThermodynamicInertia`.
+
+*Reads with: `L0-EinsteinTrace`, `L3-FormalFoundations`, `L4-Thermodynamics`, `L4-ThePlenum`, `ProofN_BiquaternionBridge`, `ProofP_ThermodynamicInertia`.*
 
 ---
 

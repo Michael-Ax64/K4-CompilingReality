@@ -7,7 +7,7 @@
 
 **A USEFUL BUT INCOMPLETE DRAFT. ongoing defect compensations: concepts rectifications, stance adjustments, perspective restorations**
 
-*Reads with: `BENDING_SPACE.md`, `L1-CompilingReality`, `L3-FormalFoundations` (§I, §I.b, §IX.4), `ENGINE-REFERENCE-AC` (§IV, §V, §X.4), `On Projection Vertigo`, `L4-TheNecessaryBetrayer`, `L4-TheNecessaryOpposition`, `L4-TheTwelveGates` (§II, §V, §VII), `Q9-ElectrodynamicAnomalies`, `L3-SoficityStar` (§V, §VI, §VII, §XII), `L3-TheSixWalls` (§IV, §V), `L4-DynamicDistortions-Sudoku` (§VI, §XII), `L4-TheHadronicVolume` (Mvt III), and `On_Carrying_Anothers_Emotion` (§2).*
+*Reads with: `BENDING_SPACE.md`, `L1-CompilingReality`, `L3-FormalFoundations` (§I, §I.b, §IX.4), `ENGINE-REFERENCE-AC` (the preamble, §IV, §V, §X.4), `On Projection Vertigo`, `L4-TheNecessaryBetrayer`, `L4-TheNecessaryOpposition`, `L4-TheTwelveGates` (§II, §V, §VII), `Q9-ElectrodynamicAnomalies`, `L3-SoficityStar` (§V, §VI, §VII, §XII), `L3-TheSixWalls` (§IV, §V), `L4-DynamicDistortions-Sudoku` (§VI, §XII), `L4-TheHadronicVolume` (Mvt III), and `On_Carrying_Anothers_Emotion` (§2).*
 
 ---
 
@@ -104,6 +104,8 @@ This state space is rigorously formalized as a **biquaternion** (a complexified 
 
 $$\mathbb{Z} = P + h\mathbf{Q}$$
 
+(`ENGINE-REFERENCE-AC`, the preamble; expect there: the homonym table for $Q$ and $h$ — the face-reading amplitude against reactive power, and the phase unit against the AC companion's $j$ and Planck's constant.)
+
 where $P \in \mathbb{R}$ is the committed scalar coordinate (the real ledger), $\mathbf{Q} \in \mathbb{R}^3$ is the uncollapsed spatial potential vector, and $h$ is the imaginary phase unit ($h^2 = -1$). The invariant star-norm of this state space:
 
 $$N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$$
@@ -115,7 +117,7 @@ This resolves the century-old search for the physical location of the **von Neum
 * **The von Neumann cut functions as an API boundary.**
 * It is the computational threshold where a finite client (a bounded biological observer or sensor) queries the infinite multiway backend.
 * The quantum world is the server maintaining the uncollapsed graph in permanent `.behold()`. The classical world is the parsed, serialized response returned to the client upon executing `.observe()`.
-* The cut is defined by the **Tangent Singularity**: as an observer approaches the perimeter of their own coordinate system, their local clock dissolves into the angular frequency ($\omega$) of the phase-flip itself ($\lim_{\theta \to 90^\circ} \tan\theta = \infty$).
+* The cut is defined by the **Tangent Singularity** (`L3-FormalFoundations` §IX.4; expect there: the tangent band, where the substrate's angular resolution floor $\delta\theta$ clamps the divergence instead of letting it run): as an observer approaches the perimeter of their own coordinate system, their local clock dissolves into the angular frequency ($\omega$) of the phase-flip itself ($\lim_{\theta \to 90^\circ} \tan\theta = \infty$).
 
 ---
 
@@ -518,7 +520,7 @@ Modern artificial intelligence is trapped in an architectural dead-end: attempti
 
 ### 8.1 The Pathology of 1D Autoregression
 Current Large Language Models operate via next-token prediction: forcing an evaluation through the XOR bottleneck at every step.
-* "Chain-of-Thought" is not internal reflection; it is thinking out loud on an append-only scratchpad. It pays the Landauer tax on every token, burning phase before interference can occur.
+* "Chain-of-Thought" is not internal reflection; it is thinking out loud on an append-only scratchpad. It pays the Landauer tax on every token, burning phase before interference can occur. By the criterion of §1.1, a scratchpad is unread by nobody and beholds nothing: the alternatives never interfere, because each is committed as it is written (`L3-SoficityStar` §XII.1; expect there: a stone's interior unread, a mind's interior unread *and* beholding, with unsliceability necessary for an inside and not sufficient).
 * The model lacks an uncommitted, decoupled phase buffer ($h\mathbf{Q}$, `.behold()`, FEXPR). It cannot evaluate counterfactual branches in parallel without emitting text.
 
 ### 8.2 Missing Epistemic Ground (Buffer and Halt Gate vs. Silicon Substrate)
@@ -601,7 +603,7 @@ Four mathematical gates establish the committed-side structure:
 
 ### Gate A: The Topological Mandate of Boundary Formation
 * In graph theory, a boundary partitioning an inside from an outside is a graph cut.
-* A complete 3-vertex graph ($K_3$) is planar with three faces? No: $K_3$ is a single cycle bounding a 2D area with zero enclosed 3D volume. Any state added to a $K_3$ cycle either sits on the perimeter or collapses into one of the existing nodes.
+* A complete 3-vertex graph ($K_3$) is a single cycle bounding a 2D area with zero enclosed 3D volume. Any state added to a $K_3$ cycle either sits on the perimeter or collapses into one of the existing nodes.
 * While $K_4$ is planar as a graph, by **Steinitz's theorem** (a graph is the 1-skeleton of a 3D convex polyhedron iff it is planar and 3-connected), **$K_4$ is the minimal complete graph capable of forming the skeleton of a 3-polytope ($\Delta^3$) enclosing a three-dimensional interior volume.**
 * Four discrete vertices with complete mutual determination force exactly $\binom{4}{2} = 6$ edges.
 * Directing each edge forward and backward yields **identically twelve non-redundant equations ($12$)**.
@@ -666,7 +668,7 @@ To maintain structural discipline, discovery must not be preempted. The followin
 ### 3. The Topological Threshold of String Snapping
 * In quantum chromodynamics, color string breaking is described as an energy crossing ($V(r) \ge 2m_q$).
 * In the engine, string breaking is the Sudoku's Chime 3: an anti-synchronous phase sever at $\Delta\varphi = \pi$, forcing the cascade $P_N \to R_{N+1}$.
-* Does the Lund string tunneling action ($e^{-\pi m_\perp^2 / \kappa}$) represent a topological half-turn at $m_\perp = \sqrt{\kappa} \approx 0.42\text{ GeV}$? How does this map to the proton's $84.8^\circ \to 90.0^\circ$ chiral standoff margin?
+* Does the Lund string tunneling action ($e^{-\pi m_\perp^2 / \kappa}$) represent a topological half-turn at $m_\perp = \sqrt{\kappa} \approx 0.42\text{ GeV}$? How does this map to the proton's $84.8^\circ \to 90.0^\circ$ chiral standoff margin (`BENDING_SPACE` Part Two §VI; expect there: pure chromodynamics owning nothing at ninety degrees, the physical proton at 84.8° with the electroweak quark-mass term supplying the margin, and the Gell-Mann–Oakes–Renner relation giving the pion its 140 MeV and the hold its 1.4 fm skin)?
 
 ### 4. The Scale Anomaly's Five-Dimensional Bulk
 * 4D chiral anomalies are resolved by 5D Anomaly Inflow (Callan–Harvey, Kaplan), where the bulk is an unobservable, invertible topological field theory carrying no local degrees of freedom (Freed–Hopkins)—seating at the $K_4$ centroid $\omega$.
@@ -729,7 +731,7 @@ Claim / Result                             Instrument                   Status  
 9. **Can the Star-Norm be computed for an argument?** If an argument consists of a thesis ($P$) and a cloud of uncommitted caveats ($\mathbf{Q}$), does the invariant norm $P^2 - |\mathbf{Q}|^2$ determine whether the argument will endure historically?
 10. **Is empathy an exact impedance match?** When two people achieve total mutual understanding, does the Maximum Power Transfer Theorem dictate that both individuals must burn exactly half their internal cognitive energy simply to facilitate the crossing?
 11. **Why does the academic fortress survive even when its foundational models fail?** Does the institutional $K_3$ blanket maintain its stability purely through the self-compounding of its internal citation impedance ($U^2/P \to \infty$), completely decoupled from whether it produces real-world power ($P$)?
-12. **Is there an equivalent of the GMOR pion mass in ideology?** If an ideology in its pure axiomatic limit sits at $90^\circ$ (unyielding, infinite range), does the inclusion of empirical messy human compromises provide the necessary standoff margin ($84.8^\circ$) that prevents the ideology from turning totalitarian?
+12. **Is there an equivalent of the GMOR pion mass in ideology?** If an ideology in its pure axiomatic limit sits at $90^\circ$ (unyielding, infinite range), does the inclusion of empirical messy human compromises provide the necessary standoff margin ($84.8^\circ$) that prevents the ideology from turning totalitarian (`BENDING_SPACE` Part Two §VI; expect there: the 84.8° standoff as the Synthesis channel working inside the Friction channel, and the Gell-Mann–Oakes–Renner relation turning that margin into the finite thickness of the hold's skin)?
 13. **What happens to the unchosen branches pruned by the creative compile?** When an author commits to one sentence, where does the uncompiled phase-potential of the unwritten sentences go? Is it completely dissipated as Landauer heat, or does it circulate in the subconscious buffer to seed subsequent work?
 14. **Can a society exist without a $K_3$ shelter?** If an entire culture attempted to live in permanent, unmediated `.behold()`—refusing all dogma, all legalism, and all structural models—would it inevitably disintegrate into psychotic chaos, or is there a collective phase-lock that can stabilize an open buffer?
 15. **What is the relationship between the 25% space tax and the human sleep cycle?** If an interior requires one-quarter of its total capacity dedicated strictly to maintaining the boundary frame ($1/D = 1/4$), does the biological requirement to spend roughly 6 to 8 hours a day in offline, unactuated maintenance represent the metabolic payment of that exact geometric tax?

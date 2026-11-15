@@ -54,6 +54,22 @@ It lives or dies in the open on four real measurements: whether a Casimir cavity
 
 ---
 
+## Reading Key: Terms and Owners
+
+*Coordinates for the terms above; each entry points to its owner file rather than re-deriving it.*
+
+* **Four-pole basis $\{P, U, I, R\}$:** Real scalar dissipation / Power **$P$** (`++`, Active-Asserting), structural potential **$U$** (`+-`, Active-Yielding), relational flow / current **$I$** (`--`, Reactive-Yielding), and constitutive ground / resistance **$R$** (`-+`, Reactive-Asserting). Owners: `L3-FormalFoundations` §I, §V.b (expect there: dual-binary seed); `ENGINE-REFERENCE-AC` preamble & §IV (expect there: circuit substrate and the twelve balance equations).
+
+* **$K_4$ and the three matchings:** The complete 4-vertex tetrahedron enclosing a 3D interior behind four flat $K_3$ Markov-blanket faces (each indexed by its absent pole). Its six edges partition into three opposite-edge matchings: **Fixed** $\{P\text{--}U, I\text{--}R\}$, **Cardinal** $\{P\text{--}R, I\text{--}U\}$, and **Mutable** $\{P\text{--}I, U\text{--}R\}$ (`ENGINE-REFERENCE-AC` §1.2, §2.8; `L4-HadronicVolume` Mvt III).
+
+* **Biquaternion Star-Norm ($N_*$) and phase unit ($h$):** State $\mathbb{Z} = P + h\mathbf{Q}$ pairs committed scalar $P$ with pure-vector potential $\mathbf{Q}^2 = -|\mathbf{Q}|^2$ via phase unit $h^2 = -1$ (homonym guard: distinct from Planck's $h$, per `ENGINE-REFERENCE-AC` preamble). Its invariant is $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$ (`ProofN_BiquaternionBridge` §4).
+
+* **Two clocks ($\omega$ vs. $dt$) and two meters:** Angular frequency $\omega$ drives from the unbound 5D centroid; coordinate time $dt$ accumulates as the compiled spatial wake on $R$ (`L0-EinsteinTrace`). At $P$, the tachometer ($P_{\text{rest}} = mc^2\omega$) stays separate from the Landauer erasure meter ($P_{\text{diss}} = T\dot S$, $k_B T \ln 2$ per erased sign bit) everywhere below the Planckian limit (`L4-Thermodynamics` §V; `ENGINE-REFERENCE-AC` §4.1).
+
+* **Two registers ($H_{\text{incoh}}$ vs. $H_{\text{coh}}$) and $\Psi$:** Reversible uncompiled potential sits in $H_{\text{incoh}}$; localized boundary crossings across $\Psi$ commit irreversible scalar entries onto the ground ledger $H_{\text{coh}}$ (`QED-CCP` §II).
+
+---
+
 ## 0. The Invoice of Finitude
 
 Physics has never had a theory of mass.
@@ -118,7 +134,7 @@ In the attractor taxonomy (`L4-AttractorSpace`, Part One, **The Conservative Fie
 
 ## 2. Twenty-Four Seatings, Twelve Equations
 
-Take the four measured coupling curves as coordinates in log space: the running electromagnetic coupling; the $SU(2)$ coupling with the $W$ propagator; the one-loop strong coupling; the gravitational coupling $(E/M_{\text{Pl}})^2$. Seat them on the four poles in all twenty-four ways. For each seating and each of the twelve equations, compare the direction in which the home pole moves with energy against the direction its right-hand side moves. An equation is satisfied in direction when the two agree.
+Take the four measured coupling curves as coordinates in log space: the running electromagnetic coupling; the effective weak coupling, which is the $SU(2)$ coupling carrying the $W$ propagator's low-energy suppression, $\alpha_2(E)/(1 + M_W^2/E^2)$; the one-loop strong coupling; the gravitational coupling $(E/M_{\text{Pl}})^2$. Seat them on the four poles in all twenty-four ways. For each seating and each of the twelve equations, compare the direction in which the home pole moves with energy against the direction its right-hand side moves. An equation is satisfied in direction when the two agree.
 
 ```python
 import math, itertools
@@ -156,7 +172,7 @@ The partitions of §1 and the sweep here are independent instruments. One uses n
 
 Four roles need four behaviours. Where three of the forces behave alike there are not four roles, there is no potential to drop, no flow to choke, no ground to push against, and the twelve equations have nothing to close on. The unbroken phase is not a higher, purer state of the machine. It is the machine switched off.
 
-So symmetry breaking is the ignition stroke. The same conclusion arrives from Part Two by a road that uses no curves: a scale-free phase has no trace, and without a trace there is no rest mass, no scalar curvature, and no stiffness for curvature to act against (§III, §V). Three instruments, one verdict: the coupling sweep, the trace identity (§III, §V), and the attractor taxonomy (`L4-AttractorSpace`, Part One, **The Isotropic Pole**—the pre-Higgs symmetry state, Cardinal collapse $\{P\text{--}R, I\text{--}U\} \to 0$: every pairing equally cheap, the discriminating cost that makes a write meaningful gone, and the ledger stalls until the Higgs re-stiffens $I$–$U$ to restore it). `L4-Thermodynamics` §IV Facet 3 is the same arrest in algebra: flux $P = UI$, so a frame out of phase with its blanket ($I \to 0$) generates zero entropy flux at any capacity $U$ it holds. **An engine runs on the refusal of its poles to be identical.** Above the weak threshold it closes across tiers (§4, §6). On a single sheet it closes in the infrared, which is where every interior is.
+So symmetry breaking is the ignition stroke. The same conclusion arrives from Part Two by a road that uses no curves: a scale-free phase has no trace, and without a trace there is no rest mass, no scalar curvature, and no stiffness for curvature to act against (Part Two §§III, V). Three instruments, one verdict: the coupling sweep, the trace identity (Part Two §§III, V), and the attractor taxonomy (`L4-AttractorSpace`, Part One, **The Isotropic Pole**—the pre-Higgs symmetry state, Cardinal collapse $\{P\text{--}R, I\text{--}U\} \to 0$: every pairing equally cheap, the discriminating cost that makes a write meaningful gone, and the ledger stalls until the Higgs re-stiffens $I$–$U$ to restore it). `L4-Thermodynamics` §IV Facet 3 is the same arrest in algebra: flux $P = UI$, so a frame out of phase with its blanket ($I \to 0$) generates zero entropy flux at any capacity $U$ it holds. **An engine runs on the refusal of its poles to be identical.** Above the weak threshold it closes across tiers (§4, §6). On a single sheet it closes in the infrared, which is where every interior is.
 
 The directional readings of the twelve under the forced seating are the physics of that infrared:
 

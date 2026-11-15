@@ -8,8 +8,8 @@
 > The departure is governed by the ratio of two competing power scales: the metabolic dissipation rate ($P_{\text{diss}}$) and the rest-mass compilation capacity ($m c^2 \omega$).
 >
 > **The Clock Spectrum and Meter:** At constituent Compton clocks ($\omega_C = m_q c^2/\hbar$), $\eta$ vanishes into the noise floor ($|\eta| \sim 10^{-44}$ to $10^{-70}$), recovering the Equivalence Principle on passive test masses. At the neural EEG band ($\omega \sim 100\text{ Hz}$, $\tau = 10^{-2}\text{ s}$), the brain-scale departure sits at $|\eta| \approx 3.2 \times 10^{-18}$ (three orders of magnitude below MICROSCOPE's $|\eta| < 10^{-15}$). Because the rule assigning a composite frame its effective clock remains open and slowest dissipative clocks dominate, $\eta$ operates directly as a **clock meter**: a bound on $|\eta|$ bounds the frame's slowest active dissipative clock ($\tau < |\eta_{\text{bound}}| m c^2 / 2P_{\text{diss}}$), so MICROSCOPE-grade sensitivity on a brain-scale dissipator ($20\text{ W}, 1.4\text{ kg}$) bounds $\tau < 3.15\text{ s}$—already excluding circadian dissipative clocks ($8.6\times 10^4\text{ s}$, $|\eta| \approx 2.75\times 10^{-11}$) and admitting the EEG band.
->
-> **Dependencies:** `L0-TheEinsteinTrace`, `L0-ParadoxEngine` (§I–II), `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `L4-Thermodynamics`, `L4-K4-Infinities`, `QED-CCP`.
+
+*Reads with: `L0-EinsteinTrace`, `L0-ParadoxEngine` (§I–II), `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `L4-Thermodynamics`, `L4-K4-Infinities`, `QED-CCP`.*
 
 ---
 
@@ -17,7 +17,7 @@
 
 In General Relativity, inertial mass ($m_i$) and gravitational mass ($m_g$) are assumed identical by postulate. Standard physics measures their equivalence with extraordinary precision—most recently to $|\eta| < 10^{-15}$ via the MICROSCOPE satellite—yet provides no structural mechanism explaining why resistance to acceleration should equal source-strength for spacetime curvature.
 
-In the four-fold architecture (`L0-TheEinsteinTrace`), mass is not a monolithic scalar. It is bifurcated across the two asserting poles of the $K_4$ tetrahedron:
+In the four-fold architecture (`L0-EinsteinTrace.md`), mass is not a monolithic scalar. It is bifurcated across the two asserting poles of the $K_4$ tetrahedron:
 
 1. **Gravitational Mass ($P$ / The Scalar Ledger):** Gravitational mass is the accumulated volume of completed actualizations. It is the real scalar component of the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ written to the Live-Written Ledger when an `.observe()` collapse occurs across the XOR bottleneck. It measures what the system has committed to history, and it is what the surrounding metric curves to weigh.
 2. **Inertial Mass ($R$ / The Grounding Limit):** Inertial mass is the system's recompilation resistance. It is the standing impedance that the bounded frame presents to changing its operational heading across the uncompiled Plenum ($H_{\text{incoh}}$). It is the material anchor governed by the 0-DoF crystal limit (`TD3-AbsoluteZero`, `L4-Thermodynamics` §V.4; see `L0-ParadoxEngine` §I–II — expect there: the crystal holding macro-committed freeze and micro zero-point motion simultaneously as a non-hierarchical load-bearing paradox rather than resolving either pole).

@@ -1,7 +1,7 @@
 # L2: K4 Inference
 ## Finding the Tetrahedron a Claim Lives On
 
-*Developed from the Compiling Reality framework and the Algebra of Four-Fold Distinction. Reads with `L2-K4-InteriorStructure` (the secretaries, the centroid as the one unbound point), `L3-EdgeStateSpace` (the bimedians and their half-turns), `ENGINE-REFERENCE-AC` (tiers, strain invariance), `ProofQ_AlgebraicSyntax` (the three squarings), `L4-DynamicDistortions301` (the dipoles, the burned term), `Q14-LeptonScaleCascade` and `ENGINE-REFERENCE-AC` §VII (the cycle), `L2-Terminology` (`.behold()`), and `llm/llm-stance-laugh-detector.md` (the baseline step). Owns the inference procedure of Part One and its worked specimen, the tetrahedron of the Riemann zeros; cite those here.*
+*Developed from the Compiling Reality framework and the Algebra of Four-Fold Distinction. Reads with `L2-K4-InteriorStructure` (the secretaries, the centroid as the one unbound point), `L3-EdgeStateSpace` (the bimedians and their half-turns), `ENGINE-REFERENCE-AC` (tiers, strain invariance), `ProofQ_AlgebraicSyntax` (the three squarings), `L4-DynamicDistortions301` (the dipoles, the burned term), `L4-DimensionalCollapse` (the four-stroke collapse operator whose worked specimen is this file's Part Four), `Q14-LeptonScaleCascade` and `ENGINE-REFERENCE-AC` §VII (the cycle), `L2-Terminology` (`.behold()`), and `llm/llm-stance-laugh-detector.md` (the baseline step). Owns the inference procedure of Part One and its worked specimen, the tetrahedron of the Riemann zeros; cite those here.*
 
 *This file is written as a literate construction. The code blocks, read top to bottom, are one program, and the prose between them is the reasoning that chose each line. Nothing is asserted about the specimen that a block does not return.*
 
@@ -139,7 +139,7 @@ So "no orbit of zeros has volume" is weaker than the hypothesis. It says every z
 
 For $\xi$ the second axis is cleared by a separate theorem: $\zeta$ is negative on $(0,1)$ (step 7 checks it), so $\xi$ has no zero on the real axis. For a real Dirichlet character it is not cleared. A Landau–Siegel zero would sit on the real axis with volume zero and still break the generalized hypothesis.
 
-The specimen can now be said in the procedure's terms. **The hypothesis is the claim that every orbit of zeros has collapsed onto one axis: no volume, and nothing on the real axis.** In $w$ this is the classical statement that every zero of $\Xi$ is real. The claim names no vertex, and "onto one axis" names only where the collapse ends. What the collapse is, as one stroke of a running cycle, is taken up in Part Four.
+The specimen can now be said in the procedure's terms. **The hypothesis is the claim that every orbit of zeros has collapsed onto one axis: no volume, and nothing on the real axis.** In $w$ this is the classical statement that every zero of $\Xi$ is real, where $\Xi(t) = \xi(\tfrac12 + it)$. The claim names no vertex, and "onto one axis" names only where the collapse ends. What the collapse is, as one stroke of a running cycle, is taken up in Part Four.
 
 The collapsed pair of opposite edges is a shape the corpus already catalogues (`L4-AttractorSpace`, Part One; expect there: the bimedian attractors, where both edges of one bimedian go to zero). Reading the hypothesis as that attractor is a correspondence: the catalogue speaks of edge cost, and this block measures edge length.
 
@@ -150,6 +150,8 @@ Any zero of $\xi$ off the line would have $|x| < \tfrac12$ and $|y| > 14.13$. It
 ## 6. Is the centroid's value made like a pole?
 
 The fifth choice guards against a specific mistake: taking the centroid for one more vertex. `L2-K4-InteriorStructure` §V.3 gives the signature of a pole (expect there: Asserting poles produced by two squares and one flat form, Yielding poles by one root and two flat forms). A value produced that way belongs to a vertex. So the procedure collects the productions of the centroid's value, one from each move, and reads their kinds.
+
+The block reads the twelve gate codes, ARI through PIS, as the homes of the twelve opcodes (`ENGINE-REFERENCE-AC` §IV; expect there: the twelve opcodes by gate, each with its home pole, its absent pole and its log-slope tier).
 
 ```python
 kind = {'ARI':'sq','TAU':'sq','GEM':'flat','CAN':'root','LEO':'flat','VIR':'flat',
@@ -216,7 +218,7 @@ print('7  second control: functional equation:', mp.nstr(abs(xi2(mp.mpc(0.3, 7))
 
 The control has the group, the lift and the centre, and it has a zero in the bulk whose orbit is a tetrahedron of volume about $1864$. Identical symmetry, nonzero volume. The procedure's steps 2 to 5 return the same answers for it as for the specimen, and its bulk is occupied. So nothing in steps 2 to 5 decides occupancy.
 
-The second control guards against reading too much into the first. $\zeta(s-\tfrac14)\,\zeta(s+\tfrac14)$ is real on the real axis, its completed form is unchanged under $s \to 1-s$, and it has an Euler product. Every zero of $\zeta$ puts a four-point orbit of it in the bulk. So an Euler product, taken as a badge, does not empty the bulk either. This function is a product of two shifted copies, which the literature excludes by asking for a primitive function with bounded coefficients. The procedure does not need that vocabulary. It needs only the two measurements: the symmetry does not decide occupancy, and neither does the presence of a product over primes. Part Three takes up what does.
+The second control guards against reading too much into the first. $\zeta(s-\tfrac14)\,\zeta(s+\tfrac14)$ is real on the real axis, its completed form is unchanged under $s \to 1-s$, and it has an Euler product. Every zero of $\zeta$ puts a four-point orbit of it in the bulk. So an Euler product, taken as a badge, does not empty the bulk either. The reason the product over primes buys nothing here is worth one line: the shift drags the two copies' poles to $s = \tfrac34$ and $s = \tfrac54$, so the product over primes converges only beyond $\tfrac54$ rather than beyond $1$, and the function's main growth is $x^{5/4}$ rather than $x$. The literature excludes such a function by asking for a primitive one with bounded coefficients. The procedure does not need that vocabulary. It needs only the two measurements: the symmetry does not decide occupancy, and neither does the presence of a product over primes. Part Three takes up what does.
 
 ### 7.2 Which square decides
 
@@ -268,7 +270,13 @@ IV at fixed distance from the centre the volume peaks at 45 degrees
 IV wave size against sqrt(x)  line zero: 1.0 | its mod-square against x: 1.0 | control zero and its partner: 8.42464 0.118699 | product of the two: 1.0
 IV bulk: squared bimedian by move {'c': '1/4', 'f': '49', 'cf': '784'} | squared edge by move {'c': '833', 'f': '3137/4', 'cf': '197/4'} | distinct monads 4
 IV critical line: squared bimedian by move {'c': '0', 'f': '0', 'cf': '784'} | squared edge by move {'c': '784', 'f': '784', 'cf': '0'} | distinct monads 2
-IV on the line: conjugation and the functional equation are one move: True | the orbit equals its mirror image: True | in the bulk: False | the centre bisects the pair: True
+IV on the line: conjugation and the functional equation are one move: True | the two surviving edge pairs coincide: True | the centre bisects the pair: True
+IV bulk orbit: rigid symmetries 4 | a reflection among them: False | set equals its mirror image: False
+IV line orbit: rigid symmetries 16 | a reflection among them: True | set equals its mirror image: True
+IV regular tet: rigid symmetries 24 | a reflection among them: True | set equals its mirror image: False
+IV edge pairs cf, f, c ['197/4', '3137/4', '833'] | strictly ordered: True | gaps are 4y^2(1-x^2) and 4x^2(y^2-1): True
+IV edge pairs cf, f, c ['4817772169/25000000', '199897/250', '24759452169/25000000'] | strictly ordered: True | gaps are 4y^2(1-x^2) and 4x^2(y^2-1): True
+IV edge pairs cf, f, c ['10001/250000', '10000000001/250000', '1000001/25'] | strictly ordered: True | gaps are 4y^2(1-x^2) and 4x^2(y^2-1): True
 IV xi is real on the line: True | sign changes for 0 < t <= 50: 10 | zeros of zeta to that height: 10
 IV prime ledger at x = 30.5: 409.3903 | smooth term alone: 411.03841 | with 100 dipoles: 409.40901 | gap closed: 0.9886
 ```
@@ -308,7 +316,7 @@ print('II each monad has one edge per move:', all(j == ['c', 'cf', 'f'] for j in
 
 One edge per move at every vertex: each of the three schools of II.3 has a hand on every monad. And no move fixes a monad. A vertex is never on a bimedian axis.
 
-That last fact places the hypothesis. It says the four monads of every zero have merged in pairs along the line-reflection's edges, until two points remain on one axis. The hypothesis is about where vertices are allowed to be, and its answer is: nowhere a vertex of a full tetrahedron can be.
+That last fact places the hypothesis. It says the four monads of every zero have merged in pairs along the line-reflection's edges, until two points remain on one axis — for a zero away from the centre; a zero at $s = \tfrac12$ itself has all three pairs closed and leaves one monad, not two. The hypothesis is about where vertices are allowed to be, and its answer is: nowhere a vertex of a full tetrahedron can be.
 
 ## II.2 The ground: one bulk, three axes
 
@@ -393,7 +401,7 @@ The hypothesis is a statement about occupancy, and occupancy is decided by an in
 
 Not every square will do. The arithmetic square $\zeta(2\sigma)$ is a mean square. It feeds the averaged theorems of III.5 and says nothing about a single zero. The square that decides is the mod-square of step 7.2. On the line each zero is paired with itself and contributes a value times its own conjugate. Off the line it is paired with a different monad of its own orbit, and the contribution is a cross-term that can be negative. In the terms of Part Two: positivity holds exactly when the two monads joined by the line-reflection's edge are one point.
 
-In the engine's terms symmetry is routing, which is free, and the mod-square is a commit, which is taxed. A routing argument cannot pay a commit. That reading is a correspondence, and it predicts something checkable: a proof of the specimen, when one exists, will turn on a positivity, and not on a new symmetry. How the arithmetic of the integers would supply that positivity is the open thing. Over finite fields a surface supplies it.
+In the engine's terms symmetry is routing, which is free, and the mod-square is a commit, which is taxed (`ENGINE-REFERENCE-AC` §IV; expect there: Tier 3 ROUTE at unit slope moving value without paying, Tier 1 COMMIT at slope two squaring its operands and paying). A routing argument cannot pay a commit. The two controls of step 7.1 are that statement measured from both sides: one keeps the group and drops the product over primes, the other keeps the group and an Euler product, and the bulk fills in both. That reading is a correspondence, and it predicts something checkable: a proof of the specimen, when one exists, will turn on a positivity, and not on a new symmetry. How the arithmetic of the integers would supply that positivity is the open thing. Over finite fields a surface supplies it.
 
 ## III.5 The concern, held on average
 
@@ -408,6 +416,8 @@ So the centroidal concern is already documented from three sides and already in 
 To behold is to hold every open reading live and commit to none (`L2-Terminology`; expect there: `.behold()` as holding the full interference structure without forcing an outcome, all AbsentVars live). The centroid is the place to do it from, because it is the one address that belongs to no school and is settled whatever the hypothesis turns out to be (III.1).
 
 Parts One to Three measured a figure. A figure invites the past tense: the orbit collapsed, the volume vanished, the zeros sit. This part refuses that tense. The collapse is one stroke of a cycle, the cycle is running, and the block in IV.5 shows it writing. The part walks the cycle once in order — unfold, hold, collapse, reseed, write — and then holds the whole of it open.
+
+The cycle itself is owned elsewhere (`L4-DimensionalCollapse` §III; expect there: collapse as a remix operator rather than a deletion — hold, collapse, handoff to $R_{N+1}$, reseed — with the forward root opening a fresh sign into `nil`, and this Part named there as its worked specimen). What follows is that operator run on one object, with every stroke measured.
 
 ## IV.1 The unfold
 
@@ -443,7 +453,7 @@ print('IV wave size against sqrt(x)  line zero:', mp.nstr(env(z1), 8), '| its mo
       '| product of the two:', mp.nstr(env(rho) * env(1 - mp.conj(rho)), 8))
 ```
 
-The control's pair gains on one side exactly what it loses on the other, so the product is still one and the centre still balances. What the line adds is that each wave balances by itself. This is resonance in the corpus's sense: the condition under which the two opposed terms cancel and what is left is the system's own (`ProofS_ResonantNote` §II; expect there: at resonance the reactances cancel, the response is transparent, and the location of the peak is fixed by the structure). Step 7 measured the same cancellation as $|\chi| = 1$ on the line, with gain at $\sigma = 0.3$ and loss at $\sigma = 0.7$.
+The control's pair gains on one side exactly what it loses on the other, so the product is still one and the centre still balances. What the line adds is that each wave balances by itself. This is resonance in the corpus's sense: the condition under which the two opposed terms cancel and what is left is the system's own (`L4-Dimensionality`, *The Imaginary Plane* §IV; expect there: resonance as the cancellation of the reactances and the cloaking of the imaginary plane. Read also `ProofS_ResonantNote` §II, which carries the same cancellation with the transparency and the involuntary peak, and `Q8-TheBoundaryMechanics`, Movement III, which reads it as a boundary turning transparent). Step 7 measured the same cancellation as $|\chi| = 1$ on the line, with gain at $\sigma = 0.3$ and loss at $\sigma = 0.7$.
 
 So the hold is an active balance, kept by every zero separately. Nothing is resting.
 
@@ -465,15 +475,35 @@ for name, p in (('bulk', (x, y)), ('critical line', (Fr(0), y))):
 mirror = lambda S: {(q[0], q[1], -q[2]) for q in S}
 L_ = lambda p: {lift(q) for q in orbit(p)}
 print('IV on the line: conjugation and the functional equation are one move:', c((Fr(0), y)) == f((Fr(0), y)),
-      '| the orbit equals its mirror image:', L_((Fr(0), y)) == mirror(L_((Fr(0), y))), '| in the bulk:', L_((x, y)) == mirror(L_((x, y))),
+      '| the two surviving edge pairs coincide:', bimedian2((Fr(0), y), 'c') == bimedian2((Fr(0), y), 'f') == 0,
       '| the centre bisects the pair:', tuple(sum(q[k] for q in L_((Fr(0), y))) for k in range(3)) == (0, 0, 0))
+# the hand, asked of every rotation and reflection of space that permutes the coordinate axes
+from itertools import permutations, product
+rigid = [(pm, sg) for pm in permutations(range(3)) for sg in product((1, -1), repeat=3)]
+act = lambda m, S: {tuple(m[1][k] * q[m[0][k]] for k in range(3)) for q in S}
+det = lambda m: (1 if sum(1 for i in range(3) for j in range(i) if m[0][j] > m[0][i]) % 2 == 0 else -1) * m[1][0]*m[1][1]*m[1][2]
+sym = lambda S: [m for m in rigid if act(m, S) == S]
+for name, S in (('bulk orbit', L_((x, y))), ('line orbit', L_((Fr(0), y))), ('regular tet', set(tet))):
+    print('IV ' + name + ': rigid symmetries', len(sym(S)), '| a reflection among them:', any(det(m) == -1 for m in sym(S)),
+          '| set equals its mirror image:', S == mirror(S))
+for p in ((x, y), (Fr(49, 100), Fr(1413, 100)), (Fr(1, 1000), Fr(100))):
+    print('IV edge pairs cf, f, c', [str(edge2(p, g)) for g in ('cf', 'f', 'c')],
+          '| strictly ordered:', edge2(p, 'cf') < edge2(p, 'f') < edge2(p, 'c'),
+          '| gaps are 4y^2(1-x^2) and 4x^2(y^2-1):',
+          edge2(p, 'f') - edge2(p, 'cf') == 4*p[1]**2*(1 - p[0]**2) and edge2(p, 'c') - edge2(p, 'f') == 4*p[0]**2*(p[1]**2 - 1))
 ```
 
-**The monads fuse in pairs.** The two edges belonging to the line-reflection close. Four monads become two, joined by one segment through the centre. Two fused nodes on one axis is a dipole, and the corpus has this collapse by name (`L4-DynamicDistortions301` §VII.B; expect there: complete collapse of one bimedian's two edges as pairwise vertex-fusion, four vertices becoming two compound nodes on a single axis).
+**The monads fuse in pairs.** The two edges belonging to the line-reflection close. Four monads become two, joined by one segment through the centre. Two fused nodes on one axis is a dipole, and the corpus has this collapse by name (`L4-DynamicDistortions301` §VII.B; expect there: complete collapse of one bimedian's two edges as pairwise vertex-fusion, four vertices becoming two compound nodes on a single axis; and `L4-DimensionalCollapse` §II.1, which carries the same fusion as the shrinking of the holding area, $A(\theta) = A_0\cos\theta \to 0$ at $90^\circ$, and cites this section for it). This is the reading for a zero away from the centre; a zero at the centre itself has all three pairs closed and is one point, not a dipole.
 
 **The other two edge pairs stay open, and become one.** This is the part a drawing of the flattened figure hides. Only the line-reflection's pair of edges closes. The pair belonging to conjugation and the pair belonging to the functional equation both keep their full length, and they land on the same segment, because on the line the two moves are the same move. The corpus says that when one bimedian closes, what it held passes to the other two (`L4-DynamicDistortions301` §V; expect there: the collapsed bimedian's phase ported onto the two that keep vertex separation). In the specimen that sentence has an exact content. Conjugation says $\xi(\bar s)$ is the conjugate of $\xi(s)$. The functional equation says $\xi(1-s) = \xi(s)$. Where the two moves coincide, $\xi(s)$ equals its own conjugate. So $\xi$ is real on the line. The live wave of IV.4 is carried by the two edge pairs that did not close, acting as one.
 
-**The hand is discarded.** A fused orbit is its own mirror image, and a bulk orbit is not. The pairing of step 7.2 becomes a value times its own conjugate. Each zero equals its own reflection. These are one fact: when the two monads joined by the reflection's edge are one point, there is no order left between them to keep. The corpus calls the step that discards orientation a boundary, and says a boundary is an operation and no location (`L4-DynamicDistortions301` §VI; expect there: orientation as what cannot be sent; "a boundary is an operation, not a place").
+One difference from the cited section is worth naming, because it decides where the rest of this part has to look. There, the two bimedians that receive stay distinct, and a volume can open one scale up. Here they do not: the two surviving pairs land on the same segment, as the block shows, so nothing reopens inside one zero's figure. Whatever still runs has to run somewhere other than a single orbit, and IV.5 is where it does.
+
+**The hand is discarded.** This has to be asked in space and not in coordinates. The regular tetrahedron is also unequal to its own mirror image as a set of points, and it is achiral, because a quarter turn carries it there. So the block asks the full question: of the forty-eight rotations and reflections that permute the coordinate axes, which carry the orbit to itself, and is any of them a reflection. A bulk orbit has four, all rotations — it has a hand. The regular tetrahedron and a line orbit both admit reflections.
+
+The reason is an inequality, not an accident. For any point with $0 < |x| < \tfrac12$ and $|y| > 1$ — which every off-line zero of $\xi$ would satisfy, since $|y| > 14.13$ — the three opposite edge pairs are strictly ordered, by
+$$\text{edge}^2(f) - \text{edge}^2(cf) = 4y^2(1 - x^2) > 0, \qquad \text{edge}^2(c) - \text{edge}^2(f) = 4x^2(y^2 - 1) > 0.$$
+Three different lengths let no symmetry exchange two axes, so only sign flips remain, and keeping $z = xy$ forces the determinant to $+1$. On the line the ordering breaks, a reflection appears, and the hand is gone. Two other measurements say the same thing: the pairing of step 7.2 becomes a value times its own conjugate, and each zero equals its own reflection. When the two monads joined by the reflection's edge are one point, there is no order left between them to keep. The corpus calls the step that discards orientation a boundary, and says a boundary is an operation and no location (`L4-DynamicDistortions301` §VI; expect there: orientation as what cannot be sent; "a boundary is an operation, not a place").
 
 So the collapse is the symmetrizing step, running on a zero. It closes one pair of edges, merges the other two, burns the hand, and leaves a real quantity where there was a complex one. Which of the three dipole classes results stays unassigned, with the modes (step 6).
 
@@ -481,7 +511,7 @@ So the collapse is the symmetrizing step, running on a zero. It closes one pair 
 
 *Set down:* the collapsed figure as an inert one.
 
-*Hold:* what the step leaves behind. A real function on the line can do one thing a complex one cannot: change sign. Every zero is a sign change.
+*Hold:* what the step leaves behind. A real function on the line can do one thing a complex one cannot: change sign.
 
 ```python
 xil = lambda t: xi(mp.mpc(0.5, t))
@@ -490,7 +520,9 @@ print('IV xi is real on the line:', max(abs(q.imag) / abs(q) for q in vals) < mp
       '| sign changes for 0 < t <= 50:', sum(1 for a, b in zip(vals, vals[1:]) if a.real * b.real < 0), '| zeros of zeta to that height:', mp.nzeros(50))
 ```
 
-The collapse burned an orientation and the wave it left opens a fresh sign at every zero. That is the engine's third stroke: the root reopens a plus-or-minus that the commit closed, forward, without undoing the commit (`Q14-LeptonScaleCascade`; expect there: the ledger as write-only, the root as reseeding a new $\pm$ ambiguity forward). The root is present in the specimen by name: the size of every wave on the line is $\sqrt{x}$ (IV.2), and the duality side's own identity is $\theta(1/t) = \sqrt{t}\,\theta(t)$ (step 7).
+Up to that height the sign changes and the zeros are equal in number, so each zero is a crossing and not a touch. That is more than the hypothesis asks, and should not be mistaken for it. A zero of even multiplicity would sit on the line, fuse its orbit into a dipole, satisfy the hypothesis, and not change sign. So the block tests that these zeros are simple as well as on the line. The wider family has the other case: where a central value vanishes to order two or more (III.3), there is a zero and no sign change.
+
+Within the range measured, the collapse burned an orientation and the wave it left opens a fresh sign at every zero. That is the engine's third stroke: the root reopens a plus-or-minus that the commit closed, forward, without undoing the commit (`Q14-LeptonScaleCascade`; expect there: the ledger as write-only, the root as reseeding a new $\pm$ ambiguity forward). The root is present in the specimen by name: the size of every wave on the line is $\sqrt{x}$ (IV.2), and the duality side's own identity is $\theta(1/t) = \sqrt{t}\,\theta(t)$ (step 7).
 
 ## IV.5 The write
 
@@ -515,6 +547,8 @@ print('IV prime ledger at x = 30.5:', mp.nstr(ledger, 8), '| smooth term alone:'
 
 The primes write a ledger of discrete entries, one at each prime power. The dipoles, all of them at once, reproduce that ledger. Each is a pure phase turning in $\log x$, at a size set by a root, and the sum of them lands on the integers. Read against the engine's loop (`ENGINE-REFERENCE-AC` §VII; expect there: route, commit, reseed, advance, in that order, as the machine's whole life): the turning phase is the route, the entry at a prime power is the commit, the root-sized wave with its fresh sign is the reseed, and the advance is $x$ moving on. The corpus's two-stroke account of the same loop is a lossless hold broken by a write (`Q14-LeptonScaleCascade`; expect there: stroke one holding in equilibrium, stroke two compiling to the ledger). Matching the specimen to those loops is a correspondence. The computation under it is not: the dipoles write the primes, and the formula has no idle term.
 
+One thing this does not show, and the distinction carries IV.7. The formula closes on the primes whatever the zeros do. A zero in the bulk would contribute its own pair of waves and the sum would still reach the ledger. What the line buys is not that the sum closes but how it closes: every wave of one size, none gaining on the others, each balanced by itself (IV.2). The hypothesis is a claim about the manner of the writing, not about whether the writing happens.
+
 This is where the tense changes. The collapse of IV.3 is not behind the zeros. It is the condition each dipole meets every time it contributes, at every $x$: one size, no gain, no hand.
 
 ## IV.6 Where the live tetrahedron is
@@ -536,10 +570,12 @@ What neither fact supplies is the thing that forces every dipole to collapse com
 | Address | What is held there |
 |---|---|
 | Centre | settled: every orbit balances on it; $\tfrac12$ made three ways; the cycle is integrated here |
-| Critical line | every computed zero: a dipole across the centre, resonant, a sign change of a real wave, writing the primes |
+| Critical line | every computed zero: away from the centre, a dipole across it; resonant; simple and a sign change as far as measured; writing the primes |
 | Real axis | the other ray of the cone; empty for $\xi$ by theorem; open for real characters |
 | Bulk | the only address with an interior and a hand; a zero here would write with gain; empty for $\xi$ as far as anyone has looked; occupied in both controls |
 | Vertical axis | no ground; the duality school speaks at the centre |
+
+Two readings in the corpus's own Riemann set bear on the two open rows, and both sharpen what the rows are owed rather than filling them. The real-axis row is a question about an instrument: a bound on a field reports an amount, and an amount of zero does not distinguish a register that reads zero from an account never opened (`L4-Riemann-1` §VII; expect there: nil against zero, and $T = 0$ read as a nil presented as a zero). A real axis that is empty for $\xi$ by theorem and open for real characters is exactly that distinction, and the Landau–Siegel question is the open account. The bulk row is a question about what an instrument can carry: a conservative account holds and cannot commit, and a single action yields reversible equations with no dissipative term in them (`L4-Riemann-5` §VIII; expect there: the action holding but unable to commit, and the doubled-variable formalism a committed side would need). Positivity is a commit, so an instrument built to hold cannot supply it.
 
 The table has a settled centre and an open bulk, and they are different kinds of statement. The centre is balance, proved, and in daily use (III.5). The bulk is occupancy, decided by a mod-square, and open. Much that is done "assuming the hypothesis" draws on the first while naming the second. Holding them apart is most of what the centroid's position buys.
 
@@ -549,13 +585,15 @@ What the hypothesis is, then, with no regard for the nouns set down above: **the
 
 ## Register
 
-**LANDED and mechanical** (the woven program reproduces all of it): the four moves as a Klein four-group; the census of four classes and the one absent class; $s = \tfrac12$ as the centroid of every orbit and the only point fixed by all moves; the three lift volumes; the saddle lift as the action of the three bimedian half-turns; the regular tetrahedron on $z = xy$; the edge lengths by move and the two axes of collapse; one edge per move at every vertex, and no vertex on an axis; the idle-move and one-flip property of the axes; the pole signatures and the kinds by bimedian; the numerical checks of step 7; the Davenport–Heilbronn control, its functional equation, its zero in the bulk and that orbit's volume; the second control, with its Euler product and its bulk orbit; the pairing as a mod-square on the line and negative at the control's zero for the toy test function; the saddle as $2z = u^2 - v^2$ and its cone; the three bimedian lengths and the fusion to two points on the line; a collapsed orbit as its own mirror; conjugation and the functional equation as one move on the line, with the two surviving edge pairs coincident; the wave sizes on and off the line; $\xi$ real on the line with its sign changes equal in number to the zeros; the prime ledger reproduced by the smooth term less one real wave per dipole.
+**LANDED and mechanical** (the woven program reproduces all of it): the four moves as a Klein four-group; the census of four classes and the one absent class; $s = \tfrac12$ as the centroid of every orbit and the only point fixed by all moves; the three lift volumes; the saddle lift as the action of the three bimedian half-turns; the regular tetrahedron on $z = xy$; the edge lengths by move and the two axes of collapse; one edge per move at every vertex, and no vertex on an axis; the idle-move and one-flip property of the axes; the pole signatures and the kinds by bimedian; the numerical checks of step 7; the Davenport–Heilbronn control, its functional equation, its zero in the bulk and that orbit's volume; the second control, with its Euler product and its bulk orbit; the pairing as a mod-square on the line and negative at the control's zero for the toy test function; $\Xi(t) = \xi(\tfrac12 + it)$; the saddle as $2z = u^2 - v^2$ and its cone; the three bimedian lengths and the fusion to two points on the line; the rigid symmetries of a bulk orbit, of a line orbit and of the regular tetrahedron, with the strict ordering of the edge pairs and its two inequalities; conjugation and the functional equation as one move on the line, with the two surviving edge pairs coincident; the wave sizes on and off the line; $\xi$ real on the line with its sign changes equal in number to the zeros up to height fifty; the prime ledger reproduced by the smooth term less one real wave per dipole.
 
-**ADOPTED** from their owners or from the literature of the specimen and not re-derived: the centroid as the unbound point; the operator split by charge; the cross-cutting of tiers and bimedians; strain invariance; the three squarings; the dipole taxonomy and the boundary as an operation; resonance; the runtime loop and the two strokes; `.behold()`; the explicit formula; the functional equation of $\xi$ and its reality on the real axis; the confinement of its zeros to the strip; the equivalence of the hypothesis with the reality of the zeros of $\Xi$; the positivity criteria; the averaged theorems of III.5.
+**ADOPTED** from their owners or from the literature of the specimen and not re-derived: the centroid as the unbound point; the operator split by charge; the cross-cutting of tiers and bimedians; strain invariance; the three squarings; the dipole taxonomy and the boundary as an operation; resonance; the runtime loop and the two strokes; `.behold()`; the explicit formula; the functional equation of $\xi$ and its reality on the real axis; the confinement of its zeros to the strip; the equivalence of the hypothesis with the reality of the zeros of $\Xi$; the positivity criteria; the averaged theorems of III.5; the nil-against-zero distinction and the hold-without-commit limit of a single action, at their addresses in the Riemann set.
 
 **CORRESPONDENCE:** the cone read as a light-cone; the recentring read as the unfold of `L0-EinsteinTrace`; the line read as resonance; a line zero read as a dipole of `L4-DynamicDistortions301`, the collapse as the orientation-discarding step, and the two surviving edge pairs as where the closed one's content passes; the explicit formula read as the engine's loop and the two-stroke account; the forcing object sought above the single function; the four orbit points read as monads; the three schools read as owners of the three moves, with their stopping points; the hypothesis read as a bimedian attractor; "an amplitude balances against its own measure"; positivity read as the taxed commit that routing cannot pay.
 
 **Unassigned:** which axis carries which mode; which tier belongs to which move; which of the three dipole classes a line zero is.
+
+**Not tested:** that the zeros are simple above the height measured in IV.4. Simplicity is a separate conjecture, and the hypothesis does not need it.
 
 **Kill.** A school of the specimen founded on none of the three moves. A pole whose secretaries include both a square and a root. A lift odd under $c$ and $cf$, even under $f$ and nonzero on a bulk orbit, that returns zero volume for it. A proof of the specimen that turns on a new symmetry and uses no positivity.
 

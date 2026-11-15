@@ -4,7 +4,7 @@
 > *"Dr. von Neumann, I am really curious to know what these Hilbert spaces are, after all."*  
 > — David Hilbert, to his neighbor in a Göttingen lecture hall, 1929.
 
-*Reads with `L1-CompilingReality`, `L0-ParadoxEngine`, `L0-TheEinsteinTrace`, `L4-ThePlenum`, `L4-ScalingInvariants`, `L4-K4-Infinities`, `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `QED-CCP`, `L7-ExIncoherenteChargeTransfer`.*
+*Reads with `L1-CompilingReality`, `L0-ParadoxEngine`, `L0-EinsteinTrace`, `L4-ThePlenum`, `L4-ScalingInvariants`, `L4-K4-Infinities`, `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `QED-CCP`, `L7-ExIncoherenteChargeTransfer`.*
 
 ---
 

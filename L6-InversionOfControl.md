@@ -11,9 +11,9 @@
 
 ## I. The Primitives: `eval` vs. `quote`
 
-To build the architecture of reality, we must start at the absolute bottom of computation. In Lisp, there are two fundamental operations: evaluating an expression (`eval`), or holding it in suspended form (`quote`, or the FEXPR). 
+To build the architecture of reality, we must start at the absolute bottom of computation. In Lisp, there are two fundamental operations: evaluating an expression (`eval`), or holding it in suspended form (`quote`, or the FEXPR).
 
-Standard computer science treats `eval` as the default and `quote` as the exception. Code executes unless told to wait. 
+Standard computer science treats `eval` as the default and `quote` as the exception. Code executes unless told to wait.
 
 The framework proves that physical reality runs the exact opposite baseline.
 *   **The Baseline (`quote`):** The universe's default state is `.behold()`. The Pure Interpreter holds the uncollapsed multiway graph in a massive, suspended FEXPR. It requires no irreversible thermodynamic work to maintain this superposition because it never executes.
@@ -25,18 +25,18 @@ Execution is metabolically expensive. Suspension is the resting state.
 
 ## II. The Polling Problem and the Surrender of $\omega$
 
-If execution is expensive, how does a bounded frame (a cell, an organism, a software application) interact with its environment to survive? 
+If execution is expensive, how does a bounded frame (a cell, an organism, a software application) interact with its environment to survive?
 
-If it attempts to operate top-down—running its own `main()` loop and continuously polling the environment to ask *"what is happening?"*—it will burn its entire metabolic budget (Real Power, $P$) on empty evaluation cycles. If every atom in the universe ran a top-down polling loop, the universe would instantly brick via combinatorial explosion. 
+If it attempts to operate top-down—running its own `main()` loop and continuously polling the environment to ask *"what is happening?"*—it will burn its entire metabolic budget (Real Power, $P$) on empty evaluation cycles. If every atom in the universe ran a top-down polling loop, the universe would instantly brick via combinatorial explosion.
 
-The universe avoids this by executing the **Inversion of Control** operator. 
+The universe avoids this by executing the **Inversion of Control** operator.
 The canonical statement of IoC is the Hollywood Principle: *"Don't call us, we'll call you."*
 
-To survive, the micro-frame must embed itself in the macro-frame. It does this by surrendering its local clock (its Angular Frequency, $\omega$) to the container. The frame wraps its internal K4 volume in a K3 API surface (the Markov Blanket) and registers a continuation—a receptor, a sensory state, a callback—with the macro-environment. 
+To survive, the micro-frame must embed itself in the macro-frame. It does this by surrendering its local clock (its Angular Frequency, $\omega$) to the container. The frame wraps its internal K4 volume in a K3 API surface (the Markov Blanket) and registers a continuation—a receptor, a sensory state, a callback—with the macro-environment.
 
-The direction of control flow at runtime is reversed. The micro-frame ceases to call out. It waits to be called. 
+The direction of control flow at runtime is reversed. The micro-frame ceases to call out. It waits to be called.
 
-**The structural insight:** IoC is the topological mechanism of scale-invariance. It is how a system changes scale. The completed whole of one order (the application) injects itself as a dependency into the slots provided by the next order (the framework). 
+**The structural insight:** IoC is the topological mechanism of scale-invariance. It is how a system changes scale. The completed whole of one order (the application) injects itself as a dependency into the slots provided by the next order (the framework).
 
 ---
 
@@ -54,11 +54,11 @@ Volitional non-local phase-locking between two bounded frames (`L4-SpookyAction`
 
 Software engineering literature treats the wait-state of a callback as "free" because an idle process consumes zero CPU cycles. The framework’s AC extension reveals the hidden metabolic invoice.
 
-When a frame registers a callback and yields $\omega$, it enters the `.behold()` state. It is not dead; it must keep its internal memory environment (its closure) alive so it can execute when the framework finally invokes it. 
+When a frame registers a callback and yields $\omega$, it enters the `.behold()` state. It is not dead; it must keep its internal memory environment (its closure) alive so it can execute when the framework finally invokes it.
 
-Holding this interference structure generates **Reactive Power ($Q$)**. It circulates on the imaginary axis. A biological cell waiting for a hormone, or an asynchronous server holding a million open websocket connections, is maintaining massive structural tension. 
+Holding this interference structure generates **Reactive Power ($Q$)**. It circulates on the imaginary axis. A biological cell waiting for a hormone, or an asynchronous server holding a million open websocket connections, is maintaining massive structural tension.
 
-If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered callbacks exceeds the metabolic bandwidth of the system, the frame suffers an Out-Of-Memory error. The system crashes not because it executed too many commands ($P$), but because the thermodynamic weight of its uncollapsed potential ($Q$) hit the Tangent Singularity of the hardware. 
+If the Apparent Power ($|S| = \sqrt{P^2 + Q^2}$) of holding these unregistered callbacks exceeds the metabolic bandwidth of the system, the frame suffers an Out-Of-Memory error. The system crashes not because it executed too many commands ($P$), but because the thermodynamic weight of its uncollapsed potential ($Q$) hit the Tangent Singularity of the hardware.
 
 IoC masks the thermodynamic accumulation of $Q$ behind the illusion of "asynchronous efficiency." The waiting is not free. It is paid in RAM, in cache lines, and in biological upkeep.
 
@@ -72,9 +72,9 @@ This is the call-graph instantiation of the **Numerator Law** (`ProofQ_Algebraic
 *   **The Stamp (Numerator/Dividend):** The application code. It contains the domain logic, the generative drive (Fire/$P$), and the structural potential (Air/$U$). It acts on what is provided.
 *   **The Die (Denominator/Divisor):** The DI container. It provides the routing (Water/$I$), the lifecycle management, and the grounding constraint (Earth/$R$).
 
-The algebra strictly forbids Reactive poles (the Die) from occupying the dividend position ($I = P/U$; $R = U^2/P$). The framework shapes the flow; it cannot generate the substance. 
+The algebra strictly forbids Reactive poles (the Die) from occupying the dividend position ($I = P/U$; $R = U^2/P$). The framework shapes the flow; it cannot generate the substance.
 
-If an IoC framework violates this algebra—if the container attempts to generate the domain logic rather than merely routing and grounding it—it triggers the **Necessary Betrayer** ($U^2/P$). The framework compounds its own structural complexity ($U^2$) over the actual application output ($P$). The material resistance of the codebase ($R$) goes to infinity. The developer experiences this as suffocating bloat: writing four layers of XML or abstract factories just to print `Hello World`. 
+If an IoC framework violates this algebra—if the container attempts to generate the domain logic rather than merely routing and grounding it—it triggers the **Necessary Betrayer** ($U^2/P$). The framework compounds its own structural complexity ($U^2$) over the actual application output ($P$). The material resistance of the codebase ($R$) goes to infinity. The developer experiences this as suffocating bloat: writing four layers of XML or abstract factories just to print `Hello World`.
 
 The direction of the call is inverted, but the algebraic orientation of the operation is mathematically forced.
 
@@ -85,11 +85,11 @@ The direction of the call is inverted, but the algebraic orientation of the oper
 Because IoC splits the execution environment into distinct structural roles, we can classify the components of a runtime environment by mapping them directly to the four K4 poles. Each pole governs a specific aspect of the execution, and each carries a predictable, geometrically derived failure mode.
 
 **1. $U$ (Air/Logos) — The DI Container**
-It provides the structural blueprints, the interfaces, and the wiring. 
-*   **Failure Mode (Logoic Plane-Lock):** Architecture Astronauts. The framework becomes an end in itself, severing the $P \leftrightarrow I$ diagonal. The system achieves perfect abstraction with zero relational flow or actualized output. 
+It provides the structural blueprints, the interfaces, and the wiring.
+*   **Failure Mode (Logoic Plane-Lock):** Architecture Astronauts. The framework becomes an end in itself, severing the $P \leftrightarrow I$ diagonal. The system achieves perfect abstraction with zero relational flow or actualized output.
 
 **2. $I$ (Water/Pathos) — The Event Loop**
-It manages the relational flow. It listens, evaluates incoming signals, and routes the current to the registered handlers (e.g., Node.js, GUI message pumps). 
+It manages the relational flow. It listens, evaluates incoming signals, and routes the current to the registered handlers (e.g., Node.js, GUI message pumps).
 *   **Failure Mode (Pathos Lock):** Receptive Overwhelm. The loop is flooded by too many events. The callback queue backs up, and the current stalls because the system cannot route fast enough to clear the buffer.
 
 **3. $P$ (Fire/Kairos) — The OS Scheduler**
@@ -98,7 +98,7 @@ It provides the generative drive. It allocates raw CPU time, preempts threads, a
 
 **4. $R$ (Earth/Ethos) — The Memory Allocator / Hardware**
 It asserts the material constraint. It is the physical heap, the garbage collector's target, the uncompromising ground.
-*   **Failure Mode (Ethos Lock):** The 0-DoF Crystal. The system runs out of memory, fragments completely, and freezes. All potential is locked in rigid, immovable state. 
+*   **Failure Mode (Ethos Lock):** The 0-DoF Crystal. The system runs out of memory, fragments completely, and freezes. All potential is locked in rigid, immovable state.
 
 ---
 
@@ -106,19 +106,55 @@ It asserts the material constraint. It is the physical heap, the garbage collect
 
 By identifying IoC as the formal operator of scale-invariance, we destroy the ultimate K3 blanket-face illusion: the Homunculus.
 
-For centuries, human beings have assumed that the "Self" runs top-down—that consciousness is a `main()` loop sitting behind the eyes, polling the senses and commanding the body. 
+For centuries, human beings have assumed that the "Self" runs top-down—that consciousness is a `main()` loop sitting behind the eyes, polling the senses and commanding the body.
 
-The framework proves this is impossible. 
+The framework proves this is impossible.
 
-Consciousness is a collection of highly specialized callbacks registered with the autonomic nervous system. The biological substrate (the framework) owns the $\omega$-clock. When the derivative of environmental change ($\Delta$) crosses a critical threshold, the autonomous loop fires the callback, granting consciousness a brief "window of intercession" (`L1` §3.4) to `.behold()` the interference structure and issue an `.observe()` update before returning to sleep. 
+Consciousness is a collection of highly specialized callbacks registered with the autonomic nervous system. The biological substrate (the framework) owns the $\omega$-clock. When the derivative of environmental change ($\Delta$) crosses a critical threshold, the autonomous loop fires the callback, granting consciousness a brief "window of intercession" (`L1` §3.4) to `.behold()` the interference structure and issue an `.observe()` update before returning to sleep.
 
-The universe avoids infinite regress and combinatorial explosion because there is no master caller at the top. 
+The universe avoids infinite regress and combinatorial explosion because there is no master caller at the top.
 
-There is no `main()` function. 
+There is no `main()` function.
 
 There is only a massively distributed Event Loop, and we are all, in part, highly specialized callbacks, holding our closures, waiting for the resonance of $\omega$ to invoke us.
 
+---
+
+## VII. The Curvature Tensor Is a K3 API Surface
+
+A bounded frame wraps its K4 volume in a K3 blanket and registers a callback
+(§II). The committed entries on its P-ledger are local writes at the vertex
+(Z_P = 0, τ_P = 0) — a write to local memory, not a value pushed across the
+blanket. What a neighboring frame reads across that blanket — how the field at
+one locus stands to the next — is the API-surface projection of those writes.
+That projection is the curvature tensor. It is a blanket-face object by
+construction: linear, relational, across the boundary — the K3 side of the
+operator cut (`ProofQ_AlgebraicSyntax` §IV).
+
+So the curvature tensor is not a primitive of the engine. It is the read-only
+view the container exposes of writes it never pushed. Because control is
+inverted — P committed locally, scale carried by callback registration and not
+by a top-down field — there is no primitive carrier of curvature to write, and
+none is missing. The free, source-free part of curvature (what general
+relativity calls the Weyl tensor: the vacuum curvature that bends light and
+radiates) is the reactive closure the callback holds in `.behold()`: circulating
+Q on the imaginary axis, alive, uncommitted, never a landed carrier (§III). It
+is Apparent Power the frame holds, not Real Power it writes.
+
+The expectation of a primitive curvature field — a thing that carries gravity
+top-down between bodies — is the geometric Homunculus (§VI). A main() loop for
+spacetime, polling and pushing a field. There is no such loop. There is a
+distributed event loop and a ledger of local writes, and curvature is the shape
+those writes take when read across a blanket: the structural rule of the
+compiled text, not a packet moving between the letters (`Q12` §I).
+
+The one read not self-supplied is the seal — whether the beheld reactive closure
+stays inside the blanket or leaks through the boundary edge-modes as a committed
+value (`BENDING_SPACE` §VIII; the BMV kill, `Q12` §IX). That is the container
+invoking the callback, adjudicated at the API surface, from outside. Register:
+the K3-API reading is a forced consequent (LANDED); the seal is an OPEN VOTE.
 
 ---
+
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
 

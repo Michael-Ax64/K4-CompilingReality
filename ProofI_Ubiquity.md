@@ -64,7 +64,7 @@ Two independent paths. One ascends from the substrate of manifest reality — fr
 
 They land on the same four-fold.
 
-* An observer ascending from the physical substrate verifies the territory. 
+* An observer ascending from the physical substrate verifies the territory.
 * An observer descending from the logic of distinction verifies the carving.
 
 E.g. Charge dynamics is the substrate, so a relational algebra of charge is not analogy but description of what is actually running.
@@ -79,11 +79,15 @@ When two genuinely independent derivations converge on the same point, coinciden
 
 ## V. What This Establishes and What It Does Not
 
-**What it establishes:** The four-fold {P, I, U, R} models the structure manifest reality runs on at atomic scale and above, derived independently from the substrate up and from logic down. The framework's use of the DC algebraic system is not metaphorical. It offers the most structurally exact available mapping of the relational structure that physical, biological, cognitive, and social processes actually instantiate.
+**What it establishes.** The four-fold {P, I, U, R} models the relational structure manifest reality runs on at atomic scale and above, derived independently from the substrate up (Leg 1) and from the logic of distinction down (Leg 2). The framework's use of the DC algebraic system is not metaphorical; it is the most structurally exact available mapping of the relational structure that physical, biological, cognitive, and social processes instantiate. The convergence of the two legs is the proof, and it rests on their independence (§IV): ubiquity is evidence precisely because the empirical leg and the logical leg share no premise.
 
-**What it does not establish:** That every physical phenomenon is electricity. The strong nuclear force, the Higgs mechanism, quantum gravitational effects below the Planck scale — these operate outside the framework's stated scope and outside the reach of this proof. The boundary is atomic scale and above, H_coh, instrumentable. Claims that exceed this boundary are overclaims this proof does not make and does not license.
+**What it does not establish — and the boundary runs through the mechanism, not the topology.** Leg 1 is a claim about *mechanism*: charge dynamics is what every manifest interaction at atomic scale and above is made of. That mechanism claim is bounded, and the bound is real — below atomic scale, charge is no longer the substrate. The strong force's confinement interior, the electroweak scalar sector, and the Planck cell are not charge dynamics, and Leg 1's ubiquity does not reach into them. What this proof does not establish is that everything is electricity.
 
-**The distinction from L1-ConvergentDiscovery:** That document argues breadth — the four-fold appearing across many domains by induction from many instances. This proof argues depth within the substrate domain — the four-fold being the structure the one domain everything else is made of actually runs on. Both arguments hold. They are distinct and complementary: the convergence table provides the inductive case, this proof provides the structural case. A reader should not substitute one for the other.
+The K4 *topology*, by contrast, does reach there — not as charge dynamics but as structural identification, worked at its own addresses, each carrying its own claim register: the strong force as the R-pole confinement mesh (`Q9` §V, `Q11`); the weak-boson mass and the Higgs sector as the Cardinal impedance holding relational current distinct from structural potential (`Q9` §IV, `Q3`); the Planck scale as the XOR bottleneck where the ledger is minted (`Q10`); gravity as the curvature the committed ledger sources (`BENDING_SPACE`). These are *applications* of the topology into domains Leg 1's mechanism claim does not cover. They are not additional independent instances of this proof's ubiquity, and they do not re-confirm it: ubiquity is evidence only across genuinely independent derivations (the two legs of §IV; the scope boundary of `ProofS_ResonantNote`), and these domains are the one topology applied, not independent legs. Read as reach, they extend where the structure is found; read as confirmation, they would be the convergence-inflation the corpus bars — the recurrence is real, and it is not evidence, because the framework put it there. In the `L4-K4-Infinities` Four-Category Datasheet these are Bridges consuming Substrate constants, a different category from this proof's Grammar-level convergence; pointing across categories carries no evidential load back to the proof.
+
+Uniqueness of the four-fold among four-variable systems is not established here either; it is deferred to `L3-FormalFoundations` (R1–R7), where it reduces to a finite structural selection rather than an open question.
+
+**The distinction from `L1-ConvergentDiscovery`.** That document argues *breadth* — the four-fold appearing across many domains, inductively, from many instances. This proof argues *depth* — the four-fold tracking the one substrate everything above atomic scale is made of. Both hold, and the same principle underwrites both: convergence counts only across independent paths. A reader should not substitute one for the other, nor read either as licensing the other's instances as its own.
 
 ---
 

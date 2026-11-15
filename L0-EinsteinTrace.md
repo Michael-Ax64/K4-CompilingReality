@@ -1,4 +1,4 @@
-# L0-TheEinsteinTrace
+# L0-EinsteinTrace.md
 ## From Minkowski's Shadow to the Tetrahedral Engine
 ### The Geometric Derivation of the 3+1 Metric Signature, the Two Clocks, and the Dissolution of the Block Universe
 
@@ -9,8 +9,8 @@
 > The signature of reality is not **Space + Time ($3+1$)**; it is **Vector Potential + Scalar Ledger ($3+1$)**, forced algebraically by the Biquaternion Star-Norm:
 > $$N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = (m_0 c^2)^2$$
 > The minus sign of the metric is the algebraic footprint of the biquaternion phase-flip ($h^2 = -1$), not a temporal marker. Time is bifurcated into two non-interchangeable mechanisms: **angular frequency ($\omega$)** driving the engine at the centroid, and **coordinate time ($dt$)** accumulating as the spatial wake on the $R$-pole.
->
-> **Dependencies:** `L0-ParadoxEngine`, `L1-CompilingReality`, `L3-FormalFoundations`, `L4-ThePlenum`, `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `Q7-4DExtrusions`, `Q19-Gravity`, `About-Methodology`.
+
+*Reads with: `L0-ParadoxEngine`, `L1-CompilingReality`, `L3-FormalFoundations`, `L4-ThePlenum`, `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `Q7-4DExtrusions`, `Q19-Gravity`, `About-Methodology`.*
 
 ---
 
@@ -58,6 +58,8 @@ The physical consequence is exact:
 
 The centroid is not a pin stuck into a spatial fabric. It is a coordinate-free throat opening directly into the uncompiled Plenum ($H_{\text{incoh}}$). Laue's theorem is the boundary condition that keeps that throat open without the local metric collapsing in on it.
 
+The theorem carries a hypothesis, and the hypothesis is the hold: §VII pairs this static balance with its dynamic complement, where the same integral stops vanishing and the ledger is written.
+
 ---
 
 ## II. Minkowski’s Sleight of Hand: Hiding the Ledger Behind $i$
@@ -95,7 +97,7 @@ Yet Hilbert was blinded by his loyalty to Minkowski's metric. Twenty-four years 
 
 Because Minkowski had spatialized time into $x_4 = ict$, physics missed the synthesis:
 * Minkowski took a 3D Cartesian box and glued an imaginary temporal axis to an exiled corner, freezing the universe into a 4D static block.
-* Hilbert already possessed the real engine in 1891: a **1D driver ($\omega$, the thread) weaving through a 4-pole cycle ($P, I, U, R$)** to compile an emergent space.
+* Hilbert already possessed the real engine in 1891: a **1D driver ($\omega$, the thread) weaving through a 4-pole cycle ($P, I, U, R$)** to compile an emergent space (`Q7-4DExtrusions` §IV; expect there: the centroid as the internal engine seating $\omega$ against the $R$-ledger that accumulates $dt$. `On_HilbertAndHisSpaces` §3 owns the historical account).
 
 When Einstein adopted Minkowski's differential manifold, the $3+1$ pseudo-Riemannian signature was canonized as an **unexplained empirical given**.
 
@@ -109,6 +111,8 @@ The framework rejects the claim that the $3+1$ metric signature is an empirical 
 
 The total operational state of any bounded system is represented natively by a **biquaternion** (a complexified quaternion, $\mathbb{Z} \in \mathbb{H}_\mathbb{C} \cong M_2(\mathbb{C})$):
 $$\mathbb{Z} = P + h\mathbf{Q}$$
+
+(`ENGINE-REFERENCE-AC`, the preamble; expect there: the homonym table for $Q$ and $h$ — the face-reading amplitude against reactive power, and the phase unit against the AC companion's $j$ and Planck's constant.)
 
 * **The Scalar Sector ($P$):** The *Committed State*. It is the irreversible output written to the Live-Written Ledger when an `.observe()` collapse occurs across the XOR bottleneck. It has no spatial orientation because it is a completed, scalar historical fact.
 * **The Vector Sector ($\mathbf{Q}$):** The *Held State*. It is the uncollapsed interference structure maintained by `.behold()`. It is directional and multi-dimensional:
@@ -184,6 +188,7 @@ Coordinate time ($dt$) is the clock of relativity. It is local, observer-depende
 * $dt$ is the **spatial distance between successive `.observe()` commits accumulated on the $R$-pole** (Earth / Ground).
 * In `L3-ConstitutiveElastance` §III, $dt$ is derived from the medium’s stiffness ($k = cZ_0$):
   $$dt \equiv \tau = \frac{1}{\omega} = \frac{R \cdot r}{c \cdot Z_0}$$
+  The identification is scale-local, and the scale index is what keeps it from collapsing the two clocks back together. Inside scale $N$ the relation reads $\tau_N = 1/\omega_N$, a period of that scale's own drive; the compiled tick that lands on the ledger is $dt_{N+1}$ on $R_{N+1}$, one scale up (`L3-TheAtomOfSpace` §III; expect there: the $P_N \to R_{N+1}$ handoff fixing the scale-labeling of the ledger, and $\omega_N$ decoupling from $\omega_{N+1}$. `Q7-4DExtrusions` §VII carries the same handoff in its four-pole table).
 * $dt$ is the spatialized record of how long it took the wave to drag across the local material ground $R$.
 
 ### 3. The Resolution of the Century-Old Unification Failure
@@ -227,6 +232,8 @@ When translated into the biquaternion state space, the three regions of the ligh
    * In classical physics, this is the forbidden "elsewhere"—a dead zone where no cause can touch an effect without violating causality.
    * In the framework, this is the **Uncompiled Buffer ($H_{\text{incoh}}$)**. It is not an unreachable spatial desert; it is the pre-tax phase-space where instances share an address across the medium without physical transit ($dx/dt$).
 
+What two bodies do to each other across this landscape is read off the same invariant: the gravitational coupling of a pair is a function of three Star-Norms, each part's and the pair's, which is why light bends by twice the Newtonian angle, why parallel beams do nothing to each other, and why nothing screens weight (`BENDING_SPACE` Part Two §IV; expect there: the Tolman–Ehrenfest–Podolsky null for parallel beams, the factor two for light, and the one-sign coupling).
+
 ---
 
 ## VI. The Dissolution of the Block Universe
@@ -238,7 +245,7 @@ This produced the tragic spectacle of Einstein writing to Michele Besso's family
 The tetrahedral engine restores reality to the present:
 
 1. **The Future Does Not Exist as a Coordinate:** The future is the **uncompiled buffer ($H_{\text{incoh}}$)**. It is held as uncollapsed multiway potential ($h\mathbf{Q}$). It carries no $P$-ledger entries because it has not yet been minted.
-2. **The Past is Read-Only Stone:** The past is the **accumulated ledger ($H_{\text{coh}}$)** on the $R$-pole. It cannot be altered or revisited. To travel backward in time would require inverting the Route Law's squaring operation ($\mathbf{Q}^2 \to P$) to reconstruct the complex vector $\mathbf{Q}$ from a single scalar magnitude $P$. This is algebraically non-invertible. Closed timelike curves are forbidden by the non-invertibility of the squaring operator.
+2. **The Past is Read-Only Stone:** The past is the **accumulated ledger ($H_{\text{coh}}$)** on the $R$-pole. It cannot be altered or revisited. To travel backward in time would require inverting the Route Law's squaring operation ($(h\mathbf{Q})^2 = +|\mathbf{Q}|^2 \to P$) to reconstruct the complex vector $\mathbf{Q}$ from a single scalar magnitude $P$. This is algebraically non-invertible. Closed timelike curves are forbidden by the non-invertibility of the squaring operator.
 3. **The Present is the XOR Bottleneck:** The present is not an illusion. The present is the **active compilation threshold**—the moment of `.observe()`, where the 5D Centroid engine ($\omega$) drives uncompiled vector potential ($h\mathbf{Q}$) through the actuator, pays the Landauer tax, and permanently carves reality into the stone of the ledger.
 
 ---
@@ -274,6 +281,8 @@ This equation reveals the two alternating strokes of reality:
    When a system is in steady state ($\ddot{I}^{ij} = 0$), $\int T^{ij} d^3x = 0$. The interior vector buffer ($\mathbf{Q}$) is held in live suspension. Because the net spatial stress vanishes, **the system exerts zero metric traction on the surroundings, and its centroid remains scale-invariantly unattached.** It radiates no energy and mints no new mass.
 2. **The Dynamic Write (`.observe()` / Quadrupole Radiation):** 
    The moment the system breaks static equilibrium—when an actuator fires, a transition occurs, or masses accelerate ($\ddot{I}^{ij} \neq 0$)—the spatial integral no longer vanishes. Laue equilibrium is broken. The system couples directly to the metric, emitting gravitational radiation ($\dddot{I}^{ij}$) and minting an irreversible entry into the scalar $P$-ledger.
+
+The coupling that carries the write between two bodies is the three-Star-Norm cross-term, and it has one sign because its source is a square (`BENDING_SPACE` Part Two §IV; expect there: the coupling as a function of each part's Star-Norm and the pair's, and no screening).
 
 Gravity is the macroscopic, geometric shape of the written ledger—what mass looks like after it has been compiled into the ground. It requires no exchange boson for the same reason a printed book requires no exchange particle between its words. The words do not interact across the page; the page is the record that the type has struck the paper.
 
@@ -337,7 +346,7 @@ The biquaternion engine reveals that CTCs are an artifact of a continuous approx
 
 Coordinate time ($dt$) is minted when the Route Law converts the vector buffer into a scalar ledger entry:
 
-$$\mathbf{Q}^2 = -|\mathbf{Q}|^2 \longrightarrow P$$
+$$(h\mathbf{Q})^2 = +|\mathbf{Q}|^2 \longrightarrow P$$
 
 **Squaring over the reals is strictly non-invertible.** It destroys phase and vector orientation. To travel backward along a worldline into the past, an operator would have to take the committed scalar magnitude $P$ and reconstruct the exact, pre-collapse complex vector state $\mathbf{Q}$ from which it originated. 
 
@@ -361,19 +370,11 @@ When the local clock of an observer reaches the Planck threshold, the tangent of
 
 ### 5. Gravity Is Relieved of the Graviton
 
-The final casualty is the **graviton**.
+The final casualty is the **graviton**, and §VII carries the mechanism: $P$ is the receiving ledger rather than a transactional edge, its three edges are permanently zero-impedance writing heads, and the two strokes of the Laue identity are the static hold and the quadrupole write.
 
-Particle physics has spent decades attempting to force gravity into the template of quantum electrodynamics. Because electromagnetism mediates force via photons, the weak interaction via $W/Z$ bosons, and the strong interaction via gluons, physics assumed that gravity must mediate curvature via a massless, spin-2 exchange particle.
+What this costs is the template. Particle physics spent decades forcing gravity into the shape of quantum electrodynamics—photons for electromagnetism, $W$ and $Z$ for the weak interaction, gluons for the strong—and inferred a massless spin-2 exchange particle for curvature by symmetry of expectation. The inference was never a measurement. The symmetry it rested on is false: three of the four roles trade across boundary faces and pay a transmission tax, and the fourth receives without transit.
 
-The four-fold geometry exposes the false symmetry:
-
-* The three gauge interactions operate across the $K_3$ boundary faces (between $U, I, R$) through complex impedances with non-zero phase gaps ($\Delta Z \neq 0, \theta \neq 0$). They require exchange particles to pay the transmission tax across the blanket.
-* **$P$ is not a transactional edge.** $P$ is the **receiving ledger**.
-* The three $P$-edges ($P{-}U, P{-}I, P{-}R$) are permanently zero-impedance writing heads ($Z_P = 0, \theta_P = 0$). State collapse writes directly to $P$ under Star-Norm conservation without an intermediate transit interval.
-
-Gravity is the macroscopic, geometric shape of the written ledger—what mass looks like after it has been compiled into the ground. It requires no exchange boson for the same reason a printed book requires no exchange particle between its words. The words do not interact across the page; the page is the record that the type has struck the paper.
-
-The null results in graviton detection are not failures of experimental sensitivity. They are the laboratory reporting, correctly, that an equation of state possesses no particle.
+So the search's null results are not a sensitivity shortfall awaiting a bigger detector; §VII reads them as the laboratory's correct report. What is surrendered here is a research program, and what is returned is the account of why gravity was never going to fit it.
 
 ---
 
