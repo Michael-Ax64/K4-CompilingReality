@@ -1,13 +1,13 @@
 # L4-Riemann-5
 ## Part Five — The Action
 
-*Reads with `L4-DynamicDistortions201` §II, `ENGINE-REFERENCE-AC` §2.5–2.7, `ProofG_Chirality` §II, §IV, `L4-K4-Infinities` (the Datasheet), `L4-ThePlenum`, `QED-EotvosBound`. Continues from `L4-Riemann-4`; continues in `L4-Riemann-6`. Every number here is reproduced by `scripts/torsion_action.py`, `scripts/parity_candidates.py` and `scripts/aggregate_parity.py`.*
+*Reads with `L4-DynamicDistortions201` §II, `ENGINE-REFERENCE-AC` §2.5–2.7, `ProofG_Chirality` §II, §IV, §V, `L4-K4-Infinities` (the Datasheet), `L4-ThePlenum`, `QED-EotvosBound`. Continues from `L4-Riemann-4`; continues in `L4-Riemann-6`. Every number here is reproduced by `scripts/torsion_action.py`, `scripts/parity_candidates.py` and `scripts/aggregate_parity.py`.*
 
 ---
 
 The first external audit closed its proceeding with a verdict and a task. The verdict was that the identification of the corpus's shear with geometric torsion was *unregistered*: nothing had been built that would let it be true or false. The task was to write the action that couples the corpus's bimedian shear to spacetime torsion, derive the shear's behaviour from it, and itemize every constant.
 
-This part does that. It is the one part of the file that computes something a classical reader would recognize as physics, and so it is the one part whose claims can be checked by a classical reader's own tools. It ends with one dimensionless dial, one experimental bound on it, and an open question about mirrors that turns out to be the dimensional question of Part Two arriving in a Lagrangian.
+This part does that. It is the one part of the file that computes something a classical reader would recognize as physics, and so it is the one part whose claims can be checked by a classical reader's own tools. It ends with one dimensionless dial, one experimental bound on it, and a chirality result that turns out to be the dimensional question of Part Two arriving in a Lagrangian.
 
 ---
 
@@ -185,9 +185,13 @@ $$\boxed{\;F(\vec\theta) \;=\; \theta_F\,\theta_C\,\theta_M\;}$$
 
 $\Delta$, the sixth-order pseudoscalar that an earlier version of this file carried as its carrier-symmetric option, is **excluded by time reversal** whatever parity turns out to be. That exclusion is the cheapest result in this section and the one most worth checking independently: $\Delta$ has even degree, so it cannot be odd under anything that acts as $\vec\theta \to -\vec\theta$.
 
-### What is left open, and it is not the coupling
+### What follows about chirality, and which object carries it
 
-One thing follows that the corpus may not want, and it is stated here rather than buried. A quantity odd under parity *and* odd under time reversal is, in Barron's terminology, **falsely chiral** rather than truly chiral — the class of $\mathbf{E}\cdot\mathbf{B}$ and of a spinning cone, not of a screw. `ProofG_Chirality` §V claims the opposite for the $\omega$-driven turn: *"The extruded, $\omega$-driven turn is true-chiral."* On the transformation properties computed here, the phase-offset triple is falsely chiral. Whether the corpus's screw recovers true chirality through the *translation* along $\omega$ — which is what distinguishes Barron's screw from his spinning cone — is a real question and is not answered here. `L4-Riemann-wip` flags it for `ProofG`.
+One consequence is worth stating rather than burying. A quantity odd under parity *and* odd under time reversal is, in Barron's terminology, **falsely chiral** rather than truly chiral — the class of $\mathbf{E}\cdot\mathbf{B}$ and of a spinning cone, not of a screw. So the phase-offset triple is falsely chiral, and it is forced to be: the same two parities that force the coupling force this, and there is no parity-clean Nieh–Yan coupling without them.
+
+`ProofG_Chirality` §V holds the same verdict on the same object, in those words, and seats true chirality on a different one — a **two-factor pitch invariant**, the advance of the $\omega$-ratchet times the hand of the closed boundary's circulation. Each factor is time-reversal-odd, so the product is time-reversal-even; the circulation hand is parity-odd while the centroidal advance is parity-even, so the product is parity-odd. Parity-odd and time-reversal-even is Barron's true chirality, and it is built from **two** signed factors where the coupling here has one. The two readings therefore do not compete: the offsets are a local phase field, and the pitch invariant is a global screw whose second factor is the ratchet. Section VIII is why they cannot be the same object — a single action is the held register by construction, and the advance that makes the product time-reversal-even is the committed direction, which no action carries.
+
+What that leaves open is narrower than a disagreement, and it belongs to `ProofG` §VII: whether the centroidal $\omega$-advance is genuinely parity-even, which rests on $\omega$'s dimensional exclusion from the pole basis rather than on anything computed in this part. Were the advance parity-odd, the product would be parity-even and the pitch invariant would collapse to false chirality too.
 
 ---
 
@@ -249,7 +253,7 @@ $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\,\frac{P_{\text{diss}}}{m c^2 \omeg
 
 with *"the numerator $P_{\text{diss}}\cdot\tau$ the Landauer tax paid per compilation cycle"* — driven by the tax a frame pays to keep its buffer, not by the energy it holds, and with a fixed sign.
 
-So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. The committed half needs a dissipative extension, and the parent file carries that as an unconstructed item of its own. The classical side is in the same position, for what it is worth: GR takes the equality of inertial and gravitational mass as its founding input, while the corpus recovers it as the limit of zero internal degrees of freedom and attaches a signed departure to it.
+So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. It is also why §IV's chirality result and `ProofG` §V's are about different objects: the factor that makes the pitch invariant time-reversal-even is the ratchet's advance, and the advance is committed. The committed half needs a dissipative extension, and the parent file carries that as an unconstructed item of its own. The classical side is in the same position, for what it is worth: GR takes the equality of inertial and gravitational mass as its founding input, while the corpus recovers it as the limit of zero internal degrees of freedom and attaches a signed departure to it.
 
 `L4-Riemann-wip` records three defects in `QED-EotvosBound` as written, which the averaging rule of Section V exposes — the most serious being that its clock for a passive test mass grows with the mass, which breaks the additivity that any $\eta$ must respect. They belong to that file and are flagged there.
 
@@ -267,6 +271,7 @@ So an action is the **held** register by construction. The **committed** registe
 | $\vec\theta$ odd under time reversal | phase lead becomes lag | **Grammar**, consuming DD201's reading of $\theta$ as a *temporal* offset |
 | invariant degrees; $\Delta$ | first pseudoscalar at six, unique | **Grammar** — Molien |
 | parity and averaging tables | — | **Grammar** — computed |
+| $\vec\theta$ falsely chiral; true chirality on `ProofG` §V's pitch invariant | two objects, two registers | **Grammar** (the parities) + **aligned** with `ProofG` §V |
 | $\kappa = 8\pi G = M_P^{-2}$ | — | **Substrate** — consumed, never derived |
 | $\alpha$ | minimal-coupling number | **Grammar** — fixed by the Dirac operator |
 | $\beta$ | free | **Dial — one, and the only one** |
@@ -310,6 +315,8 @@ So an action is the **held** register by construction. The **committed** registe
 The action the bench asked for did nothing, for five checkable reasons. The action that does something couples a function of the three bimedian phase offsets to the Nieh–Yan density, and everything follows from it in closed form. Torsion is forced into the axial channel, because that is the only channel a scalar can use without producing a ghost. The offset acquires dynamics from geometry with no new scale. Only one combination of the three is visible to geometry. Matter sources it through the divergence of the axial current. And the torsion-free connection reappears as what geometry does when the offsets stop changing: Riemann's freeze is the stationary sector of an action that has now been written.
 
 Which function couples is no longer open. The Nieh–Yan density is odd under parity and odd under time reversal, so $F$ must be too. Central inversion exchanges the two edges of every bimedian — because the centroid is the bimedian's own midpoint — so each offset is parity-odd. A phase lead becomes a lag under time reversal, so each offset is time-reversal-odd as well, and that second half is available only because DD201's $\theta$ is a *temporal* offset and not a geometric strain. Odd degree is therefore forced, the sixth-order candidate is excluded, and the unique carrier-symmetric survivor is the product of all three: $F = \theta_F\theta_C\theta_M$, third order, vanishing whenever any one bimedian is unsheared. The dimensional question of Part Two is answered here rather than merely posed — and the answer makes the action easier to kill, not harder.
+
+Odd under both parities means the offset triple is falsely chiral in Barron's sense, which `ProofG` §V says of the same object in the same words. True chirality lives on a different object there — a two-factor pitch invariant whose second factor is the ratchet's advance — and §VIII is why one action cannot hold both: the advance is committed, and an action is the held register.
 
 Populations average the coupling away exactly when they are closed under inversion, which is to say when they are parity-symmetric, and never average away the cost. So parity-symmetric nulls bound nothing here, and spin-polarized experiments bound $\beta\theta^2$ — at about $10^{-31}$ GeV, the first contact between the corpus's own quantity and a measurement.
 

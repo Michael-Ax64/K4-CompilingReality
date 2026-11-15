@@ -84,7 +84,7 @@ $$\{\text{P-face},\ \text{R-face}\}\ \big|\ \{\text{U-face},\ \text{I-face}\}$$
 
 which pairs the poles as $\{P, R\}$ and $\{U, I\}$. Those are the two edges of the **Cardinal** bimedian. The other two pairings — Fixed, $\{P, U\}\,|\,\{I, R\}$, and Mutable, $\{P, I\}\,|\,\{U, R\}$ — both give the same cross-ratio, $\tfrac12$, and a projective symmetry of the four lines swaps them. (That symmetry belongs to the configuration of lines, not to the variables: no relabelling of the four poles carries the plane onto itself except the identity, which `scripts/dc_logspace.py` checks.) **On the floor, Fixed and Mutable cannot be told apart, and Cardinal is privileged.**
 
-`L1-ConvergentDiscovery` Part III states the general law this is an instance of: *"Every representation of the tetrahedral structure on a two-dimensional surface [...] necessarily loses the z-axis [...] What survives the projection is the faces. What is lost is the volume between them."* And: *"The projector's choice of which two-dimensional projection to use is never neutral."* Here the non-neutrality has a number on it. A reader who works by rank — who asks only which relations are independent — is standing on the Cardinal diameter, sees Fixed and Mutable as one thing, and has no way to see the third dimension at all.
+`L1-ConvergentDiscovery` Part III states the general law this is an instance of: *"Every representation of the tetrahedral structure on a two-dimensional surface [...] necessarily loses the z-axis [...] What survives the projection is the faces. What is lost is the volume between them."* And: *"The projector's choice of which two-dimensional projection to use is never neutral."* Here the non-neutrality has a number on it.
 
 Two consequences, one inside the corpus and one outside it.
 
@@ -162,18 +162,18 @@ There are two kinds of object in the corpus that can both be called a mirror. On
 
 **And the corpus has already made the split, in its most recent file.** `ENGINE-REFERENCE-AC` §2.5 is titled *"Two flips, not one"* and exists to separate exactly these two objects:
 
-> "An old sentence fused two different flips under one word 'flip,' and the fusion read as mathematics: it equated a single transposition — odd — with a 180° half-turn of the tetrahedron — even. $A_4$ contains no transpositions, so the two objects cannot be equal."
+> "Two distinct involutions share the word 'flip': a single transposition (odd) and a 180° half-turn of the tetrahedron (even). Because $A_4$ contains no transpositions, the two operations cannot coincide."
 
 The two it names are:
 
 - **The handedness flip** — an *odd* single transposition. *"The machine cannot perform it from inside the manifest half — it is exactly the move the operating set lacks."* Acting on the solid it is an improper symmetry: a reflection. **This is the corpus's mirror.**
 - **The twin gate**, reached by the *even* $V_4$ half-turn about the gate's own pinned bimedian. Acting on the solid it is a rotation, and a rotation cannot change a solid's handedness. It swaps which gate is being read.
 
-§2.5 then says where the older name came from: *"`L4-TransitingTheThreeWalls` named its half-turn from the Cardinal case — the AR-flip — and the old text generalized one family's step to all twelve. It is the Cardinal twin-step; the other families step by their own half-turns."*
+§2.5 then says where the older name came from: `L4-TransitingTheThreeWalls` named its half-turn from the Cardinal case — the AR-flip — and the AR-trade in fact describes eight of the twelve twin-steps, the Cardinal and Mutable families, while the Fixed family trades within each charge class.
 
-So the AR-flip $(P\,R)(U\,I)$ is **the Cardinal family's twin-step** — one of three, a rotation, not a mirror. `ProofG_Chirality` §IV calls it *"the wholesale enantiomer operation [...] one of the machine's own half-turns; the mirror is not imported, it is the Cardinal ring **seen as** a reflection."* Its *seen as* is honest about the perspective, but the generalization to a wholesale mirror is the one §2.5 withdraws. ProofG has not absorbed the engine's split; The finding is reported to the group rather than parked here.
+So the AR-flip $(P\,R)(U\,I)$ is **the Cardinal family's twin-step** — one of three, a rotation, not a mirror. `ProofG_Chirality` §IV carries that split at source: it separates the odd $C_2$ handedness flip from the even $V_4$ twin-step, identifies the AR-flip as the Cardinal family's twin-step with the eight-of-twelve count, and states outright that *"because $(P\,R)(U\,I)$ is an even half-turn — a rotation of the solid — it cannot change the solid's handedness. What it changes is which gate is read."* Its remaining phrase — *"the mirror is not imported, it is the Cardinal ring seen as a reflection"* — is a reflection of the **reading** and is scoped as such in the same paragraph. There is no flag owed here.
 
-§2.5's own closing sentence is the distinction this section is about, in the corpus's words: *"The machine can walk to its twin but cannot flip its own handedness [...] Parity is not bookkeeping here; it is which moves exist."*
+§2.5's own closing sentence is the distinction this section is about, in the corpus's words: *"The machine walks to its twin by an even rotation in $A_4$, while the boundary between a gate's two completions is the odd transposition its operating set lacks. Parity is not bookkeeping here; it is which moves exist."*
 
 So: on the solid, a population closed under the rotation group $A_4$ is homochiral, without ambiguity. A twin-step changes which gate is read and leaves the hand alone. The mirror is the odd transposition — and spatial parity, which is a third thing again, is central inversion, which is in neither group. Section V already met it.
 
@@ -209,7 +209,7 @@ The AC set does break the floor, and the break has an address. In polar coordina
 
 Riemann's metric resembles that floor, and the resemblance is of tensor type and of method, not of dimension. A metric is a symmetric two-slot object and has no three-slot antisymmetric part inside it, which is why the connection's antisymmetric part is independent of it. The axial torsion is a three-form, so no surface data reveals it — in four dimensions as much as in any other. An earlier version of this part slid between three unrelated twos and built a dimensional argument on the slide; that is withdrawn, and what is left is the method resemblance, which Part Six §VI carries. And the host bought something real with the freeze: a unique second-order metric connection, locally removable, with no extra field to carry. The cost is the translational sector, and the cost is the subject.
 
-The Braid is what the projection loses: the over-and-under at every crossing, which needs a third dimension, which can be time. And the corpus's mirrors have to be read at the right level: the engine's own §2.5 splits the odd transposition the machine cannot make from the even half-turn it owns, and only the first is a mirror. Central inversion is a third thing again, and it is the one that cannot be confused with a relabelling, because it exchanges the two edges of every bimedian and never touches a name. Part Five turns on that.
+The Braid is what the projection loses: the over-and-under at every crossing, which needs a third dimension, which can be time. And the corpus's mirrors have to be read at the right level: the engine's own §2.5 splits the odd transposition the machine cannot make from the even half-turn it owns, only the first is a mirror, and `ProofG` §IV carries that split too. Central inversion is a third thing again, and it is the one that cannot be confused with a relabelling, because it exchanges the two edges of every bimedian and never touches a name. Part Five turns on that.
 
 What has not been said is who else has been looking for the third dimension, and what they found. That is the next part.
 
