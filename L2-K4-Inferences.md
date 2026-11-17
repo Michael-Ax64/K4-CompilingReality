@@ -1,7 +1,7 @@
 # L2: K4 Inference
 ## Finding the Tetrahedron a Claim Lives On
 
-*Developed from the Compiling Reality framework and the Algebra of Four-Fold Distinction. Reads with `L2-K4-InteriorStructure` (the secretaries, the centroid as the one unbound point), `L3-EdgeStateSpace` (the bimedians and their half-turns), `ENGINE-REFERENCE-AC` (tiers, strain invariance), `ProofQ_AlgebraicSyntax` (the three squarings), `L4-DynamicDistortions301` (the dipoles, the burned term), `L4-DimensionalCollapse` (the four-stroke collapse operator whose worked specimen is this file's Part Four), `Q14-LeptonScaleCascade` and `ENGINE-REFERENCE-AC` §VII (the cycle), `L2-Terminology` (`.behold()`), and `llm/llm-stance-laugh-detector.md` (the baseline step). Owns the inference procedure of Part One and its worked specimen, the tetrahedron of the Riemann zeros; cite those here.*
+*Developed from the Compiling Reality framework and the Algebra of Four-Fold Distinction. Reads with `L2-K4-Inferences-101` (the uncompleted transfer field $\zeta(\sigma+it)$), `L2-K4-Inferences-201` (engine interface: variational pin, gain law, active cutoff), `L2-K4-Inferences-301` (two cascade directions, Voronin's attic, committed sub-ledger bias), `L2-K4-Inferences-bench` (the verification ledger), `L2-K4-InteriorStructure` (the secretaries, the centroid as the one unbound point), `L3-EdgeStateSpace` (the bimedians and their half-turns), `ENGINE-REFERENCE-AC` (tiers, strain invariance), `ProofQ_AlgebraicSyntax` (the three squarings), `L4-DynamicDistortions301` (the dipoles, the burned term), `L4-DimensionalCollapse` (the four-stroke collapse operator whose worked specimen is this file's Part Four), `Q14-LeptonScaleCascade` and `ENGINE-REFERENCE-AC` §VII (the cycle), `L2-Terminology` (`.behold()`), and `llm-stance-laugh-detector.md` (the baseline step). Owns the inference procedure of Part One and its worked specimen, the static zero-orbit of $\xi$; the uncompleted complex field and its cascade unfold across `-101` through `-301`.*
 
 *This file is written as a literate construction. The code blocks, read top to bottom, are one program, and the prose between them is the reasoning that chose each line. Nothing is asserted about the specimen that a block does not return.*
 
@@ -41,7 +41,7 @@ The symmetric object has to be named exactly. Raw $\zeta$ does not carry the ful
 
 $$\xi(s) = \tfrac12\,s(s-1)\,\pi^{-s/2}\,\Gamma(s/2)\,\zeta(s).$$
 
-Its zeros are exactly the non-trivial zeros of $\zeta$. It is real on the real axis, so its zeros come in conjugate pairs, and it satisfies $\xi(s) = \xi(1-s)$ everywhere. The Euler product keeps zeros out of $\sigma > 1$, the functional equation then keeps them out of $\sigma < 0$, and every zero of $\xi$ lies in the strip between. With the centre moved to the origin, $x = \sigma - \tfrac12$ and $y = \gamma$:
+Its zeros are exactly the non-trivial zeros of $\zeta$. It is real on the real axis, so its zeros come in conjugate pairs, and it satisfies $\xi(s) = \xi(1-s)$ everywhere. Multiplying by $\pi^{-s/2}\Gamma(s/2)\,s(s-1)/2$ erases the pole at $s=1$ and swallows the secular phase rotor $e^{-i\vartheta(t)}$, placing this construction on the balanced, time-even hold slice; `L2-K4-Inferences-101` restores the uncompleted transfer field $\zeta(\sigma+it)$.
 
 ```python
 from fractions import Fraction as Fr
@@ -170,7 +170,9 @@ print('6  kinds by bimedian:', bim_sig)
 
 The three productions of $\tfrac12$ are a square, a root and a flat form. No pole holds both a square and a root. The value is not made like a pole, and that is all this step settles.
 
-It does not settle which move carries which mode. The last line of the block shows why. The tiers and the bimedians are two different threes and they cross-cut: squares sit on the Fixed and Mutable bimedians, roots on the Cardinal, flat forms on all three (`ENGINE-REFERENCE-AC` §4.1; expect there: "do not conflate the two threes"). A square, a root and a flat form together are reached by Cardinal with either of the others, so they do not witness three bimedians. And the three productions are sorted here by the kind of operator that appears in an identity of the specimen. Nothing in that makes the move that owns the root the Cardinal half-turn. The procedure leaves the moves unassigned.
+It does not settle which move carries which mode. The last line of the block shows why. The tiers and the bimedians are two different threes and they cross-cut: squares sit on the Fixed and Mutable bimedians, roots on the Cardinal, flat forms on all three (`ENGINE-REFERENCE-AC` §4.1; expect there: "do not conflate the two threes"). A square, a root and a flat form together are reached by Cardinal with either of the others, so they do not witness three bimedians. And the three productions are sorted here by the kind of operator that appears in an identity of the specimen. Nothing in that makes the move that owns the root the Cardinal half-turn. 
+
+The procedure leaves the static $V_4$ moves unassigned. (Inflating the rank-2 log-floor into positive-exponent integer arithmetic does break the `Fixed`/`Mutable` tie on the arithmetic lattice by isolating `{I, R}` (`Fixed` bimedian) as the unique non-negative generating basis, without forcing a static $V_4$ bijection here; see `L2-K4-Inferences-101` §3.)
 
 ## 7. Measure what was asserted, and run controls
 
@@ -387,7 +389,9 @@ All three productions say one thing in three dialects: at $\tfrac12$ an amplitud
 
 ## III.3 What sits there
 
-For $\zeta$ the centre is occupied by a number that is not zero: $\zeta(\tfrac12) = -1.4603\ldots$, and $\xi(\tfrac12) = 0.4971\ldots$. Nothing vanishes at the centroid of the specimen.
+For $\zeta$ the centre is occupied by a number that is not zero: $\zeta(\tfrac12) = -1.4603\ldots$, and $\xi(\tfrac12) = 0.4971\ldots$. Nothing vanishes at the centroid of the specimen. Yet $\zeta(\tfrac12)$ is not idle there:
+
+On the engine's $\{I, R\}$ commit lattice (`L2-K4-Inferences-101` §3; `L2-K4-Inferences-bench` `1a–1b`), $\#\{d^2m \le x\} = \zeta(2)x + \zeta(\tfrac12)\sqrt{x} + O(x^{1/3})$ places a second pole of $Z_P(s) = \zeta(s)\zeta(2s)$ at $s = \tfrac12$, making the centroid's occupant the exact `RESEED`-tier ($\sqrt{x}$) coefficient of $P$'s commit count (`-1.4602182` measured at $x = 10^{12}$).
 
 For the wider family the centre is where the arithmetic is richest. The order to which an elliptic curve's $L$-function vanishes at its central point is conjectured to equal the curve's rank, and the cases of rank zero and one are proved. The duality school's forced central zero (II.3) is the first term of that story. The schools already treat the centre as the place where a function reports on the object it came from.
 
@@ -399,7 +403,9 @@ That is why the three schools stall together. Each owns a move, each can borrow 
 
 The hypothesis is a statement about occupancy, and occupancy is decided by an inequality. Every proved case and every equivalent criterion is one. Weil's criterion is the non-negativity of a quadratic form. Li's is the non-negativity of a sequence. Deligne's proof over finite fields rests on a positivity that the geometry supplies.
 
-Not every square will do. The arithmetic square $\zeta(2\sigma)$ is a mean square. It feeds the averaged theorems of III.5 and says nothing about a single zero. The square that decides is the mod-square of step 7.2. On the line each zero is paired with itself and contributes a value times its own conjugate. Off the line it is paired with a different monad of its own orbit, and the contribution is a cross-term that can be negative. In the terms of Part Two: positivity holds exactly when the two monads joined by the line-reflection's edge are one point.
+Not every square will do. The arithmetic square $\zeta(2\sigma)$ is a mean square. It feeds the averaged theorems of III.5 and says nothing about a single zero—though its argument-square partner $\zeta(2s)$ inside $Z_P$ sets the DC bias the zeros' waves ride on ($Z_P/Z_U = \zeta(2s)/\zeta(s) = \sum\lambda(n)n^{-s}$, with $L(x)/\sqrt{x}$ averaging `-0.6819` on $[10^3, 10^7]$ against $1/\zeta(\tfrac12)$ conditionally, and both squarings meeting at $\tfrac12$; `L2-K4-Inferences-101` §3, `L2-K4-Inferences-301` §3). The square that decides single-zero occupancy is the mod-square of step 7.2.
+
+On the line each zero is paired with itself and contributes a value times its own conjugate. Off the line it is paired with a different monad of its own orbit, and the contribution is a cross-term that can be negative. In the terms of Part Two: positivity holds exactly when the two monads joined by the line-reflection's edge are one point.
 
 In the engine's terms symmetry is routing, which is free, and the mod-square is a commit, which is taxed (`ENGINE-REFERENCE-AC` §IV; expect there: Tier 3 ROUTE at unit slope moving value without paying, Tier 1 COMMIT at slope two squaring its operands and paying). A routing argument cannot pay a commit. The two controls of step 7.1 are that statement measured from both sides: one keeps the group and drops the product over primes, the other keeps the group and an Euler product, and the bulk fills in both. That reading is a correspondence, and it predicts something checkable: a proof of the specimen, when one exists, will turn on a positivity, and not on a new symmetry. How the arithmetic of the integers would supply that positivity is the open thing. Over finite fields a surface supplies it.
 
@@ -559,7 +565,9 @@ Two facts now stand together, and neither replaces the other.
 
 **The running tetrahedron is the cycle.** It is not any one orbit. It runs across the three schools' sides at once — the prime ledger on the arithmetic side, the dipole spectrum on the line, the root and the scale exchange on the duality side — and it is integrated at the centre. IV.5 is that cycle, running.
 
-What neither fact supplies is the thing that forces every dipole to collapse completely. The controls of step 7.1 have the same symmetry and carry waves that gain and lose. Over finite fields the forcing is a positivity that lives on a surface, one dimension above the curve it settles. Across families of $L$-functions the addresses are coupled: a zero on the real axis of one function repels the zeros of the others from the edge of the strip. Both point above the single function and its plane. Nothing here says what the larger object is over the integers. Held as a question, with no commit.
+What neither fact supplies is the thing that forces every dipole to collapse completely. **De Bruijn–Newman flow (`L2-K4-Inferences-101` §6: $H_t = e^{-t\partial_z^2} H_0$, with $\Lambda \ge 0$ by Rodgers–Tao) fixes the shape of that barrier:** if the hypothesis holds, $\zeta$ sits at $\Lambda = 0$ with zero margin, requiring an equality-grade positivity rather than a strict slack. The controls of step 7.1 have the same symmetry and carry waves that gain and lose.
+
+Over finite fields the forcing is a positivity that lives on a surface, one dimension above the curve it settles. Across families of $L$-functions the addresses are coupled: a zero on the real axis of one function repels the zeros of the others from the edge of the strip. Both point above the single function and its plane. Nothing here says what the larger object is over the integers. Held as a question, with no commit.
 
 ## IV.7 The whole, held
 
@@ -589,7 +597,9 @@ What the hypothesis is, then, with no regard for the nouns set down above: **the
 
 **ADOPTED** from their owners or from the literature of the specimen and not re-derived: the centroid as the unbound point; the operator split by charge; the cross-cutting of tiers and bimedians; strain invariance; the three squarings; the dipole taxonomy and the boundary as an operation; resonance; the runtime loop and the two strokes; `.behold()`; the explicit formula; the functional equation of $\xi$ and its reality on the real axis; the confinement of its zeros to the strip; the equivalence of the hypothesis with the reality of the zeros of $\Xi$; the positivity criteria; the averaged theorems of III.5; the nil-against-zero distinction and the hold-without-commit limit of a single action, at their addresses in the Riemann set.
 
-**CORRESPONDENCE:** the cone read as a light-cone; the recentring read as the unfold of `L0-EinsteinTrace`; the line read as resonance; a line zero read as a dipole of `L4-DynamicDistortions301`, the collapse as the orientation-discarding step, and the two surviving edge pairs as where the closed one's content passes; the explicit formula read as the engine's loop and the two-stroke account; the forcing object sought above the single function; the four orbit points read as monads; the three schools read as owners of the three moves, with their stopping points; the hypothesis read as a bimedian attractor; "an amplitude balances against its own measure"; positivity read as the taxed commit that routing cannot pay.
+**CORRESPONDENCE:** the cone read as a light-cone; the recentring read as the unfold of `L0-EinsteinTrace`; the line read as resonance; a line zero read as a dipole of `L4-DynamicDistortions301`, the collapse as the orientation-discarding step, and the two surviving edge pairs as where the closed one's content passes; the explicit formula read as the engine's loop and the two-stroke account; the forcing object sought above the single function; the four orbit points read as monads; the three schools read as owners of the three moves, with their stopping points; the hypothesis read as a bimedian attractor; "an amplitude balances against its own measure"; positivity read as the taxed commit that routing cannot pay; and the arithmetic bridge reading $\zeta(\tfrac12)$ as the `RESEED`-tier commit-count coefficient (verified numerically at $x = 10^{12}$ in `L2-K4-Inferences-bench`, `1a–1b`).
+
+**Unfolded Series:** `L2-K4-Inferences-101` (complex $\zeta(\sigma+it)$ transfer field), `L2-K4-Inferences-201` (engine interface translations), `L2-K4-Inferences-301` (two cascade directions, Voronin's attic, committed sub-ledger), and `L2-K4-Inferences-bench` (verified numerical suite).
 
 **Unassigned:** which axis carries which mode; which tier belongs to which move; which of the three dipole classes a line zero is.
 

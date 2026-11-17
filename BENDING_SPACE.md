@@ -364,7 +364,7 @@ $$|R| = \kappa\,|T|, \qquad T = \rho - 3p .$$
 
 So the hold bends space in one specific way and the content bends it in another. The trace sources scalar curvature, the part of curvature that changes volumes. The trace-free stress sources the part that changes shapes at fixed volume: focusing, shear. A universe filled with pure radiation expands, decelerates and focuses light, and its scalar curvature is zero at every instant.
 
-`L4-ScalingInvariants` A4 makes the same cut in the algebra's own coordinates: $\ln S$ splits into a real part, the modulus, and an imaginary part, the angle, and the Landauer tax is paid in modulus and never in angle. Volume is where the tax lands. Shape is free. The stress tensor's trace is the modulus and its trace-free part is the angle, and gravity keeps the same two accounts.
+`L4-ScalingInvariants` A4 makes the same cut in the algebra's own coordinates: $\ln S$ splits into a real part, the modulus, and an imaginary part, the angle, and the Landauer tax is paid in modulus and never in angle. Volume is where the tax lands. Shape is free. Whenever a transfer field is analytic, Cauchy–Riemann couples those two accounts across gradients: a scale-gradient in modulus cannot exist without a frequency-gradient in angle, and a local defect that looks purely angular on a boundary still leaves a global modulus deficit—which is why homogeneous offsets vanish while anything carrying a gradient weighs. The stress tensor's trace is the modulus and its trace-free part is the angle, and gravity keeps the same two accounts.
 
 This sharpens the claim and limits it. The exclusive version, that only confined energy gravitates, is Nordström's scalar gravity of 1912, in which the trace alone sources and the trace alone responds. It predicts no bending of light by the Sun and was dead by 1919. The surviving statement is the tensor one. **Rest mass is all trace. Scalar curvature is all trace. The trace is all hold.** Light is bent, and light bends, through the other nine components.
 
@@ -677,7 +677,7 @@ print(f"{S:.3e}", f"{N4:.3e}", f"{(3/(8*math.pi))*th**2:.3e}")                  
 
 A curvature, an angle, an entropy and a count. **The cosmological constant is three times the square of the angle the Planck length subtends at the horizon.** At $10^{-61}$ radian the angle and its tangent are the same number. The constant is $3\pi$ over the entropy of that horizon. It is three over the square root of the four-volume the horizon spans, counted in Planck cells. The equalities are exact: one ratio of lengths, read four ways. The single estimate in the line is the reading of $N_4$ as Sorkin's count, which carries a geometric factor and the fluctuation's own coefficient, both of order one.
 
-Read from right to left on the counting reading, the line says what kind of quantity $\Lambda$ is. It is a variance: the Poisson spread $\sqrt{N_4}$ in the count of four-volume, seen through the variable conjugate to four-volume. And the spread of the count is the entropy of the boundary, $\sqrt{N_4} = S_\Lambda/\pi$, with nothing left over. The uncertainty in how much bulk has been written is the area of its edge.
+Read from right to left on the counting reading, the line says what kind of quantity $\Lambda$ is. It is a variance: the Poisson spread $\sqrt{N_4}$ in the count of four-volume, seen through the variable conjugate to four-volume. And the spread of the count is the entropy of the boundary, $\sqrt{N_4} = S_\Lambda/\pi$, with nothing left over. The uncertainty in how much bulk has been written is the area of its edge. That $\sqrt{N_4}$ scaling names the size of the count variance, not an assumption that the underlying cells are uncorrelated: on conjugate sides of a lossless account, root-size count fluctuation and spectral rigidity coexist without competing.
 
 Run the convergence question on the three. They share an exhibited parameter, $(\ell_P/R_H)^2$, which `Q10` §VII and `QED-CCP` already hold as an identity. The reactive reading says why the bulk of the vacuum's capacity does not register. The integration-constant reading says the residue is a datum of the whole. The counting reading says how large a datum a finite count must leave. They are three edges on one vertex.
 
@@ -691,7 +691,7 @@ A constant of nature has no reason to care what epoch it is. A count does not st
 
 Two things are true of it at once, at two scales. At any instant the term is pure trace, proportional to the metric, with the equation of state of a constant: $w = -1$ at the write edge. Across epochs its size follows the count. The write-head is constant in kind and secular in amount.
 
-What a survey reports as $w$ is a slope: $w = -1 - \tfrac13\,d\ln\rho_\Lambda/d\ln a$. A term that is falling reads above $-1$. A term that is rising reads below it. A fluctuation about zero does both, and it crosses $-1$ each time it turns. A field pays for that crossing. A single canonical scalar cannot make it, and the field models that do carry a second field with kinetic energy of the wrong sign, or a non-minimal coupling to curvature. **The count crosses with no field at all, so there is nothing in it to be a ghost.**
+What a survey reports as $w$ is a slope: $w = -1 - \tfrac13\,d\ln\rho_\Lambda/d\ln a$. A term that is falling reads above $-1$. A term that is rising reads below it. A fluctuation about zero does both, and it crosses $-1$ each time it turns—whereas a zero-mean fluctuation carrying a committed quadratic sub-ledger holds a one-signed bias across vast spans before turning, even while the underlying oscillation stays reactive. A field pays for crossing $-1$. A single canonical scalar cannot make it, and the field models that do carry a second field with kinetic energy of the wrong sign, or a non-minimal coupling to curvature. **The count crosses with no field at all, so there is nothing in it to be a ghost.**
 
 A ruler laid from the Planck length to the horizon reads accordingly. The step of the ladder is fixed. The number of steps is a reading, and it advances by one each time the horizon grows by a factor of $2/\alpha$.
 
@@ -745,24 +745,43 @@ Claim / Result                             Instrument                   Status  
 ## XII. Questions That Generate
 
 1. **What is the trace at the Planck rung?** The stiffness of space is a trace–trace correlator. Colour supplies $10^{-40}$ of it. What holds at the bottom of the ladder, and is its trace computable from the $K_4$ atom of space the way the pion's boundary impedance is?
+
 2. **Is the quarter the Scalar of Scalar + Vector?** The split of the stress into one trace and nine trace-free components, and the split of energy into one quarter hold and three quarters content, both come from the trace of the metric being four. Does `ProofN`'s biquaternion give the one-to-three energy split directly?
+
 3. **Which wall is the Laue balance on?** `L3-TheSixWalls` §IV files Laue, Noether and ADM under quasi-locality on $P$–$I$, the interior parity edge of the Mutable matching. The core pushes and the periphery pulls, and the sign change in the proton's pressure near 0.6 fm is a boundary inside the blanket. Is that inner boundary the place where the Readout Wall meets the edge-mode fringe of §VIII?
+
 4. **What is the $D$-term in the algebra?** Mass and spin have seats. The third global property of the proton, the one that encodes its stability, has none yet.
+
 5. **Does the composition operator close on cross-terms plus one shift per part?** If the in-blanket shift of a part's invariant is a function of its is-ness bandwidth, `On_TheIsNessTax` Layer 2 may already be that function.
+
 6. **Why does the hold equal the record only at a horizon?** $M = 2TS$ there and nowhere else. Is a horizon the limit in which the scale handoff $P_N \leftrightarrow R_{N+1}$ has nothing left to hand to?
+
 7. **Is $N$ the length of the ledger?** If the count in $\Lambda \sim 1/\sqrt N$ is the number of commits, the cosmic holding term falls as the record grows, and dark energy is not constant. The surveys rule on that.
+
 8. **What does the trace-free form do to the P-edge ban?** Nine equations propagate; the tenth is a first integral with a constant. Is the tenth equation the one written at zero impedance?
+
 9. **Is there a hold with $U$ absent in the sky?** $P = I^2R$ has no slot for charge. What would a confined sector with no leak onto $U$ look like from outside, and how would it differ from a particle?
+
 10. **Can the isotope shift be read as a change in trace?** H₂ to D₂ moves the held zero-point term and the binding by a measured amount. That is the smallest clean change in a hold available on a bench.
+
 11. **What is the content view for?** The corpus speaks the hold view natively. The content view, in which light weighs double and walls subtract, is the one in which the acceleration of the universe is a sign. Does the pair of views map onto the two faces of the ledger?
+
 12. **Why is the second sign-perfect seating the Braid-shift of the first?** The sweep's other peak is the forced seating advanced one step along $P \to R \to I \to U$. Is that the engine seen one gate later, and does each of the four shifts have a regime in which it is the sign-perfect one?
+
 13. **Is the three-quarter power of metabolism the same count?** West, Brown and Enquist derive quarter-power scaling from supply networks that "endow life with an additional fourth spatial dimension," and the exponent is the surface-to-volume exponent in four dimensions, $(D-1)/D$ at $D = 4$. The content share of §II is $(D-1)/D$ at $D = 4$. One is an exponent and the other a fraction, and the empirical exponent is still contested between 3/4 and 2/3. A derivation in which metabolic rate is the content of a held volume would join them. Nothing here supplies one.
+
 14. **Why do the two quarters meet in four dimensions?** The horizon's entropy carries a quarter in every dimension. The hold carries $1/D$. They agree at $D = 4$ and nowhere else (§IX). Is that a fact about four, or about nothing?
+
 15. **What are the transfer functions of $U$ and $I$?** The ground's is one logarithm between the Planck tier and the hadron. The potential's and the flow's would complete row 8.
+
 16. **What closes across tiers above the $W$ mass?** On one sheet nothing does. Which of the twelve pair a pole at one tier with a pole at the next, the way $P_N \leftrightarrow R_{N+1}$ does?
+
 17. **If the volume is given, who gives it?** In the trace-free theory the volume element is fixed and $\Lambda$ is its conjugate. "The volume is what is" becomes a constraint. What sets it at the first commit?
-18. **Is the cosmic term a variance or a running total?** The trace-free theory admits a second mechanism beside the count. Stress conservation may fail, provided the failure is a gradient, $\nabla^b T_{ab} = J_a = \nabla_a Q$, and the field equation then carries $\Lambda_{\text{eff}} = \Lambda_{-\infty} + \kappa\int J$ (Josset, Perez and Sudarsky 2017). The term is the running total of everything that was not conserved. That mechanism is dissipative, and one-way for as long as $J$ keeps its sign. The count of §X is reactive: a spread about zero with no net transfer. One reads on the price meter and the other on the tachometer, and the sign history of $d\Lambda/dt$ tells them apart. Does the price meter of `L4-Thermodynamics` §V have a cosmic integral, and is it this one?
+
+18. **Is the cosmic term a variance or a running total?** The trace-free theory admits a second mechanism beside the count. Stress conservation may fail, provided the failure is a gradient, $\nabla^b T_{ab} = J_a = \nabla_a Q$, and the field equation then carries $\Lambda_{\text{eff}} = \Lambda_{-\infty} + \kappa\int J$ (Josset, Perez and Sudarsky 2017). The term is the running total of everything that was not conserved. That mechanism is dissipative, and one-way for as long as $J$ keeps its sign. The count of §X is reactive: a spread about zero with no net transfer. One reads on the price meter and the other on the tachometer, yet the sign history of $d\Lambda/dt$ alone cannot separate them without a sub-ledger decomposition: a reactive count carrying a committed quadratic sub-ledger stays one-signed across every reachable epoch (as the prime-square sub-ledger keeps the prime-counting race negative up to $\sim 10^{316}$ despite an unbiased oscillating spectrum), and the $1/\sqrt{N_4}$ envelope itself falls as the ledger grows. The discriminating test is whether a monotonic bias survives after subtracting both the secular $1/\sqrt{N_4}$ envelope and any committed sub-count (joining Q7). Does the price meter of `L4-Thermodynamics` §V have a cosmic integral, and is it this one?
+
 19. **Is the string's breaking point a phase threshold?** A colour string breaks by a quark pair tunnelling out of it, with weight $e^{-\pi m_\perp^2/\kappa}$. The exponent is the action across the barrier, and it is a half-turn at $m_\perp = \sqrt\kappa \approx 0.42$ GeV. Light quarks sit far below the half-turn and the string breaks freely. Charm sits far above and is suppressed below $10^{-11}$. `L4-DynamicDistortions-Sudoku` KD-2 asks whether a cascade fires on energy density or on accumulated phase. Is this the place where the two are one condition, and does the standoff of §VI read on the same angle?
+
 20. **Is the hold repaired at the centre?** The chiral anomaly fails on an edge and is repaired by a five-dimensional bulk with no local degrees of freedom, which `L3-TheSixWalls` §VI seats at the centroid. The proton's quarter is also an anomaly, the anomaly of scale. Its five-dimensional reading exists (Henningson and Skenderis 1998), and that bulk is not inert: it carries a dynamical metric. Is the scale anomaly the one failure the centroid cannot seat without moving, and is that what it means for the fourth pole to weigh?
 
 ---
