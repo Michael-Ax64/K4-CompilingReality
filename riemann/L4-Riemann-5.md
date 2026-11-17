@@ -225,7 +225,9 @@ With the coupling fixed, this is no longer a fork. $\partial F/\partial\theta_F 
 
 $$\beta\,\theta^2\,\nu \;\lesssim\; 3\times10^{-31}\ \text{GeV}.$$
 
-**Quadratic suppression, not linear and not quintic.** The bound bites two powers of the offset weaker than on the bench's linear coupling, and three powers harder than it would have on the sixth-order $\Delta$ this file previously carried as its carrier-symmetric option.
+**Quadratic suppression, not linear and not quintic.** The bound bites two powers of the offset weaker than on the bench's linear coupling, and three powers harder than it would have on a sixth-order $\Delta$.
+
+**What the bound does not constrain.** $\beta$ is not an unknown interaction strength. In canonical normalization $\varphi = (\beta M_P/\sqrt6)\,F$, both the torsion readout $a_\mu = \sqrt{\tfrac23}\,M_P^{-1}\partial_\mu\varphi$ and the matter coupling $\alpha\sqrt{2\kappa/3}\,(\partial_\mu\varphi)\,j_5^\mu$ are independent of $\beta$: matter couples to $\varphi$ at fixed Planck suppression, and $\beta$ is strictly the dictionary scale $f/M_P$ — like an axion decay constant — converting the dimensionless offset product $F$ into canonical field amplitude. Filed **Substrate** — consumed, never derived, like $c$ or $Z_0$; the experiments bound the product $\beta\theta^2\nu$, never $\beta$ alone. It is promoted to Bridge only if a future derivation derives $f/M_P$ from $K_4$ geometry.
 
 Two consequences. An offset advancing **uniformly** — one global phase rate — produces a timelike axial torsion, a preferred-frame background of exactly the kind these experiments bound. So either the advance is not coherent at laboratory scales (the corpus seats $\omega$ at each bounded frame's own centroid, which is the local reading) or $\beta$ is small. And in this action vacuum torsion is a **gradient**: $\partial_{[\mu}a_{\nu]} = 0$ away from polarized matter. That is the action's sharpest falsifier, and it is listed below.
 
@@ -253,7 +255,7 @@ $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\,\frac{P_{\text{diss}}}{m c^2 \omeg
 
 with *"the numerator $P_{\text{diss}}\cdot\tau$ the Landauer tax paid per compilation cycle"* — driven by the tax a frame pays to keep its buffer, not by the energy it holds, and with a fixed sign.
 
-So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. It is also why §IV's chirality result and `ProofG` §V's are about different objects: the factor that makes the pitch invariant time-reversal-even is the ratchet's advance, and the advance is committed. The committed half needs a dissipative extension, and the parent file carries that as an unconstructed item of its own. The classical side is in the same position, for what it is worth: GR takes the equality of inertial and gravitational mass as its founding input, while the corpus recovers it as the limit of zero internal degrees of freedom and attaches a signed departure to it.
+So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. It is also why §IV's chirality result and `ProofG` §V's are about different objects: the factor that makes the pitch invariant time-reversal-even is the ratchet's advance, and the advance is committed. The committed half lies outside any single variational action; empirical tests of the committed register sit at `L4-K4-Infinities` KI-6 and in the open-system $dS_i > 0$ bath law. The classical side is in the same position, for what it is worth: GR takes the equality of inertial and gravitational mass as its founding input, while the corpus recovers it as the limit of zero internal degrees of freedom and attaches a signed departure to it.
 
 `L4-Riemann-wip` records three defects in `QED-EotvosBound` as written, which the averaging rule of Section V exposes — the most serious being that its clock for a passive test mass grows with the mass, which breaks the additivity that any $\eta$ must respect. They belong to that file and are flagged there.
 
@@ -274,22 +276,14 @@ So an action is the **held** register by construction. The **committed** registe
 | $\vec\theta$ falsely chiral; true chirality on `ProofG` §V's pitch invariant | two objects, two registers | **Grammar** (the parities) + **aligned** with `ProofG` §V |
 | $\kappa = 8\pi G = M_P^{-2}$ | — | **Substrate** — consumed, never derived |
 | $\alpha$ | minimal-coupling number | **Grammar** — fixed by the Dirac operator |
-| $\beta$ | free | **Dial — one, and the only one** |
+| $\beta$ | dictionary scale $f/M_P$ | **Substrate** — consumed, never derived (canonical readouts $\beta$-independent; the bound constrains $\beta\theta^2\nu$, not $\beta$ alone) |
 | choice of $F$ | $\theta_F\theta_C\theta_M$ | **Grammar** — forced by P-odd, T-odd and carrier symmetry; no longer a fork |
 | bare kinetic scale | **not needed** — induced, $f = \beta M_P/\sqrt6$ | — |
 | torsion bound | $\sim 10^{-31}$ GeV | **State** — experimental input |
 
 **One prohibition.** $\beta$ must not be borrowed from the Barbero–Immirzi parameter. Structurally this action is the Barbero–Immirzi-field model with the parameter promoted to a function of the offsets, and the identification *"the corpus's chirality is the Barbero–Immirzi parameter"* is a route that does not work (Part Six): $\gamma$ is a quantization ambiguity, and borrowing its value would be a dressed dial.
 
-**What changes in the parent's accounts.**
-
-| Account | Before | After |
-|---|---|---|
-| **U2** — which operator $\vec\theta$ couples through | nil | **discharged in form**: the Nieh–Yan density, the axial channel, sourced by $\nabla\!\cdot j_5$; not the Yukawa sector |
-| **U3** — the solder form | nil | **discharged for this channel**: parity and time reversal on $\vec\theta$ are fixed by the geometry of the bimedian and by $\theta$ being temporal, so the coupling is forced without one (Section IV) |
-| **U1** — a connection on $A_4$ | nil | **answered on the floor** — see Part One §IV: the engine's own reference pinning is a flat trivialization, so discrete torsion vanishes at $\theta = 0$, which is this action's $\partial F = 0$ sector read discretely |
-| **U0** — the engine's recurrence | nil | untouched |
-| **U4** — the dissipative register | not stated | **opened**: the committed side cannot be written in one action (Section VIII) |
+This action tests only the held sector: the offsets $\vec\theta$, entering through the axial Nieh–Yan channel. The self-feeding recurrence lives at `ENGINE-REFERENCE-AC` §X item 4, and committed-side tests sit outside single-action variation (Section VIII).
 
 **What would make this a Bridge.** One thing now, where there were two: the corpus fixes $\beta$ from $K_4$ structure with no free parameter, and the resulting relation is checked at more than one configuration. $F$ is no longer owed.
 
@@ -306,7 +300,7 @@ So an action is the **held** register by construction. The **committed** registe
 *Kills — events in the world:*
 
 6. **Curl.** In this action, vacuum axial torsion is a gradient. **A measured axial torsion background with non-vanishing curl, away from polarized matter, falsifies it.**
-7. **The coupling's own zero — now the file's sharpest.** $F = \theta_F\theta_C\theta_M$ vanishes when **any single bimedian is unsheared**. So: **exhibit geometric torsion sourced by a configuration in which one of the three phase offsets is zero, and this action is dead.** That is a far more exposed condition than the sixth-order option it replaces, which needed two offsets to coincide in magnitude. The coupling got cheaper to kill when it got forced.
+7. **The coupling's own zero — the file's sharpest.** $F = \theta_F\theta_C\theta_M$ vanishes when **any single bimedian is unsheared**, and the kill is stated on the configuration, not the crossing. **Held statically** at one offset zero ($\theta_i \equiv 0 \Rightarrow \partial_\mu F = 0$): exhibit geometric torsion sourced by such a configuration, and this action is dead. A configuration merely passing through one offset zero still sources torsion — while for instance at $\theta_F = 0$ alone, $\nabla F = (\theta_C\theta_M,\ 0,\ 0) \neq 0$, so $a_\mu = \tfrac{\beta}{3}\,\theta_C\theta_M\,\partial_\mu\theta_F \neq 0$. And at any point where **two offsets vanish** ($\theta_i = \theta_j = 0$, where $\nabla F = 0$ identically), the kill holds to first order in fluctuations.
 
 ---
 
