@@ -37,7 +37,9 @@ Jacobson's theorem (1995, **ADOPTED** — mainstream physics, active research pr
 
 The corpus's Landauer-per-commit is the same bookkeeping in algebra variables — but it enters on the other side of Clausius, and the seating matters enough to state.
 
-Jacobson's 1995 derivation uses the **equilibrium** Clausius relation, in which $\delta Q$ is a *reversible* heat flux across a local Rindler horizon. Eling, Guedens and Jacobson then showed (*Phys. Rev. Lett.* **96**, 121301, 2006) that corrections to the entropy require a **non-equilibrium** treatment, $dS = \delta Q/T + d_iS$, with $d_iS$ a bulk-viscosity entropy-production term — and that even pure Einstein gravity admits entropy production through a shear viscosity of the horizon.
+Jacobson's 1995 derivation uses the **equilibrium** Clausius relation, in which $\delta Q$ is a *reversible* heat flux across a local Rindler horizon. 
+
+Eling, Guedens and Jacobson then showed (*Phys. Rev. Lett.* **96**, 121301, 2006) that corrections to the entropy require a **non-equilibrium** treatment, $dS = \delta Q/T + d_iS$, with $d_iS$ a bulk-viscosity entropy-production term — and that even pure Einstein gravity admits entropy production through a shear viscosity of the horizon.
 
 A Landauer tax is irreversible entropy production. **So the erasure tax is $d_iS$, not $\delta Q$.** The accumulated specification written to $P$ remains the entropy $S$, and the identification is still not an analogy — it is seated one term over.
 

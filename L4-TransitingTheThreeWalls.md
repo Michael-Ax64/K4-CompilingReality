@@ -99,11 +99,11 @@ This ratio is the direct measure of the *smearing* the Cartesian embedding impos
 
 ### The AR-Flip Made Physical
 
-The Pinned tet retains one symmetry the Cartesian tet has hidden: **180° rotation about the pinned bimedian axis is an automorphism.** In the Cardinal Pinned assembly, rotating $180°$ about $z$:
+The Pinned tet retains one symmetry the Cartesian tet has hidden: **180° rotation about the pinned bimedian axis is an automorphism of the matching structure.** In the Cardinal Pinned assembly, rotating $180°$ about $z$:
 
 $$P(0, 1, 1) \leftrightarrow R(0, -1, 1), \quad I(-1, 0, -1) \leftrightarrow U(1, 0, -1)$$
 
-This swap — $P \leftrightarrow R$, $I \leftrightarrow U$ — is exactly the AR-flip automorphism of the $V_4$ symmetry group (`llm.md`, `code/aut.lisp`). The Pinning makes the AR-flip physically visible as a coordinate rotation, whereas in the Cartesian embedding the AR-flip is hidden inside the $S_4$ full-symmetry group of the box.
+This swap — $P \leftrightarrow R$, $I \leftrightarrow U$ — is the **Cardinal** family's even $V_4$ twin-step (one of three $V_4$ bimedian half-turns preserving the matching structure, alongside Fixed $(P\,U)(I\,R)$ on Assembly 2 and Mutable $(P\,I)(U\,R)$ on Assembly 3 — not an automorphism of the twelve equations, `ProofS_ResonantNote` §II, and distinct from the odd single-transposition handedness flip $C_2$, `ENGINE-REFERENCE-AC` §2.5 and `ProofG_Chirality` §IV). Pinning makes this family's even half-turn physically visible as a coordinate rotation, whereas in the Cartesian embedding all three $V_4$ half-turns sit inside the $S_4$ symmetry group of the box.
 
 ### Why This Might Matter Beyond Diagnostics
 
