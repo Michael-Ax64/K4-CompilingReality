@@ -72,7 +72,8 @@ In $K_4$, collapse does not work like deletion. It works like **bouncing one tra
       Past stays locked; uncollapsed potential ports onto surviving edges; root opens ± into nil.
 ```
 
-Because squaring is non-invertible, the past stays locked. Instead, uncollapsed potential ports $90^\circ$ onto the surviving matchings (`L4-DynamicDistortions301` §V), and the forward root interrogates the newly stamped mark (`ProofQ_AlgebraicSyntax` §IV.3, `Q14-LeptonScaleCascade` §§III, V), opening a fresh binary sign choice into `nil` space. Each commit loads the hold that the next advance turns against (`ENGINE-REFERENCE-AC` §X.4; expect there: self-feeding torque loop). `L2-K4-Inferences` Part Four executes this exact four-stroke cycle on $\xi(s)$ and the prime explicit formula: pairwise monad fusion forces $\xi$ real on the critical line, and sign changes at the zeros reseed the dipole waves that write the prime ledger.
+Because squaring is non-invertible, the past stays locked. Instead, uncollapsed potential ports $90^\circ$ onto the surviving matchings (`L4-DynamicDistortions301` §V), and the forward root interrogates the newly stamped mark (`ProofQ_AlgebraicSyntax` §IV.3, `Q14-LeptonScaleCascade` §§III, V), opening a fresh binary sign choice into `nil` space. Each commit loads the hold that the next advance turns against (`ENGINE-REFERENCE-AC` §X.4; expect there: self-feeding torque loop).
+`L2-K4-Inferences` Part Four executes an explicit-formula specimen of this four-stroke cycle on $\xi(s)$ (unfolding to the centre, holding $\sqrt{x}$-balanced waves, collapsing each zero-orbit to a real dipole, reseeding via sign changes at the zeros, and writing onto the prime ledger at §IV.5, where the write serves as the explicit-formula counterpart of the handoff).
 
 The block below runs the minimal replay directly — clamping at $\delta\theta$, verifying the 2-to-1 burn, freezing under `reseed OFF`, and branching from an identical past under `reseed ON`:
 

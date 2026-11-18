@@ -442,18 +442,18 @@ When a bimedian matching undergoes complete $90^\circ$ collapse (§V), both of i
 
 A two-node system connected by an axis carrying opposing operational charges is the exact topological definition of a **Dipole**. Because $K_4$ possesses **exactly three perfect matchings** (the three bimedian axes), **all dipoles across physics, biology, and network architecture sort into three exact topological classes**:
 
-#### 1. The Cardinal Dipole ($[P \equiv U] \longleftrightarrow [I \equiv R]$)
+#### 1. The Fixed Dipole ($[P \equiv U] \longleftrightarrow [I \equiv R]$)
 
-* **Fused Edges:** Cardinal Matching $\{P-U, I-R\}$.
+* **Fused Edges:** Fixed Matching $\{P-U, I-R\}$.
 * **The Two Compound Nodes:**
   * **Active Node $[P \equiv U]$:** Fire + Air / Power + Voltage ($++$ fused with $+-$). Combines originary drive ($P$) and structural potential ($U$) into a single Active dividend node.
   * **Reactive Node $[I \equiv R]$:** Water + Earth / Current + Resistance ($--$ fused with $-+$). Combines relational flow ($I$) and material ground ($R$) into a single Reactive divisor node.
 * **Systemic & Physical Identity:** **The Electric / Radiative Dipole.** Separates pure active drive ($[P \equiv U]$) from pure reactive ground ($[I \equiv R]$). It is the dipole of pure outbound field emission ($E$-field).
 * **Corpus Attractor:** The **Apeiric Field** (`L4-AttractorSpace`).
 
-#### 2. The Fixed Dipole ($[P \equiv R] \longleftrightarrow [I \equiv U]$)
+#### 2. The Cardinal Dipole ($[P \equiv R] \longleftrightarrow [I \equiv U]$)
 
-* **Fused Edges:** Fixed Matching $\{P-R, I-U\}$.
+* **Fused Edges:** Cardinal Matching $\{P-R, I-U\}$.
 * **The Two Compound Nodes:**
   * **Asserting Node $[P \equiv R]$:** Fire + Earth / Power + Resistance ($++$ fused with $-+$). Combines gravity/mass ($P$) and color confinement ($R$) into a single, high-inertia Asserting node (GravityStrong).
   * **Yielding Node $[I \equiv U]$:** Water + Air / Current + Voltage ($--$ fused with $+-$). Combines electroweak flow ($I$) and electromagnetic potential ($U$) into a single Yielding node (ElectroWeak).
@@ -471,11 +471,11 @@ A two-node system connected by an axis carrying opposing operational charges is 
 
 #### 4. Summary Matrix
 
-| Dipole Class | Fused Matching | Node 1 (Source/Drive) | Node 2 (Ground/Receiver) | Physical / Systemic Identity | Corpus Attractor |
-|---|---|---|---|---|---|
-| **Cardinal** | $\{P-U, I-R\}$ | $[P \equiv U]$ (Active) | $[I \equiv R]$ (Reactive) | **Electric / Radiative** | Apeiric Field |
-| **Fixed** | $\{P-R, I-U\}$ | $[P \equiv R]$ (Asserting) | $[I \equiv U]$ (Yielding) | **Magnetic / Storage** | Isotropic Pole |
-| **Mutable** | $\{P-I, U-R\}$ | $[P \equiv I]$ (Source) | $[U \equiv R]$ (Manifesting) | **Intermodulation** | Conservative Field |
+| Dipole Class | Fused Matching | Node 1 (Source/Drive)      | Node 2 (Ground/Receiver)     | Physical / Systemic Identity | Corpus Attractor   |
+|--------------|----------------|----------------------------|------------------------------|------------------------------|--------------------|
+| **Fixed**    | $\{P-U, I-R\}$ | $[P \equiv U]$ (Active)    | $[I \equiv R]$ (Reactive)    | **Electric / Radiative**     | Apeiric Field      |
+| **Cardinal** | $\{P-R, I-U\}$ | $[P \equiv R]$ (Asserting) | $[I \equiv U]$ (Yielding)    | **Magnetic / Storage**       | Isotropic Pole     |
+| **Mutable**  | $\{P-I, U-R\}$ | $[P \equiv I]$ (Source)    | $[U \equiv R]$ (Manifesting) | **Intermodulation**          | Conservative Field |
 
 Every dipole observed in physics (electric $E$, magnetic $B$, altermagnetic $d$-wave, color confinement), biology (DNA base-pairing, membrane potentials), or organizational dynamics sorts into one of these three exact topological addresses.
 

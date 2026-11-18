@@ -363,7 +363,7 @@ Each great approach to the specimen is founded on one move.
 
 Three schools, three moves, and any two moves give the third (step 2). So each school holds the whole group the moment it borrows one fact from a neighbour, and the two facts it needs are theorems. None of the three is short of symmetry.
 
-Which axis carries which mode — Fixed, Cardinal, Mutable — is not assigned here. Step 6 shows the blocks do not decide it, and an assignment by resemblance would be a guess wearing a table.
+Which axis carries which mode — Fixed, Cardinal, Mutable — is not assigned for the static $V_4$ orbit here (on the positive-exponent arithmetic lattice, `L2-K4-Inferences-101` §3 isolates `Fixed` `{I, R}` as the unique generating basis, joining `L4-Riemann-2` §III's cross-ratio and §6's root split). Step 6 shows the blocks do not decide it, and an assignment by resemblance would be a guess wearing a table.
 
 ---
 
@@ -391,7 +391,7 @@ All three productions say one thing in three dialects: at $\tfrac12$ an amplitud
 
 For $\zeta$ the centre is occupied by a number that is not zero: $\zeta(\tfrac12) = -1.4603\ldots$, and $\xi(\tfrac12) = 0.4971\ldots$. Nothing vanishes at the centroid of the specimen. Yet $\zeta(\tfrac12)$ is not idle there:
 
-On the engine's $\{I, R\}$ commit lattice (`L2-K4-Inferences-101` §3; `L2-K4-Inferences-bench` `1a–1b`), $\#\{d^2m \le x\} = \zeta(2)x + \zeta(\tfrac12)\sqrt{x} + O(x^{1/3})$ places a second pole of $Z_P(s) = \zeta(s)\zeta(2s)$ at $s = \tfrac12$, making the centroid's occupant the exact `RESEED`-tier ($\sqrt{x}$) coefficient of $P$'s commit count (`-1.4602182` measured at $x = 10^{12}$).
+On the engine's $\{I, R\}$ commit lattice (`L2-K4-Inferences-101` §3; `L2-K4-Inferences-bench` `1a–1b`), $\#\{d^2m \le x\} = \zeta(2)x + \zeta(\tfrac12)\sqrt{x} + O(x^{1/3})$ places a second pole of $Z_P(s) = \zeta(s)\zeta(2s)$ at $s = \tfrac12$, making the centroid's occupant $\zeta(\tfrac12) = -1.4603545\ldots$ (`-1.4602182` measured at $x = 10^{12}$) the $\sqrt{x}$ coefficient of $P$'s commit count **[thm / computed]**, read as `RESEED`-tier **[correspondence]**.
 
 For the wider family the centre is where the arithmetic is richest. The order to which an elliptic curve's $L$-function vanishes at its central point is conjectured to equal the curve's rank, and the cases of rank zero and one are proved. The duality school's forced central zero (II.3) is the first term of that story. The schools already treat the centre as the place where a function reports on the object it came from.
 
@@ -599,9 +599,11 @@ What the hypothesis is, then, with no regard for the nouns set down above: **the
 
 **CORRESPONDENCE:** the cone read as a light-cone; the recentring read as the unfold of `L0-EinsteinTrace`; the line read as resonance; a line zero read as a dipole of `L4-DynamicDistortions301`, the collapse as the orientation-discarding step, and the two surviving edge pairs as where the closed one's content passes; the explicit formula read as the engine's loop and the two-stroke account; the forcing object sought above the single function; the four orbit points read as monads; the three schools read as owners of the three moves, with their stopping points; the hypothesis read as a bimedian attractor; "an amplitude balances against its own measure"; positivity read as the taxed commit that routing cannot pay; and the arithmetic bridge reading $\zeta(\tfrac12)$ as the `RESEED`-tier commit-count coefficient (verified numerically at $x = 10^{12}$ in `L2-K4-Inferences-bench`, `1a–1b`).
 
+**OPEN VOTE (structural prediction):** that a proof of the specimen, when one exists, will turn on a positivity and not on a new symmetry (§III.4, matching `Kill`).
+
 **Unfolded Series:** `L2-K4-Inferences-101` (complex $\zeta(\sigma+it)$ transfer field), `L2-K4-Inferences-201` (engine interface translations), `L2-K4-Inferences-301` (two cascade directions, Voronin's attic, committed sub-ledger), and `L2-K4-Inferences-bench` (verified numerical suite).
 
-**Unassigned:** which axis carries which mode; which tier belongs to which move; which of the three dipole classes a line zero is.
+**Unassigned:** which static $V_4$ axis carries which mode (though on the arithmetic lattice `L2-K4-Inferences-101` §3 separates `Fixed` `{I, R}` from `Mutable`, joining `L4-Riemann-2` §III and §6); which tier belongs to which move; which of the three dipole classes a line zero is.
 
 **Not tested:** that the zeros are simple above the height measured in IV.4. Simplicity is a separate conjecture, and the hypothesis does not need it.
 

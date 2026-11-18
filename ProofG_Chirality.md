@@ -135,10 +135,10 @@ $$\text{Q.E.D.}$$
 - the Direction-Law mirror pin (`L3-EdgeStateSpace` §I-e Step 6, via the assertion semantics matching `L4-TheTwelveGates` §VIII's heading / bay / inheritance; conjugating the pin swaps Cardinal and Mutable laws without altering any landed result).
 
 **CORRESPONDENCE:**
-- the Carbon Seal (`L4-TheTwelveGates` §IX).
+- the Carbon Seal (`L4-TheTwelveGates` §IX),
 - the four-face gear-mesh spelling (`Q16-ChiralMeshSpacetime` §I–§III: the mesh as $\partial^2 = 0$ at every shared edge, the forced $\{P,U\}\mid\{I,R\}$ split with no AR input, the A/R grading),
 - the biquaternion ideal-projector reading of the completion fork (§IV; unanchored in `ProofN_BiquaternionBridge` §§1–5 and `On_HilbertAndHisSpaces` §§III.a, VI, VII, with nothing downstream depending on it),
-- the mirror's gain law as an AC realization of the static handedness bit (`L2-K4-Inferences` §7): on the balance line $|\chi(\tfrac12+it)| = 1$ and $Z(t) = e^{i\vartheta(t)}\zeta(\tfrac12+it)$ is real, leaving the co-rotating phase sense unobservable in the amplitude readout, whereas off the line $|\chi(\sigma+it)| \sim (t/2\pi)^{1/2-\sigma}$ turns the handedness choice into which half-strip the mirror amplifies (`|chi_fe|` gain vs. loss; nothing downstream depends on it),
+- the mirror's gain law as an AC realization of the static handedness bit (`L2-K4-Inferences-201` §2 and `L2-K4-Inferences-bench` `C2`, alongside `L2-K4-Inferences` §7): on the balance line $|\chi(\tfrac12+it)| = 1$ and $Z(t) = e^{i\vartheta(t)}\zeta(\tfrac12+it)$ is real, leaving the co-rotating phase sense unobservable in the amplitude readout, whereas off the line $|\chi(\sigma+it)| \sim (t/2\pi)^{1/2-\sigma}$ turns the handedness choice into which half-strip the mirror amplifies (`|chi_fe|` gain vs. loss; nothing downstream depends on it).
 
 ---
 

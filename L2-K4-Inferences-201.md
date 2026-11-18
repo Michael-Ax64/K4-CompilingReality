@@ -32,7 +32,8 @@ $$|\chi(\sigma + it)| \;\sim\; \left(\frac{t}{2\pi}\right)^{1/2 - \sigma}.$$
 * **At exact balance ($\sigma = \tfrac12$):** $|\chi(\tfrac12+it)| = 1$ identically, and $Z(t) = e^{i\vartheta(t)}\zeta(\tfrac12+it)$ is real. Because $\zeta(\tfrac12-it) = \overline{\zeta(\tfrac12+it)} = e^{+i\vartheta(t)}Z(t)$, the two co-rotating choices ($e^{-i\vartheta}$ vs. $e^{+i\vartheta}$) share the exact same amplitude envelope $|Z(t)|$: the global handedness bit stays unobservable in the fold readout.
 * **Off balance ($\sigma \neq \tfrac12$):** Choosing one mirror orientation over its conjugate assigns which half-strip is amplified ($\sigma < \tfrac12$, gain $(t/2\pi)^{|\sigma-1/2|}$) and which is attenuated ($\sigma > \tfrac12$).
 
-In `ProofG_Chirality` §V, the static handedness bit is unspendable on the $\theta = 0$ DC slice. Here is its AC realization **[correspondence]**: driven at frequency $t$, a mirror choice becomes physically legible as asymmetric gain/loss the instant a system leaves the balance line.
+In `ProofG_Chirality` §II (read with §V), the static handedness bit is not yet paid for on the $\theta = 0$ DC slice.
+Here is its AC realization **[correspondence]**: driven at frequency $t$, a mirror choice becomes physically legible as asymmetric gain/loss the instant a system leaves the balance line.
 
 ---
 
