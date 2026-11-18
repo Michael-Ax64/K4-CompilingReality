@@ -172,23 +172,25 @@ The leading term alone is Nambu's 1952 relation and is $0.344\%$ high. **The mid
 
 *A prohibition.* No graviton. `L0-EinsteinTrace` §VII–VIII and `Q16` KM-2: the three $P$-edges are zero-impedance writing heads, $P$ is the receiving ledger rather than a channel, and so no exchange boson is required — *"for the same reason a printed book requires no exchange particle between its words."* And: *"The null results in graviton detection are not failures of experimental sensitivity. They are the laboratory reporting, correctly, that an equation of state possesses no particle."* That is a real-axis commitment, falsifiable by a single detection.
 
-*A measurement that is running.* `L4-K4-Infinities` KI-6:
+*A localization line, and a measurement that is running.* `L4-K4-Infinities` KI-6:
 
-> "The one sentence in this construction that departs from general relativity says that gravity sources from committed entries only — what has crossed weighs, what has not does not. **If uncommitted vacuum level is shown to gravitate, the register split dies, and with it the resolution of the vacuum-energy gap and the Casimir prediction together.** [...] **This is the construction's actual bet.**"
+> "The one sentence in this construction that departs from general relativity says the metric sources from committed entries only: the medium's homogeneous uncompiled level does not source $G_{\mu\nu}$. **If it is shown to, the register split dies, and the resolution of the vacuum-energy gap dies with it.**"
+
+The line falls between **homogeneous** and **localized**, not between held and real (`QED-CCP` §II; `L4-K4-Infinities-3` §VII; `BENDING_SPACE` §III, §XI). A homogeneous background level cannot be modulated and carries no empirical arbiter (`KI-6` stands as a structural kill condition without a bench referee). By contrast, a Casimir cavity sits on the localized side — committed plates, a committed separation, and a gradient that does mechanical work — so by `L4-K4-Infinities` KI-6 and `BENDING_SPACE` §III it sources curvature and **weighs by $\Delta E/c^2$, sign included**, matching standard QFT in curved spacetime (Fulling and collaborators 2007).
 
 ### The Sardinian balance
 
-**Archimedes**, an INFN experiment designed and funded by Calloni and collaborators to test whether the regularized vacuum energy of a superconducting Casimir cavity couples to gravity according to the equivalence principle, is built to weigh the vacuum (Calloni and collaborators 2014; the Archimedes collaboration 2015). A rigid Casimir cavity admits only some vacuum modes, so its vacuum energy differs from that of its surroundings; if that energy gravitates, the cavity feels a buoyant force of order $|E_C|g/c^2$ — about $10^{-16}$ N. A static Casimir energy is of order $10^{-18}$ of the apparatus mass, which no balance will read, so Archimedes **modulates** it: layered high-temperature superconducting plates are driven through their transition, switching the cavity's mode structure with only radiative heat exchange, and a static sub-attonewton weight becomes an AC signal at a known frequency in the $1$–$100$ mHz band, integrated over months on a cryogenic balance. That converts an unmeasurable ratio into a lock-in measurement, and it is why this bet has a resolution date rather than a philosophical standoff.
+**Archimedes**, an INFN experiment designed and funded by Calloni and collaborators to test whether the regularized vacuum energy of a superconducting Casimir cavity couples to gravity according to the equivalence principle, is built to weigh that localized shift (Calloni and collaborators 2014; the Archimedes collaboration 2015). A rigid Casimir cavity admits only some vacuum modes, so its vacuum energy differs from that of its surroundings by $\Delta E$, producing a force of order $|\Delta E|g/c^2$ — about $10^{-16}$ N. Because static Casimir energy is of order $10^{-18}$ of the apparatus mass, Archimedes **modulates** it by driving layered high-temperature superconducting plates through their transition, converting a sub-attonewton static weight into an AC lock-in signal in the $1$–$100$ mHz band.
 
-Three honest things about it, and the third is a correction of this series' own framing.
+Three honest things about it:
 
-The standard theoretical expectation is against the corpus: the literature on how Casimir energy falls concludes that it gravitates normally (Fulling and collaborators 2007). So KI-6 is a real bet against the consensus rather than a safe one.
+First, on the localized cavity the corpus agrees with the standard expectation (Fulling and collaborators 2007): **the prediction is a weight at $\Delta E/c^2$**, and a **null** at that sensitivity kills the localized sourcing half of `QED-CCP` §II and `BENDING_SPACE` §XI (`L4-K4-Infinities-3` §VII).
 
-The bet teaches asymmetrically. A weight at the equivalence-principle magnitude kills the register split, the vacuum-gap resolution and the Casimir prediction at once. A null at that magnitude does not prove the construction; it removes the one result that would end it.
+Second, Archimedes does **not** arbitrate `KI-6` itself: a homogeneous uncompiled level is unmodulable by definition, so neither a positive weight nor a null at Archimedes tests homogeneous sourcing (`L4-K4-Infinities` KI-6). Where `KI-6` meets cosmic data is the dark-energy drift fork (`BENDING_SPACE` §XI; `L4-K4-Infinities-3` §VIII).
 
-**And the experiment is not the corpus's.** `L4-K4-Infinities` KI-6 calls the register split *"this construction's actual bet,"* which is the right thing for the corpus to say about its own exposure — but an earlier version of this series slid from there into writing as though the Sardinian cryostat were running on the corpus's ledger theory. It is not. Archimedes tests a question that standard quantum field theory in curved spacetime also answers, and several other hypotheses bear on it; a null is consistent with more than one of them and confirms none. What is the corpus's is the exposure, not the referee.
+Third, **the experiment is not the corpus's.** Archimedes tests a question standard quantum field theory in curved spacetime also answers, and multiple hypotheses bear on it; a positive weight is consistent with standard semiclassical gravity as well as with the localized criterion. What is the corpus's is the exposure, not the referee.
 
-Part Five adds a sentence that belongs here. The register split is a statement about the **held** and the **committed**, and an action can only write the held. KI-6 is therefore not something any action could settle. It needs a balance.
+Part Five adds a sentence that belongs here. The register split separates the **held** and the **committed**, and an action writes only the held; testing whether localized boundaries source weight or whether cosmic holding drifts requires a balance and telescope surveys rather than a variational principle.
 
 ### And the convergence a solipsism cannot produce
 
@@ -234,7 +236,7 @@ The objections that landed were correct, and three of them were correct at a pri
 
 The unfreeze is the retirement of an estimate, not a new equation: a one-sided closure decree, its cost itemized, its receipt in the field's own constraint algebra since 1973, and now its place inside an action as the sector where a shear stops changing. The thermodynamic route has the right shape because it is where a cost column comes back in — and it says where the cost goes, in the term for entropy production, which corrects the corpus's own account.
 
-And the charge of solipsism is answered where it can be: by three crossings to the real axis, and by a balance in Sardinia that is waiting to say whether what is merely held weighs anything at all.
+And the charge of solipsism is answered where it can be: by three crossings to the real axis, by the localized-vs-homogeneous criterion separating what weighs on a balance in Sardinia from what no balance can modulate, and by the cosmological surveys tracking whether the cosmic hold drifts.
 
 ---
 

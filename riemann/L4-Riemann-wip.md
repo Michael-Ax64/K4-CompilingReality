@@ -19,8 +19,6 @@ Two structural distinctions govern how items in §§1–2 are read:
 
 Open items at external addresses, each awaiting repair at its owner file.
 
-**`L4-K4-Infinities-1` Part One §VI — the Laue overstatement check.** `L4-K4-Infinities` (parent summary) narrows Laue's theorem to integrated spatial stresses while leaving angular momentum and nuclear spin intact per takehome rule 6. `L4-K4-Infinities-1` Part One §VI remains to be verified at source for the un-scoped wording (*"returns a number and discards the orientation"* / *"One scalar survives. Every vector and tensor component is annihilated"*).
-
 **`L4-DynamicDistortions301` §VII.B — dipole-label alignment with `L4-DynamicDistortions-Sudoku` §0.** `L4-DynamicDistortions-Sudoku` §0 anchors the dipole names to `L3-EdgeStateSpace`'s Kernel Rule (`Fixed {P–U, I–R}` / Apeiric Field, `Cardinal {P–R, I–U}` / Isotropic Pole, `Mutable {P–I, U–R}` / Conservative Field). `L4-DynamicDistortions301` §VII.B still lists the `{P–U, I–R}` dipole under *Cardinal* and `{P–R, I–U}` under *Fixed*, opposing its own §I and `Sudoku` §0.
 
 ---
@@ -32,6 +30,7 @@ Every element of $A_4 = V_4 \rtimes \mathbb{Z}_3$ has finite order in $\{1, 2, 3
 Extending `ENGINE-REFERENCE-AC` from its flat $\theta = 0$ floor ($U_0(e \to e') = g(e')g(e)^{-1}$, $T_\Delta = 0$) to embodied frames coupled across $K_3$ membranes (`L6-TheCircuit` §§I–V; `L3-Electro-AC-db`) requires a hybrid fibered connection—dressing the flat $A_4$ base with a continuous reactive phase fiber $e^{j\theta_e(\omega)} \in U(1)$ (`L4-K4-Infinities` KI-4 $\mathrm{Spin}^c$ / $2T$ lift). 
 At $\omega = 0$, $\theta_e = 0$ returns flat $U_0$; for $\omega > 0$, face phase-holonomy $\Phi_\Delta(\omega)$ grows continuously (the discrete counterpart of Part Five's $\partial F \neq 0$) and crossing `L4-DynamicDistortions-Sudoku` §V's $\pi$-threshold triggers discrete $V_4$ half-turn holonomy jumps ($T_\Delta \in V_4 \setminus \{0\}$). 
 Building and scanning that hybrid connection extends `scripts/engine_connection.py`. 
+`L4-K4-Infinities-3` §V already executes the $A_4 \to 2T \subset SU(2)$ lift over the 24 equal Haar cells of $S^3$, while `L4-K4-Infinities-2` §VI separates intra-cell $2T \times_{\mathbb{Z}_2} U(1)$ holonomy from inter-instance medium Wilson loops $W = \tfrac{1}{2}\mathrm{Tr}(g_{CA}\circ g_{BC}\circ g_{AB})$. 
 Keep this intra-cell $2T \times_{\mathbb{Z}_2} U(1)$ construction distinct from the inter-instance $\mathrm{Spin}^c$ Wilson loop $W = \tfrac{1}{2}\mathrm{Tr}(g_{CA}\circ g_{BC}\circ g_{AB})$ in `L4-K4-Infinities-2` §VI (where native $\mathbb{Z}_2$ spinor holonomy rides on $N_*(-Z) = N_*(Z)$ and $Z_0 = 2\alpha R_K$, while non-commuting port states $[Z_A, Z_B]$ do not by themselves establish $W \neq 1$ across disconnected openings).
 
 
@@ -43,7 +42,7 @@ $$\Box F + \gamma\,\dot F \;=\; \frac{2\kappa\alpha}{\beta}\,\nabla_\mu j_5^\mu$
 
 The open formal step separates cleanly from the physical rate-selection frontier:
 
-1. **Formal step (explicit bath $\mathcal{B}$):** In Galley's construction the difference variable $\theta_-$ vanishes on the physical trajectory, hiding dissipated energy in the non-conservative kernel. Tracking the committed register requires an explicit coupled bath $\mathcal{B}$ (the $Q$ / $I^2R$ container upkeep of `L6-TheCircuit` §§II–III) feeding $d_iS > 0$.
+1. **Formal step (explicit bath $\mathcal{B}$):** In Galley's construction the difference variable $\theta_-$ vanishes on the physical trajectory, hiding dissipated energy in the non-conservative kernel. Tracking the committed register requires an explicit coupled bath $\mathcal{B}$ (the $Q$ / $I^2R$ container upkeep of `L6-TheCircuit` §§II–III) feeding $d_iS > 0$. `L4-K4-Infinities-3` §III's candidate Laue-to-quadrupole relation ($N_{\text{bits}}\cdot k_B T \ln 2 \overset{?}{=} \tfrac{1}{2}|\ddot I^{ij}|$) is the candidate target for what the bath funds; per `L4-Thermodynamics` §V.1/V.3 and `L4-K4-Infinities-3` §§III, VI, bit-vs-nat ($\ln 2$) bookkeeping must stay explicit across the bath and horizon registers.
 2. **Frontier parameters ($\gamma$ and frame clock $\dot F$):** Under the Datasheet, $\gamma$ cannot enter as a new dimensionless dial. 
 Writing $\gamma = \tau_{\text{diss}}^{-1}$ as a Category-2 / substrate relaxation rate seats both $\gamma$ and the centroidal timelike vector (`L3-TheSelfProjectingBraid` §V) directly on the **rate-selection frontier**: Planckian and KSS micro-time $\tau_K \sim \hbar/k_B T$ at thermal/QCD deconfinement (`L4-Thermodynamics` §§V.2–3), interior vacuum condensates at $T = 0$ (`On_YangMills-Annotated` §V), carrier resolution $\nu \leftrightarrow \delta\theta$ (`On_NavierStokes` §IV; `L3-FormalFoundations` §IX.4), the `QED-EotvosBound` §IV.1 clock-meter bound ($\tau < |\eta_{\text{bound}}|mc^2/(2P_{\text{diss}})$), and the open spectral `ADDRESS` of $\zeta$ zero spacings (`L2-K4-Inferences` Part Four).
 

@@ -79,7 +79,7 @@ Three kinds of thing, kept apart, because folding an absence into a list of test
 5. **The offsets' necessity.** `ProofO`'s own: a two-generation CP-violating extension, or an arrow with no irreducible phase (Part Four §VIII).
 6. **The mesh.** `Q16` KM-1: a $K_4$ network rotating all four faces the same way without phase shear and without a torn boundary (Part Four §VII).
 7. **The two clocks.** A working single-manifold unification of GR and quantum mechanics with time quantized on the same footing as space (Part Four §V).
-8. **Inherited: the register split.** `L4-K4-Infinities` KI-6 states it as *"this construction's actual bet"* — if uncommitted vacuum energy is shown to gravitate, the register split dies. The Archimedes balance in Sardinia is built to measure whether Casimir vacuum energy gravitates according to the equivalence principle. It is not running on the corpus's ledger theory and is not anyone's private referee: a weight at the equivalence-principle magnitude would remove the corpus's bet, while a null is consistent with several hypotheses and confirms none of them (Part Six §V).
+8. **Inherited: the register split (`KI-6`) and the localized Casimir prediction.** `L4-K4-Infinities` KI-6 states the structural bet: if the medium's **homogeneous** uncompiled level is shown to source $G_{\mu\nu}$, the register split dies (an unmodulable structural condition with no bench arbiter). Separately, the **localized** criterion (`QED-CCP` §II; `BENDING_SPACE` §III, §XI; `L4-K4-Infinities-3` §VII) predicts that a localized Casimir cavity weighs by $\Delta E/c^2$ (sign included); the Archimedes balance in Sardinia arbitrates that localized prediction—a null at $\Delta E/c^2$ sensitivity kills it, while a positive weight agrees with both the localized criterion and standard semiclassical gravity (Part Six §V).
 
 Scope: a single action tests only the held sector; committed-side tests sit at Kill 8 / `L4-K4-Infinities` KI-6 and in the open-system $dS_i > 0$ law; the load-extremizing dispatch rule in `ENGINE-REFERENCE-AC` §X item 4 stays CANDIDATE.
 
@@ -143,7 +143,7 @@ The same dimension decides the coupling. Central inversion exchanges the two edg
 
 The neighbours have been reaching for what was set aside for a century, each for a different corner of it. The class, inflated into the host, binds in four places, and in each the host bought something it cannot itemize. And there is now an action in which Riemann's connection is simply what geometry does when the phase offsets stop changing — with the coupling forced into the one healthy channel, the coupling function forced too, one dial left, and an existing experiment reading its balance.
 
-What an action cannot do is commit. The construction's real bet is about the committed and the held — whether what is merely held weighs anything at all — and that is sitting on a balance in Sardinia, waiting to be told. That is the right place for this to end: in a measurement that only one side can survive.
+What an action cannot do is commit. Separating what is committed from what is merely held leaves two distinct tests: whether a homogeneous uncompiled level stays gravitationally silent (`KI-6`), and whether localized boundaries weigh as predicted (`QED-CCP` §II, sitting on a balance in Sardinia alongside the dark-energy surveys). That is the right place for this to end: in measurements that only one side can survive.
 
 ---
 
