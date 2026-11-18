@@ -1,7 +1,7 @@
 # Lecture: The Cosmological Projection
 ## Why the Universe's Largest Predictive Discrepancy Can Be Reframed, and What the Reframe Predicts
 
-*An accessible treatment for the scientifically literate reader: the cosmological constant problem stated flat; the hidden assumption that generates it; the projection architecture that reframes it; and one falsifiable prediction with an address — an experiment in a Sardinian mine that can kill the whole structure. Part of the Compiling Reality document set. The formal algebraic foundations live in `L1-CompilingReality` and `L3-FormalFoundations_Synthesis`; the monograph-grade statement of the same argument is `QED-CCP`. Readers arriving through physics can start here.*
+*An accessible treatment for the scientifically literate reader: the cosmological constant problem stated flat; the hidden assumption that generates it; the projection architecture that reframes it; and one falsifiable prediction with an address — an experiment in a Sardinian mine that can kill the localized half of the criterion, while the homogeneous half stands or falls as structure. Part of the Compiling Reality document set. The formal algebraic foundations live in `L1-CompilingReality` and `L3-FormalFoundations_Synthesis`; the monograph-grade statement of the same argument is `QED-CCP`. Readers arriving through physics can start here.*
 
 *Epistemic status carried throughout: the projection architecture is a structural proposal, not a derived theorem — a reframing and a falsifiable hypothesis. The Casimir prediction (Section VIII) is filed before the result and is as yet untested at the required precision. Sections marked [SKETCH] identify where the formalism is underdeveloped and a trained physicist's work is required before the claims can be made with full rigor.*
 
@@ -50,6 +50,10 @@ Treating them as identical operates as the Axiom of Isomorphism — a structural
 The discrepancy arises from this structural equation.
 
 One objection is worth stopping on, because it is real and it survives: the condensates. The Higgs field carries an energy of order $(246\ \text{GeV})^4$ everywhere in space, and QCD condensates fill every cubic centimeter of the vacuum to $(250\ \text{MeV})^4$. If vacuum energy only gravitates after crossing $\Psi$, why does anything built on those condensates have weight? Because the mass they supply is carried by localized particles — quarks, electrons, the confined energy of protons — and those particles crossed. Their rest mass is ledger mass; it gravitates; drop a proton and it falls. What never crossed is the homogeneous background value itself: no localized boundary, no Markov blanket, no erasure, no inertial mass, no gravity. Condensate energy enters the ledger the honest way, one localized particle at a time, and the 10^{123} was never hiding in the Higgs VEV.
+
+One sentence from the base file is doing all the work in that answer, and it deserves to be heard in its own voice before we go on:
+
+> `QED-CCP` §II: "The line falls between *localized* and *homogeneous*, not between *held* and *real*. Whatever carries a localized blanket, a gradient, mechanical work, and active erasure crosses and sources; whatever is a uniform offset does not, and is absorbed into a constant the field equations do not fix."
 
 ---
 
@@ -103,9 +107,9 @@ Three phenomena that appear unrelated track the same boundary mechanism operatin
 
 **Λ-driven expansion** models $H_{\text{coh}}$ pushing against $H_{\text{incoh}}$ at the cosmological boundary. The universe's coherent interior grows, driven by the Helical Extrusion of Time ($\omega$). Λ — the cosmological constant — functions structurally as the Coherence Agent: the pressure maintaining $H_{\text{coh}}$ expansion against the Emergence Friction of the $H_{\text{incoh}}$ substrate.
 
-**The Casimir effect** tracks the static case: boundary pressure present with zero net flow in either direction. The uncollapsed interference structure pushes against the Markov Blanket of the conducting plates, without paying the Landauer Tax to collapse into $H_{\text{coh}}$ mass.
+**The Casimir cavity** tracks the static case: zero net flow across $\Psi$ in either direction — a committed configuration at a committed separation, neither evaporating nor expanding. Nobody scooped a jar of vacuum off the shelf. The plates built a localized boundary, and the energy that depends on their separation is the binding energy of that committed pair. Whether that binding energy weighs is Section VIII's business, and the answer there is yes.
 
-Inflation, current expansion, Hawking evaporation, and the Casimir effect model one mechanism at four different operating points.
+Inflation, current expansion, Hawking evaporation, and the Casimir cavity model one mechanism at four different operating points.
 
 ---
 
@@ -135,21 +139,29 @@ Radiative ripples are the second subject, and here the answer changes. LIGO does
 
 ## VIII. The Falsifiable Prediction
 
-A structural proposal without a falsifiable prediction is a narrative. The projection architecture makes one.
+A structural proposal without a falsifiable prediction is a narrative. This one comes with a prediction, a number, and a street address — but before I hand it over, I want to hand you the wrong guess first: the one almost everybody reaches for, because feeling its pull is the fastest way to see why the real prediction points the other way.
 
-**Prediction: The Casimir effect carries a null gravitational signature.**
+Here is the wrong guess. Vacuum energy is held potential. Held potential has not paid the Landauer Tax. The Casimir effect is the vacuum pushing on a boundary. So: the cavity should not weigh; the force between the plates is real, but its gravitational consequence is zero — $\Delta m_{\text{Casimir}} = 0$ — and a measured weight would kill the architecture. Clean, symmetrical, and wrong — and the error is hiding in one phrase: "the vacuum." Two plates do not capture a portion of the vacuum. There is no jar. What the plates build is a localized Markov blanket — a boundary — and the boundary decides which standing waves fit in the gap. The energy that depends on the separation is the energy of that restriction: localized in a bounded region, carrying a gradient, doing mechanical work when the plates move. It can be computed, top to bottom, as the retarded van der Waals attraction between two bodies with no reference to "the vacuum" at all. It is the binding energy of a committed pair. The plates are committed. Their separation is committed. And by the localization law of Section II — whatever carries a localized blanket, a gradient, and mechanical work has crossed — this one has crossed.
 
-The Casimir force between conducting plates is real and well-measured. The question is whether the zero-point energy producing it gravitates — whether it contributes to the stress-energy tensor that GR sees.
+> `QED-CCP` §VI: "...it is the binding energy of a committed pair, computable as the retarded van der Waals attraction between two bodies with no reference to the vacuum at all (Jaffe 2005). The plates are committed. Their separation is committed."
 
-In the projection architecture: the Casimir effect functions structurally as a boundary pressure, not a volume energy. It models the geometric footprint of the uncollapsed potential (`.behold()`). Because it has not been serialized through an `.observe()` collapse, it has not paid the Landauer Tax. It has no thermodynamic residue.
+**Prediction: the cavity weighs — by its change in energy over $c^2$, sign included.**
 
-Therefore: the Casimir effect should produce no gravitational effect measurable by GR. The force between the plates is real; its gravitational consequence is zero.
+$$\Delta m_{\text{Casimir}} = \frac{\Delta E}{c^2}$$
 
-$$\Delta m_{\text{Casimir}} = 0$$
+Not zero. And look at the shape of that before you react to its size: it is not a new force and not an exotic coupling. It is the equivalence principle applied without exemptions — energy on the pan counts, and there was never an asterisk on energy that arrived through a boundary. `BENDING_SPACE` §III compresses it into one line worth hearing aloud:
 
-The test is not hypothetical, and it has an address. The Archimedes experiment — sited at the SAR-GRAV laboratory in the former Sos Enattos mine in Sardinia, run under the INFN — has been in active development to weigh vacuum energy directly: layered high-$T_c$ superconductors modulated across their transition on a precision balance, the Casimir energy changed on purpose and the weight read honestly. A measured weight at the expected magnitude kills the projection architecture. A null at the required sensitivity is the prediction, filed before the result.
+> "A Casimir cavity weighs, by its energy over $c^2$, sign included. That is not the vacuum weighing. It is a boundary paying for what it holds."
 
-If Casimir energy is found to gravitate as predicted by naive QFT calculations, the projection architecture as stated is incorrect. If it is found not to gravitate, the Axiom of Isomorphism is fundamentally challenged.
+Now the part that keeps the story honest — the asymmetry. What about the homogeneous level underneath the whole apparatus: the uniform zero-point floor, the Higgs VEV spread through all space, the QCD condensates? If the localized cavity weighs, doesn't the experiment also testify about them? Listen carefully, because this is the hinge of the lecture: **no experiment can put the homogeneous level on a scale, and the reason is not an excuse — it is the criterion itself.** A homogeneous level is unmodulable, which is what makes it homogeneous. There is no plate to move, no transition to drive, no knob to turn. A balance weighs a difference, and the homogeneous level is the same everywhere — including under both pans.
+
+> `QED-CCP` §IX: "a homogeneous level is unmodulable, which is what makes it homogeneous, so no balance can isolate its contribution from everything else on the pan."
+
+So be precise about what the balance in Sardinia arbitrates. The Archimedes experiment — sited at the SAR-GRAV laboratory in the former Sos Enattos mine, run under the INFN — modulates the Casimir energy of layered high-$T_c$ superconductors across their transition and reads the weight change honestly. That is the **localized** half of the localization law: a boundary, modulated on purpose, weighed on a balance. It does **not** arbitrate the register split itself — the claim that the homogeneous uncompiled level does not source $G_{\mu\nu}$ — because nothing could, by construction. The register split is a structural claim; where it touches data is the dark-energy drift fork, filed at `L4-K4-Infinities-3` §VIII with the arbiters named at `BENDING_SPACE` §XI: the remaining DESI releases, Euclid, Rubin, Roman. Different instrument, different section, different decade.
+
+> `QED-CCP` §VI: "So the balance in Sardinia arbitrates the localized half rather than the register split itself."
+
+The scoreboard, filed before the result. A measured weight at $\Delta E/c^2$: the localized half of the criterion survives with the sign it always claimed, in agreement with standard semiclassical gravity — and remember, the experiment is not the corpus's, so a positive weight is not the corpus's private victory either. A null at the sensitivity that would have seen it: boundary-induced mode exclusion pays nothing real, the localized half of §II's criterion falls with it, and the line between homogeneous and localized was drawn in the wrong place. Either way the number comes back from a mine in Sardinia, and the corpus does not get to vote.
 
 ---
 
@@ -175,14 +187,14 @@ What is established:
 - The projection architecture ($H_Q = H_{\text{coh}} \oplus H_{\text{incoh}}$, $\Psi$) reframes the discrepancy structurally via the Tangent Singularity, with $\Psi$ gauge-invariant and diffeomorphism-preserving so that $\nabla^\mu T_{\mu\nu}^{\text{GR}} = 0$ survives.
 - The condensate demarcation holds: homogeneous vacuum offsets do not source curvature; localized particles carry condensate energy across $\Psi$ one particle at a time.
 - Static gravitational attraction is ledger geometry; propagating gravitational waves are boundary ripples whose quantum-carrier status is an open boundary question.
-- The Casimir null-gravitational-signature prediction is falsifiable and binary, with the instrument named before the result: Archimedes, at SAR-GRAV in the Sos Enattos mine.
+- The Casimir cavity weighing prediction — $\Delta m = \Delta E/c^2$, sign included — is falsifiable and binary, with the instrument named before the result: Archimedes, at SAR-GRAV in the Sos Enattos mine. It arbitrates the localized half of the localization law; the homogeneous register split itself stands as structure, with its live empirical contact at the dark-energy drift fork.
 
 What is sketch-level and requires a trained physicist's work:
 - The precise mathematical definition of $P_{\text{coh}}$ and its action on $T_{\mu\nu}^{\text{QFT}}$.
 - The formal derivation of $T_{\text{Hawking}}$ from the Λ/Emergence Friction balance.
 - The quantum-carrier status of propagating gravitational waves.
 
-The honest form of the argument: a structural reframing of the cosmological constant problem, one falsifiable prediction, and a named address for the remaining formal work. The proposal stands or falls on the Casimir experiment — which now has an address.
+The honest form of the argument: a structural reframing of the cosmological constant problem, one falsifiable prediction, and a named address for the remaining formal work. The central claim is structural and carries no bench; the localized half carries the experimental load — on a balance in a mine in Sardinia, which has an address.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
