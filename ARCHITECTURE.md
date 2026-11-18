@@ -65,7 +65,10 @@ Once the class inflates into a host domain, unconditioned freedom turns into imp
 
 ## III. Embedded Choice Without a Homunculus
 
-`L3-TheSelfProjectingBraid` removes the external homunculus completely: $\Psi$ is the Braid's own orthogonal act at an actuator bottleneck, not an outside observer reaching into the manifold. Squaring destroys phase and makes history read-only; context rides natively in the AbsentVar handoff across quadrants; self-observation inside a spinning plane yields infinite regress (`QED-Recursion`), never an exit.
+`L3-TheSelfProjectingBraid` removes the external homunculus completely: $\Psi$ is the Braid's own orthogonal act at an actuator bottleneck, not an outside observer reaching into the manifold. 
+Squaring destroys phase and makes history read-only,
+separating irreversible time direction ($\hat T$, $H_{\text{incoh}} \to H_{\text{coh}}$) from reversible carrier reflections ($\hat P \in S_4 = \mathrm{Weyl}(A_3)$).
+Context rides natively in the AbsentVar handoff across quadrants; self-observation inside a spinning plane yields infinite regress (`QED-Recursion`), never an exit.
 
 Where, then, do **options** and **agency** sit without smuggling back a ghost?
 

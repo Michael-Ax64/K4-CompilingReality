@@ -183,7 +183,7 @@ Treat the boundary as the impedance step it is. A step of ratio $\rho = R_K/Z_0 
 
 $$T = 1 - |\Gamma|^2 = \frac{4\rho}{(1+\rho)^2} = \frac{8\alpha}{(1+2\alpha)^2} \approx 5.6711\% \quad (\approx 8\alpha)$$
 
-A single boundary reflects **97.12%** of incident power and transmits **5.67%**.
+A single boundary has amplitude reflection **97.12%** ($|\Gamma|^2 \approx \mathbf{94.33\%}$ of incident power reflected) and transmits **5.67%** of incident power.
 
 ### The Stacking Law: An Open Debt
 

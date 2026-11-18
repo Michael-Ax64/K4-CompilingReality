@@ -191,7 +191,8 @@ One consequence is worth stating rather than burying. A quantity odd under parit
 
 `ProofG_Chirality` §V holds the same verdict on the same object, in those words, and seats true chirality on a different one — a **two-factor pitch invariant**, the advance of the $\omega$-ratchet times the hand of the closed boundary's circulation. Each factor is time-reversal-odd, so the product is time-reversal-even; the circulation hand is parity-odd while the centroidal advance is parity-even, so the product is parity-odd. Parity-odd and time-reversal-even is Barron's true chirality, and it is built from **two** signed factors where the coupling here has one. The two readings therefore do not compete: the offsets are a local phase field, and the pitch invariant is a global screw whose second factor is the ratchet. Section VIII is why they cannot be the same object — a single action is the held register by construction, and the advance that makes the product time-reversal-even is the committed direction, which no action carries.
 
-What that leaves open is narrower than a disagreement, and it belongs to `ProofG` §VII: whether the centroidal $\omega$-advance is genuinely parity-even, which rests on $\omega$'s dimensional exclusion from the pole basis rather than on anything computed in this part. Were the advance parity-odd, the product would be parity-even and the pitch invariant would collapse to false chirality too.
+`ProofG_Chirality` §§V, VII closes both parities at source without relying on dimensional exclusion alone: $\hat P$ acts inside the carrier's reversible group $S_4 = \mathrm{Weyl}(A_3)$ on $\{P, U, I, R\}$ (`L3-EdgeStateSpace` §I-c), leaving the off-basis $\omega$-advance and the undirected AbsentVar carry untouched (`L3-EdgeStateSpace` §§VI, IX), while $\hat T$ tracks the non-invertible crossing $H_{\text{incoh}} \to H_{\text{coh}}$ where Route-Law squaring destroys phase (`Q4-OpenExhaust` §II; `L3-TheSelfProjectingBraid` §IV).
+
 
 ---
 
