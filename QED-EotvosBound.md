@@ -7,7 +7,7 @@
 > $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\left(\frac{P_{\text{diss}}}{m c^2 \omega}\right) = -2\left(\frac{P_{\text{diss}}\cdot \tau}{m c^2}\right)$$
 > The departure is governed by the ratio of two competing power scales: the metabolic dissipation rate ($P_{\text{diss}}$) and the rest-mass compilation capacity ($m c^2 \omega$).
 >
-> **The Clock Spectrum and Meter:** At constituent Compton clocks ($\omega_C = m_q c^2/\hbar$), $\eta$ vanishes into the noise floor ($|\eta| \sim 10^{-44}$ to $10^{-70}$), recovering the Equivalence Principle on passive test masses. At the neural EEG band ($\omega \sim 100\text{ Hz}$, $\tau = 10^{-2}\text{ s}$), the brain-scale departure sits at $|\eta| \approx 3.2 \times 10^{-18}$ (three orders of magnitude below MICROSCOPE's $|\eta| < 10^{-15}$). Because the rule assigning a composite frame its effective clock remains open and slowest dissipative clocks dominate, $\eta$ operates directly as a **clock meter**: a bound on $|\eta|$ bounds the frame's slowest active dissipative clock ($\tau < |\eta_{\text{bound}}| m c^2 / 2P_{\text{diss}}$), so MICROSCOPE-grade sensitivity on a brain-scale dissipator ($20\text{ W}, 1.4\text{ kg}$) bounds $\tau < 3.15\text{ s}$—already excluding circadian dissipative clocks ($8.6\times 10^4\text{ s}$, $|\eta| \approx 2.75\times 10^{-11}$) and admitting the EEG band.
+> **The Clock Spectrum and Meter:** At constituent nucleon Compton clocks ($\omega_C = m_q c^2/\hbar$), $\eta$ vanishes into the noise floor ($|\eta| \lesssim 10^{-44}$), recovering the Equivalence Principle on passive test masses. Evaluated on the neural EEG band alone ($\tau = 10^{-2}\text{ s}$), the brain-scale departure sits at $|\eta| \approx 3.2 \times 10^{-18}$ (three orders of magnitude below MICROSCOPE's $|\eta| < 10^{-15}$). Because composite clock selection sits at the rate-selection frontier (`L4-Thermodynamics` §V.2 for the Planckian intensive ceiling $\omega = k_B T/\hbar$; `L6-TheCircuit` §§I–III for embedded clock surrender) and slowest dissipative clocks dominate, $\eta$ operates directly as a **clock meter**: a bound on $|\eta|$ bounds the frame's slowest active dissipative clock ($\tau < |\eta_{\text{bound}}| m c^2 / 2P_{\text{diss}}$), so MICROSCOPE-grade sensitivity on a brain-scale dissipator ($20\text{ W}, 1.4\text{ kg}$) bounds $\tau < 3.15\text{ s}$—already excluding circadian dissipative clocks ($8.64\times 10^4\text{ s}$, $|\eta| \approx 2.75\times 10^{-11}$) and admitting the EEG band.
 
 *Reads with: `L0-EinsteinTrace`, `L0-ParadoxEngine` (§I–II), `ProofN_BiquaternionBridge`, `ProofO_HelicalTime`, `L4-Thermodynamics`, `L4-K4-Infinities`, `QED-CCP`.*
 
@@ -19,7 +19,7 @@ In General Relativity, inertial mass ($m_i$) and gravitational mass ($m_g$) are 
 
 In the four-fold architecture (`L0-EinsteinTrace.md`), mass is not a monolithic scalar. It is bifurcated across the two asserting poles of the $K_4$ tetrahedron:
 
-1. **Gravitational Mass ($P$ / The Scalar Ledger):** Gravitational mass is the accumulated volume of completed actualizations. It is the real scalar component of the biquaternion state $\mathbb{Z} = P + h\mathbf{Q}$ written to the Live-Written Ledger when an `.observe()` collapse occurs across the XOR bottleneck. It measures what the system has committed to history, and it is what the surrounding metric curves to weigh.
+1. **Gravitational Mass ($P$ / The Compilation Flux):** At a frame's characteristic compilation clock $\omega$, gravitational rest mass scales through the tachometer power $P_{\text{rest}} = m_g c^2 \omega$ (`L4-Thermodynamics` §V), the ongoing write-flux emitted across the XOR bottleneck when `.observe()` commits real scalar entries to the Live-Written Ledger ($\mathbb{Z} = P + h\mathbf{Q}$). Standing stock ($m_g c^2$, Joules) and compilation flux ($P$, Watts) relate strictly through $\omega$, so $P$ enters §§II–III consistently as a flux while $R$ holds the inertial stock.
 2. **Inertial Mass ($R$ / The Grounding Limit):** Inertial mass is the system's recompilation resistance. It is the standing impedance that the bounded frame presents to changing its operational heading across the uncompiled Plenum ($H_{\text{incoh}}$). It is the material anchor governed by the 0-DoF crystal limit (`TD3-AbsoluteZero`, `L4-Thermodynamics` §V.4; see `L0-ParadoxEngine` §I–II — expect there: the crystal holding macro-committed freeze and micro zero-point motion simultaneously as a non-hierarchical load-bearing paradox rather than resolving either pole).
 
 The relationship between the flux of actualization ($P$), the grounding resistance ($R$), and the relational current ($I$) circulating through the system is governed by Facet 12 of the mutual determination matrix (`L4-Thermodynamics` §IV):
@@ -79,7 +79,7 @@ The dimensionless ratio $\Delta I / I_0$ is the direct proportion between the po
 
 $$\frac{\Delta I}{I_0} \equiv \frac{P_{\text{diss}}}{P_{\text{rest}}(\omega)} = \frac{P_{\text{diss}}}{m c^2 \omega}$$
 
-Defining the cycle time as $\tau \equiv 1/\omega$, the Eötvös departure resolves to:
+Defining the cycle timescale directly as $\tau \equiv 1/\omega$ (evaluated below as the cycle period $T$ in seconds rather than $T/2\pi$), the Eötvös departure resolves to:
 
 $$\boxed{\;\eta \;=\; -2\left(\frac{P_{\text{diss}}}{m c^2 \omega}\right) \;=\; -2\left(\frac{P_{\text{diss}}\cdot \tau}{m c^2}\right)\;}$$
 
@@ -102,7 +102,7 @@ Evaluating the master equation across the full physical spectrum demonstrates wh
 
   REGIME              FREQUENCY (ω)           CYCLE TIME (τ)      PREDICTED DEPARTURE (|η|)
   ──────────────────────────────────────────────────────────────────────────────────────
-  Compton Floor       ω_C = m_q c²/ℏ          ~ 10⁻²⁴ s           ~ 10⁻⁴⁴ to 10⁻⁷⁰
+  Compton Floor       ω_C = m_q c²/ℏ          ~ 10⁻²⁴ s           ≲ 10⁻⁴⁴
   Atomic / Lattice    ω_vib ~ 10¹³ Hz         ~ 10⁻¹³ s           ~ 10⁻²⁸
   Metabolic Macro     ω_bio ~ 10–100 Hz       ~ 10⁻² s            ~ 3.2 × 10⁻¹⁸
   Cosmic Horizon      ω_H = H₀                ~ 14 Gyr            >> 1  (expansion invalid)
@@ -128,11 +128,11 @@ $$\eta_{\text{Compton}} \approx -2\left(\frac{P_{\text{diss}}\cdot \hbar}{m\, m_
 > * **Whole organism ($100\text{ W},\, 70\text{ kg}$):** $|\eta| < 10^{-15} \Rightarrow \tau < 31.5\text{ s}$.
 > * **Laboratory cylinder ($1\text{ mW}$ leakage, $300\text{ g}$):** $|\eta| < 10^{-18} \Rightarrow \tau < 13.5\text{ s}$.
 >
-> A MICROSCOPE-grade bound ($|\eta| < 10^{-15}$) on a brain-scale dissipator already excludes circadian dissipative clocks ($8.6\times 10^4\text{ s}$) and admits the EEG band ($10^{-2}\text{ s}$), turning the open clock-assignment debt into a direct measurement program.
+> A MICROSCOPE-grade bound ($|\eta| < 10^{-15}$) on a brain-scale dissipator already excludes circadian dissipative clocks ($8.64\times 10^4\text{ s}$) and admits the EEG band ($10^{-2}\text{ s}$). Composite clock selection sits at the rate-selection frontier rather than inside the scale-free algebra—with `L4-Thermodynamics` §V.2 setting the fastest-clock Planckian intensive floor ($\omega = k_B T/\hbar \Rightarrow |\eta| \approx 7.8\times 10^{-30}$ at $310\text{ K}$, `ADDRESS`) and `L6-TheCircuit` §§I–III governing how embedded sub-frames yield $\omega$ to a macro-container—so the meter turns that frontier into a direct measurement program.
 
 For a passive laboratory test mass, $P_{\text{diss}}$ is limited to tiny thermal noise leakage at constituent scales. The predicted departure is suppressed to astronomical insignificance:
 
-$$|\eta_{\text{Compton}}| \sim 10^{-44} \text{ to } 10^{-70}$$
+$$|\eta_{\text{Compton}}| \lesssim 10^{-44}$$
 
 **Conclusion:** At the atomic and test-mass scale, the Equivalence Principle holds to absolute mathematical precision. Any experiment measuring passive mineral cylinders will observe $\eta = 0.000\dots$, confirming MICROSCOPE.
 
@@ -157,7 +157,7 @@ Evaluating human metabolic benchmarks on that clock:
 ### 3. The Clock-Meter Bound
 The value $|\eta| \sim 3.2 \times 10^{-18}$ is **not** an exported universal constant, and it assumes the EEG band ($\tau \sim 10^{-2}\text{ s}$) sets the active dissipative clock rather than slower metabolic/circadian cycles (which a $10^{-15}$ bound on a brain-scale dissipator already cuts off at $\tau < 3.15\text{ s}$).
 
-Reading the formula as a clock meter fixes the experimental stakes without needing the full clock-assignment rule upfront: at the EEG coordination band, the departure sits **three orders of magnitude below current satellite sensitivity** ($|\eta|_{\text{MICROSCOPE}} < 10^{-15}$), while any sensitivity step between $10^{-15}$ and $10^{-18}$ on an active $20\text{ W}/1.4\text{ kg}$ dissipator directly slices the active biological clock spectrum between $3.15\text{ s}$ and $3.2\text{ ms}$.
+Reading the formula as a clock meter fixes the experimental stakes without needing a closed clock-assignment rule upfront: evaluated at the EEG coordination band alone, the single-band departure sits **three orders of magnitude below current satellite sensitivity** ($|\eta|_{\text{MICROSCOPE}} < 10^{-15}$), while any sensitivity step between $10^{-15}$ and $10^{-18}$ on an active $20\text{ W}/1.4\text{ kg}$ dissipator directly slices the active biological clock spectrum between $3.15\text{ s}$ and $3.2\text{ ms}$.
 
 ---
 

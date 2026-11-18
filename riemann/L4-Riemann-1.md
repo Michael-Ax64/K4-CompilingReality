@@ -132,7 +132,7 @@ Translation and rotation. They are the two halves of the affine group, which is 
 
 The engine reference has a sentence that an earlier version of this file quoted and then misread:
 
-> "But the step is ordered where it touches state: the two face-readings do not commute — $[Q_A, Q_B] \neq 0$, the commutator — so **ADVANCE is a step, not a shuffle**, and the torque it applies lands on the load the tour itself loaded."
+> "But the step is ordered where it touches state: each COMMIT updates the edge load $L_n$ before ADVANCE reads $L_{n+1}$ to select $g_{n+1}$ (§X.4), so execution order does not commute — ADVANCE is a path-dependent step, not a shuffle, and the torque it applies lands on the load the tour itself loaded."
 > — `ENGINE-REFERENCE-AC` §VII
 
 The misreading concluded that $T = 0$ is the decree that ADVANCE is a shuffle. That cannot be right. A shuffle is a relabelling with no act in it, and curvature is an act: in a torsion-free geometry, a vector carried around a loop comes back **turned**. Something happens. What does not happen is accumulation.

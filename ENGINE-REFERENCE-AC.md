@@ -47,7 +47,7 @@ Two homonyms walk this file and shake hands exactly at the AC boundary — the m
 
 | Symbol | In this file (the DC core) | At the AC boundary (§VIII) |
 |---|---|---|
-| $Q$ | §VII's face-reading amplitude, with $Q^2 \to P$ | reactive power, $\|S\| = \sqrt{P^2 + Q^2}$ — same letter, different object |
+| $Q$ | uncommitted phase-buffer amplitude, with $Q^2 \to P$ at commit (§IV) | reactive power, $\|S\| = \sqrt{P^2 + Q^2}$ — same letter, different object |
 | $h$ | the phase unit, $h^2 = -1$ (§IV, §VII) | the AC companion writes the same unit as $j$ (L3-K4-to-K5-via-AC-Extension l.53) — one unit, two letters |
 
 (And the companion layer also uses $h$ for Planck's constant — a third homonym, at one further remove. Context is the give-away; this table is the seatbelt.)
@@ -90,7 +90,7 @@ The title: AC names the $\omega$-driven extension of the engine; DC is its $\the
 
 Every operation carries one of three tags:
 
-* **[gauge]** — presentational: a control coordinate, freely re-choosable; no mechanism is owed for how it changes.
+* **[gauge]** — unbilled by the $\theta = 0$ bit-ledger: a control coordinate freely re-choosable in this isolated base class with no erasure-bit mechanism owed; when the class is embodied in a runtime container or operating mind (`L6-TheCircuit` §§I–V, `L5-TheCyclingMind`), re-orienting selection still incurs physical filter or cycle-switching work.
 * **[taxed]** — physical: the **erasure of an in-flight hold** — a Present write over a held state (§1.2) — priced at $E = k_B T \ln 2$ per bit. The bipartite crossing itself is mandatory and structurally free: every step of the cube crosses the blanket (the cube is bipartite); only the discarded hold pays.
 * **[buffer]** — uncommitted: real and counted, nothing paid yet (the `.behold()` state — both commits held live, nothing chosen yet; §1.1).
 
@@ -178,7 +178,7 @@ The first door is the physical one: **in the $2\times2\times2$ assembly — the 
 
 **Theorem (verified).** For each gate $(x, w)$ — solve $x$, witness $w$ absent — there is exactly one **even** permutation of the poles carrying $P \mapsto x$ and $U \mapsto w$ (the reference directed edge $P \to U$ is the Braid's opening move, `L3-EdgeStateSpace` l.518, fixing the pinning). Every directed edge has exactly two completions to a full permutation, and exactly one is even.
 
-Simply transitive: exactly one rotation lands on each directed edge — nothing lines up twice. Therefore the twelve gates biject with $A_4$, and $A_4$ acts **simply transitively** on the twelve directed edges: the Program Counter's state space is not merely *like* a rotation group — it *is* one. **The Program Counter is an orientation.**
+Simply transitive: exactly one rotation lands on each directed edge — nothing lines up twice. Therefore the twelve gates biject with $A_4$, and $A_4$ acts **simply transitively** on the twelve directed edges: the Program Counter's state space is not merely *like* a rotation group — it *is* one. **The Program Counter is an orientation.** Naming $P \to U$ as reference point trivializes that $A_4$ torsor, defining the flat canonical transport $U(e \to e') = g(e')g(e)^{-1}$ and forcing zero discrete torsion on the $\theta = 0$ floor (`L4-Riemann-1` §IV).
 
 ### 2.3 $S_4 = 4! = 24$: the squares, the manifest half, the dual coset
 
@@ -224,7 +224,7 @@ $A_4 = 1 + 3 + 8$: the identity, the three half-turns (the rings), and eight thi
 
 ### 2.8 The opcode families are the cube's axes
 
-Each gate-edge — the cube edge running from star($x$) to face($\neg w$) — flips exactly the bimedian-bit of the $K_4$ edge $xw$ (verified, C4, U7): **every opcode step moves along the bimedian that contains the edge it solves across.** The three transition families are the three ways the cube is oriented:
+Each gate-edge — the cube edge running from star($x$) to face($\neg w$) — flips exactly the bimedian-bit of the $K_4$ edge $xw$ (verified, C4, U7): **every opcode step moves along the bimedian that contains the edge it solves across.** Together with §2.2's pinning, that edge-to-axis map supplies the floor's discrete solder form (`L4-Riemann-1` §IV). The three transition families are the three ways the cube is oriented:
 
 $$\begin{array}{c|c|c}
 \mathbf{Family} & \mathbf{Bimedian\ (axis)} & \mathbf{Opcodes} \\
@@ -244,7 +244,7 @@ $$\begin{array}{c|c|c}
 
 * **State:** (edge, orientation) $\in 6 \times 2 = A_4$. Equivalently: the current gate, equivalently: the current orientation of the tetrahedron.
 * **Status: gauge.** The selector is a declared control coordinate, set at the centroid — the interior point equidistant from all four poles, from which the cycle can be chosen (`L5-TheCyclingMind` l.68). **No mechanism is owed for how the orientation changes.** "We do not care how the state/orientation changes come about": selection is presentational; only execution is taxed.
-* **Gauge is not levitation.** Selection is unpriced *in bits* — that is all [gauge] claims. The turn itself still costs: §X.4 states the torque-motor claim — ADVANCE applies torque where the field is loaded, and the load is the machine's own in-flight hold. Selection and advance are different acts; the ledger prices only one of them.
+* **Gauge is not zero physical back-reaction.** Selection is unbilled *in erasure bits* on the $\theta = 0$ floor — that is all `[gauge]` claims. The turn itself still costs: §X.4 states the torque-motor claim — ADVANCE applies torque where the field is loaded, and the load is the machine's own in-flight hold. In an embedded runtime (`L6-TheCircuit` §§I–V; `L5-TheCyclingMind`), ring switching likewise moves across real membrane impedances and grounding wrenches.
 * The felt texture `L5-TheCyclingMind` describes is the *human interface* to this selector — the corpus's centroid-standing capacity (l.68, l.180) and its pinning-choice discipline ("picking up a specific Pinned assembly is naming your observer-pole", `L4-TransitingTheThreeWalls` l.154). The architecture itself owes nothing psychological.
 
 ### 3.2 The Three Rings [gauge to select / taxed to run] — the $V_4$ half-turns
@@ -447,7 +447,7 @@ One gate-crossing, end to end. Everything named above runs in this order — fet
              └────────────────────────────────────────────────────────────┘
 ```
 
-On floor 2 the tour is unique — the Gray-code Braid — and ADVANCE increments along it. On floor 3 the step runs along one of the six tours, chosen at the centroid — [gauge], no mechanism owed. But the step is ordered where it touches state: the two face-readings do not commute — $[Q_A, Q_B] \neq 0$, the commutator (§X.4) — so ADVANCE is a step, not a shuffle, and the torque it applies lands on the load the tour itself loaded (§3.1, §X.4).
+On floor 2 the tour is unique — the Gray-code Braid — and ADVANCE increments along it. On floor 3 the step runs along one of the six tours, chosen at the centroid — [gauge], no mechanism owed. But the step is ordered where it touches state: each COMMIT updates the edge load $L_n$ before ADVANCE reads $L_{n+1}$ to select $g_{n+1}$ (§X.4), so execution order does not commute — ADVANCE is a path-dependent step, not a shuffle, and the torque it applies lands on the load the tour itself loaded (§3.1, §X.4).
 
 ---
 
@@ -497,7 +497,7 @@ Seven boundaries close the machine. Each is stated as what the engine does; the 
 
 3. **The attic is unwalkable.** The 4096 buffered states are real and counted; only the floor-3 cube executes. The buffer is not an address space (§1.3); it is the pre-tax holding pen — counted in bits, priced in nothing until erasure.
 
-4. **Selection is declared, not implemented — and the declaration has a motor.** The Program Counter is gauge: the reference names the orientation and owes no mechanism for its motion (§3.1). But gauge in the ledger is not levitation, and ADVANCE carries the **torque-motor claim**: the selector is not cranked from outside the arithmetic, and the machine is not self-driving — it is **self-feeding**. Each commit leaves the loaded hold that the next advance turns against; the erasure that paid for one step is the resistance the next step turns. Selection and advance are different acts on the same load (§3.1, §VII). The loop closes on its own outputs — generatively, one orthogonal act per step, no recursive regress: the Braid's own act at its own boundary (`L3-TheSelfProjectingBraid` l.72). A loop that must feed itself to keep turning is a loop that must carry standing stock, and standing stock priced in energy is what mass is. The corpus's **MeV gap** — the chasm between the massless carriers (the photon, 0) and the first charged massive rung (the electron, 0.511 MeV) — is the statement the standard books record but do not price; a self-feeding selection loop is a clean answer in principle to why there is a price at all: **mass is the price of being.** What keeps turning must pay to hold itself, and the paying shows up as mass. The loop and its recipe (C8, §VI) sit here; the bit-price stays separate (§X.5); the constant of the gap belongs to the ω extension (§VIII) and its companions.
+4. **Selection is declared, not implemented — and the declaration has a motor.** The Program Counter is gauge: the reference names the orientation and owes no mechanism for its motion (§3.1). But gauge in the ledger is not levitation, and ADVANCE carries the **torque-motor claim**: the selector is not cranked from outside the arithmetic, and the machine is not self-driving — it is **self-feeding**. Each commit leaves the loaded hold that the next advance turns against; the erasure that paid for one step is the resistance the next step turns. Selection and advance are different acts on the same load (§3.1, §VII). The loop closes on its own outputs — generatively, one orthogonal act per step, no recursive regress: the Braid's own act at its own boundary (`L3-TheSelfProjectingBraid` l.72). A loop that must feed itself to keep turning is a loop that must carry standing stock ($mc^2$, Joules), maintained by a continuous holding flux ($P_{\text{rest}} = mc^2\omega$, Watts) through the frame's $\omega$-tachometer (`L4-Thermodynamics` §V). The corpus's **MeV gap** — the chasm between the massless carriers (the photon, 0) and the first charged massive rung (the electron, 0.511 MeV) — is the statement the standard books record but do not price; a self-feeding selection loop is a clean answer in principle to why there is a price at all: **mass is the price of being.** What keeps turning pays continuously ($P_{\text{rest}} = mc^2\omega$) to sustain its standing stock ($mc^2$). The loop and its recipe (C8, §VI) sit here; the bit-price stays separate (§X.5); the constant of the gap belongs to the ω extension (§VIII) and its companions.
 
    **The self-feeding recurrence.** Read §§3.1–3.4 and this boundary literally and the state is $(g_n, L_n)$: the current gate $g_n \in A_4$ on edge $e_n$ (§3.1: state = (edge, orientation)), plus the load vector $L_n \in \mathbb{R}_{\ge 0}^6$ the tour carries. Commit updates the load,
 
@@ -577,6 +577,6 @@ Corpus anchors: `L3-EdgeStateSpace` l.381–420, l.451–461, l.473, l.485–534
 
 The last honest question is the first one a bird asks of any machine: what keeps it up there. The engine is not self-driving — the Program Counter is [gauge], and no mechanism is owed for selection (§3.1). But it is not a passenger either: the torque-motor claim (§X.4) closes the loop — the machine's own commits load the hold that its own advance turns against, one orthogonal act per step, outputs becoming the load that selects the next input. Self-feeding, not self-observing; generative, not recursive.
 
-The bird's version costs nothing to state and everything to be. Hanging off the underside of the branch is not a pose; it is the work that keeps the grip. Position is paid for in torque, continuously, and the paying is why there is anything perched here at all — **mass is the price of being** (§X.4, and the corpus's MeV gap). The engine's ledger stays honest about what it prices: bits on erasure (§X.5), nothing for the turn. That the turn still happens is the bird's whole testimony: the view from the underside is excellent, and it is not free.
+The bird's version costs nothing to state and everything to be. Hanging off the underside of the branch is not a pose; it is the work that keeps the grip. Position is paid for in torque, continuously, sustaining the standing energy stock ($mc^2 = P_{\text{rest}}/\omega$) — **mass is the price of being** (§X.4, and the corpus's MeV gap). The engine's ledger stays honest about what it prices: bits on erasure (§X.5), nothing for the turn. That the turn still happens is the bird's whole testimony: the view from the underside is excellent, and it is not free.
 
 ---
