@@ -207,11 +207,11 @@ Take a population of configurations — biased, with no symmetry of its own — 
 | rotations and reflections, $S_4$ | **survives** | 0 | 0 | survives |
 | rotations and inversion ($\vec\theta$ polar) | **0** | 0 | survives | survives |
 
-Read the first column, since that is now the only one that is physics. **The coupling survives averaging over every rotation and every reflection of the tetrahedron, and vanishes only when the population is closed under inversion** — which, inversion being parity, is exactly the statement that a parity-symmetric population sources no net torsion. That is the correct and expected behaviour, and it names the condition an experiment has to break: not an orientational average, but a parity-asymmetric sample.
+Read the first column, since that is now the only one that is physics. **The coupling survives averaging over every rotation and every reflection of the tetrahedron, and vanishes only when the population is closed under inversion** — which, inversion being parity, is exactly the statement that a parity-symmetric population averages $F$ to zero. Alternating object or face rotations in $A_4$ do not cancel $F$ in $H_{\text{incoh}}$; only central inversion ($\vec\theta \to -\vec\theta$) does.
 
-Two things follow. **First:** a null result in a population closed under inversion says nothing about the coupling's strength — the mean is zero for every value of $\beta$. Only a parity-asymmetric, i.e. genuinely homochiral or spin-polarized, sample tests it. **Second:** cost does not cancel. A positive-definite quantity survives every averaging, so any reconciliation that waits for the cost of being to wash out in the aggregate waits forever.
+Two things follow. **First:** a null result for uniform $F$ in a population closed under inversion says nothing about the coupling's strength — $\langle F\rangle = 0$ for every value of $\beta$. Testing a uniform $\dot F$ through $j_5^0$ (§III) requires breaking spatial inversion (a genuinely homochiral or helicity-polarized sample, $\hat P$-odd). Static spin polarization ($\mathbf{j}_5 \sim \boldsymbol{\sigma}$, an $H_{\text{coh}}$ axial dipole) is **$\hat P$-even and $\hat T$-odd**; it does not break spatial inversion on uniform $F$, and instead couples directly to the **spatial gradient** $\nabla F$ ($\hat P$-even, $\hat T$-odd) or lab-boosted components of $\dot F$ in §III's Lagrangian. **Second:** cost does not cancel. A positive-definite quantity survives every averaging, so any reconciliation that waits for the cost of being to wash out in the aggregate waits forever.
 
-The torsion experiments of Part Six use spin-polarized matter. They are the right instrument, built for exactly this reason.
+The torsion experiments of Part Six use spin-polarized matter to bound exactly those $\hat T$-odd axial components of $\partial_\mu F$.
 
 ---
 
@@ -312,7 +312,7 @@ Which function couples is no longer open. The Nieh–Yan density is odd under pa
 
 Odd under both parities means the offset triple is falsely chiral in Barron's sense, which `ProofG` §V says of the same object in the same words. True chirality lives on a different object there — a two-factor pitch invariant whose second factor is the ratchet's advance — and §VIII is why one action cannot hold both: the advance is committed, and an action is the held register.
 
-Populations average the coupling away exactly when they are closed under inversion, which is to say when they are parity-symmetric, and never average away the cost. So parity-symmetric nulls bound nothing here, and spin-polarized experiments bound $\beta\theta^2$ — at about $10^{-31}$ GeV, the first contact between the corpus's own quantity and a measurement.
+Populations average $F$ away exactly when closed under inversion (parity-symmetric), and never average away the cost. Parity-symmetric nulls bound nothing on $\langle F\rangle$, while spin-polarized experiments ($\hat P$-even, $\hat T$-odd) bound the axial torsion components of $\partial_\mu F$ (scaling as $\beta\theta^2\nu$) at about $10^{-31}$ GeV, the first contact between the corpus's own quantity and a measurement.
 
 And an action can only hold. The committed register is not in it and cannot be put there. Testing the ledger needs an instrument that dissipates.
 

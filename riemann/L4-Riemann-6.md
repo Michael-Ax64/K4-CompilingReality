@@ -47,7 +47,7 @@ Quadratic in the offset: two powers weaker than on a linear coupling, three powe
 
 That is a change of status worth stating in the file's own vocabulary. Before the action was written, the bounds and the corpus's quantity had no common account; the bounds measured a zero, and the corpus's claim was a nil. The action opened the account. The bounds now read its balance, at a definite order.
 
-Two things the bounds still do not do. They do not bound the coupling through a **parity-symmetric** sample: Part Five's averaging rule says a population closed under inversion averages the coupling to zero for every value of $\beta$, so only parity-asymmetric — spin-polarized or genuinely homochiral — samples test it, which is how the experiments are in fact built. And they do not reach the two directions in offset space that geometry cannot see: of the three, only the combination along the gradient of $F$ couples at all.
+Two things the bounds still do not do. They do not bound uniform $\langle F\rangle$ through a **parity-symmetric** sample: Part Five's averaging rule says a population closed under inversion averages $F$ to zero for every value of $\beta$, while static spin-polarized experiments ($\hat P$-even, $\hat T$-odd) probe the $\hat T$-odd axial gradient $\nabla F$ and lab-boosted preferred-frame components of $\partial_\mu F$ rather than breaking spatial inversion on uniform $F$ (which requires $\hat P$-odd homochiral or helicity-biased probes). And they do not reach the two directions in offset space that geometry cannot see: of the three, only the combination along the gradient of $F$ couples at all.
 
 ---
 
