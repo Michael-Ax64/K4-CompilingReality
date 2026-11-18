@@ -150,13 +150,13 @@ A classical physicist or sceptic gets the fastest verification from the parent's
 
 ## What Remains Open
 
-- **The free dial $\beta$ is bounded but not derived from $K_4$ structure, and it is now the whole of the remaining exposure.** **U0**, the self-feeding recurrence, wants the engine's load-dependent advance map written as an equation of motion, and it is the cheapest unpaid debt in the suite — purely an act of writing. **U4**, the dissipative register, wants a doubled-variable or explicit entropy-production formalism, because the committed side cannot be written in a single action. The driven discrete connection asks which non-flat connection the engine runs once $\omega > 0$. 
+- **$\beta = \sqrt{6}\,f/M_P$ sits under `Substrate` (consumed, not derived): canonical readouts are $\beta$-independent, and spin-polarized bounds constrain the product $\beta\theta^2\nu \lesssim 3\times 10^{-31}\ \text{GeV}$ rather than $\beta$ alone (`L4-Riemann-5` §VI)—promoting $\beta$ to `Bridge` only if $f/M_P$ is derived from $K_4$ geometry.** 
 
+    (**U0**, the self-feeding recurrence $(g_n, L_n)$, is written at `ENGINE-REFERENCE-AC` §X.4 with the load-extremizing dispatch rule kept `CANDIDATE` above `[gauge]`.) 
+    
+    **U4**, the dissipative register, needs an explicit bath coupled to $d_iS > 0$ whose relaxation clock $\gamma = \tau_{\text{diss}}^{-1}$ sits on the rate-selection frontier (`L4-Riemann-wip` §2.2). The driven discrete connection asks how a continuous reactive phase fiber over the flat $A_4$ base triggers discrete $V_4$ holonomy jumps once $\omega > 0$ (`L4-Riemann-wip` §2.1).
 
-- **Whether $\omega$ is the engine's only discriminator of the two mirrors.** The forced coupling $\vec\theta$ is parity-odd *and* time-reversal-odd — Barron's *false* chirality (`L4-Riemann-5` §IV). True chirality sits on the **pitch invariant** of `ProofG_Chirality` §V: the ratchet's $\omega$-advance times the closed boundary's circulation hand. Both factors are settled at addresses that compute them. The hand is a directed attribute — one bit over the four face circulations, flipped by arrow conjugation (`L3-EdgeStateSpace` §I-e Steps 1 and 6). The advance is carried by the AbsentVar handoff, which `L3-EdgeStateSpace` §VI pins to the *undirected* cycle, and conjugation preserves every undirected cycle, its held pair and its alternation; $\omega$ itself drives the poles and cannot be reversed by them (§IX), so no element of the carrier's $\mathrm{Weyl}(A_3)$ reaches it. Parity-odd times parity-even. 
-
-   - **What is open is narrower**: arrow conjugation is named *the global mirror* at §I-e Step 6 and reads as time reversal elsewhere, so $\omega$'s asymmetry is the only thing in the structure separating $\hat P$ from $\hat T$ — and the invariant's time-reversal-evenness rests on that one address. A second, independent discriminator would retire the question; its absence is what keeps it live.
-
+   
 ---
 
 ## What Reading This Back Should Leave
