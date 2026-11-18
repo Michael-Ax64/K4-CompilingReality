@@ -129,7 +129,7 @@ Every structural identification rests on pre-registered empirical gates (`llm.md
 | **LZ / Dark Sector** | Xenon stays dark down to neutrino floor; dark halos self-interact | Confirmed non-gravitational signal kills $P$-only leak |
 | **BMV Entanglement** | Readout Wall on $P\text{--}I$ blocks branch-by-branch gravitational phase (null) | Witnessed $0.314\text{ rad}$ entanglement means live edge modes on $I\text{--}R$ |
 | **`Q17` Nuclear Program** | Frozen target $m_p/m_\pi$ within $1\%$ | Hit forces codified scope exception on `L4-TheSubstrateRatchet`; 3 empty cycles weaken slots |
-| **Bell Carrier Past $90^\circ$** | Visibility saturates flat at $V = 0$ past $90^\circ$ (`Sudoku` KD-1) | Reopening $\cos$ area fold kills half-wave rectified one-cosine reading |
+| **Bell Carrier Past $90^\circ$** | Visibility saturates flat at $V = 0$ past $90^\circ$ (`Sudoku` KD-1) | Reopening $\mathrm{cos}$ area fold kills half-wave rectified one-cosine reading |
 
 ---
 
