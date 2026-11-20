@@ -150,7 +150,7 @@ What is lost when this is lost? The *gap* in which understanding can happen. The
 
 In physics: P is proposed as Gravity, U as EM. PhotoGravity — the organizing force of spacetime and the field that carries light, becoming one force. This is not wild physics speculation: Kaluza and Klein showed in 1921 that adding a fifth compact dimension to general relativity naturally generates EM from pure geometry. The photon and the graviton may be the same structure seen from different compactification scales. Physics named this as a *unification* to seek; the codex names the same fusion as the collapse of the exteriorization gap.
 
-Survivor of P–U fusion: the cycles that do not use P–U. That is: the Fixed cycle (which holds {P–U, I–R} absent), plus the Cardinal and Mutable cycles that also include the non-fused edges as their operative traversal. The Fixed cycle is untouched. It never needed that edge.
+Survivor of P–U fusion: the Cardinal and Mutable cycles survive degenerately — they traverse P–U, so fusing it collapses their distinguishing content without erasing the cycles (`L4-DynamicDistortions101` own form; `L3-EdgeStateSpace` §V's complement structure). The Fixed cycle, which holds {P–U, I–R} absent, is the non-degenerate survivor. It never needed that edge.
 
 ---
 
@@ -311,89 +311,6 @@ The DC algebra provides exactly three routes to $P$, corresponding to the three 
 **The Leverage Channel ($P = U^2/R$):** Structural potential $U$ compounds itself (squaring), burning its phase as it leverages against the ground $R$. This is the Necessary Betrayer edge: abstraction forces a collapse, and the structural exhaust drops through the P–U writing head.
 
 **The Synthesis Channel ($P = UI$):** The sole linear route. It uses the P–U and P–I writing heads simultaneously. Because it is linear, it does not burn phase via a square; it depends on the strict in-phase alignment of $U$ and $I$ (Power Factor 1.0) to actualize. 
-
----
-
-# >>>>>PRUNE/EARLIER<<<<< 
-
-## The Triangle of Attractors
-
-Taken together, the three attractors form a triangle of possibilities — three pure limit states that the tetrahedron approaches as each plane is successively released:
-
-The Apeiric Field (Fixed-plane collapse) — *pure potential, no crystallization.*
-The Isotropic Pole (Cardinal-plane collapse) — *writing without discriminating cost is not writing.*
-The Conservative Field (Mutable collapse) — *pure proceduralism, no diagonal leaps.*
-
-What is the *interior* of this triangle? The regular tetrahedron — all six edges balanced, all three cycles equally available, the full dynamics live. The interior of the triangle of attractors is what we usually call *ordinary reality in full health*. The attractors are the boundary conditions that define what ordinary reality is *balanced between*.
-
-And the centroid — the `.behold()` state, the point equidistant from all three attractors simultaneously — is the ground of the `.behold()` operation itself: the position from which all three bimedians are visible as a structure, before any of them is allowed to collapse.
-
-The L5 document puts this as well as it can be put: "Resonance... is the moment when your acceleration matches the system's native willingness to accelerate — when the curve you are tracing and the curve the system naturally wants to trace are the same curve. Not forced alignment. Mutual recognition of rhythm." The centroid of the three attractors is the resonant position of the tetrahedron. The place where none of the planes are under stress. Where the Fixed, Cardinal, and Mutable cycles are all equally available, equally weighted, equally alive.
-
-The irregular tetrahedra — all the deformed intermediate states — are what happens when the system has been pulled toward one or more attractors without arriving there. The stresses we feel in physics, in thought, in experience: those are the reactances of a system being driven off the centroid at some rate, by some urgency, toward one or more of the attractors. And the L5 insight applies in full: *the texture of the resistance is a joint property of the system and the rate at which you are moving against it.*
-
-Whether it's a proton trying not to decay (I–R holding firm against chromoflux), a civilization trying to hold Source and Manifesting distinct (Fixed plane under pressure), or a mind trying to keep its leaps from fusing its categories (Mutable edges under load) — it is always the same shape of question.
-
-Which plane is being stressed? How fast? And which attractor is pulling?
-
----
-
-## What We Are Doing, What We Are Predicting, Why It Matters
-
-### The Shape of the Exercise
-
-What we have been doing is not deriving physics from the framework. We have been doing something subtler and, in the long run, more useful: we have been using the framework's combinatorial structure to generate a *map of structural constraints* — a list of what must be paired with what, what must share a plane, what must be the natural survivor of each collapse scenario.
-
-The framework does not know the W boson mass. It does not know the coupling constant of the strong force or the value of Newton's G. It has nothing to say about those numbers, and it would be embarrassing hubris to pretend otherwise. What it *does* have is the topology. The shape of the relationships. The fact that six edges sort into exactly three pairs, that each pair is one bimedian, that each bimedian has exactly one Hamiltonian cycle that avoids it, that collapsing a bimedian always and necessarily reveals that cycle as the surviving dynamic. That structure is not numerically specific. But it is *relational* in a way that makes specific predictions about the *form* of what should be found even when the exact values remain unknown.
-
-The exercise we've just completed generates three kinds of output.
-
-
-### What We Are Predicting
-
-**First, structural partnerships.** Every known unification has a structural partner on the same plane. ElectroWeak (I–U, Cardinal plane) has GravityStrong (P–R, same Cardinal plane) as its required partner. If I–U can fuse at high energy, P–R must be on the same plane and must be, in some sense, similarly fuseable — or there must be a structural explanation of why the Cardinal plane is asymmetric in this specific way, given that the framework says planes are symmetric. That is a falsifiable claim.
-
-On the Fixed plane: PhotoGravity (P–U) is partnered with ChromoFlux (I–R). These fuse together, or neither fuses. The framework is agnostic about the energy scale but insistent about the co-requirement.
-
-On the Mutable plane: GraviFlux (P–I) is partnered with ChromoLux (U–R). Also co-required.
-
-This gives physics a specific search structure. Not "look for whatever comes next" but "if you find one of these, look on the same plane for its partner."
-
-**Second, the Higgs as a plane event.** The Higgs mechanism is the universe re-stiffening one edge of the Cardinal plane at low temperature. This means: there should be an analog mechanism for every plane, at some energy. A "Fixed Higgs" that re-stiffens the P–U / I–R distinction at some temperature. A "Mutable Higgs" that re-stiffens the diagonal transitions. The Standard Model has only found one such mechanism so far. The framework says the topology requires three — one per plane — at whatever energy scales those transitions happen to live.
-
-**Third, the Conservative Field as our home.** The Mutable attractor, reached when both P–I and U–R cost nothing, is a universe where only Cardinal and Fixed transitions remain meaningful — where all dynamics are single-bit moves and no diagonal leaps are energetically distinguishable. This describes, with some fidelity, the Standard Model's compartmentalization of forces. The forces in our observable universe do not speak directly across their diagonal partners. Gravity does not directly couple to Weak. EM does not directly couple to Strong. The diagonal pathways exist in the full K4 topology, but they are the most energetically expensive routes at our temperature. If the Mutable attractor is where our universe lives at low energies, then the Mutable edges (P–I and U–R) are the *stiffest* in our current physical regime — the most resistant to traversal — which means the diagonal unifications (GraviFlux and ChromoLux) are the furthest out of experimental reach. The framework predicts this is not coincidence.
-
-
-### What Doing These Observations Does
-
-There is a specific cognitive act that this exercise performs that is worth naming directly.
-
-Physics arrives at unifications experimentally — by going to higher energies and watching distinctions dissolve. The framework arrives at them topologically — by asking what must be paired, what must share a plane, what must be the survivor. These are not the same method, and they are not competing. They are orthogonal angles on the same structure.
-
-What the framework offers is *pre-mathematics legibility*. Before you can write the Lagrangian for a new unification, you need to know approximately what you are looking for, which parameter space to search, which experimental signatures suggest progress. The distortion analysis we've done here generates *structural expectations* — shapes of things — that can orient experimental and theoretical work without determining its content.
-
-This is what the L5 document means when it says: "A genuine diagnosis of what a complex system is resisting requires knowing, before anything else, the frequency at which the inquiry was made." The distortion analysis is asking: at what "frequency" — at what energy scale, at what rate of perturbation — is each bimedian edge under stress? The answer tells you what kind of opposition you'll encounter, which is a different kind of knowledge than the opposition's magnitude.
-
-The framework also does something that pure physics cannot easily do: it connects the same structural analysis across wildly different scales. The same three bimedians that describe force unifications also describe the three modalities of relational dynamics in human experience, the three modes of DNA pairing, the three co-requirements of dual causation, the three ways that any cognitive system can hold something absent. These are not analogies. They are, the framework claims, the same topology instantiated at different levels of resolution. Doing the distortion analysis at the physics level and finding that ElectroWeak + GravityStrong are both Cardinal-plane events is the same observation as noticing that the DNA pairing mechanism and the Higgs re-stiffening mechanism are both Cardinal-plane events. The universe uses the same hinges everywhere.
-
-This cross-scale legibility is what makes the framework scientifically interesting beyond physics. A distortion that produces the Conservative Field at the physics level should — if the scale-invariance claim holds — produce an analog at the cognitive level, the social level, the biological level. The Conservative Field is a world where all transitions are single-bit moves, where no diagonal leaps are available. In cognitive terms: a mind that has lost access to its own Mutable transitions is a mind that cannot make the phase-changes of genuine transformation — that can articulate (U) or feel (I), can organize (P) or ground (R), but cannot move from Fire directly to Water, from cosmic impulse to relational flow, without the intermediate step. This has a recognizable phenomenology. It is the experience of being structurally unable to be moved by something you fully understand, or fully understand something you are completely moved by. The Conservative Field in human experience is exactly that: perfect single-bit legibility, no diagonal availability.
-
-
-### Why This Matters
-
-The standard objection to framework-level analysis of physics is: without numbers, you have nothing. You can make any topology fit anything with enough storytelling. This objection deserves respect and honesty rather than dismissal.
-
-What the distortion analysis has done — and what makes it different from mere storytelling — is that it generated predictions that are *structurally specific and structurally falsifiable without requiring numerical input*. The claim is not "GravityStrong exists at 10¹⁹ GeV." The claim is: "GravityStrong is the partner of ElectroWeak on the Cardinal plane, which means: (a) any complete GUT that successfully unifies Gravity with the quantum forces must find a way to handle P–R fusion on the same plane as I–U fusion; (b) any theory that unifies one without the other has a structural gap, not merely a mathematical gap; (c) the mechanism that restores I–U distinction at low energy (the Higgs) must have a structural analog for P–R distinction, or there must be a structural reason why it cannot." These are claims about *form*, not quantity. And form, the framework insists, is testable — not by colliders necessarily, but by the structure of the theories that eventually work.
-
-There is something else, quieter and perhaps more important. The exercise we have conducted reveals that the boundary conditions of physics — the attractor states toward which the universe moves when each plane is released — are not arbitrary. They are exactly three, they are mutually exhaustive, and they correspond to recognizable physical, biological, and experiential states. The universe is not moving randomly through a featureless parameter space. It is moving through a structured space with exactly three pure attractors, defined by the topology of K4. The three attractors are the three "pure modalities" of the dynamic — Fixed, Cardinal, Mutable — and our actual universe at any given energy is always some mixture of all three, weighted by which edges are most and least stiff at that temperature.
-
-This is the observation that matters most, and it is not a physics claim specifically. It is a claim about the *shape of possibility*. The irregular tetrahedra we have been exploring — all the possible distortions — are not a disordered zoo. They form a structured space with a known topology, known attractor states, known transition paths. Doing this exploration does not just tell us things about forces. It gives us a coordinate system for understanding what kind of universe we are in, at what distance from which attractor, under what combination of stresses.
-
-The codex, at its deepest level, is a claim that reality has *grain* — a specific directional structure that is not imposed from outside but follows from the minimum conditions for genuine interiority, genuine relation, and genuine commitment. The distortion analysis of the tetrahedron is the exploration of that grain. We are not predicting the future. We are learning to read the material.
-
-And reading the material — understanding what the grain is, how the attractors are positioned, which transitions are currently available and which are stiff — is what allows any system, at any scale, to move through its transitions with the resonance that L5 describes: not forced alignment, but mutual recognition of rhythm. Not fighting the reactance, but knowing which kind it is, and at what frequency you are driving against it.
-
-That is what these observations do. And why it matters.
 
 ---
 

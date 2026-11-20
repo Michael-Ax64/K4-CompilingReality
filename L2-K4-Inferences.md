@@ -5,6 +5,8 @@
 
 *This file is written as a literate construction. The code blocks, read top to bottom, are one program, and the prose between them is the reasoning that chose each line. Nothing is asserted about the specimen that a block does not return.*
 
+> **What This Is About — The Mathematical Core:** Completed $\xi(s)$ carries a Klein four-group of symmetries ($s \mapsto \bar s$, $s \mapsto 1-s$, $s \mapsto 1-\bar s$). Requiring all three to act as spatial rotations forces the unique lowest-degree lift $z = xy = \tfrac12\operatorname{Im}(s-\tfrac12)^2$, sending any off-line zero-orbit to a non-degenerate tetrahedron of volume $\tfrac83(xy)^2$ and collapsing volume to zero on two axes—the critical line ($x=0$) and the real axis ($y=0$, empty for $\xi$ since $\zeta < 0$ on $(0,1)$). Two controls (`Davenport–Heilbronn` without an Euler product; $\zeta(s-\tfrac14)\zeta(s+\tfrac14)$ with one) share the exact same symmetry group, lift, and centre at $s=\tfrac12$ while occupying the bulk: symmetry (`ROUTE`) never decides zero occupancy; only a positive Hermitian mod-square (`COMMIT`, e.g., Weil/Li positivity) forces paired monads to coincide on $\sigma=\tfrac12$. Nothing below claims or proves the Riemann Hypothesis.
+
 ---
 
 ## The Task
@@ -603,7 +605,7 @@ What the hypothesis is, then, with no regard for the nouns set down above: **the
 
 **Unfolded Series:** `L2-K4-Inferences-101` (complex $\zeta(\sigma+it)$ transfer field), `L2-K4-Inferences-201` (engine interface translations), `L2-K4-Inferences-301` (two cascade directions, Voronin's attic, committed sub-ledger), and `L2-K4-Inferences-bench` (verified numerical suite).
 
-**Unassigned:** which static $V_4$ axis carries which mode (though on the arithmetic lattice `L2-K4-Inferences-101` §3 separates `Fixed` `{I, R}` from `Mutable`, joining `L4-Riemann-2` §III and §6); which tier belongs to which move; which of the three dipole classes a line zero is.
+**Unassigned:** which static $V_4$ axis carries which mode — the one genuinely open item (§6; II.3: "an assignment by resemblance would be a guess wearing a table"; the partial note stays: on the arithmetic lattice `L2-K4-Inferences-101` §3 separates `Fixed` `{I, R}` from `Mutable`, joining `L4-Riemann-2` §III). Two items hang on it and are not separately open: which tier belongs to which move — not a missing bijection; the standing answer is the cross-cut (`ENGINE-REFERENCE-AC` §4.1: "Do not conflate the two threes"; §6) plus the kinds-by-bimedian table LANDED in this register (Fixed [flat, sq], Cardinal [flat, root], Mutable [flat, sq]) — once the axis assigns each move's bimedian, each move's tier-carrying follows mechanically from that table; and which of the three dipole classes a line zero is — a line zero fuses along the line-reflection cf (§IV.3; the line zero "stays unassigned, with the modes (step 6)"), so its dipole class is the bimedian axis of cf (`L4-DynamicDistortions301` §VII.B: Fixed {P–U, I–R} / Cardinal {P–R, I–U} / Mutable {P–I, U–R}).
 
 **Not tested:** that the zeros are simple above the height measured in IV.4. Simplicity is a separate conjecture, and the hypothesis does not need it.
 

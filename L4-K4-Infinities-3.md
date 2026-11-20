@@ -308,6 +308,8 @@ What cosmological redshift actually registers is **impedance dilution inside $H_
 
 Matter instances — stars, galaxies, observers — are not the power plant funding cosmic expansion. They are local parasites operating inside the minted volume. They hold local buffers, pay Landauer taxes across internal XOR bottlenecks, and dump thermodynamic exhaust into the expanding void. The universe is not a closed recirculating heat engine attempting to recycle its own waste heat; it is an open-ended, rate-capped compiler, extruding the stage from an inexhaustible ground and leaving the compiled wake to cool behind it.
 
+The return `L3-SoficityStar` §XIII.2 describes is form-and-reactive-hum laundering at the one-sided blanket — "form cycles; the ledger does not" — not ledger withdrawal; the two readings are two faces of one surface, and if that identity fails, one of the two gives way (SoficityStar's own kill: KI-6 in its homogeneous form).
+
 ### The books close locally, and the rate is capped
 
 Each commitment is one event with two halves: pay the tax by erasing what was not chosen, write the chosen entry. No global conservation law is invoked anywhere, and none is needed, because the ledger is what defines the thing conservation would count over.
@@ -363,6 +365,8 @@ In the hub's datasheet terms it is a **Bridge** consuming two **Substrate** cons
 This at the Gibbons-Hawking Temperature:
 
 $$T_{\text{GH}} = \frac{\hbar c}{2\pi k_B R_H} \approx \mathbf{2.654 \times 10^{-30}\text{ K}} \quad (\text{at observed present-epoch } H_0 = 67.4\text{ km/s/Mpc; Planck 2018 spread } 67.36\text{–}67.4)$$
+
+*Radius tag: $R_H = c/H_0$ here is the present-epoch Hubble radius — $\sqrt{\Omega_\Lambda}$ smaller than §V's $R_\Lambda = c/(H_0\sqrt{\Omega_\Lambda})$; $T_{\text{GH}}$ evaluated at $R_\Lambda$ reads 2.20e-30 K (arithmetic checked: 2.654e-30 × √0.685 = 2.196e-30 ≈ 2.20e-30).*
 
 
 ### The unit is not arbitrary
@@ -579,4 +583,3 @@ One sentence here departs from textbook physics, and it is the one that says gra
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

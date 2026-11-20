@@ -28,6 +28,8 @@ Under logarithms, the twelve multiplicative relations among $(P, U, I, R)$ reduc
 > Most readers arrive here looking for either a Theory of Everything or an analogy. It is neither. A stone has state and zero inside; hit it and the lattice mutates on impact. An inside exists only where a system buys delay—where input refuses to fire straight into output and holds competing branches in live interference instead.
 >
 > Four poles, six edges, twelve equations, zero adjustable dials. The math does not guess what a proton weighs or what you should have for breakfast. It fixes the accounting rules any bounded interior must pay simply to remain an interior rather than dissolving back into the room.
+>
+> One further misread is common enough to deserve an admission up front. Name the poles Power, Voltage, Current, Resistance, and the twelve relations resolve into Ohm's law and its algebraic kin. A reader who reports "just Ohm's law rearranged" is reading their instrument correctly: the algebra is classical to the last term, and every quantity the consequent fixes — the twelve relations, the rank-2 reduction, the automorphism count — can be verified with standard tools, and should be. What those tools do not return is the seating. Ohm's law survives every relabeling of its four names; the same relations, seated on a fixed directed tetrahedron, survive none ($|\mathrm{Aut}| = 1$). The algebra is classical. The rigidity is not. The architecture is **Ohm's law as a topological arrangement**, and the arrangement — the directed seating the relations ride on — is where everything downstream is decided.
 
 ---
 

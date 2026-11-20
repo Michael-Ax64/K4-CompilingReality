@@ -9,6 +9,8 @@
 >
 > **Dependencies:** `ProofP_ThermodynamicInertia`, `L0-EinsteinTrace`, `L3-FormalFoundations`, `L4-AttractorSpace`, `L4-TheTwelveGates`, `QED-EotvosBound`, `QED-CCP`.
 
+> **What This Is About — The Mathematical Core:** The Four Laws form one closed $K_4$ system on the writing matching (`P–R`, `I–U`): Second Law = writing flux $\dot S$ ($P$), Third Law = ground limit ($R$), First Law = Star-Norm invariant ($U$), and Zeroth Law = phase-transparent resonance ($I$, yielding Fourier's law $I = U/R$; `LANDED` within the mapping). Temperature ($P = T\dot S$, erasure price meter) and $\omega$ ($P_{\text{rest}} = mc^2\omega$, tachometer) sit off the pole basis and cancel identically at the Planckian limit ($\omega \approx k_B T/\hbar \Rightarrow P_{\text{diss}}/P_{\text{rest}} = \dot N\ln 2 \cdot \tau_C$), while particle mass cancels out of Kolmogorov micro-time $\tau_K = \sqrt{\nu/\epsilon} \sim \hbar/k_B T$ (§V.2–3). **Subject-Shift:** neither writing flux ($\dot S$) nor historical entropy count ($S$) weighs away from horizons; what gravitates at scale $N+1$ is the standing energy stock ($mc^2$) inherited on $R_{N+1}$ from scale-$N$'s ongoing constituting hold $P_N$ (`ProofP` §5; equal to $M = 2TS$ only at horizons).
+
 ---
 
 ## I. Introduction: Escaping the Flatland of Decay
@@ -60,7 +62,7 @@ The four `TD`-labels are this mapping's own names for the four laws, fixed by th
 We evaluate the remaining three laws against the Active/Reactive and Asserting/Yielding axes:
 
 * **TD3-AbsoluteZero (The Third Law / 0-DoF Crystal):**
-  * *Axis Test:* It is the ultimate grounding limit. It represents the Symmetric Freeze where $\omega \to 0$, compilation halts, and the system becomes pure, unyielding inertia. It does not initiate; it asserts the absolute material boundary. It is where the stock of Step 1 lives: the fully written record, the accumulated specification, the mass-side of the Ledger.
+  * *Axis Test:* It is the ultimate grounding limit. It represents the Symmetric Freeze where $\omega \to 0$, compilation halts, and the system becomes pure, unyielding inertia. It does not initiate; it asserts the absolute material boundary. It is where the stock of Step 1 lives: the fully written record, the accumulated specification — whose mass-side is the committed **magnitude** held on $R$, not the count of entries that produced it (`On_TheGravityDerivation` §III: "the metric's source is what stands committed on $P$ — the magnitude held now, not the count of entries that produced it... The record does not weigh; the holding does"; deuteron check: binding exports 2.22 MeV and the bound state is lighter).
   * *Assignment:* **Reactive + Asserting = R (Earth / Resistance / Mass)**.
 
 * **TD1-Conservation (The First Law / Biquaternion Star-Norm):**
@@ -310,7 +312,7 @@ Evaluating the cultural and scientific axioms of thermodynamics against the $K_4
 ### 1. "Entropy is a measure of disorder or messiness."
 * **The Flatland View:** The universe is winding down from pristine order into chaotic randomness.
 * **The Codex Correction:** Entropy is **accumulated specification**. Accumulating and accumulation are two distinct poles.
-* **The Mechanism:** When a bounded frame executes `.observe()`, it forces a scalar collapse and writes an entry to its ledger. The *writing* is `TD2-Entropy` ($P$, flux, pen). The *written* is stock accruing at $R$ (book, mass-side, past), which gravitates (`ProofP`; the two-scale reading at a horizon and through the $P_N \leftrightarrow R_{N+1}$ handoff lives at `BENDING_SPACE` §IX). A scrambled egg is not "disordered"; its molecular multiway graph has collapsed into a heavily specified, historical state.
+* **The Mechanism:** When a bounded frame executes `.observe()`, it forces a scalar collapse and writes an entry to its ledger. The *writing* is `TD2-Entropy` ($P$, flux, pen). The *written* is stock accruing at $R$ (book, mass-side, past) — and what gravitates is the standing **magnitude** held on $R$, not the count of written entries (`ProofP` §5: the producing event is not the constituting commit; the deuteron's residue is the holding, not the event). The pen/book identity — where the count itself weighs, $M = 2TS$ — closes ONLY at a horizon (`BENDING_SPACE` §IX, §X: "The record does not weigh. The uncertainty in the count of the record is the cosmic hold."). The two-scale reading through the $P_N \leftrightarrow R_{N+1}$ handoff lives at `BENDING_SPACE` §IX. A scrambled egg is not "disordered"; its molecular multiway graph has collapsed into a heavily specified, historical state.
 
 ### 2. "The universe is a closed system heading toward Heat Death."
 * **The Flatland View:** All gradients will equalize, and all physical work will cease in cosmic death.
@@ -361,7 +363,7 @@ Folded into the $K_4$ topology, the narrative of decay evaporates. Thermodynamic
 Gravity, Time, and Thermodynamics are the same topological event viewed from different faces of the volume:
 * **Dissipation** is the payment of the Tax ($P$), priced at $k_B T \ln 2$.
 * **Time** is the helical ratchet of the actuator advancing at frequency $\omega$.
-* **Gravity** is the topological weight of the resulting Ledger ($R$).
+* **Gravity** is the topological weight of the standing committed magnitude ($R$); the count of entries weighs only at a horizon ($M = 2TS$ — `BENDING_SPACE` §IX).
 
 ```
                       THE TRIPLE IDENTITY

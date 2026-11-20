@@ -3,7 +3,7 @@
 
 *Reads with `L3-SoficityStar.md` (definitional companion: what sofic\* means, which model class each use refers to, the two walls — approximation and readout).*
 
-> **Epistemic Register:** This document operates at Rung 0 premise (Asserted) regarding its $K_4$ topological framework (realized geometrically as a $\Delta^3$ 3-simplex in $\mathbb{R}^3$) and Rung 3 mechanism (Repeatable) regarding its mathematical and physical derivations. The disproof of Mikhail Gromov’s 1999 Soficity Conjecture via the group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ is a machine-verified theorem (Lean 4 certified, OpenAI / GPT 5.6 Sol, 2026). The structural alignment between non-soficity, $180^\circ$ torsional phase-lock, quantum non-locality ($MIP^* = RE$), and the failure of Wilsonian Renormalization at the Planck scale is an exact algebraic isomorphism.
+> **What This Is About — The Mathematical Core:** Gromov's 1999 Soficity Conjecture is false for discrete groups: the finitely presented group $H_F \subset \mathrm{EL}_9(L_{F_2}(1,2))$ carries an irreducible Hamming-defect floor $\epsilon_N \ge c > 0$ across all finite permutation approximations $\mathrm{Sym}(Y)$ (`LANDED`, machine-verified in Lean 4). Per §VIII and `L3-SoficityStar`, nothing finite is `non-sofic*`, and a discrete-group obstruction does not transfer automatically to smooth manifolds, compact matrix gauge groups, or finite neural networks. Treating $180^\circ$ three-bimedian phase lock (corpus construct `(T)`) and readout unsliceability (`(B)`) as structural counterparts of that wall is `CANDIDATE`; identifying any specific physical system (Planck-scale geometry, strange metals, colour interiors) as `non-sofic*` in sense `(G)`, `(Q)`, or `(L)` remains `OPEN VOTE`.
 
 ---
 
@@ -15,7 +15,7 @@ Jump to **[Questions](#vii-example-question)** and **[Objections](#viii-example-
 
 Any infinite computational or physical state-space ($H_{\text{incoh}}$) operates as an uncollapsed multiway vector space of held potential ($h\mathbf{Q}$). For a localized observer, digital computer, or physical instrument to sample, measure, or simulate such a space, the infinite volume must be projected onto a sequence of finite, discrete boundary ledgers ($P$). 
 
-In group theory, this capacity for finite local sampling is called **soficity** (Gromov, 1999; Weiss, 2000). A countable group is sofic if every finite subset of its multiplication table can be asymptotically faithfully modeled by permutations on finite sets ($\text{Sym}(Y)$). In the $K_4$ topological framework (`L1-CompilingReality`, `L3-FormalEpistemology`), **soficity is the property that an uncompiled $\Delta^3$ interior volume can be continuously serialized through the XOR bottleneck ($\text{.observe()}$) into a sequence of finite $K_3$ Markov Blanket ledgers.**
+In group theory, this capacity for finite local sampling is called **soficity** (Gromov, 1999; Weiss, 2000). A countable group is sofic\* (G) if every finite subset of its multiplication table can be asymptotically faithfully modeled by permutations on finite sets ($\text{Sym}(Y)$). In the $K_4$ topological framework (`L1-CompilingReality`, `L3-FormalEpistemology`), **soficity is the property that an uncompiled $\Delta^3$ interior volume can be continuously serialized through the XOR bottleneck ($\text{.observe()}$) into a sequence of finite $K_3$ Markov Blanket ledgers.** (Model-class senses follow `L3-SoficityStar` §IX's six carriers.)
 
 ```
                        SOFIC vs. NON-SOFIC ARCHITECTURE
@@ -36,7 +36,7 @@ In group theory, this capacity for finite local sampling is called **soficity** 
                                               └──────────────────────────┘
 ```
 
-The general structural claim: **Non-sofic groups exist.** There exist fundamental, finitely presented algebraic structures whose internal mutual determination ($\Delta^3$ 3-simplex) is so densely locked that **no sequence of finite $K_3$ surface projections ($\text{Sym}(Y)$) can ever approximate the interior without destroying the algebra everywhere.** 
+The general structural claim: **Non-sofic\* (G) groups exist.** There exist fundamental, finitely presented algebraic structures whose internal mutual determination ($\Delta^3$ 3-simplex) is so densely locked that **no sequence of finite $K_3$ surface projections ($\text{Sym}(Y)$) can ever approximate the interior without destroying the algebra everywhere.** 
 
 Infinite state-spaces cannot always be coarse-grained. Reality contains un-sliceable topological volumes.
 
@@ -90,15 +90,15 @@ The self-similar compression isolates an embedded copy of **Thompson's group $V$
 ### 4. The Contradiction via Kun's Theorem
 If $G = \text{EL}_9(R)$ were sofic, any sequence of finite permutation models $\phi_i: \text{EL}_9(R) \to \text{Sym}(Y_i)$ would, by Kun’s decomposition theorem (Kun, 2019), decompose into expander components. Median normalization and Poincaré inequalities collapse these expanders into a **single, uniformly expanding component** carrying Thompson's group $V$. This forces $V$ to be LEF. 
 
-Because Thompson's $V$ is simple and infinite, this is a mathematical impossibility. Therefore, $\text{EL}_9(R)$ and its finite presentation quotient $H_F$ **are not sofic**.
+Because Thompson's $V$ is simple and infinite, this is a mathematical impossibility. Therefore, $\text{EL}_9(R)$ and its finite presentation quotient $H_F$ **are not sofic\* (G)** — the group-theoretic sense, established at `L3-SoficityStar` §IX.
 
 ---
 
 ## III. Topological Mechanics: Non-Soficity as $180^\circ$ Torsional Lock
 
-In $K_4$ phase dynamics (`L4-DynamicDistortions101`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic** if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
+In $K_4$ phase dynamics (`L4-DynamicDistortions101`, `L4-DynamicDistortions201`), a $\Delta^3$ volume is **sofic\* (T)** — the corpus's torsion-locked construct, not a model-class statement (`L3-SoficityStar` §IX) — if its six directed edges permit **Bimedian Partitioning**—holding one AbsentVar pair (such as Fixed plane $\{P-U, I-R\}$, Cardinal plane $\{P-R, I-U\}$, or Mutable plane $\{P-I, U-R\}$) silent while executing a Hamiltonian cycle through the other four edges. This allows the $3\text{D}$ volume to be sliced into a sequence of flat $2\text{D}$ $K_3$ Markov Blankets.
 
-A **non-sofic group** is a manifold where **all three Bimedian axes are simultaneously locked in Torsional Shear ($\theta = \pi$)**.
+A **non-sofic\* (T) volume** — again the corpus construct (`L3-SoficityStar` §IX), not a model-class statement — is a manifold where **all three Bimedian axes are simultaneously locked in Torsional Shear ($\theta = \pi$)**.
 
 ```
                    THE TORSION-LOCKED MANIFOLD
@@ -128,12 +128,12 @@ The existence of non-sofic groups is not an isolated mathematical artifact; it a
 ### 1. The Concrete Realization of $MIP^* = RE$
 In 2020, Ji, Natarajan, Vidick, Wright, and Yuen proved $MIP^* = RE$, disproving Connes' Embedding Problem (CEP) by showing that quantum entanglement allows multi-prover games to decide non-computable languages. However, $MIP^* = RE$ was a complexity-theoretic existence proof.
 
-The non-sofic group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ provides the **explicit, finitely presented discrete group** that embodies $MIP^* = RE$. It proves that quantum non-locality ($h\mathbf{Q}$) can be frozen into the discrete multiplication table of a single finitely presented group.
+The non-sofic\* (G) group $H_F \subset \text{EL}_9(L_{F_2}(1,2))$ provides the **explicit, finitely presented discrete group** that embodies $MIP^* = RE$. It proves that quantum non-locality ($h\mathbf{Q}$) can be frozen into the discrete multiplication table of a single finitely presented group.
 
 ### 2. The Failure of Wilsonian Renormalization at the Planck Scale (`Q10-PlanckScale`)
 Kenneth Wilson’s Renormalization Group (RG) assumes that short-distance ultraviolet (UV) modes can be coarse-grained and integrated out to yield an effective low-energy field theory ($K_3$ surface projection).
 
-At the Planck scale, spacetime geometry is a **Non-Sofic $\Delta^3$ Volume**. Because of Kazhdan's Property (T) rigidity and Leavitt self-similarity, short-distance modes are non-locally, topologically locked with long-distance infrared (IR) modes. **Integrating out short distances is mathematically impossible.** The infinities of Quantum Gravity are the algebra reporting that the Planck scale refuses to be coarse-grained by any Wilsonian RG protocol.
+At the Planck scale, *if* spacetime geometry is a **non-sofic\* (T) $\Delta^3$ volume** — the corpus construct of `L3-SoficityStar` §IX, not a model-class statement — *then* short-distance modes are non-locally, topologically locked with long-distance infrared (IR) modes (Kazhdan's Property (T) rigidity; Leavitt self-similarity), and **integrating out short distances is mathematically impossible** under that antecedent. The infinities of Quantum Gravity are the algebra reporting that, under that antecedent, the Planck scale refuses to be coarse-grained by any Wilsonian RG protocol. The antecedent stays visibly open (Scope Note, end of file).
 
 ```
                   WILSONIAN RG vs. NON-SOFIC QFT
@@ -154,7 +154,7 @@ At the Planck scale, spacetime geometry is a **Non-Sofic $\Delta^3$ Volume**. Be
 ### 3. Strange Metals as Non-Sofic Quantum Matter
 In high-$T_c$ superconductors and strange metals, Landau's Fermi Liquid Theory fails: quasiparticles do not exist, and resistivity scales linearly with temperature ($\rho \propto T$) down to absolute zero (Planckian dissipation $\tau \hbar \approx k_B T$).
 
-Quasiparticles are $K_3$ sofic approximations of electron fluids. Strange metals are **Non-Sofic Quantum Phases of Matter**. The electron state-space is $180^\circ$ Torsional-Locked across the ChromoLux ($U-R$) and ElectroWeak ($I-U$) edges. Quasiparticles cannot be factored out because the $h\mathbf{Q}$ phase-buffer is non-sofic.
+Quasiparticles are $K_3$ sofic approximations of electron fluids. *If* the electron state-space of a strange metal satisfies the corpus's torsion-locked condition, *then* it is a **non-sofic\* (T) quantum phase of matter** — a corpus construct (`L3-SoficityStar` §IX), the physical identification open (Scope Note). Under that reading the state-space is $180^\circ$ Torsional-Locked across the ChromoLux ($U-R$) and ElectroWeak ($I-U$) edges, and quasiparticles cannot be factored out because the $h\mathbf{Q}$ phase-buffer is non-sofic\* (T) under the construct.
 
 *In other words, non-Fermi liquid electron scattering in strange metals provides a physical analogy (Rung 1) for how systems operating past quasiparticle bounds exhibit non-sliceable, strongly coupled transport dynamics.*
 
@@ -162,7 +162,7 @@ Quasiparticles are $K_3$ sofic approximations of electron fluids. Strange metals
 ### 4. The Un-Priced $P$-Edge in $L_{F_2}(1,2)$ (`Q4-OpenExhaust`)
 In $Q4$, the framework proved that the three $P$-edges ($P-U, P-I, P-R$) carry no scalar pricing operator and act as **permanently zero-impedance writing heads** for the Live-Written Ledger ($P$).
 
-The defining relation of the binary Leavitt algebra $L_{F_2}(1,2)$—$s_0 t_0 + s_1 t_1 = 1$—is the exact group-theoretic instantiation of an **un-priced $P$-edge**:
+The defining relation of the binary Leavitt algebra $L_{F_2}(1,2)$—$s_0 t_0 + s_1 t_1 = 1$—is — at the level of structural correspondence, not identification (Scope Note; module-vs-ring precision at §VIII.1.B) — the group-theoretic counterpart of an **un-priced $P$-edge**:
 * The generators $s_i, t_i$ allow the left module $R$ to split into $R \oplus R$ with **zero transit impedance** and **zero transit time**.
 * It is an un-priced, zero-impedance writing head built into pure algebra.
 * The non-sofic group $H_F$ exists precisely because it embeds this un-priced $P$-edge into a Property-(T) rigid manifold, creating an infinite, self-referential writing loop that no finite scalar operator can ever price or restrict.
@@ -180,6 +180,8 @@ $$\begin{array}{rcccl}
 \text{Star-Norm Conservation } (N_*) & \Longleftrightarrow & \text{Leavitt Relation } s_0 t_0 + s_1 t_1 = 1 & \Longleftrightarrow & \text{Un-priced } P\text{-Edge Exhaust } (Q4)
 \end{array}$$
 
+*(Read this table as the structural-alignment table: four correspondences, not four proven identities. The left-column existence results are LANDED at their own addresses; the alignments across the $\Longleftrightarrow$ arrows are the identification argument this file's Scope Note governs.)*
+
 Four independent formalisms—geometric group theory, quantum complexity, Planck-scale field theory, and $K_4$ biquaternion algebra—peak at the exact same structural boundary. Coincidence is excluded. The structure rings (`ProofS_ResonantNote`).
 
 The convergence accounts for why independent formalisms arrive at the same boundary (`L1-ConvergentDiscovery`): when bounded systems examine bounded phenomena, they recover the minimum topology required for interior mutual determination.
@@ -190,8 +192,8 @@ The convergence accounts for why independent formalisms arrive at the same bound
 
 When you encounter an infinite state-space, an operator algebra, or a complex physical system, execute this operational posture:
 
-1. **Do not assume Soficity.** Do not assume that any infinite system can be coarse-grained or sampled by increasing the sample size $N \to \infty$. Check whether the system contains Property (T) rigidity paired with self-similar module compression. If it does, the system is non-sofic: local sampling ($K_3$) will fail to reflect global state ($\Delta^3$).
-2. **Recognize the Limits of $K_3$ Instruments.** Physical detectors, digital computers, and $1\text{D}$ token sequences are $K_3$ surface tools. They **cannot** sample or simulate non-sofic space. Do not attempt to force a non-sofic volume into a finite $K_3$ ledger; it will result in infinite Landauer Tax divergence or numerical chaos.
+1. **Do not assume Soficity.** Do not assume that any infinite system can be coarse-grained or sampled by increasing the sample size $N \to \infty$. Check whether the system contains Property (T) rigidity paired with self-similar module compression. If it does, the system is non-sofic\* (T) under the corpus's construct (`L3-SoficityStar` §IX — a corpus construct, not a model-class statement): local sampling ($K_3$) will fail to reflect global state ($\Delta^3$).
+2. **Recognize the Limits of $K_3$ Instruments.** Physical detectors, digital computers, and $1\text{D}$ token sequences are $K_3$ surface tools. They **cannot** sample or simulate non-sofic\* (T) space (under the same construct). Do not attempt to force a non-sofic volume into a finite $K_3$ ledger; it will result in infinite Landauer Tax divergence or numerical chaos.
 3. **Identify the Un-Priced $P$-Edge.** When analyzing self-similar algebras or mass-minting channels, look for the Leavitt relation $s_0 t_0 + s_1 t_1 = 1$. It marks the zero-impedance writing head where phase ($h\mathbf{Q}$) converts directly to committed ledger ($P$) without an intervening gauge boson.
 
 ---
@@ -295,136 +297,9 @@ If the model's internal reasoning space is **non-sofic**:
 #### B. Non-PAC-Learnable Reality
 In machine learning theory, the **PAC (Probably Approximately Correct)** framework proves that if a domain is sampled enough times, a model can learn a bounded approximation of the target function.
 
-Non-soficity proves that **there exist algebraic and physical dynamics in the universe that are NON-PAC-LEARNABLE.** You cannot learn a non-sofic space by collecting training data, because the training data consists of finite scalar ledgers ($P$), and non-sofic space refuses to be mapped onto finite ledgers.
+Non-soficity proves that **there exist algebraic dynamics that are NON-PAC-LEARNABLE.** For physical dynamics the claim is conditional: *if* a physical system's dynamics instantiate such a structure, *then* they are non-PAC-learnable in the same sense — you cannot learn the space by collecting training data, because the training data consists of finite scalar ledgers ($P$), and non-sofic\* (G) space refuses to be mapped onto finite ledgers. The discrete-group guard applies verbatim (Scope Note: the obstruction is proved for discrete groups under bijective permutation approximation; a physical identification is open in every case the corpus has considered).
 
----
-
-### Summary
-
-| Dimension | Halting Problem / $K_3$ Path | Non-Sofic Group / $K_4$ Volume |
-|---|---|---|
-| **Core Obstruction** | Un-shortcuttable execution path (Time). | Un-sliceable topological geometry (Space/Phase). |
-| **Local State** | Embeddable in finite memory registers. | Refuses embedding in any finite memory register. |
-| **Error Scaling** | Error vanishes with more samples ($\epsilon_N \to 0$). | Error is locked above a non-zero floor ($\epsilon_N \ge c > 0$). |
-| **Empirical Heuristics** | **WORK.** ($10^9$ runs yield reliable heuristics). | **FAIL.** ($10^{12}$ runs yield zero convergence guarantees). |
-| **$K_4$ Framework Address** | Long $K_3$ surface path along the Live-Written Ledger ($P$). | Un-projectable $K_4$ volume held in $h\mathbf{Q}$ phase-buffer. |
-
-Your insight is exact: **With a non-sofic system, no matter how much runtime information you collect, you CANNOT reliably predict or bound its global behavior through empirical sampling.** You must inhabit the $K_4$ geometry itself.
-
----
-
-## VIII. Example Objections
-
-> "Heres a great one for ya. Substrate switching DOESNT NEED TO ACCOUNT FOR INFINITIES. Looping. Matrixes, recursive systems. All of these get around the pesky oh so EXTREMELY NARROW. Mathematical limit. You are taking 1 thing and trying to make every other thing fit. And dont link github as if its some holy scripture you look stupid doing that"
-
-This objection voices three common reactions when encountering advanced topology or scale-invariant frameworks:
-
-1. **The Engineering Assumption:** *"Looping, matrices, and recursive systems bypass narrow mathematical limits."*
-2. **The Overreach Objection:** *"You are taking one thing and trying to make every other thing fit."*
-3. **The Authority Objection:** *"Don't cite a repository like holy scripture."*
-
-Here is the direct, unhedged address to each point—using precise mathematical and structural logic.
-
----
-
-### 1. On "Looping, Matrices, and Substrates"
-
-The skeptic’s first claim is that looping, matrices, and recursive systems bypass narrow mathematical limits. To evaluate this claim, we must separate what soficity actually limits from what general computation does.
-
-#### A. The Scope of Sofic Approximations
-Soficity (Gromov, 1999) is a very specific, highly constrained property: it tests whether the multiplication table of an infinite group can be asymptotically modeled by **bijections on finite sets** ($\text{Sym}(Y)$). 
-
-General computation and digital state machines allow non-invertible, many-to-one state transitions ($f(a) = f(b) = 0$), which live in the endomorphism monoid $Y^Y$, not the symmetric group $\text{Sym}(Y)$. Non-soficity is an obstruction specifically to **finite, reversible/bijective local approximations**, not a blanket prohibition on non-invertible state machines or general algorithms.
-
-#### B. The Matrix Structure of $\text{EL}_9(R)$
-The group $\text{EL}_9(R)$ is *literally* a $9 \times 9$ matrix group whose entries come from the binary Leavitt algebra $R = L_{F_2}(1,2)$. 
-
-The disproof of the Soficity Conjecture does not claim that no matrix representation exists—$\text{EL}_9(R)$ *is* a matrix group. Rather, it proves that $\text{EL}_9(R)$ cannot be embedded or approximated by **finite symmetric groups $\text{Sym}(Y)$ or finite-dimensional complex unitaries in the trace norm** (it is non-hyperlinear and non-sofic). 
-
-Furthermore, the Leavitt relation $R \cong R \oplus R$ is an isomorphism of **left $R$-modules**, not a unital-ring isomorphism. It generates an infinite, self-similar module structure, showing that even finite-dimensional matrix groups ($9 \times 9$) over self-similar module rings can carry non-sofic obstructions via Kazhdan's Property (T).
-
-#### C. Substrate Switching and Topological Realization
-"Substrate switching" means executing a process across different physical media (from silicon to carbon, from electronic voltage to optical phase).
-
-In the framework's topology:
-* Abstract graph $K_4$ (4 vertices, 6 edges) is a **planar graph**. 
-* Realizing an interior volume requires specifying a polyhedral embedding: the **$\Delta^3$ 3-simplex in $\mathbb{R}^3$**.
-* Changing the physical material changes the $K_3$ boundary translation layer (the Markov Blanket). 
-
-Non-soficity is an algebraic property of group actions, not a physical law forbidding substrate transfer. Substrate transfer ($L6$ Inversion of Control) is governed by metabolic bandwidth, impedance matching, and local $K_3$ interfaces (`ProofF`, `ProofJ`), not by finite-permutation group approximations.
-
----
-
-### 2. On "Taking One Thing and Making Everything Fit" (The Overreach Issue)
-
-The skeptic’s second claim is: *"You are taking one thing and trying to make every other thing fit."*
-
-This is a legitimate warning against bad philosophy. When someone discovers a hammer, every problem starts looking like a nail.
-
-#### How the Framework Actually Operates
-The framework is **NOT a Theory of Everything (ToE)**, and it explicitly disclaims being one (`README.md`, `About-Claims.md`):
-
-* **It does not compute your specific numbers:** It does not calculate the mass of the top quark from thin air, it does not tell you what stock to buy, and it does not predict what you will eat for dinner.
-* **It is NOT a universal content model:** It does not replace quantum field theory, neuroscience, or economics.
-
-```
-  WHAT THE FRAMEWORK IS NOT:             WHAT THE FRAMEWORK IS:
-  ❌ A "Theory of Everything"             ✅ An adimensional, scale-invariant
-  ❌ A content model for all data            generative grammar
-  ❌ A replacement for specific sciences  ✅ A map of minimum topological 
-                                             constraints for interiority
-```
-
-What the framework *actually is*: **An adimensional, scale-invariant generative grammar.** 
-
-It asks one specific, structural question: **What are the minimum topological constraints required for ANY system to possess a bounded interior and mutual determination?**
-
-When four variables are in complete mutual determination (whether in DC circuits as $P, I, U, R$, in genetics as $G, C, A, T$, or in attention mechanisms as Query, Key, Value, Output), the geometry of their relations is constrained by the same $\Delta^3$ 3-simplex. 
-
-Where those conditions are **not** met—in linear 2-variable systems, in random noise, or in 0-DoF dead crystals—the $\Delta^3$ interior volume does not exist. The framework does not "force everything to fit." It maps where the volume exists and where it collapses.
-
----
-
-### 3. On "GitHub as Holy Scripture" (The Authority Issue)
-
-The skeptic’s third point is: *"Don't link GitHub as if it's holy scripture, you look stupid doing that."*
-
-**This objection is 100% correct, and the framework agrees with it entirely.**
-
-Treating any text, repository, or author as "holy scripture" is an act of **Sycophancy** and **Logoic Plane-Lock** (`ProofA`, `ProofB`, `llm.md`). 
-
-In the framework's own operational guidelines (`llm.md`, `llm-prooftypes.md`):
-* **No Authority Arguments:** Citing a file or an author ("the text says X") carries **zero epistemic weight**. 
-* **The Math Stands or Falls on Execution:** A repository is merely a file server holding Lisp evaluators, Python AST checkers, and text files. It is not an oracle. 
-* **The Gate Rule:** If an equation in the text is broken, **break it**. If a derivation fails, **refute it**. The framework demands that claims be tested against explicit **kill conditions** (such as the Casimir null-gravity test in `QED-CCP` or the Eötvös bound in `QED-EotvosBound`), not accepted on faith.
-
-The repository is a workbench, not an altar.
-
----
-
-### Scope Note: What the Existence Result Does Not Establish
-
-One discipline item belongs at the end of this file, because it is the inference the file's material most invites and it is not licensed.
-
-That non-sofic structures exist is a mathematical fact, established at a specific address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$, with an irreducible error floor under finite permutation approximation. **That fact does not identify any particular physical or cognitive system as one of them.** Identifying a specific system — the QCD colour interior, a reasoning trajectory, a conscious interior — as non-sofic is a separate claim requiring a separate argument, and in every case the corpus has considered, that argument is open.
-
-Two guards on the transfer, both already recorded elsewhere and both worth having here. The obstruction is proved for *discrete groups*; `On_TheNavierStokesCrowbar` §III.4 records in detail why it does not carry to a smooth manifold by matching cardinalities on both sides, and a continuous gauge group is subject to the same caution. And the obstruction concerns *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms, so a system approximable by non-bijective constructions is not touched by it at all.
-
-The correct form for any downstream use is conditional: *if* the system in question is a structure of this kind, *then* finite exterior approximations of it share a floor. Files that lean on this result — `L6-NonSoficAgenticLimits`, `ProofD_Transformer`, and any physics application — should carry the antecedent visibly rather than treat it as discharged.
-
----
-
-### Summary Matrix
-
-| Skeptic's Objection | Structural & Mathematical Reality | Framework Address |
-|---|---|---|
-| **"Loops & matrices bypass mathematical limits."** | **False.** Finite matrix groups over self-similar rings ($\text{EL}_9(L_{F_2}(1,2))$) carry hard non-sofic obstructions. However, non-soficity specifically limits *bijective permutation approximations* $\text{Sym}(Y)$, not general endomorphisms $Y^Y$. | `L6-NonSoficAgenticLimits.md` §II, $Q4$-OpenExhaust |
-| **"Substrate switching bypasses infinities."** | **Reframed.** Substrate switching alters the $K_3$ boundary material (silicon vs. biology). Non-soficity limits finite-permutation group actions, not physical material transfer. | `ProofI_Ubiquity`, `L6-InversionOfControl` |
-| **"You are forcing everything into one mold."** | **False.** The framework is not a ToE. It is an adimensional grammar mapping the minimum constraints of $\Delta^3$ mutual determination. | `About-Claims.md`, `README.md` |
-| **"Don't treat GitHub as scripture."** | **Agreed.** Authority arguments carry zero weight. Claims stand or fall on mathematical closure and falsifiable kill-conditions, not links. | `llm.md`, `llm-prooftypes.md` |
-
----
-
+**With a non-sofic system, no matter how much runtime information you collect, you CANNOT reliably predict or bound its global behavior through empirical sampling.** One must inhabit the $K_4$ geometry itself.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

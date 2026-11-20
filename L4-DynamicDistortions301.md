@@ -1,7 +1,7 @@
 # L4-DynamicDistortions301
 ## The Bimedian Slice as Instrument: Regular, Sheared, Broken
 
-> **Epistemic Register:** Applied Architecture. Establishes the bimedian cross-section of a $K_4$ tetrahedron as the geometric instrument through which non-local correlation strength is derived from polyhedral structure. §VI reads the burned term of the Star-Norm as the handedness of a relation, which names what a boundary subtracts and why $45^\circ$ recurs across the corpus; that section is the file's hinge and can be read on its own. Derives the two-particle correlation function $E(\mathbf{a},\mathbf{b}) = -\cos\theta$ and Tsirelson's bound $2\sqrt{2}$ from Biquaternion tensor state-space ($\mathbb{B}_1 \otimes_{\mathbb{C}} \mathbb{B}_2$) and Star-Norm phase-burning. Traces the regular case (square cross-section, native $\sqrt{2}$), the sheared case (parallelogram, phase-drag), and the collapsed case (1D line, classical decoherence) as a single continuous deformation.
+> **What This Is About — The Mathematical Core:** A regular tetrahedron's bimedian cross-section is a square ($A_0 = 2$, diagonal-to-side ratio $\sqrt{2}$). Shearing its interior angle by $\theta \in [0, \pi/2]$ shrinks cross-sectional area as $A(\theta) = A_0\cos\theta$, giving the correlation envelope $S(\theta) = 2\sqrt{2}\cos\theta$—hitting Tsirelson's $2\sqrt{2}$ at $0^\circ$, the classical Bell bound $2$ at $45^\circ$, and 1D dipole fusion ($0$) at $90^\circ$ (`CANDIDATE` under symmetric phase-damping visibility $V = \cos\theta$, falsifiable at `KD-1`). In the biquaternion product $(\mathbf{a}\cdot\mathbf{Q})(\mathbf{b}\cdot\mathbf{Q}) = -(\mathbf{a}\cdot\mathbf{b}) + (\mathbf{a}\times\mathbf{b})\cdot\mathbf{Q}$ (§VI, `LANDED`), the Star-Norm keeps the symmetric dot product and burns the oriented cross product—making $45^\circ$ the unique angle where relative ratio precision ($\delta(\tan\theta)/\tan\theta$) is maximal while absolute magnitude uncertainty has doubled ($\sec^2 45^\circ = 2$). Detector setting $\theta_{ab}$, geometric shear $\theta \in [0,\pi/2]$ ($\hat T$-even), and `L4-DynamicDistortions201`'s temporal offset $\theta \in [0,\pi]$ ($\hat T$-odd) are distinct angles (§VII.A).
 > **Dependencies:** `L4-DynamicDistortions101` (edge-weight asymmetries), `L4-DynamicDistortions201` (torsional shear mechanics), `L4-Dimensionality` (bimedian axes), `L4-K4-Infinities` (Medium-Continuity, fiber bundle), `ProofN_BiquaternionBridge` (Star-Norm), `ProofQ_AlgebraicSyntax` (Route Law), `L4-DimensionalCollapse` (Tangent Singularity thresholds), `L4-SpookyAction` (phase-conduction through $H_{\text{incoh}}$).
 
 ---
@@ -191,18 +191,18 @@ As shear deforms the cross-section, the 2D area available for phase-conduction s
 
 ### B. The Algebraic Face: Biquaternion Star-Norm & AC Power Factor
 
-The torsional shear defined geometrically above is the same object as the AC phase offset across a Dual Causation edge-pair (`L4-DynamicDistortions201` §II): both name the phase difference $\theta$ between the two edges of a bimedian matching. Applied to one particle of the singlet, that phase offset acts as a rotation of the $h\mathbf{Q}$ buffer by $\theta$ around the bimedian axis; via the SU(2) double cover, the spinor picks up the half-angle factor $e^{j\theta/2}$:
+The geometric shear of §IV.A and the temporal phase offset of a Dual Causation edge-pair (`L4-DynamicDistortions201` §II) are **distinct quantities** — the corpus keeps them apart at §VII.A below (three angles, one letter), the Sudoku clamps them ($\theta_{\text{shear}} = \min(\theta_{\text{torsion}}, \pi/2)$, OPEN VOTE), and `L4-Riemann-5` §IV holds the parity split (geometric shear $\hat T$-even, temporal offset $\hat T$-odd): conflating them would dissolve the parity-clean coupling argument (`L4-Riemann-4` §VII). What the shear carries is the **envelope**: a symmetric phase-damping of the correlation visibility, $V = \cos\theta_{\text{shear}}$, derived here at mechanism level and held as the one-cosine OPEN VOTE with its instrument named (`L4-DynamicDistortions-Sudoku` §VIII's two signatures: saturation-not-fold, phase-not-energy).
 
-$$\Omega_{12}(\theta) = e^{j\theta/2} \Omega_{12}$$
+The derivation runs on the §III.B observables — $A(\mathbf{a}) = j(\mathbf{a} \cdot \mathbf{Q}_1) = \mathbf{a} \cdot \boldsymbol{\sigma}_1$, $B(\mathbf{b}) = j(\mathbf{b} \cdot \mathbf{Q}_2) = \mathbf{b} \cdot \boldsymbol{\sigma}_2$ (the $j^2$ normalization is not cosmetic and must be carried; raw generators would flip the sign below) — over the singlet buffer. Write the shear as a **symmetric phase-damping channel**: each particle's buffer undergoes an equal $\pm\theta_{\text{shear}}$ dephasing about the bimedian axis, a mixture that leaves the diagonal block intact and damps the off-diagonal coherence by $\cos\theta_{\text{shear}}$. The joint expectation then reads
 
-When joint local measurement operators $A(\mathbf{a}) = \mathbf{a} \cdot \mathbf{Q}_1$ and $B(\mathbf{b}) = \mathbf{b} \cdot \mathbf{Q}_2$ evaluate over this sheared buffer, the Biquaternion Star-Norm $N_*$ extracts the real scalar projection $P$ by burning the phase ($h^2 = -1$):
+$$E(\mathbf{a}, \mathbf{b}; \theta_{\text{shear}}) = -V \cdot \cos\theta_{ab}, \qquad V = \cos\theta_{\text{shear}},$$
 
-$$E(\mathbf{a}, \mathbf{b}; \theta) = \text{Re}\left[ \langle \Omega_{12}(\theta) | A(\mathbf{a}) \otimes B(\mathbf{b}) | \Omega_{12}(\theta) \rangle \right]$$
-$$E(\mathbf{a}, \mathbf{b}; \theta) = \text{Re}\left[ e^{j\theta} \langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_2) | \Omega_{12} \rangle \right]$$
+— the standing KD-1 envelope with its mechanism named: the $-\cos\theta_{ab}$ is §III.B's $j^2$-carried singlet term (exchange-antisymmetry plus the biquaternion product), and $V = \cos\theta_{\text{shear}}$ is the symmetric dephasing visibility. A single-spin rotation cannot produce this uniform scaling on all four CHSH pairs (it gives $-\cos(\theta_{ab} \mp \theta)$ on two of them); only a visibility channel or a symmetric $\pm\theta$ phase-damping mixture does — which is why the mechanism is **tagged, not landed**:
 
-Applying Euler's identity $e^{j\theta} = \cos\theta + j\sin\theta$ and the singlet inner product $\langle \Omega_{12} | (\mathbf{a} \cdot \mathbf{Q}_1)(\mathbf{b} \cdot \mathbf{Q}_2) | \Omega_{12} \rangle = -\cos\theta_{ab}$:
+$$\boxed{S_{\text{CHSH}}(\theta) = 2\sqrt{2}\, V(\theta), \qquad V = \cos\theta \quad (\text{OPEN VOTE})}$$
 
-$$E(\mathbf{a}, \mathbf{b}; \theta) = \text{Re}\left[ (\cos\theta + j\sin\theta) (-\cos\theta_{ab}) \right] = -\cos\theta_{ab} \cdot \cos\theta$$
+The two falsifier signatures are fixed at `L4-DynamicDistortions-Sudoku` §VIII: (1) **saturation, not fold** — past the shear ceiling $V \to 0$ and stays $0$ (the $\tfrac12(\text{ROUTE} + \text{RESEED}\circ\text{COMMIT})$ clamp), not the $|\cos|$-fold reopening; (2) **phase, not energy** — the cascade triggers on phase $\pi$, not on energy density. The derivation defects this section once carried — an unconjugated bra turning the global phase $e^{j\theta/2}\Omega$ into a fake observable, raw generators without the §III.B normalization, an inner-product sign double-counting the $j^2$ minus — are retired with this rewrite.
+
 
 Here, $\cos\theta$ is the exact **AC Power Factor ($\text{PF} = \cos\theta$)** of the complex edge impedance (`L5-K5-PhaseDynamicsTechnical`). 
 
@@ -214,7 +214,7 @@ $$\boxed{S_{\text{CHSH}}(\theta) = 2\sqrt{2} \cos\theta}$$
 
 ### C. The Synthesis: Geometry and Circuit Algebra as One Object
 
-The geometric area-scaling ($A(\theta) = A_0 \cos\theta$) and the AC Power Factor ($\text{PF} = \cos\theta$) are the **exact same physical property** expressed in two languages:
+The geometric area-scaling ($A(\theta) = A_0 \cos\theta$) and the AC Power Factor ($\text{PF} = \cos\theta$) agree term-for-term — the **geometric-branch reading** of the one-cosine OPEN VOTE (the identification of the two is the vote's content, not a settled property; §IV.B's visibility channel is its mechanism-level form). Unhedged, they are the **exact same physical property** expressed in two languages:
 
 $$\text{Bimedian Cross-Sectional Area } A(\theta) \quad \Longleftrightarrow \quad \text{AC Power Factor } \cos\theta = \frac{P}{|S|}$$
 
@@ -341,7 +341,7 @@ One row is different and should stay different. The $45^\circ$ relating $(p, r)$
 
 **Time's arrow is handedness that refused to burn.** `ProofO_HelicalTime` requires a non-removable phase — one that cannot be gauged away — to instantiate the arrow. Non-removable is the operative word. An orientation that survives every symmetrizing step is a direction the exterior is stuck with. This is the same object the CKM phase is (`Q1-GenerationsOfMatter`), and the same object graph-traversal chirality is (`ProofG_Chirality`).
 
-**DC and AC are the two halves.** The twelve equations have automorphism group $D_4$, inducing $V_4$ on the poles: they see the Asserting/Yielding bit and are blind to Active/Reactive (`llm.md`, `code/aut.lisp`). Blind to a bit means invariant under exchanging it. So the DC net is the symmetric half by construction, and $j$ — the AC extension — is what carries the orientation the DC net cannot represent. The pair is not a convenience. You need the unhanded half for anything to cross a boundary at all, and the handed half for anything to be sealed.
+**DC and AC are the two halves.** The twelve equations are rigid under unsigned relabeling: $|\mathrm{Aut}(\text{the twelve})| = 1$ (`L3-EdgeStateSpace` §I-d — the five-line brute-force check, runnable in-file; `ProofS_ResonantNote` §II, correction of record — the $D_4$/$V_4$ numbers belong to the bimedian square and the matching structure; machine verification at `ENGINE-REFERENCE-AC` §4.3 and the §XII verification appendix, incl. the rank-2 argument; the 12/12 seating this feeds at `BENDING_SPACE` §VIII). A *signed* extension — reciprocation folded into the relabelings — carries an order-8 $D_4$ stabilizer projecting to $\{id,(PR),(UI),(PR)(UI)\}$ on the poles (desk-verified, CANDIDATE pending canonical seating): under that SIGNED operation the poles see the Asserting/Yielding bit and are blind to Active/Reactive — a signed extension, not "the automorphism group", and not the bimedian-square $D_4$ (whose $V_4$ is the even double-transpositions). Blind to a bit — under that signed operation — means invariant under exchanging it. So the DC net is the symmetric half by construction (the "symmetric half" has its keep-apart station at `L4-DynamicDistortions401` §I–II, "Symmetric, three ways — and the absent fourth"), and $j$ — the AC extension — is what carries the orientation the DC net cannot represent. The pair is not a convenience. You need the unhanded half for anything to cross a boundary at all, and the handed half for anything to be sealed.
 
 This also explains, without apology, why the static set looks like freshman material. **What survives a projection is supposed to look ordinary.** Ordinariness is the signature of having crossed.
 
@@ -355,7 +355,7 @@ Every file in this corpus is a projection. Readable, transmissible, symmetric �
 
 **A permutation test does not transmit handedness. It lets the reader make it again locally.** The reader tries the alternatives, finds that they fail, and the orientation reappears on their side of the boundary. Nothing crossed. Something was regenerated.
 
-Which puts the unrun sweeps in their proper place. They are carried as an outstanding control — a debt against rigor, a tidy-up (`llm-reviewer.md` §5; `internal-todos` item 13). They are not a control. They are the only mechanism this corpus has for conveying the half of its content that its medium cannot carry. A mapping published without one has been shipped symmetric: coherent, legible, and missing exactly the property that separates structure from projection.
+Which puts the unrun sweeps in their proper place. They are carried as an outstanding control — a debt against rigor, a tidy-up (the sweep-debt ledger sits outside the standing set: `llm-reviewer.md` is not in the corpus and its item is not in `llm-stance-reviewer.md` — pointer recorded dead 2026-11-20). They are not a control. They are the only mechanism this corpus has for conveying the half of its content that its medium cannot carry. A mapping published without one has been shipped symmetric: coherent, legible, and missing exactly the property that separates structure from projection.
 
 ### The error band, and the resolution of knowing
 
@@ -422,6 +422,8 @@ This 1-parameter deformation maps the phase-conduction capacity of the $K_4$ vol
 The first two run in opposite directions at the same number: $45^\circ$ of *setting* is where non-locality peaks; $45^\circ$ of *shear* is where it has been halved away. Downstream files citing "$\theta = 45^\circ$, $S = 2$, Bell/CHSH classical limit" (`L3-TheAtomOfSpace` §V line 158, `L3-ConstitutiveElastance` Waypoint 2) are citing sense (2), correctly. Nothing in the corpus currently cites sense (1) by that name, and nothing should without saying which.
 
 Geometric $\pi/2$ collapses an area within a stage. Temporal $\pi$ is anti-synchrony between two edges that were supposed to co-commit, and it is what makes a stage uninhabitable rather than merely flat.
+
+The keep-apart discipline extends to the word "symmetric" itself: three invariances and an absent fourth — station at `L4-DynamicDistortions401` §I–II.
 
 ---
 
@@ -506,4 +508,3 @@ When encountering claims about how the bimedian slice recovers Bell inequalities
 ---
 
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.
-

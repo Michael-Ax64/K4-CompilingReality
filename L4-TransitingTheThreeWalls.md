@@ -99,11 +99,11 @@ This ratio is the direct measure of the *smearing* the Cartesian embedding impos
 
 ### The AR-Flip Made Physical
 
-The Pinned tet retains one symmetry the Cartesian tet has hidden: **180° rotation about the pinned bimedian axis is an automorphism of the matching structure.** In the Cardinal Pinned assembly, rotating $180°$ about $z$:
+The Pinned tet retains one symmetry the Cartesian tet has hidden: **180° rotation about the pinned bimedian axis is an automorphism.** In the Cardinal Pinned assembly, rotating $180°$ about $z$:
 
 $$P(0, 1, 1) \leftrightarrow R(0, -1, 1), \quad I(-1, 0, -1) \leftrightarrow U(1, 0, -1)$$
 
-This swap — $P \leftrightarrow R$, $I \leftrightarrow U$ — is the **Cardinal** family's even $V_4$ twin-step (one of three $V_4$ bimedian half-turns preserving the matching structure, alongside Fixed $(P\,U)(I\,R)$ on Assembly 2 and Mutable $(P\,I)(U\,R)$ on Assembly 3 — not an automorphism of the twelve equations, `ProofS_ResonantNote` §II, and distinct from the odd single-transposition handedness flip $C_2$, `ENGINE-REFERENCE-AC` §2.5 and `ProofG_Chirality` §IV). Pinning makes this family's even half-turn physically visible as a coordinate rotation, whereas in the Cartesian embedding all three $V_4$ half-turns sit inside the $S_4$ symmetry group of the box.
+This swap — $P \leftrightarrow R$, $I \leftrightarrow U$ — is the Cardinal family's twin-step: an EVEN $V_4$ half-turn about the Cardinal bimedian, a rotation of the solid that changes which gate is read — not an equation automorphism, and not a wholesale operation across all three families (AR-trade = 8 of 12 twin-steps; `ENGINE-REFERENCE-AC` §2.5, which cross-references this passage as "the Cardinal twin-step (the AR-flip)"; `ProofG_Chirality` §IV). Verification stack (`L3-EdgeStateSpace` §I-d — the five-line brute-force check, runnable in-file; machine verification at `ENGINE-REFERENCE-AC` §4.3 and the §XII verification appendix; the 12/12 seating it feeds at `BENDING_SPACE` §VIII). The Pinning makes the AR-flip physically visible as a coordinate rotation, whereas in the Cartesian embedding the AR-flip is hidden inside the $S_4$ full-symmetry group of the box.
 
 ### Why This Might Matter Beyond Diagnostics
 
@@ -197,8 +197,10 @@ This is the geometric proof that reality is fundamentally self-dual. You cannot 
 This 8-cube arrangement is not merely spatial; it is combinatorial. The eight octants map exactly to the 8 vertices of a 3-bit Boolean hypercube (from $000_2$ to $111_2$).
 
 If you trace a line from any manifest pole, straight through the centroid $(0,0,0)$, to the cube on the exact opposite side, you arrive at its dual partner.
-*   From $P$ ($111_2$, Position 7) through the center to the Dual Root ($000_2$, Position 0).
-*   From $U$ ($100_2$, Position 4) through the center to the Dual Will ($011_2$, Position 3).
+*   From $P$ ($111_2$, Position 7) through the center to the Dual Will ($000_2$, Position 0).
+*   From $U$ ($100_2$, Position 4) through the center to the Dual Logos ($011_2$, Position 3).
+
+*[Titles used are from the verified shadow-seat table (000₂ Dual Will / 110₂ Dual Root / 011₂ Dual Logos / 101₂ Dual Pathos — each antipode echoes its own pole under the bitwise-NOT rule). The canonical shadow-pole name table awaits `L2-Terminology`; the Octave §V eightfold-vs-sevenfold `[?]` rides as OPEN VOTE.]*
 
 In 3-bit binary arithmetic, an antipodal inversion across the centroid is the bitwise NOT operator ($\bar{n}$). The pairs across the centroid perfectly sum to 7 ($0+7$, $1+6$, $2+5$, $3+4$).
 

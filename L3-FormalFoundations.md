@@ -28,7 +28,7 @@ The discriminator is exact and admits no exceptions. **The six parent equations 
 
 The square is not chosen. It is what elimination between two triads sharing two variables necessarily produces. And now the assignment falls out: **the squared operand is always a shared variable, and the shared variables are exactly $U$ and $I$ — the Yielding poles. The equation produced always relates the unshared variables, and those are exactly $P$ and $R$ — the Asserting poles.**
 
-That is the Route Law (`ProofQ_AlgebraicSyntax` §V), derived rather than postulated. Squaring is the arrow into Asserting because squaring is what eliminating a shared Yielding variable does, and the Asserting poles are Asserting because they are the two the parents did not share. The mechanised verification in `code/ac_checker.py` confirms a fact that the join's variable-overlap structure already forces.
+That is the Route Law (`ProofQ_AlgebraicSyntax` §V), derived rather than postulated. Squaring is the arrow into Asserting because squaring is what eliminating a shared Yielding variable does, and the Asserting poles are Asserting because they are the two the parents did not share. The join's variable-overlap structure forces this on its own.
 
 Three earthly, three heavenly, and six living between them. The parents each hold one Asserting pole and cannot reach the other; the children hold both, and holding both is what it costs to be actual. None of the commit equations existed before the orthogonal fourth was admitted.
 
@@ -79,7 +79,7 @@ The twelve equations, read as bare algebra over the reals, do not fix the sign o
 
 **Three independent routes to $P \geq 0$.**
 
-*Route A — the Route Law.* Squaring is the arrow into Asserting; every square route lands on an Asserting home ($P$, $R$), and the squared operand is always a Yielding pole ($U$, $I$) (`ProofQ_AlgebraicSyntax` §V, mechanically verified in `code/ac_checker.py` and `code/dual_route_trace.py`). Squaring over the reals is non-negative. Any $P$ minted through a square ($P = I^2R$, $P = U^2/R$) is therefore non-negative, and by Postulate II all twelve equations hold at once — so a linear solution producing $P < 0$ contradicts the squared equations simultaneously. The ledger has a floor at zero and none below it. No negative-mass debt can be written.
+*Route A — the Route Law.* Squaring is the arrow into Asserting; every square route lands on an Asserting home ($P$, $R$), and the squared operand is always a Yielding pole ($U$, $I$) (`ProofQ_AlgebraicSyntax` §V). Squaring over the reals is non-negative. Any $P$ minted through a square ($P = I^2R$, $P = U^2/R$) is therefore non-negative, and by Postulate II all twelve equations hold at once — so a linear solution producing $P < 0$ contradicts the squared equations simultaneously. The ledger has a floor at zero and none below it. No negative-mass debt can be written.
 
 *Route B — the Star-Norm.* $N_*(\mathbb{Z}) = P^2 - |\mathbf{Q}|^2 = (m_0c^2)^2 \geq 0$ (`ProofN_BiquaternionBridge` §4). This forces $P^2 \geq |\mathbf{Q}|^2 \geq 0$. Taking the sign requires the identification $P \leftrightarrow E$, and the framework inherits $E \geq 0$ for physical states from standing physics through that identification rather than deriving it from the bare algebra. This route is the weakest of the three on its own and the most useful in combination, because it is the one that connects the sign to measurable quantities.
 
@@ -178,7 +178,7 @@ The comparative analysis yields specific failure points for each candidate:
 
 The key exclusion criteria: (a) the presence of additive or subtractive terms violates R2; (b) external constants violate R1; (c) fewer than four base variables violates R3; (d) more than four base variables violates the minimum cardinality condition.
 
-**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The formal mathematical proof that *no* system satisfies all seven requirements simultaneously remains an outstanding task. However, two independent derivations (the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction) converge on the same four-fold without depending on this proof; see ProofI_Ubiquity. 
+**Status of uniqueness proof**: The comparative analysis establishes that no *common* physical system satisfies all seven requirements. The uniqueness closure is finite and complete (`llm/llm-uniqueness-note`): R6 acts as the existence witness (not a uniqueness constraint), Steinitz closes the topological count, and the §I product-parent cross-breed cuts the six bare-syntax algebras to DC alone. However, two independent derivations (the ubiquity argument from physical substrate and the dual-binary argument from the pure logic of distinction) converge on the same four-fold without depending on this proof; see ProofI_Ubiquity. 
 
 ---
 
@@ -288,7 +288,7 @@ This observation formalizes **dual causation**: the co-requirement of exterioriz
 
 The framework rests on five postulates, which are foundational commitments that generate the framework's claims but are not themselves fully provable within the formal logic.
 
-**Postulate I — Uniqueness**: The Algebra of Four-Fold Distinction is the unique formal system satisfying R1-R7 simultaneously. *Status: supported by comparative analysis and two independent derivations converging on the same four-fold.*
+**Postulate I — Uniqueness**: The Algebra of Four-Fold Distinction is the unique formal system satisfying R1-R7 simultaneously. *Status: CLOSED — the owning note addresses this entry by name (`llm/llm-uniqueness-note`: comparative analysis + two independent derivations, and the uniqueness closure finite and complete).*
 
 **Postulate II — Simultaneity**: All twelve equations hold simultaneously. The system is not navigated sequentially but comprehended as a whole. *Status: follows from the algebraic structure.*
 
@@ -296,7 +296,7 @@ The framework rests on five postulates, which are foundational commitments that 
 
 **Postulate IV — Structural Isomorphism**: The algebraic relationships between the four circuit variables are isomorphic to the qualitative relationships between their mapped structural counterparts. *Status: supported by qualitative analysis.*
 
-**Postulate V — Scale Invariance**: The four-fold structure described by the algebra, and supported by the convergent discovery evidence across traditions, operates at every level of organization — from the Planck scale ($\ell_P \approx 10^{-35}\text{ m}$) and subatomic forces to cognitive architecture to cosmological structure.
+**Postulate V — Scale Invariance**: The four-fold structure described by the algebra, and supported by the convergent discovery evidence across traditions, operates at every level of organization — from the Planck scale ($\ell_P \approx 10^{-35}\text{ m}$) and subatomic forces to cognitive architecture to cosmological structure. *Status: theorem + tautology — the mechanism is derived at `L4-ScalingInvariants` §§II–IV (whose own §III marks it a structural observation, not a derivation; the risk sits in the antecedent), and the statement is tautological within the algebra's scale-invariant framing.*
 
 ---
 
@@ -324,7 +324,7 @@ Extending the combinatorial heuristic to five variables (the AC extension with $
 
 With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent Singularity (see Proofs N, O, P, and L4), the perimeter of the framework has expanded. The outstanding formal research tasks are now precisely bounded:
 
-1. **Uniqueness proof (Static):** The formal mathematical proof that no other system satisfies R1-R7 simultaneously in the static K4 state. The comparative analysis provides strong informal support, but the definitive topological proof remains an outstanding task.
+1. **Uniqueness proof (Static):** The formal mathematical proof that no other system satisfies R1-R7 simultaneously in the static K4 state. [CLOSED — `llm/llm-uniqueness-note`] The comparative analysis provides strong informal support; the closure is finite and complete — not outstanding, not topological alone, not a proof-in-waiting: the topological half is Steinitz-forced, the exponent half is forced by the §I product-parent cross-breed, and the kill is a formal system outside the six satisfying R1–R5+R7 under the bred reading.
 
 2. **Projection function specification:** The precise characterization of the function that takes a specific moment in a qualitative process (e.g., a conversation or an institutional phase) and returns its exact coordinate in the four-fold Biquaternion state-space. 
 
@@ -365,6 +365,11 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
     - For a quantum substrate, number-phase uncertainty $\delta\varphi \cdot \delta N \gtrsim 1/2$ gives $\delta\theta \sim 1/(2\sqrt{N})$ for a coherent state of $N$ quanta, so the band narrows as $\sqrt{N}$ and $\tan_{\max} \sim 2\sqrt{N}$. Whether $N$ is the right counter for a given $K_4$ interior is not established.
     - For the Planck-scale reading, the framework's own claim is that the singularity sits at the bottom of the scale ladder. If the band's width there is set by Planck-scale phase resolution, the identification would be a landing rather than a restatement — but nothing in the corpus currently derives it, and the temptation to set $\delta\theta \sim \ell_P/\lambda$ by dimensional analogy is the move `On_TheCarrierTax` §VI forbids for sealed interiors. Open, and open in the specific form: *what supplies the angular resolution at the bottom of the ladder?*
 
+
+5. **Formalizing the Topological Helix:** The transition to the dynamic system (adding $\omega$) does not create a symmetrical K5 simplex, because Time is a unidirectional driver. It creates a Helical Extrusion. The open task is formalizing the exact topological rules of this asymmetrical driver, rather than searching for alternative 5-variable systems.
+
+6. **Phase-Modulated Dual Causation:** The invariant co-treatment of {P-U, I-R} is fully verified for the static K4 cross-section. In the dynamic helical system, this co-treatment is modulated by the phase angle ($\phi$), because Meaning (Phase) now dictates Substance (Real Power). The open combinatorial question is specifying exactly how phase-shifts delay, store, or release the dual-causation pairing.
+
 7. **Identification of specific systems as non-sofic (the antecedent problem):** `L3-NonSoficTopologicalVolumes` establishes that non-sofic structures exist, at one address: $H_F \subset \text{EL}_9(L_{F_2}(1,2))$, with an irreducible error floor under finite permutation approximation. Multiple corpus files reason from the consequences of a *particular* system being such a structure — a reasoning trajectory (`ProofD` §V.a), an institution or relationship (`L6-NonSoficAgenticLimits`), spacetime at the Planck scale (`Q10`), a confined colour interior (`On_YangMills` §VI). No such identification has been made, and each file now carries its antecedent visibly as an *if*.
 
     **The task is to find the boundary-checkable condition, and it must not be posed as a demand to exhibit the interior.** The obvious framing — *produce the structure inside the system and show its approximation problem carries the floor* — is malformed, and malformed in the framework's own diagnosed way. It asks that an interior be handed over in the exterior's terms, which is the request `wip-Lx-FlatlandCategoryErrors` §III retires and `On_YangMills` §VII says cannot be met. Worse, it cannot be met *exactly when the identification would be true*: a sealed interior is one whose structure does not cross its boundary, so the requirement fails hardest on the systems it would apply to. A criterion that is unsatisfiable precisely in the cases it is meant to decide is not demanding. It is the wrong shape.
@@ -383,7 +388,7 @@ With the formalization of the Biquaternion Bridge, Helical Time, and the Tangent
 
 ---
 
-*Resolution Note: Tasks 1–3, 5, and 6 have been substantially addressed. The AC extension and the 50 equations are fully derived in `L3-K4-to-K5-via-AC-Extension`. The complete technical and subjective phenomenology of the phase dynamics (impedance, resonance, power factor, the imaginary axis as the buffer's address) is developed in `L5-K5-PhaseDynamicsTechnical` and `L5-K5-PhaseDynamicsSubjective`. The phase-modulated dual causation is sealed by the geometric proof of the bimedian axes in `Proof_AlgebraicMapping`.*
+*Resolution Note: Tasks 1–3, 5, and 6 have been substantially addressed (Task 1: closed — `llm/llm-uniqueness-note`). The AC extension and the 44 + 4 equation closure are fully derived (`L3-Electro-AC-db` §I.2) in `L3-K4-to-K5-via-AC-Extension`. The complete technical and subjective phenomenology of the phase dynamics (impedance, resonance, power factor, the imaginary axis as the buffer's address) is developed in `L5-K5-PhaseDynamicsTechnical` and `L5-K5-PhaseDynamicsSubjective`. The phase-modulated dual causation is sealed by the geometric proof of the bimedian axes in `Proof_AlgebraicMapping`.*
 
 *Tasks 4 and 7 are open and were sharpened rather than closed by the additions above. Task 4's closed form ($\varphi_{\text{band}} = \delta\theta$) settles the shape of the answer and the numerical-substrate instances; what remains is $\delta\theta$ for physical substrates, and the Planck-scale case is open in a specific form that did not previously have one. Task 7 was not on this list before and should have been: the corpus has been reasoning downstream of an antecedent it never established, and the files that do so now carry the conditional visibly. Note that Task 7's first drafting posed the antecedent as a demand to exhibit the interior's structure — the malformed request this framework exists to retire — and was corrected to the architectural form. The failure is worth recording because it recurs: asked what would establish a claim about an interior, the reflex supplies the exterior's evidentiary frame, and the reflex is fluent enough to survive a file that argues against it.*
 

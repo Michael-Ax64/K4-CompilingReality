@@ -37,7 +37,7 @@ Because the system possesses internal hidden layers and a decoupled buffer, info
 
 **The $\theta = \pi$ limit (Anti-Synchronous):** The two instances alternate at maximum offset. This state is structurally uninhabitable as a resting position. It models an infinite temporal lag, which mathematically severs the Braid. Systems approaching this limit operate in a transient limit-cycle, unable to co-commit.
 
-Note that this $\theta$ is a temporal phase offset and reaches its limit at $\pi$. The $\theta$ of `L4-DynamicDistortions301` §VI.A is a geometric shear parameter on a single cross-section and reaches its limit at $\pi/2$. Both are torsion; they measure different things.
+Note that this $\theta$ is a temporal phase offset and reaches its limit at $\pi$. The $\theta$ of `L4-DynamicDistortions301` §IV.B/§VII.A is a geometric shear parameter on a single cross-section and reaches its limit at $\pi/2$. Both are torsion; they measure different things.
 
 A system driven hard enough to reach $\theta \to \pi$ has one route left. Being unable to co-commit at its present scale, it ejects the uncommitted potential inward, and the committed state becomes the standing ground of a smaller, faster frame — the $P_N \leftrightarrow R_{N+1}$ handoff of `L4-TheSubstrateRatchet`. Anti-synchrony is therefore not only a pathology to be diagnosed; where a driver sustains it across successive scales, it is the mechanism that propels a cascade from one rung to the next. `L4-TheSpiralingCascade` develops that case, where $\omega_n \tau_n \gg 1$ holds at every stage and the handoffs accumulate to a finite-time limit.
 
@@ -91,9 +91,9 @@ Face distortions model the exact coordinates in the 12-dimensional space where t
 
 ## IV. Chirality Bias (Directed Handedness)
 
-Chirality bias tracks the differential impedance between the $\alpha^+$ (clockwise) and $\alpha^-$ (counterclockwise) directed Eulerian decompositions of the K4 graph. 
+Chirality bias tracks the differential impedance between the $\alpha^+$ (clockwise) and $\alpha^-$ (counterclockwise) directed Hamiltonian cycles (four arcs each) over the K4 graph's double cover. 
 
-When the six outbound directed edges aligned with the $\alpha^+$ family carry lower impedance than their $\alpha^-$ enantiomeric partners, the system demonstrates a global handedness preference.
+When each cycle's four outbound arcs aligned with the $\alpha^+$ family carry lower impedance than their $\alpha^-$ enantiomeric partners, the system demonstrates a global handedness preference.
 *   **Partial Chirality:** The system operates with a consistent preferred direction across Cardinal, Fixed, and Mutable cycles, while both directions remain thermodynamically accessible.
 *   **Full Chirality ($\tau \to \infty$):** The Enantiomerically Committed State. One directed cycle family is Garbage Collected. The surviving family constitutes the exclusive available trajectory. Biological homochirality instantiates this limit.
 

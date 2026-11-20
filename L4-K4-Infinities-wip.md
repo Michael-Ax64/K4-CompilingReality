@@ -73,11 +73,11 @@ And §X attaches the falsifier:
 
 > **Trinity-correspondence.** If a systematic sweep of inter-rung mass ratios on Cardinal-plane and Fixed-plane crossings yields Laurent expansions with the *same* coefficient pattern as Q15's Mutable-plane U↔R crossing, then the trinity-correspondence claim of §VI is refuted, and the two trinities collapse to one.
 
-A cascade of 25 rungs at a uniform $2/\alpha$ step asserts exactly the uniformity §X names as the refutation condition. So:
+A cascade of 25 rungs at a uniform $2/\alpha$ step asserts exactly the uniformity `L3-TheAtomOfSpace` §IX names as the refutation condition (trinity-correspondence). So:
 
 **Either every one of the 25 rungs is a Mutable-plane $U\!\leftrightarrow\!R$ crossing at generation 1 — which is not a cascade, it is one crossing repeated 25 times — or the coefficient is universal across bimedians, which refutes a landed claim and collapses the three bimedians into one.**
 
-Pushing the uniform ladder would have triggered the corpus's own refutation condition on the bimedian trinity. That is the cost the parent refuses to pay for an empirical fit with a $6\%$ baseline.
+Pushing the uniform ladder would have triggered the corpus's own refutation condition on the bimedian trinity. That is the cost the parent refuses to pay for an empirical fit whose chance baseline §1.3 states in estimator-and-window form per §1.3 (log-uniform $2\delta$ in rung units: $1.44\%$ at the Hubble window, $5.3\%$ at the de Sitter window, $6.0\%$ at the convention spread).
 
 `L3-ConstitutiveAlpha` §IV says the same thing from the other side, in its scope paragraph: *"The leading and trailing coefficients, $+2/\alpha$ and $+2\alpha$, are specific to the $U\leftrightarrow R$ crossing at generation 1, which sits on bimedian Diameter 2 (Mutable)."* And it names the error class: *"applying Q15's shape with Layer 1 intact would be a scale-rung mis-assignment."*
 
@@ -105,7 +105,7 @@ That is a measurement, not a count. If the rung structure is real, this is where
 
 ### 1.7 Disposition
 
-**OPEN VOTE.** Target declared ($N = 25.0265$, de Sitter horizon). Chance baseline attached ($1.4$–$6\%$). Obstruction named (trinity-correspondence collision). Coupling declared (rides on fork branch (a)). Owed: a derivation that emits either the integer or the step from something other than the Gen-1 Mutable crossing, without refuting `L3-TheAtomOfSpace` §VI.
+**OPEN VOTE.** Target declared ($N = 25.0265$, de Sitter horizon). Chance baseline attached (estimator-and-window form, per §1.3: log-uniform $2\delta$ in rung units: $1.44\%$ at the Hubble window, $5.3\%$ at the de Sitter window, $6.0\%$ at the convention spread). Obstruction named (trinity-correspondence collision). Coupling declared (rides on fork branch (a)). Owed: a derivation that emits either the integer or the step from something other than the Gen-1 Mutable crossing, without refuting `L3-TheAtomOfSpace` §VI.
 
 ---
 
@@ -127,7 +127,7 @@ same rule at 5       = 20
 
 Twenty rungs predicts a span twelve orders of magnitude short. The 25 does not follow from the rule that produced the 12.
 
-*What would revive it:* a generative rule that yields 12 at four variables and 25 at five, derived rather than selected. I do not currently see one, and the corpus's own extensions point elsewhere — `L3-K4-to-K5-via-AC-Extension` §VII and `L3-FormalFoundations` §VIII both give $5^5 = 3125$ states and roughly fifty equations for the five-variable system.
+*What would revive it:* a generative rule that yields 12 at four variables and 25 at five, derived rather than selected. I do not currently see one, and our extensions point elsewhere — `L3-K4-to-K5-via-AC-Extension` §VII and `L3-FormalFoundations` §VIII both give $5^5 = 3125$ states; for the equation count, the algebra closes at 44 + 4 (`L3-Electro-AC-db` §I.2).
 
 ### 2.2 The nodal admittance matrix reading — **struck, and this one was a good argument**
 
@@ -343,7 +343,7 @@ The $\mathbb{Z}_4$ engine commits on one stroke in four, so $\mathcal{D} = 1/4$.
 
 If the two quarters are the same quarter, the derivation is circular. If they are different quarters, naming one after the other is coincidence-harvesting.
 
-**The dimensional problem nobody has addressed:** the Bekenstein quarter is an *area* coefficient; the duty cycle is a *time* fraction. Equating them needs an argument that area-per-bit and writes-per-cycle are the same object, and they are not obviously the same kind of thing. The parent carries the duty cycle as a candidate explanation with this noted; someone should either close it or retire it.
+**The dimensional problem nobody has addressed:** the Bekenstein quarter is an *area* coefficient; the duty cycle is a *time* fraction. Equating them needs an argument that area-per-bit and writes-per-cycle are the same object, and they are not obviously the same kind of thing. The parent's duty-cycle candidate is CLOSED-REFUTED: `L4-K4-Infinities-3` §III L189–193 ("One candidate, refuted") — a commit is a bit, not a nat (`L3-FormalFoundations` §I.b), so the horizon commit count carries $1/(4\ln 2) \approx 0.3607$ and the quarter is not there to connect to (the old type error: area coefficient vs. time fraction); this file's own §7 table marks it REFUTED in Part Three §III; `BENDING_SPACE` §IX L613 independently separates the entropy quarter (dimension-free) from the hold-share quarter (1/D). §4.3's opening observation stands (the payroll identity's ln 2 / 2 comes out of the Bekenstein quarter as a consumed input).
 
 ### 4.4 The agency stationary point (`QED-AstroLogic` §XII.i)
 
@@ -381,7 +381,7 @@ What it owes, as a programme rather than an excuse:
 
 Flagged as the shape to be suspicious of: this closed quickly, and it used the Dyson-luminosity observation that was already in the file. Per §6.2's own heuristic, it should be derived from outside this construction before it is believed. It is carried as a target with a dimensional check, not as a candidate result.
 
-**And it would buy something beyond itself, which raises its value.** `Q4-OpenExhaust` §II proves the $P$-edge ban at zero frequency and then logs its own unfinished business in terms specific enough to be a brief:
+**And it would buy something beyond itself, which raises its value.** `Q4-OpenExhaust` §II's pre-WO-403 draft proved the $P$-edge ban at zero frequency and logged its own unfinished business in terms specific enough to be a brief — the chafe block below is that draft, SUPERSEDED at source since (WO-403; `Q4-OpenExhaust` §IV carries the standing resolution: the instantaneous quadrupole identity, no circuit constants, no transit; the conflict-resolution note at this §'s own close, L396). Kept as a historical quotation; the §'s Laue-identity argument stands on its own:
 
 > **On the LIGO chafe — routed to $P$, not resolved here.** The zero-impedance result above holds at $\omega = 0$… **Earlier drafts attempted to close the gap by importing reactive storage ($L$, $C$) onto the $P$-edges and calling gravitational radiation an "AC-face discharge" of the $P$-edges. That resolution smuggles dimensional/circuit constants into what should be a topological argument, and it does not in fact close the gap — it relocates it.**
 
@@ -559,8 +559,8 @@ Related, and worth filing beside it: §2.6 records the drafting side catching th
 | Direction rule (reversal reactive only) | Adopted into Part Three §V | — |
 | $(a)$/$(b)$ dark-energy fork | Pre-registered, three claims coupled | DESI remaining releases, Rubin, Roman |
 | Sharing reading of the DESI hint | QUARANTINED on arrival | An independent estimate of drawing regions (§4.7) |
-| $\rho_\Lambda$ from $Z_0$-maintenance | Pre-registered, owed twice | The medium's mode spectrum; also closes §V's circularity |
-| $p = -\rho c^2$ from pre-filled volume | Postulate traded for postulate | Entry two above; the reframe is what it buys |
+| $\rho_\Lambda$ from $Z_0$-maintenance | derived in §V (Part Three §V; §VIII Two) | The medium's mode spectrum; also closes §V's circularity |
+| $p = -\rho c^2$ from pre-filled volume | derived in §V (Part Three §V; §VIII Two) | Entry two above; the reframe is what it buys |
 | Series-impedance combination rule | Flagged debt — **was spent while flagged** | The AC extension's series/parallel topology across rungs |
 | Scale index $k$ / Postulate V cite | Stale address, dropped from the parent | — |
 | Port evaluation locus | Placement stated | A derivation, if the question is ever pressed |

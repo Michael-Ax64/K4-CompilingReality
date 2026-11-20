@@ -57,7 +57,7 @@ typedef struct {
     uint8_t active_reactive    : 1; // bit 1 — position 1.  0: Reactive (-), 1: Active (+)
 } __attribute__((packed)) DualBinarySeed;
 
-// 4-state edge quasi-clone (L3-EdgeStateSpace)
+// 4-state edge quasi-clone (L3-EdgeStateSpace; canonical 2-bit coding owner = this file — see note at ENGINE-REFERENCE-AC §1.1: the ↔/← bit patterns swap there, Gray tour invariant)
 typedef enum {
     EDGE_ABSENT      = 0, // 00: ∅ (held gap, young Yin)
     EDGE_BEHOLD      = 1, // 01: ↔ (live superposition, young Yang)

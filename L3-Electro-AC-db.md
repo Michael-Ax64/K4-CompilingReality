@@ -45,7 +45,7 @@ These three layers are the underlying algebraic closure: a 12-slot complex phaso
 
 ### 3. Domain Challenges
 
-1. **Multiple Domains:** AC dynamics span the time domain ($v(t), i(t)$ waveforms), the frequency domain (spectral impedance $Z(\omega)$), and the steady-state phasor domain ($U, I \in \mathbb{C}$). Algebraic closure holds strictly in the steady-state phasor domain once topology is fixed. Filter bandwidth, $Q$-factor, and $-3\text{ dB}$ selectivity points live in the 8-fold membrane topologies of `L6-TheCircuit` §V rather than inside the single-frequency algebraic basis here, joining the non-linear elements already excluded in §I.3.2.
+1. **Multiple Domains:** AC dynamics span the time domain ($v(t), i(t)$ waveforms), the frequency domain (spectral impedance $Z(\omega)$), and the steady-state phasor domain ($U, I \in \mathbb{C}$). Algebraic closure holds strictly in the steady-state phasor domain once topology is fixed. Filter bandwidth, $Q$-factor, and $-3\text{ dB}$ selectivity points live in the 8-fold membrane topologies of `L6-TheCircuit` §V rather than inside the single-frequency algebraic basis here, joining the non-linear elements excluded in item 2, below.
 
 2. **Non-Linear Elements:** Saturation, transformers, and hysteretic cores couple harmonics across frequencies, breaking single-frequency linear superposition ($U = Z(\omega)I$).
 

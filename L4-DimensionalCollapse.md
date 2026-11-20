@@ -22,7 +22,7 @@ Because $dt$ exists only on the compiled side of the blanket, asking from outsid
 
 ## II. Landing the Hammer: Collapse Across the Gate
 
-At the turn of the beat, three coordinated mechanisms execute together inside $K_4$ (`L4-Riemann-2` §IV):
+At the turn of the beat, three coordinated mechanisms execute together inside $K_4$ (follow the references below to learn more):
 
 1. **Geometric Collapse (2D Area to 1D Dipole):** In unit-cube coordinates $(\pm 1)^3$, the regular $K_4$ bimedian cross-section carries area $A_0 = 2$ (`L4-DynamicDistortions301` §§IV–V, VII.B). Under phase-shear $\theta \in [0, \pi/2]$, interior holding area shrinks as $A(\theta) = A_0\cos\theta$. At $90^\circ$, four vertices fuse in pairs onto two compound nodes along one axis (`L2-K4-Inferences` §IV.3).
 
