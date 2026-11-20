@@ -52,7 +52,7 @@ The twelve gates are the twelve directed edges of $K_4$. Reversing every arrow p
 >
 > **Every COMMIT reverses into a ROUTE.** The price is symmetric only on the two Cardinal edges.
 
-This is **Grammar**. It reads off the opcode table and the tags, uses no Time Key, and involves no relabelling. The pairing itself is `ENGINE-REFERENCE-AC` §VI's own — *"a COMMIT/ROUTE pair on the four non-Cardinal edges, the RESEED pair (CAN, SAG) on IU, the GEM/CAP ROUTE pair on PR"* — verified there. What is added here is reading the tag column across the pairing. Once that is done, the asymmetry is not a symmetry weakly broken. It is a difference in what the ledger bills.
+This is **Grammar**. It reads off the opcode table and the tags, uses no Time Key, and involves no relabelling. The pairing itself is `ENGINE-REFERENCE-AC` §VI's own — *"a COMMIT/ROUTE pair on the four non-Cardinal edges, the RESEED pair (CAN, SAG) on IU, the GEM/CAP ROUTE pair on PR"* — verified there. What is added here is reading the tag column across the pairing. Once that is done, the asymmetry stops being a symmetry weakly broken and becomes a fully itemized bill — every COMMIT reversing to a ROUTE on four of six edges, each line priced — that the host's even-derivative equations cannot carry a line of. The open prospect, which the corpus has not closed, is that a directional accounting this specific stands in for a whole family of correction terms rather than adding one more.
 
 *(Convention flag: the table indexes by **DATA edge**; the `ENGINE-REFERENCE-AC` §VI quotation it verifies against indexes by **CONTROL edge**. The two tables agree once the level is named — `ENGINE-REFERENCE-AC` §IV defines the pairing-mate relation.)*
 
@@ -226,7 +226,7 @@ A write-ordering is observed through what happens when it is violated. You do no
 
 ### What the section is
 
-A demonstration that **the host already stocks instruments of the right type.** If an ordering is to be observed, it will be by a quantity no relabelling moves, and physics built several such quantities decades ago for its own reasons. That costs nothing, because it claims nothing about geometry. Which instrument would observe *this* ordering is now a question about the axial channel, and Part Five is where it is asked.
+A demonstration that **the host already stocks instruments of the right type.** If an ordering is to be observed, it will be by a quantity no relabelling moves, and physics built several such quantities decades ago for its own reasons. That claims nothing about geometry, and it does not need to: the instruments exist, and the only thing left open is which of them this ordering lives in. Part Five asks it as a question about the axial channel.
 
 ---
 

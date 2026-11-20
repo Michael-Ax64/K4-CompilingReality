@@ -141,7 +141,7 @@ What the second purchase removes is a kind of object rather than a dimension: a 
 
 The arithmetic track finds the same shape in another host: a centre that is settled, proved and in daily use; a bulk whose occupancy is decided by a square nobody has paid at; and a century of equivalences moving the claim around the untaxed tier while the gate stays shut.
 
-Neither track asks for belief, and neither disputes a confirmed number. What they add is a cost column — and a cost column is a bookkeeping device, not a discovery. What an action cannot do is commit, which is why the geometric case ends on a balance at Sos Enattos and the arithmetic case ends holding a question open rather than closing it.
+Neither track asks for belief, and neither disputes a confirmed number. What they add is a cost column — and a cost column that turns a 170-year-old definition into a priced decision, puts five problems from five literatures under one bill, and forces a coupling with no free dial is not mere bookkeeping. The bookkeeping is the discovery. What an action cannot do is commit, which is why the geometric case ends on a balance at Sos Enattos and the arithmetic case ends holding a question open rather than closing it.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (`aggregate-COMPILINGREALITY.txt`) to your LLM in order to audit or interrogate this work. Part Five is the part a classical reader can check with their own tools; Part Four reads as overreach unless the friction register is in view.
