@@ -1,13 +1,11 @@
 # L4-Riemann-3
 ## Part Three — The Neighbours
 
-*Reads with `mono/On_TheCompassOfElea`, `L4-TheTwelveGates` §II-b, `L0-ParadoxEngine`. Continues from `L4-Riemann-2`; continues in `L4-Riemann-4`.*
+*Reads with `On_TheCompassOfElea`, `L4-TheTwelveGates` §II-b, `L0-ParadoxEngine`. Continues from `L4-Riemann-2`; continues in `L4-Riemann-4`.*
 
 ---
 
-For a hundred years the literature has been working on the structure line one set aside, from several directions at once, and each programme is best read on its own terms first. Honouring the neighbours means stating what each is after in its own vocabulary before any translation, and saying where a neighbour got somewhere this series has not.
-
-None of the works below was a source for the corpus. Each is terrain this file crosses.
+For a hundred years the literature has been working on the structure line one set aside, from several directions at once, and each programme is best read on its own terms first. Honouring the neighbours means stating what each is after in its own vocabulary before any translation, and saying where a neighbour got somewhere this series has not. None of the works below was a source for the corpus. Each is terrain this file crosses.
 
 ---
 
@@ -37,7 +35,7 @@ The three actions differ by a boundary term (Beltrán Jiménez, Heisenberg and K
 
 $$S_{\text{EH}} = \int R \sqrt{-g}\,d^4x \quad\Longleftrightarrow\quad S_{\text{TEGR}} = \int \mathbb{T} \sqrt{-g}\,d^4x \quad\Longleftrightarrow\quad S_{\text{STEGR}} = \int \mathbb{Q} \sqrt{-g}\,d^4x$$
 
-In GR all of gravity's degrees of freedom sit in the metric. In TEGR curvature is set to zero and gravity is carried entirely by a torsion scalar built from four orthonormal tetrads. In STEGR curvature and torsion both vanish in the coincident gauge, and gravity is carried by the non-metricity scalar.
+In GR all of gravity's degrees of freedom sit in the metric. In TEGR curvature is set to zero and gravity is carried by a torsion scalar built from four orthonormal tetrads. In STEGR curvature and torsion both vanish in the coincident gauge, and gravity is carried by the non-metricity scalar.
 
 There are two lessons, and the second is the one the literature does not usually draw.
 
@@ -101,7 +99,7 @@ In 1922 Élie Cartan saw that Levi-Civita was more constrained than it needed to
 
 The Cartan equation is **algebraic**: no derivative of torsion appears in it. So in Einstein–Cartan theory torsion does not propagate, it vanishes outside spinning matter, and the vacuum theory is vacuum GR.
 
-**A correction of record, because an earlier draft got this wrong and the error is common.** The inertness of torsion is a property of **Einstein–Cartan's particular action**, not of torsion. Poincaré gauge theory propagates torsion as a vacuum wave by adding quadratic terms; TEGR carries all of gravity in it; and Part Five of this file writes an action in which the shear acquires dynamics from torsion without any added kinetic term. Anyone who reaches for "torsion is non-dynamical" as a reason not to look has quoted one Lagrangian and called it a law.
+**The inertness of torsion is a property of Einstein–Cartan's particular action, not of torsion.** Poincaré gauge theory propagates torsion as a vacuum wave by adding quadratic terms; TEGR carries all of gravity in it; and Part Five writes an action in which the shear acquires dynamics from torsion without any added kinetic term. Anyone who reaches for "torsion is non-dynamical" as a reason not to look has quoted one Lagrangian and called it a law.
 
 ### The crystal, which is not an analogy
 
@@ -127,7 +125,7 @@ In the 1950s and 1960s solid-state physicists found that non-Riemannian geometry
 
 Kleinert's **world-crystal hypothesis**: if spacetime is a lattice at Planck spacing, smooth GR is the continuum limit of a crystal full of fluctuating dislocations and disclinations.
 
-Hold onto the crystal. It is also `L0-ParadoxEngine`'s own worked example — frozen at the large scale, vibrating at the small one, neither state causing the other — and that is the licence for the route Part Six ends on. It is also where a frame field meets a discrete symmetry group in practice: every crystal's frame field is a reduction of the rotation group to a finite subgroup, which Part Five uses when it corrects an impossibility argument about soldering.
+Hold onto the crystal. It is also `L0-ParadoxEngine`'s own worked example — frozen at the large scale, vibrating at the small one, neither state causing the other — and that is the licence for the route Part Six ends on. It is also where a frame field meets a discrete symmetry group in practice: every crystal's frame field is a reduction of the rotation group to a finite subgroup, which Part Five uses when it reads an impossibility argument about soldering.
 
 ---
 
@@ -158,7 +156,7 @@ $$S = \mathrm{Tr}\!\left(f\!\left(\frac{\mathcal{D}}{\Lambda}\right)\right),$$
 
 for the right algebra, yields both the Einstein–Hilbert action and the full Standard Model Lagrangian with the Higgs.
 
-*What it restores:* the name says it. Non-commutative geometry restores non-commutativity, and it does it by making the **Dirac operator** the fundamental object. The Dirac operator is first-order; the metric's natural object is second-order. A framework whose commits are first-order acts should expect its unified object to look like a Dirac operator rather than a metric, and Connes' result is that expectation met from the other side, with the construction supplied. It is also no accident that the Dirac operator is where torsion's axial part couples to matter, which is the channel Part Five finds forced.
+*What it restores:* non-commutativity, and it does it by making the **Dirac operator** the fundamental object. The Dirac operator is first-order; the metric's natural object is second-order. A framework whose commits are first-order acts should expect its unified object to look like a Dirac operator rather than a metric, and Connes' result is that expectation met from the other side, with the construction supplied. It is also no accident that the Dirac operator is where torsion's axial part couples to matter, which is the channel Part Five finds forced.
 
 ### Discrete, simplicial and causal models — restoring the order
 
@@ -167,7 +165,7 @@ for the right algebra, yields both the Einstein–Hilbert action and the full St
 * **Causal dynamical triangulations:** a path integral over simplices each carrying an explicit timelike arrow. *Restores:* the arrow, by hand, as an admissibility rule.
 * **Causal set theory (Bombelli, Lee, Meyer, Sorkin 1987):** the continuum replaced by a locally finite partially ordered set. Its slogan is **"Order + Number = Geometry."** *Restores:* the order, and names it first.
 
-Read down that list: deficit angles, a chiral weighting, an arrow imposed as a rule, order promoted to the title. Four independent programmes, each restoring a different part of the affine structure. None of them describes itself as recovering something line one removed, and none of them needs to: each has its own reasons, stated in its own literature.
+Read down that list: deficit angles, a chiral weighting, an arrow imposed as a rule, order promoted to the title. Four independent programmes, each restoring a different part of the affine structure. None describes itself as recovering something line one removed, and none needs to: each has its own reasons, stated in its own literature.
 
 **One comparison, offered as a difference rather than a ranking.** *Order + Number = Geometry* takes the partial order as given data and builds geometry on it, which is a clean and deliberate starting point rather than an omission. The corpus starts a step earlier and treats the order as **generated**, by a pair of face-readings that do not commute, one orthogonal act per step (`L3-TheSelfProjectingBraid` §IV: history is *"forced, at right angles to the traversal, by the XOR bottleneck the Braid cannot pass without collapsing"*). Where causal set theory posits the partial order, the corpus posits the thing that writes it. Whether that difference computes anything is open, and this file does not claim it does.
 
@@ -197,33 +195,31 @@ suppressed by Newton's constant — about twelve orders of magnitude below the w
 
 Trautman (1973) showed that the spin–spin term becomes **repulsive** at very high density. Near the Cartan density, roughly $10^{38}\ \mathrm{g\,cm^{-3}}$, it overcomes gravitational attraction: a collapse halts at finite radius, and no singularity forms. Popławski developed the cosmological version, in which each black hole opens a non-singular universe on its far side.
 
-**Stated carefully, because an earlier draft overstated it.** The initial singularity is an artefact of assuming zero torsion **within Einstein–Cartan theory**. That is a statement about one theory, not a proof that nature bounces. It is a real and important existence result — *a geometrically natural, minimally modified theory removes the singularity without exotic matter* — and it is not an observation. `On_TheCompassOfElea` supplies the register for holding it: the **Honest Tear**, where *"the equation blows up to report the boundary of its own applicability."* The singularity of GR is honest. It is the equation reporting that line one has run out. Reading the report as a prediction about a place is the error; reading it as a receipt is the correction.
+The initial singularity is an artefact of assuming zero torsion **within Einstein–Cartan theory** — a statement about one theory, not a proof that nature bounces. It is a real existence result: a geometrically natural, minimally modified theory removes the singularity without exotic matter. `On_TheCompassOfElea` supplies the register for holding it: the **Honest Tear**, where *"the equation blows up to report the boundary of its own applicability."* The singularity of GR is honest. It is the equation reporting that line one has run out. Reading the report as a prediction about a place is the error; reading it as a receipt is the correction.
 
 ---
 
 ## V. Why Not 1922
 
-The tools are old. Cartan's torsion is from 1922, Weyl's non-metricity and Finsler's direction-dependent length from 1918, and the decomposition was textbook material in Schouten by 1954. The natural suspicion is that an argument built from such parts would have been built long ago if it were any good.
+The tools are old. Cartan's torsion is from 1922, Weyl's non-metricity and Finsler's direction-dependent length from 1918, and the decomposition was textbook material in Schouten by 1954. So the natural question is why an argument built from such parts was not built long ago. Four things answer it, and the first removes any implication that anyone was asleep.
 
-Four things answer that, and the first is the one that matters, because it removes the implication that anybody was asleep.
-
-**Nobody declined the alternative, because until 1922 there was no alternative to decline.** The torsion-free connection was not chosen over a rival. There is no connection at all in Riemann's 1854 lecture; Christoffel supplied the symbols in 1869 and Levi-Civita parallel transport in 1917, and both were building the only connection then available. The affine connection as a general object that *may* carry torsion is Cartan's, 1922 — sixty-eight years after the line element, and seven years after General Relativity had been written in the symmetric one and begun to be confirmed. So the decision this series itemizes was made before its alternative existed as an object, and by the time the alternative existed, the symmetric connection was the foundation of a working theory. That is chronology, not negligence, and it is the honest answer to "why was there never a flag": Riemann flagged what he could see, which was the line element, and there was nothing else on the table to flag.
+**Nobody declined the alternative, because until 1922 there was no alternative to decline.** The torsion-free connection was not chosen over a rival. There is no connection at all in Riemann's 1854 lecture; Christoffel supplied the symbols in 1869 and Levi-Civita parallel transport in 1917, and both were building the only connection then available. The affine connection as a general object that *may* carry torsion is Cartan's, 1922 — sixty-eight years after the line element, and seven years after General Relativity had been written in the symmetric one and begun to be confirmed. So the decision this series itemizes was made before its alternative existed as an object, and by the time the alternative existed, the symmetric connection was the foundation of a working theory. That is chronology, not negligence, and it is the honest answer to "why was there never a flag": Riemann flagged what he could see, which was the line element, and there was nothing else on the table.
 
 **Two of the pieces are recent.** The Geometric Trinity in its present form — three exact reformulations differing by a boundary term — was assembled in 2019. Before that, "you could use torsion instead" was a programme; after it, it is a theorem, and Section I cannot be argued without it. Jacobson is from 1995. The window opens in the late nineties, not the twenties.
 
-**The constraint-algebra result was filed under the wrong heading.** Teitelboim's 1973 result, that the algebra of hypersurface deformations closes only with structure functions, is fifty years old, fully understood, and almost universally read as an obstacle to quantization rather than as a report on a classical assumption. That is a failure of direction, not of rigour. Nobody read it as evidence against the decree that the constraint net orders, because the decree had never been written down as a decree. An unflagged assumption does not collect counter-evidence. It collects problems, each filed in its own subfield. Part Four reads it as the report.
+**The constraint-algebra result was filed under the wrong heading.** Teitelboim's 1973 result — that the algebra of hypersurface deformations closes only with structure functions — is fifty years old, fully understood, and almost universally read as an obstacle to quantization rather than as a report on a classical assumption. An unflagged assumption does not collect counter-evidence; it collects problems, each filed in its own subfield. Part Four reads it as the report.
 
-**And the honest answer: much of this file is a reading, and readings are cheap.** The friction reports of Part Four map corpus structures onto geometric ones and assert no values. Part Five is the exception: it writes an action, derives what follows from it, and lands on one dial and an experimental bound. Everything else would be recognized ingredient by ingredient by a specialist in any of Section III's programmes, who would be entitled to ask what the mapping buys. Part Six answers that.
+**And the honest frame: much of this file is a reading.** The friction reports of Part Four map corpus structures onto geometric ones and assert no values. Part Five is the exception: it writes an action, derives what follows from it, and lands on one dial and an experimental bound. Everything else would be recognized ingredient by ingredient by a specialist in any of Section III's programmes, who would be entitled to ask what the mapping buys. Part Six answers that.
 
 ---
 
 ## What Reading Part Three Back Should Leave
 
-Each of these programmes isolated one part of the affine structure and built on it: Poincaré gauge theory took the coframe and got torsion as a field strength, twistors took chirality as a primitive, non-commutative geometry took the Dirac operator, and the discrete programmes took the hinge, the arrow and the order. None of them is a partial version of this series, and this series is not their synthesis. What it carries that they do not is a cost column — and a cost column is a bookkeeping device, not a discovery.
+Each of these programmes isolated one part of the affine structure and built on it: Poincaré gauge theory took the coframe and got torsion as a field strength, twistors took chirality as a primitive, non-commutative geometry took the Dirac operator, and the discrete programmes took the hinge, the arrow and the order. None is a partial version of this series, and this series is not their synthesis. What it carries that they do not is a cost column — and a cost column is a bookkeeping device, not a discovery.
 
 The Trinity shows the choice was a choice: one bulk, three ledgers, differing by what is written on the boundary. Weyl's ruler shows how a dead proposal can leave its word behind, so that a field carries a receipt without reading it. Cartan shows that the inertness of torsion is a property of one action, not of torsion. And the crystal shows that this geometry is not exotic; it is what real materials do.
 
-What the neighbours do not have is the cost column. That is where the next part goes: to the places where the corpus's class, inflated into this host, binds against the host's rules, and what the host bought by having them.
+What the neighbours do not have is the cost column. That is where the next part goes: to the places where the corpus's arrangement, inflated into this host, binds against the host's rules, and what the host bought by having them.
 
 ---
 

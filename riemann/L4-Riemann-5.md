@@ -5,39 +5,37 @@
 
 ---
 
-The first external audit closed its proceeding with a verdict and a task. The verdict was that the identification of the corpus's shear with geometric torsion was *unregistered*: nothing had been built that would let it be true or false. The task was to write the action that couples the corpus's bimedian shear to spacetime torsion, derive the shear's behaviour from it, and itemize every constant.
-
-This part does that. It is the one part of the file that computes something a classical reader would recognize as physics, and so it is the one part whose claims can be checked by a classical reader's own tools. It ends with one dimensionless dial, one experimental bound on it, and a chirality result that turns out to be the dimensional question of Part Two arriving in a Lagrangian.
+Part Four left a question with a sharp form: is the identification of the corpus's shear with geometric torsion *registered* — has anything been built that would let it be true or false? This part builds it. It writes the action that couples the corpus's bimedian shear to spacetime torsion, derives the shear's behaviour from it, and itemizes every constant. It is the one part of the file that computes something a classical reader would recognize as physics, and so it is the one part whose claims can be checked by a classical reader's own tools. It ends with one dimensionless dial, one experimental bound on it, and a chirality result that turns out to be the dimensional question of Part Two arriving in a Lagrangian.
 
 ---
 
-## I. The Demand, and Why It Could Not Be Written as Demanded
+## I. The Natural Action, and Why It Does Nothing
 
-The bench asked for
+The action that first suggests itself is
 
 $$\mathcal{S} = \int d^4x \sqrt{-g}\left[\frac{1}{2\kappa}R + \frac{1}{2}\partial_\mu\theta\,\partial^\mu\theta + \beta\,\theta\,V^\mu A_\mu\right]$$
 
-and asked that the shear be derived *"from the stationary points of the Nieh–Yan density across the four faces of $K_4$."* There are five defects, each checkable, and each has to be repaired before there is anything to derive.
+with the shear derived from the stationary points of the Nieh–Yan density across the four faces of $K_4$. It has five defects, each checkable, and each has to be repaired before there is anything to derive.
 
-**The coupling is inert.** $V^\mu A_\mu$ — the trace torsion vector dotted into the axial one — is *quadratic* in torsion. In Einstein–Cartan theory torsion enters algebraically, so a quadratic term only deforms the quadratic form in $(V, A)$. With the coefficients of Section III the form is $\begin{psmallmatrix} -2/3 & b/2 \\ b/2 & 3/2\end{psmallmatrix}$, whose determinant $-1 - b^2/4$ is negative for every $b$. The form never degenerates, its only stationary point is $V = A = 0$, and **the demanded term sources no torsion at any value of the shear.**
+**The coupling is inert.** $V^\mu A_\mu$ — the trace torsion vector dotted into the axial one — is *quadratic* in torsion. In Einstein–Cartan theory torsion enters algebraically, so a quadratic term only deforms the quadratic form in $(V, A)$. With the coefficients of Section III the form is $\begin{psmallmatrix} -2/3 & b/2 \\ b/2 & 3/2\end{psmallmatrix}$, whose determinant $-1 - b^2/4$ is negative for every $b$. The form never degenerates, its only stationary point is $V = A = 0$, and **the term sources no torsion at any value of the shear.**
 
-**The Nieh–Yan density is not $V \cdot A$.** The Nieh–Yan four-form is $N = d(e^a\wedge T_a)$, and $e^a\wedge T_a$ is, up to a constant, the dual of the axial torsion, so $N \propto \nabla^\circ_\mu A^\mu$ — the divergence of the **axial vector alone** (Nieh and Yan 1982; Chandía and Zanelli 1997). The literature the bench cited couples a pseudoscalar to $N$, which after integration by parts is $-\partial_\mu\theta\,A^\mu$: **linear** in torsion. That is the term that does something.
+**The Nieh–Yan density is not $V \cdot A$.** The Nieh–Yan four-form is $N = d(e^a\wedge T_a)$, and $e^a\wedge T_a$ is, up to a constant, the dual of the axial torsion, so $N \propto \nabla^\circ_\mu A^\mu$ — the divergence of the **axial vector alone** (Nieh and Yan 1982; Chandía and Zanelli 1997). Coupling a pseudoscalar to $N$, after integration by parts, is $-\partial_\mu\theta\,A^\mu$: **linear** in torsion. That is the term that does something.
 
 **"Stationary points of the Nieh–Yan density" is not defined.** $N$ is a total derivative. For a constant shear, $\theta N$ is a boundary term and changes no field equation. What is defined is the shear's field equation, derived below.
 
-**One field, three angles.** The demanded action carries one $\theta$. The corpus carries three, one per bimedian: $\theta_F$, $\theta_C$, $\theta_M$. Which function of the three couples is not a detail, and the corpus's own structure constrains it hard.
+**One field, three angles.** A single $\theta$ cannot carry the corpus's three offsets, one per bimedian: $\theta_F$, $\theta_C$, $\theta_M$. Which function of the three couples is not a detail, and the corpus's own structure constrains it hard.
 
 **"Across the four faces of $K_4$" is dimensionally ill-posed.** $N$ is a four-form. A face of $K_4$ is two-dimensional and $K_4$ itself is three-dimensional. Part Two is the general reason this matters: a quantity that lives on volumes cannot be summed over faces. The dimensionally correct discrete statement involves $K_5$, and it is in Section VII.
 
-**And the demanded kinetic term is unnecessary.** An angle needs a scale before $\tfrac12(\partial\theta)^2$ has the dimensions of a Lagrangian density, and that scale would be a new dial. Section III shows none is needed: coupling to the Nieh–Yan density **induces** the kinetic term, with Planck-mass normalization and no new constant.
+And the kinetic term is unnecessary. An angle needs a scale before $\tfrac12(\partial\theta)^2$ has the dimensions of a Lagrangian density, and that scale would be a new dial. Section III shows none is needed: coupling to the Nieh–Yan density **induces** the kinetic term, with Planck-mass normalization and no new constant.
 
-### The impossibility argument, corrected
+### An impossibility argument, and why both legs fail
 
-The bench also built an argument that soldering a frame to the corpus's discrete structure is impossible, and then — correctly — declined to rest its verdict on it. The finding still stands in the record, and both of its legs fail.
+There is an argument that soldering a frame to the corpus's discrete structure is impossible. Both of its legs fail.
 
-**The group-theory leg runs the wrong way.** That there is no non-trivial homomorphism from $SO(3)$ onto $\mathbb{Z}_3$ is true and irrelevant. Soldering a frame to a discrete structure is a **reduction of the structure group** from $SO(3)$ to a finite *subgroup* — which is what every crystal's frame field does (Part Three's crystal). $A_4$ is the rotation group of the tetrahedron, a subgroup of $SO(3)$; nobody needs a homomorphism out of $SO(3)$. And the premise was wrong besides: the bench took the three bimedians to be a $\mathbb{Z}_3$-set. Section IV computes that they carry the full three-dimensional standard representation of $S_4$.
+**The group-theory leg runs the wrong way.** That there is no non-trivial homomorphism from $SO(3)$ onto $\mathbb{Z}_3$ is true and irrelevant. Soldering a frame to a discrete structure is a **reduction of the structure group** from $SO(3)$ to a finite *subgroup* — which is what every crystal's frame field does (Part Three's crystal). $A_4$ is the rotation group of the tetrahedron, a subgroup of $SO(3)$; no homomorphism out of $SO(3)$ is needed. And the premise is wrong besides: the three bimedians are not a $\mathbb{Z}_3$-set. Section IV computes that they carry the full three-dimensional standard representation of $S_4$.
 
-**The Laue leg proves too much, and the overstatement it uses is ours.** Laue's theorem zeroes the integrated spatial stress of a *static* bound system. It does not forbid orientation inside, and it says nothing about non-static systems — and the offset is a phase driven by $\omega$. Read as *"annihilates every vector,"* it would forbid a bound system from exporting spin, and protons export spin: an axial vector, which is exactly what axial torsion couples to. That phrase is in `L4-K4-Infinities` itself, and the bench quoted it faithfully. It is an overstatement there, and `L4-Riemann-wip` flags it for that file. `L4-K4-Infinities`' own takehome rule 6 already says the precise thing: *"Laue is about the vector sector, not the scalar."*
+**The Laue leg proves too much.** Laue's theorem zeroes the integrated spatial stress of a *static* bound system. It does not forbid orientation inside, and it says nothing about non-static systems — and the offset is a phase driven by $\omega$. Read as *"annihilates every vector,"* it would forbid a bound system from exporting spin, and protons export spin: an axial vector, which is exactly what axial torsion couples to. The precise statement is `L4-K4-Infinities`' own takehome rule 6: *"Laue is about the vector sector, not the scalar."*
 
 ---
 
@@ -47,11 +45,11 @@ Einstein–Cartan: a metric-compatible connection $\Gamma$ whose torsion varies 
 
 $$\boxed{\;\mathcal{S} = \frac{1}{2\kappa}\int d^4x\sqrt{-g}\,\Big[\,R(\Gamma) \;+\; \beta\,F(\vec\theta)\;\nabla^\circ_\mu a^\mu\,\Big] \;+\; \mathcal{S}_{\text{matter}}\;}$$
 
-Here $\vec\theta = (\theta_F, \theta_C, \theta_M)$ are the three bimedian **phase offsets** of `L4-DynamicDistortions201` §II — temporal offsets, not geometric strains, and §IV's first subsection is where that distinction is stated and where it pays; $F$ is a function to be fixed; $\beta$ is dimensionless; $\kappa = 8\pi G = M_P^{-2}$. Torsion is split into its irreducible parts:
+Here $\vec\theta = (\theta_F, \theta_C, \theta_M)$ are the three bimedian **phase offsets** of `L4-DynamicDistortions201` §II — temporal offsets, not geometric strains, and §IV's first subsection is where that distinction pays; $F$ is a function to be fixed; $\beta$ is dimensionless; $\kappa = 8\pi G = M_P^{-2}$. Torsion splits into its irreducible parts:
 
 $$v_\mu = T^\nu{}_{\mu\nu}\ \ (\text{trace},\ 4),\qquad a^\mu = \tfrac16\,\varepsilon^{\mu\nu\rho\sigma}T_{\nu\rho\sigma}\ \ (\text{axial},\ 4),\qquad q_{\lambda\mu\nu}\ \ (\text{tensor},\ 16).$$
 
-The axial part is the three-form of Part Two, written as its dual vector in four dimensions. The second term in the action is $\beta F$ times the Nieh–Yan density, with the normalization of $N \propto \nabla^\circ\!\cdot a$ absorbed into $\beta$. Integrated by parts, it is $-\beta\, a^\mu \partial_\mu F$.
+The axial part is the three-form of Part Two, written as its dual vector in four dimensions. The second term is $\beta F$ times the Nieh–Yan density, with the normalization of $N \propto \nabla^\circ\!\cdot a$ absorbed into $\beta$. Integrated by parts, it is $-\beta\, a^\mu \partial_\mu F$.
 
 ---
 
@@ -73,7 +71,7 @@ A scalar gradient $\partial_\mu F$ can couple linearly to torsion in exactly two
 
 ### Solve the torsion, and read off the health of each channel
 
-Torsion is algebraic, so its field equations are solved in closed form. In the action above:
+Torsion is algebraic, so its field equations solve in closed form. In the action above:
 
 $$v_\mu = 0,\qquad q_{\lambda\mu\nu} = 0,\qquad \boxed{\;a_\mu = \frac{\beta}{3}\,\partial_\mu F\;}$$
 
@@ -83,7 +81,7 @@ $$\mathcal{L}_{\text{induced}} = -\frac{\beta^2}{12\,\kappa}\;\partial_\mu F\,\p
 
 — a kinetic term with the correct sign for this signature. **The offsets acquire dynamics from geometry, with no kinetic term put in by hand and no new scale.** Canonically normalized, $\varphi = \beta M_P F/\sqrt6$, so the induced decay constant is $f = \beta M_P/\sqrt6$.
 
-The general rule: a coupling $-\beta X\!\cdot\!\partial F$ to a torsion vector $X$ whose coefficient in $R(\Gamma)$ is $c$ induces $-\tfrac{\beta^2}{8\kappa c}(\partial F)^2$, which is healthy if and only if $c > 0$. So:
+The general rule: a coupling $-\beta X\!\cdot\!\partial F$ to a torsion vector $X$ whose coefficient in $R(\Gamma)$ is $c$ induces $-\tfrac{\beta^2}{8\kappa c}(\partial F)^2$, healthy if and only if $c > 0$. So:
 
 | Channel | Coefficient in $R(\Gamma)$ | Induced kinetic term |
 |---|---|---|
@@ -92,7 +90,7 @@ The general rule: a coupling $-\beta X\!\cdot\!\partial F$ to a torsion vector $
 
 **A scalar gradient can source torsion healthily only through the axial vector.** Sourcing the trace vector alone produces a kinetic term with the wrong sign. (Holst-type couplings source both channels at once and the combination can be healthy; the statement is about the trace channel alone, and it is why the Nieh–Yan coupling, which sources only the axial channel, is the clean one.) This agrees with Calcagni and Mercuri's Nieh–Yan case: trace and tensor torsion vanish, the axial torsion is the gradient, the induced kinetic term is healthy, and the theory has a shift symmetry $F \to F + \text{const}$.
 
-Note what this does to an earlier route. The parent file had recommended against building in the axial channel, on the grounds that it is the best-explored and most tightly bounded part of torsion phenomenology. That reasoning treated the axial channel as a choice. It is not one. **It is the only channel through which a scalar can couple to torsion and stay healthy.** If the corpus's phase offsets couple to spacetime at all, they couple there, and the bounds on that channel are the corpus's to meet. Section VI meets them.
+The axial channel is therefore not a choice. **It is the only channel through which a scalar can couple to torsion and stay healthy.** If the corpus's phase offsets couple to spacetime at all, they couple there, and the bounds on that channel are the corpus's to meet. Section VI meets them.
 
 ### Exactly one combination of the three shears becomes dynamical
 
@@ -106,7 +104,7 @@ $$\partial_\mu F = 0 \;\Longrightarrow\; a_\mu = 0 \;\Longrightarrow\; T = 0 \;\
 
 ### Matter: the shear is sourced by chirality non-conservation
 
-Dirac fermions couple minimally to the axial torsion only, $\mathcal{L} \supset \alpha\, a_\mu j_5^\mu$, with $j_5^\mu = \bar\psi\gamma^\mu\gamma^5\psi$ and $\alpha$ a number fixed by minimal coupling. Solving again, $a_\mu = (\beta\partial_\mu F - 2\kappa\alpha j_{5\mu})/3$, and
+Dirac fermions couple minimally to the axial torsion only, $\mathcal{L} \supset \alpha\, a_\mu j_5^\mu$, with $j_5^\mu = \bar\psi\gamma^\mu\gamma^5\psi$ and $\alpha$ fixed by minimal coupling. Solving again, $a_\mu = (\beta\partial_\mu F - 2\kappa\alpha j_{5\mu})/3$, and
 
 $$\mathcal{L}_{\text{eff}} = -\frac{\beta^2}{12\kappa}(\partial F)^2 + \frac{\alpha\beta}{3}\,\partial_\mu F\, j_5^\mu - \frac{\kappa\alpha^2}{3}\,j_{5\mu}j_5^\mu.$$
 
@@ -114,9 +112,7 @@ The last term is Einstein–Cartan's standard axial–axial contact interaction,
 
 $$\Box F = \frac{2\kappa\alpha}{\beta}\,\nabla_\mu j_5^\mu,\qquad \nabla_\mu j_5^\mu = 2im\,\bar\psi\gamma^5\psi \;+\; (\text{anomaly: } F\tilde F,\ R\tilde R).$$
 
-**The offsets are sourced by the divergence of the axial current** — by fermion masses classically, and by the chiral anomaly quantum-mechanically. Mercuri and Taveras derive the same structure for the Barbero–Immirzi field, anomaly couplings included. In canonical normalization the coupling to $\nabla\!\cdot j_5$ is $\alpha\sqrt{2\kappa/3}$, **independent of $\beta$**: matter sees the field at Planck-suppressed strength whatever the dial, and $\beta$ sets only the dictionary between the shear and the field.
-
-This is the honest replacement for the Jarlskog reading struck in Part Four. If the offsets' parity-odd channel couples to anything, it couples to **chirality non-conservation**, not to the rephasing invariant of the Yukawa matrices. Those are different operators.
+**The offsets are sourced by the divergence of the axial current** — by fermion masses classically, and by the chiral anomaly quantum-mechanically. Mercuri and Taveras derive the same structure for the Barbero–Immirzi field, anomaly couplings included. In canonical normalization the coupling to $\nabla\!\cdot j_5$ is $\alpha\sqrt{2\kappa/3}$, **independent of $\beta$**: matter sees the field at Planck-suppressed strength whatever the dial, and $\beta$ sets only the dictionary between the shear and the field. If the offsets' parity-odd channel couples to anything, it couples to **chirality non-conservation**, not to the rephasing invariant of the Yukawa matrices. Those are different operators.
 
 ---
 
@@ -124,19 +120,17 @@ This is the honest replacement for the Jarlskog reading struck in Part Four. If 
 
 ### First, which $\theta$ this is
 
-`L4-DynamicDistortions201` §II is explicit, and an earlier version of this file did not honour it:
+`L4-DynamicDistortions201` §II is explicit:
 
 > "Note that this $\theta$ is a temporal phase offset and reaches its limit at $\pi$. The $\theta$ of `L4-DynamicDistortions301` §VI.A is a geometric shear parameter on a single cross-section and reaches its limit at $\pi/2$. Both are torsion; they measure different things."
 
-**The $\vec\theta$ of this action is the first one: a temporal phase offset between the two instances of a dual-causation pair.** It is not a spatial strain. The corpus also writes *phase-shear* for it (`L3-NonSoficTopologicalVolumes` §III), and this file says *phase offset* where the distinction does work and *shear* only as shorthand for that. Part Four §VIII uses the other $\theta$ — DD301's geometric shear, through the CHSH envelope — and the two must not be run together.
-
-That distinction is not housekeeping. It decides whether this action has a parity-clean coupling at all, and Section IV's last subsection is where it pays.
+**The $\vec\theta$ of this action is the first: a temporal phase offset between the two instances of a dual-causation pair.** It is not a spatial strain. Part Four §VIII uses the other $\theta$ — DD301's geometric shear, through the CHSH envelope — and the two must not be run together. That distinction decides whether this action has a parity-clean coupling at all, and the last subsection is where it pays.
 
 ### The three phase offsets are a vector on the cube's axes
 
 `L4-DynamicDistortions201` §II fixes each sign: *"P–U leads I–R (θ > 0)", "P–R leads I–U (θ > 0)", "P–I leads U–R (θ > 0)"* — **positive when the edge containing $P$ leads.** A permutation of the poles sends each bimedian to a bimedian, and keeps or flips the sign according to whether the image of the leading edge still contains $P$.
 
-Computed over all twenty-four permutations, and checked to compose correctly over all 576 pairs, the character class by class is $(3, 1, -1, 0, -1)$ on (identity, transposition, double transposition, 3-cycle, 4-cycle) — and that is, class for class, how the cube's three axes $(x,y,z)$ transform under the tetrahedral group $T_d$ (`scripts/bimedian_parity.py` computes both and compares them). **The triple is the standard representation of $S_4$.** Each element acts as a signed permutation. Each of the engine's rings (`ENGINE` §2.7) — the half-turn holding one bimedian — keeps its own offset and flips the other two, because it exchanges the two edges of each bimedian it does not hold.
+Computed over all twenty-four permutations, and checked to compose correctly over all 576 pairs, the character class by class is $(3, 1, -1, 0, -1)$ on (identity, transposition, double transposition, 3-cycle, 4-cycle) — and that is, class for class, how the cube's three axes $(x,y,z)$ transform under the tetrahedral group $T_d$ (`scripts/bimedian_parity.py`). **The triple is the standard representation of $S_4$.** Each element acts as a signed permutation. Each of the engine's rings (`ENGINE` §2.7) — the half-turn holding one bimedian — keeps its own offset and flips the other two, because it exchanges the two edges of each bimedian it does not hold.
 
 ### Invariants, exactly
 
@@ -148,25 +142,19 @@ The Molien series of this representation settles which couplings respect it:
 
 $$\Delta(\vec\theta) = (\theta_F^2 - \theta_C^2)(\theta_C^2 - \theta_M^2)(\theta_M^2 - \theta_F^2)$$
 
-So the bench's coupling, linear in one offset, is excluded by the carrier's symmetry if the full symmetry of the tetrahedron is kept.
+So a coupling linear in one offset is excluded by the carrier's symmetry if the full symmetry of the tetrahedron is kept.
 
 ### What the coupling has to be odd under
 
-The Nieh–Yan density is the gravitational relative of $F\tilde F$, i.e. of $\mathbf{E}\cdot\mathbf{B}$: it is **odd under parity and odd under time reversal.** The matter coupling of Section III says the same from the other side — the field equation is $\Box F \propto \nabla_\mu j_5^\mu$, and $\nabla\!\cdot j_5 = 2im\,\bar\psi\gamma^5\psi + \text{anomaly}$, whose leading term is the pseudoscalar bilinear, odd under both. Since $\Box$ is even under both:
+The Nieh–Yan density is the gravitational relative of $F\tilde F$, i.e. of $\mathbf{E}\cdot\mathbf{B}$: it is **odd under parity and odd under time reversal.** The matter coupling says the same from the other side — the field equation is $\Box F \propto \nabla_\mu j_5^\mu$, and $\nabla\!\cdot j_5 = 2im\,\bar\psi\gamma^5\psi + \text{anomaly}$, whose leading term is the pseudoscalar bilinear, odd under both. Since $\Box$ is even under both:
 
 > **$F$ must be odd under parity and odd under time reversal.**
 
-An earlier version of this file asked only for parity-oddness. That was half the condition, and the missing half is what decides the question.
-
 ### Both parities are fixed, and neither is a convention
 
-**Time reversal.** $\vec\theta$ is a temporal phase offset. Reverse time and a lead becomes a lag: if $B$ lags $A$ by $\varphi$, then $B(-t)$ leads $A(-t)$ by $\varphi$. So $\theta_i \to -\theta_i$. **$\vec\theta$ is odd under time reversal** — and this is where the distinction at the top of this section pays, because DD301's *geometric* shear would be time-reversal **even**, and then no function of it could meet the condition above at any degree. The corpus has a parity-clean coupling only because its $\theta$ is a phase offset rather than a strain.
+**Time reversal.** $\vec\theta$ is a temporal phase offset. Reverse time and a lead becomes a lag: if $B$ lags $A$ by $\varphi$, then $B(-t)$ leads $A(-t)$ by $\varphi$. So $\theta_i \to -\theta_i$. **$\vec\theta$ is odd under time reversal** — and this is where the distinction at the top of the section pays, because DD301's *geometric* shear would be time-reversal **even**, and then no function of it could meet the condition at any degree. The corpus has a parity-clean coupling only because its $\theta$ is a phase offset rather than a strain.
 
-**Parity.** Spatial parity is central inversion. A bimedian is, by definition, the segment joining the midpoints of two opposite edges — and the centroid is its midpoint, so **the two midpoints are antipodal about the centre.** Inversion therefore *exchanges the two edges of every bimedian*. Computed on the standard cube coordinates (`scripts/bimedian_parity.py`): the midpoint of $P$–$U$ is $(1,0,0)$ and of $I$–$R$ is $(-1,0,0)$; of $P$–$R$ is $(0,0,1)$ and of $I$–$U$ is $(0,0,-1)$; of $P$–$I$ is $(0,1,0)$ and of $U$–$R$ is $(0,-1,0)$. Each pair is antipodal.
-
-Since $\theta$ is defined by *which of those two edges leads*, exchanging them reverses it. **$\vec\theta$ is odd under parity.** It is a polar vector, $T_{1u}$ in the full cubic group, not a shear-strain triple — which settles the ambiguity an earlier version of this file left open, and settles it by the geometry of the bimedian rather than by a reading of a sign convention.
-
-Two notes on what this does *not* rest on. It does not need the manifest-to-dual swap: that swap is also realized by proper rotations of the cube (`ENGINE` §2.3's odd coset), so "parity is the dual walker" would not have been an argument, though `ENGINE` §1.2's third item does identify the antipodal map with duality, which is a supporting observation. And it does not need the corpus's own mirror: `ENGINE` §2.5 names that the **handedness flip** — an odd transposition, the move the machine cannot make — which is a reflection and not an inversion.
+**Parity.** Spatial parity is central inversion. A bimedian is, by definition, the segment joining the midpoints of two opposite edges — and the centroid is its midpoint, so **the two midpoints are antipodal about the centre.** Inversion therefore *exchanges the two edges of every bimedian*. Computed on the standard cube coordinates (`scripts/bimedian_parity.py`): the midpoint of $P$–$U$ is $(1,0,0)$ and of $I$–$R$ is $(-1,0,0)$; of $P$–$R$ is $(0,0,1)$ and of $I$–$U$ is $(0,0,-1)$; of $P$–$I$ is $(0,1,0)$ and of $U$–$R$ is $(0,-1,0)$. Each pair is antipodal. Since $\theta$ is defined by *which of those two edges leads*, exchanging them reverses it. **$\vec\theta$ is odd under parity.** It is a polar vector, $T_{1u}$ in the full cubic group, not a shear-strain triple — settled by the geometry of the bimedian rather than by a reading of a sign convention.
 
 ### The coupling, forced
 
@@ -181,26 +169,25 @@ With $\vec\theta$ odd under both parity and time reversal, $F$ must be of **odd 
 
 $$\boxed{\;F(\vec\theta) \;=\; \theta_F\,\theta_C\,\theta_M\;}$$
 
-**This is the unique coupling that is odd under parity, odd under time reversal, invariant under the full symmetry of the carrier, and free of new dials.** It is the product of the three phase offsets — one per bimedian — so **torsion is sourced at third order, and it vanishes whenever any single bimedian is unsheared.** In cubic notation the coupling is $A_{2u}$: invariant under every rotation and reflection of the tetrahedron, odd under inversion. (Counsel's brief reached the same function and labelled it $A_{1u}$; the label is the one correction, since $xyz$ is $A_{2u}$ in $O_h$.)
+**This is the unique coupling that is odd under parity, odd under time reversal, invariant under the full symmetry of the carrier, and free of new dials.** It is the product of the three phase offsets — one per bimedian — so **torsion is sourced at third order, and it vanishes whenever any single bimedian is unsheared.** In cubic notation the coupling is $A_{2u}$: invariant under every rotation and reflection of the tetrahedron, odd under inversion.
 
-$\Delta$, the sixth-order pseudoscalar that an earlier version of this file carried as its carrier-symmetric option, is **excluded by time reversal** whatever parity turns out to be. That exclusion is the cheapest result in this section and the one most worth checking independently: $\Delta$ has even degree, so it cannot be odd under anything that acts as $\vec\theta \to -\vec\theta$.
+$\Delta$, the sixth-order pseudoscalar, is **excluded by time reversal** whatever parity turns out to be: it has even degree, so it cannot be odd under anything that acts as $\vec\theta \to -\vec\theta$. That exclusion is the cheapest result in this section and the one most worth checking independently.
 
 ### What follows about chirality, and which object carries it
 
-One consequence is worth stating rather than burying. A quantity odd under parity *and* odd under time reversal is, in Barron's terminology, **falsely chiral** rather than truly chiral — the class of $\mathbf{E}\cdot\mathbf{B}$ and of a spinning cone, not of a screw. So the phase-offset triple is falsely chiral, and it is forced to be: the same two parities that force the coupling force this, and there is no parity-clean Nieh–Yan coupling without them.
+A quantity odd under parity *and* odd under time reversal is, in Barron's terminology, **falsely chiral** rather than truly chiral — the class of $\mathbf{E}\cdot\mathbf{B}$ and of a spinning cone, not of a screw. So the phase-offset triple is falsely chiral, and it is forced to be: the same two parities that force the coupling force this.
 
-`ProofG_Chirality` §V holds the same verdict on the same object, in those words, and seats true chirality on a different one — a **two-factor pitch invariant**, the advance of the $\omega$-ratchet times the hand of the closed boundary's circulation. Each factor is time-reversal-odd, so the product is time-reversal-even; the circulation hand is parity-odd while the centroidal advance is parity-even, so the product is parity-odd. Parity-odd and time-reversal-even is Barron's true chirality, and it is built from **two** signed factors where the coupling here has one. The two readings therefore do not compete: the offsets are a local phase field, and the pitch invariant is a global screw whose second factor is the ratchet. Section VIII is why they cannot be the same object — a single action is the held register by construction, and the advance that makes the product time-reversal-even is the committed direction, which no action carries.
+`ProofG_Chirality` §V holds the same verdict on the same object, and seats true chirality on a different one — a **two-factor pitch invariant**, the advance of the $\omega$-ratchet times the hand of the closed boundary's circulation. Each factor is time-reversal-odd, so the product is time-reversal-even; the circulation hand is parity-odd while the centroidal advance is parity-even, so the product is parity-odd. Parity-odd and time-reversal-even is Barron's true chirality, and it is built from **two** signed factors where the coupling here has one. The two readings do not compete: the offsets are a local phase field, and the pitch invariant is a global screw whose second factor is the ratchet. Section VIII is why they cannot be the same object — a single action is the held register by construction, and the advance that makes the product time-reversal-even is the committed direction, which no action carries.
 
-`ProofG_Chirality` §§V, VII closes both parities at source without relying on dimensional exclusion alone: $\hat P$ acts inside the carrier's reversible group $S_4 = \mathrm{Weyl}(A_3)$ on $\{P, U, I, R\}$ (`L3-EdgeStateSpace` §I-c), leaving the off-basis $\omega$-advance and the undirected AbsentVar carry untouched (`L3-EdgeStateSpace` §§VI, IX), while $\hat T$ tracks the non-invertible crossing $H_{\text{incoh}} \to H_{\text{coh}}$ where Route-Law squaring destroys phase (`Q4-OpenExhaust` §II; `L3-TheSelfProjectingBraid` §IV).
-
+`ProofG_Chirality` §§V, VII close both parities at source without relying on dimensional exclusion alone: $\hat P$ acts inside the carrier's reversible group $S_4 = \mathrm{Weyl}(A_3)$ on $\{P, U, I, R\}$ (`L3-EdgeStateSpace` §I-c), leaving the off-basis $\omega$-advance and the undirected AbsentVar carry untouched (`L3-EdgeStateSpace` §§VI, IX), while $\hat T$ tracks the non-invertible crossing $H_{\text{incoh}} \to H_{\text{coh}}$ where Route-Law squaring destroys phase (`Q4-OpenExhaust` §II; `L3-TheSelfProjectingBraid` §IV).
 
 ---
 
 ## V. What Survives Averaging
 
-Now that the coupling is fixed, the averaging question has one answer rather than three, and it matters for how null results are read (Part Six).
+With the coupling fixed, the averaging question has one answer, and it matters for how null results are read (Part Six).
 
-Take a population of configurations — biased, with no symmetry of its own — and close it under a group: include, for every configuration, its image under every element of the group. Then average the coupling over the population. The rule is simple. **An observable that is odd under some element of the closing group averages to zero. An invariant one survives. A positive-definite cost survives everything.** The computation (`scripts/aggregate_parity.py`):
+Take a population of configurations — biased, with no symmetry of its own — and close it under a group: include, for every configuration, its image under every element. Then average the coupling. The rule is simple. **An observable that is odd under some element of the closing group averages to zero. An invariant one survives. A positive-definite cost survives everything.** The computation (`scripts/aggregate_parity.py`):
 
 | Population closed under | $\theta_F\theta_C\theta_M$ (**the coupling**) | $\theta_F$ | $\Delta$ | $\lvert\vec\theta\rvert^2$ (cost) |
 |---|---|---|---|---|
@@ -208,17 +195,17 @@ Take a population of configurations — biased, with no symmetry of its own — 
 | rotations and reflections, $S_4$ | **survives** | 0 | 0 | survives |
 | rotations and inversion ($\vec\theta$ polar) | **0** | 0 | survives | survives |
 
-Read the first column, since that is now the only one that is physics. **The coupling survives averaging over every rotation and every reflection of the tetrahedron, and vanishes only when the population is closed under inversion** — which, inversion being parity, is exactly the statement that a parity-symmetric population averages $F$ to zero. Alternating object or face rotations in $A_4$ do not cancel $F$ in $H_{\text{incoh}}$; only central inversion ($\vec\theta \to -\vec\theta$) does.
+Read the first column, since that is the one that is physics. **The coupling survives averaging over every rotation and every reflection of the tetrahedron, and vanishes only when the population is closed under inversion** — which, inversion being parity, is exactly the statement that a parity-symmetric population averages $F$ to zero. Alternating object or face rotations in $A_4$ do not cancel $F$ in $H_{\text{incoh}}$; only central inversion does.
 
-Two things follow. **First:** a null result for uniform $F$ in a population closed under inversion says nothing about the coupling's strength — $\langle F\rangle = 0$ for every value of $\beta$. Testing a uniform $\dot F$ through $j_5^0$ (§III) requires breaking spatial inversion (a genuinely homochiral or helicity-polarized sample, $\hat P$-odd). Static spin polarization ($\mathbf{j}_5 \sim \boldsymbol{\sigma}$, an $H_{\text{coh}}$ axial dipole) is **$\hat P$-even and $\hat T$-odd**; it does not break spatial inversion on uniform $F$, and instead couples directly to the **spatial gradient** $\nabla F$ ($\hat P$-even, $\hat T$-odd) or lab-boosted components of $\dot F$ in §III's Lagrangian. **Second:** cost does not cancel. A positive-definite quantity survives every averaging, so any reconciliation that waits for the cost of being to wash out in the aggregate waits forever.
+Two things follow. **First:** a null result for uniform $F$ in a population closed under inversion says nothing about the coupling's strength — $\langle F\rangle = 0$ for every value of $\beta$. Testing a uniform $\dot F$ through $j_5^0$ requires breaking spatial inversion (a genuinely homochiral or helicity-polarized sample, $\hat P$-odd). Static spin polarization ($\mathbf{j}_5 \sim \boldsymbol{\sigma}$, an $H_{\text{coh}}$ axial dipole) is **$\hat P$-even and $\hat T$-odd**; it does not break spatial inversion on uniform $F$, and instead couples directly to the **spatial gradient** $\nabla F$ or lab-boosted components of $\dot F$. **Second:** cost does not cancel. A positive-definite quantity survives every averaging, so any reconciliation that waits for the cost of being to wash out in the aggregate waits forever.
 
 The torsion experiments of Part Six use spin-polarized matter to bound exactly those $\hat T$-odd axial components of $\partial_\mu F$.
 
 ---
 
-## VI. The Bound — the First Time the Corpus's Own Quantity Meets an Experiment
+## VI. The Bound — the Corpus's Own Quantity Meets an Experiment
 
-Spin-polarized torsion balances and comagnetometers bound the axial torsion that fermions see at the order of $10^{-31}$ GeV on several components (Kostelecký, Russell and Tasson 2008). With $a = (\beta/3)\,\partial F$, and up to the factor of order one relating $a$ to the measured coefficient:
+Spin-polarized torsion balances and comagnetometers bound the axial torsion that fermions see at the order of $10^{-31}$ GeV on several components (Kostelecký, Russell and Tasson 2008). With $a = (\beta/3)\,\partial F$, and up to a factor of order one:
 
 $$\beta\,\big|\partial F\big| \;\lesssim\; 3\times 10^{-31}\ \text{GeV}.$$
 
@@ -226,21 +213,21 @@ With the coupling fixed, this is no longer a fork. $\partial F/\partial\theta_F 
 
 $$\beta\,\theta^2\,\nu \;\lesssim\; 3\times10^{-31}\ \text{GeV}.$$
 
-**Quadratic suppression, not linear and not quintic.** The bound bites two powers of the offset weaker than on the bench's linear coupling, and three powers harder than it would have on a sixth-order $\Delta$.
+**Quadratic suppression, not linear and not quintic.** The bound bites two powers of the offset weaker than on a linear coupling, and three powers harder than it would on a sixth-order $\Delta$.
 
-**What the bound does not constrain.** $\beta$ is not an unknown interaction strength. In canonical normalization $\varphi = (\beta M_P/\sqrt6)\,F$, both the torsion readout $a_\mu = \sqrt{\tfrac23}\,M_P^{-1}\partial_\mu\varphi$ and the matter coupling $\alpha\sqrt{2\kappa/3}\,(\partial_\mu\varphi)\,j_5^\mu$ are independent of $\beta$: matter couples to $\varphi$ at fixed Planck suppression, and $\beta$ is strictly the dictionary scale $f/M_P$ — like an axion decay constant — converting the dimensionless offset product $F$ into canonical field amplitude. Filed **Substrate** — consumed, never derived, like $c$ or $Z_0$; the experiments bound the product $\beta\theta^2\nu$, never $\beta$ alone. It is promoted to Bridge only if a future derivation derives $f/M_P$ from $K_4$ geometry.
+$\beta$ is not an unknown interaction strength. In canonical normalization $\varphi = (\beta M_P/\sqrt6)\,F$, both the torsion readout $a_\mu = \sqrt{\tfrac23}\,M_P^{-1}\partial_\mu\varphi$ and the matter coupling $\alpha\sqrt{2\kappa/3}\,(\partial_\mu\varphi)\,j_5^\mu$ are independent of $\beta$: matter couples to $\varphi$ at fixed Planck suppression, and $\beta$ is strictly the dictionary scale $f/M_P$ — like an axion decay constant — converting the dimensionless offset product $F$ into canonical field amplitude. Filed **Substrate** — consumed, never derived; the experiments bound the product $\beta\theta^2\nu$, never $\beta$ alone. It promotes to Bridge only if a future derivation derives $f/M_P$ from $K_4$ geometry.
 
-Two consequences. An offset advancing **uniformly** — one global phase rate — produces a timelike axial torsion, a preferred-frame background of exactly the kind these experiments bound. So either the advance is not coherent at laboratory scales (the corpus seats $\omega$ at each bounded frame's own centroid, which is the local reading) or $\beta$ is small. And in this action vacuum torsion is a **gradient**: $\partial_{[\mu}a_{\nu]} = 0$ away from polarized matter. That is the action's sharpest falsifier, and it is listed below.
+Two consequences. An offset advancing **uniformly** — one global phase rate — produces a timelike axial torsion, a preferred-frame background of exactly the kind these experiments bound. So either the advance is not coherent at laboratory scales (the corpus seats $\omega$ at each bounded frame's own centroid, which is the local reading) or $\beta$ is small. And in this action vacuum torsion is a **gradient**: $\partial_{[\mu}a_{\nu]} = 0$ away from polarized matter. That is the action's sharpest falsifier, listed below.
 
 ---
 
 ## VII. The Discrete Reading of "Across the Faces"
 
-The bench's phrase has a correct form, one dimension up. The Nieh–Yan four-form integrated over a four-dimensional cell equals, by Stokes' theorem, the three-form $e^a\wedge T_a$ integrated over the cell's boundary — the **axial torsion flux** through it. A four-simplex has five vertices, which is $K_5$, and its boundary is five tetrahedra, which are $K_4$s:
+The phrase has a correct form, one dimension up. The Nieh–Yan four-form integrated over a four-dimensional cell equals, by Stokes' theorem, the three-form $e^a\wedge T_a$ integrated over the cell's boundary — the **axial torsion flux** through it. A four-simplex has five vertices, which is $K_5$, and its boundary is five tetrahedra, which are $K_4$s:
 
 $$\int_{K_5} N \;=\; \sum_{i=0}^{4} (-1)^i \int_{K_4^{(i)}} e^a \wedge T_a$$
 
-with the alternating signs of the simplicial boundary operator. **The Nieh–Yan charge of a $K_5$ cell is the alternating sum of the axial fluxes through its five $K_4$ facets.** This is a reading, resting on Stokes and the simplicial boundary and nothing else. Its interest is twofold. The alternation the corpus attributes to the chiral mesh is, here, just the boundary operator on a simplex. And the coupling's natural domain is the solid: the three-form is integrated over $K_4$s, which are three-dimensional, and never over faces. It cannot be written on the floor.
+with the alternating signs of the simplicial boundary operator. **The Nieh–Yan charge of a $K_5$ cell is the alternating sum of the axial fluxes through its five $K_4$ facets.** Its interest is twofold: the alternation the corpus attributes to the chiral mesh is, here, just the boundary operator on a simplex; and the coupling's natural domain is the solid — the three-form is integrated over $K_4$s, which are three-dimensional, and never over faces. It cannot be written on the floor.
 
 ---
 
@@ -256,9 +243,7 @@ $$\eta \equiv \frac{m_i}{m_g} - 1 \approx -2\,\frac{P_{\text{diss}}}{m c^2 \omeg
 
 with *"the numerator $P_{\text{diss}}\cdot\tau$ the Landauer tax paid per compilation cycle"* — driven by the tax a frame pays to keep its buffer, not by the energy it holds, and with a fixed sign.
 
-So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. It is also why §IV's chirality result and `ProofG` §V's are about different objects: the factor that makes the pitch invariant time-reversal-even is the ratchet's advance, and the advance is committed. The committed half lies outside any single variational action; empirical tests of the committed register sit at `L4-K4-Infinities` KI-6 and in the open-system $dS_i > 0$ bath law. The classical side is in the same position, for what it is worth: GR takes the equality of inertial and gravitational mass as its founding input, while the corpus recovers it as the limit of zero internal degrees of freedom and attaches a signed departure to it.
-
-`L4-Riemann-wip` records three defects in `QED-EotvosBound` as written, which the averaging rule of Section V exposes — the most serious being that its clock for a passive test mass grows with the mass, which breaks the additivity that any $\eta$ must respect. They belong to that file and are flagged there.
+So an action is the **held** register by construction. The **committed** register — the ledger, the Landauer tax, any $\eta$ — cannot appear in any single action, this one or a better one. That is not a defect of this action. It says what a demand for an action can test: the held half. It is also why §IV's chirality result and `ProofG` §V's are about different objects: the factor that makes the pitch invariant time-reversal-even is the ratchet's advance, and the advance is committed, while an action is the held register. The committed half lies outside any single variational action; empirical tests of it sit at `L4-K4-Infinities` KI-6 and in the open-system $dS_i > 0$ bath law.
 
 ---
 
@@ -278,15 +263,15 @@ So an action is the **held** register by construction. The **committed** registe
 | $\kappa = 8\pi G = M_P^{-2}$ | — | **Substrate** — consumed, never derived |
 | $\alpha$ | minimal-coupling number | **Grammar** — fixed by the Dirac operator |
 | $\beta$ | dictionary scale $f/M_P$ | **Substrate** — consumed, never derived (canonical readouts $\beta$-independent; the bound constrains $\beta\theta^2\nu$, not $\beta$ alone) |
-| choice of $F$ | $\theta_F\theta_C\theta_M$ | **Grammar** — forced by P-odd, T-odd and carrier symmetry; no longer a fork |
+| choice of $F$ | $\theta_F\theta_C\theta_M$ | **Grammar** — forced by P-odd, T-odd and carrier symmetry |
 | bare kinetic scale | **not needed** — induced, $f = \beta M_P/\sqrt6$ | — |
 | torsion bound | $\sim 10^{-31}$ GeV | **State** — experimental input |
 
-**One prohibition.** $\beta$ must not be borrowed from the Barbero–Immirzi parameter. Structurally this action is the Barbero–Immirzi-field model with the parameter promoted to a function of the offsets, and the identification *"the corpus's chirality is the Barbero–Immirzi parameter"* is a route that does not work (Part Six): $\gamma$ is a quantization ambiguity, and borrowing its value would be a dressed dial.
+**One prohibition.** $\beta$ must not be borrowed from the Barbero–Immirzi parameter. Structurally this action is the Barbero–Immirzi-field model with the parameter promoted to a function of the offsets, and $\gamma$ is a quantization ambiguity; borrowing its value would be a dressed dial.
 
 This action tests only the held sector: the offsets $\vec\theta$, entering through the axial Nieh–Yan channel. The self-feeding recurrence lives at `ENGINE-REFERENCE-AC` §X item 4, and committed-side tests sit outside single-action variation (Section VIII).
 
-**What would make this a Bridge.** One thing now, where there were two: the corpus fixes $\beta$ from $K_4$ structure with no free parameter, and the resulting relation is checked at more than one configuration. $F$ is no longer owed.
+**What would make this a Bridge.** The corpus fixes $\beta$ from $K_4$ structure with no free parameter, and the resulting relation is checked at more than one configuration.
 
 ### Checks and kills this part adds
 
@@ -295,25 +280,25 @@ This action tests only the held sector: the offsets $\vec\theta$, entering throu
 1. **Coefficients.** Show that $(-\tfrac23, \tfrac32, \tfrac12)$, the absence of cross terms, or the closed-form torsion solution are wrong.
 2. **Health.** Show that a coupling sourcing only the trace vector is healthy. That contradicts $c_v < 0$.
 3. **Representation.** Show that, under DD201's convention, $\vec\theta$ is not the standard representation of $S_4$.
-4. **Parity.** Show that central inversion does **not** exchange the two edges of each bimedian. That would unfix the coupling, and it is a two-line coordinate check.
-5. **Time reversal.** Show that DD201's $\theta$ is not odd under time reversal — that a phase lead does not become a lag. That would leave no parity-clean coupling at any degree, which is a sharper outcome than the one this part reaches.
+4. **Parity.** Show that central inversion does **not** exchange the two edges of each bimedian. A two-line coordinate check.
+5. **Time reversal.** Show that DD201's $\theta$ is not odd under time reversal — that a phase lead does not become a lag. That would leave no parity-clean coupling at any degree.
 
 *Kills — events in the world:*
 
 6. **Curl.** In this action, vacuum axial torsion is a gradient. **A measured axial torsion background with non-vanishing curl, away from polarized matter, falsifies it.**
-7. **The coupling's own zero — the file's sharpest.** $F = \theta_F\theta_C\theta_M$ vanishes when **any single bimedian is unsheared**, and the kill is stated on the configuration, not the crossing. **Held statically** at one offset zero ($\theta_i \equiv 0 \Rightarrow \partial_\mu F = 0$): exhibit geometric torsion sourced by such a configuration, and this action is dead. A configuration merely passing through one offset zero still sources torsion — while for instance at $\theta_F = 0$ alone, $\nabla F = (\theta_C\theta_M,\ 0,\ 0) \neq 0$, so $a_\mu = \tfrac{\beta}{3}\,\theta_C\theta_M\,\partial_\mu\theta_F \neq 0$. And at any point where **two offsets vanish** ($\theta_i = \theta_j = 0$, where $\nabla F = 0$ identically), the kill holds to first order in fluctuations.
+7. **The coupling's own zero — the file's sharpest.** $F = \theta_F\theta_C\theta_M$ vanishes when **any single bimedian is unsheared**, and the kill is stated on the configuration, not the crossing. **Held statically** at one offset zero ($\theta_i \equiv 0 \Rightarrow \partial_\mu F = 0$): exhibit geometric torsion sourced by such a configuration, and this action is dead. A configuration merely passing through one offset zero still sources torsion — at $\theta_F = 0$ alone, $\nabla F = (\theta_C\theta_M,\ 0,\ 0) \neq 0$, so $a_\mu = \tfrac{\beta}{3}\,\theta_C\theta_M\,\partial_\mu\theta_F \neq 0$. At any point where **two offsets vanish** ($\nabla F = 0$ identically), the kill holds to first order in fluctuations.
 
 ---
 
 ## What Reading Part Five Back Should Leave
 
-The action the bench asked for did nothing, for five checkable reasons. The action that does something couples a function of the three bimedian phase offsets to the Nieh–Yan density, and everything follows from it in closed form. Torsion is forced into the axial channel, because that is the only channel a scalar can use without producing a ghost. The offset acquires dynamics from geometry with no new scale. Only one combination of the three is visible to geometry. Matter sources it through the divergence of the axial current. And the torsion-free connection reappears as what geometry does when the offsets stop changing: Riemann's freeze is the stationary sector of an action that has now been written.
+The natural first action does nothing, for five checkable reasons. The action that does something couples a function of the three bimedian phase offsets to the Nieh–Yan density, and everything follows in closed form. Torsion is forced into the axial channel, because that is the only channel a scalar can use without a ghost. The offset acquires dynamics from geometry with no new scale. Only one combination of the three is visible to geometry. Matter sources it through the divergence of the axial current. And the torsion-free connection reappears as what geometry does when the offsets stop changing: Riemann's freeze is the stationary sector of an action that has now been written.
 
-Which function couples is no longer open. The Nieh–Yan density is odd under parity and odd under time reversal, so $F$ must be too. Central inversion exchanges the two edges of every bimedian — because the centroid is the bimedian's own midpoint — so each offset is parity-odd. A phase lead becomes a lag under time reversal, so each offset is time-reversal-odd as well, and that second half is available only because DD201's $\theta$ is a *temporal* offset and not a geometric strain. Odd degree is therefore forced, the sixth-order candidate is excluded, and the unique carrier-symmetric survivor is the product of all three: $F = \theta_F\theta_C\theta_M$, third order, vanishing whenever any one bimedian is unsheared. The dimensional question of Part Two is answered here rather than merely posed — and the answer makes the action easier to kill, not harder.
+Which function couples is not open. The Nieh–Yan density is odd under parity and odd under time reversal, so $F$ must be too. Central inversion exchanges the two edges of every bimedian — because the centroid is the bimedian's own midpoint — so each offset is parity-odd. A phase lead becomes a lag under time reversal, so each offset is time-reversal-odd as well, and that second half is available only because DD201's $\theta$ is a *temporal* offset and not a geometric strain. Odd degree is forced, the sixth-order candidate is excluded, and the unique carrier-symmetric survivor is the product of all three: $F = \theta_F\theta_C\theta_M$, third order, vanishing whenever any one bimedian is unsheared. The dimensional question of Part Two is answered here rather than merely posed — and the answer makes the action easier to kill, not harder.
 
 Odd under both parities means the offset triple is falsely chiral in Barron's sense, which `ProofG` §V says of the same object in the same words. True chirality lives on a different object there — a two-factor pitch invariant whose second factor is the ratchet's advance — and §VIII is why one action cannot hold both: the advance is committed, and an action is the held register.
 
-Populations average $F$ away exactly when closed under inversion (parity-symmetric), and never average away the cost. Parity-symmetric nulls bound nothing on $\langle F\rangle$, while spin-polarized experiments ($\hat P$-even, $\hat T$-odd) bound the axial torsion components of $\partial_\mu F$ (scaling as $\beta\theta^2\nu$) at about $10^{-31}$ GeV, the first contact between the corpus's own quantity and a measurement.
+Populations average $F$ away exactly when closed under inversion, and never average away the cost. Parity-symmetric nulls bound nothing on $\langle F\rangle$, while spin-polarized experiments ($\hat P$-even, $\hat T$-odd) bound the axial torsion components of $\partial_\mu F$ (scaling as $\beta\theta^2\nu$) at about $10^{-31}$ GeV, the first contact between the corpus's own quantity and a measurement.
 
 And an action can only hold. The committed register is not in it and cannot be put there. Testing the ledger needs an instrument that dissipates.
 
@@ -330,7 +315,7 @@ And an action can only hold. The committed register is not in it and cannot be p
 * Galley, C. R. (2013). *Classical mechanics of nonconservative systems*. Phys. Rev. Lett., 110, 174301. arXiv:1210.2745.
 * Barron, L. D. (1986). *True and false chirality and parity violation*. Chem. Phys. Lett., 123, 423–427.
 
-*Verification:* `scripts/torsion_action.py` (§III, and the inertness of the demanded term in §I); `scripts/bimedian_parity.py` (§IV: the inversion check, the $T_d$ character against $(x,y,z)$, and the parity/time-reversal table); `scripts/aggregate_parity.py` (§V); `scripts/engine_connection.py` (the U1 line in §IX, with Part One §IV).
+*Verification:* `scripts/torsion_action.py` (§III, and the inertness of the natural term in §I); `scripts/bimedian_parity.py` (§IV: the inversion check, the $T_d$ character against $(x,y,z)$, and the parity/time-reversal table); `scripts/aggregate_parity.py` (§V); `scripts/engine_connection.py` (the §IX connection line, with Part One §IV).
 
 ---
 
