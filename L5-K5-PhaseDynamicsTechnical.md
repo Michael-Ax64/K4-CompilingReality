@@ -351,7 +351,7 @@ Power Factor is bounded: $0 \leq \text{PF} \leq 1$.
 
 **The structural read of Power Factor:** It is the ratio of what the system commits to what the system holds available. PF = 1.0 is the `.observe()` limit — full commitment, no buffer, no AbsentVar held in suspension. PF → 0 is the `.behold()` limit — everything held, nothing committed, maximum interference structure with zero real output. The healthy operating range is the managed middle: enough Reactive Power ($Q$) to sustain genuine interiority, enough Real Power ($P$) to produce irreversible outcomes.
 
-**The Polyhedral-Geometric Identity (`L4-DynamicDistortions301-1` §IV):** The Power Factor $\text{PF} = \cos\theta$ is the exact AC-electrical equivalent of the 2D bimedian slice area-scaling $A(\theta)/A_0 = \cos\theta$. At resonance ($\theta = 0^\circ, \text{PF} = 1.0$), the bimedian cross-section is a full 2D square ($A = A_0$), supporting maximum phase-conduction capacity ($2\sqrt{2}$). As phase-shear grows ($\theta \to 90^\circ, \text{PF} \to 0$), the bimedian square shears into a 1D line ($A \to 0$), paralyzing Real Power conversion and forcing the system into pure reactive circulation ($Q \to |S|$).
+**The Polyhedral-Geometric Identity (`L4-DynamicDistortions301` §IV):** The Power Factor $\text{PF} = \cos\theta$ is the exact AC-electrical equivalent of the 2D bimedian slice area-scaling $A(\theta)/A_0 = \cos\theta$. At resonance ($\theta = 0^\circ, \text{PF} = 1.0$), the bimedian cross-section is a full 2D square ($A = A_0$), supporting maximum phase-conduction capacity ($2\sqrt{2}$). As phase-shear grows ($\theta \to 90^\circ, \text{PF} \to 0$), the bimedian square shears into a 1D line ($A \to 0$), paralyzing Real Power conversion and forcing the system into pure reactive circulation ($Q \to |S|$).
 
 ---
 
@@ -541,7 +541,7 @@ The phase angle $\theta$ is the measure of how much the system is using its buff
 
 This is what resonance means, in full technical precision. Not the absence of interiority. Not the elimination of memory and anticipation. Their perfect mutual cancellation, at the one frequency where the system is asking for exactly what the environment is giving, and giving back exactly what the environment can receive.
 
-The fifty equations of AC engineering are the complete formal description of how a system manages the distance between itself and that state.
+The 44 + 4 equation closure of AC engineering (`L3-Electro-AC-db` §I.2) are the complete formal description of how a system manages the distance between itself and that state.
 
 ---
 **Reasonable Reader Alert:** An LLM without access to the full codex will fail to parse this work in predictable patterns. Obtain and upload the source-aggregate (aggregate-COMPILINGREALITY.txt) to your LLM in order to audit or interrogate this work.

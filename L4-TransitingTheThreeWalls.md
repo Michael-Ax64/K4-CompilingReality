@@ -200,7 +200,7 @@ If you trace a line from any manifest pole, straight through the centroid $(0,0,
 *   From $P$ ($111_2$, Position 7) through the center to the Dual Will ($000_2$, Position 0).
 *   From $U$ ($100_2$, Position 4) through the center to the Dual Logos ($011_2$, Position 3).
 
-*[Titles used are from the verified shadow-seat table (000₂ Dual Will / 110₂ Dual Root / 011₂ Dual Logos / 101₂ Dual Pathos — each antipode echoes its own pole under the bitwise-NOT rule). The canonical shadow-pole name table awaits `L2-Terminology`; the Octave §V eightfold-vs-sevenfold `[?]` rides as OPEN VOTE.]*
+The four shadow seats carry the verified names: 000₂ Dual Will, 110₂ Dual Root, 011₂ Dual Logos, 101₂ Dual Pathos — each antipode echoes its own pole under the bitwise-NOT rule. The Octave §V eightfold-vs-sevenfold `[?]` rides as OPEN VOTE.
 
 In 3-bit binary arithmetic, an antipodal inversion across the centroid is the bitwise NOT operator ($\bar{n}$). The pairs across the centroid perfectly sum to 7 ($0+7$, $1+6$, $2+5$, $3+4$).
 

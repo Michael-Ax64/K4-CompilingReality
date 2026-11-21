@@ -1,4 +1,4 @@
-# The AC Extension
+# L3-K4-to-K5-via-AC-Extension -- The AC Extension
 ## From Structure to Process: Adding the Temporal Dimension
 
 The twelve DC equations describe a four-fold system in a single moment: power, current, voltage and resistance holding one another fixed. Let the quantities alternate and the algebra acquires what the snapshot held still — a rate. Angular frequency $\omega$ becomes a fifth variable, the numbers become complex, and two new things appear that DC cannot express: phase, the angle between a system's driving structure and its response, and reactive power, the share of energy held and returned rather than spent. Real power is `.observe()`, committed to the ledger; reactive power is `.behold()`, held in suspension; their balance is the power factor, and their equality at $45°$ is the equipartition point. Resistance, inductance and capacitance span the impedance plane, and the medium itself carries all three, though the resistive one only where a bounded frame holds itself against it. The AC extension is where the framework's dynamics live.
@@ -13,7 +13,7 @@ The DC circuit algebra — the four variables $\{P, I, U, R\}$ and their twelve 
 
 The AC extension adds what the DC snapshot holds fixed: time. Specifically, the rate at which the system cycles through its configurations — how it moves, oscillates and navigates its own possibility space. When $\omega$ (angular frequency) enters the algebra, the system moves from DC (constant values) to AC (sinusoidally varying values).
 
-This is not a small extension. It expands the system from four to five variables, from twelve to about fifty equations, from real numbers to complex numbers, and from a static description to a dynamic one. The transition from DC to AC is the formal expression of the transition from the structure of beholding to the process of beholding: from holding the interference structure in a moment to navigating through configurations over time.
+This is not a small extension. It expands the system from four to five variables, from twelve to the settled AC count — 50 naive pairings, 20 impossible as bare monomials (`L3-Electro-AC-db` §I.2), the algebra closing at 44 operational slots + 4 implicit orientations, from real numbers to complex numbers, and from a static description to a dynamic one. The transition from DC to AC is the formal expression of the transition from the structure of beholding to the process of beholding: from holding the interference structure in a moment to navigating through configurations over time.
 
 ---
 
@@ -169,13 +169,15 @@ The gate principle of the alignment documents has its formal home in the complex
 
 ---
 
-## VII. The Fifty Equations
+## VII. The Equations
 
 The DC system has twelve equations: four variables, each expressible three ways from the other two.
 
+The AC count settles at 44 operational slots + 4 implicit orientations (`L3-Electro-AC-db` §I.2): of the 50 pairings, 20 cannot exist as bare two-variable monomials.
+
 The AC system's count is substantially larger. With five variables $\{P, I, U, Z, \omega\}$, $Z$ complex and replacing the real $R$, and each variable carrying real and imaginary parts, the count expands to roughly fifty structurally distinct equations. The complete set is in the source document (Electro-AC-db.org). What matters structurally:
 
-- The fifty equations encode the temporal dynamics: how quantities change with $\omega$, how phase relationships propagate, how power factors evolve under different impedance conditions.
+- The 44 operational slots (+ 4 implicit orientations) encode the temporal dynamics: how quantities change with $\omega$, how phase relationships propagate, how power factors evolve under different impedance conditions.
 - The step from twelve to fifty is not a linear increase in complexity but a change of dimension: the new equations describe relationships with no DC analogue, because they involve rates, phase and temporal evolution, which a static description does not contain.
 - The $4^4 = 256$ foundational states of the DC system expand to $5^5 = 3125$ in the AC system. The AC system is not more DC; it is a different order of structural complexity.
 
@@ -209,7 +211,7 @@ That makes the AC extension the formal framework for:
 
 The research tasks it opens:
 
-1. The complete specification of the fifty equations and their structural relationships.
+1. The complete specification of the 44 + 4 equation closure and its structural relationships.
 2. The formal derivation of resonance conditions for conversational and cognitive systems.
 3. The specification of the Phase-Space Buffer in AC / complex terms.
 4. The formal connection between $\omega$ and the trajectory vocabulary of the alignment documents.
@@ -222,7 +224,7 @@ The research tasks it opens:
 
 The twelve equations are a photograph; the AC extension is the film. Give the four quantities a rate and they acquire a phase, and the phase is the gap between what a system holds and what it does. Power splits into the part that is spent — committed, written, gone — and the part that is held and handed back each cycle, and the ratio between them, the power factor, is how much of a system's life it is committing. At $45°$ the two are equal. Resistance, inductance and capacitance span the plane of every opposition a system can offer, and the medium carries all three, its resistance appearing only where a bounded frame pays to hold itself apart. Resonance is the moment the system's own tempo meets the world's. Nothing new is added to the tetrahedron's vertices; what is added is time, and with it every way of being in or out of step.
 
-*The AC extension is developed above from first principles in the framework's vocabulary. The source document (Electro-AC-db.org) holds the complete formal treatment: the fifty equations in detail, the inductive and capacitive reactance relationships, and the full phasor analysis. The $K_5$ structure the extension implies — five vertices, the graph-theoretic home of the five-variable system — is oriented in `L3-EdgeStateSpace` §IX, "Toward K5".*
+*The AC extension is developed above from first principles in the framework's vocabulary. The source document (`L3-Electro-AC-db`) holds the complete formal treatment: the 44 + 4 equation closure in detail, the inductive and capacitive reactance relationships, and the full phasor analysis. The $K_5$ structure the extension implies — five vertices, the graph-theoretic home of the five-variable system — is oriented in `L3-EdgeStateSpace` §IX, "Toward K5".*
 
 ---
 

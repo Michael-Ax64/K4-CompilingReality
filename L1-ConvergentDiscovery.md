@@ -480,7 +480,7 @@ The framework's position is not that Pathos should be excluded — Pathos is a f
 
 ## PART IV: WHAT THE CONVERGENCE SHOWS
 
-Twenty-four independent traditions — separated by centuries and millennia, using different methods, addressing different phenomena, in different languages and cultures — have all found the same four-fold structure. The primary convergence table:
+Twenty-two traditions tabled; the body surveys twenty-three in full — two of them resist a table row (§24 is the framework itself, self-excluded) — separated by centuries and millennia, using different methods, addressing different phenomena, in different languages and cultures — have all found the same four-fold structure. The primary convergence table:
 
 | Tradition | `++` Fire/P | `−−` Water/I | `+−` Air/U | `−+` Earth/R |
 |---|---|---|---|---|

@@ -1,9 +1,9 @@
 # Proof Q: The Algebraic Syntax
 ## The Operators as Generative Grammar
 
-> **Claim:** The dual-binary seed (Active/Reactive × Asserting/Yielding) and the K3/K4 topological boundary are mathematically hard-coded into the basic arithmetic operators ($\times, \div, \sqrt{}, x^2$) of the 12 DC and 49 AC equations. The compiler does not project semantic meaning onto the algebra; the arithmetic operators enforce the semantics.
-> **Type:** Structural proof (Algebraic morphology), verified mechanically.
-> **Method:** Parses the equation set by operator class (linear vs. non-linear, multiplication vs. division, numerator vs. denominator) to demonstrate that the syntax natively auto-classifies the state-space. Mechanized traces enforce the rules and crash on topological impossibilities.
+> **Claim:** The dual-binary seed (Active/Reactive × Asserting/Yielding) and the K3/K4 topological boundary are mathematically hard-coded into the basic arithmetic operators ($\times, \div, \sqrt{}, x^2$) of the 12 DC equations and the AC closure at 44 operational slots + 4 implicit orientations (`L3-Electro-AC-db` §I.2). The compiler does not project semantic meaning onto the algebra; the arithmetic operators enforce the semantics.
+> **Type:** Structural proof (Algebraic morphology).
+> **Method:** Parses the equation set by operator class (linear vs. non-linear, multiplication vs. division, numerator vs. denominator) to demonstrate that the syntax natively auto-classifies the state-space. The syntax itself enforces the rules and crashes on topological impossibilities.
 
 *From the Compiling Reality proof suite. Self-contained. The epistemology is an auto-classifying arithmetic syntax: the framework does not assign qualitative meaning to the variables by a subjective mapping heuristic — the position of a variable in a fraction or under an exponent geometrically determines its role in compiling reality.*
 

@@ -52,7 +52,7 @@ The axes are Active/Reactive and Asserting/Yielding. Their orthogonal combinatio
 
 These four poles are not chosen. They are forced by the logic of binary orthogonality: two distinctions, each exhaustive and exclusive, combined without remainder. Any relational system that can be characterized by these two axes — and any system involving energy, flow, opposition, and result can be — must exhibit exactly these four poles.
 
-The closure properties that follow — the twelve equations in which every variable is expressible from every other pair, with no variable reducible to the others — are derived in L3-FormalFoundations_Synthesis (Requirements R1-R7). The four-fold is not merely present; it is complete, minimal, and unique among four-variable systems satisfying those requirements.
+The closure properties that follow — the twelve equations in which every variable is expressible from every other pair, with no variable reducible to the others — are derived in `L3-FormalFoundations` §II (Requirements R1–R7). The four-fold is not merely present; it is complete, minimal, and unique among four-variable systems satisfying those requirements.
 
 The dual-binary derivation descends from the logic of distinction itself. It does not begin with physics. It begins with the minimum structure of a two-axis coordinate system and derives the four-fold from there. It would arrive at P/I/U/R whether or not electricity existed as a physical phenomenon.
 
@@ -91,7 +91,7 @@ Uniqueness of the four-fold among four-variable systems is not established here 
 
 ---
 
-*Related proofs: L1-ConvergentDiscovery (the convergence table — breadth argument, distinct from this proof's depth argument); L3-FormalFoundations_Synthesis (the closure requirements R1-R7 that establish the carving is complete and unique); L3-K4-to-K5-via-AC-Extension (the extension of the substrate structure into the temporal dimension via ω); ProofF_Friston (the Markov blanket as the boundary structure within which charge dynamics generates interiority).*
+*Related proofs: L1-ConvergentDiscovery (the convergence table — breadth argument, distinct from this proof's depth argument); `L3-FormalFoundations` §II (the closure requirements R1–R7 that establish the carving is complete and unique); L3-K4-to-K5-via-AC-Extension (the extension of the substrate structure into the temporal dimension via ω); ProofF_Friston (the Markov blanket as the boundary structure within which charge dynamics generates interiority).*
 
 ---
 

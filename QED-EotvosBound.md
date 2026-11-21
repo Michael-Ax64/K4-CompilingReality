@@ -111,7 +111,7 @@ Evaluating the master equation across the full physical spectrum demonstrates wh
 ========================================================================================
 ```
 
-*Thermal ceiling (`L4-Thermodynamics` §V.2 — which already says "Supplies `QED-EotvosBound`'s intensive clock"): $\omega_{\text{Planckian}} = k_B T/\hbar$ bounds the spectrum from above — the $|\eta|$ floor for any dissipating frame at T ($\approx -7.83\times10^{-30}$ at 310 K for this file's own ~20 W / 1.4 kg brain frame); the frame's actual clock sits at or below the ceiling. Clock-meter framing kept: the ceiling is a bound, not a regime.*
+*Thermal ceiling (`L4-Thermodynamics` §V.2 — which already says "Supplies `QED-EotvosBound`'s intensive clock"): $\omega_{\text{Planckian}} = k_B T/\hbar$ bounds the spectrum from above — the $|\eta|$ floor for any dissipating frame at T ($\approx -7.83\times10^{-30}$ at 310 K for this file's own 20 W / 1.4 kg brain frame); the frame's actual clock sits at or below the ceiling. Clock-meter framing kept: the ceiling is a bound, not a regime.*
 ### 1. The Compton Floor (Atomic / Laboratory Masses)
 For elementary particles, nuclei, and unorganized solid-state masses (such as the platinum and titanium test cylinders aboard the MICROSCOPE satellite), there is no decoupled macro-buffer. Each constituent compiles at its fundamental quantum Compton frequency:
 

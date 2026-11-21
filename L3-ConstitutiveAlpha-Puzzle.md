@@ -239,7 +239,7 @@ $$[\ell_P^2] \times [\Lambda] = \text{m}^2 \times \text{m}^{-2} = 1$$
 This dimensionless product is the **Planck angle squared**:
 $$\theta_\Lambda^2 = \left(\frac{\ell_P}{R_\Lambda}\right)^2 \approx 10^{-122}$$
 
-In `L4-DynamicDistortions-Sudoku-log.md` (LOG-10), the carrier step $2/\alpha \approx 274.072$ generates the **25-rung cosmological cascade**:
+In `L4-DynamicDistortions-Sudoku-log.md` (LOG-10), the carrier step $2/\alpha \approx 274.072$ generates the **25-rung cosmological cascade** — **[QUARANTINED]**: a wip-era draft extrapolation (`L4-K4-Infinities-wip` §1.4–1.5), held as an arithmetic resonance of the $(2/\alpha)^{25}$ identity and contra this file's own §II scoping (the Nambu puzzle evaluates the exterior parity edge at Generation 1 and refuses values of scale) — not a landed derivation; its grounding belongs to the corpus's falsifier discipline (`L3-TheAtomOfSpace` §IX L346).
 $$\left(\frac{2}{\alpha}\right)^{25} \approx \frac{R_\Lambda}{\ell_P} \approx 10^{61} \implies \left(\frac{2}{\alpha}\right)^{50} \approx \frac{1}{\theta_\Lambda^2} \approx 10^{122}$$
 
 The Nambu step $2/\alpha$ is the single-rung step ratio of the 25-step ladder spanning from the Planck floor to the cosmological horizon.
@@ -342,6 +342,7 @@ Four pre-registered kill conditions bound the construction:
 | Dimensional Budget | `[EXACT]` | Net units zero at apex; $[\ell_P^2 \cdot \Lambda] = 1$ | Log-dimensional audit |
 | Per-Channel Tax | `[IDENTIFIED]` | Identified with Schwinger's topological anomaly $\alpha/(2\pi)$ | Gauge-phase bridge |
 | Continuum Delta | `[DEMARCATED]` | $-2.843\text{ ppm}$ ($-397\text{ eV}$, $2.20\sigma$) physical dressing | ChPT / QED bath |
+| Bare-Ratio Coefficients | `[OPEN VOTE]` | shape-landed (on-shell boundary traversal of the one $K_4$ atom, CA §IV/§V); closing runs through the §VII gap-equation landing (`Q17`'s $16\pi^2 = 8\Omega_4$ candidate prefactor) | KD-2 arbitration (PSI A1b) for the $-397$ eV dressing pocket; `L4-Riemann-6` §V |
 | Neutral Kaon Test | `[ARMED]` | Falsifier $F\text{-}G4$, kill boundary $\Delta = 2097.7\text{ ppm}$ | Pre-registered |
 | Operating Point | `[OPEN]` | Laboratory Bell transmission test (Fork B) | Experimental |
 | $\alpha$ Magnitude | `[REFUSED]` | Substrate residual (Gabriel's Horn) | Not claimed |
