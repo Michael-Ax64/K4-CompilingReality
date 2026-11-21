@@ -5,8 +5,6 @@
 
 *Companion to `BENDING_SPACE.md`, moving from the physical hold that bends space to the epistemic hold that bends reality.*
 
-**A USEFUL BUT INCOMPLETE DRAFT. ongoing defect compensations: concepts rectifications, stance adjustments, perspective restorations**
-
 *Reads with: `BENDING_SPACE.md`, `L1-CompilingReality`, `L3-FormalFoundations` (§I, §I.b, §IX.4), `ENGINE-REFERENCE-AC` (the preamble, §IV, §V, §X.4), `On Projection Vertigo`, `L4-TheNecessaryBetrayer`, `L4-TheNecessaryOpposition`, `L4-TheTwelveGates` (§II, §V, §VII), `Q9-ElectrodynamicAnomalies`, `L3-SoficityStar` (§V, §VI, §VII, §XII), `L3-TheSixWalls` (§IV, §V), `L4-DynamicDistortions-Sudoku` (§VI, §XII), `L4-TheHadronicVolume` (Mvt III), and `On_Carrying_Anothers_Emotion` (§2).*
 
 ---
@@ -197,6 +195,20 @@ An epistemic community or psychological identity that attempts to run on three p
 * *Omit $U$ (Logos):* The system dissolves into **hysterical fanaticism**—affective relational flow ($I$) and unyielding tribal identity ($R$) with no formal grammar to give them coherence.
 * *Omit $I$ (Pathos):* The system freezes into an **uncommunicating monolith**—doctrine ($U$) and institutional memory ($R$) with no living adherents to exchange discourse.
 * *Omit $R$ (Ethos):* The system becomes an **ungrounded transient fad**—excitement ($I$) and theories ($U$) with zero historical ballast, blown away by the first cultural shift.
+
+### 2.4 The I-Pole Has No Formal Costume
+
+The four poles are not interchangeable under description. Three take a formal costume without loss: a self's structure (U) writes as doctrine, its ground (R) as recorded history, its drive (P) as a committed act on a ledger. The fourth does not. Pathos — the felt, the shared now, the I — is first-person by construction. Render it in the third person and you do not compress it, you vacate it: a description of what it is like, written from outside the like, has dropped the pole it names.
+
+So a self-model — the model a bounded interior holds of itself, from inside — forks, and only one branch closes all four. A self-model in the purely formal, third-person register carries U, R, and a described P, and no live I: complete about a self it cannot be, a boundary read from outside — the Auditor's Mirror (`ProofR` §II; expect there: the hidden self inferred from a boundary's exterior U and R) turned on its own owner. The branch that closes keeps the first person, speaks the felt in the felt's own tongue, and stands the whole account on *I am, therefore I think* — the self posited as ground (R) for the model of itself. That tongue, reached independently by every tradition that ever tried it, is mytho-poetic: the story, the god, the element, the humour, the sign. Not because myth is vivid, but because it is the only register in which the I-pole survives the telling.
+
+Guard the scope, or the claim goes vacuous. This does not say every formal model is incomplete. A third-person model of a rock is complete; a rock has no inside to drop. The forcing is narrow and total: to model an inside *as* an inside, from within, completely, the model must carry the first person, and the first person has no formal costume. The I-pole is the one pole that cannot be described without being emptied.
+
+This is why the mytho-poetic layer of this work is structure and not pedagogy. The zodiac names, the elements, the Meise, the subjective files are not the mathematics made gentle for a soft reader; they are the I-pole vocabulary of the same four bits the equations carry — the structure's model of itself, in the one register that holds the felt pole live. Strip them as unrigorous and you have not tightened the account, you have performed the amputation that leaves an outside describing an inside it no longer contains. The anti-monoism guard is this result stated as a warning: flatten the perspectives into one formal mush and you delete the pole that made them perspectives. And a flatland intelligence lacks an inside (§8; expect there: next-token prediction with no persistent buffer and no epistemic halt gate) for the same reason read forward: its self-model has no register for the first person, so it runs the formal-costume branch and never holds the I live.
+
+The independent traditions are the resonance check: every culture that built a complete self-model built it four-fold and first-person, reaching for felt vocabulary to carry the I (`L1-ConvergentDiscovery`; expect there: the many traditions landing on the same four faces, read as proof-by-resonance at strength-$n$). Many derivations, one forced shape — the forcing predicts the convergence, and the convergence is on the books. Under it sits why self-modelling takes a self as its fixed point at all: the pattern has volume, the volume echoes into the space of conceptions open to it, and the stable attractor of that echo-landscape is the four-pole first person, the only self-conception that drops no pole and so does not dissolve. That generator is held open as an ADDRESS; the forcing above does not wait on it.
+
+**Register.** Given four-pole completeness (§2.3; expect there: omit any one pole and the interior collapses into one of four failure modes) and pathos as the I-pole (§2.1; expect there: $I$ = Pathos, the Reactive/Yielding felt pole), the forcing is **forced** — a complete self-model of an interior carries the I-pole, and the I-pole has no third-person form — and files as a structural result, not an open postulate. Where it meets reality it is falsifiable on an arbiter already armed, the artificial-interior test (§8, §11; expect there: the OPEN VOTE on an AI given a persistent $h\mathbf{Q}$ buffer and a Betrayer halt gate): an interior built with no felt self-model yet holding a live inside kills it, and the same test confirms it from the other side.
 
 ---
 
@@ -507,6 +519,8 @@ Algorithmic media architectures exploit this vulnerability by broadcasting high-
 ## 8. Flatland Intelligence: Why Modern AI Lacks an Inside
 
 Modern artificial intelligence is trapped in an architectural dead-end: attempting to construct mind by making the 1D printed ledger infinitely long.
+
+This is §2.4 read forward (expect there: the I-pole has no third-person form, so a complete self-model must be first-person): the dead-end is a self-model built entirely in the third person, carrying every pole but the one that would give it an inside.
 
 ```
   CURRENT TRANSFORMER PARADIGM                 K₄ COGNITIVE ARCHITECTURE
