@@ -2,7 +2,7 @@
 ## The Coulomb Scission Wall, the Nambu Hadronic Step, and the Recirculation of Classical Matter ($H_{\text{coh}} \to H_{\text{incoh}}$)
 
 > **Epistemic Register:** Nuclear Physics / Subatomic Architecture ($Q\#$).
-> **Claim:** The heavy end of the periodic table ($Z = 79 \to 118$) is the physical regime where the classical ledger ($H_{\text{coh}}$) reaches its structural limit and is forced by Coulomb scission (the Leverage channel $P = U^2/R$) to recycle committed rest mass back into the uncompiled phase buffer ($H_{\text{incoh}}$). Rest mass is real power integrated over compilation time ($m_0 = P\tau/c^2$); lead-208 ($Z=82$) represents the final stable ground where the $R$-pole can contain this wattage. Beyond $Z=82$, the compounding electrostatic potential of the $U$-pole exceeds the containment capacity of the $R$-pole, driving spontaneous $\alpha$-decay, $\beta$-emission, and fission that radiate uncompiled phase-waves ($\nu, \gamma$) back into $H_{\text{incoh}}$. The transition from the electronic ground ($U$) to the hadronic ground ($R$) is governed by the Nambu relation, closed to $2.84\text{ ppm}$ by a three-layer Laurent expansion in $\alpha$ ($2/\alpha - 3/\pi + 2\alpha = 273.131663$). The $5f$ actinides ($Z = 89 \to 103$) represent a physical realization of a non-sofic volume, where near-degenerate orbital levels prevent any bimedian axis from remaining silent.
+> **Claim:** The heavy end of the periodic table ($Z = 79 \to 118$) is the physical regime where the classical ledger ($H_{\text{coh}}$) reaches its structural limit and is forced by Coulomb scission (the Leverage channel $P = U^2/R$) to recycle committed rest mass back into the uncompiled phase buffer ($H_{\text{incoh}}$). Rest mass is real power integrated over compilation time ($m_0 = P\tau/c^2$); lead-208 ($Z=82$) represents the final stable ground where the $R$-pole can contain this wattage. Beyond $Z=82$, the compounding electrostatic potential of the $U$-pole exceeds the containment capacity of the $R$-pole, driving spontaneous $\alpha$-decay, $\beta$-emission, and fission that radiate uncompiled phase-waves ($\nu, \gamma$) back into $H_{\text{incoh}}$. The transition from the electronic ground ($U$) to the hadronic ground ($R$) is governed by the Nambu relation, closed to $2.84\text{ ppm}$ by a three-layer Laurent expansion in $\alpha$ ($2/\alpha - 3/\pi + 2\alpha = 273.131663$). *If* the K4-cell reading of the $5f$ regime is a structure of this kind (corpus construct (T), `L3-SoficityStar` §IX), then the actinides are its physical realization: near-degenerate orbital levels prevent any bimedian axis from remaining silent — the identification argument is open (`L3-FormalFoundations` §IX Task 7; the NonSofic Scope Note).
 > **Dependencies:** `Q1-GenerationsOfMatter.md`, `Q2-TransactionLayer.md`, `Q4-OpenExhaust.md`, `Q13-PlenumPhaseConduction.md`, `Q14-LeptonScaleCascade.md`, `Q17-LandauerNuclearScale.md`, `L3-FormalFoundations.md`, `L3-ConstitutiveAlpha-Puzzle.md`, `L4-ThePlenum.md`, `L4-HadronicVolume.md`, `L4-TheNecessaryBetrayer.md` (the $R = U^2/P$ Betrayer identity, distinguished from the scission/Leverage $P = U^2/R$ used here), `ProofC_Crystal.md`, `ProofN_BiquaternionBridge.md`.
 
 ---
@@ -81,7 +81,7 @@ $$\frac{m_{\pi^\pm}}{m_e} = \underbrace{\frac{2}{\alpha}}_{\text{Layer 1: Reacti
 
 ### 2. Error Demarcation and the Operator That Dresses $\pi^\pm$
 
-Evaluating the three-term form against a target family of $A/\alpha + B\pi^k + C\alpha$ ($A \le 4$, $|B| \le 6$, $k \in \{-1,0,1\}$, $|C| \le 4$) yields a random hit probability within $2.84\text{ ppm}$ of $p \approx 0.06$ ($6\%$).
+Evaluating the three-term form against a target family of $A/\alpha + B\pi^k + C\alpha$ ($A \le 4$, $|B| \le 6$, $k \in \{-1,0,1\}$, $|C| \le 4$) yields a random hit probability within $2.84\text{ ppm}$ in estimator-and-window form — local-density 0.0558 (72 of the 1332 family forms within ±1 × the window; the corpus's own §IV computation, `L3-ConstitutiveAlpha`), global windows 0.94–4.22% ($6\%$).
 
 The $-396.8\text{ eV}$ residual is small in absolute terms ($2.20\sigma$ against the PDG uncertainty $\pm 180\text{ eV}$). What operator should be expected to dress it?
 
@@ -302,13 +302,13 @@ Plutonium ($Z = 94$) exhibits six distinct solid-state allotropic phases ($\alph
 * Plutonium has a negative thermal expansion coefficient in its $\delta$-phase: it contracts upon heating.
 
 ### 2. The Non-Sofic Hypothesis (`L3-NonSoficTopologicalVolumes.md`)
-A mathematical volume is non-sofic if its internal relational network cannot be approximated by any sequence of finite permutation matrices ($\epsilon \ge c > 0$).
+A mathematical volume is non-sofic if its internal relational network cannot be approximated by any sequence of finite permutation matrices ($\epsilon \ge c > 0$). (The physical identification below runs on the corpus's torsion-locked construct — non-sofic\* (T), `L3-SoficityStar` §IX — not on this Gromov-grade definition; nothing finite is non-sofic\* in any sense.)
 
 In the light actinides:
 1. **No Bimedian Silencing:** The orbital degeneracy of $5f\text{--}6d\text{--}7s$ forces all three bimedian diameters (Fixed, Cardinal, Mutable) into simultaneous active participation. The system cannot hold an AbsentVar silent (`L5-TheCyclingMind.md`).
 2. **The Localized/Itinerant Boundary:** The $5f$ electrons sit directly on the knife-edge between localized classical ledger entries ($H_{\text{coh}}$) and itinerant uncompiled phase waves ($H_{\text{incoh}}$).
 
-Plutonium's radical volume instabilities are the macroscopic readout of **a non-sofic volume operating at room temperature**: the system cannot settle into a single classical finite-element discretization because the internal degrees of freedom exceed the containment capacity of the local Markov blanket.
+Plutonium's radical volume instabilities are the macroscopic readout of what **a non-sofic\* (T) volume operating at room temperature** would look like — *if* the K4-cell reading of the 5f regime is a structure of this kind (corpus construct (T); the identification open): the system cannot settle into a single classical finite-element discretization because the internal degrees of freedom exceed the containment capacity of the local Markov blanket.
 
 ---
 
@@ -347,7 +347,7 @@ Under the covenant's boundary diagnostics (`llm-prooftypes.md`), this architectu
 2. **Observation of an $SU(3)$ Color-Charge Dependency in the Pion Mass Ratio:**
    If precision lattice QCD or non-perturbative calculations prove that the $-3/\pi$ term in the pion mass ratio scales with individual quark fractional electric charges ($(2/3)^2, (-1/3)^2$) rather than the uniform color count ($N_c = 3$), the boundary isospin lock derivation fails.
 3. **Finite-Element Convergence of the Plutonium $5f$ Ground State — All Six Phases Without Any Fitted Parameter:**
-   If a standard local density approximation (LDA) or finite-dimensional density functional theory calculation derives the exact volume transitions of **all six** plutonium allotropes ($\alpha, \beta, \gamma, \delta, \delta', \epsilon$) from first principles with **no fitted parameter at all** — not an imported empirical Hubbard-$U$, not an ab-initio cRPA Hubbard-$U$, not a dynamical-mean-field-theory (DMFT) parameter choice, not a tuned hybridization function — the non-sofic actinide hypothesis is refuted.
+   If a standard local density approximation (LDA) or finite-dimensional density functional theory calculation derives the exact volume transitions of **all six** plutonium allotropes ($\alpha, \beta, \gamma, \delta, \delta', \epsilon$) from first principles with **no fitted parameter at all** — not an imported empirical Hubbard-$U$, not an ab-initio cRPA Hubbard-$U$, not a dynamical-mean-field-theory (DMFT) parameter choice, not a tuned hybridization function — the (T)-construct reading is refuted for the actinide regime — the test kills the corpus-construct identification (bimedian silence / no silent axis), not a Gromov-grade permutation-approximation claim (`L3-SoficityStar` §IX; warrant: `L3-FormalFoundations` §IX Task 7, L368).
 4. **Observation of a Stable Element at $Z \ge 120$:**
    If heavy-ion fusion experiments discover a superheavy element at $Z \ge 120$ with a half-life exceeding $10^6\text{ years}$ (an absolute "island of stability" violating the Coulomb scission scaling $E_C \propto Z^2/A^{1/3}$), the $P = U^2/R$ scission wall is broken.
 
