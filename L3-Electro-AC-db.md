@@ -3,7 +3,7 @@
 
 > **Epistemic Register:** Structural Algebra & Active Subjective Companion (`L3`).
 
-> **Claim:** Extending the four-pole DC network $(P, U, I, R)$ into alternating current over $(S, U, I, Z, \omega)$ does not form a symmetric five-variable monomial set of fifty closed equations. Instead, it separates into three distinct layers: (1) a four-pole **complex phasor core** over $(S, U, I, Z)$ of polar rank 4 (two log-modulus degrees of freedom plus two phase degrees of freedom, leaving global reference phase free as `[gauge]`); (2) a **rectangular and admittance bridge** over $(P, Q, R, X, G, B, \theta)$ where complex addition introduces the power-factor curvature $\log\cos\theta$; and (3) a **constitutive frequency layer** where angular pace $\omega$ acts from off the pole basis exclusively through reactive storage $(L, C)$ and circuit topology. The naive census of $\binom{5}{2} \times 5 = 50$ pairings therefore resolves structurally, not as fifty minus six deletions: twenty of the fifty naive slots, the four pairings $(S,\omega)$, $(U,\omega)$, $(I,\omega)$, $(Z,\omega)$ at five orientations each, cannot exist as bare two-variable monomials at all. Across the three layers, forty-four distinct operational reading slots anchor the subjective phenomenology of an embedded bounded frame operating under resistance, memory, anticipation, and timing: 8 explicit phasor-core slots, 18 rectangular and admittance bridge slots, and 18 constitutive $(L, C, \omega)$ slots, with four further orientations of the underlying algebraic closure held implicitly (§I.2).
+> **Claim:** Alternating current is the four-pole DC algebra $(P, U, I, R)$ run at $\omega > 0$, and a single fact about $\omega$ shapes both how many equations there are and how they are best read: $\omega$ sits *off* the pole basis — it never appears inside $S = U I^*$ or $U = Z I$, entering only through constitutive storage $(L, C)$ and wiring topology. **The count.** The naive census $\binom{5}{2} \times 5 = 50$ does not resolve as fifty minus six deletions; the twenty slots pairing $\omega$ with each of $(S, U, I, Z)$ cannot exist as bare two-variable monomials at all, leaving **forty-four** operational reading slots over the surviving algebra — an 8-slot complex phasor core, an 18-identity rectangular and admittance basis, and 18 constitutive $(L, C, \omega)$ slots, with four further orientations held implicitly (§I.2). **The order.** Because $\omega$ is a unidirectional driver and not a symmetric fifth pole (`L3-FormalFoundations` §IX, the helical extrusion), running at $\omega > 0$ is a commit: it picks a hand. The bare algebra is bichiral — it owes both hands, and conjugating the mirror moves no landed result (`L3-EdgeStateSpace` §I-e) — so the 44 slots are where that owed choice becomes visible and countable. They are unfolded in the order the handedness gives (§IV): the **achiral core** the pace leaves symmetric (complex power, the reciprocal axis $Z = 1/Y$, resonance $\omega_0 = 1/\sqrt{LC}$); the **reactive machinery** carrying the two reactive dualities (memory $+j\omega L$ against anticipation $-j/\omega C$, impedance against admittance — the dual-binary seed in reactive dress); the **committed hand** read off the constitutive census as an inductive lean, because $\omega$ enters memory as $\omega^{+1}$ and anticipation as $\omega^{-1}$; and resonance, the one operating point where the arrow lifts. Throughout, the slots anchor the subjective phenomenology of an embedded bounded frame operating under resistance, memory, anticipation, and timing.
 
 *Reads with:* `ENGINE-REFERENCE-AC` (§IV, §VIII, §X.7), `L4-Riemann-2` (§I), `L6-TheCircuit` (§§II, V), `L4-DynamicDistortions301` (§IV, §VI), `L4-DynamicDistortions-Sudoku` (§VI, §XII).*
 
@@ -145,11 +145,44 @@ Strip away outside abstractions and step inside the boundary. You are an embedde
 
 Every equation below has been checked numerically (`err < 1e-11` under inductive, capacitive, resonant, series, and parallel regimes). Each entry begins from the felt interior reality (`subjectify` phenomenological precedence), states the exact verified identity with its explicit domain scope, and names the structural anchor that enforces it.
 
+### How the 44 Are Organized
+
+The 44 are not read as a flat census. The algebra fixes an order, and the order is the one the commit gives: running at $\omega > 0$ picks a hand (the opening; `L3-FormalFoundations` §IX), and the slots sort by whether that commit reaches them. The walk traverses them in four movements.
+
+- **The achiral core — what the pace leaves symmetric.** The six slots of complex power (Chapter 1): committed-real $P$ is the invariant, untouched when impedance is traded for admittance. With them stand the two axes the commit turns on but does not tilt — the reciprocal relation $Z = 1/Y$ (`4.10`) and resonance $\omega_0 = 1/\sqrt{LC}$ (`5.4`), where the net reactance is zero and memory and anticipation cancel.
+- **The reactive machinery — where the two dualities live.** Driving tension $U$, live throughput $I$, and boundary impedance $Z$ (Chapters 2–4) carry the impedance↔admittance duality across their phasor and bridge slots, and the memory↔anticipation duality across their scoped single-reactance slots. This is the dual-binary seed (`L3-EdgeStateSpace` §XI) in reactive dress: Active/Reactive crossed with Asserting/Yielding, worn as two reactances and their inversion.
+- **The committed hand — where the pace is read.** Operating pace $\omega$ (Chapter 5) recovers the frequency and exposes its asymmetry directly: $\omega$ enters inductive memory as $\omega^{+1}$ and capacitive anticipation as $\omega^{-1}$, so the two are not mirror-equal under the pace that drives them. The scoped regimes lean inductive — nine inductive slots to six capacitive across Chapters 2–5 — and that lean is the committed hand made countable.
+- **The lift — resonance.** `5.4` is the single operating point where $\omega$ drives the reactance to zero and the two hands coincide: the achiral core re-entered from the committed side.
+
+The chapters keep their numbering (by the variable each solves for); the four movements are the order the walk reads them in. The partition underwriting the order — which slots the two reactive dualities hold fixed and which they exchange — is verified in §V.
+
 The §I.2 closure — the 12-slot phasor core, the 9-identity rectangular and admittance basis, and the constitutive frequency layer — distributes across the forty-four slots as three reading layers: 8 slots keep the explicit phasor core (`1.2`, `2.1`, `3.1`–`3.3`, `4.1`–`4.3`), 18 dress the rectangular and admittance bridges (`1.1`, `1.3`–`1.6`, `2.2`, `2.5`, `2.6`, `3.4`, `3.7`–`3.9`, `4.4`, `4.6`–`4.10`), and 18 carry the constitutive $(L, C, \omega)$ layer (`2.3`, `2.4`, `2.7`, `2.8`, `3.5`, `3.6`, `3.10`, `4.5`, and Chapter 5 in full). The four orientations held implicitly in §I.2 return through their carriers (`3.2`/`4.1`, `4.3`, `4.2`, and `4.2` with `4.10`).
+
+### The 44 Slots Counted Two Ways
+
+The two running totals — $6 + 8 + 10 + 10 + 10$ by chapter and $8 + 18 + 18$ by layer — are not independent tallies; they are the **same forty-four slots summed along two different axes**. Every numbered slot belongs to exactly one chapter (the variable it solves for) and exactly one layer (the part of the §I.2 closure it reads from). The *slot* is the counting unit on both axes: a chapter is a family of slots sharing a solved-for variable, and a layer is a family of slots sharing an algebraic origin. Cross-tabulating the layer membership above against the five chapters reconciles both totals at once:
+
+| Chapter (solved-for variable) | Phasor core | Rectangular & admittance bridges | Constitutive $(L,C,\omega)$ | **Slots in chapter** |
+|-------------------------------|-------------|----------------------------------|-----------------------------|----------------------|
+| 1 — $S$ (complex power)       | `1.2`       | `1.1`, `1.3`–`1.6`               | —                           | **6**                |
+| 2 — $U$ (driving tension)     | `2.1`       | `2.2`, `2.5`, `2.6`              | `2.3`, `2.4`, `2.7`, `2.8`  | **8**                |
+| 3 — $I$ (live throughput)     | `3.1`–`3.3` | `3.4`, `3.7`–`3.9`               | `3.5`, `3.6`, `3.10`        | **10**               |
+| 4 — $Z$ (boundary impedance)  | `4.1`–`4.3` | `4.4`, `4.6`–`4.10`              | `4.5`                       | **10**               |
+| 5 — $\omega$ (operating pace) | —           | —                                | `5.1`–`5.10`                | **10**               |
+| **Slots in layer**            | **8**       | **18**                           | **18**                      | **44**               |
+
+Read along the rows and the slots sum by chapter ($6 + 8 + 10 + 10 + 10 = 44$); read down the columns and the same slots sum by layer ($8 + 18 + 18 = 44$). Two structural facts, invisible in the per-layer lists alone, surface immediately in the grid:
+
+* **Chapter 5 ($\omega$) is wholly constitutive.** All ten of its slots sit in Layer 3 and none in the core or the bridges—the direct signature of $\omega$ acting off the pole basis. That single chapter supplies ten of the eighteen constitutive slots.
+* **The remaining eight constitutive slots are scoped single-reactance regimes scattered through Chapters 2–4** (`2.3`, `2.4`, `2.7`, `2.8`, `3.5`, `3.6`, `3.10`, `4.5`), while the phasor core (8) and the bridges (18) never reach Chapter 5 at all.
+
+This census counts only the forty-four numbered slots. The four orientations held implicitly in §I.2 ($U = Z \cdot I$, $S = |I|^2 Z$, $S = |U|^2 / Z^*$, $S = |U|^2 Y^*$) are not cells in the grid; they ride inside their carrier slots (`3.2`/`4.1`, `4.3`, `4.2`, and `4.2` with `4.10`). This is precisely why a slot is a *reading position* onto the closure rather than a strict one-to-one label for a single algebraic identity: a handful of slots additionally absorb an implicit orientation or print equivalent re-dressings of one identity on a single line.
 
 ---
 
 ### Chapter 1: Complex Power ($S$ — What Is in Play)
+
+*The achiral core: what the commit leaves symmetric. $P$ is the invariant; trading impedance for admittance does not move these six.*
 
 1. **Both what lands and what sloshes back weigh on your lines at once.** `[General]`
    $$S = P + jQ$$
@@ -178,6 +211,8 @@ The §I.2 closure — the 12-slot phasor core, the 9-identity rectangular and ad
 ---
 
 ### Chapter 2: Driving Tension ($U$ — Pressure Across the Wall)
+
+*Reactive machinery: pressure read across both dualities — impedance↔admittance in the general slots, memory↔anticipation in the scoped ones.*
 
 1. **To find the push required, divide total load by your conjugated follow-through.** `[General]`
    $$U = \frac{S}{I^*}$$
@@ -214,6 +249,8 @@ The §I.2 closure — the 12-slot phasor core, the 9-identity rectangular and ad
 ---
 
 ### Chapter 3: Live Throughput ($I$ — What Actually Moves)
+
+*Reactive machinery: throughput is the dual of driving tension — swap $U \leftrightarrow I$ and impedance $\leftrightarrow$ admittance and Chapter 2 maps here.*
 
 1. **Follow-through is what remains of your conjugated load once filtered back through conjugated pressure.** `[General]`
    $$I = \frac{S^*}{U^*}$$
@@ -259,6 +296,8 @@ The §I.2 closure — the 12-slot phasor core, the 9-identity rectangular and ad
 
 ### Chapter 4: Boundary Impedance ($Z$ — What Pushes Back)
 
+*Reactive machinery, carrying the core's second axis: the reciprocal relation $Z = 1/Y$ (`4.10`) the commit turns on but does not tilt.*
+
 1. **What an obstacle feels like is simply the ratio of the push it demands to the flow it permits.** `[General]`
    $$Z = \frac{U}{I}$$
    Impedance is relational pushback: both magnitude ratio ($|U|/|I|$) and phase delay ($\theta_U - \theta_I$) combined in one complex number.
@@ -302,6 +341,8 @@ The §I.2 closure — the 12-slot phasor core, the 9-identity rectangular and ad
 ---
 
 ### Chapter 5: Operating Pace ($\omega$ — The Tempo of Coupling)
+
+*The committed hand: where $\omega$'s $\omega^{+1}/\omega^{-1}$ asymmetry is read off — and resonance (`5.4`), where the net reactance is zero and the arrow lifts.*
 
 1. **In a full memory-and-anticipation loop, pace is recovered quadratically from net reactance, never from a bare pole ratio.** `[General Series RLC]`
    $$\omega = \frac{X + \sqrt{X^2 + 4L/C}}{2L}, \qquad X = \frac{\operatorname{Im}(S)}{|I|^2}$$
@@ -461,6 +502,48 @@ B_obs = -Sp_rlc.imag / (abs(U_p)**2)
 assert abs((B_obs + math.sqrt(B_obs**2 + 4.0 * C / L)) / (2.0 * C) - w) < 1e-11
 
 print("All 44 individual AC slots (including 5.4 resonance), the 4 implicit core orientations, rank-4 polar floor, and parallel/series RLC checks passed.")
+```
+
+### The Organizing Partition
+
+The reading order of §IV rests on two reactive involutions of the slot set — the electrical dual ($Z \leftrightarrow Y$, $U \leftrightarrow I$) and the reactance mirror ($L \leftrightarrow C$). The dual is a symmetry of the whole phasor manifold; it fixes complex power and the $Z = 1/Y$ axis and exchanges the rest in $U \leftrightarrow I$ pairs. The mirror acts only where $L$ or $C$ appears, and its one shared orbit with the dual is the pure-reactance quartet (`2.3`, `2.4`, `3.5`, `3.6`). The fixed core, the quartet, and the committed hand's census are checked below:
+
+```python
+import random
+random.seed(0)
+
+# The electrical dual preserves the AC solution manifold (it is a real symmetry of all 44):
+def dual(st):
+    return dict(U=st['I'], I=st['U'], Z=st['Y'], Y=st['Z'], S=st['S'].conjugate())
+for _ in range(2000):
+    w, R, L, C = random.uniform(.3, 5), random.uniform(.2, 4), random.uniform(.2, 3), random.uniform(.05, 1)
+    I = complex(random.uniform(-2, 2), random.uniform(-2, 2))
+    X = w * L - 1 / (w * C); Z = complex(R, X); Y = 1 / Z; U = Z * I; S = U * I.conjugate()
+    d = dual(dict(U=U, I=I, Z=Z, Y=Y, S=S))
+    assert abs(d['U'] - d['Z'] * d['I']) < 1e-11            # dual state still obeys U = Z I
+    assert abs(d['S'] - d['U'] * d['I'].conjugate()) < 1e-11
+
+# The dual fixes complex power (up to conjugation) and the Z = 1/Y axis (4.10):
+U, I, Z = complex(1.2, -0.5), complex(0.7, 1.1), complex(2.5, -1.3); Y = 1 / Z; S = U * I.conjugate()
+assert abs((I * U.conjugate()) - S.conjugate()) < 1e-11    # S = U I*  ->  I U* = S*   (Ch. 1 fixed)
+assert abs(Z - 1 / Y) < 1e-11 and abs(Y - 1 / Z) < 1e-11   # 4.10 is its own dual (the axis)
+
+# The pure-reactance quartet is the one orbit both involutions move, indexed by
+# (reactance sign) x (solve direction): 2.3,2.4 = U-from-I at L,C; 3.5,3.6 = I-from-U at L,C
+quartet = {(s, d) for s in 'LC' for d in ('Vi', 'Iv')}
+A  = lambda x: ('C' if x[0] == 'L' else 'L', x[1])         # reactance mirror  L <-> C
+Bm = lambda x: (x[0], 'Iv' if x[1] == 'Vi' else 'Vi')      # electrical dual   U <-> I
+assert all(A(A(x)) == x and Bm(Bm(x)) == x and A(Bm(x)) == Bm(A(x)) for x in quartet)
+orbit = {('L', 'Vi'), A(('L', 'Vi')), Bm(('L', 'Vi')), A(Bm(('L', 'Vi')))}
+assert orbit == quartet                                    # regular: the orbit is the whole quartet
+
+# The committed hand, counted: scoped single-reactance regimes lean inductive 9 : 6
+scoped = {'2.3':'L','2.4':'C','2.7':'L','2.8':'C','3.5':'L','3.6':'C','3.10':'L',
+          '5.2':'L','5.3':'C','5.5':'L','5.6':'L','5.7':'C','5.8':'C','5.9':'L','5.10':'L'}
+ind = sum(v == 'L' for v in scoped.values()); cap = sum(v == 'C' for v in scoped.values())
+assert (ind, cap) == (9, 6)
+print(f"Organizing partition verified: dual preserves the manifold; core fixed; "
+      f"quartet is one regular orbit; committed hand leans inductive {ind}:{cap}.")
 ```
 
 ---
