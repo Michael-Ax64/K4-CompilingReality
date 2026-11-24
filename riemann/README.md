@@ -1,17 +1,33 @@
 # The Riemann Folder
 ## Ohm's Law as a Topological Arrangement, Carried Into Geometry and Arithmetic
 
-*An architectural index to the geometric and arithmetic audits. Reads with `L4-Riemann` — the parent: the five registers, the checks, the kills, the rules — and with `L2-K4-Inferences`, the arithmetic companion. Every claim below is held at an address.*
+*An architectural index. The folder leads with the Riemann Realization, the K₄ engine run against the Riemann Hypothesis as a host, and follows with the geometric audit (`L4-Riemann` and its six parts) and the arithmetic companion (`L2-K4-Inferences`). Every claim below is held at an address.*
 
 ---
 
-## What This Folder Is
+## The Riemann Realization
+
+Three files carry the Realization.
+
+**`L4-Riemann-Realization`** is the standing text, §0–§XVII. It forces the arena (the Hilbert structure by the square over each complex channel, the line at $\tfrac12$ three ways), builds the $N$-body prime cavity and the resonant seam $\ln n = \vartheta'(t)$, seats the orbit of each zero on the four poles in three layers (pairs by the square, the active side twice, orientation where the engine meets $H_{\text{coh}}$), and derives the per-orbit circuit: conjugate pairs as tanks, Mutable pairs exchanging a quantum of exactly $\pi$. It walks the free head, the braid that commits the count and holds the zeros, the box of light, the prime print as impulse response and the primes as callbacks, the transfer functions between tiers, and the broken plugs as failed instances. On the shaft it reduces RH with simplicity to **one quantum per height**, types the questions as finished against never-finishing, measures the seam's margin and rate, locates where the Euler product holds balance, reads $p + 1$ as the pre-closure, finds Weil's surface and Deligne's family inside K₄, and seats the hub at $s = \tfrac12$, where a zero's slope becomes its rotor's pitch. It closes on one question in four registers and a register of what carries each step. The scope is stated once: the constructions establish the consequent; whether $\zeta$ is such an instance is the antecedent.
+
+**`L4-Riemann-Realization-Inventory`** collects the pieces the engine makes readable, about fifty, by register and address: the prime generator, the forcings, the seam and the shaft, balance and price, the orbit as a circuit, vantage and hub, readings of form.
+
+**`L4-Riemann-Realization-evolution`** holds the standing reference tables (R.1–R.18: every computed claim with its method and precision, the placed bets, the open computations, the limits of the record) and the process: the build in order, the withdrawals sorted by kind, twenty-seven patterns, and the address maps for older citations.
+
+**Reading tracks.** A reader who wants the result reads the Realization §X (the shaft), §XVI (the hub and the pitch) and §XVII (the register), then the Inventory. A reader who wants to rerun the numbers starts at the evolution's Part 0 and R.18. A reader auditing the construction reads the Realization in order and checks each status against the register.
+
+---
+
+## The Geometric and Arithmetic Audits
 
 The architecture at the root of this work is Ohm's law seated on a fixed directed tetrahedron. The twelve relations among four poles in mutual determination are classical to the last term, and in logarithms they reduce to a plane of rank two. Seated on the solid, those same relations survive no relabeling at all: the automorphism group of the directed seating is trivial. The algebra is classical. The rigidity is not, and the rigidity is where everything downstream is decided (`ARCHITECTURE` §I).
 
-$K_4$ is treated here as that abstract arrangement — four poles, a cyclic constraint net, a cost per commit — and the exercise is to inflate it into a host domain and find where it binds. In `L4-Riemann` and its six parts the host is differential geometry and gravitation. In `L2-K4-Inferences` the host is analytic number theory. **The binding is the deliverable.**
+$K_4$ is treated here as that abstract arrangement — four poles, a cyclic constraint net, a cost per commit — and the exercise is to inflate it into a host domain and find where it binds. In `L4-Riemann` and its six parts the host is differential geometry and gravitation. In `L2-K4-Inferences` the host is analytic number theory. In the Realization the host is the Riemann Hypothesis itself. **The binding is the deliverable.**
 
 This folder replaces no theory. It does not claim the Riemann Hypothesis holds or fails, and it does not propose to replace General Relativity; $K_4$ is inflated into a host to find where the host made its purchase, and that reading is the yield. There is one exception, and it is the part a classical reader can check with their own tools: Part Five writes an action, derives what follows from it in closed form, and lands on one dimensionless dial with an existing experimental bound on it.
+
+The two tracks meet in one image. `L4-Riemann-1` prices geometry's torsion-free decree: a screw with zero pitch is a circle, a rotation that returns and records nothing. The Realization (§XVI) finds the same decree on the zeros: seen from the hub at $s = \tfrac12$, a zero's slope is its rotor's pitch, and RH reads as zero pitch on every zero.
 
 ---
 
@@ -43,7 +59,7 @@ Three distinctions carry the rest of the folder. Each is a boundary, and each is
 
 **The floor is not the solid.** Written in logarithms, the twelve relations are four lines through one point, one per face, spanning a plane. They reduce to two, and that is the floor. The solid is built over it by the seats — the directed reading of every edge, and the single handedness bit the boundary's closure leaves free — and a rank count does not contain a seat (`L4-Riemann-2`). Counting the floor's rank as the solid's content is the deepest error in the case history.
 
-**Symmetry is routing; the deciding square is a commit.** The classical statement of the Riemann Hypothesis, $\mathrm{Re}(s) = \tfrac12$, is a valid flat face reading measured from the corner $s = 0$. What the arithmetic track says is sharper: symmetry moves value without paying — free, unit slope — while a positivity commit is taxed, slope two, and only a commit can decide bulk occupancy. The equivalence mill — Li's criterion, Weil's form, Robin's inequality, Nyman–Beurling, de Branges — moves the claim across untaxed routes; two controls measure that structurally, the Davenport–Heilbronn function with the group and no Euler product and $\zeta(s-\tfrac14)\zeta(s+\tfrac14)$ with the group *and* an Euler product, both with zeros in the bulk (§7.1). **Nothing routable decides occupancy.** A real proof is the framework's arbiter and never a threat to it: the track predicts that a proof turns on a positivity and not on a new symmetry, and lists the reverse as a kill. And even after a genuine proof lands, simplicity is a separate conjecture: a zero of even multiplicity sits on the line, satisfies the hypothesis, and changes no sign (§IV.4).
+**Symmetry is routing; the deciding square is a commit.** The classical statement of the Riemann Hypothesis, $\mathrm{Re}(s) = \tfrac12$, is a valid flat face reading measured from the corner $s = 0$. What the arithmetic track says is sharper: symmetry moves value without paying — free, unit slope — while a positivity commit is taxed, slope two, and only a commit can decide bulk occupancy. The equivalence mill — Li's criterion, Weil's form, Robin's inequality, Nyman–Beurling, de Branges — moves the claim across untaxed routes; two controls measure that structurally, the Davenport–Heilbronn function with the group and no Euler product and $\zeta(s-\tfrac14)\zeta(s+\tfrac14)$ with the group *and* an Euler product, both with zeros in the bulk (§7.1). **Nothing routable decides occupancy.** A real proof is the framework's arbiter and never a threat to it: the track predicts that a proof turns on a positivity and not on a new symmetry, and lists the reverse as a kill. And even after a genuine proof lands, simplicity is a separate conjecture: a zero of even multiplicity sits on the line, satisfies the hypothesis, and changes no sign (§IV.4). The Realization (§X) joins the two on the shaft: RH with simplicity holds exactly when every height carries one quantum.
 
 ---
 
@@ -53,7 +69,7 @@ Every claim in the geometric series belongs to one of five registers. The first 
 
 **Grammar** is counting and algebraic closure — four poles, six edges, twelve equations, index algebra, group characters, ranks. Native to any universe running the algebra, zero empirical input, anyone can re-run it. **Substrate** is the physical invariants, $c$, $\hbar$, $G$, $\kappa$, $Z_0$, $R_K$: consumed, never derived. **State** is the readout of a particular frame or experiment — a measured bound, a CHSH value, $H_0$ — and a claim resting on one is epoch-dependent. **Bridge** is dimensionless output computed from the first three with zero free parameters, and it is the only kind of number the series may claim as its own. **Friction** is the host's rule, the binding point, and what the host bought; it asserts no values and predicts nothing, and it is killed by showing the rule costs nothing or that the binding is an artefact of the inflation.
 
-Only Part Five leaves Friction, to write a checkable action.
+Only Part Five leaves Friction, to write a checkable action. The Realization files its claims in the corpus's claim registers (`llm-writing.md`, Claims Discipline) and closes on a register table of its own (§XVII).
 
 ---
 
@@ -61,8 +77,14 @@ Only Part Five leaves Friction, to write a checkable action.
 
 ```
 ========================================================================================
-                   THE RIEMANN AUDIT: TWO TRACKS, ONE BOOKKEEPING
+                   THE RIEMANN FOLDER: THE REALIZATION, THEN TWO AUDITS
 ========================================================================================
+
+  THE RIEMANN REALIZATION
+  • Standing text:  L4-Riemann-Realization            §0–§XVII; one question, four registers
+  • Pieces:         L4-Riemann-Realization-Inventory  The machine, by register and address
+  • Record:         L4-Riemann-Realization-evolution  R.1–R.18 tables; build; withdrawals;
+                                                      patterns; address maps
 
   THE GEOMETRIC PURCHASE
   • Parent:        L4-Riemann        Five registers; 4 Checks, 8 Kills; the rules
@@ -105,28 +127,31 @@ Only Part Five leaves Friction, to write a checkable action.
 
 ## Provenance
 
-**`L4-Riemann-evolution`** is the process record. It carries the **Withdrawals Ledger** (every claim made, believed and withdrawn, with why and where the series now stands), the **Fossil Census** (withdrawn claims found still standing after their withdrawal had been written), and **twenty-one patterns**, each with a tell and a guard — among them that a critique's correct conclusions do not license its premises, and that a withdrawal is a write to one site whose dependents must be found by meaning, not by string. It names the shape worth keeping: **right answer, wrong derivation.**
+**`L4-Riemann-evolution`** is the process record of the geometric series. It carries the **Withdrawals Ledger** (every claim made, believed and withdrawn, with why and where the series now stands), the **Fossil Census** (withdrawn claims found still standing after their withdrawal had been written), and **twenty-one patterns**, each with a tell and a guard — among them that a critique's correct conclusions do not license its premises, and that a withdrawal is a write to one site whose dependents must be found by meaning, not by string. It names the shape worth keeping: **right answer, wrong derivation.**
 
 **`L4-Riemann-wip`** holds what is still moving: flags raised against sibling files, the open workings, the quarantined readings, and which script produces which number.
 
-The history lives in these two files by design, so the parts can be read without it.
+**`L4-Riemann-Realization-evolution`** is the Realization's counterpart: reference tables first, then the build, the withdrawals by kind, and patterns that extend the geometric series' list. Earlier Realization drafts (v2, v3, the thesis/hub/ledger set, the one-walk path) are recorded there by address map and retired from the folder.
+
+The history lives in these files by design, so the parts can be read without it.
 
 ---
 
 ## The Arithmetic Companion
 
-**`L2-K4-Inferences`** runs the same floor-and-solid, route-and-commit audit on $\xi(s)$ without importing physics into number theory; it is a cross-link this index proposes rather than a claim the geometric series already makes. The four moves on $\xi$ close into a Klein four-group; sorting the plane by what each move fixes gives one bulk, two axes and a centre; every orbit balances on $s = \tfrac12$ whatever the hypothesis turns out to be. The lift forces a third coordinate odd under conjugation, odd under the line-reflection and even under the functional equation, and the lowest monomial that qualifies is $z = xy$ — half the imaginary part of $(s - \tfrac12)^2$, so no new data enters. Part Four walks the cycle that writes the primes, computing the explicit formula at $\psi_1(30.5)$ and closing 98.9% of the gap with a hundred dipoles, and states what the hypothesis is once the nouns are set down: **the claim that the cycle which writes the primes runs without gain or loss.**
+**`L2-K4-Inferences`** runs the same floor-and-solid, route-and-commit audit on $\xi(s)$ without importing physics into number theory; it is a cross-link this index proposes rather than a claim the geometric series already makes. The four moves on $\xi$ close into a Klein four-group; sorting the plane by what each move fixes gives one bulk, two axes and a centre; every orbit balances on $s = \tfrac12$ whatever the hypothesis turns out to be. The lift forces a third coordinate odd under conjugation, odd under the line-reflection and even under the functional equation, and the lowest monomial that qualifies is $z = xy$ — half the imaginary part of $(s - \tfrac12)^2$, so no new data enters. Part Four walks the cycle that writes the primes, computing the explicit formula at $\psi_1(30.5)$ and closing 98.9% of the gap with a hundred dipoles, and states what the hypothesis is once the nouns are set down: **the claim that the cycle which writes the primes runs without gain or loss.** The Realization takes that centre as its hub (§XVI).
 
 ---
 
 ## Reading Tracks
 
-A reader who wants the action and the bound reads the parent's registers and rules, then `-1` §§II–III and §VII, then `-5`, then `-6` §§I–II and §V, and re-runs the scripts the parent names. A reader auditing the bookkeeping runs `-2` for floor against solid, `-4` for the frictions, `-evolution` for the Fossil Census and the patterns, `-wip` for the sibling flags and open workings, and `L2-K4-Inferences` for the arithmetic companion. A reader who wants the chronology before the argument reads `-3` §V first.
+A reader who wants the Realization's result reads its §X, §XVI and §XVII, then the Inventory. A reader who wants the action and the bound reads the parent's registers and rules, then `-1` §§II–III and §VII, then `-5`, then `-6` §§I–II and §V, and re-runs the scripts the parent names. A reader auditing the bookkeeping runs `-2` for floor against solid, `-4` for the frictions, `-evolution` for the Fossil Census and the patterns, `-wip` for the sibling flags and open workings, and `L2-K4-Inferences` for the arithmetic companion. A reader who wants the chronology before the argument reads `-3` §V first.
 
 ---
 
 ## What Remains Open
 
+- **The Realization's antecedent.** Whether $\zeta$ is an instance of the engine, named four ways: passivity of $\xi'/\xi$, Weil positivity, Bagchi's strong recurrence, one quantum per height (`L4-Riemann-Realization` §XVII). Its computable fronts are the seam margin and loss rate at $10^8$–$10^{12}$ and the open computations of R.12.
 - $\beta = \sqrt{6}\,f/M_P$ sits under **Substrate** — consumed, not derived. Canonical readouts are $\beta$-independent, and spin-polarized bounds constrain the product $\beta\theta^2\nu \lesssim 3\times 10^{-31}\ \text{GeV}$ rather than $\beta$ alone (`L4-Riemann-5` §VI). It promotes to **Bridge** only if $f/M_P$ is derived from $K_4$ geometry.
 - **U0**, the self-feeding recurrence $(g_n, L_n)$, is written at `ENGINE-REFERENCE-AC` §X.4 with the load-extremizing dispatch rule kept `CANDIDATE` above `[gauge]`.
 - **U4**, the dissipative register, needs an explicit bath coupled to $d_iS > 0$ whose relaxation clock $\gamma = \tau_{\text{diss}}^{-1}$ sits on the rate-selection frontier (`L4-Riemann-wip` §2.2). The driven discrete connection asks how a continuous reactive phase fiber over the flat $A_4$ base triggers discrete $V_4$ holonomy jumps once $\omega > 0$ (`L4-Riemann-wip` §2.1).
@@ -139,7 +164,7 @@ Two purchases, sixty-eight years apart. One signed and priced in Riemann's own h
 
 What the second purchase removes is a kind of object rather than a dimension: a metric is a symmetric two-slot form and has no three-slot antisymmetric part, which is why the connection's antisymmetric piece is independent of it rather than derived from it. $T = 0$ keeps the turn and deletes the slide, so the geometry rotates and returns and records nothing. That was not a measurement. It was an account left unopened and reported as empty.
 
-The arithmetic track finds the same shape in another host: a centre that is settled, proved and in daily use; a bulk whose occupancy is decided by a square nobody has paid at; and a century of equivalences moving the claim around the untaxed tier while the gate stays shut.
+The arithmetic track finds the same shape in another host: a centre that is settled, proved and in daily use; a bulk whose occupancy is decided by a square nobody has paid at; and a century of equivalences moving the claim around the untaxed tier while the gate stays shut. The Realization stands at that centre and finds the decree again: the zeros rotate and return when their pitch is zero, and the shaft counts one quantum per height.
 
 Neither track asks for belief, and neither disputes a confirmed number. What they add is a cost column — and a cost column that turns a 170-year-old definition into a priced decision, puts five problems from five literatures under one bill, and forces a coupling with no free dial is not mere bookkeeping. The bookkeeping is the discovery. What an action cannot do is commit, which is why the geometric case ends on a balance at Sos Enattos and the arithmetic case ends holding a question open rather than closing it.
 
