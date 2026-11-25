@@ -47,6 +47,48 @@ Per radian turn $\tau = 1/\omega$, the cycling hold integrates to $E = P_{\text{
 
 **That is the settled mark.** One bit of orientation is burned, $dS_i > 0$ is paid, and $R$ gains an irreversible entry. Nothing rewinds it (`Q7-4DExtrusions` §VI.1).
 
+### The turn in a four-vertex generator
+
+The orbit generator of the Riemann set (`riemann/L4-Riemann-Realization-evolution` R.17) gives the turn a finite, computed form. It is the most general $4 \times 4$ generator on the four vertices of one zero-orbit that keeps the orbit's PT and chiral symmetries: eight real parameters, written $E = \omega + i\delta$ on the vertex diagonal and $K = k_1 + ik_2$, $M = m_1 + im_2$, $C = c_1 + ic_2$ on the Fixed, Mutable and Cardinal edge pairs.
+
+**Two bases, one involution.** Order the vertices $(P, U, R, I)$ and the characters of $V_4$ as $(1, y, xy, x)$. The change of basis between them is the Walsh–Hadamard matrix, symmetric and its own inverse: the self-duality of $V_4 = \mathbb{Z}_2^2$, four vertices against four characters (`ENGINE-REFERENCE-AC` §1.2). In the character basis the chiral symmetry makes the generator block off-diagonal,
+
+$$H = \begin{pmatrix} 0 & \mathfrak{a} - \mathfrak{b} \\ \mathfrak{a} + \mathfrak{b} & 0 \end{pmatrix},$$
+
+with $\mathfrak{a}$ and $\mathfrak{b}$ $2\times2$ complex matrices — biquaternions, $\mathbb{H}_\mathbb{C} \cong M_2(\mathbb{C})$, the algebra of `L0-EinsteinTrace` §III. $\mathfrak{a} = i\delta\,I + \omega\,\sigma_1 - ik_1\,\sigma_2 + ik_2\,\sigma_3$ carries the vertex diagonal and the Fixed pair: one Hermitian parameter ($\omega$) and three skew ($\delta, k_1, k_2$). $\mathfrak{b} = ic_2\,I + c_1\,\sigma_1 - im_1\,\sigma_2 + im_2\,\sigma_3$ carries the Cardinal and Mutable pairs: three Hermitian ($c_2, m_1, m_2$) and one skew ($c_1$). Multiplying by $i$ exchanges Hermitian and skew, so $\mathfrak{a}$ and $\mathfrak{b}$ are each other's dual: $1 + 3$ against $3 + 1$, eight parameters as four and four.
+
+**Squaring makes the cone.** Neither block has a spectrum of its own; each maps the $f$-even characters to the $f$-odd ones or back. Squaring composes them, $H^2 = MN \oplus NM$ with $M = \mathfrak{a} - \mathfrak{b}$, $N = \mathfrak{a} + \mathfrak{b}$, and the product
+
+$$W = (\mathfrak{a} - \mathfrak{b})(\mathfrak{a} + \mathfrak{b}) = \mathfrak{a}^2 - \mathfrak{b}^2 + [\mathfrak{a}, \mathfrak{b}] = W_0\,I + \vec W\cdot\vec\sigma$$
+
+carries the whole spectrum:
+
+$$z^2 = W_0 \pm \sqrt{\vec W\cdot\vec W}, \qquad A = 2W_0, \qquad B = W_0^2 - \vec W\cdot\vec W = N_*(W), \qquad \Delta = A^2 - 4B = 4\,\vec W\cdot\vec W.$$
+
+$W_0$, $W_2$ and $W_3$ are real and $W_1$ is imaginary, so $\vec W\cdot\vec W = W_2^2 + W_3^2 - |W_1|^2$ is a Lorentzian form of signature $(1, 2)$. Up to the sign convention of the basis,
+
+$$W_1 = 2i\big(\delta\omega - c_1c_2 - \operatorname{Im}K\bar M\big), \quad W_2 = 2\big(\delta k_1 - c_1k_2 - c_2m_1 + \omega m_2\big), \quad W_3 = 2\big(-\delta k_2 - c_1k_1 + c_2m_2 + \omega m_1\big).$$
+
+The two blocks are linear and chiral and carry no metric; their composite does. That is the Route Law's square of §II.2 in a finite matrix: the product of two $i$-weighted factors closes into a real algebra and brings a light cone with it.
+
+**The turn, exactly.** $\Delta = 0$ means $\vec W$ is null, and a null $\vec W$ is one of two things.
+
+- **$\vec W = 0$, $W_0 \neq 0$.** Then $H^2 = W_0\,I$, so $H$ is diagonalizable. Two modes meet and pass through each other: a **diabolic point**. Read as `nil` (`L4-Riemann-1` §VII): an account never opened, the hold intact.
+- **$\vec W \neq 0$ and null.** Then $W - W_0 I$ is nilpotent and nonzero, $H^2$ is defective, and so is $H$: a Jordan block, an **exceptional point**. The modes coalesce, the eigenbasis loses a dimension, the eigenvalues branch as $\pm\sqrt{\Delta}$, and a loop around the point does not return its start state. Read as an account opened at balance zero.
+- With $W = 0$ altogether, $H$ is nilpotent: a fourth-order exceptional point.
+
+Past the exceptional point $\Delta < 0$ and the spectrum is a quartet: the four monads of one off-line orbit, a tetrahedron with volume (`L2-K4-Inferences` §5). **Volume opens only through a defective coalescence; a reversible crossing never opens it.** Read the other way, a quartet closes to two dipoles through the same kind of point — the fusion of §II.1, met at the level of the spectrum.
+
+**Which lever opens it.** Because $\vec W\cdot\vec W = W_2^2 + W_3^2 - |W_1|^2$, no choice of parameters with $W_1 = 0$ reaches an exceptional point or a quartet; with $W_1 = 0$ the most that happens is a diabolic point, when $W_2 = W_3 = 0$ as well. The one lever is $W_1$: the diagonal product $\delta\omega$, the Cardinal product $c_1c_2$, or the cross-term $\operatorname{Im}K\bar M$, the relative phase between the Fixed and Mutable couplings, which sits in the commutator $[\mathfrak{a}, \mathfrak{b}]$. The symmetric part $\mathfrak{a}^2 - \mathfrak{b}^2$ does the matching and the commutator supplies the twist. An exceptional point sits at $|W_1| = \sqrt{W_2^2 + W_3^2} > 0$, and volume opens for $|W_1|$ beyond it. With no diagonal gain/loss ($\delta = 0$) the lever still has $\operatorname{Im}K\bar M$, and $K$ is skew: a generator without diagonal gain/loss is not thereby free of non-Hermiticity.
+
+**When the coupling outruns the split.** $\omega$ is half the spacing between the two modes on the line. While the split dominates ($\omega^2 > |K|^2$), no twist of phase can fuse the modes without gain/loss: at $\delta = c_2 = 0$, $\Delta \ge 0$ throughout. Once the Fixed coupling outruns the split ($|K|^2 > \omega^2$), relative phase is enough. With $\delta = c_2 = 0$ and the Fixed and Mutable phases aligned ($\operatorname{Im}K\bar M = 0$), $\Delta/16 = |c_1K - \omega M|^2 \ge 0$ and nothing opens; as they misalign, $\operatorname{Im}K\bar M$ carries the modes through an exceptional point into a quartet. This is the third region of `L0-EinsteinTrace` §V in the finite model: outside the cone, relative phase between held couplings does the work that diagonal gain/loss does inside it — the leverage of non-collinear buffers (`L4-K4-Infinities-2` §III; expect there: matched buffers give rapport, non-collinear buffers give leverage), among the pure phase rays of the first register of `riemann/L4-Riemann-Realization` §0. Two limits hold the reading. A phase ray alone has modulus one and opens no volume; it takes a mismatch between phases, as in the incomplete prime cavities of `riemann/L4-Riemann-Realization` §I (built from the first one, two or three primes, they lose one, two and seven zeros from the line) and in Davenport–Heilbronn, which mixes $L(s,\chi)$ and $L(s,\bar\chi)$ at a fixed relative phase and loses its zeros from the line with no pole involved. And the generator is not Hermitian there: its Fixed coupling is skew, so a quartet opened by phase is not a cost-free one.
+
+**Where the collision lands.** The sign of $W_0 = A/2$ chooses the axis: for $A > 0$ the modes collide on real $z$, the critical line; for $A < 0$ on imaginary $z$, the real $s$-axis — the two rays `L2-K4-Inferences` §IV.1 reads as the light-cone of the centre. A quartet opens past the collision either way. The sign of $A$ decides where the collision happens, not whether volume opens.
+
+**What carries to `L0-EinsteinTrace`, and what does not.** The mechanism carries: the spectrum is the scalar/vector split of one biquaternion, its two boundaries are $N_*(W) = 0$ (the zero-mode point, $B = 0$) and the null vector part (the collision), and the minus sign comes from a square of $i$, as in `L0-EinsteinTrace` §III. The dimension count does not: $\vec W$ lives in a $(1,2)$ space, and each block's own norm $\det(\mathfrak{a} \pm \mathfrak{b})$ has signature $(2,2)$ on the slice the symmetries allow — the signature of the orbit's Krein pairing ($K_+ = 1 \oplus y$, $K_- = x \oplus xy$; `riemann/L4-Riemann-Realization-evolution` R.10), though that it is that pairing is not shown. `L0-EinsteinTrace`'s $(1,3)$ belongs to one frame's state biquaternion; this generator acts on an orbit of four. Nor does the symbol carry: R.17's $\omega$ is a frequency split on the vertex diagonal, not the driver at the centroid of §I.
+
+*Register. COMPUTED: the involution, the block form, $A$, $B$, $\Delta$ and the components of $W$ (`riemann/claude/wform.py`, agreement to $10^{-12}$ on 3 000 random generators). PROVED: the diabolic/exceptional dichotomy, by the two lines above; it agrees with every sampled collision (`riemann/claude/k4_driven_scan.py`). CORRESPONDENCE: the diabolic point as `nil`, the exceptional point as an account opened at balance zero, and the passage through it as the turn of this section; the phase-driven quartet as the leverage of non-collinear buffers, and its kinship with the incomplete cavities and Davenport–Heilbronn.*
+
 ---
 
 ## III. Slow-Mo Replay: Collapse as a Remix Operator
@@ -143,10 +185,10 @@ Take §II's stamped ledger and §III's remix output as settled ground ($R_{N+1}$
 
 ## V. Claim Sort and Pre-Registered Falsifiers
 
-* **LANDED:** Dimensional segregation between centroid clock ($\omega$) and compiled wake ($dt$); non-invertible Route Law squaring preserving the arrow of the ledger (`ProofQ_AlgebraicSyntax` §§IV–V); tangent resolution band $\varphi_{\text{band}} = \delta\theta$ and $\tan_{\max} = 1/\delta\theta$ (`L3-FormalFoundations` §IX.4); geometric $A(\theta) = A_0\cos\theta \to 0$ dipole collapse (`L4-DynamicDistortions301` §§IV–V, VII.B); the executable 3-beat replay arithmetic in §III.
+* **LANDED:** Dimensional segregation between centroid clock ($\omega$) and compiled wake ($dt$); non-invertible Route Law squaring preserving the arrow of the ledger (`ProofQ_AlgebraicSyntax` §§IV–V); tangent resolution band $\varphi_{\text{band}} = \delta\theta$ and $\tan_{\max} = 1/\delta\theta$ (`L3-FormalFoundations` §IX.4); geometric $A(\theta) = A_0\cos\theta \to 0$ dipole collapse (`L4-DynamicDistortions301` §§IV–V, VII.B); the executable 3-beat replay arithmetic in §III; the four-vertex generator's biquaternion form, its spectrum as the scalar/vector split of $W$, and the diabolic/exceptional dichotomy (§II, the turn in a four-vertex generator).
 * **ADOPTED:** Laue's static stress theorem ($\int T^{ij} d^3x = 0$) and quadrupole identity ($\frac{1}{2}\ddot{I}^{ij}$); non-equilibrium entropy production $dS_i$ (Eling–Guedens–Jacobson 2006); Burgers core equilibration (`On_NavierStokes` §IV); Landauer's erasure floor; cosmic horizon parameters (`BENDING_SPACE` Part Two §X, `BENDING_MINDS` §9).
 * **CANDIDATE:** Identification of every physical measurement collapse across the Markov blanket with $E = P_{\text{rest}}\tau$ accompanied by $dS_i > 0$ and a forward $\pm$ reseed into `nil`; reading silent $K_3$-plane pivots as post-collapse concealment of selection.
-* **CORRESPONDENCE:** Unification of $\varphi_{\text{band}} = \delta\theta$ with Burgers equilibration at viscosity $\nu$ (`L3-FormalFoundations` §IX.4.b); reading the heartbeat cycle across `BENDING_SPACE` and `BENDING_MINDS`.
+* **CORRESPONDENCE:** Unification of $\varphi_{\text{band}} = \delta\theta$ with Burgers equilibration at viscosity $\nu$ (`L3-FormalFoundations` §IX.4.b); reading the heartbeat cycle across `BENDING_SPACE` and `BENDING_MINDS`; the generator's diabolic point as `nil` and its exceptional point as an account opened at balance zero.
 
 ### Pre-Registered Falsifiers
 

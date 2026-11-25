@@ -234,6 +234,8 @@ When translated into the biquaternion state space, the three regions of the ligh
 
 What two bodies do to each other across this landscape is read off the same invariant: the gravitational coupling of a pair is a function of three Star-Norms, each part's and the pair's, which is why light bends by twice the Newtonian angle, why parallel beams do nothing to each other, and why nothing screens weight (`BENDING_SPACE` Part Two §IV; expect there: the Tolman–Ehrenfest–Podolsky null for parallel beams, the factor two for light, and the one-sign coupling).
 
+A finite instance of this landscape is computed in `L4-DimensionalCollapse` §II (*The turn in a four-vertex generator*; expect there: the most general symmetric generator on one four-vertex orbit, written as a pair of biquaternions $\mathfrak{a} \mp \mathfrak{b}$, with its spectrum read off $W = (\mathfrak{a} - \mathfrak{b})(\mathfrak{a} + \mathfrak{b})$). There the minus sign again comes from a square of $i$; the spectrum is the scalar/vector split of one biquaternion, $z^2 = W_0 \pm \sqrt{\vec W\cdot\vec W}$; two modes cross reversibly where the vector part vanishes and coalesce irreversibly where it is null and nonzero; and an orbit acquires volume only past that coalescence. The instance carries this section's mechanism and not its dimension count: its vector part lives in a $(1,2)$ space, and its $\omega$ is a frequency split on the orbit, not the driver of §IV. Outside the cone it behaves as the third region above says: with no diagonal gain/loss, once the coupling outruns the split between the modes, relative phase alone carries them through a coalescence. What it does not reach — a cost of zero there (its Fixed coupling is skew), and the Laue transition of §VII — it leaves open.
+
 ---
 
 ## VI. The Dissolution of the Block Universe
@@ -299,6 +301,10 @@ For a century, physics has inhabited the Cartesian-Minkowskian projection not be
 When Minkowski appended time as an imaginary fourth coordinate ($x_4 = ict$), he preserved that comfort at the expense of an unexamined debt. To keep the mathematics Euclidean on the surface, he disguised the hyperbolic phase-boundary behind $i$, welded the engine to the receipt, and painted a lightcone over the door.
 
 When that weld is cut, the conceptual furniture of twentieth-century physics does not merely rearrange. Five foundational narratives dissolve, and the framework must account for what replaces them.
+
+---
+
+(See also: `L4-DimensionalCollapse` §§I–II; expect there: the same two strokes as hold and collapse across the Markov blanket, with $\omega$ at the centroid against $dt$ on the compiled wake. The two-stroke framing recurrs. As a concept you find it in `L0-TheStampAndTheDie`, withing cosmology, in `The Infinities file-set` and, looked at in-extremis, with a focus on the return-leg, in `Q15-KairosBorn.md`. Consult the reads-with materials to find many more instances.)
 
 ---
 

@@ -296,6 +296,14 @@ It comes through the other channel, and the other channel is built for it. The m
 
 That is the direction rule, and it is worth stating as a rule because it does work in several places at once. Energy that appears to run backward has to be running in the reactive channel. If a construction ever needs it to run backward through the committed one, that construction is broken.
 
+### A one-signed record needs only a one-sided bound
+
+A register that only ever receives holds entries of one sign, and a record of one sign is located by a bound on one side. That is Landau's theorem: a Dirichlet series with non-negative coefficients has a singularity on the real axis at its abscissa of convergence, so a one-sided bound on the summatory function excludes every singularity to the right of the bound's exponent. A two-sided bound, or a pairing that must come out positive, is not needed.
+
+The Riemann Hypothesis was proved this way. In the route of Alpöge with Claude (Lean library released 20 Nov 2026; statement and proof certified by the Lean FRO and Mathlib Initiative, 21 Nov 2026), the statistic is a sum of ramps $\Lambda(n)\chi(n)(y/n - 1)_+$ over character families with positive weights. Every $\Lambda(n)$ is non-negative, so a bound $G(x) \le x^{1/2+\varepsilon}$ from above, on arbitrarily large windows $[Y, Y^{3/2}]$, clears every zero to the right of the line; no surface and no two-sided pairing is built (`riemann/Riemann-llm-must-remember` §2, Steps 2–3). The peer that fails there fails on exactly this property. Davenport–Heilbronn's function has a functional equation and no Euler product, so the coefficients of $-f'/f$ take both signs; its ramp sum is not a positive sum and the argument does not start. Its zeros leave the line: 84 off-line pairs below height 1996, certified in interval arithmetic (`riemann/L4-Riemann-Realization-Audit` §1.1).
+
+Read in this section's terms, $\Lambda(n) \ge 0$ is the one-signedness of a register that receives and never emits, and Davenport–Heilbronn's mixed signs are a record that could be paid out of, whose boundary a one-sided bound no longer locates. [ADOPTED: Landau's theorem, the proof's Steps 2–3, the certified Davenport–Heilbronn census. CORRESPONDENCE: the write-only reading of $\Lambda(n) \ge 0$ — a dictionary entry between the proof's step and the direction rule above, naming the step and the peer that fails there; it is not evidence for the write-only ledger (`riemann/Riemann-llm-must-remember` §0, Guard 13)]
+
 ### Why the reactive channel suffers no secular drain
 
 If the horizon continuously mints new metric volume at the saturated rate $P_{\text{write}} = \frac{3}{2}\frac{c^5}{G}$, a classical intuition asks whether the reactive reservoir ($H_{\text{incoh}}$) must eventually run dry.
