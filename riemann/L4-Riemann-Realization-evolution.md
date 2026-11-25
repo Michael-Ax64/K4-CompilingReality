@@ -1,7 +1,7 @@
 # L4-Riemann-Realization-evolution
 ## Standing Reference Tables, and How the Realization Was Built
 
-*Companion to `L4-Riemann-Realization` (the standing text, §0–§XVII) and `L4-Riemann-Realization-Inventory` (the pieces, by register). Part 0 holds the standing reference tables the Realization cites as R.1–R.18: every computed claim with its method and precision, the placed bets, the open computations, the limits of the record. Parts I–IV hold the process: what was built in what order, what was withdrawn and why, the patterns behind the errors, and the address maps for anyone holding an older citation. Distinct from `L4-Riemann-evolution`, which records the 1854 geometry case.*
+*Companion to `L4-Riemann-Realization` (the standing text, §0–§XVII), `L4-Riemann-Realization-Inventory` (the pieces, by register) and `L4-Riemann-Realization-Audit` (the external check, with the certified resolution of bet 1). Part 0 holds the standing reference tables the Realization cites as R.1–R.18: every computed claim with its method and precision, the placed bets, the open computations, the limits of the record. Parts I–IV hold the process: what was built in what order, what was withdrawn and why, the patterns behind the errors, and the address maps for anyone holding an older citation. Distinct from `L4-Riemann-evolution`, which records the 1854 geometry case.*
 
 ---
 
@@ -64,7 +64,7 @@ The true peak is 17.6 times smaller than $C_0$.
 | 10000 | +34749.14 | −12.56 | 34736.58 |
 | 20000 | +76429.01 | +8.97 | 76437.98 |
 
-**$S_\infty$ against its Stirling form**, exact at 60 digits (`checks.py`); the difference settles to +0.746 by n = 6:
+**$S_\infty$ against its Stirling form**, exact at 60 digits (`checks.py`); the difference tends to $\tfrac34$ (0.746 at n = 6, 0.7464 at 12, 0.7493 at 60, 0.74996 at 1 000). For Davenport–Heilbronn's walls, $(5/\pi)^{s/2}\Gamma(\tfrac{s+1}{2})$ against the same Stirling form with $\ln(2\pi/5)$ in the linear term, the difference tends to $\tfrac14$ (`riemann/claude/dh_crosscheck_sibling.py`):
 
 | n | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -110,7 +110,7 @@ Scaled by their exponents over the last decade: $|E_0|\,X^{1/2} \le 0.64$ and $|
 - $S_\infty^{\chi_5}(n) = S_\infty^\zeta(n) - 1 + \tfrac n2\ln 5$ holds to every digit shown. The −1 is the factor s that ζ's completion carries and the pole-free L-function does not; the $\tfrac n2\ln q$ is the conductor. **[LANDED]** as Taylor algebra; **[COMPUTED]** here.
 - The deficit window shrinks from n ≤ 7 (ζ) to n ≤ 2 (χ₅). From n = 5 the prime part is negative over a long stretch and the archimedean place carries alone.
 - $\lambda_n^{\chi_5} > 0$ for every n ≤ 40, minimum 0.0783 at n = 1.
-- For conductor q ≥ 23 with this Γ-factor, $S_\infty^\zeta(n) - 1 + \tfrac n2\ln q > 0$ at every n (the binding case is n = 1: $-1.5541 + \tfrac12\ln 23 = +0.0136$). The deficit window is empty.
+- For conductor q ≥ 23 with this Γ-factor, $S_\infty^\zeta(n) - 1 + \tfrac n2\ln q > 0$ at every n (the binding case is n = 1: $-1.5541 + \tfrac12\ln 23 = +0.0136$). The deficit window is empty. **[LANDED]**: the exact archimedean formula bounds $S_\infty^\zeta(n)$ below through $H_{n-1} \ge \ln(n-1) + \gamma_E$, which holds for every $n \ge 2$ since $H_k - \ln k - \gamma_E > 0$ for every $k \ge 1$; the cases $n \le 5$ are checked exactly.
 
 This closes the edge-plurality gap the review flagged on Realization §VII Result 1 (two instances → three), and corrects its wording: the low-n division of labour is set by Stirling, the pole and the conductor, not by the Γ-shape alone.
 
@@ -174,7 +174,7 @@ The tightest pair below 40 000 is at t = 36510.166, gap 0.0407 mean spacings.
 
 ### R.7. A pair on the line is invisible in λₙ
 
-On $|w| = 1$, $\varphi_\gamma = 2\arctan(1/2\gamma)$. The first Lehmer pair sits at angular separation $\Delta\varphi = 7.68\times10^{-10}$ and stays phase-coherent up to $n \approx 1.30\times10^{9}$ (≈ 2³⁰: the two commit tapes agree to about thirty binary digits); the second at $1.20\times10^{-10}$, coherent to $n \approx 8.32\times10^{9}$. Whatever its quality, a pair on the line contributes $4\sin^2(n\varphi_1/2) + 4\sin^2(n\varphi_2/2) \in [0, 8]$. At those n — under RH, and, by the transfer estimate of R.13, inside the regime the verified height reaches — $\lambda_n \approx A(n)$ is about $1.22\times10^{10}$ and $8.57\times10^{10}$ **[LANDED]** asymptotic, with fluctuations of order $\sqrt n\ln n \approx 7.6\times10^{5}$ and $2.1\times10^{6}$.
+On $|w| = 1$, $\varphi_\gamma = 2\arctan(1/2\gamma)$. The first Lehmer pair sits at angular separation $\Delta\varphi = 7.68\times10^{-10}$ and stays phase-coherent up to $n \approx 1.30\times10^{9}$ (≈ 2³⁰: the two commit tapes agree to about thirty binary digits); the second at $1.20\times10^{-10}$, coherent to $n \approx 8.32\times10^{9}$. Whatever its quality, a pair on the line contributes $4\sin^2(n\varphi_1/2) + 4\sin^2(n\varphi_2/2) \in [0, 8]$. At those n — RH being Lean-certified (21 Nov 2026) — $\lambda_n \approx A(n)$ is about $1.22\times10^{10}$ and $8.57\times10^{10}$ **[LANDED]** asymptotic, with fluctuations of order $\sqrt n\ln n \approx 7.6\times10^{5}$ and $2.1\times10^{6}$.
 
 ### R.8. The broken plug and the onset law
 
@@ -195,6 +195,8 @@ On $|w| = 1$, $\varphi_\gamma = 2\arctan(1/2\gamma)$. The first Lehmer pair sits
 
 The broken plug tracks twice ζ's coefficients to 0.03% at low n, stays positive through **n = 8 259**, and first turns negative at **n = 8 260**. From there its coefficients oscillate with growing amplitude — about −6.4×10⁶ at n = 12 000, −1.4×10¹¹ at n = 20 000. The onset is set by the first zero's off-line partner, $|w| = 1.0012501$, whose leak $e^{n\delta/\gamma_1^2}$ has to overtake the archimedean growth.
 
+**Independent recomputation** (Audit §1.2). Summed directly over $\xi_G$'s own zeros at ¼ + iγ and ¾ + iγ (4 000 ζ zeros plus a smooth-density tail), without reusing $\lambda^\zeta_n$: the low-n table above is reproduced to six decimals, $\lambda_{8259} = +1692.7$, $\lambda_{8260} = -120.0$ (cutoff sensitivity ≤ 2.3), $\lambda_{12000} = -6.35\times10^6$. Not recorded before: the trough one oscillation period earlier, at n = 8 177, comes within **+334.5** of zero.
+
 **The onset law** $n^*\delta/\gamma_1^2 \approx \ln A(n^*)$, with $\xi(s-\delta)\xi(s+\delta)$ (`onset.py`):
 
 | δ | $\gamma_1^2/\delta$ | first n with $\lambda_n < 0$ | $n^*\delta/\gamma_1^2$ | $\ln A(n^*)$ |
@@ -206,7 +208,9 @@ The broken plug tracks twice ζ's coefficients to 0.03% at low n, stays positive
 
 Holds to about 1%. An independent solver of the law itself returns 8 171 / 10 501 / 14 490 / 22 756 — the same 1%, from the other side.
 
-**What finite positivity can certify.** By the law, $\lambda_n \ge 0$ for all n ≤ N excludes an off-line zero only when $\gamma^2 \lesssim N\delta/\ln A(N)$. The rigorous range N = 10⁵ reaches only γ ≲ 62 even at the largest offsets — far inside the zeros already verified directly on the line to heights beyond 10¹².
+**Normalization (corrected 25 Nov 2026).** An off-line pair contributes $-2r^n\cos(n\varphi)$ to $\lambda_n$, so the sign change falls where $r^n \approx \lambda_{\text{smooth}}(n)/2$: in general $n^*\ln r \approx \ln\big(\lambda_{\text{smooth}}(n^*)/2\big)$. Every plug in the table above is a product of two shifted ζ's with background $\approx 2A(n)$, so the 2s cancel and the law reads $\ln A$. For a single-factor function (Davenport–Heilbronn, and ζ itself) the background is $\approx A(n)$ plus its conductor term, and the law as tabled is off by $\ln 2$; with the 2 restored it predicts DH's onset to 0.1% (R.11, Audit §1.3).
+
+**What finite positivity can certify.** By the law, $\lambda_n \ge 0$ for all n ≤ N excludes an off-line zero only when $\gamma^2 \lesssim N\delta/\ln(\lambda_{\text{smooth}}(N)/2)$. The rigorous range N = 10⁵ reaches only γ ≲ 62 even at the largest offsets — far inside the zeros already verified directly on the line to heights beyond 10¹².
 
 ### R.9. S(T) across the first Lehmer pair
 
@@ -268,17 +272,19 @@ Square-root onset past the threshold confirmed independently in review (ratio 3.
    - *Assumption, declared.* The onset law was measured on detuned plugs, which break the Ramanujan bound: their leak is a reweighting of ζ's own waves. DH breaks a different axiom — no Euler product, so no delay bank and no cancellation to fail. The law's shape should transfer, since the background is archimedean and the leak is $|w|^n$ either way, but the mechanism differs. The bet's own falsifier decides it.
    - *Register.* This is a Bridge-shaped number in the corpus's sense (`riemann/README`): dimensionless, predicted from structure before the computation, checkable by any number theorist with a laptop and no corpus access — the first such number the corpus places in pure mathematics.
    - *Falsifier:* a first negative coefficient well below 10⁵ (a lower off-line zero exists), or a miss of more than 10% against the log-corrected law.
+   - **Resolved, 25 Nov 2026 — certified** (Audit §1.1). DH's Li coefficients are positive for every $n \le 328{,}996$ and first negative at **$n = 328{,}997$**: $\lambda_{328996} \in [1381.6, 1389.0]$, $\lambda_{328997} \in [-2383.7, -2376.2]$, the preceding trough $\lambda_{328472} \in [14781.6, 14786.2]$, every bound an interval-arithmetic enclosure. The lowest off-line zero is $0.808517182457 + 85.6993484854i$, as assumed; none lies lower. **The bet survives its falsifier** (miss 4.0%, threshold 10%). The point estimate was high for a stated reason: the onset law omits the amplitude 2 of the off-line pair's term, which cancels for the two-factor calibration plugs and not for DH (R.8, normalization). The declared refinement went the wrong way: DH's own background raises the estimate to 346 532 (+5.3%), while the corrected law gives 328 666 (−0.1%). On the laptop: the floating-point computation took about fifteen minutes on two cores and the certified one a few minutes more, but both need the full off-line census below the cutoff (84 pairs below height 1996), not only the lowest zero.
 2. **The gate's exponent.** Truncation windows at 10¹⁴–10¹⁶ recover the **$t^{-3/8}$ per-zero loss slope**, up to slow modulation from the moments of $|Z|$, and the 10¹⁰ excess resolves as a small-sample cluster once the window holds 10⁵–10⁶ zeros. *Falsifier:* a flat loss rate, or one falling faster than $t^{-1/2}$, across 10¹⁴–10¹⁶; or the enlarged 10¹⁰ window holding its excess.
 3. **The orthogonal texture.** If a structural proof of RH over ℤ arrives, it reads a definite sign out of a pairing already latent on the real|complex interface — the archimedean scaling $\mathbb R_+^\times$ against the prime places, the weights on an incommensurate delay bank whose continuation stays passive (Realization §VII) — forcing K₋ = 0 by a mechanism whose sensitivity does not wait for $n \sim (\gamma^2/\delta)\ln A$, rather than through a new level built over $\mathbb F_1$ first. *Falsifier:* a proof via a newly constructed $\mathbb F_1$-level object whose intersection pairing has no representation on the adele/Mellin space.
+   - **Scored against the Lean-certified proof** (Alpöge with Claude, released 20 Nov 2026; Lean FRO and Mathlib Initiative, 21 Nov 2026; route in `Riemann-llm-must-remember` §2). **The falsifier did not fire:** no $\mathbb F_1$-level object and no $C \times C$ surface is built; the square $\overline{\operatorname{Spec}\mathbb Z} \times_{\mathbb F_1} \overline{\operatorname{Spec}\mathbb Z}$ stays unconstructed. **The positive forecast matches in part.** The sign is definite and one-signed, $\Lambda(n) \ge 0$ in a windowed Landau argument; the bridge is Bost's slope inequality, p-adic divisibility of iterated theta lifts against archimedean lattice size and Chowla–Selberg CM periods, the prime places against the real place; and the argument runs uniformly over window scales $[Y, Y^{3/2}]$ without waiting for a Li-type onset. **It misses twice:** the positivity is one-sided, not the definiteness of a pairing, and the mechanism runs through auxiliary higher-rank objects (unitary theta lifts, CM periods, Iwasawa theory) the forecast did not name. The bet was broad enough that many proof shapes would have passed it; it survives its falsifier and earns a partial match on shape.
 
 ### R.12. Open computations
 
 - **The 10¹⁰ rescan.** 4 losses against 0.49 expected. Rescan 10⁵–10⁶ consecutive zeros around 10¹⁰ with a matched window at 10¹⁴: either the count reverts to the $t^{-3/8}$ curve or the GUE peak-scaling prefactor fails there.
 - **The gate at 10¹⁴–10¹⁶.** Bet 2's own target.
-- **DH's Li coefficients past 10⁵.** Bet 1's falsifier, with DH's own archimedean factor.
-- **More plugs.** λₙ for further even characters (q = 8, 12, 13, …) and the first odd ones (Γ((s+1)/2)) to large n; the conductor-q ≥ 23 regime where the archimedean place carries alone, and where its prime part first has to work (Realization §XVII).
+- ~~**DH's Li coefficients past 10⁵.** Bet 1's falsifier, with DH's own archimedean factor.~~ **Done** (certified, R.11; Audit §1.1).
+- **More plugs.** λₙ for further even characters (q = 8, 12, 13, …) and the first odd ones (Γ((s+1)/2)) to large n; the conductor-q ≥ 23 regime where the archimedean place carries alone, and where its prime part first has to work (Realization §XVII). The certified pipeline of Audit §1.1 applies to any of them unchanged.
 - **The trivial tower on the tier table.** Seat the waves $x^{-2k}/2k$ (Realization §0) and test whether the tier reading extends below the floor.
-- **The third stuckness, tested.** Realization §XVII reads averaging blindness as the third stuckness: the averaging tools conclude without seeing a diagonal. A test: plant one off-line zero in a detuned plug and record the window at which each averaging statistic (mean square, Selberg variance, S(T) spread) first registers it, against the onset law's n*. The reading predicts no averaging statistic registers it before the uniform-in-scale tools do.
+- **The third stuckness, tested.** Realization §XVII reads averaging blindness as the third stuckness: the averaging tools conclude without seeing a diagonal. A test: plant one off-line zero in a detuned plug and record the window at which each averaging statistic (mean square, Selberg variance, S(T) spread) first registers it, against the onset law's n*. The reading predicts no averaging statistic registers it before the uniform-in-scale tools do. Include an averaged positivity of 3–4–1 type among the tools (Realization §XVII).
 - **Gaps past 10⁹.** Extend R.16 to 10¹² with a segmented sieve; the (ln p)² ratio should stay inside 0.5–0.8 (Cramér's model, with Granville's correction pushing toward 2e^{−γ} ≈ 1.12 at the extremes).
 - **The seam floor with $C_0$.** Computed through $10^5$ and near $10^6$ (Realization §XII): zero crossings lost with $C_0$, margin at least $52\times$; the bare loss exponent runs at about $0.2$ and tracks the stiffness. Extend both to $10^8$–$10^{12}$ from published zero tables.
 
@@ -286,19 +292,19 @@ Square-root onset past the threshold confirmed independently in review (ratio 3.
 
 What the numbers here do and do not carry, stated once for whoever appeals next. The process record behind them, the build, the withdrawals and the patterns, follows in Parts I–IV.
 
-- **No count here is rigorous.** The zero counts to 40 000 and in the height windows carry no interval arithmetic and no Turing-method bound. They agree with Riemann–von Mangoldt and with the literature, which has RH verified far beyond these heights, and claim nothing more.
-- **Every height reached has been computed before.** Zeros near 10¹² and far beyond are in the literature, and λₙ is rigorous to n = 10⁵ (Keiper computed to n = 7000). What is new is this set's own observables there: the sign rule, the gate, the heat–truncation convergence, the S∞/S₀ split, the onset law.
+- **No count here is rigorous, with one exception.** The zero counts to 40 000 and in the height windows carry no interval arithmetic and no Turing-method bound. They agree with Riemann–von Mangoldt and with the literature, which has RH verified far beyond these heights, and claim nothing more. The exception is the Davenport–Heilbronn census below height 1996 and its Li coefficients to n = 328 997, certified in interval arithmetic (Audit §1.1).
+- **Every height reached has been computed before.** Zeros near 10¹² and far beyond are in the literature, and λₙ is rigorous to n = 10⁵ (Johansson, *Numer. Algor.* 69, 2015, arXiv:1309.2877; earlier, Keiper 1992 to n = 2 000 and Maślanka 2004 to 3 300). What is new is this set's own observables there: the sign rule, the gate, the heat–truncation convergence, the S∞/S₀ split, the onset law.
 - **τ\* is first order.** It matches the local model to 2%; a full heat-flow computation of $H_\tau$ was not run.
 - **"Lost at N" depends on the window.** The criterion is sign changes between neighbour midpoints. A different window disagrees at the edges of the N range, though not on any conclusion.
 - **The high windows are small.** 6 000 zeros at 10¹² hold 20 close pairs. "Heat order predicts loss" at 10⁸ and 10¹⁰ rests on 9 and 4 lost pairs. The direction is clear; the numbers are not precise.
 - **$S_0(n)$ is dense only to n = 1000.** Beyond that it was computed at every fourth n, so its sign changes there are a lower bound and its extremes may be slightly understated.
 - **The prime-side exponent is a finite-range measurement.** −0.497 up to 10¹⁰ is consistent with von Koch's form of RH and nothing more.
-- **The gate law and the onset law are heuristic and fitted.** $t^{-3/8}$ rests on GUE pair statistics and a local peak model, and misses 10¹⁰ by a factor of about eight; the onset law holds to 1% on detuned plugs only.
+- **The gate law and the onset law are heuristic and fitted.** $t^{-3/8}$ rests on GUE pair statistics and a local peak model, and misses 10¹⁰ by a factor of about eight; the onset law holds to 1% on detuned plugs, and its stated form needs the amplitude factor 2 for single-factor functions (R.8, normalization). Carried to Davenport–Heilbronn without that factor it misses by 4.2%; DH's own background moves the estimate by +1.1%, the wrong way (Audit §1.3).
 - **The third plug runs to n = 40.** The conductor threshold q ≥ 23 follows from the exact archimedean formula, not from computed coefficients.
-- **Silent numerical failure is the standing hazard at scale.** Five faults surfaced in the push to height — a float64 2π over ~10¹² phase wraps, rounded time offsets, a truncated θ expansion, a clamped singularity in Ψ(p) that manufactured about ten spurious zero pairs below 10⁶, and a tail integral that silently returned zero — none raising an error, each caught by a count or a known value. The guard used throughout: at every new scale, re-establish one count and one known value before reading any statistic. None reached a result below 40 000; the 126-pair scan was rerun with the fixed Ψ and is identical.
-- **Conditional inputs, and the regime of each.** The record uses five inputs conditional on RH or on more: Λ = 0 (de Bruijn–Newman constant; Rodgers–Tao give Λ ≥ 0 unconditionally); $S_0(n) = O(\sqrt n\ln n)$, the Bombieri–Lagarias bound under RH; GUE pair statistics (Montgomery, under RH), behind the gate law; simplicity of the zeros, behind $C = \tfrac12$ per tank; and the Keating–Snaith random-matrix constants in R.14. Each is labeled where used. **Regime.** Below the transfer scale of the verified height — every zero to H ≈ 3×10¹² on the line (Platt–Trudgian), RH-quality ψ bounds to about H² (Büthe), λₙ ≥ 0 to about 2H² ln A ≈ 10²⁷ by the inverted onset law — the RH-quality statements here hold unconditionally; above it they are conditional. The inverted onset law is an estimate from the fitted law, not a theorem.
+- **Silent numerical failure is the standing hazard at scale.** Five faults surfaced in the push to height — a float64 2π over ~10¹² phase wraps, rounded time offsets, a truncated θ expansion, a clamped singularity in Ψ(p) that manufactured about ten spurious zero pairs below 10⁶, and a tail integral that silently returned zero — none raising an error, each caught by a count or a known value. A sixth surfaced in the audit: a smooth tail for λₙ computed as $1 - \cos$ and $\log(1 - 1/s)$ in double precision loses every digit at large t; the stable forms are $2\sin^2(\cdot/2)$, expm1 and log1p. The guard used throughout: at every new scale, re-establish one count and one known value before reading any statistic. None reached a result below 40 000; the 126-pair scan was rerun with the fixed Ψ and is identical.
+- **Conditional inputs, and the regime of each.** The record uses five inputs that go beyond the unconditional literature. Two follow from RH and are theorems with RH Lean-certified (Alpöge with Claude, released 20 Nov 2026; Lean FRO and Mathlib Initiative, 21 Nov 2026): Λ = 0 (Rodgers–Tao give Λ ≥ 0) and $S_0(n) = O(\sqrt n\ln n)$, the Bombieri–Lagarias bound under RH. Three stay conditional: GUE pair statistics beyond Montgomery's range, behind the gate law; simplicity of the zeros, behind $C = \tfrac12$ per tank; and the Keating–Snaith random-matrix constants in R.14. Each is labeled where used. **Regime.** What finite verification carries on its own: every zero to H ≈ 3×10¹² on the line (Platt–Trudgian) gives RH-quality ψ bounds to about H² (Büthe; x ≲ 2×10²⁵ with this H); the inverted onset law's extension of λₙ ≥ 0 to about 10²⁷ is conditional on the law's extrapolation. Under the Lean-certified RH both hold outright, for every x and every n.
 - **The gap record is unconditional and finite.** R.16 is a sieve to 10⁹; Cramér's √p ln p bound it is compared against is conditional on RH, and is not tested by gaps this small.
-- **The K₄ seatings are chosen.** Where they are literal, they are literal as mathematics; that the engine predicted them is not claimed.
+- **The K₄ seatings are chosen.** Where they are literal, they are literal as mathematics; that the engine predicted them is not claimed. "FORCED" in the Realization means forced given the seating convention and the engine's axioms (Realization §XVII).
 
 ### R.14. The price of being a prime
 
@@ -434,7 +440,7 @@ The spectrum is entirely real — all modes on the line — exactly when A ≥ 0
 - **Δ < 0:** spectrum $\{\pm w, \pm\bar w\}$ — **one quartet**, a single off-line orbit with volume.
 - **Δ ≥ 0 with $z^2 < 0$:** spectrum on the imaginary z-axis — zeros on the real s-axis, the Fixed collapse (P = U) instead of the Mutable one.
 
-**[LANDED]** (elementary algebra on the quartic.) At Δ = 0 two eigenvalues merge into a double eigenvalue and leave the real line as a conjugate pair: **two cross-orbit dipoles in, one within-orbit tetrahedron out.** That is the Lehmer collision of Realization §IX, the hold / collapse / reseed of Realization §IX, with the leverage $(J\wedge v)^2$ in the place of the heat 2τ and the gain/loss $\delta^2\|v\|_*^2$ in the place of the gap δ². Realization §IX reaches that threshold from the de Bruijn–Newman flow on Ξ; the generator reaches it from the orbit's symmetry alone, with no ζ-data put in. **Two routes to one collision structure.** Read on the threshold, Rodgers–Tao's Λ ≥ 0 says ζ is not strictly inside the unbroken phase; with RH it sits exactly on the edge. **[READING]**
+**[LANDED]** (elementary algebra on the quartic.) At Δ = 0 two eigenvalues merge into a double eigenvalue and leave the real line as a conjugate pair: **two cross-orbit dipoles in, one within-orbit tetrahedron out.** That is the Lehmer collision of Realization §IX, the hold / collapse / reseed of Realization §IX, with the leverage $(J\wedge v)^2$ in the place of the heat 2τ and the gain/loss $\delta^2\|v\|_*^2$ in the place of the gap δ². Realization §IX reaches that threshold from the de Bruijn–Newman flow on Ξ; the generator reaches it from the orbit's symmetry alone, with no ζ-data put in. **Two routes to one collision structure.** Read on the threshold, Rodgers–Tao's Λ ≥ 0 says ζ is not strictly inside the unbroken phase; with RH Lean-certified (21 Nov 2026), Λ = 0 and ζ sits exactly on the edge. **[READING]** for the threshold seating; Λ = 0 is a theorem.
 
 **Simplicity is a codimension statement.** A multiple zero on the line is the generator sitting exactly on its exceptional point — the borderline Δ = 0, codimension one in parameter space. Simple zeros are therefore the generic case, and vocabulary 8's separation of passivity from simplicity is the circuit form of the same fact: a double zero doubles its tank's residue to $C = \tfrac14$ and stays passive. Whether ζ is generic is the open content (Realization §XVII). **[READING]** In tier terms, a double zero is the RESEED opcode returning a degenerate root — the ± ambiguity collapsed before the commit instead of reopened by it.
 
@@ -458,6 +464,9 @@ The generator is a finite model on one orbit. Which operator on ζ's side has it
 | Elliptic curves (§XIV) | inline | point counts over $\mathbb{F}_p$, $5 \le p \le 2000$, by quadratic-residue tally |
 | Slope and pitch (§XVI) | inline | $w = 1 - 1/s$ in double precision; pitch $= -\ln\lvert w\rvert/\arg w$ |
 | Record gaps (R.16) | `gaps.py` | segmented NumPy sieve to $10^9$ |
+| DH Li coefficients, floating point (R.11) | `dhfast.py`, `dhzeros.py`, `dhlocate.py`, `liscan.py` | vectorized Euler–Maclaurin for DH (agrees with mpmath to $10^{-13}$); census to $T = 2000$ by sign changes plus argument-principle rectangles; λₙ as zero sum plus smooth-density tail in stable form; validated against Taylor coefficients to $10^{-5}$ |
+| DH Li coefficients, certified (R.11) | `rig_census.py`, `rig_segment.py`, `rig_lambda.py`, `rig_nball.py`, `certify_all.py` | Arb (python-flint) at 128 bits. Census below $T_0 = 1996.1708$: sign changes, interval Newton, argument-principle count $2024$. Above $T_0$: residue theorem on $\{-6 < \sigma < 7,\ t > T_0\}$ folded by the functional equation; horizontal segment by Taylor models with Cauchy remainders; vertical line by Arb integration with an explicit tail beyond $10^{17}$; the Dirichlet part of $\Lambda'/\Lambda$ on $\sigma = 7$ bounded by integration by parts ($\le 0.37$). Positivity for all $n \le 328\,996$ by enclosures over intervals of $n$ (78 intervals) |
+| Shifted plug, independent route (R.8) | `shifted.py` | direct zero sum over ¼ + iγ and ¾ + iγ, 4 000 ζ zeros plus smooth tail; validated against Taylor coefficients |
 
 ---
 
@@ -501,6 +510,12 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 
 **14. The render.** The Realization was rendered as one standing text (§0–§XVII), carrying the I-series architecture, the path's walk, and the continuation through the hub and the pitch. The path's Appendix A became Part 0's reference tables, its Appendix B became R.17, the atlas and the questions folded into the text where they bear. The Inventory collects the pieces by register. Thesis, hub, ledger, path, v2 and v3 retire to the record of Part IV.
 
+**15. The external audit and bet 1 (25 Nov 2026).** An outside check, written without the engine's vocabulary (`L4-Riemann-Realization-Audit`), did three things. It settled bet 1 by computation: a census of every Davenport–Heilbronn zero below height 2000 (84 off-line pairs), its Li coefficients to $4\times10^5$, then a certified rerun in interval arithmetic that proves $\lambda_n > 0$ for $n \le 328\,996$ and $\lambda_{328997} < 0$. It recomputed the shifted plug's $n = 8\,260$ by a route that does not reuse $\lambda^\zeta_n$, and found a near-miss trough at $n = 8\,177$. And it traced the 4% miss of bet 1 to a missing amplitude factor in the onset law, invisible on the two-factor calibration plugs. It also classified every relied-on claim by kind, and made one framing explicit: the consequent holds by construction and each named form of the antecedent is a known equivalent of RH, so the conditional restates RH and the construction's yield lies in its reformulations, computations and bets. The clarifications were pushed into the Realization, the hub and this record; the withdrawals they carry are in Part II.
+
+**16. The register settled (25 Nov 2026, later).** Two corrections followed the audit. First, the on-line zero stopped being modelled as the $\delta \to 0$ limit of a quartet. The corpus's own computation (`L2-K4-Inferences` §IV: bulk orbit 4 rigid symmetries and chiral; line orbit 16 and achiral) makes it a different object, a dipole whose off-line account is nil and which can reach the bulk only through a pair collision. Second, the Realization was declared a translation and friction register in its scope line and §XVII. The deadlock that had kept sessions looping, between the Friction rule (K₄ asserts nothing about ζ) and the proof filter (anything that does not separate ζ from its peers is decoration), was resolved by saying which game the text plays. The sign of the explicit formula was also fixed in the companion note `Riemann-llm-must-remember`: the prime print enters with a minus, and what must be positive is pole + archimedean − primes, a signature split rather than a square of the print.
+
+**17. The audit's discrepancies applied, and RH certified (25 Nov 2026).** The audit's list (Audit §5) went into the text: the delay-bank cancellation named as ζ's pole rather than the PNT (§VII, hub §8); the wheel-realignment claim narrowed to the common return at the origin (§XIII); the ψ transfer separated from the Li-tier extrapolation, with $\ln(\lambda_{\text{smooth}}/2)$ in the onset law (§II, §IX, §XV); the elliptic count recorded as a code check (§XIV); the four-vertex form filed as a model of Weil's pairing (§II, §VI, hub §4); "FORCED" read as forced given the seating (§XVII); bet 1's resolution recorded in R.11, R.12 and R.8; the hub's citations to the retired thesis and ledger repointed (Part IV); patterns 28 and 29 and the sixth silent numerical failure added. The same day the record took in the Lean certification of RH (Alpöge with Claude, released 20 Nov 2026; Lean FRO and Mathlib Initiative, 21 Nov 2026): Λ = 0 and λₙ ≥ 0 for every n hold as theorems; of the antecedent's four names the three RH-equivalent ones hold and one quantum per height reduces to simplicity; bet 3 was scored against the certified route (R.11). Two independent recomputations of Davenport–Heilbronn's onset agreed on $n = 328\,997$ (Audit §1.1), one of them with values 990 low from defects in its smooth-tail tables; the Johansson citation for rigorous λₙ to $10^5$ was restored with Keiper's range at 2 000 (R.13).
+
 ---
 
 # Part II. The Withdrawals, by Kind
@@ -519,6 +534,11 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 | "Every zero's tape is aperiodic, by Niven" | Niven needs a rational cosine | closed as non-load-bearing |
 | Orbit volume $\propto \delta^2t^2$ as rent diverging with height | coordinate effect | height-free $\tfrac83\delta^3$ (§IX) |
 | An off-line pair winds $2\pi$ on every slice between line and zero (witness) | slices between the partners wind zero | the jump sits at $\sigma = \beta$, $1-\beta$ (§II; §XVI) |
+| Onset law $n^*\delta/\gamma^2 \approx \ln A(n^*)$ as a degree-free law | calibrated only on two-factor plugs, where the amplitude 2 cancels; misses DH by 4% | $n^*\ln r \approx \ln(\lambda_{\text{smooth}}/2)$ (R.8; Audit §1.3) |
+| Bet 1's refinement: DH's own background moves $n^*$ "by about 1%" toward the answer | it moves the estimate the wrong way, to $+5.3\%$ | the amplitude correction gives $-0.1\%$ (R.11) |
+| λₙ ≥ 0 "to about $10^{27}$" listed among unconditional RH-quality statements | rests on the fitted onset law | conditional on the law's extrapolation; rigorous to $n = 10^5$ (Johansson 2015); for every $n$ under the Lean-certified RH (§IX; R.13) |
+| "Keiper computed to n = 7000" | Keiper (1992) reached $n = 2\,000$ | Johansson 2015 to $10^5$; Keiper 1992 to 2 000; Maślanka 2004 to 3 300 (R.13) |
+| $S_\infty$ minus its Stirling form "settles to +0.746 by n = 6" | 0.746 is the n = 6 value | the limit is $\tfrac34$ (R.3; §VII) |
 
 ### Readings that failed against the identities under them
 
@@ -535,6 +555,10 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 | Off-line zero as a hardware break | $P$-edges stay free in every case | a booked closure of the Book's punches (§II) |
 | The multiplicative/additive break sits on $\psi$ | $\psi$ sits downstream of log | the break is the Dirichlet-series/Euler-product identity; the window is a size cut (§XIII) |
 | "The Book writes" | the primes write through the Pen; the Book records | Pen writes, Book records (§II) |
+| The delay bank's cancellation of the walls' pole as "the circuit form of the Prime Number Theorem" | the cancellation is $\zeta$'s simple pole at $s = 1$, shared by every Dirichlet series with such a pole; the PNT is $\zeta(1+it) \ne 0$ | the pole, named as such (§VII; hub §8) |
+| "At no finite $t \ne 0$ do two wheels realign, in phase or anti-phase" | $2^{-it} = 3^{-it}$ whenever $t = 2\pi k/\ln(3/2)$ | no common return to phase $0$ (or to $\pi$) (§XIII) |
+| The four-vertex Krein form as "Weil's form on the orbit" | Weil's criterion is a quadratic functional on test functions | a finite model of Weil's pairing; the identification a reading (§II; hub §4) |
+| An on-line zero as the $\delta \to 0$ limit of an off-line quartet ("$Q = \infty$ coexists with $V = 0$", "`AQU` $\to -\infty$", "$V = 0$, no rent") | a simple on-line zero is an achiral two-monad dipole (16 rigid symmetries), not a quartet with zero offset; it cannot acquire $\delta > 0$ continuously (`L2-K4-Inferences` §IV) | a lossless dipole whose off-line account is nil; a pair collision at R.17's $\Delta = 0$ is the only gate to a quartet. The probe limit $\varepsilon/(\varepsilon^2+(t-\gamma)^2) \to \pi\delta$ is kept, with $\varepsilon$ the probe's displacement (§II, §VI, §IX, §XIV, §XVI) |
 
 ### Restatements and circularities
 
@@ -545,6 +569,10 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 | Three BENDING-draft realizations | each restated its conclusion | marked as restatements |
 | "The sieve never phase-locks" as a reason | von Koch's form of RH in corpus words | an address, not a reason (§XI) |
 | The Leverage row of the exhaustion | idle: an off-line zero needs nothing through it | dropped (§XVII) |
+| The main conditional as a reduction of RH | the consequent holds by construction; each named antecedent is a known equivalent of RH or stronger | RH ⇒ RH, stated in §XVII; yield is reformulation, computation, bets |
+| The antecedent's four names as four restatements of RH | one quantum per height is RH together with simplicity, strictly stronger | three restatements and one stronger statement (§XVII; Audit §2) |
+| The Realization framed as a conditional derivation (consequent established, antecedent open) | the framing presented a translation as a derivation, against the Friction register of `L4-Riemann` that forbids the host-solving claim | scope line and §XVII: a translation and friction register, with its four restatements of RH named as such and its yield (computed findings; friction diagnosis) kept apart |
+| The elliptic-curve count as evidence for the ellipticity correspondence | Hasse guarantees the outcome | a check of the counting code (§XIV) |
 
 ### K₃ expectations
 
@@ -558,6 +586,7 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 | $P$ as the committed ledger, $I$ as the aperture | the attachment's own labels | Pen, plenum current, Book (`L4-ThePlenum` §II.5) |
 | An external surface and family for the sign | outside the tetrahedron | the $P$-absent face and the siblings (§XIV) |
 | $H$ dropped because the corpus lacked it | provenance as verdict | verified, R.17 |
+| "Averaging tools stop short" as a barrier | the density face, without the positivity face | a forecast; an averaged positivity (3–4–1) does exclude zeros pointwise (§XVII) |
 
 ### Superseded structures
 
@@ -567,6 +596,7 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 | The zero as "a commit that costs nothing" | held potential on the silent bimedian (§VI) |
 | The thesis question on what carries the prime weights | answered by the price (§VII) |
 | The question set Q1–Q14 | one question in four registers (§XVI) |
+| The hub's citations to `thesis §n` and `ledger §n` | repointed to Realization §n and R.n (25 Nov 2026) |
 
 ---
 
@@ -626,6 +656,10 @@ With the roles corrected, the explicit formula reads as held on the diagonal and
 
 **27. An outside vantage reached for while a face supplies it.** Weil's surface and Deligne's family were imported while the $P$-absent face and the siblings sat in the figure. *Guard:* before importing a vantage, check the four faces.
 
+**28. A law calibrated on one family carried to another without its hidden constant.** The onset law was fitted on two-factor plugs, whose doubled background cancelled the amplitude 2 of the off-line term; carried to a single-factor function it missed by $\ln 2$, and the refinement proposed for the transfer moved the estimate the wrong way. *Guard:* derive a fitted law once from its mechanism before transferring it across families, and test the transfer on one member of the new family.
+
+**29. A conditional whose two halves are each the hypothesis.** The consequent held by the seating and each antecedent was a known equivalent of RH, so the conditional reduced nothing. *Guard:* for a conditional, check separately whether the consequent holds by construction and whether the antecedent is already known equivalent to the target.
+
 Patterns 17, 19 and 23–27 are one family: a K₃ expectation, a single face's reading carried to the volume.
 
 ---
@@ -639,6 +673,8 @@ Patterns 17, 19 and 23–27 are one family: a K₃ expectation, a single face's 
 **path → Realization.** Path §0–§2 → §0 and §VI (helix); §3 → §II; §4–§5 → §VI; §6–§8 → §VII; §9–§10 → §VI; §11 → §VIII; §12–§13 → §IX; §14 and the Register → §XVII. Appendix A.n → R.n; Appendix B → R.17; C.12 → §0 and R.15; Appendix D → §X–§XVI.
 
 **I-series → Realization.** I-series §0–§V → §0–§V; its open-landscape section → §X–§XV.
+
+**The hub (`L4-Riemann-Realization-hub`), repointed 25 Nov 2026.** Its former `thesis §3` → Realization §VII; `thesis §4` → §II; `thesis §5` → §VI; `thesis §6`–`§7` → §IX; `thesis §9`–`§10` → §VII; `thesis §13` Q3, Q5, Q7 → §XVII (the antecedent); Q9 → §VI (the generator question); Q11 → R.12 (the trivial tower); `ledger §n` → R.n.
 
 ---
 
